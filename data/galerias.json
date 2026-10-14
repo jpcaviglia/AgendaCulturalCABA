@@ -87,17 +87,15 @@
   },
   {
    "nombre": "Galería Zurbarán",
-   "web": "https://www.galeriazurbaran.com",
+   "web": "https://www.zurbaran.com.ar/",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "Galería Barro",
-   "web": "https://www.galeriabarro.com",
+   "web": "https://barro.cc/es/gallery",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "Rolf Art",
@@ -108,24 +106,21 @@
   },
   {
    "nombre": "Galería Mite",
-   "web": "https://www.galeriamite.com",
+   "web": "https://www.mitegaleria.com.ar/exhibiciones",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "Galería Jorge Mara - La Ruche",
-   "web": "https://www.galeriajorgemara.com",
+   "web": "https://www.jorgemaralaruche.com.ar/",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "Galería Palatina",
-   "web": "https://www.galeriapalatina.com",
+   "web": "https://www.palatina.com.ar/en/exhibiciones",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "Maman Fine Art",
@@ -143,24 +138,24 @@
   },
   {
    "nombre": "Galería Piedras",
-   "web": "https://www.galeriapiedras.com",
+   "web": "https://piedrasgaleria.com/",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true
   },
   {
    "nombre": "W Galería",
-   "web": "https://www.wgaleria.com",
+   "web": "https://w-w-w.ar",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true,
+   "instagram": "@w_w_w_galeria"
   },
   {
    "nombre": "Central Affair (Galerías Larreta)",
-   "web": "https://www.centralaffair.art",
+   "web": "",
    "tipo": "Galería o museo",
    "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "instagram": "@estoesunaffair",
+   "nota": "Sin sitio propio; plataforma de 16 galerías en Florida 971. Ver también gallery.com.ar"
   },
   {
    "nombre": "MALBA",
@@ -171,10 +166,10 @@
   },
   {
    "nombre": "Fundación Klemm",
-   "web": "https://www.fundacionklemm.org.ar",
+   "web": "https://www.klemm.org.ar/",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true,
+   "instagram": "@fundacion_klemm"
   },
   {
    "nombre": "Centro Cultural Recoleta",
@@ -192,10 +187,10 @@
   },
   {
    "nombre": "Arte x Arte",
-   "web": "https://www.artexarte.org.ar",
+   "web": "https://artexarte.com.ar/",
    "tipo": "Galería o museo",
-   "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "verificada": true,
+   "instagram": "@artexarteespacio"
   },
   {
    "nombre": "Almacén de Arte",
@@ -225,6 +220,11 @@
    "nombre": "Time Out: arte",
    "url": "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura",
    "uso": "calendario de ferias y muestras"
+  },
+  {
+   "nombre": "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
+   "url": "https://somosmeridiano.com.ar/",
+   "uso": "directorio de galerías socias con web, horarios y dirección"
   }
  ]
 }
