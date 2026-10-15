@@ -132,7 +132,10 @@
       if (vistos.has(clave)) continue;
       vistos.add(clave);
       const url = u.href.split("#")[0];
-      const texto = (a.innerText || a.title || a.getAttribute("aria-label") || a.querySelector("img[alt]")?.alt
+      // El alt de una imagen a veces es el nombre del archivo (IMG_1521, 241016 fotos…): no sirve de título.
+      const alt = a.querySelector("img[alt]")?.alt || "";
+      const altUtil = alt && !/^(IMG|DSC|PXL|WhatsApp|Captura|Screenshot)|\.(jpe?g|png|webp)$|^\d{5,}|\d{4,}/i.test(alt.trim());
+      const texto = (a.innerText || a.title || a.getAttribute("aria-label") || (altUtil ? alt : "")
         || decodeURIComponent(u.pathname.split("/").filter(Boolean).pop() || "")).trim().replace(/\s+/g, " ").slice(0, 50);
       const host = u.hostname.replace(/^www\./, "");
       if (RE_TICKET.test(host)) { out.ticketeras.push([texto, url]); continue; }
