@@ -2367,7 +2367,35 @@
    "direccion": "Billinghurst 835",
    "enlace_bio": "https://linktr.ee/abastosocialclub",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/abastosocialclub"
+    "2026-10-15 [instagram] Abasto Social Club (Yatay 666): el sitio abastosocialclub.com cambió de manos; la cartelera real está en Instagram y Alternativa Teatral. 'Proyecto Falcon' fue función única el 26/9."
+   ],
+   "comportamiento": {
+    "extraccion": "la grilla mezcla posts de elencos y productoras etiquetadas; las obras figuran en Alternativa Teatral con entradas accesibles",
+    "web": "abastosocialclub.com ya no es del teatro (contenido SEO)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.abastosocialclub.com/espectaculos",
+     "texto": "abastosocialclub.com/espectaculos",
+     "motivo": "el dominio fue tomado por un sitio de guías genéricas, ya no es la web del teatro",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -5504,7 +5532,26 @@
    "direccion": "Rivadavia Av. 7609",
    "enlace_bio": "https://linktr.ee/plantaaltarockbar",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/plantaaltarockbar"
+    "2026-10-15 [instagram] Rock bar en Av. Rivadavia 7609, Flores; publica un flyer por banda sin texto en el epígrafe."
+   ],
+   "comportamiento": {
+    "extraccion": "los posts son flyers sin texto: hay que mirar la imagen (zoom sobre el visor); un flyer por show con día y hora"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {
