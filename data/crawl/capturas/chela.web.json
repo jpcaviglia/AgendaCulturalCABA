@@ -1,0 +1,31 @@
+{
+ "id": "chela",
+ "canal": "web",
+ "fuente": "CHELA",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://chela.org.ar/",
+  "https://chela.org.ar/fnoba-6/",
+  "https://chela.org.ar/las-cuencas-cuentan-2026-aperturas-publicas/"
+ ],
+ "eventos": [
+  {
+   "titulo": "FNOBA.6: Festival de Nueva Ópera de Buenos Aires (6.ª edición)",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Festival de Nueva Ópera de Buenos Aires (varias sedes)",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Festival",
+   "precio": "",
+   "url": "https://chela.org.ar/fnoba-6/",
+   "descripcion": "10 años, 10 días, 10 nuevas óperas. Apertura con Estados de espera, de Melisa Zulberti y la Orquesta Retrofuturista (a partir de In C de Terry Riley); incluye Los sauces, ópera cinematográfica, y el estreno americano de COSMOS, de Fernando Fiszbein.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

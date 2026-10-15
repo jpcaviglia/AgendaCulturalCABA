@@ -1,0 +1,63 @@
+{
+ "id": "cine-gaumont-espacio-incaa",
+ "canal": "web",
+ "fuente": "Cine Gaumont (Espacio INCAA)",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "http://www.incaa.gov.ar/programacion-espacios-incaa",
+  "https://www.incaa.gob.ar/programacion-espacios-incaa",
+  "https://www.google.com/search?q=Cine+Gaumont+Espacio+INCAA+cartelera"
+ ],
+ "eventos": [
+  {
+   "titulo": "Soy ella",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección en el Espacio INCAA ATE Cultura.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Encantador",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección en el Espacio INCAA ATE Cultura.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Bajo tus pies",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "Todos los días, 22 h",
+   "lugar": "Espacio INCAA Atlas Flores",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección todas las noches en el Espacio INCAA Atlas Flores.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "centro-salamanca-recreativo-cultural-y-s",
+ "canal": "web",
+ "fuente": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://centrosalamanca.com.ar/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Fiesta de Primavera",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "Centro Salamanca",
+   "barrio": "",
+   "direccion": "Av. Independencia 2540",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://centrosalamanca.com.ar/",
+   "descripcion": "Fiesta en el Salón Principal.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Bernarda Alba, epílogo de un drama",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "",
+   "lugar": "Centro Salamanca",
+   "barrio": "",
+   "direccion": "Av. Independencia 2540",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://centrosalamanca.com.ar/",
+   "descripcion": "Obra de teatro en el Salón Principal.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

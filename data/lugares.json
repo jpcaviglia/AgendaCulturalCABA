@@ -787,8 +787,8 @@
   "dominio": "ccbarracas.com.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@ccbarracas",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 403",
+  "estado": "Inaccesible desde la verificación",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -1591,8 +1591,8 @@
   "dominio": "elsueniero.org.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@ccelsueniero",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (2 veces), sin enlace claro",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -1819,8 +1819,8 @@
   "dominio": "cineclubfarus.taplink.bio",
   "tipo_web": "Red social o enlace",
   "instagram": "@cineclubfarus",
-  "estado": "No se detectan eventos",
-  "evidencia": "No aparecen palabras ni enlaces de agenda",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2143,8 +2143,8 @@
   "dominio": "ccislamicoreyfahd.org.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@cciar_islam",
-  "estado": "Inaccesible desde la verificación",
-  "evidencia": "Error de conexión (URLError)",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2167,8 +2167,8 @@
   "dominio": "ccrichards.com",
   "tipo_web": "Sitio propio",
   "instagram": "@cc_richards",
-  "estado": "No se detectan eventos",
-  "evidencia": "No aparecen palabras ni enlaces de agenda",
+  "estado": "Inaccesible desde la verificación",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2539,8 +2539,8 @@
   "dominio": "chela.org.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@chela.agenda",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (2 veces), sin enlace claro",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2659,8 +2659,8 @@
   "dominio": "sites.google.com",
   "tipo_web": "Red social o enlace",
   "instagram": "@centroculturalpkr",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (3 veces), sin enlace claro",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2971,8 +2971,8 @@
   "dominio": "ar.emb-japan.go.jp",
   "tipo_web": "Sitio propio",
   "instagram": "@japanemb_arg",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 403",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2983,8 +2983,8 @@
   "dominio": "cclitocruz.com",
   "tipo_web": "Sitio propio",
   "instagram": "@cclitocruz",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (2 veces), sin enlace claro",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -3163,8 +3163,8 @@
   "dominio": "torquatotasso.com.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@musicaeneltasso",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (5 veces), sin enlace claro",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -4087,8 +4087,8 @@
   "dominio": "incaa.gov.ar",
   "tipo_web": "",
   "instagram": "",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Cartelera semanal publicada en el sitio del INCAA",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Revisar a mano"
  },
  {
@@ -4605,6 +4605,18 @@
   "instagram": "@pastogaleria",
   "estado": "Tiene sección de agenda",
   "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Espacio INCAA Atlas Flores",
+  "barrio": "Flores",
+  "domicilio": "",
+  "web": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+  "dominio": "incaa.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "",
+  "estado": "Probable: menciona eventos",
+  "evidencia": "descubierto en Cine Gaumont (Espacio INCAA) el 2026-10-15",
   "canal": "Sitio web"
  }
 ]

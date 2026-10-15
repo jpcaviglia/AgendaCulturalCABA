@@ -476,7 +476,20 @@
   "centro-cultural-asociacion-mutual-homero-manzi|instagram",
   "centro-cultural-alfonsina-storni|instagram",
   "centro-cultural-caras-y-caretas|instagram",
-  "centro-cultural-de-la-memoria-haroldo-conti|instagram"
+  "centro-cultural-de-la-memoria-haroldo-conti|instagram",
+  "centro-cultural-el-suenero|instagram",
+  "centro-cultural-islamico|instagram",
+  "centro-cultural-lito-cruz|instagram",
+  "centro-cultural-pkr|instagram",
+  "centro-cultural-richards|instagram",
+  "centro-cultural-roberto-arlt|instagram",
+  "centro-cultural-sefarad|instagram",
+  "centro-cultural-sofia-gempel-arte|instagram",
+  "centro-cultural-sureda|instagram",
+  "centro-cultural-y-biblioteca-popular-carlos-sanchez-viamonte|instagram",
+  "centro-okinawense|instagram",
+  "espacio-incaa-atlas-flores|web",
+  "circuito-cultural-barracas|instagram"
  ],
  "hechos": {
   "buenos-aires-secreta-planes-del-fin-de-semana|web": "con_eventos",
@@ -526,8 +539,33 @@
   "centro-cultural-de-la-ciencia|web": "con_eventos",
   "centro-cultural-de-la-cooperacion-floreal-gorini|web": "con_eventos",
   "centro-cultural-de-la-india-gungur|web": "con_eventos",
-  "centro-cultural-de-la-memoria-haroldo-conti|web": "sin_eventos"
+  "centro-cultural-de-la-memoria-haroldo-conti|web": "sin_eventos",
+  "centro-cultural-e-informativo-de-la-embajada-de-japon|web": "con_eventos",
+  "centro-cultural-el-suenero|web": "sin_eventos",
+  "centro-cultural-islamico|web": "sin_agenda",
+  "centro-cultural-lito-cruz|web": "sin_agenda",
+  "centro-cultural-paco-urondo|web": "con_eventos",
+  "centro-cultural-pkr|web": "sin_agenda",
+  "centro-cultural-ricardo-rojas|web": "con_eventos",
+  "centro-cultural-richards|web": "dominio_caido",
+  "centro-cultural-roberto-arlt|web": "sin_agenda",
+  "centro-cultural-sefarad|web": "sin_agenda",
+  "centro-cultural-sofia-gempel-arte|web": "no_cultural",
+  "centro-cultural-sureda|web": "dominio_caido",
+  "centro-cultural-teatro-fray-mocho|web": "dominio_caido",
+  "centro-cultural-torquato-tasso|web": "con_eventos",
+  "centro-cultural-y-biblioteca-popular-carlos-sanchez-viamonte|web": "no_carga",
+  "centro-okinawense|web": "sin_eventos",
+  "centro-salamanca-recreativo-cultural-y-s|web": "con_eventos",
+  "centro-social-y-cultural-casa-cambalache|web": "con_eventos",
+  "chela|web": "con_eventos",
+  "cine-club-farus|web": "con_eventos",
+  "cine-gaumont-espacio-incaa|web": "con_eventos",
+  "circuito-cultural-barracas|web": "dominio_caido",
+  "ciudad-cultural-konex|web": "con_eventos"
  },
- "sitios_nuevos": [],
- "eventos": 344
+ "sitios_nuevos": [
+  "espacio-incaa-atlas-flores"
+ ],
+ "eventos": 410
 }

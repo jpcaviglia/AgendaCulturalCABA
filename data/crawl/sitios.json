@@ -2346,13 +2346,53 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 16,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Listado JS con filtros"
+    "2026-10-14 [revisión anterior: navegador] Listado JS con filtros",
+    "2026-10-15 [web] Agenda completa en /agenda; exposiciones sin fecha de cierre (lunes a sábados 10 a 20 h)."
+   ],
+   "comportamiento": {
+    "extraccion": "/agenda lista por tipo, título, descripción, precio y fecha/hora en texto; la portada trae la misma agenda y el calendario del mes; el resultado cabe en un solo innerText",
+    "cookies": "sin aviso"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.rojas.uba.ar/cursos",
+     "texto": "Cursos",
+     "motivo": "cursos regulares, no eventos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.rojas.uba.ar/noches-rojas",
+     "texto": "Programas radiales",
+     "motivo": "programas de Radio UBA, no eventos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.rojas.uba.ar/biblioteca",
+     "texto": "Biblioteca",
+     "motivo": "biblioteca",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.rojas.uba.ar/comunidad",
+     "texto": "Comunidad",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 16
+    }
    ]
   },
   {
@@ -2369,11 +2409,61 @@
    "direccion": "Sarmiento 3125",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 9,
+     "paginas": 3
     }
-   }
+   },
+   "entradas": [
+    "https://www.cckonex.org/shows/"
+   ],
+   "comportamiento": {
+    "extraccion": "/shows/ lista por fecha, tipo, hora, título y sala; la portada solo trae la agenda de la semana; la ticketera entradas.cckonex.org carga vacía"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda completa en /shows/."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://entradas.cckonex.org/",
+     "texto": "Tickets",
+     "motivo": "ticketera que no renderizó en la prueba; los shows están en /shows/",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cckonex.org/comunidad/",
+     "texto": "Comunidad",
+     "motivo": "membresías",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cckonex.org/empresas/",
+     "texto": "Empresas",
+     "motivo": "alquiler para empresas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cckonex.org/institucional/",
+     "texto": "Institucional",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cckonex.org/20-anos/",
+     "texto": "20 años",
+     "motivo": "historia",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
+    }
+   ]
   },
   {
    "id": "complejo-cultural-sanidad",
@@ -2826,13 +2916,24 @@
    "direccion": "Iriarte, Gral. Av. 2165",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sitio de notas/blog; sin agenda de funciones"
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio de notas/blog; sin agenda de funciones",
+    "2026-10-15 [web] El dominio ya no pertenece al circuito (blog de tours); buscar la agenda en su Instagram."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3309,13 +3410,24 @@
    "direccion": "Rosario 242",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web; la agenda se comunica por Instagram @ccsureda."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3922,11 +4034,32 @@
    "direccion": "Avellaneda Av. 2547",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Blog del centro barrial (Av. Avellaneda 2547, Flores): solo talleres con inscripción y horarios."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://ccrarlt.blogspot.com/2026/02/grilla-de-talleres-2026.html",
+     "texto": "Grilla de talleres 2026",
+     "motivo": "grilla anual de talleres regulares con inscripción, no eventos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-arrotea-mutual-c-s-y-cultural-flores-sur",
@@ -4109,13 +4242,50 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Página de agenda"
+    "2026-10-14 [revisión anterior: navegador] Página de agenda",
+    "2026-10-15 [web] La agenda web está desactualizada (último evento 7 de julio); las novedades van por Instagram @ccelsueniero."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "http://elsueniero.org.ar/ubicación.html",
+     "texto": "Ubicación",
+     "motivo": "cómo llegar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://elsueniero.org.ar/agricultura-familiar.html",
+     "texto": "Agricultura familiar",
+     "motivo": "proyecto de huerta, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://elsueniero.org.ar/aportes-voluntarios.html",
+     "texto": "Aportes voluntarios",
+     "motivo": "donaciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://elsueniero.org.ar/contacto.html",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4213,19 +4383,30 @@
     "CENTRO CULTURAL SEFARAD"
    ],
    "web": "https://g.page/ccsefarad",
-   "instagram": "",
+   "instagram": "@ccsefarad",
    "origen": "data/lugares.json",
    "barrio": "La Paternal",
    "direccion": "Segui, F. J., Alte. 2160",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] No tiene web propia; la agenda se comunica por Instagram @ccsefarad y Facebook."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4491,13 +4672,29 @@
    "direccion": "Venezuela 932",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Programación en el Taplink; sede Paradiso Cultural."
+   ],
+   "entradas": [
+    "https://cineclubfarus.taplink.bio/"
+   ],
+   "comportamiento": {
+    "extraccion": "el Taplink es una sola página de texto con fecha, títulos y horarios de cada función doble"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -5186,13 +5383,50 @@
    "direccion": "Bullrich, Int. Av. 55",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sitio de noticias del centro, no publica agenda; usar http:// porque https da error de certificado."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.ccislamicoreyfahd.org.ar/conferencia-11/",
+     "texto": "Conferencia",
+     "motivo": "archivo de conferencias pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccislamicoreyfahd.org.ar/colonia-islamica-de-verano/",
+     "texto": "Colonia islámica de verano",
+     "motivo": "actividad de verano de años anteriores",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccislamicoreyfahd.org.ar/ensenanza-de-idioma-arabe-2017/",
+     "texto": "Enseñanza de idioma árabe",
+     "motivo": "nota de 2017",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccislamicoreyfahd.org.ar/visita-distinguida/",
+     "texto": "Visita distinguida",
+     "motivo": "nota de una visita pasada",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5222,13 +5456,25 @@
    "direccion": "Honduras 5272",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] El dominio ccrichards.com ya no es del centro cultural (sitio de apuestas); usar Instagram @cc_richards."
+   ],
+   "enlace_bio": "https://linktr.ee/ccrichards",
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5860,11 +6106,61 @@
    "direccion": "Iguazu 451",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
-   }
+   },
+   "entradas": [
+    "https://chela.org.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista proyectos por constelación con año y descripción; cada proyecto tiene su página con fechas; los proyectos 'Las Cuencas Cuentan' son en provincias, fuera de CABA"
+   },
+   "notas": [
+    "2026-10-15 [web] cheLA es una organización de proyectos; en la ventana solo figura el festival FNOBA.6 (8 al 25 de octubre)."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://chela.org.ar/nodos/",
+     "texto": "Nodos",
+     "motivo": "descripción de proyectos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://chela.org.ar/comunidad/",
+     "texto": "Comunidad",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://chela.org.ar/od24/",
+     "texto": "OD24",
+     "motivo": "evento de diciembre, fuera de la ventana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://chela.org.ar/monumentos-sonoros-de-parque-patricios/",
+     "texto": "Monumentos sonoros de Parque Patricios",
+     "motivo": "proyecto de investigación sin fechas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://chela.org.ar/colaborar/",
+     "texto": "Colaborar",
+     "motivo": "donaciones",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "catulo-casa-cultural",
@@ -6091,13 +6387,24 @@
    "direccion": "Santa Fe Av. 2520",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sitio Google casi sin contenido; usar @centroculturalpkr"
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio Google casi sin contenido; usar @centroculturalpkr",
+    "2026-10-15 [web] Espacio de alquiler; no publica agenda en la web."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6108,19 +6415,30 @@
     "CENTRO CULTURAL Y BIBLIOTECA POPULAR CARLOS SANCHEZ VIAMONTE"
    ],
    "web": "https://www.carlossviamonte.com.ar/",
-   "instagram": "",
+   "instagram": "@csv_cultura",
    "origen": "data/lugares.json",
    "barrio": "Recoleta",
    "direccion": "Austria 2156",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "no_carga",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El sitio no carga."
+    "2026-10-14 [revisión anterior: caido] El sitio no carga.",
+    "2026-10-15 [web] El sitio existe pero cierra la conexión desde este navegador; reintentar en la próxima corrida. Austria 2154, lunes a viernes de 16 a 20 h."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6517,11 +6835,56 @@
    "direccion": "San Juan Av. 2651",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Sin eventos vigentes; la web solo publica festivales anuales y clases regulares."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.okiren.org.ar/institucional/",
+     "texto": "Sobre COA",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.okiren.org.ar/becas/",
+     "texto": "Becas",
+     "motivo": "becas de estudio",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.okiren.org.ar/okinawa/",
+     "texto": "Okinawa",
+     "motivo": "información cultural",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://okirenresto.lovable.app",
+     "texto": "Restaurant",
+     "motivo": "restaurante, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.okiren.org.ar/contacto/",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-salamanca-recreativo-cultural-y-s",
@@ -6537,11 +6900,55 @@
    "direccion": "Independencia Av. 2540",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
-   }
+   },
+   "entradas": [
+    "https://centrosalamanca.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada tiene la sección 'Próximos eventos' con día, hora y salón; el listado aparece repetido en el DOM"
+   },
+   "notas": [
+    "2026-10-15 [web] Eventos en la portada; clases regulares aparte en /centro/."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://centrosalamanca.com.ar/centro/",
+     "texto": "Clases en el Centro",
+     "motivo": "clases regulares con días y horarios, no eventos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://centrosalamanca.com.ar/galeria/",
+     "texto": "Galería",
+     "motivo": "fotos de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://centrosalamanca.com.ar/historia/",
+     "texto": "Historia",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://centrosalamanca.com.ar/miembros/",
+     "texto": "Miembros",
+     "motivo": "socios",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "espacio-cultural-julian-centeya",
@@ -6849,17 +7256,52 @@
    "barrio": "San Nicolas",
    "direccion": "Bouchard 547",
    "entradas": [
+    "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
     "https://www.ar.emb-japan.go.jp/itpr_es/AgendaCultural.html"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Agenda Cultural (HTML/PDF)"
+    "2026-10-14 [revisión anterior: navegador] Agenda Cultural (HTML/PDF)",
+    "2026-10-15 [web] La agenda mensual es un PDF; hay que leerlo con capturas de pantalla."
+   ],
+   "comportamiento": {
+    "extraccion": "AgendaCultural.html redirige al PDF 'Agenda Cultural de octubre de 2026' (5 páginas, tabla con fecha, actividad, lugar y organizador); get_page_text no lee PDF: usar capturas y scroll",
+    "fechas": "el PDF se actualiza mensualmente"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.ar.emb-japan.go.jp/itpr_es/05CulturaEducacion.html",
+     "texto": "Cultura y Educación",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ar.emb-japan.go.jp/itpr_es/GaleriaDeFotos.html",
+     "texto": "Eventos finalizados",
+     "motivo": "archivo de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ar.emb-japan.go.jp/itpr_es/05.CentroCultural.html",
+     "texto": "Centro Cultural e Informativo",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    }
    ]
   },
   {
@@ -6879,13 +7321,44 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Grilla de programación"
+    "2026-10-14 [revisión anterior: navegador] Grilla de programación",
+    "2026-10-15 [web] Escuela de formación actoral; no publica funciones en la web (revisar Instagram)."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.cclitocruz.com/classes-2022",
+     "texto": "Cursos",
+     "motivo": "descripción de cursos de formación",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cclitocruz.com/sala-alquiler",
+     "texto": "Espacio",
+     "motivo": "alquiler de sala",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cclitocruz.com/internacional",
+     "texto": "Clases online",
+     "motivo": "cursos online",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6901,15 +7374,57 @@
    "barrio": "San Nicolas",
    "direccion": "25 De Mayo 201",
    "entradas": [
+    "https://pacourondo.filo.uba.ar/index.php/eventos",
     "https://pacourondo.filo.uba.ar/eventos/lo-que-se-hereda"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 6
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "/index.php/eventos lista tarjetas con mes, día, año y título; sin hora en el listado (está en la ficha); las categorías son filtros de la misma lista"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda en /index.php/eventos; las horas están en cada ficha."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://pacourondo.filo.uba.ar/index.php/actividades-academicas",
+     "texto": "Actividades académicas",
+     "motivo": "misma lista que Eventos filtrada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://pacourondo.filo.uba.ar/index.php/eventos-anteriores",
+     "texto": "Eventos anteriores",
+     "motivo": "archivo de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://pacourondo.filo.uba.ar/index.php/publicaciones",
+     "texto": "Publicaciones",
+     "motivo": "publicaciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://pacourondo.filo.uba.ar/index.php/formacion",
+     "texto": "Formación",
+     "motivo": "cursos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "cultura-faro",
@@ -7149,13 +7664,30 @@
    "direccion": "Defensa 1575",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío; usar redes/ticketera"
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío; usar redes/ticketera",
+    "2026-10-15 [web] Programación solo en afiches en la portada; shows a las 22 h, apertura 20 h."
+   ],
+   "entradas": [
+    "https://torquatotasso.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada tiene 'Nuestra programación' con afiches (imágenes con fecha y artista, sin texto): scrollear hasta la sección y leer la captura; cada afiche enlaza a /AAAA/MM/DD/artista/ con la ficha",
+    "cookies": "sin aviso"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -7172,11 +7704,29 @@
    "direccion": "Defensa 1179",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 1
     }
-   }
+   },
+   "entradas": [
+    "https://www.clubsocialcambalache.com/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista 'Próximos eventos' con día, hora y título en el mismo texto; sin scroll largo"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda de música en vivo en la portada."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "clasico-fernandez",
@@ -7504,13 +8054,24 @@
    "direccion": "Araoz 1047",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] Blog eliminado."
+    "2026-10-14 [revisión anterior: caido] Blog eliminado.",
+    "2026-10-15 [web] El blog fue eliminado; su cartelera se publica en Alternativa Teatral (ya rastreada como agregador)."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -7895,13 +8456,50 @@
    "direccion": "Nogoya 3455",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "no_cultural",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Taller de arte con clases regulares en Villa del Parque; sin agenda de eventos."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://sofigempel.com.ar/obra-disponible/",
+     "texto": "Obra disponible",
+     "motivo": "venta de obra de la artista",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://sofigempel.com.ar/obra-a-pedido/",
+     "texto": "Obra a pedido",
+     "motivo": "encargos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://sofigempel.com.ar/acerca-de-mi/",
+     "texto": "Acerca de mí",
+     "motivo": "biografía",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://sofigempel.com.ar/contacto/",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8600,7 +9198,33 @@
    "instagram": "",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Av. Rivadavia 1635"
+   "direccion": "Av. Rivadavia 1635",
+   "entradas": [
+    "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+   ],
+   "comportamiento": {
+    "url": "incaa.gov.ar no resuelve; la cartelera vigente está en https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+    "extraccion": "tabla con espacio, localidad, día, hora y película para 7 días; los filtros no ocultan filas, hay que filtrar CABA al leer; el Gaumont no figura en la tabla"
+   },
+   "notas": [
+    "2026-10-15 [web] El Cine Gaumont no está en la tabla de Espacios INCAA; solo hay dos espacios de CABA (ATE Cultura y Atlas Flores). Programación del Gaumont: Instagram @cine.gaumont."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "cacodelphia",
@@ -10945,6 +11569,20 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: bar de recitales; varias fechas en Indiehoy"
+   ]
+  },
+  {
+   "id": "espacio-incaa-atlas-flores",
+   "nombre": "Espacio INCAA Atlas Flores",
+   "tipo": "lugar",
+   "lugares": [
+    "Espacio INCAA Atlas Flores"
+   ],
+   "web": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "instagram": "",
+   "origen": "descubierto en Cine Gaumont (Espacio INCAA) el 2026-10-15",
+   "notas": [
+    "2026-10-15: aparece en la cartelera de Espacios INCAA con localidad CABA"
    ]
   }
  ]
