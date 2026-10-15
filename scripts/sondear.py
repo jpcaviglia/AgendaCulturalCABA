@@ -1,7 +1,7 @@
 """Sondeo de solo lectura: qué sitios de data/crawl/sitios.json se podrían leer sin navegador.
 
 Hace pedidos HTTP simples (sin JavaScript) a la portada de cada web y a sus 3 enlaces de agenda más
-probables, y clasifica cada sitio. No escribe nada en data/: el informe queda en data/crawl/local/sondeo.json
+probables (más 2 de talleres o visitas), y clasifica cada sitio. No escribe nada en data/: el informe queda en data/crawl/local/sondeo.json
 (se sube al repo, para usarlo desde otra máquina) y el resumen se imprime. No saca conclusiones de "no hay eventos": lo que no
 se puede leer así sigue yendo al navegador.
 
@@ -54,6 +54,7 @@ MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec"
 RE_FECHA = re.compile(rf"\b\d{{1,2}}\s*(de\s+)?({MESES})[a-záéíóú]*\.?\b|\b({MESES})[a-z]*\.?\s+\d{{1,2}}\b|\b\d{{1,2}}[/.]\d{{1,2}}([/.]\d{{2,4}})?\b", re.I)
 RE_AGENDA = re.compile(r"agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|funciones|conciertos|calendario|calendar|en-cartel|pr[oó]xim|upcoming", re.I)
 RE_IGNORAR_RUTA = re.compile(r"\.(jpe?g|png|gif|webp|svg|css|js|zip|mp3|mp4|pdf)$|/lang/|[?&](lang|hl)=|/(en|pt)/?$", re.I)
+RE_PROGRAMAS = re.compile(r"talleres|\btaller\b|cursos|\bclases\b|seminarios?|workshops?|visitas|recorridos|guided tours?", re.I)
 SPA = re.compile(r'id="(root|__next|app)"|__NEXT_DATA__|ng-version|data-reactroot|window\.__NUXT__|wixui|id="comp-', re.I)
 CONTEXTO = ssl.create_default_context()
 SIN_VERIFICAR = ssl._create_unverified_context()  # solo para leer páginas públicas cuando el certificado está mal
@@ -189,9 +190,10 @@ def eventos_jsonld(html):
 
 
 def enlaces_agenda(html, base):
-    """Hasta 3 enlaces del mismo sitio que parecen la agenda, los del menú primero."""
+    """Hasta 3 enlaces del mismo sitio que parecen la agenda y 2 de talleres o visitas (suelen tener página propia,
+    fuera de la agenda); las rutas cortas primero."""
     host = dominio(base)
-    vistos, fuertes = set(), []
+    vistos, fuertes, programas = set(), [], []
     for m in re.finditer(r'<a\b[^>]*?href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', html, re.S | re.I):
         u = urljoin(base, m.group(1).strip())
         p = urlparse(u)
@@ -201,10 +203,15 @@ def enlaces_agenda(html, base):
         if clave in vistos or p.path.rstrip("/") == urlparse(base).path.rstrip("/"):
             continue
         texto = re.sub(r"<[^>]+>", " ", m.group(2))
+        prof = len([s for s in p.path.split("/") if s])  # rutas cortas = secciones, no fichas
         if RE_AGENDA.search(p.path) or RE_AGENDA.search(texto[:60]):
             vistos.add(clave)
-            fuertes.append((len([s for s in p.path.split("/") if s]), u))  # rutas cortas = secciones, no fichas
-    return [u for _, u in sorted(fuertes, key=lambda x: x[0])[:3]]
+            fuertes.append((prof, u))
+        elif RE_PROGRAMAS.search(p.path) or RE_PROGRAMAS.search(texto[:60]):
+            vistos.add(clave)
+            programas.append((prof, u))
+    orden = lambda x: x[0]  # noqa: E731
+    return [u for _, u in sorted(fuertes, key=orden)[:3] + sorted(programas, key=orden)[:2]]
 
 
 def plataforma(html):

@@ -42,9 +42,10 @@ Qué devuelve:
 
 - `secciones`: enlaces **fuertes** del mismo sitio, los que suelen ser la agenda: agenda, cartelera,
   programación, eventos, actividades, muestras, exposiciones, exhibiciones, shows, funciones, obras,
-  conciertos, calendario, próximas, upcoming. Hay que abrirlos todos (o descartarlos con motivo).
-- `debiles`: subprogramas que la agenda casi siempre ya incluye: ciclos, talleres, cursos, visitas,
-  actuales, temporada, festival, cine, películas, inauguración. Ver la regla en la skill (3.2). Si una
+  conciertos, calendario, próximas, upcoming, y también talleres, cursos, clases, seminarios, workshops,
+  visitas y recorridos. Hay que abrirlos todos (o descartarlos con motivo).
+- `debiles`: subprogramas que la agenda casi siempre ya incluye: ciclos, actuales, temporada, festival,
+  cine, películas, inauguración. Ver la regla en la skill (3.2). Si una
   página no tiene ninguna sección fuerte, las débiles pasan a `secciones`.
 - `fichas`: páginas de un evento o muestra (enlaces con fecha en la tarjeta, o de agenda pero profundos).
 - `ticketeras`, `externos`: otros sitios (posibles espacios nuevos).

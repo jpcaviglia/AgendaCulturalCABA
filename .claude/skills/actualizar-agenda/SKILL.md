@@ -145,8 +145,10 @@ confirmado cerrado.
 La portada casi nunca alcanza: suele mostrar una sola muestra o los próximos tres eventos.
 
 - `preparar` separa los enlaces de agenda del mismo sitio en `secciones` (fuertes: agenda, cartelera,
-  programación, eventos, actividades, muestras, exposiciones, shows, funciones, obras, próximas…) y
-  `debiles` (ciclos, talleres, cursos, visitas, actuales, temporada, festival, cine, inauguración).
+  programación, eventos, actividades, muestras, exposiciones, shows, funciones, obras, próximas, talleres,
+  cursos, clases, seminarios, visitas, recorridos…) y `debiles` (ciclos, actuales, temporada, festival,
+  cine, inauguración). Talleres y visitas son fuertes porque muchos sitios los publican en una página
+  propia que la agenda no muestra.
   Todos van en `enlaces_candidatos`; los débiles con `"debil": true`.
 - Los que están en `enlaces_descartados` del sitio ya se descartaron en otra corrida: no los abras (el
   script les pone el motivo guardado). Se vuelven a revisar solos cada 6 meses.
@@ -185,8 +187,14 @@ La portada casi nunca alcanza: suele mostrar una sola muestra o los próximos tr
 Qué tipo de eventos: todo lo que sea abierto al público y de interés cultural o de ocio, **incluidas
 fiestas de techno y electrónica, fiestas en clubes, raves y open airs, festivales (de música, cine, teatro,
 tango, jazz, arte, de barrio) y ferias (de diseño, arte, libros, vinilos, gastronómicas, artesanías,
-americanas)**, además de teatro, música, cine, muestras, danza, charlas, talleres y visitas. No se cargan
-eventos privados, cursos comerciales o de negocios, ni partidos o competencias deportivas.
+americanas)**, además de teatro, música, cine, muestras, danza y charlas. **Talleres, clases abiertas,
+seminarios, cursos y workshops de arte o cultura** (pintura, cerámica, escritura, fotografía, teatro, danza,
+música, cine, etc.) y **visitas guiadas y recorridos** (de museos, muestras, edificios o barrios) también se
+cargan, sean gratis o pagos y aunque pidan inscripción: buscalos en su propia sección aunque el sitio ya haya
+dado eventos en la agenda. Un taller o curso que dura semanas o meses va como un solo evento con
+`fecha_inicio`, `fecha_fin` y `horarios`, si empieza dentro de la ventana o tiene inscripción abierta en ella
+con fechas publicadas. No se cargan eventos privados (visitas para escuelas o grupos que reservan,
+talleres internos), cursos comerciales o de negocios, ni partidos o competencias deportivas.
 
 Cuándo: lo que esté en curso o empiece dentro de los próximos 14 días (la ventana la muestra
 `siguiente`). Una muestra que empezó en agosto y cierra en diciembre está vigente y se carga. Una obra con

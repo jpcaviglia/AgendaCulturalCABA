@@ -83,9 +83,10 @@
   // --- clasificación de enlaces ---
   const MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec";
   const RE_FECHA = new RegExp(`\\b\\d{1,2}\\s*(de\\s+)?(${MESES})[a-záéíóú]*\\.?\\b|\\b(${MESES})[a-z]*\\.?\\s+\\d{1,2}\\b|\\b\\d{1,2}[/.]\\d{1,2}([/.]\\d{2,4})?\\b`, "gi");
-  // Fuertes: suelen ser LA agenda del sitio. Débiles: subprogramas que la agenda casi siempre ya incluye.
-  const RE_FUERTE = /agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|\bshows?\b|funciones|espect[aá]culo|\bobras\b|conciertos|calendario|calendar|en cartel|pr[oó]xim|upcoming|what'?s on/i;
-  const RE_DEBIL = /\bciclos?\b|talleres|cursos|visitas|actuales?|current|temporada|festival|\bcine\b|pel[ií]culas|\bexpos?\b|inauguraci/i;
+  // Fuertes: suelen ser LA agenda del sitio, o talleres y visitas, que muchas veces tienen su propia página
+  // fuera de la agenda. Débiles: subprogramas que la agenda casi siempre ya incluye.
+  const RE_FUERTE = /agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|\bshows?\b|funciones|espect[aá]culo|\bobras\b|conciertos|calendario|calendar|en cartel|pr[oó]xim|upcoming|what'?s on|talleres|\btaller\b|cursos|\bclases\b|seminarios?|workshops?|visitas|recorridos|guided tours?/i;
+  const RE_DEBIL = /\bciclos?\b|actuales?|current|temporada|festival|\bcine\b|pel[ií]culas|\bexpos?\b|inauguraci/i;
   const RE_TICKET = /alternativateatral|passline|eventbrite|ticketek|tuentrada|entradauno|plateanet|bonoentrada|ticketportal|universe\.com|allaccess|livepass|entradaweb|tickethoy|eventim|sympla|venti|linktr\.ee|taplink/i;
   const RE_IGNORAR = /instagram|facebook|twitter|x\.com|youtube|youtu\.be|whatsapp|wa\.me|tiktok|spotify|google\.|goo\.gl|wikipedia|linkedin|mailto|apple\.com|wix\.com|wordpress\.(com|org)|mercadopago|pinterest|flickr|vimeo|soundcloud/i;
   // Misma página aunque cambie la barra final, el idioma o los parámetros de seguimiento.
