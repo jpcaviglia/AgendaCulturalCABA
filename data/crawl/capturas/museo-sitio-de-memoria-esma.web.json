@@ -1,0 +1,78 @@
+{
+ "id": "museo-sitio-de-memoria-esma",
+ "canal": "web",
+ "fuente": "Museo Sitio de Memoria ESMA",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.espaciomemoria.ar/agenda/",
+  "https://www.espaciomemoria.ar/visitanos/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Encuentro de bordado: Costurero x la memoria",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "15:00",
+   "horarios": "",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Casa Nuestros Hijos, la Vida y la Esperanza",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Talleres",
+   "precio": "",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "descripcion": "Jornada de bordado colectivo junto al Costurero x la memoria.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Milonga Tangonautas",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "17 h clase de Milonga Lisa y Traspie; 19 h Tango DJ Manos; 19:30 Dúo Sentimental y Criolla; 20:30 Ballet Escuela CETBA; 21:30 Color Tango",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Casa de la Militancia (H.I.J.O.S)",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "descripcion": "Milonga con clase de Milonga Lisa y Traspie a cargo de Jorge Firpo y Diana Mestre, DJ, música en vivo, ballet y cierre con Color Tango, de Roberto Álvarez.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "La Barbarie de los Nadies",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:30",
+   "horarios": "",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Cuatro Columnas",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "descripcion": "Obra escrita y dirigida por Lola Montiel: una distopía sobre el colapso ambiental y social y la lucha de un grupo de sobrevivientes frente a un conglomerado automatizado. Conversatorio posterior con miembros de la APDH.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Visitas guiadas al Espacio Memoria y Derechos Humanos (ex ESMA)",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Predio abierto lunes a viernes de 9 a 20 h y sábados y domingos de 9 a 21 h",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA)",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Visitas guiadas",
+   "precio": "Gratis",
+   "url": "https://www.espaciomemoria.ar/visitanos/",
+   "descripcion": "Recorrido histórico por el predio de la ex ESMA y sus instituciones. Entrada libre y gratuita.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

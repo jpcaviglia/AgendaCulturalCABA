@@ -1,0 +1,46 @@
+{
+ "id": "the-monkeys",
+ "canal": "web",
+ "fuente": "THE MONKEYS",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://themonkeys.com.ar/",
+  "https://reservas.themonkeys.com.ar/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Maxi Feroleto y las Tribus del Alba",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "THE MONKEYS",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "$ 18000 (incluye $ 5000 de consumición)",
+   "url": "https://reservas.themonkeys.com.ar/",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural de Palermo.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Mica Mazza",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "THE MONKEYS",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "$ 18000 (incluye $ 5000 de consumición)",
+   "url": "https://reservas.themonkeys.com.ar/",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural de Palermo.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

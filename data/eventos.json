@@ -5,12 +5,13 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 246,
-  "con_eventos": 142
+  "capturas": 287,
+  "con_eventos": 165
  },
  "fuentes": [
   "ALIANZA FRANCESA",
   "ALQUIMIA ESPACIO CULTURAL",
+  "AMARAMA ESPACIO CULTURAL",
   "ARCHIBRAZO",
   "ARTLAB",
   "Alternativa Teatral",
@@ -29,7 +30,9 @@
   "CASA DE LA CULTURA",
   "CASONA CULTURAL HUMAHUACA",
   "CENTRO CULTURAL 25 DE MAYO",
+  "CENTRO CULTURAL ARMOZA",
   "CENTRO CULTURAL BORGES",
+  "CENTRO CULTURAL CEPAS",
   "CENTRO CULTURAL COREANO",
   "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
   "CENTRO CULTURAL DE LA CIENCIA",
@@ -38,11 +41,13 @@
   "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
   "CENTRO CULTURAL PACO URONDO",
   "CENTRO CULTURAL RICARDO ROJAS",
+  "CENTRO CULTURAL THAMES",
   "CENTRO CULTURAL TORQUATO TASSO",
   "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
   "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
   "CHELA",
   "CIUDAD CULTURAL KONEX",
+  "CLUB CULTURAL MARES",
   "CLUB CULTURAL MATIENZO",
   "CONGO",
   "CUERDA MECÁNICA CENTRO CULTURAL",
@@ -56,6 +61,7 @@
   "Colección Fortabat",
   "Complejo Teatral de Buenos Aires",
   "Crobar",
+  "DESEO BSAS",
   "Dune Park",
   "EL CASTILLO DE SANDRO",
   "EL GALPON DE CATALINAS",
@@ -66,6 +72,7 @@
   "Espacio INCAA Atlas Flores",
   "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
+  "FACTORÍA",
   "FELIZA CULTURA ARCOIRIS",
   "Fundación Andreani",
   "Fundación Klemm",
@@ -85,11 +92,14 @@
   "Jodify",
   "LA FRAGUA CULTURAL",
   "LA MINGA CLUB CULTURAL",
+  "LA PAZ ARRIBA",
   "LA RONDA ESPACIO CULTURAL",
   "LA SCALA DE SAN TELMO",
   "LA TANGENTE",
   "LA VIEJA GUARDIA",
   "LOS POMPAS",
+  "La Casa del Árbol",
+  "La Nube",
   "La Rural Ticket",
   "La Trastienda",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
@@ -111,9 +121,11 @@
   "Museo Judío de Buenos Aires",
   "Museo Malvinas e Islas del Atlántico Sur",
   "Museo Mitre",
+  "Museo Nacional Ferroviario",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
   "Museo Nacional de Bellas Artes",
+  "Museo Sitio de Memoria ESMA",
   "Museo Xul Solar",
   "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
   "Museo de Arte Moderno de Buenos Aires",
@@ -124,19 +136,26 @@
   "Museo de los Niños Abasto",
   "Museo del Cine Pablo Ducrós Hicken",
   "Museo del Holocausto de Buenos Aires",
+  "NUEVA URIARTE",
   "Niceto Club",
   "Nora Fisch",
   "OTRA HISTORIA",
   "PANDA ROJO ESPACIO CULTURAL",
+  "PARQUE DE LA MEMORIA",
+  "PONCHO CLUB CULTURAL",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Passline",
   "Pasto Galería",
+  "Planetario Galileo Galilei",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
   "Rolf Art",
   "Rubbers",
   "Ruth Benzacar",
+  "SIGUE LA POLILLA",
+  "Sala Lugones",
   "SalePlan: agenda de Ciudad de Buenos Aires",
+  "THE MONKEYS",
   "Teatro Coliseo",
   "Teatro Colón",
   "Teatro Nacional Cervantes",
@@ -147,10 +166,14 @@
   "Time Out Buenos Aires: Agenda",
   "Time Out: arte",
   "Turismo Buenos Aires: Qué hacer esta semana",
+  "UNIVERSIDAD POPULAR DE BELGRANO",
   "USINA DEL ARTE",
+  "Under Club",
   "Vamos Feria",
   "Vidriera BA",
-  "W Galería"
+  "W Galería",
+  "club conjura",
+  "nuestro cine"
  ],
  "eventos": [
   {
@@ -722,7 +745,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/mirador-obelisco?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -770,7 +793,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/museo-participativo-de-ciencias?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -818,7 +841,7 @@
    "url": "https://planetario.buenosaires.gob.ar/telescopios",
    "dominio": "planetario.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Planetario Galileo Galilei",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -1589,7 +1612,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/visita-guiada-recoleta-de-los-or%C3%ADgenes-la-aristocracia?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2098,7 +2121,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/visita-guiada-plaza-de-mayo-0?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2654,7 +2677,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/descubr%C3%AD-buenos-aires-desde-el-bus-tur%C3%ADstico?dsd=QHS?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2702,7 +2725,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/candlelight?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2801,7 +2824,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/colon-fabrica?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2921,7 +2944,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/fuerza-bruta?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -2969,7 +2992,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/mafalda-inmersiva?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Buenos Aires Secreta: planes del fin de semana"
@@ -3450,7 +3473,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/tranvia-historico-de-caballito?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -3499,7 +3522,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/feria-de-mataderos?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -3621,7 +3644,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/teatro-colon?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -3957,7 +3980,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/miju-museo-de-la-imaginaci%C3%B3n-y-el-juego?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -7095,6 +7118,30 @@
    "embebible": false
   },
   {
+   "id": "d7ba1eb8c628",
+   "titulo": "Arte sobre botellas de vino",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Arte sobre botellas de vino en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "e1d7015b6eb3",
    "titulo": "Babasónicos - Impuesto de fe Música En Total Oscuridad con Parlantes Holofónicos",
    "categoria": "Música",
@@ -7550,6 +7597,30 @@
    ],
    "lat": -34.588298,
    "lng": -58.464747,
+   "embebible": true
+  },
+  {
+   "id": "531f5bfa69f8",
+   "titulo": "Cata de cervezas artesanales",
+   "categoria": "Gastronomía",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cata de cervezas artesanales en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true
   },
   {
@@ -8252,23 +8323,24 @@
    "embebible": false
   },
   {
-   "id": "b7ba06a76fd8",
+   "id": "5aecc40c2547",
    "titulo": "El tren fluvial",
-   "categoria": "Teatro",
-   "lugar": "",
+   "categoria": "Cine",
+   "lugar": "Sala Lugones",
    "barrio": "",
    "direccion": "",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "17:30",
-   "horarios": "",
+   "horarios": "Estreno desde el 8 de octubre",
    "precio": "Consultar",
-   "descripcion": "Teatro y espectáculos. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/0MXMZCHSJRB1/el-tren-fluvial",
-   "dominio": "saleplan.ar",
+   "descripcion": "Estreno de El tren fluvial, de Lorenzo Ferro y Lucas A. Vignale, desde el 8 de octubre en la Sala Leopoldo Lugones.",
+   "url": "https://complejoteatral.gob.ar/produccion/el-tren-fluvial/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Sala Lugones",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
    "lat": "",
@@ -8341,7 +8413,8 @@
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Complejo Teatral de Buenos Aires"
+    "Complejo Teatral de Buenos Aires",
+    "Sala Lugones"
    ],
    "lat": -34.604245,
    "lng": -58.3884,
@@ -8532,7 +8605,7 @@
    "url": "https://museohistoriconacional.cultura.gob.ar/exhibiciones/",
    "dominio": "museohistoriconacional.cultura.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico Nacional",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
    "fuentes": [
     "Museo Histórico Nacional"
    ],
@@ -9094,6 +9167,30 @@
    "embebible": false
   },
   {
+   "id": "2bc840b0b363",
+   "titulo": "Funciones inmersivas en el domo del Planetario",
+   "categoria": "Infantil",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Sábados y domingos: 12 h Agujeros Negros, 13 h Te quiero desde el mar hasta el cielo, 14:30 y 19 h Alerta espacial, 16 h Veo Veo, 17:30 h Top 5. Martes a viernes: 12:30 h Vuelta por el Universo y 17 h Agujeros Negros",
+   "precio": "Consultar",
+   "descripcion": "Espectáculos astronómicos y de divulgación científica en el domo full dome, para adultos, adolescentes y niños según la función. Incluye visitas guiadas por el museo (martes a viernes 12 y 16 h; fines de semana 14:30 y 16 h).",
+   "url": "https://planetario.buenosaires.gob.ar/agenda",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
    "id": "49595a6d009e",
    "titulo": "GABBA GABBA HEY - STAND UP COMEDY",
    "categoria": "Teatro",
@@ -9574,6 +9671,54 @@
    "embebible": false
   },
   {
+   "id": "dd401dc0a86f",
+   "titulo": "Jacqui levantando butacas",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jacqui levantando butacas en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
+   "id": "426808756192",
+   "titulo": "Julio y sus amigos: show de stand-up",
+   "categoria": "Teatro",
+   "lugar": "FACTORÍA",
+   "barrio": "Caballito",
+   "direccion": "Fragata Pres. Sarmiento 1251",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show de stand-up en FactorÃ­a.",
+   "url": "https://compras.evento-simple.com/factoria",
+   "dominio": "compras.evento-simple.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "FACTORÍA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "3c9caf097af4",
    "titulo": "Kontinental 25",
    "categoria": "Cine",
@@ -9692,30 +9837,6 @@
    ],
    "lat": -34.596109,
    "lng": -58.43726,
-   "embebible": false
-  },
-  {
-   "id": "bc6f3a610d08",
-   "titulo": "LESBICLUB: tu club fav",
-   "categoria": "Evento",
-   "lugar": "La Paz Arriba",
-   "barrio": "San Nicolas",
-   "direccion": "Av. Callao 1082",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-15",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/lesbiclub-tu-club-fav",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.608602,
-   "lng": -58.392002,
    "embebible": false
   },
   {
@@ -10419,6 +10540,31 @@
    "embebible": true
   },
   {
+   "id": "bc6f3a610d08",
+   "titulo": "Lesbiclub: tu club fav",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Lesbiclub en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA",
+    "Passline"
+   ],
+   "lat": -34.603874,
+   "lng": -58.389346,
+   "embebible": false
+  },
+  {
    "id": "6ac1d7480e96",
    "titulo": "Lo que el agua revela, de María Gracia Geraci",
    "categoria": "Artes visuales",
@@ -10876,6 +11022,30 @@
    "embebible": false
   },
   {
+   "id": "89a2b04c9d0a",
+   "titulo": "Monumento a las Víctimas del Terrorismo de Estado y parque de esculturas",
+   "categoria": "Artes visuales",
+   "lugar": "PARQUE DE LA MEMORIA",
+   "barrio": "Belgrano",
+   "direccion": "Obligado Rafael, Av.Costanera 6745",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Parque: lunes a viernes de 10 a 18 h, fines de semana y feriados de 10 a 19 h. Sala PAyS: martes a viernes de 11 a 17 h, fines de semana y feriados de 11 a 18 h",
+   "precio": "Gratis",
+   "descripcion": "Recorrido por el Monumento a las Víctimas del Terrorismo de Estado 1969-1983 y las esculturas emplazadas del Programa de arte público a orillas del Río de la Plata. Entrada libre y gratuita.",
+   "url": "https://parquedelamemoria.org.ar/arte-esculturas-emplazadas/",
+   "dominio": "parquedelamemoria.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PARQUE DE LA MEMORIA",
+   "fuentes": [
+    "PARQUE DE LA MEMORIA"
+   ],
+   "lat": -34.555842,
+   "lng": -58.41509,
+   "embebible": false
+  },
+  {
    "id": "f3cede872d63",
    "titulo": "Mora Navarro en The Roxy Live",
    "categoria": "Música",
@@ -10921,6 +11091,30 @@
    ],
    "lat": -34.601673,
    "lng": -58.407812,
+   "embebible": false
+  },
+  {
+   "id": "2d64cfb625bd",
+   "titulo": "Museo Nacional Ferroviario: exhibición permanente",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional Ferroviario",
+   "barrio": "Retiro",
+   "direccion": "Av. del Libertador 405",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Todos los días de 10 a 20 h; feriados hasta las 18 h; sin reserva previa",
+   "precio": "Residentes $ 5000; extranjeros $ 7000; miércoles sin cargo",
+   "descripcion": "Muestra del patrimonio ferroviario del país: especialidades ferroviarias, coches de época como el Coche Oficial 1417 y locomotoras como La Patria.",
+   "url": "https://www.argentina.gob.ar/museo-nacional-ferroviario/visitas-guiadas",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional Ferroviario",
+   "fuentes": [
+    "Museo Nacional Ferroviario"
+   ],
+   "lat": -34.589824,
+   "lng": -58.378762,
    "embebible": false
   },
   {
@@ -11189,6 +11383,30 @@
    "embebible": true
   },
   {
+   "id": "c7749538a3bb",
+   "titulo": "Noche de juegos de mesa para conocer gente",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de juegos de mesa para conocer gente en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "e45837310eff",
    "titulo": "Noches En Corrientes",
    "categoria": "Teatro",
@@ -11211,6 +11429,30 @@
    "lat": -34.604376,
    "lng": -58.389865,
    "embebible": true
+  },
+  {
+   "id": "1f37ba20a79b",
+   "titulo": "Nuestro Cine: Elvira, la reina de las tinieblas (1988)",
+   "categoria": "Cine",
+   "lugar": "nuestro cine",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "FunciÃ³n del ciclo de cine cuir Nuestro Cine.",
+   "url": "https://linktr.ee/nuestrocine",
+   "dominio": "linktr.ee",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "nuestro cine"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
   },
   {
    "id": "22c475f4fd08",
@@ -12171,6 +12413,7 @@
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
     "Complejo Teatral de Buenos Aires",
+    "Sala Lugones",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
    "lat": -34.604245,
@@ -12298,28 +12541,29 @@
    "embebible": true
   },
   {
-   "id": "d64c34e8281f",
-   "titulo": "Singers in Jam en CCNU",
+   "id": "3b0f9129cfd0",
+   "titulo": "Singers in Jam",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "21:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/1YW0DC3ETYGF/singers-in-jam-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Singers in Jam.",
+   "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-10-15-21-00-00-0300",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "43da7a8dff80",
@@ -12442,28 +12686,29 @@
    "embebible": true
   },
   {
-   "id": "b1569e401daf",
-   "titulo": "Standard time ! en CCNU",
+   "id": "c332e28ecaba",
+   "titulo": "Standard time !",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/2E6M8D1KPPZR/standard-time-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Standard time !.",
+   "url": "https://livepass.com.ar/events/standard-time-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "af3d1ce96959",
@@ -13190,6 +13435,30 @@
    "embebible": true
   },
   {
+   "id": "4063d7425cf9",
+   "titulo": "Visitas guiadas al Espacio Memoria y Derechos Humanos (ex ESMA)",
+   "categoria": "Visita guiada",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA)",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Predio abierto lunes a viernes de 9 a 20 h y sábados y domingos de 9 a 21 h",
+   "precio": "Gratis",
+   "descripcion": "Recorrido histórico por el predio de la ex ESMA y sus instituciones. Entrada libre y gratuita.",
+   "url": "https://www.espaciomemoria.ar/visitanos/",
+   "dominio": "espaciomemoria.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Sitio de Memoria ESMA",
+   "fuentes": [
+    "Museo Sitio de Memoria ESMA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "8d74f372a1a1",
    "titulo": "Visitas guiadas al MUNTREF Museo de la Inmigración",
    "categoria": "Evento",
@@ -13672,8 +13941,8 @@
    "embebible": false
   },
   {
-   "id": "966fdfd89ca2",
-   "titulo": "999 x Nada pres. David Löhlein",
+   "id": "5d7507247489",
+   "titulo": "999 x Nada presenta: David Lohlein",
    "categoria": "Fiestas y electrónica",
    "lugar": "La Nube",
    "barrio": "Belgrano",
@@ -13683,19 +13952,20 @@
    "hora": "23:00",
    "horarios": "Hasta las 06:00",
    "precio": "Consultar",
-   "descripcion": "Line-up: David Löhlein, Federico Guerrero, ADHILA, Maia Dros, Manu Barcelo",
-   "url": "https://ra.co/events/2532200",
-   "dominio": "ra.co",
+   "descripcion": "Fiesta 999 x Nada con David Lohlein en La Nube.",
+   "url": "https://venti.live/evento/s999-x-nada-pres-david-lo-hlein",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "La Nube",
     "Resident Advisor: Buenos Aires",
     "Buenos Aliens",
     "Jodify"
    ],
    "lat": "",
    "lng": "",
-   "embebible": false
+   "embebible": true
   },
   {
    "id": "ca0dcf088334",
@@ -14252,6 +14522,54 @@
    "embebible": false
   },
   {
+   "id": "33ad6db31489",
+   "titulo": "Amigos MÃ­os #1: Viudas Negras + Istmo",
+   "categoria": "Evento",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show de rock en Club Conjura con Viudas Negras e Istmo.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false
+  },
+  {
+   "id": "e41567aa62b9",
+   "titulo": "Animal",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Animal en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "9e9576bc2d57",
    "titulo": "Animales Artificiales Ii",
    "categoria": "Teatro",
@@ -14387,7 +14705,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -14444,28 +14762,29 @@
    "embebible": true
   },
   {
-   "id": "1208f03a879e",
-   "titulo": "Axel Scheinsohn Cuarteto en CCNU",
+   "id": "3efb295238eb",
+   "titulo": "Axel Scheinsohn Cuarteto",
    "categoria": "Música",
-   "lugar": "Centro Cultural Nueva Uriarte",
-   "barrio": "",
-   "direccion": "Uriarte",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:00",
    "horarios": "",
-   "precio": "$ 17250",
-   "descripcion": "Axel Scheinsohn Cuarteto presenta una propuesta de jazz inspirada en la sonoridad de la Electric Bebop Band de Paul Motian.El repertorio recorre composiciones de Charlie Parker, Thelonious Monk y Paul",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/BEQMP9XDNSPR/axel-scheinsohn-cuarteto-en-ccnu",
-   "dominio": "saleplan.ar",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Axel Scheinsohn Cuarteto.",
+   "url": "https://livepass.com.ar/events/axel-scheinsohn-cuarteto-en-ccnu-2026-10-16-20-00-00-0300",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": -34.581046,
-   "lng": -58.423193,
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "47a6b1b001cf",
@@ -15093,6 +15412,30 @@
    "lat": -34.585479,
    "lng": -58.436561,
    "embebible": false
+  },
+  {
+   "id": "5a189c2482d5",
+   "titulo": "Charla de vínculos de pareja",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla de vínculos de pareja en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
   },
   {
    "id": "c9c74c6b2eea",
@@ -15865,6 +16208,30 @@
    "embebible": true
   },
   {
+   "id": "a940b955ace4",
+   "titulo": "De todos lados un poco",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "De todos lados un poco en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "3d736d6afe4c",
    "titulo": "Degustação Vinhos Argentinos em português Brasil",
    "categoria": "Evento",
@@ -15976,7 +16343,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -18299,6 +18666,30 @@
    "embebible": true
   },
   {
+   "id": "34e4ba5b4e74",
+   "titulo": "Jazz One Trío Athos",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Jazz One Trío Athos.",
+   "url": "https://livepass.com.ar/events/jazz-one-trio-athos-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
+  },
+  {
    "id": "b0c73f041dce",
    "titulo": "KALIX pres. ARSENAL (PBJ & TTAIPAN), ARGØN, SID B2B ZKY",
    "categoria": "Fiestas y electrónica",
@@ -19117,6 +19508,30 @@
    "embebible": true
   },
   {
+   "id": "b7b6082d1b79",
+   "titulo": "La chica Fahrenheit",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La chica Fahrenheit en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "58abb61ce2b6",
    "titulo": "La habitación de Clara",
    "categoria": "Teatro",
@@ -19617,7 +20032,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -19867,23 +20282,24 @@
    "embebible": false
   },
   {
-   "id": "4ec3bd6b754e",
-   "titulo": "Madre noche",
+   "id": "5aa10c3567ea",
+   "titulo": "Madre noche: música y ciencia bajo la cúpula con Juan Quintero y Mariano Ribas",
    "categoria": "Música",
    "lugar": "Planetario Galileo Galilei",
    "barrio": "Palermo",
-   "direccion": "Av. Sarmiento y Belisario Roldán",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Viernes 16 y sábado 17, 19 h.",
+   "fecha_fin": "2026-10-17",
+   "hora": "19:00",
+   "horarios": "Viernes 16 y sábado 17 de octubre, 19 h",
    "precio": "Consultar",
-   "descripcion": "Un ciclo de encuentros que propone unir música y ciencia bajo la cúpula del Planetario. El músico Juan Quintero y el divulgador científico Mariano Ribas alternando canciones vinculadas con el universo",
-   "url": "https://planetario.buenosaires.gob.ar/madre-noche",
+   "descripcion": "Música y ciencia bajo la cúpula del Planetario con Juan Quintero y Mariano Ribas.",
+   "url": "https://planetario.buenosaires.gob.ar/agenda",
    "dominio": "planetario.buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Planetario Galileo Galilei",
    "fuentes": [
+    "Planetario Galileo Galilei",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": "",
@@ -20176,6 +20592,30 @@
    ],
    "lat": -34.59679,
    "lng": -58.443012,
+   "embebible": true
+  },
+  {
+   "id": "f8bbdadb9248",
+   "titulo": "Maxi Feroleto y las Tribus del Alba",
+   "categoria": "Música",
+   "lugar": "THE MONKEYS",
+   "barrio": "Palermo",
+   "direccion": "Guatemala 4462",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 18000 (incluye $ 5000 de consumición)",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural de Palermo.",
+   "url": "https://reservas.themonkeys.com.ar/",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.588172,
+   "lng": -58.422331,
    "embebible": true
   },
   {
@@ -20483,7 +20923,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -20734,25 +21174,26 @@
   {
    "id": "da3648f04829",
    "titulo": "Nite-Lite Club Nitro",
-   "categoria": "Evento",
-   "lugar": "La Paz Arriba",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "LA PAZ ARRIBA",
    "barrio": "San Nicolas",
-   "direccion": "Av. Callao 1082",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/nitelite-club-nitro",
+   "descripcion": "Noche de baile en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
    "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "Passline"
    ],
-   "lat": -34.608602,
-   "lng": -58.392002,
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -21598,6 +22039,30 @@
    ],
    "lat": -34.60039,
    "lng": -58.407884,
+   "embebible": true
+  },
+  {
+   "id": "81c09f8c6b12",
+   "titulo": "Pizza y vino libre",
+   "categoria": "Gastronomía",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Pizza y vino libre en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true
   },
   {
@@ -22858,30 +23323,6 @@
    "embebible": true
   },
   {
-   "id": "3ca89e6fbf01",
-   "titulo": "TAXI DRIVER - 50 AÑOS - Viernes 16/10 21hs",
-   "categoria": "Evento",
-   "lugar": "MARES",
-   "barrio": "",
-   "direccion": "El Salvador 5958",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "21:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/taxi-driver-50-anos-viernes-1610-21hs",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.580449,
-   "lng": -58.439029,
-   "embebible": false
-  },
-  {
    "id": "3e4fa46d41c7",
    "titulo": "TERCER CORDÓN DEL CONURBANO",
    "categoria": "Teatro",
@@ -23048,6 +23489,31 @@
    "lat": "",
    "lng": "",
    "embebible": true
+  },
+  {
+   "id": "bdea311b6fa2",
+   "titulo": "Taxi Driver, 50 aÃ±os",
+   "categoria": "Cine",
+   "lugar": "CLUB CULTURAL MARES",
+   "barrio": "Palermo",
+   "direccion": "El Salvador 5958",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "ProyecciÃ³n por los 50 aÃ±os de Taxi Driver en Mares, nave contracultural.",
+   "url": "https://www.passline.com/eventos/taxi-driver-50-anos-viernes-1610-21hs",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL MARES",
+    "Passline"
+   ],
+   "lat": -34.580449,
+   "lng": -58.439029,
+   "embebible": false
   },
   {
    "id": "0ea5413bb436",
@@ -23556,6 +24022,30 @@
    "embebible": true
   },
   {
+   "id": "672628a36085",
+   "titulo": "Un hombre peligroso (5ta temporada)",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "Viernes 16 y 23 de octubre 21 h; domingos 18 y 25 de octubre 19 h (continúa el 30/10)",
+   "precio": "Consultar",
+   "descripcion": "Experiencia inmersiva en los mitines secretos anarquistas de comienzos del siglo XX, sobre la vida de Severino Di Giovanni; el público forma parte de la resistencia en tiempo real. Ubicación secreta.",
+   "url": "https://ticketslapolilla.com/event/22616",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true
+  },
+  {
    "id": "dbcbbb4ea8eb",
    "titulo": "Una Risa Compañera Cumpleaños!! Dos años de risas y humor peronista",
    "categoria": "Evento",
@@ -24027,7 +24517,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/visita-guiada-homenaje-cacho-casta%C3%B1a-en-caf%C3%A9-la-humedad?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -25833,7 +26323,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -25888,6 +26378,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "20e23113bdb4",
+   "titulo": "Bingo de canciones: reggaetón viejo",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Bingo de canciones: reggaetón viejo en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
   },
   {
    "id": "29c65e8f41bf",
@@ -26418,6 +26932,30 @@
    "embebible": false
   },
   {
+   "id": "63278b480062",
+   "titulo": "Catharsis en La Nube",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Nube",
+   "barrio": "Belgrano",
+   "direccion": "Av. Int. Güiraldes 2851",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Catharsis en La Nube.",
+   "url": "https://events.flashpass.com.ar/eventos/catharsis-4610",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Nube"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "1112365c6f28",
    "titulo": "Chakana",
    "categoria": "Teatro",
@@ -26554,7 +27092,7 @@
    "url": "https://museohistoriconacional.cultura.gob.ar/actividad/ciclo-musicatedras-4/",
    "dominio": "museohistoriconacional.cultura.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico Nacional",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
    "fuentes": [
     "Museo Histórico Nacional"
    ],
@@ -27090,6 +27628,30 @@
    ],
    "lat": -34.567065,
    "lng": -58.494165,
+   "embebible": true
+  },
+  {
+   "id": "c7e229e0c3b7",
+   "titulo": "Crisálida",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en Sigue la Polilla, centro de resistencia cultural, Boedo.",
+   "url": "https://ticketslapolilla.com/event/157253-crisalida",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
    "embebible": true
   },
   {
@@ -27744,28 +28306,29 @@
    "embebible": false
   },
   {
-   "id": "620248769d49",
-   "titulo": "ENRAMADA + Bulos - Martinez en CCNU",
+   "id": "0849e2a82bc6",
+   "titulo": "ENRAMADA + Bulos - Martínez",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
    "hora": "22:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/TH2TC9KT1BKM/enramada-bulos-martinez-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): ENRAMADA + Bulos - Martínez.",
+   "url": "https://livepass.com.ar/events/enramada-bulos-martinez-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "319ac03a29d9",
@@ -28104,6 +28667,30 @@
    "embebible": true
   },
   {
+   "id": "7f414d513ce9",
+   "titulo": "El Lápiz no se borra",
+   "categoria": "Teatro",
+   "lugar": "PONCHO CLUB CULTURAL",
+   "barrio": "Villa Crespo",
+   "direccion": "Marechal, Leopoldo 1219",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábados 21 h (temporada 10 al 31 de octubre)",
+   "precio": "Consultar",
+   "descripcion": "Inspirada en La noche de los lápices: La Plata, 1975, un joven estudiante se enamora de Claudia en un contexto político que atraviesa sus vidas. Premio Revelación Premios al Teatro Independiente 2025.",
+   "url": "https://reservaescena.com/ponchoteatro/el-lapiz-no-se-borra",
+   "dominio": "reservaescena.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "PONCHO CLUB CULTURAL"
+   ],
+   "lat": -34.606287,
+   "lng": -58.438882,
+   "embebible": false
+  },
+  {
    "id": "4d6784d6ab12",
    "titulo": "El Mantel",
    "categoria": "Teatro",
@@ -28197,30 +28784,6 @@
    ],
    "lat": -34.602443,
    "lng": -58.444055,
-   "embebible": true
-  },
-  {
-   "id": "e9538c91b099",
-   "titulo": "El Tren Que Se Perdio",
-   "categoria": "Teatro",
-   "lugar": "UNIVERSIDAD POPULAR DE BELGRANO",
-   "barrio": "Núñez",
-   "direccion": "Campos Salles 2145",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-17",
-   "hora": "19:00",
-   "horarios": "sáb 19:00 (el 17/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102607-el-tren-que-se-perdio",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.550718,
-   "lng": -58.46338,
    "embebible": true
   },
   {
@@ -28344,28 +28907,54 @@
    "embebible": false
   },
   {
-   "id": "99e557454620",
-   "titulo": "El universo que no vemos",
-   "categoria": "Taller",
-   "lugar": "Planetario Galileo Galilei",
-   "barrio": "",
-   "direccion": "s/n Avenida Sarmiento",
+   "id": "a5618fd17b94",
+   "titulo": "El tren que se perdió",
+   "categoria": "Teatro",
+   "lugar": "Auditorio UPB (Universidad Popular de Belgrano)",
+   "barrio": "Núñez",
+   "direccion": "Campos Salles 2145",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
-   "hora": "",
-   "horarios": "",
+   "hora": "19:00",
+   "horarios": "sáb 19:00 (el 17/10)",
    "precio": "Consultar",
-   "descripcion": "Curso de astronomía: observar el cosmos más allá de la luz visible. 3 encuentros",
-   "url": "https://www.eventbrite.com.ar/e/el-universo-que-no-vemos-tickets-2003059069598",
-   "dominio": "eventbrite.com.ar",
+   "descripcion": "Domingo Salvatierra llega a un lugar abandonado y se encuentra con quienes todavía lo habitan: un encuentro extraño, cargado de silencios, preguntas y viejas cuentas pendientes.",
+   "url": "https://panel.alternativateatral.com/obra102607-el-tren-que-se-perdio",
+   "dominio": "panel.alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "UNIVERSIDAD POPULAR DE BELGRANO",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.550718,
+   "lng": -58.46338,
+   "embebible": true
+  },
+  {
+   "id": "50fedab64572",
+   "titulo": "El universo que no vemos (curso)",
+   "categoria": "Taller",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-31",
+   "hora": "10:00",
+   "horarios": "Sábados 17, 24 y 31 de octubre, 10 h",
+   "precio": "Consultar",
+   "descripcion": "Curso a cargo del profesor Rafael Girola en el Planetario Galileo Galilei.",
+   "url": "https://planetario.buenosaires.gob.ar/agenda",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei",
     "Eventbrite Buenos Aires"
    ],
-   "lat": -34.574489,
-   "lng": -58.414524,
-   "embebible": true
+   "lat": "",
+   "lng": "",
+   "embebible": false
   },
   {
    "id": "b7fc38da1bc9",
@@ -28438,6 +29027,30 @@
    "lat": -34.583915,
    "lng": -58.392915,
    "embebible": false
+  },
+  {
+   "id": "a01c8257eb52",
+   "titulo": "Encuentro de bordado: Costurero x la memoria",
+   "categoria": "Taller",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Casa Nuestros Hijos, la Vida y la Esperanza",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jornada de bordado colectivo junto al Costurero x la memoria.",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "dominio": "espaciomemoria.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Sitio de Memoria ESMA",
+   "fuentes": [
+    "Museo Sitio de Memoria ESMA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
   },
   {
    "id": "60d28a600264",
@@ -28671,7 +29284,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/expo-matear?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Búsqueda: ferias",
@@ -29430,7 +30043,7 @@
   },
   {
    "id": "b7b46a6c3236",
-   "titulo": "Flotando Apenas",
+   "titulo": "Flotando apenas",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL THAMES",
    "barrio": "Palermo",
@@ -29440,12 +30053,13 @@
    "hora": "22:30",
    "horarios": "sáb 22:30 (el 17/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra95943-flotando-apenas",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Flotando apenas en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CENTRO CULTURAL THAMES",
     "Alternativa Teatral"
    ],
    "lat": -34.588545,
@@ -30005,6 +30619,30 @@
    ],
    "lat": -34.613273,
    "lng": -58.416399,
+   "embebible": true
+  },
+  {
+   "id": "e6c13ea603ad",
+   "titulo": "Historias incendiándose en el aire",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en Sigue la Polilla, centro de resistencia cultural, Boedo.",
+   "url": "https://ticketslapolilla.com/event/152600-historias-incendiandose-en-el-aire",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
    "embebible": true
   },
   {
@@ -30607,6 +31245,30 @@
    ],
    "lat": -34.580766,
    "lng": -58.497459,
+   "embebible": true
+  },
+  {
+   "id": "b0892a0b3dec",
+   "titulo": "Klauss invita: Ana Helder - Manuela S.",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Under Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de música electrónica en Under Club con Ana Helder y Manuela S.",
+   "url": "https://www.venti.com.ar/evento/klauss-invita-ana-helder-manuela-s",
+   "dominio": "venti.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Under Club"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158,
    "embebible": true
   },
   {
@@ -31355,23 +32017,24 @@
    "embebible": true
   },
   {
-   "id": "bf157a072646",
-   "titulo": "La Odisea En Vivo",
+   "id": "3e24a9f41a07",
+   "titulo": "La Odisea en vivo",
    "categoria": "Teatro",
-   "lugar": "UNIVERSIDAD POPULAR DE BELGRANO",
+   "lugar": "Auditorio UPB (Universidad Popular de Belgrano)",
    "barrio": "Núñez",
    "direccion": "Campos Salles 2145",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-24",
    "hora": "21:00",
-   "horarios": "sáb 21:00 (del 17/10 al 24/10)",
+   "horarios": "Sábados 17 y 24 de octubre, 21 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra67517-la-odisea-en-vivo",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Versión teatral de La Odisea en el Auditorio UPB. Duración: 60 minutos.",
+   "url": "https://panel.alternativateatral.com/obra67517-la-odisea-en-vivo",
+   "dominio": "panel.alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "UNIVERSIDAD POPULAR DE BELGRANO",
     "Alternativa Teatral"
    ],
    "lat": -34.550718,
@@ -31497,6 +32160,30 @@
    "lat": -34.602217,
    "lng": -58.434715,
    "embebible": true
+  },
+  {
+   "id": "dad6806e5892",
+   "titulo": "La Sangre RÃ­e presenta: Corre, Lola, corre (1998) de Tom Tykwer",
+   "categoria": "Cine",
+   "lugar": "CLUB CULTURAL MARES",
+   "barrio": "Palermo",
+   "direccion": "El Salvador 5958",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "FunciÃ³n de cine de La Sangre RÃ­e en Mares: Corre, Lola, corre (1998) de Tom Tykwer.",
+   "url": "https://www.passline.com/eventos/la-sangre-rie-presenta-corre-lola-corre-1998-de-tom-tykwer-1710-21hs-en-mares-559080",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL MARES"
+   ],
+   "lat": -34.580449,
+   "lng": -58.439029,
+   "embebible": false
   },
   {
    "id": "90bd6fdb6b46",
@@ -33042,6 +33729,30 @@
    "embebible": true
   },
   {
+   "id": "0bc5490be8f6",
+   "titulo": "Mica Mazza",
+   "categoria": "Música",
+   "lugar": "THE MONKEYS",
+   "barrio": "Palermo",
+   "direccion": "Guatemala 4462",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 18000 (incluye $ 5000 de consumición)",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural de Palermo.",
+   "url": "https://reservas.themonkeys.com.ar/",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.588172,
+   "lng": -58.422331,
+   "embebible": true
+  },
+  {
    "id": "900408abe417",
    "titulo": "Michigan, Italia",
    "categoria": "Teatro",
@@ -33088,6 +33799,30 @@
    "lat": -34.585956,
    "lng": -58.440158,
    "embebible": false
+  },
+  {
+   "id": "08a11e926518",
+   "titulo": "Milonga Tangonautas",
+   "categoria": "Danza",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Casa de la Militancia (H.I.J.O.S)",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "17 h clase de Milonga Lisa y Traspie; 19 h Tango DJ Manos; 19:30 Dúo Sentimental y Criolla; 20:30 Ballet Escuela CETBA; 21:30 Color Tango",
+   "precio": "Consultar",
+   "descripcion": "Milonga con clase de Milonga Lisa y Traspie a cargo de Jorge Firpo y Diana Mestre, DJ, música en vivo, ballet y cierre con Color Tango, de Roberto Álvarez.",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "dominio": "espaciomemoria.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Sitio de Memoria ESMA",
+   "fuentes": [
+    "Museo Sitio de Memoria ESMA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
   },
   {
    "id": "aaff7c360b7b",
@@ -33203,7 +33938,7 @@
    "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "dominio": "argentina.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Nacional Ferroviario",
    "fuentes": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
@@ -33356,27 +34091,28 @@
    "embebible": false
   },
   {
-   "id": "fe76c9767f35",
+   "id": "d1ef557c373e",
    "titulo": "NILA presenta Formas",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
    "hora": "21:00",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/XVA84FNSE1YP/nila-presenta-formas",
-   "dominio": "saleplan.ar",
+   "precio": "Desde $ 11000",
+   "descripcion": "Show de NILA en La Casa del Árbol.",
+   "url": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "La Casa del Árbol",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.589886,
+   "lng": -58.436362,
    "embebible": false
   },
   {
@@ -33815,6 +34551,30 @@
    "embebible": false
   },
   {
+   "id": "5ebb9f68358e",
+   "titulo": "Noche peronista para matchear",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche peronista para matchear en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "db9f60f383b9",
    "titulo": "Nos arrancaría de este lugar para siempre",
    "categoria": "Teatro",
@@ -33862,6 +34622,30 @@
    "lat": -34.600303,
    "lng": -58.416846,
    "embebible": true
+  },
+  {
+   "id": "4ce9d842c113",
+   "titulo": "Nuestro Cine: Leviticus, viewing party con Maricafe",
+   "categoria": "Cine",
+   "lugar": "nuestro cine",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "FunciÃ³n del ciclo de cine cuir Nuestro Cine feat. Maricafe viewing party.",
+   "url": "https://linktr.ee/nuestrocine",
+   "dominio": "linktr.ee",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "nuestro cine"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
   },
   {
    "id": "9ad5fb091deb",
@@ -34323,28 +35107,29 @@
    "embebible": true
   },
   {
-   "id": "ba1ba416cf1d",
-   "titulo": "Pedro Velazquez en CCNU",
+   "id": "0098228e1b83",
+   "titulo": "Pedro Velázquez",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
    "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/BJEM9NFJNYCT/pedro-velazquez-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Pedro Velázquez.",
+   "url": "https://livepass.com.ar/events/pedro-velazquez-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "3449c667706f",
@@ -34540,6 +35325,30 @@
    "embebible": false
   },
   {
+   "id": "9f3a389c0342",
+   "titulo": "PeÃ±a Sin Palabritas",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL CEPAS",
+   "barrio": "Villa Urquiza",
+   "direccion": "Tamborini, Jose Pascual 3378",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "PeÃ±a con mÃºsica en vivo en el Centro Cultural Cepas, con entradas anticipadas.",
+   "url": "https://linktr.ee/cccepas",
+   "dominio": "linktr.ee",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL CEPAS"
+   ],
+   "lat": -34.559985,
+   "lng": -58.478947,
+   "embebible": false
+  },
+  {
    "id": "7fe056bc84b7",
    "titulo": "Peña Atravesada - Por Oiga! Orquesta",
    "categoria": "Música",
@@ -34660,6 +35469,30 @@
    "embebible": true
   },
   {
+   "id": "f3adb69d8547",
+   "titulo": "Pop Hereje",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "DESEO BSAS",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta pop en Deseo.",
+   "url": "https://www.enigmatickets.com/event/b625edaa-bdc4-4e4b-a1e3-c72fafb0f85c",
+   "dominio": "enigmatickets.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DESEO BSAS"
+   ],
+   "lat": -34.591569,
+   "lng": -58.475821,
+   "embebible": false
+  },
+  {
    "id": "6cd6ac1593e0",
    "titulo": "Por Amar A Mara",
    "categoria": "Teatro",
@@ -34778,6 +35611,30 @@
    "lat": -34.597758,
    "lng": -58.430207,
    "embebible": true
+  },
+  {
+   "id": "4cf037e7b23a",
+   "titulo": "PresentaciÃ³n del libro \"Una milicia contra la paz\", de Victoria Pascualini",
+   "categoria": "Literatura y charlas",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "PresentaciÃ³n del libro de Victoria Pascualini en Club Conjura.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false
   },
   {
    "id": "8bf1cb63983c",
@@ -35155,7 +36012,7 @@
    "url": "https://museohistoriconacional.cultura.gob.ar/actividad/recorridos-por-la-reserva-visitable-7/",
    "dominio": "museohistoriconacional.cultura.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico Nacional",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
    "fuentes": [
     "Museo Histórico Nacional"
    ],
@@ -35449,6 +36306,30 @@
    ],
    "lat": -34.610239,
    "lng": -58.417359,
+   "embebible": true
+  },
+  {
+   "id": "9c3762e88002",
+   "titulo": "Room Showcase: Bondarük y SMT - Milena Adamis",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Under Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de techno en Under Club con Bondarük y SMT y Milena Adamis.",
+   "url": "https://www.venti.com.ar/evento/room-showcase-bondar-k-y-smt-milena-adamis",
+   "dominio": "venti.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Under Club"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158,
    "embebible": true
   },
   {
@@ -36150,6 +37031,30 @@
    "embebible": false
   },
   {
+   "id": "d9ff06b68219",
+   "titulo": "Suena Primavera: Monique Kessous",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Suena Primavera: Monique Kessous en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "1c6f3b6f72cb",
    "titulo": "Sueño De Una Noche De Verano",
    "categoria": "Teatro",
@@ -36363,6 +37268,30 @@
    ],
    "lat": -34.609223,
    "lng": -58.390938,
+   "embebible": false
+  },
+  {
+   "id": "1192b10e5cac",
+   "titulo": "Taller Fábrica de Historias",
+   "categoria": "Taller",
+   "lugar": "AMARAMA ESPACIO CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 543",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "10:30",
+   "horarios": "Sábados 10, 17 y 24 de octubre de 10:30 a 12:30 h",
+   "precio": "Consultar",
+   "descripcion": "Taller de narración oral con Paula Broner y Bernardo Sabbioni: el modelo del buen narrador espontáneo, relatos autobiográficos y entrenamiento para interpretar un texto. Zona Abasto, inscripción por la bio de @bronersabbioni.",
+   "url": "https://www.instagram.com/paulabroner/p/DdodZjfuUMM/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "AMARAMA ESPACIO CULTURAL"
+   ],
+   "lat": -34.603551,
+   "lng": -58.41434,
    "embebible": false
   },
   {
@@ -36750,23 +37679,24 @@
    "embebible": true
   },
   {
-   "id": "c3057c43c2bc",
-   "titulo": "Todo Lo Que Me Falta",
+   "id": "9024021badf1",
+   "titulo": "Todo lo que me falta",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL THAMES",
    "barrio": "Palermo",
    "direccion": "Thames 1426",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-28",
+   "fecha_fin": "2026-10-17",
    "hora": "20:00",
    "horarios": "sáb 20:00 (hasta el 28/11)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra95114-todo-lo-que-me-falta",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Todo lo que me falta en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CENTRO CULTURAL THAMES",
     "Alternativa Teatral"
    ],
    "lat": -34.588545,
@@ -37182,30 +38112,6 @@
    "embebible": false
   },
   {
-   "id": "2495817f8b0b",
-   "titulo": "VOIDPALOOZA DÍA 2 // CRUX REVIVAL + FANTASÍA FUEGUINA + CIUDAD GANGSTER + EL ABSURDO SECADOR + BEN",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-17",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/JY8Z0G2K7F0C/voidpalooza-dia-2-crux-revival-fantasia-fueguina-ciudad-gangster-el-absurdo-secador-ben",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "e271fa18c4db",
    "titulo": "Vaca muerta",
    "categoria": "Teatro",
@@ -37449,6 +38355,31 @@
    "embebible": false
   },
   {
+   "id": "a79fe9eafaf3",
+   "titulo": "Voidpalooza DÃ­a 2: Crux Revival + FantasÃ­a Fueguina + Ciudad Gangster + El Absurdo Secador + Benja Ciotta",
+   "categoria": "Festival",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Segunda jornada del festival Voidpalooza en Club Conjura.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false
+  },
+  {
    "id": "198f970fe971",
    "titulo": "Voracidad",
    "categoria": "Teatro",
@@ -37512,7 +38443,7 @@
    "url": "https://turismo.buenosaires.gob.ar/es/article/water-lantern-festival?QHS2026",
    "dominio": "turismo.buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Buenos Aires Secreta: planes del fin de semana",
@@ -38992,6 +39923,30 @@
    "embebible": true
   },
   {
+   "id": "d7fd496de208",
+   "titulo": "Cinema Kabuki",
+   "categoria": "Cine",
+   "lugar": "Sala Lugones",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Proyección en el marco del Japanese Film Festival: Discover Kabuki Tour.",
+   "url": "https://complejoteatral.gob.ar/produccion/cinema-kabuki/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Sala Lugones"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
    "id": "c79e0437741e",
    "titulo": "Cinema Kabuki: doble proyección (Ninin Fuji Musume y Nihon Furisode Hajime)",
    "categoria": "Cine",
@@ -40002,6 +40957,30 @@
    "embebible": false
   },
   {
+   "id": "683d7177d3c1",
+   "titulo": "Encuentro de ciencia con Lucas Paganini: el telescopio espacial Roman",
+   "categoria": "Literatura y charlas",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla de divulgación sobre el telescopio espacial Roman a cargo de Lucas Paganini.",
+   "url": "https://planetario.buenosaires.gob.ar/agenda",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
    "id": "ec1ca5e9c912",
    "titulo": "Encuentros de Ciencia: Lucas Paganini (NASA)",
    "categoria": "Evento",
@@ -40291,6 +41270,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "268d031807a6",
+   "titulo": "Fauna Postal",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fauna Postal en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
   },
   {
    "id": "d8b51a64626b",
@@ -40701,28 +41704,29 @@
    "embebible": true
   },
   {
-   "id": "11b95fb61b17",
-   "titulo": "Guille Saroka en CCNU",
+   "id": "8b82af8c1090",
+   "titulo": "Guille Saroka",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-18",
    "hora": "21:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/2F1R31RXRQJQ/guille-saroka-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Guille Saroka.",
+   "url": "https://livepass.com.ar/events/guille-saroka-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "5372e866f154",
@@ -43249,7 +44253,7 @@
    "url": "https://museohistoriconacional.cultura.gob.ar/actividad/arma-tu-propio-poncho-pin/",
    "dominio": "museohistoriconacional.cultura.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico Nacional",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
    "fuentes": [
     "Museo Histórico Nacional"
    ],
@@ -43762,6 +44766,30 @@
    "embebible": false
   },
   {
+   "id": "e11b525db7b3",
+   "titulo": "Woodland Folks - Gente del bosque",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Woodland Folks - Gente del bosque en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "a46844c891e6",
    "titulo": "XUL",
    "categoria": "Cine",
@@ -44169,6 +45197,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "63b99dbeaf02",
+   "titulo": "Clase de danza urbana: especial Britney",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Clase de danza urbana: especial Britney en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
   },
   {
    "id": "1f2c922b94f8",
@@ -44966,6 +46018,30 @@
    "embebible": false
   },
   {
+   "id": "f0b9ff281f5d",
+   "titulo": "Rompecabezas",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 1000",
+   "descripcion": "Rompecabezas en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "e9b7b16291be",
    "titulo": "Siete Estaciones Para Hablar de Amor",
    "categoria": "Teatro",
@@ -45276,6 +46352,30 @@
    ],
    "lat": -34.602854,
    "lng": -58.38796,
+   "embebible": true
+  },
+  {
+   "id": "ab5264418c82",
+   "titulo": "Tutti frutti",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 1000",
+   "descripcion": "Tutti frutti en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true
   },
   {
@@ -46266,27 +47366,28 @@
    "embebible": false
   },
   {
-   "id": "0253e69d9741",
-   "titulo": "Muy Martes! - 20/10/26",
+   "id": "1fbc6fec9bc6",
+   "titulo": "Muy Martes!",
    "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-20",
    "fecha_fin": "2026-10-20",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/57RAR9S7S4D9/muy-martes-201026",
-   "dominio": "saleplan.ar",
+   "descripcion": "Propuesta de los martes en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -46627,6 +47728,30 @@
    "embebible": false
   },
   {
+   "id": "7105520fc9ff",
+   "titulo": "Tarot a la gorra",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "A la gorra",
+   "descripcion": "Tarot a la gorra en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "4015a4038dac",
    "titulo": "Tierra Citrus",
    "categoria": "Teatro",
@@ -46648,6 +47773,54 @@
    ],
    "lat": -34.61052,
    "lng": -58.393862,
+   "embebible": true
+  },
+  {
+   "id": "98fb4ababed5",
+   "titulo": "Torneo de ajedrez",
+   "categoria": "Deporte",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Torneo de ajedrez en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
+   "id": "afcac8ad356c",
+   "titulo": "Trivia de la farándula argentina",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Trivia de la farándula argentina en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true
   },
   {
@@ -47039,6 +48212,54 @@
    "embebible": true
   },
   {
+   "id": "db4df6d7a782",
+   "titulo": "Cenas íntimas en la cava: edición Viajeros",
+   "categoria": "Gastronomía",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cenas íntimas en la cava: edición Viajeros en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
+   "id": "508feec35c27",
+   "titulo": "Charla de sexología: vínculos no monogámicos",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla de sexología: vínculos no monogámicos en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "dc616ad7fb3e",
    "titulo": "Ciclo Tango de miércoles: La Santa Milonga",
    "categoria": "Música",
@@ -47133,6 +48354,30 @@
    "lat": -34.592096,
    "lng": -58.411657,
    "embebible": true
+  },
+  {
+   "id": "96697065cbe3",
+   "titulo": "De Otra Vida presenta: ciclo La construcciÃ³n de un monstruo, violencia: The Shining (1980)",
+   "categoria": "Cine",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "ProyecciÃ³n de The Shining (1980) dentro del ciclo La construcciÃ³n de un monstruo de De Otra Vida.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false
   },
   {
    "id": "f53fbf8c8090",
@@ -47952,6 +49197,30 @@
    "embebible": true
   },
   {
+   "id": "fd22d83ba237",
+   "titulo": "Monzani, Acosta, Villanueva, Pérez Garber",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Monzani, Acosta, Villanueva, Pérez Garber.",
+   "url": "https://livepass.com.ar/events/monzani-acosta-villanueva-perez-garber-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
+  },
+  {
    "id": "2f95eb1985b9",
    "titulo": "Museo del Mate 21-10",
    "categoria": "Visita guiada",
@@ -48144,6 +49413,30 @@
    "embebible": true
   },
   {
+   "id": "2919f46297ac",
+   "titulo": "Paz Carrara presenta Tres x Tres",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Paz Carrara presenta Tres x Tres en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "ec3a149c5324",
    "titulo": "Ping Pong Casonero",
    "categoria": "Evento",
@@ -48165,6 +49458,30 @@
    ],
    "lat": -34.602953,
    "lng": -58.414504,
+   "embebible": true
+  },
+  {
+   "id": "7c5fe790c4bb",
+   "titulo": "Pintá tu copa",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Pintá tu copa en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true
   },
   {
@@ -48240,27 +49557,28 @@
    "embebible": false
   },
   {
-   "id": "d55f9bd729bb",
-   "titulo": "Salsa Arriba - 21/10/26",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "id": "528fcc3ab0ba",
+   "titulo": "Salsa Arriba",
+   "categoria": "Danza",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-21",
    "hora": "19:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/9ECMT2NSSPPQ/salsa-arriba-211026",
-   "dominio": "saleplan.ar",
+   "descripcion": "Noche de salsa en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -48360,28 +49678,29 @@
    "embebible": true
   },
   {
-   "id": "947b20a328df",
-   "titulo": "Soy Califa! Dexter Gordon Tribute en CCNU",
+   "id": "2b6e0fb4011a",
+   "titulo": "Soy Califa! Dexter Gordon Tribute",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-21",
    "hora": "22:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/8Q74HHMV0Y8Q/soy-califa-dexter-gordon-tribute-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Soy Califa! Dexter Gordon Tribute.",
+   "url": "https://livepass.com.ar/events/soy-califa-dexter-gordon-tribute-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "0d76e7a33f39",
@@ -49586,30 +50905,6 @@
    "embebible": false
   },
   {
-   "id": "1f307e5d3db8",
-   "titulo": "IN SOUNDS -- 22/10/26",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "21:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/9M87WQ1FGV91/in-sounds-221026",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "f71bee7de439",
    "titulo": "Impro al 2020..",
    "categoria": "Teatro",
@@ -49656,6 +50951,31 @@
    "lat": -34.601786,
    "lng": -58.421276,
    "embebible": true
+  },
+  {
+   "id": "8d518c1757c7",
+   "titulo": "In Sounds",
+   "categoria": "Evento",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "In Sounds en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.603874,
+   "lng": -58.389346,
+   "embebible": false
   },
   {
    "id": "62dd126698bf",
@@ -49755,27 +51075,28 @@
    "embebible": false
   },
   {
-   "id": "d24922ba5900",
-   "titulo": "Javiera Mena",
+   "id": "58e136cb48dc",
+   "titulo": "Javiera Mena: 20 aÃ±os",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "DESEO BSAS",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/QS236PYZ488Z/javiera-mena",
-   "dominio": "saleplan.ar",
+   "descripcion": "Javiera Mena celebra 20 aÃ±os de trayectoria en Deseo.",
+   "url": "https://www.enigmatickets.com/event/ad39f4b6-8c9c-464d-bdb7-d5c077f64249",
+   "dominio": "enigmatickets.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "DESEO BSAS",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.591569,
+   "lng": -58.475821,
    "embebible": false
   },
   {
@@ -49899,6 +51220,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "66ca34177b55",
+   "titulo": "Karaoke night",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Karaoke night en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
   },
   {
    "id": "b76bc5a573b5",
@@ -50623,6 +51968,54 @@
    "embebible": false
   },
   {
+   "id": "56cdfc8fcab8",
+   "titulo": "Noche de música: Luz de Giro y Las Acacias",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de música: Luz de Giro y Las Acacias en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
+   "id": "d2c479b42c7d",
+   "titulo": "Noche de trivia: The Office",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de trivia: The Office en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "f4523cab5fc4",
    "titulo": "ONLY Rose",
    "categoria": "Evento",
@@ -50719,28 +52112,29 @@
    "embebible": false
   },
   {
-   "id": "07e389f5eaee",
-   "titulo": "Paula Giordano / Cel Mamone en CCNU",
+   "id": "8e53349783d8",
+   "titulo": "Paula Giordano / Cel Mamone",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
    "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/PS7V7YFBM0D2/paula-giordano-cel-mamone-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Paula Giordano / Cel Mamone.",
+   "url": "https://livepass.com.ar/events/paula-giordano-cel-mamone-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "f10c374015e6",
@@ -50984,30 +52378,6 @@
    "embebible": true
   },
   {
-   "id": "aa32dc448327",
-   "titulo": "TINDER NIGHT DE 35 A 45 + VINO [CABA]",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "20:30",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Comunidad. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/VJ99XR9CBJ4B/tinder-night-de-35-a-45-vino-caba",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "565c01dc1eff",
    "titulo": "TODO LO QUE ESTÁ A MI LADO (Fernando Rubio)",
    "categoria": "Danza",
@@ -51153,27 +52523,28 @@
    "embebible": true
   },
   {
-   "id": "2327584b2dbe",
+   "id": "6dbc728135c5",
    "titulo": "Terror en la Biblioteca",
-   "categoria": "Cine",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "categoria": "Teatro",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Cine. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/WP8T2M75JYG0/terror-en-la-biblioteca",
-   "dominio": "saleplan.ar",
+   "precio": "Desde $ 12000",
+   "descripcion": "Propuesta Terror en la Biblioteca en La Casa del Árbol.",
+   "url": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "La Casa del Árbol",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.589886,
+   "lng": -58.436362,
    "embebible": false
   },
   {
@@ -51754,28 +53125,29 @@
    "embebible": true
   },
   {
-   "id": "19f5185fe659",
-   "titulo": "Abasto Jazz Quinteto en CCNU",
+   "id": "7786b4676dba",
+   "titulo": "Abasto Jazz Quinteto",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
    "hora": "22:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/K783J850ZXVD/abasto-jazz-quinteto-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Abasto Jazz Quinteto.",
+   "url": "https://livepass.com.ar/events/abasto-jazz-quinteto-en-ccnu-2026-10-23-22-30-00-0300",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "c425f58f76d7",
@@ -51800,6 +53172,30 @@
    "lat": -34.586499,
    "lng": -58.433201,
    "embebible": true
+  },
+  {
+   "id": "4326b14a997c",
+   "titulo": "Alex Serra & Totidub",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "DESEO BSAS",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Alex Serra y Totidub en Deseo.",
+   "url": "https://www.enigmatickets.com/event/77ed13fc-62fd-4544-916f-c1d910960249",
+   "dominio": "enigmatickets.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DESEO BSAS"
+   ],
+   "lat": -34.591569,
+   "lng": -58.475821,
+   "embebible": false
   },
   {
    "id": "1ebca27047ad",
@@ -53046,7 +54442,8 @@
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Complejo Teatral de Buenos Aires"
+    "Complejo Teatral de Buenos Aires",
+    "Sala Lugones"
    ],
    "lat": -34.604245,
    "lng": -58.3884,
@@ -53123,6 +54520,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "99a3ff403c98",
+   "titulo": "Gabriel Sainz - Superpoblado // La Ronda celebra a Charly",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Gabriel Sainz - Superpoblado // La Ronda celebra a Charly en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
   },
   {
    "id": "140c951f62a0",
@@ -54374,28 +55795,29 @@
    "embebible": false
   },
   {
-   "id": "9be5ee3ee909",
-   "titulo": "Marsico, Vazquez, Mollard en CCNU",
+   "id": "c41f86760a3d",
+   "titulo": "Marsico, Vazquez, Mollard",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
    "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/P7CJATWSWJ9S/marsico-vazquez-mollard-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Marsico, Vazquez, Mollard.",
+   "url": "https://livepass.com.ar/events/marsico-vazquez-mollard-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "f7262a83ea29",
@@ -54806,30 +56228,6 @@
    "embebible": false
   },
   {
-   "id": "1095df6657b0",
-   "titulo": "POPENVIVO2",
-   "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "21:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/7WJPJ3ZY80GC/popenvivo2",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "45cb4085aa70",
    "titulo": "PRETA PORTER + GITANOS + PERSEA",
    "categoria": "Música",
@@ -55068,6 +56466,31 @@
    "lat": "",
    "lng": "",
    "embebible": true
+  },
+  {
+   "id": "cc7e88a40cd9",
+   "titulo": "PopEnVivo 2",
+   "categoria": "Música",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 10000",
+   "descripcion": "Show de pop en vivo en La Casa del Árbol.",
+   "url": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false
   },
   {
    "id": "c01f27d44f7a",
@@ -55671,6 +57094,31 @@
    "embebible": false
   },
   {
+   "id": "6777478b4652",
+   "titulo": "Tinder night",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tinder night en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "eabd1c9b514a",
    "titulo": "Todos Flotan #3",
    "categoria": "Música",
@@ -55804,30 +57252,6 @@
    "precio": "Consultar",
    "descripcion": "Vida nocturna. Listado en SalePlan; el lugar figura en la ficha.",
    "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/XXAP6BK5DAK4/vie-2310-pedro-monardi-la-candelera-set-de-dj-akapulco-en-hawaiian-love",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
-   "id": "aa6f49cf3080",
-   "titulo": "VOIDPALOOZA DÍA 3 // MONOBLOCKS + LUSAT-555 + RIGANTTI + BRUNO DEL FABRO + PERLA MADRE",
-   "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/HCFR0GQT7F84/voidpalooza-dia-3-monoblocks-lusat-555-rigantti-bruno-del-fabro-perla-madre",
    "dominio": "saleplan.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -55984,6 +57408,30 @@
    "embebible": true
   },
   {
+   "id": "05d30fde91b1",
+   "titulo": "Vicio FantasÃ­a en La Nube",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Nube",
+   "barrio": "Belgrano",
+   "direccion": "Av. Int. Güiraldes 2851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Vicio FantasÃ­a en La Nube.",
+   "url": "https://events.flashpass.com.ar/eventos/vicio-fantasia-x-la-nube-2954",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Nube"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "b7470555a36d",
    "titulo": "Vier 23| 🎉🪩 FIESTA RETRO – VIAJAMOS EN EL TIEMPO 🪩🎉",
    "categoria": "Fiestas y electrónica",
@@ -56053,6 +57501,31 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "26cadc175872",
+   "titulo": "Voidpalooza DÃ­a 3: Monoblocks + Lusat-555 + RiganttÃ­ + Bruno Del Fabro + Perla Madre",
+   "categoria": "Festival",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tercera jornada del festival Voidpalooza en Club Conjura.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
    "embebible": false
   },
   {
@@ -56899,6 +58372,30 @@
    "embebible": true
   },
   {
+   "id": "7b1ca0bf061c",
+   "titulo": "Bingo de canciones 90 y 00's",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Bingo de canciones 90 y 00's en el Centro Cultural Armoza (Miller 3036, Villa Urquiza): bar cultural con actividades a la noche.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true
+  },
+  {
    "id": "6d98bad9ee2c",
    "titulo": "Blackened Symphony",
    "categoria": "Evento",
@@ -57257,6 +58754,30 @@
    ],
    "lat": -34.580766,
    "lng": -58.497459,
+   "embebible": true
+  },
+  {
+   "id": "860fa4ab0ffc",
+   "titulo": "Chamcita - Agucho",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Chamcita - Agucho.",
+   "url": "https://livepass.com.ar/events/chamcita-agucho-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
    "embebible": true
   },
   {
@@ -57838,6 +59359,30 @@
    "embebible": false
   },
   {
+   "id": "be61bb11634a",
+   "titulo": "Desfile VerÃ³nica Zhang SS27 \"Handle with care\" + after party",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Nube",
+   "barrio": "Belgrano",
+   "direccion": "Av. Int. Güiraldes 2851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Desfile de la colecciÃ³n SS27 de VerÃ³nica Zhang seguido de after party en La Nube.",
+   "url": "https://events.flashpass.com.ar/eventos/veronica-zhang-ss27-handle-with-care-desfile-after-party-6712",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Nube"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "6fcf60c387e7",
    "titulo": "EGOFEST - SUPERTIERRA vs DUODENO",
    "categoria": "Teatro",
@@ -58415,7 +59960,7 @@
   },
   {
    "id": "50e59ea8da47",
-   "titulo": "Fabio Florido 7 HORAS",
+   "titulo": "Fabio Florido 7 horas",
    "categoria": "Fiestas y electrónica",
    "lugar": "Under Club",
    "barrio": "Palermo",
@@ -58425,17 +59970,18 @@
    "hora": "23:59",
    "horarios": "Hasta las 07:00",
    "precio": "Consultar",
-   "descripcion": "Line-up: Fabio Florido",
-   "url": "https://ra.co/events/2537108",
-   "dominio": "ra.co",
+   "descripcion": "Set de siete horas de Fabio Florido en Under Club.",
+   "url": "https://www.venti.com.ar/evento/fabio-florido-7-horas",
+   "dominio": "venti.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Under Club",
     "Resident Advisor: Buenos Aires"
    ],
    "lat": -34.585956,
    "lng": -58.440158,
-   "embebible": false
+   "embebible": true
   },
   {
    "id": "0b30a45e62c8",
@@ -58934,7 +60480,7 @@
    "url": "https://museohistoriconacional.cultura.gob.ar/actividad/ine-crespo-y-seba-dorso/",
    "dominio": "museohistoriconacional.cultura.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico Nacional",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
    "fuentes": [
     "Museo Histórico Nacional"
    ],
@@ -59641,6 +61187,30 @@
    "embebible": false
   },
   {
+   "id": "7e99b010d32c",
+   "titulo": "Lucero, Loguercio, Dartiguelongue, Gerez",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Lucero, Loguercio, Dartiguelongue, Gerez.",
+   "url": "https://livepass.com.ar/events/lucero-loguercio-dartiguelongue-gerez-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
+  },
+  {
    "id": "2ed5ac3f11c8",
    "titulo": "Luciano Pereyra",
    "categoria": "Música",
@@ -59739,30 +61309,6 @@
    "embebible": false
   },
   {
-   "id": "55b1a5eb12be",
-   "titulo": "MICROONDAS + TELEPLOMO + LOS COWBOYS // EN CLUB CONJURA",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/8VES62ZPT7N1/microondas-teleplomo-los-cowboys-en-club-conjura",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "bb10bf022e94",
    "titulo": "Magnolia Cineclub presenta: Beetlejuice",
    "categoria": "Evento",
@@ -59784,6 +61330,30 @@
    ],
    "lat": -34.597839,
    "lng": -58.412882,
+   "embebible": true
+  },
+  {
+   "id": "c9e888d01989",
+   "titulo": "Manu Estrada y Mati Donetto: Ciudadano del amor",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Manu Estrada y Mati Donetto: Ciudadano del amor en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
    "embebible": true
   },
   {
@@ -59859,6 +61429,31 @@
    "embebible": true
   },
   {
+   "id": "db724271ab4d",
+   "titulo": "Microondas + Teleplomo + Los Cowboys",
+   "categoria": "Evento",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show de rock en Club Conjura.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false
+  },
+  {
    "id": "034c20b1bc6f",
    "titulo": "Moderno bailable",
    "categoria": "Danza",
@@ -59881,6 +61476,31 @@
    "lat": -34.622066,
    "lng": -58.370745,
    "embebible": true
+  },
+  {
+   "id": "6caf26950957",
+   "titulo": "Muestra de canto - Turno A",
+   "categoria": "Música",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Muestra de canto de alumnos en La Casa del Árbol.",
+   "url": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false
   },
   {
    "id": "bd41e3ac41d2",
@@ -60243,6 +61863,30 @@
    "lat": -34.606411,
    "lng": -58.47992,
    "embebible": true
+  },
+  {
+   "id": "421d605d748a",
+   "titulo": "Nuestro Cine: The Hunger",
+   "categoria": "Cine",
+   "lugar": "nuestro cine",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "FunciÃ³n del ciclo de cine cuir Nuestro Cine; entradas por formulario.",
+   "url": "https://linktr.ee/nuestrocine",
+   "dominio": "linktr.ee",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "nuestro cine"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
   },
   {
    "id": "134581aac84a",
@@ -60726,6 +62370,30 @@
    "embebible": false
   },
   {
+   "id": "2871124b818b",
+   "titulo": "Polenta",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "DESEO BSAS",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Polenta en Deseo.",
+   "url": "https://www.enigmatickets.com/event/1994ae18-958b-4847-a348-429acc9d88bf",
+   "dominio": "enigmatickets.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DESEO BSAS"
+   ],
+   "lat": -34.591569,
+   "lng": -58.475821,
+   "embebible": false
+  },
+  {
    "id": "2a94a0d001c1",
    "titulo": "Programa B",
    "categoria": "Danza",
@@ -61062,6 +62730,30 @@
    "embebible": true
   },
   {
+   "id": "f2240139148a",
+   "titulo": "Rhye",
+   "categoria": "Evento",
+   "lugar": "DESEO BSAS",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rhye en vivo en Deseo.",
+   "url": "https://www.enigmatickets.com/event/8332199b-77f0-4e4c-8ac1-e0febbf0af41",
+   "dominio": "enigmatickets.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DESEO BSAS"
+   ],
+   "lat": -34.591569,
+   "lng": -58.475821,
+   "embebible": false
+  },
+  {
    "id": "74c962a40f03",
    "titulo": "Rocio Portillo",
    "categoria": "Fiestas y electrónica",
@@ -61301,6 +62993,30 @@
    "lat": -34.587387,
    "lng": -58.433659,
    "embebible": false
+  },
+  {
+   "id": "de3e88ec41aa",
+   "titulo": "Savoy Night / Swing",
+   "categoria": "Danza",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de swing en Sigue la Polilla, centro de resistencia cultural, Boedo.",
+   "url": "https://ticketslapolilla.com/event/165438-savoy-night-swing",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true
   },
   {
    "id": "8d847175a0ff",
@@ -62146,30 +63862,6 @@
    "embebible": true
   },
   {
-   "id": "fb1de0cddd42",
-   "titulo": "🌞MUESTRA DE CANTO - TURNO B - 22.30HS",
-   "categoria": "Teatro",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "22:30",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Teatro y espectáculos. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/VFDBT4GTES0W/muestra-de-canto-turno-b-2230hs",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
-  },
-  {
    "id": "a3ac866ba742",
    "titulo": "🔥 FIESTA A TODO VOLUMEN – A TODO VOLUMEN STREAM",
    "categoria": "Fiestas y electrónica",
@@ -62266,27 +63958,28 @@
    "embebible": true
   },
   {
-   "id": "4ee86e75dbdd",
+   "id": "8f52ebe327fb",
    "titulo": "A Touch of Color Kiki Ball",
-   "categoria": "Artes visuales",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "21:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Arte y exposiciones. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/N6RWXBGVN7H2/a-touch-of-color-kiki-ball",
-   "dominio": "saleplan.ar",
+   "descripcion": "Kiki Ball A Touch of Color en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -62338,27 +64031,28 @@
    "embebible": false
   },
   {
-   "id": "714238ce19c4",
-   "titulo": "Abrazo Cine Conversación en LPA",
+   "id": "93e538715287",
+   "titulo": "Abrazo: cine y conversaciÃ³n en LPA",
    "categoria": "Cine",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "18:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Cine. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/B7Q0K78ZY3FX/abrazo-cine-conversacion-en-lpa",
-   "dominio": "saleplan.ar",
+   "descripcion": "ProyecciÃ³n de cine con conversaciÃ³n en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -62939,6 +64633,30 @@
    "embebible": true
   },
   {
+   "id": "f5622a4118f6",
+   "titulo": "Desde la raíz",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Desde la raíz en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "af4df2ac4c6b",
    "titulo": "Domingo acústico en Panda Rojo",
    "categoria": "Música",
@@ -63299,27 +65017,28 @@
    "embebible": true
   },
   {
-   "id": "10b6beec9c1d",
-   "titulo": "GRIS + MONTESPLASH + NUMEN + IMO // EN CLUB CONJURA",
+   "id": "6dff0519545c",
+   "titulo": "Gris + Montesplash + Numen + Imo",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "19:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/W1AHVSQJPR1F/gris-montesplash-numen-imo-en-club-conjura",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en Club Conjura con Gris, Montesplash, Numen e Imo.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "club conjura",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.598307,
+   "lng": -58.459862,
    "embebible": false
   },
   {
@@ -63638,6 +65357,30 @@
    "embebible": true
   },
   {
+   "id": "9f2d1a029a7f",
+   "titulo": "La Barbarie de los Nadies",
+   "categoria": "Teatro",
+   "lugar": "Espacio Memoria y Derechos Humanos (ex ESMA) · Cuatro Columnas",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra escrita y dirigida por Lola Montiel: una distopía sobre el colapso ambiental y social y la lucha de un grupo de sobrevivientes frente a un conglomerado automatizado. Conversatorio posterior con miembros de la APDH.",
+   "url": "https://www.espaciomemoria.ar/agenda/",
+   "dominio": "espaciomemoria.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Sitio de Memoria ESMA",
+   "fuentes": [
+    "Museo Sitio de Memoria ESMA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true
+  },
+  {
    "id": "caf2330857b5",
    "titulo": "La Milonga del CC25",
    "categoria": "Música",
@@ -63807,6 +65550,30 @@
    "embebible": false
   },
   {
+   "id": "7f590feff305",
+   "titulo": "Los Abeles Impro",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Los Abeles Impro en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
+  },
+  {
    "id": "d5f9c20ff176",
    "titulo": "Lucía En Kamishibai",
    "categoria": "Infantil",
@@ -63901,6 +65668,30 @@
    "lat": "",
    "lng": "",
    "embebible": true
+  },
+  {
+   "id": "a71653d47f17",
+   "titulo": "Magia, teatro para bebés",
+   "categoria": "Infantil",
+   "lugar": "PONCHO CLUB CULTURAL",
+   "barrio": "Villa Crespo",
+   "direccion": "Marechal, Leopoldo 1219",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo interactivo para niños de 0 a 3 años con canciones, imágenes, colores y formas, interpretado por tres personajes.",
+   "url": "https://reservaescena.com/ponchoteatro/magia-teatro-para-bebes",
+   "dominio": "reservaescena.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "PONCHO CLUB CULTURAL"
+   ],
+   "lat": -34.606287,
+   "lng": -58.438882,
+   "embebible": false
   },
   {
    "id": "ed27a0e40446",
@@ -64816,28 +66607,29 @@
    "embebible": true
   },
   {
-   "id": "ddb5a072bc3d",
-   "titulo": "Treasures of Classic Jazz en CCNU",
+   "id": "389cf7f5faa3",
+   "titulo": "Treasures of Classic Jazz",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "21:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/0J6V03R7GYF6/treasures-of-classic-jazz-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Treasures of Classic Jazz.",
+   "url": "https://livepass.com.ar/events/treasures-of-classic-jazz-en-ccnu-2026-10-25-21-30-00-0300",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "436fe7a0c55b",
@@ -66119,27 +67911,28 @@
    "embebible": false
   },
   {
-   "id": "5c35f30e422b",
-   "titulo": "Muy Martes! - 27/10/26",
+   "id": "98ac4ee1b3b2",
+   "titulo": "Muy Martes!",
    "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-27",
    "fecha_fin": "2026-10-27",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/KJN29BBVXC8G/muy-martes-271026",
-   "dominio": "saleplan.ar",
+   "descripcion": "Propuesta de los martes en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -66433,28 +68226,29 @@
    "embebible": false
   },
   {
-   "id": "f6548d9eac46",
-   "titulo": "Astor's Back In Town en CCNU",
+   "id": "3b53f325df57",
+   "titulo": "Astor's Back In Town",
    "categoria": "Música",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-10-28",
    "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Música. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/86NSYBKRPAVJ/astors-back-in-town-en-ccnu",
-   "dominio": "saleplan.ar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Astor's Back In Town.",
+   "url": "https://livepass.com.ar/events/astor-s-back-in-town-en-ccnu",
+   "dominio": "livepass.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "NUEVA URIARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "242ed76122ef",
@@ -66745,6 +68539,30 @@
    "embebible": false
   },
   {
+   "id": "d72d8dc4b75b",
+   "titulo": "García - Gómez - Oqui",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): García - Gómez - Oqui.",
+   "url": "https://livepass.com.ar/events/garcia-gomez-oqui-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
+  },
+  {
    "id": "721a0e7f53c7",
    "titulo": "Hablame Sucio. Ciclo de poesía fetichista (6° Edición)",
    "categoria": "Artes visuales",
@@ -66858,7 +68676,8 @@
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Complejo Teatral de Buenos Aires"
+    "Complejo Teatral de Buenos Aires",
+    "Sala Lugones"
    ],
    "lat": -34.604245,
    "lng": -58.3884,
@@ -66911,6 +68730,30 @@
    "lat": -34.603658,
    "lng": -58.378892,
    "embebible": false
+  },
+  {
+   "id": "d0dd63658cdd",
+   "titulo": "Lucas Heredia y Rodrigo Carazo en concierto",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Lucas Heredia y Rodrigo Carazo en concierto en Cultural Thames, centro cultural de Villa Crespo.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true
   },
   {
    "id": "d67f46f04206",
@@ -67179,27 +69022,28 @@
    "embebible": false
   },
   {
-   "id": "fda529fce710",
-   "titulo": "Salsa Arriba - 28/10/26",
-   "categoria": "Evento",
-   "lugar": "",
-   "barrio": "",
-   "direccion": "",
+   "id": "dc5b024acce5",
+   "titulo": "Salsa Arriba",
+   "categoria": "Danza",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-10-28",
    "hora": "19:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Otros. Listado en SalePlan; el lugar figura en la ficha.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/GB87PMHB0VRQ/salsa-arriba-281026",
-   "dominio": "saleplan.ar",
+   "descripcion": "Noche de salsa en La Paz Arriba.",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA PAZ ARRIBA",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603874,
+   "lng": -58.389346,
    "embebible": false
   },
   {
@@ -67539,6 +69383,30 @@
    "embebible": false
   },
   {
+   "id": "b524d266b80b",
+   "titulo": "Excéntrico Varieté",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de varieté en Sigue la Polilla, centro de resistencia cultural, Boedo.",
+   "url": "https://ticketslapolilla.com/event/165470-excentrico-variete",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true
+  },
+  {
    "id": "43aaf1e33e34",
    "titulo": "Fabrizio Calabrese (abre Faraday)",
    "categoria": "Música",
@@ -67729,6 +69597,30 @@
    "lat": "",
    "lng": "",
    "embebible": false
+  },
+  {
+   "id": "94c99d2ef274",
+   "titulo": "Jazz After Hours",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Jazz After Hours.",
+   "url": "https://livepass.com.ar/events/jazz-after-hours-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "687a549fba8e",
@@ -67995,6 +69887,30 @@
    "embebible": true
   },
   {
+   "id": "74383500a770",
+   "titulo": "PPTfest 2.0",
+   "categoria": "Festival",
+   "lugar": "LA PAZ ARRIBA",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Segunda ediciÃ³n del PPTfest en La Paz Arriba (entradas agotadas).",
+   "url": "https://www.passline.com/sitio/la-paz-arriba",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.603874,
+   "lng": -58.389346,
+   "embebible": false
+  },
+  {
    "id": "312c65a059e2",
    "titulo": "Pablo Dacal presenta El Otro",
    "categoria": "Música",
@@ -68124,7 +70040,7 @@
    "fecha_inicio": "2026-10-29",
    "fecha_fin": "2026-10-29",
    "hora": "16:00",
-   "horarios": "",
+   "horarios": "Jueves 29 de octubre 16:30 y 20:30 h",
    "precio": "Consultar",
    "descripcion": "Ciclo del director Shohei Imamura.",
    "url": "https://complejoteatral.gob.ar/produccion/shohei-imamura-bis/",
@@ -68132,11 +70048,36 @@
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Complejo Teatral de Buenos Aires"
+    "Complejo Teatral de Buenos Aires",
+    "Sala Lugones"
    ],
    "lat": -34.604245,
    "lng": -58.3884,
    "embebible": false
+  },
+  {
+   "id": "af2b087f7416",
+   "titulo": "Singers in Jam",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo en el Centro Cultural Nueva Uriarte (jazz, tango, folklore y músicas del mundo): Singers in Jam.",
+   "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-10-29",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true
   },
   {
    "id": "13e396f09dfc",
@@ -68208,6 +70149,30 @@
    ],
    "lat": -34.596677,
    "lng": -58.377,
+   "embebible": false
+  },
+  {
+   "id": "99668acde961",
+   "titulo": "Voltaje Alterno: Echoes the Band (tributo a Pink Floyd) + Los Duendes",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tributo a Pink Floyd con Echoes the Band y Los Duendes en Club Conjura.",
+   "url": "https://www.passline.com/sitio/2191791-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
    "embebible": false
   },
   {

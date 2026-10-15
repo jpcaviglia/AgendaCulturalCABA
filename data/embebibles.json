@@ -149,6 +149,12 @@
   "fecha": "2026-10-15",
   "url": "https://cc25.org/programacion/"
  },
+ "ccarmoza.com": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://ccarmoza.com/"
+ },
  "cceba.aecid.es": {
   "ok": false,
   "motivo": "X-Frame-Options sameorigin",
@@ -245,6 +251,12 @@
   "fecha": "2026-10-15",
   "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictadura/"
  },
+ "compras.evento-simple.com": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://compras.evento-simple.com/factoria"
+ },
  "crobar.com.ar": {
   "ok": true,
   "motivo": "",
@@ -262,6 +274,12 @@
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://culturalcava.ar/"
+ },
+ "culturalthames.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://culturalthames.com.ar/"
  },
  "derecho.uba.ar": {
   "ok": true,
@@ -281,6 +299,12 @@
   "fecha": "2026-10-15",
   "url": "https://elculturalsanmartin.ar/eventos/"
  },
+ "enigmatickets.com": {
+  "ok": false,
+  "motivo": "frame-ancestors 'none'",
+  "fecha": "2026-10-15",
+  "url": "https://www.enigmatickets.com/event/b625edaa-bdc4-4e4b-a1e3-c72fafb0f85c"
+ },
  "entradasba.buenosaires.gob.ar": {
   "ok": false,
   "motivo": "frame-ancestors 'self'",
@@ -298,6 +322,12 @@
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://entrecomunas.com.ar"
+ },
+ "espaciomemoria.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://www.espaciomemoria.ar/visitanos/"
  },
  "eventbrite.com": {
   "ok": true,
@@ -460,6 +490,12 @@
   "motivo": "frame-ancestors 'none'",
   "fecha": "2026-10-15",
   "url": "https://linda.buenosaires.gob.ar/eventos/experiencia-ba-en-la-floralis"
+ },
+ "linktr.ee": {
+  "ok": false,
+  "motivo": "HTTP 403",
+  "fecha": "2026-10-15",
+  "url": "https://linktr.ee/nuestrocine"
  },
  "livepass.com.ar": {
   "ok": true,
@@ -647,6 +683,18 @@
   "fecha": "2026-10-15",
   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/"
  },
+ "panel.alternativateatral.com": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://panel.alternativateatral.com/obra102607-el-tren-que-se-perdio"
+ },
+ "parquedelamemoria.org.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://parquedelamemoria.org.ar/arte-esculturas-emplazadas/"
+ },
  "passline.com": {
   "ok": false,
   "motivo": "HTTP 403",
@@ -706,6 +754,18 @@
   "motivo": "HTTP 403",
   "fecha": "2026-10-15",
   "url": "https://ra.co/events/2532200"
+ },
+ "reservaescena.com": {
+  "ok": false,
+  "motivo": "X-Frame-Options deny",
+  "fecha": "2026-10-15",
+  "url": "https://reservaescena.com/ponchoteatro/el-lapiz-no-se-borra"
+ },
+ "reservas.themonkeys.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://reservas.themonkeys.com.ar/"
  },
  "revamos.com": {
   "ok": true,
@@ -821,6 +881,12 @@
   "fecha": "2026-10-15",
   "url": "https://tickets.latangente.com.ar/musica/lobel"
  },
+ "ticketslapolilla.com": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://ticketslapolilla.com/event/22616"
+ },
  "timbre4.com": {
   "ok": true,
   "motivo": "",
@@ -856,6 +922,12 @@
   "motivo": "frame-ancestors 'none'",
   "fecha": "2026-10-15",
   "url": "https://www.vamosferia.com/ferias"
+ },
+ "venti.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://www.venti.com.ar/evento/klauss-invita-ana-helder-manuela-s"
  },
  "venti.live": {
   "ok": true,

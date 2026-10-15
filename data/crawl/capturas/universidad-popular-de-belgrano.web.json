@@ -1,0 +1,50 @@
+{
+ "id": "universidad-popular-de-belgrano",
+ "canal": "web",
+ "fuente": "UNIVERSIDAD POPULAR DE BELGRANO",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.upebe.com.ar/",
+  "http://www.alternativateatral.com/espacio375-auditorio-upb-universidad-popular-de-belgrano",
+  "https://panel.alternativateatral.com/obra102607-el-tren-que-se-perdio",
+  "https://panel.alternativateatral.com/obra67517-la-odisea-en-vivo",
+  "https://panel.alternativateatral.com/obra21309-chau-senor-miedo",
+  "https://panel.alternativateatral.com/obra101990-las-que-traman-la-trama"
+ ],
+ "eventos": [
+  {
+   "titulo": "El tren que se perdió",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Auditorio UPB (Universidad Popular de Belgrano)",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://panel.alternativateatral.com/obra102607-el-tren-que-se-perdio",
+   "descripcion": "Domingo Salvatierra llega a un lugar abandonado y se encuentra con quienes todavía lo habitan: un encuentro extraño, cargado de silencios, preguntas y viejas cuentas pendientes.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "La Odisea en vivo",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábados 17 y 24 de octubre, 21 h",
+   "lugar": "Auditorio UPB (Universidad Popular de Belgrano)",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://panel.alternativateatral.com/obra67517-la-odisea-en-vivo",
+   "descripcion": "Versión teatral de La Odisea en el Auditorio UPB. Duración: 60 minutos.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

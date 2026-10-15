@@ -1,0 +1,63 @@
+{
+ "id": "under-club",
+ "canal": "web",
+ "fuente": "Under Club",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.underclub.com.ar/",
+  "https://underclub.com.ar/news",
+  "https://www.venti.com.ar/organizadores/under-club"
+ ],
+ "eventos": [
+  {
+   "titulo": "Klauss invita: Ana Helder - Manuela S.",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "Under Club",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.venti.com.ar/evento/klauss-invita-ana-helder-manuela-s",
+   "descripcion": "Fiesta de música electrónica en Under Club con Ana Helder y Manuela S.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Room Showcase: Bondarük y SMT - Milena Adamis",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "Under Club",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.venti.com.ar/evento/room-showcase-bondar-k-y-smt-milena-adamis",
+   "descripcion": "Noche de techno en Under Club con Bondarük y SMT y Milena Adamis.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Fabio Florido 7 horas",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "Under Club",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.venti.com.ar/evento/fabio-florido-7-horas",
+   "descripcion": "Set de siete horas de Fabio Florido en Under Club.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}
