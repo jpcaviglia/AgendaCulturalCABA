@@ -292,7 +292,7 @@
    "notas": [
     "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
     "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo.",
-    "2026-10-15 [web] scripts/saleplan.py: 1656 tarjetas de CABA en la ventana, 974 ya cubiertas por otras fuentes, 682 guardadas sin lugar."
+    "2026-10-15 [web] scripts/saleplan.py: 1655 tarjetas de CABA en la ventana, 992 ya cubiertas por otras fuentes, 663 guardadas sin lugar."
    ],
    "entradas": [
     "https://saleplan.ar/buenos-aires/eventos?page=1",
@@ -310,7 +310,7 @@
     "web": {
      "fecha": "2026-10-15",
      "estado": "con_eventos",
-     "eventos": 681,
+     "eventos": 662,
      "paginas": 81
     }
    },
@@ -326,6 +326,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 681
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 662
     }
    ],
    "lugar_opcional": true
@@ -4216,7 +4222,29 @@
    "origen": "data/lugares.json",
    "barrio": "Boedo",
    "direccion": "Maza 1160",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "casa de servicios (estudio, salas de ensayo): no publica eventos abiertos"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Casamaza es un estudio de grabación y salas de ensayo; no hay cartelera."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-surco",
