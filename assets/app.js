@@ -175,10 +175,6 @@
     const { desde, hasta } = datos.ventana;
     $("resumen-ventana").textContent =
       `${eventos.length} actividades entre el ${fechaIso(desde)} y el ${fechaIso(hasta)}.`;
-    if (datos.fuente) {
-      $("fuente-eventos").href = datos.fuente.url;
-      $("fuente-eventos").textContent = datos.fuente.nombre;
-    }
     $("actualizado").textContent = datos.generado
       ? `Última actualización: ${fechaIso(datos.generado)}.`
       : "";

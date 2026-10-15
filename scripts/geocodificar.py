@@ -31,7 +31,12 @@ def _pedir(q):
     return [round(float(datos[0]["lat"]), 6), round(float(datos[0]["lon"]), 6)] if datos else None
 
 
-def geocodificar_eventos(eventos, lugares=()):
+def ubicar_con_cache(eventos, lugares=()):
+    """Como geocodificar_eventos, pero solo con la caché (sin red)."""
+    return geocodificar_eventos(eventos, lugares, consultar=False)
+
+
+def geocodificar_eventos(eventos, lugares=(), consultar=True):
     """Completa e['lat'], e['lng'] (o '' si no se pudo ubicar). Devuelve cuántas direcciones consultó."""
     try:
         cache = json.loads(CACHE.read_text(encoding="utf-8"))
@@ -46,6 +51,9 @@ def geocodificar_eventos(eventos, lugares=()):
             continue
         q = _consulta(texto)
         if q not in cache:
+            if not consultar:
+                e["lat"] = e["lng"] = ""
+                continue
             try:
                 cache[q] = _pedir(q)
             except Exception as ex:  # sin red o bloqueo: no se cachea, se reintenta la próxima
@@ -56,5 +64,6 @@ def geocodificar_eventos(eventos, lugares=()):
             time.sleep(1.1)
         pos = cache[q]
         e["lat"], e["lng"] = (pos[0], pos[1]) if pos else ("", "")
-    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    if consultadas:
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     return consultadas

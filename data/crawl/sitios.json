@@ -1,0 +1,6953 @@
+{
+ "actualizado": "2026-10-14",
+ "sitios": [
+  {
+   "id": "turismo-buenos-aires-que-hacer-esta-semana",
+   "nombre": "Turismo Buenos Aires: Qué hacer esta semana",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "notas": [
+    "2026-10-14: Accesible. Incluye 112 actividades con fecha de inicio, horario, precio, lugar y enlace al sitio del organizador."
+   ],
+   "comportamiento": {
+    "extraccion": "La página trae todas las actividades en un arreglo JSON embebido que empieza con '[{\"orden\"'. Extraerlo con JS (ver navegador.md, Turismo BA) en vez de leer las tarjetas una por una.",
+    "sin_fecha_fin": "Turismo BA solo publica fecha de inicio: las actividades que ya empezaron van con vigente_sin_fin: true"
+   }
+  },
+  {
+   "id": "alternativa-teatral",
+   "nombre": "Alternativa Teatral",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://www.alternativateatral.com/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Pendiente de decidir: Pendiente: revisar la cartelera general y sus términos de uso antes de automatizarla. Ya aparece como fuente de varios lugares.",
+   "notas": [
+    "2026-10-14: Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia)."
+   ]
+  },
+  {
+   "id": "time-out-buenos-aires-agenda",
+   "nombre": "Time Out Buenos Aires: Agenda",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://www.timeout.com/es/buenos-aires/agenda",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Pendiente de decidir: Pendiente: confirmar si el HTML trae datos de eventos (JSON-LD) y revisar términos de uso.",
+   "notas": [
+    "2026-10-14: Accesible. Tiene secciones de agenda semanal y mensual."
+   ]
+  },
+  {
+   "id": "eventbrite-buenos-aires",
+   "nombre": "Eventbrite Buenos Aires",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Sus términos de uso restringen el scraping.",
+   "notas": [
+    "2026-10-14: Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección)."
+   ]
+  },
+  {
+   "id": "indiehoy-agenda-de-recitales",
+   "nombre": "Indiehoy: Agenda de recitales",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://indiehoy.com/eventos/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Pendiente de decidir: Pendiente: filtrar por CABA y revisar términos de uso.",
+   "notas": [
+    "2026-10-14: Accesible. Lista recitales en Argentina; muchos enlaces a eventos."
+   ]
+  },
+  {
+   "id": "ticketek",
+   "nombre": "Ticketek",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://www.ticketek.com.ar/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Sus términos de uso restringen el scraping.",
+   "notas": [
+    "2026-10-14: Accesible, pero la página principal no muestra un listado de eventos verificable."
+   ]
+  },
+  {
+   "id": "passline",
+   "nombre": "Passline",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://www.passline.com/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Sus términos de uso restringen el scraping.",
+   "notas": [
+    "2026-10-14: Bloquea la verificación automática (HTTP 403)."
+   ]
+  },
+  {
+   "id": "datos-abiertos-gcba-eventos-y-actividades-culturales",
+   "nombre": "Datos abiertos GCBA: eventos y actividades culturales",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://data.buenosaires.gob.ar/dataset/actividades-culturales",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Pendiente de decidir: No sirve para la agenda en vivo. Sirve para análisis histórico o para el catálogo de espacios (espacios-culturales).",
+   "notas": [
+    "2026-10-14: Accesible, pero los datos son históricos: el último evento es de 2018-2019."
+   ]
+  },
+  {
+   "id": "la-cultura-en-la-semana-boletin-gcba",
+   "nombre": "La Cultura en la Semana (boletín GCBA)",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://buenosaires.gob.ar/boletines/",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "rastrear": false,
+   "motivo": "Pendiente de decidir: Se recibe por email; no es automatizable sin acceso al buzón.",
+   "notas": [
+    "2026-10-14: Existe según la búsqueda; no se pudo leer su contenido."
+   ]
+  },
+  {
+   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
+   "nombre": "SalePlan: agenda de Ciudad de Buenos Aires",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "instagram": "",
+   "origen": "fuentes.json (lista anterior de agregadores)",
+   "notas": [
+    "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket."
+   ],
+   "entradas": [
+    "https://saleplan.ar/buenos-aires/que-hacer-hoy",
+    "https://saleplan.ar/buenos-aires/que-hacer-esta-semana",
+    "https://saleplan.ar/buenos-aires/que-hacer-este-fin-de-semana",
+    "https://saleplan.ar/buenos-aires/eventos"
+   ],
+   "comportamiento": {
+    "extraccion": "Los listados traen nombre y enlace; fecha, lugar y dirección están en el JSON-LD de cada ficha (/planes/ID/). Usar el fragmento jsonld en cada ficha. Pausas de 1-2 s entre fichas: limita el ritmo.",
+    "paginacion": "La agenda semanal se pagina con ?page=N (unas 17 páginas); en el navegador también aparecen más tarjetas al scrollear.",
+    "limite": "Hasta ~150 fichas por corrida: primero hoy, fin de semana y semana. Saltear las que ya figuren en la web propia del lugar."
+   }
+  },
+  {
+   "id": "gallery-circuito-de-arte-al-dia",
+   "nombre": "Gallery (circuito de Arte al Día)",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.gallery.com.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "comportamiento": {
+    "uso": "lista de galerías participantes y sus muestras"
+   }
+  },
+  {
+   "id": "arte-al-dia-agenda",
+   "nombre": "Arte al Día: agenda",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.artealdia.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "comportamiento": {
+    "uso": "noticias y agenda de muestras"
+   }
+  },
+  {
+   "id": "indiehoy-muestras-de-arte-del-mes",
+   "nombre": "Indiehoy: muestras de arte del mes",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://indiehoy.com/arte/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "comportamiento": {
+    "uso": "notas mensuales con muestras; buscar la del mes en curso"
+   }
+  },
+  {
+   "id": "time-out-arte",
+   "nombre": "Time Out: arte",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "comportamiento": {
+    "uso": "calendario de ferias y muestras"
+   }
+  },
+  {
+   "id": "meridiano-camara-argentina-de-galerias-de-arte-contemporaneo",
+   "nombre": "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://somosmeridiano.com.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "comportamiento": {
+    "uso": "directorio de galerías socias con web, horarios y dirección"
+   }
+  },
+  {
+   "id": "ruth-benzacar",
+   "nombre": "Ruth Benzacar",
+   "tipo": "galeria",
+   "lugares": [
+    "Ruth Benzacar"
+   ],
+   "web": "https://ruthbenzacar.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://ruthbenzacar.com/muestras/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "nora-fisch",
+   "nombre": "Nora Fisch",
+   "tipo": "galeria",
+   "lugares": [
+    "Nora Fisch"
+   ],
+   "web": "https://norafisch.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://norafisch.com/muestras/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "alberto-sendros",
+   "nombre": "Alberto Sendrós",
+   "tipo": "galeria",
+   "lugares": [
+    "Alberto Sendrós"
+   ],
+   "web": "https://www.albertosendros.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual."
+   ]
+  },
+  {
+   "id": "del-infinito",
+   "nombre": "Del Infinito",
+   "tipo": "galeria",
+   "lugares": [
+    "Del Infinito"
+   ],
+   "web": "https://www.delinfinito.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.delinfinito.com/muestras/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "isla-flotante",
+   "nombre": "Isla Flotante",
+   "tipo": "galeria",
+   "lugares": [
+    "Isla Flotante"
+   ],
+   "web": "https://www.islaflotante.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.islaflotante.com/exhibiciones.php"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Sitio JS; listado en exhibiciones.php"
+   ]
+  },
+  {
+   "id": "ignacio-liprandi",
+   "nombre": "Ignacio Liprandi",
+   "tipo": "galeria",
+   "lugares": [
+    "Ignacio Liprandi"
+   ],
+   "web": "https://www.ignacioliprandi.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "valk-gallery",
+   "nombre": "Valk Gallery",
+   "tipo": "galeria",
+   "lugares": [
+    "Valk Gallery"
+   ],
+   "web": "https://valkgallery.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sin listado de muestras en el sitio; revisar Instagram @valkgallery_"
+   ]
+  },
+  {
+   "id": "rubbers",
+   "nombre": "Rubbers",
+   "tipo": "galeria",
+   "lugares": [
+    "Rubbers"
+   ],
+   "web": "https://www.rubbers.com.ar",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "de-sousa-galeria",
+   "nombre": "De Sousa Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "De Sousa Galería"
+   ],
+   "web": "https://www.desousagaleria.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.desousagaleria.com/exposiciones"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "coleccion-fortabat",
+   "nombre": "Colección Fortabat",
+   "tipo": "galeria",
+   "lugares": [
+    "Colección Fortabat"
+   ],
+   "web": "https://coleccionamalita.org.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://coleccionamalita.org.ar/exposiciones"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "fundacion-proa",
+   "nombre": "Fundación PROA",
+   "tipo": "galeria",
+   "lugares": [
+    "Fundación PROA"
+   ],
+   "web": "https://www.proa.org/esp/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.proa.org/esp/exhibiciones-proa-actuales.php"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "museo-nacional-de-bellas-artes",
+   "nombre": "Museo Nacional de Bellas Artes",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Nacional de Bellas Artes"
+   ],
+   "web": "https://www.bellasartes.gob.ar",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.bellasartes.gob.ar/agenda/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "museo-de-arte-moderno-de-buenos-aires",
+   "nombre": "Museo de Arte Moderno de Buenos Aires",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "web": "https://museomoderno.org/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://museomoderno.org/agenda/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "galeria-vasari",
+   "nombre": "Galería Vasari",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Vasari"
+   ],
+   "web": "https://www.galeriavasari.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga (error de conexión/certificado).",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "galeria-zurbaran",
+   "nombre": "Galería Zurbarán",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Zurbarán"
+   ],
+   "web": "https://www.zurbaran.com.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.zurbaran.com.ar/programacion-2026/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "galeria-barro",
+   "nombre": "Galería Barro",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Barro"
+   ],
+   "web": "https://barro.cc/es/gallery",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://barro.cc/es/muestras"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "rolf-art",
+   "nombre": "Rolf Art",
+   "tipo": "galeria",
+   "lugares": [
+    "Rolf Art"
+   ],
+   "web": "https://www.rolfart.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga.",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "galeria-mite",
+   "nombre": "Galería Mite",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Mite"
+   ],
+   "web": "https://www.mitegaleria.com.ar/exhibiciones",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Lista de exhibiciones con enlaces a cada muestra (exhibiciones_ver)"
+   ]
+  },
+  {
+   "id": "galeria-jorge-mara-la-ruche",
+   "nombre": "Galería Jorge Mara - La Ruche",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Jorge Mara - La Ruche"
+   ],
+   "web": "https://www.jorgemaralaruche.com.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.jorgemaralaruche.com.ar/exposiciones/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Exposiciones 2012/2026 en esa página"
+   ]
+  },
+  {
+   "id": "galeria-palatina",
+   "nombre": "Galería Palatina",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Palatina"
+   ],
+   "web": "https://www.palatina.com.ar/en/exhibiciones",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Listado de exhibiciones"
+   ]
+  },
+  {
+   "id": "maman-fine-art",
+   "nombre": "Maman Fine Art",
+   "tipo": "galeria",
+   "lugares": [
+    "Maman Fine Art"
+   ],
+   "web": "https://www.mamanfineart.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Cuenta suspendida.",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "pasaje-17",
+   "nombre": "Pasaje 17",
+   "tipo": "galeria",
+   "lugares": [
+    "Pasaje 17"
+   ],
+   "web": "https://www.pasaje17.com",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Dominio Wix desconectado.",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "galeria-piedras",
+   "nombre": "Galería Piedras",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Piedras"
+   ],
+   "web": "https://piedrasgaleria.com/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "w-galeria",
+   "nombre": "W Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "W Galería"
+   ],
+   "web": "https://w-w-w.ar",
+   "instagram": "@w_w_w_galeria",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://w-w-w.ar/index.php/es/exhibitions"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Defensa 1369, San Telmo. Tiene sección W—agenda"
+   ]
+  },
+  {
+   "id": "central-affair-galerias-larreta",
+   "nombre": "Central Affair (Galerías Larreta)",
+   "tipo": "galeria",
+   "lugares": [
+    "Central Affair (Galerías Larreta)"
+   ],
+   "web": "",
+   "instagram": "@estoesunaffair",
+   "origen": "data/galerias.json",
+   "notas": [
+    "2026-10-14: Sin sitio propio; plataforma de 16 galerías en Florida 971. Ver también gallery.com.ar",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "malba",
+   "nombre": "MALBA",
+   "tipo": "galeria",
+   "lugares": [
+    "MALBA"
+   ],
+   "web": "https://www.malba.org.ar",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://malba.org.ar/agenda-hoy/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] También https://malba.org.ar/exposiciones-actuales/",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "fundacion-klemm",
+   "nombre": "Fundación Klemm",
+   "tipo": "galeria",
+   "lugares": [
+    "Fundación Klemm"
+   ],
+   "web": "https://www.klemm.org.ar/",
+   "instagram": "@fundacion_klemm",
+   "origen": "data/galerias.json",
+   "entradas": [
+    "https://www.klemm.org.ar/Exposiciones"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Cada muestra en /Exposiciones/Actuales/..."
+   ]
+  },
+  {
+   "id": "centro-cultural-recoleta",
+   "nombre": "Centro Cultural Recoleta",
+   "tipo": "galeria",
+   "lugares": [
+    "Centro Cultural Recoleta",
+    "CENTRO CULTURAL RECOLETA"
+   ],
+   "web": "https://centroculturalrecoleta.org",
+   "instagram": "@elrecoleta",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] centroculturalrecoleta.org no carga; buscar agenda en buenosaires.gob.ar o Instagram.",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "espacio-de-arte-fundacion-osde",
+   "nombre": "Espacio de Arte Fundación OSDE",
+   "tipo": "galeria",
+   "lugares": [
+    "Espacio de Arte Fundación OSDE"
+   ],
+   "web": "https://www.osde.com.ar/espaciodearte",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] App JS casi sin texto inicial; esperar la carga",
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "arte-x-arte",
+   "nombre": "Arte x Arte",
+   "tipo": "galeria",
+   "lugares": [
+    "Arte x Arte"
+   ],
+   "web": "https://artexarte.com.ar/",
+   "instagram": "@artexarteespacio",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "almacen-de-arte",
+   "nombre": "Almacén de Arte",
+   "tipo": "galeria",
+   "lugares": [
+    "Almacén de Arte"
+   ],
+   "web": "",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "notas": [
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "macba-museo-de-arte-contemporaneo-de-buenos-aires",
+   "nombre": "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+   "tipo": "galeria",
+   "lugares": [
+    "MACBA (Museo de Arte Contemporáneo de Buenos Aires)"
+   ],
+   "web": "https://www.macba.com.ar/",
+   "instagram": "",
+   "origen": "data/galerias.json",
+   "notas": [
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+   ]
+  },
+  {
+   "id": "sala-lugones",
+   "nombre": "Sala Lugones",
+   "tipo": "lugar",
+   "lugares": [
+    "Sala Lugones"
+   ],
+   "web": "",
+   "instagram": "@sala.lugones",
+   "origen": "data/lugares.json"
+  },
+  {
+   "id": "nuestro-cine",
+   "nombre": "nuestro cine",
+   "tipo": "lugar",
+   "lugares": [
+    "nuestro cine"
+   ],
+   "web": "",
+   "instagram": "@nuestro.cine",
+   "origen": "data/lugares.json"
+  },
+  {
+   "id": "peli-y-picada",
+   "nombre": "peli y picada",
+   "tipo": "lugar",
+   "lugares": [
+    "peli y picada"
+   ],
+   "web": "",
+   "instagram": "@peliypicada",
+   "origen": "data/lugares.json"
+  },
+  {
+   "id": "cultural-moran",
+   "nombre": "CULTURAL MORAN",
+   "tipo": "lugar",
+   "lugares": [
+    "CULTURAL MORAN"
+   ],
+   "web": "https://www.culturalmoran.com",
+   "instagram": "@culturalmoran",
+   "origen": "data/lugares.json",
+   "barrio": "Agronomia",
+   "direccion": "Moran, Pedro 2147",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: ticketera] enlaza a passline"
+   ]
+  },
+  {
+   "id": "amarama-espacio-cultural",
+   "nombre": "AMARAMA ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "AMARAMA ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@amarama.patio.cultural",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 543",
+   "enlace_bio": "https://linktr.ee/amaramapatiocultural",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Canva EVENTOS EN AMARAMA))"
+   ]
+  },
+  {
+   "id": "archibrazo",
+   "nombre": "ARCHIBRAZO",
+   "tipo": "lugar",
+   "lugares": [
+    "ARCHIBRAZO"
+   ],
+   "web": "https://www.archibrazo.org/agenda/",
+   "instagram": "@archibrazo",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Bravo, Mario 441",
+   "entradas": [
+    "https://www.archibrazo.org/eventos/salsa/?f=2026-10-18"
+   ],
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "asociacion-calabresa-mutual-y-cultural",
+   "nombre": "ASOCIACION CALABRESA MUTUAL Y CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION CALABRESA MUTUAL Y CULTURAL"
+   ],
+   "web": "http://www.asociacioncalabresa.org.ar/index.html",
+   "instagram": "@asociacioncalabresa",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Yrigoyen, Hipolito Av. 3950",
+   "entradas": [
+    "http://www.asociacioncalabresa.org.ar/eventos.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "batacazo-cultural",
+   "nombre": "BATACAZO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "BATACAZO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@culturalbatacazo",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "enlace_bio": "https://maps.app.goo.gl/Mkk5ELZbce19vVRKA"
+  },
+  {
+   "id": "caff-club-atletico-fernandez-fierro",
+   "nombre": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "tipo": "lugar",
+   "lugares": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
+   ],
+   "web": "https://www.caff.com.ar",
+   "instagram": "@clubatleticofernandezfierro",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "entradas": [
+    "https://www.caff.com.ar/conciertos-en-granada-2024/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "casa-dasein",
+   "nombre": "CASA DASEIN",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DASEIN"
+   ],
+   "web": "",
+   "instagram": "@casa.dasein",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Estado De Israel Av. 4116"
+  },
+  {
+   "id": "casa-gatica",
+   "nombre": "CASA GATICA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA GATICA"
+   ],
+   "web": "",
+   "instagram": "@casagatica",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 551"
+  },
+  {
+   "id": "casona-cultural-humahuaca",
+   "nombre": "CASONA CULTURAL HUMAHUACA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "web": "https://www.casonahumahuaca.com.ar/",
+   "instagram": "@casonahumahuaca",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "entradas": [
+    "https://www.casonahumahuaca.com.ar/copia-de-bar"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes https://www.casonahumahuaca.com)",
+    "2026-10-14 [revisión anterior: navegador] Exposiciones en Wix; también @casonahumahuaca"
+   ]
+  },
+  {
+   "id": "centro-cultural-asociacion-mutual-homero-manzi",
+   "nombre": "CENTRO CULTURAL ASOCIACION MUTUAL HOMERO MANZI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ASOCIACION MUTUAL HOMERO MANZI"
+   ],
+   "web": "https://www.mutualhomeromanzi.blogspot.com",
+   "instagram": "@lahomeromanzi",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Belgrano Av. 3540",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-lezica",
+   "nombre": "CENTRO CULTURAL LEZICA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LEZICA"
+   ],
+   "web": "",
+   "instagram": "@centroculturallezica",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Lezica 4266"
+  },
+  {
+   "id": "centro-cultural-macedonia",
+   "nombre": "CENTRO CULTURAL MACEDONIA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "web": "",
+   "instagram": "@c.c.macedonia",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632"
+  },
+  {
+   "id": "centro-cultural-el-limonero",
+   "nombre": "CENTRO CULTURAL “EL LIMONERO”",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL “EL LIMONERO”"
+   ],
+   "web": "",
+   "instagram": "@cclimonero",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Salguero, Jeronimo 668"
+  },
+  {
+   "id": "club-cultural-bula",
+   "nombre": "CLUB CULTURAL BULA",
+   "tipo": "lugar",
+   "lugares": [
+    "CLUB CULTURAL BULA"
+   ],
+   "web": "",
+   "instagram": "@clubculturalbula",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "enlace_bio": "https://alpogo.com/buscar?busqueda=bula",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Alpogo))"
+   ]
+  },
+  {
+   "id": "emergente-club-almagro",
+   "nombre": "EMERGENTE CLUB ALMAGRO",
+   "tipo": "lugar",
+   "lugares": [
+    "EMERGENTE CLUB ALMAGRO",
+    "EL EMERGENTE ABASTO"
+   ],
+   "web": "http://elemergente.com.ar/",
+   "instagram": "@elemergente",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Acuña De Figueroa, Francisco 1030",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-350",
+   "nombre": "ESPACIO 350",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO 350"
+   ],
+   "web": "",
+   "instagram": "@espacio350ok",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Billinghurst 350"
+  },
+  {
+   "id": "espacio-comunarte",
+   "nombre": "ESPACIO COMUNARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO COMUNARTE"
+   ],
+   "web": "",
+   "instagram": "@centro.comunarte",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Castro Barros Av. 236"
+  },
+  {
+   "id": "espacio-la-tribu",
+   "nombre": "ESPACIO LA TRIBU",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO LA TRIBU"
+   ],
+   "web": "https://fmlatribu.com/",
+   "instagram": "@fmlatribu",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Lambare 873",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_cultural",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: no_es_agenda] Radio comunitaria FM La Tribu; sin agenda de eventos clara"
+   ]
+  },
+  {
+   "id": "espacio-moebius",
+   "nombre": "ESPACIO MOEBIUS",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO MOEBIUS"
+   ],
+   "web": "https://www.moebiuseditora.com",
+   "instagram": "@espaciomoebius",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Bulnes 658",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio."
+   ]
+  },
+  {
+   "id": "hasta-trilce",
+   "nombre": "HASTA TRILCE",
+   "tipo": "lugar",
+   "lugares": [
+    "HASTA TRILCE"
+   ],
+   "web": "https://www.hastatrilce.com.ar",
+   "instagram": "@hastatrilce",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Maza 177",
+   "entradas": [
+    "https://hastatrilce.com.ar/programacion/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "impa-centro-cultural-impa-la-fabrica",
+   "nombre": "IMPA CENTRO CULTURAL IMPA LA FABRICA",
+   "tipo": "lugar",
+   "lugares": [
+    "IMPA CENTRO CULTURAL IMPA LA FABRICA"
+   ],
+   "web": "https://www.impalafabrica.org.ar",
+   "instagram": "@ccimpalafabrica",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Querandies 4290",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "jungla-habitat-cultural",
+   "nombre": "JUNGLA HABITAT CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "JUNGLA HABITAT CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@junglacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Guardia Vieja 3580",
+   "enlace_bio": "https://docs.google.com/forms/d/e/1FAIpQLSfWkZPa5W_ZAfF3sR75RoFJ3wPNQLxyCVDEjEjd1038fHimXQ"
+  },
+  {
+   "id": "kowalski-club-de-cultura",
+   "nombre": "KOWALSKI CLUB DE CULTURA",
+   "tipo": "lugar",
+   "lugares": [
+    "KOWALSKI CLUB DE CULTURA"
+   ],
+   "web": "",
+   "instagram": "@abastosocialclub",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Billinghurst 835"
+  },
+  {
+   "id": "la-casa-de-teresa-israel",
+   "nombre": "LA CASA DE TERESA ISRAEL",
+   "tipo": "lugar",
+   "lugares": [
+    "LA CASA DE TERESA ISRAEL"
+   ],
+   "web": "http://lacasadeteresa.blogspot.com/",
+   "instagram": "@lacasadeteresa",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Acuña De Figueroa, Francisco 795",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-fragua-cultural",
+   "nombre": "LA FRAGUA CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LA FRAGUA CULTURAL"
+   ],
+   "web": "https://www.lafraguacultural.com",
+   "instagram": "@lafraguacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Rivadavia Av. 4127",
+   "entradas": [
+    "https://www.lafraguacultural.com/galeria-de-arte/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "la-vieja-guardia",
+   "nombre": "LA VIEJA GUARDIA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA VIEJA GUARDIA"
+   ],
+   "web": "https://www.laviejaguarida.com.ar",
+   "instagram": "@laviejaguarida",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Guardia Vieja 3777",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Cartelera en la portada"
+   ]
+  },
+  {
+   "id": "ladran-sancho",
+   "nombre": "LADRAN SANCHO",
+   "tipo": "lugar",
+   "lugares": [
+    "LADRAN SANCHO"
+   ],
+   "web": "https://www.ladran-sancho.com",
+   "instagram": "@ladransanchook",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Guardia Vieja 3811",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "las-mil-y-un-artes-centro-cultural",
+   "nombre": "LAS MIL Y UN ARTES CENTRO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LAS MIL Y UN ARTES CENTRO CULTURAL"
+   ],
+   "web": "http://lasmilyunartes.blogspot.com",
+   "instagram": "@lasmilyunartes",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 645",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: desactualizado] Blog vacío"
+   ]
+  },
+  {
+   "id": "nuestra-america",
+   "nombre": "Nuestra América",
+   "tipo": "lugar",
+   "lugares": [
+    "Nuestra América"
+   ],
+   "web": "",
+   "instagram": "@ccnuestramerica",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Pres. Tte. Gral. Juan D. Perón 3390"
+  },
+  {
+   "id": "paraje-arteson",
+   "nombre": "PARAJE ARTESON",
+   "tipo": "lugar",
+   "lugares": [
+    "PARAJE ARTESON"
+   ],
+   "web": "https://www.parajearteson.com.ar",
+   "instagram": "@paraje_arteson",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Estado De Palestina 919",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "roseti",
+   "nombre": "ROSETI",
+   "tipo": "lugar",
+   "lugares": [
+    "ROSETI"
+   ],
+   "web": "",
+   "instagram": "@rosetiespacio",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Gallo 760",
+   "enlace_bio": "https://linktr.ee/rosetiespacio",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en tickethoy y Alternativa Teatral))"
+   ]
+  },
+  {
+   "id": "casa-colombo",
+   "nombre": "CASA COLOMBO",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA COLOMBO"
+   ],
+   "web": "",
+   "instagram": "@casacolombocc",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Gallo 557",
+   "enlace_bio": "http://www.casacolombo.com.ar/ (redirige a Instagram)"
+  },
+  {
+   "id": "cecam-centro-cultural-de-las-artes-del-movimiento",
+   "nombre": "CECAM - CENTRO CULTURAL DE LAS ARTES DEL MOVIMIENTO",
+   "tipo": "lugar",
+   "lugares": [
+    "CECAM - CENTRO CULTURAL DE LAS ARTES DEL MOVIMIENTO"
+   ],
+   "web": "https://www.cecam.com.ar/",
+   "instagram": "@ccartesdelmovimiento",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Chile 2958",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-alfonsina-storni",
+   "nombre": "CENTRO CULTURAL ALFONSINA STORNI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ALFONSINA STORNI"
+   ],
+   "web": "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
+   "instagram": "@culturalfonsina",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Tucuman 3233",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Página de GCBA movida (404)."
+   ]
+  },
+  {
+   "id": "centro-cultural-de-la-republica-del-paraguay",
+   "nombre": "CENTRO CULTURAL DE LA REPÚBLICA DEL PARAGUAY",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE LA REPÚBLICA DEL PARAGUAY"
+   ],
+   "web": "",
+   "instagram": "@centroculturaldelparaguay",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Tucuman 1833"
+  },
+  {
+   "id": "centro-cultural-del-partido-de-la-estrada",
+   "nombre": "CENTRO CULTURAL DEL PARTIDO DE LA ESTRADA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DEL PARTIDO DE LA ESTRADA"
+   ],
+   "web": "",
+   "instagram": "@laestradacentrocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Mexico 2849"
+  },
+  {
+   "id": "centro-cultural-el-deseo",
+   "nombre": "CENTRO CULTURAL EL DESEO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL DESEO"
+   ],
+   "web": "",
+   "instagram": "@cceldeseo",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Saavedra 569",
+   "enlace_bio": "https://panel.alternativateatral.com/espacio4779-",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Alternativa Teatral: cartelera del espacio))"
+   ]
+  },
+  {
+   "id": "centro-cultural-ricardo-rojas",
+   "nombre": "CENTRO CULTURAL RICARDO ROJAS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "web": "https://www.rojas.uba.ar/",
+   "instagram": "@elrojasuba",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "entradas": [
+    "https://www.rojas.uba.ar/agenda"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Listado JS con filtros"
+   ]
+  },
+  {
+   "id": "ciudad-cultural-konex",
+   "nombre": "CIUDAD CULTURAL KONEX",
+   "tipo": "lugar",
+   "lugares": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "web": "https://www.cckonex.org",
+   "instagram": "@cckonex",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "complejo-cultural-sanidad",
+   "nombre": "COMPLEJO CULTURAL SANIDAD",
+   "tipo": "lugar",
+   "lugares": [
+    "COMPLEJO CULTURAL SANIDAD"
+   ],
+   "web": "https://www.atsa.org.ar/ccs/",
+   "instagram": "@complejo.cultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Republica Bolivariana De Venezuela 2255",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "castel-espacio-cultural",
+   "nombre": "Castel Espacio Cultural",
+   "tipo": "lugar",
+   "lugares": [
+    "Castel Espacio Cultural"
+   ],
+   "web": "",
+   "instagram": "@castel_cult_20",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 345"
+  },
+  {
+   "id": "el-sabato-espacio-cultural",
+   "nombre": "EL SABATO ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "EL SABATO ESPACIO CULTURAL"
+   ],
+   "web": "https://elsabato.economicas.uba.ar/",
+   "instagram": "@elsabatoespaciocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Uriburu Jose E., Pres. 763",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "el-zorzal-esquina-cultural",
+   "nombre": "EL ZORZAL ESQUINA CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@elzorzalcultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Jaures, Jean 690"
+  },
+  {
+   "id": "espacio-cultural-soma",
+   "nombre": "ESPACIO CULTURAL SOMA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL SOMA"
+   ],
+   "web": "https://culturalsoma.com/",
+   "instagram": "@culturalsoma",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3122",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "esquina-rebelde-centro-cultural",
+   "nombre": "ESQUINA REBELDE CENTRO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "ESQUINA REBELDE CENTRO CULTURAL"
+   ],
+   "web": "https://www.facebook.com/esquinarebelde",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Gallo 769",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "jaciento-oviedo",
+   "nombre": "JACIENTO OVIEDO",
+   "tipo": "lugar",
+   "lugares": [
+    "JACIENTO OVIEDO"
+   ],
+   "web": "http://aluvionciudadano.blogspot.com",
+   "instagram": "@centroculturaljacintooviedo",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 434",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "jj-circuito-cultural",
+   "nombre": "JJ CIRCUITO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "JJ CIRCUITO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@jjcircuitocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Jaures, Jean 347"
+  },
+  {
+   "id": "maquinal-espacio-cultural",
+   "nombre": "MAQUINAL ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "MAQUINAL ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@maquinal.maquinal",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Anchorena, Tomas Manuel De, Dr. 364",
+   "enlace_bio": "https://linktr.ee/maquinal",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (eventos en revamos.com))"
+   ]
+  },
+  {
+   "id": "mi-casa",
+   "nombre": "MI CASA",
+   "tipo": "lugar",
+   "lugares": [
+    "MI CASA"
+   ],
+   "web": "http://www.libreriamicasa.com.ar/",
+   "instagram": "@libreria.micasa",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Aguero 793",
+   "entradas": [
+    "https://www.libreriamicasa.com.ar/destacados.php?id=3635"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "mu-trincher-boutique",
+   "nombre": "MU TRINCHER BOUTIQUE",
+   "tipo": "lugar",
+   "lugares": [
+    "MU TRINCHER BOUTIQUE"
+   ],
+   "web": "https://mutrincheraboutique.org/",
+   "instagram": "@mu.lavaca",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 143",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: El nombre correcto es Mu Trinchera Boutique",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "multiespacio-pasco",
+   "nombre": "MULTIESPACIO PASCO",
+   "tipo": "lugar",
+   "lugares": [
+    "MULTIESPACIO PASCO"
+   ],
+   "web": "https://multiespacio-pasco.blogspot.com/",
+   "instagram": "@elmultipasco",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Pasco 689",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "panda-rojo-espacio-cultural",
+   "nombre": "PANDA ROJO ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "PANDA ROJO ESPACIO CULTURAL"
+   ],
+   "web": "https://pandarojo.com.ar/contacto/",
+   "instagram": "@pandarojocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3096",
+   "entradas": [
+    "https://pandarojo.com.ar/cartelera/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "puerta-18",
+   "nombre": "PUERTA 18",
+   "tipo": "lugar",
+   "lugares": [
+    "PUERTA 18"
+   ],
+   "web": "https://www.puerta18.org.ar/",
+   "instagram": "@puerta18",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3118",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "zelaya",
+   "nombre": "ZELAYA",
+   "tipo": "lugar",
+   "lugares": [
+    "ZELAYA"
+   ],
+   "web": "",
+   "instagram": "@zelaya3134_teatro",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3134"
+  },
+  {
+   "id": "asoc-civil-la-bombocova",
+   "nombre": "ASOC. CIVIL LA BOMBOCOVA",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOC. CIVIL LA BOMBOCOVA"
+   ],
+   "web": "http://labombocova.com/equipo/",
+   "instagram": "@labombocova",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Perdriel 449",
+   "entradas": [
+    "https://labombocova.com/eventos/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos"
+   ]
+  },
+  {
+   "id": "asociacion-dante-alighieri",
+   "nombre": "ASOCIACION DANTE ALIGHIERI",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION DANTE ALIGHIERI"
+   ],
+   "web": "https://www.dante.edu.ar/",
+   "instagram": "@ladante.ba",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Montes De Oca, Manuel Av. 501",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "barrakesh-espacio-cultural",
+   "nombre": "BARRAKESH ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "BARRAKESH ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@barrakesh.ar",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "California 1672",
+   "enlace_bio": "https://malevamag.com/aca-puede-pasar-de-todo-asi-es-barrakesch"
+  },
+  {
+   "id": "batacazo-de-arte",
+   "nombre": "BATACAZO DE ARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "BATACAZO DE ARTE"
+   ],
+   "web": "",
+   "instagram": "@batacazodearte",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Suarez 1502"
+  },
+  {
+   "id": "centro-cultural-la-usina",
+   "nombre": "CENTRO CULTURAL LA USINA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LA USINA"
+   ],
+   "web": "",
+   "instagram": "@la_usina",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Santo Domingo 2752",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-nuestra-tierra",
+   "nombre": "CENTRO CULTURAL NUESTRA TIERRA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL NUESTRA TIERRA"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Iriarte, Gral. Av. 3500",
+   "notas": [
+    "2026-10-14: comparte la web https://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-kultural-trivenchi",
+   "nombre": "CENTRO KULTURAL TRIVENCHI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO KULTURAL TRIVENCHI"
+   ],
+   "web": "",
+   "instagram": "@trivenchi",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Caseros Av. 1712"
+  },
+  {
+   "id": "circuito-cultural-barracas",
+   "nombre": "CIRCUITO CULTURAL BARRACAS",
+   "tipo": "lugar",
+   "lugares": [
+    "CIRCUITO CULTURAL BARRACAS"
+   ],
+   "web": "https://www.ccbarracas.com.ar",
+   "instagram": "@ccbarracas",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Iriarte, Gral. Av. 2165",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio de notas/blog; sin agenda de funciones"
+   ]
+  },
+  {
+   "id": "espacio-cultural-del-sur",
+   "nombre": "ESPACIO CULTURAL DEL SUR",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL DEL SUR"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/del-sur",
+   "instagram": "@ecdelsur",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Caseros Av. 1750"
+  },
+  {
+   "id": "luzuriaga-club-social",
+   "nombre": "LUZURIAGA CLUB SOCIAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LUZURIAGA CLUB SOCIAL"
+   ],
+   "web": "",
+   "instagram": "@luzuriagaclubsocial",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Luzuriaga 348"
+  },
+  {
+   "id": "sociedad-luz",
+   "nombre": "SOCIEDAD LUZ",
+   "tipo": "lugar",
+   "lugares": [
+    "SOCIEDAD LUZ"
+   ],
+   "web": "https://sociedadluz.org.ar/",
+   "instagram": "@sociedadluz",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Suarez 1301",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "base-cultural-ugarte",
+   "nombre": "BASE CULTURAL UGARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "BASE CULTURAL UGARTE"
+   ],
+   "web": "",
+   "instagram": "@baseculturalugarte",
+   "origen": "data/lugares.json",
+   "barrio": "Belgrano",
+   "direccion": "Ugarte, Manuel 2789"
+  },
+  {
+   "id": "parque-de-la-memoria",
+   "nombre": "PARQUE DE LA MEMORIA",
+   "tipo": "lugar",
+   "lugares": [
+    "PARQUE DE LA MEMORIA"
+   ],
+   "web": "https://www.parquedelamemoria.org.ar",
+   "instagram": "@parquedelamemoria",
+   "origen": "data/lugares.json",
+   "barrio": "Belgrano",
+   "direccion": "Obligado Rafael, Av.Costanera 6745",
+   "entradas": [
+    "https://parquedelamemoria.org.ar/arte-exposiciones/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Exposiciones"
+   ]
+  },
+  {
+   "id": "quetren-quetren",
+   "nombre": "QUETREN QUETREN",
+   "tipo": "lugar",
+   "lugares": [
+    "QUETREN QUETREN"
+   ],
+   "web": "",
+   "instagram": "@quetrenquetren",
+   "origen": "data/lugares.json",
+   "barrio": "Belgrano",
+   "direccion": "Olazabal 1784"
+  },
+  {
+   "id": "casa-balear-de-buenos-aires",
+   "nombre": "CASA BALEAR DE BUENOS AIRES",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA BALEAR DE BUENOS AIRES"
+   ],
+   "web": "https://www.balearsexterior.es/sites/balearsexterior/es/casa_balear_de_buenos_aires/",
+   "instagram": "@casabalear.bsas",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Colombres 841",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "casa-cultural-tita-merello",
+   "nombre": "CASA CULTURAL \"TITA MERELLO\"",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA CULTURAL \"TITA MERELLO\""
+   ],
+   "web": "",
+   "instagram": "@titamerellocc",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Inclan 4191"
+  },
+  {
+   "id": "casa-cultural-los-dandys-de-boedo",
+   "nombre": "CASA CULTURAL LOS DANDYS DE BOEDO",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA CULTURAL LOS DANDYS DE BOEDO"
+   ],
+   "web": "",
+   "instagram": "@losdandysdeboedo",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Calvo, Carlos 3401"
+  },
+  {
+   "id": "casamaza",
+   "nombre": "CASAMAZA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASAMAZA"
+   ],
+   "web": "",
+   "instagram": "@casamazaboedo",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Maza 1160"
+  },
+  {
+   "id": "centro-cultural-el-surco",
+   "nombre": "CENTRO CULTURAL EL SURCO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL SURCO"
+   ],
+   "web": "",
+   "instagram": "@ccelsurco",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Boedo Av. 830",
+   "enlace_bio": "https://cafecito.app/elsurco"
+  },
+  {
+   "id": "centro-cultural-los-chiflados-de-boedo",
+   "nombre": "CENTRO CULTURAL LOS CHIFLADOS DE BOEDO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LOS CHIFLADOS DE BOEDO"
+   ],
+   "web": "",
+   "instagram": "@chifladosdeboedo",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "San Juan Av. 3545"
+  },
+  {
+   "id": "centro-cultural-nicolas-olivari",
+   "nombre": "CENTRO CULTURAL NICOLÁS OLIVARI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL NICOLÁS OLIVARI"
+   ],
+   "web": "",
+   "instagram": "@cc.nicolasolivari",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Castro 954",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "el-castillo-de-sandro",
+   "nombre": "EL CASTILLO DE SANDRO",
+   "tipo": "lugar",
+   "lugares": [
+    "EL CASTILLO DE SANDRO"
+   ],
+   "web": "https://culturalcava.ar/",
+   "instagram": "@culturalcava",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Pavon Av. 3939",
+   "entradas": [
+    "https://culturalcava.ar/cartelera/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "fundacion-hastinapura",
+   "nombre": "FUNDACION HASTINAPURA",
+   "tipo": "lugar",
+   "lugares": [
+    "FUNDACION HASTINAPURA"
+   ],
+   "web": "https://hastinapura.org.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "San Juan Av. 3679",
+   "entradas": [
+    "https://hastinapura.org.ar/eventos/"
+   ],
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "la-conversa",
+   "nombre": "LA CONVERSA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA CONVERSA"
+   ],
+   "web": "",
+   "instagram": "@espaciolaconversa",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Castro Barrios 809"
+  },
+  {
+   "id": "pasillo-al-fondo-espacio-cultural",
+   "nombre": "PASILLO AL FONDO ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "PASILLO AL FONDO ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@pasilloalfondoteatro",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Muñiz 1288",
+   "enlace_bio": "https://linktr.ee/pasilloalfondoteatro",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (obras en Alternativa Teatral))"
+   ]
+  },
+  {
+   "id": "sigue-la-polilla",
+   "nombre": "SIGUE LA POLILLA",
+   "tipo": "lugar",
+   "lugares": [
+    "SIGUE LA POLILLA"
+   ],
+   "web": "https://siguelapolilla.com/",
+   "instagram": "@siguelapolilla",
+   "origen": "data/lugares.json",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "casa-jache",
+   "nombre": "CASA JACHE",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA JACHE"
+   ],
+   "web": "http://www.casajache.com.ar/",
+   "instagram": "@casajache",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Aranguren, Juan F., Dr. 213",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-burgales",
+   "nombre": "CENTRO BURGALÉS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO BURGALÉS"
+   ],
+   "web": "",
+   "instagram": "@centroburgales",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Rivadavia Av. 5764"
+  },
+  {
+   "id": "centro-cultural-alberto-olmedo",
+   "nombre": "CENTRO CULTURAL ALBERTO OLMEDO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ALBERTO OLMEDO"
+   ],
+   "web": "",
+   "instagram": "@ccalbertoolmedo",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Viale, Luis 1052",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-el-eternauta",
+   "nombre": "CENTRO CULTURAL EL ETERNAUTA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL ETERNAUTA"
+   ],
+   "web": "",
+   "instagram": "@eleternauta.cc",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Lobos, Eleodoro, Dr. 437",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-lola-mora",
+   "nombre": "CENTRO CULTURAL LOLA MORA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LOLA MORA"
+   ],
+   "web": "",
+   "instagram": "@cclolamora",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Rio De Janeiro 946",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-neville",
+   "nombre": "CENTRO CULTURAL NEVILLE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL NEVILLE"
+   ],
+   "web": "",
+   "instagram": "@neville.caballito",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Paysandu 1483"
+  },
+  {
+   "id": "centro-cultural-sebastian-piana",
+   "nombre": "CENTRO CULTURAL SEBASTIAN PIANA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL SEBASTIAN PIANA"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Puan 360",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-sureda",
+   "nombre": "CENTRO CULTURAL SUREDA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL SUREDA"
+   ],
+   "web": "https://www.centroculturalsureda.org.ar/",
+   "instagram": "@ccsureda",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Rosario 242",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "club-premier",
+   "nombre": "CLUB PREMIER",
+   "tipo": "lugar",
+   "lugares": [
+    "CLUB PREMIER"
+   ],
+   "web": "https://www.clubpremier.org.ar",
+   "instagram": "@clubpremierdecaballito",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Campichuelo 472",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-caballito",
+   "nombre": "ESPACIO CABALLITO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CABALLITO"
+   ],
+   "web": "https://www.espaciocaballito.com.ar/",
+   "instagram": "@espacio.caballito",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Mendez De Andes Y Fragata Pres. Sarmiento",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sin agenda en el sitio; usar redes"
+   ]
+  },
+  {
+   "id": "estacion-de-los-deseos",
+   "nombre": "ESTACIÓN DE LOS DESEOS",
+   "tipo": "lugar",
+   "lugares": [
+    "ESTACIÓN DE LOS DESEOS"
+   ],
+   "web": "http://estaciondelosdeseos.blogspot.com/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Bacacay 1626",
+   "entradas": [
+    "https://estaciondelosdeseos.blogspot.com/p/otras-actividades_31.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_cultural",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: no_es_agenda] Actividades/talleres, sin fechas"
+   ]
+  },
+  {
+   "id": "factoria",
+   "nombre": "FACTORÍA",
+   "tipo": "lugar",
+   "lugares": [
+    "FACTORÍA"
+   ],
+   "web": "",
+   "instagram": "@factoriaclub_",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Fragata Pres. Sarmiento 1251"
+  },
+  {
+   "id": "la-plapla",
+   "nombre": "LA PLAPLA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA PLAPLA"
+   ],
+   "web": "",
+   "instagram": "@laplapla.eci",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Tres Arroyos 1596"
+  },
+  {
+   "id": "le-cid-espacio-cultural",
+   "nombre": "LE CID ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LE CID ESPACIO CULTURAL"
+   ],
+   "web": "https://www.facebook.com/lecidespaciocultural",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Biedma, Jose Juan 1020"
+  },
+  {
+   "id": "mojitos-de-cuba",
+   "nombre": "MOJITOS DE CUBA",
+   "tipo": "lugar",
+   "lugares": [
+    "MOJITOS DE CUBA"
+   ],
+   "web": "https://www.mojitosdecuba.ar/",
+   "instagram": "@mojitosdecuba",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Yerbal 1655",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "rio-patio-cultural",
+   "nombre": "RIO, PATIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "RIO, PATIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@rio.patiocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Rio De Janeiro 28"
+  },
+  {
+   "id": "vertigo-espacio-cultural",
+   "nombre": "VERTIGO ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "VERTIGO ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@vertigo.espacio_",
+   "origen": "data/lugares.json",
+   "barrio": "Caballito",
+   "direccion": "Riglos 352",
+   "enlace_bio": "https://vertigopoleroom.netlify.app/"
+  },
+  {
+   "id": "artlab",
+   "nombre": "ARTLAB",
+   "tipo": "lugar",
+   "lugares": [
+    "ARTLAB"
+   ],
+   "web": "https://artlabpro.net/agenda/",
+   "instagram": "@artlabpro",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "c-complejo-art-media",
+   "nombre": "C Complejo Art Media",
+   "tipo": "lugar",
+   "lugares": [
+    "C Complejo Art Media"
+   ],
+   "web": "https://www.ccomplejoartmedia.com.ar/",
+   "instagram": "@cartmediaok",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
+   "entradas": [
+    "https://www.ccomplejoartmedia.com.ar/events"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: ticketera] Agenda con entradas en Passline"
+   ]
+  },
+  {
+   "id": "club-social-911",
+   "nombre": "CLUB SOCIAL 911",
+   "tipo": "lugar",
+   "lugares": [
+    "CLUB SOCIAL 911"
+   ],
+   "web": "",
+   "instagram": "@clubsocial911",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Dorrego Av. 911"
+  },
+  {
+   "id": "dramia-centro-cultural",
+   "nombre": "DRAMIA Centro Cultural",
+   "tipo": "lugar",
+   "lugares": [
+    "DRAMIA Centro Cultural"
+   ],
+   "web": "",
+   "instagram": "@dramia.cc",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Caldas 380"
+  },
+  {
+   "id": "dumont-4040-ex-santos-4040",
+   "nombre": "DUMONT 4040 (ex SANTOS 4040)",
+   "tipo": "lugar",
+   "lugares": [
+    "DUMONT 4040 (ex SANTOS 4040)"
+   ],
+   "web": "",
+   "instagram": "@dumont4040",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Santos Dumont 4040",
+   "enlace_bio": "https://www.alternativateatral.com/espacio6582-dumont-4040",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (cartelera del espacio))"
+   ]
+  },
+  {
+   "id": "el-galpon-de-guevara",
+   "nombre": "EL GALPON DE GUEVARA",
+   "tipo": "lugar",
+   "lugares": [
+    "EL GALPON DE GUEVARA"
+   ],
+   "web": "https://www.galpondeguevara.com/",
+   "instagram": "@galpondeguevara",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Guevara 326",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral"
+   ]
+  },
+  {
+   "id": "el-taller-de-omar",
+   "nombre": "EL TALLER DE OMAR",
+   "tipo": "lugar",
+   "lugares": [
+    "EL TALLER DE OMAR"
+   ],
+   "web": "",
+   "instagram": "@eltallerdeomar",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Fitz Roy 1245"
+  },
+  {
+   "id": "el-templo-espacio-cultural",
+   "nombre": "EL TEMPLO ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "EL TEMPLO ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@eltemplocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Gregorio Perez 3556"
+  },
+  {
+   "id": "espacio-cultural-carlos-gardel",
+   "nombre": "ESPACIO CULTURAL CARLOS GARDEL",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL CARLOS GARDEL"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/carlos-gardel",
+   "instagram": "@eccarlosgardel",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Olleros 3640"
+  },
+  {
+   "id": "fraga-cultural",
+   "nombre": "Fraga Cultural",
+   "tipo": "lugar",
+   "lugares": [
+    "Fraga Cultural"
+   ],
+   "web": "",
+   "instagram": "@fragacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Fraga 119"
+  },
+  {
+   "id": "hunterbier-de-pezzano-roberto-ariel",
+   "nombre": "HUNTERBIER DE PEZZANO ROBERTO ARIEL",
+   "tipo": "lugar",
+   "lugares": [
+    "HUNTERBIER DE PEZZANO ROBERTO ARIEL"
+   ],
+   "web": "",
+   "instagram": "@hunterbierbar",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Newbery, Jorge Av. 3519",
+   "enlace_bio": "https://www.hunterbier.com.ar/ (no resuelve)"
+  },
+  {
+   "id": "la-tomada",
+   "nombre": "LA TOMADA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA TOMADA"
+   ],
+   "web": "",
+   "instagram": "@fragacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Fraga 119"
+  },
+  {
+   "id": "sexto-cultural",
+   "nombre": "SEXTO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "SEXTO CULTURAL"
+   ],
+   "web": "https://mutualsentimiento.org.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Chacarita",
+   "direccion": "Lacroze, Federico Av. 4181",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-colegiales",
+   "nombre": "CENTRO CULTURAL COLEGIALES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL COLEGIALES"
+   ],
+   "web": "",
+   "instagram": "@centroculturalcolegiales",
+   "origen": "data/lugares.json",
+   "barrio": "Colegiales",
+   "direccion": "Conde 943",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "cultural-mamita",
+   "nombre": "CULTURAL MAMITA",
+   "tipo": "lugar",
+   "lugares": [
+    "CULTURAL MAMITA"
+   ],
+   "web": "https://www.facebook.com/BarMamita",
+   "instagram": "@mamitabar",
+   "origen": "data/lugares.json",
+   "barrio": "Colegiales",
+   "direccion": "Alvarez Thomas Av. 487"
+  },
+  {
+   "id": "espacio-simona",
+   "nombre": "ESPACIO SIMONA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO SIMONA"
+   ],
+   "web": "",
+   "instagram": "@espaciosimona",
+   "origen": "data/lugares.json",
+   "barrio": "Colegiales",
+   "direccion": "Alvarez Thomas Av. 661",
+   "enlace_bio": "https://www.cafaccess.com/productora/simona-producciones",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (productora de eventos))"
+   ]
+  },
+  {
+   "id": "inboccalupo",
+   "nombre": "INBOCCALUPO",
+   "tipo": "lugar",
+   "lugares": [
+    "INBOCCALUPO"
+   ],
+   "web": "https://www.inboccalupo.com.ar",
+   "instagram": "@espacioinboccalupo",
+   "origen": "data/lugares.json",
+   "barrio": "Colegiales",
+   "direccion": "Arredondo, Virrey 2495",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_cultural",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: no_es_agenda] Alquiler de salas"
+   ]
+  },
+  {
+   "id": "woki-toki",
+   "nombre": "WOKI TOKI",
+   "tipo": "lugar",
+   "lugares": [
+    "WOKI TOKI"
+   ],
+   "web": "",
+   "instagram": "@wokitoki.santelmo",
+   "origen": "data/lugares.json",
+   "barrio": "Constitucion",
+   "direccion": "Tacuari 905"
+  },
+  {
+   "id": "alianza-francesa",
+   "nombre": "ALIANZA FRANCESA",
+   "tipo": "lugar",
+   "lugares": [
+    "ALIANZA FRANCESA"
+   ],
+   "web": "https://www.alianzafrancesa.org.ar",
+   "instagram": "@alianzafrancesabsas",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Granaderos 61",
+   "entradas": [
+    "https://www.alianzafrancesa.org.ar/cultura?search-start=2026-10-14&page=1"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "asamblea-de-flores",
+   "nombre": "ASAMBLEA DE FLORES",
+   "tipo": "lugar",
+   "lugares": [
+    "ASAMBLEA DE FLORES"
+   ],
+   "web": "",
+   "instagram": "@asambleadeflores",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Avellaneda Av. 2177"
+  },
+  {
+   "id": "centro-cultural-roberto-arlt",
+   "nombre": "CENTRO CULTURAL ROBERTO ARLT",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ROBERTO ARLT"
+   ],
+   "web": "https://ccrarlt.blogspot.com/",
+   "instagram": "@centro_cultural_roberto_arlt",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Avellaneda Av. 2547",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "espacio-cultural-arrotea-mutual-c-s-y-cultural-flores-sur",
+   "nombre": "ESPACIO CULTURAL ARROTEA - MUTUAL C. S. Y CULTURAL FLORES SUR",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL ARROTEA - MUTUAL C. S. Y CULTURAL FLORES SUR"
+   ],
+   "web": "",
+   "instagram": "@espacioculturalarrotea",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Arrotea 951"
+  },
+  {
+   "id": "espacio-cultural-fermin",
+   "nombre": "ESPACIO CULTURAL FERMÍN",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL FERMÍN"
+   ],
+   "web": "https://espaciofermin.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Culpina 75",
+   "entradas": [
+    "https://espaciofermin.com.ar/actividades/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_cultural",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: no_es_agenda] Actividades regulares (escuelitas, talleres)"
+   ]
+  },
+  {
+   "id": "espacio-cultural-marco-del-pont",
+   "nombre": "ESPACIO CULTURAL MARCO DEL PONT",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL MARCO DEL PONT"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/marco-del-pont",
+   "instagram": "@ccmpont",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Artigas, Jose Gervasio, Gral. 202"
+  },
+  {
+   "id": "la-cazona-de-flores",
+   "nombre": "LA CAZONA DE FLORES",
+   "tipo": "lugar",
+   "lugares": [
+    "LA CAZONA DE FLORES"
+   ],
+   "web": "",
+   "instagram": "@cazonadeflores",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Moron 2453",
+   "enlace_bio": "https://forms.gle/xHYZirC32yKy4fPb6"
+  },
+  {
+   "id": "planta-alta",
+   "nombre": "PLANTA ALTA",
+   "tipo": "lugar",
+   "lugares": [
+    "PLANTA ALTA"
+   ],
+   "web": "",
+   "instagram": "@plantaaltarockbar",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Rivadavia Av. 7609"
+  },
+  {
+   "id": "teatro-calderon",
+   "nombre": "TEATRO CALDERÓN",
+   "tipo": "lugar",
+   "lugares": [
+    "TEATRO CALDERÓN"
+   ],
+   "web": "",
+   "instagram": "@teatrocalderonok",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Alvarez, Donato, Tte. Gral. 524"
+  },
+  {
+   "id": "tempo-escuela-de-musica-y-artes",
+   "nombre": "Tempo — Escuela de Música y Artes",
+   "tipo": "lugar",
+   "lugares": [
+    "Tempo — Escuela de Música y Artes"
+   ],
+   "web": "https://escuelademusicatempo.com/index.html",
+   "instagram": "@escuelademusicayartestempo",
+   "origen": "data/lugares.json",
+   "barrio": "Flores",
+   "direccion": "Culpina 47",
+   "entradas": [
+    "https://escuelademusicatempo.com/muestras.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-baldomero-fernandez-moreno",
+   "nombre": "CENTRO CULTURAL BALDOMERO FERNÁNDEZ MORENO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BALDOMERO FERNÁNDEZ MORENO"
+   ],
+   "web": "",
+   "instagram": "@cculturalbaldomero",
+   "origen": "data/lugares.json",
+   "barrio": "Floresta",
+   "direccion": "Mercedes 1405"
+  },
+  {
+   "id": "centro-cultural-barrio-rivadavia",
+   "nombre": "CENTRO CULTURAL BARRIO RIVADAVIA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BARRIO RIVADAVIA"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Floresta",
+   "direccion": "Las Caracolas 200"
+  },
+  {
+   "id": "centro-cultural-el-suenero",
+   "nombre": "CENTRO CULTURAL EL SUEÑERO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL SUEÑERO"
+   ],
+   "web": "http://elsueniero.org.ar",
+   "instagram": "@ccelsueniero",
+   "origen": "data/lugares.json",
+   "barrio": "La Boca",
+   "direccion": "Liberti, Tomas 1133",
+   "entradas": [
+    "https://elsueniero.org.ar/agenda.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Página de agenda"
+   ]
+  },
+  {
+   "id": "conventillo-centro-cultural-de-nelly",
+   "nombre": "CONVENTILLO CENTRO CULTURAL DE NELLY",
+   "tipo": "lugar",
+   "lugares": [
+    "CONVENTILLO CENTRO CULTURAL DE NELLY"
+   ],
+   "web": "",
+   "instagram": "@cncc_conventillodenelly",
+   "origen": "data/lugares.json",
+   "barrio": "La Boca",
+   "direccion": "Suarez 557",
+   "notas": [
+    "2026-10-14: web corregida (antes https://conventillodenelly.com.ar/)",
+    "2026-10-14: conventillodenelly.com.ar figura en Google pero su DNS falla hoy; reintentar"
+   ]
+  },
+  {
+   "id": "el-galpon-de-catalinas",
+   "nombre": "EL GALPON DE CATALINAS",
+   "tipo": "lugar",
+   "lugares": [
+    "EL GALPON DE CATALINAS"
+   ],
+   "web": "https://www.catalinasur.com.ar",
+   "instagram": "@grupodeteatrocatalinasur",
+   "origen": "data/lugares.json",
+   "barrio": "La Boca",
+   "direccion": "Perez Galdos, Benito Av. 93",
+   "entradas": [
+    "https://catalinasur.com.ar/en-octubre-se-viene-nuevo-espectaculo-de-nuestro-piberio/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral, boleteria"
+   ]
+  },
+  {
+   "id": "munar",
+   "nombre": "MUNAR",
+   "tipo": "lugar",
+   "lugares": [
+    "MUNAR"
+   ],
+   "web": "https://munararte.com/",
+   "instagram": "@munar_arte",
+   "origen": "data/lugares.json",
+   "barrio": "La Boca",
+   "direccion": "Don Pedro De Mendoza Av. 1555",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes http://artemunar.com.ar/)",
+    "2026-10-14 [revisión anterior: sin_agenda] Galería/museo sin muestras fechadas en el sitio; @munar_arte"
+   ]
+  },
+  {
+   "id": "usina-del-arte",
+   "nombre": "USINA DEL ARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "USINA DEL ARTE"
+   ],
+   "web": "https://usinadelarte.ar/",
+   "instagram": "@usinadelarte",
+   "origen": "data/lugares.json",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-sefarad",
+   "nombre": "CENTRO CULTURAL SEFARAD",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL SEFARAD"
+   ],
+   "web": "https://g.page/ccsefarad",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "La Paternal",
+   "direccion": "Segui, F. J., Alte. 2160",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "galpon-cultural-el-hueco",
+   "nombre": "GALPON CULTURAL EL HUECO",
+   "tipo": "lugar",
+   "lugares": [
+    "GALPON CULTURAL EL HUECO"
+   ],
+   "web": "http://www.elhueco.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "La Paternal",
+   "direccion": "Maturin 2439",
+   "entradas": [
+    "https://www.elhueco.com.ar/espectaculos.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Espectáculos"
+   ]
+  },
+  {
+   "id": "la-mensajera-eci",
+   "nombre": "La Mensajera ECI",
+   "tipo": "lugar",
+   "lugares": [
+    "La Mensajera ECI"
+   ],
+   "web": "",
+   "instagram": "@lamensajera.eci",
+   "origen": "data/lugares.json",
+   "barrio": "La Paternal",
+   "direccion": "Boyacá 1989/1983 (confirmar altura)"
+  },
+  {
+   "id": "vertice-espacio",
+   "nombre": "Vértice Espacio",
+   "tipo": "lugar",
+   "lugares": [
+    "Vértice Espacio"
+   ],
+   "web": "",
+   "instagram": "@vertice.espacio",
+   "origen": "data/lugares.json",
+   "barrio": "La Paternal",
+   "direccion": "Manuel Ricardo Trelles 2404"
+  },
+  {
+   "id": "casa-de-la-cultura-de-liniers",
+   "nombre": "CASA DE LA CULTURA DE LINIERS",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE LA CULTURA DE LINIERS"
+   ],
+   "web": "",
+   "instagram": "@casadelaculturadeliniers",
+   "origen": "data/lugares.json",
+   "barrio": "Liniers",
+   "direccion": "Pieres 226"
+  },
+  {
+   "id": "centro-cultural-elias-castelnuovo",
+   "nombre": "CENTRO CULTURAL ELÍAS CASTELNUOVO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ELÍAS CASTELNUOVO"
+   ],
+   "web": "",
+   "instagram": "@centroculturaleliascastelnuovo",
+   "origen": "data/lugares.json",
+   "barrio": "Liniers",
+   "direccion": "Montiel 1041"
+  },
+  {
+   "id": "el-tanque-cultural",
+   "nombre": "EL TANQUE CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "EL TANQUE CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@eltanquecultural",
+   "origen": "data/lugares.json",
+   "barrio": "Liniers",
+   "direccion": "Acassuso 6930"
+  },
+  {
+   "id": "espacio-cultural-fonrouge",
+   "nombre": "ESPACIO CULTURAL FONROUGE",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL FONROUGE"
+   ],
+   "web": "",
+   "instagram": "@espacioculturalfonrouge",
+   "origen": "data/lugares.json",
+   "barrio": "Liniers",
+   "direccion": "Fonrouge 483"
+  },
+  {
+   "id": "centro-cultural-macedonio-fernandez",
+   "nombre": "CENTRO CULTURAL MACEDONIO FERNANDEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL MACEDONIO FERNANDEZ"
+   ],
+   "web": "",
+   "instagram": "@ccmacedonio",
+   "origen": "data/lugares.json",
+   "barrio": "Mataderos",
+   "direccion": "Leguizamon, Martiniano 1470",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "asociacion-centro-betanzos",
+   "nombre": "ASOCIACION CENTRO BETANZOS",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION CENTRO BETANZOS"
+   ],
+   "web": "",
+   "instagram": "@centrobetanzosbsas",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Republica Bolivariana De Venezuela 1534",
+   "enlace_bio": "http://radioenxebre.com.ar/"
+  },
+  {
+   "id": "casa-de-la-cultura",
+   "nombre": "CASA DE LA CULTURA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE LA CULTURA"
+   ],
+   "web": "http://www.buenosaires.gov.ar/areas/cultura/casa_cultura/",
+   "instagram": "@casadelaculturaba",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "De Mayo Av. 575",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Dominio viejo de GCBA; ya no existe."
+   ]
+  },
+  {
+   "id": "centro-cultural-caras-y-caretas",
+   "nombre": "CENTRO CULTURAL CARAS Y CARETAS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL CARAS Y CARETAS"
+   ],
+   "web": "https://www.carasycaretas.org",
+   "instagram": "@salacarasycaretas",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Republica Bolivariana De Venezuela 330",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio carga en blanco."
+   ]
+  },
+  {
+   "id": "centro-cultural-y-de-capacitacion-prof-dr-ramon-carrillo",
+   "nombre": "CENTRO CULTURAL Y DE CAPACITACIÓN PROF. DR. RAMÓN CARRILLO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL Y DE CAPACITACIÓN PROF. DR. RAMÓN CARRILLO"
+   ],
+   "web": "",
+   "instagram": "@centroculturalcarrillo",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Republica Bolivariana De Venezuela 1283"
+  },
+  {
+   "id": "centro-politico-cultural-el-hormiguero",
+   "nombre": "CENTRO POLITICO CULTURAL EL HORMIGUERO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO POLITICO CULTURAL EL HORMIGUERO"
+   ],
+   "web": "",
+   "instagram": "@cpc.elhormiguero",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Yrigoyen, Hipolito 1440"
+  },
+  {
+   "id": "cine-club-farus",
+   "nombre": "Cine club Farus",
+   "tipo": "lugar",
+   "lugares": [
+    "Cine club Farus"
+   ],
+   "web": "https://cineclubfarus.taplink.bio",
+   "instagram": "@cineclubfarus",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Venezuela 932",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-cultural-san-andres",
+   "nombre": "ESPACIO CULTURAL SAN ANDRES",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL SAN ANDRES"
+   ],
+   "web": "https://espacioculturalsanandres.com/",
+   "instagram": "@espacioculturalsanandres",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Peru 352",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "la-vidriera-de-la-dgeart",
+   "nombre": "LA VIDRIERA DE LA DGEART",
+   "tipo": "lugar",
+   "lugares": [
+    "LA VIDRIERA DE LA DGEART"
+   ],
+   "web": "https://www.buenosaires.gob.ar/cultura/ensenanzaartistica/la-vidriera",
+   "instagram": "@dgeartistica",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Peru 374"
+  },
+  {
+   "id": "tacheles-polo-de-cultura-emergente",
+   "nombre": "TACHELES POLO DE CULTURA EMERGENTE",
+   "tipo": "lugar",
+   "lugares": [
+    "TACHELES POLO DE CULTURA EMERGENTE"
+   ],
+   "web": "",
+   "instagram": "@tachelesba",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Alsina, Adolfo 1475"
+  },
+  {
+   "id": "tierra-violeta",
+   "nombre": "TIERRA VIOLETA",
+   "tipo": "lugar",
+   "lugares": [
+    "TIERRA VIOLETA"
+   ],
+   "web": "https://www.tierra-violeta.com.ar",
+   "instagram": "@cctierravioleta",
+   "origen": "data/lugares.json",
+   "barrio": "Monserrat",
+   "direccion": "Tacuari 538",
+   "entradas": [
+    "https://www.tierra-violeta.com.ar/event-details/feminario-7-quienes-intentan-suicidarse-en-la-adolescencia-generos-cuidados-y-datos-del-riesgo-suicida"
+   ],
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-antonio-devoto",
+   "nombre": "CENTRO CULTURAL ANTONIO DEVOTO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ANTONIO DEVOTO"
+   ],
+   "web": "",
+   "instagram": "@centroculturalantoniodevoto",
+   "origen": "data/lugares.json",
+   "barrio": "Monte Castro",
+   "direccion": "Sanabria 2440"
+  },
+  {
+   "id": "centro-cultural-el-taller",
+   "nombre": "CENTRO CULTURAL EL TALLER",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL TALLER"
+   ],
+   "web": "",
+   "instagram": "@cceltallerpcb",
+   "origen": "data/lugares.json",
+   "barrio": "Monte Castro",
+   "direccion": "Gonzalez, Elpidio 4967",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-del-bajo-flores",
+   "nombre": "CENTRO CULTURAL DEL BAJO FLORES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DEL BAJO FLORES"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Nueva Pompeya",
+   "direccion": "Riestra Av. 1650",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-homero-manzi",
+   "nombre": "CENTRO CULTURAL HOMERO MANZI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL HOMERO MANZI"
+   ],
+   "web": "",
+   "instagram": "@cultura_homeromanzidepompeya",
+   "origen": "data/lugares.json",
+   "barrio": "Nueva Pompeya",
+   "direccion": "Tilcara 3365",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-la-casona-de-arena",
+   "nombre": "CENTRO CULTURAL LA CASONA DE ARENA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LA CASONA DE ARENA"
+   ],
+   "web": "",
+   "instagram": "@cc_lacasona",
+   "origen": "data/lugares.json",
+   "barrio": "Nueva Pompeya",
+   "direccion": "Almafuerte Av. 735",
+   "enlace_bio": "https://maps.app.goo.gl/C3iUost533xFqzRi6"
+  },
+  {
+   "id": "grupo-de-teatro-comunitario-de-pompeya",
+   "nombre": "GRUPO DE TEATRO COMUNITARIO DE POMPEYA",
+   "tipo": "lugar",
+   "lugares": [
+    "GRUPO DE TEATRO COMUNITARIO DE POMPEYA"
+   ],
+   "web": "https://www.gtcpompeya.blogspot.com",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Nueva Pompeya",
+   "direccion": "Chilavert, Martiniano, Coronel 1136",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2015"
+   ]
+  },
+  {
+   "id": "polo-bandoneon",
+   "nombre": "POLO BANDONEON",
+   "tipo": "lugar",
+   "lugares": [
+    "POLO BANDONEON"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
+   "instagram": "@polo_bandoneon",
+   "origen": "data/lugares.json",
+   "barrio": "Nueva Pompeya",
+   "direccion": "Saenz Av. 1480"
+  },
+  {
+   "id": "centro-cultural-de-la-memoria-haroldo-conti",
+   "nombre": "CENTRO CULTURAL DE LA MEMORIA HAROLDO CONTI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE LA MEMORIA HAROLDO CONTI"
+   ],
+   "web": "https://www.conti.derhuman.jus.gov.ar",
+   "instagram": "@centroculturalconti",
+   "origen": "data/lugares.json",
+   "barrio": "Nuñez",
+   "direccion": "Del Libertador Av. 8151",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga (error)."
+   ]
+  },
+  {
+   "id": "centro-cultural-julio-cortazar",
+   "nombre": "CENTRO CULTURAL JULIO CORTAZAR",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL JULIO CORTAZAR"
+   ],
+   "web": "",
+   "instagram": "@ccjuliocortazar",
+   "origen": "data/lugares.json",
+   "barrio": "Nuñez",
+   "direccion": "O'Higgins 3050",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "espacio-cultural-nuestros-hijos-fundacion-madres-de-plaza-de",
+   "nombre": "ESPACIO CULTURAL NUESTROS HIJOS. FUNDACION MADRES DE PLAZA DE MAYO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL NUESTROS HIJOS. FUNDACION MADRES DE PLAZA DE MAYO"
+   ],
+   "web": "https://ecunhi.com.ar/",
+   "instagram": "@ecunhi",
+   "origen": "data/lugares.json",
+   "barrio": "Nuñez",
+   "direccion": "Del Libertador Av. 8465",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "universidad-popular-de-belgrano",
+   "nombre": "UNIVERSIDAD POPULAR DE BELGRANO",
+   "tipo": "lugar",
+   "lugares": [
+    "UNIVERSIDAD POPULAR DE BELGRANO"
+   ],
+   "web": "https://www.upebe.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Nuñez",
+   "direccion": "Campos Salles 2145",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "alquimia-espacio-cultural",
+   "nombre": "ALQUIMIA ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "ALQUIMIA ESPACIO CULTURAL"
+   ],
+   "web": "https://www.alternativateatral.com/espacio6471-alquimia-espacio-cultural",
+   "instagram": "@alquimiacentrocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Ravignani, Emilio, Dr. 1408"
+  },
+  {
+   "id": "arepera-miss-venezuela-teatro-bar",
+   "nombre": "AREPERA MISS VENEZUELA TEATRO BAR",
+   "tipo": "lugar",
+   "lugares": [
+    "AREPERA MISS VENEZUELA TEATRO BAR"
+   ],
+   "web": "http://www.missvzlateatrobar.com",
+   "instagram": "@missvenezuelateatro",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Humboldt 2341",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "asociacion-cultural-armenia",
+   "nombre": "ASOCIACION CULTURAL ARMENIA",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION CULTURAL ARMENIA"
+   ],
+   "web": "https://www.acaculturalarmenia.org.ar",
+   "instagram": "@asociacionculturalarmenia",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Armenia 1366",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga (error)."
+   ]
+  },
+  {
+   "id": "asociacion-ucrania-de-cultura-provista-en-la-republica-argen",
+   "nombre": "ASOCIACION UCRANIA DE CULTURA PROVISTA EN LA REPUBLICA ARGENTINA",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION UCRANIA DE CULTURA PROVISTA EN LA REPUBLICA ARGENTINA"
+   ],
+   "web": "https://www.prosvita.org.ar",
+   "instagram": "@prosvita_arg",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Soler 5039",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "casa-de-cultura-y-politica-sofia-yussen-casa-sofia",
+   "nombre": "CASA DE CULTURA Y POLITICA SOFIA YUSSEN - CASA SOFIA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE CULTURA Y POLITICA SOFIA YUSSEN - CASA SOFIA"
+   ],
+   "web": "https://casasofia.org.ar/",
+   "instagram": "@casaculturalsofia",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Fitz Roy 1327",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Poco contenido en el sitio; usar redes"
+   ]
+  },
+  {
+   "id": "casa-rodolfo-walsh",
+   "nombre": "CASA RODOLFO WALSH",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA RODOLFO WALSH"
+   ],
+   "web": "",
+   "instagram": "@lacasawalsh",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Nicaragua 4441"
+  },
+  {
+   "id": "cc-amigos-de-eladia-blasquez",
+   "nombre": "CC AMIGOS DE ELADIA BLASQUEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CC AMIGOS DE ELADIA BLASQUEZ"
+   ],
+   "web": "",
+   "instagram": "@cc.amigoseladiablazquez",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Santa Fe Av. 5362"
+  },
+  {
+   "id": "centro-cultural-anibal-troilo",
+   "nombre": "CENTRO CULTURAL ANIBAL TROILO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ANIBAL TROILO"
+   ],
+   "web": "",
+   "instagram": "@ccanibaltroilo",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Gorriti 5740",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-buda-bar",
+   "nombre": "CENTRO CULTURAL BUDA BAR",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BUDA BAR"
+   ],
+   "web": "",
+   "instagram": "@budabarbs",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Costa Rica 4659"
+  },
+  {
+   "id": "centro-cultural-de-la-ciencia",
+   "nombre": "CENTRO CULTURAL DE LA CIENCIA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "web": "http://ccciencia.gob.ar/",
+   "instagram": "@ccdelaciencia",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio (migrado). Buscar nueva web."
+   ]
+  },
+  {
+   "id": "centro-cultural-de-la-india-gungur",
+   "nombre": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE LA INDIA GÜNGUR"
+   ],
+   "web": "https://gungur.com",
+   "instagram": "@gungurbuenosaires",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Cabrera, Jose A. 4175",
+   "entradas": [
+    "https://gungur.com/eventos-o/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-islamico",
+   "nombre": "CENTRO CULTURAL ISLAMICO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ISLAMICO"
+   ],
+   "web": "https://www.ccislamicoreyfahd.org.ar",
+   "instagram": "@cciar_islam",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Bullrich, Int. Av. 55",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-matta-embajada-de-chile",
+   "nombre": "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE"
+   ],
+   "web": "",
+   "instagram": "@centroculturalmatta",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Tagle 2772"
+  },
+  {
+   "id": "centro-cultural-richards",
+   "nombre": "CENTRO CULTURAL RICHARDS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL RICHARDS"
+   ],
+   "web": "https://ccrichards.com",
+   "instagram": "@cc_richards",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5272",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-tato-bores",
+   "nombre": "CENTRO CULTURAL TATO BORES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL TATO BORES"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Soler 3929",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-thames",
+   "nombre": "CENTRO CULTURAL THAMES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "web": "",
+   "instagram": "@culturalthames",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426"
+  },
+  {
+   "id": "club-cultural-mares",
+   "nombre": "CLUB CULTURAL MARES",
+   "tipo": "lugar",
+   "lugares": [
+    "CLUB CULTURAL MARES"
+   ],
+   "web": "",
+   "instagram": "@ccmares",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "El Salvador 5958",
+   "enlace_bio": "https://linktree.com/mares_",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en Passline y Citi Tickets))"
+   ]
+  },
+  {
+   "id": "congo",
+   "nombre": "CONGO",
+   "tipo": "lugar",
+   "lugares": [
+    "CONGO"
+   ],
+   "web": "https://congoclubcultural.com.ar",
+   "instagram": "@congobuenosaires",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "el-donn",
+   "nombre": "EL DONN",
+   "tipo": "lugar",
+   "lugares": [
+    "EL DONN"
+   ],
+   "web": "https://cceldonn.github.io/eldonn/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Guemes 3825",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-cultural-eureka",
+   "nombre": "ESPACIO CULTURAL EUREKA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL EUREKA"
+   ],
+   "web": "https://enjambre.cc/",
+   "instagram": "@teatroeureka",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Charcas 4335",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes http://www.centroenjambre.com.ar/)",
+    "2026-10-14 [revisión anterior: sin_agenda] enjambre.cc sin agenda; usar @eureka.cultural"
+   ]
+  },
+  {
+   "id": "espacio-cultural-juan-rodo",
+   "nombre": "ESPACIO CULTURAL JUAN RODO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL JUAN RODO"
+   ],
+   "web": "https://www.escuelajuanrodo.com.ar",
+   "instagram": "@escuelajuanrodo",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2655",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Escuela; sin agenda de eventos"
+   ]
+  },
+  {
+   "id": "espacio-ro-ro-techno-bar",
+   "nombre": "Espacio Rô / Rô Techno Bar",
+   "tipo": "lugar",
+   "lugares": [
+    "Espacio Rô / Rô Techno Bar"
+   ],
+   "web": "",
+   "instagram": "@rotechnobar",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Thames 1625"
+  },
+  {
+   "id": "la-abadia-centro-de-arte-y-estudios-latinoamericanos",
+   "nombre": "LA ABADIA. CENTRO DE ARTE Y ESTUDIOS LATINOAMERICANOS",
+   "tipo": "lugar",
+   "lugares": [
+    "LA ABADIA. CENTRO DE ARTE Y ESTUDIOS LATINOAMERICANOS"
+   ],
+   "web": "https://www.laabadia.org",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Gorostiaga 1908",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-escalera-espacio-de-arte",
+   "nombre": "LA ESCALERA ESPACIO DE ARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "LA ESCALERA ESPACIO DE ARTE"
+   ],
+   "web": "https://www.espaciolaescalera.com.ar",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Justo, Juan B. Av. 889",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Solo Facebook: EspacioLaEscalera",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-tangente",
+   "nombre": "LA TANGENTE",
+   "tipo": "lugar",
+   "lugares": [
+    "LA TANGENTE"
+   ],
+   "web": "https://latangente.com.ar/",
+   "instagram": "@la.tangente",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "comportamiento": {
+    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "libario",
+   "nombre": "LIBARIO",
+   "tipo": "lugar",
+   "lugares": [
+    "LIBARIO"
+   ],
+   "web": "https://linktr.ee/libariomultiespacio",
+   "instagram": "@libariomultiespacio",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Alvarez, Julian 1315",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-casa-del-arbol",
+   "nombre": "La Casa del Árbol",
+   "tipo": "lugar",
+   "lugares": [
+    "La Casa del Árbol"
+   ],
+   "web": "",
+   "instagram": "@_lacasadelarbol_",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217"
+  },
+  {
+   "id": "multiespacio-jxi",
+   "nombre": "MULTIESPACIO JXI",
+   "tipo": "lugar",
+   "lugares": [
+    "MULTIESPACIO JXI"
+   ],
+   "web": "",
+   "instagram": "@multijxipalermo",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Gascon 1474"
+  },
+  {
+   "id": "multiespacio-korova",
+   "nombre": "MULTIESPACIO KOROVA",
+   "tipo": "lugar",
+   "lugares": [
+    "MULTIESPACIO KOROVA"
+   ],
+   "web": "",
+   "instagram": "@multiespaciokorova",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Paraguay 4667"
+  },
+  {
+   "id": "nueva-uriarte",
+   "nombre": "NUEVA URIARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "NUEVA URIARTE"
+   ],
+   "web": "https://ccnuevauriarte.com.ar/",
+   "instagram": "@ccnuevauriarte",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "the-monkeys",
+   "nombre": "THE MONKEYS",
+   "tipo": "lugar",
+   "lugares": [
+    "THE MONKEYS"
+   ],
+   "web": "https://themonkeys.com.ar/",
+   "instagram": "@themonkeysch",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Guatemala 4462",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Casi sin contenido; usar redes"
+   ]
+  },
+  {
+   "id": "vuela-el-pez",
+   "nombre": "VUELA EL PEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "VUELA EL PEZ"
+   ],
+   "web": "",
+   "instagram": "@vuelaelpez",
+   "origen": "data/lugares.json",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 4379",
+   "enlace_bio": "http://www.circuitosmaradonianos.com.ar/"
+  },
+  {
+   "id": "espacio-cultural-chacra-de-los-remedios",
+   "nombre": "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/chacra-de-los-remedios",
+   "instagram": "@chacradelosremedios",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Avellaneda",
+   "direccion": "Directorio Av. Y Lacarra"
+  },
+  {
+   "id": "centro-cultural-adan-buenos-aires",
+   "nombre": "CENTRO CULTURAL ADAN BUENOS AIRES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ADAN BUENOS AIRES"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/adan-buenosayres",
+   "instagram": "@ecadanbuenosayres",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Peron, Eva Av. 1400"
+  },
+  {
+   "id": "centro-cultural-artes-de-parque-chacabuco",
+   "nombre": "CENTRO CULTURAL ARTES DE PARQUE CHACABUCO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ARTES DE PARQUE CHACABUCO"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Cachimayo 1657",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "espacio-suenos",
+   "nombre": "ESPACIO SUEÑOS",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO SUEÑOS"
+   ],
+   "web": "https://www.espaciosuenios.com",
+   "instagram": "@centroculturalparavivir",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chacabuco",
+   "direccion": "La Plata Av. 1255",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Coincidencia dudosa; confirmar",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-minga-club-cultural",
+   "nombre": "LA MINGA CLUB CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LA MINGA CLUB CULTURAL"
+   ],
+   "web": "https://www.lamingaclubcultural.com.ar",
+   "instagram": "@lamingacc",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Del Barco Centenera 1126",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "solo_instagram",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: instagram] El sitio redirige a Linktree"
+   ]
+  },
+  {
+   "id": "el-cultural-masala",
+   "nombre": "EL CULTURAL MASALA",
+   "tipo": "lugar",
+   "lugares": [
+    "EL CULTURAL MASALA"
+   ],
+   "web": "",
+   "instagram": "@elculturalmasala",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chas",
+   "direccion": "Avalos 1210",
+   "enlace_bio": "https://linktr.ee/elculturalmasala"
+  },
+  {
+   "id": "el-laberinto-de-parque-chas",
+   "nombre": "EL LABERINTO DE PARQUE CHAS",
+   "tipo": "lugar",
+   "lugares": [
+    "EL LABERINTO DE PARQUE CHAS"
+   ],
+   "web": "",
+   "instagram": "@laberinto_de_chas",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Chas",
+   "direccion": "Victorica, Benjamin, General, Av. 2642"
+  },
+  {
+   "id": "casa-cultural-victor-jara",
+   "nombre": "CASA CULTURAL VICTOR JARA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA CULTURAL VICTOR JARA"
+   ],
+   "web": "",
+   "instagram": "@ccvictorjara",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "24 De Noviembre 2273"
+  },
+  {
+   "id": "casa-de-la-cultura-los-compadres-del-horizonte",
+   "nombre": "CASA DE LA CULTURA LOS COMPADRES DEL HORIZONTE",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE LA CULTURA LOS COMPADRES DEL HORIZONTE"
+   ],
+   "web": "https://www.casadelaculturacompadresdelhorizonte.blogspot.com",
+   "instagram": "@compadresdelhorizonte",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Combate De Los Pozos 1936",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2014"
+   ]
+  },
+  {
+   "id": "centro-cultural-casiopea",
+   "nombre": "CENTRO CULTURAL CASIOPEA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL CASIOPEA"
+   ],
+   "web": "",
+   "instagram": "@cccasiopea_",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Zavaleta 443"
+  },
+  {
+   "id": "centro-cultural-el-cantaro",
+   "nombre": "CENTRO CULTURAL EL CANTARO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL EL CANTARO"
+   ],
+   "web": "",
+   "instagram": "@cc_elcantaro",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Caseros Av. 2516"
+  },
+  {
+   "id": "centro-cultural-miguel-miranda",
+   "nombre": "CENTRO CULTURAL MIGUEL MIRANDA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL MIGUEL MIRANDA"
+   ],
+   "web": "",
+   "instagram": "@ccmiguelmiranda",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Luca, Esteban De 2270"
+  },
+  {
+   "id": "chela",
+   "nombre": "CHELA",
+   "tipo": "lugar",
+   "lugares": [
+    "CHELA"
+   ],
+   "web": "https://chela.org.ar/",
+   "instagram": "@chela.agenda",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Iguazu 451",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "catulo-casa-cultural",
+   "nombre": "Cátulo Casa Cultural",
+   "tipo": "lugar",
+   "lugares": [
+    "Cátulo Casa Cultural"
+   ],
+   "web": "",
+   "instagram": "@catulocc",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Cátulo Castillo 2480"
+  },
+  {
+   "id": "fundacion-naum-knop",
+   "nombre": "FUNDACIÓN NAUM KNOP",
+   "tipo": "lugar",
+   "lugares": [
+    "FUNDACIÓN NAUM KNOP"
+   ],
+   "web": "https://www.naum-knop.org/",
+   "instagram": "@knopfundacion",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Catamarca 1747",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío"
+   ]
+  },
+  {
+   "id": "galpon-face",
+   "nombre": "GALPÓN FACE",
+   "tipo": "lugar",
+   "lugares": [
+    "GALPÓN FACE"
+   ],
+   "web": "",
+   "instagram": "@galponface",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Dean Funes 2142"
+  },
+  {
+   "id": "los-pompas",
+   "nombre": "LOS POMPAS",
+   "tipo": "lugar",
+   "lugares": [
+    "LOS POMPAS"
+   ],
+   "web": "https://pompapetriyasos.com.ar/",
+   "instagram": "@lospompas",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Brasil 2640",
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "planta-inclan",
+   "nombre": "Planta Inclán",
+   "tipo": "lugar",
+   "lugares": [
+    "Planta Inclán"
+   ],
+   "web": "https://plantainclan.com/",
+   "instagram": "@planta.inclan",
+   "origen": "data/lugares.json",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "deotravidaprod",
+   "nombre": "DEOTRAVIDAPROD",
+   "tipo": "lugar",
+   "lugares": [
+    "DEOTRAVIDAPROD"
+   ],
+   "web": "",
+   "instagram": "@deotravidaprod",
+   "origen": "data/lugares.json",
+   "barrio": "Paternal",
+   "direccion": "",
+   "enlace_bio": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (evento en Passline))"
+   ]
+  },
+  {
+   "id": "club-conjura",
+   "nombre": "club conjura",
+   "tipo": "lugar",
+   "lugares": [
+    "club conjura"
+   ],
+   "web": "",
+   "instagram": "@club.conjura",
+   "origen": "data/lugares.json",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476"
+  },
+  {
+   "id": "universidad-catolica-de-buenos-aires",
+   "nombre": "UNIVERSIDAD CATOLICA DE BUENOS AIRES",
+   "tipo": "lugar",
+   "lugares": [
+    "UNIVERSIDAD CATOLICA DE BUENOS AIRES"
+   ],
+   "web": "https://www.uca.edu.ar",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Puerto Madero",
+   "direccion": "Moreau De Justo, Alicia Av. 1500",
+   "entradas": [
+    "https://uca.edu.ar/es/calendario/10/2026"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Calendario institucional con eventos; filtrar los culturales"
+   ]
+  },
+  {
+   "id": "centro-cultural-de-espana-en-buenos-aires",
+   "nombre": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "web": "https://cceba.aecid.es/",
+   "instagram": "@cceba_ar",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Parana 1159",
+   "entradas": [
+    "https://cceba.aecid.es/eventos/inscripciones"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-pkr",
+   "nombre": "CENTRO CULTURAL PKR",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL PKR"
+   ],
+   "web": "https://sites.google.com/view/centro-cultural-pkr/",
+   "instagram": "@centroculturalpkr",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Santa Fe Av. 2520",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio Google casi sin contenido; usar @centroculturalpkr"
+   ]
+  },
+  {
+   "id": "centro-cultural-y-biblioteca-popular-carlos-sanchez-viamonte",
+   "nombre": "CENTRO CULTURAL Y BIBLIOTECA POPULAR CARLOS SANCHEZ VIAMONTE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL Y BIBLIOTECA POPULAR CARLOS SANCHEZ VIAMONTE"
+   ],
+   "web": "https://www.carlossviamonte.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Austria 2156",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga."
+   ]
+  },
+  {
+   "id": "casa-nacional-del-bicentenario",
+   "nombre": "Casa Nacional del Bicentenario",
+   "tipo": "lugar",
+   "lugares": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "web": "https://casadelbicentenario.cultura.gob.ar/",
+   "instagram": "@cnblacasa",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "entradas": [
+    "https://casadelbicentenario.cultura.gob.ar/exhibiciones/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "espacio-cultural-oei",
+   "nombre": "ESPACIO CULTURAL OEI",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL OEI"
+   ],
+   "web": "https://oei.org.ar/espaciocultural/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Paraguay 1514",
+   "comportamiento": {
+    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "feliza-cultura-arcoiris",
+   "nombre": "FELIZA CULTURA ARCOIRIS",
+   "tipo": "lugar",
+   "lugares": [
+    "FELIZA CULTURA ARCOIRIS"
+   ],
+   "web": "https://felizarcoiris.com/",
+   "instagram": "@felizarcoiris",
+   "origen": "data/lugares.json",
+   "barrio": "Recoleta",
+   "direccion": "Cordoba Av. 3271",
+   "entradas": [
+    "https://felizarcoiris.com/agenda"
+   ],
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "british-art-centre",
+   "nombre": "BRITISH ART CENTRE",
+   "tipo": "lugar",
+   "lugares": [
+    "BRITISH ART CENTRE"
+   ],
+   "web": "https://www.aaci.org.ar/bac/",
+   "instagram": "@britishartscentre",
+   "origen": "data/lugares.json",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1333",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes https://www.britishartcentre.org.ar)"
+   ]
+  },
+  {
+   "id": "centro-cultural-coreano",
+   "nombre": "CENTRO CULTURAL COREANO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL COREANO"
+   ],
+   "web": "http://argentina.korean-culture.org/",
+   "instagram": "@centroculturalcoreano",
+   "origen": "data/lugares.json",
+   "barrio": "Retiro",
+   "direccion": "Maipu 972",
+   "entradas": [
+    "https://argentina.korean-culture.org/es/464/board/191/list"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Listado de eventos; calendario en /es/1877/schedule/list"
+   ]
+  },
+  {
+   "id": "encupula",
+   "nombre": "ENCUPULA",
+   "tipo": "lugar",
+   "lugares": [
+    "ENCUPULA"
+   ],
+   "web": "",
+   "instagram": "@encupula",
+   "origen": "data/lugares.json",
+   "barrio": "Retiro",
+   "direccion": "Cordoba Av. 807"
+  },
+  {
+   "id": "espacio-cultural-embajada-del-brasil",
+   "nombre": "ESPACIO CULTURAL EMBAJADA DEL BRASIL",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL EMBAJADA DEL BRASIL"
+   ],
+   "web": "https://www.gov.br/mre/pt-br/embaixada-buenos-aires/sector-cultural-1",
+   "instagram": "@culturalbrasilbaires",
+   "origen": "data/lugares.json",
+   "barrio": "Retiro",
+   "direccion": "Arroyo 1138",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes https://www.buenosaires.itamaraty.gov.ar)",
+    "2026-10-14 [revisión anterior: caido] Redirige a login gov.br; usar @embrasilargentina"
+   ]
+  },
+  {
+   "id": "auditorio-san-rafael-centro-cultural-san-rafael",
+   "nombre": "AUDITORIO SAN RAFAEL. CENTRO CULTURAL SAN RAFAEL",
+   "tipo": "lugar",
+   "lugares": [
+    "AUDITORIO SAN RAFAEL. CENTRO CULTURAL SAN RAFAEL"
+   ],
+   "web": "",
+   "instagram": "@funsanrafael",
+   "origen": "data/lugares.json",
+   "barrio": "Saavedra",
+   "direccion": "Ramallo 2606",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-discepolin",
+   "nombre": "CENTRO CULTURAL DISCEPOLIN",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DISCEPOLIN"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Saavedra",
+   "direccion": "Tronador 4134",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-lino-e-spilimbergo",
+   "nombre": "CENTRO CULTURAL LINO E. SPILIMBERGO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LINO E. SPILIMBERGO"
+   ],
+   "web": "",
+   "instagram": "@cclinoeneaspilimbergo",
+   "origen": "data/lugares.json",
+   "barrio": "Saavedra",
+   "direccion": "Perez, Roque 3545",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "espacio-cultural-garcia",
+   "nombre": "ESPACIO CULTURAL GARCIA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL GARCIA"
+   ],
+   "web": "http://espaciogarcia.com.ar/",
+   "instagram": "@espaciogarcia",
+   "origen": "data/lugares.json",
+   "barrio": "Saavedra",
+   "direccion": "Vidal 3801",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "solo_instagram",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: instagram] Agenda por newsletter Mailchimp; usar redes"
+   ]
+  },
+  {
+   "id": "centro-arzuano-mellidense-cam",
+   "nombre": "CENTRO ARZUANO MELLIDENSE - CAM -",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO ARZUANO MELLIDENSE - CAM -"
+   ],
+   "web": "https://sites.google.com/site/centroarzuanomellidense/",
+   "instagram": "@centroarzuanomellidense",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "Cochabamba 3245"
+  },
+  {
+   "id": "centro-okinawense",
+   "nombre": "CENTRO OKINAWENSE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO OKINAWENSE"
+   ],
+   "web": "https://www.okiren.org.ar/",
+   "instagram": "@centrookinawenseenlaargentina",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "San Juan Av. 2651",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-salamanca-recreativo-cultural-y-s",
+   "nombre": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO SALAMANCA RECREATIVO CULTURAL Y S"
+   ],
+   "web": "https://centrosalamanca.com.ar/",
+   "instagram": "@centrosalamanca",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "Independencia Av. 2540",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "espacio-cultural-julian-centeya",
+   "nombre": "ESPACIO CULTURAL JULIAN CENTEYA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL JULIAN CENTEYA"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/julian-centeya",
+   "instagram": "@ecjcenteya",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "San Juan Av. 3255"
+  },
+  {
+   "id": "espacio-el-zonko",
+   "nombre": "ESPACIO EL ZONKO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO EL ZONKO"
+   ],
+   "web": "",
+   "instagram": "@espacio.elzonko",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "Pavon 2552"
+  },
+  {
+   "id": "la-bisagra",
+   "nombre": "LA BISAGRA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA BISAGRA",
+    "LA QUINCE ESPACIO CULTURAL"
+   ],
+   "web": "http://www.seamoslibresmp.com.ar/",
+   "instagram": "@laquincecultural",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "San Juan Av. 1826",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Solo Facebook: labisagraenSL",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "rincon-casa-cultural",
+   "nombre": "RINCON CASA CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "RINCON CASA CULTURAL"
+   ],
+   "web": "http://rinconcasacultural.com.ar/",
+   "instagram": "@rinconcasacultural",
+   "origen": "data/lugares.json",
+   "barrio": "San Cristobal",
+   "direccion": "Rincon 1330",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "buenos-aires-dance-club",
+   "nombre": "BUENOS AIRES DANCE CLUB",
+   "tipo": "lugar",
+   "lugares": [
+    "BUENOS AIRES DANCE CLUB"
+   ],
+   "web": "https://badanceclub.com.ar/",
+   "instagram": "@buenosairesdanceclub",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Florida 550",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "casa-de-la-provincia-de-buenos-aires",
+   "nombre": "CASA DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE LA PROVINCIA DE BUENOS AIRES"
+   ],
+   "web": "",
+   "instagram": "@casapba",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Callao Av. 237"
+  },
+  {
+   "id": "centro-cultural-borges",
+   "nombre": "CENTRO CULTURAL BORGES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "web": "https://centroculturalborges.gob.ar/",
+   "instagram": "@centroborges",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "entradas": [
+    "https://centroculturalborges.gob.ar/agenda"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Agenda JS (Schedule)"
+   ]
+  },
+  {
+   "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
+   "nombre": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "web": "https://www.centrocultural.coop",
+   "instagram": "@centroculturaldelacooperacion",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "entradas": [
+    "https://www.centrocultural.coop/cartelera-mes"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
+   "nombre": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "web": "https://www.ar.emb-japan.go.jp",
+   "instagram": "@japanemb_arg",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Bouchard 547",
+   "entradas": [
+    "https://www.ar.emb-japan.go.jp/itpr_es/AgendaCultural.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Agenda Cultural (HTML/PDF)"
+   ]
+  },
+  {
+   "id": "centro-cultural-lito-cruz",
+   "nombre": "CENTRO CULTURAL LITO CRUZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LITO CRUZ"
+   ],
+   "web": "https://www.cclitocruz.com/",
+   "instagram": "@cclitocruz",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Parana 628",
+   "entradas": [
+    "https://www.cclitocruz.com/grilla"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Grilla de programación"
+   ]
+  },
+  {
+   "id": "centro-cultural-paco-urondo",
+   "nombre": "CENTRO CULTURAL PACO URONDO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "web": "https://pacourondo.filo.uba.ar/",
+   "instagram": "@ccpacourondo",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "entradas": [
+    "https://pacourondo.filo.uba.ar/eventos/lo-que-se-hereda"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "cultura-faro",
+   "nombre": "CULTURA FARO",
+   "tipo": "lugar",
+   "lugares": [
+    "CULTURA FARO"
+   ],
+   "web": "https://culturafaro.com/",
+   "instagram": "@elfarocentrocultural",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Suipacha 119",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Confirmar: puede ser Centro Cultural El Faro",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "el-cultural-san-martin",
+   "nombre": "El Cultural San Martín",
+   "tipo": "lugar",
+   "lugares": [
+    "El Cultural San Martín"
+   ],
+   "web": "https://elculturalsanmartin.ar/",
+   "instagram": "@elculturalsanmartin",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Sarmiento 1551",
+   "comportamiento": {
+    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-paz-arriba",
+   "nombre": "LA PAZ ARRIBA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA PAZ ARRIBA"
+   ],
+   "web": "",
+   "instagram": "@lapazarriba",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Montevideo 421",
+   "enlace_bio": "https://linktr.ee/lapazarriba_",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Agenda y Entradas en Passline))"
+   ]
+  },
+  {
+   "id": "la-ronda-espacio-cultural",
+   "nombre": "LA RONDA ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "LA RONDA ESPACIO CULTURAL"
+   ],
+   "web": "https://larondaespaciocultural.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 1730",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "palacio-libertad-ex-centro-cultural-kirchner",
+   "nombre": "Palacio Libertad (ex Centro Cultural Kirchner)",
+   "tipo": "lugar",
+   "lugares": [
+    "Palacio Libertad (ex Centro Cultural Kirchner)"
+   ],
+   "web": "https://palaciolibertad.gob.ar/",
+   "instagram": "@libertadpalacio",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolas",
+   "direccion": "Sarmiento 151",
+   "entradas": [
+    "https://palaciolibertad.gob.ar/agenda/"
+   ],
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "balcarce-espacio-cultural",
+   "nombre": "BALCARCE ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "BALCARCE ESPACIO CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@balcarce_espacio_cultural",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 1090"
+  },
+  {
+   "id": "bolivar-852",
+   "nombre": "BOLIVAR 852",
+   "tipo": "lugar",
+   "lugares": [
+    "BOLIVAR 852"
+   ],
+   "web": "",
+   "instagram": "@bolivar852_arte_musica_cocina",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Bolivar 852"
+  },
+  {
+   "id": "casa-cultural-pepa-noia",
+   "nombre": "CASA CULTURAL PEPA NOIA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA CULTURAL PEPA NOIA"
+   ],
+   "web": "",
+   "instagram": "@pepanoia",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Brasil 444"
+  },
+  {
+   "id": "casona-plurinacional-de-la-cultura",
+   "nombre": "CASONA PLURINACIONAL DE LA CULTURA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASONA PLURINACIONAL DE LA CULTURA"
+   ],
+   "web": "",
+   "instagram": "@lacasona.cultural",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Calvo, Carlos 242",
+   "enlace_bio": "https://www.passmope.com/e/K5i81C",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entrada a evento en Passmope))"
+   ]
+  },
+  {
+   "id": "cdca",
+   "nombre": "CDCA",
+   "tipo": "lugar",
+   "lugares": [
+    "CDCA"
+   ],
+   "web": "",
+   "instagram": "@cdca.santelmo",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Estados Unidos 425"
+  },
+  {
+   "id": "centro-cultural-argentino-croata-de-san-telmo",
+   "nombre": "CENTRO CULTURAL ARGENTINO CROATA DE SAN TELMO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ARGENTINO CROATA DE SAN TELMO"
+   ],
+   "web": "",
+   "instagram": "@culturalcroata.ok",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Bolivar 1556"
+  },
+  {
+   "id": "centro-cultural-fortunato-lacamera",
+   "nombre": "CENTRO CULTURAL FORTUNATO LACAMERA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL FORTUNATO LACAMERA"
+   ],
+   "web": "",
+   "instagram": "@lacamerafortunato",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "San Juan Av. 353",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-leopoldo-gonzalez",
+   "nombre": "CENTRO CULTURAL LEOPOLDO GONZALEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LEOPOLDO GONZALEZ"
+   ],
+   "web": "",
+   "instagram": "@ccleopoldogonzalez",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Independencia Av. 446"
+  },
+  {
+   "id": "centro-cultural-torquato-tasso",
+   "nombre": "CENTRO CULTURAL TORQUATO TASSO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL TORQUATO TASSO"
+   ],
+   "web": "https://www.torquatotasso.com.ar",
+   "instagram": "@musicaeneltasso",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1575",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío; usar redes/ticketera"
+   ]
+  },
+  {
+   "id": "centro-social-y-cultural-casa-cambalache",
+   "nombre": "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE"
+   ],
+   "web": "https://www.clubsocialcambalache.com/",
+   "instagram": "@club.social.cambalache",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1179",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "clasico-fernandez",
+   "nombre": "CLASICO FERNANDEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CLASICO FERNANDEZ"
+   ],
+   "web": "https://www.clasicofernandez.com.ar",
+   "instagram": "@clasicofernandez",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Piedras 1020",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Solo Facebook: clasicofernandez.com.ar; parece un restaurante, evaluar si corresponde",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-cultural-bolivar",
+   "nombre": "ESPACIO CULTURAL BOLÍVAR",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL BOLÍVAR"
+   ],
+   "web": "",
+   "instagram": "@espacioculturalbolivar",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Bolivar 1019"
+  },
+  {
+   "id": "espacio-cultural-plaza-defensa",
+   "nombre": "Espacio Cultural Plaza Defensa",
+   "tipo": "lugar",
+   "lugares": [
+    "Espacio Cultural Plaza Defensa"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/plaza-defensa",
+   "instagram": "@ecplazadefensa",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 535"
+  },
+  {
+   "id": "fedro",
+   "nombre": "FEDRO",
+   "tipo": "lugar",
+   "lugares": [
+    "FEDRO"
+   ],
+   "web": "http://fedrosantelmo.wordpress.com",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Calvo, Carlos 578",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: desactualizado] Blog WordPress con posts viejos"
+   ]
+  },
+  {
+   "id": "fundacion-mercedes-sosa",
+   "nombre": "FUNDACION MERCEDES SOSA",
+   "tipo": "lugar",
+   "lugares": [
+    "FUNDACION MERCEDES SOSA"
+   ],
+   "web": "https://www.mercedessosa.org/",
+   "instagram": "@fundacionmercedessosa",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Humberto 1° 378",
+   "entradas": [
+    "https://www.mercedessosa.org/muestras-itinerantes/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-scala-de-san-telmo",
+   "nombre": "LA SCALA DE SAN TELMO",
+   "tipo": "lugar",
+   "lugares": [
+    "LA SCALA DE SAN TELMO"
+   ],
+   "web": "https://www.lascala.org.ar",
+   "instagram": "@scaladesantelmo",
+   "origen": "data/lugares.json",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] El sitio no carga."
+   ]
+  },
+  {
+   "id": "centro-cultural-la-casita-de-la-selva",
+   "nombre": "CENTRO CULTURAL LA CASITA DE LA SELVA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LA CASITA DE LA SELVA"
+   ],
+   "web": "",
+   "instagram": "@lacasitadelaselva",
+   "origen": "data/lugares.json",
+   "barrio": "Velez Sarsfield",
+   "direccion": "La Selva 4022",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "espacio-cultural-anduma",
+   "nombre": "ESPACIO CULTURAL ANDUMA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL ANDUMA"
+   ],
+   "web": "",
+   "instagram": "@anduma.espaciocultural",
+   "origen": "data/lugares.json",
+   "barrio": "Velez Sarsfield",
+   "direccion": "Escalada De San Martin, R. 4553"
+  },
+  {
+   "id": "centro-cultural-versalles",
+   "nombre": "CENTRO CULTURAL VERSALLES",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL VERSALLES"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Versalles",
+   "direccion": "Bruselas 785",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "casa-brandon",
+   "nombre": "CASA BRANDON",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA BRANDON"
+   ],
+   "web": "https://brandon.org.ar/",
+   "instagram": "@casabrandon",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Drago, Luis Maria 236",
+   "entradas": [
+    "https://brandon.org.ar/agenda/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "cc-no-me-olvides",
+   "nombre": "CC NO ME OLVIDES",
+   "tipo": "lugar",
+   "lugares": [
+    "CC NO ME OLVIDES"
+   ],
+   "web": "",
+   "instagram": "@nomeolvidesvcrespo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Lavalleja 1008"
+  },
+  {
+   "id": "centro-cultural-de-arte-y-movimiento-bailaba",
+   "nombre": "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!"
+   ],
+   "web": "",
+   "instagram": "@bailaba.centro.cultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Scalabrini Ortiz, Raul Av. 540"
+  },
+  {
+   "id": "centro-cultural-musicleta",
+   "nombre": "CENTRO CULTURAL MUSICLETA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "web": "",
+   "instagram": "@ccmusicleta",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "enlace_bio": "https://bit.ly/musicleta",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (agenda semanal))"
+   ]
+  },
+  {
+   "id": "centro-cultural-osvaldo-pugliese",
+   "nombre": "CENTRO CULTURAL OSVALDO PUGLIESE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL OSVALDO PUGLIESE"
+   ],
+   "web": "",
+   "instagram": "@centroculturalosvaldopugliese",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Araoz 234",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-teatro-fray-mocho",
+   "nombre": "CENTRO CULTURAL TEATRO FRAY MOCHO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL TEATRO FRAY MOCHO"
+   ],
+   "web": "http://fraymochoteatro.blogspot.com/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Araoz 1047",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Blog eliminado."
+   ]
+  },
+  {
+   "id": "chimera",
+   "nombre": "CHIMERA",
+   "tipo": "lugar",
+   "lugares": [
+    "CHIMERA"
+   ],
+   "web": "",
+   "instagram": "@chimera.arte",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Tres Arroyos 402"
+  },
+  {
+   "id": "club-cultural-matienzo",
+   "nombre": "CLUB CULTURAL MATIENZO",
+   "tipo": "lugar",
+   "lugares": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "web": "https://www.ccmatienzo.com.ar",
+   "instagram": "@ccmatienzo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "entradas": [
+    "https://www.ccmatienzo.com.ar/tu-evento"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "cooperativa-cultural-qi",
+   "nombre": "COOPERATIVA CULTURAL QI",
+   "tipo": "lugar",
+   "lugares": [
+    "COOPERATIVA CULTURAL QI"
+   ],
+   "web": "",
+   "instagram": "@qivillacrespo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Thames 240"
+  },
+  {
+   "id": "doup",
+   "nombre": "DOUP",
+   "tipo": "lugar",
+   "lugares": [
+    "DOUP"
+   ],
+   "web": "https://www.doup.com.ar",
+   "instagram": "@doup.arg",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Justo, Juan B. Av. 2261",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_cultural",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: no_es_agenda] Entrenamiento; no es centro cultural"
+   ]
+  },
+  {
+   "id": "doble-sentido",
+   "nombre": "Doble Sentido",
+   "tipo": "lugar",
+   "lugares": [
+    "Doble Sentido"
+   ],
+   "web": "",
+   "instagram": "@doblesentidobarcultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Loyola 788"
+  },
+  {
+   "id": "el-jufre-teatro-bar",
+   "nombre": "EL JUFRE TEATRO-BAR",
+   "tipo": "lugar",
+   "lugares": [
+    "EL JUFRE TEATRO-BAR"
+   ],
+   "web": "",
+   "instagram": "@eljufre",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Jufre 444"
+  },
+  {
+   "id": "espacio-gliptodonte",
+   "nombre": "ESPACIO GLIPTODONTE",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO GLIPTODONTE"
+   ],
+   "web": "",
+   "instagram": "@espacio.gliptodonte",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Marechal, Leopoldo 1160",
+   "enlace_bio": "https://linktr.ee/espacio.gliptodonte"
+  },
+  {
+   "id": "espacio-malcolm",
+   "nombre": "ESPACIO MALCOLM",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO MALCOLM"
+   ],
+   "web": "https://linktr.ee/espaciomalcolm",
+   "instagram": "@espaciomalcolm",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 456"
+  },
+  {
+   "id": "espacio-orsai",
+   "nombre": "ESPACIO ORSAI",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO ORSAI"
+   ],
+   "web": "https://espacio.orsai.org/",
+   "instagram": "@comunidad.orsai",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Serrano 1141",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "espacio-salvo",
+   "nombre": "ESPACIO SALVO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO SALVO"
+   ],
+   "web": "",
+   "instagram": "@espaciosalvo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Viale, Luis 89"
+  },
+  {
+   "id": "espacio-ukelele",
+   "nombre": "ESPACIO UKELELE",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO UKELELE"
+   ],
+   "web": "https://espacioukelele.com.ar/",
+   "instagram": "@espacioukelele",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Serrano 587",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espiritu-mamut",
+   "nombre": "ESPÍRITU MAMUT",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPÍRITU MAMUT"
+   ],
+   "web": "",
+   "instagram": "@teatroespiritumamut",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Warnes Av. 616"
+  },
+  {
+   "id": "la-cultura-del-barrio",
+   "nombre": "La Cultura del Barrio",
+   "tipo": "lugar",
+   "lugares": [
+    "La Cultura del Barrio"
+   ],
+   "web": "https://linktr.ee/laculturadelbarri",
+   "instagram": "@laculturadelbarrio.oficial",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "No confirmada"
+  },
+  {
+   "id": "monstera-club-cultural",
+   "nombre": "MONSTERA CLUB CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "MONSTERA CLUB CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@monsteraclubcultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Estado De Israel Av. 4791"
+  },
+  {
+   "id": "oceanario-club-cultural",
+   "nombre": "OCEANARIO CLUB CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "OCEANARIO CLUB CULTURAL"
+   ],
+   "web": "https://www.oceanario.com.ar",
+   "instagram": "@oceanario_club",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Escalada De San Martin, R. 332",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "oliverio-girondo",
+   "nombre": "OLIVERIO GIRONDO",
+   "tipo": "lugar",
+   "lugares": [
+    "OLIVERIO GIRONDO"
+   ],
+   "web": "https://oliveriogirondoespaciocultural.wordpress.com/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Vera 574",
+   "entradas": [
+    "https://oliveriogirondoespaciocultural.wordpress.com/programacion/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Sección Programación"
+   ]
+  },
+  {
+   "id": "poncho-club-cultural",
+   "nombre": "PONCHO CLUB CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "PONCHO CLUB CULTURAL"
+   ],
+   "web": "https://ponchoteatro.com/",
+   "instagram": "@ponchoclubcultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Marechal, Leopoldo 1219",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes http://ponchoclubcultural.com/)",
+    "2026-10-14 [revisión anterior: navegador] Cartelera en la portada"
+   ]
+  },
+  {
+   "id": "savia-espacio-cultural",
+   "nombre": "SAVIA ESPACIO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "SAVIA ESPACIO CULTURAL"
+   ],
+   "web": "http://www.saviacultural.com",
+   "instagram": "@saviacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Jufre 127",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "un-lugar-aparte",
+   "nombre": "UN LUGAR APARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "UN LUGAR APARTE"
+   ],
+   "web": "",
+   "instagram": "@unlugaraparte",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Ramirez De Velasco, Juan 710"
+  },
+  {
+   "id": "wara-wara",
+   "nombre": "WARA WARA",
+   "tipo": "lugar",
+   "lugares": [
+    "WARA WARA"
+   ],
+   "web": "https://warawaracultural.wixsite.com/inicio",
+   "instagram": "@somoswarawara",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Crespo",
+   "direccion": "Martinez Rosas 969",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "solo_instagram",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: instagram] Wix casi sin texto; usar @somoswarawara"
+   ]
+  },
+  {
+   "id": "casa-del-pueblo",
+   "nombre": "CASA DEL PUEBLO",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DEL PUEBLO"
+   ],
+   "web": "",
+   "instagram": "@cccasadelpueblo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Del Parque",
+   "direccion": "Lamarca, Emilio 2502"
+  },
+  {
+   "id": "centro-cultural-sofia-gempel-arte",
+   "nombre": "CENTRO CULTURAL SOFÍA GEMPEL ARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL SOFÍA GEMPEL ARTE"
+   ],
+   "web": "https://sofigempel.com.ar/",
+   "instagram": "@sofigempel",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Del Parque",
+   "direccion": "Nogoya 3455",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-cultural-resurgimiento",
+   "nombre": "ESPACIO CULTURAL RESURGIMIENTO",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL RESURGIMIENTO"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/resurgimiento",
+   "instagram": "@resurgimiento.c.c",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Del Parque",
+   "direccion": "Artigas, Jose Gervasio, Gral. 2262"
+  },
+  {
+   "id": "la-termomecanica",
+   "nombre": "La Termomecánica",
+   "tipo": "lugar",
+   "lugares": [
+    "La Termomecánica"
+   ],
+   "web": "",
+   "instagram": "@la.termomecanica",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Del Parque",
+   "direccion": "Bolivia 2329"
+  },
+  {
+   "id": "neu-kultur-haus",
+   "nombre": "Neu Kultur Haus",
+   "tipo": "lugar",
+   "lugares": [
+    "Neu Kultur Haus"
+   ],
+   "web": "",
+   "instagram": "@neu.paternal",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Del Parque",
+   "direccion": "No confirmada"
+  },
+  {
+   "id": "centro-cultural-devoto",
+   "nombre": "CENTRO CULTURAL DEVOTO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL DEVOTO"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Devoto",
+   "direccion": "Nueva York 4169",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "espacio-cultural-lineas-de-fuga",
+   "nombre": "ESPACIO CULTURAL LINEAS DE FUGA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL LINEAS DE FUGA"
+   ],
+   "web": "",
+   "instagram": "@espaciolineasdefuga",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Devoto",
+   "direccion": "Melincue 4276",
+   "enlace_bio": "https://linktr.ee/Lineasdefuga",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas Alternativa Teatral))"
+   ]
+  },
+  {
+   "id": "teatrarte",
+   "nombre": "TEATRARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "TEATRARTE"
+   ],
+   "web": "",
+   "instagram": "@teatrartedevoto",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Devoto",
+   "direccion": "Asuncion 4168"
+  },
+  {
+   "id": "centro-cultural-la-paternal-villa-mitre",
+   "nombre": "CENTRO CULTURAL LA PATERNAL - VILLA MITRE",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL LA PATERNAL - VILLA MITRE"
+   ],
+   "web": "",
+   "instagram": "@c.c.lapaternal",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Gral. Mitre",
+   "direccion": "Caracas 1249",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "casa-cultural-el-potrero",
+   "nombre": "CASA CULTURAL EL POTRERO",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA CULTURAL EL POTRERO"
+   ],
+   "web": "",
+   "instagram": "@elpotrero_cc",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Calou, Juan P. 5447"
+  },
+  {
+   "id": "casa-de-la-cultura-hilda-galarza",
+   "nombre": "CASA DE LA CULTURA HILDA GALARZA",
+   "tipo": "lugar",
+   "lugares": [
+    "CASA DE LA CULTURA HILDA GALARZA"
+   ],
+   "web": "",
+   "instagram": "@lacasitadehilda",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Chilavert, Martiniano, Coronel 5453",
+   "enlace_bio": "https://fiestadelcine.com.ar/"
+  },
+  {
+   "id": "centro-cultural-barrio-copello",
+   "nombre": "CENTRO CULTURAL BARRIO COPELLO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BARRIO COPELLO"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Dellepiane, Luis, Tte. Gral. 4900",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-cepna",
+   "nombre": "CENTRO CULTURAL CEPNA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL CEPNA"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Murguiondo 4361",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-juan-carlos-castagnino",
+   "nombre": "CENTRO CULTURAL JUAN CARLOS CASTAGNINO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL JUAN CARLOS CASTAGNINO"
+   ],
+   "web": "",
+   "instagram": "@culturalcastagnino",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "2 De Abril De 1982 6997",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-saladiyo",
+   "nombre": "CENTRO CULTURAL SALADIYO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL SALADIYO"
+   ],
+   "web": "",
+   "instagram": "@centroc.saladiyo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Beron De Astrada 5920",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "galpon-cultural-piedrabuenarte",
+   "nombre": "GALPON CULTURAL PIEDRABUENARTE",
+   "tipo": "lugar",
+   "lugares": [
+    "GALPON CULTURAL PIEDRABUENARTE"
+   ],
+   "web": "http://piedrabuenarte.blogspot.com/",
+   "instagram": "@galponpiedrabuenarte",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Lugano",
+   "direccion": "Zuviria 6654",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: web corregida (antes https://www.piedrabuenarte.com.ar)",
+    "2026-10-14 [revisión anterior: navegador] Blog con novedades fechadas"
+   ]
+  },
+  {
+   "id": "el-puente",
+   "nombre": "EL PUENTE",
+   "tipo": "lugar",
+   "lugares": [
+    "EL PUENTE"
+   ],
+   "web": "https://espacioculturalelpuente.blogspot.com/",
+   "instagram": "@elpuentecultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Luro",
+   "direccion": "Rivadavia Av. 9810",
+   "entradas": [
+    "https://espacioculturalelpuente.blogspot.com/search/label/eventos"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-poeta-roberto-santoro",
+   "nombre": "CENTRO CULTURAL POETA ROBERTO SANTORO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL POETA ROBERTO SANTORO"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Giribone 1961",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "conservatorio-grassi-urquiza",
+   "nombre": "CONSERVATORIO GRASSI URQUIZA",
+   "tipo": "lugar",
+   "lugares": [
+    "CONSERVATORIO GRASSI URQUIZA"
+   ],
+   "web": "",
+   "instagram": "@conservatoriograssiurquiza",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Combatientes De Malvinas Av. 3562",
+   "enlace_bio": "http://www.conservatoriograssiurquiza.com/"
+  },
+  {
+   "id": "camion",
+   "nombre": "Camión",
+   "tipo": "lugar",
+   "lugares": [
+    "Camión"
+   ],
+   "web": "",
+   "instagram": "@camion.gram",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Donado 1778"
+  },
+  {
+   "id": "deseo-bsas",
+   "nombre": "DESEO BSAS",
+   "tipo": "lugar",
+   "lugares": [
+    "DESEO BSAS"
+   ],
+   "web": "",
+   "instagram": "@deseobsas",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Chorroarin Av. 1040",
+   "enlace_bio": "https://linktr.ee/deseobsas",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en Enigma Tickets))"
+   ]
+  },
+  {
+   "id": "lalala-ortuzar",
+   "nombre": "LALALÁ ORTUZAR",
+   "tipo": "lugar",
+   "lugares": [
+    "LALALÁ ORTUZAR"
+   ],
+   "web": "https://linktr.ee/lalala.ortuzar",
+   "instagram": "@lalala.ortuzar",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Alvarez Thomas Av. 1541"
+  },
+  {
+   "id": "oihoy-casa-abierta",
+   "nombre": "OIHOY CASA ABIERTA",
+   "tipo": "lugar",
+   "lugares": [
+    "OIHOY CASA ABIERTA"
+   ],
+   "web": "https://oihoy.com.ar/",
+   "instagram": "@oihoy_",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "14 De Julio 426",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "sin_agenda",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio sin agenda clara"
+   ]
+  },
+  {
+   "id": "otra-historia",
+   "nombre": "OTRA HISTORIA",
+   "tipo": "lugar",
+   "lugares": [
+    "OTRA HISTORIA"
+   ],
+   "web": "https://otrahistoria.com.ar/",
+   "instagram": "@otrahistoriaclubcultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "barriada-cultural",
+   "nombre": "BARRIADA CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "BARRIADA CULTURAL"
+   ],
+   "web": "",
+   "instagram": "@barriadacultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Pueyrredon",
+   "direccion": "Artigas, Jose Gervasio, Gral. 5701",
+   "enlace_bio": "https://linktr.ee/BarriadaCultural"
+  },
+  {
+   "id": "cualquier-lado",
+   "nombre": "CUALQUIER LADO",
+   "tipo": "lugar",
+   "lugares": [
+    "CUALQUIER LADO"
+   ],
+   "web": "",
+   "instagram": "@cualquierladoclubdeartes",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Santa Rita",
+   "direccion": "Las Provincias 3164"
+  },
+  {
+   "id": "centro-cultural-antonio-talerico",
+   "nombre": "CENTRO CULTURAL ANTONIO TALERICO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ANTONIO TALERICO"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Soldati",
+   "direccion": "Berg, Carlos 3387"
+  },
+  {
+   "id": "centro-cultural-eladia-blazquez",
+   "nombre": "CENTRO CULTURAL ELADIA BLAZQUEZ",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ELADIA BLAZQUEZ"
+   ],
+   "web": "",
+   "instagram": "@ba.gops",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Soldati",
+   "direccion": "Rabanal, Francisco, Intendente Av. 2275",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-25-de-mayo",
+   "nombre": "CENTRO CULTURAL 25 DE MAYO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "web": "https://cc25.org/",
+   "instagram": "@cc25demayo",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "comportamiento": {
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "centro-cultural-armoza",
+   "nombre": "CENTRO CULTURAL ARMOZA",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "web": "",
+   "instagram": "@armoza.wines",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036"
+  },
+  {
+   "id": "centro-cultural-barrial-genesis",
+   "nombre": "CENTRO CULTURAL BARRIAL GENESIS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BARRIAL GENESIS"
+   ],
+   "web": "https://culturalgenesis.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Ibera 6085",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Solo Facebook: Centro Cultural Genesis",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "centro-cultural-belgrano",
+   "nombre": "CENTRO CULTURAL BELGRANO",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL BELGRANO"
+   ],
+   "web": "",
+   "instagram": "@ccbelgrano_r",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "La Pampa 3855",
+   "notas": [
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+   ]
+  },
+  {
+   "id": "centro-cultural-cepas",
+   "nombre": "CENTRO CULTURAL CEPAS",
+   "tipo": "lugar",
+   "lugares": [
+    "CENTRO CULTURAL CEPAS"
+   ],
+   "web": "",
+   "instagram": "@cccepas",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Tamborini, Jose Pascual 3378",
+   "enlace_bio": "https://linktr.ee/cccepas",
+   "notas": [
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entrada a pena 'Sin palabritas' en walink))"
+   ]
+  },
+  {
+   "id": "cuerda-mecanica-centro-cultural",
+   "nombre": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "web": "https://cuerdamecanica.com/",
+   "instagram": "@cuerdamecanica",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_agenda",
+     "heredado": true
+    }
+   }
+  },
+  {
+   "id": "cultrum",
+   "nombre": "CULTRUM",
+   "tipo": "lugar",
+   "lugares": [
+    "CULTRUM"
+   ],
+   "web": "",
+   "instagram": "@cultrumeventos",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4205"
+  },
+  {
+   "id": "domus-artis",
+   "nombre": "DOMUS ARTIS",
+   "tipo": "lugar",
+   "lugares": [
+    "DOMUS ARTIS"
+   ],
+   "web": "",
+   "instagram": "@domusartis.ar",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4307"
+  },
+  {
+   "id": "el-colectivo-arte-en-movimiento",
+   "nombre": "EL COLECTIVO ARTE EN MOVIMIENTO",
+   "tipo": "lugar",
+   "lugares": [
+    "EL COLECTIVO ARTE EN MOVIMIENTO"
+   ],
+   "web": "https://www.artecolectivo.com.ar",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Ibera 4896",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: Sin canal propio encontrado",
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "espacio-cultural-ilda",
+   "nombre": "ESPACIO CULTURAL ILDA",
+   "tipo": "lugar",
+   "lugares": [
+    "ESPACIO CULTURAL ILDA"
+   ],
+   "web": "http://www.espacioilda.com.ar/",
+   "instagram": "@espacio_ilda",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Ibera 5257",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "no_carga",
+     "heredado": true
+    }
+   },
+   "notas": [
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+   ]
+  },
+  {
+   "id": "la-casa-roja",
+   "nombre": "LA CASA ROJA",
+   "tipo": "lugar",
+   "lugares": [
+    "LA CASA ROJA"
+   ],
+   "web": "",
+   "instagram": "@lacasaroja_cultural",
+   "origen": "data/lugares.json",
+   "barrio": "Villa Urquiza",
+   "direccion": "Leguizamon, Honorio, Dr. 3726"
+  },
+  {
+   "id": "cine-gaumont-espacio-incaa",
+   "nombre": "Cine Gaumont (Espacio INCAA)",
+   "tipo": "lugar",
+   "lugares": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "web": "http://www.incaa.gov.ar/programacion-espacios-incaa",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635"
+  },
+  {
+   "id": "cacodelphia",
+   "nombre": "Cacodelphia",
+   "tipo": "lugar",
+   "lugares": [
+    "Cacodelphia"
+   ],
+   "web": "https://cineartecacodelphia.com.ar/",
+   "instagram": "",
+   "origen": "data/lugares.json",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150"
+  }
+ ]
+}

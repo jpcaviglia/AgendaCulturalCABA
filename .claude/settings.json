@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/crawl.py:*)",
+      "Bash(python3 scripts/crawl.py:*)",
+      "Bash(py scripts/crawl.py:*)",
+      "Bash(python scripts/armar_agenda.py:*)",
+      "Bash(python3 scripts/armar_agenda.py:*)",
+      "Bash(py scripts/armar_agenda.py:*)",
+      "Bash(git add data/:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull --rebase --autostash:*)",
+      "Bash(git push:*)",
+      "Write(data/crawl/tmp/**)",
+      "mcp__claude-in-chrome__*"
+    ]
+  }
+}
