@@ -3651,7 +3651,29 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Zelaya 3134",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "los posts repiten 'Viernes y sábados 20 h' de la obra en cartel; entradas por Alternativa Teatral"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Sala en el fondo de un jardín en el Abasto (Zelaya 3134)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "asoc-civil-la-bombocova",
@@ -16380,9 +16402,29 @@
    "instagram": "@itacacomplejoteatral",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [instagram] Ítaca complejo teatral: cada obra tiene su post; revisar la grilla semanal."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "un post por obra o función con día y hora en el epígrafe"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "el-metodo-kairos",
