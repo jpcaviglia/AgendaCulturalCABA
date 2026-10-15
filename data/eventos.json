@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 145,
-  "con_eventos": 92
+  "capturas": 169,
+  "con_eventos": 101
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -43,6 +43,10 @@
   "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
   "CHELA",
   "CIUDAD CULTURAL KONEX",
+  "CLUB CULTURAL MATIENZO",
+  "CONGO",
+  "CUERDA MECÁNICA CENTRO CULTURAL",
+  "CULTURAL MORAN",
   "Cacodelphia",
   "Calvaresi Galería",
   "Casa Nacional del Bicentenario",
@@ -53,6 +57,11 @@
   "Complejo Teatral de Buenos Aires",
   "Crobar",
   "Dune Park",
+  "EL CASTILLO DE SANDRO",
+  "EL GALPON DE CATALINAS",
+  "EL GALPON DE GUEVARA",
+  "EMERGENTE CLUB ALMAGRO",
+  "El Cultural San Martín",
   "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
   "Fundación Andreani",
@@ -8092,6 +8101,28 @@
    "lng": ""
   },
   {
+   "titulo": "Latin Jam! octubre",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Múltiples fechas en octubre.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Leer y escribir la vida: taller anual",
    "categoria": "Taller",
    "lugar": "Casa de la Cultura · Biblioteca",
@@ -8756,22 +8787,23 @@
    "lng": -58.378773
   },
   {
-   "titulo": "Nico Ibarburu cuarteto #música",
+   "titulo": "Nico Ibarburu cuarteto",
    "categoria": "Música",
-   "lugar": "Cultural Morán",
+   "lugar": "CULTURAL MORAN",
    "barrio": "Agronomia",
-   "direccion": "Pedro Morán 2147,",
+   "direccion": "Pedro Morán 2147",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "21:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/nico-ibarburu-cuarteto-musica",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
    "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CULTURAL MORAN",
     "Passline"
    ],
    "lat": -34.587289,
@@ -9064,7 +9096,7 @@
    "lng": ""
   },
   {
-   "titulo": "Prometeo Liberado",
+   "titulo": "Prometeo liberado",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
    "barrio": "Chacarita",
@@ -9072,14 +9104,15 @@
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-29",
    "hora": "20:00",
-   "horarios": "jue 20:00 (del 15/10 al 29/10)",
+   "horarios": "Jueves 15, 22 y 29, 20 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra98521-prometeo-liberado",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro, jueves 15, 22 y 29 de octubre.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -11493,6 +11526,28 @@
    "lng": ""
   },
   {
+   "titulo": "Budaboy B",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "CANTORES DE SALTA - LIVE SHOW!",
    "categoria": "Evento",
    "lugar": "CLUB TEMPLE - Espacio Arena",
@@ -12050,6 +12105,28 @@
    ],
    "lat": -34.586298,
    "lng": -58.392513
+  },
+  {
+   "titulo": "Clara Cantore presenta Regreso",
+   "categoria": "Música",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 25000 a $ 40000",
+   "descripcion": "Concierto solista de voz y bajo eléctrico.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
   },
   {
    "titulo": "Clase abierta no participativa de Ceremonia del Té",
@@ -12928,28 +13005,6 @@
    "lng": -58.425148
   },
   {
-   "titulo": "El Potrero",
-   "categoria": "Teatro",
-   "lugar": "EL GALPON DE GUEVARA",
-   "barrio": "Chacarita",
-   "direccion": "Guevara 326",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "23:00",
-   "horarios": "vie 23:00 (el 16/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra78832-el-potrero",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.58733,
-   "lng": -58.449505
-  },
-  {
    "titulo": "El Seminario",
    "categoria": "Teatro",
    "lugar": "TEATRARTE",
@@ -13061,6 +13116,29 @@
    ],
    "lat": -34.608454,
    "lng": -58.373668
+  },
+  {
+   "titulo": "El potrero",
+   "categoria": "Teatro",
+   "lugar": "EL GALPON DE GUEVARA",
+   "barrio": "Chacarita",
+   "direccion": "Guevara 326",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "vie 23:00 (el 16/10)",
+   "precio": "Consultar",
+   "descripcion": "Teatro. Otra función el viernes 30.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
+   "estado": "Próximo",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
+   "fuentes": [
+    "EL GALPON DE GUEVARA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.58733,
+   "lng": -58.449505
   },
   {
    "titulo": "El reverso de la memoria",
@@ -14651,26 +14729,27 @@
    "lng": ""
   },
   {
-   "titulo": "La Catalina Del Riachuelo Presenta La Baraja Manda",
+   "titulo": "La Catalina del Riachuelo: La baraja manda",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE CATALINAS",
-   "barrio": "Boca",
-   "direccion": "Perez Galdos, Benito Av. 93",
+   "barrio": "La Boca",
+   "direccion": "Benito Pérez Galdós 93",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-20",
+   "fecha_fin": "2026-10-23",
    "hora": "21:30",
-   "horarios": "vie 21:30 (hasta el 20/11)",
+   "horarios": "Todos los viernes 21.30 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102742-la-catalina-del-riachuelo-presenta-la-baraja-manda",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Gran estreno 2026 del espectáculo de teatro-murga del Grupo de Teatro Catalinas Sur, desde 1992.",
+   "url": "https://catalinasur.com.ar/proximamente/",
+   "dominio": "catalinasur.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE CATALINAS",
    "fuentes": [
+    "EL GALPON DE CATALINAS",
     "Alternativa Teatral"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.629136,
+   "lng": -58.358404
   },
   {
    "titulo": "La Caverna",
@@ -14759,6 +14838,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La Kaliente",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:45",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de Reggaeton y Neo perreo",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
   },
   {
    "titulo": "La Máquina Camaleón – Solito World Tour en Niceto Bar",
@@ -15031,22 +15132,23 @@
    "lng": ""
   },
   {
-   "titulo": "Las palabras de los otros #teatro",
+   "titulo": "Las palabras de los otros",
    "categoria": "Teatro",
-   "lugar": "Cultural Morán",
+   "lugar": "CULTURAL MORAN",
    "barrio": "Agronomia",
-   "direccion": "Pedro Moran 2147 - Capital Federal - Buenos Aires",
+   "direccion": "Pedro Morán 2147",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Consigue tus entradas para Las palabras de los otros #teatro en Passline. Encuentra detalles, asegura tu asistencia y prepárate para disfrutar de una experiencia inolvidable.",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/JFMNKXK900Q9/las-palabras-de-los-otros-teatro",
-   "dominio": "saleplan.ar",
+   "descripcion": "Teatro. Otra función el 30 de octubre.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CULTURAL MORAN",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Passline"
    ],
@@ -16605,28 +16707,6 @@
    "lng": -58.483732
   },
   {
-   "titulo": "OTRA NOCHE TARDE en vivo #música",
-   "categoria": "Música",
-   "lugar": "Moran",
-   "barrio": "",
-   "direccion": "Pedro Morán 2147,",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "22:30",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Entradas agotadas.",
-   "url": "https://www.passline.com/eventos/otra-noche-tarde-en-vivo-musica-562621",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.587289,
-   "lng": -58.487613
-  },
-  {
    "titulo": "Observación por telescopio con Terraza al Cosmos",
    "categoria": "Evento",
    "lugar": "La Fuerza Bar",
@@ -16672,6 +16752,29 @@
    "lng": -58.416742
   },
   {
+   "titulo": "Otra noche tarde en vivo",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN",
+    "Passline"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
+  },
+  {
    "titulo": "Otto Soria - Odisea Plantae",
    "categoria": "Artes visuales",
    "lugar": "Bertuzzi Atelier",
@@ -16715,6 +16818,30 @@
    ],
    "lat": -34.581588,
    "lng": -58.439449
+  },
+  {
+   "titulo": "POSGUERRA presenta Todos Extraños",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Posguerra presenta su nuevo disco “Todos Extraños” en vivo en Matienzo por primera vez con un show enérgico",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO",
+    "Buenos Aires Secreta: planes del fin de semana",
+    "Búsqueda: festivales"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
   },
   {
    "titulo": "PROYECTO LECTOR NOCTURNO: HEDOR",
@@ -17052,6 +17179,28 @@
    "lng": -58.417022
   },
   {
+   "titulo": "Pinot y Pizza en el jardín",
+   "categoria": "Gastronomía",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Evento en el jardín.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Pinta tu noche estrellada - experiencia guiada de pintura",
    "categoria": "Artes visuales",
    "lugar": "Av. Pres. Roque Sáenz Peña 1119",
@@ -17117,29 +17266,6 @@
    ],
    "lat": -34.594954,
    "lng": -58.424883
-  },
-  {
-   "titulo": "Posguerra presenta Todos Extraños",
-   "categoria": "Música",
-   "lugar": "Club Cultural Matienzo",
-   "barrio": "Chacarita",
-   "direccion": "Av. Juan Bautista Justo 2959",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Presentación del tercer disco de estudio de la banda.",
-   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
-   "dominio": "bairessecreta.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Buenos Aires Secreta: planes del fin de semana",
-    "Búsqueda: festivales"
-   ],
-   "lat": -34.597508,
-   "lng": -58.448642
   },
   {
    "titulo": "Presentación Fanzine - Maquina Robot",
@@ -17973,6 +18099,28 @@
    "lng": -58.403325
   },
   {
+   "titulo": "Show para nuestros sentidos",
+   "categoria": "Evento",
+   "lugar": "EL CASTILLO DE SANDRO",
+   "barrio": "Boedo",
+   "direccion": "Pavon Av. 3939",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el Castillo de Sandro.",
+   "url": "https://culturalcava.ar/",
+   "dominio": "culturalcava.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "EL CASTILLO DE SANDRO",
+   "fuentes": [
+    "EL CASTILLO DE SANDRO"
+   ],
+   "lat": -34.630481,
+   "lng": -58.419733
+  },
+  {
    "titulo": "Siamor",
    "categoria": "Teatro",
    "lugar": "El Vitral",
@@ -18466,6 +18614,28 @@
    "lng": ""
   },
   {
+   "titulo": "Tertulia Tamborini",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:55",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de trasnoche.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Th;en, No Name y más",
    "categoria": "Fiestas y electrónica",
    "lugar": "The Bow",
@@ -18666,6 +18836,29 @@
    ],
    "lat": -34.580938,
    "lng": -58.38094
+  },
+  {
+   "titulo": "UNOS",
+   "categoria": "Teatro",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "22:30",
+   "horarios": "sáb 22:30 (hasta el 27/11)",
+   "precio": "Consultar",
+   "descripcion": "Teatro. Otra función el 23 de octubre.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "UNOS #teatro",
@@ -19691,6 +19884,28 @@
    "lng": -58.390031
   },
   {
+   "titulo": "ATR: fiesta de reggaetón old school, rkt y cumbia",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "EMERGENTE CLUB ALMAGRO",
+   "barrio": "Almagro",
+   "direccion": "Acuña De Figueroa, Francisco 1030",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:55",
+   "horarios": "Sábados 23.55 h",
+   "precio": "Consultar",
+   "descripcion": "Fiesta todos los sábados, 23.55 h (17 y 24 de octubre).",
+   "url": "https://events.flashpass.com.ar/eventos/atr-sabado-17-de-octubre-4481",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Agravado Por El Vinculo",
    "categoria": "Teatro",
    "lugar": "TEATRARTE",
@@ -20131,6 +20346,28 @@
    "lng": -58.416742
   },
   {
+   "titulo": "Aymará",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "BRUMA EXPERIENCE - 2° ANIVERSARIO",
    "categoria": "Evento",
    "lugar": "Misión",
@@ -20175,26 +20412,27 @@
    "lng": ""
   },
   {
-   "titulo": "Bajo Tierra",
-   "categoria": "Evento",
+   "titulo": "Bajo tierra (Orquesta Atípica Catalinas Sur)",
+   "categoria": "Música",
    "lugar": "EL GALPON DE CATALINAS",
-   "barrio": "Boca",
-   "direccion": "Perez Galdos, Benito Av. 93",
+   "barrio": "La Boca",
+   "direccion": "Benito Pérez Galdós 93",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-10-24",
    "hora": "21:30",
-   "horarios": "sáb 21:30 (hasta el 14/11)",
+   "horarios": "Todos los sábados 21.30 h",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.alternativateatral.com/obra86197-bajo-tierra",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Vuelve el espectáculo de la Orquesta Atípica Catalinas Sur, ambientado en el año 2030.",
+   "url": "https://catalinasur.com.ar/bajo-tierra-3/",
+   "dominio": "catalinasur.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE CATALINAS",
    "fuentes": [
+    "EL GALPON DE CATALINAS",
     "Alternativa Teatral"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.629136,
+   "lng": -58.358404
   },
   {
    "titulo": "Biblioteca bailable",
@@ -22690,6 +22928,28 @@
    "lng": -58.437454
   },
   {
+   "titulo": "Fiesta Fina - 17/10",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:45",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Nueva edición de la Fiesta Fina 🎉 Nos volvemos a encontrar en el Matienzo para otra noche de temazos de reggaeton viejo. Los esperamos con unos shots de bienvenida para bailarnos la vida y disfrutar al máximo.",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
+  },
+  {
    "titulo": "Filarmónica de Buenos Aires: Vida de héroe",
    "categoria": "Música",
    "lugar": "Teatro Colón",
@@ -24190,6 +24450,28 @@
    "lng": ""
   },
   {
+   "titulo": "La Retrowave - primavera 26",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "La Sangre Quema En Un Rincón",
    "categoria": "Teatro",
    "lugar": "Vera Vera Teatro",
@@ -24322,6 +24604,28 @@
    "lng": ""
   },
   {
+   "titulo": "La vida por correspondencia: lectura pública de cartas",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa de la Cultura · Subsuelo",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "Sábados 17 h",
+   "precio": "Consultar",
+   "descripcion": "Mercedes Morán, Lorena Vega, Analía Couceyro y Cristina Banegas leen cartas de Kafka, Pizarnik, Woolf, Puig, Cage y Van Gogh, entre otros. Sábados 10, 17, 24 y 31 de octubre a las 17 h.",
+   "url": "https://elculturalsanmartin.ar/eventos/",
+   "dominio": "elculturalsanmartin.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "El Cultural San Martín",
+   "fuentes": [
+    "El Cultural San Martín"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
+  },
+  {
    "titulo": "La zapatería. Crónica de mujeres calzadas",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
@@ -24343,28 +24647,6 @@
    ],
    "lat": -34.603731,
    "lng": -58.388699
-  },
-  {
-   "titulo": "Las Bestias",
-   "categoria": "Danza",
-   "lugar": "EL GALPON DE GUEVARA",
-   "barrio": "Chacarita",
-   "direccion": "Guevara 326",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
-   "hora": "20:00",
-   "horarios": "sáb 20:00 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: danza",
-   "url": "https://www.alternativateatral.com/obra24481-las-bestias",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.58733,
-   "lng": -58.449505
   },
   {
    "titulo": "Las Catástrofes",
@@ -24499,6 +24781,51 @@
    "lng": ""
   },
   {
+   "titulo": "Las bestias",
+   "categoria": "Teatro",
+   "lugar": "EL GALPON DE GUEVARA",
+   "barrio": "Chacarita",
+   "direccion": "Guevara 326",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "Sábados 20 h",
+   "precio": "Consultar",
+   "descripcion": "Teatro, sábados 20 h.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
+   "estado": "Próximo",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
+   "fuentes": [
+    "EL GALPON DE GUEVARA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.58733,
+   "lng": -58.449505
+  },
+  {
+   "titulo": "Lasser - 17/10",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Con una nueva etapa, una nueva energía y el lanzamiento de su más reciente material \"PLANES\" , Lasser vuelve para reencontrarse con su público en una presentación que promete ser inolvidable. 🎵 Preparate para vivir en vivo cada canción, cada emoción y cada historia detrás de este nuevo proyecto. Si",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
+  },
+  {
    "titulo": "Lee Burridge, Danny Tenaglia - Corona Sunsets, Buenos Aires",
    "categoria": "Fiestas y electrónica",
    "lugar": "Ciudad Universitaria",
@@ -24541,6 +24868,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Legendaria: 1995",
+   "categoria": "Música",
+   "lugar": "EL EMERGENTE ABASTO",
+   "barrio": "Balvanera",
+   "direccion": "Gallo 333",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock nacional.",
+   "url": "https://events.flashpass.com.ar/eventos/legendaria-1710-1995",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": -34.604579,
+   "lng": -58.413188
   },
   {
    "titulo": "Leo Janeiro, Inda Jani y más",
@@ -25469,6 +25818,28 @@
    "lng": -58.378534
   },
   {
+   "titulo": "Muta | Dante Bronzini | Print | Marki",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
+  },
+  {
    "titulo": "NIKKÖ EN EL CEMENTERIO",
    "categoria": "Evento",
    "lugar": "CEMENTERIO BRITANICO de BUENOS AIRES",
@@ -25511,6 +25882,28 @@
    ],
    "lat": -34.590286,
    "lng": -58.446102
+  },
+  {
+   "titulo": "Nacho Eguía y Carlos Moscardini",
+   "categoria": "Música",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Concierto íntimo de guitarras con músicas de raíz argentina y latinoamericana.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
   },
   {
    "titulo": "Nada De Carne Sobre Nosotras",
@@ -26705,6 +27098,28 @@
    "lng": ""
   },
   {
+   "titulo": "Riffian Rock: homenaje a Riff + Chica Tóxica",
+   "categoria": "Música",
+   "lugar": "EL EMERGENTE ABASTO",
+   "barrio": "Balvanera",
+   "direccion": "Gallo 333",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock nacional en Legendaria Abasto.",
+   "url": "https://events.flashpass.com.ar/eventos/legendaria-abasto-1710-riffian-rock-homenaje-a-riff-chica-toxica-421",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": -34.604579,
+   "lng": -58.413188
+  },
+  {
    "titulo": "Rinoceronte",
    "categoria": "Teatro",
    "lugar": "Andamio ´90",
@@ -27042,16 +27457,17 @@
    "barrio": "Chacarita",
    "direccion": "Guevara 326",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-10-24",
    "hora": "22:30",
-   "horarios": "sáb 22:30 (hasta el 14/11)",
+   "horarios": "Sábados 22.30 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra96597-simondieu",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro, sábados 22.30 h.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -27872,28 +28288,6 @@
    "lng": -58.440158
   },
   {
-   "titulo": "Unos",
-   "categoria": "Teatro",
-   "lugar": "CULTURAL MORAN",
-   "barrio": "Agronomía",
-   "direccion": "Moran, Pedro 2147",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-27",
-   "hora": "22:30",
-   "horarios": "sáb 22:30 (hasta el 27/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra25073-unos",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.613344,
-   "lng": -58.528509
-  },
-  {
    "titulo": "UrbaParty - Rauw Alejandro x Omar Courtz",
    "categoria": "Evento",
    "lugar": "VOX (1er piso)",
@@ -27958,6 +28352,28 @@
    ],
    "lat": -34.627699,
    "lng": -58.403325
+  },
+  {
+   "titulo": "Visitas guiadas al Castillo de Sandro",
+   "categoria": "Visita guiada",
+   "lugar": "EL CASTILLO DE SANDRO",
+   "barrio": "Boedo",
+   "direccion": "Pavon Av. 3939",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "15:00",
+   "horarios": "Sábados 15 h",
+   "precio": "$ 20000",
+   "descripcion": "Recorrido por los espacios que diseñó Sandro, su estudio de grabación y objetos de su vida artística. Entrada general $ 20000; residentes argentinos $ 10000.",
+   "url": "https://culturalcava.ar/visitas-guiadas/",
+   "dominio": "culturalcava.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "EL CASTILLO DE SANDRO",
+   "fuentes": [
+    "EL CASTILLO DE SANDRO"
+   ],
+   "lat": -34.630481,
+   "lng": -58.419733
   },
   {
    "titulo": "Visitas participativas",
@@ -30320,6 +30736,28 @@
    "lng": ""
   },
   {
+   "titulo": "Herida, de Sofía Palomino",
+   "categoria": "Teatro",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:30",
+   "horarios": "Domingos 19.30 h",
+   "precio": "$ 25000",
+   "descripcion": "Obra teatral. Funciones los domingos 18 y 25 de octubre.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
+  },
+  {
    "titulo": "Historias secretas del Teatro Colón",
    "categoria": "Visita guiada",
    "lugar": "Teatro Colón",
@@ -30606,26 +31044,26 @@
    "lng": ""
   },
   {
-   "titulo": "La Distancia Infinita",
+   "titulo": "La Colmena (El Piberío)",
    "categoria": "Teatro",
-   "lugar": "CULTURAL MORAN",
-   "barrio": "Agronomía",
-   "direccion": "Moran, Pedro 2147",
+   "lugar": "EL GALPON DE CATALINAS",
+   "barrio": "La Boca",
+   "direccion": "Benito Pérez Galdós 93",
    "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-11-29",
-   "hora": "19:00",
-   "horarios": "dom 19:00 (del 18/10 al 29/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103633-la-distancia-infinita",
-   "dominio": "alternativateatral.com",
+   "fecha_fin": "2026-10-18",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "A la gorra",
+   "descripcion": "Creación colectiva de 40 adolescentes y jóvenes del Grupo de Teatro Catalinas Sur. A la gorra.",
+   "url": "https://catalinasur.com.ar/en-octubre-se-viene-nuevo-espectaculo-de-nuestro-piberio/",
+   "dominio": "catalinasur.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE CATALINAS",
    "fuentes": [
-    "Alternativa Teatral"
+    "EL GALPON DE CATALINAS"
    ],
-   "lat": -34.613344,
-   "lng": -58.528509
+   "lat": -34.629136,
+   "lng": -58.358404
   },
   {
    "titulo": "La Ermitaña. Ejercicio Para Contener Multitudes",
@@ -30868,6 +31306,29 @@
    ],
    "lat": -34.601591,
    "lng": -58.410054
+  },
+  {
+   "titulo": "La distancia infinita",
+   "categoria": "Teatro",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "19:00",
+   "horarios": "dom 19:00 (del 18/10 al 29/11)",
+   "precio": "Consultar",
+   "descripcion": "Teatro. Otra función el 25 de octubre.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Las Cautivas",
@@ -31352,6 +31813,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Nostalgia (cine)",
+   "categoria": "Cine",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "15:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Proyección de la película de Tarkovski sobre un poeta ruso que recorre Italia.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
   },
   {
    "titulo": "Nuestras Versiones. Obras Adolescentes",
@@ -31841,6 +32324,28 @@
    "lng": ""
   },
   {
+   "titulo": "Samba Delas Pibas",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Roda de samba.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Silvestre y La Naranja",
    "categoria": "Música",
    "lugar": "C Complejo Art Media",
@@ -32301,6 +32806,28 @@
    ],
    "lat": -34.600335,
    "lng": -58.416742
+  },
+  {
+   "titulo": "Yo soy Mika de Frankfurt!",
+   "categoria": "Cine",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección y charla.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Zone7, Cosmica, AMCU y Fade",
@@ -32853,22 +33380,23 @@
    "lng": ""
   },
   {
-   "titulo": "Las Adoro",
+   "titulo": "Las adoro",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
    "barrio": "Chacarita",
    "direccion": "Guevara 326",
    "fecha_inicio": "2026-10-19",
-   "fecha_fin": "2026-11-01",
-   "hora": "",
-   "horarios": "lun 19:00 | 21:30 (hasta el 26/10); sáb 16:00 | dom 16:00 (del 24/10 al 1/11)",
+   "fecha_fin": "2026-10-26",
+   "hora": "19:00",
+   "horarios": "Lunes 19 y 21.30 h; sábado 24 y domingo 25 a las 16 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra99976-las-adoro",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Lunes 19 y 21.30 h; sábados 24 y 31, 16 h; domingo 25, 16 h.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -33521,16 +34049,17 @@
    "barrio": "Chacarita",
    "direccion": "Guevara 326",
    "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-11-03",
+   "fecha_fin": "2026-10-27",
    "hora": "20:00",
-   "horarios": "mar 20:00 (hasta el 3/11)",
+   "horarios": "Martes 20 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra73969-civilizacion",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro, martes 20 h.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -34220,6 +34749,28 @@
    "lng": ""
   },
   {
+   "titulo": "Amanuenses",
+   "categoria": "Teatro",
+   "lugar": "EL GALPON DE GUEVARA",
+   "barrio": "Chacarita",
+   "direccion": "Guevara 326",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:30",
+   "horarios": "Miércoles 20.30 h",
+   "precio": "Consultar",
+   "descripcion": "Teatro, miércoles 20.30 h.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
+   "estado": "Próximo",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
+   "fuentes": [
+    "EL GALPON DE GUEVARA"
+   ],
+   "lat": -34.58733,
+   "lng": -58.449505
+  },
+  {
    "titulo": "Berliner Philharmoniker: Kirill Petrenko y Daniil Trifonov",
    "categoria": "Música",
    "lugar": "Teatro Colón",
@@ -34550,6 +35101,28 @@
    ],
    "lat": -34.605279,
    "lng": -58.370845
+  },
+  {
+   "titulo": "Festival MORANGO N°26",
+   "categoria": "Festival",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Festival con propuestas de todo tipo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Hagamos Popurrí",
@@ -35168,6 +35741,28 @@
    ],
    "lat": -34.608862,
    "lng": -58.387647
+  },
+  {
+   "titulo": "Buenos Aires Bigband",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "CARRIE Dir. Brian De Palma · Estados Unidos · 1976",
@@ -36560,6 +37155,28 @@
    "lng": -58.435405
   },
   {
+   "titulo": "Alejo Kia",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Antonella Restucci en Biri Biri",
    "categoria": "Música",
    "lugar": "Biri Biri",
@@ -36868,22 +37485,23 @@
    "lng": ""
   },
   {
-   "titulo": "Cándida Obscura",
+   "titulo": "Cándida obscura",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
    "barrio": "Chacarita",
    "direccion": "Guevara 326",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-30",
+   "fecha_fin": "2026-10-23",
    "hora": "19:30",
    "horarios": "vie 19:30 (del 23/10 al 30/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra100987-candida-obscura",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro. Otra función el viernes 30.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -36957,6 +37575,28 @@
    "lng": ""
   },
   {
+   "titulo": "Dúo Pedreira Belmonte",
+   "categoria": "Música",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Norberto Pedreira (guitarra) y Osvaldo Belmonte (piano).",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
+  },
+  {
    "titulo": "Dúo Ranas & Chino Laborde",
    "categoria": "Música",
    "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
@@ -36977,6 +37617,28 @@
    ],
    "lat": -34.60184,
    "lng": -58.414222
+  },
+  {
+   "titulo": "EL BINGO MUSICAL DE VETO Y FER - 23/10",
+   "categoria": "Evento",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Una propuesta lúdica y divertida para compartir con familia y/o amigos y revivir los temas más icónicos de la década del 2000. 🎵 Una noche donde el tradicional bingo es reversionado por temas musicales para que los participantes disfruten jugando, cantando y compartiendo la alegría y el recuerdo que",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
   },
   {
    "titulo": "El Deseo En El Pavo Real",
@@ -37111,6 +37773,28 @@
    "lng": -58.379031
   },
   {
+   "titulo": "Fiesta La Tradi 80s - 2026",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta ochentas.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Frank Borzage, un romántico en Hollywood - Parte 2",
    "categoria": "Cine",
    "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
@@ -37153,6 +37837,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Gauchinos presenta: Niulai",
+   "categoria": "Cine",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cine.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Gueva, Adelina Sofia, Crom y más",
@@ -37507,7 +38213,7 @@
    "lng": ""
   },
   {
-   "titulo": "Los Miedos",
+   "titulo": "Los miedos",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
    "barrio": "Chacarita",
@@ -37517,12 +38223,13 @@
    "hora": "22:30",
    "horarios": "vie 22:30 (el 23/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra67171-los-miedos",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -37615,6 +38322,28 @@
    ],
    "lat": -34.585956,
    "lng": -58.440158
+  },
+  {
+   "titulo": "Modo bar",
+   "categoria": "Evento",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Encuentro.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Momo Trosman - All Night Long",
@@ -38013,6 +38742,28 @@
    "lng": ""
   },
   {
+   "titulo": "Redondos Diskos",
+   "categoria": "Música",
+   "lugar": "EMERGENTE CLUB ALMAGRO",
+   "barrio": "Almagro",
+   "direccion": "Acuña De Figueroa, Francisco 1030",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show tributo a Los Redondos.",
+   "url": "https://events.flashpass.com.ar/eventos/redondos-diskos-2310-5663",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Sampler",
    "categoria": "Teatro",
    "lugar": "Abasto Social Club",
@@ -38187,6 +38938,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "UNOS",
+   "categoria": "Teatro",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Teatro.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Vacio Al Horno Con Papas",
@@ -38408,6 +39181,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Amigas: ¿culpables o inocentes?",
+   "categoria": "Teatro",
+   "lugar": "EL CASTILLO DE SANDRO",
+   "barrio": "Boedo",
+   "direccion": "Pavon Av. 3939",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro.",
+   "url": "https://culturalcava.ar/",
+   "dominio": "culturalcava.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "EL CASTILLO DE SANDRO",
+   "fuentes": [
+    "EL CASTILLO DE SANDRO"
+   ],
+   "lat": -34.630481,
+   "lng": -58.419733
   },
   {
    "titulo": "Aqsl, ¿Y Ahora Qué?",
@@ -38694,6 +39489,28 @@
    ],
    "lat": -34.599689,
    "lng": -58.374353
+  },
+  {
+   "titulo": "Cata Ortiz + Lava + Que se repique",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Cecilia Gauna - Ofrenda",
@@ -39601,6 +40418,28 @@
    "lng": -58.419421
   },
   {
+   "titulo": "La Ferni (Ciclo Sures)",
+   "categoria": "Música",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 35000",
+   "descripcion": "Concierto de folklore contemporáneo con la primera artista trans no binaria del género.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
+  },
+  {
    "titulo": "La RE Fiesta",
    "categoria": "Fiestas y electrónica",
    "lugar": "Ciudad Cultural Konex · Sala de las Columnas",
@@ -39621,6 +40460,28 @@
    ],
    "lat": -34.606047,
    "lng": -58.410271
+  },
+  {
+   "titulo": "La Retrowave - primavera 26",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
   },
   {
    "titulo": "La Última Patriada: Opereta Para Una Santa",
@@ -40682,8 +41543,8 @@
    "lng": ""
   },
   {
-   "titulo": "Tangos Y Penumbras",
-   "categoria": "Evento",
+   "titulo": "Tangos y penumbras",
+   "categoria": "Música",
    "lugar": "EL CASTILLO DE SANDRO",
    "barrio": "Boedo",
    "direccion": "Pavon Av. 3939",
@@ -40692,12 +41553,13 @@
    "hora": "20:30",
    "horarios": "sáb 20:30 (el 24/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: otros géneros",
-   "url": "https://www.alternativateatral.com/obra98564-tangos-y-penumbras",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Show de tango en el Castillo de Sandro.",
+   "url": "https://culturalcava.ar/",
+   "dominio": "culturalcava.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL CASTILLO DE SANDRO",
    "fuentes": [
+    "EL CASTILLO DE SANDRO",
     "Alternativa Teatral"
    ],
    "lat": -34.630481,
@@ -40880,6 +41742,28 @@
    "lng": -58.512909
   },
   {
+   "titulo": "Zofia + Sol Cansino",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "¡Una Fiesta Monstruosa!",
    "categoria": "Fiestas y electrónica",
    "lugar": "El Alambique",
@@ -40946,6 +41830,28 @@
    "lng": ""
   },
   {
+   "titulo": "Agus Gregoratti",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Alba",
    "categoria": "Teatro",
    "lugar": "Teatro Payró",
@@ -40966,6 +41872,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Arriba las colas",
+   "categoria": "Teatro",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Teatro.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Aún Existen Los Héroes",
@@ -41032,6 +41960,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Bowie, el Picasso del rock: modos de ver y oír a un adicto al futuro",
+   "categoria": "Literatura y charlas",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Caja de sorpresas",
@@ -41296,6 +42246,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Dúo Karma: NaNuNí",
+   "categoria": "Infantil",
+   "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "barrio": "Villa Urquiza",
+   "direccion": "Juramento 4686",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "11:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Experiencia poética, musical y lúdica para bebés de hasta 12 meses y su entorno adulto.",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "dominio": "cuerdamecanica.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CUERDA MECÁNICA CENTRO CULTURAL",
+   "fuentes": [
+    "CUERDA MECÁNICA CENTRO CULTURAL"
+   ],
+   "lat": -34.574878,
+   "lng": -58.478406
   },
   {
    "titulo": "El Brillo Nómade",
@@ -41585,22 +42557,23 @@
    "lng": -58.378773
   },
   {
-   "titulo": "Juego Del Tiempo",
-   "categoria": "Evento",
+   "titulo": "Juego del tiempo",
+   "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
    "barrio": "Chacarita",
    "direccion": "Guevara 326",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
-   "hora": "20:00",
+   "hora": "20:30",
    "horarios": "dom 20:00 (el 25/10)",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.alternativateatral.com/obra90731-juego-del-tiempo",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.galpondeguevara.com/",
+   "dominio": "galpondeguevara.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL GALPON DE GUEVARA",
    "fuentes": [
+    "EL GALPON DE GUEVARA",
     "Alternativa Teatral"
    ],
    "lat": -34.58733,
@@ -41693,6 +42666,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La distancia infinita",
+   "categoria": "Teatro",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Teatro.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
   },
   {
    "titulo": "Lado B: No Va Más",
@@ -43084,6 +44079,28 @@
    "lng": -58.446381
   },
   {
+   "titulo": "Disco eterno: en el Cyber de Benito Cerati",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
+  },
+  {
    "titulo": "FESTIVAL BITBANG: LA HUELLA DE ORO (PROYECCIÓN + Q&A) (Daniel Duche, Soledad Yáñez)",
    "categoria": "Cine",
    "lugar": "CENTRO CULTURAL BORGES",
@@ -43483,6 +44500,28 @@
    "lng": -58.374434
   },
   {
+   "titulo": "Fabrizio Calabrese (abre Faraday)",
+   "categoria": "Música",
+   "lugar": "CULTURAL MORAN",
+   "barrio": "Agronomia",
+   "direccion": "Pedro Morán 2147",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo.",
+   "url": "https://www.passline.com/sitio/cultural-moran",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTURAL MORAN"
+   ],
+   "lat": -34.587289,
+   "lng": -58.487613
+  },
+  {
    "titulo": "Festival Bitbang: Retrospectiva Alberto Vázquez",
    "categoria": "Cine",
    "lugar": "CENTRO CULTURAL BORGES",
@@ -43571,6 +44610,28 @@
    "lng": -58.372086
   },
   {
+   "titulo": "Natasha Sterman",
+   "categoria": "Música",
+   "lugar": "CONGO",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5329",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en vivo.",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": -34.586499,
+   "lng": -58.433201
+  },
+  {
    "titulo": "Pablo Dacal presenta El Otro",
    "categoria": "Música",
    "lugar": "CENTRO CULTURAL RICARDO ROJAS",
@@ -43591,6 +44652,28 @@
    ],
    "lat": -34.604892,
    "lng": -58.395876
+  },
+  {
+   "titulo": "SOL BASSA - CIRUELO - MOSTRUO",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Juan B. Justo 2959",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "SOL BASSA - CIRUELO - MOSTRUO",
+   "url": "https://www.ccmatienzo.com.ar/",
+   "dominio": "ccmatienzo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CLUB CULTURAL MATIENZO",
+   "fuentes": [
+    "CLUB CULTURAL MATIENZO"
+   ],
+   "lat": -34.603327,
+   "lng": -58.456663
   },
   {
    "titulo": "Shohei Imamura bis",

@@ -1508,13 +1508,61 @@
    "direccion": "Moran, Pedro 2147",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 18,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: ticketera] enlaza a passline"
+    "2026-10-14 [revisión anterior: ticketera] enlaza a passline",
+    "2026-10-15 [web] La cartelera de la web redirige a Passline."
+   ],
+   "entradas": [
+    "https://www.passline.com/sitio/cultural-moran"
+   ],
+   "comportamiento": {
+    "extraccion": "/cartelera redirige a la página de Passline de Cultural Morán, que lista eventos con #categoría, fecha y hora en texto"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.culturalmoran.com/eventos-anteriores",
+     "texto": "Mirá Morán",
+     "motivo": "archivo de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.culturalmoran.com/festivalcortes",
+     "texto": "Festival Cortes",
+     "motivo": "festival anual, sin fechas en la ventana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.culturalmoran.com/bar-y-morfi",
+     "texto": "Bar",
+     "motivo": "descripción del bar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.culturalmoran.com/meca",
+     "texto": "MECA",
+     "motivo": "proyecto institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.culturalmoran.com/moranenyoutube",
+     "texto": "+Morán en YouTube",
+     "motivo": "videos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 18
+    }
    ]
   },
   {
@@ -1868,13 +1916,37 @@
    "direccion": "Acuña De Figueroa, Francisco 1030",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Eventos en tarjetas con enlaces a Flashpass; dos sedes (Almagro y Abasto). La sede de ATR y Redondos Diskos se asumió Almagro (no figura en la tarjeta)."
+   ],
+   "entradas": [
+    "http://elemergente.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada es una landing que cierra un modal ('Ahora no, entrar al sitio'); los eventos son enlaces a events.flashpass.com.ar con fecha en el slug y tarjetas por categoría; hay varias sedes (Legendaria, Emergente)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://elemergente.com.ar/#alquileres",
+     "texto": "Alquileres",
+     "motivo": "alquiler de salas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
    ]
   },
   {
@@ -2479,13 +2551,38 @@
    "direccion": "Republica Bolivariana De Venezuela 2255",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Espacio del sindicato ATSA (Saavedra 166); solo talleres semanales en la web, la cartelera se comunica por redes."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.atsa.org.ar/voces-de-la-sanidad/",
+     "texto": "Voces de la Sanidad",
+     "motivo": "programa de radio y medios del sindicato",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.atsa.org.ar/sanidad-solidaria/",
+     "texto": "Sanidad solidaria",
+     "motivo": "acción solidaria del sindicato",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2515,11 +2612,44 @@
    "direccion": "Uriburu Jose E., Pres. 763",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Web con novedades desactualizadas; revisar redes. Función 'Olga Poblete' de los sábados de octubre sin año confirmado."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://elsabato.economicas.uba.ar/elsabato/talleres/",
+     "texto": "Talleres",
+     "motivo": "inscripciones a talleres regulares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/elsabato/danza/",
+     "texto": "Danza",
+     "motivo": "misma lista de novedades filtrada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/elsabato/musica",
+     "texto": "Música",
+     "motivo": "misma lista de novedades filtrada",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "el-zorzal-esquina-cultural",
@@ -3209,15 +3339,51 @@
    "barrio": "Boedo",
    "direccion": "Pavon Av. 3939",
    "entradas": [
+    "https://culturalcava.ar/",
     "https://culturalcava.ar/cartelera/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "la portada lista la cartelera con título, fecha y hora en texto; /visitas-guiadas/ da días y tarifas"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera en la portada; visitas guiadas los sábados a las 15 h."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://culturalcava.ar/",
+     "texto": "Cursos y talleres",
+     "motivo": "clases regulares con inscripción",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://culturalcava.ar/salas/",
+     "texto": "Nuestras salas",
+     "motivo": "alquiler de salas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://culturalcava.ar/streaming/",
+     "texto": "CAVA streaming",
+     "motivo": "contenido online",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ]
   },
   {
    "id": "la-conversa",
@@ -3444,13 +3610,24 @@
    "direccion": "Campichuelo 472",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web activa; milongas, cine y talleres se anuncian por Instagram @clubpremierdecaballito."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3467,13 +3644,32 @@
    "direccion": "Mendez De Andes Y Fragata Pres. Sarmiento",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "no_cultural",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sin agenda en el sitio; usar redes"
+    "2026-10-14 [revisión anterior: sin_agenda] Sin agenda en el sitio; usar redes",
+    "2026-10-15 [web] Sala y estudio de alquiler; no publica eventos."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.espaciocaballito.com.ar/#contacto",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3758,13 +3954,61 @@
    "direccion": "Guevara 326",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 10,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral"
+    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral",
+    "2026-10-15 [web] La portada trae toda la cartelera del mes con días y horas."
+   ],
+   "entradas": [
+    "https://www.galpondeguevara.com/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista cada obra con sus días y horarios del mes en texto; la cartelera /la-cartelera tiene el detalle"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.galpondeguevara.com/residencias",
+     "texto": "Residencias",
+     "motivo": "programa de residencias artísticas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.galpondeguevara.com/clases",
+     "texto": "Clases",
+     "motivo": "clases regulares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.galpondeguevara.com/festivales",
+     "texto": "Festivales",
+     "motivo": "ciclos sin fechas en la ventana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.galpondeguevara.com/entradas",
+     "texto": "Entradas",
+     "motivo": "ticketera",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.galpondeguevara.com/el-galpon",
+     "texto": "El Galpón",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    }
    ]
   },
   {
@@ -4091,13 +4335,38 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_cultural",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: no_es_agenda] Actividades regulares (escuelitas, talleres)"
+    "2026-10-14 [revisión anterior: no_es_agenda] Actividades regulares (escuelitas, talleres)",
+    "2026-10-15 [web] Espacio comunitario con actividades semanales; sin cartelera de eventos."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://espaciofermin.com.ar/jornadas-solidarias/",
+     "texto": "Jornadas solidarias",
+     "motivo": "cenas solidarias para colaborar, sin fechas puntuales",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espaciofermin.com.ar/comuna-7/",
+     "texto": "Comuna 7",
+     "motivo": "información comunitaria",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4318,17 +4587,52 @@
    "barrio": "La Boca",
    "direccion": "Perez Galdos, Benito Av. 93",
    "entradas": [
+    "https://catalinasur.com.ar/",
     "https://catalinasur.com.ar/en-octubre-se-viene-nuevo-espectaculo-de-nuestro-piberio/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 4
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral, boleteria"
+    "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral, boleteria",
+    "2026-10-15 [web] En la ventana: teatro-murga los viernes, orquesta los sábados 21.30 h y La Colmena el domingo 18/10."
+   ],
+   "comportamiento": {
+    "extraccion": "la portada muestra cartelera con imágenes enlazadas a una página por espectáculo; cada página trae día, hora y sinopsis",
+    "dominio": "catalinasur.com.ar"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.catalinasur.com.ar/noviembre-unica-funcion/",
+     "texto": "Noviembre, única función",
+     "motivo": "fecha de noviembre, fuera de la ventana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.catalinasur.com.ar/espectuaculos-propios/",
+     "texto": "Espectáculos propios",
+     "motivo": "descripción de espectáculos del grupo",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.catalinasur.com.ar/talleres/",
+     "texto": "Talleres",
+     "motivo": "talleres regulares",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
    ]
   },
   {
@@ -5537,11 +5841,61 @@
    "direccion": "Honduras 5329",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 13,
+     "paginas": 2
     }
-   }
+   },
+   "entradas": [
+    "https://tickets.congoclubcultural.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la web principal enlaza PROGRAMACIÓN a tickets.congoclubcultural.com.ar, que lista próximos eventos con día, hora y sala en un solo texto"
+   },
+   "notas": [
+    "2026-10-15 [web] La agenda está en la ticketera tickets.congoclubcultural.com.ar."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://congoclubcultural.com.ar/festejos-en-congo/",
+     "texto": "Festejos en Congo",
+     "motivo": "alquiler para eventos privados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://congoclubcultural.com.ar/el-lugar/",
+     "texto": "El lugar",
+     "motivo": "descripción del espacio",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://congoclubcultural.com.ar/tocar-en-congo-club-cultural/",
+     "texto": "Tocar en Congo",
+     "motivo": "convocatoria para bandas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://congoclubcultural.com.ar/carta/",
+     "texto": "Nuestra carta",
+     "motivo": "carta del bar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://congoclubcultural.com.ar/contacto/",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 13
+    }
+   ]
   },
   {
    "id": "el-donn",
@@ -5557,13 +5911,32 @@
    "direccion": "Guemes 3825",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Centro cultural de Palermo con talleres y una proyección mensual (primer sábado)."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://cceldonn.github.io/eldonn/#contacto",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5580,14 +5953,25 @@
    "direccion": "Charcas 4335",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: web corregida (antes http://www.centroenjambre.com.ar/)",
-    "2026-10-14 [revisión anterior: sin_agenda] enjambre.cc sin agenda; usar @eureka.cultural"
+    "2026-10-14 [revisión anterior: sin_agenda] enjambre.cc sin agenda; usar @eureka.cultural",
+    "2026-10-15 [web] La web guardada es de otra organización; Eureka (Av. Corrientes 4269) no tiene web propia encontrada, su cartelera aparece en Alternativa Teatral."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6707,14 +7091,26 @@
    "direccion": "Arroyo 1138",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: web corregida (antes https://www.buenosaires.itamaraty.gov.ar)",
-    "2026-10-14 [revisión anterior: caido] Redirige a login gov.br; usar @embrasilargentina"
+    "2026-10-14 [revisión anterior: caido] Redirige a login gov.br; usar @embrasilargentina",
+    "2026-10-15 [web] Agenda en Linktree y redes @culturalbrasilbaires; el Linktree está suspendido hasta el 25/10 por veda electoral."
+   ],
+   "enlace_bio": "https://linktr.ee/culturalbrasilbaires",
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6779,13 +7175,24 @@
    "direccion": "Vidal 3801",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "solo_instagram",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: instagram] Agenda por newsletter Mailchimp; usar redes"
+    "2026-10-14 [revisión anterior: instagram] Agenda por newsletter Mailchimp; usar redes",
+    "2026-10-15 [web] La agenda es un newsletter de Mailchimp caído; seguir Instagram @espaciogarcia."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -7440,14 +7847,25 @@
    "direccion": "Suipacha 119",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: Confirmar: puede ser Centro Cultural El Faro",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web; su cartelera aparece en Alternativa Teatral (ya rastreada) y en Facebook."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -7463,17 +7881,51 @@
    "barrio": "San Nicolas",
    "direccion": "Sarmiento 1551",
    "comportamiento": {
-    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)"
+    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)",
+    "extraccion": "/eventos/ es un calendario de lista con una sola entrada en octubre; los cursos de octubre están en /cursos-octubre/ (cursos pagos de cuatro docentes, no cargados)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Muy pocos eventos; el centro ofrece sobre todo cursos y clases magistrales."
+   ],
+   "entradas": [
+    "https://elculturalsanmartin.ar/eventos/"
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://elculturalsanmartin.ar/clases-magistrales-noviembre/",
+     "texto": "Clases magistrales noviembre",
+     "motivo": "cursos de noviembre, fuera de la ventana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elculturalsanmartin.ar/historia/",
+     "texto": "Identidad",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elculturalsanmartin.ar/patrimonio/",
+     "texto": "Patrimonio",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -7742,14 +8194,25 @@
    "direccion": "Piedras 1020",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: clasicofernandez.com.ar; parece un restaurante, evaluar si corresponde",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web activa; solo Facebook (4,3 mil seguidores) y la ficha de Maps."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8100,17 +8563,51 @@
    "barrio": "Villa Crespo",
    "direccion": "Av. Juan B. Justo 2959",
    "entradas": [
+    "https://www.ccmatienzo.com.ar/",
     "https://www.ccmatienzo.com.ar/tu-evento"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Programación completa en la portada."
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista la programación por día (categoría, hora, título, descripción) en un texto; filtros Recitales/Fiestas/Noche de juegos"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.ccmatienzo.com.ar/el-club",
+     "texto": "El club",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccmatienzo.com.ar/el-bar",
+     "texto": "El bar",
+     "motivo": "descripción del bar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccmatienzo.com.ar/tu-evento",
+     "texto": "Tu evento",
+     "motivo": "alquiler del espacio",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -8140,13 +8637,32 @@
    "direccion": "Justo, Juan B. Av. 2261",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "no_cultural",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: no_es_agenda] Entrenamiento; no es centro cultural"
+    "2026-10-14 [revisión anterior: no_es_agenda] Entrenamiento; no es centro cultural",
+    "2026-10-15 [web] Gimnasio, no es un espacio cultural."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.doup.com.ar/#contacto",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8755,11 +9271,24 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Blog abandonado desde 2020."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-poeta-roberto-santoro",
@@ -9095,11 +9624,55 @@
    "direccion": "Juramento 4686",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 7,
+     "paginas": 2
     }
-   }
+   },
+   "entradas": [
+    "https://cuerdamecanica.com/cartelera/"
+   ],
+   "comportamiento": {
+    "extraccion": "/cartelera/ lista por día con título, hora, descripción y precio; vistas Lista/Mes; el texto se lee con innerText sin paginar"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera completa en /cartelera/."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://cuerdamecanica.com/clases/",
+     "texto": "Clases",
+     "motivo": "clases regulares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cuerdamecanica.com/el-jardin-oculto/",
+     "texto": "El Jardín Oculto",
+     "motivo": "bar y jardín",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cuerdamecanica.com/producciones-mecanicas/",
+     "texto": "Producciones Mecánicas",
+     "motivo": "producciones propias",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cuerdamecanica.com/quienes-somos/",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
+    }
+   ]
   },
   {
    "id": "cultrum",
@@ -9141,14 +9714,25 @@
    "direccion": "Ibera 4896",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: Sin canal propio encontrado",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web ni redes encontradas."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -9165,13 +9749,24 @@
    "direccion": "Ibera 5257",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web activa; usar Instagram @espacio_ilda."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {

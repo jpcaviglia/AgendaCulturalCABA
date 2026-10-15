@@ -489,7 +489,19 @@
   "centro-cultural-y-biblioteca-popular-carlos-sanchez-viamonte|instagram",
   "centro-okinawense|instagram",
   "espacio-incaa-atlas-flores|web",
-  "circuito-cultural-barracas|instagram"
+  "circuito-cultural-barracas|instagram",
+  "clasico-fernandez|instagram",
+  "club-premier|instagram",
+  "complejo-cultural-sanidad|instagram",
+  "cultura-faro|instagram",
+  "doup|instagram",
+  "el-puente|instagram",
+  "el-sabato-espacio-cultural|instagram",
+  "espacio-caballito|instagram",
+  "espacio-cultural-embajada-del-brasil|instagram",
+  "espacio-cultural-eureka|instagram",
+  "espacio-cultural-garcia|instagram",
+  "espacio-cultural-ilda|instagram"
  ],
  "hechos": {
   "buenos-aires-secreta-planes-del-fin-de-semana|web": "con_eventos",
@@ -562,10 +574,34 @@
   "cine-club-farus|web": "con_eventos",
   "cine-gaumont-espacio-incaa|web": "con_eventos",
   "circuito-cultural-barracas|web": "dominio_caido",
-  "ciudad-cultural-konex|web": "con_eventos"
+  "ciudad-cultural-konex|web": "con_eventos",
+  "clasico-fernandez|web": "dominio_caido",
+  "club-cultural-matienzo|web": "con_eventos",
+  "club-premier|web": "dominio_caido",
+  "complejo-cultural-sanidad|web": "sin_agenda",
+  "congo|web": "con_eventos",
+  "cuerda-mecanica-centro-cultural|web": "con_eventos",
+  "cultura-faro|web": "dominio_caido",
+  "cultural-moran|web": "con_eventos",
+  "doup|web": "no_cultural",
+  "el-castillo-de-sandro|web": "con_eventos",
+  "el-colectivo-arte-en-movimiento|web": "dominio_caido",
+  "el-cultural-san-martin|web": "con_eventos",
+  "el-donn|web": "sin_eventos",
+  "el-galpon-de-catalinas|web": "con_eventos",
+  "el-galpon-de-guevara|web": "con_eventos",
+  "el-puente|web": "sin_eventos",
+  "el-sabato-espacio-cultural|web": "sin_eventos",
+  "emergente-club-almagro|web": "con_eventos",
+  "espacio-caballito|web": "no_cultural",
+  "espacio-cultural-embajada-del-brasil|web": "sin_agenda",
+  "espacio-cultural-eureka|web": "dominio_caido",
+  "espacio-cultural-fermin|web": "sin_eventos",
+  "espacio-cultural-garcia|web": "sin_agenda",
+  "espacio-cultural-ilda|web": "dominio_caido"
  },
  "sitios_nuevos": [
   "espacio-incaa-atlas-flores"
  ],
- "eventos": 410
+ "eventos": 476
 }
