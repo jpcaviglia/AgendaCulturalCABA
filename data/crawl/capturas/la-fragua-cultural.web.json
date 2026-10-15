@@ -1,0 +1,46 @@
+{
+ "id": "la-fragua-cultural",
+ "canal": "web",
+ "fuente": "LA FRAGUA CULTURAL",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.lafraguacultural.com",
+  "https://www.lafraguacultural.com/programacion_teatro/"
+ ],
+ "eventos": [
+  {
+   "titulo": "El precio internacional del mango",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "Viernes 21 h",
+   "lugar": "LA FRAGUA CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.lafraguacultural.com/programacion_teatro/",
+   "descripcion": "Obra de teatro sobre dos ciudadanos en un espacio pequeño, cerrado y sin ventilación. Entradas en Alternativa Teatral o en boletería.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Prócer",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábados 21 h",
+   "lugar": "LA FRAGUA CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.lafraguacultural.com/programacion_teatro/",
+   "descripcion": "Obra de teatro. Entradas en Alternativa Teatral o en boletería.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

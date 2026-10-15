@@ -1,7 +1,7 @@
 {
  "id": "2026-10-15",
  "inicio": "2026-10-15 12:19",
- "fin": null,
+ "fin": "2026-10-15 14:05",
  "ventana": {
   "desde": "2026-10-15",
   "hasta": "2026-10-29"
@@ -515,7 +515,11 @@
   "fundacion-naum-knop|instagram",
   "galpon-cultural-piedrabuenarte|instagram",
   "impa-centro-cultural-impa-la-fabrica|instagram",
-  "inboccalupo|instagram"
+  "inboccalupo|instagram",
+  "jaciento-oviedo|instagram",
+  "la-bisagra|instagram",
+  "la-casa-de-teresa-israel|instagram",
+  "la-cultura-del-barrio|instagram"
  ],
  "hechos": {
   "buenos-aires-secreta-planes-del-fin-de-semana|web": "con_eventos",
@@ -634,10 +638,20 @@
   "grupo-de-teatro-comunitario-de-pompeya|web": "sin_eventos",
   "hasta-trilce|web": "con_eventos",
   "impa-centro-cultural-impa-la-fabrica|web": "dominio_caido",
-  "inboccalupo|web": "sin_eventos"
+  "inboccalupo|web": "sin_eventos",
+  "jaciento-oviedo|web": "sin_eventos",
+  "la-abadia-centro-de-arte-y-estudios-latinoamericanos|web": "descartado",
+  "la-bisagra|web": "dominio_caido",
+  "la-casa-de-teresa-israel|web": "sin_eventos",
+  "la-cultura-del-barrio|web": "sin_agenda",
+  "la-escalera-espacio-de-arte|web": "dominio_caido",
+  "la-fragua-cultural|web": "con_eventos",
+  "la-minga-club-cultural|web": "con_eventos",
+  "la-ronda-espacio-cultural|web": "con_eventos"
  },
  "sitios_nuevos": [
   "espacio-incaa-atlas-flores"
  ],
- "eventos": 488
+ "eventos": 492,
+ "fin_ok": false
 }

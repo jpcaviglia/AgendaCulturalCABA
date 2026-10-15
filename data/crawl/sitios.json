@@ -2184,13 +2184,24 @@
    "direccion": "Acuña De Figueroa, Francisco 795",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Blog sin actualizar desde 2022 aproximadamente."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2206,15 +2217,57 @@
    "barrio": "Almagro",
    "direccion": "Rivadavia Av. 4127",
    "entradas": [
+    "https://www.lafraguacultural.com/programacion_teatro/",
     "https://www.lafraguacultural.com/galeria-de-arte/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "/programacion_teatro/ lista obras con sinopsis; el día y la hora están solo en la ficha de cada obra (se leen con fetch); varias fichas no traen fecha"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera de teatro con fichas que a veces omiten días; entradas por Alternativa Teatral."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.lafraguacultural.com/convocatoria/",
+     "texto": "Convocatoria",
+     "motivo": "convocatoria a propuestas teatrales",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/salas/",
+     "texto": "Salas de ensayo",
+     "motivo": "alquiler de salas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/galeria/",
+     "texto": "Galería de arte",
+     "motivo": "convocatoria de artistas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/restobar/",
+     "texto": "Restobar",
+     "motivo": "restaurante",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "la-vieja-guardia",
@@ -2819,11 +2872,24 @@
    "direccion": "Riobamba 434",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Blog político inactivo desde 2017; la web guardada no corresponde a una agenda cultural."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "jj-circuito-cultural",
@@ -6291,29 +6357,6 @@
    "direccion": "Thames 1625"
   },
   {
-   "id": "la-abadia-centro-de-arte-y-estudios-latinoamericanos",
-   "nombre": "LA ABADIA. CENTRO DE ARTE Y ESTUDIOS LATINOAMERICANOS",
-   "tipo": "lugar",
-   "lugares": [
-    "LA ABADIA. CENTRO DE ARTE Y ESTUDIOS LATINOAMERICANOS"
-   ],
-   "web": "https://www.laabadia.org",
-   "instagram": "",
-   "origen": "data/lugares.json",
-   "barrio": "Palermo",
-   "direccion": "Gorostiaga 1908",
-   "ultimo": {
-    "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
-    }
-   },
-   "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
-  },
-  {
    "id": "la-escalera-espacio-de-arte",
    "nombre": "LA ESCALERA ESPACIO DE ARTE",
    "tipo": "lugar",
@@ -6327,14 +6370,25 @@
    "direccion": "Justo, Juan B. Av. 889",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: EspacioLaEscalera",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web; solo Facebook y directorios."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6616,20 +6670,52 @@
    "lugares": [
     "LA MINGA CLUB CULTURAL"
    ],
-   "web": "https://www.lamingaclubcultural.com.ar",
+   "web": "https://linktr.ee/lamingacc",
    "instagram": "@lamingacc",
    "origen": "data/lugares.json",
    "barrio": "Parque Chacabuco",
    "direccion": "Del Barco Centenera 1126",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "solo_instagram",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: instagram] El sitio redirige a Linktree"
+    "2026-10-14 [revisión anterior: instagram] El sitio redirige a Linktree",
+    "2026-10-15: la web cambió de https://www.lamingaclubcultural.com.ar a https://linktr.ee/lamingacc",
+    "2026-10-15 [web] La web redirige a un Linktree; los eventos se leen en Ticketia."
+   ],
+   "enlace_bio": "https://linktr.ee/lamingacc",
+   "entradas": [
+    "https://ticketia.com.ar/events/la-minga-club-cultural"
+   ],
+   "comportamiento": {
+    "extraccion": "lamingaclubcultural.com.ar redirige al Linktree @lamingacc; la agenda está en la ticketera Ticketia (events/la-minga-club-cultural), con título, fecha y hora"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
+     "texto": "Espectáculos de vacaciones",
+     "motivo": "vacaciones de invierno, ya pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.youtube.com/user/LaMingaClubCultural",
+     "texto": "Canal de YouTube",
+     "motivo": "videos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -7798,20 +7884,31 @@
     "LA QUINCE ESPACIO CULTURAL"
    ],
    "web": "http://www.seamoslibresmp.com.ar/",
-   "instagram": "@laquincecultural",
+   "instagram": "@labisagraok",
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
    "direccion": "San Juan Av. 1826",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: labisagraenSL",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web; se comunica por Facebook e Instagram @labisagraok."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8345,11 +8442,61 @@
    "direccion": "Viamonte 1730",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
-   }
+   },
+   "entradas": [
+    "https://larondaespaciocultural.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada tiene 'Actividades de esta semana' en texto con fechas de Cine Debate y Café Psicológico; las páginas de actividad son fichas de tienda (Tiendanube) sin calendario"
+   },
+   "notas": [
+    "2026-10-15 [web] Solo la portada muestra las fechas de la semana; las fichas son de tienda."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://larondaespaciocultural.com.ar/actividades/cine-debate/",
+     "texto": "Cine debate",
+     "motivo": "página de tienda por actividad; fechas de la semana en la portada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/actividades/cafe-psicologico/",
+     "texto": "Café psicológico",
+     "motivo": "página de tienda por actividad; fechas de la semana en la portada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/actividades/talleres-de-lectura/",
+     "texto": "Talleres de lectura",
+     "motivo": "cursos regulares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/cursos-on-demand/",
+     "texto": "Cursos on demand",
+     "motivo": "cursos grabados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/blog/",
+     "texto": "Blog",
+     "motivo": "notas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "palacio-libertad-ex-centro-cultural-kirchner",
@@ -9332,7 +9479,35 @@
    "instagram": "@laculturadelbarrio.oficial",
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
-   "direccion": "No confirmada"
+   "direccion": "No confirmada",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Club social y deportivo; la agenda va por Instagram."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://linktr.ee/laculturadelbarri",
+     "texto": "Tienda de remeras",
+     "motivo": "venta de merchandising",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "monstera-club-cultural",

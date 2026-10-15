@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 191,
-  "con_eventos": 104
+  "capturas": 199,
+  "con_eventos": 107
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -82,6 +82,9 @@
   "Indiehoy: Agenda de recitales",
   "Indiehoy: muestras de arte del mes",
   "Jodify",
+  "LA FRAGUA CULTURAL",
+  "LA MINGA CLUB CULTURAL",
+  "LA RONDA ESPACIO CULTURAL",
   "La Rural Ticket",
   "La Trastienda",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
@@ -5982,6 +5985,28 @@
    ],
    "lat": -34.586393,
    "lng": -58.432605
+  },
+  {
+   "titulo": "Café psicológico: ciclo Nexus",
+   "categoria": "Literatura y charlas",
+   "lugar": "LA RONDA ESPACIO CULTURAL",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 1730",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Encuentro del Café Psicológico, jueves 15/10 a las 19 h.",
+   "url": "https://larondaespaciocultural.com.ar/",
+   "dominio": "larondaespaciocultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "LA RONDA ESPACIO CULTURAL",
+   "fuentes": [
+    "LA RONDA ESPACIO CULTURAL"
+   ],
+   "lat": -34.600834,
+   "lng": -58.391832
   },
   {
    "titulo": "Canta y no llores cantobar karaoke",
@@ -13186,6 +13211,28 @@
    ],
    "lat": -34.58733,
    "lng": -58.449505
+  },
+  {
+   "titulo": "El precio internacional del mango",
+   "categoria": "Teatro",
+   "lugar": "LA FRAGUA CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Rivadavia Av. 4127",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "Viernes 21 h",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro sobre dos ciudadanos en un espacio pequeño, cerrado y sin ventilación. Entradas en Alternativa Teatral o en boletería.",
+   "url": "https://www.lafraguacultural.com/programacion_teatro/",
+   "dominio": "lafraguacultural.com",
+   "estado": "Próximo",
+   "lugar_verificado": "LA FRAGUA CULTURAL",
+   "fuentes": [
+    "LA FRAGUA CULTURAL"
+   ],
+   "lat": -34.61266,
+   "lng": -58.424045
   },
   {
    "titulo": "El reverso de la memoria",
@@ -27015,6 +27062,28 @@
    "lng": ""
   },
   {
+   "titulo": "Prócer",
+   "categoria": "Teatro",
+   "lugar": "LA FRAGUA CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Rivadavia Av. 4127",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábados 21 h",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro. Entradas en Alternativa Teatral o en boletería.",
+   "url": "https://www.lafraguacultural.com/programacion_teatro/",
+   "dominio": "lafraguacultural.com",
+   "estado": "Próximo",
+   "lugar_verificado": "LA FRAGUA CULTURAL",
+   "fuentes": [
+    "LA FRAGUA CULTURAL"
+   ],
+   "lat": -34.61266,
+   "lng": -58.424045
+  },
+  {
    "titulo": "Que Alguien Baile Para Mí",
    "categoria": "Teatro",
    "lugar": "El Vitral",
@@ -40512,6 +40581,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Kispicas Trío Vocal",
+   "categoria": "Música",
+   "lugar": "LA MINGA CLUB CULTURAL",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Del Barco Centenera 1126",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto en La Minga Club Cultural.",
+   "url": "https://ticketia.com.ar/events/la-minga-club-cultural",
+   "dominio": "ticketia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA MINGA CLUB CULTURAL"
+   ],
+   "lat": -34.632402,
+   "lng": -58.437075
   },
   {
    "titulo": "LA CAMA (Mónica Lairana)",
