@@ -535,7 +535,8 @@
   "jaciento-oviedo|instagram",
   "la-bisagra|instagram",
   "la-casa-de-teresa-israel|instagram",
-  "la-cultura-del-barrio|instagram"
+  "la-cultura-del-barrio|instagram",
+  "flashpass|web"
  ],
  "hechos": {
   "alternativa-teatral|web": "reutilizado",
@@ -739,6 +740,8 @@
   "los-pompas|web": "con_eventos",
   "planta-inclan|web": "con_eventos"
  },
- "sitios_nuevos": [],
+ "sitios_nuevos": [
+  "flashpass"
+ ],
  "eventos": 17
 }
