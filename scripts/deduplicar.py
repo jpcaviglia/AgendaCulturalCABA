@@ -1,13 +1,13 @@
-"""Detección y fusión de eventos duplicados entre fuentes (solo biblioteca estándar)."""
+"""Detection and merging of duplicate events between sources (standard library only)."""
 import re
 from datetime import date, timedelta
 from difflib import SequenceMatcher
 
 from clasificar import sin_tildes
 
-# Menor = más confiable. Al unir duplicados, los datos de base (título, lugar, hora, enlace, descripción) salen de la
-# fuente más confiable: la web del propio lugar, después su Instagram y recién después los agregadores (que copian,
-# resumen o cambian los títulos). Los agregadores solo completan los campos que la fuente propia dejó vacíos.
+# Lower = more reliable. When merging duplicates, the base data (title, venue, time, link, description) comes from the
+# most reliable source: the venue's own website, then its Instagram and only then the aggregators (which copy,
+# summarize or change titles). Aggregators only fill in the fields the own source left empty.
 PRIORIDAD = {"sitio": 0, "instagram": 1, "agregador": 2}
 VACIOS_FUSIONABLES = ("categoria", "lugar", "barrio", "direccion", "horarios", "descripcion", "url", "fecha_fin", "hora")
 STOP = {"el", "la", "los", "las", "de", "del", "y", "en", "a", "un", "una", "con", "al"}
@@ -19,7 +19,7 @@ def norm_titulo(t):
 
 
 def norm_lugar(t):
-    t = (t or "").split(" · ")[0]  # la sala no cuenta: "Malba · Nivel 2" es Malba
+    t = (t or "").split(" · ")[0]  # the room does not count: "Malba · Nivel 2" is Malba
     t = re.sub(r"[^a-z0-9 ]+", " ", sin_tildes(t))
     t = re.sub(r"\b(centro cultural|espacio cultural|teatro|sala|cc)\b", " ", t)
     return " ".join(t.split())
@@ -33,23 +33,23 @@ def _parecidos(a, b, umbral):
     if min(len(a), len(b)) >= 8 and (a in b or b in a):
         return True
     s = SequenceMatcher(None, a, b)
-    # real_quick_ratio y quick_ratio son cotas superiores baratas de ratio(): descartan rápido la mayoría
-    # de los pares sin cambiar el resultado.
+    # real_quick_ratio and quick_ratio are cheap upper bounds of ratio(): they quickly discard most
+    # pairs without changing the result.
     return s.real_quick_ratio() >= umbral and s.quick_ratio() >= umbral and s.ratio() >= umbral
 
 
 def son_duplicados(x, y):
-    """Mismo día y mismo título; el lugar debe coincidir salvo que falte en alguno."""
+    """Same day and same title; the venue must match unless it is missing in one of them."""
     if x["fecha_inicio"] != y["fecha_inicio"]:
-        # Una función de madrugada la fecha cada fuente un día distinto. Solo se tolera 1 día entre fuentes
-        # distintas; en la misma fuente, días consecutivos son funciones distintas.
+        # Each source dates an after-midnight show on a different day. Only 1 day is tolerated between different
+        # sources; within the same source, consecutive days are different performances.
         if abs((date.fromisoformat(x["fecha_inicio"]) - date.fromisoformat(y["fecha_inicio"])).days) != 1:
             return False
         if set(x.get("fuentes", [])) & set(y.get("fuentes", [])):
             return False
     tx, ty = norm_titulo(x["titulo"]), norm_titulo(y["titulo"])
-    # Misma ficha y títulos medianamente parecidos. Solo la URL no alcanza: varias muestras
-    # o funciones pueden compartir la portada del organizador.
+    # Same page and moderately similar titles. The URL alone is not enough: several exhibitions
+    # or performances can share the organizer's home page.
     if x.get("url") and x.get("url") == y.get("url") and "instagram.com" not in x["url"] and _parecidos(tx, ty, 0.6):
         return True
     if not _parecidos(tx, ty, 0.85):
@@ -61,7 +61,7 @@ def son_duplicados(x, y):
 
 
 def fusionar(grupo):
-    """Une un grupo de duplicados: base = la fuente más confiable; completa campos vacíos."""
+    """Merges a group of duplicates: base = the most reliable source; fills in empty fields."""
     grupo = sorted(grupo, key=lambda e: (PRIORIDAD.get(e.get("_tipo"), 9), -len(e.get("descripcion", ""))))
     base = dict(grupo[0])
     fuentes = []
@@ -72,10 +72,10 @@ def fusionar(grupo):
         for campo in VACIOS_FUSIONABLES:
             if not base.get(campo) and e.get(campo):
                 base[campo] = e[campo]
-        # "Evento" es la categoría de descarte: otra fuente que la clasificó mejor manda.
+        # "Evento" is the fallback category: another source that classified it better wins.
         if base.get("categoria") == "Evento" and e.get("categoria") not in ("", "Evento", None):
             base["categoria"] = e["categoria"]
-        # Una URL propia del organizador es mejor que un post de Instagram.
+        # The organizer's own URL is better than an Instagram post.
         if "instagram.com" in base.get("url", "") and e.get("url") and "instagram.com" not in e["url"]:
             base["url"], base["dominio"] = e["url"], e.get("dominio", "")
     base["fuentes"] = fuentes
@@ -83,7 +83,7 @@ def fusionar(grupo):
 
 
 def deduplicar(eventos):
-    """Devuelve (eventos_unicos, cantidad_de_duplicados_eliminados)."""
+    """Returns (unique_events, number_of_duplicates_removed)."""
     grupos = []
     por_fecha = {}
     for e in eventos:

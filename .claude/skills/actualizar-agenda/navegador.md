@@ -1,148 +1,148 @@
-# Herramientas para el navegador
+# Browser tools
 
-Las herramientas están en [navegador.js](navegador.js) y se cargan en la pestaña con **una sola línea**
-(en Claude in Chrome, con `javascript_tool`). No hace falta leer ni pegar el código.
+The tools are in [navegador.js](navegador.js) and are loaded into the tab with **a single line** (in Claude in
+Chrome, with `javascript_tool`). There is no need to read or paste the code.
 
-`python scripts/crawl.py iniciar` imprime la línea, con la URL de jsDelivr fijada al último commit de
-`navegador.js` (`crawl.py herramientas` la vuelve a mostrar, y `siguiente` repite la URL):
+`python scripts/crawl.py iniciar` prints the line, with the jsDelivr URL pinned to the last commit of
+`navegador.js` (`crawl.py herramientas` shows it again, and `siguiente` repeats the URL):
 
 ```js
 (async () => { window.__agt || await import("https://cdn.jsdelivr.net/gh/<repo>@<commit>/.claude/skills/actualizar-agenda/navegador.js"); return window.__agt.preparar(); })()
 ```
 
-Para otra herramienta se cambia solo el final: `window.__agt.esperar()`, `window.__agt.bloques()`, etc.
-Cada vez que se navega a otra página hay que usar la línea completa (el `window.__agt ||` evita volver a
-descargar el archivo mientras se siga en la misma página). Todas devuelven un texto JSON y además lo
-dejan en `window.__ag`: si la herramienta devuelve una promesa vacía o `{}`, esperá unos segundos y
-ejecutá `JSON.stringify(window.__ag)`.
+To use another tool, change only the end: `window.__agt.esperar()`, `window.__agt.bloques()`, etc.
+Every time you navigate to another page you must use the full line (the `window.__agt ||` avoids downloading
+the file again while you stay on the same page). All tools return a JSON text and also leave it in
+`window.__ag`: if a tool returns an empty promise or `{}`, wait a few seconds and run
+`JSON.stringify(window.__ag)`.
 
-**Si el import falla** ("Failed to fetch dynamically imported module" o un error de Content Security
-Policy): el sitio bloquea scripts de otros dominios. Leé `navegador.js`, pegalo entero seguido de la
-llamada (`window.__agt.preparar()`) y anotá `"comportamiento": {"herramientas": "pegar inline (CSP)"}`
-para que la próxima corrida lo pegue directo. Si `crawl.py` dice que `navegador.js` tiene cambios sin
-subir, pasa lo mismo: pegalo inline (o commiteá y subí antes de empezar).
+**If the import fails** ("Failed to fetch dynamically imported module" or a Content Security Policy error):
+the site blocks scripts from other domains. Read `navegador.js`, paste all of it followed by the call
+(`window.__agt.preparar()`) and note `"comportamiento": {"herramientas": "pegar inline (CSP)"}` so the next
+run pastes it directly. If `crawl.py` says `navegador.js` has unpushed changes, the same applies: paste it
+inline (or commit and push before starting).
 
-Los enlaces del mismo sitio vuelven como **ruta** (`/agenda/`) para no repetir el dominio: la URL
-completa es `base` + ruta. En el resultado (`urls_visitadas`, `entradas`, `eventos[].url`) van completas;
-en `enlaces_candidatos` puede ir la ruta.
+Links to the same site come back as a **path** (`/agenda/`) so the domain is not repeated: the full URL is
+`base` + path. In the result (`urls_visitadas`, `entradas`, `eventos[].url`) they go in full; in
+`enlaces_candidatos` the path is fine.
 
-## `preparar(opciones)`: esperar, scrollear, expandir y listar enlaces
+## `preparar(opciones)`: wait, scroll, expand and list links
 
-Correrla **en cada página de listado** (agenda, muestras, cartelera, programación, portada), apenas
-termina de navegar. Hace, en orden:
+Run it on **every listing page** (agenda, exhibitions, listings, programming, home page), as soon as it
+finishes navigating. In order, it:
 
-1. Espera hasta 30 s a que el texto de la página deje de cambiar (sitios lentos, apps con JavaScript).
-2. Cierra avisos de cookies y ventanas que tapan la página (ver `popups`), y lo repite en cada paso del
-   scroll, porque hay avisos que aparecen a los segundos o al bajar.
-3. Scrollea hasta el final, una y otra vez, hasta que la página deja de crecer, y aprieta los botones
-   "ver más / cargar más / load more" que no navegan a otra página.
-4. Devuelve los enlaces clasificados y datos de la página.
+1. Waits up to 30 s for the page text to stop changing (slow sites, JavaScript apps).
+2. Closes cookie notices and windows that cover the page (see `popups`), and repeats this at every scroll
+   step, because some notices appear after a few seconds or when scrolling down.
+3. Scrolls to the bottom, over and over, until the page stops growing, and presses the "ver más / cargar más
+   / load more" buttons that do not navigate to another page.
+4. Returns the classified links and data about the page.
 
-Qué devuelve:
+What it returns:
 
-- `secciones`: enlaces **fuertes** del mismo sitio, los que suelen ser la agenda: agenda, cartelera,
+- `secciones`: **strong** links to the same site, the ones that are usually the agenda: agenda, cartelera,
   programación, eventos, actividades, muestras, exposiciones, exhibiciones, shows, funciones, obras,
-  conciertos, calendario, próximas, upcoming, y también talleres, cursos, clases, seminarios, workshops,
-  visitas y recorridos. Hay que abrirlos todos (o descartarlos con motivo).
-- `debiles`: subprogramas que la agenda casi siempre ya incluye: ciclos, actuales, temporada, festival,
-  cine, películas, inauguración. Ver la regla en la skill (3.2). Si una
-  página no tiene ninguna sección fuerte, las débiles pasan a `secciones`.
-- `fichas`: páginas de un evento o muestra (enlaces con fecha en la tarjeta, o de agenda pero profundos).
-- `ticketeras`, `externos`: otros sitios (posibles espacios nuevos).
+  conciertos, calendario, próximas, upcoming, and also talleres, cursos, clases, seminarios, workshops,
+  visitas and recorridos. All of them must be opened (or discarded with a reason).
+- `debiles`: sub-programs that the agenda almost always already includes: ciclos, actuales, temporada,
+  festival, cine, películas, inauguración. See the rule in the skill (3.2). If a page has no strong section,
+  the weak ones move to `secciones`.
+- `fichas`: pages of one event or exhibition (links with a date in the card, or agenda links that are deep).
+- `ticketeras`, `externos`: other sites (possible new venues).
 - `largo_texto`, `espera_ms`, `pasos_scroll`, `clics_ver_mas`, `popups`, `fechas_en_texto`,
   `eventos_jsonld`, `plataforma`.
-- Si una lista se cortó, aparece `<lista>_total` con cuántos había. Para ver más:
-  `preparar({fichas: 150})` (también `secciones`, `debiles`, `ticketeras`, `externos`).
+- If a list was cut off, `<lista>_total` appears with how many there were. To see more:
+  `preparar({fichas: 150})` (also `secciones`, `debiles`, `ticketeras`, `externos`).
 
-Ya filtra los cambios de idioma (`EN`, `/lang/pt/`) y las URLs repetidas (barra final, `utm_`).
+It already filters out language switches (`EN`, `/lang/pt/`) and repeated URLs (trailing slash, `utm_`).
 
-Cómo leer el resultado:
+How to read the result:
 
-- `largo_texto` muy chico (< 300) después de 30 s: la página no cargó. Recargá y volvé a correr
-  `preparar` (eso es un intento); ver "Abrir y esperar" en la skill.
-- `eventos_jsonld > 0`: usá `jsonld()`, es más rápido y exacto.
-- `fechas_en_texto` alto y pocas `fichas`: las fechas están en el texto; usá `bloques()`.
-- `externos`: si parecen un espacio cultural de CABA que no está en la cola, sumalo en `sitios_nuevos`.
+- Very small `largo_texto` (< 300) after 30 s: the page did not load. Reload and run `preparar` again (that
+  counts as one attempt); see "Abrir y esperar" in the skill.
+- `eventos_jsonld > 0`: use `jsonld()`, it is faster and exact.
+- High `fechas_en_texto` and few `fichas`: the dates are in the text; use `bloques()`.
+- `externos`: if they look like a cultural venue in CABA that is not in the queue, add it in `sitios_nuevos`.
 
-## `esperar(opciones)`: fichas
+## `esperar(opciones)`: event pages
 
-Para la página de un evento o una muestra: espera a que cargue, cierra avisos y devuelve el texto
-principal sin menú, pie, barras laterales ni "compartir". Devuelve hasta 2500 caracteres; si hay más,
-aparece `texto_total`. Si lo que falta (fecha de cierre, precio) no está en lo que volvió, pedí más:
+For the page of one event or exhibition: waits for it to load, closes notices and returns the main text
+without menu, footer, sidebars or "share". It returns up to 2500 characters; if there is more,
+`texto_total` appears. If what is missing (closing date, price) is not in what came back, ask for more:
 `esperar({max: 6000})`.
 
-## `popups()`: avisos de cookies y ventanas que tapan la página
+## `popups()`: cookie notices and windows that cover the page
 
-`preparar` y `esperar` ya lo hacen solas (devuelven en `popups` lo que cerraron). Esta sirve cuando
-aparece un aviso después, por ejemplo al abrir un menú.
+`preparar` and `esperar` already do this on their own (they return what they closed in `popups`). Use this
+one when a notice appears later, for example after opening a menu.
 
-Qué cierra, en orden:
+What it closes, in order:
 
-1. Gestores de consentimiento conocidos (OneTrust, Didomi, Cookiebot, Usercentrics, CookieYes,
-   Complianz, Cookie Notice, Iubenda, CookieFirst, Google, Borlabs, Cookie Consent), incluso dentro de
-   shadow DOM. Si hay opción, **rechaza** o elige "solo necesarias"; si no, acepta.
-2. Avisos de cookies propios del sitio: un botón "Rechazar / Aceptar / Entendido / OK / Cerrar" dentro de
-   un aviso fijo o un diálogo que habla de cookies o privacidad. Nunca aprieta un "OK" suelto.
-3. Ventanas que tapan al menos un cuarto de la pantalla y hablan de newsletter, suscripción,
-   notificaciones, promociones, descargar la app o edad: usa la ✕ o "No, gracias / Ahora no / Cerrar";
-   en un control de edad, "Sí / Soy mayor". Si no hay botón, manda Escape. Cada ventana se intenta una
-   sola vez.
-4. Si el aviso está en un iframe de otro dominio, JS no puede tocarlo: lo informa como
-   `iframe de consentimiento`. Sacá una captura y cerralo con un clic (herramienta `computer`).
-5. Si después de cerrar algo la página quedó sin scroll (`overflow: hidden`), la destraba.
+1. Known consent managers (OneTrust, Didomi, Cookiebot, Usercentrics, CookieYes, Complianz, Cookie Notice,
+   Iubenda, CookieFirst, Google, Borlabs, Cookie Consent), even inside shadow DOM. If there is an option, it
+   **rejects** or picks "solo necesarias"; otherwise it accepts.
+2. The site's own cookie notices: a "Rechazar / Aceptar / Entendido / OK / Cerrar" button inside a fixed
+   notice or a dialog that talks about cookies or privacy. It never presses a loose "OK".
+3. Windows that cover at least a quarter of the screen and talk about newsletter, subscription,
+   notifications, promotions, downloading the app or age: it uses the ✕ or "No, gracias / Ahora no /
+   Cerrar"; on an age check, "Sí / Soy mayor". If there is no button, it sends Escape. Each window is tried
+   only once.
+4. If the notice is in an iframe from another domain, JS cannot touch it: it reports it as
+   `iframe de consentimiento`. Take a screenshot and close it with a click (`computer` tool).
+5. If after closing something the page is left without scroll (`overflow: hidden`), it unlocks it.
 
-Si `popups` muestra un aviso que se repite en cada página del sitio, anotalo en
-`comportamiento.cookies` (por ejemplo "OneTrust, se rechaza"). Si una ventana no se pudo cerrar y tapa
-el contenido, cerrala a mano con un clic y anotá cómo en `comportamiento`.
+If `popups` shows a notice that repeats on every page of the site, note it in `comportamiento.cookies` (for
+example "OneTrust, se rechaza"). If a window could not be closed and covers the content, close it by hand
+with a click and note how in `comportamiento`.
 
-## `bloques(opciones)`: tarjetas con fecha de un listado
+## `bloques(opciones)`: cards with a date from a listing
 
-Devuelve cada tarjeta, fila o ítem que tenga una fecha, con su enlace (hasta 300 caracteres cada uno,
-120 tarjetas; `bloques({max: 200})` para más). Sirve para leer un listado entero sin pedir el texto de
-toda la página: **usalo en vez de `get_page_text`**, que devuelve la página completa con menú y pie.
-Correrla después de `preparar` (que ya scrolleó y expandió).
+Returns every card, row or item that has a date, with its link (up to 300 characters each, 120 cards;
+`bloques({max: 200})` for more). It reads a whole listing without requesting the text of the entire page:
+**use it instead of `get_page_text`**, which returns the whole page with menu and footer. Run it after
+`preparar` (which already scrolled and expanded).
 
-## `jsonld(opciones)`: eventos con datos estructurados
+## `jsonld(opciones)`: events with structured data
 
-Devuelve los eventos del JSON-LD (título, inicio, fin, lugar, dirección, precio, url, descripción de
-hasta 200 caracteres). `jsonld({descripcion: 400})` para descripciones más largas.
+Returns the JSON-LD events (title, start, end, venue, address, price, url, description of up to 200
+characters). `jsonld({descripcion: 400})` for longer descriptions.
 
-## `turismo()`: Turismo BA (agenda "Qué hacer esta semana")
+## `turismo()`: Turismo BA ("Qué hacer esta semana" agenda)
 
-La página trae todas las actividades en un arreglo JSON dentro de un script. `turismo()` lo lee y
-devuelve los eventos **ya en el formato del resultado** (sección 5 de la skill): las actividades que ya
-empezaron vienen con `vigente_sin_fin: true`, las que no tienen `lugar` se descartan (cuenta en
-`descartados_sin_lugar`) y las descripciones van cortadas a 200 caracteres. Copiá `eventos` tal cual al
-archivo de resultado, sin reescribirlos uno por uno.
+The page carries all the activities in a JSON array inside a script. `turismo()` reads it and returns the
+events **already in the result format** (section 5 of the skill): activities that have already started come
+with `vigente_sin_fin: true`, those without a `lugar` are dropped (counted in `descartados_sin_lugar`) and
+descriptions are cut to 200 characters. Copy `eventos` as is into the result file, without rewriting them one
+by one.
 
 ## Instagram
 
-En el perfil (`https://www.instagram.com/<usuario>/`), después de esperar y scrollear un poco a mano:
-`instagram_perfil()` devuelve `posts` (hasta 12), `bio`, `destacadas` y `pide_login`.
+On the profile (`https://www.instagram.com/<usuario>/`), after waiting and scrolling a little by hand:
+`instagram_perfil()` returns `posts` (up to 12), `bio`, `destacadas` and `pide_login`.
 
-En cada post: `instagram_post()` devuelve `publicado` (la fecha del post: sirve para saber de qué año
-habla un "sábado 18"; si el post es de hace meses, el evento probablemente ya pasó) y `texto`.
+On each post: `instagram_post()` returns `publicado` (the post's date: it tells you which year a "sábado 18"
+refers to; if the post is months old, the event has probably already happened) and `texto`.
 
-## Patrones de sitios conocidos
+## Patterns of known sites
 
-- **WordPress + The Events Calendar** (`tribe-events` en el HTML): abrir
-  `<sitio>/wp-json/tribe/events/v1/events?per_page=50&start_date=<desde>&end_date=<hasta>` en la pestaña.
-  Es JSON con `title`, `start_date`, `end_date`, `venue`, `cost`, `url`. Si responde 404, usar `/eventos/`
-  o `/events/` con `preparar`.
-- **Wix**: carga lento y por partes; `preparar` ya espera, pero si `largo_texto` queda bajo, esperar 10 s
-  más y repetir. Los menús a veces están en un desplegable "Más": abrirlo a mano y mirar sus enlaces.
-- **Linktree / Taplink** (bio de Instagram): cada botón es un enlace. Abrir los que digan agenda,
-  cartelera, entradas, eventos, programación, o que vayan a una ticketera.
-- **Alternativa Teatral**: la ficha de un espacio lista sus obras en cartel con días y horarios; entrar a
-  cada obra para ver fechas de función y precio.
-- **Calendarios por mes** (`?mes=`, `/2026/10/`, flechas "siguiente"): recorrer el mes actual y el
-  siguiente si la ventana de 14 días lo cruza.
-- **Pestañas "Actuales / Próximas / Anteriores"**: abrir "Actuales" y "Próximas"; "Anteriores" se puede
-  descartar con motivo "archivo de muestras pasadas".
+- **WordPress + The Events Calendar** (`tribe-events` in the HTML): open
+  `<sitio>/wp-json/tribe/events/v1/events?per_page=50&start_date=<from>&end_date=<to>` in the tab. It is JSON
+  with `title`, `start_date`, `end_date`, `venue`, `cost`, `url`. If it responds 404, use `/eventos/` or
+  `/events/` with `preparar`.
+- **Wix**: loads slowly and in parts; `preparar` already waits, but if `largo_texto` stays low, wait 10 s
+  more and repeat. Menus are sometimes in a "Más" dropdown: open it by hand and look at its links.
+- **Linktree / Taplink** (Instagram bio): every button is a link. Open the ones that say agenda, cartelera,
+  entradas, eventos, programación, or that go to a ticketing site.
+- **Alternativa Teatral**: a venue's page lists its plays on stage with days and times; enter each play to
+  see performance dates and price.
+- **Calendars by month** (`?mes=`, `/2026/10/`, "siguiente" arrows): go through the current month and the
+  next one if the 14-day window crosses into it.
+- **"Actuales / Próximas / Anteriores" tabs**: open "Actuales" and "Próximas"; "Anteriores" can be discarded
+  with the reason "archivo de muestras pasadas".
 
-## Si cambiás `navegador.js`
+## If you change `navegador.js`
 
-Commiteá y subí antes de la corrida: la URL de jsDelivr se fija al commit, así que la versión nueva se usa
-recién cuando está en GitHub. Probá los casos que ya cubre: carga lenta, scroll infinito, botón "cargar
-más", avisos de cookies (gestores conocidos, shadow DOM, avisos que aparecen tarde), ventanas de
-newsletter y de edad, y enlaces a muestras dentro del menú.
+Commit and push before the run: the jsDelivr URL is pinned to the commit, so the new version is only used
+once it is on GitHub. Test the cases it already covers: slow loading, infinite scroll, "cargar más" button,
+cookie notices (known managers, shadow DOM, notices that appear late), newsletter and age windows, and links
+to exhibitions inside the menu.

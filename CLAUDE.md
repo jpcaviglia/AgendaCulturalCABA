@@ -1,39 +1,51 @@
-# Agenda Cultural CABA: reglas para trabajar en este repositorio
+# Agenda Cultural CABA: rules for working in this repository
 
-Este archivo lo lee Claude Code al empezar cada sesión. Se habla y se escribe en español.
+Claude Code reads this file at the start of every session.
 
-## La documentación se actualiza en el mismo commit que el cambio
+## Language
 
-Cada cambio en el código, en la web o en el formato de los datos actualiza, **en el mismo commit**, todo
-documento que quede desactualizado. Un cambio sin su documentación no está terminado.
+Claude works in **English**: chat replies, documentation (this file, `README.md`, the skill, `navegador.md`),
+script docstrings, code comments and commit messages are all written in English.
 
-| Si cambiás… | Revisá y actualizá… |
+Everything that ends up on the website or in the data stays in **Spanish**: the web UI (`index.html`,
+`assets/`), event titles, descriptions, categories and prices, the notes and `comportamiento` values in
+`data/crawl/sitios.json`, and the run reports in `data/crawl/informes/`. Identifiers also stay in Spanish
+because the scripts depend on them: JSON keys and values (`estado`, `con_eventos`, `fecha_inicio`…), file
+names, script names, subcommands and options (`crawl.py guardar`, `--simular`…), and the literal messages the
+scripts print (quote them as they appear, for example **NO SE GUARDÓ**).
+
+## Documentation is updated in the same commit as the change
+
+Every change to the code, the website or the data format updates, **in the same commit**, every document that
+becomes outdated. A change without its documentation is not finished.
+
+| If you change… | Review and update… |
 |---|---|
-| Un script de `scripts/` (qué hace, sus opciones, si usa la red, qué archivos lee o escribe) | El docstring del script; `README.md` (sección Scripts); la sección de la skill donde se usa |
-| El proceso de una corrida (pasos, orden, comandos, reglas, criterios de qué se carga) | `.claude/skills/actualizar-agenda/SKILL.md` |
-| Las herramientas del navegador (`navegador.js`) | `.claude/skills/actualizar-agenda/navegador.md` |
-| Un archivo de `data/` nuevo o con otro formato | Tabla Datos de `README.md`; la skill si el agente lo lee o lo escribe |
-| La web (`index.html`, `assets/`): filtros, botones, pestañas | Primer párrafo de `README.md` |
-| El tratamiento de un sitio puntual (dónde está su agenda, si se rastrea o no) | Ese sitio en `data/crawl/sitios.json` (`comportamiento`, `notas`, `rastrear`), no la skill |
+| A script in `scripts/` (what it does, its options, whether it uses the network, which files it reads or writes) | The script's docstring; `README.md` (Scripts section); the skill section where it is used |
+| The run process (steps, order, commands, rules, criteria for what gets loaded) | `.claude/skills/actualizar-agenda/SKILL.md` |
+| The browser tools (`navegador.js`) | `.claude/skills/actualizar-agenda/navegador.md` |
+| A new `data/` file, or one with a different format | Data table in `README.md`; the skill if the agent reads or writes it |
+| The website (`index.html`, `assets/`): filters, buttons, tabs | First paragraph of `README.md` |
+| How a specific site is handled (where its agenda is, whether it is crawled or not) | That site in `data/crawl/sitios.json` (`comportamiento`, `notas`, `rastrear`), not the skill |
 
-Antes de commitear, buscá en los documentos lo que tu cambio dejó falso (`grep` del nombre del script, de la
-opción o del archivo) y corregilo. Los documentos describen cómo funciona **hoy**: no dejes "antes se
-hacía…" ni historial; eso va en el mensaje del commit.
+Before committing, search the documents for anything your change made false (`grep` for the script name, the
+option or the file) and fix it. The documents describe how things work **today**: do not leave "this used to
+be done…" or history in them; that goes in the commit message.
 
-## Lo que se aprende en cada corrida queda escrito
+## What is learned in each run gets written down
 
-Cada corrida de la skill `actualizar-agenda` termina pasando lo aprendido a donde corresponde (sección
-"Lecciones de la corrida" de la skill):
+Every run of the `actualizar-agenda` skill ends by moving what it learned to the right place ("Lecciones de
+la corrida" section of the skill):
 
-- **De un sitio**: en `data/crawl/sitios.json` (`comportamiento`, `nota`), con `crawl.py guardar`.
-- **De varios sitios o del proceso**: una técnica que sirvió, una plataforma que se comporta de cierta
-  manera, un error de un script, un paso que confundió o faltó, un criterio que hubo que decidir. Va a la
-  skill (o a `navegador.md`, o al script y su docstring si hay que arreglarlo), en el mismo commit que cierra
-  la corrida.
+- **About one site**: in `data/crawl/sitios.json` (`comportamiento`, `nota`), with `crawl.py guardar`.
+- **About several sites or the process**: a technique that worked, a platform that behaves a certain way, a
+  script bug, a step that was confusing or missing, a criterion that had to be decided. It goes in the skill
+  (or in `navegador.md`, or in the script and its docstring if it needs fixing), in the same commit that
+  closes the run.
 
-## Otras reglas
+## Other rules
 
-- No editar a mano `data/eventos.json` ni `data/crawl/capturas/`: los escriben los scripts.
-- Los scripts usan solo la biblioteca estándar de Python 3.10+.
-- Probar los cambios en la web en un navegador (Playwright está disponible en la nube) y los de los scripts
-  con `python scripts/armar_agenda.py --simular` antes de publicar.
+- Do not edit `data/eventos.json` or `data/crawl/capturas/` by hand: the scripts write them.
+- Scripts use only the Python 3.10+ standard library.
+- Test website changes in a browser (Playwright is available in the cloud) and script changes with
+  `python scripts/armar_agenda.py --simular` before publishing.

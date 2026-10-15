@@ -1,15 +1,15 @@
-"""Revisión de posibles duplicados que la deduplicación automática no unió.
+"""Review of possible duplicates that automatic deduplication did not merge.
 
-deduplicar.py une solo lo seguro (mismo día, título casi igual, mismo lugar). Este script lista pares
-*posibles* con reglas más flojas, para que el agente decida con criterio, y guarda la decisión en
-data/crawl/duplicados.json. armar_agenda.py aplica esas decisiones en cada armado: los pares "iguales" se
-unen, y ningún par decidido vuelve a aparecer en la lista. Las decisiones se guardan por título y lugar (no
-por fecha), así que valen también para las próximas funciones de la misma obra.
+deduplicar.py merges only what is certain (same day, almost identical title, same venue). This script lists
+*possible* pairs with looser rules, so the agent can decide with judgment, and saves the decision in
+data/crawl/duplicados.json. armar_agenda.py applies those decisions on every build: "iguales" pairs are
+merged, and no decided pair shows up in the list again. Decisions are saved by title and venue (not by
+date), so they also hold for the next performances of the same play.
 
-Uso:
-    python scripts/duplicados.py candidatos [--max N]   # lista numerada (sobre data/eventos.json)
-    python scripts/duplicados.py iguales 3 7 12         # esos pares son el mismo evento
-    python scripts/duplicados.py distintos 4 5          # esos pares son eventos distintos
+Usage:
+    python scripts/duplicados.py candidatos [--max N]   # numbered list (over data/eventos.json)
+    python scripts/duplicados.py iguales 3 7 12         # those pairs are the same event
+    python scripts/duplicados.py distintos 4 5          # those pairs are different events
 """
 import json
 import re
@@ -28,7 +28,7 @@ GENERICAS = {"argentina", "buenos", "aires", "caba", "the", "and", "show", "en",
 
 
 def clave(e):
-    """Identifica un evento entre corridas: título y lugar normalizados, sin fecha."""
+    """Identifies an event across runs: normalized title and venue, without date."""
     return f"{norm_titulo(e.get('titulo', ''))} @ {norm_lugar(e.get('lugar', ''))}"
 
 
@@ -54,20 +54,20 @@ def _palabras(t):
 
 
 def motivo(a, b):
-    """Por qué podrían ser el mismo evento, o '' si no hay razón para sospechar."""
+    """Why they could be the same event, or '' if there is no reason to suspect it."""
     if not _se_superponen(a, b):
         return ""
     fa, fb = a.get("fuentes", []), b.get("fuentes", [])
     misma_fuente = len(fa) == 1 and fa == fb
-    # Una fuente casi nunca lista dos veces lo mismo: dentro de una misma fuente solo se sospecha si es el
-    # mismo día en el mismo lugar (Passline a veces publica dos fichas de la misma fiesta).
+    # A source almost never lists the same thing twice: within a single source it is only suspected if it is the
+    # same day at the same venue (Passline sometimes publishes two pages for the same party).
     if misma_fuente and not (a["fecha_inicio"] == b["fecha_inicio"]
                              and norm_lugar(a.get("lugar", "")) == norm_lugar(b.get("lugar", ""))
                              and ((a.get("hora") and a.get("hora") == b.get("hora"))
                                   or _parecidos(norm_titulo(a["titulo"]), norm_titulo(b["titulo"]), 0.5))):
         return ""
     ta, tb = norm_titulo(a["titulo"]), norm_titulo(b["titulo"])
-    # Una misma URL sola no alcanza: muchos sitios usan la página del listado para todos sus eventos.
+    # The same URL alone is not enough: many sites use the listing page for all their events.
     if (a.get("url") and a.get("url") == b.get("url") and "instagram.com" not in a["url"]
             and (_palabras(a["titulo"]) & _palabras(b["titulo"]))):
         return "misma URL, título parecido"
@@ -87,8 +87,8 @@ def motivo(a, b):
 
 
 def candidatos(eventos, decisiones):
-    """Solo se comparan eventos que comparten algo (una palabra del título, el lugar o la URL): compararlos
-    todos contra todos tarda demasiado con las muestras largas, que se superponen con casi todo."""
+    """Only events that share something are compared (a title word, the venue or the URL): comparing
+    all against all takes too long with long exhibitions, which overlap with almost everything."""
     ya = set(decisiones["iguales"]) | set(decisiones["distintos"])
     indice = {}
     for i, e in enumerate(eventos):
@@ -101,7 +101,7 @@ def candidatos(eventos, decisiones):
             indice.setdefault(k, []).append(i)
     vistos, pares = set(), []
     for grupo in indice.values():
-        if len(grupo) > 300:  # una palabra muy común no ayuda a encontrar duplicados
+        if len(grupo) > 300:  # a very common word does not help find duplicates
             continue
         for x, i in enumerate(grupo):
             for j in grupo[x + 1:]:
@@ -110,7 +110,7 @@ def candidatos(eventos, decisiones):
                 vistos.add((i, j))
                 a, b = eventos[i], eventos[j]
                 if clave(a) == clave(b):
-                    continue  # mismo título y lugar en otra fecha: son funciones distintas
+                    continue  # same title and venue on another date: different performances
                 m = motivo(a, b)
                 if m and clave_par(clave(a), clave(b)) not in ya:
                     pares.append((m, a, b))
@@ -122,7 +122,7 @@ _TIPOS = None
 
 
 def es_fuente_propia(e):
-    """True si alguna fuente del evento es la web o el Instagram del propio lugar (no un agregador)."""
+    """True if any source of the event is the venue's own website or Instagram (not an aggregator)."""
     global _TIPOS
     if _TIPOS is None:
         _TIPOS = {x["nombre"]: x.get("tipo", "lugar") for x in (leer_json(CRAWL / "sitios.json", {}) or {}).get("sitios", [])}
@@ -145,7 +145,7 @@ def cmd_candidatos(args):
     print(f"{len(pares)} pares posibles (se muestran {len(lista)}). Decidí con "
           "`duplicados.py iguales N...` y `duplicados.py distintos N...`.\n")
     for n, (m, a, b) in enumerate(pares[:maximo], 1):
-        if es_fuente_propia(b) and not es_fuente_propia(a):  # la fuente propia primero: es la que gana al unir
+        if es_fuente_propia(b) and not es_fuente_propia(a):  # own source first: it is the one that wins when merging
             a, b = b, a
         marca = lambda e: " (fuente propia)" if es_fuente_propia(e) else ""
         print(f"{n}. [{m}]\n   A{marca(a)}: {_linea(a)}\n   B{marca(b)}: {_linea(b)}")
@@ -171,12 +171,12 @@ def cmd_decidir(tipo, args):
 
 
 def aplicar_iguales(eventos, fusionar):
-    """Une los eventos que el agente marcó como iguales (si sus fechas se superponen). Devuelve (eventos, unidos)."""
+    """Merges the events the agent marked as the same (if their dates overlap). Returns (events, merged)."""
     iguales = set(cargar_decisiones()["iguales"])
     if not iguales:
         return eventos, 0
     claves = [clave(e) for e in eventos]
-    grupo = list(range(len(eventos)))  # unión de conjuntos
+    grupo = list(range(len(eventos)))  # set union
 
     def raiz(i):
         while grupo[i] != i:

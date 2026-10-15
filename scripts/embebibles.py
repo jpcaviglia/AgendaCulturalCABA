@@ -1,11 +1,12 @@
-"""Qué dominios se dejan mostrar dentro de un iframe (el botón "+ info" de la web).
+"""Which domains may be shown inside an iframe (the website's "+ info" button).
 
-Un sitio que manda `X-Frame-Options: DENY/SAMEORIGIN` o `Content-Security-Policy: frame-ancestors` sin permitir
-otros orígenes se ve en blanco dentro de un iframe, y el navegador no le avisa a la página. Por eso se prueba
-de antemano un enlace por dominio y se guarda el resultado en data/embebibles.json (se vuelve a probar a los
-DIAS_VALIDEZ días, o a los DIAS_REINTENTO si no se pudo leer). armar_agenda.py pone `embebible` en cada evento.
+A site that sends `X-Frame-Options: DENY/SAMEORIGIN` or `Content-Security-Policy: frame-ancestors` without
+allowing other origins shows up blank inside an iframe, and the browser does not tell the page. That is why
+one link per domain is tested beforehand and the result is saved in data/embebibles.json (tested again after
+DIAS_VALIDEZ days, or after DIAS_REINTENTO if it could not be read). armar_agenda.py sets `embebible` on
+each event.
 
-Uso directo (solo el informe): python scripts/embebibles.py
+Direct use (report only): python scripts/embebibles.py
 """
 import re
 import ssl
@@ -18,19 +19,19 @@ from comun import DATOS, dominio, escribir_json, hoy, leer_json
 
 CACHE = DATOS / "embebibles.json"
 DIAS_VALIDEZ, DIAS_REINTENTO = 30, 7
-ORIGEN = "jpcaviglia.github.io"  # donde se publica la web
+ORIGEN = "jpcaviglia.github.io"  # where the website is published
 UA = "Mozilla/5.0 (compatible; AgendaCulturalCABA; prueba de iframe)"
 
 
 def permite_iframe(url):
-    """(True/False, motivo). Pide la página y mira las cabeceras de la respuesta final."""
+    """(True/False, reason). Requests the page and looks at the headers of the final response."""
     if not url.startswith("https://"):
         return False, "no es https (el navegador lo bloquea dentro de una página https)"
     try:
         r = urlopen(Request(url, headers={"User-Agent": UA}), timeout=15, context=ssl.create_default_context())
     except HTTPError as e:
         return False, f"HTTP {e.code}"
-    except Exception as e:  # noqa: BLE001 - un sitio caído no frena el armado
+    except Exception as e:  # noqa: BLE001 - a down site does not stop the build
         return False, f"{type(e).__name__}"
     with r:
         xfo = (r.headers.get("X-Frame-Options") or "").strip().lower()
@@ -57,7 +58,7 @@ def vigente(entrada):
 
 
 def marcar(eventos):
-    """Pone e['embebible'] en cada evento. Devuelve cuántos dominios se probaron."""
+    """Sets e['embebible'] on each event. Returns how many domains were tested."""
     cache = leer_json(CACHE, {})
     ejemplo = {}
     for e in eventos:

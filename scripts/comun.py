@@ -1,4 +1,4 @@
-"""Utilidades compartidas por los scripts de la agenda (solo biblioteca estándar, sin red)."""
+"""Utilities shared by the agenda scripts (standard library only, no network)."""
 import json
 import re
 import sys
@@ -17,7 +17,7 @@ CAPTURAS = CRAWL / "capturas"
 CORRIDA = CRAWL / "corrida.json"
 INFORMES = CRAWL / "informes"
 
-ZONA_BA = timezone(timedelta(hours=-3))  # Argentina no usa horario de verano
+ZONA_BA = timezone(timedelta(hours=-3))  # Argentina does not use daylight saving time
 VENTANA_DIAS = 14
 
 
@@ -26,12 +26,12 @@ def hoy():
 
 
 def ventana():
-    """(desde, hasta) en AAAA-MM-DD: hoy y hoy + VENTANA_DIAS."""
+    """(from, to) in AAAA-MM-DD: today and today + VENTANA_DIAS."""
     return hoy().isoformat(), (hoy() + timedelta(days=VENTANA_DIAS)).isoformat()
 
 
 def dominio(url):
-    """Dominio sin 'www.', o '' si la URL no es válida."""
+    """Domain without 'www.', or '' if the URL is not valid."""
     if not url:
         return ""
     if not url.startswith("http"):

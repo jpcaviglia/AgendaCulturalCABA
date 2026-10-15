@@ -1,26 +1,26 @@
-"""Registro del rastreo con navegador (skill .claude/skills/actualizar-agenda). No usa la red.
+"""Log of the browser crawl (skill .claude/skills/actualizar-agenda). It does not use the network.
 
-El navegador junta los datos; este script solo lleva la cola de la corrida, valida lo que se encontró,
-guarda la captura de cada sitio y anota lo aprendido sobre cada sitio para la próxima corrida.
+The browser collects the data; this script only keeps the run queue, validates what was found,
+saves the capture of each site and records what was learned about each site for the next run.
 
-Uso:
-    python scripts/crawl.py iniciar [--nueva] [--todos]   # arma la cola (o retoma la corrida abierta); salvo
-                                                  # --todos, saltea los sitios con captura de hoy o de ayer
-    python scripts/crawl.py siguiente [n]         # muestra los próximos n sitios pendientes con sus notas
-    python scripts/crawl.py ver <id>              # muestra todo lo que se sabe de un sitio
-    python scripts/crawl.py guardar <archivo.json|->   # registra el resultado de un sitio (ver formato en la skill)
-    python scripts/crawl.py ig-vistos <id> <url_post>...   # qué posts de Instagram ya se analizaron (no reabrirlos)
-    python scripts/crawl.py estado                # avance de la corrida y cupo de Instagram
-    python scripts/crawl.py cerrar [--forzar]     # cierra la corrida y escribe el informe
-    python scripts/crawl.py herramientas [llamada]   # la línea que carga navegador.js en la pestaña
+Usage:
+    python scripts/crawl.py iniciar [--nueva] [--todos]   # builds the queue (or resumes the open run); unless
+                                                  # --todos, skips sites with a capture from today or yesterday
+    python scripts/crawl.py siguiente [n]         # shows the next n pending sites with their notes
+    python scripts/crawl.py ver <id>              # shows everything known about a site
+    python scripts/crawl.py guardar <archivo.json|->   # records the result of a site (format in the skill)
+    python scripts/crawl.py ig-vistos <id> <url_post>...   # which Instagram posts were already analyzed (do not reopen)
+    python scripts/crawl.py estado                # run progress and Instagram quota
+    python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report
+    python scripts/crawl.py herramientas [llamada]   # the line that loads navegador.js into the tab
 
-Archivos:
-    data/crawl/sitios.json          qué rastrear y cómo se comporta cada sitio (se enriquece en cada corrida)
-    data/crawl/capturas/<id>.<canal>.json   lo encontrado en la última visita a cada sitio
-    data/crawl/corrida.json         cola y avance de la corrida en curso
-    data/crawl/informes/<fecha>.md  informe de cada corrida
-    data/crawl/local/               solo en esta máquina (no se sube): posts de Instagram ya analizados y
-                                    cupo diario / enfriamiento de Instagram; sondeo.json sí se sube
+Files:
+    data/crawl/sitios.json          what to crawl and how each site behaves (enriched on every run)
+    data/crawl/capturas/<id>.<canal>.json   what was found on the last visit to each site
+    data/crawl/corrida.json         queue and progress of the current run
+    data/crawl/informes/<fecha>.md  report of each run
+    data/crawl/local/               only on this machine (not pushed): Instagram posts already analyzed and
+                                    daily quota / cool-down of Instagram; sondeo.json is pushed
 """
 import json
 import re
@@ -45,9 +45,9 @@ ESTADOS = {
 TAREA_BUSCAR = ("No tiene web ni Instagram: buscar en Google la web oficial (y el Instagram), confirmar que está en "
                 "CABA y abierto, ponerlos en web_nueva / instagram (y barrio, direccion) y rastrear la web en este mismo "
                 "turno. Si no existe, cerró o no está en CABA: 'descartar': '<motivo>' con 'evidencia'.")
-# Estados que afirman que no hay nada: exigen haber recorrido todo.
+# States that claim there is nothing: they require having gone through everything.
 NEGATIVOS = ("sin_eventos", "sin_agenda", "no_cultural")
-# Estados de falla: exigen evidencia y vuelven a probarse en la próxima corrida.
+# Failure states: they require evidence and are tried again in the next run.
 FALLAS = ("no_carga", "dominio_caido", "bloqueado")
 FASES = {"agregador": 0, "descubrimiento": 1, "galeria": 2, "lugar": 3}
 CAMPOS_EVENTO = ("titulo", "fecha_inicio", "fecha_fin", "hora", "horarios", "lugar", "barrio", "direccion",
@@ -56,21 +56,21 @@ FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HORA = re.compile(r"^([01]\d|2[0-3]):[0-5]\d$")
 GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|sin cargo|free)\b", re.I)
 MAX_NOTAS, MAX_HISTORIAL, MAX_ENTRADAS = 12, 10, 8
-# Enlaces descartados con motivo: no se vuelven a abrir hasta que pase este plazo.
+# Links discarded with a reason: they are not opened again until this period passes.
 MAX_DESCARTADOS, DIAS_RECORDAR_DESCARTE = 30, 180
-# Un sitio con captura de hoy o de ayer no se vuelve a abrir: se reutiliza esa captura (pedido del usuario).
+# A site with a capture from today or yesterday is not opened again: that capture is reused (user request).
 DIAS_REUTILIZAR = 1
 HERRAMIENTAS = ".claude/skills/actualizar-agenda/navegador.js"
-# Sondeo sin navegador (scripts/sondear.py): se muestra en `siguiente` si tiene a lo sumo estos días.
+# Probe without a browser (scripts/sondear.py): shown in `siguiente` if it is at most this many days old.
 SONDEO = CRAWL / "local" / "sondeo.json"
 DIAS_SONDEO = 3
 
-# --- Instagram: cupo, enfriamiento y posts ya analizados (solo local, ver .gitignore) ---
+# --- Instagram: quota, cool-down and posts already analyzed (local only, see .gitignore) ---
 DESCARTADOS = CRAWL / "descartados.json"
 LOCAL = CRAWL / "local"
 IG_POSTS = LOCAL / "instagram_posts.json"
 IG_ESTADO = LOCAL / "instagram_estado.json"
-# Límites conservadores; Instagram no publica los suyos. Se pueden ajustar en data/crawl/local/instagram_estado.json.
+# Conservative limits; Instagram does not publish its own. They can be adjusted in data/crawl/local/instagram_estado.json.
 IG_LIMITES = {"max_paginas_dia": 150, "min_paginas_perfil": 10, "pausa_cada": 25, "pausa_minutos": 5,
               "enfriamiento_horas": 24, "dias_recordar_posts": 180}
 
@@ -83,7 +83,7 @@ def ig_estado():
 
 
 def ig_cupo(est):
-    """(páginas que quedan hoy, enfriado_hasta o '')."""
+    """(pages left today, cooled_until or '')."""
     restantes = est["limites"]["max_paginas_dia"] - est["paginas"].get(hoy().isoformat(), 0)
     hasta = est.get("enfriado_hasta", "")
     if hasta and hasta <= ahora():
@@ -110,7 +110,7 @@ def ultima_ig(s):
     return (s.get("ultimo") or {}).get("instagram", {}).get("fecha", "")
 
 
-# --- herramientas del navegador ---------------------------------------------------
+# --- browser tools ---------------------------------------------------
 
 def _git(*args):
     try:
@@ -121,7 +121,7 @@ def _git(*args):
 
 
 def url_herramientas():
-    """(URL de navegador.js en jsDelivr fijada al último commit que lo tocó, motivo si no se puede)."""
+    """(URL of navegador.js on jsDelivr pinned to the last commit that touched it, reason if it cannot be done)."""
     m = re.search(r"github\.com[/:]([^/]+/[^/]+?)(\.git)?$", _git("remote", "get-url", "origin"))
     commit = _git("log", "-1", "--format=%h", "--", HERRAMIENTAS)
     if not m or not commit:
@@ -144,7 +144,7 @@ def cmd_herramientas(args):
     print(linea_herramientas(args[0] if args else "preparar()"))
 
 
-# --- carga y guardado -----------------------------------------------------------
+# --- loading and saving -----------------------------------------------------------
 
 def cargar_sitios():
     doc = leer_json(SITIOS)
@@ -170,23 +170,23 @@ def ahora():
     return datetime.now(ZONA_BA).strftime("%Y-%m-%d %H:%M")
 
 
-# --- cola -----------------------------------------------------------------------
+# --- queue -----------------------------------------------------------------------
 
 def tuvo_eventos(s):
     return any(u.get("estado") == "con_eventos" for u in (s.get("ultimo") or {}).values())
 
 
 def armar_cola(doc, previa=None):
-    """Todos los sitios, todas las corridas. Orden: agregadores, descubrimiento, galerías, lugares con web,
-    y al final Instagram de los que no tienen web. Dentro de cada fase, primero lo que quedó sin rastrear
-    en la corrida anterior y lo que ya tuvo eventos."""
+    """All the sites, every run. Order: aggregators, discovery, galleries, venues with a website,
+    and at the end the Instagram of those without a website. Within each phase, first what was left uncrawled
+    in the previous run and what already had events."""
     pendientes_previos = set()
     if previa and not previa.get("fin_ok"):
         pendientes_previos = {i for i in previa.get("cola", []) if i not in previa.get("hechos", {})}
 
     def orden(s, canal):
         previo = item(s["id"], canal) not in pendientes_previos
-        if canal == "instagram":  # rotación: primero los perfiles revisados hace más tiempo
+        if canal == "instagram":  # rotation: the profiles checked longest ago first
             return (9, previo, ultima_ig(s), not tuvo_eventos(s), sin_tildes(s["nombre"]))
         return (FASES.get(s.get("tipo"), 3), previo, not tuvo_eventos(s), sin_tildes(s["nombre"]))
 
@@ -198,7 +198,7 @@ def armar_cola(doc, previa=None):
             elegidos.append((orden(s, "web"), item(s["id"], "web")))
         elif s.get("instagram"):
             elegidos.append((orden(s, "instagram"), item(s["id"], "instagram")))
-        else:  # sin web ni Instagram: se busca su web oficial
+        else:  # no website or Instagram: its official website is searched for
             elegidos.append((orden(s, "web"), item(s["id"], "web")))
     return [i for _, i in sorted(elegidos)]
 
@@ -208,7 +208,7 @@ def cargar_corrida():
 
 
 def pendientes(corrida, sitios=None):
-    """Webs en el orden de la cola y después Instagram, primero los perfiles revisados hace más tiempo."""
+    """Websites in queue order and then Instagram, the profiles checked longest ago first."""
     pend = [i for i in corrida["cola"] if i not in corrida["hechos"]]
     if sitios is None:
         return pend
@@ -219,7 +219,7 @@ def pendientes(corrida, sitios=None):
 
 
 def posponer_instagram(corrida, motivo):
-    """Deja los perfiles de Instagram pendientes para la próxima corrida (no es una falla del sitio)."""
+    """Leaves the pending Instagram profiles for the next run (it is not a failure of the site)."""
     pend = [i for i in pendientes(corrida) if i.endswith("|instagram")]
     for i in pend:
         corrida["hechos"][i] = "pospuesto"
@@ -229,7 +229,7 @@ def posponer_instagram(corrida, motivo):
 
 
 def captura_reciente(sid, canal):
-    """(fecha, estado) de la captura de <id>.<canal> si es de los últimos DIAS_REUTILIZAR días, o None."""
+    """(date, status) of the capture of <id>.<canal> if it is from the last DIAS_REUTILIZAR days, or None."""
     cap = leer_json(CAPTURAS / f"{sid}.{canal}.json")
     corte = (hoy() - timedelta(days=DIAS_REUTILIZAR)).isoformat()
     if cap and cap.get("fecha", "") >= corte:
@@ -238,8 +238,8 @@ def captura_reciente(sid, canal):
 
 
 def marcar_reutilizados(corrida, sitios):
-    """Da por hechos los ítems pendientes con captura reciente. Si la web reutilizada no tuvo eventos y el sitio
-    tiene Instagram, encola el Instagram (como haría `guardar`). Devuelve cuántos marcó."""
+    """Counts as done the pending items with a recent capture. If the reused website had no events and the site
+    has Instagram, it queues the Instagram (as `guardar` would). Returns how many it marked."""
     n = 0
     for i in list(corrida["cola"]):
         if i in corrida["hechos"]:
@@ -329,7 +329,7 @@ def resumen_sitio(s, canal=None, sondeo=None):
     if canal:
         out = {"item": item(s["id"], canal), "canal": canal, **out}
     descartados = descartes_vigentes(s)
-    if descartados:  # ya se vio que no sirven: no abrirlos
+    if descartados:  # already seen not to be useful: do not open them
         out["enlaces_descartados"] = [[d["url"], d["motivo"]] for d in descartados.values()]
     out["notas"] = s.get("notas", [])[-6:]
     out["historial"] = s.get("historial", [])[-4:]
@@ -388,7 +388,7 @@ def cmd_ver(args):
     print(json.dumps(s, ensure_ascii=False, indent=1))
 
 
-# --- validación del resultado -----------------------------------------------------
+# --- result validation -----------------------------------------------------
 
 def _fecha_ok(v):
     if not FECHA.match(v or ""):
@@ -401,7 +401,7 @@ def _fecha_ok(v):
 
 
 def normalizar_evento(raw, sitio, errores, avisos):
-    """Devuelve el evento limpio, o None si se descarta (con el motivo en errores o avisos)."""
+    """Returns the clean event, or None if it is discarded (with the reason in errores or avisos)."""
     if not isinstance(raw, dict):
         errores.append(f"evento que no es un objeto: {raw!r}")
         return None
@@ -432,7 +432,7 @@ def normalizar_evento(raw, sitio, errores, avisos):
     if not hoy().year - 2 <= anio <= hoy().year + 1:
         errores.append(f"{nombre}: año {anio} poco plausible (¿se asumió mal el año?)")
         return None
-    if not e["lugar"] and not sitio.get("lugar_opcional"):  # lugar_opcional: listados sin lugar (scripts/saleplan.py)
+    if not e["lugar"] and not sitio.get("lugar_opcional"):  # lugar_opcional: listings without a venue (scripts/saleplan.py)
         if len(sitio.get("lugares", [])) == 1:
             e["lugar"] = sitio["lugares"][0]
         else:
@@ -446,7 +446,7 @@ def normalizar_evento(raw, sitio, errores, avisos):
     if e["precio"] and GRATIS.search(e["precio"]) and not re.search(r"\$\s*\d", e["precio"]):
         e["precio"] = "Gratis"
     e["descripcion"] = e["descripcion"][:700]
-    if not e["url"] and e["post"]:  # sin ficha ni entradas: se enlaza el post de Instagram
+    if not e["url"] and e["post"]:  # no event page or tickets: the Instagram post is linked
         e["url"] = e["post"]
     if e["url"] and not e["url"].startswith("http"):
         errores.append(f"{nombre}: url {e['url']!r} debe ser absoluta (https://...)")
@@ -455,7 +455,7 @@ def normalizar_evento(raw, sitio, errores, avisos):
 
 
 def validar(res, sitios):
-    """Devuelve (sitio, canal, eventos, errores, avisos)."""
+    """Returns (site, channel, events, errors, warnings)."""
     errores, avisos = [], []
     sitio = sitios.get(res.get("id", ""))
     if not sitio:
@@ -486,7 +486,7 @@ def validar(res, sitios):
                 if not isinstance(c, dict) or c.get("visitado") or c.get("descartado"):
                     continue
                 previo = recordados.get(_norm_url(url_absoluta(sitio, c.get("url"))))
-                if previo:  # descartado con motivo en una corrida anterior: no hace falta reabrirlo
+                if previo:  # discarded with a reason in an earlier run: no need to reopen it
                     c["descartado"] = previo["motivo"]
                 elif c.get("debil") and estado == "con_eventos":
                     debiles.append(c)
@@ -533,7 +533,7 @@ def validar(res, sitios):
     return sitio, canal, eventos, errores, avisos
 
 
-# --- registro -----------------------------------------------------------------------
+# --- log -----------------------------------------------------------------------
 
 def _agregar_unico(lista, valores, maximo):
     for v in reversed(valores):
@@ -544,7 +544,7 @@ def _agregar_unico(lista, valores, maximo):
 
 
 def aprender(sitio, canal, res, eventos):
-    """Guarda en el sitio lo aprendido: cómo se comporta, dónde está la agenda y qué quedó por ver."""
+    """Saves in the site what was learned: how it behaves, where the agenda is and what was left to see."""
     fecha = hoy().isoformat()
     estado = res["estado"]
     if res.get("web_nueva"):
@@ -562,11 +562,11 @@ def aprender(sitio, canal, res, eventos):
             comp.pop(k, None)
         else:
             comp[k] = v
-    if res.get("nota"):  # si el sitio se vuelve a guardar el mismo día, la nota nueva reemplaza a la anterior
+    if res.get("nota"):  # if the site is saved again the same day, the new note replaces the previous one
         notas = [n for n in sitio.get("notas", []) if not n.startswith(f"{fecha} [{canal}] ")]
         sitio["notas"] = notas + [f"{fecha} [{canal}] {res['nota'].strip()}"]
     del sitio.setdefault("notas", [])[:-MAX_NOTAS]
-    # Enlaces vistos pero no recorridos: la próxima corrida empieza por ellos.
+    # Links seen but not visited: the next run starts with them.
     visitadas = set(res.get("urls_visitadas") or [])
     pend = [p for p in sitio.get("enlaces_pendientes", []) if p.get("url") not in visitadas]
     descartados = descartes_vigentes(sitio)
@@ -576,9 +576,9 @@ def aprender(sitio, canal, res, eventos):
         url = url_absoluta(sitio, c["url"])
         if c.get("descartado"):
             descartados[_norm_url(url)] = {"url": url, "texto": c.get("texto", ""), "motivo": c["descartado"], "fecha": fecha}
-        elif c.get("visitado"):  # se abrió esta vez: un descarte anterior del mismo enlace ya no vale
+        elif c.get("visitado"):  # it was opened this time: an earlier discard of the same link no longer holds
             descartados.pop(_norm_url(url), None)
-        elif not c.get("debil"):  # los débiles se vuelven a encontrar solos
+        elif not c.get("debil"):  # the weak ones are found again by themselves
             if url not in {p["url"] for p in pend}:
                 pend.append({"url": url, "texto": c.get("texto", ""), "desde": fecha})
     if descartados:
@@ -605,13 +605,13 @@ def _norm_url(u):
 
 
 def url_absoluta(sitio, u):
-    """Las herramientas devuelven rutas sueltas (/agenda) para los enlaces del mismo sitio."""
+    """The tools return bare paths (/agenda) for links to the same site."""
     u = (u or "").strip()
     return urljoin(sitio["web"], u) if u.startswith("/") and sitio.get("web") else u
 
 
 def descartes_vigentes(sitio):
-    """Enlaces descartados con motivo en los últimos DIAS_RECORDAR_DESCARTE días, por URL normalizada."""
+    """Links discarded with a reason in the last DIAS_RECORDAR_DESCARTE days, by normalized URL."""
     corte = (hoy() - timedelta(days=DIAS_RECORDAR_DESCARTE)).isoformat()
     return {_norm_url(d["url"]): d for d in sitio.get("enlaces_descartados", []) if d.get("fecha", "") >= corte}
 
@@ -638,7 +638,7 @@ def buscar_existente(doc, nuevo):
 
 
 def dar_de_alta(s, lugares, galerias, barrio="", direccion=""):
-    """Suma un sitio confirmado a galerias.json (si es galería o museo de arte) y a lugares.json."""
+    """Adds a confirmed site to galerias.json (if it is an art gallery or museum) and to lugares.json."""
     nombre, web, ig = s["nombre"], s.get("web", ""), s.get("instagram", "")
     if s.get("tipo") == "galeria" and not any(sin_tildes(g["nombre"]) == sin_tildes(nombre) for g in galerias["galerias"]):
         galerias["galerias"].append({"nombre": nombre, "web": web, "tipo": "Galería o museo", "verificada": bool(web)})
@@ -650,7 +650,7 @@ def dar_de_alta(s, lugares, galerias, barrio="", direccion=""):
 
 
 def agregar_sitios_nuevos(doc, nuevos, origen, corrida, avisos):
-    """Suma a sitios.json (y a lugares.json o galerias.json) los espacios descubiertos, y los encola en esta corrida."""
+    """Adds to sitios.json (and to lugares.json or galerias.json) the discovered venues, and queues them in this run."""
     agregados = []
     lugares = leer_json(DATOS / "lugares.json", [])
     galerias = leer_json(DATOS / "galerias.json", {"galerias": []})
@@ -698,7 +698,7 @@ def url_post(u):
 
 
 def reusar_posts(res):
-    """Suma al resultado los eventos vigentes de posts que ya se analizaron en otra corrida y siguen en el perfil."""
+    """Adds to the result the current events of posts already analyzed in another run that are still on the profile."""
     registro = leer_json(IG_POSTS, {}) or {}
     ya = {url_post(e.get("post")) for e in res.get("eventos") or [] if isinstance(e, dict) and e.get("post")}
     sumados = []
@@ -717,7 +717,7 @@ def reusar_posts(res):
 
 
 def registrar_posts(sitio, res, eventos, avisos):
-    """Anota localmente cada post visto con sus eventos, y descuenta el cupo diario de Instagram."""
+    """Records locally each post seen with its events, and deducts the daily Instagram quota."""
     registro = leer_json(IG_POSTS, {}) or {}
     est = ig_estado()
     nuevos = 0
@@ -757,7 +757,7 @@ def cmd_ig_vistos(args):
 
 
 def descartar(doc, sitios, res):
-    """Saca un sitio que no existe, cerró o no está en CABA (de sitios.json, lugares.json, galerias.json y capturas)."""
+    """Removes a site that does not exist, closed or is not in CABA (from sitios.json, lugares.json, galerias.json and captures)."""
     sitio = sitios.get(res.get("id", ""))
     if not sitio:
         sys.exit(f"NO SE GUARDÓ: id {res.get('id')!r} no existe")
@@ -838,7 +838,7 @@ def cmd_guardar(args):
     if corrida:
         corrida["hechos"][item(sitio["id"], canal)] = estado
         corrida["eventos"] = corrida.get("eventos", 0) + len(eventos)
-        # La web no alcanzó: se revisa también Instagram en esta corrida.
+        # The website was not enough: Instagram is also checked in this run.
         ig_item = item(sitio["id"], "instagram")
         if canal == "web" and estado != "con_eventos" and sitio.get("instagram") and ig_item not in corrida["cola"]:
             corrida["cola"].append(ig_item)
@@ -856,7 +856,7 @@ def cmd_guardar(args):
         print(f"Faltan {len(pendientes(corrida))} de {len(corrida['cola'])}.")
 
 
-# --- estado e informe ---------------------------------------------------------------
+# --- status and report ---------------------------------------------------------------
 
 def contar(valores):
     out = {}

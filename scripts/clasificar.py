@@ -1,4 +1,4 @@
-"""Clasificación de eventos en categorías canónicas (solo biblioteca estándar)."""
+"""Classification of events into canonical categories (standard library only)."""
 import re
 import unicodedata
 
@@ -14,10 +14,10 @@ def sin_tildes(texto):
     return "".join(c for c in t if unicodedata.category(c) != "Mn").lower()
 
 
-# Categorías que traen las fuentes -> categoría canónica. Si una fuente usa una
-# etiqueta genérica ("Evento", "Otros") se cae a las reglas por palabras clave.
+# Categories the sources bring -> canonical category. If a source uses a generic
+# label ("Evento", "Otros") it falls back to the keyword rules.
 MAPA_FUENTE = {
-    # Primero las etiquetas más específicas: la búsqueda por subcadena recorre el diccionario en orden.
+    # Most specific labels first: the substring search goes through the dictionary in order.
     "festival": "Festival", "festivales": "Festival",
     "musica electronica": "Fiestas y electrónica", "electronica": "Fiestas y electrónica",
     "techno": "Fiestas y electrónica", "fiesta": "Fiestas y electrónica", "fiestas": "Fiestas y electrónica",
@@ -41,7 +41,7 @@ MAPA_FUENTE = {
     "deporte": "Deporte", "deportes": "Deporte",
 }
 
-# Reglas por palabras clave sobre título + descripción, en orden de prioridad.
+# Keyword rules over title + description, in priority order.
 REGLAS = [
     ("Infantil", r"\b(infantil(es)?|para chicos|para ninos|en familia|titeres|ninas y ninos)\b"),
     ("Festival", r"\b(festival(es)?|fest)\b"),
@@ -64,20 +64,20 @@ REGLAS = [(c, re.compile(p)) for c, p in REGLAS]
 
 
 def _texto_url(url):
-    """Ruta de la URL como palabras (/teatro/1263-casa-que-arde.html -> "teatro 1263 casa que arde html")."""
+    """URL path as words (/teatro/1263-casa-que-arde.html -> "teatro 1263 casa que arde html")."""
     ruta = re.sub(r"^[a-z]+://[^/]+", "", sin_tildes(url))
     return re.sub(r"[^a-z0-9]+", " ", ruta)
 
 
 def clasificar(categoria_fuente, titulo="", descripcion="", url=""):
-    """Devuelve una de CATEGORIAS. La URL solo se usa si título y descripción no alcanzan."""
+    """Returns one of CATEGORIAS. The URL is only used if title and description are not enough."""
     c = sin_tildes(categoria_fuente).strip()
     if c in MAPA_FUENTE:
         return MAPA_FUENTE[c]
     for clave, canon in MAPA_FUENTE.items():
         if clave in c and len(clave) > 4:
             return canon
-    # El título pesa más que la descripción: primero se busca solo en él.
+    # The title weighs more than the description: it is searched alone first.
     for texto in (sin_tildes(titulo), sin_tildes(f"{titulo} {descripcion[:400]}"), _texto_url(url)):
         for canon, patron in REGLAS:
             if patron.search(texto):
