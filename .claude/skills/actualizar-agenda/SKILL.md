@@ -182,6 +182,13 @@ site you confirmed closed.
      `dominio_caido`. First search Google for `"<name>" Buenos Aires` to find the new website or the
      Instagram; if you find it, crawl it in the same turn and put `web_nueva` or `instagram`.
    - Captcha, mandatory login or 403: `bloqueado` with `evidencia`. Do not try to solve it.
+   - A `web` that is only a Facebook page: it shows "content isn't available" or one old post, and the rest
+     needs login. Save `bloqueado` (or `sin_agenda` if it loads with stale posts) with that evidence and the
+     Instagram channel gets queued by itself.
+   - A site that moved (404 on a government page, `sites.google.com` 404, a blog that stopped years ago):
+     search Google for the venue first; the new address is often on the venue's Alternativa Teatral page or
+     in `baespacios.buenosaires.gob.ar`. Put it in `web_nueva`. A domain that changed hands (the page now
+     talks about something else) is recorded in the `nota`.
 
 ### 3.2 Find all the listings
 
@@ -279,14 +286,26 @@ a Linktree it shows each link as `title [url]`; many list each show with the dat
 to the ticketing site, which is read the same way (`--leer <url>`). If the window's agenda is there, save
 the `instagram` channel with those events, `enlaces_candidatos` = the visited bio link, `posts: []` and
 `paginas_instagram: 0` (it spends no quota), and note in `comportamiento` that the agenda is in the bio. Only
-if the bio is not enough, open the profile.
+if the bio is not enough, open the profile. The link is very often a ticketing page or the venue's own
+calendar (list in `navegador.md`, "Ticketing platforms of a venue"): open it in the browser, because
+`sondear.py --leer` gets 403 on Passline and cannot run JavaScript. In a run, about a third of the Linktrees
+gave the whole window this way. A bio link with a stale agenda (old dates) or a login-gated Canva is not
+enough: go on to the profile.
+
+**Budget.** A profile costs 3-6 pages (profile + 2-4 posts), so only ~25-30 profiles fit in a day. Spend the
+quota first on bars, clubs, theaters and venues that announce shows on Instagram, and leave community
+organizations (political groups, murgas, associations) for the end: their posts are usually communiqués.
 
 **Posts already analyzed.** `data/crawl/local/instagram_posts.json` (only on this machine, not pushed to the
 repository) holds every opened post with the events it had. Do not open them again:
 
 1. Open `https://www.instagram.com/<usuario>/`, wait 3-5 s and run `instagram_perfil`. If a cookie dialog
    ("Rechazar cookies opcionales") or a notifications dialog ("Ahora no") appears, run `popups` or close it
-   with a click. If `pide_login` is true or a captcha appears: `bloqueado` and move on to the next one.
+   with a click. If `pide_login` is true or a captcha appears: `bloqueado` and move on to the next one. If
+   it says "Sorry, this page isn't available" the username is probably wrong: look the venue up on Google
+   and correct `instagram` in `sitios.json` and `lugares.json` (the handle `@ba.gops` of 14 city cultural
+   centers was `@gops.ba`); if the account was really closed and the venue too, `descartar` it with the
+   evidence. Do not mark a site down because of a wrong handle.
 2. Pass the `posts` URLs to the script: `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
    Open **only the NEW ones** (up to ~9) and the "Agenda", "Cartelera", "Programación" highlights if there
    are any. Run `instagram_post` on each. Use `publicado` to deduce the year of dates like "sábado 18". If a

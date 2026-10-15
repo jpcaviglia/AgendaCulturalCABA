@@ -16,6 +16,14 @@ the file again while you stay on the same page). All tools return a JSON text an
 `window.__ag`: if a tool returns an empty promise or `{}`, wait a few seconds and run
 `JSON.stringify(window.__ag)`.
 
+**Limits of the `javascript_tool` result.** A result that contains a URL with `?query` is replaced by
+`[BLOCKED: Cookie/query string data]`: strip them before returning (`.replace(/\?[^"\s;]*/g,'')`, or
+`replace(/[?=&]/g,' ')` on page text). Long results are cut at ~800-1,500 characters: return only what you
+need (counts, dates, short titles, `slice`). The first call after `navigate` often answers `{}` or `1` because
+the import is still running: import in one call, wait 2 s, and call the tool in the next one (they can go in
+the same `browser_batch`). `window.__agt` is lost on every navigation, and the tab refuses to read a page that
+changed domain while the script was running (read the tab state again and repeat).
+
 **If the import fails** ("Failed to fetch dynamically imported module" or a Content Security Policy error):
 the site blocks scripts from other domains. Read `navegador.js`, paste all of it followed by the call
 (`window.__agt.preparar()`) and note `"comportamiento": {"herramientas": "pegar inline (CSP)"}` so the next
@@ -123,6 +131,22 @@ On the profile (`https://www.instagram.com/<usuario>/`), after waiting and scrol
 On each post: `instagram_post()` returns `publicado` (the post's date: it tells you which year a "sábado 18"
 refers to; if the post is months old, the event has probably already happened) and `texto`.
 
+instagram.com blocks the import (CSP), so in practice use these two inline snippets, which return the same
+thing without loading anything:
+
+- Profile: `[...new Set([...document.querySelectorAll('a[href*="/p/"],a[href*="/reel/"]')].map(a=>a.getAttribute('href').replace(/\?.*/,'')))].slice(0,9)`
+  and `document.body.innerText.slice(0,300)` for the bio (the bio link is in the profile header).
+- Post: `document.querySelector('time').dateTime.slice(0,10)` and
+  `(document.querySelector('article')||document.body).innerText.replace(/\s+/g,' ').slice(0,700)`.
+
+What to know about the grid: it mixes the profile's own posts with posts of other accounts that tag it
+(bands, producers, collaborators; their URLs start with another username), and many venues announce their
+shows only there. The recent post ids start with `De` (October 2026): older ones (`Dd`, `Dc`, `DT`...) are
+months old. Flyers without a caption are images: use `zoom` on the viewer (x 420-830) and, in a carousel,
+click the arrow (about x 808, y 299) to see each day. "Sorry, this page isn't available" usually means a
+wrong username (look the venue up on Google, correct `instagram` in `sitios.json` and `lugares.json`) and
+sometimes a closed account.
+
 ## Patterns of known sites
 
 - **WordPress + The Events Calendar** (`tribe-events` in the HTML): open
@@ -135,6 +159,27 @@ refers to; if the post is months old, the event has probably already happened) a
   entradas, eventos, programación, or that go to a ticketing site.
 - **Alternativa Teatral**: a venue's page lists its plays on stage with days and times; enter each play to
   see performance dates and price.
+- **Ticketing platforms of a venue** (the link in the Instagram bio is usually one of these, and it lists every
+  show with date and time, so there is no need to open Instagram):
+  - Passline: `passline.com/sitio/<id-or-slug>` and `/productora/<id>` (the text lists "title, date, hour,
+    venue" and the price). `sondear.py --leer` gets 403 here: open it in the browser.
+  - Venti: `venti.com.ar/organizadores/<slug>` ("Próximos eventos", with date and hour).
+  - Livepass `livepass.com.ar/taxons/<venue>`, Cafaccess `cafaccess.com/productora/<slug>` (date, title, price),
+    Alpogo `alpogo.com/buscar?busqueda=<venue>`, Tickethoy (`bue.tickethoy.com` home lists all venues: filter
+    by the venue line and press "ver más"), Evento Simple `compras.evento-simple.com/<venue>`, Enigma Tickets
+    (one page per event).
+  - Venues with their own ticketing site (culturalthames.com.ar, ccarmoza.com): weekly calendar plus an
+    "Events" list that grows with "Load more" (click it until the last day passes the window).
+- **Google Calendar embedded in a Google Site** (`iframe` `google.com/calendar/embed?src=<id>`): the public
+  feed `https://calendar.google.com/calendar/ical/<id url-encoded>/public/basic.ics` is read with Python
+  without the browser. A Canva "gacetilla" asks for login: it is not read.
+- **Museums of the Ministry of Culture** (`museo*.cultura.gob.ar`, same platform for Casa de Ricardo Rojas,
+  Mitre, Sarmiento, Malvinas, Histórico Nacional): `/actividades/` (cards with a date) and `/exhibiciones/`
+  (current temporary, permanent), and each `/actividad/<slug>/` has "Horario" and "Entrada" (read them with
+  `fetch` from the same tab). City museums (`buenosaires.gob.ar/gcaba_historico/cultura/museos/<slug>`)
+  announce activities and openings as news on the home page, with day and hour in the body.
+- **Venue whose own site is dead**: its page on Alternativa Teatral (`/espacioNNN-<slug>`) lists "Proximamente"
+  with dates, and each play's page has day, hour and price.
 - **Calendars by month** (`?mes=`, `/2026/10/`, "siguiente" arrows): go through the current month and the
   next one if the 14-day window crosses into it.
 - **"Actuales / Próximas / Anteriores" tabs**: open "Actuales" and "Próximas"; "Anteriores" can be discarded
