@@ -291,26 +291,27 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
-    "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo."
+    "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo.",
+    "2026-10-15 [web] scripts/saleplan.py: 1656 tarjetas de CABA en la ventana, 974 ya cubiertas por otras fuentes, 682 guardadas sin lugar."
    ],
    "entradas": [
+    "https://saleplan.ar/buenos-aires/eventos?page=1",
     "https://saleplan.ar/buenos-aires/que-hacer-hoy",
     "https://saleplan.ar/buenos-aires/que-hacer-este-fin-de-semana",
     "https://saleplan.ar/buenos-aires/que-hacer-esta-semana",
     "https://saleplan.ar/buenos-aires/eventos"
    ],
    "comportamiento": {
-    "extraccion": "Listados paginados ?page=N (se pueden leer con fetch desde la pestaña); 615 fichas distintas de CABA en total. Cada ficha trae JSON-LD Event.",
+    "extraccion": "sin navegador: scripts/saleplan.py al final de la corrida (listados por HTTP; se descartan las tarjetas que ya trae otra fuente). No abrir en el navegador.",
     "paginacion": "La agenda semanal se pagina con ?page=N (unas 17 páginas); en el navegador también aparecen más tarjetas al scrollear.",
-    "limite": "Se abrieron 220 fichas (hoy, finde, semana primero).",
     "fichas": "startDate a veces es la fecha de publicación (minutos raros como 05:39): en ese caso la fecha real es la de endDate."
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "con_eventos",
-     "eventos": 216,
-     "paginas": 228
+     "eventos": 681,
+     "paginas": 81
     }
    },
    "historial": [
@@ -319,6 +320,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 216
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 681
     }
    ],
    "lugar_opcional": true
