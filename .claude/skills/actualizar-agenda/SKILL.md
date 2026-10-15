@@ -369,7 +369,10 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
   `"<Lugar> · <Sala>"`.
 - Fechas `AAAA-MM-DD`; `hora` `HH:MM` (una sola; si hay varias, en `horarios`). Si no dice el año,
   asumí el actual solo si la fecha no queda en el pasado; si hay duda, no lo cargues.
-- `categoria`: vacía si no es obvia (la clasifica el script). En galerías, `Artes visuales`.
+- `categoria`: copiá la etiqueta, género o rubro que muestra la fuente ("Cine", "Teatro", "Rock",
+  "Stand up", "Géneros: teatro"), aunque no sea una de las categorías: el script la traduce. Vacía solo si la
+  fuente no muestra ninguna y no es obvia. En galerías, `Artes visuales`. Sin etiqueta, el evento queda en
+  "Evento" salvo que el título o la descripción lo digan: no dejes la descripción vacía ni con texto genérico.
 - `precio`: "Gratis", "$ 8000", "Desde $ 5000", o vacío. `url`: la ficha del evento o de las
   entradas; el post de Instagram solo si no hay otra.
 - `vigente_sin_fin: true` solo cuando la fuente lo publica como vigente sin fecha de cierre.

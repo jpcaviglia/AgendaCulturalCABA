@@ -65,6 +65,9 @@ def fusionar(grupo):
         for campo in VACIOS_FUSIONABLES:
             if not base.get(campo) and e.get(campo):
                 base[campo] = e[campo]
+        # "Evento" es la categoría de descarte: otra fuente que la clasificó mejor manda.
+        if base.get("categoria") == "Evento" and e.get("categoria") not in ("", "Evento", None):
+            base["categoria"] = e["categoria"]
         # Una URL propia del organizador es mejor que un post de Instagram.
         if "instagram.com" in base.get("url", "") and e.get("url") and "instagram.com" not in e["url"]:
             base["url"], base["dominio"] = e["url"], e.get("dominio", "")

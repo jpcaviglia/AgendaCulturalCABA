@@ -110,7 +110,7 @@ def main():
     for e in crudos:
         completar_lugar(e, lugares_por_nombre)
         categoria = e.get("categoria", "") or ("Artes visuales" if e["_tipo_sitio"] == "galeria" else "")
-        e["categoria"] = clasificar(categoria, e["titulo"], e.get("descripcion", ""))
+        e["categoria"] = clasificar(categoria, e["titulo"], e.get("descripcion", ""), e.get("url", ""))
         e["precio"] = e.get("precio") or "Consultar"
     eventos, duplicados = deduplicar(crudos)
 
