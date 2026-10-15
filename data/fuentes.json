@@ -1,0 +1,83 @@
+[
+  {
+    "nombre": "Turismo Buenos Aires: Qué hacer esta semana",
+    "url": "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana",
+    "tipo": "Agenda oficial (Gobierno de la Ciudad)",
+    "verificacion": "Accesible. Incluye 112 actividades con fecha de inicio, horario, precio, lugar y enlace al sitio del organizador.",
+    "integrada": true,
+    "notas": "Los datos vienen embebidos en la página como JSON, sin login. Es la fuente principal del script actualizar_eventos.py."
+  },
+  {
+    "nombre": "Alternativa Teatral",
+    "url": "https://www.alternativateatral.com/",
+    "tipo": "Agregador de teatro independiente",
+    "verificacion": "Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia).",
+    "integrada": false,
+    "notas": "Pendiente: revisar la cartelera general y sus términos de uso antes de automatizarla. Ya aparece como fuente de varios lugares."
+  },
+  {
+    "nombre": "Time Out Buenos Aires: Agenda",
+    "url": "https://www.timeout.com/es/buenos-aires/agenda",
+    "tipo": "Medio con agenda",
+    "verificacion": "Accesible. Tiene secciones de agenda semanal y mensual.",
+    "integrada": false,
+    "notas": "Pendiente: confirmar si el HTML trae datos de eventos (JSON-LD) y revisar términos de uso."
+  },
+  {
+    "nombre": "Eventbrite Buenos Aires",
+    "url": "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
+    "tipo": "Plataforma de venta de entradas",
+    "verificacion": "Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección).",
+    "integrada": false,
+    "notas": "Pendiente: sus términos de uso restringen el scraping. Conviene usar su API oficial o pedir permiso antes de automatizar."
+  },
+  {
+    "nombre": "Indiehoy: Agenda de recitales",
+    "url": "https://indiehoy.com/eventos/",
+    "tipo": "Agenda de recitales",
+    "verificacion": "Accesible. Lista recitales en Argentina; muchos enlaces a eventos.",
+    "integrada": false,
+    "notas": "Pendiente: filtrar por CABA y revisar términos de uso."
+  },
+  {
+    "nombre": "Ticketek",
+    "url": "https://www.ticketek.com.ar/",
+    "tipo": "Venta de entradas",
+    "verificacion": "Accesible, pero la página principal no muestra un listado de eventos verificable.",
+    "integrada": false,
+    "notas": "Útil para enlazar entradas, no como agenda."
+  },
+  {
+    "nombre": "Passline",
+    "url": "https://www.passline.com/",
+    "tipo": "Venta de entradas",
+    "verificacion": "Bloquea la verificación automática (HTTP 403).",
+    "integrada": false,
+    "notas": "Revisar a mano."
+  },
+  {
+    "nombre": "Datos abiertos GCBA: eventos y actividades culturales",
+    "url": "https://data.buenosaires.gob.ar/dataset/actividades-culturales",
+    "tipo": "Datos abiertos (CSV, ICS)",
+    "verificacion": "Accesible, pero los datos son históricos: el último evento es de 2018-2019.",
+    "integrada": false,
+    "notas": "No sirve para la agenda en vivo. Sirve para análisis histórico o para el catálogo de espacios (espacios-culturales)."
+  },
+  {
+    "nombre": "La Cultura en la Semana (boletín GCBA)",
+    "url": "https://buenosaires.gob.ar/boletines/",
+    "tipo": "Boletín por correo",
+    "verificacion": "Existe según la búsqueda; no se pudo leer su contenido.",
+    "integrada": false,
+    "notas": "Se recibe por email; no es automatizable sin acceso al buzón."
+  },
+  {
+    "nombre": "SalePlan: agenda de Ciudad de Buenos Aires",
+    "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+    "tipo": "Agregador de eventos",
+    "verificacion": "Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
+    "integrada": true,
+    "notas": "Integrada: el listado trae enlaces a fichas y cada ficha tiene JSON-LD de Event. robots.txt permite el rastreo. Son sobre todo espectáculos con entradas; las fechas son la próxima función.",
+    "adaptador": "saleplan"
+  }
+]
