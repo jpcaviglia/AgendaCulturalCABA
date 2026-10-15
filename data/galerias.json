@@ -34,25 +34,33 @@
    "nombre": "Colección Fortabat",
    "web": "https://coleccionamalita.org.ar/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Olga Cossettini 141",
+   "barrio": "Puerto Madero"
   },
   {
    "nombre": "Fundación PROA",
    "web": "https://www.proa.org/esp/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. Pedro de Mendoza 1929",
+   "barrio": "La Boca"
   },
   {
    "nombre": "Museo Nacional de Bellas Artes",
    "web": "https://www.bellasartes.gob.ar",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. del Libertador 1473",
+   "barrio": "Recoleta"
   },
   {
    "nombre": "Museo de Arte Moderno de Buenos Aires",
    "web": "https://museomoderno.org/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. San Juan 350",
+   "barrio": "San Telmo"
   },
   {
    "nombre": "Galería Vasari",
@@ -132,28 +140,36 @@
    "web": "https://www.malba.org.ar",
    "tipo": "Galería o museo",
    "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador",
+   "domicilio": "Av. Figueroa Alcorta 3415",
+   "barrio": "Palermo"
   },
   {
    "nombre": "Fundación Klemm",
    "web": "https://www.klemm.org.ar/",
    "tipo": "Galería o museo",
    "verificada": true,
-   "instagram": "@fundacion_klemm"
+   "instagram": "@fundacion_klemm",
+   "domicilio": "Marcelo T. de Alvear 626",
+   "barrio": "Retiro"
   },
   {
    "nombre": "Centro Cultural Recoleta",
    "web": "https://centroculturalrecoleta.org",
    "tipo": "Galería o museo",
    "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador",
+   "domicilio": "Junín 1930",
+   "barrio": "Recoleta"
   },
   {
    "nombre": "Espacio de Arte Fundación OSDE",
    "web": "https://www.osde.com.ar/espaciodearte",
    "tipo": "Galería o museo",
    "verificada": false,
-   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador",
+   "domicilio": "Suipacha 658",
+   "barrio": "San Nicolás"
   },
   {
    "nombre": "Arte x Arte",
@@ -173,7 +189,9 @@
    "nombre": "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
    "web": "https://www.macba.com.ar/",
    "tipo": "Galería o museo",
-   "verificada": false
+   "verificada": false,
+   "domicilio": "Av. San Juan 328",
+   "barrio": "San Telmo"
   },
   {
    "nombre": "Calvaresi Galería",
@@ -233,37 +251,49 @@
    "nombre": "MARQ Museo de Arquitectura y Diseño",
    "web": "https://socearq.org/marq/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. del Libertador 999",
+   "barrio": "Retiro"
   },
   {
    "nombre": "Museo Casa de Yrurtia",
    "web": "https://museoyrurtia.cultura.gob.ar/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "O'Higgins 2390",
+   "barrio": "Belgrano"
   },
   {
    "nombre": "Museo de Arte Español Enrique Larreta",
    "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Juramento 2291",
+   "barrio": "Belgrano"
   },
   {
    "nombre": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
    "web": "https://www.amigosdelfernandezblanco.org/eventos.php",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Suipacha 1422",
+   "barrio": "Retiro"
   },
   {
    "nombre": "Museo de Arte Popular José Hernández",
    "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. del Libertador 2373",
+   "barrio": "Palermo"
   },
   {
    "nombre": "Museo de Artes Plásticas Eduardo Sívori",
    "web": "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. Infanta Isabel 555",
+   "barrio": "Palermo"
   },
   {
    "nombre": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
@@ -281,13 +311,17 @@
    "nombre": "Museo Nacional de Arte Decorativo",
    "web": "https://museoartedecorativo.cultura.gob.ar/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. del Libertador 1902",
+   "barrio": "Recoleta"
   },
   {
    "nombre": "Museo Nacional de Arte Oriental",
    "web": "https://mnao.cultura.gob.ar/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Av. del Libertador 1902",
+   "barrio": "Recoleta"
   },
   {
    "nombre": "Museo Nacional del Grabado",
@@ -299,7 +333,9 @@
    "nombre": "Museo Xul Solar",
    "web": "https://www.xulsolar.org.ar/",
    "tipo": "Galería o museo",
-   "verificada": true
+   "verificada": true,
+   "domicilio": "Laprida 1212",
+   "barrio": "Palermo"
   },
   {
    "nombre": "Pasto Galería",

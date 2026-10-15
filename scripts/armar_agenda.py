@@ -113,6 +113,10 @@ def main():
         e["categoria"] = clasificar(categoria, e["titulo"], e.get("descripcion", ""), e.get("url", ""))
         e["precio"] = e.get("precio") or "Consultar"
     eventos, duplicados = deduplicar(crudos)
+    from direcciones import completar
+    sin_dir = sum(1 for e in eventos if e.get("lugar") and not e.get("direccion"))
+    completados, fichas = completar(eventos, consultar=not simular and "--sin-geo" not in sys.argv)
+    print(f"Direcciones: {completados} de {sin_dir} eventos sin dirección completados ({fichas} fichas consultadas)")
 
     por_dominio = {l["dominio"]: l["nombre"] for l in lugares
                    if l.get("dominio") and l.get("tipo_web") not in ("Agregador", "Red social o enlace")}
