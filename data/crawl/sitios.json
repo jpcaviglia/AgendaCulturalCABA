@@ -10786,18 +10786,18 @@
    ],
    "comportamiento": {
     "url": "web propia (plataforma Cinexo); la cartelera está en la portada, sección #cartelera. La página de INCAA (incaa.gob.ar/carteleras/programacion-espacios-incaa) no incluye al Gaumont",
-    "extraccion": "la cartelera se carga con JavaScript: esperar a que aparezcan las películas; /es-AR/programacion lista las películas en cartel y /es-AR/programacion/<código> tiene los días (7) y horarios de cada una"
+    "extraccion": "los horarios salen de https://apifront.cinexo.com.ar/mobile/consultas/peliculas/PeliculasConFuncionesYHorarios?idComplejo=372001&fecha=DD/MM/AAAA (JSON público, sin navegador): data.datos = películas, data.funciones = codPelicula + hora; 7 días; la API a veces tarda, reintentar",
+    "plataforma": "Cinexo (Next.js)"
    },
    "notas": [
-    "2026-10-15 [web] El Cine Gaumont no está en la tabla de Espacios INCAA; solo hay dos espacios de CABA (ATE Cultura y Atlas Flores). Programación del Gaumont: Instagram @cine.gaumont.",
-    "2026-10-15 [web] Web propia del Gaumont: https://www.cinegaumont.ar/es-AR#cartelera (reemplaza la página de Espacios INCAA, que no lo lista)."
+    "2026-10-15 [web] Cartelera completa por la API de Cinexo (idComplejo 372001), un evento por película con los horarios de cada día."
    ],
    "ultimo": {
     "web": {
      "fecha": "2026-10-15",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 3
+     "eventos": 13,
+     "paginas": 9
     }
    },
    "historial": [
@@ -10806,6 +10806,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 13
     }
    ]
   },
