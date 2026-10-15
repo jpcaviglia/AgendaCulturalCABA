@@ -62,7 +62,9 @@ def leer_capturas():
         for e in cap.get("eventos", []):
             e = dict(e)
             e["fuentes"] = [cap["fuente"]]
-            e["_tipo"] = "instagram" if cap["canal"] == "instagram" else TIPO_DEDUP.get(cap.get("tipo"), "sitio")
+            # El Instagram de un lugar es fuente propia; el de un agregador sigue siendo agregador.
+            tipo = TIPO_DEDUP.get(cap.get("tipo"), "sitio")
+            e["_tipo"] = "instagram" if cap["canal"] == "instagram" and tipo == "sitio" else tipo
             e["_tipo_sitio"] = cap.get("tipo")
             e["dominio"] = dominio(e.get("url", ""))
             crudos.append(e)

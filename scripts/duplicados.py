@@ -118,6 +118,17 @@ def candidatos(eventos, decisiones):
     return pares
 
 
+_TIPOS = None
+
+
+def es_fuente_propia(e):
+    """True si alguna fuente del evento es la web o el Instagram del propio lugar (no un agregador)."""
+    global _TIPOS
+    if _TIPOS is None:
+        _TIPOS = {x["nombre"]: x.get("tipo", "lugar") for x in (leer_json(CRAWL / "sitios.json", {}) or {}).get("sitios", [])}
+    return any(_TIPOS.get(f, "lugar") in ("lugar", "galeria") for f in e.get("fuentes", []))
+
+
 def _linea(e):
     fecha = e["fecha_inicio"] + (f"..{e['fecha_fin']}" if e.get("fecha_fin") and e["fecha_fin"] != e["fecha_inicio"] else "")
     hora = f" {e['hora']}" if e.get("hora") else ""
@@ -134,7 +145,10 @@ def cmd_candidatos(args):
     print(f"{len(pares)} pares posibles (se muestran {len(lista)}). Decidí con "
           "`duplicados.py iguales N...` y `duplicados.py distintos N...`.\n")
     for n, (m, a, b) in enumerate(pares[:maximo], 1):
-        print(f"{n}. [{m}]\n   A: {_linea(a)}\n   B: {_linea(b)}")
+        if es_fuente_propia(b) and not es_fuente_propia(a):  # la fuente propia primero: es la que gana al unir
+            a, b = b, a
+        marca = lambda e: " (fuente propia)" if es_fuente_propia(e) else ""
+        print(f"{n}. [{m}]\n   A{marca(a)}: {_linea(a)}\n   B{marca(b)}: {_linea(b)}")
 
 
 def cmd_decidir(tipo, args):

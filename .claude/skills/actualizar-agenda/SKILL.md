@@ -441,6 +441,9 @@ python scripts/duplicados.py distintos 1 2 4    # eventos distintos (no se vuelv
 - **Distintos**: una muestra y la visita guiada o el recorrido por esa muestra; dos obras distintas en la
   misma sala; dos fiestas el mismo día en el mismo club con distinto line-up; ferias de una misma red en
   plazas distintas.
+- Al unir, los datos (título, lugar, hora, enlace, descripción) salen de la **fuente propia** del lugar (su
+  web y después su Instagram, marcada "(fuente propia)" en la lista); los agregadores solo completan lo que
+  falta. No hace falta elegir cuál queda: solo decidí si son el mismo evento.
 - Decidí todos los de la lista (si es larga, `--max 200`). Las decisiones quedan en
   `data/crawl/duplicados.json` y valen para las próximas corridas, así que la lista se achica con el tiempo.
 

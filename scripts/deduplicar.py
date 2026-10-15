@@ -5,7 +5,10 @@ from difflib import SequenceMatcher
 
 from clasificar import sin_tildes
 
-PRIORIDAD = {"sitio": 0, "agregador": 1, "instagram": 2}  # menor = más confiable (la web propia del lugar primero)
+# Menor = más confiable. Al unir duplicados, los datos de base (título, lugar, hora, enlace, descripción) salen de la
+# fuente más confiable: la web del propio lugar, después su Instagram y recién después los agregadores (que copian,
+# resumen o cambian los títulos). Los agregadores solo completan los campos que la fuente propia dejó vacíos.
+PRIORIDAD = {"sitio": 0, "instagram": 1, "agregador": 2}
 VACIOS_FUSIONABLES = ("categoria", "lugar", "barrio", "direccion", "horarios", "descripcion", "url", "fecha_fin", "hora")
 STOP = {"el", "la", "los", "las", "de", "del", "y", "en", "a", "un", "una", "con", "al"}
 
