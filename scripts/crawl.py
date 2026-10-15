@@ -311,6 +311,8 @@ def normalizar_evento(raw, sitio, errores, avisos):
     if e["precio"] and GRATIS.search(e["precio"]) and not re.search(r"\$\s*\d", e["precio"]):
         e["precio"] = "Gratis"
     e["descripcion"] = e["descripcion"][:700]
+    if not e["url"] and e["post"]:  # sin ficha ni entradas: se enlaza el post de Instagram
+        e["url"] = e["post"]
     if e["url"] and not e["url"].startswith("http"):
         errores.append(f"{nombre}: url {e['url']!r} debe ser absoluta (https://...)")
         return None
