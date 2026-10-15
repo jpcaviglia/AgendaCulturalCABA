@@ -330,8 +330,8 @@ En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts 
   Las salas o espacios de CABA que aparezcan y no estén en la lista van en `sitios_nuevos`.
 - En agregadores y descubrimiento el `lugar` de cada evento es obligatorio: el nombre del espacio
   donde ocurre, igual al de `data/lugares.json` si está ahí.
-- Un sitio con `"rastrear": false` en `sitios.json` no entra en la cola. Hoy no hay ninguno; solo se
-  marca así si el usuario lo pide.
+- Un sitio con `"rastrear": false` en `sitios.json` no entra en la cola. Solo se marca así si el
+  usuario lo pide (hoy: Paseo La Plaza, cuya programación llega por los agregadores).
 
 ## 5. Formato del resultado
 
