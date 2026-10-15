@@ -432,7 +432,7 @@ def normalizar_evento(raw, sitio, errores, avisos):
     if not hoy().year - 2 <= anio <= hoy().year + 1:
         errores.append(f"{nombre}: año {anio} poco plausible (¿se asumió mal el año?)")
         return None
-    if not e["lugar"]:
+    if not e["lugar"] and not sitio.get("lugar_opcional"):  # lugar_opcional: listados sin lugar (scripts/saleplan.py)
         if len(sitio.get("lugares", [])) == 1:
             e["lugar"] = sitio["lugares"][0]
         else:

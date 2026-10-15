@@ -34,7 +34,7 @@ MAPA_FUENTE = {
     "arte": "Artes visuales", "fotografia": "Artes visuales",
     "literatura": "Literatura y charlas", "charla": "Literatura y charlas", "conferencia": "Literatura y charlas",
     "taller": "Taller", "curso": "Taller",
-    "visita guiada": "Visita guiada", "recorrido": "Visita guiada", "paseo": "Visita guiada",
+    "visita guiada": "Visita guiada", "turismo y visitas": "Visita guiada", "recorrido": "Visita guiada", "paseo": "Visita guiada",
     "infantil": "Infantil", "ninos": "Infantil", "familia": "Infantil",
     "feria": "Feria", "mercado": "Feria",
     "gastronomia": "Gastronomía", "gastronomico": "Gastronomía",

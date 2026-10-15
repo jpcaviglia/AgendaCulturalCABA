@@ -298,8 +298,11 @@ En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts 
 
 - **Turismo BA**: usar `turismo()`. Devuelve los eventos ya en el formato del resultado (con
   `vigente_sin_fin` puesto): copiá su `eventos` tal cual al archivo, sin reescribirlos.
-- **SalePlan**: recorrer las `entradas` (hoy, semana, fin de semana, eventos) con `preparar`, abrir las
-  fichas y leer `jsonld`. Hacer pausas de 1-2 s entre fichas.
+- **SalePlan**: **no se abre en el navegador.** Se lee al final con `python scripts/saleplan.py` (sección 7):
+  lee los listados por HTTP y guarda solo lo que ninguna otra fuente trajo, sin lugar. Si `siguiente` lo
+  muestra, salteálo. Si el script dice que no pudo leer el listado, recién ahí abrí las `entradas` con
+  `preparar`. Las tarjetas sin barrio ni hora quedan en `data/crawl/tmp/saleplan_fichas.txt`: si sobra
+  tiempo, abrí esas fichas para saber el lugar.
 - **Resident Advisor**: agenda de fiestas y electrónica. Recorrer los 14 días, abrir las fichas sin club
   y sumar clubes y productoras nuevos en `sitios_nuevos`.
 - **Descubrimiento** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): sirven para encontrar
@@ -405,9 +408,10 @@ estado de cada lugar en `data/lugares.json`. Si el push falla dos veces, dejá e
 
 ## 7. Cerrar
 
-Cuando `siguiente` diga que la cola está vacía:
+Cuando `siguiente` diga que la cola está vacía (o solo quede SalePlan):
 
 ```bash
+python scripts/saleplan.py
 python scripts/armar_agenda.py
 python scripts/crawl.py cerrar
 git add data/ && git commit -m "Agenda <fecha>: <N> eventos, <S> sitios rastreados" && git pull --rebase --autostash && git push
