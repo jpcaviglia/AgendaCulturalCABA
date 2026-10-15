@@ -25,11 +25,18 @@
    "web": "https://www.alternativateatral.com/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Pendiente de decidir: Pendiente: revisar la cartelera general y sus términos de uso antes de automatizarla. Ya aparece como fuente de varios lugares.",
    "notas": [
-    "2026-10-14: Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia)."
-   ]
+    "2026-10-14: Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia).",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "entradas": [
+    "https://www.alternativateatral.com/cartelera.asp"
+   ],
+   "comportamiento": {
+    "extraccion": "Cartelera general de teatro: cada obra tiene ficha con sala, días y horarios de función y precio. Filtrar a salas de CABA.",
+    "uso": "Las obras de salas que ya están en la lista también suman: se deduplican con la web propia del lugar. Salas nuevas de CABA van en sitios_nuevos.",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "time-out-buenos-aires-agenda",
@@ -39,11 +46,15 @@
    "web": "https://www.timeout.com/es/buenos-aires/agenda",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Pendiente de decidir: Pendiente: confirmar si el HTML trae datos de eventos (JSON-LD) y revisar términos de uso.",
    "notas": [
-    "2026-10-14: Accesible. Tiene secciones de agenda semanal y mensual."
-   ]
+    "2026-10-14: Accesible. Tiene secciones de agenda semanal y mensual.",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "extraccion": "Notas de agenda semanal y mensual: leer cada nota de la semana/mes en curso y cargar los eventos con fecha y lugar en CABA.",
+    "uso": "También sirve para descubrir espacios nuevos (sitios_nuevos).",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "eventbrite-buenos-aires",
@@ -53,11 +64,15 @@
    "web": "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Sus términos de uso restringen el scraping.",
    "notas": [
-    "2026-10-14: Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección)."
-   ]
+    "2026-10-14: Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección).",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "extraccion": "El listado y cada ficha traen JSON-LD de eventos: usar jsonld. Filtrar a CABA (descartar provincia) y a eventos culturales (no cursos de negocios, networking ni fiestas).",
+    "paginacion": "Listado paginado (?page=N); recorrer hasta pasar la ventana de 14 días.",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "indiehoy-agenda-de-recitales",
@@ -67,11 +82,14 @@
    "web": "https://indiehoy.com/eventos/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Pendiente de decidir: Pendiente: filtrar por CABA y revisar términos de uso.",
    "notas": [
-    "2026-10-14: Accesible. Lista recitales en Argentina; muchos enlaces a eventos."
-   ]
+    "2026-10-14: Accesible. Lista recitales en Argentina; muchos enlaces a eventos.",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "extraccion": "Agenda de recitales de todo el país: cargar solo los de CABA, con sala y fecha.",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "ticketek",
@@ -81,11 +99,14 @@
    "web": "https://www.ticketek.com.ar/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Sus términos de uso restringen el scraping.",
    "notas": [
-    "2026-10-14: Accesible, pero la página principal no muestra un listado de eventos verificable."
-   ]
+    "2026-10-14: Accesible, pero la página principal no muestra un listado de eventos verificable.",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "extraccion": "La portada no lista todo: buscar las secciones por categoría (teatro, música, etc.) y abrir las fichas de eventos en CABA dentro de la ventana.",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "passline",
@@ -95,39 +116,46 @@
    "web": "https://www.passline.com/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Sus términos de uso restringen el scraping.",
    "notas": [
-    "2026-10-14: Bloquea la verificación automática (HTTP 403)."
-   ]
+    "2026-10-14: Bloquea la verificación automática (HTTP 403).",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "extraccion": "Respondía 403 a scripts; en el navegador debería cargar. Buscar el listado de eventos de Ciudad de Buenos Aires y leer las fichas (suelen traer JSON-LD).",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+   }
   },
   {
    "id": "datos-abiertos-gcba-eventos-y-actividades-culturales",
    "nombre": "Datos abiertos GCBA: eventos y actividades culturales",
-   "tipo": "agregador",
+   "tipo": "descubrimiento",
    "lugares": [],
    "web": "https://data.buenosaires.gob.ar/dataset/actividades-culturales",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Pendiente de decidir: No sirve para la agenda en vivo. Sirve para análisis histórico o para el catálogo de espacios (espacios-culturales).",
    "notas": [
-    "2026-10-14: Accesible, pero los datos son históricos: el último evento es de 2018-2019."
-   ]
+    "2026-10-14: Accesible, pero los datos son históricos: el último evento es de 2018-2019.",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "uso": "Los eventos del dataset son de 2018-2019: no cargar eventos de acá. Usar el dataset de espacios culturales del mismo portal para descubrir espacios de CABA que falten (sitios_nuevos). Con una revisión por mes alcanza: si ya se revisó este mes, guardar sin_agenda con esa evidencia."
+   }
   },
   {
    "id": "la-cultura-en-la-semana-boletin-gcba",
    "nombre": "La Cultura en la Semana (boletín GCBA)",
-   "tipo": "agregador",
+   "tipo": "descubrimiento",
    "lugares": [],
    "web": "https://buenosaires.gob.ar/boletines/",
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
-   "rastrear": false,
-   "motivo": "Pendiente de decidir: Se recibe por email; no es automatizable sin acceso al buzón.",
    "notas": [
-    "2026-10-14: Existe según la búsqueda; no se pudo leer su contenido."
-   ]
+    "2026-10-14: Existe según la búsqueda; no se pudo leer su contenido.",
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+   ],
+   "comportamiento": {
+    "uso": "Boletín que se recibe por email. Buscar si la página publica las ediciones en la web; si hay una edición de esta semana, cargar sus eventos con fecha y lugar. Si solo ofrece suscribirse, guardar sin_agenda con esa evidencia."
+   }
   },
   {
    "id": "saleplan-agenda-de-ciudad-de-buenos-aires",

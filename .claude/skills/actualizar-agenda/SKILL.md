@@ -162,10 +162,14 @@ son la bio y las destacadas de agenda.
 - **Descubrimiento** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): sirven para encontrar
   espacios y muestras que no están en la lista. Cargá las muestras de CABA que figuren con fechas, y
   sumá los espacios nuevos en `sitios_nuevos`.
+- **Ticketeras y agendas** (Alternativa Teatral, Eventbrite, Ticketek, Passline, Indiehoy, Time Out):
+  seguir `entradas` y `comportamiento` de cada una. Cargar solo eventos en CABA, culturales, dentro de la
+  ventana. Ir al ritmo de una persona (pausas de 2-4 s entre páginas); ante captcha o 403, `bloqueado`.
+  Las salas o espacios de CABA que aparezcan y no estén en la lista van en `sitios_nuevos`.
 - En agregadores y descubrimiento el `lugar` de cada evento es obligatorio: el nombre del espacio
   donde ocurre, igual al de `data/lugares.json` si está ahí.
-- Los sitios con `"rastrear": false` en `sitios.json` no entran en la cola (términos de uso que
-  restringen el scraping, o pendientes de decisión). No los cambies sin que el usuario lo pida.
+- Un sitio con `"rastrear": false` en `sitios.json` no entra en la cola. Hoy no hay ninguno; solo se
+  marca así si el usuario lo pide.
 
 ## 5. Formato del resultado
 
