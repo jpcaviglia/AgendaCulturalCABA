@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Agenda Cultural CABA</title>
   <meta name="description" content="Agenda cultural de la Ciudad de Buenos Aires: eventos de las próximas dos semanas y los espacios culturales de la ciudad.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -13,6 +14,7 @@
       <a class="marca" href="#eventos">Agenda Cultural <span>CABA</span></a>
       <nav class="pestanas" aria-label="Secciones">
         <a href="#eventos" data-vista="eventos" class="activa">Eventos</a>
+        <a href="#mapa" data-vista="mapa">Mapa</a>
         <a href="#lugares" data-vista="lugares">Lugares</a>
       </nav>
     </div>
@@ -45,6 +47,14 @@
 
       <p id="vacio-eventos" class="vacio" hidden>No hay eventos con esos filtros.</p>
       <ul id="lista-eventos" class="tarjetas" aria-live="polite"></ul>
+    </section>
+
+    <section id="vista-mapa" aria-labelledby="titulo-mapa" hidden>
+      <div class="cabecera-vista">
+        <h1 id="titulo-mapa">Mapa de eventos</h1>
+        <p id="resumen-mapa" class="suave">Lugares con eventos activos en las próximas dos semanas.</p>
+      </div>
+      <div id="mapa" role="region" aria-label="Mapa de lugares con eventos"></div>
     </section>
 
     <section id="vista-lugares" aria-labelledby="titulo-lugares" hidden>
@@ -83,6 +93,7 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

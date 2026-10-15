@@ -120,6 +120,51 @@
 
     $("lista-eventos").replaceChildren(...filtrados.map(tarjetaEvento));
     pintarVacio("vacio-eventos", "lista-eventos", filtrados.length === 0);
+    eventosFiltrados = filtrados;
+    renderMapa();
+  }
+
+  // ---- Mapa ----
+  let eventosFiltrados = [];
+  let mapa = null;
+  let capaMarcadores = null;
+
+  function renderMapa() {
+    if (!mapa || typeof L === "undefined") return;
+    capaMarcadores.clearLayers();
+    const porPunto = new Map();
+    for (const e of eventosFiltrados) {
+      if (e.lat === "" || e.lat === undefined || e.lng === "" || e.lng === undefined) continue;
+      const clave = `${e.lat},${e.lng}`;
+      if (!porPunto.has(clave)) porPunto.set(clave, []);
+      porPunto.get(clave).push(e);
+    }
+    for (const evs of porPunto.values()) {
+      const popup = crear("div", { class: "popup-mapa" }, [
+        crear("strong", {}, [document.createTextNode(evs[0].lugar || "Lugar a confirmar")]),
+        crear("ul", {}, evs.slice(0, 8).map((e) =>
+          crear("li", {}, [
+            e.url ? enlaceExterno(e.url, e.titulo, "") : document.createTextNode(e.titulo),
+            document.createTextNode(` · ${fechaIso(e.fecha_inicio)}`),
+          ]))),
+        evs.length > 8 ? crear("em", {}, [document.createTextNode(`y ${evs.length - 8} más`)]) : null,
+      ]);
+      L.marker([evs[0].lat, evs[0].lng]).bindPopup(popup).addTo(capaMarcadores);
+    }
+    const ubicados = [...porPunto.values()].reduce((n, v) => n + v.length, 0);
+    $("resumen-mapa").textContent =
+      `${porPunto.size} lugares con eventos activos (${ubicados} de ${eventosFiltrados.length} eventos ubicados). Los filtros de la pestaña Eventos también se aplican acá.`;
+  }
+
+  function iniciarMapa() {
+    if (mapa || typeof L === "undefined") return;
+    mapa = L.map("mapa").setView([-34.6037, -58.4], 12);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "© colaboradores de OpenStreetMap",
+    }).addTo(mapa);
+    capaMarcadores = L.layerGroup().addTo(mapa);
+    renderMapa();
   }
 
   function iniciarEventos(datos) {
@@ -204,11 +249,16 @@
 
   // ---- Navegación entre vistas ----
   function mostrarVista() {
-    const vistaLugares = location.hash === "#lugares";
-    $("vista-eventos").hidden = vistaLugares;
-    $("vista-lugares").hidden = !vistaLugares;
+    const vista = ["#lugares", "#mapa"].includes(location.hash) ? location.hash.slice(1) : "eventos";
+    $("vista-eventos").hidden = vista !== "eventos";
+    $("vista-lugares").hidden = vista !== "lugares";
+    $("vista-mapa").hidden = vista !== "mapa";
     for (const enlace of document.querySelectorAll(".pestanas a")) {
-      enlace.classList.toggle("activa", enlace.dataset.vista === (vistaLugares ? "lugares" : "eventos"));
+      enlace.classList.toggle("activa", enlace.dataset.vista === vista);
+    }
+    if (vista === "mapa") {
+      iniciarMapa();
+      if (mapa) mapa.invalidateSize();
     }
     window.scrollTo({ top: 0 });
   }
