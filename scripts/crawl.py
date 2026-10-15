@@ -20,7 +20,7 @@ Archivos:
     data/crawl/corrida.json         cola y avance de la corrida en curso
     data/crawl/informes/<fecha>.md  informe de cada corrida
     data/crawl/local/               solo en esta máquina (no se sube): posts de Instagram ya analizados y
-                                    cupo diario / enfriamiento de Instagram
+                                    cupo diario / enfriamiento de Instagram; sondeo.json sí se sube
 """
 import json
 import re

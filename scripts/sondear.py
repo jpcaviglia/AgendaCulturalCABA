@@ -2,7 +2,7 @@
 
 Hace pedidos HTTP simples (sin JavaScript) a la portada de cada web y a sus 3 enlaces de agenda más
 probables, y clasifica cada sitio. No escribe nada en data/: el informe queda en data/crawl/local/sondeo.json
-(solo en esta máquina) y el resumen se imprime. No saca conclusiones de "no hay eventos": lo que no
+(se sube al repo, para usarlo desde otra máquina) y el resumen se imprime. No saca conclusiones de "no hay eventos": lo que no
 se puede leer así sigue yendo al navegador.
 
 Clases:

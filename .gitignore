@@ -1,0 +1,7 @@
+data/crawl/tmp/
+__pycache__/
+*.tmp
+# data/crawl/local/ queda en cada máquina, salvo el informe de sondear.py: se sube para que otra máquina
+# (p. ej. una sesión en la nube sin acceso a los sitios) lo pueda usar.
+data/crawl/local/*
+!data/crawl/local/sondeo.json
