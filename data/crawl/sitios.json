@@ -321,6 +321,18 @@
    ]
   },
   {
+   "id": "flashpass",
+   "nombre": "Flashpass",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://events.flashpass.com.ar/",
+   "instagram": "",
+   "origen": "agregado a pedido del usuario el 2026-10-15",
+   "notas": [
+    "2026-10-15: ticketera; Emergente Club Almagro vende sus entradas acá (events.flashpass.com.ar/eventos/<slug>). Puede traer eventos de otros lugares y de fuera de CABA: filtrar los de CABA."
+   ]
+  },
+  {
    "id": "arte-al-dia-agenda",
    "nombre": "Arte al Día: agenda",
    "tipo": "descubrimiento",
