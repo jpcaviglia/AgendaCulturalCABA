@@ -481,7 +481,9 @@ python scripts/duplicados.py distintos 1 2 4    # different events (never asked 
 - When merging, the data (title, venue, time, link, description) comes from the venue's **own source** (its
   website and then its Instagram, marked "(fuente propia)" in the list); aggregators only fill in what is
   missing. There is no need to choose which one stays: just decide whether they are the same event.
-- Decide all of the list (if it is long, `--max 200`). The decisions are saved in
+- Decide all of the list (if it is long, `--max 200`; with more than ~100 pairs, read the first ones by hand and
+  treat pairs whose titles share almost all their words as `iguales` and the rest as `distintos`, leaving the
+  doubtful ones undecided). The decisions are saved in
   `data/crawl/duplicados.json` and hold for future runs, so the list shrinks over time.
 
 Then build again and close the run:

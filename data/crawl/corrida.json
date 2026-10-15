@@ -1,7 +1,7 @@
 {
  "id": "2026-10-15",
  "inicio": "2026-10-15 14:08",
- "fin": null,
+ "fin": "2026-10-15 20:42",
  "ventana": {
   "desde": "2026-10-15",
   "hasta": "2026-10-29"
@@ -884,10 +884,14 @@
   "zelaya|instagram": "con_eventos",
   "itaca-complejo-teatral|instagram": "con_eventos",
   "espiritu-mamut|instagram": "con_eventos",
-  "el-puente|instagram": "con_eventos"
+  "el-puente|instagram": "con_eventos",
+  "espacio-ukelele|instagram": "sin_eventos",
+  "espacio-caballito|instagram": "sin_eventos",
+  "doup|instagram": "no_cultural"
  },
  "sitios_nuevos": [
   "flashpass"
  ],
- "eventos": 1960
+ "eventos": 1960,
+ "fin_ok": false
 }

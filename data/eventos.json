@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 317,
-  "con_eventos": 187
+  "capturas": 325,
+  "con_eventos": 191
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -75,9 +75,11 @@
   "EL GALPON DE CATALINAS",
   "EL GALPON DE GUEVARA",
   "EL JUFRE TEATRO-BAR",
+  "EL PUENTE",
   "EMERGENTE CLUB ALMAGRO",
   "ESPACIO LA TRIBU",
   "ESPACIO SIMONA",
+  "ESPÍRITU MAMUT",
   "El Cultural San Martín",
   "Espacio INCAA Atlas Flores",
   "Espacio de Arte Fundación OSDE",
@@ -194,8 +196,10 @@
   "Vamos Feria",
   "Vidriera BA",
   "W Galería",
+  "ZELAYA",
   "club conjura",
-  "nuestro cine"
+  "nuestro cine",
+  "Ítaca Complejo Teatral"
  ],
  "eventos": [
   {
@@ -12373,10 +12377,10 @@
    "embebible": true
   },
   {
-   "id": "af3d1ce96959",
-   "titulo": "Sucedió En El Camarín",
+   "id": "e345c7849246",
+   "titulo": "Sucedió en el camarín (última función)",
    "categoria": "Teatro",
-   "lugar": "Ítaca, Complejo Teatral",
+   "lugar": "Ítaca Complejo Teatral",
    "barrio": "Almagro",
    "direccion": "Humahuaca 4027",
    "fecha_inicio": "2026-10-15",
@@ -12384,12 +12388,13 @@
    "hora": "20:00",
    "horarios": "jue 20:00 (hasta el 15/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
+   "descripcion": "Última función de la comedia de Agustín Cuzzani con Silvia De Virgilio y Catalina Medina: dos actrices famosas en un camarín antes de su última función.",
    "url": "https://www.alternativateatral.com/obra102941-sucedio-en-el-camarin",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Ítaca Complejo Teatral",
     "Alternativa Teatral"
    ],
    "lat": -34.601786,
@@ -15079,6 +15084,30 @@
    "embebible": false
   },
   {
+   "id": "624cbf99e386",
+   "titulo": "Cena peronista: inauguración del ciclo Historia y cultura",
+   "categoria": "Gastronomía",
+   "lugar": "EL PUENTE",
+   "barrio": "Villa Luro",
+   "direccion": "Rivadavia Av. 9810",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cena por el Día de la Lealtad que inaugura el ciclo Historia y cultura en El Puente, con Alejandro Volkind y Billetes con historia. Reservas por teléfono. Rivadavia 9810, Villa Luro.",
+   "url": "https://www.instagram.com/elpuentecultural/p/DealmZsKTVf/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL PUENTE"
+   ],
+   "lat": -34.637965,
+   "lng": -58.502293,
+   "embebible": false
+  },
+  {
    "id": "2aae171559e2",
    "titulo": "Centro En Recorrido",
    "categoria": "Visita guiada",
@@ -16784,6 +16813,30 @@
    "lat": -34.601591,
    "lng": -58.410054,
    "embebible": true
+  },
+  {
+   "id": "8219502935e6",
+   "titulo": "El Trabajo, de Federico León",
+   "categoria": "Teatro",
+   "lugar": "ZELAYA",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3134",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "Viernes y sábados 20 h",
+   "precio": "Consultar",
+   "descripcion": "Obra El Trabajo, de Federico León, en Zelaya (Zelaya 3134, Abasto). Entradas por Alternativa Teatral (link en la bio).",
+   "url": "https://www.instagram.com/zelaya3134_teatro/p/Deh6bsWkWiA/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ZELAYA"
+   ],
+   "lat": -34.601591,
+   "lng": -58.410054,
+   "embebible": false
   },
   {
    "id": "a86b9899efad",
@@ -30368,23 +30421,24 @@
    "embebible": true
   },
   {
-   "id": "ce3573bfec57",
-   "titulo": "Hamlet En Ojotas",
+   "id": "b3e0e49b4e06",
+   "titulo": "Hamlet en ojotas: Fracaso escandinavo en Escobar",
    "categoria": "Teatro",
    "lugar": "ESPÍRITU MAMUT",
    "barrio": "Villa Crespo",
    "direccion": "Warnes Av. 616",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-28",
+   "fecha_fin": "2026-10-24",
    "hora": "21:00",
-   "horarios": "sáb 21:00 (hasta el 28/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
+   "horarios": "Sábados 21 h (últimas funciones)",
+   "precio": "A la gorra",
+   "descripcion": "Comedia en una vieja quinta donde actores con más entusiasmo que talento ensayan Hamlet para una gira por Europa. Teatro Espíritu Mamut, Av. Warnes 616, Villa Crespo. Reservas por Alternativa Teatral.",
    "url": "https://www.alternativateatral.com/obra101006-hamlet-en-ojotas",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "ESPÍRITU MAMUT",
     "Alternativa Teatral"
    ],
    "lat": -34.6013,
@@ -69384,6 +69438,30 @@
    ],
    "lat": -34.603874,
    "lng": -58.389346,
+   "embebible": false
+  },
+  {
+   "id": "61c1a015ab58",
+   "titulo": "Suite Juárez (película sobre Rubén Juárez)",
+   "categoria": "Cine",
+   "lugar": "Ítaca Complejo Teatral",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 4027",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección del documental Suite Juárez, sobre la vida y obra del bandoneonista Rubén Juárez, en Ítaca complejo teatral (también el miércoles 14).",
+   "url": "https://www.instagram.com/itacacomplejoteatral/p/Dec37P6FtS-/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ítaca Complejo Teatral"
+   ],
+   "lat": -34.601786,
+   "lng": -58.421276,
    "embebible": false
   },
   {

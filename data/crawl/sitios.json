@@ -4705,13 +4705,22 @@
      "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sin agenda en el sitio; usar redes",
-    "2026-10-15 [web] Sala y estudio de alquiler; no publica eventos."
+    "2026-10-15 [web] Sala y estudio de alquiler; no publica eventos.",
+    "2026-10-15 [instagram] Espacio de alquiler de sala y estudio fotográfico con poca programación propia."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "perfil con poca publicación de eventos"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.espaciocaballito.com.ar/#contacto",
@@ -4725,6 +4734,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -11227,13 +11242,22 @@
      "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "no_cultural",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Entrenamiento; no es centro cultural",
-    "2026-10-15 [web] Gimnasio, no es un espacio cultural."
+    "2026-10-15 [web] Gimnasio, no es un espacio cultural.",
+    "2026-10-15 [instagram] Gimnasio/estudio de entrenamiento: no cultural."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "perfil con poca publicación de eventos"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.doup.com.ar/#contacto",
@@ -11246,6 +11270,12 @@
     {
      "fecha": "2026-10-15",
      "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
      "estado": "no_cultural",
      "eventos": 0
     }
@@ -11503,13 +11533,22 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 3
+    },
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Escuela de música y artes; comunica por Instagram @espacioukelele."
+    "2026-10-15 [web] Escuela de música y artes; comunica por Instagram @espacioukelele.",
+    "2026-10-15 [instagram] Escuela y espacio cultural: oferta de talleres y colonia sin fechas puntuales en octubre."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "perfil con poca publicación de eventos"
+   },
    "enlaces_descartados": [
     {
      "url": "https://espacioukelele.com.ar/galeria/",
@@ -11529,6 +11568,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
