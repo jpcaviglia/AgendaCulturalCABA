@@ -4336,7 +4336,29 @@
    "origen": "data/lugares.json",
    "barrio": "Boedo",
    "direccion": "Castro Barrios 809",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "los flyers son imágenes con día y hora (hacer zoom): el epígrafe no trae la fecha; reservas por WhatsApp"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Espacio de encuentro, música, teatro y filosofía en Castro Barros 809, Boedo; el horario del 16/10 se corrigió a 20:30 (fe de erratas)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "pasillo-al-fondo-espacio-cultural",
@@ -4751,7 +4773,29 @@
    "origen": "data/lugares.json",
    "barrio": "Caballito",
    "direccion": "Tres Arroyos 1596",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "el perfil mezcla promoción del café con avisos de encuentros; las fechas están en el epígrafe"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Espacio cultural independiente y café (martes a domingo de 9 a 20 h), Tres Arroyos 159."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "le-cid-espacio-cultural",
@@ -4834,7 +4878,29 @@
    "origen": "data/lugares.json",
    "barrio": "Caballito",
    "direccion": "Rio De Janeiro 28",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "el primer carrusel de la semana ('Agenda semanal') trae todos los días con hora; hay que verlo como imagen (zoom); las fechas de fiestas están también en posts de bandas etiquetadas"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Río Patio Cultural (Río de Janeiro 28, Caballito): abre martes a sábado desde las 20 h. 'Club del Tributo Vol. XI: Mujeres del Rock' es el 4/11 (fuera de ventana)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "vertigo-espacio-cultural",
@@ -11345,7 +11411,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Viale, Luis 89",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "la grilla de @espaciosalvo mezcla reels de Brilla Crespo (@brillacrespo), que es quien publica las fechas"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Brilla Crespo (Av. Corrientes y Scalabrini Ortiz) volvería en diciembre; revisar @brillacrespo."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-ukelele",
