@@ -144,6 +144,11 @@ def indice_otras_fuentes(desde, hasta):
     return idx
 
 
+def _id_plan(url):
+    m = re.search(r"/planes/(\w+)/", url)
+    return m.group(1) if m else ""
+
+
 def cubierto(tarjeta, idx):
     t = norm_titulo(tarjeta["titulo"])
     return any(_parecidos(t, otro, 0.85) for otro in idx.get(tarjeta["fecha"], ()))
@@ -159,20 +164,28 @@ def main():
     idx = indice_otras_fuentes(desde, hasta)
     nuevas = [c for c in caba if not cubierto(c, idx)]
     barrios = nombres_barrio()
+    # Lo que ya se sabía de fichas abiertas antes (lugar, dirección, precio) se conserva por URL.
+    previa = {_id_plan(e.get("url", "")): e for e in (leer_json(CAPTURAS / f"{ID}.web.json") or {}).get("eventos", [])}
 
     eventos, fichas = [], []
     for c in nuevas:
         b = c["barrio_slug"]
         barrio = "" if b in SIN_BARRIO else barrios.get(b, b.replace("-", " ").title())
-        if not barrio and not c["hora"]:
+        e = {"titulo": c["titulo"], "fecha_inicio": c["fecha"], "fecha_fin": c["fecha"], "hora": c["hora"],
+             "lugar": "", "barrio": barrio, "categoria": c["categoria"], "url": c["url"],
+             "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."}
+        vieja = previa.get(c["id"])
+        if vieja and vieja.get("lugar"):
+            for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora"):
+                if vieja.get(k):
+                    e[k] = vieja[k]
+        elif not barrio and not c["hora"]:
             fichas.append(c["url"])
-        eventos.append({"titulo": c["titulo"], "fecha_inicio": c["fecha"], "fecha_fin": c["fecha"], "hora": c["hora"],
-                        "lugar": "", "barrio": barrio, "categoria": c["categoria"], "url": c["url"],
-                        "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."})
+        eventos.append(e)
 
     print(f"SalePlan: {len(urls)} páginas, {len(todas)} tarjetas, {len(caba)} de CABA en la ventana "
           f"({desde} a {hasta}); {len(caba) - len(nuevas)} ya las trae otra fuente, {len(eventos)} nuevas "
-          f"({len(fichas)} sin barrio ni hora).")
+          f"({sum(1 for e in eventos if e['lugar'])} con el lugar de una ficha ya leída, {len(fichas)} sin barrio ni hora).")
     TMP.mkdir(parents=True, exist_ok=True)
     (TMP / "saleplan_fichas.txt").write_text("".join(u + "\n" for u in fichas), encoding="utf-8")
     if simular or not eventos:
