@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 77,
-  "con_eventos": 57
+  "capturas": 97,
+  "con_eventos": 68
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -15,15 +15,20 @@
   "ARTLAB",
   "Alternativa Teatral",
   "Arte al Día: agenda",
+  "Avant Garten",
   "Buenos Aires Secreta: planes del fin de semana",
   "Buenos Aliens",
   "Búsqueda: ferias",
   "Búsqueda: festivales",
   "Búsqueda: fiestas techno y electrónica",
   "Búsqueda: museos y galerías que falten",
+  "Cacodelphia",
   "Calvaresi Galería",
   "Centro Cultural Recoleta",
   "Colección Fortabat",
+  "Complejo Teatral de Buenos Aires",
+  "Crobar",
+  "Dune Park",
   "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
   "Fundación Andreani",
@@ -40,9 +45,13 @@
   "Henrique Faria Buenos Aires",
   "Indiehoy: Agenda de recitales",
   "Indiehoy: muestras de arte del mes",
+  "Jodify",
+  "La Rural Ticket",
+  "La Trastienda",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
   "MALBA",
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
+  "Movistar Arena",
   "Museo Casa de Yrurtia",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
@@ -65,6 +74,8 @@
   "Time Out Buenos Aires: Agenda",
   "Time Out: arte",
   "Turismo Buenos Aires: Qué hacer esta semana",
+  "Vamos Feria",
+  "Vidriera BA",
   "W Galería"
  ],
  "eventos": [
@@ -651,7 +662,7 @@
    "hora": "",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "La serie Malena: el hilo rojo que va de Berni a los tipitos de Pablo Suárez.",
+   "descripcion": "Muestra de Nina Kunan con la serie Malena, que explora el hilo entre Berni, Pablo Suárez y la escena artística argentina.",
    "url": "https://www.calvaresicontemporaneo.com/nina-kunan-nk",
    "dominio": "calvaresicontemporaneo.com",
    "estado": "En curso",
@@ -1386,6 +1397,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "La isla. El Teatro San Martín en dictadura",
+   "categoria": "Artes visuales",
+   "lugar": "Teatro San Martín",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-15",
+   "fecha_fin": "2026-11-28",
+   "hora": "11:00",
+   "horarios": "Lunes a sábados desde las 11 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra sobre el Teatro San Martín durante la dictadura.",
+   "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictadura/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
    ],
    "lat": "",
    "lng": ""
@@ -2739,6 +2772,28 @@
    "lng": -58.424883
   },
   {
+   "titulo": "Jorge Lavelli: el gesto inconformista",
+   "categoria": "Artes visuales",
+   "lugar": "Teatro San Martín",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-06",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra sobre el director Jorge Lavelli.",
+   "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Alejandro Puente: Wasichay",
    "categoria": "Artes visuales",
    "lugar": "Henrique Faria Buenos Aires",
@@ -3796,28 +3851,6 @@
    "lng": -58.429928
   },
   {
-   "titulo": "El Brote",
-   "categoria": "Teatro",
-   "lugar": "Teatro Picadero",
-   "barrio": "Balvanera",
-   "direccion": "Pasaje Discépolo 1857",
-   "fecha_inicio": "2026-10-14",
-   "fecha_fin": "2026-12-09",
-   "hora": "20:00",
-   "horarios": "mié 20:00 (hoy); mié 20:00 (del 28/10 al 9/12)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra80184-el-brote",
-   "dominio": "alternativateatral.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
    "titulo": "El Próximo Furor",
    "categoria": "Teatro",
    "lugar": "Teatro Empire",
@@ -3970,28 +4003,6 @@
    ],
    "lat": -34.586298,
    "lng": -58.392513
-  },
-  {
-   "titulo": "Feria de Artesanos de Plaza Houssay",
-   "categoria": "Feria",
-   "lugar": "Plaza Houssay",
-   "barrio": "Recoleta",
-   "direccion": "Av. Córdoba y Junín",
-   "fecha_inicio": "2026-10-14",
-   "fecha_fin": "2026-10-16",
-   "hora": "",
-   "horarios": "Martes a viernes",
-   "precio": "Consultar",
-   "descripcion": "Feria de artesanos de días hábiles.",
-   "url": "https://www.vamosferia.com/ferias",
-   "dominio": "vamosferia.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: ferias"
-   ],
-   "lat": "",
-   "lng": ""
   },
   {
    "titulo": "Feria de Artistas Plásticos de Caminito",
@@ -4212,28 +4223,6 @@
    ],
    "lat": -34.541095,
    "lng": -58.436555
-  },
-  {
-   "titulo": "Les Contes D' Hoffmann",
-   "categoria": "Evento",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-14",
-   "fecha_fin": "2026-10-15",
-   "hora": "20:00",
-   "horarios": "mié 20:00 | jue 20:00 (hasta el 15/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: opera",
-   "url": "https://www.alternativateatral.com/obra100286-les-contes-d-hoffmann",
-   "dominio": "alternativateatral.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
   },
   {
    "titulo": "Liquidación Total!",
@@ -4594,7 +4583,7 @@
    "barrio": "",
    "direccion": "",
    "fecha_inicio": "2026-10-14",
-   "fecha_fin": "",
+   "fecha_fin": "2026-12-30",
    "hora": "",
    "horarios": "Septiembre a diciembre de 2026",
    "precio": "Consultar",
@@ -4604,7 +4593,8 @@
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "Fundación PROA"
+    "Fundación PROA",
+    "Vidriera BA"
    ],
    "lat": "",
    "lng": ""
@@ -5342,20 +5332,44 @@
    "barrio": "",
    "direccion": "Av. Córdoba 6056",
    "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-11-15",
+   "fecha_fin": "2026-10-29",
    "hora": "20:00",
-   "horarios": "Funciones: 15/10 20:00, 22/10 20:00, 23/10 20:00, 24/10 20:00, 25/10 20:00",
-   "precio": "Desde $ 15500",
-   "descripcion": "",
-   "url": "https://www.ticketek.com.ar/cielo-abierto/teatro-regio",
-   "dominio": "ticketek.com.ar",
+   "horarios": "Jueves a domingos, 20 h",
+   "precio": "Consultar",
+   "descripcion": "De David Hare, dirección de Mey Scápola.",
+   "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
+    "Vidriera BA",
     "Ticketek"
    ],
    "lat": -34.58424,
    "lng": -58.445723
+  },
+  {
+   "titulo": "A metros de distancia",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, hablada en castellano.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
   },
   {
    "titulo": "ADN PATIO",
@@ -5379,6 +5393,28 @@
    ],
    "lat": -34.590311,
    "lng": -58.381517
+  },
+  {
+   "titulo": "Adriana Bustos. Código natal: los orígenes cósmicos del Museo",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo Nacional de Bellas Artes.",
+   "url": "https://vidrierabuenosaires.com/eventos/adriana-bustos-codigo-natal",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Alejandro Kauderer y Ernesto Romeo - Concierto para Organo y Sintetizadores (artista invitado Federi",
@@ -5601,6 +5637,50 @@
    "lng": -58.389469
   },
   {
+   "titulo": "Bustillo 1929-1939. Tiempos de modernidad",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Victoria Ocampo",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Casa Victoria Ocampo.",
+   "url": "https://vidrierabuenosaires.com/eventos/bustillo",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "CASA FOA",
+   "categoria": "Artes visuales",
+   "lugar": "Palacio Molina",
+   "barrio": "",
+   "direccion": "Av. Regimiento de Patricios 1053",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Palacio Molina.",
+   "url": "https://vidrierabuenosaires.com/eventos/casa-foa",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.62947,
+   "lng": -58.370663
+  },
+  {
    "titulo": "CUATRO VARAS",
    "categoria": "Evento",
    "lugar": "The Lift - Godoy Cruz 1967",
@@ -5800,6 +5880,28 @@
    "lng": -58.364869
   },
   {
+   "titulo": "Curada de espanto",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en MACBA.",
+   "url": "https://vidrierabuenosaires.com/eventos/curada-de-espanto",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "DEGUSTACION CHAYANDO EN EL ALMACEN DE OMA",
    "categoria": "Gastronomía",
    "lugar": "el almacen de oma",
@@ -5820,6 +5922,50 @@
    ],
    "lat": -34.597179,
    "lng": -58.387898
+  },
+  {
+   "titulo": "Dan Graham. Whirligig, Molinete",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Fundación Proa.",
+   "url": "https://vidrierabuenosaires.com/eventos/dan-graham-whirligig-molinete",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Digger",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, subtitulada.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
   },
   {
    "titulo": "Dos Historias",
@@ -5866,6 +6012,28 @@
    "lng": -58.485236
   },
   {
+   "titulo": "Dribbling",
+   "categoria": "Teatro",
+   "lugar": "Paseo La Plaza",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 1660, CABA",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Paseo La Plaza.",
+   "url": "https://vidrierabuenosaires.com/eventos/dribbling",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.604463,
+   "lng": -58.39588
+  },
+  {
    "titulo": "EL SHOW DE LOS PELADOS- COMEDY SHOW!",
    "categoria": "Evento",
    "lugar": "CLUB TEMPLE - Espacio Studio",
@@ -5908,6 +6076,29 @@
    ],
    "lat": -34.604463,
    "lng": -58.39588
+  },
+  {
+   "titulo": "El Brote",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Discépolo 1857",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-15",
+   "hora": "20:00",
+   "horarios": "mié 20:00 (hoy); mié 20:00 (del 28/10 al 9/12)",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Teatro Picadero.",
+   "url": "https://vidrierabuenosaires.com/eventos/el-brote",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "El Circuito - Espacio Escénico Abierto",
@@ -5976,6 +6167,28 @@
    "lng": ""
   },
   {
+   "titulo": "El espacio infinito — Georges Rousse",
+   "categoria": "Artes visuales",
+   "lugar": "Artexarte",
+   "barrio": "",
+   "direccion": "Lavalleja 1062",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Artexarte.",
+   "url": "https://vidrierabuenosaires.com/eventos/el-espacio-infinito-georges-rousse",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59663,
+   "lng": -58.427915
+  },
+  {
    "titulo": "El hombre inesperado",
    "categoria": "Teatro",
    "lugar": "Teatro Picadero",
@@ -6018,6 +6231,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "El tiempo no soporta que lo marquen",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Casa Nacional del Bicentenario.",
+   "url": "https://vidrierabuenosaires.com/eventos/el-tiempo-no-soporta-que-lo-marquen",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
   },
   {
    "titulo": "Elvira: Mistress of the Dark (1988)",
@@ -6065,21 +6300,22 @@
   },
   {
    "titulo": "En las rutas de Wim Wenders",
-   "categoria": "Evento",
-   "lugar": "TEATRO SAN MARTIN",
+   "categoria": "Cine",
+   "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
    "barrio": "",
    "direccion": "Av. Corrientes 1530 - Capital Federal - Buenos Aires",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
-   "hora": "20:30",
+   "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Se verán diez de sus películas más reconocidas en copias restauradas en la Sala Lugones. En las rutas de Wim Wenders Se verán diez de sus películas más reconocidas en copias restauradas. Del jueves 15",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/WN3QWQ4G43AF/en-las-rutas-de-wim-wenders",
-   "dominio": "saleplan.ar",
+   "descripcion": "Ciclo de cine de Wim Wenders.",
+   "url": "https://complejoteatral.gob.ar/produccion/en-las-rutas-de-wim-wenders/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
    "lat": -34.604245,
@@ -6130,6 +6366,28 @@
    "lng": -58.369845
   },
   {
+   "titulo": "Esperando a Godot",
+   "categoria": "Teatro",
+   "lugar": "Teatro Presidente Alvear",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Miércoles a sábados, 20 h; domingos, 19 h",
+   "precio": "Consultar",
+   "descripcion": "De Samuel Beckett, dirección de Helena Pimenta.",
+   "url": "https://complejoteatral.gob.ar/produccion/esperando_a_godot/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Estos Pequeños Libros Que Quedan",
    "categoria": "Teatro",
    "lugar": "Arthaus Central",
@@ -6147,6 +6405,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Estos pequeños libros que quedan",
+   "categoria": "Teatro",
+   "lugar": "ArtHaus",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en ArtHaus.",
+   "url": "https://vidrierabuenosaires.com/eventos/estos-pequenos-libros-que-quedan",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
    ],
    "lat": "",
    "lng": ""
@@ -6282,6 +6562,95 @@
    ],
    "lat": -34.601622,
    "lng": -58.380934
+  },
+  {
+   "titulo": "Ferias de Artesanos: Artistas plásticos de Caminito (Caminito)",
+   "categoria": "Feria",
+   "lugar": "Artistas plásticos de Caminito (Caminito)",
+   "barrio": "",
+   "direccion": "Artistas plásticos de Caminito (Caminito), Av. Pedro de Mendoza y Del Valle Iberlucea, CABA",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Artistas plásticos de Caminito (Caminito), Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-1f21593a-8ee9-484b-bce2-39b0af1cc7a8-12102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Plaza Houssay",
+   "categoria": "Feria",
+   "lugar": "Plaza Houssay",
+   "barrio": "Recoleta",
+   "direccion": "Plaza Houssay, Av. Córdoba y Junín, CABA",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "Martes a viernes",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Plaza Houssay, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-083e4b68-d7d2-415a-aec4-fa54f3ef837b-13102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria",
+    "Búsqueda: ferias"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Vuelta de Rocha I (Caminito)",
+   "categoria": "Feria",
+   "lugar": "Vuelta de Rocha I (Caminito)",
+   "barrio": "",
+   "direccion": "Vuelta de Rocha I (Caminito), Av. Pedro de Mendoza y Del Valle Iberlucea, CABA",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Vuelta de Rocha I (Caminito), Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-2da82904-6b32-439f-83c1-d7b33d7b87d1-15102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Plaza Dorrego",
+   "categoria": "Feria",
+   "lugar": "Plaza Dorrego",
+   "barrio": "",
+   "direccion": "Plaza Dorrego, Defensa y Humberto 1°, CABA",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Plaza Dorrego, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-f91d839f-6b9a-4d6c-8b51-91aa82b0557d-15102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Fiesta Gargolas",
@@ -6526,6 +6895,28 @@
    "lng": ""
   },
   {
+   "titulo": "Gran subasta a beneficio del Museo Sívori",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Azur",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Galería Azur.",
+   "url": "https://vidrierabuenosaires.com/eventos/gran-subasta-a-beneficio-del-museo-sivori",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Gurisa",
    "categoria": "Teatro",
    "lugar": "El Porton De Sanchez",
@@ -6570,6 +6961,72 @@
    "lng": -58.39588
   },
   {
+   "titulo": "Hope: el primer impacto",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, subtitulada.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
+   "titulo": "Invasiones I",
+   "categoria": "Música",
+   "lugar": "Teatro San Martín · Sala Martín Coronado",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Miércoles a sábados, 20.30 h; domingos, 19.30 h",
+   "precio": "Consultar",
+   "descripcion": "Ópera rock con Elena Roger narrada a través de canciones de Charly García.",
+   "url": "https://complejoteatral.gob.ar/produccion/invasiones-1/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Islandia",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, hablada en castellano.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
    "titulo": "JAM DE IMPRO",
    "categoria": "Teatro",
    "lugar": "LA SILLA COMEDY CLUB",
@@ -6612,6 +7069,28 @@
    ],
    "lat": -34.586933,
    "lng": -58.387521
+  },
+  {
+   "titulo": "JB Martinz, Pedro Oppel, Ike Gatti",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Afrika Club",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tech house.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "JUEVES 15 DE OCTUBRE| KIKA CLUB",
@@ -6678,6 +7157,28 @@
    ],
    "lat": -34.604245,
    "lng": -58.3884
+  },
+  {
+   "titulo": "Kontinental 25",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, subtitulada.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
   },
   {
    "titulo": "LA FERNETERIA | Jueves 15.10",
@@ -6901,6 +7402,28 @@
    "lng": -58.392401
   },
   {
+   "titulo": "La casa",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, hablada en castellano.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
    "titulo": "La escucha mutua",
    "categoria": "Artes visuales",
    "lugar": "Centro Cultural Recoleta",
@@ -6921,6 +7444,50 @@
    ],
    "lat": -34.586298,
    "lng": -58.392513
+  },
+  {
+   "titulo": "La función que sale mal",
+   "categoria": "Teatro",
+   "lugar": "Teatro Multiteatro",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Teatro Multiteatro.",
+   "url": "https://vidrierabuenosaires.com/eventos/la-funcion-que-sale-mal",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "La imaginación geométrica",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en MACBA.",
+   "url": "https://vidrierabuenosaires.com/eventos/la-imaginacion-geometrica",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "La isla. El teatro San Martín en dictaduras",
@@ -6946,21 +7513,22 @@
   },
   {
    "titulo": "La lluvia de fuego",
-   "categoria": "Evento",
-   "lugar": "TEATRO SAN MARTIN",
+   "categoria": "Teatro",
+   "lugar": "Teatro San Martín · Sala Casacuberta",
    "barrio": "San Nicolás",
    "direccion": "Av. Corrientes 1530 - Capital Federal - Buenos Aires",
    "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-15",
+   "fecha_fin": "2026-10-29",
    "hora": "20:30",
-   "horarios": "mié 20:30 | jue 20:30 | vie 20:30 | sáb 20:30 | dom 19:30 (hasta el 8/11)",
+   "horarios": "Miércoles a sábados, 20.30 h; domingos, 19.30 h",
    "precio": "Consultar",
-   "descripcion": "Silvina Ocampo, quien amaba las flores y los jardines, escribió con la complicidad de Juan José Hernández La lluvia de fuego, donde florecen la fantasía y la imaginación de la infancia. La lluvia de f",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/22TC98Q28QEM/la-lluvia-de-fuego",
-   "dominio": "saleplan.ar",
+   "descripcion": "De Silvina Ocampo y Juan José Hernández, dirección de Marilú Marini.",
+   "url": "https://complejoteatral.gob.ar/produccion/la_lluvia_de_fuego/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -7012,6 +7580,28 @@
    "lng": ""
   },
   {
+   "titulo": "La vida es así",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, subtitulada.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
    "titulo": "La vida es un tango",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -7057,6 +7647,51 @@
    "lng": -58.393437
   },
   {
+   "titulo": "La última sesión de Freud",
+   "categoria": "Teatro",
+   "lugar": "Enrique Santos Discépolo 1857",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Enrique Santos Discépolo 1857.",
+   "url": "https://vidrierabuenosaires.com/eventos/la-ultima-sesion-de-freud",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Les contes d'Hoffmann",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "20:00",
+   "horarios": "mié 20:00 | jue 20:00 (hasta el 15/10)",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo en Teatro Colón.",
+   "url": "https://vidrierabuenosaires.com/eventos/les-contes-dhoffmann",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
    "titulo": "Lo mucho que te amé",
    "categoria": "Teatro",
    "lugar": "TEATRO NACIONAL CERVANTES",
@@ -7074,6 +7709,7 @@
    "lugar_verificado": "",
    "fuentes": [
     "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.598847,
@@ -7168,6 +7804,50 @@
    "lng": ""
   },
   {
+   "titulo": "Los espíritus del museo",
+   "categoria": "Artes visuales",
+   "lugar": "Teatro San Martín",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "Martes a viernes, 14 a 21 h; sábados y domingos, 13 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Propuesta en el museo del teatro.",
+   "url": "https://complejoteatral.gob.ar/produccion/los-espiritus-del-museo/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Los vencedores",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Película en cartelera, hablada en castellano.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
    "titulo": "Luchando Con La Luna",
    "categoria": "Teatro",
    "lugar": "Beckett Teatro",
@@ -7190,28 +7870,6 @@
    "lng": ""
   },
   {
-   "titulo": "MISION - 15 DE OCTUBRE - TOOMY DISCO - BETWEEN CITIES",
-   "categoria": "Evento",
-   "lugar": "MISION",
-   "barrio": "",
-   "direccion": "Godoy Cruz 1715",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-15",
-   "hora": "23:30",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/mision-15-de-octubre-toomy-disco-between-cities",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.587387,
-   "lng": -58.433659
-  },
-  {
    "titulo": "Mafalda Inmersiva",
    "categoria": "Evento",
    "lugar": "Centro Cultural Recoleta",
@@ -7232,6 +7890,50 @@
    ],
    "lat": -34.586298,
    "lng": -58.392513
+  },
+  {
+   "titulo": "Martyno Dowsha, Juan Mandianes, Seto Paramo y Nico Ciarlo",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Tokyo Club",
+   "barrio": "Costanera Norte",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Melodic techno.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Melisa Zulberti: Protocolos para un comportamiento colectivo",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Fundación Proa.",
+   "url": "https://vidrierabuenosaires.com/eventos/melisa-zulberti-protocolos-para-un-comportamiento-colectivo",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Mi Nombre Es Viento",
@@ -7320,6 +8022,28 @@
    ],
    "lat": -34.599689,
    "lng": -58.374353
+  },
+  {
+   "titulo": "Mirlo y Martin Rucci",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Melt Underground",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "House.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Miss By INk",
@@ -7652,6 +8376,28 @@
    "lng": ""
   },
   {
+   "titulo": "Océano interior",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Moderno (MAMBA)",
+   "barrio": "",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-04-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo Moderno (MAMBA).",
+   "url": "https://vidrierabuenosaires.com/eventos/oceano-interior",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745
+  },
+  {
    "titulo": "PERFECT BLUE Dir. Satoshi Kon · Japón · 1997",
    "categoria": "Evento",
    "lugar": "Club Lucero",
@@ -7694,6 +8440,28 @@
    ],
    "lat": -34.609662,
    "lng": -58.385728
+  },
+  {
+   "titulo": "Paraíso perdido",
+   "categoria": "Danza",
+   "lugar": "Teatro San Martín · Sala Martín Coronado",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Jueves a domingos, 20 h",
+   "precio": "Consultar",
+   "descripcion": "Ballet Contemporáneo del Teatro San Martín.",
+   "url": "https://complejoteatral.gob.ar/produccion/paraiso-perdido/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Pink Floyd - The Division Bell Música En Total Oscuridad con Parlantes Holofónicos",
@@ -7762,6 +8530,28 @@
    "lng": -58.385672
   },
   {
+   "titulo": "Programa \"Habitando el futuro\" del Museo Moderno (70° aniversario)",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo de Arte Moderno de Buenos Aires.",
+   "url": "https://vidrierabuenosaires.com/eventos/museo-moderno-habitando-el-futuro",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Prometeo Liberado",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
@@ -7782,6 +8572,28 @@
    ],
    "lat": -34.58733,
    "lng": -58.449505
+  },
+  {
+   "titulo": "Quiero tu sexo",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Estreno. Cine Arte Cacodelphia, 90 min, +17.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
   },
   {
    "titulo": "Quimera",
@@ -7890,6 +8702,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Indiehoy: Agenda de recitales"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Rocky",
+   "categoria": "Teatro",
+   "lugar": "Teatro Lola Membrives",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Teatro Lola Membrives.",
+   "url": "https://vidrierabuenosaires.com/eventos/rocky",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
    ],
    "lat": "",
    "lng": ""
@@ -8005,6 +8839,28 @@
    "lng": -58.451546
   },
   {
+   "titulo": "SHAMOCK",
+   "categoria": "Teatro",
+   "lugar": "Espacio Aguirre",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en Espacio Aguirre.",
+   "url": "https://vidrierabuenosaires.com/eventos/shamock",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "STAND UP HUMOR NEGRO - PASEO LA PLAZA",
    "categoria": "Teatro",
    "lugar": "Paseo La Plaza - El show más premiado de Paseo la Plaza",
@@ -8088,6 +8944,7 @@
    "lugar_verificado": "",
    "fuentes": [
     "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.598847,
@@ -8117,8 +8974,8 @@
   },
   {
    "titulo": "Seis tardes con Mae West",
-   "categoria": "Evento",
-   "lugar": "TEATRO SAN MARTIN",
+   "categoria": "Cine",
+   "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
    "barrio": "",
    "direccion": "Av. Corrientes 1530 - Capital Federal - Buenos Aires",
    "fecha_inicio": "2026-10-15",
@@ -8126,12 +8983,13 @@
    "hora": "15:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Seis largometrajes de la celebrada actriz neoyorquina que supo brillar en el comienzo del período sonoro, transformándose en la enemiga pública número uno de la censura cinematográfica. Seis largometr",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/JQ71BN1NVT51/seis-tardes-con-mae-west",
-   "dominio": "saleplan.ar",
+   "descripcion": "Noche tras noche (Night After Night).",
+   "url": "https://complejoteatral.gob.ar/produccion/seis-tardes-con-mae-west/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
    "lat": -34.604245,
@@ -8226,6 +9084,50 @@
    "lng": -58.370033
   },
   {
+   "titulo": "Sorah & Luxuria, Facu Elizondo & Frankeus, Pablo Vasquez & Castillo",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Downtempo",
+   "barrio": "Agronomía",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "House.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Sottovoce",
+   "categoria": "Teatro",
+   "lugar": "El Nacional Sancor Seguros",
+   "barrio": "",
+   "direccion": "Av. Corrientes 960",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro en El Nacional Sancor Seguros.",
+   "url": "https://vidrierabuenosaires.com/eventos/sotto-voce",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.603968,
+   "lng": -58.380276
+  },
+  {
    "titulo": "Stand Up en Paseo la Plaza",
    "categoria": "Teatro",
    "lugar": "Paseo La Plaza - El show más premiado de Paseo la Plaza",
@@ -8290,6 +9192,28 @@
    ],
    "lat": -34.595028,
    "lng": -58.373866
+  },
+  {
+   "titulo": "Susana Rodríguez. Historia íntima",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-01-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo Nacional de Bellas Artes.",
+   "url": "https://vidrierabuenosaires.com/eventos/susana-rodriguez-historia-intima",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "SÍSMICO EN VIVO FIESTA HIP-TON 15/10 MAKENA CANTINA CLUB",
@@ -8440,7 +9364,8 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
+    "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Vidriera BA"
    ],
    "lat": -34.683758,
    "lng": -58.489433
@@ -8466,6 +9391,50 @@
    ],
    "lat": -34.603731,
    "lng": -58.388699
+  },
+  {
+   "titulo": "Tiempos de ilusión",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "Funciones diarias, ver horarios en la web",
+   "precio": "Consultar",
+   "descripcion": "Estreno en cartelera, subtitulada.",
+   "url": "https://cineartecacodelphia.com.ar/",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633
+  },
+  {
+   "titulo": "Tita Merello. Una diva plebeya",
+   "categoria": "Artes visuales",
+   "lugar": "Palacio Libertad",
+   "barrio": "",
+   "direccion": "Sarmiento 151",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-12-20",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Palacio Libertad.",
+   "url": "https://vidrierabuenosaires.com/eventos/tita-merello-una-diva-plebeya",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.603557,
+   "lng": -58.369484
   },
   {
    "titulo": "Todo Arder",
@@ -8512,6 +9481,28 @@
    "lng": ""
   },
   {
+   "titulo": "Todos los ángeles alzaron el vuelo",
+   "categoria": "Teatro",
+   "lugar": "Teatro Sarmiento",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Miércoles a domingos, 20 h",
+   "precio": "Consultar",
+   "descripcion": "Texto de Eusebio Calonge, dirección de Paco de La Zaranda.",
+   "url": "https://complejoteatral.gob.ar/produccion/todos-los-angeles-alzaron-el-vuelo/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Tomasita",
    "categoria": "Teatro",
    "lugar": "La Carpintería",
@@ -8532,6 +9523,29 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Toomy Disco y Between Cities",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Mision",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 1715",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "House.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify",
+    "Passline"
+   ],
+   "lat": -34.587387,
+   "lng": -58.433659
   },
   {
    "titulo": "Tour a pie + Visita guiada al Teatro Colón",
@@ -8576,6 +9590,28 @@
    ],
    "lat": -34.603835,
    "lng": -58.383465
+  },
+  {
+   "titulo": "Umbrales y constelaciones",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Esculturas Luis Perlotti",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo de Esculturas Luis Perlotti.",
+   "url": "https://vidrierabuenosaires.com/eventos/umbrales-y-constelaciones",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Un Milagro De Mierda",
@@ -8712,6 +9748,28 @@
    "lng": -58.408655
   },
   {
+   "titulo": "Viva Frida",
+   "categoria": "Artes visuales",
+   "lugar": "Malba",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2027-03-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Malba.",
+   "url": "https://vidrierabuenosaires.com/eventos/viva-frida-malba",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "WINING BLEND TASTING",
    "categoria": "Evento",
    "lugar": "Gurruchaga 1060",
@@ -8756,6 +9814,28 @@
    "lng": -58.446383
   },
   {
+   "titulo": "XXII Salón de Arte Textil 2026",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Museo de Arte Popular José Hernández.",
+   "url": "https://vidrierabuenosaires.com/eventos/xxii-salon-de-arte-textil-2026",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988
+  },
+  {
    "titulo": "Y Si La Lluvia Nos Deja",
    "categoria": "Teatro",
    "lugar": "Fandango Teatro",
@@ -8773,6 +9853,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "superficie y presencia",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en MACBA.",
+   "url": "https://vidrierabuenosaires.com/eventos/superficie-y-presencia",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
    ],
    "lat": "",
    "lng": ""
@@ -9083,7 +10185,9 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Resident Advisor: Buenos Aires"
+    "Resident Advisor: Buenos Aires",
+    "Buenos Aliens",
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -9133,6 +10237,28 @@
    ],
    "lat": -34.590311,
    "lng": -58.381517
+  },
+  {
+   "titulo": "AGST, Barrioniebla y Ana Plat",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Puticlú",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "AMIGOS MIOS #1 // VIUDAS NEGRAS + ISTMO // EN CLUB CONJURA",
@@ -9473,30 +10599,6 @@
    "lng": -58.423193
   },
   {
-   "titulo": "BABASONICOS",
-   "categoria": "Evento",
-   "lugar": "Movistar Arena",
-   "barrio": "Villa Crespo",
-   "direccion": "Humboldt 450 - Villa Crespo - Ciudad de Buenos Aires",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "21:00",
-   "horarios": "Viernes 16 y sábado 17, 21 h.",
-   "precio": "$ 55000",
-   "descripcion": "BABASONICOS está programado para el 16/10/2026 a las 21:00 en Movistar Arena, Ciudad de Buenos Aires, Ciudad Autónoma de Buenos Aires. Consultá la fuente oficial antes de asistir para confirmar dispon",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/S9XPCA8AJGHA/babasonicos",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires",
-    "Turismo Buenos Aires: Qué hacer esta semana",
-    "Indiehoy: Agenda de recitales"
-   ],
-   "lat": -34.59426,
-   "lng": -58.448137
-  },
-  {
    "titulo": "BAGFEST 👛 + PEUTEO 🍆 Viernes 16/10 • Studio CROBAR + GARDEN",
    "categoria": "Evento",
    "lugar": "Studio Crobar + Garden",
@@ -9561,6 +10663,32 @@
    ],
    "lat": -34.60569,
    "lng": -58.391685
+  },
+  {
+   "titulo": "Babasónicos",
+   "categoria": "Música",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "Viernes 16 y sábado 17, 21 h.",
+   "precio": "Desde $ 65000",
+   "descripcion": "Recital. Hay una fecha más.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Movistar Arena",
+   "fuentes": [
+    "Movistar Arena",
+    "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA",
+    "Indiehoy: Agenda de recitales"
+   ],
+   "lat": -34.59426,
+   "lng": -58.448137
   },
   {
    "titulo": "Ballet 40-90...30 años",
@@ -10400,13 +11528,14 @@
    "hora": "23:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
+   "descripcion": "Fiesta electrónica.",
    "url": "https://artlabpro.net/agenda/",
    "dominio": "artlabpro.net",
    "estado": "Próximo",
    "lugar_verificado": "ARTLAB",
    "fuentes": [
-    "ARTLAB"
+    "ARTLAB",
+    "Jodify"
    ],
    "lat": -34.586043,
    "lng": -58.446381
@@ -10477,28 +11606,6 @@
    ],
    "lat": -34.569608,
    "lng": -58.420655
-  },
-  {
-   "titulo": "David Löhlein, Federico Guerrero y más",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "La Nube",
-   "barrio": "Belgrano",
-   "direccion": "Av. Int. Güiraldes 2851",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "23:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Fiesta electrónica con David Löhlein y Federico Guerrero.",
-   "url": "https://www.buenosaliens.com/",
-   "dominio": "buenosaliens.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Buenos Aliens"
-   ],
-   "lat": "",
-   "lng": ""
   },
   {
    "titulo": "Degustação Vinhos Argentinos em português Brasil",
@@ -10833,6 +11940,7 @@
    "fuentes": [
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA",
     "Búsqueda: festivales"
    ],
    "lat": "",
@@ -11506,6 +12614,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Búsqueda: ferias"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Chacabuco",
+   "categoria": "Feria",
+   "lugar": "Parque Chacabuco",
+   "barrio": "",
+   "direccion": "Parque Chacabuco, Emilio Mitre y Av. Asamblea, CABA",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Chacabuco, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-2147d1c6-0672-402d-921b-3decb1ce00ad-16102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
    ],
    "lat": "",
    "lng": ""
@@ -12186,22 +13316,23 @@
    "categoria": "Fiestas y electrónica",
    "lugar": "Avant Garten",
    "barrio": "Palermo",
-   "direccion": "Av. Libertador 3883",
+   "direccion": "Av. Libertador 3883, Arco 10",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "21:00",
    "horarios": "Hasta las 05:00",
    "precio": "Consultar",
-   "descripcion": "Line-up: Manu Oubiña, Mich (10)",
-   "url": "https://ra.co/events/2514006",
+   "descripcion": "Fiesta Innen x AVG con Manu Oubiña y Mich.",
+   "url": "https://ra.co/clubs/124970",
    "dominio": "ra.co",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Avant Garten",
     "Resident Advisor: Buenos Aires"
    ],
-   "lat": -34.56973,
-   "lng": -58.420783
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Insidias En El Hotel Britz",
@@ -13211,21 +14342,22 @@
   },
   {
    "titulo": "Los que hablan",
-   "categoria": "Evento",
-   "lugar": "TEATRO SARMIENTO",
+   "categoria": "Teatro",
+   "lugar": "Teatro Sarmiento",
    "barrio": "",
    "direccion": "Av. Sarmiento 2715 - Capital Federal - Buenos Aires",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
+   "fecha_fin": "2026-10-18",
    "hora": "20:00",
-   "horarios": "Funciones: 16/10 20:00, 17/10 20:00, 18/10 20:00",
+   "horarios": "Viernes 16, sábado 17 y domingo 18, 20 h",
    "precio": "Consultar",
-   "descripcion": "Sobre el escenario, dos personajes con el solo propósito de hablar el uno con el otro. Cuando la palabra ha perdido su integridad, hay que permitir que lo divino renazca para resignificarla con inocen",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/GXSBS146HCP9/los-que-hablan",
-   "dominio": "saleplan.ar",
+   "descripcion": "Autoría y dirección de Pablo Rosal.",
+   "url": "https://complejoteatral.gob.ar/produccion/los_que_hablan/",
+   "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Ticketek"
    ],
@@ -13279,6 +14411,28 @@
    "lng": -58.424045
   },
   {
+   "titulo": "Loïc, Saleci y Felix Manegazzo",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "JET Terrace",
+   "barrio": "Costanera Norte",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Lucio Y Yo",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
@@ -13321,6 +14475,28 @@
    ],
    "lat": -34.626399,
    "lng": -58.371093
+  },
+  {
+   "titulo": "Løfgren, Lut, Greta, Candela Horacek y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Melt Underground",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "MARTHA FOZ. crímenes y demonios",
@@ -13635,6 +14811,28 @@
    ],
    "lat": -34.600227,
    "lng": -58.424561
+  },
+  {
+   "titulo": "Manu Calmet b2b Cimarron, Ojosfinos y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Marea fest 2026",
@@ -14446,6 +15644,28 @@
    "lng": -58.416742
   },
   {
+   "titulo": "Otto Soria - Odisea Plantae",
+   "categoria": "Artes visuales",
+   "lugar": "Bertuzzi Atelier",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra en Bertuzzi Atelier.",
+   "url": "https://vidrierabuenosaires.com/eventos/otto-soria-odisea-plantae",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "PAUSA - Ciclo Musical en vivo II",
    "categoria": "Evento",
    "lugar": "Eléctrica",
@@ -14534,6 +15754,28 @@
    ],
    "lat": -34.605814,
    "lng": -58.411067
+  },
+  {
+   "titulo": "Paisajes coreográficos",
+   "categoria": "Danza",
+   "lugar": "Teatro San Martín · Hall Alfredo Alcón",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "Viernes 16 y 23 y sábado 17 y 24, 18 h; domingos 18 y 25, 16.30 h",
+   "precio": "Consultar",
+   "descripcion": "Taller de Danza Contemporánea del Teatro San Martín.",
+   "url": "https://complejoteatral.gob.ar/produccion/paisajes-coreograficos/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Palito Ortega",
@@ -14625,6 +15867,28 @@
    ],
    "lat": -34.617203,
    "lng": -58.395717
+  },
+  {
+   "titulo": "Phuture: DJ Tennis, Pabels, Pato Mallet y Etta!",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelo Freyre s/n, Paseo de la Infanta",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Phuture con DJ Tennis.",
+   "url": "https://www.crobar.com.ar/fechas",
+   "dominio": "crobar.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Crobar",
+   "fuentes": [
+    "Crobar"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Piano Bar",
@@ -15235,7 +16499,7 @@
   },
   {
    "titulo": "Roberto Fonseca",
-   "categoria": "Evento",
+   "categoria": "Música",
    "lugar": "La Trastienda",
    "barrio": "San Telmo",
    "direccion": "Balcarce 460",
@@ -15244,12 +16508,13 @@
    "hora": "21:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.passline.com/eventos/roberto-fonseca",
-   "dominio": "passline.com",
+   "descripcion": "La vanguardia del jazz cubano, con el pianista de Buena Vista Social Club.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "La Trastienda",
    "fuentes": [
+    "La Trastienda",
     "Passline"
    ],
    "lat": -34.613108,
@@ -15593,7 +16858,7 @@
    "titulo": "Shift - BRN - Edicion Internacional - Aniversario",
    "categoria": "Fiestas y electrónica",
    "lugar": "Blow",
-   "barrio": "",
+   "barrio": "Palermo",
    "direccion": "Av. Cnel. Niceto Vega 5699",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
@@ -15606,7 +16871,8 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Resident Advisor: Buenos Aires"
+    "Resident Advisor: Buenos Aires",
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -16237,6 +17503,28 @@
    ],
    "lat": -34.6047,
    "lng": -58.412003
+  },
+  {
+   "titulo": "Ttaipan b2b PBJ y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Tuve que en Nempla",
@@ -16951,6 +18239,28 @@
    ],
    "lat": -34.597398,
    "lng": -58.435169
+  },
+  {
+   "titulo": "Zualet b2b Julian Lucero",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "The Lift",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "¡Basta, Clara!",
@@ -18409,6 +19719,28 @@
    "lng": ""
   },
   {
+   "titulo": "Coolture - Edición 5",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "The Lift",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Creer O Reír",
    "categoria": "Evento",
    "lugar": "Pasillo Al Fondo Teatro",
@@ -19267,6 +20599,28 @@
    "lng": ""
   },
   {
+   "titulo": "El precipicio",
+   "categoria": "Teatro",
+   "lugar": "Cine Teatro El Plata",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "Sábados y domingos, 18 h",
+   "precio": "Consultar",
+   "descripcion": "Dramaturgia y dirección de Sofía Wilhelmi.",
+   "url": "https://complejoteatral.gob.ar/produccion/el-precipicio/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "El tren fluvial",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -19570,7 +20924,8 @@
    "lugar_verificado": "",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana",
-    "Búsqueda: ferias"
+    "Búsqueda: ferias",
+    "La Rural Ticket"
    ],
    "lat": "",
    "lng": ""
@@ -19642,6 +20997,28 @@
    "lng": ""
   },
   {
+   "titulo": "Feddox, Movedeck y Nexz",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Lex Tower",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Felices Fiestas",
    "categoria": "Fiestas y electrónica",
    "lugar": "Aluche",
@@ -19686,50 +21063,6 @@
    "lng": -58.419536
   },
   {
-   "titulo": "Feria de Artesanos de Plaza Intendente Alvear (Recoleta)",
-   "categoria": "Feria",
-   "lugar": "Plaza Intendente Alvear",
-   "barrio": "Recoleta",
-   "direccion": "Av. del Libertador y Av. Alvear",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-25",
-   "hora": "",
-   "horarios": "Sábados y domingos",
-   "precio": "Consultar",
-   "descripcion": "Feria de artesanos y manualistas frente al Centro Cultural Recoleta.",
-   "url": "https://www.vamosferia.com/ferias",
-   "dominio": "vamosferia.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: ferias"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
-   "titulo": "Feria de Artesanos y Manualistas de Parque Centenario",
-   "categoria": "Feria",
-   "lugar": "Parque Centenario",
-   "barrio": "Caballito",
-   "direccion": "Av. Patricias Argentinas y Leopoldo Marechal",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-25",
-   "hora": "",
-   "horarios": "Sábados y domingos",
-   "precio": "Consultar",
-   "descripcion": "Feria de artesanos y manualistas en el parque.",
-   "url": "https://www.vamosferia.com/ferias",
-   "dominio": "vamosferia.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: ferias"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
    "titulo": "Feria de Vinos DVT Wine Club 5ta Edición, Villa Devoto",
    "categoria": "Feria",
    "lugar": "Navarro 3974",
@@ -19750,6 +21083,294 @@
    ],
    "lat": -34.602799,
    "lng": -58.508657
+  },
+  {
+   "titulo": "Ferias de Artesanos: Parque Centenario",
+   "categoria": "Feria",
+   "lugar": "Parque Centenario",
+   "barrio": "",
+   "direccion": "Parque Centenario, Av. Díaz Vélez y Campichuelo, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Parque Centenario, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-4c4aba3a-a8e4-4d13-844f-649f1599a785-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Parque Lezama",
+   "categoria": "Feria",
+   "lugar": "Parque Lezama",
+   "barrio": "",
+   "direccion": "Parque Lezama, Av. Brasil y Defensa, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Parque Lezama, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-d67ca79f-8c4d-4383-a4b7-c26f57667c8b-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Plaza Intendente Alvear",
+   "categoria": "Feria",
+   "lugar": "Plaza Intendente Alvear",
+   "barrio": "Recoleta",
+   "direccion": "Plaza Intendente Alvear, Av. Del Libertador y Av. Alvear, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "Sábados y domingos",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Plaza Intendente Alvear, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-97301fdf-c303-4e34-af39-7a3d594e13cb-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria",
+    "Búsqueda: ferias"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Plazoleta Santa Fe",
+   "categoria": "Feria",
+   "lugar": "Plazoleta Santa Fe",
+   "barrio": "",
+   "direccion": "Plazoleta Santa Fe, Av. Santa Fe y Uriarte, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Plazoleta Santa Fe, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-9bc734ee-3efd-4143-979c-ce39341177e7-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Artesanos: Vuelta de Rocha II (Caminito)",
+   "categoria": "Feria",
+   "lugar": "Vuelta de Rocha II (Caminito)",
+   "barrio": "",
+   "direccion": "Vuelta de Rocha II (Caminito), Av. Pedro de Mendoza y Del Valle Iberlucea, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Vuelta de Rocha II (Caminito), Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-9d5147dc-0afc-4c27-887c-561c659b9400-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Avellaneda",
+   "categoria": "Feria",
+   "lugar": "Parque Avellaneda",
+   "barrio": "",
+   "direccion": "Parque Avellaneda, Av. Lacarra y Av. Directorio, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Avellaneda, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-e0fb1fd5-039e-4f64-954e-746b199360d8-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Centenario",
+   "categoria": "Feria",
+   "lugar": "Parque Centenario",
+   "barrio": "Caballito",
+   "direccion": "Parque Centenario, Av. Patricias Argentinas y Leopoldo Marechal, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "Sábados y domingos",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Centenario, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-39596c54-4d65-45b3-9547-a583795f9ff8-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria",
+    "Búsqueda: ferias"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Los Andes",
+   "categoria": "Feria",
+   "lugar": "Parque Los Andes",
+   "barrio": "",
+   "direccion": "Parque Los Andes, Av. Dorrego y Av. Corrientes, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Los Andes, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-cc05a741-386d-402e-bf4d-207f14cda56d-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Patricios",
+   "categoria": "Feria",
+   "lugar": "Parque Patricios",
+   "barrio": "",
+   "direccion": "Parque Patricios, Av. Caseros y Av. Almafuerte, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Patricios, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-bc60da64-d531-4c40-b97b-0a41b8716663-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Paseo El Retiro de Costanera Sur",
+   "categoria": "Feria",
+   "lugar": "Paseo El Retiro de Costanera Sur",
+   "barrio": "",
+   "direccion": "Paseo El Retiro de Costanera Sur, Av. Dr. Tristán Achával Rodríguez y Azucena Villaflor, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Paseo El Retiro de Costanera Sur, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-87bc29de-0059-4404-a696-626a7715e183-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Plaza Intendente Alvear (Recoleta)",
+   "categoria": "Feria",
+   "lugar": "Plaza Intendente Alvear (Recoleta)",
+   "barrio": "",
+   "direccion": "Plaza Intendente Alvear (Recoleta), Av. del Libertador y Av. Alvear, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Plaza Intendente Alvear (Recoleta), Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-9219a839-166f-4c2b-b7cc-5bbd19b8507e-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Plaza Juan XXIII (artes plásticas, Recoleta)",
+   "categoria": "Feria",
+   "lugar": "Plaza Juan XXIII (artes plásticas, Recoleta)",
+   "barrio": "",
+   "direccion": "Plaza Juan XXIII (artes plásticas, Recoleta), Av. del Libertador y Av. Alvear, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Plaza Juan XXIII (artes plásticas, Recoleta), Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-7e0a4fe3-fdd5-42e5-a2ff-e4b7416b44eb-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Plaza Palermo Viejo",
+   "categoria": "Feria",
+   "lugar": "Plaza Palermo Viejo",
+   "barrio": "",
+   "direccion": "Plaza Palermo Viejo, Malabia y Costa Rica, CABA",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Plaza Palermo Viejo, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-cdd9f2f9-7a0a-4f76-95a9-70d7d4fb1887-17102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Festival Ennio Morricone",
@@ -19858,6 +21479,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Indiehoy: Agenda de recitales"
+   ],
+   "lat": -34.613108,
+   "lng": -58.370577
+  },
+  {
+   "titulo": "Fonso y las Paritarias presenta: América del Futuro",
+   "categoria": "Música",
+   "lugar": "La Trastienda",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 460",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show de Fonso y las Paritarias.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
+   "estado": "Próximo",
+   "lugar_verificado": "La Trastienda",
+   "fuentes": [
+    "La Trastienda"
    ],
    "lat": -34.613108,
    "lng": -58.370577
@@ -22081,7 +23724,8 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Búsqueda: festivales"
+    "Búsqueda: festivales",
+    "Vidriera BA"
    ],
    "lat": -34.601086,
    "lng": -58.383187
@@ -22813,22 +24457,23 @@
    "lng": -58.387493
   },
   {
-   "titulo": "Oxitocina (Inés y los perros)",
+   "titulo": "Oxitocina",
    "categoria": "Teatro",
-   "lugar": "Teatro San Martín",
+   "lugar": "Teatro San Martín · Sala Cunill Cabanellas",
    "barrio": "San Nicolás",
    "direccion": "Av. Corrientes 1530",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Sábado y domingo, 17:30 h.",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:30",
+   "horarios": "Jueves a domingos, 19.30 h",
    "precio": "Consultar",
-   "descripcion": "En su primer unipersonal, Florencia Raggi protagoniza una comedia incómoda y mordaz sobre la maternidad contemporánea, los mandatos del instinto y la impredecible química del amor: cuando una niña de",
-   "url": "https://complejoteatral.gob.ar/ver/oxitocina",
+   "descripcion": "Autoría y dirección de Dennis Smith, con Florencia Raggi.",
+   "url": "https://complejoteatral.gob.ar/produccion/oxitocina/",
    "dominio": "complejoteatral.gob.ar",
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
+    "Complejo Teatral de Buenos Aires",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": -34.604245,
@@ -23209,6 +24854,28 @@
    "lng": -58.419421
   },
   {
+   "titulo": "Phuture: John Creamer, Soundexile, Nahs y Kayla Shams",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelo Freyre s/n, Paseo de la Infanta",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Phuture con John Creamer.",
+   "url": "https://www.crobar.com.ar/fechas",
+   "dominio": "crobar.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Crobar",
+   "fuentes": [
+    "Crobar"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Piraña",
    "categoria": "Evento",
    "lugar": "El Grito",
@@ -23495,6 +25162,28 @@
    "lng": ""
   },
   {
+   "titulo": "Remigio Verdiales, un carpincho",
+   "categoria": "Infantil",
+   "lugar": "Teatro Sarmiento",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-25",
+   "hora": "15:00",
+   "horarios": "Sábados y domingos, 15 h",
+   "precio": "Consultar",
+   "descripcion": "Para grandes y chicos, con el Grupo de Titiriteros del Teatro San Martín.",
+   "url": "https://complejoteatral.gob.ar/produccion/remigio_verdiales_un_carpincho/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Reserva Ecológica",
    "categoria": "Visita guiada",
    "lugar": "Av. Dr. Tristán Achával Rodríguez 1401",
@@ -23735,6 +25424,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Sgalia",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Dune Park",
+   "barrio": "Villa Crespo",
+   "direccion": "Aráoz 740",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.597437,
+   "lng": -58.433421
   },
   {
    "titulo": "Shakespeare Alterado",
@@ -24197,6 +25908,28 @@
    ],
    "lat": -34.614951,
    "lng": -58.373528
+  },
+  {
+   "titulo": "Tekna 303",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar · Studio",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fecha en Studio Crobar.",
+   "url": "https://www.crobar.com.ar/fechas",
+   "dominio": "crobar.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Crobar",
+   "fuentes": [
+    "Crobar"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Temer Partir",
@@ -24893,13 +26626,14 @@
    "hora": "21:30",
    "horarios": "Sábados a las 21:30",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
+   "descripcion": "Obra de teatro en Alquimia Centro Cultural.",
    "url": "https://www.alternativateatral.com/obra102737-donde-esta-alicia",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
     "ALQUIMIA ESPACIO CULTURAL",
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.582703,
@@ -26447,6 +28181,28 @@
    "lng": -58.390031
   },
   {
+   "titulo": "Facu González, Kekel, Afer y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Groove",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Feliz Domingo Stand Up",
    "categoria": "Teatro",
    "lugar": "Paseo La Plaza - El show más premiado de Paseo la Plaza",
@@ -26489,6 +28245,138 @@
    ],
    "lat": -34.623452,
    "lng": -58.371248
+  },
+  {
+   "titulo": "Ferias de Artesanos: Pasaje San Lorenzo",
+   "categoria": "Feria",
+   "lugar": "Pasaje San Lorenzo",
+   "barrio": "",
+   "direccion": "Pasaje San Lorenzo, Pasaje San Lorenzo y Defensa, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Artesanos en Pasaje San Lorenzo, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-4867e8e9-c2e8-44fe-96d4-f963a4955d7c-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Calle Defensa",
+   "categoria": "Feria",
+   "lugar": "Calle Defensa",
+   "barrio": "",
+   "direccion": "Calle Defensa, Desde Defensa al 100 hasta Defensa al 600, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Calle Defensa, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-5e0351f0-f0d8-4f9a-936e-5197869efcb2-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Humberto 1",
+   "categoria": "Feria",
+   "lugar": "Humberto 1",
+   "barrio": "",
+   "direccion": "Humberto 1, Humberto 1 y Defensa, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Humberto 1, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-d4d2ad1e-b6fc-4c4e-8054-274a65476c61-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Parque Alberdi",
+   "categoria": "Feria",
+   "lugar": "Parque Alberdi",
+   "barrio": "",
+   "direccion": "Parque Alberdi, Av. Lisandro de la Torre y Av. Directorio, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Parque Alberdi, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-5be24bfe-77c2-4f45-903a-489276b750b9-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Pasaje Giuffra",
+   "categoria": "Feria",
+   "lugar": "Pasaje Giuffra",
+   "barrio": "",
+   "direccion": "Pasaje Giuffra, Defensa y Pasaje Giuffra, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Pasaje Giuffra, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-16194473-2640-4a74-9058-23b0d9a73d28-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Ferias de Manualistas: Paseo La Recova 1",
+   "categoria": "Feria",
+   "lugar": "Paseo La Recova 1",
+   "barrio": "",
+   "direccion": "Paseo La Recova 1, Chile y Defensa, CABA",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ferias de Manualistas en Paseo La Recova 1, Ciudad de Buenos Aires. Entrada libre, al aire libre.",
+   "url": "https://www.vamosferia.com/feria/oficial-627e8dba-6fc7-41ba-8e76-4d435e37b5ff-18102026",
+   "dominio": "vamosferia.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vamos Feria"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Festival Patria",
@@ -27943,7 +29831,7 @@
    "lng": ""
   },
   {
-   "titulo": "Pimpinela | Noticias del amor",
+   "titulo": "Pimpinela",
    "categoria": "Música",
    "lugar": "Movistar Arena",
    "barrio": "Villa Crespo",
@@ -27952,13 +29840,14 @@
    "fecha_fin": "2026-10-18",
    "hora": "",
    "horarios": "Domingo 18, 21 h.",
-   "precio": "Consultar",
-   "descripcion": "Pimpinela regresa a la Argentina con &#34;Noticias del Amor&#34;, un espectáculo que mezcla música, humor y emoción en una puesta renovada. Tras un 2025 consagratorio en el plano internacional, el dúo",
-   "url": "https://www.movistararena.com.ar/show/e120cc94-6618-4bdc-b58d-ea0e34e3073e",
+   "precio": "Desde $ 65000",
+   "descripcion": "Recital.",
+   "url": "https://www.movistararena.com.ar/shows",
    "dominio": "movistararena.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "Movistar Arena",
    "fuentes": [
+    "Movistar Arena",
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Búsqueda: festivales",
     "Indiehoy: Agenda de recitales"
@@ -27984,6 +29873,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Post Boris Brejcha",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Mision",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "After party de Boris Brejcha.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -28072,6 +29983,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Romina Cohn, Loló Gasparini y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Ache Paraje",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -28537,6 +30470,28 @@
    ],
    "lat": -34.600335,
    "lng": -58.416742
+  },
+  {
+   "titulo": "Zone7, Cosmica, AMCU y Fade",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Lex Tower",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "¡Basta Para Mí, Aquí Me Planto!",
@@ -29310,6 +31265,28 @@
    "lng": -58.390031
   },
   {
+   "titulo": "Tomás Rebord",
+   "categoria": "Evento",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "",
+   "horarios": "",
+   "precio": "Desde $ 45000",
+   "descripcion": "Show.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Movistar Arena",
+   "fuentes": [
+    "Movistar Arena"
+   ],
+   "lat": -34.59426,
+   "lng": -58.448137
+  },
+  {
    "titulo": "Trajetos brasileiros na arte latino-americana",
    "categoria": "Visita guiada",
    "lugar": "Malba · Nivel 1",
@@ -29442,26 +31419,27 @@
    "lng": -58.446102
   },
   {
-   "titulo": "Andrés Calamaro en Movistar Arena",
+   "titulo": "Andrés Calamaro",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-20",
    "fecha_fin": "2026-10-20",
    "hora": "",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/andres-calamaro-movistar-arena-octubre-2026/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 45000",
+   "descripcion": "Recital. Hay dos fechas más.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Movistar Arena",
    "fuentes": [
+    "Movistar Arena",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.59426,
+   "lng": -58.448137
   },
   {
    "titulo": "Astillero",
@@ -29722,7 +31700,8 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Búsqueda: festivales"
+    "Búsqueda: festivales",
+    "Vidriera BA"
    ],
    "lat": -34.642946,
    "lng": -58.39689
@@ -29880,6 +31859,28 @@
    ],
    "lat": -34.588636,
    "lng": -58.449904
+  },
+  {
+   "titulo": "Melissa Aldana - Jazz Buenos Aires",
+   "categoria": "Música",
+   "lugar": "Teatro San Martín · Sala Martín Coronado",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo Jazz Buenos Aires, Jazz at Lincoln Center.",
+   "url": "https://complejoteatral.gob.ar/produccion/melissa-aldana/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Miss (Soporte De Ficción)",
@@ -30124,6 +32125,28 @@
    "lng": -58.390721
   },
   {
+   "titulo": "Aitana",
+   "categoria": "Música",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Desde $ 55000",
+   "descripcion": "Recital. Hay dos fechas más.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Movistar Arena",
+   "fuentes": [
+    "Movistar Arena"
+   ],
+   "lat": -34.59426,
+   "lng": -58.448137
+  },
+  {
    "titulo": "Aitana en Argentina",
    "categoria": "Música",
    "lugar": "Movistar Arena Argentina",
@@ -30163,6 +32186,7 @@
    "lugar_verificado": "",
    "fuentes": [
     "Búsqueda: festivales",
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
@@ -30454,6 +32478,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Las Migas",
+   "categoria": "Música",
+   "lugar": "La Trastienda",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 460",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Flamencas. Nueva función.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
+   "estado": "Próximo",
+   "lugar_verificado": "La Trastienda",
+   "fuentes": [
+    "La Trastienda"
+   ],
+   "lat": -34.613108,
+   "lng": -58.370577
   },
   {
    "titulo": "Las tres ecologías: De la observación al trazo",
@@ -31183,6 +33229,28 @@
    "lng": ""
   },
   {
+   "titulo": "La gaviota. Ensayo abierto",
+   "categoria": "Teatro",
+   "lugar": "Teatro Sarmiento",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "Jueves 22 a domingo 25, 20 h",
+   "precio": "Consultar",
+   "descripcion": "Sobre el texto de Chéjov, de Santiago Cortegoso y Neto Portela.",
+   "url": "https://complejoteatral.gob.ar/produccion/la_gaviota_ensayo_abierto/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Las Francesas Del Tango",
    "categoria": "Danza",
    "lugar": "Al Escenario",
@@ -31203,6 +33271,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Las Migas",
+   "categoria": "Música",
+   "lugar": "La Trastienda",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 460",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Flamencas. Entradas agotadas.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
+   "estado": "Próximo",
+   "lugar_verificado": "La Trastienda",
+   "fuentes": [
+    "La Trastienda"
+   ],
+   "lat": -34.613108,
+   "lng": -58.370577
   },
   {
    "titulo": "Las Ruinas",
@@ -31337,6 +33427,28 @@
    "lng": -58.446383
   },
   {
+   "titulo": "Marce del Boca, Zonic, Fei y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Biblioteca",
+   "barrio": "San Telmo",
+   "direccion": "México 524",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.614951,
+   "lng": -58.373528
+  },
+  {
    "titulo": "Memento Mori - La Forma Del Recuerdo",
    "categoria": "Teatro",
    "lugar": "Teatro El Extranjero",
@@ -31445,6 +33557,28 @@
    ],
    "lat": -34.578088,
    "lng": -58.438143
+  },
+  {
+   "titulo": "Pinta BA Photo 2026",
+   "categoria": "Feria",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Feria de fotografía de arte.",
+   "url": "https://www.laruralticket.com.ar/event/pintabaphoto2026",
+   "dominio": "laruralticket.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Rural Ticket"
+   ],
+   "lat": -34.579456,
+   "lng": -58.419536
   },
   {
    "titulo": "Pinta BAphoto 2026 (22ª edición)",
@@ -32184,13 +34318,14 @@
    "hora": "23:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
+   "descripcion": "Fiesta electrónica.",
    "url": "https://artlabpro.net/agenda/",
    "dominio": "artlabpro.net",
    "estado": "Próximo",
    "lugar_verificado": "ARTLAB",
    "fuentes": [
-    "ARTLAB"
+    "ARTLAB",
+    "Jodify"
    ],
    "lat": -34.586043,
    "lng": -58.446381
@@ -32372,6 +34507,28 @@
    "lng": -58.379031
   },
   {
+   "titulo": "Frank Borzage, un romántico en Hollywood - Parte 2",
+   "categoria": "Cine",
+   "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección de El ángel de la calle.",
+   "url": "https://complejoteatral.gob.ar/produccion/frank-borzage-un-romantico-en-hollywood-parte-2/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Frenesí",
    "categoria": "Teatro",
    "lugar": "Club De Teatro Defensores De Bravard",
@@ -32389,6 +34546,50 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Gueva, Adelina Sofia, Crom y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelino Freyre s/n",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.569608,
+   "lng": -58.420655
+  },
+  {
+   "titulo": "Gueva, Adelina Sofia, Cromind y Owners of Time",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelo Freyre s/n, Paseo de la Infanta",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta en Crobar.",
+   "url": "https://www.crobar.com.ar/fechas",
+   "dominio": "crobar.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Crobar",
+   "fuentes": [
+    "Crobar"
    ],
    "lat": "",
    "lng": ""
@@ -32499,6 +34700,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Indiehoy: Agenda de recitales"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Kurt Heisz",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Bali",
+   "barrio": "Costanera Norte",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -32746,6 +34969,72 @@
    "lng": ""
   },
   {
+   "titulo": "Manuela Fernández, Faustø y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Blow",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158
+  },
+  {
+   "titulo": "Momo Trosman - All Night Long",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Avant Garten",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 3883, Arco 10",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Set largo de Momo Trosman.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Nacjus, Mateo Tapia, Melod y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Biblioteca",
+   "barrio": "San Telmo",
+   "direccion": "México 524",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.614951,
+   "lng": -58.373528
+  },
+  {
    "titulo": "Nick Warren + Kevin Di Serna [DIA 1] - by FRAGMENT, AMK CLUB",
    "categoria": "Fiestas y electrónica",
    "lugar": "AMK Club",
@@ -32766,6 +35055,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Nick Warren, Kevin Di Serna y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Amerika",
+   "barrio": "Almagro",
+   "direccion": "Gascón 1040",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.598221,
+   "lng": -58.423542
   },
   {
    "titulo": "Noches de Buenos Aires",
@@ -32922,6 +35233,50 @@
    "lng": -58.416399
   },
   {
+   "titulo": "Pedro Gariani, Melania Won y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Dune Park",
+   "barrio": "Villa Crespo",
+   "direccion": "Aráoz 740",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.597437,
+   "lng": -58.433421
+  },
+  {
+   "titulo": "Pinta BAphoto",
+   "categoria": "Feria",
+   "lugar": "Av. Sarmiento 2704",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Feria en Av. Sarmiento 2704.",
+   "url": "https://vidrierabuenosaires.com/eventos/pinta-baphoto",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Programa 4 - Festival Dos Veces Bueno. Ariel Barchilón",
    "categoria": "Teatro",
    "lugar": "Teatro La Máscara",
@@ -32966,6 +35321,28 @@
    "lng": -58.446381
   },
   {
+   "titulo": "Quimey Saunders, Gero Ivan y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "Recorrido temático - Cafés Notables del Casco Histórico",
    "categoria": "Visita guiada",
    "lugar": "Adolfo Alsina & Defensa",
@@ -33008,6 +35385,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Sandra Mihanovich: Sandra en el Paraíso 4.0",
+   "categoria": "Música",
+   "lugar": "La Trastienda",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 460",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show de Sandra Mihanovich.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
+   "estado": "Próximo",
+   "lugar_verificado": "La Trastienda",
+   "fuentes": [
+    "La Trastienda"
+   ],
+   "lat": -34.613108,
+   "lng": -58.370577
   },
   {
    "titulo": "Somos Impro",
@@ -33234,18 +35633,19 @@
    "categoria": "Fiestas y electrónica",
    "lugar": "Dune Park",
    "barrio": "Villa Crespo",
-   "direccion": "Araoz 740",
+   "direccion": "Aráoz 740",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
    "hora": "23:59",
    "horarios": "Hasta las 06:00",
    "precio": "Consultar",
-   "descripcion": "Line-up: Nebula Estudio, Pedro Gariani, panko, Melania Wonder, Manu Barcelo",
-   "url": "https://ra.co/events/2558443",
+   "descripcion": "Nebula Estudio, Pedro Gariani, panko, Melania Wonder y Manu Barceló.",
+   "url": "https://ra.co/clubs/213422",
    "dominio": "ra.co",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Dune Park",
     "Resident Advisor: Buenos Aires"
    ],
    "lat": -34.597437,
@@ -33362,6 +35762,28 @@
    "lng": ""
   },
   {
+   "titulo": "Arno, David Triana y Gulp",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Casa Futuro",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Av. de Mayo",
    "categoria": "Visita guiada",
    "lugar": "Av. Rivadavia 321",
@@ -33404,6 +35826,50 @@
    ],
    "lat": -34.598535,
    "lng": -58.374719
+  },
+  {
+   "titulo": "Beico & D3fai, Ailen DC b2b Jansøund y Candela b2b Agus Freixa",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelo Freyre s/n, Paseo de la Infanta",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta en Crobar.",
+   "url": "https://www.crobar.com.ar/fechas",
+   "dominio": "crobar.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Crobar",
+   "fuentes": [
+    "Crobar"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Beico, D3FAI, Ailen DC y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelino Freyre s/n",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.569608,
+   "lng": -58.420655
   },
   {
    "titulo": "Ben Marcus en Humboldt (Niceto Club)",
@@ -33606,7 +36072,7 @@
   {
    "titulo": "Ciro y los Persas",
    "categoria": "Música",
-   "lugar": "Estadio Diego Armando Maradona (Argentinos Juniors)",
+   "lugar": "Estadio Diego Armando Maradona",
    "barrio": "La Paternal",
    "direccion": "Gavilán 2151",
    "fecha_inicio": "2026-10-24",
@@ -33614,16 +36080,39 @@
    "hora": "",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Recital en La Paternal.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
+   "descripcion": "Espectáculo en Estadio Diego Armando Maradona.",
+   "url": "https://vidrierabuenosaires.com/eventos/ciro-y-los-persas",
    "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Búsqueda: festivales"
    ],
    "lat": -34.606105,
    "lng": -58.47263
+  },
+  {
+   "titulo": "Club 69",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Club 69",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Criatura",
@@ -33780,6 +36269,28 @@
    "lng": ""
   },
   {
+   "titulo": "El Garage Motorshow 2026",
+   "categoria": "Feria",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra y encuentro de autos y motos.",
+   "url": "https://www.laruralticket.com.ar/event/el-garage-motorshow-2026",
+   "dominio": "laruralticket.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Rural Ticket"
+   ],
+   "lat": -34.579456,
+   "lng": -58.419536
+  },
+  {
    "titulo": "El Peor De Nuestros Dias",
    "categoria": "Teatro",
    "lugar": "Bululú, Club De Comedia",
@@ -33797,6 +36308,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Elio Riso, Tobías DL y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Parque de la Innovación",
+   "barrio": "Núñez",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica al aire libre.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -33912,6 +36445,28 @@
    "lng": -58.439477
   },
   {
+   "titulo": "Fabio Florido",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Blow",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Under Club.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158
+  },
+  {
    "titulo": "Fabio Florido 7 HORAS",
    "categoria": "Fiestas y electrónica",
    "lugar": "Under Club",
@@ -33934,6 +36489,28 @@
    "lng": -58.440158
   },
   {
+   "titulo": "Fabrizzio, Alejandria, Jul y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Melt Underground",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Feriado Puente en Eléctrica bar",
    "categoria": "Música",
    "lugar": "Honduras 5903",
@@ -33954,6 +36531,28 @@
    ],
    "lat": -34.581588,
    "lng": -58.439449
+  },
+  {
+   "titulo": "Festival Aconcagua",
+   "categoria": "Festival",
+   "lugar": "Hipódromo de Palermo",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Festival de música electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Fiesta!",
@@ -34155,6 +36754,28 @@
    "lng": -58.364869
   },
   {
+   "titulo": "Kenia, Dobao y Signo",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Lulú",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "LA FIESTA SANA en CASA TEMPLE | Sábado 24 de Octubre",
    "categoria": "Fiestas y electrónica",
    "lugar": "Casa Temple",
@@ -34265,26 +36886,27 @@
    "lng": ""
   },
   {
-   "titulo": "Luciano Pereyra en Movistar Arena",
+   "titulo": "Luciano Pereyra",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/luciano-pereyra-en-movistar-arena-3/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 65000",
+   "descripcion": "Recital.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Movistar Arena",
    "fuentes": [
+    "Movistar Arena",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.59426,
+   "lng": -58.448137
   },
   {
    "titulo": "Magnolia Cineclub presenta: Beetlejuice",
@@ -34461,6 +37083,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Nick Warren",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Amerika",
+   "barrio": "Almagro",
+   "direccion": "Gascón 1040",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": -34.598221,
+   "lng": -58.423542
   },
   {
    "titulo": "Noche De Cúpulas Presenta Get Back!",
@@ -34859,26 +37503,27 @@
    "lng": ""
   },
   {
-   "titulo": "Rocío Portillo - La Biblioteca, San Telmo - ALLMusicParties",
+   "titulo": "Rocio Portillo",
    "categoria": "Fiestas y electrónica",
    "lugar": "La Biblioteca",
    "barrio": "San Telmo",
-   "direccion": "",
+   "direccion": "México 524",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "23:59",
    "horarios": "Hasta las 07:00",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://ra.co/events/2538175",
-   "dominio": "ra.co",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Jodify",
     "Resident Advisor: Buenos Aires"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.614951,
+   "lng": -58.373528
   },
   {
    "titulo": "Roze",
@@ -34920,6 +37565,50 @@
    "lugar_verificado": "",
    "fuentes": [
     "Indiehoy: Agenda de recitales"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Sandra Mihanovich: Sandra en el Paraíso 4.0",
+   "categoria": "Música",
+   "lugar": "La Trastienda",
+   "barrio": "San Telmo",
+   "direccion": "Balcarce 460",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Nueva función.",
+   "url": "https://www.latrastienda.com/",
+   "dominio": "latrastienda.com",
+   "estado": "Próximo",
+   "lugar_verificado": "La Trastienda",
+   "fuentes": [
+    "La Trastienda"
+   ],
+   "lat": -34.613108,
+   "lng": -58.370577
+  },
+  {
+   "titulo": "Sature, Safe, Coty Ruiz y Mica Barreiro",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Mision",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -35008,6 +37697,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "TEKGEN - After Party",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "The Roxy",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "After party.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
    ],
    "lat": "",
    "lng": ""
@@ -35429,6 +38140,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Camilo",
+   "categoria": "Música",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Desde $ 55000",
+   "descripcion": "Recital. Hay una fecha más.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Movistar Arena",
+   "fuentes": [
+    "Movistar Arena"
+   ],
+   "lat": -34.59426,
+   "lng": -58.448137
   },
   {
    "titulo": "Camilo en Argentina",
@@ -36090,6 +38823,28 @@
    ],
    "lat": -34.58486,
    "lng": -58.452084
+  },
+  {
+   "titulo": "Nacho Scoppa, Tomas Bisquierto y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Rio",
+   "barrio": "Costanera Norte",
+   "direccion": "",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica.",
+   "url": "https://jodify.com.ar/events",
+   "dominio": "jodify.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Jodify"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Nadie Me Llamaría Para Esto",
@@ -36770,6 +39525,7 @@
    "lugar_verificado": "",
    "fuentes": [
     "Búsqueda: festivales",
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
@@ -37173,6 +39929,28 @@
    "lng": -58.369484
   },
   {
+   "titulo": "Las furias y Lo que le pasó a Reynoso",
+   "categoria": "Cine",
+   "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección de Las furias (Argentina, 1960), de Vlasta Lah.",
+   "url": "https://complejoteatral.gob.ar/produccion/las-furias-y-lo-que-le-paso-a-reynoso/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Los40 Primavera Pop en Teatro Ópera",
    "categoria": "Música",
    "lugar": "Teatro Ópera On",
@@ -37195,26 +39973,27 @@
    "lng": ""
   },
   {
-   "titulo": "Marc Anthony en Argentina",
+   "titulo": "Marc Anthony",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-10-28",
    "hora": "",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/marc-anthony-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 90000",
+   "descripcion": "Recital. Hay una fecha más.",
+   "url": "https://www.movistararena.com.ar/shows",
+   "dominio": "movistararena.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Movistar Arena",
    "fuentes": [
+    "Movistar Arena",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.59426,
+   "lng": -58.448137
   },
   {
    "titulo": "Nada Del Amor Me Produce Envidia",
@@ -37300,6 +40079,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "MALBA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Shohei Imamura bis",
+   "categoria": "Cine",
+   "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo del director Shohei Imamura.",
+   "url": "https://complejoteatral.gob.ar/produccion/shohei-imamura-bis/",
+   "dominio": "complejoteatral.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Complejo Teatral de Buenos Aires",
+   "fuentes": [
+    "Complejo Teatral de Buenos Aires"
    ],
    "lat": "",
    "lng": ""

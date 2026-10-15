@@ -2738,7 +2738,27 @@
    "instagram": "@ecdelsur",
    "origen": "data/lugares.json",
    "barrio": "Barracas",
-   "direccion": "Caseros Av. 1750"
+   "direccion": "Caseros Av. 1750",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "luzuriaga-club-social",
@@ -3470,7 +3490,27 @@
    "instagram": "@eccarlosgardel",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Olleros 3640"
+   "direccion": "Olleros 3640",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "fraga-cultural",
@@ -3736,7 +3776,27 @@
    "instagram": "@ccmpont",
    "origen": "data/lugares.json",
    "barrio": "Flores",
-   "direccion": "Artigas, Jose Gervasio, Gral. 202"
+   "direccion": "Artigas, Jose Gervasio, Gral. 202",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "la-cazona-de-flores",
@@ -5144,7 +5204,27 @@
    "instagram": "@chacradelosremedios",
    "origen": "data/lugares.json",
    "barrio": "Parque Avellaneda",
-   "direccion": "Directorio Av. Y Lacarra"
+   "direccion": "Directorio Av. Y Lacarra",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-adan-buenos-aires",
@@ -5157,7 +5237,34 @@
    "instagram": "@ecadanbuenosayres",
    "origen": "data/lugares.json",
    "barrio": "Parque Chacabuco",
-   "direccion": "Peron, Eva Av. 1400"
+   "direccion": "Peron, Eva Av. 1400",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-artes-de-parque-chacabuco",
@@ -5807,7 +5914,27 @@
    "instagram": "@centroarzuanomellidense",
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
-   "direccion": "Cochabamba 3245"
+   "direccion": "Cochabamba 3245",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La web de Google Sites ya no existe; el club tiene Instagram @centroarzuanomellidense."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-okinawense",
@@ -5860,7 +5987,27 @@
    "instagram": "@ecjcenteya",
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
-   "direccion": "San Juan Av. 3255"
+   "direccion": "San Juan Av. 3255",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-el-zonko",
@@ -6398,7 +6545,27 @@
    "instagram": "@ecplazadefensa",
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
-   "direccion": "Defensa 535"
+   "direccion": "Defensa 535",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "fedro",
@@ -7024,7 +7191,27 @@
    "instagram": "@resurgimiento.c.c",
    "origen": "data/lugares.json",
    "barrio": "Villa Del Parque",
-   "direccion": "Artigas, Jose Gervasio, Gral. 2262"
+   "direccion": "Artigas, Jose Gervasio, Gral. 2262",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "la-termomecanica",
@@ -7647,7 +7834,34 @@
    "instagram": "",
    "origen": "data/lugares.json",
    "barrio": "San Nicolás",
-   "direccion": "Av. Roque Sáenz Peña 1150"
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "entradas": [
+    "https://cineartecacodelphia.com.ar/"
+   ],
+   "comportamiento": {
+    "plataforma": "gaf-webapp (SPA)",
+    "fichas": "cada ficha /pelicula/86/<id> muestra días 15/10 a 21/10 como pestañas; las funciones están por día",
+    "extraccion": "portada lista las películas; la ficha da el rango de días"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera semanal; se cargó el rango de días visible en la ficha (15 a 21/10) sin horarios por función."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    }
+   ]
   },
   {
    "nombre": "Resident Advisor: Buenos Aires",
@@ -8579,7 +8793,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.calvaresicontemporaneo.com/",
-    "2026-10-15 [web] Web confirmada calvaresicontemporaneo.com (San Telmo)."
+    "2026-10-15 [web] Web confirmada calvaresicontemporaneo.com (San Telmo).",
+    "2026-10-15 [web] La primera de /muestras es la vigente; las demás son archivo."
    ],
    "id": "calvaresi-galeria",
    "entradas": [
@@ -8587,14 +8802,14 @@
    ],
    "comportamiento": {
     "plataforma": "Wix",
-    "fichas": "/muestras es una galería de imágenes sin enlaces visibles: hacer clic en la primera (la más reciente); las fechas están solo en la ficha."
+    "fichas": "la fecha está solo en la ficha; /muestras lista las muestras de la más reciente a la más antigua"
    },
    "ultimo": {
     "web": {
      "fecha": "2026-10-15",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 4
+     "paginas": 2
     }
    },
    "historial": [
@@ -8603,9 +8818,41 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
-   "barrio": "San Telmo"
+   "barrio": "San Telmo",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.calvaresicontemporaneo.com/ferias",
+     "texto": "Ferias",
+     "motivo": "ferias a las que va la galería, no muestras en sala",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.calvaresicontemporaneo.com/artistas-artists2",
+     "texto": "Artistas",
+     "motivo": "directorio de artistas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.calvaresicontemporaneo.com/publicaciones",
+     "texto": "Publicaciones",
+     "motivo": "publicaciones, no evento",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.calvaresicontemporaneo.com/prensa",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-15"
+    }
+   ]
   },
   {
    "nombre": "Mar Dulce Galería",
@@ -9046,7 +9293,46 @@
    "instagram": "@vidrierabuenosaires",
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
-    "2026-10-14: agenda cultural curada de CABA con fechas, dirección y precio"
+    "2026-10-14: agenda cultural curada de CABA con fechas, dirección y precio",
+    "2026-10-15 [web] Agenda curada; el listado completo está en /eventos. No hay fecha de inicio en \"Hasta X\": se carga desde hoy."
+   ],
+   "entradas": [
+    "https://vidrierabuenosaires.com/eventos"
+   ],
+   "comportamiento": {
+    "extraccion": "listado /eventos: tipo, título, fecha (\"Hasta X\", Hoy, Mañana, \"17 oct · +1\"), lugar; vigentes arriba y \"Finalizado\" al pie",
+    "ver_mas": "el enlace \"Ver más\" lleva a /newsletter: no apretarlo",
+    "copiar": "portapapeles"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://vidrierabuenosaires.com/cultura",
+     "texto": "Cultura",
+     "motivo": "notas y guías, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://vidrierabuenosaires.com/blog",
+     "texto": "Blog",
+     "motivo": "blog, no agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 43,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 43
+    }
    ]
   },
   {
@@ -9060,7 +9346,45 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
-    "2026-10-14: listado semanal de ferias de CABA con días y direcciones"
+    "2026-10-14: listado semanal de ferias de CABA con días y direcciones",
+    "2026-10-15 [web] Listado semanal de ferias artesanales de CABA con fechas; cada tarjeta duplicada en el DOM."
+   ],
+   "entradas": [
+    "https://www.vamosferia.com/ferias"
+   ],
+   "comportamiento": {
+    "extraccion": "tarjetas con enlace \"Ver feria\"; cada una aparece dos veces; sin ficha hace falta",
+    "copiar": "datos pasados por portapapeles"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.vamosferia.com/productos",
+     "texto": "Productos",
+     "motivo": "tienda de productos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.vamosferia.com/tiendas",
+     "texto": "Tiendas",
+     "motivo": "tiendas, no eventos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 30,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 30
+    }
    ]
   },
   {
@@ -9074,7 +9398,44 @@
    "instagram": "@larural_bsas",
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
-    "2026-10-14: ferias y exposiciones de La Rural"
+    "2026-10-14: ferias y exposiciones de La Rural",
+    "2026-10-15 [web] Portada con los próximos eventos de La Rural (ferias y exposiciones)."
+   ],
+   "entradas": [
+    "https://www.laruralticket.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "portada lista 4 eventos con fechas en el texto; sin scroll"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.laruralticket.com.ar/page/preguntas-frecuentes",
+     "texto": "Soporte",
+     "motivo": "preguntas frecuentes, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.laruralticket.com.ar/",
+     "texto": "Explorá los eventos que pasaron por La Rural Ticket en 2026",
+     "motivo": "archivo de eventos pasados",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
    ]
   },
   {
@@ -9177,7 +9538,40 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
-    "2026-10-15: agenda nacional de fiestas electrónicas con club y barrio"
+    "2026-10-15: agenda nacional de fiestas electrónicas con club y barrio",
+    "2026-10-15 [web] Agenda nacional: filtrar por barrio de CABA. El 15 a 18 tienen cobertura parcial acá (Buenos Aliens cubre el resto)."
+   ],
+   "entradas": [
+    "https://jodify.com.ar/events"
+   ],
+   "comportamiento": {
+    "scroll": "carga un día más al scrollear hasta el final; hay que scrollear hasta el 29 de octubre",
+    "extraccion": "tarjetas con link /event/<uuid>; venue como 'Club - Barrio'; mezcla todo el país",
+    "salida": "los resultados de javascript_tool se cortan en ~1000 caracteres: extraer en tandas"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://jodify.com.ar/",
+     "texto": "Jodishop",
+     "motivo": "tienda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 45,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 45
+    }
    ]
   },
   {
@@ -9255,7 +9649,62 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
-    "2026-10-15: club de electrónica; web confirmada en RA"
+    "2026-10-15: club de electrónica; web confirmada en RA",
+    "2026-10-15 [web] La agenda completa está en /fechas."
+   ],
+   "entradas": [
+    "https://www.crobar.com.ar/fechas"
+   ],
+   "comportamiento": {
+    "extraccion": "/fechas lista todas las fechas con día, sala, evento y line up; sin scroll largo"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://www.crobar.com.ar/club",
+     "texto": "Fechas de Crobar",
+     "motivo": "misma lista que /fechas filtrada por sala",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.crobar.com.ar/studio",
+     "texto": "Fechas de Studio Crobar",
+     "motivo": "misma lista que /fechas filtrada por sala",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.crobar.com.ar/jardin",
+     "texto": "Fechas de El Jardín",
+     "motivo": "misma lista que /fechas filtrada por sala",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.crobar.com.ar/sets",
+     "texto": "Live sets",
+     "motivo": "sets grabados, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.crobar.com.ar/nosotros",
+     "texto": "Nosotros",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 5,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    }
    ]
   },
   {
@@ -9297,7 +9746,50 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
-    "2026-10-15: club de house; web confirmada en RA"
+    "2026-10-15: club de house; web confirmada en RA",
+    "2026-10-15 [web] La agenda está en ra.co/clubs/124970; solo hay una fecha en la ventana (16/10)."
+   ],
+   "entradas": [
+    "https://ra.co/clubs/124970"
+   ],
+   "comportamiento": {
+    "agenda": "la web enlaza EVENTS a la página del club en Resident Advisor; la web propia no lista eventos"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://avantgarten.club/channels.html",
+     "texto": "Channels",
+     "motivo": "canales de música online, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://avantgarten.club/beer.html",
+     "texto": "Beer, drinks & food",
+     "motivo": "carta del bar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://avantgarten.club/rrhh.html",
+     "texto": "RRHH",
+     "motivo": "búsqueda de personal",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -9325,7 +9817,56 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
-    "2026-10-15: club de house; web confirmada en RA"
+    "2026-10-15: club de house; web confirmada en RA",
+    "2026-10-15 [web] La agenda vigente se lee en Resident Advisor (ra.co/clubs/213422); en la ventana solo figura el 23/10."
+   ],
+   "entradas": [
+    "https://ra.co/clubs/213422"
+   ],
+   "comportamiento": {
+    "agenda": "la web propia no lista fechas; el club y los tickets enlazan a ra.co/clubs/213422 y shpass"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://www.dunepark.club/biblioteca/",
+     "texto": "Biblioteca",
+     "motivo": "portal de notas y difusión, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.dunepark.club/galeria/",
+     "texto": "Galería",
+     "motivo": "fotos de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.dunepark.club/shop/",
+     "texto": "Shop",
+     "motivo": "tienda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://shpass.com.ar/productores/dune-park-6439",
+     "texto": "Tickets",
+     "motivo": "ticketera externa, misma agenda que RA",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -9339,7 +9880,30 @@
    "instagram": "@elsanmartinctba",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: teatros San Martín, Regio, Sarmiento, Alvear y De la Ribera; no estaban en la lista"
+    "2026-10-15: teatros San Martín, Regio, Sarmiento, Alvear y De la Ribera; no estaban en la lista",
+    "2026-10-15 [web] Agenda del Complejo Teatral (San Martín, Sarmiento, Alvear, Regio, El Plata, Lugones). Cine: horarios de cada ciclo en la ficha."
+   ],
+   "entradas": [
+    "https://complejoteatral.gob.ar/agenda/"
+   ],
+   "comportamiento": {
+    "extraccion": "/agenda lista tarjetas con '+ info'; cada ficha /produccion/<slug>/ trae las fechas y se puede leer con fetch desde la pestaña"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 22,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 22
+    }
    ]
   },
   {
@@ -9465,7 +10029,30 @@
    "instagram": "@latrastiendaoficial",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala de recitales"
+    "2026-10-15: sala de recitales",
+    "2026-10-15 [web] Cartelera en la portada."
+   ],
+   "entradas": [
+    "https://www.latrastienda.com/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista próximos shows con fecha y hora; sin scroll largo"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -9479,7 +10066,50 @@
    "instagram": "@movistararenaar",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: estadio de recitales"
+    "2026-10-15: estadio de recitales",
+    "2026-10-15 [web] Se cargó la primera fecha de cada show; las fechas adicionales ('y N más') están en cada ficha."
+   ],
+   "entradas": [
+    "https://www.movistararena.com.ar/shows"
+   ],
+   "comportamiento": {
+    "extraccion": "/shows lista tarjetas con título, primera fecha y 'y N fechas más'; las demás fechas están en la ficha"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.movistararena.com.ar/como-llegar",
+     "texto": "Cómo llegar",
+     "motivo": "información de acceso",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.movistararena.com.ar/premium",
+     "texto": "Premium",
+     "motivo": "venta de paquetes",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.movistararena.com.ar/preguntas-frecuentes",
+     "texto": "Preguntas frecuentes",
+     "motivo": "soporte",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 8,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
+    }
    ]
   },
   {
