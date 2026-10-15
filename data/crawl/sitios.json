@@ -2954,32 +2954,6 @@
    }
   },
   {
-   "id": "fundacion-hastinapura",
-   "nombre": "FUNDACION HASTINAPURA",
-   "tipo": "lugar",
-   "lugares": [
-    "FUNDACION HASTINAPURA"
-   ],
-   "web": "https://hastinapura.org.ar/",
-   "instagram": "",
-   "origen": "data/lugares.json",
-   "barrio": "Boedo",
-   "direccion": "San Juan Av. 3679",
-   "entradas": [
-    "https://hastinapura.org.ar/eventos/"
-   ],
-   "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
-   },
-   "ultimo": {
-    "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
-    }
-   }
-  },
-  {
    "id": "la-conversa",
    "nombre": "LA CONVERSA",
    "tipo": "lugar",
@@ -9114,7 +9088,68 @@
    "instagram": "@bairessecreta",
    "origen": "descubierto en Búsqueda: festivales el 2026-10-15",
    "notas": [
-    "2026-10-15: nota semanal con 30+ planes con lugar y fecha"
+    "2026-10-15: nota semanal con 30+ planes con lugar y fecha",
+    "2026-10-15 [web] Blog con scroll infinito: no usar preparar; leer la nota semanal y las portadas de Qué hacer, Cultura, Cine y Música."
+   ],
+   "entradas": [
+    "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+    "https://bairessecreta.com/que-hacer/",
+    "https://bairessecreta.com/cultura/",
+    "https://bairessecreta.com/cine/",
+    "https://bairessecreta.com/musica/"
+   ],
+   "comportamiento": {
+    "scroll": "NO scrollear: scroll infinito de notas viejas; ir a los enlaces del header",
+    "menu": "header: Qué hacer, Cultura, Cine, Música",
+    "extraccion": "leer la nota semanal de planes del fin de semana y abrir 2-3 notas de las secciones"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://bairessecreta.com/noticias/",
+     "texto": "Noticias",
+     "motivo": "noticias, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://bairessecreta.com/comer-y-beber/",
+     "texto": "Comer y beber",
+     "motivo": "gastronomía, no es agenda cultural",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://bairessecreta.com/deportes/",
+     "texto": "Deportes",
+     "motivo": "deportes, fuera de alcance",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://bairessecreta.com/escapadas/",
+     "texto": "Escapadas",
+     "motivo": "fuera de CABA",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://bairessecreta.com/bienestar-y-naturaleza/",
+     "texto": "Bienestar y naturaleza",
+     "motivo": "no es agenda cultural",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 20,
+     "paginas": 7
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 20
+    }
    ]
   },
   {
@@ -9156,7 +9191,57 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
-    "2026-10-15: agenda de música electrónica de Argentina"
+    "2026-10-15: agenda de música electrónica de Argentina",
+    "2026-10-15 [web] La portada trae un artículo destacado arriba y la agenda con fiestas de todo el país; filtrar las de CABA. No scrollear: cubre meses futuros."
+   ],
+   "entradas": [
+    "https://www.buenosaliens.com/"
+   ],
+   "comportamiento": {
+    "extraccion": "la agenda está en la portada; cada fiesta tiene fecha, club y line up; sin ficha propia",
+    "scroll": "no hace falta"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://www.buenosaliens.com/notas",
+     "texto": "notas",
+     "motivo": "notas y entrevistas, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.buenosaliens.com/musica",
+     "texto": "música",
+     "motivo": "sets y lanzamientos, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.buenosaliens.com/podcasts",
+     "texto": "podcasts",
+     "motivo": "podcasts, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.buenosaliens.com/foros",
+     "texto": "foros",
+     "motivo": "foros, no agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 20,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 20
+    }
    ]
   },
   {

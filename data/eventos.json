@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 84,
-  "con_eventos": 55
+  "capturas": 77,
+  "con_eventos": 57
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -15,6 +15,8 @@
   "ARTLAB",
   "Alternativa Teatral",
   "Arte al Día: agenda",
+  "Buenos Aires Secreta: planes del fin de semana",
+  "Buenos Aliens",
   "Búsqueda: ferias",
   "Búsqueda: festivales",
   "Búsqueda: fiestas techno y electrónica",
@@ -881,6 +883,28 @@
    "lng": ""
   },
   {
+   "titulo": "Pampa Cósmica de Pérez Celis",
+   "categoria": "Artes visuales",
+   "lugar": "Palacio Libertad",
+   "barrio": "Retiro",
+   "direccion": "Sarmiento 151",
+   "fecha_inicio": "2026-09-02",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingo de 14 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Videoinstalación inmersiva y 10 cuadros originales.",
+   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+   "dominio": "bairessecreta.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": -34.603557,
+   "lng": -58.369484
+  },
+  {
    "titulo": "Visita guiada patrimonial al Palacio Ceci",
    "categoria": "Visita guiada",
    "lugar": "Palacio Ceci",
@@ -939,7 +963,7 @@
    "url": "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
    "dominio": "buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "Museo del Humor (MuHu)",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
    "fuentes": [
     "Museo de Artes Plásticas Eduardo Sívori"
    ],
@@ -1028,7 +1052,7 @@
    "url": "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
    "dominio": "buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "Museo del Humor (MuHu)",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
    "fuentes": [
     "Museo de Artes Plásticas Eduardo Sívori"
    ],
@@ -1227,7 +1251,7 @@
    "url": "https://buenosaires.gob.ar/gcaba_historico/nos-preparamos-para-la-inauguracion-del-xxii-salon-de-arte-textil-2026",
    "dominio": "buenosaires.gob.ar",
    "estado": "En curso",
-   "lugar_verificado": "Museo del Humor (MuHu)",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
    "fuentes": [
     "Museo de Arte Popular José Hernández"
    ],
@@ -1501,13 +1525,13 @@
   {
    "titulo": "Viva Frida",
    "categoria": "Artes visuales",
-   "lugar": "Malba · Nivel 2",
+   "lugar": "MALBA",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
    "fecha_inicio": "2026-09-20",
    "fecha_fin": "2027-03-15",
    "hora": "",
-   "horarios": "Jueves a lunes de 12 a 20; miércoles de 11 a 20; martes cerrado",
+   "horarios": "Lunes, miércoles, jueves, viernes, sábados y domingos, de 12 a 20 h. Miércoles de 11 a 20 h.",
    "precio": "Consultar",
    "descripcion": "En el marco de los 25 años de Malba, llega &#34;Viva Frida&#34;, la exposición más importante que examina la vida, la obra y la construcción de identidad de una de las artistas más influyentes del sig",
    "url": "https://malba.org.ar/evento/viva-frida/",
@@ -1515,11 +1539,55 @@
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "MALBA",
-    "Turismo Buenos Aires: Qué hacer esta semana"
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.576882,
    "lng": -58.403392
+  },
+  {
+   "titulo": "Viva Frida",
+   "categoria": "Artes visuales",
+   "lugar": "Malba · Nivel 2",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-20",
+   "fecha_fin": "2027-03-15",
+   "hora": "",
+   "horarios": "Jueves a lunes de 12 a 20; miércoles de 11 a 20; martes cerrado",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://malba.org.ar/evento/viva-frida/",
+   "dominio": "malba.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Goya inédito: La cometa y La gallina ciega",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-09-21",
+   "fecha_fin": "2027-01-17",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Gratis",
+   "descripcion": "Dos tapices inéditos de Goya prestados por la Galería de las Colecciones Reales de España.",
+   "url": "https://bairessecreta.com/dos-obras-maestras-de-goya-por-primera-vez-en-argentina-cual-es-museo-de-buenos-aires-donde-podes-visitarlas-gratis/",
+   "dominio": "bairessecreta.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915
   },
   {
    "titulo": "Goya en Buenos Aires. Tapices de las Colecciones Reales de España",
@@ -1808,8 +1876,8 @@
    "lng": -58.38879
   },
   {
-   "titulo": "Casa FOA",
-   "categoria": "Artes visuales",
+   "titulo": "Casa FOA Buenos Aires 2026 Edición Palacio Molina",
+   "categoria": "Evento",
    "lugar": "Palacio Molina",
    "barrio": "Barracas",
    "direccion": "Av. Regimiento de Patricios 1053",
@@ -1818,36 +1886,16 @@
    "hora": "",
    "horarios": "Del 1 de octubre al 1 de noviembre, de 12 a 20 h.",
    "precio": "Consultar",
-   "descripcion": "La exposición de arquitectura y diseño interior llega al edificio de la ex fábrica Alpargatas, de fines del siglo XIX, con sus imponentes fachadas de ladrillo a la vista, arcos monumentales y techos d",
-   "url": "https://www.casafoa.com/",
-   "dominio": "casafoa.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana",
-    "Búsqueda: festivales"
-   ],
-   "lat": -34.62947,
-   "lng": -58.370663
-  },
-  {
-   "titulo": "Casa FOA Buenos Aires 2026 Edición Palacio Molina",
-   "categoria": "Evento",
-   "lugar": "Palacio Molina",
-   "barrio": "",
-   "direccion": "Av. Regimiento de Patricios 1053",
-   "fecha_inicio": "2026-10-01",
-   "fecha_fin": "2026-11-01",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
    "descripcion": "Casa FOA Buenos Aires 2026 Edición Palacio Molina está programado para el 01/10/2026 a las 12:00 en Palacio Molina, CABA. Consultá la fuente oficial antes de asistir para confirmar disponibilidad y co",
    "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/3MX8QTX5WCSX/casa-foa-buenos-aires-2026-edicion-palacio-molina",
    "dominio": "saleplan.ar",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
+    "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Búsqueda: festivales",
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.62947,
    "lng": -58.370663
@@ -2089,7 +2137,8 @@
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana"
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.586298,
    "lng": -58.392513
@@ -2603,13 +2652,13 @@
   {
    "titulo": "HASHTAG #4 | Datificio",
    "categoria": "Artes visuales",
-   "lugar": "Pabellón de las Bellas Artes (UCA)",
+   "lugar": "Pabellón de las Bellas Artes UCA",
    "barrio": "Puerto Madero",
    "direccion": "Alicia Moreau de Justo 1300",
    "fecha_inicio": "2026-10-05",
    "fecha_fin": "2026-10-20",
    "hora": "",
-   "horarios": "Todos los días de 11 a 19",
+   "horarios": "Todos los días de 11 a 19 h",
    "precio": "Gratis",
    "descripcion": "Muestra colectiva sobre huella digital, identidad virtual e inteligencia artificial.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
@@ -2617,6 +2666,7 @@
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": -34.612222,
@@ -3103,6 +3153,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Búsqueda: festivales"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
+   "titulo": "OFFNI: festival de cine fantástico",
+   "categoria": "Cine",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-09",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "43 películas de 20 países de cine fantástico, ciencia ficción, ufología y terror, paneles y feria de librerías.",
+   "url": "https://bairessecreta.com/llega-offni-cine-fest-2026-43-peliculas-de-ovnis-monstruos-y-fenomenos-extranos-con-entrada-gratis/",
+   "dominio": "bairessecreta.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.59761,
    "lng": -58.394459
@@ -5286,7 +5358,7 @@
    "lng": -58.445723
   },
   {
-   "titulo": "ADN PATIO: arte, moda y diseño",
+   "titulo": "ADN PATIO",
    "categoria": "Artes visuales",
    "lugar": "Patio Bullrich",
    "barrio": "Recoleta",
@@ -5296,12 +5368,13 @@
    "hora": "",
    "horarios": "",
    "precio": "Gratis",
-   "descripcion": "Muestra con piezas de archivo, prototipos y prendas de alta costura.",
+   "descripcion": "Muestra de arte, arquitectura y alta costura con piezas de archivo e instalaciones.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
    "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": -34.590311,
@@ -8950,6 +9023,28 @@
    "lng": -58.480045
   },
   {
+   "titulo": "2GTHR: Jast, Germán Cicala y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Morocco",
+   "barrio": "Costa Salguero",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "House y tech house con Jast, Germán Cicala b2b Mazzeo y Theo Grimoldi.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "8va Noche Porto Seguro by Memory",
    "categoria": "Evento",
    "lugar": "MOSCU",
@@ -9849,6 +9944,28 @@
    "lng": ""
   },
   {
+   "titulo": "Chino, Groovero y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "One More Club",
+   "barrio": "Villa Devoto",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con Chino y Groovero.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Ciberia",
    "categoria": "Teatro",
    "lugar": "NOAVESTRUZ ESPACIO DE CULTURA",
@@ -10027,9 +10144,9 @@
    "lng": -58.512491
   },
   {
-   "titulo": "Ciclo de álbumes completos: Para los árboles de Spinetta",
+   "titulo": "Ciclo de álbumes completos: Para los árboles (Spinetta)",
    "categoria": "Música",
-   "lugar": "Centro Cultural Recoleta · Terraza",
+   "lugar": "Centro Cultural Recoleta",
    "barrio": "Recoleta",
    "direccion": "Junín 1930",
    "fecha_inicio": "2026-10-16",
@@ -10037,12 +10154,13 @@
    "hora": "19:30",
    "horarios": "Viernes de octubre a las 19:30",
    "precio": "Gratis",
-   "descripcion": "Escucha de un álbum completo en la terraza.",
+   "descripcion": "Escucha de álbum completo en la terraza, cada viernes de octubre.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
    "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": -34.586298,
@@ -10339,6 +10457,50 @@
    "lng": -58.438143
   },
   {
+   "titulo": "DJ Tennis, Pabels y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelino Freyre s/n",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica en Crobar con DJ Tennis y Pabels.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": -34.569608,
+   "lng": -58.420655
+  },
+  {
+   "titulo": "David Löhlein, Federico Guerrero y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Nube",
+   "barrio": "Belgrano",
+   "direccion": "Av. Int. Güiraldes 2851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con David Löhlein y Federico Guerrero.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Degustação Vinhos Argentinos em português Brasil",
    "categoria": "Evento",
    "lugar": "La Cava Wine Store",
@@ -10538,6 +10700,28 @@
    ],
    "lat": -34.588738,
    "lng": -58.485236
+  },
+  {
+   "titulo": "Downtempo Rooftop: Hachede, Emabender y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Downtempo Rooftop",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Sesión downtempo en rooftop con Hachede y Emabender.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Días eternos",
@@ -14624,23 +14808,24 @@
    "titulo": "Posguerra presenta Todos Extraños",
    "categoria": "Música",
    "lugar": "Club Cultural Matienzo",
-   "barrio": "Colegiales",
-   "direccion": "Av. Juan B. Justo 2959",
+   "barrio": "Chacarita",
+   "direccion": "Av. Juan Bautista Justo 2959",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "La banda presenta su tercer disco.",
+   "descripcion": "Presentación del tercer disco de estudio de la banda.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
    "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
-   "lat": -34.603327,
-   "lng": -58.456663
+   "lat": -34.597508,
+   "lng": -58.448642
   },
   {
    "titulo": "Presentación Fanzine - Maquina Robot",
@@ -15584,6 +15769,28 @@
    "lng": ""
   },
   {
+   "titulo": "Sol Porro, Finally Alone y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Biblioteca",
+   "barrio": "San Telmo",
+   "direccion": "México 524",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta con Sol Porro, Finally Alone y Arlen Vano.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": -34.614951,
+   "lng": -58.373528
+  },
+  {
    "titulo": "Solidaridad franco-argentina en tiempos de dictadura. El papel de los artistas",
    "categoria": "Literatura y charlas",
    "lugar": "Alianza Francesa · Microcentro",
@@ -15892,6 +16099,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Th;en, No Name y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "The Bow",
+   "barrio": "Palermo",
+   "direccion": "Complejo Punta Carrasco, Av. Costanera y Av. Sarmiento",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Th;en (Alemania), No Name y Four H4nds.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
    ],
    "lat": "",
    "lng": ""
@@ -17056,6 +17285,28 @@
    "lng": -58.512909
   },
   {
+   "titulo": "Agus Olivo, Rixa y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Shamrock Basement",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con Agus Olivo y Rixa.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Ahora Carola",
    "categoria": "Teatro",
    "lugar": "Nün Teatro Bar",
@@ -17073,6 +17324,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Aldo Haydar, Gonzalo Cesar y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "One More Club",
+   "barrio": "Villa Devoto",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con Aldo Haydar y Gonzalo Cesar.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
    ],
    "lat": "",
    "lng": ""
@@ -17540,6 +17813,28 @@
    "lng": ""
   },
   {
+   "titulo": "Boris Brejcha, Ann Clue y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Mandarine Park",
+   "barrio": "Palermo",
+   "direccion": "Av. Costanera Norte y Av. Sarmiento",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Techno con Boris Brejcha y Ann Clue.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Boris Brejcha, Frieder & Jakob, Ann Clue",
    "categoria": "Fiestas y electrónica",
    "lugar": "Mandarine Park",
@@ -17560,6 +17855,28 @@
    ],
    "lat": -34.566252,
    "lng": -58.400952
+  },
+  {
+   "titulo": "Bs As Market",
+   "categoria": "Feria",
+   "lugar": "Plazas de Buenos Aires (a confirmar)",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "12:00",
+   "horarios": "Desde las 12 h",
+   "precio": "Gratis",
+   "descripcion": "Mercado gastronómico y de emprendedores al aire libre en una plaza distinta cada fin de semana.",
+   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+   "dominio": "bairessecreta.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Buenos Aires Lésbico - BookClub Sáfico x Paige Nichols - Maricafé Bookclub",
@@ -17738,6 +18055,29 @@
    "lng": ""
   },
   {
+   "titulo": "Charly sinfónico coral: homenaje a Charly García",
+   "categoria": "Música",
+   "lugar": "Palacio Libertad",
+   "barrio": "Retiro",
+   "direccion": "Sarmiento 151",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Concierto gratuito con más de 100 músicos de la Sinfónica Juvenil Nacional y el Coro Nacional de Música Argentina. Requiere reserva o retiro en boletería.",
+   "url": "https://bairessecreta.com/mas-de-100-musicos-en-escena-en-un-homenaje-sinfonico-y-gratuito-a-charly-garcia-donde-y-como-reservar/",
+   "dominio": "bairessecreta.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
+    "Búsqueda: festivales"
+   ],
+   "lat": -34.603557,
+   "lng": -58.369484
+  },
+  {
    "titulo": "Ciclo Arde Troya",
    "categoria": "Teatro",
    "lugar": "Código Montesco Teatro",
@@ -17826,22 +18166,23 @@
    "lng": -58.374434
   },
   {
-   "titulo": "Ciclo de Grandes Conciertos en la Facultad de Derecho",
+   "titulo": "Ciclo de Grandes Conciertos 2026",
    "categoria": "Música",
-   "lugar": "Facultad de Derecho (UBA)",
+   "lugar": "Facultad de Derecho UBA",
    "barrio": "Recoleta",
    "direccion": "Av. Pres. Figueroa Alcorta 2263",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-24",
-   "hora": "",
-   "horarios": "Sábados de octubre; el 17: 16 h Encuentro Coral, 18 h Orquesta de San Isidro",
+   "fecha_fin": "2026-10-17",
+   "hora": "16:00",
+   "horarios": "16 h Coro de la Facultad de Derecho y Coro del CPACF; 18 h Orquesta de San Isidro",
    "precio": "Gratis",
-   "descripcion": "Conciertos de cámara y orquesta con entrada libre por orden de llegada.",
+   "descripcion": "Conciertos de cámara y orquesta en el aula magna, entrada libre; se piden alimentos no perecederos.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
    "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": "",
@@ -18044,28 +18385,6 @@
    ],
    "lat": "",
    "lng": ""
-  },
-  {
-   "titulo": "Concierto sinfónico coral homenaje a Charly García",
-   "categoria": "Música",
-   "lugar": "Palacio Libertad · Auditorio Nacional",
-   "barrio": "San Nicolás",
-   "direccion": "Sarmiento 151",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-17",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Gratis",
-   "descripcion": "Más de 100 músicos en un homenaje sinfónico y coral a Charly García. Con reserva.",
-   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
-   "dominio": "bairessecreta.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales"
-   ],
-   "lat": -34.603557,
-   "lng": -58.369484
   },
   {
    "titulo": "Conyuges (Bodas De Oro En Terapia... Intensiva)",
@@ -18530,6 +18849,28 @@
    "lng": -58.485236
   },
   {
+   "titulo": "Downtempo Rooftop: Demattei, Mark y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Downtempo Rooftop",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Sesión downtempo en rooftop con Demattei y Mark.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "EL MAL - Sábado 17 de octubre de 2026",
    "categoria": "Evento",
    "lugar": "SALA CARAS Y CARETAS",
@@ -18726,6 +19067,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "El Jardín Suena",
+   "categoria": "Música",
+   "lugar": "Museo de Arte Español Enrique Larreta",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "Sábados de septiembre a noviembre, 17 h",
+   "precio": "Incluido en la entrada al museo",
+   "descripcion": "Ciclo de conciertos al aire libre en el jardín, del folklore a la electrónica.",
+   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+   "dominio": "bairessecreta.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": -34.560793,
+   "lng": -58.455542
   },
   {
    "titulo": "El Juego I -La Herencia-",
@@ -19299,6 +19662,28 @@
    ],
    "lat": -34.58784,
    "lng": -58.445885
+  },
+  {
+   "titulo": "Feria Matear",
+   "categoria": "Feria",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Catas guiadas de mate, coctelería de autor y Patio Matero con estaciones de agua caliente.",
+   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+   "dominio": "bairessecreta.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": -34.579456,
+   "lng": -58.419536
   },
   {
    "titulo": "Feria de Artesanos de Plaza Intendente Alvear (Recoleta)",
@@ -20073,26 +20458,49 @@
    "lng": -58.451976
   },
   {
-   "titulo": "Jazz en los andenes de Estación Coghlan",
+   "titulo": "Jazz al aire libre en Estación Coghlan",
    "categoria": "Música",
-   "lugar": "Estación Verde (Estación Coghlan)",
+   "lugar": "Bar Estación Verde (Estación Coghlan)",
    "barrio": "Coghlan",
    "direccion": "",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-24",
+   "fecha_fin": "2026-10-17",
    "hora": "16:30",
-   "horarios": "Sábados a las 16:30",
+   "horarios": "Todos los sábados 16:30 h",
    "precio": "Gratis",
-   "descripcion": "Jazz en vivo al aire libre en el bar Estación Verde.",
+   "descripcion": "Jazz en vivo en los andenes, entrada gratuita con contribución voluntaria.",
    "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
    "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "John Creamer, Soundexile y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Crobar",
+   "barrio": "Palermo",
+   "direccion": "Marcelino Freyre s/n",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con John Creamer, Soundexile, Nahs y Kayla Shams.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": -34.569608,
+   "lng": -58.420655
   },
   {
    "titulo": "Juan Wauters en Argentina",
@@ -21063,6 +21471,50 @@
    "lng": ""
   },
   {
+   "titulo": "Lee Burridge, Danny Tenaglia y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Ciudad Universitaria",
+   "barrio": "Núñez",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de música electrónica con Lee Burridge y Danny Tenaglia.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Leo Janeiro, Inda Jani y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Lulú Palermo",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con Leo Janeiro e Inda Jani.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Leticia Brédice en Milagro",
    "categoria": "Teatro",
    "lugar": "Palacio Libertad Domingo F. Sarmiento",
@@ -21520,6 +21972,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Marcelo Fratini y Nicolás Muller",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Caix",
+   "barrio": "Costa Salguero",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Trance con Marcelo Fratini y Nicolás Muller.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
    ],
    "lat": "",
    "lng": ""
@@ -22911,6 +23385,28 @@
    "lng": ""
   },
   {
+   "titulo": "Rafa Barrios, Tobias Gerard y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Archi",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta electrónica con Rafa Barrios y Tobias Gerard.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Raphael: Raphaelísimo Tour 2026",
    "categoria": "Música",
    "lugar": "Teatro Gran Rex",
@@ -23681,6 +24177,28 @@
    "lng": ""
   },
   {
+   "titulo": "Tantum y Facundo Losardo",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Biblioteca",
+   "barrio": "San Telmo",
+   "direccion": "México 524",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta con Tantum (Holanda) y Facundo Losardo.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": -34.614951,
+   "lng": -58.373528
+  },
+  {
    "titulo": "Temer Partir",
    "categoria": "Teatro",
    "lugar": "Nün Teatro Bar",
@@ -24055,6 +24573,28 @@
    "lng": -58.449904
   },
   {
+   "titulo": "Under Club: Klauss, Ana Helder y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Blow",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Techno con Klauss, Ana Helder y Manuela S.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158
+  },
+  {
    "titulo": "Unos",
    "categoria": "Teatro",
    "lugar": "CULTURAL MORAN",
@@ -24226,6 +24766,7 @@
    "lugar_verificado": "",
    "fuentes": [
     "Turismo Buenos Aires: Qué hacer esta semana",
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": -34.569771,
@@ -27509,6 +28050,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Rio Electronic: Ann Clue, Frieder y más",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Punta Carrasco",
+   "barrio": "Palermo",
+   "direccion": "Av. Costanera y Sarmiento",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rio Electronic con Ann Clue y Frieder.",
+   "url": "https://www.buenosaliens.com/",
+   "dominio": "buenosaliens.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aliens"
    ],
    "lat": "",
    "lng": ""
@@ -35154,22 +35717,23 @@
    "lng": -58.434134
   },
   {
-   "titulo": "Hanguk Fest 2026",
+   "titulo": "Haguk Fest 2026",
    "categoria": "Festival",
    "lugar": "Parque Los Andes",
    "barrio": "Chacarita",
    "direccion": "Av. Corrientes y Jorge Newbery",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
-   "hora": "",
-   "horarios": "",
+   "hora": "12:00",
+   "horarios": "12 a 19 h",
    "precio": "Gratis",
-   "descripcion": "Festival gratuito de cultura coreana.",
-   "url": "https://www.eldestapeweb.com/",
-   "dominio": "eldestapeweb.com",
+   "descripcion": "Primer festival coreano al aire libre con más de 50 stands, comida, shows en vivo y K-Beauty.",
+   "url": "https://bairessecreta.com/comida-coreana-shows-en-vivo-y-hasta-stands-de-k-beauty-en-haku-fest-el-primer-festival-coreano-de-buenos-aires-entrada-gratuita/",
+   "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Búsqueda: festivales"
    ],
    "lat": "",
@@ -36300,6 +36864,28 @@
    "lng": -58.438913
   },
   {
+   "titulo": "Gala Colección AMALITA con Nadine Sierra",
+   "categoria": "Música",
+   "lugar": "Colección de Arte Amalia Lacroze de Fortabat",
+   "barrio": "Puerto Madero",
+   "direccion": "",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Desde $ 330000",
+   "descripcion": "La soprano Nadine Sierra interpreta tres canciones, con arte y brindis frente al dique.",
+   "url": "https://bairessecreta.com/nadine-sierra-concierto-coleccion-amalita-buenos-aires/",
+   "dominio": "bairessecreta.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Guitarras que cuentan, pianos que cantan",
    "categoria": "Música",
    "lugar": "Espacio Cultural de la Biblioteca del Congreso de la Nación",
@@ -36567,19 +37153,20 @@
    "titulo": "Feria del Libro Antiguo de Buenos Aires",
    "categoria": "Feria",
    "lugar": "Palacio Libertad",
-   "barrio": "San Nicolás",
+   "barrio": "Retiro",
    "direccion": "Sarmiento 151",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-11-01",
    "hora": "",
    "horarios": "",
    "precio": "Gratis",
-   "descripcion": "19ª edición con las principales librerías anticuarias del país.",
-   "url": "https://www.timeout.com/es/buenos-aires/que-hacer-este-mes-agenda",
-   "dominio": "timeout.com",
+   "descripcion": "Libros antiguos, ediciones raras, grabados, mapas y afiches, con talleres y mesas redondas.",
+   "url": "https://bairessecreta.com/feria-del-libro-antiguo-de-buenos-aires/",
+   "dominio": "bairessecreta.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Buenos Aires Secreta: planes del fin de semana",
     "Time Out Buenos Aires: Agenda"
    ],
    "lat": -34.603557,
