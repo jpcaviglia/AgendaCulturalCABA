@@ -251,6 +251,25 @@ main { flex: 1; padding-top: 24px; padding-bottom: 32px; }
 .enlace-lugar:hover { color: var(--acento); text-decoration-color: var(--acento); }
 .enlace-lugar:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 
+/* Favoritos */
+.boton-favorito[aria-pressed="true"] { background: var(--aviso-suave); border-color: var(--aviso-suave); color: var(--aviso); }
+.etiqueta.aviso { background: var(--aviso-suave); color: var(--aviso); }
+.cuenta {
+  display: inline-block;
+  min-width: 1.4em;
+  padding: 0 6px;
+  margin-left: 2px;
+  border-radius: 999px;
+  background: var(--acento);
+  color: var(--superficie);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+.acciones-favoritos { margin: 0 0 12px; }
+.acciones-favoritos:has(> [hidden]:only-child) { display: none; }
+
 /* Botones de la tarjeta: Agendar y + info */
 .acciones { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .boton {

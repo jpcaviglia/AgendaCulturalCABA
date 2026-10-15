@@ -61,6 +61,89 @@
   // Un lugar con sala ("Malba · Auditorio") se agrupa con el lugar ("Malba").
   const lugarBase = (lugar) => (lugar || "").split(" · ")[0].trim();
 
+  // ---- Favoritos (en este navegador) ----
+  // Cada corrida rehace data/eventos.json, así que se guarda una copia del evento junto con su id (estable entre
+  // corridas, ver id_estable en scripts/armar_agenda.py): si el evento sigue en la agenda se actualiza con los datos
+  // nuevos; si salió, se sigue viendo con la copia guardada.
+  const CLAVE_FAVORITOS = "agenda-cultural-caba:favoritos";
+  let favoritos = {};
+  try {
+    favoritos = JSON.parse(localStorage.getItem(CLAVE_FAVORITOS) || "{}") || {};
+  } catch {
+    favoritos = {};
+  }
+  const guardarFavoritos = () => {
+    try {
+      localStorage.setItem(CLAVE_FAVORITOS, JSON.stringify(favoritos));
+    } catch {
+      // Navegador sin almacenamiento (modo privado, bloqueado): los favoritos duran solo esta visita.
+    }
+    const n = Object.keys(favoritos).length;
+    $("cuenta-favoritos").textContent = n;
+    $("cuenta-favoritos").hidden = n === 0;
+  };
+  const esFavorito = (e) => Boolean(e.id && favoritos[e.id]);
+
+  function botonFavorito(e) {
+    const b = boton("", "boton boton-favorito", () => {
+      if (esFavorito(e)) delete favoritos[e.id];
+      else favoritos[e.id] = { evento: e, guardado: new Date().toISOString() };
+      guardarFavoritos();
+      pintar();
+      if (!$("vista-favoritos").hidden) renderFavoritos();
+    });
+    const pintar = () => {
+      const si = esFavorito(e);
+      b.textContent = si ? "★ Guardado" : "☆ Guardar";
+      b.setAttribute("aria-pressed", String(si));
+      b.title = si ? "Quitar de favoritos" : "Guardar en favoritos";
+    };
+    pintar();
+    return b;
+  }
+
+  function renderFavoritos() {
+    const actuales = new Map(eventos.map((e) => [e.id, e]));
+    const hoy = hoyIso();
+    let cambio = false;
+    const items = Object.entries(favoritos).map(([id, f]) => {
+      const vivo = actuales.get(id);
+      if (vivo && JSON.stringify(vivo) !== JSON.stringify(f.evento)) {
+        f.evento = vivo; // datos al día
+        cambio = true;
+      }
+      const e = vivo || f.evento;
+      const termino = (e.fecha_fin || e.fecha_inicio) < hoy && e.estado !== "En curso";
+      const aviso = vivo ? "" : termino ? "Terminó" : "Ya no figura en la agenda";
+      return { e, aviso, termino: !vivo && termino };
+    });
+    if (cambio) guardarFavoritos();
+    // Primero lo que sigue vigente, por fecha; al final lo que ya terminó.
+    items.sort((a, b) => (a.termino - b.termino) || a.e.fecha_inicio.localeCompare(b.e.fecha_inicio));
+    $("lista-favoritos").replaceChildren(...items.map(({ e, aviso }) => tarjetaEvento(e, aviso)));
+    pintarVacio("vacio-favoritos", "lista-favoritos", items.length === 0);
+    const terminados = items.filter((x) => x.termino).length;
+    $("borrar-terminados").hidden = terminados === 0;
+    $("resumen-favoritos").textContent = items.length
+      ? `${items.length} ${items.length === 1 ? "evento guardado" : "eventos guardados"} en este navegador` +
+        (terminados ? ` (${terminados} ya ${terminados === 1 ? "terminó" : "terminaron"}).` : ".")
+      : "Los eventos que guardes con ☆ aparecen acá. Se guardan en este navegador.";
+  }
+
+  function iniciarFavoritos() {
+    guardarFavoritos();
+    $("borrar-terminados").addEventListener("click", () => {
+      const hoy = hoyIso();
+      const vigentes = new Set(eventos.map((e) => e.id));
+      for (const [id, f] of Object.entries(favoritos)) {
+        const e = f.evento;
+        if (!vigentes.has(id) && (e.fecha_fin || e.fecha_inicio) < hoy) delete favoritos[id];
+      }
+      guardarFavoritos();
+      renderFavoritos();
+    });
+  }
+
   // Horas publicadas de un evento, en minutos desde la medianoche: "hora" ("20:30"), cada "HH:MM" de
   // "horarios" ("vie 20:30 | dom 19:30") y los rangos "de 11 a 19 h". Vacío si no publica ningún horario.
   const aMinutos = (h, m = 0) => (h <= 24 && m < 60 ? h * 60 + m : null);
@@ -76,8 +159,9 @@
     return e._horas;
   }
 
-  function tarjetaEvento(e) {
+  function tarjetaEvento(e, aviso = "") {
     const etiquetas = crear("div", { class: "etiquetas" }, [
+      aviso ? crear("span", { class: "etiqueta aviso" }, [document.createTextNode(aviso)]) : null,
       e.categoria ? crear("span", { class: "etiqueta categoria" }, [document.createTextNode(e.categoria)]) : null,
       e.precio === "Gratis" ? crear("span", { class: "etiqueta gratis" }, [document.createTextNode("Gratis")]) : null,
       e.estado === "En curso" ? crear("span", { class: "etiqueta" }, [document.createTextNode("En cartel")]) : null,
@@ -89,6 +173,7 @@
     const nombreLugar = e.lugar
       ? boton(e.lugar, "enlace-lugar", () => {
           $("lugar-evento").value = lugarBase(e.lugar);
+          if (!$("vista-favoritos").hidden) location.hash = "#eventos"; // desde Favoritos, se va a la agenda
           renderEventos();
           $("filtros-eventos").scrollIntoView({ behavior: "smooth", block: "start" });
         })
@@ -114,7 +199,7 @@
     const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
     const pie = crear("div", { class: "pie-tarjeta" }, [
       crear("span", { class: "dato" }, [document.createTextNode(textoPrecio)]),
-      crear("div", { class: "acciones" }, [menuCalendario(e), masInfo]),
+      crear("div", { class: "acciones" }, [e.id ? botonFavorito(e) : null, menuCalendario(e), masInfo]),
     ]);
 
     return crear("li", { class: "tarjeta" }, [etiquetas, titulo, lugar, ubicacion, cuando, horario, pie]);
@@ -451,12 +536,14 @@
 
   // ---- Navegación entre vistas ----
   function mostrarVista() {
-    const vista = ["#lugares", "#mapa"].includes(location.hash) ? location.hash.slice(1) : "eventos";
+    const vista = ["#lugares", "#mapa", "#favoritos"].includes(location.hash) ? location.hash.slice(1) : "eventos";
     $("vista-eventos").hidden = vista !== "eventos";
     $("vista-lugares").hidden = vista !== "lugares";
     $("vista-mapa").hidden = vista !== "mapa";
+    $("vista-favoritos").hidden = vista !== "favoritos";
+    if (vista === "favoritos" && eventos.length) renderFavoritos();
     // Los filtros de eventos son los mismos en Eventos y en Mapa: se mueve el mismo formulario.
-    if (vista !== "lugares") {
+    if (vista === "eventos" || vista === "mapa") {
       $(`vista-${vista}`).querySelector(".cabecera-vista").after($("filtros-eventos"));
       // La lista y el mapa se vuelven a dibujar con lo que dicen los campos, por si quedaron desfasados.
       if (eventos.length) renderEventos();
@@ -480,6 +567,7 @@
   async function iniciar() {
     window.addEventListener("hashchange", mostrarVista);
     iniciarPanel();
+    iniciarFavoritos();
     // Un menú "Agendar" abierto se cierra al tocar en otro lado.
     document.addEventListener("click", (ev) => {
       for (const m of document.querySelectorAll(".menu-calendario[open]")) if (!m.contains(ev.target)) m.open = false;
@@ -494,6 +582,7 @@
       ]);
       iniciarEventos(eventosDatos);
       iniciarLugares(lugaresDatos);
+      if (location.hash === "#favoritos") renderFavoritos();
     } catch (error) {
       $("resumen-ventana").textContent = "No se pudo cargar la agenda. Intentá de nuevo más tarde.";
       console.error(error);

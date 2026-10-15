@@ -16,6 +16,7 @@
         <a href="#eventos" data-vista="eventos" class="activa">Eventos</a>
         <a href="#mapa" data-vista="mapa">Mapa</a>
         <a href="#lugares" data-vista="lugares">Lugares</a>
+        <a href="#favoritos" data-vista="favoritos">Favoritos <span id="cuenta-favoritos" class="cuenta" hidden></span></a>
       </nav>
     </div>
   </header>
@@ -99,6 +100,18 @@
       <p id="resumen-lugares" class="suave"></p>
       <p id="vacio-lugares" class="vacio" hidden>No hay lugares con esos filtros.</p>
       <ul id="lista-lugares" class="tarjetas"></ul>
+    </section>
+
+    <section id="vista-favoritos" aria-labelledby="titulo-favoritos" hidden>
+      <div class="cabecera-vista">
+        <h1 id="titulo-favoritos">Mis favoritos</h1>
+        <p id="resumen-favoritos" class="suave">Los eventos que guardes con ☆ aparecen acá. Se guardan en este navegador.</p>
+      </div>
+      <p class="acciones-favoritos">
+        <button type="button" class="boton" id="borrar-terminados" hidden>Quitar los que terminaron</button>
+      </p>
+      <p id="vacio-favoritos" class="vacio" hidden>Todavía no guardaste eventos. Tocá ☆ Guardar en cualquier evento.</p>
+      <ul id="lista-favoritos" class="tarjetas"></ul>
     </section>
   </main>
 

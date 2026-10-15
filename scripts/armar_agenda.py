@@ -10,6 +10,7 @@ quita duplicados entre fuentes y actualiza el estado de cada lugar en data/lugar
 Las capturas de más de MAX_EDAD_DIAS se ignoran: si un sitio no se pudo volver a rastrear, sus eventos
 viejos se mantienen unos días y después se caen solos.
 """
+import hashlib
 import sys
 from datetime import date
 
@@ -21,7 +22,7 @@ SALIDA = DATOS / "eventos.json"
 MAX_EDAD_DIAS = 10
 # Instagram se rota entre corridas por su límite de ritmo, así que sus capturas duran más.
 MAX_EDAD_DIAS_INSTAGRAM = 21
-CAMPOS_PUBLICOS = ("titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
+CAMPOS_PUBLICOS = ("id", "titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
                    "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng", "embebible")
 TIPO_DEDUP = {"lugar": "sitio", "galeria": "sitio", "agregador": "agregador", "descubrimiento": "agregador"}
 # Estado del rastreo web -> estado que muestra la pestaña Lugares (assets/app.js).
@@ -69,6 +70,54 @@ def leer_capturas():
             e["dominio"] = dominio(e.get("url", ""))
             crudos.append(e)
     return crudos, usadas, viejas
+
+
+def id_estable(e):
+    """Identificador que se mantiene entre corridas (la web guarda los favoritos con él). Sale del título y el
+    lugar; en un evento de un solo día también de la fecha (dos recitales del mismo ciclo son eventos distintos),
+    pero no en una obra o muestra con varias fechas, que siguen siendo la misma aunque cambie la primera."""
+    from deduplicar import norm_lugar, norm_titulo
+    # Hasta 2 días cuenta como un solo día: una fiesta que termina de madrugada viene como "del 20 al 21".
+    fin = e.get("fecha_fin") or e["fecha_inicio"]
+    un_dia = (date.fromisoformat(fin) - date.fromisoformat(e["fecha_inicio"])).days <= 1
+    base = f"{norm_titulo(e['titulo'])}|{norm_lugar(e.get('lugar', ''))}|{e['fecha_inicio'] if un_dia else ''}"
+    return hashlib.sha1(base.encode("utf-8")).hexdigest()[:12]
+
+
+def unir_temporadas(eventos, fusionar):
+    """Une la misma obra o muestra (mismo título y lugar, fechas que se superponen) que dos fuentes publican con
+    distinto día de inicio ("Santos Vega" desde el 3/9 y desde el 15/10): la deduplicación por día no las junta.
+    Queda el primer día y el último. Devuelve (eventos, unidos)."""
+    grupos = {}
+    for e in eventos:
+        if e.get("fecha_fin") and (date.fromisoformat(e["fecha_fin"]) - date.fromisoformat(e["fecha_inicio"])).days > 1:
+            grupos.setdefault(id_estable(e), []).append(e)
+    sobran = set()
+    for g in grupos.values():
+        if len(g) < 2:
+            continue
+        g.sort(key=lambda e: e["fecha_inicio"])
+        actual = [g[0]]
+        for e in g[1:]:
+            if e["fecha_inicio"] <= max(x["fecha_fin"] for x in actual):
+                actual.append(e)
+                continue
+            _unir(actual, fusionar, sobran)
+            actual = [e]
+        _unir(actual, fusionar, sobran)
+    unidos = [e for e in eventos if id(e) not in sobran]
+    return unidos, len(eventos) - len(unidos)
+
+
+def _unir(grupo, fusionar, sobran):
+    if len(grupo) < 2:
+        return
+    u = fusionar(grupo)
+    u["fecha_inicio"] = min(e["fecha_inicio"] for e in grupo)
+    u["fecha_fin"] = max(e["fecha_fin"] for e in grupo)
+    grupo[0].clear()
+    grupo[0].update(u)
+    sobran.update(id(e) for e in grupo[1:])
 
 
 def completar_lugar(e, lugares_por_nombre):
@@ -120,6 +169,8 @@ def main():
     from duplicados import aplicar_iguales
     eventos, revisados = aplicar_iguales(eventos, fusionar)
     duplicados += revisados
+    eventos, mismas_temporadas = unir_temporadas(eventos, fusionar)
+    duplicados += mismas_temporadas
     from direcciones import completar
     sin_dir = sum(1 for e in eventos if e.get("lugar") and not e.get("direccion"))
     completados, fichas = completar(eventos, consultar=not simular and "--sin-geo" not in sys.argv)
@@ -150,6 +201,8 @@ def main():
         cache = leer_json(CACHE, {})
         for e in eventos:
             e["embebible"] = bool(cache.get(e.get("dominio", ""), {}).get("ok"))
+    for e in eventos:
+        e["id"] = id_estable(e)
     eventos = [{k: e.get(k, "") for k in CAMPOS_PUBLICOS} for e in eventos]
 
     por_cat = {}
