@@ -94,6 +94,31 @@ navegador solo para lo que el texto no resuelve: fichas con la fecha de cierre, 
 sitio donde el texto no muestra ningún evento (para marcarlo vacío hay que revisarlo en el navegador,
 regla 2).
 
+**Leer otras páginas sin navegador.** El texto del sondeo tiene la portada y hasta 5 páginas, cortado a
+~30.000 caracteres: muchas veces la agenda completa está en otra página del mismo sitio. Pedila con
+
+```bash
+python scripts/sondear.py --leer <url> [--desde "<texto>"] [--max N] [--timeout 45]
+```
+
+que imprime el estado, los eventos JSON-LD de la página y el texto con los enlaces. Lo que funcionó:
+
+- el filtro del mes o del calendario completo (`?filtro=mes`, `/calendario/`), no la vista de la semana;
+- páginas por día (`funciones-AAAAMMDD.html`) cuando la cartelera solo dice "SÁB 20 HS";
+- fichas de cada obra o actividad para días, hora, estreno, última función y precio;
+- el listado de The Events Calendar (`/eventos/`) trae JSON-LD aunque la API esté cerrada (403);
+- fechas en la URL de la ficha (`…-jueves-22-de-octubre-21-h-2026/`);
+- en ticketeras como revamos.com las fechas de una obra con varias funciones están en el código de la
+  página (`ticketsByDate`).
+
+Los listados paginados no siempre están en orden de fecha: recorré `page/2`, `page/3`… hasta que todo
+quede después de la ventana. Si el sitio es lento, `--timeout 45` (y anotá `espera_seg`). Lo que no sale
+así (fechas solo en Plateanet u otra app, afiches, gacetillas en imagen) queda para el navegador: no
+guardes el sitio con la mitad de la agenda, porque sale de la cola.
+
+Si guardás dos veces el mismo sitio en el día (para corregir algo), la nota nueva reemplaza a la anterior
+y un enlace que pasa a `visitado: true` deja de estar descartado.
+
 Para cada sitio: rastrearlo (sección 3 o 4), escribir el resultado en `data/crawl/tmp/<id>.json`
 (formato en la sección 5) y guardarlo:
 
@@ -201,6 +226,13 @@ Cuándo: lo que esté en curso o empiece dentro de los próximos 14 días (la ve
 funciones todos los viernes de octubre es un solo evento con `fecha_inicio`, `fecha_fin` y `horarios`.
 Una inauguración con día y hora propios va como evento aparte.
 
+- Obra **en cartel** que solo dice el día de la semana ("SÁBADOS 19 HS", sin fechas): `fecha_inicio` y
+  `fecha_fin` son la primera y la última de esas funciones dentro de la ventana, y `horarios` el texto
+  original. Si dice "última función" sin fecha, no se carga.
+- Visitas guiadas permanentes (todos los días, o "lunes 11 h" sin fin anunciado): un evento con
+  `vigente_sin_fin: true`, `fecha_inicio` la del estreno si la dicen o la de hoy, y los horarios y precios.
+- Eventos **virtuales** u online: no se cargan, aunque el organizador sea un espacio de CABA.
+
 ### 3.4 Enlaces nuevos
 
 - `externos` de `preparar` que sean otro espacio cultural de CABA (galería, museo, sala, centro cultural,
@@ -241,6 +273,12 @@ al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a
    Si un post nuevo es de hace más de 2 meses y los anteriores también, no hace falta seguir bajando.
 3. Si el texto no tiene la fecha, mirá el afiche (captura).
 4. Seguí el enlace de la bio (`bio` o `enlace_bio`): Linktree, ticketera o web. Aplicá la sección 3.
+
+**Antes de abrir Instagram**, si el sitio tiene `enlace_bio`, leelo sin navegador
+(`python scripts/sondear.py --leer <enlace_bio>`). Muchos Linktree listan cada show con la fecha en el
+título y enlace a la ticketera, que se lee igual. Si ahí está la agenda de la ventana, guardá el canal
+`instagram` con esos eventos, `enlaces_candidatos` = el enlace de la bio visitado, `posts: []` y
+`paginas_instagram: 0` (no gasta cupo), y anotá en `comportamiento` que la agenda está en la bio.
 5. En el resultado poné:
    - `posts`: **todas** las URLs de posts de la grilla que consideraste, nuevas y ya vistas, con
      `publicado` si lo sabés: `[{"url": "...", "publicado": "2026-10-10"}]`. El script agrega solo los

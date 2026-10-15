@@ -329,8 +329,14 @@
    "instagram": "",
    "origen": "agregado a pedido del usuario el 2026-10-15",
    "notas": [
-    "2026-10-15: ticketera; Emergente Club Almagro vende sus entradas acá (events.flashpass.com.ar/eventos/<slug>). Puede traer eventos de otros lugares y de fuera de CABA: filtrar los de CABA."
-   ]
+    "2026-10-15: ticketera; Emergente Club Almagro vende sus entradas acá (events.flashpass.com.ar/eventos/<slug>). Puede traer eventos de otros lugares y de fuera de CABA: filtrar los de CABA.",
+    "2026-10-15 [sondeo sin navegador] Sin navegador solo se ven eventos destacados (Búzios, Praia do Rosa, Hurlingham); falta encontrar el listado completo filtrado por CABA."
+   ],
+   "comportamiento": {
+    "portada": "la portada destaca ~12 eventos (muchos en Brasil y fuera de CABA); no lista todo lo que vende",
+    "fichas": "events.flashpass.com.ar/eventos/<slug> trae JSON-LD de un solo evento",
+    "busqueda": "buscar en el navegador un listado o filtro por ciudad (Buenos Aires/CABA); Emergente Club Almagro vende acá"
+   }
   },
   {
    "id": "arte-al-dia-agenda",
@@ -3019,7 +3025,13 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "comportamiento": {
+    "web": "blog de Blogspot sin novedades desde 2012-2013 (la página de talleres tiene un comentario de 2023)"
+   },
+   "notas": [
+    "2026-10-15 [sondeo sin navegador] El blog está abandonado: conviene buscar Instagram u otra web; si no hay, revisar si el espacio sigue abierto."
+   ]
   },
   {
    "id": "panda-rojo-espacio-cultural",
@@ -3348,7 +3360,18 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "comportamiento": {
+    "agenda": "la portada (default.aspx) es la agenda: notas con fecha (varieté, cine y tango, charlas)",
+    "cursos": "/cursos.aspx = clases semanales todo el año (yoga, tango, dibujo, danza jazz, tejido) desde marzo; no se cargan como eventos",
+    "pdf": "los cronogramas de la agenda a veces son PDF con imagen"
+   },
+   "entradas": [
+    "https://sociedadluz.org.ar/default.aspx"
+   ],
+   "notas": [
+    "2026-10-15 [sondeo sin navegador] El 15/10 la última actividad publicada era el 11/10; revisar en el navegador o Instagram si hay nuevas."
+   ]
   },
   {
    "id": "base-cultural-ugarte",
@@ -3386,8 +3409,14 @@
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Exposiciones"
-   ]
+    "2026-10-14 [revisión anterior: navegador] Exposiciones",
+    "2026-10-15 [sondeo sin navegador] Sin exposición vigente en el HTML del 15/10 (la última cerró el 11/10); revisar en el navegador si se anunció la próxima."
+   ],
+   "comportamiento": {
+    "exposiciones": "/arte-exposiciones/ muestra la exposición actual; 'La memoria de la colección' cerró el 11/10/2026",
+    "visitas": "/educacion/ = visitas guiadas solo para escuelas e instituciones con reserva (no se cargan)",
+    "horario": "sala martes a viernes 11-17, fines de semana 11-18; parque 10-18/19"
+   }
   },
   {
    "id": "quetren-quetren",
@@ -4365,7 +4394,14 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "comportamiento": {
+    "web": "la web cargada es la de la Mutual Sentimiento (mutualsentimiento.org.ar): no tiene agenda de Sexto Cultural",
+    "buscar": "buscar Instagram o web propia de Sexto Cultural (Chacarita)"
+   },
+   "notas": [
+    "2026-10-15 [sondeo sin navegador] La web es de la Mutual Sentimiento y no publica la agenda del espacio; hace falta otra fuente."
+   ]
   },
   {
    "id": "centro-cultural-colegiales",
@@ -5461,10 +5497,13 @@
    "barrio": "Monserrat",
    "direccion": "Tacuari 538",
    "entradas": [
-    "https://www.tierra-violeta.com.ar/event-details/feminario-7-quienes-intentan-suicidarse-en-la-adolescencia-generos-cuidados-y-datos-del-riesgo-suicida"
+    "https://www.tierra-violeta.com.ar/event-details/feminario-7-quienes-intentan-suicidarse-en-la-adolescencia-generos-cuidados-y-datos-del-riesgo-suicida",
+    "https://www.tierra-violeta.com.ar/agenda"
    ],
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "agenda": "/agenda es un calendario Wix con un evento por día; cada ficha /event-details/<slug> dice si es virtual",
+    "virtuales": "muchos 'Feminarios' son virtuales: no se cargan (sin lugar físico)"
    },
    "ultimo": {
     "web": {
@@ -5472,7 +5511,10 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "notas": [
+    "2026-10-15 [sondeo sin navegador] El 15/10 el único evento de la ventana era un Feminario virtual (19/10); revisar si hay presenciales."
+   ]
   },
   {
    "id": "centro-cultural-antonio-devoto",
@@ -5761,7 +5803,13 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "comportamiento": {
+    "cursos": "la web (upebe.com.ar) lista talleres de teatro y cursos sin fechas; /colegios.html es para escuelas"
+   },
+   "notas": [
+    "2026-10-15 [sondeo sin navegador] Sin fechas en el HTML; buscar agenda o inicios de talleres en el navegador o Instagram."
+   ]
   },
   {
    "id": "alquimia-espacio-cultural",
@@ -6625,7 +6673,16 @@
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [sondeo sin navegador] La agenda mensual está en una gacetilla enlazada, no en el HTML; los talleres son anuales (desde mayo)."
+   ],
+   "comportamiento": {
+    "programacion": "/programacion.html solo enlaza una gacetilla mensual (probablemente imagen o PDF): abrirla en el navegador",
+    "talleres": "/talleres.html: talleres de música que empezaron en mayo (sin inicio en la ventana)",
+    "horario": "abre miércoles a domingo de 19 a 1"
+   },
+   "entradas": [
+    "https://ccnuevauriarte.com.ar/programacion.html"
    ]
   },
   {
@@ -10311,7 +10368,6 @@
     "espera_seg": 30
    },
    "notas": [
-    "2026-10-15 [web] El listado /eventos/ trae en JSON-LD fecha, hora y precio de cada fecha; alcanza para la ventana de 14 días.",
     "2026-10-15 [web] El listado /eventos/ trae en JSON-LD fecha, hora y precio de cada fecha; alcanza para la ventana de 14 días."
    ],
    "enlaces_descartados": [
@@ -12922,7 +12978,6 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11).",
     "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11)."
    ],
    "entradas": [
@@ -12992,7 +13047,17 @@
    "instagram": "@paseolaplazaok",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [sondeo sin navegador] Wix sin fechas en el HTML: el texto da obras y día de la semana; para fechas y horas hay que ir a Plateanet. /eventos es alquiler para eventos corporativos."
+   ],
+   "comportamiento": {
+    "cartelera": "/obras lista ~18 obras con día de la semana (VIE, JUE/VIE/SAB/DOM) y precio, casi nunca con fecha; las fichas /obra/<slug> tampoco traen fechas",
+    "off": "/off (La Plaza Off) lista ~40 espectáculos por sala (Terraza, Konzert, Cortázar, Casals Orsai) sin día ni fecha",
+    "fechas": "las fechas y horarios están en Plateanet (plateanet.com, botón COMPRAR): abrirlo en el navegador"
+   },
+   "entradas": [
+    "https://www.paseolaplaza.com.ar/obras",
+    "https://www.paseolaplaza.com.ar/off"
    ]
   },
   {
@@ -13007,7 +13072,6 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios.",
     "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios."
    ],
    "entradas": [
@@ -13060,7 +13124,6 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] Las fechas exactas salen de las páginas por día /teatro/funciones-AAAAMMDD.html (HTML simple); una obra por evento con sus funciones.",
     "2026-10-15 [web] Las fechas exactas salen de las páginas por día /teatro/funciones-AAAAMMDD.html (HTML simple); una obra por evento con sus funciones. La Escuela (/escuela/) solo ofrece preinscripción a los talleres anuales 2027, sin fechas en la ventana."
    ],
    "entradas": [
@@ -13075,12 +13138,6 @@
      "url": "https://www.timbre4.com/generos/68-1-68teatro-online.html",
      "texto": "Teatro / CARTELERA VER TODAS",
      "motivo": "misma cartelera que la portada (obras con día de la semana, sin fechas); las fechas salen de funciones-AAAAMMDD",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://www.timbre4.com/escuela/",
-     "texto": "Escuela",
-     "motivo": "escuela de actuación con talleres anuales (formación regular, no evento puntual)",
      "fecha": "2026-10-15"
     },
     {
@@ -13131,7 +13188,6 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó.",
     "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó. Cursos: solo un taller de montaje que empezó el 13/08 (fuera de la ventana); la página de talleres de dramaturgia no lista ninguno."
    ],
    "entradas": [
@@ -13147,12 +13203,6 @@
      "url": "https://teatrodelpueblo.com.ar/espectaculos/",
      "texto": "EN CARTEL",
      "motivo": "misma lista de obras que la portada",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://teatro-del-pueblo.tiendup.com/",
-     "texto": "CURSOS",
-     "motivo": "tienda online de cursos de dramaturgia (formación paga a distancia, sin fechas en la ventana)",
      "fecha": "2026-10-15"
     }
    ],
@@ -13379,7 +13429,6 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: teatro con programación en Ticketek",
-    "2026-10-15 [web] La portada lista las fichas de toda la temporada con la fecha en el slug; las fichas traen funciones, hora y precio en HTML simple.",
     "2026-10-15 [web] La portada lista las fichas de toda la temporada con la fecha en el slug; las fichas traen funciones, hora y precio en HTML simple."
    ],
    "entradas": [
@@ -13391,12 +13440,6 @@
     "cartelera": "/cartelera redirige (seguir la redirección) y trae las mismas fichas que la portada"
    },
    "enlaces_descartados": [
-    {
-     "url": "https://www.teatrocoliseo.org.ar/cartelera",
-     "texto": "CARTELERA ACTUAL",
-     "motivo": "no responde a pedidos simples; la portada ya lista todas las fichas de la cartelera",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://teatrocoliseo.org.ar/online",
      "texto": "COLISEO ONLINE",

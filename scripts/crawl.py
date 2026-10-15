@@ -298,7 +298,8 @@ PISTAS_SONDEO = {
     "html": "La agenda se lee sin navegador: leé `texto` (Read) y cargá los eventos desde ahí, con urls_visitadas = "
             "paginas_agenda y enlaces_candidatos = esas páginas como visitadas. Abrí el navegador solo si el texto "
             "no alcanza (faltan fechas o fichas) o si no aparece ningún evento (para marcar vacío hay que verificar "
-            "en el navegador).",
+            "en el navegador). Otras páginas del sitio (mes completo, fichas, página 2) se leen con "
+            "`python scripts/sondear.py --leer <url>`.",
     "needs_browser": "El HTML no trae la agenda (app de JavaScript): navegador.",
     "sin_agenda_vista": "Sin pedidos simples no se vio agenda; no es prueba de que no haya: navegador.",
     "unreachable": "No cargó con un pedido simple (motivo en `motivo`). Si es DNS, probá una vez en el navegador; "
@@ -561,8 +562,9 @@ def aprender(sitio, canal, res, eventos):
             comp.pop(k, None)
         else:
             comp[k] = v
-    if res.get("nota"):
-        sitio.setdefault("notas", []).append(f"{fecha} [{canal}] {res['nota'].strip()}")
+    if res.get("nota"):  # si el sitio se vuelve a guardar el mismo día, la nota nueva reemplaza a la anterior
+        notas = [n for n in sitio.get("notas", []) if not n.startswith(f"{fecha} [{canal}] ")]
+        sitio["notas"] = notas + [f"{fecha} [{canal}] {res['nota'].strip()}"]
     del sitio.setdefault("notas", [])[:-MAX_NOTAS]
     # Enlaces vistos pero no recorridos: la próxima corrida empieza por ellos.
     visitadas = set(res.get("urls_visitadas") or [])
@@ -574,7 +576,9 @@ def aprender(sitio, canal, res, eventos):
         url = url_absoluta(sitio, c["url"])
         if c.get("descartado"):
             descartados[_norm_url(url)] = {"url": url, "texto": c.get("texto", ""), "motivo": c["descartado"], "fecha": fecha}
-        elif not c.get("visitado") and not c.get("debil"):  # los débiles se vuelven a encontrar solos
+        elif c.get("visitado"):  # se abrió esta vez: un descarte anterior del mismo enlace ya no vale
+            descartados.pop(_norm_url(url), None)
+        elif not c.get("debil"):  # los débiles se vuelven a encontrar solos
             if url not in {p["url"] for p in pend}:
                 pend.append({"url": url, "texto": c.get("texto", ""), "desde": fecha})
     if descartados:

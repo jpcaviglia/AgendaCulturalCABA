@@ -16,6 +16,7 @@ Clases:
 Uso:
     python scripts/sondear.py [--limite N] [--id ID ...] [--hilos N]   # solo el informe
     python scripts/sondear.py --corrida [--id ID ...]                  # paso 1b de la skill actualizar-agenda
+    python scripts/sondear.py --leer URL [--desde TEXTO] [--max N] [--timeout S]  # texto de una página, para leerla sin navegador
 
 Con --corrida sondea solo las webs pendientes de la corrida abierta y además:
     api / jsonld    si hay eventos en la ventana, los guarda con `crawl.py guardar` (con_eventos); esos sitios
@@ -53,7 +54,7 @@ REINTENTABLES, MAX_ESPERA = {429, 500, 502, 503, 504}, 30  # se reintentan una v
 MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec"
 RE_FECHA = re.compile(rf"\b\d{{1,2}}\s*(de\s+)?({MESES})[a-záéíóú]*\.?\b|\b({MESES})[a-z]*\.?\s+\d{{1,2}}\b|\b\d{{1,2}}[/.]\d{{1,2}}([/.]\d{{2,4}})?\b", re.I)
 RE_AGENDA = re.compile(r"agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|funciones|conciertos|calendario|calendar|en-cartel|pr[oó]xim|upcoming", re.I)
-RE_IGNORAR_RUTA = re.compile(r"\.(jpe?g|png|gif|webp|svg|css|js|zip|mp3|mp4|pdf)$|/lang/|[?&](lang|hl)=|/(en|pt)/?$", re.I)
+RE_IGNORAR_RUTA = re.compile(r"\.(jpe?g|png|gif|webp|svg|css|js|zip|mp3|mp4|pdf)(?=\?|$)|/lang/|[?&](lang|hl)=|/(en|pt)/?$", re.I)
 RE_PROGRAMAS = re.compile(r"talleres|\btaller\b|cursos|\bclases\b|seminarios?|workshops?|visitas|recorridos|guided tours?", re.I)
 SPA = re.compile(r'id="(root|__next|app)"|__NEXT_DATA__|ng-version|data-reactroot|window\.__NUXT__|wixui|id="comp-', re.I)
 CONTEXTO = ssl.create_default_context()
@@ -107,6 +108,9 @@ def abrir(url, ctx):
     req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/json;q=0.9,*/*;q=0.5",
                                 "Accept-Language": "es-AR,es;q=0.9", "Accept-Encoding": "gzip, deflate"})
     with abridor.open(req, timeout=TIMEOUT) as r:
+        tipo = (r.headers.get_content_type() or "").lower()
+        if not re.search(r"html|json|xml|text", tipo):  # un PDF o una imagen no es una página para leer
+            return r.status, r.geturl(), "", f"no es una página ({tipo})"
         try:
             datos = r.read(MAX_BYTES)
         except http.client.IncompleteRead as e:  # el servidor cortó antes de terminar: sirve lo que llegó
@@ -446,8 +450,27 @@ def guardar_eventos(r):
     return True
 
 
+def leer_pagina(args):
+    """Imprime una página como la ve el sondeo: estado, eventos JSON-LD y el texto con los enlaces como 'texto [url]'."""
+    url = args[args.index("--leer") + 1]
+    desde = args[args.index("--desde") + 1] if "--desde" in args else ""
+    maximo = int(args[args.index("--max") + 1]) if "--max" in args else 20_000
+    global TIMEOUT
+    TIMEOUT = int(args[args.index("--timeout") + 1]) if "--timeout" in args else TIMEOUT
+    est, final, html, nota = pedir(url)
+    print(f"# {est} {final}" + (f" ({nota})" if nota else ""))
+    for x in objetos_evento(html)[:60]:
+        lugar = x.get("location") if isinstance(x.get("location"), dict) else {}
+        print(f"# JSON-LD: {str(x.get('startDate', ''))[:16]} | {limpiar(x.get('name'))} | {limpiar(lugar.get('name'))}")
+    texto = texto_legible(html, final) if html else ""
+    i = texto.find(desde) if desde else 0
+    print(texto[max(i, 0):max(i, 0) + maximo])
+
+
 def main():
     args = sys.argv[1:]
+    if "--leer" in args:
+        return leer_pagina(args)
     ids = {args[i + 1] for i, a in enumerate(args) if a == "--id"}
     limite = int(args[args.index("--limite") + 1]) if "--limite" in args else 0
     hilos = int(args[args.index("--hilos") + 1]) if "--hilos" in args else 8
