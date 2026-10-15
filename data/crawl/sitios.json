@@ -2739,7 +2739,37 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Gallo 557",
-   "enlace_bio": "http://www.casacolombo.com.ar/ (redirige a Instagram)"
+   "enlace_bio": "http://www.casacolombo.com.ar/ (redirige a Instagram)",
+   "comportamiento": {
+    "extraccion": "el lugar casi no publica su cartelera: las fechas aparecen en posts de bandas etiquetadas"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Casa Colombo (Gallo 557): revisar etiquetados de bandas en cada corrida."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "http://www.casacolombo.com.ar/",
+     "texto": "casacolombo.com.ar",
+     "motivo": "redirige a Instagram",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "cecam-centro-cultural-de-las-artes-del-movimiento",
@@ -3831,7 +3861,34 @@
    "direccion": "Luzuriaga 348",
    "enlace_bio": "https://linktr.ee/luzuriagaclubsocial",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/luzuriagaclubsocial"
+    "2026-10-15 [instagram] Luzuriaga Club Social: sin agenda visible en Instagram al 15/10."
+   ],
+   "comportamiento": {
+    "extraccion": "cartelera no publicada en el perfil propio; los eventos aparecen en reels de colectivos etiquetados"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://www.luzuriaga.club",
+     "texto": "Reservas (luzuriaga.club)",
+     "motivo": "no se abrió: solo reservas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8181,7 +8238,37 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Chas",
    "direccion": "Avalos 1210",
-   "enlace_bio": "https://linktr.ee/elculturalmasala"
+   "enlace_bio": "https://linktr.ee/elculturalmasala",
+   "comportamiento": {
+    "extraccion": "un post mensual lista todas las actividades del 'Pase Masalero' con día y hora (leer el texto completo del epígrafe)"
+   },
+   "notas": [
+    "2026-10-15 [instagram] El Cultural Masala cumple 12 años: octubre con pase libre a talleres por $12.000. Quedan sin fecha: charla de psilocibina (a confirmar) y un taller sin fecha legible."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.tinyurl.com/pasemasalero",
+     "texto": "Pase Masalero Octubre",
+     "motivo": "mismo contenido que el post del 14/10",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "el-laberinto-de-parque-chas",
@@ -10243,7 +10330,27 @@
    "direccion": "Calvo, Carlos 242",
    "enlace_bio": "https://www.passmope.com/e/K5i81C",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (entrada a evento en Passmope))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entrada a evento en Passmope))",
+    "2026-10-15 [instagram] La Casona Cultural (Carlos Calvo 242, San Telmo)."
+   ],
+   "comportamiento": {
+    "extraccion": "la bio enlaza a un evento de Passmope (pagospassmope.com/events/lacasonaculturalsantelmo da 404); las fechas salen de los posts"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -10980,7 +11087,34 @@
    "direccion": "Loyola 788",
    "enlace_bio": "https://linktr.ee/doblesentidobarcultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/doblesentidobarcultural"
+    "2026-10-15 [instagram] Resto bar cultural en Loyola 788, Villa Crespo (Salón Alfredo Giorgi en planta baja)."
+   ],
+   "comportamiento": {
+    "extraccion": "cada show tiene su post con día, hora y entrada; el sitio web doblesentidobarcultural.com.ar ya no resuelve"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://doblesentidobarcultural.com.ar/",
+     "texto": "Agenda mensual (web)",
+     "motivo": "el dominio no resuelve (DNS)",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {

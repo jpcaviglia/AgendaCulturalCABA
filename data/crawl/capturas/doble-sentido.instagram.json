@@ -1,0 +1,47 @@
+{
+ "id": "doble-sentido",
+ "canal": "instagram",
+ "fuente": "Doble Sentido",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/doblesentidobarcultural/",
+  "https://www.instagram.com/doblesentidobarcultural/p/DeayrzlNvZl/",
+  "https://www.instagram.com/doblesentidobarcultural/p/DeUn9iMtRym/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Frecuencia Modulada: homenaje a Charly García y Spinetta + jam abierta",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:30",
+   "horarios": "Puerta 21 h, show 21:30 h",
+   "lugar": "Doble Sentido",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Entrada al sobre",
+   "url": "https://www.instagram.com/doblesentidobarcultural/p/DeUn9iMtRym/",
+   "descripcion": "Recorrido por grandes éxitos de Charly García y Luis Alberto Spinetta con Noelia Kreiner, Pablo Puceiro, Diego Velásquez y Federico de Dios, seguido de una jam session abierta (traé tu instrumento). Salón Alfredo Giorgi, Loyola 788.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/doblesentidobarcultural/p/DeUn9iMtRym/"
+  },
+  {
+   "titulo": "Samba & Pagode Tumba La Tá",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "22:30",
+   "horarios": "",
+   "lugar": "Doble Sentido",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "A la gorra",
+   "url": "https://www.instagram.com/doblesentidobarcultural/p/DeayrzlNvZl/",
+   "descripcion": "Pagode Tumbalatero: viaje musical por samba, afoxé, reggae, funk y candomblé en el Salón Alfredo Giorgi (PB) de Doble Sentido, Loyola 788, Villa Crespo.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/doblesentidobarcultural/p/DeayrzlNvZl/"
+  }
+ ]
+}
