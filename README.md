@@ -58,6 +58,12 @@ red lo hacen con pedidos HTTP simples, a ritmo lento.
 - `clasificar.py`, `deduplicar.py`, `direcciones.py`, `embebibles.py`, `geocodificar.py`, `comun.py`:
   funciones compartidas.
 
+## Documentación
+
+`CLAUDE.md` tiene las reglas para trabajar en el repositorio: cada cambio actualiza en el mismo commit los
+documentos que afecta (este README, la skill, `navegador.md`, los docstrings), y lo que se aprende en cada
+corrida queda escrito en la skill o en `sitios.json`.
+
 ## Ver el sitio en local
 
 ```bash

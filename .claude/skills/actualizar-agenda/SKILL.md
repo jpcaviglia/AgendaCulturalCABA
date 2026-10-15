@@ -32,7 +32,9 @@ Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos
 4. **No inventes datos.** Si falta título, fecha o lugar, el evento no se carga. Si falta hora o precio,
    va vacío.
 5. **Anotá lo que aprendiste** de cada sitio (dónde está la agenda, cuánto tarda, si hay que scrollear,
-   qué botón expande, qué enlaces nuevos encontraste). La próxima corrida empieza con eso.
+   qué botón expande, qué enlaces nuevos encontraste). La próxima corrida empieza con eso. Lo que sirve
+   para más de un sitio, o para el proceso, va a esta skill al cerrar (sección 7, "Lecciones de la
+   corrida").
 
 ## Herramientas
 
@@ -461,19 +463,46 @@ python scripts/duplicados.py distintos 1 2 4    # eventos distintos (no se vuelv
 - Decidí todos los de la lista (si es larga, `--max 200`). Las decisiones quedan en
   `data/crawl/duplicados.json` y valen para las próximas corridas, así que la lista se achica con el tiempo.
 
-Después volvé a armar y cerrá:
+Después volvé a armar y cerrá la corrida:
 
 ```bash
 python scripts/armar_agenda.py
 python scripts/crawl.py cerrar
-git add data/ && git commit -m "Agenda <fecha>: <N> eventos, <S> sitios rastreados" && git pull --rebase --autostash && git push
 ```
+
+### Lecciones de la corrida
+
+Antes del último commit, leé el informe (`data/crawl/informes/<fecha>.md`) y repasá la corrida: qué
+costó, qué falló, qué tuviste que resolver sin que la skill lo dijera. Cada cosa útil va a su lugar:
+
+- **De un sitio** (dónde está su agenda, qué botón expande, que no carga sin esperar): ya quedó en
+  `sitios.json` al guardarlo. Si no, corregí `comportamiento` o `nota` de ese sitio.
+- **De varios sitios o de una plataforma** (una técnica para sacar fechas, cómo se comporta Wix,
+  Passline o un tipo de ticketera, un patrón de URL que sirvió): agregalo a la sección de esta skill
+  donde corresponde (3, 4 o 4b), o a `navegador.md` si es sobre las herramientas del navegador.
+- **Del proceso** (un paso que confundió o faltó, un criterio que hubo que decidir sobre qué cargar,
+  un orden que conviene cambiar): corregí la skill. Si contradice algo escrito, reemplazalo; no dejes dos
+  versiones.
+- **De un script** (un error, un caso que no maneja, un aviso confuso): arreglalo si es chico y seguro, y
+  actualizá su docstring y el `README.md`; si no, describilo en una sección `## Para revisar` que agregás al final del informe.
+
+Escribí cómo se hace **hoy**, en el lugar donde un agente lo va a buscar, no como una lista de lecciones
+al final. Si no aprendiste nada nuevo, no toques la skill. Después publicá todo junto:
+
+```bash
+git add data/ .claude/ scripts/ README.md
+git commit -m "Agenda <fecha>: <N> eventos, <S> sitios rastreados"
+git pull --rebase --autostash && git push
+```
+
+En el mensaje del commit, una línea por cada cambio en la skill, los scripts o el README.
 
 Si la corrida se cortó por un bloqueo o un error del navegador que no se resuelve, cerrá con
 `crawl.py cerrar --forzar`: lo que quedó sin rastrear va primero la próxima vez.
 
 Informe final (3-6 líneas): eventos publicados, sitios rastreados por estado, sitios nuevos, fallas
-(`no_carga`, `dominio_caido`, `bloqueado`) y qué conviene revisar a mano. El detalle queda en
+(`no_carga`, `dominio_caido`, `bloqueado`), qué cambió en la skill o los scripts, y qué conviene revisar
+a mano. El detalle queda en
 `data/crawl/informes/<fecha>.md`.
 
 ## Límites
