@@ -11546,7 +11546,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Warnes Av. 616",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "el perfil del teatro está lleno de posts etiquetados de las obras (cuenta de la obra, p. ej. @hamletenojotas): ahí figuran día y hora"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Teatro Espíritu Mamut (Av. Warnes 616, Villa Crespo): 'últimas funciones' de Hamlet en ojotas; la obra puede terminar antes del 29/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "la-cultura-del-barrio",
@@ -12257,11 +12279,20 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "un post por evento con día y hora; los homenajes solidarios (entrada: un alimento no perecedero) se anuncian por finde"
+   },
    "notas": [
-    "2026-10-15 [web] Blog abandonado desde 2020."
+    "2026-10-15 [web] Blog abandonado desde 2020.",
+    "2026-10-15 [instagram] El Puente (Rivadavia 9810, Villa Luro, 25 años). El 10/10 hubo música acústica solidaria (pasado)."
    ],
    "historial": [
     {
@@ -12269,6 +12300,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15"
