@@ -136,22 +136,45 @@ Una inauguración con día y hora propios va como evento aparte.
 ## 4. Rastrear Instagram
 
 Se rastrea Instagram de los lugares sin web, y de los que tienen web cuando la web no dio eventos (el
-script los encola solo). Usá la sesión ya iniciada del navegador; no inicies sesión ni crees cuentas.
+script los encola solo, después de todas las webs). Usá la sesión ya iniciada del navegador; no inicies
+sesión ni crees cuentas.
+
+**Límites.** Instagram frena las cuentas que abren muchas páginas seguidas, así que el script lleva un
+cupo y no todos los perfiles entran en cada corrida: se rotan, primero los revisados hace más tiempo.
+
+- Cupo diario de páginas de Instagram (perfil + cada post abierto), por defecto 150. `siguiente` muestra
+  lo que queda; cuando se agota, deja los perfiles restantes como `pospuesto` y van primeros la próxima.
+- Si un perfil se guarda como `bloqueado`, no se abre Instagram por 24 h (enfriamiento): los perfiles
+  pendientes quedan `pospuesto`. No intentes seguir con otro perfil.
+- Cada 25 páginas, `guardar` pide una pausa de 5 minutos: hacela (o seguí con webs, si quedan).
+- Los límites se ajustan en `data/crawl/local/instagram_estado.json` (`limites`).
+
+**Posts ya analizados.** En `data/crawl/local/instagram_posts.json` (solo en esta máquina, no se sube
+al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a abrirlos:
 
 1. Abrí `https://www.instagram.com/<usuario>/`, esperá 3-5 s y corré `instagram_perfil`.
    Si `pide_login` es verdadero o aparece un captcha: `bloqueado` y pasá al siguiente.
-2. Abrí los últimos ~9 posts (y las destacadas "Agenda", "Cartelera", "Programación" si hay). Corré
-   `instagram_post` en cada uno. Usá `publicado` para deducir el año de fechas como "sábado 18".
+2. Pasá las URLs de `posts` al script:
+   `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
+   Abrí **solo los NUEVOS** (hasta ~9) y las destacadas "Agenda", "Cartelera", "Programación" si hay.
+   Corré `instagram_post` en cada uno. Usá `publicado` para deducir el año de fechas como "sábado 18".
+   Si un post nuevo es de hace más de 2 meses y los anteriores también, no hace falta seguir bajando.
 3. Si el texto no tiene la fecha, mirá el afiche (captura).
 4. Seguí el enlace de la bio (`bio` o `enlace_bio`): Linktree, ticketera o web. Aplicá la sección 3.
-5. Ritmo: esperá 4-10 s al azar entre acciones y entre perfiles. Scroll natural, sin ráfagas, sin abrir
+5. En el resultado poné:
+   - `posts`: **todas** las URLs de posts de la grilla que consideraste, nuevas y ya vistas, con
+     `publicado` si lo sabés: `[{"url": "...", "publicado": "2026-10-10"}]`. El script agrega solo los
+     eventos vigentes de los posts ya vistos, así que no los copies.
+   - en cada evento, `"post": "<url del post>"` de donde salió (para poder reutilizarlo).
+   - `paginas_instagram`: cuántas páginas de Instagram abriste en este perfil (perfil + posts +
+     destacadas). Si no lo ponés, se cuenta 1 + los posts nuevos.
+6. Ritmo: esperá 4-10 s al azar entre acciones y entre perfiles. Scroll natural, sin ráfagas, sin abrir
    endpoints internos. Al primer "intentá de nuevo más tarde", límite de acciones o captcha, guardá ese
-   perfil como `bloqueado` y seguí solo con webs; los perfiles de Instagram que queden se reintentan en
-   la próxima corrida.
-6. Para encontrar posts sin login: Google `site:instagram.com/p/ "<lugar>"`.
+   perfil como `bloqueado` (con `evidencia`) y seguí solo con webs.
+7. Para encontrar posts sin login: Google `site:instagram.com/p/ "<lugar>"`.
 
-En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts; los `enlaces_candidatos`
-son la bio y las destacadas de agenda.
+En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts (nuevos o ya vistos); los
+`enlaces_candidatos` son la bio y las destacadas de agenda.
 
 ## 4b. Agregadores y fuentes de descubrimiento
 
@@ -207,6 +230,8 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
 
 - `estado`: `con_eventos`, `sin_eventos` (hay agenda pero nada vigente ni en la ventana), `sin_agenda`
   (no publica programación en este canal), `no_cultural`, `no_carga`, `dominio_caido`, `bloqueado`.
+  (`pospuesto` lo pone el script a los perfiles de Instagram que no entraron en el cupo.)
+- Solo Instagram: `posts`, `paginas_instagram` y `post` en cada evento (sección 4).
 - `evidencia`: obligatoria en `sin_eventos`, `sin_agenda`, `no_cultural` y en las fallas. Ejemplo:
   "/muestras lista 14 muestras, la más reciente cerró el 2026-09-30; /agenda vacía; sin próximas".
 - `eventos[].lugar`: vacío solo si el sitio tiene un único lugar (se completa solo). En sitios con

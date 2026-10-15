@@ -8,7 +8,8 @@ Uso:
     python scripts/crawl.py siguiente [n]         # muestra los próximos n sitios pendientes con sus notas
     python scripts/crawl.py ver <id>              # muestra todo lo que se sabe de un sitio
     python scripts/crawl.py guardar <archivo.json|->   # registra el resultado de un sitio (ver formato en la skill)
-    python scripts/crawl.py estado                # avance de la corrida
+    python scripts/crawl.py ig-vistos <id> <url_post>...   # qué posts de Instagram ya se analizaron (no reabrirlos)
+    python scripts/crawl.py estado                # avance de la corrida y cupo de Instagram
     python scripts/crawl.py cerrar [--forzar]     # cierra la corrida y escribe el informe
 
 Archivos:
@@ -16,14 +17,16 @@ Archivos:
     data/crawl/capturas/<id>.<canal>.json   lo encontrado en la última visita a cada sitio
     data/crawl/corrida.json         cola y avance de la corrida en curso
     data/crawl/informes/<fecha>.md  informe de cada corrida
+    data/crawl/local/               solo en esta máquina (no se sube): posts de Instagram ya analizados y
+                                    cupo diario / enfriamiento de Instagram
 """
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
-from comun import (CAPTURAS, CORRIDA, DATOS, INFORMES, SITIOS, ZONA_BA, dominio, escribir_json, hoy, leer_json,
-                   sin_tildes, slug, ventana)
+from comun import (CAPTURAS, CORRIDA, CRAWL, DATOS, INFORMES, SITIOS, ZONA_BA, dominio, escribir_json, hoy,
+                   leer_json, sin_tildes, slug, ventana)
 
 CANALES = ("web", "instagram")
 ESTADOS = {
@@ -41,11 +44,54 @@ NEGATIVOS = ("sin_eventos", "sin_agenda", "no_cultural")
 FALLAS = ("no_carga", "dominio_caido", "bloqueado")
 FASES = {"agregador": 0, "descubrimiento": 1, "galeria": 2, "lugar": 3}
 CAMPOS_EVENTO = ("titulo", "fecha_inicio", "fecha_fin", "hora", "horarios", "lugar", "barrio", "direccion",
-                 "categoria", "precio", "url", "descripcion", "vigente_sin_fin")
+                 "categoria", "precio", "url", "descripcion", "vigente_sin_fin", "post")
 FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HORA = re.compile(r"^([01]\d|2[0-3]):[0-5]\d$")
 GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|sin cargo|free)\b", re.I)
 MAX_NOTAS, MAX_HISTORIAL, MAX_ENTRADAS = 12, 10, 8
+
+# --- Instagram: cupo, enfriamiento y posts ya analizados (solo local, ver .gitignore) ---
+LOCAL = CRAWL / "local"
+IG_POSTS = LOCAL / "instagram_posts.json"
+IG_ESTADO = LOCAL / "instagram_estado.json"
+# Límites conservadores; Instagram no publica los suyos. Se pueden ajustar en data/crawl/local/instagram_estado.json.
+IG_LIMITES = {"max_paginas_dia": 150, "min_paginas_perfil": 10, "pausa_cada": 25, "pausa_minutos": 5,
+              "enfriamiento_horas": 24, "dias_recordar_posts": 180}
+
+
+def ig_estado():
+    est = leer_json(IG_ESTADO, {}) or {}
+    est["limites"] = {**IG_LIMITES, **est.get("limites", {})}
+    est.setdefault("paginas", {})
+    return est
+
+
+def ig_cupo(est):
+    """(páginas que quedan hoy, enfriado_hasta o '')."""
+    restantes = est["limites"]["max_paginas_dia"] - est["paginas"].get(hoy().isoformat(), 0)
+    hasta = est.get("enfriado_hasta", "")
+    if hasta and hasta <= ahora():
+        hasta = ""
+    return max(restantes, 0), hasta
+
+
+def ig_registrar_uso(est, paginas, bloqueado, avisos):
+    dia = hoy().isoformat()
+    antes = est["paginas"].get(dia, 0)
+    est["paginas"] = {d: n for d, n in est["paginas"].items() if d >= (hoy() - timedelta(days=7)).isoformat()}
+    est["paginas"][dia] = antes + paginas
+    lim = est["limites"]
+    if bloqueado:
+        est["enfriado_hasta"] = (datetime.now(ZONA_BA) + timedelta(hours=lim["enfriamiento_horas"])).strftime("%Y-%m-%d %H:%M")
+        avisos.append(f"Instagram bloqueó: no se abre Instagram hasta {est['enfriado_hasta']}. Seguir solo con webs.")
+    elif antes // lim["pausa_cada"] < (antes + paginas) // lim["pausa_cada"]:
+        avisos.append(f"van {antes + paginas} páginas de Instagram hoy: pausa de {lim['pausa_minutos']} minutos "
+                      "antes del próximo perfil (o seguir con webs mientras tanto)")
+    escribir_json(IG_ESTADO, est)
+
+
+def ultima_ig(s):
+    return (s.get("ultimo") or {}).get("instagram", {}).get("fecha", "")
 
 
 # --- carga y guardado -----------------------------------------------------------
@@ -89,8 +135,10 @@ def armar_cola(doc, previa=None):
         pendientes_previos = {i for i in previa.get("cola", []) if i not in previa.get("hechos", {})}
 
     def orden(s, canal):
-        fase = FASES.get(s.get("tipo"), 3) if canal == "web" else 9
-        return (fase, item(s["id"], canal) not in pendientes_previos, not tuvo_eventos(s), sin_tildes(s["nombre"]))
+        previo = item(s["id"], canal) not in pendientes_previos
+        if canal == "instagram":  # rotación: primero los perfiles revisados hace más tiempo
+            return (9, previo, ultima_ig(s), not tuvo_eventos(s), sin_tildes(s["nombre"]))
+        return (FASES.get(s.get("tipo"), 3), previo, not tuvo_eventos(s), sin_tildes(s["nombre"]))
 
     elegidos = []
     for s in doc["sitios"]:
@@ -107,8 +155,25 @@ def cargar_corrida():
     return leer_json(CORRIDA)
 
 
-def pendientes(corrida):
-    return [i for i in corrida["cola"] if i not in corrida["hechos"]]
+def pendientes(corrida, sitios=None):
+    """Webs en el orden de la cola y después Instagram, primero los perfiles revisados hace más tiempo."""
+    pend = [i for i in corrida["cola"] if i not in corrida["hechos"]]
+    if sitios is None:
+        return pend
+    webs = [i for i in pend if i.endswith("|web")]
+    igs = sorted((i for i in pend if i.endswith("|instagram")),
+                 key=lambda i: (ultima_ig(sitios.get(i.split("|")[0], {})), corrida["cola"].index(i)))
+    return webs + igs
+
+
+def posponer_instagram(corrida, motivo):
+    """Deja los perfiles de Instagram pendientes para la próxima corrida (no es una falla del sitio)."""
+    pend = [i for i in pendientes(corrida) if i.endswith("|instagram")]
+    for i in pend:
+        corrida["hechos"][i] = "pospuesto"
+    corrida.setdefault("motivo_pospuesto", motivo)
+    escribir_json(CORRIDA, corrida)
+    return len(pend)
 
 
 def cmd_iniciar(args):
@@ -152,7 +217,18 @@ def cmd_siguiente(args):
     if not corrida or corrida.get("fin"):
         sys.exit("No hay corrida abierta: correr primero `python scripts/crawl.py iniciar`.")
     sitios = por_id(cargar_sitios())
-    pend = pendientes(corrida)
+    pend = pendientes(corrida, sitios)
+    if pend and pend[0].endswith("|instagram"):
+        est = ig_estado()
+        restantes, enfriado = ig_cupo(est)
+        if enfriado or restantes < est["limites"]["min_paginas_perfil"]:
+            motivo = f"enfriamiento hasta {enfriado}" if enfriado else "cupo diario de páginas agotado"
+            n_pos = posponer_instagram(corrida, motivo)
+            print(f"Instagram: {motivo}. {n_pos} perfiles quedan para la próxima corrida (van primeros).")
+            pend = pendientes(corrida, sitios)
+        else:
+            print(f"Instagram: quedan {restantes} páginas de cupo hoy. Antes de abrir posts, consultar "
+                  "`crawl.py ig-vistos <id> <urls>` y abrir solo los nuevos.")
     hechos = len(corrida["hechos"])
     print(f"Avance: {hechos} de {len(corrida['cola'])} hechos. Ventana {corrida['ventana']['desde']} a {corrida['ventana']['hasta']}.")
     if not pend:
@@ -427,6 +503,70 @@ def agregar_sitios_nuevos(doc, nuevos, origen, corrida, avisos):
     return agregados
 
 
+def url_post(u):
+    u = (u.get("url") if isinstance(u, dict) else u) or ""
+    return u.split("?")[0].split("#")[0].rstrip("/") + "/" if u else ""
+
+
+def reusar_posts(res):
+    """Suma al resultado los eventos vigentes de posts que ya se analizaron en otra corrida y siguen en el perfil."""
+    registro = leer_json(IG_POSTS, {}) or {}
+    ya = {url_post(e.get("post")) for e in res.get("eventos") or [] if isinstance(e, dict) and e.get("post")}
+    sumados = []
+    for p in res.get("posts") or []:
+        u = url_post(p)
+        if not u or u in ya or u not in registro:
+            continue
+        for e in registro[u].get("eventos", []):
+            if (e.get("fecha_fin") or e.get("fecha_inicio", "")) >= hoy().isoformat() or e.get("vigente_sin_fin"):
+                sumados.append({**e, "post": u})
+    if sumados:
+        res.setdefault("eventos", []).extend(sumados)
+        if res.get("estado") in NEGATIVOS:
+            res["estado"] = "con_eventos"
+    return len(sumados)
+
+
+def registrar_posts(sitio, res, eventos, avisos):
+    """Anota localmente cada post visto con sus eventos, y descuenta el cupo diario de Instagram."""
+    registro = leer_json(IG_POSTS, {}) or {}
+    est = ig_estado()
+    nuevos = 0
+    for p in res.get("posts") or []:
+        u = url_post(p)
+        if not u:
+            continue
+        previo = registro.get(u, {})
+        nuevos += not previo
+        registro[u] = {"id": sitio["id"], "visto": hoy().isoformat(),
+                       "publicado": (p.get("publicado") if isinstance(p, dict) else "") or previo.get("publicado", ""),
+                       "eventos": [{k: v for k, v in e.items() if k != "post"} for e in eventos if url_post(e.get("post")) == u]}
+    sin_post = sum(1 for e in eventos if not e.get("post"))
+    if sin_post and res.get("posts"):
+        avisos.append(f"{sin_post} eventos sin 'post': no se van a poder reutilizar en la próxima corrida")
+    corte = (hoy() - timedelta(days=est["limites"]["dias_recordar_posts"])).isoformat()
+    escribir_json(IG_POSTS, {u: r for u, r in registro.items() if r.get("visto", "") >= corte})
+    paginas = int(res.get("paginas_instagram") or (1 + nuevos))
+    ig_registrar_uso(est, paginas, res.get("estado") == "bloqueado", avisos)
+
+
+def cmd_ig_vistos(args):
+    if len(args) < 2:
+        sys.exit("Uso: crawl.py ig-vistos <id> <url_post> [<url_post>...]")
+    registro = leer_json(IG_POSTS, {}) or {}
+    restantes, enfriado = ig_cupo(ig_estado())
+    nuevos = []
+    for u in map(url_post, args[1:]):
+        r = registro.get(u)
+        if r:
+            print(f"visto   {u} (el {r['visto']}, {len(r.get('eventos', []))} eventos): no abrir, poner en 'posts'")
+        else:
+            nuevos.append(u)
+            print(f"NUEVO   {u}")
+    print(f"{len(nuevos)} nuevos para abrir. Cupo de Instagram hoy: {restantes} páginas"
+          + (f". EN ENFRIAMIENTO hasta {enfriado}: no abrir Instagram" if enfriado else "."))
+
+
 def cmd_guardar(args):
     if not args:
         sys.exit("Uso: crawl.py guardar <archivo.json|->")
@@ -437,7 +577,10 @@ def cmd_guardar(args):
         sys.exit(f"JSON inválido: {ex}")
     doc = cargar_sitios()
     sitios = por_id(doc)
+    reusados = reusar_posts(res) if res.get("canal") == "instagram" else 0
     sitio, canal, eventos, errores, avisos = validar(res, sitios)
+    if reusados:
+        avisos.insert(0, f"{reusados} eventos reutilizados de posts ya analizados (no hizo falta reabrirlos)")
     if errores:
         print("NO SE GUARDÓ. Corregir y volver a guardar:")
         for e in errores:
@@ -455,6 +598,8 @@ def cmd_guardar(args):
         "fecha": hoy().isoformat(), "estado": estado, "urls_visitadas": res.get("urls_visitadas") or [],
         "eventos": eventos})
     aprender(sitio, canal, res, eventos)
+    if canal == "instagram":
+        registrar_posts(sitio, res, eventos, avisos)
     nuevos = agregar_sitios_nuevos(doc, res.get("sitios_nuevos"), sitio["nombre"], corrida, avisos)
 
     if corrida:
@@ -496,6 +641,8 @@ def cmd_estado(args):
           f"{len(corrida['hechos'])} de {len(corrida['cola'])} hechos, {len(pend)} pendientes, "
           f"{corrida.get('eventos', 0)} eventos registrados.")
     print("Por estado:", contar(corrida["hechos"].values()))
+    restantes, enfriado = ig_cupo(ig_estado())
+    print(f"Instagram: {restantes} páginas de cupo hoy" + (f", en enfriamiento hasta {enfriado}" if enfriado else ""))
     if pend:
         print("Próximos:", ", ".join(pend[:8]))
 
@@ -520,6 +667,10 @@ def cmd_cerrar(args):
         items = [i for i, e in corrida["hechos"].items() if e in filtro]
         if items:
             lineas += [f"## {titulo}", ""] + [f"- {nombre(i)} ({i.split('|')[1]}): {corrida['hechos'][i]}" for i in items] + [""]
+    pospuestos = [i for i, e in corrida["hechos"].items() if e == "pospuesto"]
+    if pospuestos:
+        lineas += [f"## Instagram pospuesto ({corrida.get('motivo_pospuesto', '')}; van primeros la próxima corrida)", "",
+                   ", ".join(nombre(i) for i in pospuestos), ""]
     if corrida.get("sitios_nuevos"):
         lineas += ["## Sitios nuevos", ""] + [f"- {nombre(i)}" for i in corrida["sitios_nuevos"]] + [""]
     if pend:
@@ -531,7 +682,7 @@ def cmd_cerrar(args):
     print(f"Informe: {ruta.relative_to(DATOS.parent)}")
 
 
-COMANDOS = {"iniciar": cmd_iniciar, "siguiente": cmd_siguiente, "ver": cmd_ver, "guardar": cmd_guardar,
+COMANDOS = {"iniciar": cmd_iniciar, "siguiente": cmd_siguiente, "ver": cmd_ver, "guardar": cmd_guardar, "ig-vistos": cmd_ig_vistos,
             "estado": cmd_estado, "cerrar": cmd_cerrar}
 
 

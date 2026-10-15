@@ -19,6 +19,8 @@ from deduplicar import deduplicar
 
 SALIDA = DATOS / "eventos.json"
 MAX_EDAD_DIAS = 10
+# Instagram se rota entre corridas por su límite de ritmo, así que sus capturas duran más.
+MAX_EDAD_DIAS_INSTAGRAM = 21
 CAMPOS_PUBLICOS = ("titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
                    "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng")
 TIPO_DEDUP = {"lugar": "sitio", "galeria": "sitio", "agregador": "agregador", "descubrimiento": "agregador"}
@@ -53,7 +55,7 @@ def leer_capturas():
             print(f"  captura ilegible: {ruta.name}")
             continue
         edad = (hoy() - date.fromisoformat(cap["fecha"])).days
-        if edad > MAX_EDAD_DIAS:
+        if edad > (MAX_EDAD_DIAS_INSTAGRAM if cap.get("canal") == "instagram" else MAX_EDAD_DIAS):
             viejas.append(ruta.name)
             continue
         usadas.append(cap)
