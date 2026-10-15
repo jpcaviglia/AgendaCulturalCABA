@@ -58,6 +58,9 @@
   // ---- Eventos ----
   let eventos = [];
 
+  // Un lugar con sala ("Malba · Auditorio") se agrupa con el lugar ("Malba").
+  const lugarBase = (lugar) => (lugar || "").split(" · ")[0].trim();
+
   // Horas publicadas de un evento, en minutos desde la medianoche: "hora" ("20:30"), cada "HH:MM" de
   // "horarios" ("vie 20:30 | dom 19:30") y los rangos "de 11 a 19 h". Vacío si no publica ningún horario.
   const aMinutos = (h, m = 0) => (h <= 24 && m < 60 ? h * 60 + m : null);
@@ -82,9 +85,16 @@
     ]);
 
     const titulo = crear("h2", {}, [document.createTextNode(e.titulo)]);
-    const lugar = crear("p", { class: "dato" }, [
-      crear("strong", {}, [document.createTextNode(e.lugar || "Lugar a confirmar")]),
-    ]);
+    // El nombre del lugar filtra la agenda por ese lugar.
+    const nombreLugar = e.lugar
+      ? boton(e.lugar, "enlace-lugar", () => {
+          $("lugar-evento").value = lugarBase(e.lugar);
+          renderEventos();
+          $("filtros-eventos").scrollIntoView({ behavior: "smooth", block: "start" });
+        })
+      : crear("strong", {}, [document.createTextNode("Lugar a confirmar")]);
+    if (e.lugar) nombreLugar.title = `Ver solo los eventos de ${lugarBase(e.lugar)}`;
+    const lugar = crear("p", { class: "dato" }, [nombreLugar]);
     const direccion = [e.direccion, e.barrio].filter(Boolean).join(" · ");
     const ubicacion = direccion ? crear("p", { class: "dato" }, [document.createTextNode(direccion)]) : null;
     const horario = e.horarios ? crear("p", { class: "dato" }, [document.createTextNode(e.horarios)]) : null;
@@ -248,6 +258,7 @@
   function renderEventos() {
     const q = normalizar($("buscar-evento").value.trim());
     const barrio = $("barrio-evento").value;
+    const lugarBuscado = normalizar($("lugar-evento").value.trim());
     const categoria = $("categoria-evento").value;
     const soloGratis = $("solo-gratis").checked;
     const desde = $("fecha-desde").value;
@@ -274,6 +285,8 @@
         if (hasta && e.fecha_inicio > hasta) return false;
       }
       if (barrio && e.barrio !== barrio) return false;
+      // Coincidencia parcial: "proa" encuentra "Fundación PROA" y "Fundación Proa".
+      if (lugarBuscado && !normalizar(lugarBase(e.lugar)).includes(lugarBuscado)) return false;
       if (categoria && e.categoria !== categoria) return false;
       if (soloGratis && e.precio !== "Gratis") return false;
       if (q) {
@@ -336,6 +349,23 @@
     eventos = datos.eventos || [];
     llenarSelect($("barrio-evento"), unicos(eventos, "barrio"), "Todos");
     llenarSelect($("categoria-evento"), unicos(eventos, "categoria"), "Todas");
+    // Sugerencias del campo Lugar: un nombre por lugar (sin la sala; entre "Fundación PROA" y
+    // "Fundación Proa" queda la grafía más usada), con cuántos eventos tiene.
+    const porLugar = new Map();
+    for (const e of eventos) {
+      const nombre = lugarBase(e.lugar);
+      if (!nombre) continue;
+      const clave = normalizar(nombre);
+      if (!porLugar.has(clave)) porLugar.set(clave, { total: 0, grafias: new Map() });
+      const l = porLugar.get(clave);
+      l.total += 1;
+      l.grafias.set(nombre, (l.grafias.get(nombre) || 0) + 1);
+    }
+    const opciones = [...porLugar.values()]
+      .map((l) => ({ nombre: [...l.grafias].sort((a, b) => b[1] - a[1])[0][0], total: l.total }))
+      .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+    $("opciones-lugar-evento").replaceChildren(...opciones.map((o) =>
+      crear("option", { value: o.nombre, label: `${o.total} ${o.total === 1 ? "evento" : "eventos"}` })));
     // Horas cada media hora, de 00:00 a 23:30 (el valor es "HH:MM").
     llenarSelect($("hora-desde"),
       Array.from({ length: 48 }, (_, i) => `${String(i >> 1).padStart(2, "0")}:${i % 2 ? "30" : "00"}`),
@@ -355,8 +385,8 @@
     }
     $("fecha-hasta").dataset.min = desde;
 
-    for (const id of ["buscar-evento", "barrio-evento", "categoria-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
-      $(id).addEventListener(id === "buscar-evento" ? "input" : "change", renderEventos);
+    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "categoria-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
+      $(id).addEventListener(["buscar-evento", "lugar-evento"].includes(id) ? "input" : "change", renderEventos);
     }
     renderEventos();
   }

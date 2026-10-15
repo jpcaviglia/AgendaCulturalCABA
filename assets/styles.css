@@ -129,6 +129,7 @@ main { flex: 1; padding-top: 24px; padding-bottom: 32px; }
   align-items: end;
   margin-bottom: 20px;
 }
+#filtros-eventos { scroll-margin-top: 80px; } /* que el encabezado fijo no tape los filtros */
 .campo { display: flex; flex-direction: column; gap: 4px; font-size: 0.85rem; color: var(--suave); }
 .campo-amplio { grid-column: 1 / -1; }
 .nota-filtro { grid-column: 1 / -1; margin: 0; font-size: 0.85rem; }
@@ -233,6 +234,22 @@ main { flex: 1; padding-top: 24px; padding-bottom: 32px; }
   .cabecera-vista h1 { font-size: 1.35rem; }
   .pestanas a { padding: 6px 10px; }
 }
+
+/* Nombre del lugar en la tarjeta: filtra por ese lugar */
+.enlace-lugar {
+  font: inherit;
+  font-weight: 600;
+  color: var(--texto);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline dotted var(--suave);
+  text-underline-offset: 3px;
+}
+.enlace-lugar:hover { color: var(--acento); text-decoration-color: var(--acento); }
+.enlace-lugar:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 
 /* Botones de la tarjeta: Agendar y + info */
 .acciones { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
