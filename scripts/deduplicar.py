@@ -16,6 +16,7 @@ def norm_titulo(t):
 
 
 def norm_lugar(t):
+    t = (t or "").split(" · ")[0]  # la sala no cuenta: "Malba · Nivel 2" es Malba
     t = re.sub(r"[^a-z0-9 ]+", " ", sin_tildes(t))
     t = re.sub(r"\b(centro cultural|espacio cultural|teatro|sala|cc)\b", " ", t)
     return " ".join(t.split())
@@ -28,7 +29,10 @@ def _parecidos(a, b, umbral):
         return True
     if min(len(a), len(b)) >= 8 and (a in b or b in a):
         return True
-    return SequenceMatcher(None, a, b).ratio() >= umbral
+    s = SequenceMatcher(None, a, b)
+    # real_quick_ratio y quick_ratio son cotas superiores baratas de ratio(): descartan rápido la mayoría
+    # de los pares sin cambiar el resultado.
+    return s.real_quick_ratio() >= umbral and s.quick_ratio() >= umbral and s.ratio() >= umbral
 
 
 def son_duplicados(x, y):

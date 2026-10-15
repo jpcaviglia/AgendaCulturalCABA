@@ -423,6 +423,31 @@ Cuando `siguiente` diga que la cola está vacía (o solo quede SalePlan):
 ```bash
 python scripts/saleplan.py
 python scripts/armar_agenda.py
+python scripts/duplicados.py candidatos
+```
+
+**Revisá los posibles duplicados.** La deduplicación automática solo une lo seguro; `candidatos` lista pares
+dudosos (fechas que se superponen y título o lugar parecidos), numerados, con lugar, dirección, fechas,
+fuentes y enlace de cada uno. Decidí cada par y anotalo:
+
+```bash
+python scripts/duplicados.py iguales 3 8 15     # el mismo evento (se unen en cada armado)
+python scripts/duplicados.py distintos 1 2 4    # eventos distintos (no se vuelven a preguntar)
+```
+
+- **Iguales**: la misma obra, muestra, show o fiesta, aunque cambie el título ("Ningyō: tradición y
+  actualidad de las muñecas japonesas" / "Ningyō, muñecas japonesas"), el nombre del lugar o la sala, o una
+  fuente traiga solo algunas funciones. Si dudás, abrí los dos enlaces.
+- **Distintos**: una muestra y la visita guiada o el recorrido por esa muestra; dos obras distintas en la
+  misma sala; dos fiestas el mismo día en el mismo club con distinto line-up; ferias de una misma red en
+  plazas distintas.
+- Decidí todos los de la lista (si es larga, `--max 200`). Las decisiones quedan en
+  `data/crawl/duplicados.json` y valen para las próximas corridas, así que la lista se achica con el tiempo.
+
+Después volvé a armar y cerrá:
+
+```bash
+python scripts/armar_agenda.py
 python scripts/crawl.py cerrar
 git add data/ && git commit -m "Agenda <fecha>: <N> eventos, <S> sitios rastreados" && git pull --rebase --autostash && git push
 ```

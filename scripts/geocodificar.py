@@ -91,6 +91,7 @@ def geocodificar_eventos(eventos, lugares=(), consultar=True):
         cache = {}
     domicilios = {l["nombre"]: l.get("domicilio", "") for l in lugares}
     poligonos = _poligonos()
+    resueltas = {}
     consultadas = 0
 
     def buscar(q):
@@ -120,11 +121,18 @@ def geocodificar_eventos(eventos, lugares=(), consultar=True):
             continue
         # Lejos del barrio que dice el evento: se repite con el barrio en la consulta. Si eso cae en el barrio
         # (o al lado), gana; si no, queda el primero (puede ser el barrio el que está mal, no el punto).
-        barrio = poligonos.get(_norm_barrio(e.get("barrio", "")))
-        if pos and barrio and distancia_barrio_km(pos, barrio) > LEJOS_KM:
-            otra = buscar(_consulta(f"{texto}, {e['barrio']}"))
-            if otra not in (None, "sin_red", "error") and distancia_barrio_km(otra, barrio) <= CERCA_KM:
-                pos = otra
+        nombre_barrio = _norm_barrio(e.get("barrio", ""))
+        barrio = poligonos.get(nombre_barrio)
+        if pos and barrio:
+            # La misma dirección y barrio se repiten en muchos eventos: se resuelve una sola vez.
+            k = (texto, nombre_barrio)
+            if k not in resueltas:
+                resueltas[k] = pos
+                if distancia_barrio_km(pos, barrio) > LEJOS_KM:
+                    otra = buscar(_consulta(f"{texto}, {e['barrio']}"))
+                    if otra not in (None, "sin_red", "error") and distancia_barrio_km(otra, barrio) <= CERCA_KM:
+                        resueltas[k] = otra
+            pos = resueltas[k]
         e["lat"], e["lng"] = (pos[0], pos[1]) if pos else ("", "")
     if consultadas:
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")

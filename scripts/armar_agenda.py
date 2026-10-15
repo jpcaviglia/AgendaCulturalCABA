@@ -113,6 +113,11 @@ def main():
         e["categoria"] = clasificar(categoria, e["titulo"], e.get("descripcion", ""), e.get("url", ""))
         e["precio"] = e.get("precio") or "Consultar"
     eventos, duplicados = deduplicar(crudos)
+    # Pares que el agente revisó y marcó como el mismo evento (scripts/duplicados.py).
+    from deduplicar import fusionar
+    from duplicados import aplicar_iguales
+    eventos, revisados = aplicar_iguales(eventos, fusionar)
+    duplicados += revisados
     from direcciones import completar
     sin_dir = sum(1 for e in eventos if e.get("lugar") and not e.get("direccion"))
     completados, fichas = completar(eventos, consultar=not simular and "--sin-geo" not in sys.argv)

@@ -1747,30 +1747,6 @@
   {
    "titulo": "Viva Frida",
    "categoria": "Artes visuales",
-   "lugar": "MALBA",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "fecha_inicio": "2026-09-20",
-   "fecha_fin": "2027-03-15",
-   "hora": "",
-   "horarios": "Lunes, miércoles, jueves, viernes, sábados y domingos, de 12 a 20 h. Miércoles de 11 a 20 h.",
-   "precio": "Consultar",
-   "descripcion": "En el marco de los 25 años de Malba, llega &#34;Viva Frida&#34;, la exposición más importante que examina la vida, la obra y la construcción de identidad de una de las artistas más influyentes del sig",
-   "url": "https://malba.org.ar/evento/viva-frida/",
-   "dominio": "malba.org.ar",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana",
-    "Buenos Aires Secreta: planes del fin de semana"
-   ],
-   "lat": -34.576882,
-   "lng": -58.403392,
-   "embebible": false
-  },
-  {
-   "titulo": "Viva Frida",
-   "categoria": "Artes visuales",
    "lugar": "Malba · Nivel 2",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
@@ -1779,13 +1755,15 @@
    "hora": "",
    "horarios": "Jueves a lunes de 12 a 20; miércoles de 11 a 20; martes cerrado",
    "precio": "Consultar",
-   "descripcion": "",
+   "descripcion": "En el marco de los 25 años de Malba, llega &#34;Viva Frida&#34;, la exposición más importante que examina la vida, la obra y la construcción de identidad de una de las artistas más influyentes del sig",
    "url": "https://malba.org.ar/evento/viva-frida/",
    "dominio": "malba.org.ar",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "MALBA"
+    "MALBA",
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.576882,
    "lng": -58.403392,
@@ -1993,7 +1971,8 @@
    "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
    "fuentes": [
     "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
-    "Museo Nacional de Arte Oriental"
+    "Museo Nacional de Arte Oriental",
+    "Time Out Buenos Aires: Agenda"
    ],
    "lat": -34.599689,
    "lng": -58.374353,
@@ -2414,29 +2393,6 @@
    ],
    "lat": "",
    "lng": "",
-   "embebible": false
-  },
-  {
-   "titulo": "Ningyō, muñecas japonesas",
-   "categoria": "Artes visuales",
-   "lugar": "Museo Nacional de Arte Oriental",
-   "barrio": "San Nicolás",
-   "direccion": "Viamonte 525",
-   "fecha_inicio": "2026-10-01",
-   "fecha_fin": "2026-11-22",
-   "hora": "",
-   "horarios": "",
-   "precio": "Gratis",
-   "descripcion": "65 obras que recorren siglos de rituales, artesanía y cultura popular japonesa a través de las muñecas.",
-   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
-   "dominio": "timeout.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Time Out Buenos Aires: Agenda"
-   ],
-   "lat": -34.599689,
-   "lng": -58.374353,
    "embebible": false
   },
   {
@@ -3562,7 +3518,8 @@
    "estado": "En curso",
    "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
-    "Teatro Coliseo"
+    "Teatro Coliseo",
+    "Ticketek"
    ],
    "lat": -34.596736,
    "lng": -58.383277,
@@ -10317,13 +10274,14 @@
    "hora": "18:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
+   "descripcion": "Muestra en Malba.",
    "url": "https://malba.org.ar/evento/recorrido-en-lsa-por-la-coleccion-malba-costantini-julio-2026/",
    "dominio": "malba.org.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "MALBA"
+    "MALBA",
+    "Vidriera BA"
    ],
    "lat": -34.576882,
    "lng": -58.403392,
@@ -11714,29 +11672,6 @@
    ],
    "lat": -34.601086,
    "lng": -58.383187,
-   "embebible": true
-  },
-  {
-   "titulo": "Viva Frida",
-   "categoria": "Artes visuales",
-   "lugar": "Malba",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2027-03-15",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Muestra en Malba.",
-   "url": "https://vidrierabuenosaires.com/eventos/viva-frida-malba",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Vidriera BA"
-   ],
-   "lat": -34.576882,
-   "lng": -58.403392,
    "embebible": true
   },
   {
@@ -21807,29 +21742,6 @@
    ],
    "lat": -34.629107,
    "lng": -58.370529,
-   "embebible": true
-  },
-  {
-   "titulo": "Volar es Humano Aterrizar es Divino",
-   "categoria": "Teatro",
-   "lugar": "Teatro Coliseo",
-   "barrio": "Retiro",
-   "direccion": "Marcelo T. de Alvear 1125",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-17",
-   "hora": "20:30",
-   "horarios": "Funciones: 16/10 20:30, 17/10 20:30",
-   "precio": "Desde $ 8820",
-   "descripcion": "",
-   "url": "https://www.ticketek.com.ar/volar-es-humano-aterrizar-es-divino/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Ticketek"
-   ],
-   "lat": -34.596736,
-   "lng": -58.383277,
    "embebible": true
   },
   {
@@ -46553,13 +46465,13 @@
   },
   {
    "titulo": "Las ruinas",
-   "categoria": "Música",
+   "categoria": "Teatro",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-31",
-   "hora": "",
+   "hora": "20:30",
    "horarios": "Funciones: 22/10 20:30, 23/10 20:30, 24/10 20:30, 25/10 18:00, 28/10 20:30, 29/10 20:30, 30/10 20:30, 31/10 20:30",
    "precio": "Consultar",
    "descripcion": "CETC",
@@ -46569,30 +46481,8 @@
    "lugar_verificado": "Teatro Colón",
    "fuentes": [
     "Teatro Colón",
+    "Búsqueda: festivales",
     "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187,
-   "embebible": true
-  },
-  {
-   "titulo": "Las ruinas",
-   "categoria": "Teatro",
-   "lugar": "Teatro Colón · Centro de Experimentación (CETC)",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-31",
-   "hora": "20:30",
-   "horarios": "22 (18 y 20:30), 23, 24, 28, 29, 30 y 31 a las 20:30",
-   "precio": "Consultar",
-   "descripcion": "Estreno en el Centro de Experimentación del Teatro Colón.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
