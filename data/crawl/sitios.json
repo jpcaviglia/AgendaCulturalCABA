@@ -13589,7 +13589,8 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [sondeo sin navegador] Wix sin fechas en el HTML: el texto da obras y día de la semana; para fechas y horas hay que ir a Plateanet. /eventos es alquiler para eventos corporativos."
+    "2026-10-15 [sondeo sin navegador] Wix sin fechas en el HTML: el texto da obras y día de la semana; para fechas y horas hay que ir a Plateanet. /eventos es alquiler para eventos corporativos.",
+    "2026-10-15 No se rastrea (pedido del usuario): su web no publica fechas (están en Plateanet) y su programación ya llega por Alternativa Teatral, Eventbrite y Passline."
    ],
    "comportamiento": {
     "cartelera": "/obras lista ~18 obras con día de la semana (VIE, JUE/VIE/SAB/DOM) y precio, casi nunca con fecha; las fichas /obra/<slug> tampoco traen fechas",
@@ -13600,7 +13601,8 @@
     "https://www.paseolaplaza.com.ar/obras",
     "https://www.paseolaplaza.com.ar/off"
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "teatro-picadero",
