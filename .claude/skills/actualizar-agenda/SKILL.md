@@ -72,6 +72,15 @@ Pide las webs pendientes con HTTP simple (unos 2 minutos, sin gastar tokens del 
 Nunca marca un sitio vacío: si no encontró eventos, el sitio sigue en la cola. Si la corrida se retoma otro
 día, volvé a correrlo (`siguiente` avisa si falta un sondeo reciente).
 
+Después, buscá los Linktree de los Instagram (sin abrir Instagram, no gasta cupo):
+
+```bash
+python scripts/biolinks.py
+```
+
+Prueba `linktr.ee/<cuenta>` de cada Instagram sin `enlace_bio` y guarda los que encuentra. Solo prueba los
+nuevos (o los que no tenían hace más de 60 días), así que en general tarda poco.
+
 ## 2. Recorrer la cola
 
 Repetir hasta que la cola quede vacía:
@@ -274,9 +283,10 @@ al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a
 3. Si el texto no tiene la fecha, mirá el afiche (captura).
 4. Seguí el enlace de la bio (`bio` o `enlace_bio`): Linktree, ticketera o web. Aplicá la sección 3.
 
-**Antes de abrir Instagram**, si el sitio tiene `enlace_bio`, leelo sin navegador
-(`python scripts/sondear.py --leer <enlace_bio>`). Muchos Linktree listan cada show con la fecha en el
-título y enlace a la ticketera, que se lee igual. Si ahí está la agenda de la ventana, guardá el canal
+**Antes de abrir Instagram, siempre**: si el sitio tiene `enlace_bio`, leelo sin navegador
+(`python scripts/sondear.py --leer <enlace_bio>`). De un Linktree muestra cada enlace como
+`título [url]`; muchos listan cada show con la fecha en el título y el enlace a la ticketera, que se lee
+igual (`--leer <url>`). Si ahí está la agenda de la ventana, guardá el canal
 `instagram` con esos eventos, `enlaces_candidatos` = el enlace de la bio visitado, `posts: []` y
 `paginas_instagram: 0` (no gasta cupo), y anotá en `comportamiento` que la agenda está en la bio.
 5. En el resultado poné:

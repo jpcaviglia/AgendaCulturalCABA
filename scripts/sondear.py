@@ -59,6 +59,10 @@ RE_PROGRAMAS = re.compile(r"talleres|\btaller\b|cursos|\bclases\b|seminarios?|wo
 SPA = re.compile(r'id="(root|__next|app)"|__NEXT_DATA__|ng-version|data-reactroot|window\.__NUXT__|wixui|id="comp-', re.I)
 CONTEXTO = ssl.create_default_context()
 SIN_VERIFICAR = ssl._create_unverified_context()  # solo para leer páginas públicas cuando el certificado está mal
+# Python solo anuncia HTTP/1.1 (ALPN) con su contexto por defecto; con uno propio hay que pedirlo. Sin eso, algunos
+# CDN (Linktree, en Fastly) responden 403.
+for _ctx in (CONTEXTO, SIN_VERIFICAR):
+    _ctx.set_alpn_protocols(["http/1.1"])
 
 
 def descomprimir(datos, codificacion):
@@ -234,8 +238,28 @@ def limpiar(t):
     return re.sub(r"\s+", " ", html_lib.unescape(re.sub(r"<[^>]+>", " ", t or ""))).strip()
 
 
+def texto_linktree(html):
+    """Los enlaces de un Linktree como 'título [url]' (vienen en el JSON de la página, no en el HTML), o ''."""
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    try:
+        props = json.loads(m.group(1))["props"]["pageProps"]
+    except (AttributeError, ValueError, KeyError, TypeError):
+        return ""
+    cuenta = props.get("account") or {}
+    lineas = [f"Linktree @{cuenta.get('username', '')}: {limpiar(cuenta.get('pageTitle') or '')}",
+              limpiar(cuenta.get("description") or "")]
+    for l in props.get("links") or []:
+        if l.get("title") or l.get("url"):
+            lineas.append(f"{limpiar(l.get('title') or '')} [{l.get('url') or ''}]")
+    return "\n".join(x for x in lineas if x)
+
+
 def texto_legible(html, base):
     """Texto de la página con saltos de línea y los enlaces del mismo sitio como 'texto [url]'."""
+    if dominio(base) in ("linktr.ee", "linktree.com"):
+        lt = texto_linktree(html)
+        if lt:
+            return lt
     t = re.sub(r"<(script|style|noscript|svg|head)\b.*?</\1>|<!--.*?-->", " ", html, flags=re.S | re.I)
     host = dominio(base)
 
