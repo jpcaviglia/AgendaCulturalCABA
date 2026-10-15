@@ -32,6 +32,9 @@ from sondear import PAUSA, pedir
 
 ID = "saleplan-agenda-de-ciudad-de-buenos-aires"
 LISTADO = "https://saleplan.ar/buenos-aires/eventos?page={}"
+# Los "Destacados" (visitas guiadas, shows de tango, tours: cosas en curso) no salen en /eventos, solo arriba de
+# cada página de la agenda semanal: alcanza con la primera.
+DESTACADOS = "https://saleplan.ar/buenos-aires/que-hacer-esta-semana?page=1"
 TMP = CRAWL / "tmp"
 REINTENTOS, ESPERA_REINTENTO = 4, 15
 MAX_EDAD_DIAS = 10  # igual que armar_agenda.py: capturas más viejas no cuentan como "ya cubierto"
@@ -94,6 +97,14 @@ def tarjetas(pagina):
 def leer_listado(desde, hasta, max_paginas):
     """Recorre el listado hasta pasar el fin de la ventana o hasta que no aparezcan tarjetas nuevas."""
     vistas, urls = {}, []
+    est, _, html, nota = pedir(DESTACADOS)
+    if est == 200 and html:
+        urls.append(DESTACADOS)
+        for c in tarjetas(html):
+            vistas[c["id"]] = c
+    else:
+        print(f"  destacados: {est} {nota} (se sigue sin ellos)")
+    time.sleep(PAUSA)
     for n in range(1, max_paginas + 1):
         url = LISTADO.format(n)
         for intento in range(REINTENTOS):
