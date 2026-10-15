@@ -38,6 +38,9 @@ ESTADOS = {
     "dominio_caido": "dominio que no resuelve, estacionado, suspendido o que redirige a otra cosa",
     "bloqueado": "captcha, login obligatorio, 403 o límite de Instagram",
 }
+TAREA_BUSCAR = ("No tiene web ni Instagram: buscar en Google la web oficial (y el Instagram), confirmar que está en "
+                "CABA y abierto, ponerlos en web_nueva / instagram (y barrio, direccion) y rastrear la web en este mismo "
+                "turno. Si no existe, cerró o no está en CABA: 'descartar': '<motivo>' con 'evidencia'.")
 # Estados que afirman que no hay nada: exigen haber recorrido todo.
 NEGATIVOS = ("sin_eventos", "sin_agenda", "no_cultural")
 # Estados de falla: exigen evidencia y vuelven a probarse en la próxima corrida.
@@ -51,6 +54,7 @@ GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|si
 MAX_NOTAS, MAX_HISTORIAL, MAX_ENTRADAS = 12, 10, 8
 
 # --- Instagram: cupo, enfriamiento y posts ya analizados (solo local, ver .gitignore) ---
+DESCARTADOS = CRAWL / "descartados.json"
 LOCAL = CRAWL / "local"
 IG_POSTS = LOCAL / "instagram_posts.json"
 IG_ESTADO = LOCAL / "instagram_estado.json"
@@ -148,6 +152,8 @@ def armar_cola(doc, previa=None):
             elegidos.append((orden(s, "web"), item(s["id"], "web")))
         elif s.get("instagram"):
             elegidos.append((orden(s, "instagram"), item(s["id"], "instagram")))
+        else:  # sin web ni Instagram: se busca su web oficial
+            elegidos.append((orden(s, "web"), item(s["id"], "web")))
     return [i for _, i in sorted(elegidos)]
 
 
@@ -197,7 +203,7 @@ def cmd_iniciar(args):
     if omitidos:
         print(f"No se rastrean por decisión ({len(omitidos)}): {', '.join(omitidos)}")
     if sin_canal:
-        print(f"Sin web ni Instagram ({len(sin_canal)}): buscar su web o Instagram si hay tiempo: {', '.join(sin_canal[:20])}")
+        print(f"Sin web ni Instagram ({len(sin_canal)}): están en la cola para buscar su web oficial.")
 
 
 def resumen_sitio(s, canal=None):
@@ -208,6 +214,8 @@ def resumen_sitio(s, canal=None):
         out = {"item": item(s["id"], canal), "canal": canal, **out}
     out["notas"] = s.get("notas", [])[-6:]
     out["historial"] = s.get("historial", [])[-4:]
+    if canal == "web" and not s.get("web") and not s.get("instagram"):
+        out["tarea"] = TAREA_BUSCAR
     return out
 
 
@@ -328,6 +336,9 @@ def validar(res, sitios):
     canal = res.get("canal", "web")
     if canal not in CANALES:
         errores.append(f"canal debe ser uno de {CANALES}")
+    if canal == "web" and not sitio.get("web") and not sitio.get("instagram") and not (res.get("web_nueva") or res.get("instagram")):
+        errores.append("este sitio no tenía web ni Instagram: poner web_nueva o instagram con lo que encontraste, "
+                       "o 'descartar' si no existe, cerró o no está en CABA")
     estado = res.get("estado")
     if estado not in ESTADOS:
         errores.append(f"estado {estado!r} inválido; opciones: {', '.join(ESTADOS)}")
@@ -458,6 +469,18 @@ def buscar_existente(doc, nuevo):
     return None
 
 
+def dar_de_alta(s, lugares, galerias, barrio="", direccion=""):
+    """Suma un sitio confirmado a galerias.json (si es galería o museo de arte) y a lugares.json."""
+    nombre, web, ig = s["nombre"], s.get("web", ""), s.get("instagram", "")
+    if s.get("tipo") == "galeria" and not any(sin_tildes(g["nombre"]) == sin_tildes(nombre) for g in galerias["galerias"]):
+        galerias["galerias"].append({"nombre": nombre, "web": web, "tipo": "Galería o museo", "verificada": bool(web)})
+    if s.get("tipo") in ("lugar", "galeria") and not any(sin_tildes(l["nombre"]) == sin_tildes(nombre) for l in lugares):
+        lugares.append({"nombre": nombre, "barrio": barrio, "domicilio": direccion, "web": web, "dominio": dominio(web),
+                        "tipo_web": "Sitio propio" if web else "", "instagram": ig,
+                        "estado": "Probable: menciona eventos" if web else "Sin web", "evidencia": s.get("origen", ""),
+                        "canal": "Sitio web" if web else "Instagram (sin listado confirmado en la web)"})
+
+
 def agregar_sitios_nuevos(doc, nuevos, origen, corrida, avisos):
     """Suma a sitios.json (y a lugares.json o galerias.json) los espacios descubiertos, y los encola en esta corrida."""
     agregados = []
@@ -472,6 +495,11 @@ def agregar_sitios_nuevos(doc, nuevos, origen, corrida, avisos):
         if previo:
             avisos.append(f"sitio ya conocido: {n['nombre']} = {previo['id']}")
             continue
+        baja = buscar_existente({"sitios": leer_json(DESCARTADOS, [])}, n)
+        if baja:
+            avisos.append(f"{n['nombre']} se descartó el {baja.get('fecha')} ({baja.get('motivo')}); si reabrió, "
+                          "sacarlo de data/crawl/descartados.json y volver a sumarlo")
+            continue
         tipo = n.get("tipo") if n.get("tipo") in FASES else "lugar"
         sid = slug(n["nombre"])
         while sid in ids:
@@ -485,16 +513,7 @@ def agregar_sitios_nuevos(doc, nuevos, origen, corrida, avisos):
         if n.get("motivo"):
             s["notas"] = [f"{hoy().isoformat()}: {n['motivo']}"]
         doc["sitios"].append(s)
-        if tipo == "galeria":
-            galerias["galerias"].append({"nombre": n["nombre"], "web": n.get("web", ""), "tipo": "Galería o museo",
-                                         "verificada": bool(n.get("web"))})
-        if tipo in ("lugar", "galeria") and not any(sin_tildes(l["nombre"]) == sin_tildes(n["nombre"]) for l in lugares):
-            lugares.append({"nombre": n["nombre"], "barrio": n.get("barrio", ""), "domicilio": n.get("direccion", ""),
-                            "web": n.get("web", ""), "dominio": dominio(n.get("web", "")),
-                            "tipo_web": "Sitio propio" if n.get("web") else "", "instagram": ig,
-                            "estado": "Probable: menciona eventos" if n.get("web") else "Sin web",
-                            "evidencia": s["origen"],
-                            "canal": "Sitio web" if n.get("web") else "Instagram (sin listado confirmado en la web)"})
+        dar_de_alta(s, lugares, galerias, n.get("barrio", ""), n.get("direccion", ""))
         if corrida and not corrida.get("fin"):
             corrida["cola"].append(item(sid, "web" if s["web"] else "instagram"))
             corrida["sitios_nuevos"].append(sid)
@@ -569,6 +588,38 @@ def cmd_ig_vistos(args):
           + (f". EN ENFRIAMIENTO hasta {enfriado}: no abrir Instagram" if enfriado else "."))
 
 
+def descartar(doc, sitios, res):
+    """Saca un sitio que no existe, cerró o no está en CABA (de sitios.json, lugares.json, galerias.json y capturas)."""
+    sitio = sitios.get(res.get("id", ""))
+    if not sitio:
+        sys.exit(f"NO SE GUARDÓ: id {res.get('id')!r} no existe")
+    if not (res.get("evidencia") or "").strip():
+        print("NO SE GUARDÓ. Para descartar un sitio hace falta 'evidencia' (qué se buscó y qué se encontró).")
+        sys.exit(2)
+    nombres = {sin_tildes(n) for n in [sitio["nombre"], *sitio.get("lugares", [])]}
+    doc["sitios"] = [s for s in doc["sitios"] if s["id"] != sitio["id"]]
+    lugares = [l for l in leer_json(DATOS / "lugares.json", []) if sin_tildes(l["nombre"]) not in nombres]
+    galerias = leer_json(DATOS / "galerias.json", {"galerias": []})
+    galerias["galerias"] = [g for g in galerias["galerias"] if sin_tildes(g["nombre"]) not in nombres]
+    escribir_json(DATOS / "lugares.json", lugares)
+    escribir_json(DATOS / "galerias.json", galerias)
+    for ruta in CAPTURAS.glob(f"{sitio['id']}.*.json"):
+        ruta.unlink()
+    bajas = leer_json(DESCARTADOS, [])
+    bajas.append({"id": sitio["id"], "nombre": sitio["nombre"], "web": sitio.get("web", ""), "instagram": sitio.get("instagram", ""),
+                  "lugares": sitio.get("lugares", []), "fecha": hoy().isoformat(), "motivo": res["descartar"],
+                  "evidencia": res["evidencia"]})
+    escribir_json(DESCARTADOS, bajas)
+    guardar_sitios(doc)
+    corrida = cargar_corrida()
+    if corrida and not corrida.get("fin"):
+        for canal in CANALES:
+            if item(sitio["id"], canal) in corrida["cola"]:
+                corrida["hechos"][item(sitio["id"], canal)] = "descartado"
+        escribir_json(CORRIDA, corrida)
+    print(f"Descartado {sitio['nombre']}: {res['descartar']}. Queda registrado en data/crawl/descartados.json.")
+
+
 def cmd_guardar(args):
     if not args:
         sys.exit("Uso: crawl.py guardar <archivo.json|->")
@@ -579,6 +630,8 @@ def cmd_guardar(args):
         sys.exit(f"JSON inválido: {ex}")
     doc = cargar_sitios()
     sitios = por_id(doc)
+    if res.get("descartar"):
+        return descartar(doc, sitios, res)
     reusados = reusar_posts(res) if res.get("canal") == "instagram" else 0
     sitio, canal, eventos, errores, avisos = validar(res, sitios)
     if reusados:
@@ -600,6 +653,16 @@ def cmd_guardar(args):
         "fecha": hoy().isoformat(), "estado": estado, "urls_visitadas": res.get("urls_visitadas") or [],
         "eventos": eventos})
     aprender(sitio, canal, res, eventos)
+    if sitio.get("pendiente_alta") and (sitio.get("web") or sitio.get("instagram")) and estado != "dominio_caido":
+        lugares, galerias = leer_json(DATOS / "lugares.json", []), leer_json(DATOS / "galerias.json", {"galerias": []})
+        for campo in ("barrio", "direccion"):
+            if res.get(campo):
+                sitio[campo] = res[campo]
+        dar_de_alta(sitio, lugares, galerias, sitio.get("barrio", ""), sitio.get("direccion", ""))
+        escribir_json(DATOS / "lugares.json", lugares)
+        escribir_json(DATOS / "galerias.json", galerias)
+        sitio.pop("pendiente_alta")
+        avisos.append(f"{sitio['nombre']} confirmado: agregado a lugares.json" + (" y galerias.json" if sitio["tipo"] == "galeria" else ""))
     if canal == "instagram":
         registrar_posts(sitio, res, eventos, avisos)
     nuevos = agregar_sitios_nuevos(doc, res.get("sitios_nuevos"), sitio["nombre"], corrida, avisos)
@@ -669,6 +732,10 @@ def cmd_cerrar(args):
         items = [i for i, e in corrida["hechos"].items() if e in filtro]
         if items:
             lineas += [f"## {titulo}", ""] + [f"- {nombre(i)} ({i.split('|')[1]}): {corrida['hechos'][i]}" for i in items] + [""]
+    bajas = [i for i, e in corrida["hechos"].items() if e == "descartado"]
+    if bajas:
+        lineas += ["## Descartados (no existen, cerraron o no están en CABA)", "",
+                   ", ".join(i.split("|")[0] for i in bajas), ""]
     pospuestos = [i for i, e in corrida["hechos"].items() if e == "pospuesto"]
     if pospuestos:
         lineas += [f"## Instagram pospuesto ({corrida.get('motivo_pospuesto', '')}; van primeros la próxima corrida)", "",

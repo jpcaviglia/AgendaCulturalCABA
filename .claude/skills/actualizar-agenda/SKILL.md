@@ -77,6 +77,16 @@ Cada ~40 sitios, publicá un avance (sección 6). Así la página se actualiza a
 
 ## 3. Rastrear una web
 
+**Sitios sin web ni Instagram** (museos y galerías de la lista de referencia, o lugares a los que les
+falta todo): `siguiente` los muestra con una `tarea`. Buscá en Google `"<nombre>" Buenos Aires`, confirmá
+la web oficial (no un directorio ni una nota), que esté en CABA y que siga abierto, y poné en el resultado
+`web_nueva`, `instagram`, `barrio` y `direccion`. Después rastreá esa web en el mismo turno como cualquier
+otra (lo que sigue de esta sección). Al guardar, el script lo suma a `lugares.json` (y a `galerias.json`
+si es de arte). Si no existe, cerró o no está en CABA, guardá `{"id": ..., "descartar": "<motivo>",
+"evidencia": "<qué buscaste y qué encontraste>"}`: se saca de las listas y queda anotado en
+`data/crawl/descartados.json` para no volver a sumarlo. Lo mismo vale para cualquier sitio que hayas
+confirmado cerrado.
+
 ### 3.1 Abrir y esperar
 
 1. Abrí la primera URL de `entradas` si hay; si no, `web`. Si hay `enlaces_pendientes`, abrilos también.
@@ -124,15 +134,22 @@ La portada casi nunca alcanza: suele mostrar una sola muestra o los próximos tr
 - Si un listado tiene la información en imágenes (afiches) sin texto, sacá una captura y leela.
 - Llevá la lista de URLs ya visitadas para no repetir. Van todas en `urls_visitadas`.
 
-Qué cargar: lo que esté en curso o empiece dentro de los próximos 14 días (la ventana la muestra
+Qué tipo de eventos: todo lo que sea abierto al público y de interés cultural o de ocio, **incluidas
+fiestas de techno y electrónica, fiestas en clubes, raves y open airs, festivales (de música, cine, teatro,
+tango, jazz, arte, de barrio) y ferias (de diseño, arte, libros, vinilos, gastronómicas, artesanías,
+americanas)**, además de teatro, música, cine, muestras, danza, charlas, talleres y visitas. No se cargan
+eventos privados, cursos comerciales o de negocios, ni partidos o competencias deportivas.
+
+Cuándo: lo que esté en curso o empiece dentro de los próximos 14 días (la ventana la muestra
 `siguiente`). Una muestra que empezó en agosto y cierra en diciembre está vigente y se carga. Una obra con
 funciones todos los viernes de octubre es un solo evento con `fecha_inicio`, `fecha_fin` y `horarios`.
 Una inauguración con día y hora propios va como evento aparte.
 
 ### 3.4 Enlaces nuevos
 
-- `externos` de `preparar` que sean otro espacio cultural de CABA (galería, sala, centro cultural,
-  museo, cine) y no estén en la cola: sumalos en `sitios_nuevos`. El script los agrega a
+- `externos` de `preparar` que sean otro espacio cultural de CABA (galería, museo, sala, centro cultural,
+  cine, club o boliche con agenda) y no estén en la cola: sumalos en `sitios_nuevos`. Una productora o
+  fiesta itinerante que cambia de lugar va con `"tipo": "agregador"`. El script los agrega a
   `sitios.json` y a `lugares.json`/`galerias.json`, y los pone en la cola de esta misma corrida.
   Confirmá que estén en CABA; no agregues espacios de otras ciudades.
 - Páginas del mismo sitio que no llegaste a abrir y podrían tener eventos: `enlaces_nuevos`.
@@ -189,9 +206,17 @@ En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts 
   `vigente_sin_fin: true`.
 - **SalePlan**: recorrer las `entradas` (hoy, semana, fin de semana, eventos) con `preparar`, abrir las
   fichas y leer `jsonld`. Hacer pausas de 1-2 s entre fichas.
+- **Resident Advisor**: agenda de fiestas y electrónica. Recorrer los 14 días, abrir las fichas sin club
+  y sumar clubes y productoras nuevos en `sitios_nuevos`.
 - **Descubrimiento** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): sirven para encontrar
   espacios y muestras que no están en la lista. Cargá las muestras de CABA que figuren con fechas, y
   sumá los espacios nuevos en `sitios_nuevos`.
+- **Búsquedas** (fiestas techno y electrónica, festivales, ferias, museos y galerías que falten): son
+  búsquedas en Google que se hacen en cada corrida. `comportamiento.consultas` tiene las consultas:
+  agregales el mes y el año, abrí los primeros resultados útiles, cargá los eventos de la ventana con su
+  `lugar`, y sumá en `sitios_nuevos` los clubes, organizadores, festivales, ferias, museos y galerías
+  que publiquen agenda propia, para que se rastreen directo de ahí en adelante. Antes de sumar uno,
+  fijate con `crawl.py ver <nombre>` que no esté.
 - **Ticketeras y agendas** (Alternativa Teatral, Eventbrite, Ticketek, Passline, Indiehoy, Time Out):
   seguir `entradas` y `comportamiento` de cada una. Cargar solo eventos en CABA, culturales, dentro de la
   ventana. Ir al ritmo de una persona (pausas de 2-4 s entre páginas); ante captcha o 403, `bloqueado`.
@@ -256,7 +281,10 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
   `plataforma`, `fichas`, `extraccion`, `bloqueos`).
   Se fusiona con lo que ya había; poné una clave en `null` para borrarla si dejó de ser cierta.
 - `nota`: una o dos frases con lo aprendido. Se acumulan en `notas` del sitio.
-- `web_nueva`, `instagram`, `enlace_bio`: solo si descubriste que cambiaron o faltaban.
+- `web_nueva`, `instagram`, `enlace_bio`: solo si descubriste que cambiaron o faltaban. `barrio` y
+  `direccion`: para sitios que se estaban confirmando (los que tenían `tarea`).
+- `descartar` + `evidencia`: en vez de todo lo demás, para sacar un sitio que no existe, cerró o no está
+  en CABA.
 
 **Resultados grandes** (Turismo BA, SalePlan, un teatro con 60 funciones): acortá las descripciones a
 ~200 caracteres y escribí el archivo de una vez. No lo partas en varios guardados del mismo `id` y

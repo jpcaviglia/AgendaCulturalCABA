@@ -4,7 +4,8 @@ import unicodedata
 
 CATEGORIAS = [
     "Teatro", "Música", "Danza", "Cine", "Artes visuales", "Literatura y charlas",
-    "Taller", "Visita guiada", "Infantil", "Feria", "Gastronomía", "Deporte", "Evento",
+    "Taller", "Visita guiada", "Infantil", "Feria", "Festival", "Fiestas y electrónica", "Gastronomía", "Deporte",
+    "Evento",
 ]
 
 
@@ -16,6 +17,12 @@ def sin_tildes(texto):
 # Categorías que traen las fuentes -> categoría canónica. Si una fuente usa una
 # etiqueta genérica ("Evento", "Otros") se cae a las reglas por palabras clave.
 MAPA_FUENTE = {
+    # Primero las etiquetas más específicas: la búsqueda por subcadena recorre el diccionario en orden.
+    "festival": "Festival", "festivales": "Festival",
+    "musica electronica": "Fiestas y electrónica", "electronica": "Fiestas y electrónica",
+    "techno": "Fiestas y electrónica", "fiesta": "Fiestas y electrónica", "fiestas": "Fiestas y electrónica",
+    "party": "Fiestas y electrónica", "nightlife": "Fiestas y electrónica", "vida nocturna": "Fiestas y electrónica",
+    "club": "Fiestas y electrónica", "dj": "Fiestas y electrónica",
     "teatro": "Teatro", "obra": "Teatro", "stand up": "Teatro", "humor": "Teatro", "circo": "Teatro",
     "musica": "Música", "recital": "Música", "concierto": "Música", "jazz": "Música", "tango": "Música",
     "danza": "Danza", "baile": "Danza",
@@ -34,15 +41,19 @@ MAPA_FUENTE = {
 # Reglas por palabras clave sobre título + descripción, en orden de prioridad.
 REGLAS = [
     ("Infantil", r"\b(infantil(es)?|para chicos|para ninos|en familia|titeres|ninas y ninos)\b"),
+    ("Festival", r"\b(festival(es)?|fest)\b"),
     ("Visita guiada", r"\b(visita guiada|recorrido|city tour|caminata cultural)\b"),
-    ("Cine", r"\b(cine|pelicula|proyeccion|documental|cortometraje|ciclo de cine|festival de cine)\b"),
+    ("Cine", r"\b(cine|pelicula|proyeccion|documental|cortometraje|ciclo de cine)\b"),
+    ("Fiestas y electrónica", r"\b(techno|tecno|hard techno|musica electronica|electronica|electronic music|rave|dj( set)?|djs|"
+                              r"b2b|after ?party|club night|boiler room|open air|trance|psytrance|drum (and|&|n) bass|dnb|"
+                              r"deep house|tech ?house|house music|party|fiestas?)\b"),
     ("Danza", r"\b(danza|ballet|milonga|folklore|flamenco|bailarin|coreograf)\w*"),
     ("Teatro", r"\b(teatro|obra|stand ?up|comedia|monologo|impro|clown|funcion|dramaturgia|unipersonal)\b"),
-    ("Música", r"\b(musica|recital|concierto|banda|show en vivo|jazz|tango|orquesta|coro|dj|cantante|trio|cuarteto)\b"),
+    ("Música", r"\b(musica|recital|concierto|banda|show en vivo|jazz|tango|orquesta|coro|cantante|trio|cuarteto)\b"),
     ("Artes visuales", r"\b(muestra|exposicion|exhibicion|galeria|fotografia|pintura|escultura|instalacion|vernissage)\b"),
+    ("Feria", r"\b(feria|mercado|bazar|ferial)\b"),
     ("Literatura y charlas", r"\b(charla|conferencia|presentacion de libro|libro|poesia|lectura|conversatorio|debate|panel|clase magistral)\b"),
     ("Taller", r"\b(taller|curso|seminario|workshop|clase)\b"),
-    ("Feria", r"\b(feria|mercado|bazar|ferial)\b"),
     ("Gastronomía", r"\b(gastronomi\w*|degustacion|cata|cena show|brunch|food)\b"),
     ("Deporte", r"\b(deporte|futbol|maraton|torneo|yoga|running|ciclismo)\b"),
 ]

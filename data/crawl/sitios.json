@@ -69,7 +69,7 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
    ],
    "comportamiento": {
-    "extraccion": "El listado y cada ficha traen JSON-LD de eventos: usar jsonld. Filtrar a CABA (descartar provincia) y a eventos culturales (no cursos de negocios, networking ni fiestas).",
+    "extraccion": "El listado y cada ficha traen JSON-LD de eventos: usar jsonld. Filtrar a CABA (descartar provincia). Cargar recitales, fiestas y electrónica, festivales, ferias, teatro, arte, etc.; descartar cursos de negocios, networking y charlas comerciales.",
     "paginacion": "Listado paginado (?page=N); recorrer hasta pasar la ventana de 14 días.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
    }
@@ -6960,6 +6960,803 @@
    "origen": "data/lugares.json",
    "barrio": "San Nicolás",
    "direccion": "Av. Roque Sáenz Peña 1150"
+  },
+  {
+   "nombre": "Resident Advisor: Buenos Aires",
+   "tipo": "agregador",
+   "lugares": [],
+   "web": "https://ra.co/events/ar/buenosaires",
+   "instagram": "",
+   "origen": "agregado el 2026-10-15 (fiestas y electrónica)",
+   "comportamiento": {
+    "extraccion": "Agenda de fiestas y música electrónica por fecha: cada evento tiene ficha con line-up, club, dirección, horario y precio. Recorrer los próximos 14 días (filtro de fechas o scroll) y abrir las fichas que no muestren el club.",
+    "ritmo": "Pausas de 2-4 s entre páginas; si aparece captcha, guardar como bloqueado.",
+    "uso": "Los clubes y productoras de CABA que aparezcan y no estén en la lista van en sitios_nuevos (club = lugar; productora o fiesta itinerante = agregador)."
+   },
+   "id": "resident-advisor-buenos-aires"
+  },
+  {
+   "nombre": "Búsqueda: fiestas techno y electrónica",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.google.com/search?q=fiestas+techno+buenos+aires+este+fin+de+semana",
+   "instagram": "",
+   "origen": "agregado el 2026-10-15",
+   "comportamiento": {
+    "consultas": [
+     "fiestas techno buenos aires este fin de semana",
+     "fiesta música electrónica CABA",
+     "clubes de música electrónica buenos aires agenda",
+     "after party open air buenos aires"
+    ],
+    "uso": "Encontrar fiestas de la ventana y, sobre todo, clubes, productoras y ciclos que publiquen agenda (p. ej. Niceto Club, Crobar, Under Club, Bresh: confirmar cada uno en el navegador). Sumarlos en sitios_nuevos para que se rastreen en cada corrida.",
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+   },
+   "id": "busqueda-fiestas-techno-y-electronica"
+  },
+  {
+   "nombre": "Búsqueda: festivales",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.google.com/search?q=festival+buenos+aires",
+   "instagram": "",
+   "origen": "agregado el 2026-10-15",
+   "comportamiento": {
+    "consultas": [
+     "festival buenos aires",
+     "festivales de la ciudad de buenos aires agenda",
+     "festival de música buenos aires",
+     "festival gratis CABA"
+    ],
+    "uso": "Festivales de música, cine, teatro, tango, jazz, arte, gastronomía y de barrio dentro de la ventana. Cargar cada festival como un evento con fecha_inicio y fecha_fin (y sus funciones destacadas aparte si tienen fecha y hora propias). Los sitios oficiales de festivales que se repiten cada año van en sitios_nuevos como agregador.",
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+   },
+   "id": "busqueda-festivales"
+  },
+  {
+   "nombre": "Búsqueda: ferias",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.google.com/search?q=feria+fin+de+semana+buenos+aires",
+   "instagram": "",
+   "origen": "agregado el 2026-10-15",
+   "comportamiento": {
+    "consultas": [
+     "feria fin de semana buenos aires",
+     "ferias de diseño CABA",
+     "feria de arte buenos aires",
+     "feria del libro independiente buenos aires",
+     "mercado de pulgas vinilos feria americana CABA"
+    ],
+    "uso": "Ferias de diseño, arte, libros, vinilos, gastronomía, artesanías y ferias americanas. Las ferias permanentes (p. ej. San Telmo, Mataderos) se cargan con sus días y horarios en 'horarios' y vigente_sin_fin si no tienen cierre. Organizadores recurrentes van en sitios_nuevos.",
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+   },
+   "id": "busqueda-ferias"
+  },
+  {
+   "nombre": "Búsqueda: museos y galerías que falten",
+   "tipo": "descubrimiento",
+   "lugares": [],
+   "web": "https://www.google.com/search?q=museos+de+buenos+aires+listado",
+   "instagram": "",
+   "origen": "agregado el 2026-10-15",
+   "comportamiento": {
+    "consultas": [
+     "museos de buenos aires listado",
+     "galerías de arte contemporáneo buenos aires",
+     "nueva galería de arte buenos aires",
+     "inauguración muestra galería buenos aires",
+     "gallery nights buenos aires galerías"
+    ],
+    "uso": "Encontrar museos, galerías, fundaciones y espacios de arte de CABA que no estén en la lista (ver con `crawl.py ver <nombre>` antes de sumarlos). Fuentes útiles: directorios de museos de la Ciudad y de la Nación, Meridiano, arteBA, Gallery Nights, Noche de los Museos. Sumarlos en sitios_nuevos con tipo galeria (museos y espacios de arte) o lugar (museos de ciencia, historia, etc.).",
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+   },
+   "id": "busqueda-museos-y-galerias-que-falten"
+  },
+  {
+   "nombre": "Museo Nacional de Arte Decorativo",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Nacional de Arte Decorativo"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-nacional-de-arte-decorativo"
+  },
+  {
+   "nombre": "Museo de Arte Español Enrique Larreta",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Arte Español Enrique Larreta"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-arte-espanol-enrique-larreta"
+  },
+  {
+   "nombre": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Arte Hispanoamericano Isaac Fernández Blanco"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-arte-hispanoamericano-isaac-fernandez-blanco"
+  },
+  {
+   "nombre": "Museo de Artes Plásticas Eduardo Sívori",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Artes Plásticas Eduardo Sívori"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-artes-plasticas-eduardo-sivori"
+  },
+  {
+   "nombre": "Museo de Arte Popular José Hernández",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Arte Popular José Hernández"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-arte-popular-jose-hernandez"
+  },
+  {
+   "nombre": "Museo Xul Solar",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Xul Solar"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-xul-solar"
+  },
+  {
+   "nombre": "Museo Nacional del Grabado",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Nacional del Grabado"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-nacional-del-grabado"
+  },
+  {
+   "nombre": "Museo Nacional de Arte Oriental",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-nacional-de-arte-oriental"
+  },
+  {
+   "nombre": "Museo Benito Quinquela Martín",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Benito Quinquela Martín"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-benito-quinquela-martin"
+  },
+  {
+   "nombre": "Museo Kosice",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Kosice"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-kosice"
+  },
+  {
+   "nombre": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova"
+  },
+  {
+   "nombre": "Museo Casa de Yrurtia",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Casa de Yrurtia"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-casa-de-yrurtia"
+  },
+  {
+   "nombre": "MARQ Museo de Arquitectura y Diseño",
+   "tipo": "galeria",
+   "lugares": [
+    "MARQ Museo de Arquitectura y Diseño"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "marq-museo-de-arquitectura-y-diseno"
+  },
+  {
+   "nombre": "Fundación Andreani",
+   "tipo": "galeria",
+   "lugares": [
+    "Fundación Andreani"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "fundacion-andreani"
+  },
+  {
+   "nombre": "Museo del Humor (MuHu)",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo del Humor (MuHu)"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-del-humor-muhu"
+  },
+  {
+   "nombre": "Henrique Faria Buenos Aires",
+   "tipo": "galeria",
+   "lugares": [
+    "Henrique Faria Buenos Aires"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "henrique-faria-buenos-aires"
+  },
+  {
+   "nombre": "Pasto Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Pasto Galería"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "pasto-galeria"
+  },
+  {
+   "nombre": "Document Art Gallery",
+   "tipo": "galeria",
+   "lugares": [
+    "Document Art Gallery"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "document-art-gallery"
+  },
+  {
+   "nombre": "Hache Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Hache Galería"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "hache-galeria"
+  },
+  {
+   "nombre": "Gachi Prieto Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Gachi Prieto Galería"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "gachi-prieto-galeria"
+  },
+  {
+   "nombre": "Galería Luisa Pedrouzo",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Luisa Pedrouzo"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "galeria-luisa-pedrouzo"
+  },
+  {
+   "nombre": "Calvaresi Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Calvaresi Galería"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "calvaresi-galeria"
+  },
+  {
+   "nombre": "Mar Dulce Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Mar Dulce Galería"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "mar-dulce-galeria"
+  },
+  {
+   "nombre": "Cosmocosa",
+   "tipo": "galeria",
+   "lugares": [
+    "Cosmocosa"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "cosmocosa"
+  },
+  {
+   "nombre": "Fundación Larivière",
+   "tipo": "galeria",
+   "lugares": [
+    "Fundación Larivière"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "fundacion-lariviere"
+  },
+  {
+   "nombre": "Galería Jacques Martínez",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Jacques Martínez"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "galeria-jacques-martinez"
+  },
+  {
+   "nombre": "Museo Evita",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Evita"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-evita"
+  },
+  {
+   "nombre": "Museo del Cine Pablo Ducrós Hicken",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo del Cine Pablo Ducrós Hicken"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-del-cine-pablo-ducros-hicken"
+  },
+  {
+   "nombre": "Museo Histórico Nacional",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Histórico Nacional"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-historico-nacional"
+  },
+  {
+   "nombre": "Museo Mitre",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Mitre"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-mitre"
+  },
+  {
+   "nombre": "Museo Histórico Sarmiento",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Histórico Sarmiento"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-historico-sarmiento"
+  },
+  {
+   "nombre": "Museo Etnográfico Juan B. Ambrosetti",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-etnografico-juan-b-ambrosetti"
+  },
+  {
+   "nombre": "Museo de la Ciudad",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo de la Ciudad"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-la-ciudad"
+  },
+  {
+   "nombre": "Museo Casa Carlos Gardel",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Casa Carlos Gardel"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-casa-carlos-gardel"
+  },
+  {
+   "nombre": "MUNTREF Museo de la Inmigración",
+   "tipo": "lugar",
+   "lugares": [
+    "MUNTREF Museo de la Inmigración"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "muntref-museo-de-la-inmigracion"
+  },
+  {
+   "nombre": "Museo Nacional Ferroviario",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Nacional Ferroviario"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-nacional-ferroviario"
+  },
+  {
+   "nombre": "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Argentino de Ciencias Naturales Bernardino Rivadavia"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia"
+  },
+  {
+   "nombre": "Planetario Galileo Galilei",
+   "tipo": "lugar",
+   "lugares": [
+    "Planetario Galileo Galilei"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "planetario-galileo-galilei"
+  },
+  {
+   "nombre": "Museo Casa de Ricardo Rojas",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Casa de Ricardo Rojas"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-casa-de-ricardo-rojas"
+  },
+  {
+   "nombre": "Museo Nacional de la Historia del Traje",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Nacional de la Historia del Traje"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-nacional-de-la-historia-del-traje"
+  },
+  {
+   "nombre": "Museo del Holocausto de Buenos Aires",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo del Holocausto de Buenos Aires"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-del-holocausto-de-buenos-aires"
+  },
+  {
+   "nombre": "Museo Judío de Buenos Aires",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Judío de Buenos Aires"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-judio-de-buenos-aires"
+  },
+  {
+   "nombre": "Museo Sitio de Memoria ESMA",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Sitio de Memoria ESMA"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-sitio-de-memoria-esma"
+  },
+  {
+   "nombre": "Museo Malvinas e Islas del Atlántico Sur",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Malvinas e Islas del Atlántico Sur"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-malvinas-e-islas-del-atlantico-sur"
+  },
+  {
+   "nombre": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Histórico de Buenos Aires Cornelio de Saavedra"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-historico-de-buenos-aires-cornelio-de-saavedra"
+  },
+  {
+   "nombre": "Museo de los Niños Abasto",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo de los Niños Abasto"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-de-los-ninos-abasto"
+  },
+  {
+   "nombre": "Museo Mundial del Tango",
+   "tipo": "lugar",
+   "lugares": [
+    "Museo Mundial del Tango"
+   ],
+   "web": "",
+   "instagram": "",
+   "pendiente_alta": true,
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   ],
+   "id": "museo-mundial-del-tango"
   }
  ]
 }
