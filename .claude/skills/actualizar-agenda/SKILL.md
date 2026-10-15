@@ -17,9 +17,10 @@ Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos
    tenía eventos, o no cargó, se vuelve a abrir igual.
 2. **"No hay eventos" es una conclusión que hay que probar.** Antes de marcar `sin_eventos` o `sin_agenda`
    tenés que haber abierto cada enlace a agenda, muestras, exposiciones, exhibiciones, cartelera,
-   programación, actividades, ciclos o ticketera que aparezca en el sitio (menú, portada, pie), haber
-   scrolleado cada listado hasta el final y apretado sus "ver más". `crawl.py guardar` rechaza el
-   resultado si falta algo de eso.
+   programación, actividades, ciclos, talleres, visitas o ticketera que aparezca en el sitio (menú,
+   portada, pie), fuertes y débiles, haber scrolleado cada listado hasta el final y apretado sus "ver
+   más". Si el sitio **sí** tiene eventos, alcanza con los enlaces fuertes (sección 3.2). `crawl.py
+   guardar` rechaza el resultado si falta algo de eso.
 3. **Un sitio lento no es un sitio caído.** Esperá hasta 30 s, recargá, probá variantes de la URL. Solo
    después de 3 intentos fallidos se marca `no_carga`, y se vuelve a probar en la próxima corrida.
 4. **No inventes datos.** Si falta título, fecha o lugar, el evento no se carga. Si falta hora o precio,
@@ -32,9 +33,12 @@ Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos
 - Navegador: las herramientas de Claude in Chrome (`navigate`, `javascript_tool`, `get_page_text`,
   `computer`, `find`, `tabs_context`…). Si no aparecen, cargalas con ToolSearch (`chrome`). Usá una sola
   pestaña propia para todo el rastreo.
-- Fragmentos de JS listos y probados: [navegador.md](navegador.md). Leelo al empezar. Los más usados son
-  `preparar` (esperar + cookies + scroll + "ver más" + enlaces clasificados), `bloques` (tarjetas con
-  fecha) y `esperar` (fichas).
+- Herramientas de JS listas y probadas: [navegador.md](navegador.md) dice qué hace cada una; leelo al
+  empezar. El código está en `navegador.js` y **no se pega**: se carga con la línea que imprime
+  `crawl.py iniciar` (cambiando solo la llamada del final). Las más usadas son `preparar()` (esperar +
+  cookies + scroll + "ver más" + enlaces clasificados), `bloques()` (tarjetas con fecha) y `esperar()`
+  (fichas). Para leer un listado usá `bloques()` antes que `get_page_text`, y sacá capturas solo cuando
+  la información está en una imagen o un aviso no se deja cerrar.
 - Registro: `python scripts/crawl.py ...` (en Windows puede ser `py` en vez de `python`).
 
 ## 1. Empezar o retomar
@@ -46,6 +50,7 @@ python scripts/crawl.py iniciar
 
 `iniciar` arma la cola con todos los sitios de `data/crawl/sitios.json`. Si hay una corrida abierta de
 los últimos 3 días, la retoma donde quedó (no se empieza de cero si la sesión anterior se cortó).
+También imprime la línea que carga las herramientas del navegador: guardala, se usa en cada página.
 
 ## 2. Recorrer la cola
 
@@ -57,7 +62,8 @@ python scripts/crawl.py siguiente 3
 
 Muestra los próximos sitios con todo lo que se sabe de ellos: `web`, `instagram`, `enlace_bio`,
 `entradas` (páginas de agenda que funcionaron antes), `comportamiento`, `notas`, `enlaces_pendientes`
-(enlaces que se vieron y no se abrieron) y `ultimo`. Leelo antes de abrir el sitio. Las notas que dicen
+(enlaces que se vieron y no se abrieron), `enlaces_descartados` (ya se vio que no sirven, con el motivo:
+no abrirlos) y `ultimo`. Leelo antes de abrir el sitio. Las notas que dicen
 "el script viejo lo marcó ... NO es confiable" vienen de un verificador que no abría las páginas: ignorá
 esa conclusión y revisá el sitio a fondo.
 
@@ -111,24 +117,39 @@ confirmado cerrado.
 
 La portada casi nunca alcanza: suele mostrar una sola muestra o los próximos tres eventos.
 
-- Tomá `secciones` de `preparar` (menú, portada y pie). Esos son los `enlaces_candidatos`.
+- `preparar` separa los enlaces de agenda del mismo sitio en `secciones` (fuertes: agenda, cartelera,
+  programación, eventos, actividades, muestras, exposiciones, shows, funciones, obras, próximas…) y
+  `debiles` (ciclos, talleres, cursos, visitas, actuales, temporada, festival, cine, inauguración).
+  Todos van en `enlaces_candidatos`; los débiles con `"debil": true`.
+- Los que están en `enlaces_descartados` del sitio ya se descartaron en otra corrida: no los abras (el
+  script les pone el motivo guardado). Se vuelven a revisar solos cada 6 meses.
+- **Fuertes: abrí cada uno** y corré `preparar` en él. Dentro de cada sección, las pestañas o filtros
+  "Actuales", "Próximas", "Este mes", "Hoy", "Semana" son más secciones: abrilas.
+- **Débiles:** si el sitio ya dio eventos por los enlaces fuertes, no hace falta abrirlos (casi siempre
+  repiten lo que está en la agenda). Si al final no encontraste eventos, abrilos todos antes de marcar
+  `sin_eventos` o `sin_agenda`. Abrí igual uno débil cuando su texto deja claro que tiene una
+  programación propia que la agenda no muestra (por ejemplo, un "Cine" con su propia cartelera
+  semanal).
 - Mirá también los menús desplegables ("Más", "☰", "Programación ▾"): abrilos con un clic y volvé a
   correr `preparar` si aparecen enlaces nuevos.
-- Abrí **cada** sección candidata y corré `preparar` en ella. Dentro de cada sección, las pestañas o
-  filtros "Actuales", "Próximas", "Este mes", "Hoy", "Semana" son más secciones: abrilas.
 - Seguí la paginación ("siguiente", `?page=2`, calendario del mes siguiente) hasta cubrir los próximos
   14 días.
+- Si dos enlaces llevan al mismo listado (`/agenda` y `/eventos` muestran lo mismo), abrí uno y descartá
+  el otro con "misma página que /agenda".
 - Solo se puede descartar un candidato con un motivo concreto: "archivo de muestras pasadas",
-  "es la tienda", "convocatoria, no evento", "es la misma página que /agenda". "Parecía vacío" no es un
-  motivo.
+  "es la tienda", "convocatoria, no evento", "es la colección", "es la misma página que /agenda".
+  "Parecía vacío" no es un motivo. Los descartes se recuerdan en la próxima corrida, así que el motivo
+  tiene que seguir siendo cierto la semana que viene.
 
 ### 3.3 Leer los eventos
 
-- Si `eventos_jsonld > 0`, usá `jsonld`.
-- Si no, usá `bloques` sobre cada listado (o `get_page_text` si `bloques` no captura bien la estructura).
-- Entrá a la ficha de un evento o muestra (`fichas`) cuando el listado no tenga fecha completa (inicio
-  y fin de una muestra), lugar o sala, horario o precio. Para muestras de galerías y museos entrá
-  siempre: la fecha de cierre suele estar solo en la ficha.
+- Si `eventos_jsonld > 0`, usá `jsonld()`.
+- Si no, usá `bloques()` sobre cada listado (o `get_page_text` solo si `bloques` no captura bien la
+  estructura).
+- Entrá a la ficha de un evento o muestra (`fichas`, con `esperar()`) cuando el listado no tenga fecha
+  completa (inicio y fin de una muestra), lugar o sala, horario o precio. En galerías y museos la fecha
+  de cierre suele estar solo en la ficha: entrá a las de las muestras **vigentes o próximas** (no a las
+  del archivo ni a las de artistas).
 - Desde una ficha seguí el enlace a entradas o "más info" si ahí están las funciones o el precio.
   Profundidad máxima: 3 niveles desde el listado, mismo dominio o ticketera.
 - Si un listado tiene la información en imágenes (afiches) sin texto, sacá una captura y leela.
@@ -202,8 +223,8 @@ En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts 
 
 ## 4b. Agregadores y fuentes de descubrimiento
 
-- **Turismo BA**: usar el fragmento `turismo` de navegador.md. Las actividades que ya empezaron van con
-  `vigente_sin_fin: true`.
+- **Turismo BA**: usar `turismo()`. Devuelve los eventos ya en el formato del resultado (con
+  `vigente_sin_fin` puesto): copiá su `eventos` tal cual al archivo, sin reescribirlos.
 - **SalePlan**: recorrer las `entradas` (hoy, semana, fin de semana, eventos) con `preparar`, abrir las
   fichas y leer `jsonld`. Hacer pausas de 1-2 s entre fichas.
 - **Resident Advisor**: agenda de fiestas y electrónica. Recorrer los 14 días, abrir las fichas sin club
@@ -240,7 +261,8 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
   "scroll_completo": true,
   "enlaces_candidatos": [
     {"texto": "Muestras", "url": "https://barro.cc/es/muestras", "visitado": true},
-    {"texto": "Archivo", "url": "https://barro.cc/es/archivo", "descartado": "archivo de muestras pasadas"}
+    {"texto": "Archivo", "url": "/es/archivo", "descartado": "archivo de muestras pasadas"},
+    {"texto": "Visitas", "url": "/es/visitas", "debil": true}
   ],
   "evidencia": "",
   "eventos": [
@@ -264,6 +286,8 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
   (no publica programación en este canal), `no_cultural`, `no_carga`, `dominio_caido`, `bloqueado`.
   (`pospuesto` lo pone el script a los perfiles de Instagram que no entraron en el cupo.)
 - Solo Instagram: `posts`, `paginas_instagram` y `post` en cada evento (sección 4).
+- `enlaces_candidatos`: cada uno con `visitado: true`, `descartado: "<motivo>"` o, si es débil y hubo
+  eventos, `debil: true` sin abrir. La `url` puede ser la ruta que devolvió `preparar` (`/agenda/`).
 - `evidencia`: obligatoria en `sin_eventos`, `sin_agenda`, `no_cultural` y en las fallas. Ejemplo:
   "/muestras lista 14 muestras, la más reciente cerró el 2026-09-30; /agenda vacía; sin próximas".
 - `eventos[].lugar`: vacío solo si el sitio tiene un único lugar (se completa solo). En sitios con

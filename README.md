@@ -35,7 +35,9 @@ Python 3.10+.
 
 - `scripts/crawl.py`: cola de la corrida, validación de cada resultado (rechaza "sin eventos" si quedaron
   enlaces de agenda sin abrir o listados sin scrollear, y "no carga" con menos de 3 intentos) y registro de
-  lo aprendido.
+  lo aprendido, incluidos los enlaces descartados para no reabrirlos. `crawl.py herramientas` imprime la
+  línea que carga `.claude/skills/actualizar-agenda/navegador.js` en la pestaña (desde jsDelivr, fijado al
+  último commit subido de ese archivo).
 - `scripts/armar_agenda.py`: arma `data/eventos.json` (ventana de 14 días, clasificación, duplicados) y
   ubica las direcciones nuevas en el mapa con OpenStreetMap (`--sin-geo` para no consultar).
 - `clasificar.py`, `deduplicar.py`, `geocodificar.py`, `comun.py`: funciones compartidas.

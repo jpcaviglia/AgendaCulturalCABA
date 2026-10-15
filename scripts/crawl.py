@@ -11,6 +11,7 @@ Uso:
     python scripts/crawl.py ig-vistos <id> <url_post>...   # qué posts de Instagram ya se analizaron (no reabrirlos)
     python scripts/crawl.py estado                # avance de la corrida y cupo de Instagram
     python scripts/crawl.py cerrar [--forzar]     # cierra la corrida y escribe el informe
+    python scripts/crawl.py herramientas [llamada]   # la línea que carga navegador.js en la pestaña
 
 Archivos:
     data/crawl/sitios.json          qué rastrear y cómo se comporta cada sitio (se enriquece en cada corrida)
@@ -22,10 +23,12 @@ Archivos:
 """
 import json
 import re
+import subprocess
 import sys
 from datetime import date, datetime, timedelta
+from urllib.parse import urljoin
 
-from comun import (CAPTURAS, CORRIDA, CRAWL, DATOS, INFORMES, SITIOS, ZONA_BA, dominio, escribir_json, hoy,
+from comun import (CAPTURAS, CORRIDA, CRAWL, DATOS, INFORMES, RAIZ, SITIOS, ZONA_BA, dominio, escribir_json, hoy,
                    leer_json, sin_tildes, slug, ventana)
 
 CANALES = ("web", "instagram")
@@ -52,6 +55,9 @@ FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HORA = re.compile(r"^([01]\d|2[0-3]):[0-5]\d$")
 GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|sin cargo|free)\b", re.I)
 MAX_NOTAS, MAX_HISTORIAL, MAX_ENTRADAS = 12, 10, 8
+# Enlaces descartados con motivo: no se vuelven a abrir hasta que pase este plazo.
+MAX_DESCARTADOS, DIAS_RECORDAR_DESCARTE = 30, 180
+HERRAMIENTAS = ".claude/skills/actualizar-agenda/navegador.js"
 
 # --- Instagram: cupo, enfriamiento y posts ya analizados (solo local, ver .gitignore) ---
 DESCARTADOS = CRAWL / "descartados.json"
@@ -96,6 +102,40 @@ def ig_registrar_uso(est, paginas, bloqueado, avisos):
 
 def ultima_ig(s):
     return (s.get("ultimo") or {}).get("instagram", {}).get("fecha", "")
+
+
+# --- herramientas del navegador ---------------------------------------------------
+
+def _git(*args):
+    try:
+        r = subprocess.run(["git", *args], cwd=RAIZ, capture_output=True, text=True, encoding="utf-8")
+        return r.stdout.strip() if r.returncode == 0 else ""
+    except OSError:
+        return ""
+
+
+def url_herramientas():
+    """(URL de navegador.js en jsDelivr fijada al último commit que lo tocó, motivo si no se puede)."""
+    m = re.search(r"github\.com[/:]([^/]+/[^/]+?)(\.git)?$", _git("remote", "get-url", "origin"))
+    commit = _git("log", "-1", "--format=%h", "--", HERRAMIENTAS)
+    if not m or not commit:
+        return "", "no se encontró el repositorio de GitHub o el commit de navegador.js"
+    if _git("status", "--porcelain", "--", HERRAMIENTAS):
+        return "", "navegador.js tiene cambios sin commitear ni subir"
+    if not _git("branch", "-r", "--contains", commit):
+        return "", f"el commit {commit} de navegador.js no está subido (git push)"
+    return f"https://cdn.jsdelivr.net/gh/{m.group(1)}@{commit}/{HERRAMIENTAS}", ""
+
+
+def linea_herramientas(llamada="preparar()"):
+    url, motivo = url_herramientas()
+    if not url:
+        return f"({motivo}) Pegar {HERRAMIENTAS} entero seguido de `window.__agt.{llamada}` en cada página."
+    return f'(async () => {{ window.__agt || await import("{url}"); return window.__agt.{llamada}; }})()'
+
+
+def cmd_herramientas(args):
+    print(linea_herramientas(args[0] if args else "preparar()"))
 
 
 # --- carga y guardado -----------------------------------------------------------
@@ -204,6 +244,7 @@ def cmd_iniciar(args):
         print(f"No se rastrean por decisión ({len(omitidos)}): {', '.join(omitidos)}")
     if sin_canal:
         print(f"Sin web ni Instagram ({len(sin_canal)}): están en la cola para buscar su web oficial.")
+    print("Herramientas del navegador, en cada página:\n  " + linea_herramientas())
 
 
 def resumen_sitio(s, canal=None):
@@ -212,6 +253,9 @@ def resumen_sitio(s, canal=None):
     out = {k: s[k] for k in claves if s.get(k)}
     if canal:
         out = {"item": item(s["id"], canal), "canal": canal, **out}
+    descartados = descartes_vigentes(s)
+    if descartados:  # ya se vio que no sirven: no abrirlos
+        out["enlaces_descartados"] = [[d["url"], d["motivo"]] for d in descartados.values()]
     out["notas"] = s.get("notas", [])[-6:]
     out["historial"] = s.get("historial", [])[-4:]
     if canal == "web" and not s.get("web") and not s.get("instagram"):
@@ -238,6 +282,9 @@ def cmd_siguiente(args):
             print(f"Instagram: quedan {restantes} páginas de cupo hoy. Antes de abrir posts, consultar "
                   "`crawl.py ig-vistos <id> <urls>` y abrir solo los nuevos.")
     hechos = len(corrida["hechos"])
+    url, _ = url_herramientas()
+    if url:
+        print(f"Herramientas: {url}")
     print(f"Avance: {hechos} de {len(corrida['cola'])} hechos. Ventana {corrida['ventana']['desde']} a {corrida['ventana']['hasta']}.")
     if not pend:
         print("Cola vacía: correr armar_agenda.py y `crawl.py cerrar`.")
@@ -353,9 +400,25 @@ def validar(res, sitios):
             errores.append("falta enlaces_candidatos: los enlaces a agenda, muestras, exposiciones, cartelera, "
                            "programación, actividades, ticketera, etc. que se encontraron (lista vacía si no hay ninguno)")
         else:
-            sin_ver = [c for c in candidatos if isinstance(c, dict) and not c.get("visitado") and not c.get("descartado")]
+            recordados = descartes_vigentes(sitio)
+            sin_ver, debiles = [], []
+            for c in candidatos:
+                if not isinstance(c, dict) or c.get("visitado") or c.get("descartado"):
+                    continue
+                previo = recordados.get(_norm_url(url_absoluta(sitio, c.get("url"))))
+                if previo:  # descartado con motivo en una corrida anterior: no hace falta reabrirlo
+                    c["descartado"] = previo["motivo"]
+                elif c.get("debil") and estado == "con_eventos":
+                    debiles.append(c)
+                else:
+                    sin_ver.append(c)
+            if debiles:
+                avisos.append(f"{len(debiles)} enlaces débiles sin abrir (se acepta porque hubo eventos): "
+                              + ", ".join(c.get("texto") or c.get("url", "") for c in debiles))
             if sin_ver:
-                errores.append("hay enlaces candidatos sin abrir. Abrirlos o poner 'descartado': '<motivo concreto>':\n    "
+                pista = (" (con eventos, solo los marcados 'debil': true pueden quedar sin abrir)"
+                         if estado == "con_eventos" else "")
+                errores.append(f"hay enlaces candidatos sin abrir. Abrirlos o poner 'descartado': '<motivo concreto>'{pista}:\n    "
                                + "\n    ".join(f"{c.get('texto', '')} -> {c.get('url', '')}" for c in sin_ver))
     if estado in NEGATIVOS:
         if not res.get("scroll_completo"):
@@ -425,10 +488,20 @@ def aprender(sitio, canal, res, eventos):
     # Enlaces vistos pero no recorridos: la próxima corrida empieza por ellos.
     visitadas = set(res.get("urls_visitadas") or [])
     pend = [p for p in sitio.get("enlaces_pendientes", []) if p.get("url") not in visitadas]
+    descartados = descartes_vigentes(sitio)
     for c in res.get("enlaces_candidatos") or []:
-        if isinstance(c, dict) and c.get("url") and not c.get("visitado") and c.get("descartado") is None:
-            if c["url"] not in {p["url"] for p in pend}:
-                pend.append({"url": c["url"], "texto": c.get("texto", ""), "desde": fecha})
+        if not isinstance(c, dict) or not c.get("url"):
+            continue
+        url = url_absoluta(sitio, c["url"])
+        if c.get("descartado"):
+            descartados[_norm_url(url)] = {"url": url, "texto": c.get("texto", ""), "motivo": c["descartado"], "fecha": fecha}
+        elif not c.get("visitado") and not c.get("debil"):  # los débiles se vuelven a encontrar solos
+            if url not in {p["url"] for p in pend}:
+                pend.append({"url": url, "texto": c.get("texto", ""), "desde": fecha})
+    if descartados:
+        sitio["enlaces_descartados"] = sorted(descartados.values(), key=lambda d: d["fecha"])[-MAX_DESCARTADOS:]
+    else:
+        sitio.pop("enlaces_descartados", None)
     for u in res.get("enlaces_nuevos") or []:
         u = u if isinstance(u, dict) else {"url": u}
         if u.get("url") and u["url"] not in visitadas and u["url"] not in {p["url"] for p in pend}:
@@ -446,6 +519,18 @@ def aprender(sitio, canal, res, eventos):
 def _norm_url(u):
     u = re.sub(r"^https?://(www\.)?", "", (u or "").strip().lower())
     return u.split("#")[0].rstrip("/")
+
+
+def url_absoluta(sitio, u):
+    """Las herramientas devuelven rutas sueltas (/agenda) para los enlaces del mismo sitio."""
+    u = (u or "").strip()
+    return urljoin(sitio["web"], u) if u.startswith("/") and sitio.get("web") else u
+
+
+def descartes_vigentes(sitio):
+    """Enlaces descartados con motivo en los últimos DIAS_RECORDAR_DESCARTE días, por URL normalizada."""
+    corte = (hoy() - timedelta(days=DIAS_RECORDAR_DESCARTE)).isoformat()
+    return {_norm_url(d["url"]): d for d in sitio.get("enlaces_descartados", []) if d.get("fecha", "") >= corte}
 
 
 DOMINIOS_COMPARTIDOS = ("instagram.com", "facebook.com", "linktr.ee", "alternativateatral.com", "buenosaires.gob.ar",
@@ -752,7 +837,7 @@ def cmd_cerrar(args):
 
 
 COMANDOS = {"iniciar": cmd_iniciar, "siguiente": cmd_siguiente, "ver": cmd_ver, "guardar": cmd_guardar, "ig-vistos": cmd_ig_vistos,
-            "estado": cmd_estado, "cerrar": cmd_cerrar}
+            "estado": cmd_estado, "cerrar": cmd_cerrar, "herramientas": cmd_herramientas}
 
 
 def main():

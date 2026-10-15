@@ -1,272 +1,79 @@
 # Herramientas para el navegador
 
-Fragmentos de JavaScript para pegar en la herramienta que ejecuta JS en la pestaña (en Claude in Chrome,
-`javascript_tool`). Todos devuelven un texto JSON y además lo dejan en `window.__ag`. Si la herramienta
-devuelve una promesa vacía o `{}` en vez del resultado, esperá unos segundos y ejecutá
-`JSON.stringify(window.__ag)` para leerlo.
+Las herramientas están en [navegador.js](navegador.js) y se cargan en la pestaña con **una sola línea**
+(en Claude in Chrome, con `javascript_tool`). No hace falta leer ni pegar el código.
 
-Están probados en Chromium con páginas de prueba: carga lenta, scroll infinito, botón "cargar más",
-avisos de cookies (gestores conocidos, shadow DOM, avisos que aparecen tarde), ventanas de newsletter y
-de edad, y enlaces a muestras dentro del menú. Si cambiás uno, mantené esos casos funcionando.
+`python scripts/crawl.py iniciar` imprime la línea, con la URL de jsDelivr fijada al último commit de
+`navegador.js` (`crawl.py herramientas` la vuelve a mostrar, y `siguiente` repite la URL):
 
-## `preparar`: esperar, scrollear, expandir y listar enlaces
+```js
+(async () => { window.__agt || await import("https://cdn.jsdelivr.net/gh/<repo>@<commit>/.claude/skills/actualizar-agenda/navegador.js"); return window.__agt.preparar(); })()
+```
 
-Correrlo **en cada página de listado** (agenda, muestras, cartelera, programación, portada), apenas
+Para otra herramienta se cambia solo el final: `window.__agt.esperar()`, `window.__agt.bloques()`, etc.
+Cada vez que se navega a otra página hay que usar la línea completa (el `window.__agt ||` evita volver a
+descargar el archivo mientras se siga en la misma página). Todas devuelven un texto JSON y además lo
+dejan en `window.__ag`: si la herramienta devuelve una promesa vacía o `{}`, esperá unos segundos y
+ejecutá `JSON.stringify(window.__ag)`.
+
+**Si el import falla** ("Failed to fetch dynamically imported module" o un error de Content Security
+Policy): el sitio bloquea scripts de otros dominios. Leé `navegador.js`, pegalo entero seguido de la
+llamada (`window.__agt.preparar()`) y anotá `"comportamiento": {"herramientas": "pegar inline (CSP)"}`
+para que la próxima corrida lo pegue directo. Si `crawl.py` dice que `navegador.js` tiene cambios sin
+subir, pasa lo mismo: pegalo inline (o commiteá y subí antes de empezar).
+
+Los enlaces del mismo sitio vuelven como **ruta** (`/agenda/`) para no repetir el dominio: la URL
+completa es `base` + ruta. En el resultado (`urls_visitadas`, `entradas`, `eventos[].url`) van completas;
+en `enlaces_candidatos` puede ir la ruta.
+
+## `preparar(opciones)`: esperar, scrollear, expandir y listar enlaces
+
+Correrla **en cada página de listado** (agenda, muestras, cartelera, programación, portada), apenas
 termina de navegar. Hace, en orden:
 
 1. Espera hasta 30 s a que el texto de la página deje de cambiar (sitios lentos, apps con JavaScript).
-2. Cierra avisos de cookies y ventanas que tapan la página (ver `popups` abajo), y lo vuelve a hacer en
-   cada paso del scroll, porque hay avisos que aparecen a los segundos o al bajar.
-3. Scrollea hasta el final, una y otra vez, hasta que la página deja de crecer (carga diferida y scroll
-   infinito), y aprieta los botones "ver más / cargar más / load more" que no navegan a otra página.
-4. Devuelve los enlaces separados en: `secciones` (agenda, muestras, exposiciones, cartelera, etc. del
-   mismo sitio), `fichas` (páginas de un evento o muestra), `ticketeras`, `externos` (otros sitios, posibles
-   espacios nuevos), y datos de la página: cuánto tardó, cuánto scrolleó, cuántas fechas hay en el texto,
-   eventos en JSON-LD y la plataforma (WordPress con The Events Calendar, Wix, etc.).
+2. Cierra avisos de cookies y ventanas que tapan la página (ver `popups`), y lo repite en cada paso del
+   scroll, porque hay avisos que aparecen a los segundos o al bajar.
+3. Scrollea hasta el final, una y otra vez, hasta que la página deja de crecer, y aprieta los botones
+   "ver más / cargar más / load more" que no navegan a otra página.
+4. Devuelve los enlaces clasificados y datos de la página.
 
-```js preparar
-(async () => {
-  const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
-  const t0 = Date.now();
-  const largoTexto = () => (document.body ? document.body.innerText.length : 0);
-  let largo = -1, estables = 0;
-  while (Date.now() - t0 < 30000 && estables < 3) {
-    await dormir(1000);
-    const n = largoTexto();
-    estables = n === largo && n > 150 ? estables + 1 : 0;
-    largo = n;
-  }
-  const espera_ms = Date.now() - t0;
-  const visible = (b) => b.offsetParent !== null || getComputedStyle(b).position === "fixed";
-  // --- cerrarPopups: igual en preparar, esperar y popups ---
-  const popups = [];
-  const cerrarPopups = () => {
-    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
-      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
-    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
-    const raices = [document];
-    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
-    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
-    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
-    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
-    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
-      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
-      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
-      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
-      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
-      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
-    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
-    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
-    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
-    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
-    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
-    const enAviso = (b) => {
-      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
-      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
-        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
-      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
-    };
-    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
-    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
-    if (b2) return clic(b2, "cookies");
-    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
-    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
-    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
-    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
-    const area = innerWidth * innerHeight;
-    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
-      const r = m.getBoundingClientRect(), t = m.innerText || "";
-      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
-      m.dataset.agPopup = "1";
-      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
-      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
-        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
-      if (b && noNavegaPopup(b)) return clic(b, "ventana");
-      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
-      popups.push("ventana: Escape");
-      return true;
-    }
-    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
-    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
-    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
-    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
-    if (popups.length) for (const e of [document.documentElement, document.body])
-      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
-    return false;
-  };
-  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
-  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
-  // --- fin cerrarPopups ---
-  await despejar();
-  const RE_MAS = /^\+?\s*((ver|cargar|mostrar) m[aá]s|load more|show more|see more|view more|m[aá]s (eventos|muestras|actividades|resultados|fechas|funciones)|ver todos|ver todas|siguientes)\b/i;
-  const noNavega = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
-  let alto = 0, quietos = 0, pasos = 0, clics = 0;
-  while (pasos < 60 && quietos < 3) {
-    window.scrollTo(0, document.documentElement.scrollHeight);
-    pasos++;
-    await dormir(1200);
-    await despejar(); // hay avisos que aparecen a los segundos o al scrollear
-    const boton = [...document.querySelectorAll("button, [role=button], a")].find((b) =>
-      visible(b) && !b.dataset.agClic && noNavega(b) && (b.innerText || "").trim().length < 40 && RE_MAS.test((b.innerText || "").trim()));
-    if (boton && clics < 20) {
-      boton.dataset.agClic = "1"; boton.click(); clics++; quietos = 0;
-      await dormir(2000);
-      continue;
-    }
-    const h = document.documentElement.scrollHeight;
-    quietos = h === alto ? quietos + 1 : 0;
-    alto = h;
-  }
-  window.scrollTo(0, 0);
-  const MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec";
-  const RE_FECHA = new RegExp(`\\b\\d{1,2}\\s*(de\\s+)?(${MESES})[a-záéíóú]*\\.?\\b|\\b(${MESES})[a-z]*\\.?\\s+\\d{1,2}\\b|\\b\\d{1,2}[/.]\\d{1,2}([/.]\\d{2,4})?\\b`, "gi");
-  const RE_AGENDA = /agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|\bshows?\b|funciones|espect[aá]culo|\bobras\b|\bciclos?\b|conciertos|calendario|calendar|talleres|cursos|visitas|en cartel|pr[oó]xim|actuales?|current|upcoming|temporada|festival|\bcine\b|pel[ií]culas|\bexpos?\b|inauguraci|what'?s on/i;
-  const RE_TICKET = /alternativateatral|passline|eventbrite|ticketek|tuentrada|entradauno|plateanet|bonoentrada|ticketportal|universe\.com|allaccess|livepass|entradaweb|tickethoy|eventim|sympla|venti|linktr\.ee|taplink/i;
-  const RE_IGNORAR = /instagram|facebook|twitter|x\.com|youtube|youtu\.be|whatsapp|wa\.me|tiktok|spotify|google\.|goo\.gl|wikipedia|linkedin|mailto|apple\.com|wix\.com|wordpress\.(com|org)|mercadopago|pinterest|flickr|vimeo|soundcloud/i;
-  const aqui = location.hostname.replace(/^www\./, "");
-  const mismo = (h) => h === aqui || h.endsWith("." + aqui) || aqui.endsWith("." + h);
-  const vistos = new Set();
-  const out = { secciones: [], fichas: [], ticketeras: [], externos: [] };
-  for (const a of document.querySelectorAll("a[href]")) {
-    let u;
-    try { u = new URL(a.href); } catch { continue; }
-    if (!/^https?:$/.test(u.protocol)) continue;
-    const url = u.href.split("#")[0];
-    if (vistos.has(url) || url === location.href.split("#")[0]) continue;
-    if (/\.(jpe?g|png|gif|webp|svg|css|js|zip|mp3|mp4)$/i.test(u.pathname)) continue;
-    vistos.add(url);
-    const texto = (a.innerText || a.title || a.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ").slice(0, 80);
-    const host = u.hostname.replace(/^www\./, "");
-    const ruta = decodeURIComponent(u.pathname + u.search);
-    if (RE_TICKET.test(host)) { out.ticketeras.push([texto, url]); continue; }
-    if (!mismo(host)) { if (!RE_IGNORAR.test(host)) out.externos.push([texto, url]); continue; }
-    const enMenu = !!a.closest("nav, header, [class*=menu], [id*=menu], [role=navigation]");
-    const segmentos = u.pathname.replace(/^\/(es|en|pt|es-ar)(\/|$)/i, "/").split("/").filter(Boolean).length;
-    const tarjeta = (a.closest("article, li, [class*=card], [class*=item], [class*=event], [class*=evento], [class*=muestra], [class*=expo], tr") || a).innerText || "";
-    const conFecha = tarjeta.length < 600 && RE_FECHA.test(tarjeta);
-    RE_FECHA.lastIndex = 0;
-    const agenda = RE_AGENDA.test(ruta) || RE_AGENDA.test(texto);
-    if (agenda && (enMenu || segmentos <= 1) && !conFecha) out.secciones.push([texto, url]);
-    else if (agenda || conFecha) out.fichas.push([texto, url]);
-  }
-  const jsonld = [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => s.textContent).join(" ");
-  const html = document.documentElement.outerHTML;
-  const plataforma = [
-    /tribe-events|wp-json\/tribe/.test(html) && "WordPress + The Events Calendar (probar /wp-json/tribe/events/v1/events)",
-    /wp-content/.test(html) && "WordPress",
-    /wix\.com|wixstatic/.test(html) && "Wix",
-    /squarespace/.test(html) && "Squarespace",
-    /cdn\.shopify/.test(html) && "Shopify",
-  ].filter(Boolean);
-  window.__ag = JSON.stringify({
-    url: location.href, titulo: document.title, espera_ms, largo_texto: largoTexto(), pasos_scroll: pasos,
-    clics_ver_mas: clics, popups, fechas_en_texto: (document.body.innerText.match(RE_FECHA) || []).length,
-    eventos_jsonld: (jsonld.match(/"@type"\s*:\s*"[A-Za-z]*Event"/g) || []).length, plataforma,
-    secciones: out.secciones.slice(0, 40), fichas: out.fichas.slice(0, 120),
-    ticketeras: out.ticketeras.slice(0, 20), externos: out.externos.slice(0, 30),
-  });
-  return window.__ag;
-})()
-```
+Qué devuelve:
+
+- `secciones`: enlaces **fuertes** del mismo sitio, los que suelen ser la agenda: agenda, cartelera,
+  programación, eventos, actividades, muestras, exposiciones, exhibiciones, shows, funciones, obras,
+  conciertos, calendario, próximas, upcoming. Hay que abrirlos todos (o descartarlos con motivo).
+- `debiles`: subprogramas que la agenda casi siempre ya incluye: ciclos, talleres, cursos, visitas,
+  actuales, temporada, festival, cine, películas, inauguración. Ver la regla en la skill (3.2). Si una
+  página no tiene ninguna sección fuerte, las débiles pasan a `secciones`.
+- `fichas`: páginas de un evento o muestra (enlaces con fecha en la tarjeta, o de agenda pero profundos).
+- `ticketeras`, `externos`: otros sitios (posibles espacios nuevos).
+- `largo_texto`, `espera_ms`, `pasos_scroll`, `clics_ver_mas`, `popups`, `fechas_en_texto`,
+  `eventos_jsonld`, `plataforma`.
+- Si una lista se cortó, aparece `<lista>_total` con cuántos había. Para ver más:
+  `preparar({fichas: 150})` (también `secciones`, `debiles`, `ticketeras`, `externos`).
+
+Ya filtra los cambios de idioma (`EN`, `/lang/pt/`) y las URLs repetidas (barra final, `utm_`).
 
 Cómo leer el resultado:
 
 - `largo_texto` muy chico (< 300) después de 30 s: la página no cargó. Recargá y volvé a correr
-  `preparar` (eso es un intento); ver "Sitios que no cargan" en la skill.
-- `secciones`: son los `enlaces_candidatos` del sitio. Abrí **todas** antes de decidir que no hay eventos.
-- `fichas`: eventos o muestras. Abrí las que no tengan en el listado las fechas completas, el lugar o el
-  precio. Si hay muchas (teatro con 60 obras), alcanza con el listado cuando ahí están título y fechas.
-- `externos`: otros espacios o fuentes. Si parecen un espacio cultural de CABA que no está en la cola,
-  sumalo en `sitios_nuevos`.
-- `eventos_jsonld > 0`: usá `jsonld` (abajo), es más rápido y exacto.
-- `fechas_en_texto` alto y pocas `fichas`: las fechas están en el texto; usá `bloques`.
+  `preparar` (eso es un intento); ver "Abrir y esperar" en la skill.
+- `eventos_jsonld > 0`: usá `jsonld()`, es más rápido y exacto.
+- `fechas_en_texto` alto y pocas `fichas`: las fechas están en el texto; usá `bloques()`.
+- `externos`: si parecen un espacio cultural de CABA que no está en la cola, sumalo en `sitios_nuevos`.
 
-## `esperar`: versión corta para fichas
+## `esperar(opciones)`: fichas
 
-Para la página de un evento o una muestra: espera a que cargue y devuelve el texto principal.
+Para la página de un evento o una muestra: espera a que cargue, cierra avisos y devuelve el texto
+principal sin menú, pie, barras laterales ni "compartir". Devuelve hasta 2500 caracteres; si hay más,
+aparece `texto_total`. Si lo que falta (fecha de cierre, precio) no está en lo que volvió, pedí más:
+`esperar({max: 6000})`.
 
-```js esperar
-(async () => {
-  const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
-  const t0 = Date.now();
-  let largo = -1, estables = 0;
-  while (Date.now() - t0 < 25000 && estables < 2) {
-    await dormir(1000);
-    const n = document.body ? document.body.innerText.length : 0;
-    estables = n === largo && n > 150 ? estables + 1 : 0;
-    largo = n;
-  }
-  // --- cerrarPopups: igual en preparar, esperar y popups ---
-  const popups = [];
-  const cerrarPopups = () => {
-    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
-      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
-    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
-    const raices = [document];
-    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
-    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
-    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
-    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
-    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
-      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
-      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
-      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
-      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
-      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
-    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
-    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
-    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
-    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
-    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
-    const enAviso = (b) => {
-      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
-      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
-        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
-      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
-    };
-    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
-    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
-    if (b2) return clic(b2, "cookies");
-    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
-    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
-    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
-    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
-    const area = innerWidth * innerHeight;
-    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
-      const r = m.getBoundingClientRect(), t = m.innerText || "";
-      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
-      m.dataset.agPopup = "1";
-      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
-      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
-        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
-      if (b && noNavegaPopup(b)) return clic(b, "ventana");
-      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
-      popups.push("ventana: Escape");
-      return true;
-    }
-    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
-    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
-    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
-    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
-    if (popups.length) for (const e of [document.documentElement, document.body])
-      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
-    return false;
-  };
-  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
-  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
-  // --- fin cerrarPopups ---
-  await despejar();
-  const raiz = document.querySelector("main, article, [role=main], #content, .content") || document.body;
-  window.__ag = JSON.stringify({ url: location.href, titulo: document.title, espera_ms: Date.now() - t0,
-    popups, texto: raiz.innerText.replace(/\n{3,}/g, "\n\n").slice(0, 6000) });
-  return window.__ag;
-})()
-```
+## `popups()`: avisos de cookies y ventanas que tapan la página
 
-## `popups`: avisos de cookies y ventanas que tapan la página
-
-`preparar` y `esperar` ya lo hacen solos (devuelven en `popups` lo que cerraron). Este fragmento suelto
-sirve cuando aparece un aviso después, por ejemplo al abrir un menú o al volver a una página.
+`preparar` y `esperar` ya lo hacen solas (devuelven en `popups` lo que cerraron). Esta sirve cuando
+aparece un aviso después, por ejemplo al abrir un menú.
 
 Qué cierra, en orden:
 
@@ -284,193 +91,36 @@ Qué cierra, en orden:
 5. Si después de cerrar algo la página quedó sin scroll (`overflow: hidden`), la destraba.
 
 Si `popups` muestra un aviso que se repite en cada página del sitio, anotalo en
-`comportamiento.cookies` (por ejemplo "OneTrust, se rechaza") para la próxima corrida. Si una ventana
-no se pudo cerrar y tapa el contenido, cerrala a mano con un clic y anotá cómo en `comportamiento`.
+`comportamiento.cookies` (por ejemplo "OneTrust, se rechaza"). Si una ventana no se pudo cerrar y tapa
+el contenido, cerrala a mano con un clic y anotá cómo en `comportamiento`.
 
-```js popups
-(async () => {
-  // --- cerrarPopups: igual en preparar, esperar y popups ---
-  const popups = [];
-  const cerrarPopups = () => {
-    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
-      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
-    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
-    const raices = [document];
-    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
-    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
-    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
-    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
-    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
-      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
-      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
-      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
-      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
-      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
-    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
-    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
-    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
-    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
-    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
-    const enAviso = (b) => {
-      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
-      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
-        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
-      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
-    };
-    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
-    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
-    if (b2) return clic(b2, "cookies");
-    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
-    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
-    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
-    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
-    const area = innerWidth * innerHeight;
-    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
-      const r = m.getBoundingClientRect(), t = m.innerText || "";
-      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
-      m.dataset.agPopup = "1";
-      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
-      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
-        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
-      if (b && noNavegaPopup(b)) return clic(b, "ventana");
-      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
-      popups.push("ventana: Escape");
-      return true;
-    }
-    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
-    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
-    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
-    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
-    if (popups.length) for (const e of [document.documentElement, document.body])
-      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
-    return false;
-  };
-  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
-  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
-  // --- fin cerrarPopups ---
-  await despejar();
-  window.__ag = JSON.stringify({ url: location.href, popups });
-  return window.__ag;
-})()
-```
+## `bloques(opciones)`: tarjetas con fecha de un listado
 
-## `bloques`: tarjetas con fecha de un listado
+Devuelve cada tarjeta, fila o ítem que tenga una fecha, con su enlace (hasta 300 caracteres cada uno,
+120 tarjetas; `bloques({max: 200})` para más). Sirve para leer un listado entero sin pedir el texto de
+toda la página: **usalo en vez de `get_page_text`**, que devuelve la página completa con menú y pie.
+Correrla después de `preparar` (que ya scrolleó y expandió).
 
-Devuelve cada tarjeta, fila o ítem que tenga una fecha, con su enlace. Sirve para leer un listado entero
-sin pedir el texto de toda la página. Correrlo después de `preparar` (que ya scrolleó y expandió).
+## `jsonld(opciones)`: eventos con datos estructurados
 
-```js bloques
-(() => {
-  const MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec";
-  const RE_FECHA = new RegExp(`\\b\\d{1,2}\\s*(de\\s+)?(${MESES})[a-záéíóú]*\\.?\\b|\\b(${MESES})[a-z]*\\.?\\s+\\d{1,2}\\b|\\b\\d{1,2}[/.]\\d{1,2}([/.]\\d{2,4})?\\b|\\b(hoy|mañana|lunes|martes|miércoles|jueves|viernes|sábado|domingo)s?\\b`, "i");
-  const SEL = "article, li, tr, [class*=card], [class*=item], [class*=event], [class*=evento], [class*=muestra], [class*=expo], [class*=show], [class*=obra], [class*=post]";
-  const cand = [...document.querySelectorAll(SEL)].filter((el) => {
-    const t = el.innerText || "";
-    return t.length >= 15 && t.length <= 900 && RE_FECHA.test(t) && !el.closest("nav, footer, header");
-  });
-  const hojas = cand.filter((el) => !cand.some((o) => o !== el && el.contains(o)));
-  const vistos = new Set();
-  const bloques = [];
-  for (const el of hojas) {
-    const texto = el.innerText.trim().replace(/\s*\n\s*/g, " | ").replace(/\s+/g, " ");
-    if (vistos.has(texto)) continue;
-    vistos.add(texto);
-    const a = el.querySelector("a[href]") || el.closest("a[href]");
-    bloques.push({ texto: texto.slice(0, 400), url: a ? a.href : "" });
-  }
-  window.__ag = JSON.stringify({ url: location.href, total: bloques.length, bloques: bloques.slice(0, 150) });
-  return window.__ag;
-})()
-```
+Devuelve los eventos del JSON-LD (título, inicio, fin, lugar, dirección, precio, url, descripción de
+hasta 200 caracteres). `jsonld({descripcion: 400})` para descripciones más largas.
 
-## `jsonld`: eventos con datos estructurados
+## `turismo()`: Turismo BA (agenda "Qué hacer esta semana")
 
-```js jsonld
-(() => {
-  const out = [];
-  const recorrer = (n) => {
-    if (Array.isArray(n)) return n.forEach(recorrer);
-    if (!n || typeof n !== "object") return;
-    const t = [].concat(n["@type"] || []);
-    if (t.some((x) => /Event$/.test(x))) {
-      const loc = [].concat(n.location || [])[0] || {};
-      const dir = loc.address || {};
-      const of = [].concat(n.offers || [])[0] || {};
-      out.push({ titulo: n.name, inicio: n.startDate, fin: n.endDate, lugar: loc.name || "",
-        direccion: typeof dir === "string" ? dir : [dir.streetAddress, dir.addressLocality].filter(Boolean).join(", "),
-        precio: of.price !== undefined ? `${of.priceCurrency || ""} ${of.price}`.trim() : "", url: n.url || location.href,
-        descripcion: (n.description || "").slice(0, 400) });
-    }
-    ["@graph", "itemListElement", "item", "subEvent"].forEach((k) => n[k] && recorrer(n[k]));
-  };
-  document.querySelectorAll('script[type="application/ld+json"]').forEach((s) => { try { recorrer(JSON.parse(s.textContent)); } catch {} });
-  window.__ag = JSON.stringify({ url: location.href, total: out.length, eventos: out.slice(0, 150) });
-  return window.__ag;
-})()
-```
-
-## Turismo BA (agenda "Qué hacer esta semana")
-
-La página trae todas las actividades en un arreglo JSON dentro de un script. Abrí la página, esperá que
-cargue y corré:
-
-```js turismo
-(() => {
-  const html = document.documentElement.innerHTML;
-  const i = html.indexOf('[{"orden"');
-  if (i < 0) return JSON.stringify({ error: "no está el arreglo [{\"orden\"...; leer las tarjetas a mano" });
-  let prof = 0, fin = i, enTexto = false, escape = false;
-  for (let j = i; j < html.length; j++) {
-    const c = html[j];
-    if (enTexto) { if (escape) escape = false; else if (c === "\\") escape = true; else if (c === '"') enTexto = false; continue; }
-    if (c === '"') enTexto = true;
-    else if (c === "[" || c === "{") prof++;
-    else if (c === "]" || c === "}") { prof--; if (prof === 0) { fin = j + 1; break; } }
-  }
-  const acts = JSON.parse(html.slice(i, fin));
-  const eventos = acts.filter((a) => a.fecha_inicio).map((a) => ({
-    titulo: (a.nombre_actividad || "").trim(), fecha_inicio: a.fecha_inicio, categoria: a.categoria_actividad_filtro || "",
-    lugar: (a.proveedor || "").trim(), barrio: a.barrio || "", direccion: a.calle_altura || "", horarios: a.dias_horarios || "",
-    precio: String(a.precio_filtro).trim() === "0" ? "Gratis" : "", descripcion: (a.descripcion || "").replace(/<[^>]+>/g, " ").slice(0, 600),
-    url: a.url_boton || location.href }));
-  window.__ag = JSON.stringify({ total: eventos.length, eventos });
-  return window.__ag;
-})()
-```
-
-Las actividades que ya empezaron no traen fecha de fin: ponerles `"vigente_sin_fin": true`. Las que no
-tengan `lugar` se descartan (no inventar). Este resultado puede ser largo: guardarlo directo en el archivo
-de resultado en vez de copiarlo a mano evento por evento (ver "Resultados grandes" en la skill).
+La página trae todas las actividades en un arreglo JSON dentro de un script. `turismo()` lo lee y
+devuelve los eventos **ya en el formato del resultado** (sección 5 de la skill): las actividades que ya
+empezaron vienen con `vigente_sin_fin: true`, las que no tienen `lugar` se descartan (cuenta en
+`descartados_sin_lugar`) y las descripciones van cortadas a 200 caracteres. Copiá `eventos` tal cual al
+archivo de resultado, sin reescribirlos uno por uno.
 
 ## Instagram
 
 En el perfil (`https://www.instagram.com/<usuario>/`), después de esperar y scrollear un poco a mano:
+`instagram_perfil()` devuelve `posts` (hasta 12), `bio`, `destacadas` y `pide_login`.
 
-```js instagram_perfil
-(() => {
-  const posts = [...new Set([...document.querySelectorAll('a[href*="/p/"], a[href*="/reel/"]')].map((a) => a.href.split("?")[0]))];
-  const bio = [...document.querySelectorAll("header a[href]")].map((a) => a.href).filter((h) => !/instagram\.com/.test(h));
-  const destacadas = [...document.querySelectorAll('a[href*="/stories/highlights/"]')].map((a) => [a.innerText.trim(), a.href]);
-  const login = /inici[aá] sesi[oó]n|log in|iniciar sesión/i.test(document.body.innerText.slice(0, 3000)) && posts.length === 0;
-  window.__ag = JSON.stringify({ posts: posts.slice(0, 12), bio, destacadas, pide_login: login });
-  return window.__ag;
-})()
-```
-
-En cada post:
-
-```js instagram_post
-(() => {
-  const t = document.querySelector("time[datetime]");
-  const texto = [...document.querySelectorAll("h1, article span, [role=dialog] span")].map((s) => s.innerText).filter((x) => x && x.length > 20);
-  window.__ag = JSON.stringify({ url: location.href.split("?")[0], publicado: t ? t.getAttribute("datetime") : "",
-    texto: (texto.sort((a, b) => b.length - a.length)[0] || document.querySelector('meta[property="og:description"]')?.content || "").slice(0, 2500) });
-  return window.__ag;
-})()
-```
-
-`publicado` es la fecha del post: sirve para saber de qué año habla un "sábado 18". Si el post es de hace
-meses, el evento probablemente ya pasó.
+En cada post: `instagram_post()` devuelve `publicado` (la fecha del post: sirve para saber de qué año
+habla un "sábado 18"; si el post es de hace meses, el evento probablemente ya pasó) y `texto`.
 
 ## Patrones de sitios conocidos
 
@@ -488,3 +138,10 @@ meses, el evento probablemente ya pasó.
   siguiente si la ventana de 14 días lo cruza.
 - **Pestañas "Actuales / Próximas / Anteriores"**: abrir "Actuales" y "Próximas"; "Anteriores" se puede
   descartar con motivo "archivo de muestras pasadas".
+
+## Si cambiás `navegador.js`
+
+Commiteá y subí antes de la corrida: la URL de jsDelivr se fija al commit, así que la versión nueva se usa
+recién cuando está en GitHub. Probá los casos que ya cubre: carga lenta, scroll infinito, botón "cargar
+más", avisos de cookies (gestores conocidos, shadow DOM, avisos que aparecen tarde), ventanas de
+newsletter y de edad, y enlaces a muestras dentro del menú.
