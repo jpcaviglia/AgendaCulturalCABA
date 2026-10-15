@@ -607,7 +607,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "ignacio-liprandi",
@@ -678,7 +679,8 @@
      "estado": "con_eventos",
      "eventos": 1
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "coleccion-fortabat",
@@ -1089,7 +1091,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "pasaje-17",
@@ -1124,7 +1127,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "galeria-piedras",
@@ -1185,7 +1189,8 @@
    },
    "notas": [
     "2026-10-14: Defensa 1369, San Telmo. Tiene sección W—agenda",
-    "2026-10-15 [web] Dos exhibiciones vigentes."
+    "2026-10-15 [web] Dos exhibiciones vigentes.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/w_w_w_galeria"
    ],
    "comportamiento": {
     "fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae."
@@ -1197,7 +1202,8 @@
      "estado": "con_eventos",
      "eventos": 2
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/w_w_w_galeria"
   },
   {
    "id": "central-affair-galerias-larreta",
@@ -1212,7 +1218,8 @@
    "notas": [
     "2026-10-14: Sin sitio propio; plataforma de 16 galerías en Florida 971. Ver también gallery.com.ar",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "malba",
@@ -1278,7 +1285,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Cada muestra en /Exposiciones/Actuales/...",
-    "2026-10-15 [web] Dos muestras actuales sin fechas publicadas."
+    "2026-10-15 [web] Dos muestras actuales sin fechas publicadas.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionklemm"
    ],
    "comportamiento": {
     "fichas": "Las fichas de 'Actuales' no traen fechas."
@@ -1290,7 +1298,8 @@
      "estado": "con_eventos",
      "eventos": 2
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/fundacionklemm"
   },
   {
    "id": "centro-cultural-recoleta",
@@ -1315,7 +1324,8 @@
     "2026-10-14 [revisión anterior: caido] centroculturalrecoleta.org no carga; buscar agenda en buenosaires.gob.ar o Instagram.",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://centroculturalrecoleta.org a http://www.centroculturalrecoleta.org/",
-    "2026-10-15 [web] La web funciona por http://www (el https falla). 19 actividades de la ventana."
+    "2026-10-15 [web] La web funciona por http://www (el https falla). 19 actividades de la ventana.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elrecoleta"
    ],
    "entradas": [
     "http://www.centroculturalrecoleta.org/agenda/"
@@ -1332,7 +1342,8 @@
      "estado": "con_eventos",
      "eventos": 19
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/elrecoleta"
   },
   {
    "id": "espacio-de-arte-fundacion-osde",
@@ -1371,7 +1382,8 @@
      "estado": "con_eventos",
      "eventos": 1
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "arte-x-arte",
@@ -1409,7 +1421,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "almacen-de-arte",
@@ -1448,7 +1461,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "macba-museo-de-arte-contemporaneo-de-buenos-aires",
@@ -1463,7 +1477,8 @@
    "notas": [
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
-    "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones."
+    "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba"
    ],
    "entradas": [
     "https://museomacba.org/programacion-actuales/",
@@ -1487,7 +1502,8 @@
      "estado": "con_eventos",
      "eventos": 3
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/museomacba"
   },
   {
    "id": "sala-lugones",
@@ -1498,7 +1514,11 @@
    ],
    "web": "",
    "instagram": "@sala.lugones",
-   "origen": "data/lugares.json"
+   "origen": "data/lugares.json",
+   "enlace_bio": "https://linktr.ee/sala.lugones",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/sala.lugones"
+   ]
   },
   {
    "id": "nuestro-cine",
@@ -1509,7 +1529,11 @@
    ],
    "web": "",
    "instagram": "@nuestro.cine",
-   "origen": "data/lugares.json"
+   "origen": "data/lugares.json",
+   "enlace_bio": "https://linktr.ee/nuestrocine",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/nuestrocine"
+   ]
   },
   {
    "id": "peli-y-picada",
@@ -1520,7 +1544,8 @@
    ],
    "web": "",
    "instagram": "@peliypicada",
-   "origen": "data/lugares.json"
+   "origen": "data/lugares.json",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "cultural-moran",
@@ -1544,7 +1569,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: ticketera] enlaza a passline",
-    "2026-10-15 [web] La cartelera de la web redirige a Passline."
+    "2026-10-15 [web] La cartelera de la web redirige a Passline.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalmoran"
    ],
    "entradas": [
     "https://www.passline.com/sitio/cultural-moran"
@@ -1591,7 +1617,8 @@
      "estado": "con_eventos",
      "eventos": 18
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/culturalmoran"
   },
   {
    "id": "amarama-espacio-cultural",
@@ -1648,7 +1675,8 @@
      "estado": "con_eventos",
      "eventos": 3
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "asociacion-calabresa-mutual-y-cultural",
@@ -1686,7 +1714,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "batacazo-cultural",
@@ -1741,7 +1770,8 @@
      "estado": "con_eventos",
      "eventos": 5
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casa-dasein",
@@ -1754,7 +1784,8 @@
    "instagram": "@casa.dasein",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Estado De Israel Av. 4116"
+   "direccion": "Estado De Israel Av. 4116",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casa-gatica",
@@ -1767,7 +1798,8 @@
    "instagram": "@casagatica",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Sanchez De Bustamante 551"
+   "direccion": "Sanchez De Bustamante 551",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casona-cultural-humahuaca",
@@ -1796,7 +1828,8 @@
    "notas": [
     "2026-10-14: web corregida (antes https://www.casonahumahuaca.com)",
     "2026-10-14 [revisión anterior: navegador] Exposiciones en Wix; también @casonahumahuaca",
-    "2026-10-15 [web] Ciclos recurrentes con horarios; la programación mensual completa se publica en Instagram @casonahumahuaca. Exposiciones sin fechas en la web."
+    "2026-10-15 [web] Ciclos recurrentes con horarios; la programación mensual completa se publica en Instagram @casonahumahuaca. Exposiciones sin fechas en la web.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casonahumahuaca"
    ],
    "comportamiento": {
     "extraccion": "/ciclos-1 lista los ciclos por día de la semana con su periodicidad (todas las semanas, 3er martes, etc.); /talleres lista clases semanales; /copia-de-bar es Exposiciones y no trae fechas",
@@ -1835,7 +1868,8 @@
      "estado": "con_eventos",
      "eventos": 5
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/casonahumahuaca"
   },
   {
    "id": "centro-cultural-asociacion-mutual-homero-manzi",
@@ -1859,7 +1893,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Blog privado de Blogger: no se puede leer sin invitación. Av. Belgrano 3540, Almagro."
+    "2026-10-15 [web] Blog privado de Blogger: no se puede leer sin invitación. Av. Belgrano 3540, Almagro.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lahomeromanzi"
    ],
    "comportamiento": {
     "bloqueos": "el blog es privado (solo lectores invitados); buscar la agenda en redes sociales"
@@ -1871,7 +1906,8 @@
      "estado": "bloqueado",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/lahomeromanzi"
   },
   {
    "id": "centro-cultural-lezica",
@@ -1884,7 +1920,8 @@
    "instagram": "@centroculturallezica",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Lezica 4266"
+   "direccion": "Lezica 4266",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-macedonia",
@@ -1897,7 +1934,11 @@
    "instagram": "@c.c.macedonia",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Sarmiento 3632"
+   "direccion": "Sarmiento 3632",
+   "enlace_bio": "https://linktr.ee/ccmacedonia",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmacedonia"
+   ]
   },
   {
    "id": "centro-cultural-el-limonero",
@@ -1910,7 +1951,11 @@
    "instagram": "@cclimonero",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Salguero, Jeronimo 668"
+   "direccion": "Salguero, Jeronimo 668",
+   "enlace_bio": "https://linktr.ee/cclimonero",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cclimonero"
+   ]
   },
   {
    "id": "club-cultural-bula",
@@ -1975,7 +2020,8 @@
      "estado": "con_eventos",
      "eventos": 4
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-350",
@@ -1988,7 +2034,8 @@
    "instagram": "@espacio350ok",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Billinghurst 350"
+   "direccion": "Billinghurst 350",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-comunarte",
@@ -2001,7 +2048,8 @@
    "instagram": "@centro.comunarte",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Castro Barros Av. 236"
+   "direccion": "Castro Barros Av. 236",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-la-tribu",
@@ -2060,7 +2108,8 @@
      "estado": "con_eventos",
      "eventos": 1
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-moebius",
@@ -2126,7 +2175,8 @@
     "url": "hastatrilce.com.ar sin www"
    },
    "notas": [
-    "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha."
+    "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/hastatrilce"
    ],
    "historial": [
     {
@@ -2135,7 +2185,8 @@
      "estado": "con_eventos",
      "eventos": 7
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/hastatrilce"
   },
   {
    "id": "impa-centro-cultural-impa-la-fabrica",
@@ -2169,7 +2220,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "jungla-habitat-cultural",
@@ -2196,7 +2248,11 @@
    "instagram": "@abastosocialclub",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Billinghurst 835"
+   "direccion": "Billinghurst 835",
+   "enlace_bio": "https://linktr.ee/abastosocialclub",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/abastosocialclub"
+   ]
   },
   {
    "id": "la-casa-de-teresa-israel",
@@ -2220,7 +2276,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Blog sin actualizar desde 2022 aproximadamente."
+    "2026-10-15 [web] Blog sin actualizar desde 2022 aproximadamente.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lacasadeteresa"
    ],
    "comportamiento": {},
    "historial": [
@@ -2230,7 +2287,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/lacasadeteresa"
   },
   {
    "id": "la-fragua-cultural",
@@ -2295,7 +2353,8 @@
      "estado": "con_eventos",
      "eventos": 2
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "la-vieja-guardia",
@@ -2317,8 +2376,10 @@
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Cartelera en la portada"
-   ]
+    "2026-10-14 [revisión anterior: navegador] Cartelera en la portada",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/laviejaguarida"
+   ],
+   "enlace_bio": "https://linktr.ee/laviejaguarida"
   },
   {
    "id": "ladran-sancho",
@@ -2341,7 +2402,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "las-mil-y-un-artes-centro-cultural",
@@ -2364,7 +2426,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog vacío"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "nuestra-america",
@@ -2377,7 +2440,11 @@
    "instagram": "@ccnuestramerica",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
-   "direccion": "Pres. Tte. Gral. Juan D. Perón 3390"
+   "direccion": "Pres. Tte. Gral. Juan D. Perón 3390",
+   "enlace_bio": "https://linktr.ee/ccnuestramerica",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccnuestramerica"
+   ]
   },
   {
    "id": "paraje-arteson",
@@ -2400,7 +2467,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "roseti",
@@ -2455,7 +2523,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Escuela de parkour y circo; solo clases regulares, sin eventos en la web."
+    "2026-10-15 [web] Escuela de parkour y circo; solo clases regulares, sin eventos en la web.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccartesdelmovimiento"
    ],
    "comportamiento": {},
    "enlaces_descartados": [
@@ -2479,7 +2548,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/ccartesdelmovimiento"
   },
   {
    "id": "centro-cultural-alfonsina-storni",
@@ -2513,7 +2583,8 @@
      "estado": "no_carga",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-de-la-republica-del-paraguay",
@@ -2526,7 +2597,8 @@
    "instagram": "@centroculturaldelparaguay",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Tucuman 1833"
+   "direccion": "Tucuman 1833",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-del-partido-de-la-estrada",
@@ -2539,7 +2611,8 @@
    "instagram": "@laestradacentrocultural",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Mexico 2849"
+   "direccion": "Mexico 2849",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-el-deseo",
@@ -2583,7 +2656,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Listado JS con filtros",
-    "2026-10-15 [web] Agenda completa en /agenda; exposiciones sin fecha de cierre (lunes a sábados 10 a 20 h)."
+    "2026-10-15 [web] Agenda completa en /agenda; exposiciones sin fecha de cierre (lunes a sábados 10 a 20 h).",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elrojasuba"
    ],
    "comportamiento": {
     "extraccion": "/agenda lista por tipo, título, descripción, precio y fecha/hora en texto; la portada trae la misma agenda y el calendario del mes; el resultado cabe en un solo innerText",
@@ -2622,7 +2696,8 @@
      "estado": "con_eventos",
      "eventos": 16
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/elrojasuba"
   },
   {
    "id": "ciudad-cultural-konex",
@@ -2651,7 +2726,8 @@
     "extraccion": "/shows/ lista por fecha, tipo, hora, título y sala; la portada solo trae la agenda de la semana; la ticketera entradas.cckonex.org carga vacía"
    },
    "notas": [
-    "2026-10-15 [web] Agenda completa en /shows/."
+    "2026-10-15 [web] Agenda completa en /shows/.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cckonex"
    ],
    "enlaces_descartados": [
     {
@@ -2692,7 +2768,8 @@
      "estado": "con_eventos",
      "eventos": 9
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/cckonex"
   },
   {
    "id": "complejo-cultural-sanidad",
@@ -2740,7 +2817,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "castel-espacio-cultural",
@@ -2753,7 +2831,8 @@
    "instagram": "@castel_cult_20",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Riobamba 345"
+   "direccion": "Riobamba 345",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "el-sabato-espacio-cultural",
@@ -2806,7 +2885,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "el-zorzal-esquina-cultural",
@@ -2819,7 +2899,11 @@
    "instagram": "@elzorzalcultural",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Jaures, Jean 690"
+   "direccion": "Jaures, Jean 690",
+   "enlace_bio": "https://linktr.ee/elzorzalcultural",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elzorzalcultural"
+   ]
   },
   {
    "id": "espacio-cultural-soma",
@@ -2843,7 +2927,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Obra 'Dejar de ser' sin fechas publicadas; sin agenda en la web."
+    "2026-10-15 [web] Obra 'Dejar de ser' sin fechas publicadas; sin agenda en la web.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalsoma"
    ],
    "comportamiento": {},
    "enlaces_descartados": [
@@ -2861,7 +2946,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/culturalsoma"
   },
   {
    "id": "esquina-rebelde-centro-cultural",
@@ -2917,7 +3003,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "jj-circuito-cultural",
@@ -2930,7 +3017,11 @@
    "instagram": "@jjcircuitocultural",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Jaures, Jean 347"
+   "direccion": "Jaures, Jean 347",
+   "enlace_bio": "https://linktr.ee/jjcircuitocultural",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/jjcircuitocultural"
+   ]
   },
   {
    "id": "maquinal-espacio-cultural",
@@ -2991,7 +3082,8 @@
      "estado": "con_agenda",
      "heredado": true
     }
-   }
+   },
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "mu-trincher-boutique",
@@ -3014,8 +3106,10 @@
    },
    "notas": [
     "2026-10-14: El nombre correcto es Mu Trinchera Boutique",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/mu.lavaca"
+   ],
+   "enlace_bio": "https://linktr.ee/mu.lavaca"
   },
   {
    "id": "multiespacio-pasco",
@@ -3041,7 +3135,8 @@
    },
    "notas": [
     "2026-10-15 [sondeo sin navegador] El blog está abandonado: conviene buscar Instagram u otra web; si no hay, revisar si el espacio sigue abierto."
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "panda-rojo-espacio-cultural",
@@ -3071,7 +3166,8 @@
     "ciclos": "menú Ciclos con páginas por ciclo; la cartelera ya los incluye"
    },
    "notas": [
-    "2026-10-15 [web] La cartelera (/cartelera/) lista en el HTML las próximas funciones con fecha y hora; se lee sin navegador."
+    "2026-10-15 [web] La cartelera (/cartelera/) lista en el HTML las próximas funciones con fecha y hora; se lee sin navegador.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/pandarojocultural"
    ],
    "enlaces_descartados": [
     {
@@ -3088,7 +3184,8 @@
      "estado": "con_eventos",
      "eventos": 3
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/pandarojocultural"
   },
   {
    "id": "puerta-18",
@@ -3110,8 +3207,10 @@
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/puerta18"
+   ],
+   "enlace_bio": "https://linktr.ee/puerta18"
   },
   {
    "id": "zelaya",
@@ -3124,7 +3223,8 @@
    "instagram": "@zelaya3134_teatro",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
-   "direccion": "Zelaya 3134"
+   "direccion": "Zelaya 3134",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "asoc-civil-la-bombocova",
@@ -3151,7 +3251,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos",
-    "2026-10-15 [web] Productora de espectáculos para contratar; sin agenda pública."
+    "2026-10-15 [web] Productora de espectáculos para contratar; sin agenda pública.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/labombocova"
    ],
    "comportamiento": {
     "contenido": "catálogo de servicios para eventos"
@@ -3163,7 +3264,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/labombocova"
   },
   {
    "id": "asociacion-dante-alighieri",
@@ -3189,7 +3291,8 @@
     "contenido": "solo cursos"
    },
    "notas": [
-    "2026-10-15 [web] Sin agenda cultural en la web; mirar Instagram @ladante.ba."
+    "2026-10-15 [web] Sin agenda cultural en la web; mirar Instagram @ladante.ba.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ladante.ba"
    ],
    "historial": [
     {
@@ -3198,7 +3301,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/ladante.ba"
   },
   {
    "id": "barrakesh-espacio-cultural",
@@ -3225,7 +3329,11 @@
    "instagram": "@batacazodearte",
    "origen": "data/lugares.json",
    "barrio": "Barracas",
-   "direccion": "Suarez 1502"
+   "direccion": "Suarez 1502",
+   "enlace_bio": "https://linktr.ee/batacazodearte",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/batacazodearte"
+   ]
   },
   {
    "id": "centro-cultural-la-usina",
@@ -3240,8 +3348,10 @@
    "barrio": "Barracas",
    "direccion": "Santo Domingo 2752",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lausina"
+   ],
+   "enlace_bio": "https://linktr.ee/lausina"
   },
   {
    "id": "centro-cultural-nuestra-tierra",
@@ -3257,7 +3367,8 @@
    "direccion": "Iriarte, Gral. Av. 3500",
    "notas": [
     "2026-10-14: comparte la web https://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-kultural-trivenchi",
@@ -3270,7 +3381,8 @@
    "instagram": "@trivenchi",
    "origen": "data/lugares.json",
    "barrio": "Barracas",
-   "direccion": "Caseros Av. 1712"
+   "direccion": "Caseros Av. 1712",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "circuito-cultural-barracas",
@@ -3304,7 +3416,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-cultural-del-sur",
@@ -3337,7 +3450,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "luzuriaga-club-social",
@@ -3350,7 +3464,11 @@
    "instagram": "@luzuriagaclubsocial",
    "origen": "data/lugares.json",
    "barrio": "Barracas",
-   "direccion": "Luzuriaga 348"
+   "direccion": "Luzuriaga 348",
+   "enlace_bio": "https://linktr.ee/luzuriagaclubsocial",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/luzuriagaclubsocial"
+   ]
   },
   {
    "id": "sociedad-luz",
@@ -3381,7 +3499,8 @@
    ],
    "notas": [
     "2026-10-15 [sondeo sin navegador] El 15/10 la última actividad publicada era el 11/10; revisar en el navegador o Instagram si hay nuevas."
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "base-cultural-ugarte",
@@ -3394,7 +3513,11 @@
    "instagram": "@baseculturalugarte",
    "origen": "data/lugares.json",
    "barrio": "Belgrano",
-   "direccion": "Ugarte, Manuel 2789"
+   "direccion": "Ugarte, Manuel 2789",
+   "enlace_bio": "https://linktr.ee/baseculturalugarte",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/baseculturalugarte"
+   ]
   },
   {
    "id": "parque-de-la-memoria",
@@ -3420,13 +3543,15 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Exposiciones",
-    "2026-10-15 [sondeo sin navegador] Sin exposición vigente en el HTML del 15/10 (la última cerró el 11/10); revisar en el navegador si se anunció la próxima."
+    "2026-10-15 [sondeo sin navegador] Sin exposición vigente en el HTML del 15/10 (la última cerró el 11/10); revisar en el navegador si se anunció la próxima.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/parquedelamemoria"
    ],
    "comportamiento": {
     "exposiciones": "/arte-exposiciones/ muestra la exposición actual; 'La memoria de la colección' cerró el 11/10/2026",
     "visitas": "/educacion/ = visitas guiadas solo para escuelas e instituciones con reserva (no se cargan)",
     "horario": "sala martes a viernes 11-17, fines de semana 11-18; parque 10-18/19"
-   }
+   },
+   "enlace_bio": "https://linktr.ee/parquedelamemoria"
   },
   {
    "id": "quetren-quetren",
@@ -3439,7 +3564,8 @@
    "instagram": "@quetrenquetren",
    "origen": "data/lugares.json",
    "barrio": "Belgrano",
-   "direccion": "Olazabal 1784"
+   "direccion": "Olazabal 1784",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casa-balear-de-buenos-aires",
@@ -3499,7 +3625,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casa-cultural-tita-merello",
@@ -3512,7 +3639,11 @@
    "instagram": "@titamerellocc",
    "origen": "data/lugares.json",
    "barrio": "Boedo",
-   "direccion": "Inclan 4191"
+   "direccion": "Inclan 4191",
+   "enlace_bio": "https://linktr.ee/titamerellocc",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/titamerellocc"
+   ]
   },
   {
    "id": "casa-cultural-los-dandys-de-boedo",
@@ -3525,7 +3656,8 @@
    "instagram": "@losdandysdeboedo",
    "origen": "data/lugares.json",
    "barrio": "Boedo",
-   "direccion": "Calvo, Carlos 3401"
+   "direccion": "Calvo, Carlos 3401",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "casamaza",
@@ -3538,7 +3670,8 @@
    "instagram": "@casamazaboedo",
    "origen": "data/lugares.json",
    "barrio": "Boedo",
-   "direccion": "Maza 1160"
+   "direccion": "Maza 1160",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-el-surco",
@@ -3565,7 +3698,8 @@
    "instagram": "@chifladosdeboedo",
    "origen": "data/lugares.json",
    "barrio": "Boedo",
-   "direccion": "San Juan Av. 3545"
+   "direccion": "San Juan Av. 3545",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-nicolas-olivari",
@@ -3581,7 +3715,8 @@
    "direccion": "Castro 954",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "el-castillo-de-sandro",
@@ -3611,7 +3746,8 @@
     "extraccion": "la portada lista la cartelera con título, fecha y hora en texto; /visitas-guiadas/ da días y tarifas"
    },
    "notas": [
-    "2026-10-15 [web] Cartelera en la portada; visitas guiadas los sábados a las 15 h."
+    "2026-10-15 [web] Cartelera en la portada; visitas guiadas los sábados a las 15 h.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalcava"
    ],
    "enlaces_descartados": [
     {
@@ -3640,7 +3776,8 @@
      "estado": "con_eventos",
      "eventos": 4
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/culturalcava"
   },
   {
    "id": "la-conversa",
@@ -3653,7 +3790,8 @@
    "instagram": "@espaciolaconversa",
    "origen": "data/lugares.json",
    "barrio": "Boedo",
-   "direccion": "Castro Barrios 809"
+   "direccion": "Castro Barrios 809",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "pasillo-al-fondo-espacio-cultural",
@@ -3692,8 +3830,10 @@
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/siguelapolilla"
+   ],
+   "enlace_bio": "https://linktr.ee/siguelapolilla"
   },
   {
    "id": "casa-jache",
@@ -3727,7 +3867,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-burgales",
@@ -3740,7 +3881,8 @@
    "instagram": "@centroburgales",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
-   "direccion": "Rivadavia Av. 5764"
+   "direccion": "Rivadavia Av. 5764",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-alberto-olmedo",
@@ -3756,7 +3898,8 @@
    "direccion": "Viale, Luis 1052",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-el-eternauta",
@@ -3772,7 +3915,8 @@
    "direccion": "Lobos, Eleodoro, Dr. 437",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-lola-mora",
@@ -3788,7 +3932,8 @@
    "direccion": "Rio De Janeiro 946",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-neville",
@@ -3801,7 +3946,11 @@
    "instagram": "@neville.caballito",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
-   "direccion": "Paysandu 1483"
+   "direccion": "Paysandu 1483",
+   "enlace_bio": "https://linktr.ee/neville.caballito",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/neville.caballito"
+   ]
   },
   {
    "id": "centro-cultural-sebastian-piana",
@@ -3817,7 +3966,8 @@
    "direccion": "Puan 360",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-sureda",
@@ -3851,7 +4001,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "club-premier",
@@ -3885,7 +4036,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-caballito",
@@ -3927,7 +4079,8 @@
      "estado": "no_cultural",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "estacion-de-los-deseos",
@@ -3985,7 +4138,11 @@
    "instagram": "@factoriaclub_",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
-   "direccion": "Fragata Pres. Sarmiento 1251"
+   "direccion": "Fragata Pres. Sarmiento 1251",
+   "enlace_bio": "https://linktr.ee/factoriaclub",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/factoriaclub"
+   ]
   },
   {
    "id": "la-plapla",
@@ -3998,7 +4155,8 @@
    "instagram": "@laplapla.eci",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
-   "direccion": "Tres Arroyos 1596"
+   "direccion": "Tres Arroyos 1596",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "le-cid-espacio-cultural",
@@ -4034,7 +4192,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "rio-patio-cultural",
@@ -4047,7 +4206,8 @@
    "instagram": "@rio.patiocultural",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
-   "direccion": "Rio De Janeiro 28"
+   "direccion": "Rio De Janeiro 28",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "vertigo-espacio-cultural",
@@ -4090,7 +4250,8 @@
     "extraccion": "Tarjetas con 'DÍA dd/mm HH:MM Título' y botón Comprar (la lista se repite dos veces: arriba destacados, abajo cronológica)."
    },
    "notas": [
-    "2026-10-15 [web] Agenda hasta fin de noviembre."
+    "2026-10-15 [web] Agenda hasta fin de noviembre.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/artlabpro"
    ],
    "historial": [
     {
@@ -4099,7 +4260,8 @@
      "estado": "con_eventos",
      "eventos": 9
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/artlabpro"
   },
   {
    "id": "c-complejo-art-media",
@@ -4171,7 +4333,8 @@
      "estado": "con_eventos",
      "eventos": 6
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "club-social-911",
@@ -4184,7 +4347,11 @@
    "instagram": "@clubsocial911",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Dorrego Av. 911"
+   "direccion": "Dorrego Av. 911",
+   "enlace_bio": "https://linktr.ee/clubsocial911",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/clubsocial911"
+   ]
   },
   {
    "id": "dramia-centro-cultural",
@@ -4197,7 +4364,8 @@
    "instagram": "@dramia.cc",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Caldas 380"
+   "direccion": "Caldas 380",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "dumont-4040-ex-santos-4040",
@@ -4238,7 +4406,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral",
-    "2026-10-15 [web] La portada trae toda la cartelera del mes con días y horas."
+    "2026-10-15 [web] La portada trae toda la cartelera del mes con días y horas.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/galpondeguevara"
    ],
    "entradas": [
     "https://www.galpondeguevara.com/"
@@ -4285,7 +4454,8 @@
      "estado": "con_eventos",
      "eventos": 10
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/galpondeguevara"
   },
   {
    "id": "el-taller-de-omar",
@@ -4298,7 +4468,11 @@
    "instagram": "@eltallerdeomar",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Fitz Roy 1245"
+   "direccion": "Fitz Roy 1245",
+   "enlace_bio": "https://linktr.ee/eltallerdeomar",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltallerdeomar"
+   ]
   },
   {
    "id": "el-templo-espacio-cultural",
@@ -4311,7 +4485,8 @@
    "instagram": "@eltemplocultural",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Gregorio Perez 3556"
+   "direccion": "Gregorio Perez 3556",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-cultural-carlos-gardel",
@@ -4344,7 +4519,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "fraga-cultural",
@@ -4357,7 +4533,11 @@
    "instagram": "@fragacultural",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Fraga 119"
+   "direccion": "Fraga 119",
+   "enlace_bio": "https://linktr.ee/fragacultural",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural"
+   ]
   },
   {
    "id": "hunterbier-de-pezzano-roberto-ariel",
@@ -4384,7 +4564,11 @@
    "instagram": "@fragacultural",
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
-   "direccion": "Fraga 119"
+   "direccion": "Fraga 119",
+   "enlace_bio": "https://linktr.ee/fragacultural",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural"
+   ]
   },
   {
    "id": "sexto-cultural",
@@ -4427,7 +4611,8 @@
    "direccion": "Conde 943",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "cultural-mamita",
@@ -4440,7 +4625,8 @@
    "instagram": "@mamitabar",
    "origen": "data/lugares.json",
    "barrio": "Colegiales",
-   "direccion": "Alvarez Thomas Av. 487"
+   "direccion": "Alvarez Thomas Av. 487",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-simona",
@@ -4511,7 +4697,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "woki-toki",
@@ -4524,7 +4711,8 @@
    "instagram": "@wokitoki.santelmo",
    "origen": "data/lugares.json",
    "barrio": "Constitucion",
-   "direccion": "Tacuari 905"
+   "direccion": "Tacuari 905",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "alianza-francesa",
@@ -4554,7 +4742,8 @@
     "sedes": "Microcentro (Av. Córdoba 946) y Palermo (Billinghurst 2563)."
    },
    "notas": [
-    "2026-10-15 [web] 10 actividades culturales en la ventana."
+    "2026-10-15 [web] 10 actividades culturales en la ventana.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/alianzafrancesabsas"
    ],
    "historial": [
     {
@@ -4563,7 +4752,8 @@
      "estado": "con_eventos",
      "eventos": 10
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/alianzafrancesabsas"
   },
   {
    "id": "asamblea-de-flores",
@@ -4576,7 +4766,8 @@
    "instagram": "@asambleadeflores",
    "origen": "data/lugares.json",
    "barrio": "Flores",
-   "direccion": "Avellaneda Av. 2177"
+   "direccion": "Avellaneda Av. 2177",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-roberto-arlt",
@@ -4617,7 +4808,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-cultural-arrotea-mutual-c-s-y-cultural-flores-sur",
@@ -4630,7 +4822,8 @@
    "instagram": "@espacioculturalarrotea",
    "origen": "data/lugares.json",
    "barrio": "Flores",
-   "direccion": "Arrotea 951"
+   "direccion": "Arrotea 951",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "espacio-cultural-fermin",
@@ -4697,7 +4890,8 @@
    "direccion": "Artigas, Jose Gervasio, Gral. 202",
    "comportamiento": {},
    "notas": [
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmpont"
    ],
    "ultimo": {
     "web": {
@@ -4714,7 +4908,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/ccmpont"
   },
   {
    "id": "la-cazona-de-flores",
@@ -4741,7 +4936,11 @@
    "instagram": "@plantaaltarockbar",
    "origen": "data/lugares.json",
    "barrio": "Flores",
-   "direccion": "Rivadavia Av. 7609"
+   "direccion": "Rivadavia Av. 7609",
+   "enlace_bio": "https://linktr.ee/plantaaltarockbar",
+   "notas": [
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/plantaaltarockbar"
+   ]
   },
   {
    "id": "teatro-calderon",
@@ -4754,7 +4953,8 @@
    "instagram": "@teatrocalderonok",
    "origen": "data/lugares.json",
    "barrio": "Flores",
-   "direccion": "Alvarez, Donato, Tte. Gral. 524"
+   "direccion": "Alvarez, Donato, Tte. Gral. 524",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "tempo-escuela-de-musica-y-artes",
@@ -4780,7 +4980,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-baldomero-fernandez-moreno",
@@ -4793,7 +4994,8 @@
    "instagram": "@cculturalbaldomero",
    "origen": "data/lugares.json",
    "barrio": "Floresta",
-   "direccion": "Mercedes 1405"
+   "direccion": "Mercedes 1405",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-barrio-rivadavia",
@@ -4806,7 +5008,8 @@
    "instagram": "@ba.gops",
    "origen": "data/lugares.json",
    "barrio": "Floresta",
-   "direccion": "Las Caracolas 200"
+   "direccion": "Las Caracolas 200",
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "centro-cultural-el-suenero",
@@ -4869,7 +5072,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "conventillo-centro-cultural-de-nelly",
@@ -4886,7 +5090,8 @@
    "notas": [
     "2026-10-14: web corregida (antes https://conventillodenelly.com.ar/)",
     "2026-10-14: conventillodenelly.com.ar figura en Google pero su DNS falla hoy; reintentar"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "el-galpon-de-catalinas",
@@ -4914,7 +5119,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral, boleteria",
-    "2026-10-15 [web] En la ventana: teatro-murga los viernes, orquesta los sábados 21.30 h y La Colmena el domingo 18/10."
+    "2026-10-15 [web] En la ventana: teatro-murga los viernes, orquesta los sábados 21.30 h y La Colmena el domingo 18/10.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/grupodeteatrocatalinasur"
    ],
    "comportamiento": {
     "extraccion": "la portada muestra cartelera con imágenes enlazadas a una página por espectáculo; cada página trae día, hora y sinopsis",
@@ -4947,7 +5153,8 @@
      "estado": "con_eventos",
      "eventos": 3
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/grupodeteatrocatalinasur"
   },
   {
    "id": "munar",
@@ -4971,7 +5178,8 @@
    "notas": [
     "2026-10-14: web corregida (antes http://artemunar.com.ar/)",
     "2026-10-14 [revisión anterior: sin_agenda] Galería/museo sin muestras fechadas en el sitio; @munar_arte"
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "usina-del-arte",
@@ -5001,7 +5209,8 @@
     "horario": "abre sábados y domingos (y algunos viernes)"
    },
    "notas": [
-    "2026-10-15 [web] Toda la programación (conciertos, visitas guiadas, talleres, espacio lúdico) está en /actividades/ en HTML simple, con horarios en cada ficha."
+    "2026-10-15 [web] Toda la programación (conciertos, visitas guiadas, talleres, espacio lúdico) está en /actividades/ en HTML simple, con horarios en cada ficha.",
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/usinadelarte"
    ],
    "enlaces_descartados": [
     {
@@ -5060,7 +5269,8 @@
      "estado": "con_eventos",
      "eventos": 10
     }
-   ]
+   ],
+   "enlace_bio": "https://linktr.ee/usinadelarte"
   },
   {
    "id": "centro-cultural-sefarad",
@@ -5094,7 +5304,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "galpon-cultural-el-hueco",
