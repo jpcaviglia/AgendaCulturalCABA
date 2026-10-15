@@ -5,9 +5,11 @@ description: Actualiza la Agenda Cultural CABA rastreando con el navegador TODOS
 
 # Actualizar la Agenda Cultural CABA
 
-Los datos se juntan **con el navegador**, salvo lo que `scripts/sondear.py --corrida` puede leer con HTTP
-simple (sección 1b). El resto de los scripts no entra a ningún sitio: llevan la cola, validan lo que
-encontraste, guardan lo aprendido y arman `data/eventos.json`.
+Los datos se juntan **con el navegador**, salvo lo que algunos scripts leen con HTTP simple: `sondear.py`
+(webs que no necesitan navegador, sección 1b), `biolinks.py` (Linktree de los Instagram, 1b),
+`saleplan.py` (SalePlan, sección 7) y, dentro de `armar_agenda.py`, las direcciones que faltan, el mapa y
+qué sitios se pueden mostrar en la web (sección 6). `crawl.py` no entra a ningún sitio: lleva la cola,
+valida lo que encontraste y guarda lo aprendido.
 
 Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos en español.
 
@@ -268,6 +270,14 @@ cupo y no todos los perfiles entran en cada corrida: se rotan, primero los revis
 - Cada 25 páginas, `guardar` pide una pausa de 5 minutos: hacela (o seguí con webs, si quedan).
 - Los límites se ajustan en `data/crawl/local/instagram_estado.json` (`limites`).
 
+**Antes de abrir Instagram, siempre: el enlace de la bio.** Si el sitio tiene `enlace_bio` (`biolinks.py`
+encuentra la mayoría de los Linktree, sección 1b), leelo sin navegador:
+`python scripts/sondear.py --leer <enlace_bio>`. De un Linktree muestra cada enlace como `título [url]`;
+muchos listan cada show con la fecha en el título y el enlace a la ticketera, que se lee igual
+(`--leer <url>`). Si ahí está la agenda de la ventana, guardá el canal `instagram` con esos eventos,
+`enlaces_candidatos` = el enlace de la bio visitado, `posts: []` y `paginas_instagram: 0` (no gasta cupo),
+y anotá en `comportamiento` que la agenda está en la bio. Solo si la bio no alcanza, abrí el perfil.
+
 **Posts ya analizados.** En `data/crawl/local/instagram_posts.json` (solo en esta máquina, no se sube
 al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a abrirlos:
 
@@ -282,13 +292,6 @@ al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a
    Si un post nuevo es de hace más de 2 meses y los anteriores también, no hace falta seguir bajando.
 3. Si el texto no tiene la fecha, mirá el afiche (captura).
 4. Seguí el enlace de la bio (`bio` o `enlace_bio`): Linktree, ticketera o web. Aplicá la sección 3.
-
-**Antes de abrir Instagram, siempre**: si el sitio tiene `enlace_bio`, leelo sin navegador
-(`python scripts/sondear.py --leer <enlace_bio>`). De un Linktree muestra cada enlace como
-`título [url]`; muchos listan cada show con la fecha en el título y el enlace a la ticketera, que se lee
-igual (`--leer <url>`). Si ahí está la agenda de la ventana, guardá el canal
-`instagram` con esos eventos, `enlaces_candidatos` = el enlace de la bio visitado, `posts: []` y
-`paginas_instagram: 0` (no gasta cupo), y anotá en `comportamiento` que la agenda está en la bio.
 5. En el resultado poné:
    - `posts`: **todas** las URLs de posts de la grilla que consideraste, nuevas y ya vistas, con
      `publicado` si lo sabés: `[{"url": "...", "publicado": "2026-10-10"}]`. El script agrega solo los
@@ -328,6 +331,12 @@ En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts 
   seguir `entradas` y `comportamiento` de cada una. Cargar solo eventos en CABA, culturales, dentro de la
   ventana. Ir al ritmo de una persona (pausas de 2-4 s entre páginas); ante captcha o 403, `bloqueado`.
   Las salas o espacios de CABA que aparezcan y no estén en la lista van en `sitios_nuevos`.
+- **Cubrí toda la ventana.** En un listado ordenado por fecha (Passline, por ejemplo, lista todo el país),
+  seguí hasta que las fechas pasen el último día de la ventana: no cortes por cantidad de fichas ni por
+  cansancio. Si tenés que cortar, guardá igual lo leído pero decilo en la `nota` ("leído hasta el 17/10")
+  para que la próxima corrida siga desde ahí. Nunca anotes "N eventos en la ventana" si no la cubriste.
+- Si un lugar tiene su propia página en una ticketera (`passline.com/sitio/<id>-<lugar>`), esa página es
+  la mejor `web` para ese lugar: lista solo sus eventos.
 - En agregadores y descubrimiento el `lugar` de cada evento es obligatorio: el nombre del espacio
   donde ocurre, igual al de `data/lugares.json` si está ahí.
 - Un sitio con `"rastrear": false` en `sitios.json` no entra en la cola. Solo se marca así si el
@@ -399,7 +408,7 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
 - `descartar` + `evidencia`: en vez de todo lo demás, para sacar un sitio que no existe, cerró o no está
   en CABA.
 
-**Resultados grandes** (Turismo BA, SalePlan, un teatro con 60 funciones): acortá las descripciones a
+**Resultados grandes** (Turismo BA, Passline, un teatro con 60 funciones): acortá las descripciones a
 ~200 caracteres y escribí el archivo de una vez. No lo partas en varios guardados del mismo `id` y
 canal: cada guardado reemplaza la captura anterior de ese sitio.
 
@@ -413,8 +422,13 @@ git pull --rebase --autostash && git push
 ```
 
 `armar_agenda.py` toma la última captura de cada sitio (las de más de 10 días se ignoran), filtra la
-ventana de 14 días, clasifica, quita duplicados, ubica en el mapa las direcciones nuevas y actualiza el
-estado de cada lugar en `data/lugares.json`. Si el push falla dos veces, dejá el commit local e informalo.
+ventana de 14 días, clasifica, quita duplicados (y aplica los pares que decidiste en
+`data/crawl/duplicados.json`, sección 7), completa direcciones que faltan (`direcciones.py`: otras listas,
+otros eventos del mismo lugar y fichas de Alternativa Teatral), ubica en el mapa las direcciones nuevas
+(rehace las que caen lejos de su barrio), marca qué sitios se pueden mostrar dentro de la web
+(`embebibles.py`), le da a cada evento un `id` estable (la web guarda los favoritos con él) y actualiza el
+estado de cada lugar en `data/lugares.json`. Usa la red: si no hay conexión, `--sin-geo` arma igual con lo
+que ya está guardado. Si el push falla dos veces, dejá el commit local e informalo.
 
 ## 7. Cerrar
 
@@ -466,5 +480,6 @@ Informe final (3-6 líneas): eventos publicados, sitios rastreados por estado, s
 
 - No iniciar sesión, no crear cuentas, no seguir, no dar likes, no mandar mensajes, no comprar entradas.
 - No editar `data/eventos.json` a mano ni las capturas de `data/crawl/capturas/`: los escriben los scripts.
+  Las decisiones de duplicados se anotan con `duplicados.py`, no editando `data/crawl/duplicados.json`.
 - Sí se pueden editar a mano en `data/crawl/sitios.json` datos de un sitio que estén mal (web, instagram,
   lugares) cuando lo confirmaste en el navegador.
