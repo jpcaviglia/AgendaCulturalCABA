@@ -10776,20 +10776,21 @@
    "lugares": [
     "Cine Gaumont (Espacio INCAA)"
    ],
-   "web": "http://www.incaa.gov.ar/programacion-espacios-incaa",
-   "instagram": "",
+   "web": "https://www.cinegaumont.ar/es-AR#cartelera",
+   "instagram": "@cine.gaumont",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Av. Rivadavia 1635",
    "entradas": [
-    "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+    "https://www.cinegaumont.ar/es-AR#cartelera"
    ],
    "comportamiento": {
-    "url": "incaa.gov.ar no resuelve; la cartelera vigente está en https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
-    "extraccion": "tabla con espacio, localidad, día, hora y película para 7 días; los filtros no ocultan filas, hay que filtrar CABA al leer; el Gaumont no figura en la tabla"
+    "url": "web propia (plataforma Cinexo); la cartelera está en la portada, sección #cartelera. La página de INCAA (incaa.gob.ar/carteleras/programacion-espacios-incaa) no incluye al Gaumont",
+    "extraccion": "la cartelera se carga con JavaScript: esperar a que aparezcan las películas; /es-AR/programacion lista las películas en cartel y /es-AR/programacion/<código> tiene los días (7) y horarios de cada una"
    },
    "notas": [
-    "2026-10-15 [web] El Cine Gaumont no está en la tabla de Espacios INCAA; solo hay dos espacios de CABA (ATE Cultura y Atlas Flores). Programación del Gaumont: Instagram @cine.gaumont."
+    "2026-10-15 [web] El Cine Gaumont no está en la tabla de Espacios INCAA; solo hay dos espacios de CABA (ATE Cultura y Atlas Flores). Programación del Gaumont: Instagram @cine.gaumont.",
+    "2026-10-15 [web] Web propia del Gaumont: https://www.cinegaumont.ar/es-AR#cartelera (reemplaza la página de Espacios INCAA, que no lo lista)."
    ],
    "ultimo": {
     "web": {
