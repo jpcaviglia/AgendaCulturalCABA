@@ -1,0 +1,48 @@
+{
+ "id": "centro-cultural-macedonia",
+ "canal": "instagram",
+ "fuente": "CENTRO CULTURAL MACEDONIA",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/ccmacedonia/",
+  "https://www.instagram.com/deniz_delsur/p/DeWn2F_NOk-/",
+  "https://www.instagram.com/swingclubok/p/DeNGtXtlCoA/",
+  "https://www.instagram.com/ccmacedonia/p/DeKP9ltkezN/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Noche Turca",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "Puertas 20 h",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.instagram.com/deniz_delsur/p/DeWn2F_NOk-/",
+   "descripcion": "Noche Turca con ambientación y sabores turcos y barra económica toda la noche en el Centro Cultural Macedonia (Sarmiento 3632). Reservas por DM a @deniz_delsur.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/deniz_delsur/p/DeWn2F_NOk-/"
+  },
+  {
+   "titulo": "Swing Club: clase y social de swing",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Jueves: clase 20:30, social con DJ 21:45",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "Clase + social $ 12000; solo social $ 8000",
+   "url": "https://www.instagram.com/swingclubok/p/DeNGtXtlCoA/",
+   "descripcion": "Clase de swing para principiantes e intermedios y social con DJ todos los jueves en el Centro Cultural Macedonia; sin inscripción previa ni necesidad de pareja.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/swingclubok/p/DeNGtXtlCoA/"
+  }
+ ]
+}

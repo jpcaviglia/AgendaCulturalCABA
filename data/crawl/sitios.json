@@ -2027,13 +2027,40 @@
     "CENTRO CULTURAL MACEDONIA"
    ],
    "web": "",
-   "instagram": "@c.c.macedonia",
+   "instagram": "@ccmacedonia",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Sarmiento 3632",
    "enlace_bio": "https://linktr.ee/ccmacedonia",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmacedonia"
+    "2026-10-15 [instagram] Sarmiento 3632, Almagro. El Google Sites de la cartelera dio 404."
+   ],
+   "comportamiento": {
+    "extraccion": "los eventos aparecen en posts de colectivos que lo etiquetan (swingclubok, deniz_delsur); el handle correcto es @ccmacedonia (estaba @c.c.macedonia)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://sites.google.com/view/centroculturalmacedonia/cartelera",
+     "texto": "Cartelera (Google Sites)",
+     "motivo": "404, el sitio ya no existe",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {
@@ -4039,7 +4066,29 @@
    "origen": "data/lugares.json",
    "barrio": "Belgrano",
    "direccion": "Olazabal 1784",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "el perfil publica un post semanal 'Se viene un finde' con día y organizador; las fiestas grandes (Viral, Menea para mí 7/11) se anuncian en cuentas de productoras etiquetadas"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Quetrén (Olazábal 1784, Barrio Chino): el 'Viral de octubre' no trae fecha en el texto; la fiesta post Marcha del Orgullo es el 7/11 (fuera de ventana)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "casa-balear-de-buenos-aires",
@@ -6977,20 +7026,34 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Rastrear por Instagram."
+    "2026-10-15 [web] Rastrear por Instagram.",
+    "2026-10-15 [instagram] Cena show permanente con reserva por WhatsApp; no hay agenda fechada."
    ],
    "comportamiento": {
-    "web": "dominio sin DNS"
+    "web": "dominio sin DNS",
+    "extraccion": "publica reels promocionales de la cena show permanente (Humboldt 2341, Palermo); sin cartelera con fechas"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -12661,7 +12724,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Urquiza",
    "direccion": "Triunvirato Av. 4205",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "un post mensual 'AGENDA OCTUBRE' (carrusel con epígrafe completo) lista todos los shows con día, hora y precio; leerlo entero (el epígrafe pasa de 700 caracteres)"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Cultrum (Av. San Martín 5743, Villa Devoto): publica la agenda del mes a fin del mes anterior; fuera de ventana: viernes 31 homenaje al rock argentino."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ]
   },
   {
    "id": "domus-artis",

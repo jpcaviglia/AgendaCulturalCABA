@@ -1,0 +1,79 @@
+{
+ "id": "cultrum",
+ "canal": "instagram",
+ "fuente": "CULTRUM",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/cultrumeventos/",
+  "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/",
+  "https://www.instagram.com/cultrumeventos/p/DehxEu5RTq8/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Show Lenva + jam",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/",
+   "descripcion": "Show en vivo de Lenva y jam en Cultrum, Av. San Martín 5743, Villa Devoto.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/"
+  },
+  {
+   "titulo": "Días de Impro",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "Jueves 22/10 20:30 h",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/",
+   "descripcion": "Show de improvisación en Cultrum, Villa Devoto.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/"
+  },
+  {
+   "titulo": "Club Cultrum: jam abierta con Amistosos del Remate y Local Band",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "Viernes 23/10 20:30 h",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/cultrumeventos/p/DehxEu5RTq8/",
+   "descripcion": "Jam abierta de todos los estilos con títeres para adultos de Amistosos del Remate, banda en vivo (Local Band), juegos de mesa y arcade, happy hour 2x1.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/cultrumeventos/p/DehxEu5RTq8/"
+  },
+  {
+   "titulo": "Carcajada Comedia: Cortá la semana",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "Miércoles 28/10 21 h",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Stand up",
+   "precio": "A la gorra",
+   "url": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/",
+   "descripcion": "Ciclo de stand up de los miércoles en Cultrum.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/cultrumeventos/p/Dd7cBLVka7r/"
+  }
+ ]
+}
