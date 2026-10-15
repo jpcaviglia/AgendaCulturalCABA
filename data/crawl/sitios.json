@@ -249,7 +249,8 @@
    "notas": [
     "2026-10-14: Bloquea la verificación automática (HTTP 403).",
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
-    "2026-10-14 [web] 289 eventos en la ventana en todo el país; 158 en CABA cargados (traslados, cursos y torneos descartados)."
+    "2026-10-14 [web] 289 eventos en la ventana en todo el país; 158 en CABA cargados (traslados, cursos y torneos descartados).",
+    "2026-10-15 Corrección: los 158 eventos del 2026-10-14 son solo del 14 al 17/10, no de toda la ventana; faltan los eventos del 18/10 en adelante."
    ],
    "comportamiento": {
     "extraccion": "Respondía 403 a scripts; en el navegador debería cargar. Buscar el listado de eventos de Ciudad de Buenos Aires y leer las fichas (suelen traer JSON-LD).",
@@ -257,7 +258,8 @@
     "plataforma": "www.passline.com redirige a home.passline.com (app con JS). /eventos.php lista ~590 eventos de todo el país ordenados por fecha (tarjeta: lugar, título, día, hora).",
     "filtro": "El filtro de provincia no se aplica en la vista angosta; no sirve por URL.",
     "fichas": "La ficha www.passline.com/eventos/<slug> trae en div.donde lugar + dirección + localidad ('C.A.B.A.' / 'Capital Federal'). Se leen con fetch desde una pestaña en www.passline.com (3 en paralelo, ~5 min para 290).",
-    "volcado": "URLs de entrada se pegan con Ctrl+V en un textarea; resultados salen por portapapeles."
+    "volcado": "URLs de entrada se pegan con Ctrl+V en un textarea; resultados salen por portapapeles.",
+    "cobertura": "leer fichas hasta que la fecha de las tarjetas pase el fin de la ventana (14 días); el 2026-10-14 se cortó en ~290 fichas y solo cubrió del 14 al 17/10"
    },
    "entradas": [
     "https://home.passline.com/eventos.php"
@@ -7295,11 +7297,20 @@
    "lugares": [
     "club conjura"
    ],
-   "web": "",
+   "web": "https://www.passline.com/sitio/2191791-club-conjura",
    "instagram": "@club.conjura",
    "origen": "data/lugares.json",
    "barrio": "Paternal",
-   "direccion": "Nicasio oroño 2476"
+   "direccion": "Nicasio oroño 2476",
+   "entradas": [
+    "https://www.passline.com/sitio/2191791-club-conjura"
+   ],
+   "comportamiento": {
+    "url": "la agenda está en su página de Passline (/sitio/2191791-club-conjura); Passline tiene verificación de Cloudflare: solo con el navegador"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda completa en Passline: https://www.passline.com/sitio/2191791-club-conjura. El rastreo general de Passline del 2026-10-14 solo llegó al 17/10 y trajo 2 de sus eventos."
+   ]
   },
   {
    "id": "universidad-catolica-de-buenos-aires",
