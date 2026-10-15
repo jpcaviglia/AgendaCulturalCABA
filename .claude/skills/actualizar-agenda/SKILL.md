@@ -1,352 +1,352 @@
 ---
 name: actualizar-agenda
-description: Actualiza la Agenda Cultural CABA rastreando con el navegador TODOS los sitios de la lista (webs de lugares, galerías, museos, agregadores e Instagram), carga los eventos de los próximos 14 días, anota cómo se comporta cada sitio para la próxima corrida, arma data/eventos.json y publica. Usar cuando se pida actualizar la agenda, rastrear o recrawlear los sitios, o cuando lo dispare la rutina programada.
+description: Updates the Agenda Cultural CABA by crawling ALL the sites on the list with the browser (venue websites, galleries, museums, aggregators and Instagram), loads the events of the next 14 days, records how each site behaves for the next run, builds data/eventos.json and publishes. Use when asked to update the agenda, crawl or re-crawl the sites, or when the scheduled routine triggers it.
 ---
 
-# Actualizar la Agenda Cultural CABA
+# Update the Agenda Cultural CABA
 
-Los datos se juntan **con el navegador**, salvo lo que algunos scripts leen con HTTP simple: `sondear.py`
-(webs que no necesitan navegador, sección 1b), `biolinks.py` (Linktree de los Instagram, 1b),
-`saleplan.py` (SalePlan, sección 7) y, dentro de `armar_agenda.py`, las direcciones que faltan, el mapa y
-qué sitios se pueden mostrar en la web (sección 6). `crawl.py` no entra a ningún sitio: lleva la cola,
-valida lo que encontraste y guarda lo aprendido.
+The data is collected **with the browser**, except for what some scripts read with plain HTTP: `sondear.py`
+(sites that do not need a browser, section 1b), `biolinks.py` (Instagram Linktree, 1b), `saleplan.py`
+(SalePlan, section 7) and, inside `armar_agenda.py`, the missing addresses, the map and which sites can be
+shown on the website (section 6). `crawl.py` does not visit any site: it keeps the queue, validates what you
+found and saves what was learned.
 
-Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos en español.
+Work from start to finish without asking for confirmation. Talk and write in English, except for the data you
+save (event titles, descriptions, categories, prices, site notes, `comportamiento` values and the run
+report), which stay in Spanish as the sources show them. Field names, `estado` values and script messages
+are Spanish identifiers: use them exactly.
 
-## Reglas que no se negocian
+## Rules that are not negotiable
 
-1. **Cada corrida recorre todos los sitios, salvo los rastreados hoy o ayer.** Un sitio con captura de hoy
-   o de ayer en `data/crawl/capturas/` no se vuelve a abrir: `crawl.py iniciar` lo marca `reutilizado` y
-   esa captura sigue publicada. Del resto, lo que pasó en corridas anteriores (`ultimo`, `notas`,
-   `comportamiento`) dice *cómo* rastrear un sitio, nunca *si* rastrearlo. Un sitio que la vez pasada no
-   tenía eventos, o no cargó, se vuelve a abrir igual. No uses `iniciar --nueva` para "empezar de cero":
-   retoma o arma la cola sola; `--todos` (rastrear también lo de hoy y ayer) solo si el usuario lo pide.
-2. **"No hay eventos" es una conclusión que hay que probar.** Antes de marcar `sin_eventos` o `sin_agenda`
-   tenés que haber abierto cada enlace a agenda, muestras, exposiciones, exhibiciones, cartelera,
-   programación, actividades, ciclos, talleres, visitas o ticketera que aparezca en el sitio (menú,
-   portada, pie), fuertes y débiles, haber scrolleado cada listado hasta el final y apretado sus "ver
-   más". Si el sitio **sí** tiene eventos, alcanza con los enlaces fuertes (sección 3.2). `crawl.py
-   guardar` rechaza el resultado si falta algo de eso.
-3. **Un sitio lento no es un sitio caído.** Esperá hasta 30 s, recargá, probá variantes de la URL. Solo
-   después de 3 intentos fallidos se marca `no_carga`, y se vuelve a probar en la próxima corrida.
-4. **No inventes datos.** Si falta título, fecha o lugar, el evento no se carga. Si falta hora o precio,
-   va vacío.
-5. **Anotá lo que aprendiste** de cada sitio (dónde está la agenda, cuánto tarda, si hay que scrollear,
-   qué botón expande, qué enlaces nuevos encontraste). La próxima corrida empieza con eso. Lo que sirve
-   para más de un sitio, o para el proceso, va a esta skill al cerrar (sección 7, "Lecciones de la
-   corrida").
+1. **Every run goes through all the sites, except the ones crawled today or yesterday.** A site with a
+   capture from today or yesterday in `data/crawl/capturas/` is not opened again: `crawl.py iniciar` marks it
+   `reutilizado` and that capture stays published. For the rest, what happened in earlier runs (`ultimo`,
+   `notas`, `comportamiento`) says *how* to crawl a site, never *whether* to crawl it. A site that had no
+   events last time, or did not load, is opened again anyway. Do not use `iniciar --nueva` to "start from
+   scratch": it resumes or builds the queue by itself; `--todos` (also crawl today's and yesterday's) only
+   if the user asks.
+2. **"There are no events" is a conclusion that must be proven.** Before marking `sin_eventos` or
+   `sin_agenda` you must have opened every link to agenda, muestras, exposiciones, exhibiciones, cartelera,
+   programación, actividades, ciclos, talleres, visitas or ticketing that appears on the site (menu, home
+   page, footer), strong and weak, scrolled every listing to the end and pressed its "ver más" buttons. If
+   the site **does** have events, the strong links are enough (section 3.2). `crawl.py guardar` rejects the
+   result if any of that is missing.
+3. **A slow site is not a dead site.** Wait up to 30 s, reload, try URL variants. Only after 3 failed
+   attempts is it marked `no_carga`, and it is tried again in the next run.
+4. **Do not make up data.** If the title, date or venue is missing, the event is not loaded. If the time or
+   price is missing, leave it empty.
+5. **Write down what you learned** about each site (where the agenda is, how long it takes, whether you
+   have to scroll, which button expands, which new links you found). The next run starts from that. What is
+   useful for more than one site, or for the process, goes into this skill at the end (section 7, "Lecciones
+   de la corrida").
 
-## Herramientas
+## Tools
 
-- Navegador: las herramientas de Claude in Chrome (`navigate`, `javascript_tool`, `get_page_text`,
-  `computer`, `find`, `tabs_context`…). Si no aparecen, cargalas con ToolSearch (`chrome`). Usá una sola
-  pestaña propia para todo el rastreo.
-- Herramientas de JS listas y probadas: [navegador.md](navegador.md) dice qué hace cada una; leelo al
-  empezar. El código está en `navegador.js` y **no se pega**: se carga con la línea que imprime
-  `crawl.py iniciar` (cambiando solo la llamada del final). Las más usadas son `preparar()` (esperar +
-  cookies + scroll + "ver más" + enlaces clasificados), `bloques()` (tarjetas con fecha) y `esperar()`
-  (fichas). Para leer un listado usá `bloques()` antes que `get_page_text`, y sacá capturas solo cuando
-  la información está en una imagen o un aviso no se deja cerrar.
-- Registro: `python scripts/crawl.py ...` (en Windows puede ser `py` en vez de `python`).
+- Browser: the Claude in Chrome tools (`navigate`, `javascript_tool`, `get_page_text`, `computer`, `find`,
+  `tabs_context`…). If they do not show up, load them with ToolSearch (`chrome`). Use a single tab of your
+  own for the whole crawl.
+- Ready-made, tested JS tools: [navegador.md](navegador.md) says what each one does; read it at the start.
+  The code is in `navegador.js` and is **not pasted**: it is loaded with the line that `crawl.py iniciar`
+  prints (changing only the call at the end). The most used are `preparar()` (wait + cookies + scroll + "ver
+  más" + classified links), `bloques()` (cards with a date) and `esperar()` (event pages). To read a listing
+  use `bloques()` before `get_page_text`, and take screenshots only when the information is in an image or a
+  notice cannot be closed.
+- Log: `python scripts/crawl.py ...` (on Windows it may be `py` instead of `python`).
 
-## 1. Empezar o retomar
+## 1. Start or resume
 
 ```bash
 git pull --rebase --autostash
 python scripts/crawl.py iniciar
 ```
 
-`iniciar` arma la cola con todos los sitios de `data/crawl/sitios.json` y da por hechos los que tienen
-captura de hoy o de ayer. Si hay una corrida abierta de los últimos 3 días, la retoma donde quedó (no se
-empieza de cero si la sesión anterior se cortó). También imprime la línea que carga las herramientas del
-navegador: guardala, se usa en cada página.
+`iniciar` builds the queue with all the sites in `data/crawl/sitios.json` and counts as done the ones with a
+capture from today or yesterday. If there is an open run from the last 3 days, it resumes where it left off
+(you do not start from scratch if the previous session was cut off). It also prints the line that loads the
+browser tools: keep it, it is used on every page.
 
-### 1b. Leer sin navegador lo que se pueda (siempre, antes del navegador)
+### 1b. Read without a browser whatever can be (always, before the browser)
 
 ```bash
 python scripts/sondear.py --corrida
 ```
 
-Pide las webs pendientes con HTTP simple (unos 2 minutos, sin gastar tokens del navegador):
+Requests the pending sites with plain HTTP (about 2 minutes, without spending browser tokens):
 
-- **api / jsonld**: si dan eventos en la ventana, los guarda solo (`con_eventos`) y salen de la cola.
-- **html**: deja el texto de la portada y de las páginas de agenda en `data/crawl/local/textos/<id>.txt`.
-- El resto (`needs_browser`, `unreachable`, `sin_agenda_vista`) va al navegador como siempre.
+- **api / jsonld**: if they give events in the window, it saves them by itself (`con_eventos`) and they leave
+  the queue.
+- **html**: leaves the text of the home page and of the agenda pages in
+  `data/crawl/local/textos/<id>.txt`.
+- The rest (`needs_browser`, `unreachable`, `sin_agenda_vista`) goes to the browser as usual.
 
-Nunca marca un sitio vacío: si no encontró eventos, el sitio sigue en la cola. Si la corrida se retoma otro
-día, volvé a correrlo (`siguiente` avisa si falta un sondeo reciente).
+It never marks a site empty: if it found no events, the site stays in the queue. If the run is resumed on
+another day, run it again (`siguiente` warns when a recent probe is missing).
 
-Después, buscá los Linktree de los Instagram (sin abrir Instagram, no gasta cupo):
+Then look for the Instagram Linktrees (without opening Instagram, so it costs no quota):
 
 ```bash
 python scripts/biolinks.py
 ```
 
-Prueba `linktr.ee/<cuenta>` de cada Instagram sin `enlace_bio` y guarda los que encuentra. Solo prueba los
-nuevos (o los que no tenían hace más de 60 días), así que en general tarda poco.
+It tries `linktr.ee/<account>` for every Instagram without an `enlace_bio` and saves the ones it finds. It
+only tries the new ones (or the ones not tried for more than 60 days), so it is usually quick.
 
-## 2. Recorrer la cola
+## 2. Go through the queue
 
-Repetir hasta que la cola quede vacía:
+Repeat until the queue is empty:
 
 ```bash
 python scripts/crawl.py siguiente 3
 ```
 
-Muestra los próximos sitios con todo lo que se sabe de ellos: `web`, `instagram`, `enlace_bio`,
-`entradas` (páginas de agenda que funcionaron antes), `comportamiento`, `notas`, `enlaces_pendientes`
-(enlaces que se vieron y no se abrieron), `enlaces_descartados` (ya se vio que no sirven, con el motivo:
-no abrirlos) y `ultimo`. Leelo antes de abrir el sitio. Las notas que dicen
-"el script viejo lo marcó ... NO es confiable" vienen de un verificador que no abría las páginas: ignorá
-esa conclusión y revisá el sitio a fondo.
+It shows the next sites with everything known about them: `web`, `instagram`, `enlace_bio`, `entradas`
+(agenda pages that worked before), `comportamiento`, `notas`, `enlaces_pendientes` (links that were seen and
+not opened), `enlaces_descartados` (already seen not to be useful, with the reason: do not open them) and
+`ultimo`. Read it before opening the site. Notes saying "el script viejo lo marcó ... NO es confiable" come
+from a checker that did not open the pages: ignore that conclusion and review the site thoroughly.
 
-Si el sitio trae `sondeo`, seguí su `pista` antes de abrir el navegador. Con `clase: html`, leé el
-archivo `texto` (tiene los enlaces del sitio como `texto [url]`) y cargá los eventos desde ahí; en
-`urls_visitadas` y `enlaces_candidatos` (`visitado: true`) van las `paginas_agenda` leídas. Abrí el
-navegador solo para lo que el texto no resuelve: fichas con la fecha de cierre, afiches en imagen, o un
-sitio donde el texto no muestra ningún evento (para marcarlo vacío hay que revisarlo en el navegador,
-regla 2).
+If the site has `sondeo`, follow its `pista` before opening the browser. With `clase: html`, read the
+`texto` file (it has the site's links as `texto [url]`) and load the events from there; the `paginas_agenda`
+read go in `urls_visitadas` and `enlaces_candidatos` (`visitado: true`). Open the browser only for what the
+text does not solve: event pages with the closing date, posters in images, or a site where the text shows no
+events (to mark it empty you have to review it in the browser, rule 2).
 
-**Leer otras páginas sin navegador.** El texto del sondeo tiene la portada y hasta 5 páginas, cortado a
-~30.000 caracteres: muchas veces la agenda completa está en otra página del mismo sitio. Pedila con
+**Reading other pages without a browser.** The probe's text has the home page and up to 5 pages, cut at
+~30,000 characters: often the complete agenda is on another page of the same site. Request it with
 
 ```bash
-python scripts/sondear.py --leer <url> [--desde "<texto>"] [--max N] [--timeout 45]
+python scripts/sondear.py --leer <url> [--desde "<text>"] [--max N] [--timeout 45]
 ```
 
-que imprime el estado, los eventos JSON-LD de la página y el texto con los enlaces. Lo que funcionó:
+which prints the status, the page's JSON-LD events and the text with the links. What worked:
 
-- el filtro del mes o del calendario completo (`?filtro=mes`, `/calendario/`), no la vista de la semana;
-- páginas por día (`funciones-AAAAMMDD.html`) cuando la cartelera solo dice "SÁB 20 HS";
-- fichas de cada obra o actividad para días, hora, estreno, última función y precio;
-- el listado de The Events Calendar (`/eventos/`) trae JSON-LD aunque la API esté cerrada (403);
-- fechas en la URL de la ficha (`…-jueves-22-de-octubre-21-h-2026/`);
-- en ticketeras como revamos.com las fechas de una obra con varias funciones están en el código de la
-  página (`ticketsByDate`).
+- the month filter or the full calendar (`?filtro=mes`, `/calendario/`), not the week view;
+- pages per day (`funciones-AAAAMMDD.html`) when the listings only say "SÁB 20 HS";
+- the page of each play or activity for days, time, premiere, last performance and price;
+- The Events Calendar listing (`/eventos/`) carries JSON-LD even if the API is closed (403);
+- dates in the event page URL (`…-jueves-22-de-octubre-21-h-2026/`);
+- on ticketing sites like revamos.com, the dates of a play with several performances are in the page code
+  (`ticketsByDate`).
 
-Los listados paginados no siempre están en orden de fecha: recorré `page/2`, `page/3`… hasta que todo
-quede después de la ventana. Si el sitio es lento, `--timeout 45` (y anotá `espera_seg`). Lo que no sale
-así (fechas solo en Plateanet u otra app, afiches, gacetillas en imagen) queda para el navegador: no
-guardes el sitio con la mitad de la agenda, porque sale de la cola.
+Paginated listings are not always in date order: go through `page/2`, `page/3`… until everything falls after
+the window. If the site is slow, `--timeout 45` (and note `espera_seg`). What does not come out this way
+(dates only in Plateanet or another app, posters, press releases in images) is left for the browser: do not
+save the site with half the agenda, because it leaves the queue.
 
-Si guardás dos veces el mismo sitio en el día (para corregir algo), la nota nueva reemplaza a la anterior
-y un enlace que pasa a `visitado: true` deja de estar descartado.
+If you save the same site twice in a day (to correct something), the new note replaces the previous one and
+a link that becomes `visitado: true` is no longer discarded.
 
-Para cada sitio: rastrearlo (sección 3 o 4), escribir el resultado en `data/crawl/tmp/<id>.json`
-(formato en la sección 5) y guardarlo:
+For each site: crawl it (section 3 or 4), write the result in `data/crawl/tmp/<id>.json` (format in section
+5) and save it:
 
 ```bash
 python scripts/crawl.py guardar data/crawl/tmp/<id>.json
 ```
 
-Si responde **NO SE GUARDÓ**, volvé al navegador y hacé lo que dice (abrir los enlaces que faltan,
-scrollear, reintentar). No cambies el estado para esquivar la validación.
+If it answers **NO SE GUARDÓ**, go back to the browser and do what it says (open the missing links, scroll,
+retry). Do not change the status to get around the validation.
 
-Guardá cada sitio apenas lo terminás: si la sesión se corta, lo guardado no se pierde.
+Save each site as soon as you finish it: if the session is cut off, what was saved is not lost.
 
-Cada ~40 sitios, publicá un avance (sección 6). Así la página se actualiza aunque la corrida se corte.
+Every ~40 sites, publish a progress update (section 6). That way the page is updated even if the run is cut
+off.
 
-## 3. Rastrear una web
+## 3. Crawl a website
 
-**Sitios sin web ni Instagram** (museos y galerías de la lista de referencia, o lugares a los que les
-falta todo): `siguiente` los muestra con una `tarea`. Buscá en Google `"<nombre>" Buenos Aires`, confirmá
-la web oficial (no un directorio ni una nota), que esté en CABA y que siga abierto, y poné en el resultado
-`web_nueva`, `instagram`, `barrio` y `direccion`. Después rastreá esa web en el mismo turno como cualquier
-otra (lo que sigue de esta sección). Al guardar, el script lo suma a `lugares.json` (y a `galerias.json`
-si es de arte). Si no existe, cerró o no está en CABA, guardá `{"id": ..., "descartar": "<motivo>",
-"evidencia": "<qué buscaste y qué encontraste>"}`: se saca de las listas y queda anotado en
-`data/crawl/descartados.json` para no volver a sumarlo. Lo mismo vale para cualquier sitio que hayas
-confirmado cerrado.
+**Sites with no website or Instagram** (museums and galleries from the reference list, or venues that are
+missing everything): `siguiente` shows them with a `tarea`. Search Google for `"<name>" Buenos Aires`,
+confirm the official website (not a directory or an article), that it is in CABA and still open, and put
+`web_nueva`, `instagram`, `barrio` and `direccion` in the result. Then crawl that website in the same turn
+like any other (the rest of this section). On saving, the script adds it to `lugares.json` (and to
+`galerias.json` if it is an art venue). If it does not exist, closed or is not in CABA, save
+`{"id": ..., "descartar": "<reason>", "evidencia": "<what you searched and what you found>"}`: it is removed
+from the lists and recorded in `data/crawl/descartados.json` so it is not added again. The same goes for any
+site you confirmed closed.
 
-### 3.1 Abrir y esperar
+### 3.1 Open and wait
 
-1. Abrí la primera URL de `entradas` si hay; si no, `web`. Si hay `enlaces_pendientes`, abrilos también.
-2. Corré `preparar`. Si `comportamiento.espera_seg` dice que el sitio es lento, esperá eso antes.
-   `preparar` también cierra avisos de cookies y ventanas de newsletter, notificaciones o edad
-   (prefiere "rechazar" o "solo necesarias"), y lo repite mientras scrollea. Mirá `popups` en el
-   resultado: si dice `iframe de consentimiento`, o si en la captura sigue habiendo algo tapando la
-   página, cerralo con un clic y volvé a correr `preparar`. Nunca marques un sitio como vacío o caído
-   porque un aviso tapaba el contenido.
-3. Si `largo_texto` es muy chico o la página muestra un error:
-   - intento 2: recargá, esperá 10-15 s más y corré `preparar` otra vez;
-   - intento 3: probá la variante (`www`/sin `www`, `http`/`https`, la portada si estabas en una sección,
-     o la URL de la agenda si estabas en la portada);
-   - si un intento carga, seguí normal y anotá en `comportamiento` cuánto tardó;
-   - si ninguno carga: `no_carga` con `intentos: 3` y la `evidencia` (qué mostró).
-   - Dominio que no resuelve, estacionado, en venta, cuenta suspendida o que redirige a otra cosa:
-     `dominio_caido`. Antes, buscá en Google `"<nombre>" Buenos Aires` la web nueva o el Instagram; si
-     la encontrás, rastreala en el mismo turno y poné `web_nueva` o `instagram`.
-   - Captcha, login obligatorio o 403: `bloqueado` con `evidencia`. No intentes resolverlo.
+1. Open the first URL in `entradas` if there is one; otherwise `web`. If there are `enlaces_pendientes`,
+   open them too.
+2. Run `preparar`. If `comportamiento.espera_seg` says the site is slow, wait that long first. `preparar`
+   also closes cookie notices and newsletter, notification or age windows (it prefers "rechazar" or "solo
+   necesarias"), and repeats this while it scrolls. Look at `popups` in the result: if it says `iframe de
+   consentimiento`, or if the screenshot still shows something covering the page, close it with a click and
+   run `preparar` again. Never mark a site as empty or down because a notice was covering the content.
+3. If `largo_texto` is very small or the page shows an error:
+   - attempt 2: reload, wait 10-15 s more and run `preparar` again;
+   - attempt 3: try the variant (`www`/no `www`, `http`/`https`, the home page if you were on a section, or
+     the agenda URL if you were on the home page);
+   - if an attempt loads, continue normally and note in `comportamiento` how long it took;
+   - if none loads: `no_carga` with `intentos: 3` and the `evidencia` (what it showed).
+   - Domain that does not resolve, parked, for sale, suspended account or redirecting elsewhere:
+     `dominio_caido`. First search Google for `"<name>" Buenos Aires` to find the new website or the
+     Instagram; if you find it, crawl it in the same turn and put `web_nueva` or `instagram`.
+   - Captcha, mandatory login or 403: `bloqueado` with `evidencia`. Do not try to solve it.
 
-### 3.2 Encontrar todos los listados
+### 3.2 Find all the listings
 
-La portada casi nunca alcanza: suele mostrar una sola muestra o los próximos tres eventos.
+The home page is almost never enough: it usually shows a single exhibition or the next three events.
 
-- `preparar` separa los enlaces de agenda del mismo sitio en `secciones` (fuertes: agenda, cartelera,
+- `preparar` separates the agenda links of the same site into `secciones` (strong: agenda, cartelera,
   programación, eventos, actividades, muestras, exposiciones, shows, funciones, obras, próximas, talleres,
-  cursos, clases, seminarios, visitas, recorridos…) y `debiles` (ciclos, actuales, temporada, festival,
-  cine, inauguración). Talleres y visitas son fuertes porque muchos sitios los publican en una página
-  propia que la agenda no muestra.
-  Todos van en `enlaces_candidatos`; los débiles con `"debil": true`.
-- Los que están en `enlaces_descartados` del sitio ya se descartaron en otra corrida: no los abras (el
-  script les pone el motivo guardado). Se vuelven a revisar solos cada 6 meses.
-- **Fuertes: abrí cada uno** y corré `preparar` en él. Dentro de cada sección, las pestañas o filtros
-  "Actuales", "Próximas", "Este mes", "Hoy", "Semana" son más secciones: abrilas.
-- **Débiles:** si el sitio ya dio eventos por los enlaces fuertes, no hace falta abrirlos (casi siempre
-  repiten lo que está en la agenda). Si al final no encontraste eventos, abrilos todos antes de marcar
-  `sin_eventos` o `sin_agenda`. Abrí igual uno débil cuando su texto deja claro que tiene una
-  programación propia que la agenda no muestra (por ejemplo, un "Cine" con su propia cartelera
-  semanal).
-- Mirá también los menús desplegables ("Más", "☰", "Programación ▾"): abrilos con un clic y volvé a
-  correr `preparar` si aparecen enlaces nuevos.
-- Seguí la paginación ("siguiente", `?page=2`, calendario del mes siguiente) hasta cubrir los próximos
-  14 días.
-- Si dos enlaces llevan al mismo listado (`/agenda` y `/eventos` muestran lo mismo), abrí uno y descartá
-  el otro con "misma página que /agenda".
-- Solo se puede descartar un candidato con un motivo concreto: "archivo de muestras pasadas",
-  "es la tienda", "convocatoria, no evento", "es la colección", "es la misma página que /agenda".
-  "Parecía vacío" no es un motivo. Los descartes se recuerdan en la próxima corrida, así que el motivo
-  tiene que seguir siendo cierto la semana que viene.
+  cursos, clases, seminarios, visitas, recorridos…) and `debiles` (ciclos, actuales, temporada, festival,
+  cine, inauguración). Talleres and visitas are strong because many sites publish them on their own page,
+  which the agenda does not show. All go in `enlaces_candidatos`; the weak ones with `"debil": true`.
+- The ones in the site's `enlaces_descartados` were already discarded in another run: do not open them (the
+  script puts the saved reason on them). They are reviewed again by themselves every 6 months.
+- **Strong: open each one** and run `preparar` on it. Inside each section, the tabs or filters "Actuales",
+  "Próximas", "Este mes", "Hoy", "Semana" are more sections: open them.
+- **Weak:** if the site already gave events through the strong links, there is no need to open them (they
+  almost always repeat what is in the agenda). If in the end you found no events, open them all before
+  marking `sin_eventos` or `sin_agenda`. Open a weak one anyway when its text makes clear that it has its
+  own programming that the agenda does not show (for example a "Cine" with its own weekly listings).
+- Also look at dropdown menus ("Más", "☰", "Programación ▾"): open them with a click and run `preparar`
+  again if new links appear.
+- Follow pagination ("siguiente", `?page=2`, next month's calendar) until the next 14 days are covered.
+- If two links lead to the same listing (`/agenda` and `/eventos` show the same), open one and discard the
+  other with "misma página que /agenda".
+- A candidate can only be discarded with a concrete reason: "archivo de muestras pasadas", "es la tienda",
+  "convocatoria, no evento", "es la colección", "es la misma página que /agenda". "Looked empty" is not a
+  reason. Discards are remembered in the next run, so the reason has to still be true next week.
 
-### 3.3 Leer los eventos
+### 3.3 Read the events
 
-- Si `eventos_jsonld > 0`, usá `jsonld()`.
-- Si no, usá `bloques()` sobre cada listado (o `get_page_text` solo si `bloques` no captura bien la
-  estructura).
-- Entrá a la ficha de un evento o muestra (`fichas`, con `esperar()`) cuando el listado no tenga fecha
-  completa (inicio y fin de una muestra), lugar o sala, horario o precio. En galerías y museos la fecha
-  de cierre suele estar solo en la ficha: entrá a las de las muestras **vigentes o próximas** (no a las
-  del archivo ni a las de artistas).
-- Desde una ficha seguí el enlace a entradas o "más info" si ahí están las funciones o el precio.
-  Profundidad máxima: 3 niveles desde el listado, mismo dominio o ticketera.
-- Si un listado tiene la información en imágenes (afiches) sin texto, sacá una captura y leela.
-- Llevá la lista de URLs ya visitadas para no repetir. Van todas en `urls_visitadas`.
+- If `eventos_jsonld > 0`, use `jsonld()`.
+- Otherwise, use `bloques()` on each listing (or `get_page_text` only if `bloques` does not capture the
+  structure well).
+- Enter the page of an event or exhibition (`fichas`, with `esperar()`) when the listing lacks the complete
+  date (start and end of an exhibition), venue or room, time or price. In galleries and museums the closing
+  date is often only on the event page: enter the ones for **current or upcoming** exhibitions (not the
+  archive or the artists' pages).
+- From an event page, follow the link to tickets or "más info" if the performances or the price are there.
+  Maximum depth: 3 levels from the listing, same domain or ticketing site.
+- If a listing has its information in images (posters) without text, take a screenshot and read it.
+- Keep the list of URLs already visited to avoid repeating. They all go in `urls_visitadas`.
 
-Qué tipo de eventos: todo lo que sea abierto al público y de interés cultural o de ocio, **incluidas
-fiestas de techno y electrónica, fiestas en clubes, raves y open airs, festivales (de música, cine, teatro,
-tango, jazz, arte, de barrio) y ferias (de diseño, arte, libros, vinilos, gastronómicas, artesanías,
-americanas)**, además de teatro, música, cine, muestras, danza y charlas. **Talleres, clases abiertas,
-seminarios, cursos y workshops de arte o cultura** (pintura, cerámica, escritura, fotografía, teatro, danza,
-música, cine, etc.) y **visitas guiadas y recorridos** (de museos, muestras, edificios o barrios) también se
-cargan, sean gratis o pagos y aunque pidan inscripción: buscalos en su propia sección aunque el sitio ya haya
-dado eventos en la agenda. Un taller o curso que dura semanas o meses va como un solo evento con
-`fecha_inicio`, `fecha_fin` y `horarios`, si empieza dentro de la ventana o tiene inscripción abierta en ella
-con fechas publicadas. No se cargan eventos privados (visitas para escuelas o grupos que reservan,
-talleres internos), cursos comerciales o de negocios, ni partidos o competencias deportivas.
+Which kinds of events: everything open to the public and of cultural or leisure interest, **including techno
+and electronic parties, club parties, raves and open airs, festivals (music, film, theater, tango, jazz, art,
+neighborhood) and fairs (design, art, books, vinyl, food, crafts, second-hand clothes)**, as well as theater,
+music, film, exhibitions, dance and talks. **Talleres, open classes, seminars, courses and workshops on art
+or culture** (painting, ceramics, writing, photography, theater, dance, music, film, etc.) and **guided
+tours and walks** (of museums, exhibitions, buildings or neighborhoods) are also loaded, whether free or
+paid and even if they require registration: look for them in their own section even if the site already gave
+events in the agenda. A workshop or course that lasts weeks or months goes as a single event with
+`fecha_inicio`, `fecha_fin` and `horarios`, if it starts within the window or has open registration in it
+with published dates. Private events (visits for schools or groups that book, internal workshops),
+commercial or business courses, and sports matches or competitions are not loaded.
 
-Cuándo: lo que esté en curso o empiece dentro de los próximos 14 días (la ventana la muestra
-`siguiente`). Una muestra que empezó en agosto y cierra en diciembre está vigente y se carga. Una obra con
-funciones todos los viernes de octubre es un solo evento con `fecha_inicio`, `fecha_fin` y `horarios`.
-Una inauguración con día y hora propios va como evento aparte.
+When: whatever is ongoing or starts within the next 14 days (`siguiente` shows the window). An exhibition
+that started in August and closes in December is current and is loaded. A play with performances every
+Friday of October is a single event with `fecha_inicio`, `fecha_fin` and `horarios`. An opening with its own
+day and time goes as a separate event.
 
-- Obra **en cartel** que solo dice el día de la semana ("SÁBADOS 19 HS", sin fechas): `fecha_inicio` y
-  `fecha_fin` son la primera y la última de esas funciones dentro de la ventana, y `horarios` el texto
-  original. Si dice "última función" sin fecha, no se carga.
-- Visitas guiadas permanentes (todos los días, o "lunes 11 h" sin fin anunciado): un evento con
-  `vigente_sin_fin: true`, `fecha_inicio` la del estreno si la dicen o la de hoy, y los horarios y precios.
-- Eventos **virtuales** u online: no se cargan, aunque el organizador sea un espacio de CABA.
+- A play **on stage** that only gives the day of the week ("SÁBADOS 19 HS", no dates): `fecha_inicio` and
+  `fecha_fin` are the first and last of those performances within the window, and `horarios` the original
+  text. If it says "última función" without a date, it is not loaded.
+- Permanent guided tours (every day, or "lunes 11 h" with no announced end): one event with
+  `vigente_sin_fin: true`, `fecha_inicio` the premiere date if given or today's, and the times and prices.
+- **Virtual** or online events: not loaded, even if the organizer is a CABA venue.
 
-### 3.4 Enlaces nuevos
+### 3.4 New links
 
-- `externos` de `preparar` que sean otro espacio cultural de CABA (galería, museo, sala, centro cultural,
-  cine, club o boliche con agenda) y no estén en la cola: sumalos en `sitios_nuevos`. Una productora o
-  fiesta itinerante que cambia de lugar va con `"tipo": "agregador"`. El script los agrega a
-  `sitios.json` y a `lugares.json`/`galerias.json`, y los pone en la cola de esta misma corrida.
-  Confirmá que estén en CABA; no agregues espacios de otras ciudades.
-- Páginas del mismo sitio que no llegaste a abrir y podrían tener eventos: `enlaces_nuevos`.
-- Las páginas donde efectivamente estaban los eventos: `entradas` (la próxima corrida empieza ahí).
+- `externos` from `preparar` that are another cultural venue in CABA (gallery, museum, theater, cultural
+  center, cinema, club or nightclub with an agenda) and are not in the queue: add them in `sitios_nuevos`. A
+  producer or itinerant party that changes venue goes with `"tipo": "agregador"`. The script adds them to
+  `sitios.json` and to `lugares.json`/`galerias.json`, and puts them in the queue of this same run. Confirm
+  they are in CABA; do not add venues from other cities.
+- Pages of the same site that you did not get to open and could have events: `enlaces_nuevos`.
+- The pages where the events actually were: `entradas` (the next run starts there).
 
-## 4. Rastrear Instagram
+## 4. Crawl Instagram
 
-Se rastrea Instagram de los lugares sin web, y de los que tienen web cuando la web no dio eventos (el
-script los encola solo, después de todas las webs). Usá la sesión ya iniciada del navegador; no inicies
-sesión ni crees cuentas.
+Instagram is crawled for venues with no website, and for those with a website when the website gave no
+events (the script queues them by itself, after all the websites). Use the browser's already logged-in
+session; do not log in or create accounts.
 
-**Límites.** Instagram frena las cuentas que abren muchas páginas seguidas, así que el script lleva un
-cupo y no todos los perfiles entran en cada corrida: se rotan, primero los revisados hace más tiempo.
+**Limits.** Instagram throttles accounts that open many pages in a row, so the script keeps a quota and not
+all the profiles fit in each run: they rotate, the longest-unchecked first.
 
-- Cupo diario de páginas de Instagram (perfil + cada post abierto), por defecto 150. `siguiente` muestra
-  lo que queda; cuando se agota, deja los perfiles restantes como `pospuesto` y van primeros la próxima.
-- Si un perfil se guarda como `bloqueado`, no se abre Instagram por 24 h (enfriamiento): los perfiles
-  pendientes quedan `pospuesto`. No intentes seguir con otro perfil.
-- Cada 25 páginas, `guardar` pide una pausa de 5 minutos: hacela (o seguí con webs, si quedan).
-- Los límites se ajustan en `data/crawl/local/instagram_estado.json` (`limites`).
+- Daily quota of Instagram pages (profile + each opened post), 150 by default. `siguiente` shows what is
+  left; when it runs out, it leaves the remaining profiles as `pospuesto` and they go first next time.
+- If a profile is saved as `bloqueado`, Instagram is not opened for 24 h (cool-down): the pending profiles
+  stay `pospuesto`. Do not try to continue with another profile.
+- Every 25 pages, `guardar` asks for a 5-minute pause: take it (or continue with websites, if any remain).
+- The limits are adjusted in `data/crawl/local/instagram_estado.json` (`limites`).
 
-**Antes de abrir Instagram, siempre: el enlace de la bio.** Si el sitio tiene `enlace_bio` (`biolinks.py`
-encuentra la mayoría de los Linktree, sección 1b), leelo sin navegador:
-`python scripts/sondear.py --leer <enlace_bio>`. De un Linktree muestra cada enlace como `título [url]`;
-muchos listan cada show con la fecha en el título y el enlace a la ticketera, que se lee igual
-(`--leer <url>`). Si ahí está la agenda de la ventana, guardá el canal `instagram` con esos eventos,
-`enlaces_candidatos` = el enlace de la bio visitado, `posts: []` y `paginas_instagram: 0` (no gasta cupo),
-y anotá en `comportamiento` que la agenda está en la bio. Solo si la bio no alcanza, abrí el perfil.
+**Before opening Instagram, always: the bio link.** If the site has an `enlace_bio` (`biolinks.py` finds
+most Linktrees, section 1b), read it without a browser: `python scripts/sondear.py --leer <enlace_bio>`. For
+a Linktree it shows each link as `title [url]`; many list each show with the date in the title and the link
+to the ticketing site, which is read the same way (`--leer <url>`). If the window's agenda is there, save
+the `instagram` channel with those events, `enlaces_candidatos` = the visited bio link, `posts: []` and
+`paginas_instagram: 0` (it spends no quota), and note in `comportamiento` that the agenda is in the bio. Only
+if the bio is not enough, open the profile.
 
-**Posts ya analizados.** En `data/crawl/local/instagram_posts.json` (solo en esta máquina, no se sube
-al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a abrirlos:
+**Posts already analyzed.** `data/crawl/local/instagram_posts.json` (only on this machine, not pushed to the
+repository) holds every opened post with the events it had. Do not open them again:
 
-1. Abrí `https://www.instagram.com/<usuario>/`, esperá 3-5 s y corré `instagram_perfil`.
-   Si aparece un diálogo de cookies ("Rechazar cookies opcionales") o de notificaciones ("Ahora no"),
-   corré `popups` o cerralo con un clic. Si `pide_login` es verdadero o aparece un captcha:
-   `bloqueado` y pasá al siguiente.
-2. Pasá las URLs de `posts` al script:
-   `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
-   Abrí **solo los NUEVOS** (hasta ~9) y las destacadas "Agenda", "Cartelera", "Programación" si hay.
-   Corré `instagram_post` en cada uno. Usá `publicado` para deducir el año de fechas como "sábado 18".
-   Si un post nuevo es de hace más de 2 meses y los anteriores también, no hace falta seguir bajando.
-3. Si el texto no tiene la fecha, mirá el afiche (captura).
-4. Seguí el enlace de la bio (`bio` o `enlace_bio`): Linktree, ticketera o web. Aplicá la sección 3.
-5. En el resultado poné:
-   - `posts`: **todas** las URLs de posts de la grilla que consideraste, nuevas y ya vistas, con
-     `publicado` si lo sabés: `[{"url": "...", "publicado": "2026-10-10"}]`. El script agrega solo los
-     eventos vigentes de los posts ya vistos, así que no los copies.
-   - en cada evento, `"post": "<url del post>"` de donde salió (para poder reutilizarlo).
-   - `paginas_instagram`: cuántas páginas de Instagram abriste en este perfil (perfil + posts +
-     destacadas). Si no lo ponés, se cuenta 1 + los posts nuevos.
-6. Ritmo: esperá 4-10 s al azar entre acciones y entre perfiles. Scroll natural, sin ráfagas, sin abrir
-   endpoints internos. Al primer "intentá de nuevo más tarde", límite de acciones o captcha, guardá ese
-   perfil como `bloqueado` (con `evidencia`) y seguí solo con webs.
-7. Para encontrar posts sin login: Google `site:instagram.com/p/ "<lugar>"`.
+1. Open `https://www.instagram.com/<usuario>/`, wait 3-5 s and run `instagram_perfil`. If a cookie dialog
+   ("Rechazar cookies opcionales") or a notifications dialog ("Ahora no") appears, run `popups` or close it
+   with a click. If `pide_login` is true or a captcha appears: `bloqueado` and move on to the next one.
+2. Pass the `posts` URLs to the script: `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
+   Open **only the NEW ones** (up to ~9) and the "Agenda", "Cartelera", "Programación" highlights if there
+   are any. Run `instagram_post` on each. Use `publicado` to deduce the year of dates like "sábado 18". If a
+   new post is more than 2 months old and the earlier ones too, there is no need to keep going down.
+3. If the text has no date, look at the poster (screenshot).
+4. Follow the bio link (`bio` or `enlace_bio`): Linktree, ticketing site or website. Apply section 3.
+5. In the result put:
+   - `posts`: **all** the grid post URLs you considered, new and already seen, with `publicado` if you know
+     it: `[{"url": "...", "publicado": "2026-10-10"}]`. The script adds by itself the current events from
+     the posts already seen, so do not copy them.
+   - in each event, `"post": "<post url>"` where it came from (so it can be reused).
+   - `paginas_instagram`: how many Instagram pages you opened on this profile (profile + posts +
+     highlights). If you leave it out, it counts as 1 + the new posts.
+6. Pace: wait 4-10 s at random between actions and between profiles. Natural scrolling, no bursts, no
+   opening internal endpoints. At the first "intentá de nuevo más tarde", action limit or captcha, save
+   that profile as `bloqueado` (with `evidencia`) and continue only with websites.
+7. To find posts without logging in: Google `site:instagram.com/p/ "<venue>"`.
 
-En Instagram, `scroll_completo: true` significa que viste los últimos ~9 posts (nuevos o ya vistos); los
-`enlaces_candidatos` son la bio y las destacadas de agenda.
+On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or already seen); the
+`enlaces_candidatos` are the bio and the agenda highlights.
 
-## 4b. Agregadores y fuentes de descubrimiento
+## 4b. Aggregators and discovery sources
 
-- **Turismo BA**: usar `turismo()`. Devuelve los eventos ya en el formato del resultado (con
-  `vigente_sin_fin` puesto): copiá su `eventos` tal cual al archivo, sin reescribirlos.
-- **SalePlan**: **no se abre en el navegador.** Se lee al final con `python scripts/saleplan.py` (sección 7):
-  lee los listados por HTTP y guarda solo lo que ninguna otra fuente trajo, sin lugar. Si `siguiente` lo
-  muestra, salteálo. Si el script dice que no pudo leer el listado, recién ahí abrí las `entradas` con
-  `preparar`. Las tarjetas sin barrio ni hora quedan en `data/crawl/tmp/saleplan_fichas.txt`: si sobra
-  tiempo, abrí esas fichas para saber el lugar.
-- **Resident Advisor**: agenda de fiestas y electrónica. Recorrer los 14 días, abrir las fichas sin club
-  y sumar clubes y productoras nuevos en `sitios_nuevos`.
-- **Descubrimiento** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): sirven para encontrar
-  espacios y muestras que no están en la lista. Cargá las muestras de CABA que figuren con fechas, y
-  sumá los espacios nuevos en `sitios_nuevos`.
-- **Búsquedas** (fiestas techno y electrónica, festivales, ferias, museos y galerías que falten): son
-  búsquedas en Google que se hacen en cada corrida. `comportamiento.consultas` tiene las consultas:
-  agregales el mes y el año, abrí los primeros resultados útiles, cargá los eventos de la ventana con su
-  `lugar`, y sumá en `sitios_nuevos` los clubes, organizadores, festivales, ferias, museos y galerías
-  que publiquen agenda propia, para que se rastreen directo de ahí en adelante. Antes de sumar uno,
-  fijate con `crawl.py ver <nombre>` que no esté.
-- **Ticketeras y agendas** (Alternativa Teatral, Eventbrite, Ticketek, Passline, Indiehoy, Time Out):
-  seguir `entradas` y `comportamiento` de cada una. Cargar solo eventos en CABA, culturales, dentro de la
-  ventana. Ir al ritmo de una persona (pausas de 2-4 s entre páginas); ante captcha o 403, `bloqueado`.
-  Las salas o espacios de CABA que aparezcan y no estén en la lista van en `sitios_nuevos`.
-- **Cubrí toda la ventana.** En un listado ordenado por fecha (Passline, por ejemplo, lista todo el país),
-  seguí hasta que las fechas pasen el último día de la ventana: no cortes por cantidad de fichas ni por
-  cansancio. Si tenés que cortar, guardá igual lo leído pero decilo en la `nota` ("leído hasta el 17/10")
-  para que la próxima corrida siga desde ahí. Nunca anotes "N eventos en la ventana" si no la cubriste.
-- Si un lugar tiene su propia página en una ticketera (`passline.com/sitio/<id>-<lugar>`), esa página es
-  la mejor `web` para ese lugar: lista solo sus eventos.
-- En agregadores y descubrimiento el `lugar` de cada evento es obligatorio: el nombre del espacio
-  donde ocurre, igual al de `data/lugares.json` si está ahí.
-- Un sitio con `"rastrear": false` en `sitios.json` no entra en la cola. Solo se marca así si el
-  usuario lo pide (hoy: Paseo La Plaza, cuya programación llega por los agregadores).
+- **Turismo BA**: use `turismo()`. It returns the events already in the result format (with
+  `vigente_sin_fin` set): copy its `eventos` as is into the file, without rewriting them.
+- **SalePlan**: **it is not opened in the browser.** It is read at the end with
+  `python scripts/saleplan.py` (section 7): it reads the listings over HTTP and saves only what no other
+  source brought, with no venue. If `siguiente` shows it, skip it. Only if the script says it could not
+  read the listing, open the `entradas` with `preparar`. Cards with no neighborhood or time are left in
+  `data/crawl/tmp/saleplan_fichas.txt`: if there is time left, open those pages to find out the venue.
+- **Resident Advisor**: parties and electronic agenda. Go through the 14 days, open the pages with no club
+  and add new clubs and producers in `sitios_nuevos`.
+- **Discovery** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): useful to find venues and
+  exhibitions that are not on the list. Load the CABA exhibitions that appear with dates, and add the new
+  venues in `sitios_nuevos`.
+- **Searches** (techno and electronic parties, festivals, fairs, missing museums and galleries): they are
+  Google searches done in every run. `comportamiento.consultas` has the queries: add the month and year,
+  open the first useful results, load the window's events with their `lugar`, and add in `sitios_nuevos`
+  the clubs, organizers, festivals, fairs, museums and galleries that publish their own agenda, so they are
+  crawled directly from then on. Before adding one, check with `crawl.py ver <name>` that it is not already
+  there.
+- **Ticketing sites and agendas** (Alternativa Teatral, Eventbrite, Ticketek, Passline, Indiehoy, Time Out):
+  follow the `entradas` and `comportamiento` of each. Load only events in CABA, cultural, within the window.
+  Go at a human pace (pauses of 2-4 s between pages); on captcha or 403, `bloqueado`. CABA theaters or
+  venues that appear and are not on the list go in `sitios_nuevos`.
+- **Cover the whole window.** In a listing ordered by date (Passline, for example, lists the whole
+  country), continue until the dates pass the last day of the window: do not cut by number of pages or out
+  of tiredness. If you have to cut, save what you read anyway but say so in the `nota` ("leído hasta el
+  17/10") so the next run continues from there. Never write "N eventos en la ventana" if you did not cover
+  it.
+- If a venue has its own page on a ticketing site (`passline.com/sitio/<id>-<venue>`), that page is the best
+  `web` for that venue: it lists only its events.
+- In aggregators and discovery sources the `lugar` of each event is mandatory: the name of the venue where
+  it takes place, identical to the one in `data/lugares.json` if it is there.
+- A site with `"rastrear": false` in `sitios.json` does not enter the queue. It is only marked that way if
+  the user asks (today: Paseo La Plaza, whose programming arrives through the aggregators).
 
-## 5. Formato del resultado
+## 5. Result format
 
-Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
+One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
 
 ```json
 {
@@ -379,62 +379,64 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
 }
 ```
 
-- `estado`: `con_eventos`, `sin_eventos` (hay agenda pero nada vigente ni en la ventana), `sin_agenda`
-  (no publica programación en este canal), `no_cultural`, `no_carga`, `dominio_caido`, `bloqueado`.
-  (`pospuesto` lo pone el script a los perfiles de Instagram que no entraron en el cupo.)
-- Solo Instagram: `posts`, `paginas_instagram` y `post` en cada evento (sección 4).
-- `enlaces_candidatos`: cada uno con `visitado: true`, `descartado: "<motivo>"` o, si es débil y hubo
-  eventos, `debil: true` sin abrir. La `url` puede ser la ruta que devolvió `preparar` (`/agenda/`).
-- `evidencia`: obligatoria en `sin_eventos`, `sin_agenda`, `no_cultural` y en las fallas. Ejemplo:
-  "/muestras lista 14 muestras, la más reciente cerró el 2026-09-30; /agenda vacía; sin próximas".
-- `eventos[].lugar`: vacío solo si el sitio tiene un único lugar (se completa solo). En sitios con
-  varios lugares, agregadores e Instagram de terceros va siempre. Mismo nombre que en
-  `data/lugares.json` o `data/galerias.json` para que se dedupliquen bien. Si el evento es en otra sala,
+- `estado`: `con_eventos`, `sin_eventos` (there is an agenda but nothing current or in the window),
+  `sin_agenda` (does not publish programming on this channel), `no_cultural`, `no_carga`, `dominio_caido`,
+  `bloqueado`. (`pospuesto` is set by the script on the Instagram profiles that did not fit in the quota.)
+- Instagram only: `posts`, `paginas_instagram` and `post` in each event (section 4).
+- `enlaces_candidatos`: each with `visitado: true`, `descartado: "<reason>"` or, if weak and there were
+  events, `debil: true` without opening. The `url` can be the path `preparar` returned (`/agenda/`).
+- `evidencia`: mandatory for `sin_eventos`, `sin_agenda`, `no_cultural` and failures. Example: "/muestras
+  lista 14 muestras, la más reciente cerró el 2026-09-30; /agenda vacía; sin próximas".
+- `eventos[].lugar`: empty only if the site has a single venue (it fills in by itself). On sites with
+  several venues, aggregators and third-party Instagram accounts it always goes. Same name as in
+  `data/lugares.json` or `data/galerias.json` so they deduplicate well. If the event is in another room,
   `"<Lugar> · <Sala>"`.
-- Fechas `AAAA-MM-DD`; `hora` `HH:MM` (una sola; si hay varias, en `horarios`). Si no dice el año,
-  asumí el actual solo si la fecha no queda en el pasado; si hay duda, no lo cargues.
-- `categoria`: copiá la etiqueta, género o rubro que muestra la fuente ("Cine", "Teatro", "Rock",
-  "Stand up", "Géneros: teatro"), aunque no sea una de las categorías: el script la traduce. Vacía solo si la
-  fuente no muestra ninguna y no es obvia. En galerías, `Artes visuales`. Sin etiqueta, el evento queda en
-  "Evento" salvo que el título o la descripción lo digan: no dejes la descripción vacía ni con texto genérico.
-- `precio`: "Gratis", "$ 8000", "Desde $ 5000", o vacío. `url`: la ficha del evento o de las
-  entradas; el post de Instagram solo si no hay otra.
-- `vigente_sin_fin: true` solo cuando la fuente lo publica como vigente sin fecha de cierre.
-- `comportamiento`: claves y valores cortos que le sirvan a la próxima corrida (`espera_seg`, `scroll`,
-  `ver_mas`, `paginacion`, `menu`, `cookies` (qué aviso aparece y cómo se cierra), `popups`,
-  `plataforma`, `fichas`, `extraccion`, `bloqueos`).
-  Se fusiona con lo que ya había; poné una clave en `null` para borrarla si dejó de ser cierta.
-- `nota`: una o dos frases con lo aprendido. Se acumulan en `notas` del sitio.
-- `web_nueva`, `instagram`, `enlace_bio`: solo si descubriste que cambiaron o faltaban. `barrio` y
-  `direccion`: para sitios que se estaban confirmando (los que tenían `tarea`).
-- `descartar` + `evidencia`: en vez de todo lo demás, para sacar un sitio que no existe, cerró o no está
-  en CABA.
+- Dates `AAAA-MM-DD`; `hora` `HH:MM` (just one; if there are several, in `horarios`). If it does not give
+  the year, assume the current one only if the date does not end up in the past; if in doubt, do not load
+  it.
+- `categoria`: copy the label, genre or category the source shows ("Cine", "Teatro", "Rock", "Stand up",
+  "Géneros: teatro"), even if it is not one of the categories: the script translates it. Empty only if the
+  source shows none and it is not obvious. For galleries, `Artes visuales`. Without a label, the event stays
+  as "Evento" unless the title or description say otherwise: do not leave the description empty or with
+  generic text.
+- `precio`: "Gratis", "$ 8000", "Desde $ 5000", or empty. `url`: the event's page or its tickets page; the
+  Instagram post only if there is no other.
+- `vigente_sin_fin: true` only when the source publishes it as current with no closing date.
+- `comportamiento`: short keys and values that help the next run (`espera_seg`, `scroll`, `ver_mas`,
+  `paginacion`, `menu`, `cookies` (which notice appears and how it is closed), `popups`, `plataforma`,
+  `fichas`, `extraccion`, `bloqueos`). It is merged with what was already there; set a key to `null` to
+  delete it if it stopped being true.
+- `nota`: one or two sentences with what was learned. They accumulate in the site's `notas`.
+- `web_nueva`, `instagram`, `enlace_bio`: only if you discovered they changed or were missing. `barrio` and
+  `direccion`: for sites being confirmed (the ones that had a `tarea`).
+- `descartar` + `evidencia`: instead of everything else, to remove a site that does not exist, closed or is
+  not in CABA.
 
-**Resultados grandes** (Turismo BA, Passline, un teatro con 60 funciones): acortá las descripciones a
-~200 caracteres y escribí el archivo de una vez. No lo partas en varios guardados del mismo `id` y
-canal: cada guardado reemplaza la captura anterior de ese sitio.
+**Large results** (Turismo BA, Passline, a theater with 60 performances): shorten the descriptions to ~200
+characters and write the file in one go. Do not split it into several saves of the same `id` and channel:
+each save replaces the previous capture of that site.
 
-## 6. Publicar (avances y final)
+## 6. Publish (progress updates and final)
 
 ```bash
 python scripts/armar_agenda.py
 git add data/
-git commit -m "Agenda <fecha>: avance del rastreo (<hechos>/<total> sitios)"
+git commit -m "Agenda <date>: crawl progress (<done>/<total> sites)"
 git pull --rebase --autostash && git push
 ```
 
-`armar_agenda.py` toma la última captura de cada sitio (las de más de 10 días se ignoran), filtra la
-ventana de 14 días, clasifica, quita duplicados (y aplica los pares que decidiste en
-`data/crawl/duplicados.json`, sección 7), completa direcciones que faltan (`direcciones.py`: otras listas,
-otros eventos del mismo lugar y fichas de Alternativa Teatral), ubica en el mapa las direcciones nuevas
-(rehace las que caen lejos de su barrio), marca qué sitios se pueden mostrar dentro de la web
-(`embebibles.py`), le da a cada evento un `id` estable (la web guarda los favoritos con él) y actualiza el
-estado de cada lugar en `data/lugares.json`. Usa la red: si no hay conexión, `--sin-geo` arma igual con lo
-que ya está guardado. Si el push falla dos veces, dejá el commit local e informalo.
+`armar_agenda.py` takes the latest capture of each site (those more than 10 days old are ignored), filters
+the 14-day window, classifies, removes duplicates (and applies the pairs you decided in
+`data/crawl/duplicados.json`, section 7), fills in missing addresses (`direcciones.py`: other lists, other
+events at the same venue and Alternativa Teatral pages), places new addresses on the map (redoes the ones
+that land far from their neighborhood), marks which sites can be shown inside the website (`embebibles.py`),
+gives each event a stable `id` (the website saves favorites with it) and updates the status of each venue in
+`data/lugares.json`. It uses the network: if there is no connection, `--sin-geo` builds anyway with what is
+already saved. If the push fails twice, leave the commit local and report it.
 
-## 7. Cerrar
+## 7. Close
 
-Cuando `siguiente` diga que la cola está vacía (o solo quede SalePlan):
+When `siguiente` says the queue is empty (or only SalePlan is left):
 
 ```bash
 python scripts/saleplan.py
@@ -442,28 +444,28 @@ python scripts/armar_agenda.py
 python scripts/duplicados.py candidatos
 ```
 
-**Revisá los posibles duplicados.** La deduplicación automática solo une lo seguro; `candidatos` lista pares
-dudosos (fechas que se superponen y título o lugar parecidos), numerados, con lugar, dirección, fechas,
-fuentes y enlace de cada uno. Decidí cada par y anotalo:
+**Review the possible duplicates.** Automatic deduplication only merges what is certain; `candidatos` lists
+doubtful pairs (overlapping dates and similar title or venue), numbered, with venue, address, dates, sources
+and link of each one. Decide each pair and record it:
 
 ```bash
-python scripts/duplicados.py iguales 3 8 15     # el mismo evento (se unen en cada armado)
-python scripts/duplicados.py distintos 1 2 4    # eventos distintos (no se vuelven a preguntar)
+python scripts/duplicados.py iguales 3 8 15     # the same event (merged at every build)
+python scripts/duplicados.py distintos 1 2 4    # different events (never asked about again)
 ```
 
-- **Iguales**: la misma obra, muestra, show o fiesta, aunque cambie el título ("Ningyō: tradición y
-  actualidad de las muñecas japonesas" / "Ningyō, muñecas japonesas"), el nombre del lugar o la sala, o una
-  fuente traiga solo algunas funciones. Si dudás, abrí los dos enlaces.
-- **Distintos**: una muestra y la visita guiada o el recorrido por esa muestra; dos obras distintas en la
-  misma sala; dos fiestas el mismo día en el mismo club con distinto line-up; ferias de una misma red en
-  plazas distintas.
-- Al unir, los datos (título, lugar, hora, enlace, descripción) salen de la **fuente propia** del lugar (su
-  web y después su Instagram, marcada "(fuente propia)" en la lista); los agregadores solo completan lo que
-  falta. No hace falta elegir cuál queda: solo decidí si son el mismo evento.
-- Decidí todos los de la lista (si es larga, `--max 200`). Las decisiones quedan en
-  `data/crawl/duplicados.json` y valen para las próximas corridas, así que la lista se achica con el tiempo.
+- **Iguales** (same): the same play, exhibition, show or party, even if the title changes ("Ningyō:
+  tradición y actualidad de las muñecas japonesas" / "Ningyō, muñecas japonesas"), the name of the venue or
+  the room, or one source brings only some of the performances. If in doubt, open both links.
+- **Distintos** (different): an exhibition and the guided tour of that exhibition; two different plays in
+  the same room; two parties on the same day at the same club with a different line-up; fairs of the same
+  network in different squares.
+- When merging, the data (title, venue, time, link, description) comes from the venue's **own source** (its
+  website and then its Instagram, marked "(fuente propia)" in the list); aggregators only fill in what is
+  missing. There is no need to choose which one stays: just decide whether they are the same event.
+- Decide all of the list (if it is long, `--max 200`). The decisions are saved in
+  `data/crawl/duplicados.json` and hold for future runs, so the list shrinks over time.
 
-Después volvé a armar y cerrá la corrida:
+Then build again and close the run:
 
 ```bash
 python scripts/armar_agenda.py
@@ -472,43 +474,45 @@ python scripts/crawl.py cerrar
 
 ### Lecciones de la corrida
 
-Antes del último commit, leé el informe (`data/crawl/informes/<fecha>.md`) y repasá la corrida: qué
-costó, qué falló, qué tuviste que resolver sin que la skill lo dijera. Cada cosa útil va a su lugar:
+Before the last commit, read the report (`data/crawl/informes/<date>.md`) and review the run: what was
+costly, what failed, what you had to solve without the skill saying how. Each useful thing goes to its place:
 
-- **De un sitio** (dónde está su agenda, qué botón expande, que no carga sin esperar): ya quedó en
-  `sitios.json` al guardarlo. Si no, corregí `comportamiento` o `nota` de ese sitio.
-- **De varios sitios o de una plataforma** (una técnica para sacar fechas, cómo se comporta Wix,
-  Passline o un tipo de ticketera, un patrón de URL que sirvió): agregalo a la sección de esta skill
-  donde corresponde (3, 4 o 4b), o a `navegador.md` si es sobre las herramientas del navegador.
-- **Del proceso** (un paso que confundió o faltó, un criterio que hubo que decidir sobre qué cargar,
-  un orden que conviene cambiar): corregí la skill. Si contradice algo escrito, reemplazalo; no dejes dos
-  versiones.
-- **De un script** (un error, un caso que no maneja, un aviso confuso): arreglalo si es chico y seguro, y
-  actualizá su docstring y el `README.md`; si no, describilo en una sección `## Para revisar` que agregás al final del informe.
+- **About one site** (where its agenda is, which button expands, that it does not load without waiting): it
+  was already saved in `sitios.json` when you saved it. If not, correct that site's `comportamiento` or
+  `nota`.
+- **About several sites or a platform** (a technique to get dates, how Wix, Passline or a type of ticketing
+  site behaves, a URL pattern that worked): add it to the section of this skill where it belongs (3, 4 or
+  4b), or to `navegador.md` if it is about the browser tools.
+- **About the process** (a step that was confusing or missing, a criterion you had to decide about what to
+  load, an order that should change): fix the skill. If it contradicts something written, replace it; do not
+  leave two versions.
+- **About a script** (a bug, a case it does not handle, a confusing warning): fix it if it is small and
+  safe, and update its docstring and the `README.md`; if not, describe it in a `## Para revisar` section that
+  you add at the end of the report.
 
-Escribí cómo se hace **hoy**, en el lugar donde un agente lo va a buscar, no como una lista de lecciones
-al final. Si no aprendiste nada nuevo, no toques la skill. Después publicá todo junto:
+Write how it is done **today**, in the place where an agent will look for it, not as a list of lessons at the
+end. If you learned nothing new, do not touch the skill. Then publish everything together:
 
 ```bash
 git add data/ .claude/ scripts/ README.md
-git commit -m "Agenda <fecha>: <N> eventos, <S> sitios rastreados"
+git commit -m "Agenda <date>: <N> events, <S> sites crawled"
 git pull --rebase --autostash && git push
 ```
 
-En el mensaje del commit, una línea por cada cambio en la skill, los scripts o el README.
+In the commit message, one line for each change in the skill, the scripts or the README.
 
-Si la corrida se cortó por un bloqueo o un error del navegador que no se resuelve, cerrá con
-`crawl.py cerrar --forzar`: lo que quedó sin rastrear va primero la próxima vez.
+If the run was cut off by a block or a browser error that cannot be solved, close with
+`crawl.py cerrar --forzar`: what was left uncrawled goes first next time.
 
-Informe final (3-6 líneas): eventos publicados, sitios rastreados por estado, sitios nuevos, fallas
-(`no_carga`, `dominio_caido`, `bloqueado`), qué cambió en la skill o los scripts, y qué conviene revisar
-a mano. El detalle queda en
-`data/crawl/informes/<fecha>.md`.
+Final report (3-6 lines, in English): events published, sites crawled by status, new sites, failures
+(`no_carga`, `dominio_caido`, `bloqueado`), what changed in the skill or the scripts, and what is worth
+reviewing by hand. The detail stays in `data/crawl/informes/<date>.md` (in Spanish).
 
-## Límites
+## Limits
 
-- No iniciar sesión, no crear cuentas, no seguir, no dar likes, no mandar mensajes, no comprar entradas.
-- No editar `data/eventos.json` a mano ni las capturas de `data/crawl/capturas/`: los escriben los scripts.
-  Las decisiones de duplicados se anotan con `duplicados.py`, no editando `data/crawl/duplicados.json`.
-- Sí se pueden editar a mano en `data/crawl/sitios.json` datos de un sitio que estén mal (web, instagram,
-  lugares) cuando lo confirmaste en el navegador.
+- Do not log in, do not create accounts, do not follow, do not like, do not send messages, do not buy
+  tickets.
+- Do not edit `data/eventos.json` by hand or the captures in `data/crawl/capturas/`: the scripts write them.
+  Duplicate decisions are recorded with `duplicados.py`, not by editing `data/crawl/duplicados.json`.
+- You may edit by hand in `data/crawl/sitios.json` a site's data that is wrong (website, Instagram, venues)
+  when you confirmed it in the browser.
