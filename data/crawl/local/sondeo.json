@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-15 14:41",
- "segundos": 127,
+ "fecha": "2026-10-15 17:51",
+ "segundos": 40,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -234,30 +234,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "flashpass",
-   "web": "https://events.flashpass.com.ar/",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://events.flashpass.com.ar/",
-   "paginas_agenda": [
-    "https://events.flashpass.com.ar/eventos/aura-mata-buzios-1201-6382",
-    "https://events.flashpass.com.ar/eventos/navidad-aura-mata-2412-956",
-    "https://events.flashpass.com.ar/eventos/aura-mata-praia-do-rosa-1901-9468"
-   ],
-   "jsonld_eventos": 3,
-   "fechas_en_texto": 22,
-   "texto_portada": 1549,
-   "clase": "jsonld",
-   "ejemplos": [
-    {
-     "titulo": "AURA MATA - BUZIOS 12/01",
-     "inicio": "MAR 12 DE ENE 2027 | 23:5"
-    }
-   ],
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_dato"
   },
   {
    "id": "arte-al-dia-agenda",
@@ -936,54 +912,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "la-vieja-guardia",
-   "web": "https://www.laviejaguarida.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.laviejaguarida.com.ar",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 59,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "ladran-sancho",
-   "web": "https://www.ladran-sancho.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "las-mil-y-un-artes-centro-cultural",
-   "web": "http://lasmilyunartes.blogspot.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "http://lasmilyunartes.blogspot.com",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 20,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "paraje-arteson",
-   "web": "https://www.parajearteson.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
    "id": "cecam-centro-cultural-de-las-artes-del-movimiento",
    "web": "https://www.cecam.com.ar/",
    "plataforma": [],
@@ -1064,30 +992,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-vidriera-de-la-dgeart",
-   "web": "https://www.buenosaires.gob.ar/cultura/ensenanzaartistica/la-vidriera",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 404",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "polo-bandoneon",
-   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 2425,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_dato"
   },
   {
    "id": "espacio-cultural-chacra-de-los-remedios",
@@ -1294,36 +1198,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "esquina-rebelde-centro-cultural",
-   "web": "https://www.facebook.com/esquinarebelde",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "le-cid-espacio-cultural",
-   "web": "https://www.facebook.com/lecidespaciocultural",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "cultural-mamita",
-   "web": "https://www.facebook.com/BarMamita",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
    "id": "jaciento-oviedo",
    "web": "http://aluvionciudadano.blogspot.com",
    "plataforma": [],
@@ -1338,83 +1212,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "mi-casa",
-   "web": "http://www.libreriamicasa.com.ar/",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://www.libreriamicasa.com.ar/",
-   "paginas_agenda": [
-    "https://www.libreriamicasa.com.ar/destacados.php?id=5287"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 5,
-   "texto_portada": 9551,
-   "clase": "html",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "mu-trincher-boutique",
-   "web": "https://mutrincheraboutique.org/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "multiespacio-pasco",
-   "web": "https://multiespacio-pasco.blogspot.com/",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://multiespacio-pasco.blogspot.com/",
-   "paginas_agenda": [
-    "https://multiespacio-pasco.blogspot.com/2012/12/programacion-del-festival-meca.html",
-    "https://multiespacio-pasco.blogspot.com/2012/08/proximamente.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 6,
-   "texto_portada": 2372,
-   "clase": "html",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "panda-rojo-espacio-cultural",
-   "web": "https://pandarojo.com.ar/contacto/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://pandarojo.com.ar/contacto/",
-   "paginas_agenda": [
-    "https://pandarojo.com.ar/cartelera/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 10,
-   "texto_portada": 1198,
-   "clase": "html",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "puerta-18",
-   "web": "https://www.puerta18.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://www.puerta18.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3126,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:39",
-   "estado_corrida_anterior": "sin_agenda"
   },
   {
    "id": "asoc-civil-la-bombocova",
@@ -1461,42 +1258,6 @@
    "estado_corrida_anterior": "dominio_caido"
   },
   {
-   "id": "sociedad-luz",
-   "web": "https://sociedadluz.org.ar/",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://sociedadluz.org.ar/",
-   "paginas_agenda": [
-    "https://sociedadluz.org.ar/default.aspx",
-    "https://sociedadluz.org.ar/imagenes/agenda/semanaaudiovisualcronograma.pdf",
-    "https://sociedadluz.org.ar/imagenes/agenda/semanaaudiovisual.pdf"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 136,
-   "texto_portada": 87743,
-   "clase": "html",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "parque-de-la-memoria",
-   "web": "https://www.parquedelamemoria.org.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://parquedelamemoria.org.ar/",
-   "paginas_agenda": [
-    "https://parquedelamemoria.org.ar/arte-exposiciones/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 72,
-   "texto_portada": 7778,
-   "clase": "html",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
    "id": "casa-balear-de-buenos-aires",
    "web": "https://www.balearsexterior.es/sites/balearsexterior/es/casa_balear_de_buenos_aires/",
    "plataforma": [],
@@ -1529,22 +1290,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "sigue-la-polilla",
-   "web": "https://siguelapolilla.com/",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://siguelapolilla.com/",
-   "paginas_agenda": [
-    "https://siguelapolilla.com/programacion"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3074,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
   },
   {
    "id": "casa-jache",
@@ -1607,20 +1352,6 @@
    "estado_corrida_anterior": "sin_eventos"
   },
   {
-   "id": "mojitos-de-cuba",
-   "web": "https://www.mojitosdecuba.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.mojitosdecuba.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1955,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
    "id": "artlab",
    "web": "https://artlabpro.net/agenda/",
    "plataforma": [
@@ -1661,22 +1392,6 @@
    "motivo": "HTTP 403",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "sexto-cultural",
-   "web": "https://mutualsentimiento.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://mutualsentimiento.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 9,
-   "texto_portada": 2105,
-   "clase": "html",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "inboccalupo",
@@ -1745,24 +1460,6 @@
    "estado_corrida_anterior": "sin_eventos"
   },
   {
-   "id": "tempo-escuela-de-musica-y-artes",
-   "web": "https://escuelademusicatempo.com/index.html",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://escuelademusicatempo.com/index.html",
-   "paginas_agenda": [
-    "https://escuelademusicatempo.com/nuestras-actividades.html",
-    "https://escuelademusicatempo.com/muestras.html",
-    "https://escuelademusicatempo.com/actividades.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3966,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
    "id": "centro-cultural-el-suenero",
    "web": "http://elsueniero.org.ar",
    "plataforma": [],
@@ -1795,40 +1492,6 @@
    "clase": "needs_browser",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "munar",
-   "web": "https://munararte.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://munararte.com/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1152,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "usina-del-arte",
-   "web": "https://usinadelarte.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://usinadelarte.ar/",
-   "paginas_agenda": [
-    "https://usinadelarte.ar/actividades/",
-    "https://usinadelarte.ar/ciclo-musica-de-camara-conciertos-de-octubre/",
-    "https://usinadelarte.ar/ciclo-musica-de-camara-conoce-la-programacion-de-septiembre/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 15,
-   "texto_portada": 2317,
-   "clase": "html",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "centro-cultural-sefarad",
@@ -1908,31 +1571,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "tierra-violeta",
-   "web": "https://www.tierra-violeta.com.ar",
-   "plataforma": [
-    "wix"
-   ],
-   "pedidos": 3,
-   "url_final": "https://www.tierra-violeta.com.ar",
-   "paginas_agenda": [
-    "https://www.tierra-violeta.com.ar/agenda",
-    "https://www.tierra-violeta.com.ar/event-details/feminario-7-quienes-intentan-suicidarse-en-la-adolescencia-generos-cuidados-y-datos-del-riesgo-suicida"
-   ],
-   "jsonld_eventos": 1,
-   "fechas_en_texto": 3,
-   "texto_portada": 2347,
-   "clase": "jsonld",
-   "ejemplos": [
-    {
-     "titulo": "Feminario 7: ¿Quiénes intentan suicidarse en la adolescencia",
-     "inicio": "2026-10-19T18:00:00-03:00"
-    }
-   ],
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
    "id": "grupo-de-teatro-comunitario-de-pompeya",
    "web": "https://www.gtcpompeya.blogspot.com",
    "plataforma": [],
@@ -1984,22 +1622,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "universidad-popular-de-belgrano",
-   "web": "https://www.upebe.com.ar/",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://www.upebe.com.ar/",
-   "paginas_agenda": [
-    "https://www.upebe.com.ar/colegios.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 6,
-   "texto_portada": 7701,
-   "clase": "html",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "arepera-miss-venezuela-teatro-bar",
@@ -2175,33 +1797,6 @@
    "estado_corrida_anterior": "dominio_caido"
   },
   {
-   "id": "la-tangente",
-   "web": "https://latangente.com.ar/",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 2,
-   "url_final": "https://latangente.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1307,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "libario",
-   "web": "https://linktr.ee/libariomultiespacio",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
    "id": "la-minga-club-cultural",
    "web": "https://linktr.ee/lamingacc",
    "plataforma": [],
@@ -2228,46 +1823,6 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "lalala-ortuzar",
-   "web": "https://linktr.ee/lalala.ortuzar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "nueva-uriarte",
-   "web": "https://ccnuevauriarte.com.ar/",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://ccnuevauriarte.com.ar/",
-   "paginas_agenda": [
-    "https://ccnuevauriarte.com.ar/programacion.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1676,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "the-monkeys",
-   "web": "https://themonkeys.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://themonkeys.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 420,
-   "clase": "sin_agenda_vista",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
@@ -2390,20 +1945,6 @@
    ],
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "universidad-catolica-de-buenos-aires",
-   "web": "https://www.uca.edu.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://uca.edu.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 42,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "centro-cultural-de-espana-en-buenos-aires",
@@ -2647,16 +2188,6 @@
    "estado_corrida_anterior": "dominio_caido"
   },
   {
-   "id": "rincon-casa-cultural",
-   "web": "http://rinconcasacultural.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
    "id": "buenos-aires-dance-club",
    "web": "https://badanceclub.com.ar/",
    "plataforma": [
@@ -2810,16 +2341,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "palacio-libertad-ex-centro-cultural-kirchner",
-   "web": "https://palaciolibertad.gob.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "timeout",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "centro-cultural-torquato-tasso",
@@ -3003,60 +2524,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "oceanario-club-cultural",
-   "web": "https://www.oceanario.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "oliverio-girondo",
-   "web": "https://oliveriogirondoespaciocultural.wordpress.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "poncho-club-cultural",
-   "web": "https://ponchoteatro.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://ponchoteatro.com/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 55,
-   "clase": "needs_browser",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
-  },
-  {
-   "id": "savia-espacio-cultural",
-   "web": "http://www.saviacultural.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "wara-wara",
-   "web": "https://warawaracultural.wixsite.com/inicio",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "solo_instagram"
-  },
-  {
    "id": "centro-cultural-sofia-gempel-arte",
    "web": "https://sofigempel.com.ar/",
    "plataforma": [
@@ -3101,49 +2568,6 @@
    "clase": "html",
    "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "oihoy-casa-abierta",
-   "web": "https://oihoy.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://oihoy.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 1391,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "otra-historia",
-   "web": "https://otrahistoria.com.ar/",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 5,
-   "url_final": "https://otrahistoria.com.ar/",
-   "paginas_agenda": [
-    "https://otrahistoria.com.ar/evento/bqb-presenta-no-rest-3/",
-    "https://otrahistoria.com.ar/evento/lost-tapes-2/",
-    "https://otrahistoria.com.ar/evento/bajo-presion-jet-lag-tizon/"
-   ],
-   "jsonld_eventos": 3,
-   "fechas_en_texto": 9,
-   "texto_portada": 1361,
-   "clase": "jsonld",
-   "ejemplos": [
-    {
-     "titulo": "BQB presenta NO REST 3",
-     "inicio": "2026-10-16T18:30:00-03:00"
-    }
-   ],
-   "fecha": "2026-10-15 14:40",
-   "estado_corrida_anterior": "con_agenda"
   },
   {
    "id": "centro-cultural-25-de-mayo",
@@ -3690,26 +3114,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "teatro-colon",
-   "web": "https://teatrocolon.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://teatrocolon.org.ar/",
-   "paginas_agenda": [
-    "https://teatrocolon.org.ar/calendario/",
-    "https://teatrocolon.org.ar/calendario/?a=2026&mes=11",
-    "https://teatrocolon.org.ar/calendario/?a=2026&mes=12"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 29,
-   "texto_portada": 13937,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
    "id": "jodify",
    "web": "https://jodify.com.ar/events",
    "plataforma": [],
@@ -3762,20 +3166,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "under-club",
-   "web": "https://www.underclub.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://underclub.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1240,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
    "id": "avant-garten",
    "web": "http://avantgarten.club",
    "plataforma": [],
@@ -3822,114 +3212,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "teatro-nacional-cervantes",
-   "web": "https://www.teatrocervantes.gob.ar/calendario/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://www.teatrocervantes.gob.ar/calendario/",
-   "paginas_agenda": [
-    "https://www.teatrocervantes.gob.ar/proximamente/",
-    "https://www.teatrocervantes.gob.ar/programacion/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 3620,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "paseo-la-plaza",
-   "web": "https://www.paseolaplaza.com.ar/obras",
-   "plataforma": [
-    "wix"
-   ],
-   "pedidos": 2,
-   "url_final": "https://www.paseolaplaza.com.ar/obras",
-   "paginas_agenda": [
-    "https://www.paseolaplaza.com.ar/eventos"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 15,
-   "texto_portada": 3279,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "teatro-picadero",
-   "web": "https://www.teatropicadero.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://www.teatropicadero.com.ar/",
-   "paginas_agenda": [
-    "https://www.teatropicadero.com.ar/cartelera/",
-    "https://www.teatropicadero.com.ar/programacion/",
-    "https://www.teatropicadero.com.ar/eventos/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 546,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "timbre-4",
-   "web": "https://www.timbre4.com/",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://www.timbre4.com/",
-   "paginas_agenda": [
-    "https://www.timbre4.com/teatro/funciones-20261015.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 5,
-   "texto_portada": 3248,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "teatro-del-pueblo",
-   "web": "https://teatrodelpueblo.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://teatrodelpueblo.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 3,
-   "texto_portada": 4299,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
-   "id": "niceto-club",
-   "web": "https://nicetoclub.com/agenda/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://nicetoclub.com/agenda/",
-   "paginas_agenda": [
-    "https://nicetoclub.com/agenda-niceto-club",
-    "https://nicetoclub.com/agenda-humboldt"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 189,
-   "texto_portada": 12918,
-   "clase": "html",
-   "fecha": "2026-10-15 14:41",
-   "estado_corrida_anterior": "sin_dato"
-  },
-  {
    "id": "la-trastienda",
    "web": "https://www.latrastienda.com/",
    "plataforma": [
@@ -3956,6 +3238,747 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
+   "id": "flashpass",
+   "web": "https://events.flashpass.com.ar/",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://events.flashpass.com.ar/",
+   "paginas_agenda": [
+    "https://events.flashpass.com.ar/eventos/aura-mata-buzios-1201-6382",
+    "https://events.flashpass.com.ar/eventos/navidad-aura-mata-2412-956",
+    "https://events.flashpass.com.ar/eventos/aura-mata-praia-do-rosa-1901-9468"
+   ],
+   "jsonld_eventos": 3,
+   "fechas_en_texto": 22,
+   "texto_portada": 1549,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "AURA MATA - BUZIOS 12/01",
+     "inicio": "MAR 12 DE ENE 2027 | 23:5"
+    }
+   ],
+   "texto": "data/crawl/local/textos/flashpass.txt",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_dato",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
+  },
+  {
+   "id": "la-vieja-guardia",
+   "web": "https://www.laviejaguarida.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.laviejaguarida.com.ar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 59,
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "ladran-sancho",
+   "web": "https://www.ladran-sancho.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "OSError: Tunnel connection failed: 502 Bad Gateway",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "las-mil-y-un-artes-centro-cultural",
+   "web": "http://lasmilyunartes.blogspot.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "paraje-arteson",
+   "web": "https://www.parajearteson.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "OSError: Tunnel connection failed: 502 Bad Gateway",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "esquina-rebelde-centro-cultural",
+   "web": "https://www.facebook.com/esquinarebelde",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "le-cid-espacio-cultural",
+   "web": "https://www.facebook.com/lecidespaciocultural",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "cultural-mamita",
+   "web": "https://www.facebook.com/BarMamita",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "mi-casa",
+   "web": "http://www.libreriamicasa.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "mu-trincher-boutique",
+   "web": "https://mutrincheraboutique.org/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "OSError: Tunnel connection failed: 502 Bad Gateway",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "multiespacio-pasco",
+   "web": "https://multiespacio-pasco.blogspot.com/",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://multiespacio-pasco.blogspot.com/",
+   "paginas_agenda": [
+    "https://multiespacio-pasco.blogspot.com/2012/12/programacion-del-festival-meca.html",
+    "https://multiespacio-pasco.blogspot.com/2012/08/proximamente.html",
+    "https://multiespacio-pasco.blogspot.com/p/talleres.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 6,
+   "texto_portada": 2372,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/multiespacio-pasco.txt",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "panda-rojo-espacio-cultural",
+   "web": "https://pandarojo.com.ar/contacto/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://pandarojo.com.ar/contacto/",
+   "paginas_agenda": [
+    "https://pandarojo.com.ar/cartelera/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 10,
+   "texto_portada": 1198,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/panda-rojo-espacio-cultural.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "puerta-18",
+   "web": "https://www.puerta18.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://www.puerta18.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3091,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "sociedad-luz",
+   "web": "https://sociedadluz.org.ar/",
+   "plataforma": [],
+   "pedidos": 5,
+   "url_final": "https://sociedadluz.org.ar/",
+   "paginas_agenda": [
+    "https://sociedadluz.org.ar/default.aspx",
+    "https://sociedadluz.org.ar/imagenes/agenda/semanaaudiovisualcronograma.pdf",
+    "https://sociedadluz.org.ar/imagenes/agenda/semanaaudiovisual.pdf",
+    "https://sociedadluz.org.ar/cursos.aspx"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 136,
+   "texto_portada": 87743,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sociedad-luz.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "parque-de-la-memoria",
+   "web": "https://www.parquedelamemoria.org.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://parquedelamemoria.org.ar/",
+   "paginas_agenda": [
+    "https://parquedelamemoria.org.ar/arte-exposiciones/",
+    "https://parquedelamemoria.org.ar/educacion/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 72,
+   "texto_portada": 7778,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/parque-de-la-memoria.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "sigue-la-polilla",
+   "web": "https://siguelapolilla.com/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://siguelapolilla.com/",
+   "paginas_agenda": [
+    "https://siguelapolilla.com/programacion",
+    "https://siguelapolilla.com/formacion"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3074,
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "mojitos-de-cuba",
+   "web": "https://www.mojitosdecuba.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.mojitosdecuba.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1955,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "sexto-cultural",
+   "web": "https://mutualsentimiento.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://mutualsentimiento.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 9,
+   "texto_portada": 2105,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sexto-cultural.txt",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "tempo-escuela-de-musica-y-artes",
+   "web": "https://escuelademusicatempo.com/index.html",
+   "plataforma": [],
+   "pedidos": 6,
+   "url_final": "https://escuelademusicatempo.com/index.html",
+   "paginas_agenda": [
+    "https://escuelademusicatempo.com/nuestras-actividades.html",
+    "https://escuelademusicatempo.com/muestras.html",
+    "https://escuelademusicatempo.com/actividades.html",
+    "https://escuelademusicatempo.com/clases-de-guitarra-clasica.html",
+    "https://escuelademusicatempo.com/clases-de-guitarra-electrica.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3966,
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "munar",
+   "web": "https://munararte.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://munararte.com/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1152,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:50",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "usina-del-arte",
+   "web": "https://usinadelarte.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 5,
+   "url_final": "https://usinadelarte.ar/",
+   "paginas_agenda": [
+    "https://usinadelarte.ar/actividades/",
+    "https://usinadelarte.ar/ciclo-musica-de-camara-conciertos-de-octubre/",
+    "https://usinadelarte.ar/ciclo-musica-de-camara-conoce-la-programacion-de-septiembre/",
+    "https://usinadelarte.ar/actividad/dia-de-la-familia-taller-de-modelado-nos-acompana-chilavert/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 15,
+   "texto_portada": 2317,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/usina-del-arte.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "la-vidriera-de-la-dgeart",
+   "web": "https://www.buenosaires.gob.ar/cultura/ensenanzaartistica/la-vidriera",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 404",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "polo-bandoneon",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 2425,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "tierra-violeta",
+   "web": "https://www.tierra-violeta.com.ar",
+   "plataforma": [
+    "wix"
+   ],
+   "pedidos": 3,
+   "url_final": "https://www.tierra-violeta.com.ar",
+   "paginas_agenda": [
+    "https://www.tierra-violeta.com.ar/agenda",
+    "https://www.tierra-violeta.com.ar/event-details/feminario-7-quienes-intentan-suicidarse-en-la-adolescencia-generos-cuidados-y-datos-del-riesgo-suicida"
+   ],
+   "jsonld_eventos": 1,
+   "fechas_en_texto": 3,
+   "texto_portada": 2347,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "Feminario 7: ¿Quiénes intentan suicidarse en la adolescencia",
+     "inicio": "2026-10-19T18:00:00-03:00"
+    }
+   ],
+   "texto": "data/crawl/local/textos/tierra-violeta.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
+  },
+  {
+   "id": "universidad-popular-de-belgrano",
+   "web": "https://www.upebe.com.ar/",
+   "plataforma": [],
+   "pedidos": 2,
+   "url_final": "https://www.upebe.com.ar/",
+   "paginas_agenda": [
+    "https://www.upebe.com.ar/colegios.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 6,
+   "texto_portada": 7701,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/universidad-popular-de-belgrano.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "la-tangente",
+   "web": "https://latangente.com.ar/",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 2,
+   "url_final": "https://latangente.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1307,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "libario",
+   "web": "https://linktr.ee/libariomultiespacio",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "lalala-ortuzar",
+   "web": "https://linktr.ee/lalala.ortuzar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "nueva-uriarte",
+   "web": "https://ccnuevauriarte.com.ar/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://ccnuevauriarte.com.ar/",
+   "paginas_agenda": [
+    "https://ccnuevauriarte.com.ar/programacion.html",
+    "https://ccnuevauriarte.com.ar/talleres.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 8,
+   "texto_portada": 1676,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/nueva-uriarte.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "the-monkeys",
+   "web": "https://themonkeys.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://themonkeys.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 420,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "universidad-catolica-de-buenos-aires",
+   "web": "https://www.uca.edu.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://uca.edu.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 42,
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "rincon-casa-cultural",
+   "web": "http://rinconcasacultural.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "palacio-libertad-ex-centro-cultural-kirchner",
+   "web": "https://palaciolibertad.gob.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "oceanario-club-cultural",
+   "web": "https://www.oceanario.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "OSError: Tunnel connection failed: 502 Bad Gateway",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "oliverio-girondo",
+   "web": "https://oliveriogirondoespaciocultural.wordpress.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "poncho-club-cultural",
+   "web": "https://ponchoteatro.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://ponchoteatro.com/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 55,
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda"
+  },
+  {
+   "id": "savia-espacio-cultural",
+   "web": "http://www.saviacultural.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "wara-wara",
+   "web": "https://warawaracultural.wixsite.com/inicio",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "solo_instagram"
+  },
+  {
+   "id": "oihoy-casa-abierta",
+   "web": "https://oihoy.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://oihoy.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 1391,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "otra-historia",
+   "web": "https://otrahistoria.com.ar/",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 5,
+   "url_final": "https://otrahistoria.com.ar/",
+   "paginas_agenda": [
+    "https://otrahistoria.com.ar/evento/bqb-presenta-no-rest-3/",
+    "https://otrahistoria.com.ar/evento/lost-tapes-2/",
+    "https://otrahistoria.com.ar/evento/bajo-presion-jet-lag-tizon/"
+   ],
+   "jsonld_eventos": 3,
+   "fechas_en_texto": 9,
+   "texto_portada": 1361,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "BQB presenta NO REST 3",
+     "inicio": "2026-10-16T18:30:00-03:00"
+    }
+   ],
+   "texto": "data/crawl/local/textos/otra-historia.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "con_agenda",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
+  },
+  {
+   "id": "teatro-colon",
+   "web": "https://teatrocolon.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://teatrocolon.org.ar/",
+   "paginas_agenda": [
+    "https://teatrocolon.org.ar/calendario/",
+    "https://teatrocolon.org.ar/calendario/?a=2026&mes=11",
+    "https://teatrocolon.org.ar/calendario/?a=2026&mes=12",
+    "https://teatrocolon.org.ar/visitas-guiadas/",
+    "https://teatrocolon.org.ar/visitas-escolares/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 29,
+   "texto_portada": 13937,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/teatro-colon.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "under-club",
+   "web": "https://www.underclub.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://underclub.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1240,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "teatro-nacional-cervantes",
+   "web": "https://www.teatrocervantes.gob.ar/calendario/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://www.teatrocervantes.gob.ar/calendario/",
+   "paginas_agenda": [
+    "https://www.teatrocervantes.gob.ar/proximamente/",
+    "https://www.teatrocervantes.gob.ar/programacion/",
+    "https://www.teatrocervantes.gob.ar/obra/visitas-guiadas-del-cervantes/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 3620,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/teatro-nacional-cervantes.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "paseo-la-plaza",
+   "web": "https://www.paseolaplaza.com.ar/obras",
+   "plataforma": [
+    "wix"
+   ],
+   "pedidos": 2,
+   "url_final": "https://www.paseolaplaza.com.ar/obras",
+   "paginas_agenda": [
+    "https://www.paseolaplaza.com.ar/eventos"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 15,
+   "texto_portada": 3279,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/paseo-la-plaza.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "teatro-picadero",
+   "web": "https://www.teatropicadero.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://www.teatropicadero.com.ar/",
+   "paginas_agenda": [
+    "https://www.teatropicadero.com.ar/cartelera/",
+    "https://www.teatropicadero.com.ar/programacion/",
+    "https://www.teatropicadero.com.ar/eventos/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 546,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/teatro-picadero.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "timbre-4",
+   "web": "https://www.timbre4.com/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://www.timbre4.com/",
+   "paginas_agenda": [
+    "https://www.timbre4.com/teatro/funciones-20261015.html",
+    "https://www.timbre4.com/escuela/1045-zona-norte.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 5,
+   "texto_portada": 3248,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/timbre-4.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "teatro-del-pueblo",
+   "web": "https://teatrodelpueblo.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://teatrodelpueblo.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 3,
+   "texto_portada": 4299,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/teatro-del-pueblo.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "niceto-club",
+   "web": "https://nicetoclub.com/agenda/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://nicetoclub.com/agenda/",
+   "paginas_agenda": [
+    "https://nicetoclub.com/agenda-niceto-club",
+    "https://nicetoclub.com/agenda-humboldt"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 189,
+   "texto_portada": 12918,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/niceto-club.txt",
+   "fecha": "2026-10-15 17:51",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
    "id": "teatro-coliseo",
    "web": "https://www.teatrocoliseo.org.ar/cartelera/",
    "plataforma": [
@@ -3972,7 +3995,8 @@
    "fechas_en_texto": 183,
    "texto_portada": 8098,
    "clase": "html",
-   "fecha": "2026-10-15 14:41",
+   "texto": "data/crawl/local/textos/teatro-coliseo.txt",
+   "fecha": "2026-10-15 17:51",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3992,7 +4016,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 1223,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:41",
+   "fecha": "2026-10-15 17:51",
    "estado_corrida_anterior": "sin_dato"
   }
  ]

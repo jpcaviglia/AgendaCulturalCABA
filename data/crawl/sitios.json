@@ -3017,11 +3017,35 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "sin navegador: /cartelera/ trae en el HTML fecha, hora y enlace de cada función",
+    "ciclos": "menú Ciclos con páginas por ciclo; la cartelera ya los incluye"
+   },
+   "notas": [
+    "2026-10-15 [web] La cartelera (/cartelera/) lista en el HTML las próximas funciones con fecha y hora; se lee sin navegador."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://pandarojo.com.ar/alquiler-de-salas/",
+     "texto": "Alquiler de Salas",
+     "motivo": "alquiler de salas, no agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "puerta-18",
@@ -4896,11 +4920,80 @@
    "direccion": "Caffarena, Agustin R. 2",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 10,
+     "paginas": 13
     }
-   }
+   },
+   "entradas": [
+    "https://usinadelarte.ar/actividades/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /actividades/ lista todo (tipo, título, fechas, sala); cada /actividad/<slug>/ tiene 'Días y horarios'",
+    "horario": "abre sábados y domingos (y algunos viernes)"
+   },
+   "notas": [
+    "2026-10-15 [web] Toda la programación (conciertos, visitas guiadas, talleres, espacio lúdico) está en /actividades/ en HTML simple, con horarios en cada ficha."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://usinadelarte.ar/actividades-pasadas/",
+     "texto": "Eventos pasados",
+     "motivo": "archivo de actividades pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/eventos-privados/",
+     "texto": "Eventos privados",
+     "motivo": "alquiler para eventos privados, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/espacios",
+     "texto": "ESPACIOS",
+     "motivo": "descripción de las salas, sin programación",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades/?fecha_filtro=16/10/2026",
+     "texto": "16 OCT",
+     "motivo": "filtro por día de /actividades/ (misma lista)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades/?fecha_filtro=17/10/2026",
+     "texto": "17 OCT",
+     "motivo": "filtro por día de /actividades/ (misma lista)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades/?fecha_filtro=18/10/2026",
+     "texto": "18 OCT",
+     "motivo": "filtro por día de /actividades/ (misma lista)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades/?fecha_filtro=23/10/2026",
+     "texto": "23 OCT",
+     "motivo": "filtro por día de /actividades/ (misma lista)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades/?fecha_filtro=25/10/2026",
+     "texto": "25 OCT",
+     "motivo": "filtro por día de /actividades/ (misma lista)",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    }
+   ]
   },
   {
    "id": "centro-cultural-sefarad",
@@ -10181,11 +10274,47 @@
    "direccion": "Estomba 851",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 22,
+     "paginas": 6
     }
-   }
+   },
+   "entradas": [
+    "https://otrahistoria.com.ar/eventos/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /eventos/ (The Events Calendar) trae JSON-LD con todos los eventos del listado; la API REST está cerrada (403)",
+    "plataforma": "WordPress + The Events Calendar; la portada carga más eventos por admin-ajax",
+    "paginacion": "el listado no está en orden estricto: recorrer /eventos/page/N/ hasta que todo quede después de la ventana",
+    "espera_seg": 30
+   },
+   "notas": [
+    "2026-10-15 [web] El listado /eventos/ trae en JSON-LD fecha, hora y precio de cada fecha; alcanza para la ventana de 14 días.",
+    "2026-10-15 [web] El listado /eventos/ trae en JSON-LD fecha, hora y precio de cada fecha; alcanza para la ventana de 14 días."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://otrahistoria.com.ar/eventos/page/2/",
+     "texto": "Ver más eventos",
+     "motivo": "siguiente página del listado: eventos posteriores al 29/10, fuera de la ventana",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 22
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 22
+    }
+   ]
   },
   {
    "id": "barriada-cultural",
@@ -12303,7 +12432,82 @@
    "instagram": "@teatrocolon",
    "origen": "descubierto en Búsqueda: festivales el 2026-10-15",
    "notas": [
-    "2026-10-15: principal teatro lírico; no estaba en la lista"
+    "2026-10-15: principal teatro lírico; no estaba en la lista",
+    "2026-10-15 [web] El calendario mensual está completo en HTML simple; las visitas guiadas (diarias) y Colón Fábrica se cargan como vigentes sin fin."
+   ],
+   "entradas": [
+    "https://teatrocolon.org.ar/calendario/",
+    "https://teatrocolon.org.ar/visitas-guiadas/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /calendario/ trae en el HTML cada función del mes (div.calendar-item: día, hora, categoría, título, enlace a /produccion/)",
+    "visitas": "visitas guiadas diarias en /visitas-guiadas/ y Colón Fábrica (La Boca) en /colon-fabrica/"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://teatrocolon.org.ar/visitas-escolares/",
+     "texto": "Escuelas",
+     "motivo": "visitas para escuelas que reservan (no abiertas al público)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/calendario/?a=2026&mes=11",
+     "texto": "noviembre",
+     "motivo": "meses fuera de la ventana de 14 días",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/calendario/?a=2026&mes=12",
+     "texto": "diciembre",
+     "motivo": "meses fuera de la ventana de 14 días",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/categoria-produccion/opera/",
+     "texto": "Ópera",
+     "motivo": "filtro por categoría de la temporada; las funciones están todas en /calendario/",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/categoria-produccion/ballet/",
+     "texto": "Ballet",
+     "motivo": "filtro por categoría de la temporada; las funciones están todas en /calendario/",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/categoria-produccion/conciertos/",
+     "texto": "Conciertos",
+     "motivo": "filtro por categoría de la temporada; las funciones están todas en /calendario/",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/categoria-produccion/colon-para-ninos/",
+     "texto": "Colón para niños",
+     "motivo": "filtro por categoría de la temporada; las funciones están todas en /calendario/",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocolon.org.ar/temporada/temporada-2026/",
+     "texto": "Temporada/26",
+     "motivo": "filtro por categoría de la temporada; las funciones están todas en /calendario/",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 17,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 17
+    }
    ]
   },
   {
@@ -12696,7 +12900,64 @@
    "instagram": "",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11).",
+    "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11)."
+   ],
+   "entradas": [
+    "https://www.teatrocervantes.gob.ar/en-el-teatro/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /en-el-teatro/ lista las obras de la sala; cada /obra/<slug>/ trae días y hora, 'Fecha estreno' y 'Última función'",
+    "programacion": "/programacion/ mezcla la sala con obras viejas del ciclo 'Nuestro Teatro' (2021, archivo): usar /en-el-teatro/"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.teatrocervantes.gob.ar/en-el-pais/",
+     "texto": "EN EL PAÍS",
+     "motivo": "funciones en gira por otras provincias, fuera de CABA",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocervantes.gob.ar/cervantes-online/",
+     "texto": "CERVANTES ONLINE",
+     "motivo": "obras grabadas para ver online, no funciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocervantes.gob.ar/educacion/",
+     "texto": "EDUCACIÓN",
+     "motivo": "propuestas para escuelas que reservan",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocervantes.gob.ar/convocatorias-artisticas/",
+     "texto": "CONVOCATORIAS",
+     "motivo": "convocatoria, no evento",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 9
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
    ]
   },
   {
@@ -12724,7 +12985,46 @@
    "instagram": "@teatroelpicadero",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios.",
+    "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios."
+   ],
+   "entradas": [
+    "https://www.teatropicadero.com.ar/programacion/?filtro=mes"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /programacion/?filtro=mes trae en el HTML cada función del mes (día, hora, obra con enlace)",
+    "fichas": "/cartelera/ solo lista obras sin fechas"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.teatropicadero.com.ar/eventos/",
+     "texto": "EVENTOS",
+     "motivo": "alquiler de la sala para eventos corporativos, no agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 15,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 15
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 15
+    }
    ]
   },
   {
@@ -12738,7 +13038,64 @@
    "instagram": "@teatrotimbre4",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [web] Las fechas exactas salen de las páginas por día /teatro/funciones-AAAAMMDD.html (HTML simple); una obra por evento con sus funciones.",
+    "2026-10-15 [web] Las fechas exactas salen de las páginas por día /teatro/funciones-AAAAMMDD.html (HTML simple); una obra por evento con sus funciones. La Escuela (/escuela/) solo ofrece preinscripción a los talleres anuales 2027, sin fechas en la ventana."
+   ],
+   "entradas": [
+    "https://www.timbre4.com/teatro/funciones-20261015.html"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /teatro/funciones-AAAAMMDD.html lista las funciones de cada día (título, hora, ficha); recorrer un día por página",
+    "cartelera": "la portada da solo día de la semana (DOM 19 HS)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.timbre4.com/generos/68-1-68teatro-online.html",
+     "texto": "Teatro / CARTELERA VER TODAS",
+     "motivo": "misma cartelera que la portada (obras con día de la semana, sin fechas); las fechas salen de funciones-AAAAMMDD",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.timbre4.com/escuela/",
+     "texto": "Escuela",
+     "motivo": "escuela de actuación con talleres anuales (formación regular, no evento puntual)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.timbre4.com/generos/73-1-73proximamente.html",
+     "texto": "PRÓXIMAMENTE",
+     "motivo": "estrenos de noviembre, fuera de la ventana (listados en la portada)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.timbre4.com/generos/71-1-71historico.html",
+     "texto": "HISTÓRICO",
+     "motivo": "archivo de obras que ya no están en cartel",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 18,
+     "paginas": 18
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 18
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 18
+    }
    ]
   },
   {
@@ -12752,7 +13109,53 @@
    "instagram": "@teatrodelpueblo.arg",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó.",
+    "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó. Cursos: solo un taller de montaje que empezó el 13/08 (fuera de la ventana); la página de talleres de dramaturgia no lista ninguno."
+   ],
+   "entradas": [
+    "https://teatrodelpueblo.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: la portada lista las obras en cartel; cada ficha trae el día y la hora (SÁBADOS 17 HS) arriba del botón de compra",
+    "fechas": "solo día de la semana: se cargan las funciones dentro de la ventana",
+    "cursos": "los cursos se venden en teatro-del-pueblo.tiendup.com con fecha de inicio ('Comienza el:')"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://teatrodelpueblo.com.ar/espectaculos/",
+     "texto": "EN CARTEL",
+     "motivo": "misma lista de obras que la portada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatro-del-pueblo.tiendup.com/",
+     "texto": "CURSOS",
+     "motivo": "tienda online de cursos de dramaturgia (formación paga a distancia, sin fechas en la ventana)",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 17,
+     "paginas": 24
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 17
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 17
+    }
    ]
   },
   {
@@ -12794,7 +13197,45 @@
    "instagram": "@nicetoclub",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: club de música en vivo y fiestas; muchas fechas en Indiehoy"
+    "2026-10-15: club de música en vivo y fiestas; muchas fechas en Indiehoy",
+    "2026-10-15 [web] La agenda completa (varios meses) está en el HTML de /agenda/, con sala, hora y enlace a venti.live; no hace falta el navegador."
+   ],
+   "entradas": [
+    "https://nicetoclub.com/agenda/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: /agenda/ trae en el HTML tarjetas por día (section data-date, data-name, data-lugar, hora) con enlace de compra a venti.live",
+    "salas": "Niceto Club, Niceto Bar y Humboldt en la misma agenda (data-lugar de cada tarjeta)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://nicetoclub.com/agenda-niceto-club",
+     "texto": "SALA NICETO",
+     "motivo": "filtro de /agenda (misma página que /agenda, solo una sala)",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://nicetoclub.com/agenda-humboldt",
+     "texto": "SALA HUMBOLDT",
+     "motivo": "filtro de /agenda (misma página que /agenda, solo una sala)",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 39,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 39
+    }
    ]
   },
   {
@@ -12916,7 +13357,119 @@
    "instagram": "@teatrocoliseo",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: teatro con programación en Ticketek"
+    "2026-10-15: teatro con programación en Ticketek",
+    "2026-10-15 [web] La portada lista las fichas de toda la temporada con la fecha en el slug; las fichas traen funciones, hora y precio en HTML simple.",
+    "2026-10-15 [web] La portada lista las fichas de toda la temporada con la fecha en el slug; las fichas traen funciones, hora y precio en HTML simple."
+   ],
+   "entradas": [
+    "https://www.teatrocoliseo.org.ar/cartelera",
+    "https://www.teatrocoliseo.org.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: la portada enlaza cada ficha con la fecha en la URL (…-jueves-22-de-octubre-21-h-2026/); la ficha trae funciones y precio",
+    "cartelera": "/cartelera redirige (seguir la redirección) y trae las mismas fichas que la portada"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera",
+     "texto": "CARTELERA ACTUAL",
+     "motivo": "no responde a pedidos simples; la portada ya lista todas las fichas de la cartelera",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://teatrocoliseo.org.ar/online",
+     "texto": "COLISEO ONLINE",
+     "motivo": "videos para ver online, no funciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/dedica/",
+     "texto": "DEDICA",
+     "motivo": "proyecto institucional de historias, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2016/",
+     "texto": "CARTELERA 2016",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2017/",
+     "texto": "CARTELERA 2017",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2018/",
+     "texto": "CARTELERA 2018",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2019/",
+     "texto": "CARTELERA 2019",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2020/",
+     "texto": "CARTELERA 2020",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2021/",
+     "texto": "CARTELERA 2021",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2022/",
+     "texto": "CARTELERA 2022",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2023/",
+     "texto": "CARTELERA 2023",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2024/",
+     "texto": "CARTELERA 2024",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.teatrocoliseo.org.ar/cartelera-2025/",
+     "texto": "CARTELERA 2025",
+     "motivo": "archivo de temporadas pasadas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
    ]
   },
   {

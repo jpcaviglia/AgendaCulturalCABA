@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 199,
-  "con_eventos": 107
+  "capturas": 212,
+  "con_eventos": 120
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -85,6 +85,8 @@
   "LA FRAGUA CULTURAL",
   "LA MINGA CLUB CULTURAL",
   "LA RONDA ESPACIO CULTURAL",
+  "LA SCALA DE SAN TELMO",
+  "LOS POMPAS",
   "La Rural Ticket",
   "La Trastienda",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
@@ -101,18 +103,29 @@
   "Museo de Arte Popular José Hernández",
   "Museo de Artes Plásticas Eduardo Sívori",
   "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+  "Niceto Club",
   "Nora Fisch",
+  "OTRA HISTORIA",
+  "PANDA ROJO ESPACIO CULTURAL",
   "Passline",
   "Pasto Galería",
+  "Planta Inclán",
   "Resident Advisor: Buenos Aires",
   "Rolf Art",
   "Rubbers",
   "Ruth Benzacar",
   "SalePlan: agenda de Ciudad de Buenos Aires",
+  "Teatro Coliseo",
+  "Teatro Colón",
+  "Teatro Nacional Cervantes",
+  "Teatro Picadero",
+  "Teatro del Pueblo",
   "Ticketek",
+  "Timbre 4",
   "Time Out Buenos Aires: Agenda",
   "Time Out: arte",
   "Turismo Buenos Aires: Qué hacer esta semana",
+  "USINA DEL ARTE",
   "Vamos Feria",
   "Vidriera BA",
   "W Galería"
@@ -183,6 +196,28 @@
    ],
    "lat": -34.595983,
    "lng": -58.394262
+  },
+  {
+   "titulo": "Visitas guiadas del Cervantes: Historia y leyenda",
+   "categoria": "Visita guiada",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-05-04",
+   "fecha_fin": "",
+   "hora": "11:00",
+   "horarios": "Lunes a las 11 h (público general)",
+   "precio": "$ 15000",
+   "descripcion": "Recorrido por la arquitectura y la historia del teatro, del foyer a la sala María Guerrero. Entradas por Alternativa Teatral o en boletería.",
+   "url": "https://www.teatrocervantes.gob.ar/obra/visitas-guiadas-del-cervantes/",
+   "dominio": "teatrocervantes.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Teatro Nacional Cervantes",
+   "fuentes": [
+    "Teatro Nacional Cervantes"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983
   },
   {
    "titulo": "El juguete rabioso: 100 años",
@@ -867,6 +902,28 @@
    "lng": -58.455514
   },
   {
+   "titulo": "Lo mucho que te amé",
+   "categoria": "Teatro",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-08-27",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "De jueves a domingo a las 18 h",
+   "precio": "Consultar",
+   "descripcion": "De Corina Fiorillo, Eduardo Sacheri y Belén Brito. Con Belén Brito; dirección de Corina Fiorillo.",
+   "url": "https://www.teatrocervantes.gob.ar/obra/lo-mucho-que-te-ame/",
+   "dominio": "teatrocervantes.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Teatro Nacional Cervantes",
+   "fuentes": [
+    "Teatro Nacional Cervantes"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983
+  },
+  {
    "titulo": "El beso de la mujer araña",
    "categoria": "Teatro",
    "lugar": "Teatro Buenos Aires",
@@ -1086,6 +1143,28 @@
    ],
    "lat": -34.608826,
    "lng": -58.387606
+  },
+  {
+   "titulo": "Santos Vega",
+   "categoria": "Teatro",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-12-13",
+   "hora": "20:00",
+   "horarios": "De jueves a domingo a las 20 h",
+   "precio": "Consultar",
+   "descripcion": "De Luis Bayón Herrera, versión de Daniel Casablanca. Con música y danza en vivo.",
+   "url": "https://www.teatrocervantes.gob.ar/obra/santos-vega/",
+   "dominio": "teatrocervantes.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Teatro Nacional Cervantes",
+   "fuentes": [
+    "Teatro Nacional Cervantes"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983
   },
   {
    "titulo": "Agustín Riganelli: La estilización del esfuerzo. Retrospectiva",
@@ -3363,6 +3442,28 @@
    "lng": ""
   },
   {
+   "titulo": "Enrique Piñeyro: Volar es humano, aterrizar es divino",
+   "categoria": "Teatro",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "fecha_inicio": "2026-10-09",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:30",
+   "horarios": "Viernes 9, sábado 10, viernes 16, sábado 17 y sábado 31 de octubre a las 20:30",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatrocoliseo.org.ar/enrique-pineyro-volar-es-humano-aterrizar-es-divino-9-10-16-17-y-31-de-octubre-2026/",
+   "dominio": "teatrocoliseo.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Teatro Coliseo",
+   "fuentes": [
+    "Teatro Coliseo"
+   ],
+   "lat": -34.596736,
+   "lng": -58.383277
+  },
+  {
    "titulo": "Medida por medida",
    "categoria": "Teatro",
    "lugar": "Teatro Politeama",
@@ -5212,28 +5313,6 @@
    "lng": ""
   },
   {
-   "titulo": "Visitas guiadas al Teatro Colón",
-   "categoria": "Visita guiada",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-14",
-   "fecha_fin": "2026-10-28",
-   "hora": "",
-   "horarios": "Todos los días de 10 a 16, salidas cada 15 minutos",
-   "precio": "Consultar",
-   "descripcion": "Recorridos de 50 minutos por el teatro.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
-  },
-  {
    "titulo": "Visitas guiadas diarias al Palacio Errázuriz Alvear",
    "categoria": "Visita guiada",
    "lugar": "Museo Nacional de Arte Decorativo",
@@ -5942,6 +6021,29 @@
    "lng": -58.370663
   },
   {
+   "titulo": "CASA QUE ARDE",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Funciones: 15/10 20:30, 22/10 20:30, 29/10 20:30",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1263-casa-que-arde.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
    "titulo": "CUATRO VARAS",
    "categoria": "Evento",
    "lugar": "The Lift - Godoy Cruz 1967",
@@ -6073,28 +6175,6 @@
    ],
    "lat": -34.62947,
    "lng": -58.370663
-  },
-  {
-   "titulo": "Casa Que Arde",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-11-19",
-   "hora": "20:30",
-   "horarios": "jue 20:30 (hasta el 19/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103029-casa-que-arde",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
   },
   {
    "titulo": "Ciclo Buscando a Shakespeare",
@@ -6249,6 +6329,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "DEEP SESSION #20",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/deep-session-20-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "DEGUSTACION CHAYANDO EN EL ALMACEN DE OMA",
@@ -6451,21 +6553,22 @@
   },
   {
    "titulo": "El Circuito - Espacio Escénico Abierto",
-   "categoria": "Teatro",
+   "categoria": "Artes visuales",
    "lugar": "PANDA ROJO ESPACIO CULTURAL",
-   "barrio": "Balvanera",
+   "barrio": "Abasto",
    "direccion": "Sarmiento 3096",
    "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-12-17",
+   "fecha_fin": "2026-10-29",
    "hora": "20:00",
-   "horarios": "jue 20:00 (hasta el 17/12)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: danza - teatro, danza",
-   "url": "https://www.alternativateatral.com/obra83737-el-circuito-espacio-escenico-abierto",
-   "dominio": "alternativateatral.com",
+   "horarios": "Jueves 15, 22 y 29 de octubre a las 20 h",
+   "precio": "Gratis",
+   "descripcion": "Espacio escénico abierto: artistas con hasta 10 minutos de escenario para probar material nuevo. También hay expo de artes visuales y fotografía. No se cobra entrada.",
+   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/",
+   "dominio": "pandarojo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
    "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL",
     "Alternativa Teatral"
    ],
    "lat": -34.60677,
@@ -6564,18 +6667,19 @@
    "categoria": "Teatro",
    "lugar": "Teatro Picadero",
    "barrio": "Balvanera",
-   "direccion": "Pasaje Enrique Santos Discépolo 1857",
+   "direccion": "Pasaje Santos Discépolo 1857",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "",
-   "hora": "",
-   "horarios": "Jueves 15, 22 h.",
+   "hora": "22:00",
+   "horarios": "Funciones: 15/10 22:00",
    "precio": "Consultar",
    "descripcion": "Interpretada y dirigida por Germán Palacios e Inés Estévez, esta obra es un encuentro que se da de modo impensado. Dos soledades coinciden en un mismo vagón. Sus pensamientos vuelan y se entrecruzan e",
-   "url": "https://www.plateanet.com/obra/33567?obra=EL-HOMBRE-INESPERADO-__&paso=inicio",
-   "dominio": "plateanet.com",
+   "url": "https://www.teatropicadero.com.ar/obra/el-hombre-inesperado/",
+   "dominio": "teatropicadero.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Picadero",
    "fuentes": [
+    "Teatro Picadero",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": "",
@@ -7817,6 +7921,28 @@
    "lng": ""
   },
   {
+   "titulo": "La Máquina Camaleón – Solito World Tour 15 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/la-m-quina-camale-n-solito-world-tour-15-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "La Reina, el Buda y Buñuel",
    "categoria": "Festival",
    "lugar": "Espacio Cultural de la Biblioteca del Congreso de la Nación",
@@ -7947,6 +8073,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La intimidad de la voz",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "13:00",
+   "horarios": "Funciones: 15/10 13:00",
+   "precio": "Consultar",
+   "descripcion": "Clásica Joven",
+   "url": "https://teatrocolon.org.ar/produccion/la-intimidad-de-la-voz/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "La isla. El teatro San Martín en dictaduras",
@@ -8151,6 +8299,28 @@
    "lng": ""
   },
   {
+   "titulo": "Las Gratitudes",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "Funciones: 15/10 20:00, 16/10 22:00, 22/10 20:00, 23/10 22:00, 29/10 20:00, 30/10 22:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/las-gratitudes/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Latin Jam! octubre",
    "categoria": "Música",
    "lugar": "CONGO",
@@ -8195,22 +8365,23 @@
    "lng": -58.374434
   },
   {
-   "titulo": "Les contes d'Hoffmann",
-   "categoria": "Música",
+   "titulo": "Les Contes d’Hoffmann",
+   "categoria": "Evento",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-15",
+   "fecha_fin": "2026-10-16",
    "hora": "20:00",
-   "horarios": "mié 20:00 | jue 20:00 (hasta el 15/10)",
+   "horarios": "Funciones: 15/10 20:00, 16/10 20:00",
    "precio": "Consultar",
-   "descripcion": "Espectáculo en Teatro Colón.",
-   "url": "https://vidrierabuenosaires.com/eventos/les-contes-dhoffmann",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Ópera · Jacques Offenbach",
+   "url": "https://teatrocolon.org.ar/produccion/les-contes-dhoffmann/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Vidriera BA",
     "Alternativa Teatral"
    ],
@@ -9080,6 +9251,28 @@
    "lng": -58.417022
   },
   {
+   "titulo": "Preescucha EP Nati Jait",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/preescucha-ep-nati-jait-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "Presentac libro: Dinero estable. De H. T. Liendo. Jue/15 de oct., 18:30hs",
    "categoria": "Literatura y charlas",
    "lugar": "Bolsa de Comercio de Buenos Aires",
@@ -9435,6 +9628,28 @@
    "lng": -58.451546
   },
   {
+   "titulo": "SEDA Aniversario",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/seda-aniversario-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "SHAMOCK",
    "categoria": "Teatro",
    "lugar": "Espacio Aguirre",
@@ -9545,6 +9760,28 @@
    ],
    "lat": -34.598847,
    "lng": -58.383983
+  },
+  {
+   "titulo": "Sebastián Masci (violín) / Anna Miernik (piano)",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "17:30",
+   "horarios": "Funciones: 15/10 17:30",
+   "precio": "Consultar",
+   "descripcion": "Música de Cámara",
+   "url": "https://teatrocolon.org.ar/produccion/sebastian-masci-violin-anna-miernik-piano/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "Seda en Niceto Club",
@@ -10477,6 +10714,29 @@
    "lng": -58.408655
   },
   {
+   "titulo": "Visitas guiadas al Teatro Colón",
+   "categoria": "Visita guiada",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Todos los días de 10 a 16:45, salidas cada 15 minutos (inglés 11, 12, 13 y 15 h; portugués 11:45 y 16 h). Duración 50 minutos.",
+   "precio": "$ 34000",
+   "descripcion": "Recorrido por el Foyer, la Galería de Bustos, el Salón Dorado y la Sala Principal. General $34.000; residentes argentinos $17.000; jubilados y universitarios residentes $7.000; menores de 7 años sin cargo.",
+   "url": "https://teatrocolon.org.ar/visitas-guiadas/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Búsqueda: festivales"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
    "titulo": "Viva Frida",
    "categoria": "Artes visuales",
    "lugar": "Malba",
@@ -10969,6 +11229,29 @@
    "lng": -58.395798
   },
   {
+   "titulo": "ACTO (ilusión o catástrofe)",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "Funciones: 16/10 20:30, 23/10 20:30",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1258-acto-ilusion-o-catastrofe.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
    "titulo": "ADN by Patio Bullrich",
    "categoria": "Visita guiada",
    "lugar": "Patio Bullrich",
@@ -11059,6 +11342,28 @@
    "lng": -58.406685
   },
   {
+   "titulo": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/arkadia-presenta-el-fin-de-la-nostalgia-en-humboldt-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA en Humboldt | Niceto Club (+18 años)",
    "categoria": "Evento",
    "lugar": "Humboldt | Niceto Club",
@@ -11104,28 +11409,6 @@
    "lng": -58.417273
   },
   {
-   "titulo": "Acto (Ilusión O Catástrofe)",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-20",
-   "hora": "",
-   "horarios": "vie 20:30 (hasta el 20/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102408-acto-ilusion-o-catastrofe",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
-  },
-  {
    "titulo": "Ada Gómez: expresión y estudio de obras",
    "categoria": "Música",
    "lugar": "CASA BRANDON",
@@ -11169,6 +11452,28 @@
    ],
    "lat": -34.598696,
    "lng": -58.416121
+  },
+  {
+   "titulo": "Ainda",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/ainda-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Ainda en Niceto Club (+18 años)",
@@ -11439,6 +11744,50 @@
    "lng": -58.451153
   },
   {
+   "titulo": "BAJO PRESION, JET LAG, TIZON",
+   "categoria": "Evento",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 5000",
+   "descripcion": "<p>BAJO PRESION, JET LAG, TIZON</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/bajo-presion-jet-lag-tizon/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "BESARABIA pres. BABAN & VASCO",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/besarabia-pres-baban-vasco-en-humboldt-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "BLACK MOON EPISODIO IV",
    "categoria": "Evento",
    "lugar": "El Teatrito",
@@ -11459,6 +11808,28 @@
    ],
    "lat": -34.60569,
    "lng": -58.391685
+  },
+  {
+   "titulo": "BQB presenta NO REST 3",
+   "categoria": "Música",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "$ 6000",
+   "descripcion": "<p>Un evento que mezcla el mundo de la musica con las performances: con una sola premisa. Sin tiempos muertos. Musica, performances, juegos, premios, interludios artisticos</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/bqb-presenta-no-rest-3/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
   },
   {
    "titulo": "Babasónicos",
@@ -12246,22 +12617,23 @@
    "lng": ""
   },
   {
-   "titulo": "Concierto de Gala del Ansambel Saša Avsenik",
+   "titulo": "Concierto de Gala del Ansambel Saša Avsenika",
    "categoria": "Música",
-   "lugar": "Usina del Arte",
+   "lugar": "USINA DEL ARTE · Auditorio",
    "barrio": "La Boca",
    "direccion": "Agustín R. Caffarena 1",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "El Ansambel Saša Avsenika se presentará en La Usina del Arte para ofrecer un concierto dedicado a la música folk alpina y al histórico sonido Oberkrainer. El Ansambel Saša Avsenika (conocido internaci",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/RYK2PXFB88QF/concierto-de-gala-del-ansambel-sasa-avsenik",
-   "dominio": "saleplan.ar",
+   "precio": "Gratis",
+   "descripcion": "Folclore esloveno y sonido Oberkrainer con el acordeonista Sašo Avsenik. Gratis con reserva.",
+   "url": "https://usinadelarte.ar/actividad/concierto-de-gala-del-ansambel-sasa-avsenika/",
+   "dominio": "usinadelarte.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "USINA DEL ARTE",
    "fuentes": [
+    "USINA DEL ARTE",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
    "lat": -34.628924,
@@ -12670,22 +13042,23 @@
    "lng": -58.37291
   },
   {
-   "titulo": "Djaevel, El Mito",
+   "titulo": "Djaevel, el mito",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-30",
+   "fecha_fin": "2026-10-23",
    "hora": "22:00",
-   "horarios": "vie 22:00 (hasta el 30/10)",
+   "horarios": "Viernes 22 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102610-djaevel-el-mito",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/djaevel-el-mito/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -12872,31 +13245,6 @@
    "lng": -58.425397
   },
   {
-   "titulo": "El Barbero De Sevilla",
-   "categoria": "Infantil",
-   "lugar": "TEATRO COLÓN",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 618 - CP 1010 - Capital Federal - Buenos Aires",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "15:00",
-   "horarios": "Viernes 16, 15 h.",
-   "precio": "Consultar",
-   "descripcion": "Ópera en un acto, adaptada en versión libre, en el Teatro Colón. El Colón para Niños presenta El Barbero de Sevilla Funciones el domingo 11 de octubre a las 11:00, y el viernes 16 a las 15:00 horas. E",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/7VZ3NMDF5BY5/el-barbero-de-sevilla",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires",
-    "Turismo Buenos Aires: Qué hacer esta semana",
-    "Vidriera BA",
-    "Búsqueda: festivales"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
    "titulo": "El Centroforward murió al amanecer",
    "categoria": "Deporte",
    "lugar": "ANDAMIO ´90",
@@ -12960,6 +13308,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "El Estado de la Unión",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "Funciones: 16/10 20:00, 17/10 20:00, 18/10 20:15, 23/10 20:00, 24/10 20:00, 25/10 20:15, 30/10 20:00, 31/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/estado-union/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
    ],
    "lat": "",
    "lng": ""
@@ -13097,6 +13467,32 @@
    ],
    "lat": -34.602017,
    "lng": -58.512909
+  },
+  {
+   "titulo": "El barbero de Sevilla",
+   "categoria": "Infantil",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "15:00",
+   "horarios": "Funciones: 16/10 15:00",
+   "precio": "Consultar",
+   "descripcion": "Colón para niños",
+   "url": "https://teatrocolon.org.ar/produccion/el-barbero-de-sevilla/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "SalePlan: agenda de Ciudad de Buenos Aires",
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA",
+    "Búsqueda: festivales"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "El cristal con que se mira",
@@ -13459,6 +13855,50 @@
    "lng": -58.41081
   },
   {
+   "titulo": "Entre el Sonido y el Tiempo (visita guiada)",
+   "categoria": "Visita guiada",
+   "lugar": "USINA DEL ARTE",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "16, 17 y 18 de octubre, varias salidas entre las 12:45 y las 19 h",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada por el edificio de la Usina: historia fabril, restauración arquitectónica y huellas del sonido. Mayores de 18. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/entre-el-sonido-y-el-tiempo/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
+   "titulo": "Entre el Sonido y el Tiempo / Between Time and Sound (visita guiada bilingüe)",
+   "categoria": "Visita guiada",
+   "lugar": "USINA DEL ARTE",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "16/10 17 h, 17/10 17 h, 18/10 16:30 h",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada en español e inglés por el edificio de la Usina. Mayores de 18. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/entre-el-sonido-y-el-tiempo-eng/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
    "titulo": "Escuchas Órficas – Ada Gomiz",
    "categoria": "Evento",
    "lugar": "Casa Brandon",
@@ -13571,22 +14011,45 @@
    "lng": -58.419536
   },
   {
-   "titulo": "FLORENCIA GARCIA CASABAL presenta CRIOLLITA junto a MANU NAVARRO - NAHUEL LARISGOITIA",
+   "titulo": "FIESTA OBLIGADO",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "<p>LUCIO MEMI, DUQUE, FERMIN CARPENA, CANICHE, EL RUBIO, TADE FONK, LULO.</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/fiesta-obligado/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "FLORENCIA GARCIA CASABAL presenta CRIOLLITA junto a MANU NAVARRO – NAHUEL LARISGOITIA",
    "categoria": "Evento",
-   "lugar": "LA SCALA DE SAN TELMO + GIUFFRA",
+   "lugar": "LA SCALA DE SAN TELMO",
    "barrio": "San Telmo",
-   "direccion": "Pasaje Giuffra 371",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:30",
    "horarios": "vie 20:30 (el 16/10)",
-   "precio": "Consultar",
-   "descripcion": "CRIOLLITA” un encuentro donde canciones populares, textos y poesías se entraman para evocar el barrio, la infancia, el amor, y el sentido de pertenencia, ésa identidad cultural que habitamos a través",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/san-telmo/planes/YHJA52CZ5KHC/florencia-garcia-casabal-presenta-criollita-junto-a-manu-navarro-nahuel-larisgoitia",
-   "dominio": "saleplan.ar",
+   "precio": "$22000",
+   "descripcion": "FLORENCIA GARCIA CASABAL presenta CRIOLLITA junto a MANU NAVARRO – NAHUEL LARISGOITIA VIERNES 16 DE OCTUBRE – 20.30 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) ANTICIPADA : $22.000.- EN PUERTA :$25.000.- “CRIOLLITA” un encuentro donde canciones populares, textos y poesías se entraman para evocar el barrio, la infancia, el amor, y el sentido de pertenencia, ésa identidad cultural q",
+   "url": "https://lascala.com.ar/evento/florencia-garcia-casabal-presenta-criollita-junto-a-manu-navarro-nahuel-larisgoitia/",
+   "dominio": "lascala.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA SCALA DE SAN TELMO",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -13860,6 +14323,28 @@
    ],
    "lat": -34.54657,
    "lng": -58.488267
+  },
+  {
+   "titulo": "GENESIS VOL. 2",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Club.",
+   "url": "https://venti.live/evento/genesis-vol-2-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "GENTE EQUIS COSTANERA",
@@ -14577,6 +15062,28 @@
    "lng": ""
   },
   {
+   "titulo": "KALIX pres. ARSENAL (PBJ & TTAIPAN), ARGØN, SID B2B ZKY",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/kalix-pres-arsenal-pbj-ttaipan-arg-n-sid-b2b-zky-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "KOONGA BY INK",
    "categoria": "Evento",
    "lugar": "INK Palermo",
@@ -14779,6 +15286,28 @@
    "lng": -58.439662
   },
   {
+   "titulo": "LOST TAPES",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 6000",
+   "descripcion": "<p>LOST TAPES en @elpatiodestomba Sets: B2B Boiler @jeancarloloor & @iuniversal_ @rusalarson Desde las orillas del río Guayas, en tierras lejanas del Ecuador profundo, nos visita una dupla que explora el groove de un modo cálido y multifacético, pasando por el house, electro y sonidos que nos invitan a elevar el espíritu y mover el cuerpo....</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/lost-tapes-2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "La Anticrista Y Las Langostas Contra Los Vírgenes Encratitas",
    "categoria": "Teatro",
    "lugar": "El Grito",
@@ -14956,26 +15485,27 @@
    "lng": -58.456663
   },
   {
-   "titulo": "La Máquina Camaleón – Solito World Tour en Niceto Bar",
-   "categoria": "Evento",
-   "lugar": "Niceto Bar",
-   "barrio": "",
-   "direccion": "Av. Cnel. Niceto Vega 5507 - Palermo - Ciudad de Buenos Aires",
+   "titulo": "La Máquina Camaleón – Solito World Tour",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-16",
    "fecha_fin": "2026-10-16",
    "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "La Máquina Camaleón – Solito World Tour en Niceto Bar está programado para el 16/10/2026 a las 20:00 en Niceto Bar, Ciudad de Buenos Aires, Ciudad Autónoma de Buenos Aires. Consultá la fuente oficial",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/2NFFS31YSM9D/la-maquina-camaleon-solito-world-tour-en-niceto-bar",
-   "dominio": "saleplan.ar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/la-m-quina-camale-n-solito-world-tour-en-niceto-bar",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "SalePlan: agenda de Ciudad de Buenos Aires"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "La Nube Peatonal Marquee",
@@ -15589,6 +16119,28 @@
    "lng": -58.388699
   },
   {
+   "titulo": "Ludo-Espacio",
+   "categoria": "Infantil",
+   "lugar": "USINA DEL ARTE · Salón Mayor",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "16/10 de 16 a 20 h; 17 y 18/10 de 14 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Espacio de juegos didácticos y de mesa para toda la familia.",
+   "url": "https://usinadelarte.ar/actividad/ludo-espacio/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
    "titulo": "Lugar a dudas",
    "categoria": "Artes visuales",
    "lugar": "CENTRO CULTURAL DE LA CIENCIA",
@@ -16061,6 +16613,28 @@
    "lng": -58.400662
   },
   {
+   "titulo": "Matar está mal – Especial de Halloween",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "Funciones: 16/10 23:59",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/matar-esta-mal-especial-de-halloween/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Matate, amor",
    "categoria": "Evento",
    "lugar": "DUMONT 4040",
@@ -16132,20 +16706,21 @@
   {
    "titulo": "Mensajes a pobladores rurales",
    "categoria": "Teatro",
-   "lugar": "TEATRO DEL PUEBLO",
+   "lugar": "Teatro del Pueblo",
    "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
+   "fecha_fin": "2026-10-23",
    "hora": "20:00",
-   "horarios": "vie 20:00 (del 16/10 al 30/10)",
+   "horarios": "Viernes 20 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Mensajes a pobladores rurales es una obra multidisciplinaria: fue obra de teatro en 2013, ficciones sonoras en 2020, libro interactivo en 2022 y ahora concierto performático. Hoy, con una forma caótic",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/san-nicolas/planes/AX6Z7Q8A2QV1/mensajes-a-pobladores-rurales",
-   "dominio": "saleplan.ar",
+   "url": "https://teatrodelpueblo.com.ar/mensajes-a-pobladores-rurales/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -16823,22 +17398,23 @@
    "lng": -58.444967
   },
   {
-   "titulo": "Osamenta y patria",
-   "categoria": "Evento",
-   "lugar": "TEATRO DEL PUEBLO",
+   "titulo": "Osamenta y Patria",
+   "categoria": "Teatro",
+   "lugar": "Teatro del Pueblo",
    "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
+   "fecha_fin": "2026-10-23",
    "hora": "20:00",
-   "horarios": "vie 20:00 (hasta el 30/10)",
+   "horarios": "Viernes 20 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Una road movie criolla del siglo XIX. La carreta atraviesa la pampa yendo en busca de la osamenta de un “Pterodáctilo bovino”, especie de vaquita voladora que –supuestamente- habitó estas tierras en e",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/san-nicolas/planes/NZ1KK7X7NYD1/osamenta-y-patria",
-   "dominio": "saleplan.ar",
+   "url": "https://teatrodelpueblo.com.ar/osamenta-y-patria/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -17049,6 +17625,28 @@
    ],
    "lat": -34.603658,
    "lng": -58.378892
+  },
+  {
+   "titulo": "Pantano Santa Lucy",
+   "categoria": "Cine",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Dos actrices y un bailarín llegan a un ensayo convocades por no se sabe quién. En la sala hay un texto y cosas que parecen haber quedado de otra obra. O de otra vida. Caballos. Flores. Un chico que va al cine. Manzanas negras. Por el ensayo, todo está vivo todavía.",
+   "url": "https://plantainclan.com/ticket/pantano-santa-lucy/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Pasillo Breve Octubre",
@@ -18149,20 +18747,21 @@
   {
    "titulo": "Seré",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-27",
+   "fecha_fin": "2026-10-23",
    "hora": "22:00",
-   "horarios": "vie 22:00 (del 16/10 al 27/11)",
+   "horarios": "Viernes 22 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra88844-sere",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/sere/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -18548,6 +19147,28 @@
    ],
    "lat": -34.580449,
    "lng": -58.439029
+  },
+  {
+   "titulo": "TERCER CORDÓN DEL CONURBANO",
+   "categoria": "Teatro",
+   "lugar": "LOS POMPAS",
+   "barrio": "Parque Patricios",
+   "direccion": "Av. Brasil 2640",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Adaptación de la obra “Bodas de de Sangre” de Federico García Lorca. Cuando el odio y la discriminación se hacen carne en una sociedad, se abre paso a la tragedia. El conurbano, territorio de injusticias, hacinamientos, contaminación y violencia, deja al descurbierto la sociedad que somos. En plena crisis del 2001, mientras la tragedia sucede, en los barrios del conurbano, la gente trata de vivir,",
+   "url": "https://publico.alternativateatral.com/entradas85583-tercer-cordon-del-conurbano-una-tragedia-marron?o=14",
+   "dominio": "publico.alternativateatral.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LOS POMPAS"
+   ],
+   "lat": -34.631975,
+   "lng": -58.40113
   },
   {
    "titulo": "TERRERO A LA CITY V",
@@ -19734,22 +20355,23 @@
    "lng": ""
   },
   {
-   "titulo": "¡Llegó La Música!",
-   "categoria": "Teatro",
+   "titulo": "¡Llegó la música!",
+   "categoria": "Música",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-30",
+   "fecha_fin": "2026-10-23",
    "hora": "21:30",
-   "horarios": "vie 21:30 (del 16/10 al 30/10)",
+   "horarios": "Funciones: 16/10 21:30, 23/10 21:30",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra98161-llego-la-musica",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1216-llego-la-musica.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -19866,6 +20488,50 @@
    ],
    "lat": -34.591188,
    "lng": -58.427948
+  },
+  {
+   "titulo": "👀 CICLO FULERO 👀",
+   "categoria": "Música",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 9000",
+   "descripcion": "<p>VIERNES 16 OCTUBRE — 23 HS En vivo! 🔥 @hayescarcha 🔥 @loscoyotesmuertos 🔥 @motormutante 🎧 MUSICA SIEMPRE SI en bandejas 🎪 Feria @jossiicookie @daipapaleta @lukuz @yafuetodo @fuegoviejo @unfueguito Amigos, cerveza y música bien encendida para celebrar la vida fulera - Produce: @radiovampiradiscos Acompaña: @eltesororevista</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/%f0%9f%91%80-ciclo-fulero-%f0%9f%91%80/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "\"2 TIERRAS ROCK\" en vivo",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En .",
+   "url": "https://venti.live/evento/2-tierras-rock-en-vivo-en-humboldt-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "1, 2, 3… Sol",
@@ -20356,18 +21022,19 @@
    "categoria": "Teatro",
    "lugar": "Teatro Picadero",
    "barrio": "Balvanera",
-   "direccion": "Pasaje Discépolo 1857",
+   "direccion": "Pasaje Santos Discépolo 1857",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-14",
-   "hora": "",
-   "horarios": "sáb 22:00 | dom 18:00 (hasta el 14/11)",
+   "fecha_fin": "2026-10-31",
+   "hora": "22:00",
+   "horarios": "Funciones: 17/10 22:00, 24/10 22:00, 31/10 22:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102513-amaru",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.teatropicadero.com.ar/obra/amaru/",
+   "dominio": "teatropicadero.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Picadero",
    "fuentes": [
+    "Teatro Picadero",
     "Alternativa Teatral"
    ],
    "lat": "",
@@ -20462,22 +21129,23 @@
    "lng": ""
   },
   {
-   "titulo": "Aurelia Escribe",
+   "titulo": "Aurelia escribe",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-10-24",
    "hora": "17:00",
-   "horarios": "sáb 17:00 (hasta el 31/10)",
+   "horarios": "Sábados 17 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101129-aurelia-escribe",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/aurelia-escribe/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -20793,6 +21461,28 @@
    "lng": -58.447937
   },
   {
+   "titulo": "CLUB LAB PRODUCCIONES X PANDA X MAKTUB EXPERIENCE",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/club-lab-producciones-x-panda-x-maktub-experience-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "CRIANZA IRRESPETUOSA - MAMI FEST",
    "categoria": "Festival",
    "lugar": "La Silla Comedy Club (ex Silla Eléctrica)",
@@ -21081,22 +21771,23 @@
    "lng": ""
   },
   {
-   "titulo": "Científicos del Palo en Niceto Club",
+   "titulo": "Cientificos del Palo",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
    "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/cientificos-del-palo-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/cientificos-del-palo-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.587411,
@@ -21167,6 +21858,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Club 69 | 17 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/club-69-17-oct-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Club Oeste",
@@ -22712,6 +23425,28 @@
    "lng": -58.445885
   },
   {
+   "titulo": "Feliz Día – Sutottos",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "Funciones: 17/10 18:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/feliz-dia-sutottos/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Feria Matear",
    "categoria": "Feria",
    "lugar": "La Rural",
@@ -23045,21 +23780,22 @@
   },
   {
    "titulo": "Festival Ennio Morricone",
-   "categoria": "Música",
+   "categoria": "Festival",
    "lugar": "Teatro Picadero",
    "barrio": "Balvanera",
-   "direccion": "Pasaje Enrique Santos Discépolo 1857",
+   "direccion": "Pasaje Santos Discépolo 1857",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Sábado 17, 16 h.",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "Funciones: 17/10 16:00, 24/10 16:00",
    "precio": "Consultar",
    "descripcion": "Un recorrido por la vida de este magnífico compositor a través de relatos y una selección de los temas más famosos de grandes films a los que les compuso música como &#34;Cinema Paradiso&#34;, &#34;La",
-   "url": "https://www.plateanet.com/obra/35061?obra=FESTIVAL%20ENNIO%20MORRICONE&paso=inicio",
-   "dominio": "plateanet.com",
+   "url": "https://www.teatropicadero.com.ar/obra/festival-ennio-morricone/",
+   "dominio": "teatropicadero.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Picadero",
    "fuentes": [
+    "Teatro Picadero",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": "",
@@ -23108,29 +23844,6 @@
    ],
    "lat": -34.603327,
    "lng": -58.456663
-  },
-  {
-   "titulo": "Filarmónica de Buenos Aires: Vida de héroe",
-   "categoria": "Música",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-18",
-   "hora": "",
-   "horarios": "Sábado 17 a las 20 y domingo 18 a las 11",
-   "precio": "Consultar",
-   "descripcion": "Abono 15 de la Filarmónica en sus 80 años.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales",
-    "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
   },
   {
    "titulo": "Fin del Mundo | Stand Up COMEDIA PICANTE",
@@ -23285,6 +23998,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "GARASH «Loyal»",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 12000",
+   "descripcion": "<p>llega la 3ra edicion, GARASH \"Loyal\" Sabado 17/09 en @otrahistoriaclubcultural con @willharrt b2b @lucas.lucas.dj @doppel_gangs @Garashclub (@zoharrrrrrrrrrrr @d.jlemon @alepoe.mp3) 🎟️ Tickets a la venta (en la biografia) Diseño y Animación @blackbolly</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/garash-loyal/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
   },
   {
    "titulo": "GATILLERO (Cris Tapia Marchiori)",
@@ -23552,6 +24287,29 @@
    "lng": -58.379031
   },
   {
+   "titulo": "Hector",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "Funciones: 17/10 22:30, 24/10 22:30",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1240-hector.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
    "titulo": "Historias bailadas trasnoche",
    "categoria": "Danza",
    "lugar": "HASTA TRILCE",
@@ -23665,20 +24423,21 @@
   {
    "titulo": "Huida Permanente",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-10-24",
    "hora": "19:00",
-   "horarios": "sáb 19:00 (hasta el 31/10)",
+   "horarios": "Sábados 19 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102018-huida-permanente",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/huida-permanente/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -23727,28 +24486,6 @@
    ],
    "lat": "",
    "lng": ""
-  },
-  {
-   "titulo": "Héctor",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
-   "hora": "22:30",
-   "horarios": "sáb 22:30 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra95343-hector",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
   },
   {
    "titulo": "Indeseable (Entre Petes & Gimnasios)",
@@ -24215,48 +24952,26 @@
    "lng": ""
   },
   {
-   "titulo": "La Generación Cansada",
-   "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
-   "direccion": "Lavalle 3636",
+   "titulo": "La Controversia presenta: Estamos en Salsa",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
-   "hora": "21:30",
-   "horarios": "sáb 21:30 (hasta el 31/10)",
+   "fecha_fin": "",
+   "hora": "23:30",
+   "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra99933-la-generacion-cansada",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/la-controversia-presenta-estamos-en-salsa-en-niceto-bar",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Alternativa Teatral"
+    "Niceto Club"
    ],
-   "lat": -34.600335,
-   "lng": -58.416742
-  },
-  {
-   "titulo": "La Habitación Blanca",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-17",
-   "hora": "20:30",
-   "horarios": "sáb 20:30 (el 17/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra90318-la-habitacion-blanca",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "La Huerta Agroecológica",
@@ -24766,6 +25481,52 @@
    "lng": -58.416399
   },
   {
+   "titulo": "La generación cansada",
+   "categoria": "Teatro",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
+   "direccion": "Lavalle 3636",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:30",
+   "horarios": "Sábados 21:30 h (en cartel)",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://teatrodelpueblo.com.ar/la-generacion-cansada/",
+   "dominio": "teatrodelpueblo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro del Pueblo",
+   "fuentes": [
+    "Teatro del Pueblo",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.600335,
+   "lng": -58.416742
+  },
+  {
+   "titulo": "La habitación blanca",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:30",
+   "horarios": "Funciones: 17/10 20:30",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1156-la-habitacion-blanca.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
    "titulo": "La vida por correspondencia: lectura pública de cartas",
    "categoria": "Literatura y charlas",
    "lugar": "Casa de la Cultura · Subsuelo",
@@ -25208,6 +25969,28 @@
    "lng": ""
   },
   {
+   "titulo": "Lo Que La Peste nos Dejó – Los Pompas",
+   "categoria": "Teatro",
+   "lugar": "LOS POMPAS",
+   "barrio": "Parque Patricios",
+   "direccion": "Av. Brasil 2640",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Lo que la peste nos dejó Porque hay fantasmas que solo aparecen cuando muchas voces los nombran y hay historias que no se cuentan en soledad. Más de 40 personas en escena. Un coro. Una banda en vivo. No hay protagonistas. Hay un cuerpo colectivo. En Pompas hacemos teatro comunitario. En cada función, personas de distintas generaciones construyen un espectáculo que respira con el público. Cantamos,",
+   "url": "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/",
+   "dominio": "pompapetriyasos.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "LOS POMPAS",
+   "fuentes": [
+    "LOS POMPAS"
+   ],
+   "lat": -34.631975,
+   "lng": -58.40113
+  },
+  {
    "titulo": "Los Arboles Mueren De Pie",
    "categoria": "Teatro",
    "lugar": "Bululú, Club De Comedia",
@@ -25648,7 +26431,7 @@
    "lng": -58.424249
   },
   {
-   "titulo": "Matthias Goerne (Grandes Intérpretes)",
+   "titulo": "Matthias Goerne",
    "categoria": "Música",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
@@ -25656,14 +26439,15 @@
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
    "hora": "17:00",
-   "horarios": "",
+   "horarios": "Funciones: 17/10 17:00",
    "precio": "Consultar",
-   "descripcion": "Recital del barítono alemán.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Grandes Intérpretes",
+   "url": "https://teatrocolon.org.ar/produccion/matthias-goerne/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Búsqueda: festivales",
     "Vidriera BA"
    ],
@@ -25826,26 +26610,27 @@
    "lng": -58.388699
   },
   {
-   "titulo": "Misty Soul Choir",
+   "titulo": "Misty Soul Choir presenta “Respect”",
    "categoria": "Música",
-   "lugar": "Usina del Arte",
+   "lugar": "USINA DEL ARTE · Auditorio",
    "barrio": "La Boca",
-   "direccion": "Av. Caffarena 1",
+   "direccion": "Agustín R. Caffarena 1",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "Sábado 17, 20 h.",
    "precio": "Gratis",
-   "descripcion": "Disfrutá del show del coro cordobés de soul, funk y R&B en la Usina. Con más de 30 cantantes en escena y banda en vivo, presentará &#34;Respect&#34;: un recorrido vibrante por clásicos que marcaron ge",
+   "descripcion": "Coro cordobés de soul, funk y R&B con más de 30 cantantes y banda en vivo. Gratis con reserva.",
    "url": "https://usinadelarte.ar/actividad/misty-soul-choir-por-primera-vez-en-buenos-aires-presenta-respect/",
    "dominio": "usinadelarte.ar",
    "estado": "Próximo",
    "lugar_verificado": "USINA DEL ARTE",
    "fuentes": [
+    "USINA DEL ARTE",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.628924,
+   "lng": -58.356397
   },
   {
    "titulo": "Mixtape Vision #2: Aguas Tónicas + Candy Kane + Araña Mayor en Roseti",
@@ -26000,6 +26785,28 @@
    ],
    "lat": -34.587289,
    "lng": -58.487613
+  },
+  {
+   "titulo": "NICETO WHISKY BAR",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/niceto-whisky-bar-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "NIKKÖ EN EL CEMENTERIO",
@@ -26223,28 +27030,6 @@
    "lng": -58.395876
   },
   {
-   "titulo": "No Me Dejes Asi",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-14",
-   "hora": "",
-   "horarios": "lun 20:00 (hasta el 9/11); sáb 22:30 (del 17/10 al 14/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra4909-no-me-dejes-asi",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
-  },
-  {
    "titulo": "No Recuerdo Si Es Verdad",
    "categoria": "Teatro",
    "lugar": "Teatro Border",
@@ -26267,22 +27052,46 @@
    "lng": ""
   },
   {
-   "titulo": "No Se Fia",
-   "categoria": "Teatro",
+   "titulo": "No me dejes así",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-21",
-   "hora": "20:30",
-   "horarios": "sáb 20:30 (del 17/10 al 21/11)",
+   "fecha_fin": "2026-10-26",
+   "hora": "",
+   "horarios": "Funciones: 17/10 22:30, 19/10 20:00, 24/10 22:30, 26/10 20:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra81218-no-se-fia",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1259-no-me-dejes-asi.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
+   "titulo": "No se fía",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "Funciones: 17/10 20:30, 24/10 20:30",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1070-no-se-fia.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -26333,22 +27142,23 @@
    "lng": ""
   },
   {
-   "titulo": "Nos Arrancaría De Este Lugar Para Siempre",
-   "categoria": "Teatro",
+   "titulo": "Nos arrancaría de este lugar para siempre",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-07",
+   "fecha_fin": "2026-10-24",
    "hora": "18:30",
-   "horarios": "sáb 18:30 (del 17/10 al 7/11)",
+   "horarios": "Funciones: 17/10 18:30, 24/10 18:30",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra28188-nos-arrancaria-de-este-lugar-para-siempre",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1186-nos-arrancaria-de-este-lugar-para-siemp.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -26690,20 +27500,21 @@
   {
    "titulo": "Pequeño William",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-10-24",
    "hora": "21:30",
-   "horarios": "sáb 21:30 (hasta el 31/10)",
+   "horarios": "Sábados 21:30 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra100683-pequeno-william",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/pequeno-william-2/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -27040,6 +27851,28 @@
    "lng": -58.430207
   },
   {
+   "titulo": "Probando Gambetas – Trinche",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:59",
+   "horarios": "Funciones: 17/10 23:59, 24/10 23:59, 31/10 23:59",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/probando-gambetas-trinche/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Programa A",
    "categoria": "Danza",
    "lugar": "Aérea Teatro",
@@ -27106,6 +27939,50 @@
    "lng": ""
   },
   {
+   "titulo": "Que Xou da Xuxa é esse?",
+   "categoria": "Infantil",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Hay batallas que misteriosamente conviene perder. En 1991 me presenté para ser Paquita de Xuxa, la famosa conductora de programas infantiles de Brasil. Un tiempo después, corrió el rumor de que sus discos contenían mensajes satánicos. Entonces todo se conjuga: la pregunta sobre qué tipo de personajes estamos llamados a ser, el paso del tiempo en el cuerpo y cuáles son los pactos que una se atrever",
+   "url": "https://plantainclan.com/ticket/que-xou-da-xuxa-e-esse/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
+  },
+  {
+   "titulo": "RUIN PARTY",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "$ 5000",
+   "descripcion": "<p>Después del éxito de la primera edición, la Ruin Party vuelve con una nueva jornada cargada de ruido. Nuevas bandas, misma vibras. Influenciados por el espíritu de festivales de gran escala, Ruin Party reúne bandas, artistas, DJs, tatuadores, expo de fotos, merch, ferias y distintas propuestas que conviven en una misma experiencia. Diversidad,...</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/ruin-party-2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Rafa Barrios, Tobias Gerard y más",
    "categoria": "Fiestas y electrónica",
    "lugar": "Archi",
@@ -27148,6 +28025,28 @@
    ],
    "lat": -34.603366,
    "lng": -58.378773
+  },
+  {
+   "titulo": "Rdyfam2",
+   "categoria": "Música",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "$ 9000",
+   "descripcion": "<p>Una trasnoche a puro Trap con artistas y música en vivo evento para mayores de 18 años</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/rdyfam2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
   },
   {
    "titulo": "Recorridos a la carta: Copias de yeso en Buenos Aires",
@@ -27338,28 +28237,6 @@
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
    "url": "https://www.alternativateatral.com/obra102944-rodaje",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
-   "titulo": "Romances - Proyecto Micky",
-   "categoria": "Evento",
-   "lugar": "LA SCALA DE SAN TELMO",
-   "barrio": "San Telmo",
-   "direccion": "Giuffra, Jose M.,Dr. 371",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-17",
-   "hora": "20:30",
-   "horarios": "sáb 20:30 (el 17/10)",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.alternativateatral.com/obra103191-romances-proyecto-micky",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -28494,26 +29371,73 @@
    "lng": -58.38008
   },
   {
-   "titulo": "Vaca Muerta",
+   "titulo": "Vaca muerta",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-10-24",
    "hora": "19:00",
-   "horarios": "sáb 19:00 (hasta el 31/10)",
+   "horarios": "Sábados 19 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101150-vaca-muerta",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/vaca-muerta/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
    "lng": -58.416742
+  },
+  {
+   "titulo": "Vida de héroe",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "Funciones: 17/10 20:00, 18/10 11:00",
+   "precio": "Consultar",
+   "descripcion": "Filarmónica de Buenos Aires · Abono 15",
+   "url": "https://teatrocolon.org.ar/produccion/vida-de-heroe/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Búsqueda: festivales",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
+   "titulo": "Vinilos Íntimos",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/vinilos-ntimos-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Visita Guiada a \"El Castillo de Sandro\"- SÁBADO 17 de Octubre 15.00 HS",
@@ -28983,6 +29907,29 @@
    "lng": -58.374434
   },
   {
+   "titulo": "“ROMANCES” – PROYECTO MICKY",
+   "categoria": "Visita guiada",
+   "lugar": "LA SCALA DE SAN TELMO",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:30",
+   "horarios": "sáb 20:30 (el 17/10)",
+   "precio": "$20000",
+   "descripcion": "“ROMANCES” – PROYECTO MICKY SÁBADO 17 DE OCTUBRE – 20.30 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) VALOR DE ENTRADA : $20.000.- «Romances» Proyecto Micky Es un homenaje distinto a Luis Miguel, liderado por Eva Izurieta en voz y con músicos en vivo. Este nuevo show de la banda propone un recorrido por los boleros más conocidos interpretados por Luis Miguel en todos sus discos «Ro",
+   "url": "https://lascala.com.ar/evento/romances-proyecto-micky-3/",
+   "dominio": "lascala.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA SCALA DE SAN TELMO",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "1982, Aquel Abril",
    "categoria": "Teatro",
    "lugar": "Teatro El Ojo",
@@ -29357,22 +30304,45 @@
    "lng": -58.38255
   },
   {
-   "titulo": "Aurora Despierta",
-   "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
+   "titulo": "Atardecer en el Teatro Colón",
+   "categoria": "Visita guiada",
+   "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "Funciones: 18/10 20:00, 25/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "Temporada 2026",
+   "url": "https://teatrocolon.org.ar/produccion/atardecer-en-el-teatro-colon/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
+   "titulo": "Aurora despierta",
+   "categoria": "Teatro",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "12:00",
-   "horarios": "dom 12:00 (hasta el 25/10)",
+   "horarios": "Domingos 12 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102435-aurora-despierta",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/aurora-despierta/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -29575,6 +30545,28 @@
    ],
    "lat": -34.603557,
    "lng": -58.369484
+  },
+  {
+   "titulo": "Cineclub Panda Rojo",
+   "categoria": "Cine",
+   "lugar": "PANDA ROJO ESPACIO CULTURAL",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función del cineclub. Entradas anticipadas o membresía mensual.",
+   "url": "https://pandarojo.com.ar/production/cineclub/",
+   "dominio": "pandarojo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
+   "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL"
+   ],
+   "lat": -34.60677,
+   "lng": -58.409877
   },
   {
    "titulo": "Cinema Aventura",
@@ -29841,6 +30833,28 @@
    "lng": ""
   },
   {
+   "titulo": "Día de la familia: taller de modelado",
+   "categoria": "Taller",
+   "lugar": "USINA DEL ARTE · Salón Mayor",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "De 14 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Taller para crear una pieza escultórica en arcilla que represente a la familia. Para chicos de 4 a 12 años.",
+   "url": "https://usinadelarte.ar/actividad/dia-de-la-familia-taller-de-modelado-nos-acompana-chilavert/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
    "titulo": "EL AMO DEL JARDÍN (Fernando Krapp)",
    "categoria": "Cine",
    "lugar": "CENTRO CULTURAL BORGES",
@@ -30015,28 +31029,6 @@
    ],
    "lat": "",
    "lng": ""
-  },
-  {
-   "titulo": "El Descubrimiento Del Amor",
-   "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
-   "direccion": "Lavalle 3636",
-   "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-10-25",
-   "hora": "20:00",
-   "horarios": "dom 20:00 (hasta el 25/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101354-el-descubrimiento-del-amor",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.600335,
-   "lng": -58.416742
   },
   {
    "titulo": "El Diario De Wilda O La Reconstrucción De Un Crimen",
@@ -30259,6 +31251,29 @@
    "lng": ""
   },
   {
+   "titulo": "El descubrimiento del amor",
+   "categoria": "Teatro",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
+   "direccion": "Lavalle 3636",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "Domingos 20 h (en cartel)",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://teatrodelpueblo.com.ar/el-descubrimiento-del-amor/",
+   "dominio": "teatrodelpueblo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro del Pueblo",
+   "fuentes": [
+    "Teatro del Pueblo",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.600335,
+   "lng": -58.416742
+  },
+  {
    "titulo": "El príncipe de Nanawa",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -30325,28 +31340,6 @@
    "lng": ""
   },
   {
-   "titulo": "En Mitad De Tanto Fuego",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-10-18",
-   "hora": "17:00",
-   "horarios": "dom 17:00 (el 18/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra96550-en-mitad-de-tanto-fuego",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
-  },
-  {
    "titulo": "En Vivo! Reflexiones Absurdas Sobre La Muerte",
    "categoria": "Teatro",
    "lugar": "ARCHIBRAZO",
@@ -30367,6 +31360,29 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "En mitad de tanto fuego",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "17:00",
+   "horarios": "Funciones: 18/10 17:00",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/1261-en-mitad-de-tanto-fuego.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
   },
   {
    "titulo": "Encuentro Con Artistas: El Jardín Estrangulado",
@@ -30480,22 +31496,45 @@
    "lng": ""
   },
   {
-   "titulo": "Expediente A.r.",
+   "titulo": "Eugenia Fuente y Javier Mas: La canción española y la argentina",
+   "categoria": "Música",
+   "lugar": "USINA DEL ARTE · Sala de Cámara",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo Música de Cámara. Obras de Montsalvatge, Mompou, Falla, Lavilla, Castro y Caamaño. Entradas desde las 11 h.",
+   "url": "https://usinadelarte.ar/actividad/eugenia-fuente-y-javier-mas-la-cancion-espanola-y-la-argentina/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
+   "titulo": "Expediente A.R.",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "17:00",
-   "horarios": "dom 17:00 (hasta el 25/10)",
+   "horarios": "Domingos 17 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102096-expediente-ar",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/expediente-a-r/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -30522,6 +31561,29 @@
    ],
    "lat": -34.604831,
    "lng": -58.390031
+  },
+  {
+   "titulo": "FORO ARGENTINO DE COMPOSITORAS Noemí Sozzi, Laura Otero, Amanda Guerreño. Gaby Battistini, Jeanette Fligler, Cecilia Fiorentino, Elena Buiani, Gaby Yaya y María Cristina Kasem.",
+   "categoria": "Evento",
+   "lugar": "LA SCALA DE SAN TELMO",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "17:00",
+   "horarios": "dom 18:30 (el 18/10)",
+   "precio": "AL SOBRE",
+   "descripcion": "FORO ARGENTINO DE COMPOSITORAS Noemí Sozzi, Laura Otero, Amanda Guerreño. Gaby Battistini, Jeanette Fligler, Cecilia Fiorentino, Elena Buiani, Gaby Yaya y María Cristina Kasem. DOMINGO 18 DE OCTUBRE – 17.00 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) AL SOBRE Foro Argentino de Compositoras. Noemí Sozzi, Laura Otero, Amanda Guerreño. Gaby Battistini, Jeanette Fligler, Cecilia Fiore",
+   "url": "https://lascala.com.ar/evento/foro-argentino-de-compositoras-noemi-sozzi-laura-otero-amanda-guerreno-gaby-battistini-jeanette-fligler-cecilia-fiorentino-elena-buiani-gaby-yaya-y-maria-cristina-kasem-2/",
+   "dominio": "lascala.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA SCALA DE SAN TELMO",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "FUCKING SEÑORAS | STAND UP",
@@ -30788,28 +31850,6 @@
    "lng": ""
   },
   {
-   "titulo": "Foro Argentino De Compositoras",
-   "categoria": "Evento",
-   "lugar": "LA SCALA DE SAN TELMO",
-   "barrio": "San Telmo",
-   "direccion": "Giuffra, Jose M.,Dr. 371",
-   "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-10-18",
-   "hora": "18:30",
-   "horarios": "dom 18:30 (el 18/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: popular, otros géneros",
-   "url": "https://www.alternativateatral.com/obra102584-foro-argentino-de-compositoras",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
    "titulo": "Freud Y Bonaparte",
    "categoria": "Teatro",
    "lugar": "Lavalle Casabierta - Espacio De Arte",
@@ -30876,22 +31916,23 @@
    "lng": ""
   },
   {
-   "titulo": "Hablar Largo...",
+   "titulo": "Hablar largo…",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-11-29",
+   "fecha_fin": "2026-10-25",
    "hora": "20:00",
-   "horarios": "dom 20:00 (hasta el 29/11)",
+   "horarios": "Domingos 20 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102951-hablar-largo",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/hablar-largo/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -30964,26 +32005,49 @@
    "lng": -58.478406
   },
   {
+   "titulo": "Historias de Circo: visita guiada lúdica para familias",
+   "categoria": "Visita guiada",
+   "lugar": "USINA DEL ARTE",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "15:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada lúdica sobre el circo para chicos desde 6 años y sus familias.",
+   "url": "https://usinadelarte.ar/actividad/historias-de-circovisita-guiada-ludica-para-familias/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
    "titulo": "Historias secretas del Teatro Colón",
    "categoria": "Visita guiada",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
-   "direccion": "Cerrito 618",
+   "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-18",
-   "fecha_fin": "",
+   "fecha_fin": "2026-10-31",
    "hora": "",
-   "horarios": "Domingo 18, 17 y 18 h.",
+   "horarios": "Funciones: 18/10 17:00, 18/10 18:00, 31/10 17:00, 31/10 18:00",
    "precio": "Consultar",
-   "descripcion": "Una experiencia teatral que invita a mirar el Teatro Colón desde un ángulo inédito: el de sus fantasmas, sus leyendas y su memoria viva. El recorrido guiado comienza en Plaza Vaticano, donde un anfitr",
+   "descripcion": "Temporada 2026",
    "url": "https://teatrocolon.org.ar/produccion/historias-secretas-del-teatro-colon/",
    "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
    "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
-   "lat": -34.601149,
-   "lng": -58.38255
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "Huele A Espíritu Adolescente",
@@ -31031,21 +32095,22 @@
   },
   {
    "titulo": "Jardineria",
-   "categoria": "Teatro",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "14:00",
-   "horarios": "dom 14:00 (del 18/10 al 25/10)",
+   "horarios": "Funciones: 18/10 14:00, 25/10 14:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra93639-jardineria",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1181-jardineria.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -31094,6 +32159,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Juicy Nise en Buenos Aires",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/juicy-nise-en-buenos-aires-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Kalma - Nadie Puede Ser Feliz",
@@ -31426,28 +32513,6 @@
    "lng": ""
   },
   {
-   "titulo": "La Omisión De La Familia Coleman",
-   "categoria": "Teatro",
-   "lugar": "Timbre 4",
-   "barrio": "Boedo",
-   "direccion": "México 3554",
-   "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-10-18",
-   "hora": "19:00",
-   "horarios": "dom 19:00 (el 18/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra4926-la-omision-de-la-familia-coleman",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.619827,
-   "lng": -58.415942
-  },
-  {
    "titulo": "La Rueda del Son + DJ Rulex",
    "categoria": "Música",
    "lugar": "Archibrazo · Sala Andralis",
@@ -31470,22 +32535,23 @@
    "lng": ""
   },
   {
-   "titulo": "La Salud De Los Enfermos",
+   "titulo": "La Salud de los Enfermos",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "18:00",
-   "horarios": "dom 18:00 (hasta el 25/10)",
+   "horarios": "Domingos 18 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra99808-la-salud-de-los-enfermos",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/la-salud-de-los-enfermos/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -31535,6 +32601,51 @@
    ],
    "lat": -34.587289,
    "lng": -58.487613
+  },
+  {
+   "titulo": "La omisión de la familia Coleman",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "19:00",
+   "horarios": "Funciones: 18/10 19:00",
+   "precio": "Consultar",
+   "descripcion": "Géneros: teatro",
+   "url": "https://www.timbre4.com/teatro/703--la-omision-de-la-familia-coleman.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
+   "titulo": "La Última Sesión de Freud",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Funciones: 18/10 18:15, 21/10 20:00, 25/10 18:15",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/la-ultima-sesion-de-freud/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Las Cautivas",
@@ -31625,22 +32736,23 @@
    "lng": ""
   },
   {
-   "titulo": "Las Promesas",
-   "categoria": "Teatro",
+   "titulo": "Las promesas",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-11-29",
+   "fecha_fin": "2026-10-25",
    "hora": "18:00",
-   "horarios": "dom 18:00 (del 18/10 al 29/11)",
+   "horarios": "Funciones: 18/10 18:00, 25/10 18:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra63730-las-promesas",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1262-las-promesas.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -31844,6 +32956,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Mamba Clvb (after show jugo!)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Club.",
+   "url": "https://venti.live/evento/mamba-clvb-after-show-jugo-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Mamushkas",
@@ -32198,22 +33332,23 @@
    "lng": ""
   },
   {
-   "titulo": "Parte De Este Mundo",
-   "categoria": "Teatro",
+   "titulo": "Parte de este mundo",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "20:15",
-   "horarios": "dom 20:15 (del 18/10 al 25/10)",
+   "horarios": "Funciones: 18/10 20:15, 25/10 20:15",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra21244-parte-de-este-mundo",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/704-parte-de-este-mundo.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -32416,6 +33551,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Prima Facie",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "16:00",
+   "horarios": "Funciones: 18/10 16:00, 25/10 16:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/prima-facie/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
    ],
    "lat": "",
    "lng": ""
@@ -32639,6 +33796,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Todo suena falso",
+   "categoria": "Cine",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "¿Y si una escena se repite pero nunca es igual? Algo se corre. Algo falla. Entre lo ridículo y lo monstruoso, un cuerpo se desdobla, se multiplica y, mediante sonidos e imágenes, construye un dispositivo escénico inestable donde nada termina de encajar. Una pieza que cruza cine de género y foley en vivo en una trama que se desarma mientras sucede. Humor y terror se mezclan, la percepción se altera",
+   "url": "https://plantainclan.com/ticket/todo-suena-falso/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Tres Mundos | Un viaje en el tiempo",
@@ -32995,20 +34174,21 @@
   {
    "titulo": "Yepeto",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "15:30",
-   "horarios": "dom 15:30 (hasta el 25/10)",
+   "horarios": "Domingos 15:30 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra100501-yepeto",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/yepeto/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -33389,7 +34569,7 @@
    "lng": ""
   },
   {
-   "titulo": "Hello El Unplugged",
+   "titulo": "Hello, el unplugged",
    "categoria": "Música",
    "lugar": "Teatro Coliseo",
    "barrio": "Retiro",
@@ -33398,13 +34578,14 @@
    "fecha_fin": "2026-10-19",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $ 29050",
-   "descripcion": "",
-   "url": "https://www.ticketek.com.ar/hello-el-unplugged/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
+   "precio": "Consultar",
+   "descripcion": "Homenaje al Hello! MTV Unplugged de Charly García con músicos de la banda original (Zorrito Von Quintiero, Fernando Samalea, Erica y Ulises Di Salvo) y Emme como voz invitada.",
+   "url": "https://www.teatrocoliseo.org.ar/hello-el-unplugged-lunes-19-de-octubre-20hs-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Ticketek"
    ],
    "lat": -34.596736,
@@ -33743,6 +34924,28 @@
    "lng": ""
   },
   {
+   "titulo": "Musicalmente Tuyos",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-26",
+   "hora": "20:00",
+   "horarios": "Funciones: 19/10 20:00, 26/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/musicalmente-tuyos/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "POR QUÉ ODIAMOS EL AMOR",
    "categoria": "Teatro",
    "lugar": "La Silla Comedy Club (ex Silla Eléctrica)",
@@ -33787,22 +34990,23 @@
    "lng": -58.378773
   },
   {
-   "titulo": "Siete Estaciones Para Hablar De Amor",
+   "titulo": "Siete Estaciones Para Hablar de Amor",
    "categoria": "Teatro",
-   "lugar": "Teatro Del Pueblo",
-   "barrio": "San Nicolás",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
    "direccion": "Lavalle 3636",
    "fecha_inicio": "2026-10-19",
    "fecha_fin": "2026-10-26",
    "hora": "20:00",
-   "horarios": "lun 20:00 (del 19/10 al 26/10)",
+   "horarios": "Lunes 20 h (en cartel)",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101801-siete-estaciones-para-hablar-de-amor",
-   "dominio": "alternativateatral.com",
+   "url": "https://teatrodelpueblo.com.ar/siete-estaciones-para-hablar-de-amor/",
+   "dominio": "teatrodelpueblo.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro del Pueblo",
    "fuentes": [
+    "Teatro del Pueblo",
     "Alternativa Teatral"
    ],
    "lat": -34.600335,
@@ -34494,6 +35698,28 @@
    "lng": ""
   },
   {
+   "titulo": "Livre Fiesta",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "<p>Todos los martes LIVRE!!! hay Open Mic, Jam de Dibujo, Feria, Flash Tattoo, videojuegos y 10 shows en vivo por semana! 2 pistas, 2 Dj´s y la mejor fiesta de hiphop de Buenos Aires 🎤🔥</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/livre-fiesta-3-2/2026-10-20/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "MB Trends Week",
    "categoria": "Evento",
    "lugar": "Figueroa 5500",
@@ -35001,7 +36227,7 @@
    "lng": -58.449505
   },
   {
-   "titulo": "Berliner Philharmoniker: Kirill Petrenko y Daniil Trifonov",
+   "titulo": "Berliner Philharmoniker",
    "categoria": "Música",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
@@ -35009,14 +36235,15 @@
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-23",
    "hora": "20:00",
-   "horarios": "21, 22 y 23 de octubre a las 20",
+   "horarios": "Funciones: 21/10 20:00, 22/10 20:00, 23/10 20:00",
    "precio": "Consultar",
-   "descripcion": "La Filarmónica de Berlín vuelve al Colón después de 26 años.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Conciertos extraordinarios · Funciones del 21, 22 y 23 de octubre de 2026",
+   "url": "https://teatrocolon.org.ar/produccion/berliner-philharmoniker/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Búsqueda: festivales",
     "Vidriera BA",
     "Alternativa Teatral"
@@ -35354,6 +36581,28 @@
    ],
    "lat": -34.587289,
    "lng": -58.487613
+  },
+  {
+   "titulo": "HOMOGÉNICA FESTEJA 1 AÑO DE “POST POP”",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/homog-nica-festeja-1-a-o-de-post-pop-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Hagamos Popurrí",
@@ -35907,6 +37156,28 @@
    "lng": -58.434134
   },
   {
+   "titulo": "ALGO ENTRE NOSOTROS",
+   "categoria": "Teatro",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "ALGO ENTRE NOSOTROS es una obra escénica a partir de los lenguajes del Hip hop y el Popping, que explora la tensión entre lo colectivo y lo individual. Entre la pertenencia y la soledad. Entre el cuerpo que se sostiene en otrxs y el cuerpo que se observa en sí mismo. Esta obra es, en esencia, una práctica escénica sobre la presencia: un cuerpo que se agrupa, se dispersa, se expande y se recoge. Un",
+   "url": "https://plantainclan.com/ticket/algo-entre-nosotros/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
+  },
+  {
    "titulo": "Alter Bridge",
    "categoria": "Música",
    "lugar": "C Complejo Art Media",
@@ -36082,6 +37353,28 @@
    ],
    "lat": -34.599689,
    "lng": -58.374353
+  },
+  {
+   "titulo": "Cineclub Panda Rojo",
+   "categoria": "Cine",
+   "lugar": "PANDA ROJO ESPACIO CULTURAL",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función del cineclub. Entradas anticipadas o membresía mensual.",
+   "url": "https://pandarojo.com.ar/production/cineclub/",
+   "dominio": "pandarojo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
+   "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL"
+   ],
+   "lat": -34.60677,
+   "lng": -58.409877
   },
   {
    "titulo": "Club de Lectura: El sonido de las palabras by Belén Ortega",
@@ -36349,6 +37642,28 @@
    "lng": -58.457165
   },
   {
+   "titulo": "Impro al 2020..",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "",
+   "hora": "21:45",
+   "horarios": "Funciones: 22/10 21:45",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/impro-al-2020/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Improvisto",
    "categoria": "Teatro",
    "lugar": "Ítaca, Complejo Teatral",
@@ -36393,7 +37708,7 @@
    "lng": -58.371093
   },
   {
-   "titulo": "Jovanotti en Argentina",
+   "titulo": "Jovanotti",
    "categoria": "Música",
    "lugar": "Teatro Coliseo",
    "barrio": "Retiro",
@@ -36402,13 +37717,14 @@
    "fecha_fin": "2026-10-22",
    "hora": "21:00",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/jovanotti-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 160000",
+   "descripcion": "Show del músico italiano Jovanotti.",
+   "url": "https://www.teatrocoliseo.org.ar/jovanotti-jueves-22-de-octubre-21-h-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Indiehoy: Agenda de recitales",
     "Ticketek"
    ],
@@ -36458,6 +37774,50 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La Fatal",
+   "categoria": "Música",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-11-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "<p>Tres bandas, una misma noche: Delirantes Por Ahí, Marjorette y Rosario Herz llegan para hacer vibrar el escenario. Y cuando no estés frente al escenario, la noche sigue con karaoke, jam, arcade y mucho más. 🎤 Música en vivo · 🎮 Arcade · 🎶 Karaoke · 🎸 Jam Una noche, tres bandas y mil formas...</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/la-fatal-7/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "La Máquina Camaleón – Solito World Tour 22 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/la-m-quina-camale-n-solito-world-tour-22-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "La gaviota. Ensayo abierto",
@@ -36548,28 +37908,6 @@
    "lng": -58.370577
   },
   {
-   "titulo": "Las Ruinas",
-   "categoria": "Evento",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-31",
-   "hora": "",
-   "horarios": "jue 18:00 | 20:30 | vie 18:00 | sáb 18:00 (del 22/10 al 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: opera",
-   "url": "https://www.alternativateatral.com/obra100288-las-ruinas",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
-  },
-  {
    "titulo": "Las hijas del fuego",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -36590,6 +37928,29 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Las ruinas",
+   "categoria": "Evento",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "Funciones: 22/10 20:30, 23/10 20:30, 24/10 20:30, 25/10 18:00, 28/10 20:30, 29/10 20:30, 30/10 20:30, 31/10 20:30",
+   "precio": "Consultar",
+   "descripcion": "CETC",
+   "url": "https://teatrocolon.org.ar/produccion/las-ruinas/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "Las ruinas",
@@ -36634,6 +37995,28 @@
    ],
    "lat": -34.603366,
    "lng": -58.378773
+  },
+  {
+   "titulo": "MAG PRESENTA \"Cuando esté rota las pelotas no diré nada pero habrá señales!!\"",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/mag-presenta-cuando-est-rota-las-pelotas-no-dir-nada-pero-habr-se-ales-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "MISERY Dir. Rob Reiner · Estados Unidos · 1990",
@@ -37298,22 +38681,23 @@
    "lng": -58.392401
   },
   {
-   "titulo": "Çantamarta en Niceto Club",
+   "titulo": "ÇANTAMARTA",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
    "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/cantamarta-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/antamarta-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.587411,
@@ -37516,6 +38900,50 @@
    ],
    "lat": -34.636848,
    "lng": -58.365892
+  },
+  {
+   "titulo": "CICLO GRINGO’",
+   "categoria": "Evento",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "<p>Michelle Viquez, Contradiction, Alvarito.</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/ciclo-gringo-6/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "CICLO ROTO 23 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/ciclo-roto-23-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Camerata De Misiones Con Xavier Inchausti Y Leila Balat Paiva",
@@ -37760,6 +39188,28 @@
    ],
    "lat": -34.586043,
    "lng": -58.446381
+  },
+  {
+   "titulo": "DANCETERIA 23 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/danceteria-23-oct-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "De aldea a capital: Buenos Aires durante la colonia",
@@ -38268,6 +39718,28 @@
    "lng": ""
   },
   {
+   "titulo": "LA PERLA BLANCA",
+   "categoria": "Cine",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 10000",
+   "descripcion": "<p>Viernes 23/10/2026 - Otra Historia, Estomba 851 LA PERLA BLANCA por primera vez en Otra Historia. Veni a perrear y ayúdanos a filmar nuestro primer cortometraje 🏎️🪩💦 00:00hs - 02:00hs rapidas y furiosas 02:00hs - 04:00hs dj pires 04:00hs - 06:00hs dj madrí</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/la-perla-blanca/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "LOVE U CHARLY",
    "categoria": "Teatro",
    "lugar": "Aluche",
@@ -38334,6 +39806,50 @@
    "lng": -58.447937
   },
   {
+   "titulo": "La Romana By Picheo 808",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Club.",
+   "url": "https://venti.live/evento/la-romana-by-picheo-808-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
+   "titulo": "Laniakea, Lucernario, Amigo de lo Ajeno y Viaje Relámpago",
+   "categoria": "Evento",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 8000",
+   "descripcion": "<p>Laniakea, Lucernario, Amigo de lo Ajeno y Viaje Relámpago se encuentran para hacer la previa de Halloween 🎃 Vení con tu disfraz!</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/laniakea-lucernario-amigo-de-lo-ajeno-y-viaje-relampago/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Las Cargas",
    "categoria": "Teatro",
    "lugar": "Lavalle Casabierta - Espacio De Arte",
@@ -38354,6 +39870,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Las canciones más lindas de Charly García",
+   "categoria": "Música",
+   "lugar": "USINA DEL ARTE",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Marina Will con cuarteto de cuerdas e Ian Schifres al piano; artista invitado Pablo Granados. Con reserva.",
+   "url": "https://usinadelarte.ar/actividad/las-canciones-mas-lindas-de-charly-garciaartista-invitado-pablo-granados/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
   },
   {
    "titulo": "Las tres ecologías: Laboratorio de futuro",
@@ -38465,6 +40003,28 @@
    ],
    "lat": -34.58733,
    "lng": -58.449505
+  },
+  {
+   "titulo": "MIXTAPE",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 8000",
+   "descripcion": "<p>Ya nadie baila, y vos ¿bailás? ESTAN DISPONIBLES LAS ENTRADAS PARA LA PRIMERA EDICIÓN DE LA FIESTA DE MIXTAPE⭐️ El viernes 23 de Octubre en Estomba 851 (Villa Ortuzar) Nos acompañan como banda: @juanaamadruda @_frann.r @teoschniper @tomiriveroo__ @laurileguiza_ @ y nos hacen la fiesta los djs: @ian.baronn @feliinapoli @calaamj Los esperamos!!⭐️⭐️⭐️</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/mix-tape/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
   },
   {
    "titulo": "Mala Mia Standup Comedy",
@@ -38753,6 +40313,28 @@
    "lng": ""
   },
   {
+   "titulo": "PRETA PORTER + GITANOS + PERSEA",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/preta-porter-gitanos-persea-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "PUTIXIMO | STAND UP",
    "categoria": "Teatro",
    "lugar": "La Silla Comedy Club (ex Silla Eléctrica)",
@@ -38795,6 +40377,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Pantano Santa Lucy",
+   "categoria": "Cine",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Dos actrices y un bailarín llegan a un ensayo convocades por no se sabe quién. En la sala hay un texto y cosas que parecen haber quedado de otra obra. O de otra vida. Caballos. Flores. Un chico que va al cine. Manzanas negras. Por el ensayo, todo está vivo todavía.",
+   "url": "https://plantainclan.com/ticket/pantano-santa-lucy/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Patricia Noval-Giuli Cervi-Juan Martínez",
@@ -38995,6 +40599,28 @@
    "lng": ""
   },
   {
+   "titulo": "SELF- TITLED AFTERGLOW 2.0",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/self-titled-afterglow-2-0-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "Sampler",
    "categoria": "Teatro",
    "lugar": "Abasto Social Club",
@@ -39083,6 +40709,29 @@
    "lng": ""
   },
   {
+   "titulo": "TANGO Y TAROT ATÍPICO DÚO",
+   "categoria": "Música",
+   "lugar": "LA SCALA DE SAN TELMO",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "vie 20:30 (el 23/10)",
+   "precio": "AL SOBRE",
+   "descripcion": "TANGO Y TAROT ATÍPICO DÚO VIERNES 23 DE OCTUBRE – 20.30 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) AL SOBRE ¡ Bienvenidos al fascinante mundo de la fusión entre el tarot y el tango! Se trata de un encuentro único que combina la profundidad de los arcanos con la pasión del tango. A través de este evento, exploraremos las carta del tarot vinculándola con la energía particular de un",
+   "url": "https://lascala.com.ar/evento/tango-y-tarot-atipico-duo-7/",
+   "dominio": "lascala.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA SCALA DE SAN TELMO",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Taller De Montaje Fiesta! - (Taller Exclusivo Para Artistas De Improba 2026)",
    "categoria": "Fiestas y electrónica",
    "lugar": "Espacio Azur",
@@ -39139,28 +40788,6 @@
    "precio": "Consultar",
    "descripcion": "",
    "url": "https://www.alternativateatral.com/obra102414-taller-la-voz-en-off",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
-  },
-  {
-   "titulo": "Tango Y Tarot - Atípico Dúo",
-   "categoria": "Música",
-   "lugar": "LA SCALA DE SAN TELMO",
-   "barrio": "San Telmo",
-   "direccion": "Giuffra, Jose M.,Dr. 371",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "20:30",
-   "horarios": "vie 20:30 (el 23/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: tango",
-   "url": "https://www.alternativateatral.com/obra101490-tango-y-tarot-atipico-duo",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -39281,22 +40908,23 @@
    "lng": -58.444592
   },
   {
-   "titulo": "Ze Pequeña en Niceto Club",
+   "titulo": "Ze Pequeña",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
    "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/ze-pequena-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/ze-peque-a-en-niceto-club",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.587411,
@@ -39590,6 +41218,28 @@
    "lng": ""
   },
   {
+   "titulo": "Ben Marcus. \"Buenas intenciones Tour”",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/ben-marcus-buenas-intenciones-tour-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Botanica & Matisse - tecnica de revelado Cianotipia",
    "categoria": "Evento",
    "lugar": "Av. Pres. Roque Sáenz Peña 1119",
@@ -39656,22 +41306,23 @@
    "lng": -58.38219
   },
   {
-   "titulo": "Cae Una Catedral",
-   "categoria": "Teatro",
+   "titulo": "Cae una Catedral",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "20:30",
-   "horarios": "sáb 20:30 (el 24/10)",
+   "horarios": "Funciones: 24/10 20:30",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra96965-cae-una-catedral",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1222-cae-una-catedral.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -39877,6 +41528,28 @@
    "lng": ""
   },
   {
+   "titulo": "Club 69 | 24 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/club-69-24-oct-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "Collage con música en vivo",
    "categoria": "Música",
    "lugar": "CASONA CULTURAL HUMAHUACA",
@@ -39897,6 +41570,28 @@
    ],
    "lat": -34.602953,
    "lng": -58.414504
+  },
+  {
+   "titulo": "Corapa 24 0ct",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En .",
+   "url": "https://venti.live/evento/corapa-24-0ct-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Criatura",
@@ -39943,6 +41638,29 @@
    "lng": ""
   },
   {
+   "titulo": "Cuadros de una exposición",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "Funciones: 24/10 17:00",
+   "precio": "Consultar",
+   "descripcion": "Orquesta Académica del Teatro Colón",
+   "url": "https://teatrocolon.org.ar/produccion/cuadros-de-una-exposicion/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Búsqueda: festivales"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
    "titulo": "Cuanto Vale Tu Amor",
    "categoria": "Teatro",
    "lugar": "Teatro Colonial",
@@ -39963,6 +41681,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "DEFEST VOL. 11",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 18000",
+   "descripcion": "<p>Sábado 24/10 20 Hs. DEFEST VOL. 11 En Vivo: EL INVIERNO DE MOREL LOS DEFECTOS LAS FORMAS VIVAS After Party House of Gaming - 🎧 Igor Disorder Expo + Feria OH - Estomba 851 (CABA)</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/defest-vol-11/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
   },
   {
    "titulo": "DJ LA MALIBU-NOCHES DE SABADUKI",
@@ -40161,6 +41901,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Esas que no",
+   "categoria": "Teatro",
+   "lugar": "Teatro del Pueblo",
+   "barrio": "Almagro",
+   "direccion": "Lavalle 3636",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "Única función",
+   "precio": "Consultar",
+   "descripcion": "De Brenda Bonotto. Sainete musical sobre dos hermanas artistas en la Buenos Aires de 1937, con músicos en vivo.",
+   "url": "https://teatrodelpueblo.com.ar/esas-que-no-2/",
+   "dominio": "teatrodelpueblo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro del Pueblo",
+   "fuentes": [
+    "Teatro del Pueblo"
+   ],
+   "lat": -34.600335,
+   "lng": -58.416742
   },
   {
    "titulo": "Escuchas HiFi: Air, Moon Safari (1998)",
@@ -40383,29 +42145,6 @@
    "lng": ""
   },
   {
-   "titulo": "Filarmónica de Buenos Aires: Narrativa de la épica y el virtuosismo",
-   "categoria": "Música",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "20:00",
-   "horarios": "sáb 20:00 (el 24/10)",
-   "precio": "Consultar",
-   "descripcion": "Concierto de la Filarmónica de Buenos Aires.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales",
-    "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
-  },
-  {
    "titulo": "Guillotina 24 De Oct A Las 22 - De Pronto Flash + La Tasadora + No Incluye Beso",
    "categoria": "Teatro",
    "lugar": "Espacio Polonia",
@@ -40517,6 +42256,28 @@
    "lng": ""
   },
   {
+   "titulo": "Honey Bunny CICLO DE CINE",
+   "categoria": "Cine",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "$ 8000",
+   "descripcion": "<p>HALLOWEEN</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/honey-bunny-ciclo-de-cine/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Jaz Pimentel en La Tangente",
    "categoria": "Música",
    "lugar": "La Tangente",
@@ -40559,6 +42320,28 @@
    ],
    "lat": -34.599463,
    "lng": -58.364869
+  },
+  {
+   "titulo": "Julieta Otero- No me acuerdo las cosas.",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "18:00",
+   "horarios": "Funciones: 24/10 18:00, 31/10 18:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/julieta-otero-no-me-acuerdo-las-cosas/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Kenia, Dobao y Signo",
@@ -40737,6 +42520,28 @@
    "lng": -58.433201
   },
   {
+   "titulo": "La Valdenegro FIESTA",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 8000",
+   "descripcion": "",
+   "url": "https://otrahistoria.com.ar/evento/la-valdenegro-fiesta/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "La Última Patriada: Opereta Para Una Santa",
    "categoria": "Teatro",
    "lugar": "Departamento De Artes Dramáticas Una",
@@ -40826,6 +42631,29 @@
    "lng": -58.448137
   },
   {
+   "titulo": "MANIFIESTO – Concierto performático por Bruno Amalfitano",
+   "categoria": "Música",
+   "lugar": "LA SCALA DE SAN TELMO",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "sáb 20:00 (el 24/10)",
+   "precio": "AL SOBRE",
+   "descripcion": "MANIFIESTO Concierto performático por Bruno Amalfitano Bruno Amalfitano, piano SÁBADO 24 DE OCTUBRE – 20 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) AL SOBRE MANIFIESTO Concierto performático por Bruno Amalfitano Bruno Amalfitano, piano Participaciones especiales: Marcos Falaschi, piano Delfina Luz Saravia, danza Gastón Barroso, danza Adrián Noya, narración Sinopsis: Hay historias",
+   "url": "https://lascala.com.ar/evento/manifiesto-concierto-performatico-por-bruno-amalfitano/",
+   "dominio": "lascala.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA SCALA DE SAN TELMO",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Magnolia Cineclub presenta: Beetlejuice",
    "categoria": "Evento",
    "lugar": "FELIZA GAY & LESBIAN BAR",
@@ -40846,28 +42674,6 @@
    ],
    "lat": -34.597839,
    "lng": -58.412882
-  },
-  {
-   "titulo": "Manifiesto",
-   "categoria": "Teatro",
-   "lugar": "LA SCALA DE SAN TELMO",
-   "barrio": "San Telmo",
-   "direccion": "Giuffra, Jose M.,Dr. 371",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "20:00",
-   "horarios": "sáb 20:00 (el 24/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103137-manifiesto",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
   },
   {
    "titulo": "Maratón Bocetos guiados",
@@ -40958,6 +42764,28 @@
    "lng": ""
   },
   {
+   "titulo": "Mustafunk + O´funk´illo (España)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/mustafunk-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "Mustafunk + O´funk´illo en Niceto Club",
    "categoria": "Música",
    "lugar": "Niceto Club",
@@ -41000,6 +42828,52 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "NINETY 24 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/ninety-24-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
+   "titulo": "Narrativa de la épica y el virtuosismo",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "Funciones: 24/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "Filarmónica de Buenos Aires · Abono 16",
+   "url": "https://teatrocolon.org.ar/produccion/narrativa-de-la-epica-y-el-virtuosismo/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Búsqueda: festivales",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
   },
   {
    "titulo": "Nick Warren",
@@ -41132,28 +43006,6 @@
    ],
    "lat": -34.58006,
    "lng": -58.451008
-  },
-  {
-   "titulo": "Orquesta Académica: Cuadros de una exposición",
-   "categoria": "Música",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "17:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Concierto de la Orquesta Académica del Colón.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Búsqueda: festivales"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187
   },
   {
    "titulo": "OtraRonda Cantoras",
@@ -41397,6 +43249,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Que Xou da Xuxa é esse?",
+   "categoria": "Infantil",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Hay batallas que misteriosamente conviene perder. En 1991 me presenté para ser Paquita de Xuxa, la famosa conductora de programas infantiles de Brasil. Un tiempo después, corrió el rumor de que sus discos contenían mensajes satánicos. Entonces todo se conjuga: la pregunta sobre qué tipo de personajes estamos llamados a ser, el paso del tiempo en el cuerpo y cuáles son los pactos que una se atrever",
+   "url": "https://plantainclan.com/ticket/que-xou-da-xuxa-e-esse/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Raúl De María - Yungas (Música Pedemontana Jujeña)",
@@ -41841,6 +43715,28 @@
    "lng": -58.373277
   },
   {
+   "titulo": "UNPLUGGED de terror",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 6000",
+   "descripcion": "<p>U N P L U G G E D de terror🩸 SABADO 24/10 🎤@soyadamra / @danleyend_vh / @shon13x 🎧Dj residente @decimesiko 📌20 a 01hs en @elpatiodeestomba 🎟️Entrada por el link de la página de @otrahistoriaclubcultural 🕹️Invita: @club.houseofgaming</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/unplugged-de-terror/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Un Superamigo Imaginario",
    "categoria": "Teatro",
    "lugar": "La Galera Encantada",
@@ -41885,22 +43781,23 @@
    "lng": ""
   },
   {
-   "titulo": "Velvet Is Back",
+   "titulo": "Velvet is back! ✨",
    "categoria": "Fiestas y electrónica",
-   "lugar": "Otra Historia Club Cultural",
-   "barrio": "",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
    "direccion": "Estomba 851",
    "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
+   "fecha_fin": "2026-10-25",
    "hora": "23:59",
    "horarios": "Hasta las 06:00",
-   "precio": "Consultar",
-   "descripcion": "Line-up: ANDRES CAPRA, GEMMA",
-   "url": "https://ra.co/events/2546224",
-   "dominio": "ra.co",
+   "precio": "$ 14000",
+   "descripcion": "<p>House is back! 💿 Este sábado 24 de Octubre Velvet Is Back esta de vuelta en Otra Historia - Estomba 851 Nuestra fiesta under bimestral del house alternativo argentino va a estar presentando a Lucas Metz, Gemma y nuestro residente Andres Capra para completar una gran noche asegurada. Los esperamos para seguir compartiendo musica con...</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/velvet-is-back-%e2%9c%a8/",
+   "dominio": "otrahistoria.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "OTRA HISTORIA",
    "fuentes": [
+    "OTRA HISTORIA",
     "Resident Advisor: Buenos Aires"
    ],
    "lat": -34.583372,
@@ -42061,6 +43958,28 @@
    "lng": -58.356677
   },
   {
+   "titulo": "“NOCHE PICANTE Y RABIOSA” LOCAL FREAKS (tributo a Audioslave y Rage against the machine) + RED HOT CHIMICHURRIS (tributo a RHCP)",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta En Niceto Bar.",
+   "url": "https://venti.live/evento/noche-picante-y-rabiosa-local-freaks-tributo-a-audioslave-y-rage-against-the-machine-red-hot-chimichurris-tributo-a-rhcp-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
+  },
+  {
    "titulo": "A Ellas",
    "categoria": "Teatro",
    "lugar": "Nuevo Teatro Gargantúa",
@@ -42081,6 +44000,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "AUTODRAMAS",
+   "categoria": "Visita guiada",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "$ 12000",
+   "descripcion": "Autodramas es una sucesión de personajes o personas perdidas, amorfas que conviven entre sí porque no les queda otra. Es un recorrido itinerante por mundos personales que no busca tener coherencia, más si cohesión. Este trabajo surge del Laboratorio de Autodramaturgia brindado por Elisa Carricajo en el año 2025.",
+   "url": "https://plantainclan.com/ticket/autodramas/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Agus Gregoratti",
@@ -42171,6 +44112,28 @@
    "lng": ""
   },
   {
+   "titulo": "BRITPOP UP",
+   "categoria": "Música",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "<p>BRITPOP UP vuelve a Otra Historia Club Cultural con una nueva tarde de feria temática y mucha música. 📅 domingo 25 de octubre 🕠 desde las 17:30 hs La entrada es libre y gratuita. Durante toda la jornada vas a encontrar: feria de emprendimientos flash tattoo tarot acústicos en vivo de: Mateo y Nico de...</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/britpop-up-2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Bernarda Alba, epílogo de un drama",
    "categoria": "Teatro",
    "lugar": "Centro Salamanca",
@@ -42213,6 +44176,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Boom Boom Kid 25 OCT",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Club.",
+   "url": "https://venti.live/evento/boom-boom-kid-25-oct-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "Bowie, el Picasso del rock: modos de ver y oír a un adicto al futuro",
@@ -42435,7 +44420,7 @@
    "lng": ""
   },
   {
-   "titulo": "Concierto entre almohadones",
+   "titulo": "Concierto entre almohadones Cartas que cantan, aventuras líricas en el altillo",
    "categoria": "Infantil",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
@@ -42443,14 +44428,15 @@
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "11:00",
-   "horarios": "",
+   "horarios": "Funciones: 25/10 11:00",
    "precio": "Consultar",
-   "descripcion": "Concierto para la primera infancia.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Colón para niños",
+   "url": "https://teatrocolon.org.ar/produccion/concierto-entre-almohadones-cartas-que-cantan-aventuras-liricas-en-el-altillo/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Búsqueda: festivales"
    ],
    "lat": -34.601086,
@@ -42810,6 +44796,28 @@
    "lng": -58.378773
   },
   {
+   "titulo": "José Luis Juri: recital de piano",
+   "categoria": "Música",
+   "lugar": "USINA DEL ARTE · Sala de Cámara",
+   "barrio": "La Boca",
+   "direccion": "Agustín R. Caffarena 1",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo Música de Cámara. Obras de Claude Debussy. Entradas desde las 11 h.",
+   "url": "https://usinadelarte.ar/actividad/jose-luis-jurirecital-de-piano/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": -34.628924,
+   "lng": -58.356397
+  },
+  {
    "titulo": "Juego del tiempo",
    "categoria": "Teatro",
    "lugar": "EL GALPON DE GUEVARA",
@@ -42855,6 +44863,29 @@
    "lng": ""
   },
   {
+   "titulo": "LOLAMORA TANGO",
+   "categoria": "Música",
+   "lugar": "LA SCALA DE SAN TELMO",
+   "barrio": "San Telmo",
+   "direccion": "Giuffra, Jose M.,Dr. 371",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "dom 17:00 (el 25/10)",
+   "precio": "AL SOBRE",
+   "descripcion": "LOLAMORA TANGO DOMINGO 25 DE OCTUBRE – 17 hs Pasaje Giuffra 371- San Telmo ( entre Defensa y Balcarce) AL SOBRE LOLAMORA TANGO encuentra su identidad de «Tango Nuevo» en las composiciones de Astor Piazzolla para luego volcarse en las creaciones de los nuevos compositores Argentinos como Sonia Possetti, Andrés Linetzky y Ramiro Gallo, alimentando un repertorio único y original en las fronteras del",
+   "url": "https://lascala.com.ar/evento/lolamora-tango-7/",
+   "dominio": "lascala.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA SCALA DE SAN TELMO",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "La Milonga del CC25",
    "categoria": "Música",
    "lugar": "Centro Cultural 25 de Mayo",
@@ -42878,21 +44909,22 @@
   },
   {
    "titulo": "La Papa",
-   "categoria": "Teatro",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-11-29",
    "hora": "12:00",
-   "horarios": "dom 12:00 (del 25/10 al 29/11)",
+   "horarios": "Funciones: 25/10 12:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra77633-la-papa",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1077-la-papa.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -42985,28 +45017,6 @@
    ],
    "lat": -34.599689,
    "lng": -58.374353
-  },
-  {
-   "titulo": "Lolamora Tango",
-   "categoria": "Música",
-   "lugar": "LA SCALA DE SAN TELMO",
-   "barrio": "San Telmo",
-   "direccion": "Giuffra, Jose M.,Dr. 371",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-25",
-   "hora": "17:00",
-   "horarios": "dom 17:00 (el 25/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: tango",
-   "url": "https://www.alternativateatral.com/obra93541-lolamora-tango",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": "",
-   "lng": ""
   },
   {
    "titulo": "Lucía En Kamishibai",
@@ -43141,22 +45151,23 @@
    "lng": ""
   },
   {
-   "titulo": "Nadie Me Llamaría Para Esto",
-   "categoria": "Teatro",
+   "titulo": "Nadie me llamaría para esto",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "19:00",
-   "horarios": "dom 19:00 (el 25/10)",
+   "horarios": "Funciones: 25/10 19:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101305-nadie-me-llamaria-para-esto",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1253-nadie-me-llamaria-para-esto.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -43471,6 +45482,28 @@
    "lng": -58.432972
   },
   {
+   "titulo": "Todos los días desde ese día",
+   "categoria": "Evento",
+   "lugar": "Timbre 4",
+   "barrio": "Boedo",
+   "direccion": "México 3554",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "",
+   "hora": "16:00",
+   "horarios": "Funciones: 25/10 16:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.timbre4.com/teatro/1242-todos-los-dias-desde-ese-dia-.html",
+   "dominio": "timbre4.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Timbre 4",
+   "fuentes": [
+    "Timbre 4"
+   ],
+   "lat": -34.619827,
+   "lng": -58.415942
+  },
+  {
    "titulo": "Toothbrush",
    "categoria": "Teatro",
    "lugar": "Espacio Gadí",
@@ -43603,22 +45636,23 @@
    "lng": ""
   },
   {
-   "titulo": "Vayven",
-   "categoria": "Teatro",
+   "titulo": "VayVen",
+   "categoria": "Evento",
    "lugar": "Timbre 4",
    "barrio": "Boedo",
    "direccion": "México 3554",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "11:00",
-   "horarios": "dom 11:00 (el 25/10)",
+   "horarios": "Funciones: 25/10 11:00",
    "precio": "Consultar",
    "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra66202-vayven",
-   "dominio": "alternativateatral.com",
+   "url": "https://www.timbre4.com/teatro/1188-vayven.html",
+   "dominio": "timbre4.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Timbre 4",
    "fuentes": [
+    "Timbre 4",
     "Alternativa Teatral"
    ],
    "lat": -34.619827,
@@ -43868,7 +45902,7 @@
    "lng": ""
   },
   {
-   "titulo": "Freddie De Tommaso y Nadine Sierra (ciclo Aura)",
+   "titulo": "Gala Lírica Freddie De Tommaso y Nadine Sierra – artista invitada",
    "categoria": "Música",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
@@ -43876,14 +45910,15 @@
    "fecha_inicio": "2026-10-26",
    "fecha_fin": "2026-10-26",
    "hora": "20:00",
-   "horarios": "lun 20:00 (el 26/10)",
+   "horarios": "Funciones: 26/10 20:00",
    "precio": "Consultar",
-   "descripcion": "El tenor y la soprano cierran el mes del ciclo Aura.",
-   "url": "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Aura",
+   "url": "https://teatrocolon.org.ar/produccion/aura-freddie-de-tommaso-y-nadine-sierra/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Búsqueda: festivales",
     "Vidriera BA",
     "Alternativa Teatral"
@@ -44024,22 +46059,23 @@
    "lng": -58.387647
   },
   {
-   "titulo": "Franco Rizzaro en Niceto Club",
+   "titulo": "Franco Rizzaro",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
    "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-27",
    "fecha_fin": "2026-10-27",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/franco-rizzaro-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Concierto. Solo mayores de 18. En Niceto Club.",
+   "url": "https://venti.live/evento/franco-rizzaro-en-niceto-club",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.587411,
@@ -44112,8 +46148,52 @@
    "lng": -58.380934
   },
   {
-   "titulo": "Mentes Expertas Nathaly Marcus",
-   "categoria": "Evento",
+   "titulo": "La vida extraordinaria",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "Funciones: 27/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/la-vida-extraordinaria/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Livre Fiesta",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "<p>Todos los martes LIVRE!!! hay Open Mic, Jam de Dibujo, Feria, Flash Tattoo, videojuegos y 10 shows en vivo por semana! 2 pistas, 2 Dj´s y la mejor fiesta de hiphop de Buenos Aires 🎤🔥</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/livre-fiesta-3-2/2026-10-27/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
+   "titulo": "Mentes Expertas: Nathaly Marcus",
+   "categoria": "Literatura y charlas",
    "lugar": "Teatro Coliseo",
    "barrio": "Retiro",
    "direccion": "Marcelo T. de Alvear 1125",
@@ -44121,13 +46201,14 @@
    "fecha_fin": "2026-10-27",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $ 45200",
-   "descripcion": "",
-   "url": "https://www.ticketek.com.ar/mentes-expertas-nathaly-marcus/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
+   "precio": "Consultar",
+   "descripcion": "Charla interactiva de la nutrióloga Nathaly Marcus sobre longevidad, salud intestinal y nutrición integrativa.",
+   "url": "https://www.teatrocoliseo.org.ar/mentes-expertas-nathaly-marcus-martes-27-de-octubre-20h-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Ticketek"
    ],
    "lat": -34.596736,
@@ -44354,6 +46435,28 @@
    "lng": -58.487613
   },
   {
+   "titulo": "El Brote",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Santos Discépolo 1857",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "Funciones: 28/10 20:00",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.teatropicadero.com.ar/obra/el-brote/",
+   "dominio": "teatropicadero.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Picadero",
+   "fuentes": [
+    "Teatro Picadero"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "FESTIVAL BITBANG: LA HUELLA DE ORO (PROYECCIÓN + Q&A) (Daniel Duche, Soledad Yáñez)",
    "categoria": "Cine",
    "lugar": "CENTRO CULTURAL BORGES",
@@ -44576,6 +46679,28 @@
    "lng": -58.449904
   },
   {
+   "titulo": "Nahuel Di Pierro (bajo) y Fernando Pérez (piano)",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "Funciones: 28/10 19:00",
+   "precio": "Consultar",
+   "descripcion": "Canción de Cámara",
+   "url": "https://teatrocolon.org.ar/produccion/nahuel-di-pierro-bajo-y-fernando-perez-piano/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187
+  },
+  {
    "titulo": "Nicola Feruglio DIMENSIONES AURORALES (Ed. Dunken) presentación del libro",
    "categoria": "Literatura y charlas",
    "lugar": "Menéndez Libros",
@@ -44663,6 +46788,28 @@
    ],
    "lat": -34.614179,
    "lng": -58.379462
+  },
+  {
+   "titulo": "ALGO ENTRE NOSOTROS",
+   "categoria": "Teatro",
+   "lugar": "Planta Inclán",
+   "barrio": "Parque Patricios",
+   "direccion": "Inclán 2661",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "ALGO ENTRE NOSOTROS es una obra escénica a partir de los lenguajes del Hip hop y el Popping, que explora la tensión entre lo colectivo y lo individual. Entre la pertenencia y la soledad. Entre el cuerpo que se sostiene en otrxs y el cuerpo que se observa en sí mismo. Esta obra es, en esencia, una práctica escénica sobre la presencia: un cuerpo que se agrupa, se dispersa, se expande y se recoge. Un",
+   "url": "https://plantainclan.com/ticket/algo-entre-nosotros/",
+   "dominio": "plantainclan.com",
+   "estado": "Próximo",
+   "lugar_verificado": "Planta Inclán",
+   "fuentes": [
+    "Planta Inclán"
+   ],
+   "lat": -34.630001,
+   "lng": -58.401728
   },
   {
    "titulo": "Acúfenos (la frecuencia del fin)",
@@ -44753,6 +46900,28 @@
    "lng": -58.374434
   },
   {
+   "titulo": "El movimiento",
+   "categoria": "Teatro",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-12-13",
+   "hora": "21:00",
+   "horarios": "De jueves a domingo a las 21 h",
+   "precio": "Consultar",
+   "descripcion": "Escrita y dirigida por Javier Daulte. Estreno el 29 de octubre.",
+   "url": "https://www.teatrocervantes.gob.ar/obra/el-movimiento/",
+   "dominio": "teatrocervantes.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Nacional Cervantes",
+   "fuentes": [
+    "Teatro Nacional Cervantes"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983
+  },
+  {
    "titulo": "Fabrizio Calabrese (abre Faraday)",
    "categoria": "Música",
    "lugar": "CULTURAL MORAN",
@@ -44841,6 +47010,28 @@
    "lng": -58.394459
   },
   {
+   "titulo": "MARCELO TOLEDO DE PEÑA!",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Humboldt",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto. Solo mayores de 18. En Humboldt | Niceto Club.",
+   "url": "https://venti.live/evento/marcelo-toledo-de-pe-a-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Manu Navarro y amigos",
    "categoria": "Música",
    "lugar": "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
@@ -44885,6 +47076,28 @@
    "lng": -58.433201
   },
   {
+   "titulo": "Oíd Mortales",
+   "categoria": "Festival",
+   "lugar": "OTRA HISTORIA",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 13000",
+   "descripcion": "<p>festival cultural que celebra la potencia y vitalidad del rock y el pop nacional. Toda la propuesta está atravesada por el concepto del viaje: proponemos una experiencia, que rinde homenaje a los paisajes, la cultura y la diversidad de la Ruta 40. Más allá de lo musical, el evento asume un compromiso social innegociable. Utilizamos...</p>\\n",
+   "url": "https://otrahistoria.com.ar/evento/oid-mortales/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665
+  },
+  {
    "titulo": "Pablo Dacal presenta El Otro",
    "categoria": "Música",
    "lugar": "CENTRO CULTURAL RICARDO ROJAS",
@@ -44905,6 +47118,28 @@
    ],
    "lat": -34.604892,
    "lng": -58.395876
+  },
+  {
+   "titulo": "Pepechet y Soldana",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto En Niceto Bar.",
+   "url": "https://venti.live/evento/pepechet-y-soldana-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913
   },
   {
    "titulo": "SOL BASSA - CIRUELO - MOSTRUO",
