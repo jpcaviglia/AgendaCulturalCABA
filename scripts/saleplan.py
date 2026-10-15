@@ -33,6 +33,7 @@ from sondear import PAUSA, pedir
 ID = "saleplan-agenda-de-ciudad-de-buenos-aires"
 LISTADO = "https://saleplan.ar/buenos-aires/eventos?page={}"
 TMP = CRAWL / "tmp"
+REINTENTOS, ESPERA_REINTENTO = 4, 15
 MAX_EDAD_DIAS = 10  # igual que armar_agenda.py: capturas más viejas no cuentan como "ya cubierto"
 MESES = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8, "sep": 9, "set": 9,
          "oct": 10, "nov": 11, "dic": 12}
@@ -95,12 +96,18 @@ def leer_listado(desde, hasta, max_paginas):
     vistas, urls = {}, []
     for n in range(1, max_paginas + 1):
         url = LISTADO.format(n)
-        est, _, html, nota = pedir(url)
-        if est != 200 or not html:
-            print(f"  página {n}: {est} {nota}")
-            if n == 1:
-                sys.exit("No se pudo leer el listado de SalePlan: queda para el navegador.")
+        for intento in range(REINTENTOS):
+            est, _, html, nota = pedir(url)
+            if (est == 200 and html) or est == 404:
+                break
+            print(f"  página {n}: {est} {nota}; reintento en {ESPERA_REINTENTO} s")
+            time.sleep(ESPERA_REINTENTO)
+        if est == 404 and n > 1:  # se terminó el listado
             break
+        if est != 200 or not html:
+            # Un corte a mitad del listado no es el final: guardar lo leído reemplazaría la captura con una parte.
+            sys.exit(f"No se pudo leer la página {n} del listado de SalePlan ({est} {nota}): no se guarda nada. "
+                     "Volver a correrlo más tarde (o, si sigue fallando, abrir las entradas en el navegador).")
         urls.append(url)
         nuevas = [c for c in tarjetas(html) if c["id"] not in vistas]
         for c in nuevas:
@@ -168,10 +175,13 @@ def main():
     max_paginas = int(sys.argv[sys.argv.index("--max-paginas") + 1]) if "--max-paginas" in sys.argv else 150
     desde, hasta = ventana()
     todas, urls = leer_listado(desde, hasta, max_paginas)
-    caba = [c for c in todas if c["localidad"] == "CABA" and c["fecha"] and desde <= c["fecha"] <= hasta
-            and not c["terminada"]]
+    # Una tarjeta con fecha anterior a hoy y sin "Función terminada" es algo en curso (visitas guiadas, muestras,
+    # shows diarios): SalePlan le pone el día en que empezó a listarla. Cuenta como vigente hoy.
+    caba = [c for c in todas if c["localidad"] == "CABA" and c["fecha"] and c["fecha"] <= hasta and not c["terminada"]]
+    for c in caba:
+        c["en_curso"] = c["fecha"] < desde
     idx = indice_otras_fuentes(desde, hasta)
-    nuevas = [c for c in caba if not cubierto(c, idx)]
+    nuevas = [c for c in caba if not cubierto({**c, "fecha": max(c["fecha"], desde)}, idx)]
     barrios = nombres_barrio()
     # Lo que ya se sabía de fichas abiertas antes (lugar, dirección, precio) se conserva por URL.
     previa = {_id_plan(e.get("url", "")): e for e in (leer_json(CAPTURAS / f"{ID}.web.json") or {}).get("eventos", [])}
@@ -180,24 +190,27 @@ def main():
     for c in nuevas:
         b = c["barrio_slug"]
         barrio = "" if b in SIN_BARRIO else barrios.get(b, b.replace("-", " ").title())
-        e = {"titulo": c["titulo"], "fecha_inicio": c["fecha"], "fecha_fin": c["fecha"], "hora": c["hora"],
-             "lugar": "", "barrio": barrio, "categoria": c["categoria"], "url": c["url"],
-             "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."}
+        e = {"titulo": c["titulo"], "fecha_inicio": c["fecha"], "fecha_fin": desde if c["en_curso"] else c["fecha"],
+             "hora": "" if c["en_curso"] else c["hora"], "lugar": "", "barrio": barrio, "categoria": c["categoria"],
+             "url": c["url"], "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."}
         vieja = previa.get(c["id"])
         if vieja and vieja.get("lugar"):
-            for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora"):
+            for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora", "horarios"):
                 if vieja.get(k):
                     e[k] = vieja[k]
+            # La ficha trae el rango real de lo que está en curso (la tarjeta, solo el primer día).
+            if c["en_curso"] and (vieja.get("fecha_fin") or "") >= desde:
+                e["fecha_inicio"], e["fecha_fin"] = vieja["fecha_inicio"], vieja["fecha_fin"]
         elif not barrio and not c["hora"]:
             fichas.append(c["url"])
         eventos.append(e)
 
     # Muestras y funciones de larga duración que empezaron antes de hoy: la tarjeta queda fuera de la ventana,
     # pero la captura anterior (de fichas) traía el rango. Se conservan mientras sigan vigentes.
-    en_listado = {c["id"] for c in todas}
+    guardados = {c["id"] for c in nuevas}
     for pid, e in previa.items():
         fin = e.get("fecha_fin") or e["fecha_inicio"]
-        if (pid and pid not in en_listado and e.get("lugar") and fin >= desde and fin > e["fecha_inicio"]
+        if (pid and pid not in guardados and e.get("lugar") and fin >= desde and fin > e["fecha_inicio"]
                 and not cubierto({"titulo": e["titulo"], "fecha": max(e["fecha_inicio"], desde)}, idx)):
             eventos.append(e)
 

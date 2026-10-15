@@ -101,19 +101,148 @@
 
     const sinPrecio = !e.precio || e.precio === "Consultar";
     const textoPrecio = e.precio === "Gratis" ? "Entrada libre" : sinPrecio ? "Consultar precio" : e.precio;
+    const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
     const pie = crear("div", { class: "pie-tarjeta" }, [
       crear("span", { class: "dato" }, [document.createTextNode(textoPrecio)]),
-      e.url ? enlaceExterno(e.url, "Ver en el sitio →") : null,
+      crear("div", { class: "acciones" }, [menuCalendario(e), masInfo]),
     ]);
 
-    const detalle = e.descripcion
-      ? crear("details", { class: "detalle" }, [
-          crear("summary", {}, [document.createTextNode("Más información")]),
-          crear("p", {}, [document.createTextNode(e.descripcion)]),
-        ])
-      : null;
+    return crear("li", { class: "tarjeta" }, [etiquetas, titulo, lugar, ubicacion, cuando, horario, pie]);
+  }
 
-    return crear("li", { class: "tarjeta" }, [etiquetas, titulo, lugar, ubicacion, cuando, horario, detalle, pie]);
+  const boton = (texto, clase, alHacerClic) => {
+    const b = crear("button", { type: "button", class: clase }, [document.createTextNode(texto)]);
+    b.addEventListener("click", alHacerClic);
+    return b;
+  };
+
+  // ---- "+ info": la ficha del evento dentro de la página ----
+  // Solo se usa el iframe con los sitios que lo permiten (scripts/embebibles.py los prueba al armar la agenda);
+  // con los demás se ve en blanco, así que se muestra la descripción y el enlace.
+  function abrirPanel(e, fechas) {
+    $("panel-titulo").textContent = e.titulo;
+    $("panel-datos").textContent = [e.lugar || "Lugar a confirmar", fechas].join(" · ");
+    $("panel-descripcion").textContent = e.descripcion || "";
+    $("panel-descripcion").hidden = !e.descripcion;
+    const marco = $("panel-marco");
+    marco.replaceChildren();
+    if (e.url && e.embebible) {
+      marco.append(crear("iframe", {
+        src: e.url, title: `Sitio del evento: ${e.titulo}`, loading: "lazy", referrerpolicy: "no-referrer",
+        sandbox: "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox",
+      }));
+    }
+    marco.hidden = !(e.url && e.embebible);
+    $("panel-aviso").textContent = !e.url ? ""
+      : e.embebible ? "Si la página no carga, abrila en su sitio."
+      : "Este sitio no se deja mostrar dentro de la agenda: abrilo en una pestaña nueva.";
+    $("panel-aviso").hidden = !e.url;
+    $("panel-pie").replaceChildren(
+      menuCalendario(e),
+      e.url ? enlaceExterno(e.url, "Abrir en el sitio ↗", "boton boton-principal") : null,
+    );
+    $("panel-info").classList.toggle("con-marco", Boolean(e.url && e.embebible));
+    $("panel-info").showModal();
+  }
+
+  function cerrarPanel() {
+    const panel = $("panel-info");
+    if (panel.open) panel.close();
+  }
+
+  function iniciarPanel() {
+    const panel = $("panel-info");
+    $("panel-cerrar").addEventListener("click", cerrarPanel);
+    // Clic en el fondo (fuera del cuadro) también cierra.
+    panel.addEventListener("click", (ev) => { if (ev.target === panel) cerrarPanel(); });
+    // Al cerrar se descarga la página del iframe (que no siga sonando un video, por ejemplo).
+    panel.addEventListener("close", () => $("panel-marco").replaceChildren());
+  }
+
+  // ---- Agregar al calendario (Google Calendar o archivo .ics) ----
+  // Horas en Buenos Aires (UTC-3 todo el año). Se agenda un solo día: el primero que no pasó (en obras con
+  // varias funciones o muestras largas, todas las fechas van en la descripción). Con hora: 2 h; sin hora: día completo.
+  const ZONA = "America/Argentina/Buenos_Aires";
+  const compacta = (iso) => iso.replaceAll("-", "");
+  const sumarDias = (iso, n) => {
+    const [a, m, d] = iso.split("-").map(Number);
+    const f = new Date(Date.UTC(a, m - 1, d + n));
+    return f.toISOString().slice(0, 10);
+  };
+  const hoyIso = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+
+  function rangoCalendario(e) {
+    const inicio = e.fecha_inicio > hoyIso() ? e.fecha_inicio : hoyIso();
+    const primera = (e.hora || (e.horarios || "").match(/\b([01]?\d|2[0-3]):[0-5]\d\b/)?.[0] || "").padStart(5, "0");
+    if (/^\d\d:\d\d$/.test(primera)) {
+      const [h, m] = primera.split(":").map(Number);
+      const desde = new Date(Date.UTC(...inicio.split("-").map((x, i) => (i === 1 ? x - 1 : +x)), h + 3, m));
+      const hasta = new Date(desde.getTime() + 2 * 3600e3);
+      const utc = (f) => f.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+      return { conHora: true, desde: utc(desde), hasta: utc(hasta) };
+    }
+    return { conHora: false, desde: compacta(inicio), hasta: compacta(sumarDias(inicio, 1)) };
+  }
+
+  const lugarCalendario = (e) =>
+    [e.lugar, e.direccion, e.barrio, "Buenos Aires"].filter(Boolean).join(", ");
+  const detalleCalendario = (e) =>
+    [e.horarios, e.descripcion, e.url].filter(Boolean).join("\n\n");
+
+  function enlaceGoogle(e) {
+    const r = rangoCalendario(e);
+    const p = new URLSearchParams({
+      action: "TEMPLATE", text: e.titulo, dates: `${r.desde}/${r.hasta}`,
+      details: detalleCalendario(e), location: lugarCalendario(e), ctz: ZONA,
+    });
+    return `https://calendar.google.com/calendar/render?${p}`;
+  }
+
+  // Texto de un campo .ics: se escapan \ ; , y los saltos de línea; las líneas largas se pliegan (RFC 5545).
+  const escaparIcs = (t) => (t || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  const BYTES = new TextEncoder();
+  const plegar = (linea) => {
+    const partes = [];
+    let actual = "";
+    for (const c of linea) {
+      if (BYTES.encode(actual + c).length > (partes.length ? 74 : 75)) { partes.push(actual); actual = ""; }
+      actual += c;
+    }
+    return [...partes, actual].join("\r\n ");
+  };
+
+  function descargarIcs(e) {
+    const r = rangoCalendario(e);
+    const sello = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+    const uid = `${compacta(e.fecha_inicio)}-${normalizar(e.titulo).replace(/[^a-z0-9]+/g, "-").slice(0, 40)}@agenda-cultural-caba`;
+    const fecha = (campo, valor) => (r.conHora ? `${campo}:${valor}` : `${campo};VALUE=DATE:${valor}`);
+    const lineas = [
+      "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Agenda Cultural CABA//ES", "CALSCALE:GREGORIAN",
+      "BEGIN:VEVENT", `UID:${uid}`, `DTSTAMP:${sello}`, fecha("DTSTART", r.desde), fecha("DTEND", r.hasta),
+      `SUMMARY:${escaparIcs(e.titulo)}`, `LOCATION:${escaparIcs(lugarCalendario(e))}`,
+      `DESCRIPTION:${escaparIcs(detalleCalendario(e))}`, e.url ? `URL:${e.url}` : null,
+      "END:VEVENT", "END:VCALENDAR",
+    ].filter(Boolean).map(plegar);
+    const archivo = new Blob([lineas.join("\r\n") + "\r\n"], { type: "text/calendar;charset=utf-8" });
+    const enlace = crear("a", { href: URL.createObjectURL(archivo), download: `${uid.split("@")[0]}.ics` });
+    document.body.append(enlace);
+    enlace.click();
+    enlace.remove();
+    setTimeout(() => URL.revokeObjectURL(enlace.href), 1000);
+  }
+
+  function menuCalendario(e) {
+    const ics = boton("Descargar .ics (Apple, Outlook…)", "opcion-menu", () => descargarIcs(e));
+    const menu = crear("details", { class: "menu-calendario" }, [
+      crear("summary", { class: "boton" }, [document.createTextNode("Agendar")]),
+      crear("div", { class: "opciones-menu" }, [
+        enlaceExterno(enlaceGoogle(e), "Google Calendar", "opcion-menu"),
+        ics,
+      ]),
+    ]);
+    // Elegir una opción cierra el menú.
+    menu.addEventListener("click", (ev) => { if (ev.target.classList.contains("opcion-menu")) menu.open = false; });
+    return menu;
   }
 
   function renderEventos() {
@@ -320,6 +449,11 @@
 
   async function iniciar() {
     window.addEventListener("hashchange", mostrarVista);
+    iniciarPanel();
+    // Un menú "Agendar" abierto se cierra al tocar en otro lado.
+    document.addEventListener("click", (ev) => {
+      for (const m of document.querySelectorAll(".menu-calendario[open]")) if (!m.contains(ev.target)) m.open = false;
+    });
     // Al volver con "atrás" o recargar, el navegador puede devolverle valores a los campos sin avisarle a la página.
     window.addEventListener("pageshow", () => { if (eventos.length) renderEventos(); });
     mostrarVista();

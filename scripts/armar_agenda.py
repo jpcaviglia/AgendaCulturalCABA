@@ -22,7 +22,7 @@ MAX_EDAD_DIAS = 10
 # Instagram se rota entre corridas por su límite de ritmo, así que sus capturas duran más.
 MAX_EDAD_DIAS_INSTAGRAM = 21
 CAMPOS_PUBLICOS = ("titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
-                   "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng")
+                   "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng", "embebible")
 TIPO_DEDUP = {"lugar": "sitio", "galeria": "sitio", "agregador": "agregador", "descubrimiento": "agregador"}
 # Estado del rastreo web -> estado que muestra la pestaña Lugares (assets/app.js).
 ESTADO_LUGAR = {
@@ -129,6 +129,16 @@ def main():
     else:
         from geocodificar import ubicar_con_cache
         ubicar_con_cache(eventos, lugares)
+    if not simular and "--sin-geo" not in sys.argv:
+        from embebibles import marcar
+        probados = marcar(eventos)
+        print(f"Iframe: {sum(1 for e in eventos if e['embebible'])} de {len(eventos)} eventos se pueden abrir en la página "
+              f"({probados} dominios probados)")
+    else:
+        from embebibles import CACHE
+        cache = leer_json(CACHE, {})
+        for e in eventos:
+            e["embebible"] = bool(cache.get(e.get("dominio", ""), {}).get("ok"))
     eventos = [{k: e.get(k, "") for k in CAMPOS_PUBLICOS} for e in eventos]
 
     por_cat = {}
