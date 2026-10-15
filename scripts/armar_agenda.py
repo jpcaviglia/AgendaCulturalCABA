@@ -1,14 +1,14 @@
-"""Arma data/eventos.json con las capturas del rastreo con navegador (data/crawl/capturas). No rastrea nada.
+"""Builds data/eventos.json from the browser crawl captures (data/crawl/capturas). It does not crawl anything.
 
-Uso:
-    python scripts/armar_agenda.py            # arma eventos.json (y ubica en el mapa las direcciones nuevas)
-    python scripts/armar_agenda.py --sin-geo  # sin consultar direcciones nuevas a OpenStreetMap
-    python scripts/armar_agenda.py --simular  # muestra el resultado sin escribir
+Usage:
+    python scripts/armar_agenda.py            # builds eventos.json (and places new addresses on the map)
+    python scripts/armar_agenda.py --sin-geo  # without querying new addresses on OpenStreetMap
+    python scripts/armar_agenda.py --simular  # shows the result without writing
 
-Toma la última captura de cada sitio y canal, se queda con lo que cae en la ventana de 14 días, clasifica,
-quita duplicados entre fuentes y actualiza el estado de cada lugar en data/lugares.json según el rastreo.
-Las capturas de más de MAX_EDAD_DIAS se ignoran: si un sitio no se pudo volver a rastrear, sus eventos
-viejos se mantienen unos días y después se caen solos.
+It takes the latest capture of each site and channel, keeps what falls inside the 14-day window, classifies,
+removes duplicates between sources and updates the status of each venue in data/lugares.json according to
+the crawl. Captures older than MAX_EDAD_DIAS are ignored: if a site could not be crawled again, its old
+events are kept for a few days and then drop out by themselves.
 """
 import hashlib
 import sys
@@ -20,12 +20,12 @@ from deduplicar import deduplicar
 
 SALIDA = DATOS / "eventos.json"
 MAX_EDAD_DIAS = 10
-# Instagram se rota entre corridas por su límite de ritmo, así que sus capturas duran más.
+# Instagram is rotated between runs because of its rate limit, so its captures last longer.
 MAX_EDAD_DIAS_INSTAGRAM = 21
 CAMPOS_PUBLICOS = ("id", "titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
                    "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng", "embebible")
 TIPO_DEDUP = {"lugar": "sitio", "galeria": "sitio", "agregador": "agregador", "descubrimiento": "agregador"}
-# Estado del rastreo web -> estado que muestra la pestaña Lugares (assets/app.js).
+# Web crawl status -> status shown in the Lugares tab (assets/app.js).
 ESTADO_LUGAR = {
     "con_eventos": "Tiene sección de agenda",
     "sin_eventos": "Tiene sección de agenda",
@@ -43,12 +43,12 @@ def en_ventana(e, desde, hasta):
         return False
     if ini >= desde:
         return True
-    # Ya empezó: sigue si tiene fin vigente, o si la fuente lo publica como vigente sin fecha de fin.
+    # Already started: continues if it has a current end date, or if the source publishes it as current with no end date.
     return fin >= desde if fin else bool(e.get("vigente_sin_fin"))
 
 
 def leer_capturas():
-    """Devuelve (eventos_crudos, capturas_usadas, capturas_viejas)."""
+    """Returns (raw_events, captures_used, old_captures)."""
     crudos, usadas, viejas = [], [], []
     for ruta in sorted(CAPTURAS.glob("*.json")):
         cap = leer_json(ruta)
@@ -63,7 +63,7 @@ def leer_capturas():
         for e in cap.get("eventos", []):
             e = dict(e)
             e["fuentes"] = [cap["fuente"]]
-            # El Instagram de un lugar es fuente propia; el de un agregador sigue siendo agregador.
+            # A venue's Instagram is its own source; an aggregator's Instagram is still an aggregator.
             tipo = TIPO_DEDUP.get(cap.get("tipo"), "sitio")
             e["_tipo"] = "instagram" if cap["canal"] == "instagram" and tipo == "sitio" else tipo
             e["_tipo_sitio"] = cap.get("tipo")
@@ -73,11 +73,12 @@ def leer_capturas():
 
 
 def id_estable(e):
-    """Identificador que se mantiene entre corridas (la web guarda los favoritos con él). Sale del título y el
-    lugar; en un evento de un solo día también de la fecha (dos recitales del mismo ciclo son eventos distintos),
-    pero no en una obra o muestra con varias fechas, que siguen siendo la misma aunque cambie la primera."""
+    """Identifier that stays the same between runs (the website saves favorites with it). It comes from the title
+    and the venue; for a single-day event also from the date (two concerts of the same series are different
+    events), but not for a play or exhibition with several dates, which remain the same one even if the
+    first date changes."""
     from deduplicar import norm_lugar, norm_titulo
-    # Hasta 2 días cuenta como un solo día: una fiesta que termina de madrugada viene como "del 20 al 21".
+    # Up to 2 days counts as a single day: a party that ends at dawn comes as "del 20 al 21".
     fin = e.get("fecha_fin") or e["fecha_inicio"]
     un_dia = (date.fromisoformat(fin) - date.fromisoformat(e["fecha_inicio"])).days <= 1
     base = f"{norm_titulo(e['titulo'])}|{norm_lugar(e.get('lugar', ''))}|{e['fecha_inicio'] if un_dia else ''}"
@@ -85,9 +86,9 @@ def id_estable(e):
 
 
 def unir_temporadas(eventos, fusionar):
-    """Une la misma obra o muestra (mismo título y lugar, fechas que se superponen) que dos fuentes publican con
-    distinto día de inicio ("Santos Vega" desde el 3/9 y desde el 15/10): la deduplicación por día no las junta.
-    Queda el primer día y el último. Devuelve (eventos, unidos)."""
+    """Merges the same play or exhibition (same title and venue, overlapping dates) that two sources publish with
+    a different start day ("Santos Vega" from 3/9 and from 15/10): per-day deduplication does not join them.
+    The first day and the last one are kept. Returns (events, merged)."""
     grupos = {}
     for e in eventos:
         if e.get("fecha_fin") and (date.fromisoformat(e["fecha_fin"]) - date.fromisoformat(e["fecha_inicio"])).days > 1:
@@ -121,7 +122,7 @@ def _unir(grupo, fusionar, sobran):
 
 
 def completar_lugar(e, lugares_por_nombre):
-    """Barrio y dirección desde lugares.json cuando el evento no los trae."""
+    """Neighborhood and address from lugares.json when the event does not bring them."""
     l = lugares_por_nombre.get(sin_tildes(e.get("lugar", "")))
     if l:
         e["barrio"] = e.get("barrio") or l.get("barrio", "")
@@ -129,7 +130,7 @@ def completar_lugar(e, lugares_por_nombre):
 
 
 def actualizar_lugares(lugares, sitios, usadas):
-    """El estado de cada lugar en la pestaña Lugares sale del último rastreo de su web."""
+    """The status of each venue in the Lugares tab comes from the last crawl of its website."""
     por_id = {s["id"]: s for s in sitios}
     cambios = 0
     estado_por_lugar = {}
@@ -164,7 +165,7 @@ def main():
         e["categoria"] = clasificar(categoria, e["titulo"], e.get("descripcion", ""), e.get("url", ""))
         e["precio"] = e.get("precio") or "Consultar"
     eventos, duplicados = deduplicar(crudos)
-    # Pares que el agente revisó y marcó como el mismo evento (scripts/duplicados.py).
+    # Pairs the agent reviewed and marked as the same event (scripts/duplicados.py).
     from deduplicar import fusionar
     from duplicados import aplicar_iguales
     eventos, revisados = aplicar_iguales(eventos, fusionar)

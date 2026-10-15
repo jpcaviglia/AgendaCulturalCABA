@@ -1,7 +1,7 @@
-"""Agrega lat/lng a los eventos usando Nominatim (OpenStreetMap), con caché local.
+"""Adds lat/lng to the events using Nominatim (OpenStreetMap), with a local cache.
 
-La caché (data/geocache.json) evita repetir pedidos: solo se consultan direcciones nuevas,
-a razón de 1 por segundo (límite de Nominatim). Los resultados fuera de CABA se descartan.
+The cache (data/geocache.json) avoids repeating requests: only new addresses are queried,
+at 1 per second (Nominatim's limit). Results outside CABA are discarded.
 """
 import json
 import math
@@ -13,12 +13,12 @@ import urllib.request
 from comun import DATOS, sin_tildes
 
 CACHE = DATOS / "geocache.json"
-VIEWBOX = "-58.532,-34.526,-58.334,-34.706"  # CABA: izquierda,arriba,derecha,abajo
+VIEWBOX = "-58.532,-34.526,-58.334,-34.706"  # CABA: left,top,right,bottom
 UA = "AgendaCulturalCABA/1.0 (https://github.com/jpcaviglia/AgendaCulturalCABA)"
 
 
 def _consulta(texto):
-    q = re.sub(r"\bC\d{4}[A-Z]{0,3}\b,?", "", texto)  # códigos postales tipo C1123
+    q = re.sub(r"\bC\d{4}[A-Z]{0,3}\b,?", "", texto)  # postal codes like C1123
     q = re.sub(r"\b(CABA|Argentina|Ciudad Autónoma de Buenos Aires)\b,?\s*", "", q, flags=re.I).strip(" ,")
     return f"{q}, Ciudad Autónoma de Buenos Aires, Argentina"
 
@@ -32,8 +32,8 @@ def _pedir(q):
     return [round(float(datos[0]["lat"]), 6), round(float(datos[0]["lon"]), 6)] if datos else None
 
 
-# Límites oficiales de los barrios (data.buenosaires.gob.ar). Sirven para detectar un punto que cayó en una calle
-# homónima lejos del barrio que dice el evento (Av. Pedro de Mendoza 1929, La Boca, terminó en Villa Lugano).
+# Official neighborhood boundaries (data.buenosaires.gob.ar). They detect a point that landed on a homonymous street
+# far from the neighborhood the event says (Av. Pedro de Mendoza 1929, La Boca, ended up in Villa Lugano).
 BARRIOS = DATOS / "barrios.json"
 LEJOS_KM, CERCA_KM = 3.0, 1.0
 _ALIAS = {"la boca": "boca", "montserrat": "monserrat", "la paternal": "paternal", "villa gral.mitre": "villa gral. mitre"}
@@ -63,7 +63,7 @@ def _dentro(lng, lat, anillo):
 
 
 def distancia_barrio_km(pos, poligonos):
-    """0 si el punto está en el barrio; si no, la distancia en km al borde más cercano."""
+    """0 if the point is inside the neighborhood; otherwise the distance in km to the nearest edge."""
     lat, lng = pos
     if any(_dentro(lng, lat, p[0]) and not any(_dentro(lng, lat, h) for h in p[1:]) for p in poligonos):
         return 0.0
@@ -79,12 +79,12 @@ def distancia_barrio_km(pos, poligonos):
 
 
 def ubicar_con_cache(eventos, lugares=()):
-    """Como geocodificar_eventos, pero solo con la caché (sin red)."""
+    """Like geocodificar_eventos, but only with the cache (no network)."""
     return geocodificar_eventos(eventos, lugares, consultar=False)
 
 
 def geocodificar_eventos(eventos, lugares=(), consultar=True):
-    """Completa e['lat'], e['lng'] (o '' si no se pudo ubicar). Devuelve cuántas direcciones consultó."""
+    """Fills in e['lat'], e['lng'] (or '' if it could not be located). Returns how many addresses it queried."""
     try:
         cache = json.loads(CACHE.read_text(encoding="utf-8"))
     except (OSError, ValueError):
@@ -95,7 +95,7 @@ def geocodificar_eventos(eventos, lugares=(), consultar=True):
     consultadas = 0
 
     def buscar(q):
-        """Posición de la caché o de Nominatim. None si no hay; 'error' si falló la consulta."""
+        """Position from the cache or from Nominatim. None if there is none; 'error' if the query failed."""
         nonlocal consultadas
         if q in cache:
             return cache[q]
@@ -103,7 +103,7 @@ def geocodificar_eventos(eventos, lugares=(), consultar=True):
             return "sin_red"
         try:
             cache[q] = _pedir(q)
-        except Exception as ex:  # sin red o bloqueo: no se cachea, se reintenta la próxima
+        except Exception as ex:  # no network or block: it is not cached, it is retried next time
             print(f"  Geocodificación falló ({ex}); se reintenta en la próxima corrida")
             return "error"
         consultadas += 1
@@ -119,12 +119,12 @@ def geocodificar_eventos(eventos, lugares=(), consultar=True):
         if pos in ("sin_red", "error"):
             e["lat"] = e["lng"] = ""
             continue
-        # Lejos del barrio que dice el evento: se repite con el barrio en la consulta. Si eso cae en el barrio
-        # (o al lado), gana; si no, queda el primero (puede ser el barrio el que está mal, no el punto).
+        # Far from the neighborhood the event says: repeated with the neighborhood in the query. If that lands in the neighborhood
+        # (or next to it), it wins; otherwise the first one stays (the neighborhood may be the wrong one, not the point).
         nombre_barrio = _norm_barrio(e.get("barrio", ""))
         barrio = poligonos.get(nombre_barrio)
         if pos and barrio:
-            # La misma dirección y barrio se repiten en muchos eventos: se resuelve una sola vez.
+            # The same address and neighborhood repeat in many events: it is resolved only once.
             k = (texto, nombre_barrio)
             if k not in resueltas:
                 resueltas[k] = pos

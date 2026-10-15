@@ -1,13 +1,13 @@
-"""Busca el Linktree de cada Instagram de data/crawl/sitios.json, sin abrir Instagram.
+"""Looks for the Linktree of each Instagram in data/crawl/sitios.json, without opening Instagram.
 
-Abrir un perfil de Instagram gasta cupo y el enlace de la bio recién se ve ahí. Pero casi siempre el Linktree
-se llama como la cuenta: se prueba linktr.ee/<cuenta> (y la cuenta sin puntos ni guiones bajos, que Linktree
-no siempre acepta). Un usuario igual a la cuenta se acepta; una variante, solo si la página nombra la cuenta de
-Instagram o el lugar. Lo encontrado queda en `enlace_bio` y la skill lo lee antes de abrir Instagram
-(`sondear.py --leer <enlace_bio>`). Lo que no se encontró se anota en `bio_probada` y no se vuelve a probar
-hasta DIAS_REPROBAR días después.
+Opening an Instagram profile spends quota and the bio link is only visible there. But the Linktree is almost
+always named like the account: linktr.ee/<account> is tried (and the account without dots or underscores,
+which Linktree does not always accept). A user equal to the account is accepted; a variant, only if the page
+names the Instagram account or the venue. What is found is saved in `enlace_bio` and the skill reads it before
+opening Instagram (`sondear.py --leer <enlace_bio>`). What was not found is noted in `bio_probada` and is not
+tried again until DIAS_REPROBAR days later.
 
-Uso:
+Usage:
     python scripts/biolinks.py [--simular] [--id ID ...]
 """
 import json
@@ -34,7 +34,7 @@ def candidatos(cuenta):
 
 
 def coincide(sitio, cuenta, usuario, html):
-    """True si el Linktree es del sitio: mismo usuario, o la página nombra la cuenta o el lugar."""
+    """True if the Linktree belongs to the site: same user, or the page names the account or the venue."""
     c = cuenta.lstrip("@").lower()
     if usuario == c:
         return True
@@ -47,7 +47,7 @@ def coincide(sitio, cuenta, usuario, html):
 
 
 def probar(sitio):
-    """(url del Linktree, texto) o (None, motivo)."""
+    """(Linktree url, text) or (None, reason)."""
     for usuario in candidatos(sitio["instagram"]):
         url = f"https://linktr.ee/{usuario}"
         est, _, html, nota = pedir(url)
@@ -55,7 +55,7 @@ def probar(sitio):
         if est == 404:
             continue
         if est != 200 or not html:
-            return None, f"{url}: {est} {nota}"  # falla de red o bloqueo: se reintenta la próxima vez
+            return None, f"{url}: {est} {nota}"  # network failure or block: it is retried next time
         if coincide(sitio, sitio["instagram"], usuario, html):
             return url, texto_linktree(html)
     return None, ""
@@ -88,12 +88,12 @@ def main():
             s.setdefault("notas", []).append(f"{hoy().isoformat()} [instagram] Linktree encontrado sin abrir Instagram "
                                              f"(scripts/biolinks.py): {url}")
             s.pop("bio_probada", None)
-        elif texto:  # falla de red: no se anota, se reintenta
+        elif texto:  # network failure: not noted, it is retried
             fallas += 1
             print(f"  {s['instagram']}: no se pudo probar ({texto})")
         else:
             s["bio_probada"] = hoy().isoformat()
-        if not simular and i % 25 == 0:  # se guarda de a poco: si se corta, no se pierde lo hecho
+        if not simular and i % 25 == 0:  # saved little by little: if it is cut off, what was done is not lost
             escribir_json(SITIOS, doc)
     if not simular:
         escribir_json(SITIOS, doc)

@@ -1,21 +1,21 @@
-"""SalePlan sin navegador: lee los listados, se queda con lo que ninguna otra fuente trajo y lo guarda.
+"""SalePlan without a browser: reads the listings, keeps what no other source brought and saves it.
 
-Los listados de SalePlan (/buenos-aires/eventos?page=N) se leen con HTTP simple; las fichas no (Cloudflare).
-Cada tarjeta trae título, fecha, hora, la categoría de SalePlan y el barrio (en la URL), pero no el lugar.
-Como 3 de cada 4 eventos de SalePlan ya los trae otra fuente, el script descarta las tarjetas que coinciden
-(mismo día, título parecido) con las capturas de las demás fuentes y guarda el resto, sin lugar
-("Lugar a confirmar" en la web).
+The SalePlan listings (/buenos-aires/eventos?page=N) are read with plain HTTP; the event pages are not (Cloudflare).
+Each card has title, date, time, the SalePlan category and the neighborhood (in the URL), but not the venue.
+Since 3 out of 4 SalePlan events are already brought by another source, the script discards the cards that
+match (same day, similar title) the captures of the other sources and saves the rest, without a venue
+("Lugar a confirmar" on the website).
 
-Por eso va al final de la corrida, después de todas las demás fuentes y antes de armar_agenda.py.
+That is why it goes at the end of the run, after all the other sources and before armar_agenda.py.
 
-Uso:
+Usage:
     python scripts/saleplan.py [--simular] [--max-paginas N]
 
-    --simular       lee y compara, pero no guarda (muestra el resumen)
-    --max-paginas   tope de páginas del listado (por defecto 150)
+    --simular       reads and compares, but does not save (shows the summary)
+    --max-paginas   cap on listing pages (150 by default)
 
-Las tarjetas que no tienen ni barrio ni hora quedan listadas en data/crawl/tmp/saleplan_fichas.txt: son las
-únicas que vale la pena abrir en el navegador (para saber dónde son).
+Cards with neither neighborhood nor time are listed in data/crawl/tmp/saleplan_fichas.txt: they are the
+only ones worth opening in the browser (to find out where they are).
 """
 import html as html_lib
 import json
@@ -32,12 +32,12 @@ from sondear import PAUSA, pedir
 
 ID = "saleplan-agenda-de-ciudad-de-buenos-aires"
 LISTADO = "https://saleplan.ar/buenos-aires/eventos?page={}"
-# Los "Destacados" (visitas guiadas, shows de tango, tours: cosas en curso) no salen en /eventos, solo arriba de
-# cada página de la agenda semanal: alcanza con la primera.
+# The "Destacados" (guided tours, tango shows, tours: ongoing things) do not appear in /eventos, only above
+# each weekly agenda page: the first one is enough.
 DESTACADOS = "https://saleplan.ar/buenos-aires/que-hacer-esta-semana?page=1"
 TMP = CRAWL / "tmp"
 REINTENTOS, ESPERA_REINTENTO = 4, 15
-MAX_EDAD_DIAS = 10  # igual que armar_agenda.py: capturas más viejas no cuentan como "ya cubierto"
+MAX_EDAD_DIAS = 10  # same as armar_agenda.py: older captures do not count as "already covered"
 MESES = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8, "sep": 9, "set": 9,
          "oct": 10, "nov": 11, "dic": 12}
 SIN_BARRIO = {"ciudad-de-buenos-aires", ""}
@@ -50,10 +50,10 @@ def texto(fragmento):
 
 
 def fecha_de(linea):
-    """'Hoy · 17:00 hs', 'Mañana · 20:00 hs', 'sáb. 17 oct. · 00:00 hs' -> ('AAAA-MM-DD', 'HH:MM' o '')."""
+    """'Hoy · 17:00 hs', 'Mañana · 20:00 hs', 'sáb. 17 oct. · 00:00 hs' -> ('AAAA-MM-DD', 'HH:MM' or '')."""
     h = re.search(r"(\d{1,2}):(\d{2})", linea)
     hora = f"{int(h.group(1)):02d}:{h.group(2)}" if h else ""
-    if hora == "00:00":  # SalePlan pone 00:00 cuando no hay hora
+    if hora == "00:00":  # SalePlan puts 00:00 when there is no time
         hora = ""
     l = sin_tildes(linea)
     if l.startswith("hoy"):
@@ -68,13 +68,13 @@ def fecha_de(linea):
         d = date(anio, MESES[m.group(2)], int(m.group(1)))
     except ValueError:
         return "", hora
-    if (hoy() - d).days > 180:  # diciembre -> enero
+    if (hoy() - d).days > 180:  # December -> January
         d = d.replace(year=anio + 1)
     return d.isoformat(), hora
 
 
 def tarjetas(pagina):
-    """Las tarjetas de una página del listado."""
+    """The cards of one listing page."""
     out = []
     for bloque in pagina.split("data-event-card")[1:]:
         bloque = bloque[:8000]
@@ -95,7 +95,7 @@ def tarjetas(pagina):
 
 
 def leer_listado(desde, hasta, max_paginas):
-    """Recorre el listado hasta pasar el fin de la ventana o hasta que no aparezcan tarjetas nuevas."""
+    """Goes through the listing until it passes the end of the window or no new cards appear."""
     vistas, urls = {}, []
     est, _, html, nota = pedir(DESTACADOS)
     if est == 200 and html:
@@ -113,10 +113,10 @@ def leer_listado(desde, hasta, max_paginas):
                 break
             print(f"  página {n}: {est} {nota}; reintento en {ESPERA_REINTENTO} s")
             time.sleep(ESPERA_REINTENTO)
-        if est == 404 and n > 1:  # se terminó el listado
+        if est == 404 and n > 1:  # the listing ended
             break
         if est != 200 or not html:
-            # Un corte a mitad del listado no es el final: guardar lo leído reemplazaría la captura con una parte.
+            # A cut in the middle of the listing is not the end: saving what was read would replace the capture with a part.
             sys.exit(f"No se pudo leer la página {n} del listado de SalePlan ({est} {nota}): no se guarda nada. "
                      "Volver a correrlo más tarde (o, si sigue fallando, abrir las entradas en el navegador).")
         urls.append(url)
@@ -131,7 +131,7 @@ def leer_listado(desde, hasta, max_paginas):
 
 
 def nombres_barrio():
-    """slug -> nombre con tildes, a partir de los barrios que ya usa lugares.json."""
+    """slug -> name with accents, from the neighborhoods lugares.json already uses."""
     nombres = dict(BARRIOS_EXTRA)
     for l in leer_json(DATOS / "lugares.json", []):
         if l.get("barrio"):
@@ -140,7 +140,7 @@ def nombres_barrio():
 
 
 def indice_otras_fuentes(desde, hasta):
-    """fecha -> títulos normalizados de los eventos de todas las capturas recientes menos la de SalePlan."""
+    """date -> normalized titles of the events of all recent captures except the SalePlan one."""
     idx = defaultdict(set)
     tope = date.fromisoformat(hasta)
     for ruta in CAPTURAS.glob("*.json"):
@@ -168,8 +168,8 @@ def _id_plan(url):
 
 
 def _contenido(a, b):
-    """Todas las palabras del título más corto están en el otro ("Gruesome en Argentina" en
-    "GRUESOME - Unico Show en Argentina"). Pide 2 palabras o más para no unir títulos de una palabra."""
+    """All the words of the shorter title are in the other ("Gruesome en Argentina" in
+    "GRUESOME - Unico Show en Argentina"). Requires 2 words or more so that one-word titles are not merged."""
     pa, pb = set(a.split()), set(b.split())
     corto, largo = (pa, pb) if len(pa) <= len(pb) else (pb, pa)
     genericas = {"argentina", "buenos", "aires", "caba", "the", "and"}
@@ -186,15 +186,15 @@ def main():
     max_paginas = int(sys.argv[sys.argv.index("--max-paginas") + 1]) if "--max-paginas" in sys.argv else 150
     desde, hasta = ventana()
     todas, urls = leer_listado(desde, hasta, max_paginas)
-    # Una tarjeta con fecha anterior a hoy y sin "Función terminada" es algo en curso (visitas guiadas, muestras,
-    # shows diarios): SalePlan le pone el día en que empezó a listarla. Cuenta como vigente hoy.
+    # A card with a date before today and without "Función terminada" is something ongoing (guided tours, exhibitions,
+    # daily shows): SalePlan puts the day it started listing it. It counts as current today.
     caba = [c for c in todas if c["localidad"] == "CABA" and c["fecha"] and c["fecha"] <= hasta and not c["terminada"]]
     for c in caba:
         c["en_curso"] = c["fecha"] < desde
     idx = indice_otras_fuentes(desde, hasta)
     nuevas = [c for c in caba if not cubierto({**c, "fecha": max(c["fecha"], desde)}, idx)]
     barrios = nombres_barrio()
-    # Lo que ya se sabía de fichas abiertas antes (lugar, dirección, precio) se conserva por URL.
+    # What was already known from event pages opened before (venue, address, price) is kept by URL.
     previa = {_id_plan(e.get("url", "")): e for e in (leer_json(CAPTURAS / f"{ID}.web.json") or {}).get("eventos", [])}
 
     eventos, fichas = [], []
@@ -209,15 +209,15 @@ def main():
             for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora", "horarios"):
                 if vieja.get(k):
                     e[k] = vieja[k]
-            # La ficha trae el rango real de lo que está en curso (la tarjeta, solo el primer día).
+            # The event page has the real range of what is ongoing (the card, only the first day).
             if c["en_curso"] and (vieja.get("fecha_fin") or "") >= desde:
                 e["fecha_inicio"], e["fecha_fin"] = vieja["fecha_inicio"], vieja["fecha_fin"]
         elif not barrio and not c["hora"]:
             fichas.append(c["url"])
         eventos.append(e)
 
-    # Muestras y funciones de larga duración que empezaron antes de hoy: la tarjeta queda fuera de la ventana,
-    # pero la captura anterior (de fichas) traía el rango. Se conservan mientras sigan vigentes.
+    # Long-running exhibitions and performances that started before today: the card is left outside the window,
+    # but the previous capture (from event pages) had the range. They are kept while they are still current.
     guardados = {c["id"] for c in nuevas}
     for pid, e in previa.items():
         fin = e.get("fecha_fin") or e["fecha_inicio"]

@@ -1,15 +1,15 @@
-"""Completa la dirección y el barrio de los eventos que tienen lugar pero no dirección.
+"""Fills in the address and neighborhood of events that have a venue but no address.
 
-Fuentes, en orden:
-    1. data/lugares.json (domicilio) y data/galerias.json (domicilio), por nombre del lugar. Un lugar con sala
-       ("Malba · Auditorio") se busca por la parte de antes del "·".
-    2. data/direcciones.json: caché de direcciones de lugares que no están en esas listas.
-    3. Otros eventos del mismo lugar que sí traen dirección (la más repetida).
-    4. Con red: la ficha de Alternativa Teatral de algún evento del lugar trae el espacio con su dirección y
-       barrio. Se guarda en la caché (también si no se encontró, para no repetir el pedido antes de
-       DIAS_REINTENTO días).
+Sources, in order:
+    1. data/lugares.json (domicilio) and data/galerias.json (domicilio), by venue name. A venue with a room
+       ("Malba · Auditorio") is looked up by the part before the "·".
+    2. data/direcciones.json: cache of addresses of venues that are not in those lists.
+    3. Other events at the same venue that do bring an address (the most repeated one).
+    4. With network: the Alternativa Teatral page of some event at the venue has the space with its address
+       and neighborhood. It is saved in the cache (also when nothing was found, so the request is not
+       repeated before DIAS_REINTENTO days).
 
-Uso directo (informe, sin escribir eventos.json): python scripts/direcciones.py
+Direct use (report, without writing eventos.json): python scripts/direcciones.py
 """
 import html as html_lib
 import re
@@ -29,7 +29,7 @@ def clave(lugar):
 
 
 def _de_alternativa(html):
-    """(nombre, dirección, barrio) del bloque del espacio en una ficha de Alternativa Teatral, o None."""
+    """(name, address, neighborhood) of the venue block in an Alternativa Teatral page, or None."""
     m = re.search(r'href="[^"]*/espacio\d+[^"]*"', html)
     if not m:
         return None
@@ -37,26 +37,26 @@ def _de_alternativa(html):
     bloque = html[inicio:inicio + 3000]
     bloque = re.sub(r"<(script|style)\b.*?</\1>", " ", bloque, flags=re.S | re.I)
     partes = [p.strip() for p in html_lib.unescape(re.sub(r"<[^>]+>", "\n", bloque)).split("\n") if p.strip()]
-    # Orden en la ficha: NOMBRE · dirección · (mapa) · barrio · - · CABA
+    # Order in the page: NAME · address · (map) · neighborhood · - · CABA
     if len(partes) < 4 or "(mapa)" not in partes[:4]:
         return None
     i = partes.index("(mapa)")
     nombre, direccion = partes[0], partes[i - 1] if i >= 2 else ""
     barrio = partes[i + 1] if i + 1 < len(partes) and partes[i + 1] not in ("-", "CABA") else ""
-    if not re.search(r"\d", direccion):  # una dirección sin altura no sirve para el mapa
+    if not re.search(r"\d", direccion):  # an address without a street number is no use for the map
         return None
     return nombre, direccion, barrio
 
 
 def _consultar_alternativa(url):
-    from sondear import pedir  # solo hace falta con red
+    from sondear import pedir  # only needed with network
     est, _, html, _ = pedir(url)
     return _de_alternativa(html) if est == 200 and html else None
 
 
 def completar(eventos, consultar=True):
-    """Pone 'direccion' (y 'barrio' si falta) en los eventos que tienen lugar y no dirección.
-    Devuelve (completados, fichas_consultadas)."""
+    """Sets 'direccion' (and 'barrio' if missing) on events that have a venue and no address.
+    Returns (completed, pages_queried)."""
     conocidas = {}
     for l in leer_json(DATOS / "lugares.json", []) + (leer_json(DATOS / "galerias.json", {}) or {}).get("galerias", []):
         if l.get("domicilio"):
