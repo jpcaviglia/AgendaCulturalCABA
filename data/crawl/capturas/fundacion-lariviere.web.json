@@ -1,0 +1,50 @@
+{
+ "id": "fundacion-lariviere",
+ "canal": "web",
+ "fuente": "Fundación Larivière",
+ "tipo": "galeria",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.google.com/search?q=Fundaci%C3%B3n+Lariviere+La+Boca+exposiciones",
+  "https://www.fundacionlariviere.org/",
+  "https://www.fundacionlariviere.org/novedades/category/5_presentes.html",
+  "https://www.fundacionlariviere.org/novedades/category/22_agenda.html",
+  "https://www.fundacionlariviere.org/novedades/254_cal2.html",
+  "https://www.fundacionlariviere.org/novedades/116_lana-negra.html"
+ ],
+ "eventos": [
+  {
+   "titulo": "Cal: Lázaro Blanco y Pablo López Luz",
+   "fecha_inicio": "2026-10-14",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves a domingos de 12 a 19",
+   "lugar": "Fundación Larivière",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "$ 6000",
+   "url": "https://www.fundacionlariviere.org/novedades/254_cal2.html",
+   "descripcion": "Fotografía de arquitectura vernácula mexicana; curaduría de Alexis Fabry. Hall 1.",
+   "vigente_sin_fin": true,
+   "post": ""
+  },
+  {
+   "titulo": "Laura Ferro: Lana negra",
+   "fecha_inicio": "2026-08-22",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves a domingos de 12 a 19",
+   "lugar": "Fundación Larivière",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "$ 6000",
+   "url": "https://www.fundacionlariviere.org/novedades/116_lana-negra.html",
+   "descripcion": "La lana oscura y las hilanderas de la Patagonia; curaduría de Gonzalo Golpe. Hall 2.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

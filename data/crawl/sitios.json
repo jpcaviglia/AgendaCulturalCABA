@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14",
+ "actualizado": "2026-10-15",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -10,12 +10,32 @@
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
-    "2026-10-14: Accesible. Incluye 112 actividades con fecha de inicio, horario, precio, lugar y enlace al sitio del organizador."
+    "2026-10-14: Accesible. Incluye 112 actividades con fecha de inicio, horario, precio, lugar y enlace al sitio del organizador.",
+    "2026-10-14 [web] 112 actividades; 110 con lugar y dentro de la ventana."
    ],
    "comportamiento": {
-    "extraccion": "La página trae todas las actividades en un arreglo JSON embebido que empieza con '[{\"orden\"'. Extraerlo con JS (ver navegador.md, Turismo BA) en vez de leer las tarjetas una por una.",
+    "extraccion": "Fragmento turismo de navegador.md: 112 actividades; el arreglo no trae fecha_fin.",
     "sin_fecha_fin": "Turismo BA solo publica fecha de inicio: las actividades que ya empezaron van con vigente_sin_fin: true"
-   }
+   },
+   "entradas": [
+    "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 110,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 110
+    }
+   ]
   },
   {
    "id": "alternativa-teatral",
@@ -27,16 +47,37 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia).",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] Cartelera de 30 días: 1209 obras; 806 de CABA con función en la ventana (127 de fuera de CABA descartadas). Hay ~190 salas de CABA que no están en lugares.json (Ítaca, Timbre 4, Teatro del Pueblo, Kairós, Colón...): pendiente decidir si se suman."
    ],
    "entradas": [
+    "https://www.alternativateatral.com/cartelera.asp?cuando=30",
     "https://www.alternativateatral.com/cartelera.asp"
    ],
    "comportamiento": {
-    "extraccion": "Cartelera general de teatro: cada obra tiene ficha con sala, días y horarios de función y precio. Filtrar a salas de CABA.",
+    "extraccion": "Cartelera nueva (2026-10): tarjetas article.ct-card con h3 a (obra), .ct-sala, barrio en .ct-meta>.ct-dim, una .ct-per por temporada ('SÁB 20:00 · hasta el 31/10', '· el 28/10', '· del 1/11 al 29/11', '· hoy'), .ct-tags. Ordenadas por próxima función.",
     "uso": "Las obras de salas que ya están en la lista también suman: se deduplican con la web propia del lugar. Salas nuevas de CABA van en sitios_nuevos.",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "ver_mas": "Botón 'VER 48 MÁS' al pie; ~45 clics para 30 días (correrlo en segundo plano: >45 s). Alcanza con llegar a tarjetas con badge 'DESDE' posterior a la ventana.",
+    "volcado": "Los datos se pasan con el portapapeles: botón que hace navigator.clipboard.writeText y Get-Clipboard en PowerShell.",
+    "fichas": "No hace falta abrir fichas: el listado trae obra, sala, barrio, días/horarios y fechas; precio solo en la ficha."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 806,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 806
+    }
+   ]
   },
   {
    "id": "time-out-buenos-aires-agenda",
@@ -48,13 +89,35 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Tiene secciones de agenda semanal y mensual.",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] /agenda redirige a que-hacer-este-mes-agenda; la semanal está en /agenda-semana. Se cargaron los ítems con lugar y fecha en la ventana."
    ],
    "comportamiento": {
-    "extraccion": "Notas de agenda semanal y mensual: leer cada nota de la semana/mes en curso y cargar los eventos con fecha y lugar en CABA.",
+    "extraccion": "Notas con ítems numerados ('1. Título'), cada uno con fechas en el texto y 'Dónde:'. get_page_text solo trae el primer <article>: copiar el innerText de main.",
     "uso": "También sirve para descubrir espacios nuevos (sitios_nuevos).",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "popups": "Ventana de newsletter: botón 'No, gracias'."
+   },
+   "entradas": [
+    "https://www.timeout.com/es/buenos-aires/agenda-semana",
+    "https://www.timeout.com/es/buenos-aires/que-hacer-este-mes-agenda"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    }
+   ]
   },
   {
    "id": "eventbrite-buenos-aires",
@@ -66,13 +129,33 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección).",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] 311 eventos en la ventana; 189 de CABA culturales o de ocio cargados."
    ],
    "comportamiento": {
-    "extraccion": "El listado y cada ficha traen JSON-LD de eventos: usar jsonld. Filtrar a CABA (descartar provincia). Cargar recitales, fiestas y electrónica, festivales, ferias, teatro, arte, etc.; descartar cursos de negocios, networking y charlas comerciales.",
-    "paginacion": "Listado paginado (?page=N); recorrer hasta pasar la ventana de 14 días.",
+    "extraccion": "JSON-LD del listado trae nombre, fecha (sin hora), lugar y dirección; ~20% es provincia y ~20% cursos/negocios/bienestar a descartar.",
+    "paginacion": "?page=N&start_date=AAAA-MM-DD&end_date=AAAA-MM-DD filtra la ventana; ~20 eventos nuevos por página, 16 páginas. Se puede hacer fetch de cada página desde la pestaña y leer el JSON-LD.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+   },
+   "entradas": [
+    "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/?start_date=2026-10-14&end_date=2026-10-28"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 190,
+     "paginas": 17
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 190
+    }
+   ]
   },
   {
    "id": "indiehoy-agenda-de-recitales",
@@ -84,12 +167,34 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Lista recitales en Argentina; muchos enlaces a eventos.",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] 111 recitales en la ventana; 81 en salas de CABA (se descartaron La Plata, Córdoba, Rosario, conurbano y salas dudosas)."
    ],
    "comportamiento": {
     "extraccion": "Agenda de recitales de todo el país: cargar solo los de CABA, con sala y fecha.",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "plataforma": "WordPress + Events Manager: lista única .em-events-list con encabezados de fecha ('Miércoles, 14 Octubre, 2026') y li.list-style-event (título, sala, beneficio). Trae ~10 meses en una sola página.",
+    "fichas": "La hora y dirección están solo en la ficha /agenda/<slug>/; no hace falta abrirlas para fecha y sala."
+   },
+   "entradas": [
+    "https://indiehoy.com/eventos/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 81,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 81
+    }
+   ]
   },
   {
    "id": "ticketek",
@@ -101,12 +206,37 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible, pero la página principal no muestra un listado de eventos verificable.",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] 202 enlaces; ~40 con funciones en la ventana; 25 en CABA (el resto Rosario, Córdoba, Mendoza, conurbano)."
    ],
    "comportamiento": {
-    "extraccion": "La portada no lista todo: buscar las secciones por categoría (teatro, música, etc.) y abrir las fichas de eventos en CABA dentro de la ventana.",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+    "extraccion": "API: https://prod-cms-api.ticketek.com.ar/api/1.0/node%3Fpath%3D<obra>--<sala> (el ? va codificado). venue{title,address,city,state}; widgets tkt-show-ticket.data-performances (date unix: hora local = UTC del timestamp + 3 h, o sea leerlo como UTC-0 y sumar 3) y tkt-show-buy.chunks (rangos 'Del 24/10 al 31/10').",
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "plataforma": "App Angular; el HTML no trae datos. Juntar enlaces /<obra>/<sala> de portada y categorías (guardarlos en localStorage entre páginas).",
+    "pendiente": "Las páginas de artista (/<artista>, 19) llevan a varias salas: no se abrieron."
+   },
+   "entradas": [
+    "https://www.ticketek.com.ar/musica",
+    "https://www.ticketek.com.ar/teatro",
+    "https://www.ticketek.com.ar/familia",
+    "https://www.ticketek.com.ar/especiales"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 25,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 25
+    }
+   ]
   },
   {
    "id": "passline",
@@ -118,12 +248,36 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Bloquea la verificación automática (HTTP 403).",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-14 [web] 289 eventos en la ventana en todo el país; 158 en CABA cargados (traslados, cursos y torneos descartados)."
    ],
    "comportamiento": {
     "extraccion": "Respondía 403 a scripts; en el navegador debería cargar. Buscar el listado de eventos de Ciudad de Buenos Aires y leer las fichas (suelen traer JSON-LD).",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
-   }
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "plataforma": "www.passline.com redirige a home.passline.com (app con JS). /eventos.php lista ~590 eventos de todo el país ordenados por fecha (tarjeta: lugar, título, día, hora).",
+    "filtro": "El filtro de provincia no se aplica en la vista angosta; no sirve por URL.",
+    "fichas": "La ficha www.passline.com/eventos/<slug> trae en div.donde lugar + dirección + localidad ('C.A.B.A.' / 'Capital Federal'). Se leen con fetch desde una pestaña en www.passline.com (3 en paralelo, ~5 min para 290).",
+    "volcado": "URLs de entrada se pegan con Ctrl+V en un textarea; resultados salen por portapapeles."
+   },
+   "entradas": [
+    "https://home.passline.com/eventos.php"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 158,
+     "paginas": 292
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 158
+    }
+   ]
   },
   {
    "id": "la-cultura-en-la-semana-boletin-gcba",
@@ -135,11 +289,29 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Existe según la búsqueda; no se pudo leer su contenido.",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
+    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
+    "2026-10-15 [web] No hay ediciones publicadas en la web."
    ],
    "comportamiento": {
-    "uso": "Boletín que se recibe por email. Buscar si la página publica las ediciones en la web; si hay una edición de esta semana, cargar sus eventos con fecha y lugar. Si solo ofrece suscribirse, guardar sin_agenda con esa evidencia."
-   }
+    "uso": "Boletín que se recibe por email. Buscar si la página publica las ediciones en la web; si hay una edición de esta semana, cargar sus eventos con fecha y lugar. Si solo ofrece suscribirse, guardar sin_agenda con esa evidencia.",
+    "contenido": "solo suscripción por email"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
@@ -150,19 +322,37 @@
    "instagram": "",
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
-    "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket."
+    "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
+    "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo."
    ],
    "entradas": [
     "https://saleplan.ar/buenos-aires/que-hacer-hoy",
-    "https://saleplan.ar/buenos-aires/que-hacer-esta-semana",
     "https://saleplan.ar/buenos-aires/que-hacer-este-fin-de-semana",
+    "https://saleplan.ar/buenos-aires/que-hacer-esta-semana",
     "https://saleplan.ar/buenos-aires/eventos"
    ],
    "comportamiento": {
-    "extraccion": "Los listados traen nombre y enlace; fecha, lugar y dirección están en el JSON-LD de cada ficha (/planes/ID/). Usar el fragmento jsonld en cada ficha. Pausas de 1-2 s entre fichas: limita el ritmo.",
+    "extraccion": "Listados paginados ?page=N (se pueden leer con fetch desde la pestaña); 615 fichas distintas de CABA en total. Cada ficha trae JSON-LD Event.",
     "paginacion": "La agenda semanal se pagina con ?page=N (unas 17 páginas); en el navegador también aparecen más tarjetas al scrollear.",
-    "limite": "Hasta ~150 fichas por corrida: primero hoy, fin de semana y semana. Saltear las que ya figuren en la web propia del lugar."
-   }
+    "limite": "Se abrieron 220 fichas (hoy, finde, semana primero).",
+    "fichas": "startDate a veces es la fecha de publicación (minutos raros como 05:39): en ese caso la fecha real es la de endDate."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 216,
+     "paginas": 228
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 216
+    }
+   ]
   },
   {
    "id": "gallery-circuito-de-arte-al-dia",
@@ -173,8 +363,28 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "comportamiento": {
-    "uso": "lista de galerías participantes y sus muestras"
-   }
+    "uso": "lista de galerías participantes y sus muestras",
+    "contenido": "página institucional sin programación; las fechas de cada edición salen en artealdia.com"
+   },
+   "notas": [
+    "2026-10-15 [web] Sin agenda en la web; buscar la próxima edición en Arte al Día."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "arte-al-dia-agenda",
@@ -185,8 +395,31 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "comportamiento": {
-    "uso": "noticias y agenda de muestras"
-   }
+    "uso": "Solo sirve para ferias (Pinta BAphoto) y alguna muestra en Buenos Aires.",
+    "idioma": "La portada abre en inglés; casi todo es internacional."
+   },
+   "entradas": [
+    "https://www.artealdia.com/"
+   ],
+   "notas": [
+    "2026-10-14 [web] Portada con notas internacionales; lo único en CABA dentro de la ventana es Pinta BAphoto en La Rural."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "indiehoy-muestras-de-arte-del-mes",
@@ -197,8 +430,40 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "comportamiento": {
-    "uso": "notas mensuales con muestras; buscar la del mes en curso"
-   }
+    "uso": "notas mensuales con muestras; buscar la del mes en curso",
+    "scroll": "NO scrollear /arte/: es scroll infinito de notas viejas (no correr preparar ahí). Abrir directo la nota '6 muestras de arte para visitar en <mes> en Buenos Aires'.",
+    "extraccion": "La nota trae lugar con dirección, título, fechas y horarios; get_page_text la lee entera.",
+    "agenda": "El enlace 'Agenda' del menú (indiehoy.com/eventos/) es la agenda de recitales: se rastrea en indiehoy-agenda-de-recitales. Revisarla primero; no tiene categoría ni filtro de arte (solo Córdoba / Rosario / Internacionales), por eso las muestras salen de la nota mensual."
+   },
+   "entradas": [
+    "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/"
+   ],
+   "notas": [
+    "2026-10-15 [web] La nota mensual está en /arte/6-muestras-de-arte-para-visitar-<mes>-buenos-aires-<año>/.",
+    "2026-10-15 [web] Revisada la Agenda del menú (/eventos/): solo recitales. Las muestras están en la nota mensual /arte/6-muestras-de-arte-para-visitar-<mes>-buenos-aires-<año>/."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "time-out-arte",
@@ -209,8 +474,31 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "comportamiento": {
-    "uso": "calendario de ferias y muestras"
-   }
+    "uso": "calendario de ferias y muestras",
+    "contenido": "Nota anual (feb 2026) con ferias y aniversarios del año: MAPA (abril), Arte Pequeño Formato (junio), Pinta BAphoto (octubre), arteBA. Pocas cosas caen en cada ventana."
+   },
+   "entradas": [
+    "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura"
+   ],
+   "notas": [
+    "2026-10-15 [web] La nota dice arteBA del 6 al 8 de noviembre, pero Vidriera BA informa que se adelantó al 30/10-1/11 (fuera de la ventana)."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "meridiano-camara-argentina-de-galerias-de-arte-contemporaneo",
@@ -221,8 +509,32 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "comportamiento": {
-    "uso": "directorio de galerías socias con web, horarios y dirección"
-   }
+    "uso": "directorio de galerías socias con web, horarios y dirección",
+    "extraccion": "La agenda (pestaña del mes) lista barrio, fechas 'Jue. 27.08 al 15.10', galería, título y bajada; get_page_text solo trae el primer artículo: copiar el innerText de main.",
+    "directorio": "Al pie de la agenda está la lista de ~70 galerías socias (sirve para encontrar galerías que falten)."
+   },
+   "entradas": [
+    "https://somosmeridiano.com.ar/agenda/"
+   ],
+   "notas": [
+    "2026-10-15 [web] 12 muestras vigentes en octubre."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 12,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
+    }
+   ]
   },
   {
    "id": "ruth-benzacar",
@@ -273,18 +585,35 @@
    "lugares": [
     "Alberto Sendrós"
    ],
-   "web": "https://www.albertosendros.com",
-   "instagram": "",
+   "web": "http://galeriasendros.com/",
+   "instagram": "@galeria.sendros",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual."
+    "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual.",
+    "2026-10-15: la web cambió de https://www.albertosendros.com a http://galeriasendros.com/",
+    "2026-10-15 [web] Web nueva galeriasendros.com e Instagram @galeria.sendros; la web no tiene muestra vigente, mirar el Instagram."
+   ],
+   "entradas": [
+    "http://galeriasendros.com/"
+   ],
+   "comportamiento": {
+    "estructura": "Una sola página con anclas: #muestraActual, #muestrasPasadas, #artistas. La muestra actual se ve arriba de todo."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -302,13 +631,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin muestra vigente en la web al 14/10."
+   ],
+   "comportamiento": {
+    "extraccion": "Lista 'artistas · dd.mm.aaaa - dd.mm.aaaa Título', la primera es la más reciente."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -347,13 +689,26 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Dominio perdido; la galería podría haber cerrado. Revisar a mano."
+   ],
+   "comportamiento": {
+    "dominio": "secuestrado / vendido (2026-10)"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -413,11 +768,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
-   }
+   },
+   "comportamiento": {
+    "plataforma": "Squarespace (blog de exposiciones con fecha de publicación = inauguración, sin fecha de cierre)"
+   },
+   "notas": [
+    "2026-10-15 [web] Las fichas no publican cierre: confirmar en Instagram si siguen las muestras inauguradas el 20/8."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "coleccion-fortabat",
@@ -434,11 +804,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {
+    "filtros": "Botones Isotope (.actuales / .proximas): leer los elementos con esas clases, no hace falta hacer clic."
+   },
+   "notas": [
+    "2026-10-15 [web] Actuales: solo la colección permanente; Próximas vacía (Indiehoy anuncia la retrospectiva de Gumier Maier desde el 24/10, todavía no publicada en la web)."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "fundacion-proa",
@@ -455,11 +840,27 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 3
     }
-   }
+   },
+   "comportamiento": {
+    "fechas": "Proa publica el cierre solo como mes ('Noviembre, 2026'); se carga como vigente con el mes en horarios.",
+    "mirar": "MIRAR son audioguías y radio, no eventos."
+   },
+   "notas": [
+    "2026-10-15 [web] Tres muestras actuales; Futuras vacía."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "museo-nacional-de-bellas-artes",
@@ -510,19 +911,36 @@
    "lugares": [
     "Galería Vasari"
    ],
-   "web": "https://www.galeriavasari.com",
+   "web": "https://galeriavasari.com.ar/",
    "instagram": "",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga (error de conexión/certificado).",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de https://www.galeriavasari.com a https://galeriavasari.com.ar/",
+    "2026-10-15 [web] Esmeralda 1357. Blues infinitos (Alfredo Prior) cerró el 8/10."
+   ],
+   "entradas": [
+    "https://galeriavasari.com.ar/"
+   ],
+   "comportamiento": {
+    "web": "https://www.galeriavasari.com muestra página de error; la web actual es galeriavasari.com.ar (http://galeriavasari.com redirige)."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -540,13 +958,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Próxima: colectiva por los 50 años de Zurbarán desde el 12 de noviembre."
+   ],
+   "comportamiento": {
+    "estructura": "Calendario anual con estados 'Finalizado / Ahora / Próximo' y día de inauguración; no publica cierre."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -564,13 +995,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Muestra vigente: Luciana Lamothe desde el 8/8 (sin fecha de cierre publicada)."
+   ],
+   "comportamiento": {
+    "fichas": "Las muestras solo traen fecha de inauguración (08.08.2026); la primera de /muestras es la vigente. La siguiente anterior fue del 30.05 (las muestras duran ~2 meses y medio)."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -607,13 +1051,29 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Lista de exhibiciones con enlaces a cada muestra (exhibiciones_ver)"
+    "2026-10-14 [revisión anterior: navegador] Lista de exhibiciones con enlaces a cada muestra (exhibiciones_ver)",
+    "2026-10-15 [web] Poder adquisitivo (Ariel Mora) cerró el 3/10; Paula Castro abre el 21/10."
+   ],
+   "entradas": [
+    "https://www.mitegaleria.com.ar/exhibiciones"
+   ],
+   "comportamiento": {
+    "fichas": "exhibiciones_ver?i=N: la de mayor N es la más reciente; fechas solo en la ficha."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -627,17 +1087,31 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "entradas": [
+    "https://www.jorgemaralaruche.com.ar/",
     "https://www.jorgemaralaruche.com.ar/exposiciones/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Exposiciones 2012/2026 en esa página"
+    "2026-10-14 [revisión anterior: navegador] Exposiciones 2012/2026 en esa página",
+    "2026-10-15 [web] Paraná 1133. La entrada correcta es la portada, no /exposiciones/."
+   ],
+   "comportamiento": {
+    "estructura": "La exposición actual está en la portada (sin fechas); /exposiciones/ es el archivo de anteriores."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -652,13 +1126,29 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Listado de exhibiciones"
+    "2026-10-14 [revisión anterior: navegador] Listado de exhibiciones",
+    "2026-10-15 [web] Sin muestra nueva desde junio."
+   ],
+   "entradas": [
+    "https://www.palatina.com.ar/en/exhibiciones"
+   ],
+   "comportamiento": {
+    "fichas": "Las tarjetas no son enlaces: hacer clic en el botón de la tarjeta para abrir la ficha."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -717,11 +1207,29 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
-   }
+   },
+   "entradas": [
+    "https://piedrasgaleria.com/"
+   ],
+   "comportamiento": {
+    "estructura": "La portada lista 'Exhibición actual' con fechas y 'Próxima feria' (ferias en el exterior y arteBA: no son en la galería)."
+   },
+   "notas": [
+    "2026-10-15 [web] Dos muestras actuales hasta el 14/11."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "w-galeria",
@@ -798,17 +1306,31 @@
    "instagram": "@fundacion_klemm",
    "origen": "data/galerias.json",
    "entradas": [
+    "https://www.klemm.org.ar/Exposiciones/Actuales/",
     "https://www.klemm.org.ar/Exposiciones"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Cada muestra en /Exposiciones/Actuales/..."
+    "2026-10-14 [revisión anterior: navegador] Cada muestra en /Exposiciones/Actuales/...",
+    "2026-10-15 [web] Dos muestras actuales sin fechas publicadas."
+   ],
+   "comportamiento": {
+    "fichas": "Las fichas de 'Actuales' no traen fechas."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {
@@ -819,19 +1341,38 @@
     "Centro Cultural Recoleta",
     "CENTRO CULTURAL RECOLETA"
    ],
-   "web": "https://centroculturalrecoleta.org",
+   "web": "http://www.centroculturalrecoleta.org/",
    "instagram": "@elrecoleta",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 19,
+     "paginas": 22
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] centroculturalrecoleta.org no carga; buscar agenda en buenosaires.gob.ar o Instagram.",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de https://centroculturalrecoleta.org a http://www.centroculturalrecoleta.org/",
+    "2026-10-15 [web] La web funciona por http://www (el https falla). 19 actividades de la ventana."
+   ],
+   "entradas": [
+    "http://www.centroculturalrecoleta.org/agenda/"
+   ],
+   "comportamiento": {
+    "url": "https://centroculturalrecoleta.org da ERR_SSL_PROTOCOL_ERROR; usar http://www.centroculturalrecoleta.org",
+    "extraccion": "/agenda lista todo (tarjetas #categoría, título, días); las muestras dicen solo 'Mar. a dom.' y las fichas tampoco traen fecha de cierre.",
+    "ver_mas": "No apretar enlaces 'ver más' de las tarjetas (navegan a la ficha)."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 19
+    }
    ]
   },
   {
@@ -841,19 +1382,36 @@
    "lugares": [
     "Espacio de Arte Fundación OSDE"
    ],
-   "web": "https://www.osde.com.ar/espaciodearte",
-   "instagram": "",
+   "web": "https://www.fundacionosde.com.ar/",
+   "instagram": "@fundacionosde",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] App JS casi sin texto inicial; esperar la carga",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de https://www.osde.com.ar/espaciodearte a https://www.fundacionosde.com.ar/",
+    "2026-10-15 [web] Web nueva: fundacionosde.com.ar. Espacio de Arte en Arroyo 807, Retiro."
+   ],
+   "entradas": [
+    "https://www.fundacionosde.com.ar/"
+   ],
+   "comportamiento": {
+    "web": "osde.com.ar/espaciodearte da 404 y artefundacionosde.com.ar no resuelve; las muestras están en el carrusel de la portada de fundacionosde.com.ar (también hay muestras en Salta: descartarlas)."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -868,11 +1426,31 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 6
     }
-   }
+   },
+   "entradas": [
+    "https://artexarte.com.ar/la-breve-eternidad/",
+    "https://artexarte.com.ar/actividades/"
+   ],
+   "comportamiento": {
+    "menu": "Muestra Actual (enlace a la página de la muestra), Actividades, Visitas Guiadas, Eventos, Encuentros",
+    "plataforma": "WordPress"
+   },
+   "notas": [
+    "2026-10-15 [web] Lavalleja 1062. La web no tiene muestra vigente en octubre; revisar Instagram @artexarteespacio."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "almacen-de-arte",
@@ -881,11 +1459,36 @@
    "lugares": [
     "Almacén de Arte"
    ],
-   "web": "",
-   "instagram": "",
+   "web": "https://www.almacendearte.net/",
+   "instagram": "@almacendearteok",
    "origen": "data/galerias.json",
    "notas": [
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de  a https://www.almacendearte.net/",
+    "2026-10-15 [web] Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram."
+   ],
+   "entradas": [
+    "https://www.almacendearte.net/actividades"
+   ],
+   "comportamiento": {
+    "plataforma": "Wix",
+    "sede": "Sede CABA ALMACÉN 47 dentro de Central AFFAIR (Galerías Larreta)."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6969,11 +7572,34 @@
    "instagram": "",
    "origen": "agregado el 2026-10-15 (fiestas y electrónica)",
    "comportamiento": {
-    "extraccion": "Agenda de fiestas y música electrónica por fecha: cada evento tiene ficha con line-up, club, dirección, horario y precio. Recorrer los próximos 14 días (filtro de fechas o scroll) y abrir las fichas que no muestren el club.",
+    "extraccion": "La lista no carga más al scrollear. Usar la API: POST https://ra.co/graphql (desde la pestaña de ra.co) con eventListings(filters:{areas:{eq:395},listingDate:{gte,lte}},pageSize:100): trae título, horario, club y dirección.",
     "ritmo": "Pausas de 2-4 s entre páginas; si aparece captcha, guardar como bloqueado.",
-    "uso": "Los clubes y productoras de CABA que aparezcan y no estén en la lista van en sitios_nuevos (club = lugar; productora o fiesta itinerante = agregador)."
+    "uso": "Los clubes y productoras de CABA que aparezcan y no estén en la lista van en sitios_nuevos (club = lugar; productora o fiesta itinerante = agregador).",
+    "area": "Buenos Aires = área 395 (incluye provincia: filtrar Cardales, Ezeiza, Pilar)."
    },
-   "id": "resident-advisor-buenos-aires"
+   "id": "resident-advisor-buenos-aires",
+   "entradas": [
+    "https://ra.co/events/ar/buenosaires"
+   ],
+   "notas": [
+    "2026-10-14 [web] 29 eventos en la ventana; 25 en CABA. Clubes que faltan en la lista: Crobar, Blow, Under Club, La Nube, Avant Garten, The Sub, TCQ, Dune Park, Blue Velvet, Kinzen Tea House (pendiente sumarlos)."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 25,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 25
+    }
+   ]
   },
   {
    "nombre": "Búsqueda: fiestas techno y electrónica",
@@ -6990,9 +7616,32 @@
      "after party open air buenos aires"
     ],
     "uso": "Encontrar fiestas de la ventana y, sobre todo, clubes, productoras y ciclos que publiquen agenda (p. ej. Niceto Club, Crobar, Under Club, Bresh: confirmar cada uno en el navegador). Sumarlos en sitios_nuevos para que se rastreen en cada corrida.",
-    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo.",
+    "fuentes": "Jodify (jodify.com.ar/events) lista fiestas de todo el país con club y barrio; RA y Passline ya se rastrean aparte."
    },
-   "id": "busqueda-fiestas-techno-y-electronica"
+   "id": "busqueda-fiestas-techno-y-electronica",
+   "entradas": [
+    "https://jodify.com.ar/events"
+   ],
+   "notas": [
+    "2026-10-15 [web] La agenda de fiestas la cubren RA, Passline y Jodify. Se sumaron como sitios nuevos Jodify, Buenos Aliens y los clubes de CABA con web o Instagram confirmados en RA."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "nombre": "Búsqueda: festivales",
@@ -7009,9 +7658,34 @@
      "festival gratis CABA"
     ],
     "uso": "Festivales de música, cine, teatro, tango, jazz, arte, gastronomía y de barrio dentro de la ventana. Cargar cada festival como un evento con fecha_inicio y fecha_fin (y sus funciones destacadas aparte si tienen fecha y hora propias). Los sitios oficiales de festivales que se repiten cada año van en sitios_nuevos como agregador.",
-    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo.",
+    "fuentes": "bairessecreta.com/planes-para-este-fin-de-semana/ (semanal, trae lugar y fechas) y vidrierabuenosaires.com (agenda mensual con calendario día por día).",
+    "copiado": "bairessecreta tapa los botones: usar un dialog con showModal() y escuchar pointerdown en window para copiar."
    },
-   "id": "busqueda-festivales"
+   "id": "busqueda-festivales",
+   "entradas": [
+    "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+    "https://vidrierabuenosaires.com/blog/agenda-cultural-buenos-aires-octubre-2026"
+   ],
+   "notas": [
+    "2026-10-15 [web] Festivales de la ventana: Water Lantern, OFFNI, Cine Inusual, Hanguk Fest, Tecweek. Se sumó la programación del Teatro Colón (no estaba en la lista de sitios) y recitales grandes."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 27,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 27
+    }
+   ]
   },
   {
    "nombre": "Búsqueda: ferias",
@@ -7029,9 +7703,33 @@
      "mercado de pulgas vinilos feria americana CABA"
     ],
     "uso": "Ferias de diseño, arte, libros, vinilos, gastronomía, artesanías y ferias americanas. Las ferias permanentes (p. ej. San Telmo, Mataderos) se cargan con sus días y horarios en 'horarios' y vigente_sin_fin si no tienen cierre. Organizadores recurrentes van en sitios_nuevos.",
-    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo.",
+    "fuentes": "vamosferia.com/ferias lista ferias de CABA de la semana con días y dirección; vidrierabuenosaires.com publica una agenda mensual con ferias y festivales; laruralticket.com.ar tiene las ferias de La Rural.",
+    "consultas_utiles": "'\"<feria>\" 2026 octubre lugar' para confirmar sede y horario."
    },
-   "id": "busqueda-ferias"
+   "id": "busqueda-ferias",
+   "entradas": [
+    "https://www.vamosferia.com/ferias"
+   ],
+   "notas": [
+    "2026-10-14 [web] Ferias permanentes de la Ciudad (Vamos Feria) y ferias de La Rural (MATEAR, Expográfika). Feria Puro Diseño fue del 9 al 11, fuera de la ventana."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-14",
+     "estado": "con_eventos",
+     "eventos": 12,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
+    }
+   ]
   },
   {
    "nombre": "Búsqueda: museos y galerías que falten",
@@ -7049,9 +7747,36 @@
      "gallery nights buenos aires galerías"
     ],
     "uso": "Encontrar museos, galerías, fundaciones y espacios de arte de CABA que no estén en la lista (ver con `crawl.py ver <nombre>` antes de sumarlos). Fuentes útiles: directorios de museos de la Ciudad y de la Nación, Meridiano, arteBA, Gallery Nights, Noche de los Museos. Sumarlos en sitios_nuevos con tipo galeria (museos y espacios de arte) o lugar (museos de ciencia, historia, etc.).",
-    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo."
+    "ritmo": "Agregar mes y año a cada consulta (p. ej. 'octubre 2026'). Abrir los primeros 5-8 resultados útiles (notas de agenda, sitios oficiales, ticketeras). Si Google pide captcha, probar con DuckDuckGo.",
+    "chequeo": "Los museos grandes ya están en la lista (MNBA, Malba, Moderno, MACBA, Evita, Xul Solar, Sívori, Larreta, Decorativo, Fernández Blanco, Oriental, Quinquela, Cine, Etnográfico). Faltaban teatros y salas de música."
    },
-   "id": "busqueda-museos-y-galerias-que-falten"
+   "id": "busqueda-museos-y-galerias-que-falten",
+   "notas": [
+    "2026-10-15 [web] Museos y galerías bien cubiertos. Se suman 2 galerías y 16 teatros y salas de música que no estaban (quedan para buscar su web en esta corrida). Hay ~170 salas más de Alternativa Teatral sin sumar.",
+    "2026-10-15 [web] Museos y galerías bien cubiertos. Se suman 16 teatros y salas de música que no estaban, con web o Instagram confirmados en Google. Galería NN e Imaginario quedan sin sumar (no se encontró web propia o no se confirmó que estén en CABA). Hay ~170 salas más de Alternativa Teatral sin sumar."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 17
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "nombre": "Museo Nacional de Arte Decorativo",
@@ -7254,14 +7979,38 @@
    "lugares": [
     "Fundación Andreani"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.fundacionandreani.org.ar/",
+   "instagram": "@fundacionandreani",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.fundacionandreani.org.ar/",
+    "2026-10-15 [web] Web fundacionandreani.org.ar; cuatro exposiciones actuales sin fecha de cierre publicada. Hay un ciclo de artes escénicas (La Casa) sin fechas en la portada."
    ],
-   "id": "fundacion-andreani"
+   "id": "fundacion-andreani",
+   "entradas": [
+    "https://www.fundacionandreani.org.ar/actuales-(e419)"
+   ],
+   "comportamiento": {
+    "fichas": "Las fichas de exposiciones actuales no publican fechas de inauguración ni cierre; se listan en 'Actuales'."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ],
+   "barrio": "La Boca"
   },
   {
    "nombre": "Museo del Humor (MuHu)",
@@ -7284,14 +8033,37 @@
    "lugares": [
     "Henrique Faria Buenos Aires"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://herlitzkafaria.com/",
+   "instagram": "@herlitzka.co",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://herlitzkafaria.com/",
+    "2026-10-15 [web] La galería funciona como Herlitzka & Co.; web herlitzkafaria.com."
    ],
-   "id": "henrique-faria-buenos-aires"
+   "id": "henrique-faria-buenos-aires",
+   "entradas": [
+    "https://herlitzkafaria.com/es/exhibiciones/actuales"
+   ],
+   "comportamiento": {
+    "nombre": "Henrique Faria Buenos Aires ahora es Herlitzka & Co. (herlitzkafaria.com)."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "nombre": "Pasto Galería",
@@ -7309,34 +8081,42 @@
    "id": "pasto-galeria"
   },
   {
-   "nombre": "Document Art Gallery",
-   "tipo": "galeria",
-   "lugares": [
-    "Document Art Gallery"
-   ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
-   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
-   "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
-   ],
-   "id": "document-art-gallery"
-  },
-  {
    "nombre": "Hache Galería",
    "tipo": "galeria",
    "lugares": [
     "Hache Galería"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://hachegaleria.com/",
+   "instagram": "@hachegaleria",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://hachegaleria.com/",
+    "2026-10-15 [web] Web hachegaleria.com. La muestra de Leticia Obeid en Palacio Libertad (Tita Merello) queda para el sitio de Palacio Libertad."
    ],
-   "id": "hache-galeria"
+   "id": "hache-galeria",
+   "entradas": [
+    "https://hachegaleria.com/"
+   ],
+   "comportamiento": {
+    "portada": "La portada mezcla muestras en la galería, actividades y participaciones de artistas en otros espacios (Nueva York, Palacio Libertad): cargar solo las de CABA con su lugar."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "nombre": "Gachi Prieto Galería",
@@ -7344,14 +8124,34 @@
    "lugares": [
     "Gachi Prieto Galería"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.gachiprieto.com/",
+   "instagram": "@gachiprietogaleria",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.gachiprieto.com/",
+    "2026-10-15 [web] Web confirmada gachiprieto.com; sin muestras publicadas, mirar Instagram."
    ],
-   "id": "gachi-prieto-galeria"
+   "id": "gachi-prieto-galeria",
+   "comportamiento": {
+    "plataforma": "Wix"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "nombre": "Galería Luisa Pedrouzo",
@@ -7360,13 +8160,32 @@
     "Galería Luisa Pedrouzo"
    ],
    "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "instagram": "@luisapedrouzo",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15 [web] Sin web propia; se agregó el Instagram @luisapedrouzo."
    ],
-   "id": "galeria-luisa-pedrouzo"
+   "id": "galeria-luisa-pedrouzo",
+   "comportamiento": {
+    "canal": "sin web; usar Instagram"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "nombre": "Calvaresi Galería",
@@ -7374,14 +8193,39 @@
    "lugares": [
     "Calvaresi Galería"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.calvaresicontemporaneo.com/",
+   "instagram": "@calvaresicontemporaneo",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.calvaresicontemporaneo.com/",
+    "2026-10-15 [web] Web confirmada calvaresicontemporaneo.com (San Telmo)."
    ],
-   "id": "calvaresi-galeria"
+   "id": "calvaresi-galeria",
+   "entradas": [
+    "https://www.calvaresicontemporaneo.com/muestras"
+   ],
+   "comportamiento": {
+    "plataforma": "Wix",
+    "fichas": "/muestras es una galería de imágenes sin enlaces visibles: hacer clic en la primera (la más reciente); las fechas están solo en la ficha."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "San Telmo"
   },
   {
    "nombre": "Mar Dulce Galería",
@@ -7404,14 +8248,36 @@
    "lugares": [
     "Cosmocosa"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://cosmocosa.com/",
+   "instagram": "@cosmocosa",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://cosmocosa.com/",
+    "2026-10-15 [web] Galería abierta en Montevideo 1430 (Recoleta); la web está en renovación, mirar Instagram."
    ],
-   "id": "cosmocosa"
+   "id": "cosmocosa",
+   "comportamiento": {
+    "estado_web": "en renovación (octubre 2026)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Montevideo 1430, PB"
   },
   {
    "nombre": "Fundación Larivière",
@@ -7419,29 +8285,41 @@
    "lugares": [
     "Fundación Larivière"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.fundacionlariviere.org/",
+   "instagram": "@fundacionlariviere",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.fundacionlariviere.org/",
+    "2026-10-15 [web] Caboto 564, La Boca. Jueves a domingos de 12 a 19; contribución general $6.000."
    ],
-   "id": "fundacion-lariviere"
-  },
-  {
-   "nombre": "Galería Jacques Martínez",
-   "tipo": "galeria",
-   "lugares": [
-    "Galería Jacques Martínez"
+   "id": "fundacion-lariviere",
+   "entradas": [
+    "https://www.fundacionlariviere.org/novedades/category/5_presentes.html",
+    "https://www.fundacionlariviere.org/novedades/category/22_agenda.html"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
-   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
-   "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+   "comportamiento": {
+    "idioma": "Abre en inglés (/en/); las categorías son 'presentes', 'futuras', 'agenda'.",
+    "fichas": "Las fichas no publican fecha de cierre."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ],
-   "id": "galeria-jacques-martinez"
+   "barrio": "La Boca",
+   "direccion": "Caboto 564"
   },
   {
    "nombre": "Museo Evita",
@@ -7757,6 +8635,398 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
    ],
    "id": "museo-mundial-del-tango"
+  },
+  {
+   "id": "vidriera-ba",
+   "nombre": "Vidriera BA",
+   "tipo": "agregador",
+   "lugares": [
+    "Vidriera BA"
+   ],
+   "web": "https://vidrierabuenosaires.com/agenda",
+   "instagram": "@vidrierabuenosaires",
+   "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
+   "notas": [
+    "2026-10-14: agenda cultural curada de CABA con fechas, dirección y precio"
+   ]
+  },
+  {
+   "id": "vamos-feria",
+   "nombre": "Vamos Feria",
+   "tipo": "agregador",
+   "lugares": [
+    "Vamos Feria"
+   ],
+   "web": "https://www.vamosferia.com/ferias",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
+   "notas": [
+    "2026-10-14: listado semanal de ferias de CABA con días y direcciones"
+   ]
+  },
+  {
+   "id": "la-rural-ticket",
+   "nombre": "La Rural Ticket",
+   "tipo": "agregador",
+   "lugares": [
+    "La Rural Ticket"
+   ],
+   "web": "https://www.laruralticket.com.ar",
+   "instagram": "@larural_bsas",
+   "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
+   "notas": [
+    "2026-10-14: ferias y exposiciones de La Rural"
+   ]
+  },
+  {
+   "id": "buenos-aires-secreta-planes-del-fin-de-semana",
+   "nombre": "Buenos Aires Secreta: planes del fin de semana",
+   "tipo": "agregador",
+   "lugares": [
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "web": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
+   "instagram": "@bairessecreta",
+   "origen": "descubierto en Búsqueda: festivales el 2026-10-15",
+   "notas": [
+    "2026-10-15: nota semanal con 30+ planes con lugar y fecha"
+   ]
+  },
+  {
+   "id": "teatro-colon",
+   "nombre": "Teatro Colón",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Colón"
+   ],
+   "web": "https://teatrocolon.org.ar/",
+   "instagram": "@teatrocolon",
+   "origen": "descubierto en Búsqueda: festivales el 2026-10-15",
+   "notas": [
+    "2026-10-15: principal teatro lírico; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "jodify",
+   "nombre": "Jodify",
+   "tipo": "agregador",
+   "lugares": [
+    "Jodify"
+   ],
+   "web": "https://jodify.com.ar/events",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: agenda nacional de fiestas electrónicas con club y barrio"
+   ]
+  },
+  {
+   "id": "buenos-aliens",
+   "nombre": "Buenos Aliens",
+   "tipo": "agregador",
+   "lugares": [
+    "Buenos Aliens"
+   ],
+   "web": "http://www.buenosaliens.com",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: agenda de música electrónica de Argentina"
+   ]
+  },
+  {
+   "id": "crobar",
+   "nombre": "Crobar",
+   "tipo": "lugar",
+   "lugares": [
+    "Crobar"
+   ],
+   "web": "http://www.crobar.com.ar",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de electrónica; web confirmada en RA"
+   ]
+  },
+  {
+   "id": "under-club",
+   "nombre": "Under Club",
+   "tipo": "lugar",
+   "lugares": [
+    "Under Club"
+   ],
+   "web": "https://www.underclub.com.ar/",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de techno; web confirmada en RA"
+   ]
+  },
+  {
+   "id": "la-nube",
+   "nombre": "La Nube",
+   "tipo": "lugar",
+   "lugares": [
+    "La Nube"
+   ],
+   "web": "",
+   "instagram": "@lanubebuenosaires",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de electrónica; Instagram confirmado en RA"
+   ]
+  },
+  {
+   "id": "avant-garten",
+   "nombre": "Avant Garten",
+   "tipo": "lugar",
+   "lugares": [
+    "Avant Garten"
+   ],
+   "web": "http://avantgarten.club",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de house; web confirmada en RA"
+   ]
+  },
+  {
+   "id": "tcq",
+   "nombre": "TCQ",
+   "tipo": "lugar",
+   "lugares": [
+    "TCQ"
+   ],
+   "web": "",
+   "instagram": "@tcqlub",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de techno; Instagram confirmado en RA"
+   ]
+  },
+  {
+   "id": "dune-park",
+   "nombre": "Dune Park",
+   "tipo": "lugar",
+   "lugares": [
+    "Dune Park"
+   ],
+   "web": "http://www.dunepark.club",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de house; web confirmada en RA"
+   ]
+  },
+  {
+   "id": "complejo-teatral-de-buenos-aires",
+   "nombre": "Complejo Teatral de Buenos Aires",
+   "tipo": "lugar",
+   "lugares": [
+    "Complejo Teatral de Buenos Aires"
+   ],
+   "web": "https://complejoteatral.gob.ar/agenda/",
+   "instagram": "@elsanmartinctba",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: teatros San Martín, Regio, Sarmiento, Alvear y De la Ribera; no estaban en la lista"
+   ]
+  },
+  {
+   "id": "teatro-nacional-cervantes",
+   "nombre": "Teatro Nacional Cervantes",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Nacional Cervantes"
+   ],
+   "web": "https://www.teatrocervantes.gob.ar/calendario/",
+   "instagram": "",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "paseo-la-plaza",
+   "nombre": "Paseo La Plaza",
+   "tipo": "lugar",
+   "lugares": [
+    "Paseo La Plaza"
+   ],
+   "web": "https://www.paseolaplaza.com.ar/obras",
+   "instagram": "@paseolaplazaok",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "teatro-picadero",
+   "nombre": "Teatro Picadero",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Picadero"
+   ],
+   "web": "https://www.teatropicadero.com.ar/",
+   "instagram": "@teatroelpicadero",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "timbre-4",
+   "nombre": "Timbre 4",
+   "tipo": "lugar",
+   "lugares": [
+    "Timbre 4"
+   ],
+   "web": "https://www.timbre4.com/",
+   "instagram": "@teatrotimbre4",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "teatro-del-pueblo",
+   "nombre": "Teatro del Pueblo",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro del Pueblo"
+   ],
+   "web": "https://teatrodelpueblo.com.ar/",
+   "instagram": "@teatrodelpueblo.arg",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "itaca-complejo-teatral",
+   "nombre": "Ítaca Complejo Teatral",
+   "tipo": "lugar",
+   "lugares": [
+    "Ítaca Complejo Teatral"
+   ],
+   "web": "",
+   "instagram": "@itacacomplejoteatral",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "el-metodo-kairos",
+   "nombre": "El Método Kairós",
+   "tipo": "lugar",
+   "lugares": [
+    "El Método Kairós"
+   ],
+   "web": "",
+   "instagram": "@el.metodo.kairos",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+   ]
+  },
+  {
+   "id": "niceto-club",
+   "nombre": "Niceto Club",
+   "tipo": "lugar",
+   "lugares": [
+    "Niceto Club"
+   ],
+   "web": "https://nicetoclub.com/agenda/",
+   "instagram": "@nicetoclub",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: club de música en vivo y fiestas; muchas fechas en Indiehoy"
+   ]
+  },
+  {
+   "id": "la-trastienda",
+   "nombre": "La Trastienda",
+   "tipo": "lugar",
+   "lugares": [
+    "La Trastienda"
+   ],
+   "web": "https://www.latrastienda.com/",
+   "instagram": "@latrastiendaoficial",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala de recitales"
+   ]
+  },
+  {
+   "id": "movistar-arena",
+   "nombre": "Movistar Arena",
+   "tipo": "lugar",
+   "lugares": [
+    "Movistar Arena"
+   ],
+   "web": "https://www.movistararena.com.ar/shows",
+   "instagram": "@movistararenaar",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: estadio de recitales"
+   ]
+  },
+  {
+   "id": "teatro-gran-rex",
+   "nombre": "Teatro Gran Rex",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Gran Rex"
+   ],
+   "web": "",
+   "instagram": "@teatro_granrex",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala de recitales y teatro"
+   ]
+  },
+  {
+   "id": "teatro-coliseo",
+   "nombre": "Teatro Coliseo",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Coliseo"
+   ],
+   "web": "https://www.teatrocoliseo.org.ar/cartelera/",
+   "instagram": "@teatrocoliseo",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: teatro con programación en Ticketek"
+   ]
+  },
+  {
+   "id": "teatro-vorterix",
+   "nombre": "Teatro Vorterix",
+   "tipo": "lugar",
+   "lugares": [
+    "Teatro Vorterix"
+   ],
+   "web": "",
+   "instagram": "@teatrovorterix",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: sala de recitales"
+   ]
+  },
+  {
+   "id": "strummer-bar",
+   "nombre": "Strummer Bar",
+   "tipo": "lugar",
+   "lugares": [
+    "Strummer Bar"
+   ],
+   "web": "",
+   "instagram": "@strummerbar",
+   "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
+   "notas": [
+    "2026-10-15: bar de recitales; varias fechas en Indiehoy"
+   ]
   }
  ]
 }

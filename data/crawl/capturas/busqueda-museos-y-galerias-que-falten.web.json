@@ -1,0 +1,45 @@
+{
+ "id": "busqueda-museos-y-galerias-que-falten",
+ "canal": "web",
+ "fuente": "Búsqueda: museos y galerías que falten",
+ "tipo": "descubrimiento",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.google.com/search?q=inauguraci%C3%B3n+muestra+galer%C3%ADa+buenos+aires+octubre+2026",
+  "https://www.google.com/search?q=Complejo+Teatral+de+Buenos+Aires",
+  "https://www.google.com/search?q=Teatro+Nacional+Cervantes",
+  "https://www.google.com/search?q=Paseo+La+Plaza",
+  "https://www.google.com/search?q=Teatro+Picadero",
+  "https://www.google.com/search?q=Timbre+4",
+  "https://www.google.com/search?q=Teatro+del+Pueblo",
+  "https://www.google.com/search?q=Ítaca+Complejo+Teatral",
+  "https://www.google.com/search?q=El+Método+Kairós",
+  "https://www.google.com/search?q=Niceto+Club",
+  "https://www.google.com/search?q=La+Trastienda",
+  "https://www.google.com/search?q=Movistar+Arena",
+  "https://www.google.com/search?q=Teatro+Gran+Rex",
+  "https://www.google.com/search?q=Teatro+Coliseo",
+  "https://www.google.com/search?q=Teatro+Vorterix",
+  "https://www.google.com/search?q=C+Art+Media",
+  "https://www.google.com/search?q=Strummer+Bar"
+ ],
+ "eventos": [
+  {
+   "titulo": "Inauguración de Galería NN en San Telmo",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "De 19 a 23",
+   "lugar": "Galería NN",
+   "barrio": "San Telmo",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://entrecomunas.com.ar",
+   "descripcion": "La galería NN inaugura su espacio en San Telmo con una jornada de entrada libre.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}
