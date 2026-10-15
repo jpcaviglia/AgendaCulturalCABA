@@ -149,9 +149,18 @@ def _id_plan(url):
     return m.group(1) if m else ""
 
 
+def _contenido(a, b):
+    """Todas las palabras del título más corto están en el otro ("Gruesome en Argentina" en
+    "GRUESOME - Unico Show en Argentina"). Pide 2 palabras o más para no unir títulos de una palabra."""
+    pa, pb = set(a.split()), set(b.split())
+    corto, largo = (pa, pb) if len(pa) <= len(pb) else (pb, pa)
+    genericas = {"argentina", "buenos", "aires", "caba", "the", "and"}
+    return len(corto) >= 2 and bool(corto - genericas) and corto - genericas <= largo
+
+
 def cubierto(tarjeta, idx):
     t = norm_titulo(tarjeta["titulo"])
-    return any(_parecidos(t, otro, 0.85) for otro in idx.get(tarjeta["fecha"], ()))
+    return any(_parecidos(t, otro, 0.85) or _contenido(t, otro) for otro in idx.get(tarjeta["fecha"], ()))
 
 
 def main():
@@ -182,6 +191,15 @@ def main():
         elif not barrio and not c["hora"]:
             fichas.append(c["url"])
         eventos.append(e)
+
+    # Muestras y funciones de larga duración que empezaron antes de hoy: la tarjeta queda fuera de la ventana,
+    # pero la captura anterior (de fichas) traía el rango. Se conservan mientras sigan vigentes.
+    en_listado = {c["id"] for c in todas}
+    for pid, e in previa.items():
+        fin = e.get("fecha_fin") or e["fecha_inicio"]
+        if (pid and pid not in en_listado and e.get("lugar") and fin >= desde and fin > e["fecha_inicio"]
+                and not cubierto({"titulo": e["titulo"], "fecha": max(e["fecha_inicio"], desde)}, idx)):
+            eventos.append(e)
 
     print(f"SalePlan: {len(urls)} páginas, {len(todas)} tarjetas, {len(caba)} de CABA en la ventana "
           f"({desde} a {hasta}); {len(caba) - len(nuevas)} ya las trae otra fuente, {len(eventos)} nuevas "
