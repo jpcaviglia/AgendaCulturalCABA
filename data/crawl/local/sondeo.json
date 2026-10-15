@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-15 14:25",
- "segundos": 134,
+ "fecha": "2026-10-15 14:41",
+ "segundos": 127,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -60,7 +60,7 @@
    "fechas_en_texto": 21,
    "texto_portada": 3864,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -77,7 +77,7 @@
    "fechas_en_texto": 58,
    "texto_portada": 598,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -94,7 +94,7 @@
    "fechas_en_texto": 58,
    "texto_portada": 2351,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -104,7 +104,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -114,7 +114,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -127,8 +127,8 @@
     "https://www.eventbrite.com.ar/organizer/overview/"
    ],
    "jsonld_eventos": 68,
-   "fechas_en_texto": 50,
-   "texto_portada": 18799,
+   "fechas_en_texto": 52,
+   "texto_portada": 19243,
    "clase": "jsonld",
    "ejemplos": [
     {
@@ -144,7 +144,7 @@
      "inicio": "2026-10-30"
     }
    ],
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -170,7 +170,7 @@
      "inicio": "2026-10-15"
     }
    ],
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -190,7 +190,7 @@
    "fechas_en_texto": 791,
    "texto_portada": 1745,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -204,7 +204,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 10,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -214,7 +214,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -230,10 +230,34 @@
    ],
    "jsonld_eventos": 0,
    "fechas_en_texto": 39,
-   "texto_portada": 9645,
+   "texto_portada": 9639,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "flashpass",
+   "web": "https://events.flashpass.com.ar/",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://events.flashpass.com.ar/",
+   "paginas_agenda": [
+    "https://events.flashpass.com.ar/eventos/aura-mata-buzios-1201-6382",
+    "https://events.flashpass.com.ar/eventos/navidad-aura-mata-2412-956",
+    "https://events.flashpass.com.ar/eventos/aura-mata-praia-do-rosa-1901-9468"
+   ],
+   "jsonld_eventos": 3,
+   "fechas_en_texto": 22,
+   "texto_portada": 1549,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "AURA MATA - BUZIOS 12/01",
+     "inicio": "MAR 12 DE ENE 2027 | 23:5"
+    }
+   ],
+   "fecha": "2026-10-15 14:39",
+   "estado_corrida_anterior": "sin_dato"
   },
   {
    "id": "arte-al-dia-agenda",
@@ -246,7 +270,7 @@
    "fechas_en_texto": 5,
    "texto_portada": 4322,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -264,7 +288,7 @@
    "fechas_en_texto": 24,
    "texto_portada": 3959,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -282,9 +306,9 @@
    ],
    "jsonld_eventos": 0,
    "fechas_en_texto": 244,
-   "texto_portada": 1545,
+   "texto_portada": 1576,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -302,7 +326,7 @@
    "fechas_en_texto": 184,
    "texto_portada": 643,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -316,7 +340,7 @@
    "fechas_en_texto": 29,
    "texto_portada": 4433,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -331,7 +355,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 9204,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -341,7 +365,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -361,7 +385,7 @@
    "fechas_en_texto": 156,
    "texto_portada": 21052,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -381,7 +405,7 @@
    "fechas_en_texto": 5,
    "texto_portada": 493,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -399,7 +423,7 @@
    "fechas_en_texto": 117,
    "texto_portada": 5105,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -419,7 +443,7 @@
    "fechas_en_texto": 32,
    "texto_portada": 1084,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -437,7 +461,7 @@
    "fechas_en_texto": 10,
    "texto_portada": 907,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -457,7 +481,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1019,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -473,7 +497,7 @@
    "fechas_en_texto": 14,
    "texto_portada": 2481,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -492,7 +516,7 @@
    "fechas_en_texto": 74,
    "texto_portada": 5272,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -510,7 +534,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 369,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -529,7 +553,7 @@
    "fechas_en_texto": 42,
    "texto_portada": 778,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -539,7 +563,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 523",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -549,7 +573,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -569,7 +593,7 @@
    "fechas_en_texto": 92,
    "texto_portada": 1607,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -585,7 +609,7 @@
    "fechas_en_texto": 117,
    "texto_portada": 29464,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -595,7 +619,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -613,7 +637,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 591,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -631,7 +655,7 @@
    "fechas_en_texto": 19,
    "texto_portada": 1007,
    "clase": "html",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -645,7 +669,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 482,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -665,7 +689,7 @@
    "fechas_en_texto": 3,
    "texto_portada": 3342,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -675,7 +699,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:23",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -709,7 +733,7 @@
      "inicio": "2026-08-14"
     }
    ],
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -727,7 +751,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1441,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -753,7 +777,7 @@
      "inicio": "2026-10-16T21:15:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -769,7 +793,7 @@
    "fechas_en_texto": 24,
    "texto_portada": 1266,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -783,7 +807,7 @@
    "fechas_en_texto": 21,
    "texto_portada": 3747,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -793,7 +817,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -801,14 +825,14 @@
    "web": "https://www.mutualhomeromanzi.blogspot.com",
    "plataforma": [],
    "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://draft.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://draft.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-768664345:1792085043238285",
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2145717270:1792085984475751",
    "redirige_a": "accounts.google.com",
    "paginas_agenda": [],
    "jsonld_eventos": 0,
    "fechas_en_texto": 0,
    "texto_portada": 1083,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "bloqueado"
   },
   {
@@ -822,7 +846,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 9339,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -836,7 +860,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 18,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -845,8 +869,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "conexión rechazada",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -864,7 +888,7 @@
    "fechas_en_texto": 67,
    "texto_portada": 2872,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -873,8 +897,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -888,7 +912,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 8716,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -908,7 +932,7 @@
    "fechas_en_texto": 7,
    "texto_portada": 2938,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -922,7 +946,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 59,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -931,8 +955,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -946,7 +970,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 20,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -955,8 +979,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -972,7 +996,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 2640,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -982,7 +1006,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 404",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -996,7 +1020,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 3488,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1010,7 +1034,7 @@
    "fechas_en_texto": 8,
    "texto_portada": 3035,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1024,7 +1048,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 4244,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1038,7 +1062,7 @@
    "fechas_en_texto": 31,
    "texto_portada": 19162,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1048,7 +1072,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 404",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -1062,7 +1086,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 2425,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -1076,7 +1100,7 @@
    "fechas_en_texto": 7,
    "texto_portada": 3623,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1090,7 +1114,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 2830,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1104,7 +1128,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 2823,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1118,7 +1142,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 3114,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1132,7 +1156,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 3137,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1150,7 +1174,7 @@
    "fechas_en_texto": 10,
    "texto_portada": 3863,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1166,7 +1190,7 @@
    "fechas_en_texto": 42,
    "texto_portada": 1982,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1184,7 +1208,7 @@
    "fechas_en_texto": 7,
    "texto_portada": 4195,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1198,7 +1222,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 275,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1216,7 +1240,7 @@
    "fechas_en_texto": 12,
    "texto_portada": 3368,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1232,7 +1256,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 3808,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1248,7 +1272,7 @@
    "fechas_en_texto": 9,
    "texto_portada": 2697,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1266,7 +1290,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 2270,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1276,7 +1300,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -1286,7 +1310,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -1296,7 +1320,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -1312,7 +1336,7 @@
    "fechas_en_texto": 34,
    "texto_portada": 26865,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1328,7 +1352,7 @@
    "fechas_en_texto": 5,
    "texto_portada": 9551,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1337,8 +1361,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -1355,7 +1379,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 2372,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1373,7 +1397,7 @@
    "fechas_en_texto": 10,
    "texto_portada": 1198,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1387,9 +1411,9 @@
    "paginas_agenda": [],
    "jsonld_eventos": 0,
    "fechas_en_texto": 0,
-   "texto_portada": 3163,
+   "texto_portada": 3126,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1399,7 +1423,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 404",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1415,7 +1439,7 @@
    "fechas_en_texto": 8,
    "texto_portada": 2229,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:39",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1433,7 +1457,7 @@
    "fechas_en_texto": 48,
    "texto_portada": 7340,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -1451,7 +1475,7 @@
    "fechas_en_texto": 136,
    "texto_portada": 87743,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1469,7 +1493,7 @@
    "fechas_en_texto": 72,
    "texto_portada": 7778,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1485,7 +1509,7 @@
    "fechas_en_texto": 4,
    "texto_portada": 6395,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1503,7 +1527,7 @@
    "fechas_en_texto": 35,
    "texto_portada": 3420,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1519,7 +1543,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 3074,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1528,8 +1552,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -1538,8 +1562,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -1548,8 +1572,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -1563,7 +1587,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 1357,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_cultural"
   },
   {
@@ -1579,7 +1603,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 410,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1593,7 +1617,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1955,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1611,7 +1635,7 @@
    "fechas_en_texto": 38,
    "texto_portada": 3744,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1625,7 +1649,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 13,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1635,7 +1659,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1651,7 +1675,7 @@
    "fechas_en_texto": 9,
    "texto_portada": 2105,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1667,7 +1691,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 500,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1685,7 +1709,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 2182,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1699,7 +1723,7 @@
    "fechas_en_texto": 10,
    "texto_portada": 14991,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1717,7 +1741,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 3699,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1735,7 +1759,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 3966,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1751,7 +1775,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 100,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1762,12 +1786,14 @@
    ],
    "pedidos": 2,
    "url_final": "https://catalinasur.com.ar/",
-   "paginas_agenda": [],
+   "paginas_agenda": [
+    "https://catalinasur.com.ar/proximamente/"
+   ],
    "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
+   "fechas_en_texto": 1,
    "texto_portada": 1528,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "clase": "needs_browser",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1781,7 +1807,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1152,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1801,7 +1827,7 @@
    "fechas_en_texto": 15,
    "texto_portada": 2317,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1816,7 +1842,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 13,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1834,7 +1860,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1307,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1848,7 +1874,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -1862,7 +1888,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 27,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -1878,7 +1904,7 @@
    "fechas_en_texto": 5,
    "texto_portada": 7178,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -1903,7 +1929,7 @@
      "inicio": "2026-10-19T18:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1920,7 +1946,7 @@
    "fechas_en_texto": 33,
    "texto_portada": 8738,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1938,7 +1964,7 @@
    "fechas_en_texto": 1856,
    "texto_portada": 2603,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1956,7 +1982,7 @@
    "fechas_en_texto": 7,
    "texto_portada": 2821,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -1972,7 +1998,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 7701,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -1981,8 +2007,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -1992,7 +2018,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "certificado inválido",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2001,8 +2027,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2018,7 +2044,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 830,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2028,7 +2054,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2046,7 +2072,7 @@
    "fechas_en_texto": 202,
    "texto_portada": 1646,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2060,7 +2086,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 39,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2074,7 +2100,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 2520,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2091,7 +2117,7 @@
    "fechas_en_texto": 190,
    "texto_portada": 49883,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2105,7 +2131,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 3394,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -2121,7 +2147,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1344,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2135,7 +2161,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 420,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2144,8 +2170,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2162,7 +2188,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1307,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2172,7 +2198,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2182,7 +2208,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2192,7 +2218,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -2202,7 +2228,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2212,7 +2238,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -2228,7 +2254,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1676,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2242,7 +2268,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 420,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2251,8 +2277,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2266,7 +2292,7 @@
    "fechas_en_texto": 7,
    "texto_portada": 7770,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2282,7 +2308,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 3875,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2296,7 +2322,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2328,7 +2354,7 @@
      "inicio": "2026-10-31T18:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2362,7 +2388,7 @@
      "inicio": "2026-10-03T18:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2376,7 +2402,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 42,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -2394,7 +2420,7 @@
    "fechas_en_texto": 33,
    "texto_portada": 4416,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2408,7 +2434,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1224,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2416,14 +2442,14 @@
    "web": "https://sites.google.com/site/centroarzuanomellidense/",
    "plataforma": [],
    "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1662234106:1792085085840282",
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S235082733:1792086026519301",
    "redirige_a": "accounts.google.com",
    "paginas_agenda": [],
    "jsonld_eventos": 0,
    "fechas_en_texto": 0,
    "texto_portada": 1072,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2433,7 +2459,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "certificado inválido",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2451,7 +2477,7 @@
    "fechas_en_texto": 86,
    "texto_portada": 2884,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2472,47 +2498,92 @@
    "fechas_en_texto": 8,
    "texto_portada": 3194,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
    "id": "feliza-cultura-arcoiris",
    "web": "https://felizarcoiris.com/",
    "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "timeout",
-   "fecha": "2026-10-15 14:25",
+   "pedidos": 2,
+   "url_final": "https://felizarcoiris.com/",
+   "paginas_agenda": [
+    "https://felizarcoiris.com/agenda?vista=semana"
+   ],
+   "jsonld_eventos": 25,
+   "fechas_en_texto": 4,
+   "texto_portada": 1823,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "La felicidad son los vínculos que armamos acá",
+     "inicio": "2026-10-15T20:00:00-03:00"
+    },
+    {
+     "titulo": "Cine de Terror",
+     "inicio": "2026-10-15T20:00:00-03:00"
+    },
+    {
+     "titulo": "REACCIÓN CHAPPELL X OLIVIA y KARAOKE SÁFICO",
+     "inicio": "2026-10-15T20:00:00-03:00"
+    }
+   ],
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
    "id": "british-art-centre",
    "web": "https://www.aaci.org.ar/bac/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "timeout",
-   "fecha": "2026-10-15 14:25",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://www.aaci.org.ar/bac/",
+   "paginas_agenda": [
+    "https://www.aaci.org.ar/categorias-bac/events/",
+    "https://www.aaci.org.ar/novedades/seminarios-talleres-eventos/cambridge/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 51,
+   "texto_portada": 5551,
+   "clase": "html",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
    "id": "centro-cultural-coreano",
    "web": "https://argentina.korean-culture.org/es",
    "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 302",
-   "fecha": "2026-10-15 14:24",
+   "pedidos": 4,
+   "url_final": "https://argentina.korean-culture.org/es",
+   "paginas_agenda": [
+    "https://argentina.korean-culture.org/es/1877/schedule/list",
+    "https://argentina.korean-culture.org/es/464/board/191/list",
+    "https://argentina.korean-culture.org/es/465/board/192/list"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 56,
+   "texto_portada": 59513,
+   "clase": "html",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
    "id": "espacio-cultural-embajada-del-brasil",
    "web": "https://www.gov.br/mre/pt-br/embaixada-buenos-aires/sector-cultural-1",
    "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "EOFError: Compressed file ended before the end-of-stream marker was reached",
-   "fecha": "2026-10-15 14:24",
+   "pedidos": 4,
+   "url_final": "https://www.gov.br/mre/pt-br/embaixada-buenos-aires/sector-cultural-1",
+   "paginas_agenda": [
+    "https://www.gov.br/mre/pt-br/acesso-a-informacao/agenda-de-autoridades",
+    "https://www.gov.br/mre/pt-br/acesso-a-informacao/agenda-de-autoridades/todas-as-autoridades",
+    "https://www.gov.br/mre/pt-br/acesso-a-informacao/agenda-de-autoridades/agendas-anteriores"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 3,
+   "texto_portada": 253587,
+   "clase": "html",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2528,7 +2599,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 235,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2542,7 +2613,7 @@
    "fechas_en_texto": 68,
    "texto_portada": 20606,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -2562,7 +2633,7 @@
    "fechas_en_texto": 17,
    "texto_portada": 2131,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2571,8 +2642,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2581,8 +2652,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2598,7 +2669,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 9128,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2614,7 +2685,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 834,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2632,7 +2703,7 @@
    "fechas_en_texto": 32,
    "texto_portada": 1913,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2646,7 +2717,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 10,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2664,7 +2735,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 1489,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2682,7 +2753,7 @@
    "fechas_en_texto": 12,
    "texto_portada": 2597,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2691,8 +2762,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:24",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2719,7 +2790,7 @@
      "inicio": "2026-10-10T17:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2737,7 +2808,7 @@
    "fechas_en_texto": 3,
    "texto_portada": 2750,
    "clase": "html",
-   "fecha": "2026-10-15 14:24",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2747,7 +2818,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "timeout",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -2763,7 +2834,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 159,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2773,7 +2844,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2782,8 +2853,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2793,7 +2864,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -2811,7 +2882,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1711,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2840,7 +2911,7 @@
      "inicio": "2026-10-18 17:00"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2860,7 +2931,7 @@
    "fechas_en_texto": 113,
    "texto_portada": 2511,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2870,7 +2941,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 404",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -2880,7 +2951,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -2894,7 +2965,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1188,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_cultural"
   },
   {
@@ -2910,17 +2981,25 @@
    "fechas_en_texto": 9,
    "texto_portada": 4125,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
    "id": "espacio-ukelele",
    "web": "https://espacioukelele.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "TimeoutError: _ssl.c:983: The handshake operation timed out",
-   "fecha": "2026-10-15 14:25",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://espacioukelele.com.ar/",
+   "paginas_agenda": [
+    "https://espacioukelele.com.ar/actividades/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 18,
+   "texto_portada": 1782,
+   "clase": "html",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -2929,8 +3008,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2940,7 +3019,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -2954,7 +3033,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 55,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -2963,8 +3042,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_carga"
   },
   {
@@ -2974,7 +3053,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "solo_instagram"
   },
   {
@@ -2990,7 +3069,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 1653,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "no_cultural"
   },
   {
@@ -3004,7 +3083,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 36,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -3020,17 +3099,23 @@
    "fechas_en_texto": 42,
    "texto_portada": 11060,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
    "id": "oihoy-casa-abierta",
    "web": "https://oihoy.com.ar/",
-   "plataforma": [],
+   "plataforma": [
+    "wordpress"
+   ],
    "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "TimeoutError: _ssl.c:983: The handshake operation timed out",
-   "fecha": "2026-10-15 14:25",
+   "url_final": "https://oihoy.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 1391,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -3057,7 +3142,7 @@
      "inicio": "2026-10-16T18:30:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_agenda"
   },
   {
@@ -3091,7 +3176,7 @@
      "inicio": "2026-10-17T12:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3100,8 +3185,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -3129,7 +3214,7 @@
      "inicio": "2026-10-18 15:30"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3138,8 +3223,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -3148,8 +3233,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "dominio_caido"
   },
   {
@@ -3158,8 +3243,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "gaierror: [Errno 11001] getaddrinfo failed",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3173,7 +3258,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3198,7 +3283,7 @@
      "inicio": "2026-10-16T23:00:00.000"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3212,7 +3297,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 122,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3226,7 +3311,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 122,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3240,7 +3325,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 122,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3254,7 +3339,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 122,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3272,7 +3357,7 @@
    "fechas_en_texto": 45,
    "texto_portada": 2114,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3290,7 +3375,7 @@
    "fechas_en_texto": 231,
    "texto_portada": 32535,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3300,7 +3385,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:40",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3317,7 +3402,7 @@
    "fechas_en_texto": 57,
    "texto_portada": 817,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -3335,7 +3420,7 @@
    "fechas_en_texto": 44,
    "texto_portada": 3623,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3351,7 +3436,7 @@
    "fechas_en_texto": 6,
    "texto_portada": 2981,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -3369,7 +3454,7 @@
    "fechas_en_texto": 26,
    "texto_portada": 9408,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3387,7 +3472,7 @@
    "fechas_en_texto": 28,
    "texto_portada": 3780,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3403,7 +3488,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 2664,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -3413,7 +3498,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3430,7 +3515,7 @@
    "fechas_en_texto": 4,
    "texto_portada": 384,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3447,7 +3532,7 @@
    "fechas_en_texto": 2,
    "texto_portada": 156,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3467,7 +3552,7 @@
    "fechas_en_texto": 106,
    "texto_portada": 1152,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3477,7 +3562,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -3487,7 +3572,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3501,7 +3586,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 440,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -3510,8 +3595,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "HTTP 200",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "la respuesta llegó vacía",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3529,7 +3614,7 @@
    "fechas_en_texto": 25,
    "texto_portada": 2482,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3561,7 +3646,7 @@
      "inicio": "2026-10-17T10:00:00-03:00"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3585,7 +3670,7 @@
      "inicio": "2026-10-17T15:00:00Z"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3601,7 +3686,7 @@
    "fechas_en_texto": 54,
    "texto_portada": 24375,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3621,7 +3706,7 @@
    "fechas_en_texto": 29,
    "texto_portada": 13937,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3630,8 +3715,8 @@
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
-   "motivo": "HTTP 429",
-   "fecha": "2026-10-15 14:25",
+   "motivo": "HTTP 429 (demasiados pedidos)",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3645,7 +3730,7 @@
    "fechas_en_texto": 173,
    "texto_portada": 27588,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3673,7 +3758,7 @@
      "inicio": "2026-10-17"
     }
    ],
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3687,7 +3772,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1240,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3701,7 +3786,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 162,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3717,7 +3802,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 884,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3733,7 +3818,7 @@
    "fechas_en_texto": 36,
    "texto_portada": 8440,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3752,7 +3837,7 @@
    "fechas_en_texto": 4,
    "texto_portada": 3620,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3770,7 +3855,7 @@
    "fechas_en_texto": 15,
    "texto_portada": 3279,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3790,7 +3875,7 @@
    "fechas_en_texto": 4,
    "texto_portada": 546,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3806,7 +3891,7 @@
    "fechas_en_texto": 5,
    "texto_portada": 3248,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3822,7 +3907,7 @@
    "fechas_en_texto": 3,
    "texto_portada": 4299,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3841,7 +3926,7 @@
    "fechas_en_texto": 189,
    "texto_portada": 12918,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3857,7 +3942,7 @@
    "fechas_en_texto": 31,
    "texto_portada": 3847,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3867,7 +3952,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -3887,7 +3972,7 @@
    "fechas_en_texto": 183,
    "texto_portada": 8098,
    "clase": "html",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   },
   {
@@ -3907,7 +3992,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 1223,
    "clase": "needs_browser",
-   "fecha": "2026-10-15 14:25",
+   "fecha": "2026-10-15 14:41",
    "estado_corrida_anterior": "sin_dato"
   }
  ]
