@@ -1,0 +1,43 @@
+{
+ "id": "espacio-orsai",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://espacio.orsai.org/",
+  "https://eventos.orsai.org/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Teatro",
+   "url": "https://eventos.orsai.org/",
+   "visitado": true
+  },
+  {
+   "texto": "Cine",
+   "url": "https://audiovisual.orsai.org/",
+   "descartado": "producción audiovisual de Orsai, no cartelera"
+  },
+  {
+   "texto": "Escuela",
+   "url": "https://escuela.orsai.org/",
+   "descartado": "talleres de escritura virtuales"
+  },
+  {
+   "texto": "Blog",
+   "url": "/blog",
+   "descartado": "notas"
+  },
+  {
+   "texto": "Tienda",
+   "url": "https://tienda.orsai.org/",
+   "descartado": "tienda"
+  }
+ ],
+ "evidencia": "espacio.orsai.org es el sitio editorial (notas, talleres virtuales); su sección Teatro lleva a eventos.orsai.org, cuya única propuesta es el taller de Hernán Casciari para publicar un libro (curso con libro impreso), sin cartelera ni eventos con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sitio editorial de Orsai; sin cartelera de eventos en la web."
+}

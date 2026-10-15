@@ -1,0 +1,32 @@
+{
+ "id": "estacion-de-los-deseos",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://estaciondelosdeseos.blogspot.com/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Talleres anuales",
+   "url": "/",
+   "descartado": "menú del blog sin entradas propias"
+  },
+  {
+   "texto": "Novedades",
+   "url": "/",
+   "descartado": "menú del blog sin entradas propias"
+  },
+  {
+   "texto": "Otras actividades",
+   "url": "/",
+   "descartado": "menú del blog sin entradas propias"
+  }
+ ],
+ "evidencia": "Blog con una sola entrada, de julio de 2011; el menú (talleres anuales, novedades, otras actividades) no tiene contenido con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Blog abandonado desde 2011 (Bacacay 1608)."
+}

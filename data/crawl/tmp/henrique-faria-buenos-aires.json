@@ -1,0 +1,56 @@
+{
+"id": "henrique-faria-buenos-aires",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"web_nueva": "https://herlitzkafaria.com/",
+"instagram": "@herlitzka.co",
+"urls_visitadas": [
+"https://www.google.com/search?q=Henrique+Faria+Buenos+Aires+galer%C3%ADa",
+"https://herlitzkafaria.com/en"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exhibitions - Present",
+"url": "https://herlitzkafaria.com/en/exhibiciones/actuales",
+"visitado": true
+},
+{
+"texto": "Future",
+"url": "https://herlitzkafaria.com/en/exhibiciones/futuras",
+"descartado": "la portada ya muestra la vigente; revisar la próxima corrida"
+},
+{
+"texto": "Past",
+"url": "https://herlitzkafaria.com/en/exhibiciones/pasadas",
+"descartado": "archivo"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Alejandro Puente: Wasichay",
+"fecha_inicio": "2026-10-07",
+"fecha_fin": "2026-12-09",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://herlitzkafaria.com/exhibiciones/wasichay",
+"descripcion": "Muestra de Alejandro Puente."
+}
+],
+"entradas": [
+"https://herlitzkafaria.com/es/exhibiciones/actuales"
+],
+"comportamiento": {
+"nombre": "Henrique Faria Buenos Aires ahora es Herlitzka & Co. (herlitzkafaria.com)."
+},
+"nota": "La galería funciona como Herlitzka & Co.; web herlitzkafaria.com.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

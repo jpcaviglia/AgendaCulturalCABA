@@ -1,0 +1,19 @@
+{
+"id": "gallery-circuito-de-arte-al-dia",
+"canal": "web",
+"estado": "sin_agenda",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.gallery.com.ar/"
+],
+"enlaces_candidatos": [],
+"evidencia": "gallery.com.ar es una sola página (título 'Gallery 2024') con la descripción del programa: sin fechas, sin circuitos ni lista de galerías; no tiene menú ni enlaces internos.",
+"eventos": [],
+"comportamiento": {
+"contenido": "página institucional sin programación; las fechas de cada edición salen en artealdia.com"
+},
+"nota": "Sin agenda en la web; buscar la próxima edición en Arte al Día.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

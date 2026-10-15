@@ -1,0 +1,154 @@
+{
+ "id": "movistar-arena",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.movistararena.com.ar/shows"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Shows",
+   "url": "/shows",
+   "visitado": true
+  },
+  {
+   "texto": "Cómo llegar",
+   "url": "/como-llegar",
+   "descartado": "información de acceso"
+  },
+  {
+   "texto": "Premium",
+   "url": "/premium",
+   "descartado": "venta de paquetes"
+  },
+  {
+   "texto": "Preguntas frecuentes",
+   "url": "/preguntas-frecuentes",
+   "descartado": "soporte"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Babasónicos",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 65000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital. Hay una fecha más."
+  },
+  {
+   "titulo": "Pimpinela",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 65000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital."
+  },
+  {
+   "titulo": "Tomás Rebord",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "Desde $ 45000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Show."
+  },
+  {
+   "titulo": "Andrés Calamaro",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 45000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital. Hay dos fechas más."
+  },
+  {
+   "titulo": "Aitana",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 55000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital. Hay dos fechas más."
+  },
+  {
+   "titulo": "Luciano Pereyra",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 65000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital."
+  },
+  {
+   "titulo": "Camilo",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 55000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital. Hay una fecha más."
+  },
+  {
+   "titulo": "Marc Anthony",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 90000",
+   "url": "https://www.movistararena.com.ar/shows",
+   "descripcion": "Recital. Hay una fecha más."
+  }
+ ],
+ "entradas": [
+  "https://www.movistararena.com.ar/shows"
+ ],
+ "comportamiento": {
+  "extraccion": "/shows lista tarjetas con título, primera fecha y 'y N fechas más'; las demás fechas están en la ficha"
+ },
+ "nota": "Se cargó la primera fecha de cada show; las fechas adicionales ('y N más') están en cada ficha."
+}

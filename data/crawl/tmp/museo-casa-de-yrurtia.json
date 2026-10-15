@@ -1,0 +1,95 @@
+{
+"id": "museo-casa-de-yrurtia",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+Casa+de+Yrurtia+Belgrano",
+"https://museoyrurtia.cultura.gob.ar/"
+],
+"enlaces_candidatos": [
+{
+"texto": "Actividades (portada)",
+"url": "https://museoyrurtia.cultura.gob.ar/",
+"visitado": true
+},
+{
+"texto": "Ver todas las actividades",
+"url": "https://museoyrurtia.cultura.gob.ar/actividades",
+"descartado": "la portada ya lista las próximas con fecha"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Del boceto al bronce: cien años del Monumento a Dorrego",
+"fecha_inicio": "2026-08-27",
+"fecha_fin": "2027-02-28",
+"hora": "",
+"horarios": "Abierto de 10 a 18",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "Gratis",
+"url": "https://museoyrurtia.cultura.gob.ar/",
+"descripcion": "Muestra cápsula con dibujos, bocetos y fotografías del monumento de Rogelio Yrurtia."
+},
+{
+"titulo": "Taller de experimentación artística",
+"fecha_inicio": "2026-10-15",
+"fecha_fin": "2026-12-03",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Taller",
+"precio": "",
+"url": "https://museoyrurtia.cultura.gob.ar/",
+"descripcion": "Taller en el museo (del 6 de agosto al 3 de diciembre)."
+},
+{
+"titulo": "Visitas participativas",
+"fecha_inicio": "2026-10-17",
+"fecha_fin": "2026-10-17",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Visita guiada",
+"precio": "",
+"url": "https://museoyrurtia.cultura.gob.ar/",
+"descripcion": "Visita participativa por la casa museo."
+},
+{
+"titulo": "Cartografías del hacer",
+"fecha_inicio": "2026-10-25",
+"fecha_fin": "2026-10-25",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://museoyrurtia.cultura.gob.ar/",
+"descripcion": "Actividad en el museo."
+}
+],
+"entradas": [
+"https://museoyrurtia.cultura.gob.ar/"
+],
+"comportamiento": {
+"estructura": "La portada trae la exhibición temporaria con fechas y las próximas actividades."
+},
+"nota": "O'Higgins 2390, Belgrano; entrada gratuita.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://museoyrurtia.cultura.gob.ar/",
+"instagram": "@museoyrurtia",
+"barrio": "Belgrano",
+"direccion": "O'Higgins 2390"
+}

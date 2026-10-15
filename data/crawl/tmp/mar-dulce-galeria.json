@@ -1,0 +1,21 @@
+{
+"id": "mar-dulce-galeria",
+"canal": "web",
+"estado": "sin_agenda",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Mar+Dulce+galer%C3%ADa+arte+Buenos+Aires"
+],
+"enlaces_candidatos": [],
+"evidencia": "Google no muestra web propia con muestras: solo Instagram (@galeriamardulce), una tienda en Tiendanube, Facebook, TripAdvisor y un blog de 2016.",
+"eventos": [],
+"entradas": [],
+"comportamiento": {
+"canal": "sin web de muestras; usar Instagram"
+},
+"nota": "Galería con Instagram @galeriamardulce y tienda online.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"instagram": "@galeriamardulce"
+}

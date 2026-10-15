@@ -1,0 +1,49 @@
+{
+ "id": "fundacion-mercedes-sosa",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.mercedessosa.org/",
+  "https://www.mercedessosa.org/muestras-itinerantes/",
+  "https://www.mercedessosa.org/festival-mercedes-sosa-fap/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Muestras Mercedes Sosa",
+   "url": "/muestras-itinerantes/",
+   "visitado": true
+  },
+  {
+   "texto": "Festival Mercedes Sosa (FAP)",
+   "url": "/festival-mercedes-sosa-fap/",
+   "visitado": true
+  },
+  {
+   "texto": "La Fundación",
+   "url": "/la-fundacion/",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Instituciones educativas",
+   "url": "/acciones-sociales/",
+   "descartado": "acciones sociales sin fechas"
+  },
+  {
+   "texto": "Tienda",
+   "url": "/tienda/",
+   "descartado": "tienda online"
+  },
+  {
+   "texto": "Discografía",
+   "url": "/discorgrafia/",
+   "descartado": "discos"
+  }
+ ],
+ "evidencia": "El sitio es institucional y biográfico (La Negra, décadas, discografía, tienda); las muestras itinerantes y el Festival de Arte Popular se describen en general, sin fechas ni cartelera de 2026.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin agenda en la web; muestras y festival sin fechas publicadas."
+}

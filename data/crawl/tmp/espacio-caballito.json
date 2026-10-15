@@ -1,0 +1,32 @@
+{
+ "id": "espacio-caballito",
+ "canal": "web",
+ "estado": "no_cultural",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.espaciocaballito.com.ar/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Especificaciones",
+   "url": "/#especificaciones",
+   "descartado": "datos técnicos de la sala y el estudio"
+  },
+  {
+   "texto": "Nosotros",
+   "url": "/#nosotros",
+   "descartado": "historia"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/#contacto",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "Sitio de una página de una sala de 8 x 4 m y un estudio fotográfico en alquiler (Espacio C, Caballito): describe equipamiento y consultas, sin agenda, cartelera ni eventos con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sala y estudio de alquiler; no publica eventos."
+}

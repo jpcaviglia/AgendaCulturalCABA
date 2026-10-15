@@ -1,0 +1,67 @@
+{
+ "id": "la-ronda-espacio-cultural",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://larondaespaciocultural.com.ar/",
+  "https://larondaespaciocultural.com.ar/actividades1/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Actividades",
+   "url": "/actividades1/",
+   "visitado": true
+  },
+  {
+   "texto": "Cine debate",
+   "url": "/actividades/cine-debate/",
+   "descartado": "página de tienda por actividad; fechas de la semana en la portada"
+  },
+  {
+   "texto": "Café psicológico",
+   "url": "/actividades/cafe-psicologico/",
+   "descartado": "página de tienda por actividad; fechas de la semana en la portada"
+  },
+  {
+   "texto": "Talleres de lectura",
+   "url": "/actividades/talleres-de-lectura/",
+   "descartado": "cursos regulares"
+  },
+  {
+   "texto": "Cursos on demand",
+   "url": "/cursos-on-demand/",
+   "descartado": "cursos grabados"
+  },
+  {
+   "texto": "Blog",
+   "url": "/blog/",
+   "descartado": "notas"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Café psicológico: ciclo Nexus",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://larondaespaciocultural.com.ar/",
+   "descripcion": "Encuentro del Café Psicológico, jueves 15/10 a las 19 h."
+  }
+ ],
+ "entradas": [
+  "https://larondaespaciocultural.com.ar/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada tiene 'Actividades de esta semana' en texto con fechas de Cine Debate y Café Psicológico; las páginas de actividad son fichas de tienda (Tiendanube) sin calendario"
+ },
+ "nota": "Solo la portada muestra las fechas de la semana; las fichas son de tienda."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "el-sabato-espacio-cultural",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://elsabato.economicas.uba.ar/",
+  "https://elsabato.economicas.uba.ar/elsabato/teatro/",
+  "https://elsabato.economicas.uba.ar/elsabato/expo"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Teatro",
+   "url": "/elsabato/teatro/",
+   "visitado": true
+  },
+  {
+   "texto": "Expo",
+   "url": "/elsabato/expo",
+   "visitado": true
+  },
+  {
+   "texto": "Talleres",
+   "url": "/elsabato/talleres/",
+   "descartado": "inscripciones a talleres regulares"
+  },
+  {
+   "texto": "Danza",
+   "url": "/elsabato/danza/",
+   "descartado": "misma lista de novedades filtrada"
+  },
+  {
+   "texto": "Música",
+   "url": "/elsabato/musica",
+   "descartado": "misma lista de novedades filtrada"
+  }
+ ],
+ "evidencia": "Las secciones Teatro y Expo muestran el mismo feed de novedades, con entradas de 2022 a 2025 (convocatorias, taekwondo, campaña contra el bullying) y una función sin año ('Olga Poblete, los sábados de octubre a las 20 h') que no se puede ubicar en 2026; no hay agenda con fechas verificables en la ventana.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Web con novedades desactualizadas; revisar redes. Función 'Olga Poblete' de los sábados de octubre sin año confirmado."
+}

@@ -1,0 +1,20 @@
+{
+"id": "asociacion-ucrania-de-cultura-provista-en-la-republica-argen",
+"canal": "web",
+"estado": "dominio_caido",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.prosvita.org.ar",
+"https://www.google.com/search?q=Prosvita+Asociaci%C3%B3n+Ucrania+de+Cultura+Buenos+Aires"
+],
+"enlaces_candidatos": [],
+"evidencia": "prosvita.org.ar no resuelve (DNS_PROBE). Google solo trae Facebook, Instagram @prosvita_arg y notas; no hay web nueva.",
+"eventos": [],
+"comportamiento": {
+"web": "dominio sin DNS"
+},
+"nota": "Rastrear por Instagram.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

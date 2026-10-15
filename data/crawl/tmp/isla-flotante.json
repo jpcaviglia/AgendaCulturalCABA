@@ -1,0 +1,40 @@
+{
+"id": "isla-flotante",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.islaflotante.com/exhibiciones.php",
+"https://www.islaflotante.com/",
+"https://www.islaflotante.com/galeria.php"
+],
+"enlaces_candidatos": [
+{
+"texto": "EXHIBICIONES",
+"url": "https://www.islaflotante.com/exhibiciones.php",
+"visitado": true
+},
+{
+"texto": "GALERÍA",
+"url": "https://www.islaflotante.com/galeria.php",
+"visitado": true
+},
+{
+"texto": "FERIAS",
+"url": "https://www.islaflotante.com/ferias.php",
+"descartado": "participación en ferias"
+}
+],
+"evidencia": "/exhibiciones.php solo tiene 'EXHIBICIONES PASADAS' con años 2014 a 2024; no hay sección de exhibición actual ni nada de 2025-2026. La portada y /galeria.php no muestran muestras.",
+"eventos": [],
+"entradas": [
+"https://www.islaflotante.com/exhibiciones.php"
+],
+"comportamiento": {
+"estado_web": "sin actualizar desde 2024"
+},
+"nota": "Web desactualizada; buscar Instagram de la galería.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

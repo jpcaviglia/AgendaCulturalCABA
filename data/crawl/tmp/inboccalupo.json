@@ -1,0 +1,45 @@
+{
+ "id": "inboccalupo",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.inboccalupo.com.ar",
+  "https://www.inboccalupo.com.ar/mundocultural",
+  "https://www.inboccalupo.com.ar/espectaculos"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Espectáculos",
+   "url": "/espectaculos",
+   "visitado": true
+  },
+  {
+   "texto": "Mundo cultural",
+   "url": "/mundocultural",
+   "visitado": true
+  },
+  {
+   "texto": "Alquiler de salas",
+   "url": "/salas",
+   "descartado": "alquiler"
+  },
+  {
+   "texto": "Espectáculos educativos",
+   "url": "/espectaculoseducativos",
+   "descartado": "obras para escuelas"
+  },
+  {
+   "texto": "Mundo empresas",
+   "url": "/mundoempresas",
+   "descartado": "eventos corporativos"
+  }
+ ],
+ "evidencia": "/espectaculos solo muestra eventos de 2019 ('Estamos preparando mucho más para este 2020') y 'Próximos eventos' sin contenido; el resto del sitio es alquiler de salas y propuestas educativas y corporativas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sala de alquiler en Belgrano (Virrey Arredondo 2495); cartelera desactualizada desde 2019.",
+ "instagram": "@espacioinboccalupo"
+}

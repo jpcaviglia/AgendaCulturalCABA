@@ -1,0 +1,156 @@
+{
+ "id": "centro-cultural-paco-urondo",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://pacourondo.filo.uba.ar/",
+  "https://pacourondo.filo.uba.ar/index.php/eventos",
+  "https://pacourondo.filo.uba.ar/index.php/visuales",
+  "https://pacourondo.filo.uba.ar/index.php/escenicas",
+  "https://pacourondo.filo.uba.ar/index.php/musica",
+  "https://pacourondo.filo.uba.ar/index.php/audiovisuales"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Eventos",
+   "url": "/index.php/eventos",
+   "visitado": true
+  },
+  {
+   "texto": "Visuales",
+   "url": "/index.php/visuales",
+   "visitado": true
+  },
+  {
+   "texto": "Escénicas",
+   "url": "/index.php/escenicas",
+   "visitado": true
+  },
+  {
+   "texto": "Música",
+   "url": "/index.php/musica",
+   "visitado": true
+  },
+  {
+   "texto": "Audiovisuales",
+   "url": "/index.php/audiovisuales",
+   "visitado": true
+  },
+  {
+   "texto": "Actividades académicas",
+   "url": "/index.php/actividades-academicas",
+   "descartado": "misma lista que Eventos filtrada"
+  },
+  {
+   "texto": "Eventos anteriores",
+   "url": "/index.php/eventos-anteriores",
+   "descartado": "archivo de eventos pasados"
+  },
+  {
+   "texto": "Publicaciones",
+   "url": "/index.php/publicaciones",
+   "descartado": "publicaciones"
+  },
+  {
+   "texto": "Formación",
+   "url": "/index.php/formacion",
+   "descartado": "cursos"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "¡Oíd mortales! ADN de la argentinidad para conquistar el mundo",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos",
+   "descripcion": "Actividad del centro cultural de la Facultad de Filosofía y Letras."
+  },
+  {
+   "titulo": "Historia y presente de las inundaciones en la Región Metropolitana de Buenos Aires",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos",
+   "descripcion": "Actividad en el marco de la muestra El agua arrasó todo."
+  },
+  {
+   "titulo": "Estética ricotera: un abordaje de la producción visual de Los Redondos",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos",
+   "descripcion": "Charla sobre la producción visual de Patricio Rey y sus Redonditos de Ricota."
+  },
+  {
+   "titulo": "El mal que nos acecha: formas de lo argentino en el cine de terror",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos",
+   "descripcion": "Actividad sobre el cine de terror argentino."
+  },
+  {
+   "titulo": "Presentación del libro Historias desobedientes",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos",
+   "descripcion": "Presentación de libro."
+  },
+  {
+   "titulo": "Imaginarios urbanos: proyecciones sobre el Riachuelo",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural Paco Urondo",
+   "barrio": "",
+   "direccion": "25 de Mayo 201",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://pacourondo.filo.uba.ar/index.php/visuales",
+   "descripcion": "Actividad de artes visuales."
+  }
+ ],
+ "entradas": [
+  "https://pacourondo.filo.uba.ar/index.php/eventos"
+ ],
+ "comportamiento": {
+  "extraccion": "/index.php/eventos lista tarjetas con mes, día, año y título; sin hora en el listado (está en la ficha); las categorías son filtros de la misma lista"
+ },
+ "nota": "Agenda en /index.php/eventos; las horas están en cada ficha."
+}

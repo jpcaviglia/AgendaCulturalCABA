@@ -1,0 +1,104 @@
+{
+ "id": "el-castillo-de-sandro",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://culturalcava.ar/",
+  "https://culturalcava.ar/visitas-guiadas/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Cartelera",
+   "url": "/",
+   "visitado": true
+  },
+  {
+   "texto": "Visitas guiadas",
+   "url": "/visitas-guiadas/",
+   "visitado": true
+  },
+  {
+   "texto": "Cursos y talleres",
+   "url": "/",
+   "descartado": "clases regulares con inscripción"
+  },
+  {
+   "texto": "Nuestras salas",
+   "url": "/salas/",
+   "descartado": "alquiler de salas"
+  },
+  {
+   "texto": "CAVA streaming",
+   "url": "/streaming/",
+   "descartado": "contenido online"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Show para nuestros sentidos",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://culturalcava.ar/",
+   "descripcion": "Show en el Castillo de Sandro."
+  },
+  {
+   "titulo": "Tangos y penumbras",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://culturalcava.ar/",
+   "descripcion": "Show de tango en el Castillo de Sandro."
+  },
+  {
+   "titulo": "Amigas: ¿culpables o inocentes?",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://culturalcava.ar/",
+   "descripcion": "Obra de teatro."
+  },
+  {
+   "titulo": "Visitas guiadas al Castillo de Sandro",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "15:00",
+   "horarios": "Sábados 15 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Visita guiada",
+   "precio": "$ 20000",
+   "url": "https://culturalcava.ar/visitas-guiadas/",
+   "descripcion": "Recorrido por los espacios que diseñó Sandro, su estudio de grabación y objetos de su vida artística. Entrada general $ 20000; residentes argentinos $ 10000."
+  }
+ ],
+ "entradas": [
+  "https://culturalcava.ar/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada lista la cartelera con título, fecha y hora en texto; /visitas-guiadas/ da días y tarifas"
+ },
+ "nota": "Cartelera en la portada; visitas guiadas los sábados a las 15 h."
+}

@@ -1,0 +1,57 @@
+{
+ "id": "espacio-la-tribu",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://fmlatribu.com/",
+  "https://fmlatribu.com/talleres"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Talleres",
+   "url": "/talleres",
+   "visitado": true
+  },
+  {
+   "texto": "Noticias",
+   "url": "/noticias",
+   "descartado": "notas periodísticas, no agenda"
+  },
+  {
+   "texto": "Quiénes somos",
+   "url": "/quienes-somos",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Podcast",
+   "url": "/podcast",
+   "descartado": "contenidos de audio"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Seminario Hibridación: pensar y actuar en la complejidad",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-17",
+   "hora": "11:30",
+   "horarios": "Sábados de 11.30 a 13.30 h",
+   "lugar": "FM La Tribu",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://fmlatribu.com/talleres",
+   "descripcion": "Seminario estable del colectivo A Pesar de Todo / Malgré Tout, a cargo de Miguel Benasayag y otros; del 29 de agosto al 17 de octubre, 11.30 a 13.30 h."
+  }
+ ],
+ "entradas": [
+  "https://fmlatribu.com/talleres"
+ ],
+ "comportamiento": {
+  "extraccion": "la web es de la radio FM La Tribu: portada con noticias; /talleres lista talleres con rango de fechas y horarios; no hay agenda de eventos propia"
+ },
+ "nota": "Radio comunitaria con talleres; poca programación de eventos abiertos en la web."
+}

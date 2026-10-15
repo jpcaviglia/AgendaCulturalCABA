@@ -1,0 +1,55 @@
+{
+"id": "museo-de-arte-popular-jose-hernandez",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+de+Arte+Popular+Jos%C3%A9+Hern%C3%A1ndez+agenda",
+"https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
+"https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez/actividades",
+"https://buenosaires.gob.ar/gcaba_historico/nos-preparamos-para-la-inauguracion-del-xxii-salon-de-arte-textil-2026"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exposiciones temporarias / Salón de Arte Textil 2026",
+"url": "https://buenosaires.gob.ar/gcaba_historico/nos-preparamos-para-la-inauguracion-del-xxii-salon-de-arte-textil-2026",
+"visitado": true
+},
+{
+"texto": "Actividades",
+"url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez/actividades",
+"visitado": true
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "XXII Salón de Arte Textil 2026",
+"fecha_inicio": "2026-09-10",
+"fecha_fin": "2026-10-25",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://buenosaires.gob.ar/gcaba_historico/nos-preparamos-para-la-inauguracion-del-xxii-salon-de-arte-textil-2026",
+"descripcion": "Exposición de obras seleccionadas en pequeño y mediano formato."
+}
+],
+"entradas": [
+"https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez"
+],
+"comportamiento": {
+"actividades": "La página de actividades remite a redes; no publica grilla."
+},
+"nota": "Muestra del Salón de Arte Textil hasta el 25/10.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
+"instagram": "@museodeartepopularmap",
+"barrio": "Palermo",
+"direccion": "Av. del Libertador 2373"
+}

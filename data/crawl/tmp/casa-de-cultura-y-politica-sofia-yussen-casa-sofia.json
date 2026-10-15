@@ -1,0 +1,45 @@
+{
+ "id": "casa-de-cultura-y-politica-sofia-yussen-casa-sofia",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://casasofia.org.ar/",
+  "https://casasofia.org.ar/producciones/",
+  "https://casasofia.org.ar/derecho-a-la-cultura/",
+  "https://casasofia.org.ar/gestionar-lo-real/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Producciones",
+   "url": "/producciones/",
+   "visitado": true
+  },
+  {
+   "texto": "Derecho a la cultura",
+   "url": "/derecho-a-la-cultura/",
+   "visitado": true
+  },
+  {
+   "texto": "Gestionar lo real",
+   "url": "/gestionar-lo-real/",
+   "visitado": true
+  },
+  {
+   "texto": "Quiénes somos",
+   "url": "/quienes-somos/",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Trabajemos juntos",
+   "url": "/trabajemos-juntos/",
+   "descartado": "servicios de producción"
+  }
+ ],
+ "evidencia": "Es una productora cultural sin sede abierta al público: la portada y las tres secciones de Qué hacemos (producciones, derecho a la cultura, gestionar lo real) describen proyectos y una convocatoria virtual cerrada el 14/09; no hay agenda ni cartelera con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Productora cultural, sin agenda de eventos en la web."
+}

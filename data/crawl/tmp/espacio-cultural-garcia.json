@@ -1,0 +1,24 @@
+{
+ "id": "espacio-cultural-garcia",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://espaciogarcia.com.ar/",
+  "https://mailchi.mp/23c98377c268/te-invitamos-a-conocernos-147467"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Agenda de actividades",
+   "url": "https://mailchi.mp/23c98377c268/te-invitamos-a-conocernos-147467",
+   "visitado": true
+  }
+ ],
+ "evidencia": "La portada solo tiene el enlace 'Agenda de actividades', que lleva a una campaña de Mailchimp (te-invitamos-a-conocernos) que ya no existe y redirige a la página institucional de Mailchimp, además de un mapa y el newsletter; no hay agenda publicada.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La agenda es un newsletter de Mailchimp caído; seguir Instagram @espaciogarcia.",
+ "instagram": "@espaciogarcia"
+}

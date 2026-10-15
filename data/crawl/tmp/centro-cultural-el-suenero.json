@@ -1,0 +1,44 @@
+{
+ "id": "centro-cultural-el-suenero",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://elsueniero.org.ar",
+  "https://elsueniero.org.ar/agenda.html"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Agenda",
+   "url": "/agenda.html",
+   "visitado": true
+  },
+  {
+   "texto": "Ubicación",
+   "url": "/ubicación.html",
+   "descartado": "cómo llegar"
+  },
+  {
+   "texto": "Agricultura familiar",
+   "url": "/agricultura-familiar.html",
+   "descartado": "proyecto de huerta, no agenda"
+  },
+  {
+   "texto": "Aportes voluntarios",
+   "url": "/aportes-voluntarios.html",
+   "descartado": "donaciones"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/contacto.html",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "/agenda.html solo lista talleres semanales regulares (gimnasia, memoria y folklore para adultos mayores, freestyle, ilustración, murga, LSA) y un único evento, el 'Viernes 7 de Julio' (títeres), sin año y ya pasado; no hay eventos en la ventana.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La agenda web está desactualizada (último evento 7 de julio); las novedades van por Instagram @ccelsueniero.",
+ "instagram": "@ccelsueniero"
+}

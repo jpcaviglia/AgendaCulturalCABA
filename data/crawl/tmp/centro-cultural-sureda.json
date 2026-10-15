@@ -1,0 +1,18 @@
+{
+ "id": "centro-cultural-sureda",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.centroculturalsureda.org.ar/",
+  "https://centroculturalsureda.org.ar/"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "centroculturalsureda.org.ar y su variante con www no resuelven DNS (DNS_PROBE_POSSIBLE); Google no muestra web propia, solo Instagram @ccsureda y Facebook (Rosario 242/250, Caballito).",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin web; la agenda se comunica por Instagram @ccsureda.",
+ "instagram": "@ccsureda"
+}

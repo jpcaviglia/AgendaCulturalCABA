@@ -1,0 +1,63 @@
+{
+ "id": "el-cultural-san-martin",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://elculturalsanmartin.ar/",
+  "https://elculturalsanmartin.ar/eventos/",
+  "https://elculturalsanmartin.ar/cursos-octubre/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Agenda",
+   "url": "/eventos/",
+   "visitado": true
+  },
+  {
+   "texto": "Cursos octubre",
+   "url": "/cursos-octubre/",
+   "visitado": true
+  },
+  {
+   "texto": "Clases magistrales noviembre",
+   "url": "/clases-magistrales-noviembre/",
+   "descartado": "cursos de noviembre, fuera de la ventana"
+  },
+  {
+   "texto": "Identidad",
+   "url": "/historia/",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Patrimonio",
+   "url": "/patrimonio/",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "La vida por correspondencia: lectura pública de cartas",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "Sábados 17 h",
+   "lugar": "Casa de la Cultura · Subsuelo",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://elculturalsanmartin.ar/eventos/",
+   "descripcion": "Mercedes Morán, Lorena Vega, Analía Couceyro y Cristina Banegas leen cartas de Kafka, Pizarnik, Woolf, Puig, Cage y Van Gogh, entre otros. Sábados 10, 17, 24 y 31 de octubre a las 17 h."
+  }
+ ],
+ "entradas": [
+  "https://elculturalsanmartin.ar/eventos/"
+ ],
+ "comportamiento": {
+  "extraccion": "/eventos/ es un calendario de lista con una sola entrada en octubre; los cursos de octubre están en /cursos-octubre/ (cursos pagos de cuatro docentes, no cargados)"
+ },
+ "nota": "Muy pocos eventos; el centro ofrece sobre todo cursos y clases magistrales."
+}

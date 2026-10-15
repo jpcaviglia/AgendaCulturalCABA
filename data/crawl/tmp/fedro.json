@@ -1,0 +1,33 @@
+{
+ "id": "fedro",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://fedrosantelmo.wordpress.com",
+  "https://fedrosantelmo.wordpress.com/talleres-y-ciclos/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Talleres y ciclos",
+   "url": "/talleres-y-ciclos/",
+   "visitado": true
+  },
+  {
+   "texto": "Local en San Telmo",
+   "url": "/local-en-san-telmo/",
+   "descartado": "descripción del local"
+  },
+  {
+   "texto": "Home",
+   "url": "/",
+   "visitado": true
+  }
+ ],
+ "evidencia": "Blog de una librería con entradas de 2010 y 2011 (ciclo de poesía, novedades de libros); la sección Talleres y Ciclos lista talleres sin fechas ni año vigente; no hay eventos en la ventana.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Blog sin actualizar desde 2011."
+}

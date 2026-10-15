@@ -1,0 +1,45 @@
+{
+"id": "galeria-barro",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://barro.cc/es/muestras",
+"https://barro.cc/es/muestras/1329/prefiero-fierro"
+],
+"enlaces_candidatos": [
+{
+"texto": "Muestras",
+"url": "https://barro.cc/es/muestras",
+"visitado": true
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Luciana Lamothe: Prefiero fierro",
+"fecha_inicio": "2026-08-08",
+"fecha_fin": "",
+"vigente_sin_fin": true,
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://barro.cc/es/muestras/1329/prefiero-fierro",
+"descripcion": "Esculturas con caños de hierro forzados y retorcidos: el accidente latente en los materiales industriales."
+}
+],
+"entradas": [
+"https://barro.cc/es/muestras"
+],
+"comportamiento": {
+"fichas": "Las muestras solo traen fecha de inauguración (08.08.2026); la primera de /muestras es la vigente. La siguiente anterior fue del 30.05 (las muestras duran ~2 meses y medio)."
+},
+"nota": "Muestra vigente: Luciana Lamothe desde el 8/8 (sin fecha de cierre publicada).",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

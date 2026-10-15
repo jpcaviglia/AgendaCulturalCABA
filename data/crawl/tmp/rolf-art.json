@@ -1,0 +1,45 @@
+{
+"id": "rolf-art",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 2,
+"scroll_completo": true,
+"web_nueva": "https://rolfart.com.ar/",
+"urls_visitadas": [
+"https://www.rolfart.com",
+"https://rolfart.com.ar/"
+],
+"enlaces_candidatos": [
+{
+"texto": "On view",
+"url": "https://rolfart.com.ar/",
+"visitado": true
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Vivian Galban: Derivografías. De la captura a la experiencia",
+"fecha_inicio": "2026-09-28",
+"fecha_fin": "2026-10-16",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://rolfart.com.ar/exhibicion/derivografias-de-la-captura-a-la-experiencia/",
+"descripcion": ""
+}
+],
+"entradas": [
+"https://rolfart.com.ar/"
+],
+"comportamiento": {
+"web": "www.rolfart.com da página de error; la web actual es rolfart.com.ar"
+},
+"nota": "On view con fechas en la portada.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

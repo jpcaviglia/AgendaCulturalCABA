@@ -1,0 +1,40 @@
+{
+ "id": "espacio-ukelele",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://espacioukelele.com.ar/",
+  "https://espacioukelele.com.ar/actividades/",
+  "https://espacioukelele.com.ar/novedades/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Actividades",
+   "url": "/actividades/",
+   "visitado": true
+  },
+  {
+   "texto": "Novedades",
+   "url": "/novedades/",
+   "visitado": true
+  },
+  {
+   "texto": "Galería",
+   "url": "/galeria/",
+   "descartado": "fotos"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/contacto/",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "/actividades es la grilla de clases y talleres regulares (iniciación musical, instrumentos, ensamble) y /novedades responde 'no existe'; no hay agenda ni eventos con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Escuela de música y artes; comunica por Instagram @espacioukelele.",
+ "instagram": "@espacioukelele"
+}

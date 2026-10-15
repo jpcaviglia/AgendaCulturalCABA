@@ -1,0 +1,38 @@
+{
+ "id": "galpon-cultural-el-hueco",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://www.elhueco.com.ar/",
+  "https://www.elhueco.com.ar/espectaculos.html"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Eventos (cartelera)",
+   "url": "/espectaculos.html",
+   "visitado": true
+  },
+  {
+   "texto": "Editorial",
+   "url": "/editorial/index.html",
+   "descartado": "editorial, no agenda"
+  },
+  {
+   "texto": "Prensa",
+   "url": "/prensa.html",
+   "descartado": "prensa"
+  },
+  {
+   "texto": "Tienda virtual",
+   "url": "https://elhuecoeditora.mitiendanube.com/",
+   "descartado": "tienda"
+  }
+ ],
+ "evidencia": "La cartelera (/espectaculos.html) muestra afiches de espectáculos con 'viernes 18/10' y '15 de noviembre', y el sitio tiene copyright 2024: el 18/10 fue viernes en 2024, no en 2026 (es domingo), así que son afiches viejos; las exposiciones listadas son de 2021. No hay actividades verificables en la ventana.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Web con cartelera de 2024 sin actualizar; el sitio redefine JSON.stringify (usar concatenación de texto en la consola)."
+}

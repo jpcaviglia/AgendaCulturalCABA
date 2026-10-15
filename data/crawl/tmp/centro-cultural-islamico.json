@@ -1,0 +1,39 @@
+{
+ "id": "centro-cultural-islamico",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.ccislamicoreyfahd.org.ar",
+  "http://ccislamicoreyfahd.org.ar"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Conferencia",
+   "url": "/conferencia-11/",
+   "descartado": "archivo de conferencias pasadas"
+  },
+  {
+   "texto": "Colonia islámica de verano",
+   "url": "/colonia-islamica-de-verano/",
+   "descartado": "actividad de verano de años anteriores"
+  },
+  {
+   "texto": "Enseñanza de idioma árabe",
+   "url": "/ensenanza-de-idioma-arabe-2017/",
+   "descartado": "nota de 2017"
+  },
+  {
+   "texto": "Visita distinguida",
+   "url": "/visita-distinguida/",
+   "descartado": "nota de una visita pasada"
+  }
+ ],
+ "evidencia": "El sitio (con https da error de certificado, por http carga) es un blog de noticias en inglés con publicaciones de clases religiosas ya dadas (hadiz, tafsir, fiqh, árabe) y notas antiguas de conferencias y visitas; no tiene agenda ni cartelera con fechas futuras.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sitio de noticias del centro, no publica agenda; usar http:// porque https da error de certificado.",
+ "instagram": "@cciar_islam"
+}

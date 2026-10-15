@@ -1,0 +1,38 @@
+{
+"id": "del-infinito",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.delinfinito.com/muestras/"
+],
+"enlaces_candidatos": [
+{
+"texto": "muestras",
+"url": "https://www.delinfinito.com/muestras/",
+"visitado": true
+},
+{
+"texto": "ferias",
+"url": "https://www.delinfinito.com/ferias/",
+"descartado": "participación en ferias"
+},
+{
+"texto": "novedades",
+"url": "https://www.delinfinito.com/novedades/",
+"descartado": "noticias"
+}
+],
+"evidencia": "/muestras lista las exposiciones con fechas; la más reciente es 'Profetas de la descomposición' del 18.08.2026 al 30.09.2026 (ya cerró). No hay muestra actual ni próxima publicada.",
+"eventos": [],
+"entradas": [
+"https://www.delinfinito.com/muestras/"
+],
+"comportamiento": {
+"extraccion": "Lista 'artistas · dd.mm.aaaa - dd.mm.aaaa Título', la primera es la más reciente."
+},
+"nota": "Sin muestra vigente en la web al 14/10.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

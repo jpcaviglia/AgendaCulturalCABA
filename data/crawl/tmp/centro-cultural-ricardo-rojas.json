@@ -1,0 +1,273 @@
+{
+ "id": "centro-cultural-ricardo-rojas",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.rojas.uba.ar/",
+  "https://www.rojas.uba.ar/agenda"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Agenda",
+   "url": "/agenda",
+   "visitado": true
+  },
+  {
+   "texto": "Cursos",
+   "url": "/cursos",
+   "descartado": "cursos regulares, no eventos"
+  },
+  {
+   "texto": "Programas radiales",
+   "url": "/noches-rojas",
+   "descartado": "programas de Radio UBA, no eventos"
+  },
+  {
+   "texto": "Biblioteca",
+   "url": "/biblioteca",
+   "descartado": "biblioteca"
+  },
+  {
+   "texto": "Comunidad",
+   "url": "/comunidad",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Wabi Sabi. La belleza de lo imperfecto",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "Jueves 15 y 28 de octubre, 21 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Danza y artes escénicas de la Compañía Pata de Ganso. Funciones los jueves 15 y 28/10 y 5, 12 y 19/11."
+  },
+  {
+   "titulo": "Ciclo RoJazz: Maia Korosec Quinteto",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Jazz en el Rojas."
+  },
+  {
+   "titulo": "Informe sobre Nadie",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Teatro",
+   "precio": "$ 15000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Reposición teatral. Otra función el viernes 30."
+  },
+  {
+   "titulo": "Nina cuenta. Deconstrucción",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábados 21 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Teatro",
+   "precio": "$ 15000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Autoría y dirección de Cecilia Propato. Sábados 17, 24 y 31/10."
+  },
+  {
+   "titulo": "Archivo El Rojas.UBA: intervención multimedia y performática",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Intervención multimedia y performática."
+  },
+  {
+   "titulo": "Ciclo Visagë: Los Telebolitos",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "$ 9000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "4.ª edición, curador Fabián Jara."
+  },
+  {
+   "titulo": "¿Dónde está Mónica?",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Autora Sonia Novello. Teatro."
+  },
+  {
+   "titulo": "Ciclo RoJazz: Fernando",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Jazz en el Rojas."
+  },
+  {
+   "titulo": "Ciclo RoJazz: Barranco Trío (cierre de la edición 2026)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Cierre del ciclo RoJazz 2026."
+  },
+  {
+   "titulo": "Archivo El Rojas.UBA",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Actividad del archivo del Rojas."
+  },
+  {
+   "titulo": "Charla: Sociedades (dispositivo de Roberto Jacoby)",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Un dispositivo de Roberto Jacoby para seguir pensando."
+  },
+  {
+   "titulo": "Ciclo Visagë: Los Péndulos",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "$ 9000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "4.ª edición, curador Fabián Jara."
+  },
+  {
+   "titulo": "Pablo Dacal presenta El Otro",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Ciclo Sonido Organizado."
+  },
+  {
+   "titulo": "Lo que el agua revela, de María Gracia Geraci",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "10:00",
+   "horarios": "Lunes a sábados de 10 a 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Exposición fotográfica. Gratis."
+  },
+  {
+   "titulo": "Habitar la forma. Desde el arte a la arquitectura",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "10:00",
+   "horarios": "Lunes a sábados de 10 a 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Exposición con obras de Testa, Fried, Attila, Reato, Gallina, Sánchez Fantino, Siquier, Bayala, Spinetto, Margolin y Narcisi."
+  },
+  {
+   "titulo": "Sensibilidades compartidas",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "10:00",
+   "horarios": "Lunes a sábados de 10 a 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Av. Corrientes 2038",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://www.rojas.uba.ar/agenda",
+   "descripcion": "Muestra de arte de trabajadores nodocentes del Rojas."
+  }
+ ],
+ "entradas": [
+  "https://www.rojas.uba.ar/agenda"
+ ],
+ "comportamiento": {
+  "extraccion": "/agenda lista por tipo, título, descripción, precio y fecha/hora en texto; la portada trae la misma agenda y el calendario del mes; el resultado cabe en un solo innerText",
+  "cookies": "sin aviso"
+ },
+ "nota": "Agenda completa en /agenda; exposiciones sin fecha de cierre (lunes a sábados 10 a 20 h)."
+}

@@ -1,0 +1,235 @@
+{
+ "id": "congo",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://congoclubcultural.com.ar",
+  "https://tickets.congoclubcultural.com.ar/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Programación",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "visitado": true
+  },
+  {
+   "texto": "Festejos en Congo",
+   "url": "/festejos-en-congo/",
+   "descartado": "alquiler para eventos privados"
+  },
+  {
+   "texto": "El lugar",
+   "url": "/el-lugar/",
+   "descartado": "descripción del espacio"
+  },
+  {
+   "texto": "Tocar en Congo",
+   "url": "/tocar-en-congo-club-cultural/",
+   "descartado": "convocatoria para bandas"
+  },
+  {
+   "texto": "Nuestra carta",
+   "url": "/carta/",
+   "descartado": "carta del bar"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/contacto/",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Latin Jam! octubre",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Múltiples fechas en octubre."
+  },
+  {
+   "titulo": "Pinot y Pizza en el jardín",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Gastronomía",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Evento en el jardín."
+  },
+  {
+   "titulo": "Budaboy B",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  },
+  {
+   "titulo": "Tertulia Tamborini",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:55",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Fiesta de trasnoche."
+  },
+  {
+   "titulo": "Aymará",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  },
+  {
+   "titulo": "La Retrowave - primavera 26",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Fiesta."
+  },
+  {
+   "titulo": "Samba Delas Pibas",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Roda de samba."
+  },
+  {
+   "titulo": "Alejo Kia",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  },
+  {
+   "titulo": "Fiesta La Tradi 80s - 2026",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Fiesta ochentas."
+  },
+  {
+   "titulo": "Zofia + Sol Cansino",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  },
+  {
+   "titulo": "La Retrowave - primavera 26",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Fiesta."
+  },
+  {
+   "titulo": "Agus Gregoratti",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  },
+  {
+   "titulo": "Natasha Sterman",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Honduras 5329",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://tickets.congoclubcultural.com.ar/",
+   "descripcion": "Show en vivo."
+  }
+ ],
+ "entradas": [
+  "https://tickets.congoclubcultural.com.ar/"
+ ],
+ "comportamiento": {
+  "extraccion": "la web principal enlaza PROGRAMACIÓN a tickets.congoclubcultural.com.ar, que lista próximos eventos con día, hora y sala en un solo texto"
+ },
+ "nota": "La agenda está en la ticketera tickets.congoclubcultural.com.ar."
+}

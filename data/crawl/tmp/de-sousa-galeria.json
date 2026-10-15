@@ -1,0 +1,30 @@
+{
+"id": "de-sousa-galeria",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.desousagaleria.com/exposiciones",
+"https://www.desousagaleria.com/exposiciones/2026/conservamosloquetenemos",
+"https://www.desousagaleria.com/exposiciones/2026/losaradiante"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exposiciones",
+"url": "https://www.desousagaleria.com/exposiciones",
+"visitado": true
+}
+],
+"evidencia": "/exposiciones: las más recientes son 'Conservamos lo que tenemos...' (Beto Álvarez) y 'Losa radiante' (Donjo León), publicadas el 20/8/26; las fichas no dicen hasta cuándo siguen ni las marcan como vigentes (la anterior tanda fue del 23/7). No hay muestra con vigencia confirmada en la ventana.",
+"eventos": [],
+"entradas": [
+"https://www.desousagaleria.com/exposiciones"
+],
+"comportamiento": {
+"plataforma": "Squarespace (blog de exposiciones con fecha de publicación = inauguración, sin fecha de cierre)"
+},
+"nota": "Las fichas no publican cierre: confirmar en Instagram si siguen las muestras inauguradas el 20/8.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

@@ -1,0 +1,112 @@
+{
+ "id": "centro-cultural-torquato-tasso",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.torquatotasso.com.ar"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Nuestra programación",
+   "url": "/",
+   "visitado": true
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Roberta Campos",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show en vivo. Apertura de la sala 20 h."
+  },
+  {
+   "titulo": "Luis Salinas",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show en vivo del guitarrista. Apertura de la sala 20 h."
+  },
+  {
+   "titulo": "Julia Zenko: Con las alas del alma",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show en vivo. Apertura de la sala 20 h."
+  },
+  {
+   "titulo": "Iré Latín Jazz y Choco Drums presentan la música de Cucho Valdez",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show en vivo. Apertura de la sala 20 h."
+  },
+  {
+   "titulo": "Soledad Villamil en concierto",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:00",
+   "horarios": "Viernes 23 y sábado 24 de octubre, 22 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Únicas funciones: 23, 24, 30 y 31 de octubre. Apertura de la sala 20 h."
+  },
+  {
+   "titulo": "Ailén Peralta: Entre nosotros (show acústico íntimo)",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Defensa 1575",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show acústico. Apertura de la sala 20 h."
+  }
+ ],
+ "entradas": [
+  "https://torquatotasso.com.ar/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada tiene 'Nuestra programación' con afiches (imágenes con fecha y artista, sin texto): scrollear hasta la sección y leer la captura; cada afiche enlaza a /AAAA/MM/DD/artista/ con la ficha",
+  "cookies": "sin aviso"
+ },
+ "nota": "Programación solo en afiches en la portada; shows a las 22 h, apertura 20 h."
+}

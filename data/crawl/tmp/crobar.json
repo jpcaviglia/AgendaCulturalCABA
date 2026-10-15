@@ -1,0 +1,123 @@
+{
+ "id": "crobar",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://www.crobar.com.ar",
+  "https://www.crobar.com.ar/fechas"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Todas las fechas",
+   "url": "/fechas",
+   "visitado": true
+  },
+  {
+   "texto": "Fechas de Crobar",
+   "url": "/club",
+   "descartado": "misma lista que /fechas filtrada por sala"
+  },
+  {
+   "texto": "Fechas de Studio Crobar",
+   "url": "/studio",
+   "descartado": "misma lista que /fechas filtrada por sala"
+  },
+  {
+   "texto": "Fechas de El Jardín",
+   "url": "/jardin",
+   "descartado": "misma lista que /fechas filtrada por sala"
+  },
+  {
+   "texto": "Live sets",
+   "url": "/sets",
+   "descartado": "sets grabados, no agenda"
+  },
+  {
+   "texto": "Nosotros",
+   "url": "/nosotros",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Phuture: DJ Tennis, Pabels, Pato Mallet y Etta!",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "lugar": "Crobar",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.crobar.com.ar/fechas",
+   "descripcion": "Fiesta Phuture con DJ Tennis."
+  },
+  {
+   "titulo": "Tekna 303",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Crobar · Studio",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.crobar.com.ar/fechas",
+   "descripcion": "Fecha en Studio Crobar."
+  },
+  {
+   "titulo": "Phuture: John Creamer, Soundexile, Nahs y Kayla Shams",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:00",
+   "horarios": "",
+   "lugar": "Crobar",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.crobar.com.ar/fechas",
+   "descripcion": "Fiesta Phuture con John Creamer."
+  },
+  {
+   "titulo": "Gueva, Adelina Sofia, Cromind y Owners of Time",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "lugar": "Crobar",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.crobar.com.ar/fechas",
+   "descripcion": "Fiesta en Crobar."
+  },
+  {
+   "titulo": "Beico & D3fai, Ailen DC b2b Jansøund y Candela b2b Agus Freixa",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:00",
+   "horarios": "",
+   "lugar": "Crobar",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.crobar.com.ar/fechas",
+   "descripcion": "Fiesta en Crobar."
+  }
+ ],
+ "entradas": [
+  "https://www.crobar.com.ar/fechas"
+ ],
+ "comportamiento": {
+  "extraccion": "/fechas lista todas las fechas con día, sala, evento y line up; sin scroll largo"
+ },
+ "nota": "La agenda completa está en /fechas."
+}

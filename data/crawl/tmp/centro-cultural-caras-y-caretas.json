@@ -1,0 +1,18 @@
+{
+ "id": "centro-cultural-caras-y-caretas",
+ "canal": "web",
+ "estado": "no_carga",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.carasycaretas.org",
+  "https://carasycaretas.org.ar/",
+  "https://www.google.com/search?q=Centro+Cultural+Caras+y+Caretas+Buenos+Aires+agenda"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "www.carasycaretas.org carga en blanco (texto de 0 caracteres tras 4,5 s y captura vacía); carasycaretas.org.ar es la revista Caras y Caretas, no el centro cultural. Google solo da agendas de terceros (Alternativa Teatral, Qué Hacemos, Gratis en Buenos Aires) con la dirección Venezuela 330, San Telmo.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La web oficial no muestra contenido; según Alternativa Teatral, 'Animal o la salida humana' se da los sábados 20 h del 10/10 al 24/10/2026 en Venezuela 330. Reintentar la web en la próxima corrida."
+}

@@ -1,0 +1,19 @@
+{
+"id": "asociacion-calabresa-mutual-y-cultural",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.asociacioncalabresa.org.ar/eventos.html"
+],
+"enlaces_candidatos": [],
+"evidencia": "eventos.html tiene el calendario 2026: almuerzo del 11 de octubre (pasado), ciclo de cine debate el 24 de octubre a las 15:30 sin película anunciada y ópera el 10 de octubre (pasado). Nada con título en la ventana.",
+"eventos": [],
+"comportamiento": {
+"estructura": "Tabla anual con fechas fijas; las películas y óperas se completan a último momento."
+},
+"nota": "Cine debate el 24/10 15:30, título a confirmar.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

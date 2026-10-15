@@ -1,0 +1,72 @@
+{
+"id": "alquimia-espacio-cultural",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.alternativateatral.com/espacio6471-alquimia-espacio-cultural",
+"https://www.alternativateatral.com/cartelera.asp?cuando=30"
+],
+"enlaces_candidatos": [
+{
+"texto": "Web (campsite.bio/ccalquimia)",
+"url": "https://campsite.bio/ccalquimia",
+"descartado": "linktree de contacto"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "La Señora Macbeth",
+"fecha_inicio": "2026-10-16",
+"fecha_fin": "2026-10-16",
+"hora": "21:00",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Teatro",
+"precio": "",
+"url": "https://www.alternativateatral.com/obra102992-la-senora-macbeth",
+"descripcion": ""
+},
+{
+"titulo": "¿Qué crisis?",
+"fecha_inicio": "2026-10-17",
+"fecha_fin": "2026-10-31",
+"hora": "18:30",
+"horarios": "Sábados a las 18:30",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Teatro",
+"precio": "",
+"url": "https://www.alternativateatral.com/obra102988-que-crisis",
+"descripcion": ""
+},
+{
+"titulo": "¿Dónde está Alicia?",
+"fecha_inicio": "2026-10-17",
+"fecha_fin": "2026-10-31",
+"hora": "21:30",
+"horarios": "Sábados a las 21:30",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Teatro",
+"precio": "",
+"url": "https://www.alternativateatral.com/obra102737-donde-esta-alicia",
+"descripcion": ""
+}
+],
+"entradas": [
+"https://www.alternativateatral.com/cartelera.asp?cuando=30"
+],
+"comportamiento": {
+"fuente": "La página del espacio en Alternativa no lista obras sin JS; usar la cartelera general filtrada por sala 'Alquimia Centro Cultural'."
+},
+"nota": "Ravignani 1408, Palermo.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

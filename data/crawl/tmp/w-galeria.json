@@ -1,0 +1,59 @@
+{
+"id": "w-galeria",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://w-w-w.ar/index.php/es/exhibitions"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exhibiciones",
+"url": "https://w-w-w.ar/index.php/es/exhibitions",
+"visitado": true
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Raúl Flores: Banquete. Obras 1995-2007",
+"fecha_inicio": "2026-10-14",
+"fecha_fin": "",
+"hora": "",
+"horarios": "Octubre 2026 a febrero 2027",
+"lugar": "W—Galería · W—archivo",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://w-w-w.ar/index.php/es/exhibitions",
+"descripcion": "",
+"vigente_sin_fin": true
+},
+{
+"titulo": "Persistencias",
+"fecha_inicio": "2026-10-14",
+"fecha_fin": "",
+"hora": "",
+"horarios": "Julio a noviembre de 2026",
+"lugar": "W—Galería · W—naturae",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://w-w-w.ar/index.php/es/exhibitions",
+"descripcion": "",
+"vigente_sin_fin": true
+}
+],
+"entradas": [
+"https://w-w-w.ar/index.php/es/exhibitions"
+],
+"comportamiento": {
+"fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae."
+},
+"nota": "Dos exhibiciones vigentes.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

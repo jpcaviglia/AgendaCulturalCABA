@@ -1,0 +1,33 @@
+{
+"id": "museo-de-arte-espanol-enrique-larreta",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+de+Arte+Espa%C3%B1ol+Enrique+Larreta+agenda",
+"https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta"
+],
+"enlaces_candidatos": [
+{
+"texto": "Agenda Cultural del Museo Larreta",
+"url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta",
+"visitado": true
+}
+],
+"evidencia": "La 'Agenda Cultural' de la web de la Ciudad (sección gcaba_historico) es de 2025: 'sábado 4 de octubre', BIENALSUR 2025 hasta el 29 de noviembre. No hay agenda 2026 publicada en la web.",
+"eventos": [],
+"entradas": [
+"https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta"
+],
+"comportamiento": {
+"web": "Página de la Ciudad desactualizada; sus obras de teatro salen en Alternativa Teatral (espacio Museo Larreta) y en Instagram/Linktree."
+},
+"nota": "Agenda web desactualizada (2025); revisar Instagram @museolarreta.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+"instagram": "@museolarreta",
+"barrio": "Belgrano",
+"direccion": "Juramento 2291"
+}

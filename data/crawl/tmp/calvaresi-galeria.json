@@ -1,0 +1,62 @@
+{
+ "id": "calvaresi-galeria",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.calvaresicontemporaneo.com/muestras",
+  "https://www.calvaresicontemporaneo.com/nina-kunan-nk"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Muestras",
+   "url": "/muestras",
+   "visitado": true
+  },
+  {
+   "texto": "Ferias",
+   "url": "/ferias",
+   "descartado": "ferias a las que va la galería, no muestras en sala"
+  },
+  {
+   "texto": "Artistas",
+   "url": "/artistas-artists2",
+   "descartado": "directorio de artistas"
+  },
+  {
+   "texto": "Publicaciones",
+   "url": "/publicaciones",
+   "descartado": "publicaciones, no evento"
+  },
+  {
+   "texto": "Prensa",
+   "url": "/prensa",
+   "descartado": "notas de prensa"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Nina Kunan: Altas horas",
+   "fecha_inicio": "2026-08-21",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://www.calvaresicontemporaneo.com/nina-kunan-nk",
+   "descripcion": "Muestra de Nina Kunan con la serie Malena, que explora el hilo entre Berni, Pablo Suárez y la escena artística argentina."
+  }
+ ],
+ "entradas": [
+  "https://www.calvaresicontemporaneo.com/muestras"
+ ],
+ "comportamiento": {
+  "fichas": "la fecha está solo en la ficha; /muestras lista las muestras de la más reciente a la más antigua"
+ },
+ "nota": "La primera de /muestras es la vigente; las demás son archivo."
+}

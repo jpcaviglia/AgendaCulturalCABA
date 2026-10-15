@@ -1,0 +1,51 @@
+{
+"id": "galeria-piedras",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://piedrasgaleria.com/"
+],
+"enlaces_candidatos": [],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Josefina Labourt: Coraza fantasma",
+"fecha_inicio": "2026-09-19",
+"fecha_fin": "2026-11-14",
+"hora": "",
+"horarios": "",
+"lugar": "Piedras Galería",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://piedrasgaleria.com/",
+"descripcion": "Exhibición actual en la sala principal."
+},
+{
+"titulo": "Teresa Giarcovich: Rosa tapisserie",
+"fecha_inicio": "2026-09-19",
+"fecha_fin": "2026-11-14",
+"hora": "",
+"horarios": "",
+"lugar": "Piedras Galería · Sala de proyectos",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://piedrasgaleria.com/",
+"descripcion": "Exhibición actual en la sala de proyectos."
+}
+],
+"entradas": [
+"https://piedrasgaleria.com/"
+],
+"comportamiento": {
+"estructura": "La portada lista 'Exhibición actual' con fechas y 'Próxima feria' (ferias en el exterior y arteBA: no son en la galería)."
+},
+"nota": "Dos muestras actuales hasta el 14/11.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

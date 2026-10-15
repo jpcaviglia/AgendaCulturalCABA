@@ -1,0 +1,21 @@
+{"id":"busqueda-fiestas-techno-y-electronica","canal":"web","estado":"con_eventos","intentos":1,"scroll_completo":true,
+"urls_visitadas":["https://www.google.com/search?q=fiestas+techno+buenos+aires+octubre+2026+fin+de+semana","https://jodify.com.ar/events","https://ra.co/clubs/ar/buenosaires"],
+"enlaces_candidatos":[{"texto":"Jodify","url":"https://jodify.com.ar/events","visitado":true},{"texto":"Buenos Aliens","url":"http://www.buenosaliens.com","descartado":"agenda de electrónica; queda como sitio nuevo para rastrear aparte"},{"texto":"quehacemos.com.ar fiestas electrónicas","url":"https://www.quehacemos.com.ar","descartado":"agregador genérico, repite RA y Passline"}],
+"evidencia":"","entradas":["https://jodify.com.ar/events"],
+"eventos":[
+{"titulo":"Boris Brejcha, Frieder & Jakob, Ann Clue","fecha_inicio":"2026-10-17","fecha_fin":"2026-10-17","hora":"","horarios":"","lugar":"Mandarine Park","barrio":"Costanera Norte","direccion":"Punta Carrasco, Av. Costanera Rafael Obligado","categoria":"Fiestas y electrónica","precio":"","url":"https://jodify.com.ar/events","descripcion":"High-Tech Minimal. Entradas agotadas."},
+{"titulo":"Milena Adamis, Bondarük & SMT (sunset)","fecha_inicio":"2026-10-17","fecha_fin":"2026-10-17","hora":"","horarios":"","lugar":"Under Club","barrio":"Palermo","direccion":"Niceto Vega 5699","categoria":"Fiestas y electrónica","precio":"","url":"https://jodify.com.ar/events","descripcion":"Techno."}
+],
+"comportamiento":{"consultas":["fiestas techno buenos aires este fin de semana","fiesta música electrónica CABA","clubes de música electrónica buenos aires agenda","after party open air buenos aires"],"fuentes":"Jodify (jodify.com.ar/events) lista fiestas de todo el país con club y barrio; RA y Passline ya se rastrean aparte."},
+"nota":"La agenda de fiestas la cubren RA, Passline y Jodify. Se sumaron como sitios nuevos Jodify, Buenos Aliens y los clubes de CABA con web o Instagram confirmados en RA.",
+"enlaces_nuevos":[],
+"sitios_nuevos":[
+{"nombre":"Jodify","web":"https://jodify.com.ar/events","instagram":"","tipo":"agregador","barrio":"","direccion":"","motivo":"agenda nacional de fiestas electrónicas con club y barrio"},
+{"nombre":"Buenos Aliens","web":"http://www.buenosaliens.com","instagram":"","tipo":"agregador","barrio":"","direccion":"","motivo":"agenda de música electrónica de Argentina"},
+{"nombre":"Crobar","web":"http://www.crobar.com.ar","instagram":"","tipo":"lugar","barrio":"Palermo","direccion":"Marcelo Freyre s/n, Paseo de la Infanta","motivo":"club de electrónica; web confirmada en RA"},
+{"nombre":"Under Club","web":"https://www.underclub.com.ar/","instagram":"","tipo":"lugar","barrio":"Palermo","direccion":"Niceto Vega 5699","motivo":"club de techno; web confirmada en RA"},
+{"nombre":"La Nube","web":"","instagram":"@lanubebuenosaires","tipo":"lugar","barrio":"Belgrano","direccion":"Av. Int. Güiraldes 2851","motivo":"club de electrónica; Instagram confirmado en RA"},
+{"nombre":"Avant Garten","web":"http://avantgarten.club","instagram":"","tipo":"lugar","barrio":"Palermo","direccion":"Av. del Libertador 3883, Arco 10","motivo":"club de house; web confirmada en RA"},
+{"nombre":"TCQ","web":"","instagram":"@tcqlub","tipo":"lugar","barrio":"Monserrat","direccion":"Av. Rivadavia 1134","motivo":"club de techno; Instagram confirmado en RA"},
+{"nombre":"Dune Park","web":"http://www.dunepark.club","instagram":"","tipo":"lugar","barrio":"Villa Crespo","direccion":"Aráoz 740","motivo":"club de house; web confirmada en RA"}
+]}

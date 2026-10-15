@@ -1,0 +1,18 @@
+{
+ "id": "clasico-fernandez",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.clasicofernandez.com.ar",
+  "https://clasicofernandez.com.ar/",
+  "https://www.google.com/search?q=Cl%C3%A1sico+Fern%C3%A1ndez+bar+Buenos+Aires"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "clasicofernandez.com.ar y su variante con www no resuelven DNS (DNS_PROBE_POSSIBLE); Google solo muestra la ficha de Maps (Piedras 1020), Tripadvisor y Facebook, sin web ni Instagram con agenda.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin web activa; solo Facebook (4,3 mil seguidores) y la ficha de Maps."
+}

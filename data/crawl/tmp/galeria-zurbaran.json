@@ -1,0 +1,38 @@
+{
+"id": "galeria-zurbaran",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.zurbaran.com.ar/programacion-2026/"
+],
+"enlaces_candidatos": [],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Simonelli",
+"fecha_inicio": "2026-09-24",
+"fecha_fin": "",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://www.zurbaran.com.ar/programacion-2026/",
+"descripcion": "Exposición de Simonelli en la galería de Cerrito 1522.",
+"vigente_sin_fin": true
+}
+],
+"entradas": [
+"https://www.zurbaran.com.ar/programacion-2026/"
+],
+"comportamiento": {
+"estructura": "Calendario anual con estados 'Finalizado / Ahora / Próximo' y día de inauguración; no publica cierre."
+},
+"nota": "Próxima: colectiva por los 50 años de Zurbarán desde el 12 de noviembre.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

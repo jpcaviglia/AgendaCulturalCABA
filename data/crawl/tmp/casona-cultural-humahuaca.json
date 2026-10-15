@@ -1,0 +1,131 @@
+{
+ "id": "casona-cultural-humahuaca",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.casonahumahuaca.com.ar/",
+  "https://www.casonahumahuaca.com.ar/ciclos-1",
+  "https://www.casonahumahuaca.com.ar/talleres",
+  "https://www.casonahumahuaca.com.ar/copia-de-bar"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Ciclos",
+   "url": "/ciclos-1",
+   "visitado": true
+  },
+  {
+   "texto": "Talleres",
+   "url": "/talleres",
+   "visitado": true
+  },
+  {
+   "texto": "Exposiciones",
+   "url": "/copia-de-bar",
+   "visitado": true
+  },
+  {
+   "texto": "Bar",
+   "url": "/bar-1",
+   "descartado": "bar de la casona, no agenda"
+  },
+  {
+   "texto": "Para talleres",
+   "url": "/para-talleres-1",
+   "descartado": "alquiler de espacios"
+  },
+  {
+   "texto": "Historia",
+   "url": "/historia",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Proyectos y colectivos",
+   "url": "/proyectos-y-colectivos-comunitarios",
+   "descartado": "descripción de colectivos"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Cine casonero en la vereda",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Jueves desde las 20.30 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "A la gorra",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "descripcion": "Cine al aire libre todas las semanas, a la gorra no excluyente. No se suspende por lluvia."
+  },
+  {
+   "titulo": "Ping Pong Casonero",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:30",
+   "horarios": "Miércoles 21.30 a 00 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "A la gorra",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "descripcion": "Ping pong a la gorra no excluyente consumiendo en el bar. Todas las semanas."
+  },
+  {
+   "titulo": "Mundos Paralelos",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "descripcion": "Ciclo mensual organizado por Sasha Alvarado. Tercer martes de cada mes, 21 a 00 h."
+  },
+  {
+   "titulo": "Elijo creer",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "descripcion": "Ciclo mensual organizado por Deep Gea. Cuarto martes de cada mes, 20.30 a 23.30 h."
+  },
+  {
+   "titulo": "Collage con música en vivo",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "descripcion": "Ciclo mensual, cuarto sábado de cada mes, de 19 a 21 h."
+  }
+ ],
+ "entradas": [
+  "https://www.casonahumahuaca.com.ar/ciclos-1"
+ ],
+ "comportamiento": {
+  "extraccion": "/ciclos-1 lista los ciclos por día de la semana con su periodicidad (todas las semanas, 3er martes, etc.); /talleres lista clases semanales; /copia-de-bar es Exposiciones y no trae fechas",
+  "menu": "ACTIVIDADES > Talleres, Ciclos, Exposiciones, Bar"
+ },
+ "nota": "Ciclos recurrentes con horarios; la programación mensual completa se publica en Instagram @casonahumahuaca. Exposiciones sin fechas en la web."
+}

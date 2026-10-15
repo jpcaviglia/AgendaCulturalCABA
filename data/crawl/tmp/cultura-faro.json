@@ -1,0 +1,17 @@
+{
+ "id": "cultura-faro",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://culturafaro.com/",
+  "https://www.google.com/search?q=Cultura+Faro+Buenos+Aires"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "culturafaro.com no resuelve DNS (DNS_PROBE_POSSIBLE). Google solo muestra la ficha de Maps (Suipacha 119, 1.er piso), Facebook con pocos seguidores y la ficha en Alternativa Teatral; no hay web propia.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin web; su cartelera aparece en Alternativa Teatral (ya rastreada) y en Facebook."
+}

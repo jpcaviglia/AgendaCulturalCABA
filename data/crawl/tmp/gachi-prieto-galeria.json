@@ -1,0 +1,42 @@
+{
+"id": "gachi-prieto-galeria",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"web_nueva": "https://www.gachiprieto.com/",
+"instagram": "@gachiprietogaleria",
+"barrio": "",
+"direccion": "",
+"urls_visitadas": [
+"https://www.google.com/search?q=Gachi+Prieto+galer%C3%ADa+arte+latinoamericano",
+"https://www.gachiprieto.com/",
+"https://www.gachiprieto.com/galeria"
+],
+"enlaces_candidatos": [
+{
+"texto": "Galería",
+"url": "https://www.gachiprieto.com/galeria",
+"visitado": true
+},
+{
+"texto": "Artistas",
+"url": "https://www.gachiprieto.com/artistas",
+"descartado": "fichas de artistas, no muestras"
+},
+{
+"texto": "Ferias",
+"url": "https://www.gachiprieto.com/ferias",
+"descartado": "participación en ferias"
+}
+],
+"evidencia": "La web (Wix 2021) tiene secciones Artistas, Galería y Ferias; 'Exhibiciones' aparece en el menú sin enlace y /galeria está vacía. No publica muestras ni fechas.",
+"eventos": [],
+"entradas": [],
+"comportamiento": {
+"plataforma": "Wix"
+},
+"nota": "Web confirmada gachiprieto.com; sin muestras publicadas, mirar Instagram.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

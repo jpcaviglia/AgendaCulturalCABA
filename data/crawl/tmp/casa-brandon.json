@@ -1,0 +1,104 @@
+{
+ "id": "casa-brandon",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://brandon.org.ar/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Club Brandon",
+   "url": "/club-brandon/",
+   "visitado": true
+  },
+  {
+   "texto": "Home",
+   "url": "/home-us/",
+   "descartado": "portada alternativa, mismo contenido"
+  },
+  {
+   "texto": "Somos",
+   "url": "/somos/",
+   "descartado": "institucional"
+  },
+  {
+   "texto": "Editorial Brandon",
+   "url": "/brandon-editorial/libros/",
+   "descartado": "venta de libros"
+  },
+  {
+   "texto": "Donar",
+   "url": "/donar",
+   "descartado": "donaciones"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Florencia Abbate presenta I Ching: libro de los cambios",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://brandon.org.ar/",
+   "descripcion": "Lectura para el presente del I Ching, con Luis Mari, Cristián Costantini y Xul Solar. Fecha leída del afiche."
+  },
+  {
+   "titulo": "Ada Gómez: expresión y estudio de obras",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://brandon.org.ar/",
+   "descripcion": "Expresión y estudio de obras con flauta. Fecha leída del afiche."
+  },
+  {
+   "titulo": "Fiesta Club Brandon: Blujäus y OJ Santa Rita",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://brandon.org.ar/",
+   "descripcion": "Fiesta Club Brandon con Blujäus y OJ Santa Rita."
+  },
+  {
+   "titulo": "Peña Folklorazo Queer",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://brandon.org.ar/",
+   "descripcion": "Peña folklórica queer en Casa Brandon."
+  }
+ ],
+ "entradas": [
+  "https://brandon.org.ar/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada tiene 'próximamente en casa brandon' con afiches (imágenes sin texto): leer con captura y zoom",
+  "cookies": "sin aviso"
+ },
+ "nota": "Los próximos eventos están solo como afiches en la portada; hay que scrollear hasta 'próximamente en casa brandon' y leer la captura."
+}

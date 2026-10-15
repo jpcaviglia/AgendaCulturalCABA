@@ -1,0 +1,33 @@
+{
+ "id": "espacio-cultural-oei",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://oei.org.ar/espaciocultural/",
+  "https://oei.org.ar/espaciocultural/eventos/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Ver todos los eventos",
+   "url": "/espaciocultural/eventos/",
+   "visitado": true
+  },
+  {
+   "texto": "Blog del espacio cultural",
+   "url": "/espaciocultural/blog/",
+   "descartado": "crónicas de 2020 y 2021"
+  },
+  {
+   "texto": "Espacio digital",
+   "url": "/espaciocultural/espacio-digital/",
+   "descartado": "contenidos online sin fechas"
+  }
+ ],
+ "evidencia": "/eventos/ muestra 'No hay próximos eventos actualmente' y 'No se ha encontrado ningún resultado' en el calendario; las novedades son de 2020 y 2021 (exposiciones virtuales).",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sitio sin actividad desde 2021."
+}

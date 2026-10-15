@@ -1,0 +1,27 @@
+{
+ "id": "espacio-moebius",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.moebiuseditora.com",
+  "https://moebiuseditora.com/",
+  "https://linktr.ee/espaciomoebius",
+  "https://www.google.com/search?q=Espacio+Moebius+Buenos+Aires"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Linktree Espacio Moebius",
+   "url": "https://linktr.ee/espaciomoebius",
+   "visitado": true
+  }
+ ],
+ "evidencia": "www.moebiuseditora.com rechaza la conexión (ERR_CONNECTION_REFUSED) y la variante sin www cambia de dominio; el Linktree oficial solo enlaza la Bienal de Historieta, un documental, YouTube y redes, sin agenda con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La web vieja no responde; la actividad (Bulnes 658) se anuncia en Instagram @espaciomoebius.",
+ "instagram": "@espaciomoebius",
+ "enlace_bio": "https://linktr.ee/espaciomoebius"
+}

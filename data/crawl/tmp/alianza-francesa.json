@@ -1,0 +1,179 @@
+{
+"id": "alianza-francesa",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.alianzafrancesa.org.ar/cultura?search-start=2026-10-14&page=1"
+],
+"enlaces_candidatos": [
+{
+"texto": "Agenda (posteriores al 14/10)",
+"url": "https://www.alianzafrancesa.org.ar/cultura?search-start=2026-10-14&page=1",
+"visitado": true
+},
+{
+"texto": "Proyecto Cyrano / Coro / Los relatos y la vida",
+"url": "https://www.alianzafrancesa.org.ar/cultura/",
+"descartado": "talleres y cursos pagos"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Experiencia de realidad virtual",
+"fecha_inicio": "2026-02-04",
+"fecha_fin": "",
+"hora": "",
+"horarios": "17 a 18:30",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/experiencia-de-realidad-virtual",
+"descripcion": "",
+"vigente_sin_fin": true
+},
+{
+"titulo": "Entre retratos",
+"fecha_inicio": "2026-09-03",
+"fecha_fin": "",
+"hora": "",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/entre-retratos",
+"descripcion": "",
+"vigente_sin_fin": true
+},
+{
+"titulo": "Melina Saredo: Cartografías del corazonar",
+"fecha_inicio": "2026-10-09",
+"fecha_fin": "",
+"hora": "",
+"horarios": "",
+"lugar": "Alianza Francesa · Palermo",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/cartografias-del-corazonar-de-melina-saredo",
+"descripcion": "",
+"vigente_sin_fin": true
+},
+{
+"titulo": "Encuentro de Cine Europeo 2026",
+"fecha_inicio": "2026-10-07",
+"fecha_fin": "",
+"hora": "",
+"horarios": "Funciones a las 18 o 20",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Cine",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/encuentro-de-cine-europeo-2026",
+"descripcion": "",
+"vigente_sin_fin": true
+},
+{
+"titulo": "Solidaridad franco-argentina en tiempos de dictadura. El papel de los artistas",
+"fecha_inicio": "2026-10-16",
+"fecha_fin": "2026-10-16",
+"hora": "18:30",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Literatura y charlas",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/solidaridad-franco-argentina-en-tiempos-de-dictadura-el-papel-de-los-artistas",
+"descripcion": ""
+},
+{
+"titulo": "Música francesa en concierto: piano y violín",
+"fecha_inicio": "2026-10-20",
+"fecha_fin": "2026-10-20",
+"hora": "19:00",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Música",
+"precio": "$ 10000",
+"url": "https://www.alianzafrancesa.org.ar/cultura/musique-francaise",
+"descripcion": ""
+},
+{
+"titulo": "La memoria del perfume de las cosas, de António Fonseca",
+"fecha_inicio": "2026-10-21",
+"fecha_fin": "2026-10-21",
+"hora": "18:00",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Cine",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/la-memoria-del-perfume-de-las-cosas-de-de-antonio-fonseca",
+"descripcion": ""
+},
+{
+"titulo": "Misterioso asesinato en la montaña, de Franck Dubosc",
+"fecha_inicio": "2026-10-21",
+"fecha_fin": "2026-10-21",
+"hora": "20:00",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Cine",
+"precio": "",
+"url": "https://www.alianzafrancesa.org.ar/cultura/misterioso-asesinato-en-la-montana-de-franck-dubosc",
+"descripcion": ""
+},
+{
+"titulo": "Concierto: Canciones de cámara francesas",
+"fecha_inicio": "2026-10-23",
+"fecha_fin": "2026-10-23",
+"hora": "19:00",
+"horarios": "",
+"lugar": "Alianza Francesa · Palermo",
+"barrio": "",
+"direccion": "",
+"categoria": "Música",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/concierto-canciones-de-camara-francesas",
+"descripcion": ""
+},
+{
+"titulo": "Festival Borges - VI edición",
+"fecha_inicio": "2026-10-26",
+"fecha_fin": "2026-10-26",
+"hora": "18:00",
+"horarios": "",
+"lugar": "Alianza Francesa · Microcentro",
+"barrio": "",
+"direccion": "",
+"categoria": "Festival",
+"precio": "Gratis",
+"url": "https://www.alianzafrancesa.org.ar/cultura/festival-borges-2026",
+"descripcion": ""
+}
+],
+"entradas": [
+"https://www.alianzafrancesa.org.ar/cultura?search-start=2026-10-14&page=1"
+],
+"comportamiento": {
+"agenda": "?search-start=AAAA-MM-DD lista lo vigente desde esa fecha en una sola página (14 actividades); las muestras figuran con su fecha de inicio.",
+"sedes": "Microcentro (Av. Córdoba 946) y Palermo (Billinghurst 2563)."
+},
+"nota": "10 actividades culturales en la ventana.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

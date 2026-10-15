@@ -1,0 +1,17 @@
+{
+ "id": "la-escalera-espacio-de-arte",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.espaciolaescalera.com.ar",
+  "https://www.google.com/search?q=La+Escalera+espacio+de+arte+Buenos+Aires"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "espaciolaescalera.com.ar no resuelve DNS (DNS_PROBE_POSSIBLE); Google solo muestra Facebook (220 seguidores; talleres de teatro, danza y música) y directorios (Dateas: Juan B. Justo 889), sin web ni Instagram propios.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin web; solo Facebook y directorios."
+}

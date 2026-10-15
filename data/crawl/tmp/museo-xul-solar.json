@@ -1,0 +1,55 @@
+{
+"id": "museo-xul-solar",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"web_nueva": "https://www.xulsolar.org.ar/",
+"instagram": "@museo.xul.solar",
+"barrio": "Palermo",
+"direccion": "Laprida 1212",
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+Xul+Solar+Laprida+1212+actividades",
+"https://www.xulsolar.org.ar/",
+"https://www.eventbrite.com.ar/o/museo-xul-solar-38576839753"
+],
+"enlaces_candidatos": [
+{
+"texto": "Programación del mes",
+"url": "https://drive.google.com/file/d/1KCaUYV6lp3oY4WXWoS6AC8QYUUXZeijr/view",
+"descartado": "PDF en Google Drive; las actividades con entrada están en Eventbrite"
+},
+{
+"texto": "Entradas a actividades (Eventbrite)",
+"url": "https://www.eventbrite.com.ar/o/museo-xul-solar-38576839753",
+"visitado": true
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Visita guiada sobre astrología en el Museo Xul Solar",
+"fecha_inicio": "2026-10-15",
+"fecha_fin": "2026-10-15",
+"hora": "18:00",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Visita guiada",
+"precio": "Desde $ 25000",
+"url": "https://www.eventbrite.com.ar/o/museo-xul-solar-38576839753",
+"descripcion": "Visita temática sobre la astrología en la obra de Xul Solar."
+}
+],
+"entradas": [
+"https://www.eventbrite.com.ar/o/museo-xul-solar-38576839753",
+"https://www.xulsolar.org.ar/"
+],
+"comportamiento": {
+"programacion": "La programación mensual es un PDF en Drive; las actividades pagas se venden en Eventbrite (organizador 38576839753)."
+},
+"nota": "Martes a viernes 12-20, sábados 12-19; entrada general $9.000.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

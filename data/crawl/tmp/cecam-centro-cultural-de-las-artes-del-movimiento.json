@@ -1,0 +1,39 @@
+{
+ "id": "cecam-centro-cultural-de-las-artes-del-movimiento",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.cecam.com.ar/",
+  "https://www.cecam.com.ar/schedule",
+  "https://www.cecam.com.ar/archives"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Grilla de actividades",
+   "url": "/schedule",
+   "visitado": true
+  },
+  {
+   "texto": "Historia",
+   "url": "/archives",
+   "visitado": true
+  },
+  {
+   "texto": "Sobre el CECAM",
+   "url": "/#about-us",
+   "descartado": "sección de la portada"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/contact",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "La Grilla de actividades (rotulada 2025) es el horario semanal de clases regulares (circo, parkour, taekwondo, calistenia, karate, wushu); Historia es la crónica de 2017 en adelante; no hay cartelera ni eventos puntuales con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Escuela de parkour y circo; solo clases regulares, sin eventos en la web."
+}

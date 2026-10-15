@@ -1,0 +1,47 @@
+{
+"id": "almacen-de-arte",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"web_nueva": "https://www.almacendearte.net/",
+"instagram": "@almacendearteok",
+"barrio": "San Nicolás",
+"direccion": "San Martín 954 / Florida 971, piso 1, local 47 (Galerías Larreta)",
+"urls_visitadas": [
+"https://www.google.com/search?q=%22Almac%C3%A9n%22+arte+contempor%C3%A1neo+galer%C3%ADa+Buenos+Aires",
+"https://www.almacendearte.net/",
+"https://www.almacendearte.net/que-somos-comparados-con-glaciares-y-montanas",
+"https://www.almacendearte.net/almacen-47",
+"https://www.almacendearte.net/actividades"
+],
+"enlaces_candidatos": [
+{
+"texto": "Muestra: María Paz Secundini",
+"url": "https://www.almacendearte.net/que-somos-comparados-con-glaciares-y-montanas",
+"visitado": true
+},
+{
+"texto": "ALMACÉN 47",
+"url": "https://www.almacendearte.net/almacen-47",
+"visitado": true
+},
+{
+"texto": "Actividades",
+"url": "https://www.almacendearte.net/actividades",
+"visitado": true
+}
+],
+"evidencia": "La muestra destacada (María Paz Secundini) es del 21/11/2024; Actividades lista solo eventos de 2023. No hay muestra vigente publicada.",
+"eventos": [],
+"entradas": [
+"https://www.almacendearte.net/actividades"
+],
+"comportamiento": {
+"plataforma": "Wix",
+"sede": "Sede CABA ALMACÉN 47 dentro de Central AFFAIR (Galerías Larreta)."
+},
+"nota": "Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

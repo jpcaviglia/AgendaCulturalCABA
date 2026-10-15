@@ -1,0 +1,43 @@
+{
+ "id": "espacio-cultural-nuestros-hijos-fundacion-madres-de-plaza-de",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://ecunhi.com.ar/",
+  "https://ecunhi.com.ar/agenda/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Agenda",
+   "url": "/agenda",
+   "visitado": true
+  },
+  {
+   "texto": "Talleres",
+   "url": "/category/cursos-y-talleres/",
+   "descartado": "cursos que empezaron en abril, con inscripción"
+  },
+  {
+   "texto": "Música",
+   "url": "/category/cursos-y-talleres/musica/",
+   "descartado": "cursos de música ya en marcha"
+  },
+  {
+   "texto": "Letras",
+   "url": "/category/cursos-y-talleres/letras/",
+   "descartado": "cursos de letras ya en marcha"
+  },
+  {
+   "texto": "Institucional",
+   "url": "/institucional/",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "La sección 'Próximos eventos' de la portada está vacía y /agenda responde 'No se ha encontrado nada'; la web solo lista cursos y talleres arancelados que empezaron en abril.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin eventos publicados en la web; solo cursos."
+}

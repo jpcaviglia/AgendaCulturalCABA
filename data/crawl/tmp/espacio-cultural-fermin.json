@@ -1,0 +1,39 @@
+{
+ "id": "espacio-cultural-fermin",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://espaciofermin.com.ar/",
+  "https://espaciofermin.com.ar/actividades/",
+  "https://espaciofermin.com.ar/novedades/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Actividades",
+   "url": "/actividades/",
+   "visitado": true
+  },
+  {
+   "texto": "Novedades",
+   "url": "/novedades/",
+   "visitado": true
+  },
+  {
+   "texto": "Jornadas solidarias",
+   "url": "/jornadas-solidarias/",
+   "descartado": "cenas solidarias para colaborar, sin fechas puntuales"
+  },
+  {
+   "texto": "Comuna 7",
+   "url": "/comuna-7/",
+   "descartado": "información comunitaria"
+  }
+ ],
+ "evidencia": "/actividades es la grilla de clases y talleres semanales (escuelita de fútbol, yoga, tejido, zumba, taekwondo, apoyo escolar) y /novedades son crónicas de julio y agosto; no hay eventos puntuales con fecha futura.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Espacio comunitario con actividades semanales; sin cartelera de eventos."
+}

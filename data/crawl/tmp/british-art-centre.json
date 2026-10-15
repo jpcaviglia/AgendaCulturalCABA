@@ -1,0 +1,71 @@
+{
+ "id": "british-art-centre",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.aaci.org.ar/bac/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Programación",
+   "url": "/bac/",
+   "visitado": true
+  },
+  {
+   "texto": "Novedades",
+   "url": "/bac/novedades/",
+   "descartado": "novedades institucionales, no agenda"
+  },
+  {
+   "texto": "Accesibilidad",
+   "url": "/bac/accesibilidad/",
+   "descartado": "información de accesibilidad"
+  },
+  {
+   "texto": "Quiénes somos",
+   "url": "/bac/quienes-somos/",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Rebecca Winckworth",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "British Arts Centre",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.aaci.org.ar/bac/",
+   "descripcion": "Espectáculo en el British Arts Centre. Apto todo público."
+  },
+  {
+   "titulo": "Seminario de clown",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-19",
+   "hora": "18:30",
+   "horarios": "Jueves de 18.30 h, del 8/10 al 19/11",
+   "lugar": "British Arts Centre",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://www.aaci.org.ar/bac/",
+   "descripcion": "Taller con dirección de Mercedes Arguimbau y Marilyn Petito. Informes por mail a amigosdelcervantes@gmail.com."
+  }
+ ],
+ "entradas": [
+  "https://www.aaci.org.ar/bac/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada /bac/ es la programación: tarjetas con fecha, más 'Cargar más' con el archivo de meses anteriores",
+  "ver_mas": "'Cargar más' trae solo eventos pasados"
+ },
+ "nota": "En la ventana solo hay dos propuestas; el resto del listado es de septiembre o antes."
+}

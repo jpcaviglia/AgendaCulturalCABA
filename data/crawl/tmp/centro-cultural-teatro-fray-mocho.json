@@ -1,0 +1,17 @@
+{
+ "id": "centro-cultural-teatro-fray-mocho",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 2,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://fraymochoteatro.blogspot.com/",
+  "https://www.google.com/search?q=Fray+Mocho+teatro+Buenos+Aires"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "fraymochoteatro.blogspot.com responde 'Blog has been removed'; Google indica que la cartelera del Fray Mocho (Aráoz 1047, Villa Crespo) está en Alternativa Teatral y no muestra otra web propia.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "El blog fue eliminado; su cartelera se publica en Alternativa Teatral (ya rastreada como agregador)."
+}

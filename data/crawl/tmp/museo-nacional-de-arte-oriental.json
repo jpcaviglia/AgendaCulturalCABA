@@ -1,0 +1,69 @@
+{
+"id": "museo-nacional-de-arte-oriental",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+Nacional+de+Arte+Oriental+Viamonte+525",
+"https://mnao.cultura.gob.ar/",
+"https://mnao.cultura.gob.ar/exhibiciones/"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exhibiciones",
+"url": "https://mnao.cultura.gob.ar/exhibiciones/",
+"visitado": true
+},
+{
+"texto": "Actividades",
+"url": "https://mnao.cultura.gob.ar/actividades/",
+"descartado": "se revisará la próxima corrida; la portada no muestra actividades con fecha"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Ningyō: tradición y actualidad de las muñecas japonesas",
+"fecha_inicio": "2026-09-30",
+"fecha_fin": "2026-11-22",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "Gratis",
+"url": "https://mnao.cultura.gob.ar/exhibiciones/",
+"descripcion": "Con la Fundación Japón y la Embajada del Japón."
+},
+{
+"titulo": "Oriente Todo",
+"fecha_inicio": "2026-10-14",
+"fecha_fin": "",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://mnao.cultura.gob.ar/exhibiciones/",
+"descripcion": "Exhibición permanente.",
+"vigente_sin_fin": true
+}
+],
+"entradas": [
+"https://mnao.cultura.gob.ar/exhibiciones/"
+],
+"comportamiento": {
+"estructura": "Exhibiciones con 'Desde el ... hasta el ...'."
+},
+"nota": "Viamonte 525.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://mnao.cultura.gob.ar/",
+"instagram": "@museooriental",
+"barrio": "San Nicolás",
+"direccion": "Viamonte 525"
+}

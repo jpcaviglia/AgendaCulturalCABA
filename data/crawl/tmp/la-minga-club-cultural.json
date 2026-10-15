@@ -1,0 +1,55 @@
+{
+ "id": "la-minga-club-cultural",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.lamingaclubcultural.com.ar",
+  "https://linktr.ee/lamingacc",
+  "https://ticketia.com.ar/events/la-minga-club-cultural"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Entradas (Ticketia)",
+   "url": "https://ticketia.com.ar/events/la-minga-club-cultural",
+   "visitado": true
+  },
+  {
+   "texto": "Espectáculos de vacaciones",
+   "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
+   "descartado": "vacaciones de invierno, ya pasadas"
+  },
+  {
+   "texto": "Canal de YouTube",
+   "url": "https://www.youtube.com/user/LaMingaClubCultural",
+   "descartado": "videos"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Kispicas Trío Vocal",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Del Barco Centenera 1126",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://ticketia.com.ar/events/la-minga-club-cultural",
+   "descripcion": "Concierto en La Minga Club Cultural."
+  }
+ ],
+ "entradas": [
+  "https://ticketia.com.ar/events/la-minga-club-cultural"
+ ],
+ "comportamiento": {
+  "extraccion": "lamingaclubcultural.com.ar redirige al Linktree @lamingacc; la agenda está en la ticketera Ticketia (events/la-minga-club-cultural), con título, fecha y hora"
+ },
+ "nota": "La web redirige a un Linktree; los eventos se leen en Ticketia.",
+ "web_nueva": "https://linktr.ee/lamingacc",
+ "enlace_bio": "https://linktr.ee/lamingacc"
+}

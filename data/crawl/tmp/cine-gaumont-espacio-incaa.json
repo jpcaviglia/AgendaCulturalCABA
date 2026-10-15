@@ -1,0 +1,88 @@
+{
+ "id": "cine-gaumont-espacio-incaa",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://www.incaa.gov.ar/programacion-espacios-incaa",
+  "https://www.incaa.gob.ar/programacion-espacios-incaa",
+  "https://www.google.com/search?q=Cine+Gaumont+Espacio+INCAA+cartelera"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Programación Espacios INCAA",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "visitado": true
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Soy ella",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección en el Espacio INCAA ATE Cultura."
+  },
+  {
+   "titulo": "Encantador",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección en el Espacio INCAA ATE Cultura."
+  },
+  {
+   "titulo": "Bajo tus pies",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "Todos los días, 22 h",
+   "lugar": "Espacio INCAA Atlas Flores",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección todas las noches en el Espacio INCAA Atlas Flores."
+  }
+ ],
+ "entradas": [
+  "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+ ],
+ "comportamiento": {
+  "url": "incaa.gov.ar no resuelve; la cartelera vigente está en https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+  "extraccion": "tabla con espacio, localidad, día, hora y película para 7 días; los filtros no ocultan filas, hay que filtrar CABA al leer; el Gaumont no figura en la tabla"
+ },
+ "nota": "El Cine Gaumont no está en la tabla de Espacios INCAA; solo hay dos espacios de CABA (ATE Cultura y Atlas Flores). Programación del Gaumont: Instagram @cine.gaumont.",
+ "sitios_nuevos": [
+  {
+   "nombre": "Espacio INCAA Atlas Flores",
+   "web": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "tipo": "lugar",
+   "barrio": "Flores",
+   "motivo": "aparece en la cartelera de Espacios INCAA con localidad CABA"
+  },
+  {
+   "nombre": "Espacio INCAA ATE Cultura",
+   "web": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "tipo": "lugar",
+   "barrio": "",
+   "motivo": "aparece en la cartelera de Espacios INCAA con localidad CABA"
+  }
+ ]
+}

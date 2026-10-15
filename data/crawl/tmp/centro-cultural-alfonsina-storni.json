@@ -1,0 +1,19 @@
+{
+ "id": "centro-cultural-alfonsina-storni",
+ "canal": "web",
+ "estado": "no_carga",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/promocion/programas/barrios",
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/centros-culturales-barriales"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "La URL vieja redirige a buenosaires.gob.ar/gcaba_historico/cultura/promocion/programas/barrios que responde 'Página no encontrada'; la variante /cultura/centros-culturales-barriales también da 404. Google muestra Instagram @culturalfonsina y Facebook, sin web propia (Tucumán 3233).",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La página del programa Barrios ya no existe en el sitio del Gobierno; el centro comunica por Instagram @culturalfonsina.",
+ "instagram": "@culturalfonsina"
+}

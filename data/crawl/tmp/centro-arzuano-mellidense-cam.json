@@ -1,0 +1,19 @@
+{
+ "id": "centro-arzuano-mellidense-cam",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://sites.google.com/site/centroarzuanomellidense/",
+  "https://sites.google.com/site/centroarzuanomellidense",
+  "http://www.centroarzuanomellidense.com.ar"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "sites.google.com/site/centroarzuanomellidense da 404 (con y sin barra); centroarzuanomellidense.com.ar no resuelve DNS; Google muestra solo Facebook e Instagram @centroarzuanomellidense (club social, Cochabamba 3245).",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "La web de Google Sites ya no existe; el club tiene Instagram @centroarzuanomellidense.",
+ "instagram": "@centroarzuanomellidense"
+}

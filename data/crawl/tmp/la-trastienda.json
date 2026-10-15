@@ -1,0 +1,111 @@
+{
+ "id": "la-trastienda",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.latrastienda.com/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Próximos shows",
+   "url": "/",
+   "visitado": true
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Roberto Fonseca",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "La vanguardia del jazz cubano, con el pianista de Buena Vista Social Club."
+  },
+  {
+   "titulo": "Fonso y las Paritarias presenta: América del Futuro",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "Show de Fonso y las Paritarias."
+  },
+  {
+   "titulo": "Las Migas",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "Flamencas. Nueva función."
+  },
+  {
+   "titulo": "Las Migas",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "Flamencas. Entradas agotadas."
+  },
+  {
+   "titulo": "Sandra Mihanovich: Sandra en el Paraíso 4.0",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "Show de Sandra Mihanovich."
+  },
+  {
+   "titulo": "Sandra Mihanovich: Sandra en el Paraíso 4.0",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.latrastienda.com/",
+   "descripcion": "Nueva función."
+  }
+ ],
+ "entradas": [
+  "https://www.latrastienda.com/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada lista próximos shows con fecha y hora; sin scroll largo"
+ },
+ "nota": "Cartelera en la portada."
+}

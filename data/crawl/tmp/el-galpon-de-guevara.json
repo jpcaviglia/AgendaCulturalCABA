@@ -1,0 +1,192 @@
+{
+ "id": "el-galpon-de-guevara",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.galpondeguevara.com/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Cartelera",
+   "url": "/la-cartelera",
+   "visitado": true
+  },
+  {
+   "texto": "Residencias",
+   "url": "/residencias",
+   "descartado": "programa de residencias artísticas"
+  },
+  {
+   "texto": "Clases",
+   "url": "/clases",
+   "descartado": "clases regulares"
+  },
+  {
+   "texto": "Festivales",
+   "url": "/festivales",
+   "descartado": "ciclos sin fechas en la ventana"
+  },
+  {
+   "texto": "Entradas",
+   "url": "/entradas",
+   "descartado": "ticketera"
+  },
+  {
+   "texto": "El Galpón",
+   "url": "/el-galpon",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Las bestias",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "Sábados 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro, sábados 20 h."
+  },
+  {
+   "titulo": "Las adoro",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-26",
+   "hora": "19:00",
+   "horarios": "Lunes 19 y 21.30 h; sábado 24 y domingo 25 a las 16 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Lunes 19 y 21.30 h; sábados 24 y 31, 16 h; domingo 25, 16 h."
+  },
+  {
+   "titulo": "Civilización",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:00",
+   "horarios": "Martes 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro, martes 20 h."
+  },
+  {
+   "titulo": "Prometeo liberado",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Jueves 15, 22 y 29, 20 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro, jueves 15, 22 y 29 de octubre."
+  },
+  {
+   "titulo": "Cándida obscura",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro. Otra función el viernes 30."
+  },
+  {
+   "titulo": "Amanuenses",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:30",
+   "horarios": "Miércoles 20.30 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro, miércoles 20.30 h."
+  },
+  {
+   "titulo": "El potrero",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "23:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro. Otra función el viernes 30."
+  },
+  {
+   "titulo": "Los miedos",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro."
+  },
+  {
+   "titulo": "Juego del tiempo",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro."
+  },
+  {
+   "titulo": "Simondieu",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "Sábados 22.30 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Guevara 326",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.galpondeguevara.com/",
+   "descripcion": "Teatro, sábados 22.30 h."
+  }
+ ],
+ "entradas": [
+  "https://www.galpondeguevara.com/"
+ ],
+ "comportamiento": {
+  "extraccion": "la portada lista cada obra con sus días y horarios del mes en texto; la cartelera /la-cartelera tiene el detalle"
+ },
+ "nota": "La portada trae toda la cartelera del mes con días y horas."
+}

@@ -1,0 +1,37 @@
+{
+"id": "museo-benito-quinquela-martin",
+"canal": "web",
+"estado": "sin_agenda",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=Museo+Benito+Quinquela+Mart%C3%ADn+sitio+oficial",
+"https://quinquela.ar/",
+"https://quinquela.ar/index.php/Browse/exhibitions/view/image",
+"https://museoquinquelamartin.geco.com.ar/"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exposiciones (quinquela.ar)",
+"url": "https://quinquela.ar/index.php/Browse/exhibitions/view/image",
+"visitado": true
+},
+{
+"texto": "Turnos",
+"url": "https://museoquinquelamartin.geco.com.ar/",
+"visitado": true
+}
+],
+"evidencia": "quinquela.ar es la colección digital: 'Exposiciones' es un archivo de muestras 2015-2021. museoquinquelamartin.geco.com.ar es el sistema de turnos (Casa Museo, Arte Argentino, Mascarones de Proa). Ninguna publica agenda ni muestras temporarias actuales.",
+"eventos": [],
+"entradas": [],
+"comportamiento": {
+"web": "No hay agenda en la web; la colección permanente se visita con turno."
+},
+"nota": "Av. Don Pedro de Mendoza 1835, La Boca.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://quinquela.ar/",
+"barrio": "La Boca",
+"direccion": "Av. Don Pedro de Mendoza 1835"
+}

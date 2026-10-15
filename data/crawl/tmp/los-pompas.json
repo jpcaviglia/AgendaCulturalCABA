@@ -1,0 +1,67 @@
+{
+ "id": "los-pompas",
+ "canal": "web",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://pompapetriyasos.com.ar/",
+  "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
+ ],
+ "intentos": 1,
+ "scroll_completo": false,
+ "evidencia": "",
+ "enlaces_candidatos": [
+  {
+   "texto": "página leída por el sondeo",
+   "url": "https://pompapetriyasos.com.ar/",
+   "visitado": true
+  },
+  {
+   "texto": "página leída por el sondeo",
+   "url": "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/",
+   "visitado": true
+  }
+ ],
+ "eventos": [
+  {
+   "titulo": "TERCER CORDÓN DEL CONURBANO",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "lugar": "",
+   "direccion": "Av. Brasil 2640",
+   "precio": "Gratis",
+   "url": "https://publico.alternativateatral.com/entradas85583-tercer-cordon-del-conurbano-una-tragedia-marron?o=14",
+   "descripcion": "Adaptación de la obra “Bodas de de Sangre” de Federico García Lorca. Cuando el odio y la discriminación se hacen carne en una sociedad, se abre paso a la tragedia. El conurbano, territorio de injusticias, hacinamientos, contaminación y violencia, deja al descurbierto la sociedad que somos. En plena crisis del 2001, mientras la tragedia sucede, en los barrios del conurbano, la gente trata de vivir,"
+  },
+  {
+   "titulo": "Lo Que La Peste nos Dejó – Los Pompas",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "lugar": "",
+   "direccion": "Av. Brasil 2640",
+   "precio": "Gratis",
+   "url": "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/",
+   "descripcion": "Lo que la peste nos dejó Porque hay fantasmas que solo aparecen cuando muchas voces los nombran y hay historias que no se cuentan en soledad. Más de 40 personas en escena. Un coro. Una banda en vivo. No hay protagonistas. Hay un cuerpo colectivo. En Pompas hacemos teatro comunitario. En cada función, personas de distintas generaciones construyen un espectáculo que respira con el público. Cantamos,"
+  },
+  {
+   "titulo": "Lo Que La Peste nos Dejó - Los Pompas",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "lugar": "",
+   "direccion": "Av. Brasil 2640",
+   "precio": "Gratis",
+   "url": "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/",
+   "descripcion": "Lo que la peste nos dejó Porque hay fantasmas que solo aparecen cuando muchas voces los nombran y hay historias que no se cuentan en soledad. Más de 40 personas en escena. Un coro. Una banda en vivo. No hay protagonistas. Hay un cuerpo colectivo. En Pompas hacemos teatro comunitario. En cada función, personas de distintas generaciones construyen un espectáculo que respira con el público. Cantamos,"
+  }
+ ],
+ "entradas": [
+  "https://pompapetriyasos.com.ar/",
+  "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
+ ],
+ "comportamiento": {
+  "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+ },
+ "nota": "Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
+}

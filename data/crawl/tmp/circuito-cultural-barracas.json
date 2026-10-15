@@ -1,0 +1,17 @@
+{
+ "id": "circuito-cultural-barracas",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 2,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.ccbarracas.com.ar",
+  "https://www.google.com/search?q=Circuito+Cultural+Barracas+agenda"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "ccbarracas.com.ar es hoy un blog de turismo con notas de septiembre de 2025 sobre tours gastronómicos y de graffiti, sin relación con la agenda del Circuito Cultural Barracas (Av. Iriarte 2165); Google solo muestra su Instagram y agendas de terceros (Sociedad Luz, Complejo Teatral).",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "El dominio ya no pertenece al circuito (blog de tours); buscar la agenda en su Instagram."
+}

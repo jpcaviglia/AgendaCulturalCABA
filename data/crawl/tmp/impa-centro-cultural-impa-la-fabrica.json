@@ -1,0 +1,18 @@
+{
+ "id": "impa-centro-cultural-impa-la-fabrica",
+ "canal": "web",
+ "estado": "dominio_caido",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.impalafabrica.org.ar",
+  "https://www.google.com/search?q=IMPA+La+F%C3%A1brica+Ciudad+Cultural+agenda"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "www.impalafabrica.org.ar no resuelve DNS (DNS_PROBE_POSSIBLE); Google solo muestra Facebook, Instagram @centroculturalimpa y fichas de terceros (Alternativa Teatral, Única Cartelera), sin web propia con agenda.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Sin web propia; cartelera en Alternativa Teatral (ya rastreada) e Instagram @centroculturalimpa.",
+ "instagram": "@centroculturalimpa"
+}

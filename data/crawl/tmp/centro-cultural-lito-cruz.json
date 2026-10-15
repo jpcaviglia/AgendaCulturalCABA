@@ -1,0 +1,43 @@
+{
+ "id": "centro-cultural-lito-cruz",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.cclitocruz.com/",
+  "https://www.cclitocruz.com/grilla"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Programación presencial",
+   "url": "/grilla",
+   "visitado": true
+  },
+  {
+   "texto": "Clases",
+   "url": "/clases",
+   "visitado": true
+  },
+  {
+   "texto": "Cursos",
+   "url": "/classes-2022",
+   "descartado": "descripción de cursos de formación"
+  },
+  {
+   "texto": "Espacio",
+   "url": "/sala-alquiler",
+   "descartado": "alquiler de sala"
+  },
+  {
+   "texto": "Clases online",
+   "url": "/internacional",
+   "descartado": "cursos online"
+  }
+ ],
+ "evidencia": "La portada y /grilla (Programación presencial, que redirige a /clases) listan solo clases regulares de formación actoral, trabajo frente a la cámara y danza con inscripción; no hay cartelera de funciones ni eventos con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Escuela de formación actoral; no publica funciones en la web (revisar Instagram)."
+}

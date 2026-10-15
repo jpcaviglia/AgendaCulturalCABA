@@ -1,0 +1,45 @@
+{
+"id": "rubbers",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"instagram": "@galeria_rubbers",
+"urls_visitadas": [
+"https://www.rubbers.com.ar/",
+"https://somosmeridiano.com.ar/agenda/"
+],
+"enlaces_candidatos": [
+{
+"texto": "English",
+"url": "https://www.en.rubbers.com.ar/",
+"descartado": "misma página en inglés"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Eduardo Cetner: Alma de pintor",
+"fecha_inicio": "2026-10-08",
+"fecha_fin": "2026-10-18",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://somosmeridiano.com.ar/agenda/",
+"descripcion": "Nueva exposición del artista (fechas publicadas en la agenda de Meridiano)."
+}
+],
+"entradas": [
+"https://somosmeridiano.com.ar/agenda/"
+],
+"comportamiento": {
+"web": "rubbers.com.ar es una sola página con la historia de la galería, sin muestras; la muestra actual sale en la agenda de Meridiano y en Instagram."
+},
+"nota": "La web propia no publica muestras.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

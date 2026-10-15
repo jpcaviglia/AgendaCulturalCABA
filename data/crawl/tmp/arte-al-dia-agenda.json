@@ -1,0 +1,7 @@
+{"id":"arte-al-dia-agenda","canal":"web","estado":"con_eventos","intentos":1,"scroll_completo":true,
+"urls_visitadas":["https://www.artealdia.com/"],
+"enlaces_candidatos":[{"texto":"Galleries","url":"https://www.artealdia.com/","descartado":"misma sección que rastrea el sitio gallery-circuito-de-arte-al-dia"},{"texto":"News / Reviews / Interviews","url":"https://www.artealdia.com/","descartado":"notas internacionales sin agenda de CABA"}],
+"evidencia":"","entradas":["https://www.artealdia.com/"],
+"eventos":[{"titulo":"Pinta BAphoto 2026 (22ª edición)","fecha_inicio":"2026-10-22","fecha_fin":"2026-10-25","hora":"","horarios":"","lugar":"La Rural","barrio":"Palermo","direccion":"Av. Sarmiento 2704","categoria":"Feria","precio":"","url":"https://buenosairesphoto.com/","descripcion":"Feria de fotografía de Latinoamérica: obras únicas, proyectos curatoriales y presencia internacional."}],
+"comportamiento":{"idioma":"La portada abre en inglés; casi todo es internacional.","uso":"Solo sirve para ferias (Pinta BAphoto) y alguna muestra en Buenos Aires."},
+"nota":"Portada con notas internacionales; lo único en CABA dentro de la ventana es Pinta BAphoto en La Rural.","enlaces_nuevos":[],"sitios_nuevos":[]}

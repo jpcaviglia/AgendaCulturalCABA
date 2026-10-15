@@ -1,0 +1,57 @@
+{
+ "id": "avant-garten",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://avantgarten.club/",
+  "https://ra.co/clubs/124970"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Events",
+   "url": "https://ra.co/clubs/124970",
+   "visitado": true
+  },
+  {
+   "texto": "Channels",
+   "url": "/channels.html",
+   "descartado": "canales de música online, no agenda"
+  },
+  {
+   "texto": "Beer, drinks & food",
+   "url": "/beer.html",
+   "descartado": "carta del bar"
+  },
+  {
+   "texto": "RRHH",
+   "url": "/rrhh.html",
+   "descartado": "búsqueda de personal"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Innen x AVG pres. Manu Oubiña, Mich",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Avant Garten",
+   "barrio": "",
+   "direccion": "Av. Libertador 3883, Arco 10",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://ra.co/clubs/124970",
+   "descripcion": "Fiesta Innen x AVG con Manu Oubiña y Mich."
+  }
+ ],
+ "entradas": [
+  "https://ra.co/clubs/124970"
+ ],
+ "comportamiento": {
+  "agenda": "la web enlaza EVENTS a la página del club en Resident Advisor; la web propia no lista eventos"
+ },
+ "nota": "La agenda está en ra.co/clubs/124970; solo hay una fecha en la ventana (16/10)."
+}

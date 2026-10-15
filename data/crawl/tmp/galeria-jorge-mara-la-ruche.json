@@ -1,0 +1,55 @@
+{
+"id": "galeria-jorge-mara-la-ruche",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.jorgemaralaruche.com.ar/exposiciones/",
+"https://www.jorgemaralaruche.com.ar/"
+],
+"enlaces_candidatos": [
+{
+"texto": "Exposición actual (portada)",
+"url": "https://www.jorgemaralaruche.com.ar/",
+"visitado": true
+},
+{
+"texto": "Exposiciones 2012 / 2026",
+"url": "https://www.jorgemaralaruche.com.ar/exposiciones/",
+"visitado": true
+},
+{
+"texto": "Exposiciones 2003 / 2011",
+"url": "https://www.jorgemaralaruche.com.ar/exposiciones-2003-2011/",
+"descartado": "archivo de muestras pasadas"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Monocromías",
+"fecha_inicio": "2026-10-14",
+"fecha_fin": "",
+"vigente_sin_fin": true,
+"hora": "",
+"horarios": "Lunes a viernes de 15 a 19",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://www.jorgemaralaruche.com.ar/",
+"descripcion": "Colectiva: Carlos Arnaiz, Estrada, Sarah Grilo, Don Hunstein, Kirin, Macaparana, George Noël, César Paternosto, Fidel Sclavo, Eduardo Stupía, Hiroshi Sugimoto y Carola Zech."
+}
+],
+"entradas": [
+"https://www.jorgemaralaruche.com.ar/"
+],
+"comportamiento": {
+"estructura": "La exposición actual está en la portada (sin fechas); /exposiciones/ es el archivo de anteriores."
+},
+"nota": "Paraná 1133. La entrada correcta es la portada, no /exposiciones/.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

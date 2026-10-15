@@ -1,0 +1,19 @@
+{
+ "id": "centro-cultural-asociacion-mutual-homero-manzi",
+ "canal": "web",
+ "estado": "bloqueado",
+ "intentos": 3,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.mutualhomeromanzi.blogspot.com",
+  "https://mutualhomeromanzi.blogspot.com/"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "El blog mutualhomeromanzi.blogspot.com redirige a blogger.com/blogin con 'This blog is open to invited readers only' (lectura solo por invitación); el dominio con www da error de certificado. Google no muestra otra web propia con agenda.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {
+  "bloqueos": "el blog es privado (solo lectores invitados); buscar la agenda en redes sociales"
+ },
+ "nota": "Blog privado de Blogger: no se puede leer sin invitación. Av. Belgrano 3540, Almagro."
+}

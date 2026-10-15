@@ -1,0 +1,33 @@
+{
+"id": "marq-museo-de-arquitectura-y-diseno",
+"canal": "web",
+"estado": "sin_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://www.google.com/search?q=MARQ+Museo+de+Arquitectura+y+Dise%C3%B1o+Buenos+Aires+exposiciones",
+"https://socearq.org/marq/"
+],
+"enlaces_candidatos": [
+{
+"texto": "MARQ (SCA)",
+"url": "https://socearq.org/marq/",
+"visitado": true
+}
+],
+"evidencia": "La sección MARQ de la Sociedad Central de Arquitectos publica Arte Pequeño Formato (10-14 de junio) y una presentación de libro; nada con fechas de octubre.",
+"eventos": [],
+"entradas": [
+"https://socearq.org/marq/"
+],
+"comportamiento": {
+"web": "No tiene web propia: la programación sale en socearq.org/marq/ y en Instagram @marq_sca."
+},
+"nota": "MARQ funciona en Av. del Libertador 999; revisar Instagram.",
+"enlaces_nuevos": [],
+"sitios_nuevos": [],
+"web_nueva": "https://socearq.org/marq/",
+"instagram": "@marq_sca",
+"barrio": "Recoleta",
+"direccion": "Av. del Libertador 999"
+}

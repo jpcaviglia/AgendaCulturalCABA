@@ -1,0 +1,40 @@
+{
+"id": "galeria-vasari",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 2,
+"scroll_completo": true,
+"web_nueva": "https://galeriavasari.com.ar/",
+"urls_visitadas": [
+"https://www.galeriavasari.com",
+"http://galeriavasari.com/",
+"https://galeriavasari.com.ar/"
+],
+"enlaces_candidatos": [],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Rómulo Macciò: Las vueltas del lápiz",
+"fecha_inicio": "2026-10-15",
+"fecha_fin": "2026-11-27",
+"hora": "",
+"horarios": "Lunes a viernes de 11 a 19",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://galeriavasari.com.ar/",
+"descripcion": "Muestra de Rómulo Macciò."
+}
+],
+"entradas": [
+"https://galeriavasari.com.ar/"
+],
+"comportamiento": {
+"web": "https://www.galeriavasari.com muestra página de error; la web actual es galeriavasari.com.ar (http://galeriavasari.com redirige)."
+},
+"nota": "Esmeralda 1357. Blues infinitos (Alfredo Prior) cerró el 8/10.",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

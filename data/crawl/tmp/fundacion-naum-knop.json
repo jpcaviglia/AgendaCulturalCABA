@@ -1,0 +1,44 @@
+{
+ "id": "fundacion-naum-knop",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.naum-knop.org/",
+  "https://www.naum-knop.org/eventos"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Eventos",
+   "url": "/eventos",
+   "visitado": true
+  },
+  {
+   "texto": "Prensa",
+   "url": "/prensa",
+   "descartado": "notas de prensa"
+  },
+  {
+   "texto": "Naum Knop",
+   "url": "/naum/biografia",
+   "descartado": "biografía del artista"
+  },
+  {
+   "texto": "Fundación Naum Knop",
+   "url": "/fundacion/historia",
+   "descartado": "historia"
+  },
+  {
+   "texto": "Contacto",
+   "url": "/contacto",
+   "descartado": "contacto"
+  }
+ ],
+ "evidencia": "La sección Eventos solo ofrece alquilar los espacios (patio, salas, auditorio, taller) para eventos corporativos y exposiciones; el resto del sitio es biográfico e institucional, sin agenda ni muestras con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Eventos = alquiler de espacios; sin agenda en la web, ver Instagram @knopfundacion.",
+ "instagram": "@knopfundacion"
+}

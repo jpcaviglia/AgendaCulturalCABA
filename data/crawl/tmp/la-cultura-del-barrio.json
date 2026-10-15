@@ -1,0 +1,37 @@
+{
+ "id": "la-cultura-del-barrio",
+ "canal": "web",
+ "estado": "sin_agenda",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://linktr.ee/laculturadelbarri"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Instagram Club",
+   "url": "https://linktr.ee/laculturadelbarri",
+   "descartado": "enlace a la red social"
+  },
+  {
+   "texto": "Instagram Deportes",
+   "url": "https://linktr.ee/laculturadelbarri",
+   "descartado": "enlace a la red social"
+  },
+  {
+   "texto": "Boxeo popular",
+   "url": "https://linktr.ee/laculturadelbarri",
+   "descartado": "actividad deportiva"
+  },
+  {
+   "texto": "Tienda de remeras",
+   "url": "https://linktr.ee/laculturadelbarri",
+   "descartado": "venta de merchandising"
+  }
+ ],
+ "evidencia": "El Linktree del Club Social y Deportivo Antifascista solo enlaza Instagram, Facebook, boxeo popular y venta de remeras; no hay agenda ni eventos con fechas.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {},
+ "nota": "Club social y deportivo; la agenda va por Instagram."
+}

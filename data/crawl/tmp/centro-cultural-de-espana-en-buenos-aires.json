@@ -1,0 +1,198 @@
+{
+ "id": "centro-cultural-de-espana-en-buenos-aires",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://cceba.aecid.es/",
+  "https://cceba.aecid.es/eventos/buscador-de-eventos"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Buscador de eventos",
+   "url": "/eventos/buscador-de-eventos",
+   "visitado": true
+  },
+  {
+   "texto": "Esta semana",
+   "url": "/eventos/esta-semana",
+   "descartado": "misma agenda filtrada por semana"
+  },
+  {
+   "texto": "Inscripciones",
+   "url": "/eventos/inscripciones",
+   "descartado": "inscripciones a actividades ya listadas"
+  },
+  {
+   "texto": "Eventos recomendados",
+   "url": "/eventos/eventos-recomendados",
+   "descartado": "selección de la misma agenda"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "El impulso y la forma",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Actividad escénica del ciclo Armarios abiertos 2026."
+  },
+  {
+   "titulo": "El Libro Verde del Teatro",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "Jueves 15, 22 y 29 de octubre",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Ciclo escénico con encuentros los jueves 15, 22 y 29 de octubre (y 5 de noviembre)."
+  },
+  {
+   "titulo": "Diálogo entre orillas: la ballena franca",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Actividad de ciencia."
+  },
+  {
+   "titulo": "El pincho y la Coca",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Actividad de cine y audiovisual."
+  },
+  {
+   "titulo": "Cocina fácil con legumbres",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Actividad de ciudadanía y comunidad."
+  },
+  {
+   "titulo": "III Laboratorio Internacional de Creación y Desarrollo de Públicos Culturales",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Actividad de formación en escénicas."
+  },
+  {
+   "titulo": "Niño Gutiérrez y Patricio Foglia",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Concierto de música y sonido."
+  },
+  {
+   "titulo": "Semana Cuadernos: Marcos Giralt Torrente",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "Martes 20, jueves 22 y viernes 23",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Encuentros de letras con el escritor, los días 20, 22 y 23 de octubre."
+  },
+  {
+   "titulo": "La gaviota. Ensayo abierto",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Ensayo abierto sobre el texto de Chéjov."
+  },
+  {
+   "titulo": "Asterisco: Festival Internacional de Cine LGBTIQ+",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Jornada del festival de cine LGBTIQ+."
+  },
+  {
+   "titulo": "En acción con... Cuadernos Hispanoamericanos y Mercedes Halfon",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "",
+   "direccion": "Paraná 1159",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "descripcion": "Encuentro de letras, con nuevas fechas el 3 y el 10 de noviembre."
+  }
+ ],
+ "entradas": [
+  "https://cceba.aecid.es/eventos/buscador-de-eventos"
+ ],
+ "comportamiento": {
+  "extraccion": "el Buscador de eventos lista la agenda (título, fechas, categoría) en 226 páginas de 10; la primera trae lo próximo; no hay hora en el listado",
+  "cookies": "banner de cookies de AECID al pie, no tapa"
+ },
+ "nota": "Agenda paginada en /eventos/buscador-de-eventos; la portada muestra la misma lista. Las horas están en cada ficha."
+}

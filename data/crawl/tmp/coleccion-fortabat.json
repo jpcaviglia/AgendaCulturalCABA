@@ -1,0 +1,53 @@
+{
+"id": "coleccion-fortabat",
+"canal": "web",
+"estado": "con_eventos",
+"intentos": 1,
+"scroll_completo": true,
+"urls_visitadas": [
+"https://coleccionamalita.org.ar/exposiciones"
+],
+"enlaces_candidatos": [
+{
+"texto": "Actuales",
+"url": "https://coleccionamalita.org.ar/exposiciones",
+"visitado": true
+},
+{
+"texto": "Próximas",
+"url": "https://coleccionamalita.org.ar/exposiciones",
+"visitado": true
+},
+{
+"texto": "Pasadas",
+"url": "https://coleccionamalita.org.ar/exposiciones",
+"descartado": "archivo de muestras pasadas"
+}
+],
+"evidencia": "",
+"eventos": [
+{
+"titulo": "Colección permanente. Arte argentino",
+"fecha_inicio": "2025-11-06",
+"fecha_fin": "2026-12-31",
+"hora": "",
+"horarios": "",
+"lugar": "",
+"barrio": "",
+"direccion": "",
+"categoria": "Artes visuales",
+"precio": "",
+"url": "https://coleccionamalita.org.ar/exposiciones/coleccion-permanente-arte-argentino-2025-11-06",
+"descripcion": "Recorrido por la colección permanente de arte argentino de Amalia Lacroze de Fortabat."
+}
+],
+"entradas": [
+"https://coleccionamalita.org.ar/exposiciones"
+],
+"comportamiento": {
+"filtros": "Botones Isotope (.actuales / .proximas): leer los elementos con esas clases, no hace falta hacer clic."
+},
+"nota": "Actuales: solo la colección permanente; Próximas vacía (Indiehoy anuncia la retrospectiva de Gumier Maier desde el 24/10, todavía no publicada en la web).",
+"enlaces_nuevos": [],
+"sitios_nuevos": []
+}

@@ -1,0 +1,19 @@
+{
+ "id": "grupo-de-teatro-comunitario-de-pompeya",
+ "canal": "web",
+ "estado": "sin_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://www.gtcpompeya.blogspot.com",
+  "https://gtcpompeya.blogspot.com/"
+ ],
+ "enlaces_candidatos": [],
+ "evidencia": "Blog cuya entrada más reciente es del viernes 22 de mayo de 2015 (funciones de 2014); no hay publicaciones posteriores ni agenda vigente. El dominio con www da error de certificado; sin www carga.",
+ "eventos": [],
+ "entradas": [],
+ "comportamiento": {
+  "url": "usar https://gtcpompeya.blogspot.com sin www"
+ },
+ "nota": "Blog sin actualizar desde 2015."
+}

@@ -1,0 +1,146 @@
+{
+ "id": "cuerda-mecanica-centro-cultural",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://cuerdamecanica.com/",
+  "https://cuerdamecanica.com/cartelera/"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Cartelera",
+   "url": "/cartelera/",
+   "visitado": true
+  },
+  {
+   "texto": "Clases",
+   "url": "/clases/",
+   "descartado": "clases regulares"
+  },
+  {
+   "texto": "El Jardín Oculto",
+   "url": "/el-jardin-oculto/",
+   "descartado": "bar y jardín"
+  },
+  {
+   "texto": "Producciones Mecánicas",
+   "url": "/producciones-mecanicas/",
+   "descartado": "producciones propias"
+  },
+  {
+   "texto": "Quiénes somos",
+   "url": "/quienes-somos/",
+   "descartado": "institucional"
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Clara Cantore presenta Regreso",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Música",
+   "precio": "$ 25000 a $ 40000",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Concierto solista de voz y bajo eléctrico."
+  },
+  {
+   "titulo": "Nacho Eguía y Carlos Moscardini",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Música",
+   "precio": "$ 25000",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Concierto íntimo de guitarras con músicas de raíz argentina y latinoamericana."
+  },
+  {
+   "titulo": "Nostalgia (cine)",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "15:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Cine",
+   "precio": "Gratis",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Proyección de la película de Tarkovski sobre un poeta ruso que recorre Italia."
+  },
+  {
+   "titulo": "Herida, de Sofía Palomino",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:30",
+   "horarios": "Domingos 19.30 h",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Obra teatral. Funciones los domingos 18 y 25 de octubre."
+  },
+  {
+   "titulo": "Dúo Pedreira Belmonte",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Música",
+   "precio": "$ 25000",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Norberto Pedreira (guitarra) y Osvaldo Belmonte (piano)."
+  },
+  {
+   "titulo": "La Ferni (Ciclo Sures)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Música",
+   "precio": "$ 35000",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Concierto de folklore contemporáneo con la primera artista trans no binaria del género."
+  },
+  {
+   "titulo": "Dúo Karma: NaNuNí",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "11:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "Juramento 4686",
+   "categoria": "Infantil",
+   "precio": "",
+   "url": "https://cuerdamecanica.com/cartelera/",
+   "descripcion": "Experiencia poética, musical y lúdica para bebés de hasta 12 meses y su entorno adulto."
+  }
+ ],
+ "entradas": [
+  "https://cuerdamecanica.com/cartelera/"
+ ],
+ "comportamiento": {
+  "extraccion": "/cartelera/ lista por día con título, hora, descripción y precio; vistas Lista/Mes; el texto se lee con innerText sin paginar"
+ },
+ "nota": "Cartelera completa en /cartelera/."
+}

@@ -1,0 +1,111 @@
+{
+ "id": "cine-club-farus",
+ "canal": "web",
+ "estado": "con_eventos",
+ "intentos": 1,
+ "scroll_completo": true,
+ "urls_visitadas": [
+  "https://cineclubfarus.taplink.bio"
+ ],
+ "enlaces_candidatos": [
+  {
+   "texto": "Taplink",
+   "url": "/",
+   "visitado": true
+  }
+ ],
+ "evidencia": "",
+ "eventos": [
+  {
+   "titulo": "Annie Hall",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  },
+  {
+   "titulo": "In the Mood for Love",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  },
+  {
+   "titulo": "Stand by Me",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  },
+  {
+   "titulo": "12 Angry Men",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  },
+  {
+   "titulo": "The Evil Dead",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  },
+  {
+   "titulo": "La masacre de Texas",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://cineclubfarus.taplink.bio/",
+   "descripcion": "Función doble en Paradiso Cultural."
+  }
+ ],
+ "entradas": [
+  "https://cineclubfarus.taplink.bio/"
+ ],
+ "comportamiento": {
+  "extraccion": "el Taplink es una sola página de texto con fecha, títulos y horarios de cada función doble"
+ },
+ "nota": "Programación en el Taplink; sede Paradiso Cultural."
+}
