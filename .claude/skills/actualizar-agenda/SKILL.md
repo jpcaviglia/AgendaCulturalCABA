@@ -285,8 +285,11 @@ most Linktrees, section 1b), read it without a browser: `python scripts/sondear.
 a Linktree it shows each link as `title [url]`; many list each show with the date in the title and the link
 to the ticketing site, which is read the same way (`--leer <url>`). If the window's agenda is there, save
 the `instagram` channel with those events, `enlaces_candidatos` = the visited bio link, `posts: []` and
-`paginas_instagram: 0` (it spends no quota), and note in `comportamiento` that the agenda is in the bio. Only
-if the bio is not enough, open the profile. The link is very often a ticketing page or the venue's own
+`paginas_instagram: 0` (it spends no quota), and note in `comportamiento` that the agenda is in the bio. If
+the site has no `web` and that page lists the venue's whole agenda (its ticketing page, own calendar or a
+Linktree with dates), also put it in `web_nueva`: from the next run the site is crawled as a website and its
+Instagram is only queued when that page gives no events, which saves quota for the profiles that publish only
+on Instagram. Only if the bio is not enough, open the profile. The link is very often a ticketing page or the venue's own
 calendar (list in `navegador.md`, "Ticketing platforms of a venue"): open it in the browser, because
 `sondear.py --leer` gets 403 on Passline and cannot run JavaScript. In a run, about a third of the Linktrees
 gave the whole window this way. A bio link with a stale agenda (old dates) or a login-gated Canva is not

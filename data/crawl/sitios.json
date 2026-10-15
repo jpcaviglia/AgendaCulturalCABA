@@ -1556,15 +1556,16 @@
    "lugares": [
     "Sala Lugones"
    ],
-   "web": "",
+   "web": "https://complejoteatral.gob.ar/cine",
    "instagram": "@sala.lugones",
    "origen": "data/lugares.json",
    "enlace_bio": "https://linktr.ee/sala.lugones",
    "notas": [
-    "2026-10-15 [instagram] La programación de cine de la Sala Lugones (Teatro San Martín, Corrientes 1530) está en complejoteatral.gob.ar/cine con ciclos y fechas; El joven Frankenstein arranca el 31/10 (fuera de ventana)."
+    "2026-10-15 [instagram] La programación de cine de la Sala Lugones (Teatro San Martín, Corrientes 1530) está en complejoteatral.gob.ar/cine con ciclos y fechas; El joven Frankenstein arranca el 31/10 (fuera de ventana).",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "complejoteatral.gob.ar/cine lista ciclos con fechas; el horario de cada función está en la ficha /produccion/<slug>/"
+    "agenda": "ciclos con fechas; horarios en /produccion/<slug>/"
    },
    "ultimo": {
     "instagram": {
@@ -1581,6 +1582,9 @@
      "estado": "con_eventos",
      "eventos": 7
     }
+   ],
+   "entradas": [
+    "https://complejoteatral.gob.ar/cine"
    ]
   },
   {
@@ -1590,15 +1594,16 @@
    "lugares": [
     "nuestro cine"
    ],
-   "web": "",
+   "web": "https://linktr.ee/nuestrocine",
    "instagram": "@nuestro.cine",
    "origen": "data/lugares.json",
    "enlace_bio": "https://linktr.ee/nuestrocine",
    "notas": [
-    "2026-10-15 [instagram] Ciclo de cine cuir con funciones itinerantes: Elvira (15/10 21 h), Leviticus (17/10 21 h), The Hunger (24/10 20:30; inscripciÃ³n por formulario); Jennifer's Body el 31/10 queda fuera de ventana. La sede no figura en el Linktree."
+    "2026-10-15 [instagram] Ciclo de cine cuir con funciones itinerantes: Elvira (15/10 21 h), Leviticus (17/10 21 h), The Hunger (24/10 20:30; inscripciÃ³n por formulario); Jennifer's Body el 31/10 queda fuera de ventana. La sede no figura en el Linktree.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "la agenda está en el enlace de la bio (sin abrir Instagram)"
+    "agenda": "Linktree con cada función (título, día y hora)"
    },
    "ultimo": {
     "instagram": {
@@ -1615,6 +1620,9 @@
      "estado": "con_eventos",
      "eventos": 3
     }
+   ],
+   "entradas": [
+    "https://linktr.ee/nuestrocine"
    ]
   },
   {
@@ -2093,7 +2101,7 @@
    "lugares": [
     "CLUB CULTURAL BULA"
    ],
-   "web": "",
+   "web": "https://alpogo.com/buscar?busqueda=bula",
    "instagram": "@clubculturalbula",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
@@ -2101,10 +2109,11 @@
    "enlace_bio": "https://alpogo.com/buscar?busqueda=bula",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (Alpogo))",
-    "2026-10-15 [instagram] La bio enlaza a la búsqueda 'bula' en Alpogo (21 eventos); en la ventana hay 8; CC Bula, CABA."
+    "2026-10-15 [instagram] La bio enlaza a la búsqueda 'bula' en Alpogo (21 eventos); en la ventana hay 8; CC Bula, CABA.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "alpogo.com/buscar?busqueda=bula lista fecha, hora y lugar 'CC Bula'"
+    "agenda": "búsqueda de Alpogo: fecha, hora y lugar 'CC Bula'"
    },
    "ultimo": {
     "instagram": {
@@ -2121,6 +2130,9 @@
      "estado": "con_eventos",
      "eventos": 8
     }
+   ],
+   "entradas": [
+    "https://alpogo.com/buscar?busqueda=bula"
    ]
   },
   {
@@ -2730,7 +2742,7 @@
    "lugares": [
     "ROSETI"
    ],
-   "web": "",
+   "web": "https://bue.tickethoy.com/lugares/roseti",
    "instagram": "@rosetiespacio",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
@@ -2738,10 +2750,11 @@
    "enlace_bio": "https://linktr.ee/rosetiespacio",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en tickethoy y Alternativa Teatral))",
-    "2026-10-15 [instagram] El Linktree de la bio estaba desactualizado (octubre); la portada de bue.tickethoy.com lista los próximos eventos de Roseti."
+    "2026-10-15 [instagram] El Linktree de la bio estaba desactualizado (octubre); la portada de bue.tickethoy.com lista los próximos eventos de Roseti.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "bue.tickethoy.com (portada) lista 'Próximos eventos' con día, hora y lugar"
+    "agenda": "Tickethoy (JS): si la página del lugar falla, la portada de bue.tickethoy.com lista todos los lugares"
    },
    "ultimo": {
     "instagram": {
@@ -2758,6 +2771,9 @@
      "estado": "con_eventos",
      "eventos": 1
     }
+   ],
+   "entradas": [
+    "https://bue.tickethoy.com/lugares/roseti"
    ]
   },
   {
@@ -4797,17 +4813,18 @@
    "lugares": [
     "FACTORÍA"
    ],
-   "web": "",
+   "web": "https://compras.evento-simple.com/factoria",
    "instagram": "@factoriaclub_",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
    "direccion": "Fragata Pres. Sarmiento 1251",
    "enlace_bio": "https://linktr.ee/factoriaclub",
    "notas": [
-    "2026-10-15 [instagram] La bio enlaza a la ticketera (evento-simple) con los prÃ³ximos eventos; solo uno en la ventana (15/10); 'Laberinto de la mÃºsica' es el 5/12."
+    "2026-10-15 [instagram] La bio enlaza a la ticketera (evento-simple) con los prÃ³ximos eventos; solo uno en la ventana (15/10); 'Laberinto de la mÃºsica' es el 5/12.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "ticketera compras.evento-simple.com/factoria con 'PrÃ³ximos eventos' (fecha, hora, lugar)"
+    "agenda": "Evento Simple: 'Próximos eventos' con fecha y hora"
    },
    "ultimo": {
     "instagram": {
@@ -4824,6 +4841,9 @@
      "estado": "con_eventos",
      "eventos": 1
     }
+   ],
+   "entradas": [
+    "https://compras.evento-simple.com/factoria"
    ]
   },
   {
@@ -5423,7 +5443,7 @@
    "lugares": [
     "ESPACIO SIMONA"
    ],
-   "web": "",
+   "web": "https://www.cafaccess.com/productora/simona-producciones",
    "instagram": "@espaciosimona",
    "origen": "data/lugares.json",
    "barrio": "Colegiales",
@@ -5431,10 +5451,11 @@
    "enlace_bio": "https://www.cafaccess.com/productora/simona-producciones",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (productora de eventos))",
-    "2026-10-15 [instagram] La bio enlaza a la productora en Cafaccess con la lista de shows; Av. Álvarez Thomas 661; 30/10 en adelante fuera de ventana. Sin horarios en el listado."
+    "2026-10-15 [instagram] La bio enlaza a la productora en Cafaccess con la lista de shows; Av. Álvarez Thomas 661; 30/10 en adelante fuera de ventana. Sin horarios en el listado.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "cafaccess.com/productora/simona-producciones lista fecha, título y precio desde"
+    "agenda": "Cafaccess productora: fecha, título y precio, sin hora"
    },
    "ultimo": {
     "instagram": {
@@ -5451,6 +5472,9 @@
      "estado": "con_eventos",
      "eventos": 5
     }
+   ],
+   "entradas": [
+    "https://www.cafaccess.com/productora/simona-producciones"
    ]
   },
   {
@@ -7628,17 +7652,18 @@
    "lugares": [
     "CENTRO CULTURAL THAMES"
    ],
-   "web": "",
+   "web": "https://culturalthames.com.ar/",
    "instagram": "@culturalthames",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Thames 1426",
    "enlace_bio": "https://linktr.ee/culturalthames",
    "notas": [
-    "2026-10-15 [instagram] Agenda completa en culturalthames.com.ar: no hace falta abrir Instagram. Los precios no figuran en el listado."
+    "2026-10-15 [instagram] Agenda completa en culturalthames.com.ar: no hace falta abrir Instagram. Los precios no figuran en el listado.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "la bio enlaza a culturalthames.com.ar (ticketera propia) con calendario semanal y lista 'Events' con botón 'Load more' (hacer clic hasta pasar el 29/10)",
+    "agenda": "ticketera propia: lista 'Events' con 'Load more'",
     "extraccion": "regex sobre el texto '<día> OCTOBER 2026 - Thu 21:00 TÍTULO Cultural Thames'"
    },
    "ultimo": {
@@ -7656,6 +7681,9 @@
      "estado": "con_eventos",
      "eventos": 16
     }
+   ],
+   "entradas": [
+    "https://culturalthames.com.ar/"
    ]
   },
   {
@@ -7665,7 +7693,7 @@
    "lugares": [
     "CLUB CULTURAL MARES"
    ],
-   "web": "",
+   "web": "https://linktr.ee/mares_",
    "instagram": "@ccmares",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
@@ -7673,10 +7701,11 @@
    "enlace_bio": "https://linktree.com/mares_",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en Passline y Citi Tickets))",
-    "2026-10-15 [instagram] Agenda de cine y mÃºsica en el Linktree: 16/10 Taxi Driver, 17/10 Corre Lola corre, 31/10 Nosferatu (fuera de ventana)."
+    "2026-10-15 [instagram] Agenda de cine y mÃºsica en el Linktree: 16/10 Taxi Driver, 17/10 Corre Lola corre, 31/10 Nosferatu (fuera de ventana).",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "la agenda está en el enlace de la bio (sin abrir Instagram)"
+    "agenda": "Linktree con un enlace por función y la fecha en el título"
    },
    "ultimo": {
     "instagram": {
@@ -7693,6 +7722,9 @@
      "estado": "con_eventos",
      "eventos": 2
     }
+   ],
+   "entradas": [
+    "https://linktr.ee/mares_"
    ]
   },
   {
@@ -8027,17 +8059,18 @@
    "lugares": [
     "La Casa del Árbol"
    ],
-   "web": "",
+   "web": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
    "instagram": "@_lacasadelarbol_",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Cordoba Av. 5217",
    "enlace_bio": "https://linktr.ee/lacasadelarbol",
    "notas": [
-    "2026-10-15 [instagram] La bio enlaza a la productora El Árbol Cultural en Passline, que lista fecha, hora y precio de cada show; los del 30/10 en adelante quedan fuera de ventana."
+    "2026-10-15 [instagram] La bio enlaza a la productora El Árbol Cultural en Passline, que lista fecha, hora y precio de cada show; los del 30/10 en adelante quedan fuera de ventana.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "passline.com/productora/3146512-el-arbol-cultural-sas con fecha, hora y precio desde"
+    "agenda": "Passline productora: abrir en el navegador (403 sin navegador)"
    },
    "ultimo": {
     "instagram": {
@@ -8054,6 +8087,9 @@
      "estado": "con_eventos",
      "eventos": 5
     }
+   ],
+   "entradas": [
+    "https://www.passline.com/productora/3146512-el-arbol-cultural-sas"
    ]
   },
   {
@@ -8587,17 +8623,18 @@
    "lugares": [
     "CENTRO CULTURAL MIGUEL MIRANDA"
    ],
-   "web": "",
+   "web": "https://sites.google.com/view/cc-miguel-miranda/inicio",
    "instagram": "@ccmiguelmiranda",
    "origen": "data/lugares.json",
    "barrio": "Parque Patricios",
    "direccion": "Luca, Esteban De 2270",
    "enlace_bio": "https://linktr.ee/ccmiguelmiranda",
    "notas": [
-    "2026-10-15 [instagram] La agenda es un Google Calendar público (ICS: calendar.google.com/calendar/ical/<id>/public/basic.ics); sin actividades cargadas en la ventana. Parque Patricios."
+    "2026-10-15 [instagram] La agenda es un Google Calendar público (ICS: calendar.google.com/calendar/ical/<id>/public/basic.ics); sin actividades cargadas en la ventana. Parque Patricios.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "Google Calendar incrustado en el sitio de Google Sites; se lee el ICS público sin navegador"
+    "agenda": "Google Calendar incrustado: leer el ICS público"
    },
    "ultimo": {
     "instagram": {
@@ -8614,6 +8651,9 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
+   ],
+   "entradas": [
+    "https://sites.google.com/view/cc-miguel-miranda/inicio"
    ]
   },
   {
@@ -10319,7 +10359,7 @@
    "lugares": [
     "LA PAZ ARRIBA"
    ],
-   "web": "",
+   "web": "https://www.passline.com/sitio/la-paz-arriba",
    "instagram": "@lapazarriba",
    "origen": "data/lugares.json",
    "barrio": "San Nicolas",
@@ -10327,10 +10367,11 @@
    "enlace_bio": "https://linktr.ee/lapazarriba_",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (Agenda y Entradas en Passline))",
-    "2026-10-15 [instagram] La bio ('Agenda y Entradas') enlaza a su pÃ¡gina de Passline con todos los eventos, fecha y hora; 30/10 y noviembre quedan fuera de ventana."
+    "2026-10-15 [instagram] La bio ('Agenda y Entradas') enlaza a su pÃ¡gina de Passline con todos los eventos, fecha y hora; 30/10 y noviembre quedan fuera de ventana.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "passline.com/sitio/la-paz-arriba lista fecha y hora de cada evento"
+    "agenda": "Passline sitio: abrir en el navegador (403 sin navegador)"
    },
    "ultimo": {
     "instagram": {
@@ -10347,6 +10388,9 @@
      "estado": "con_eventos",
      "eventos": 10
     }
+   ],
+   "entradas": [
+    "https://www.passline.com/sitio/la-paz-arriba"
    ]
   },
   {
@@ -11333,17 +11377,18 @@
    "lugares": [
     "EL JUFRE TEATRO-BAR"
    ],
-   "web": "",
+   "web": "https://eljufre.com.ar/",
    "instagram": "@eljufre",
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Jufre 444",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "agenda": "eljufre.com.ar/cartelera-<día>/ (miercoles, jue, viernes, sabado, domingo): texto con día, hora y 'desde/hasta dd-mm'; no hace falta abrir Instagram"
+    "agenda": "cartelera en /cartelera-miercoles/, -jue/, -viernes/, -sabado/, -domingo/"
    },
    "notas": [
-    "2026-10-15 [instagram] El perfil de Instagram enlaza a eljufre.com.ar, cuya cartelera tiene una página por día (miércoles a domingo); solo viernes y sábado traen obras en la ventana; miércoles, jueves y domingo sin obras. Jufré 444, Villa Crespo."
+    "2026-10-15 [instagram] El perfil de Instagram enlaza a eljufre.com.ar, cuya cartelera tiene una página por día (miércoles a domingo); solo viernes y sábado traen obras en la ventana; miércoles, jueves y domingo sin obras. Jufré 444, Villa Crespo.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "ultimo": {
     "instagram": {
@@ -11360,6 +11405,10 @@
      "estado": "con_eventos",
      "eventos": 3
     }
+   ],
+   "entradas": [
+    "https://eljufre.com.ar/cartelera-viernes/",
+    "https://eljufre.com.ar/cartelera-sabado/"
    ]
   },
   {
@@ -12429,7 +12478,7 @@
    "lugares": [
     "DESEO BSAS"
    ],
-   "web": "",
+   "web": "https://linktr.ee/deseobsas",
    "instagram": "@deseobsas",
    "origen": "data/lugares.json",
    "barrio": "Villa Ortuzar",
@@ -12437,10 +12486,11 @@
    "enlace_bio": "https://linktr.ee/deseobsas",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en Enigma Tickets))",
-    "2026-10-15 [instagram] El Linktree lista las fechas de la quincena con enlaces a Enigma Tickets; 30/10 y 31/10 quedan fuera de ventana."
+    "2026-10-15 [instagram] El Linktree lista las fechas de la quincena con enlaces a Enigma Tickets; 30/10 y 31/10 quedan fuera de ventana.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "la agenda está en el enlace de la bio (sin abrir Instagram)"
+    "agenda": "Linktree con '[dd.mm] título' y enlace a Enigma Tickets"
    },
    "ultimo": {
     "instagram": {
@@ -12457,6 +12507,9 @@
      "estado": "con_eventos",
      "eventos": 5
     }
+   ],
+   "entradas": [
+    "https://linktr.ee/deseobsas"
    ]
   },
   {
@@ -12747,17 +12800,18 @@
    "lugares": [
     "CENTRO CULTURAL ARMOZA"
    ],
-   "web": "",
+   "web": "https://ccarmoza.com/",
    "instagram": "@armoza.wines",
    "origen": "data/lugares.json",
    "barrio": "Villa Urquiza",
    "direccion": "Miller 3036",
    "enlace_bio": "https://linktr.ee/armozawines",
    "notas": [
-    "2026-10-15 [instagram] Bar cultural en Miller 3036 con actividades casi todas las noches (trivias, bingos, charlas, talleres de pintura); la lista cargada llegaba hasta el 24/10."
+    "2026-10-15 [instagram] Bar cultural en Miller 3036 con actividades casi todas las noches (trivias, bingos, charlas, talleres de pintura); la lista cargada llegaba hasta el 24/10.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "comportamiento": {
-    "agenda": "la bio enlaza a ccarmoza.com (misma plataforma de tickets que Cultural Thames): calendario semanal y lista 'Events' con 'Load more'",
+    "agenda": "ticketera propia: lista 'Events' con 'Load more'",
     "extraccion": "regex sobre '<día> OCTOBER 2026 - Thu 20:00 TÍTULO Miller 3036'"
    },
    "ultimo": {
@@ -12775,6 +12829,9 @@
      "estado": "con_eventos",
      "eventos": 20
     }
+   ],
+   "entradas": [
+    "https://ccarmoza.com/"
    ]
   },
   {
@@ -15982,16 +16039,17 @@
    "lugares": [
     "La Nube"
    ],
-   "web": "",
+   "web": "https://linktr.ee/lanubebuenosaires",
    "instagram": "@lanubebuenosaires",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: club de electrónica; Instagram confirmado en RA",
-    "2026-10-15 [instagram] El Linktree lista las fechas con enlaces a Venti y Flashpass; 7/11 y 21/11 quedan fuera de ventana."
+    "2026-10-15 [instagram] El Linktree lista las fechas con enlaces a Venti y Flashpass; 7/11 y 21/11 quedan fuera de ventana.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "enlace_bio": "https://linktr.ee/lanubebuenosaires",
    "comportamiento": {
-    "agenda": "la agenda está en el enlace de la bio (sin abrir Instagram)"
+    "agenda": "Linktree con 'dd.mm título' y enlaces a Venti/Flashpass"
    },
    "ultimo": {
     "instagram": {
@@ -16008,6 +16066,9 @@
      "estado": "con_eventos",
      "eventos": 4
     }
+   ],
+   "entradas": [
+    "https://linktr.ee/lanubebuenosaires"
    ]
   },
   {
@@ -16074,16 +16135,17 @@
    "lugares": [
     "TCQ"
    ],
-   "web": "",
+   "web": "https://www.venti.com.ar/organizadores/tcq",
    "instagram": "@tcqlub",
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: club de techno; Instagram confirmado en RA",
-    "2026-10-15 [instagram] La bio (Linktree) estaba desactualizada (2025); la página del club en Venti lista los próximos eventos; DDTK x TCQ del 31/10 queda fuera de ventana."
+    "2026-10-15 [instagram] La bio (Linktree) estaba desactualizada (2025); la página del club en Venti lista los próximos eventos; DDTK x TCQ del 31/10 queda fuera de ventana.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "enlace_bio": "https://linktr.ee/tcqlub",
    "comportamiento": {
-    "agenda": "venti.com.ar/organizadores/tcq lista próximos eventos con fecha y hora; el Linktree de la bio no se actualiza"
+    "agenda": "Venti organizador: 'Próximos eventos' con fecha y hora"
    },
    "ultimo": {
     "instagram": {
@@ -16100,6 +16162,9 @@
      "estado": "con_eventos",
      "eventos": 3
     }
+   ],
+   "entradas": [
+    "https://www.venti.com.ar/organizadores/tcq"
    ]
   },
   {
@@ -16831,16 +16896,17 @@
    "lugares": [
     "Strummer Bar"
    ],
-   "web": "",
+   "web": "https://bue.tickethoy.com/lugares/strummer-bar",
    "instagram": "@strummerbar",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: bar de recitales; varias fechas en Indiehoy",
-    "2026-10-15 [instagram] La bio ('Entradas por Ticket Hoy') enlaza a la ticketera; la página del lugar daba error 500, pero la portada de bue.tickethoy.com lista los próximos eventos con fecha y hora por lugar."
+    "2026-10-15 [instagram] La bio ('Entradas por Ticket Hoy') enlaza a la ticketera; la página del lugar daba error 500, pero la portada de bue.tickethoy.com lista los próximos eventos con fecha y hora por lugar.",
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
    ],
    "enlace_bio": "https://linktr.ee/strummerbar",
    "comportamiento": {
-    "agenda": "bue.tickethoy.com (portada) lista 'Próximos eventos' con día, hora y lugar; /lugares/strummer-bar dio error 500 al 15/10"
+    "agenda": "Tickethoy (JS): si la página del lugar falla, la portada de bue.tickethoy.com lista todos los lugares"
    },
    "ultimo": {
     "instagram": {
@@ -16857,6 +16923,9 @@
      "estado": "con_eventos",
      "eventos": 12
     }
+   ],
+   "entradas": [
+    "https://bue.tickethoy.com/lugares/strummer-bar"
    ]
   },
   {
