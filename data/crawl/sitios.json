@@ -2930,7 +2930,28 @@
    "direccion": "Anchorena, Tomas Manuel De, Dr. 364",
    "enlace_bio": "https://linktr.ee/maquinal",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (eventos en revamos.com))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (eventos en revamos.com))",
+    "2026-10-15 [instagram] Agenda leída del Linktree de la bio y de las fichas de revamos.com, sin abrir Instagram (0 páginas de cupo)."
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: el Linktree (linktr.ee/maquinal) lista cada show con fecha en el título y enlace a revamos.com; la ficha de revamos trae hora y precios en el HTML (fechas múltiples en ticketsByDate)",
+    "instagram": "no hizo falta abrir Instagram: la agenda completa está en el Linktree de la bio"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 8,
+     "paginas": 9
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 8
+    }
    ]
   },
   {
