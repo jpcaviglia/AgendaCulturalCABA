@@ -1633,21 +1633,39 @@
    "lugares": [
     "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
    ],
-   "web": "https://www.caff.com.ar",
+   "web": "https://caff.ar",
    "instagram": "@clubatleticofernandezfierro",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Sanchez De Bustamante 722",
    "entradas": [
+    "https://caff.ar/",
     "https://www.caff.com.ar/conciertos-en-granada-2024/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 5,
+     "paginas": 2
     }
-   }
+   },
+   "notas": [
+    "2026-10-15: la web cambió de https://www.caff.com.ar a https://caff.ar",
+    "2026-10-15 [web] La web oficial cambió de caff.com.ar (blog sin relación) a caff.ar; agenda en la portada. Dirección: Sánchez de Bustamante 772."
+   ],
+   "comportamiento": {
+    "extraccion": "la portada de caff.ar lista shows con fecha, hora y 'Comprar entradas'",
+    "dominio": "caff.com.ar ahora es un blog ajeno; la web oficial es caff.ar"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    }
+   ]
   },
   {
    "id": "casa-dasein",
@@ -1688,18 +1706,59 @@
    "barrio": "Almagro",
    "direccion": "Humahuaca 3508",
    "entradas": [
+    "https://www.casonahumahuaca.com.ar/ciclos-1",
     "https://www.casonahumahuaca.com.ar/copia-de-bar"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 5,
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14: web corregida (antes https://www.casonahumahuaca.com)",
-    "2026-10-14 [revisión anterior: navegador] Exposiciones en Wix; también @casonahumahuaca"
+    "2026-10-14 [revisión anterior: navegador] Exposiciones en Wix; también @casonahumahuaca",
+    "2026-10-15 [web] Ciclos recurrentes con horarios; la programación mensual completa se publica en Instagram @casonahumahuaca. Exposiciones sin fechas en la web."
+   ],
+   "comportamiento": {
+    "extraccion": "/ciclos-1 lista los ciclos por día de la semana con su periodicidad (todas las semanas, 3er martes, etc.); /talleres lista clases semanales; /copia-de-bar es Exposiciones y no trae fechas",
+    "menu": "ACTIVIDADES > Talleres, Ciclos, Exposiciones, Bar"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.casonahumahuaca.com.ar/bar-1",
+     "texto": "Bar",
+     "motivo": "bar de la casona, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.casonahumahuaca.com.ar/para-talleres-1",
+     "texto": "Para talleres",
+     "motivo": "alquiler de espacios",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.casonahumahuaca.com.ar/historia",
+     "texto": "Historia",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.casonahumahuaca.com.ar/proyectos-y-colectivos-comunitarios",
+     "texto": "Proyectos y colectivos",
+     "motivo": "descripción de colectivos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    }
    ]
   },
   {
@@ -1716,13 +1775,26 @@
    "direccion": "Belgrano Av. 3540",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "bloqueado",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Blog privado de Blogger: no se puede leer sin invitación. Av. Belgrano 3540, Almagro."
+   ],
+   "comportamiento": {
+    "bloqueos": "el blog es privado (solo lectores invitados); buscar la agenda en redes sociales"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "bloqueado",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2146,13 +2218,38 @@
    "direccion": "Chile 2958",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Escuela de parkour y circo; solo clases regulares, sin eventos en la web."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.cecam.com.ar/#about-us",
+     "texto": "Sobre el CECAM",
+     "motivo": "sección de la portada",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cecam.com.ar/contact",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2169,13 +2266,24 @@
    "direccion": "Tucuman 3233",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "no_carga",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] Página de GCBA movida (404)."
+    "2026-10-14 [revisión anterior: caido] Página de GCBA movida (404).",
+    "2026-10-15 [web] La página del programa Barrios ya no existe en el sitio del Gobierno; el centro comunica por Instagram @culturalfonsina."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2859,13 +2967,50 @@
    "direccion": "Colombres 841",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Ficha institucional en balearsexterior.es sin agenda; la casa tiene Instagram @casabalear.bsas y Facebook casabalear.ba."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.balearsexterior.es/quienes-somos",
+     "texto": "Quiénes somos",
+     "motivo": "institucional del Govern balear",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.balearsexterior.es/conocelas",
+     "texto": "Conócelas",
+     "motivo": "directorio de casas baleares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.balearsexterior.es/recursos",
+     "texto": "+Recursos",
+     "motivo": "normativa y subvenciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.balearsexterior.es/contacto",
+     "texto": "Contacto",
+     "motivo": "contacto del Govern balear",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3040,13 +3185,24 @@
    "direccion": "Aranguren, Juan F., Dr. 213",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] La web dejó de existir; el espacio se comunica por Instagram @casajache."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3378,13 +3534,59 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: ticketera] Agenda con entradas en Passline"
+    "2026-10-14 [revisión anterior: ticketera] Agenda con entradas en Passline",
+    "2026-10-15 [web] Agenda completa en /events (recitales, fiestas); la portada solo destaca dos shows de noviembre y diciembre."
+   ],
+   "comportamiento": {
+    "extraccion": "/events lista por día con tipo, hora, título y descripción; sin paginación",
+    "scroll": "cargar completo scrolleando un poco"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.ccomplejoartmedia.com.ar/Salas",
+     "texto": "Salas",
+     "motivo": "descripción de salas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccomplejoartmedia.com.ar/Bares",
+     "texto": "Bares",
+     "motivo": "descripción de bares",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccomplejoartmedia.com.ar/entrevistas",
+     "texto": "Entrevistas",
+     "motivo": "notas, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.instagram.com/",
+     "texto": "Comunidad C",
+     "motivo": "enlace a Instagram",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccomplejoartmedia.com.ar/somos",
+     "texto": "Somos C",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -4167,20 +4369,52 @@
    "lugares": [
     "CASA DE LA CULTURA"
    ],
-   "web": "http://www.buenosaires.gov.ar/areas/cultura/casa_cultura/",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
    "instagram": "@casadelaculturaba",
    "origen": "data/lugares.json",
    "barrio": "Monserrat",
    "direccion": "De Mayo Av. 575",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 8,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] Dominio viejo de GCBA; ya no existe."
+    "2026-10-14 [revisión anterior: caido] Dominio viejo de GCBA; ya no existe.",
+    "2026-10-15: la web cambió de http://www.buenosaires.gov.ar/areas/cultura/casa_cultura/ a https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+    "2026-10-15 [web] La web vieja (gov.ar) no sirve; la agenda semanal está en la sección Actividades del sitio gob.ar. Las fichas traen horarios semanales, no fechas puntuales."
+   ],
+   "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades"
+   ],
+   "comportamiento": {
+    "extraccion": "Actividades tiene 'Agenda semanal' con acordeones por día (Lunes a Sábado y Visitas guiadas); hay que expandirlos todos con JS (clic en cada botón) y leer el texto del article",
+    "dominio": "buenosaires.gov.ar da error de certificado; la web vigente es buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura-0"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/puesta-en-valor",
+     "texto": "Puesta en valor",
+     "motivo": "historia de la restauración del edificio",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/salon-dorado",
+     "texto": "Salón Dorado",
+     "motivo": "descripción del salón; su programación está en Actividades",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
+    }
    ]
   },
   {
@@ -4197,13 +4431,24 @@
    "direccion": "Republica Bolivariana De Venezuela 330",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "no_carga",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El sitio carga en blanco."
+    "2026-10-14 [revisión anterior: caido] El sitio carga en blanco.",
+    "2026-10-15 [web] La web oficial no muestra contenido; según Alternativa Teatral, 'Animal o la salida humana' se da los sábados 20 h del 10/10 al 24/10/2026 en Venezuela 330. Reintentar la web en la próxima corrida."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4445,20 +4690,66 @@
    "lugares": [
     "CENTRO CULTURAL DE LA MEMORIA HAROLDO CONTI"
    ],
-   "web": "https://www.conti.derhuman.jus.gov.ar",
+   "web": "http://conti.derhuman.jus.gov.ar/",
    "instagram": "@centroculturalconti",
    "origen": "data/lugares.json",
    "barrio": "Nuñez",
    "direccion": "Del Libertador Av. 8151",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 6
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El sitio no carga (error)."
+    "2026-10-14 [revisión anterior: caido] El sitio no carga (error).",
+    "2026-10-15: la web cambió de https://www.conti.derhuman.jus.gov.ar a http://conti.derhuman.jus.gov.ar/",
+    "2026-10-15 [web] La web no se actualiza desde 2025; revisar Instagram o la Secretaría de Derechos Humanos."
+   ],
+   "comportamiento": {
+    "url": "usar http://conti.derhuman.jus.gov.ar sin www (con www no resuelve); centroculturalconti.jus.gov.ar redirige al Ministerio de Justicia"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "http://conti.derhuman.jus.gov.ar/2021/09/entradas.php",
+     "texto": "Visitanos",
+     "motivo": "información de visitas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://conti.derhuman.jus.gov.ar/areas/agenda/actividades-v2.php",
+     "texto": "Escuelas",
+     "motivo": "misma página que Agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://conti.derhuman.jus.gov.ar/areas/institucional/institucional.php",
+     "texto": "El Conti",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://conti.derhuman.jus.gov.ar/areas/b/biblioteca.php",
+     "texto": "Biblioteca",
+     "motivo": "biblioteca",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://conti.derhuman.jus.gov.ar/2024/08/publicaciones.php",
+     "texto": "Publicaciones",
+     "motivo": "publicaciones",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4680,13 +4971,38 @@
    "direccion": "Fitz Roy 1327",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 4
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Poco contenido en el sitio; usar redes"
+    "2026-10-14 [revisión anterior: sin_agenda] Poco contenido en el sitio; usar redes",
+    "2026-10-15 [web] Productora cultural, sin agenda de eventos en la web."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://casasofia.org.ar/quienes-somos/",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://casasofia.org.ar/trabajemos-juntos/",
+     "texto": "Trabajemos juntos",
+     "motivo": "servicios de producción",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4751,20 +5067,38 @@
    "lugares": [
     "CENTRO CULTURAL DE LA CIENCIA"
    ],
-   "web": "http://ccciencia.gob.ar/",
+   "web": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
    "instagram": "@ccdelaciencia",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Godoy Cruz 2270",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 4
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio (migrado). Buscar nueva web."
+    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio (migrado). Buscar nueva web.",
+    "2026-10-15: la web cambió de http://ccciencia.gob.ar/ a https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+    "2026-10-15 [web] La web vieja ccciencia.gob.ar no responde; usar argentina.gob.ar/centro-cultural-de-la-ciencia/actividades. Abre viernes a domingo."
+   ],
+   "entradas": [
+    "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades"
+   ],
+   "comportamiento": {
+    "dominio": "ccciencia.gob.ar da timeout y www redirige ahí; la web vigente está en argentina.gob.ar/centro-cultural-de-la-ciencia",
+    "extraccion": "/actividades lista talleres, espacios de recorrido libre y exposiciones con días y horarios; sin scroll largo"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {
@@ -4780,15 +5114,63 @@
    "barrio": "Palermo",
    "direccion": "Cabrera, Jose A. 4175",
    "entradas": [
+    "https://gungur.com/eventos/",
     "https://gungur.com/eventos-o/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "/eventos/ lista 'Próximos eventos' con título, fecha, hora y sala, ordenados del más lejano al más cercano"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda en /eventos/; los espectáculos pueden ser en otras salas (p. ej. Auditorio Islas Malvinas)."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://gungur.com/buenos-aires/",
+     "texto": "Buenos Aires",
+     "motivo": "sede con cursos, no eventos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://gungur.com/barcelona/",
+     "texto": "Barcelona",
+     "motivo": "sede en Barcelona",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://gungur.com/online/",
+     "texto": "Online",
+     "motivo": "cursos online",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://gungur.com/bygungur/",
+     "texto": "ByGüngur",
+     "motivo": "tienda de ropa",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://gungur.com/quienes-somos/",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "centro-cultural-islamico",
@@ -5383,13 +5765,46 @@
    "direccion": "Combate De Los Pozos 1936",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2014"
+    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2014",
+    "2026-10-15 [web] Blog sin actividad desde 2014."
+   ],
+   "comportamiento": {
+    "url": "usar https://casadelaculturacompadresdelhorizonte.blogspot.com sin www (con www da error de certificado)"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.casadelaculturacompadresdelhorizonte.blogspot.com/p/revista.html",
+     "texto": "Revista",
+     "motivo": "revista, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.casadelaculturacompadresdelhorizonte.blogspot.com/p/fotos.html",
+     "texto": "Fotos",
+     "motivo": "galería de fotos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.youtube.com/user/compadresdelhorizonte",
+     "texto": "Canal",
+     "motivo": "canal de YouTube",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5615,15 +6030,52 @@
    "barrio": "Recoleta",
    "direccion": "Parana 1159",
    "entradas": [
+    "https://cceba.aecid.es/eventos/buscador-de-eventos",
     "https://cceba.aecid.es/eventos/inscripciones"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "el Buscador de eventos lista la agenda (título, fechas, categoría) en 226 páginas de 10; la primera trae lo próximo; no hay hora en el listado",
+    "cookies": "banner de cookies de AECID al pie, no tapa"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda paginada en /eventos/buscador-de-eventos; la portada muestra la misma lista. Las horas están en cada ficha."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://cceba.aecid.es/eventos/esta-semana",
+     "texto": "Esta semana",
+     "motivo": "misma agenda filtrada por semana",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cceba.aecid.es/eventos/inscripciones",
+     "texto": "Inscripciones",
+     "motivo": "inscripciones a actividades ya listadas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cceba.aecid.es/eventos/eventos-recomendados",
+     "texto": "Eventos recomendados",
+     "motivo": "selección de la misma agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    }
+   ]
   },
   {
    "id": "centro-cultural-pkr",
@@ -5684,15 +6136,64 @@
    "barrio": "Recoleta",
    "direccion": "Riobamba 985",
    "entradas": [
+    "https://casadelbicentenario.cultura.gob.ar/actividades/",
     "https://casadelbicentenario.cultura.gob.ar/exhibiciones/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 13,
+     "paginas": 3
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "/actividades lista por fecha con tipo, título y rango; /exhibiciones lista las temporarias con 'Desde ... hasta ...'",
+    "cookies": "sin aviso"
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda en /actividades y /exhibiciones; en la portada solo se ven las exposiciones."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://casadelbicentenario.cultura.gob.ar/info/programas/",
+     "texto": "Programas",
+     "motivo": "descripción de programas, sin fechas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://casadelbicentenario.cultura.gob.ar/info/visita/",
+     "texto": "Visita",
+     "motivo": "horarios y cómo llegar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://casadelbicentenario.cultura.gob.ar/accesibilidad/",
+     "texto": "Accesibilidad",
+     "motivo": "información de accesibilidad",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://casadelbicentenario.cultura.gob.ar/educacion/",
+     "texto": "Educación",
+     "motivo": "propuesta educativa para escuelas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://casadelbicentenario.cultura.gob.ar/noticias/",
+     "texto": "Noticias",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 13
+    }
+   ]
   },
   {
    "id": "espacio-cultural-oei",
@@ -5760,13 +6261,50 @@
    "direccion": "Suipacha 1333",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: web corregida (antes https://www.britishartcentre.org.ar)"
+    "2026-10-14: web corregida (antes https://www.britishartcentre.org.ar)",
+    "2026-10-15 [web] En la ventana solo hay dos propuestas; el resto del listado es de septiembre o antes."
+   ],
+   "entradas": [
+    "https://www.aaci.org.ar/bac/"
+   ],
+   "comportamiento": {
+    "extraccion": "la portada /bac/ es la programación: tarjetas con fecha, más 'Cargar más' con el archivo de meses anteriores",
+    "ver_mas": "'Cargar más' trae solo eventos pasados"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.aaci.org.ar/bac/novedades/",
+     "texto": "Novedades",
+     "motivo": "novedades institucionales, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.aaci.org.ar/bac/accesibilidad/",
+     "texto": "Accesibilidad",
+     "motivo": "información de accesibilidad",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.aaci.org.ar/bac/quienes-somos/",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {
@@ -5776,7 +6314,7 @@
    "lugares": [
     "CENTRO CULTURAL COREANO"
    ],
-   "web": "http://argentina.korean-culture.org/",
+   "web": "https://argentina.korean-culture.org/es",
    "instagram": "@centroculturalcoreano",
    "origen": "data/lugares.json",
    "barrio": "Retiro",
@@ -5786,13 +6324,42 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 6
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Listado de eventos; calendario en /es/1877/schedule/list"
+    "2026-10-14 [revisión anterior: navegador] Listado de eventos; calendario en /es/1877/schedule/list",
+    "2026-10-15: la web cambió de http://argentina.korean-culture.org/ a https://argentina.korean-culture.org/es",
+    "2026-10-15 [web] Pocos eventos por mes: visitas guiadas con inscripción, talleres de Hansik y actividades puntuales; fuera de CABA a veces (La Plata, Corrientes)."
+   ],
+   "comportamiento": {
+    "extraccion": "el listado de Eventos (board 191) trae avisos con fecha de publicación; las fechas del evento están dentro de cada aviso. El Calendario está casi vacío",
+    "url": "redirige a argentina.korean-culture.org/es"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://argentina.korean-culture.org/es/465/board/192/list",
+     "texto": "Eventos pasados",
+     "motivo": "archivo de eventos pasados",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://argentina.korean-culture.org/es/468/board/195/list",
+     "texto": "Noticias",
+     "motivo": "crónicas de lo ya realizado",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -6084,13 +6651,44 @@
    "direccion": "Florida 550",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Escuela de salsa; organiza bailes sociales y talleres mensuales sin fechas en la web (ver Instagram)."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "#capacitaciones",
+     "texto": "Capacitaciones",
+     "motivo": "sección de la misma página, sin fechas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://web.bewe.co/buenos-aires-dance-club26",
+     "texto": "Alumnos",
+     "motivo": "portal de alumnos, requiere cuenta",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://badanceclub.com.ar/DAF26J6",
+     "texto": "Horarios clases",
+     "motivo": "horarios de clases semanales, no eventos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6119,17 +6717,52 @@
    "barrio": "San Nicolas",
    "direccion": "Viamonte 525",
    "entradas": [
+    "https://centroculturalborges.gob.ar/",
     "https://centroculturalborges.gob.ar/agenda"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 37,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Agenda JS (Schedule)"
+    "2026-10-14 [revisión anterior: navegador] Agenda JS (Schedule)",
+    "2026-10-15 [web] La portada trae la agenda completa del mes en bloques por fecha, sin hora."
+   ],
+   "comportamiento": {
+    "extraccion": "la portada lista todas las actividades por fecha (DIA N MES, título, artista, disciplina, descripción) en un solo texto largo; copiar el innerText por portapapeles",
+    "cookies": "sin aviso"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://centroculturalborges.gob.ar/disciplinas",
+     "texto": "Disciplinas",
+     "motivo": "filtro por disciplina de la misma agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://centroculturalborges.gob.ar/visit",
+     "texto": "Visit",
+     "motivo": "horarios y cómo llegar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://centroculturalborges.gob.ar/what-happened",
+     "texto": "What happened",
+     "motivo": "archivo de actividades pasadas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 37
+    }
    ]
   },
   {
@@ -6149,11 +6782,59 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 16,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "/cartelera-mes lista todo el mes con título, disciplina, primera fecha y hora y 'Funciones ...'; las pestañas de teatro, música y danza son la misma lista filtrada",
+    "expo": "las exposiciones están en la portada (agendahoy), no en la cartelera"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera mensual en /cartelera-mes. Exposiciones aparte en la portada, sin fechas de cierre en el listado."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.centrocultural.coop/agenda",
+     "texto": "Agenda",
+     "motivo": "misma programación mensual que la cartelera",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.centrocultural.coop/agenda-mes/1421/2026-10",
+     "texto": "Teatro en octubre",
+     "motivo": "misma programación filtrada por teatro",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.centrocultural.coop/agenda-mes/1435/2026-10",
+     "texto": "Música en octubre",
+     "motivo": "misma programación filtrada por música",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.centrocultural.coop/ediciones",
+     "texto": "Ediciones",
+     "motivo": "editorial",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.centrocultural.coop/biblioteca",
+     "texto": "Biblioteca",
+     "motivo": "biblioteca",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 16
+    }
+   ]
   },
   {
    "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
@@ -6697,15 +7378,58 @@
    "barrio": "Villa Crespo",
    "direccion": "Drago, Luis Maria 236",
    "entradas": [
+    "https://brandon.org.ar/",
     "https://brandon.org.ar/agenda/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "la portada tiene 'próximamente en casa brandon' con afiches (imágenes sin texto): leer con captura y zoom",
+    "cookies": "sin aviso"
+   },
+   "notas": [
+    "2026-10-15 [web] Los próximos eventos están solo como afiches en la portada; hay que scrollear hasta 'próximamente en casa brandon' y leer la captura."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://brandon.org.ar/home-us/",
+     "texto": "Home",
+     "motivo": "portada alternativa, mismo contenido",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://brandon.org.ar/somos/",
+     "texto": "Somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://brandon.org.ar/brandon-editorial/libros/",
+     "texto": "Editorial Brandon",
+     "motivo": "venta de libros",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://brandon.org.ar/donar",
+     "texto": "Donar",
+     "motivo": "donaciones",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ]
   },
   {
    "id": "cc-no-me-olvides",
@@ -7624,15 +8348,59 @@
    "barrio": "Villa Urquiza",
    "direccion": "Triunvirato Av. 4444",
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "extraccion": "la portada lista todas las fechas como tarjetas (día, mes, día de semana, título, sala); /programacion/ es un calendario con detalle por día",
+    "cookies": "barra de accesibilidad, sin aviso"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 2
     }
-   }
+   },
+   "entradas": [
+    "https://cc25.org/",
+    "https://cc25.org/programacion/"
+   ],
+   "notas": [
+    "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://cc25.org/cursos-y-talleres/",
+     "texto": "Cursos y talleres",
+     "motivo": "cursos regulares, no eventos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cc25.org/comunidades/",
+     "texto": "Comunidades CC25",
+     "motivo": "grupos residentes",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cc25.org/boleteria/",
+     "texto": "Boletería",
+     "motivo": "información de entradas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://cc25.org/el-25/",
+     "texto": "El 25",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    }
+   ]
   },
   {
    "id": "centro-cultural-armoza",
@@ -7661,14 +8429,25 @@
    "direccion": "Ibera 6085",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: Centro Cultural Genesis",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web ni redes encontradas; solo figura en directorios (Ibera 6085, Villa Urquiza)."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {

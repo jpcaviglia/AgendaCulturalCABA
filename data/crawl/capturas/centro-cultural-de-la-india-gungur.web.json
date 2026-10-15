@@ -1,0 +1,62 @@
+{
+ "id": "centro-cultural-de-la-india-gungur",
+ "canal": "web",
+ "fuente": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://gungur.com",
+  "https://gungur.com/eventos/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Tarde India para infancias",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "15:30",
+   "horarios": "",
+   "lugar": "Güngur Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Infantil",
+   "precio": "",
+   "url": "https://gungur.com/eventos/",
+   "descripcion": "Tarde de cultura india para niños y niñas.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Navratri",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Güngur Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://gungur.com/eventos/",
+   "descripcion": "Celebración de Navratri.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Käpita Röja",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "18:30",
+   "horarios": "",
+   "lugar": "Auditorio Islas Malvinas",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://gungur.com/eventos/",
+   "descripcion": "Espectáculo de Güngur.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

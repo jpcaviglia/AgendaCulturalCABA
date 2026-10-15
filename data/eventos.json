@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 97,
-  "con_eventos": 68
+  "capturas": 122,
+  "con_eventos": 82
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -16,14 +16,28 @@
   "Alternativa Teatral",
   "Arte al Día: agenda",
   "Avant Garten",
+  "BRITISH ART CENTRE",
   "Buenos Aires Secreta: planes del fin de semana",
   "Buenos Aliens",
   "Búsqueda: ferias",
   "Búsqueda: festivales",
   "Búsqueda: fiestas techno y electrónica",
   "Búsqueda: museos y galerías que falten",
+  "C Complejo Art Media",
+  "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+  "CASA BRANDON",
+  "CASA DE LA CULTURA",
+  "CASONA CULTURAL HUMAHUACA",
+  "CENTRO CULTURAL 25 DE MAYO",
+  "CENTRO CULTURAL BORGES",
+  "CENTRO CULTURAL COREANO",
+  "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+  "CENTRO CULTURAL DE LA CIENCIA",
+  "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+  "CENTRO CULTURAL DE LA INDIA GÜNGUR",
   "Cacodelphia",
   "Calvaresi Galería",
+  "Casa Nacional del Bicentenario",
   "Centro Cultural Recoleta",
   "Colección Fortabat",
   "Complejo Teatral de Buenos Aires",
@@ -2353,6 +2367,28 @@
    "lng": -58.394692
   },
   {
+   "titulo": "Miguel Dávila: Tercer orden",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-02",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Pinocho, el taller de los sueños",
    "categoria": "Infantil",
    "lugar": "Palacio Libertad Domingo F. Sarmiento",
@@ -2816,6 +2852,28 @@
    "lng": ""
   },
   {
+   "titulo": "Belén Gesualdo: Vidrio líquido, geometría multisensorial",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-07",
+   "fecha_fin": "2026-11-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición temporaria.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Cuestión de Género",
    "categoria": "Teatro",
    "lugar": "Teatro Metropolitan",
@@ -3124,6 +3182,28 @@
    "lng": ""
   },
   {
+   "titulo": "Conexiones",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obras de Judith Castro, Roxana Fraticola y Elena Maceiras.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Eduardo Cetner: Alma de pintor",
    "categoria": "Artes visuales",
    "lugar": "Rubbers",
@@ -3142,6 +3222,72 @@
    "fuentes": [
     "Rubbers",
     "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Jimena Fuertes: El tiempo en otro lugar",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición temporaria.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
+   "titulo": "Sany Pereyra Iraola: Latente insistencia de un recuerdo",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición temporaria.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
+   "titulo": "Seminario de clown",
+   "categoria": "Taller",
+   "lugar": "British Arts Centre",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-19",
+   "hora": "18:30",
+   "horarios": "Jueves de 18.30 h, del 8/10 al 19/11",
+   "precio": "Consultar",
+   "descripcion": "Taller con dirección de Mercedes Arguimbau y Marilyn Petito. Informes por mail a amigosdelcervantes@gmail.com.",
+   "url": "https://www.aaci.org.ar/bac/",
+   "dominio": "aaci.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BRITISH ART CENTRE"
    ],
    "lat": "",
    "lng": ""
@@ -5216,22 +5362,23 @@
    "lng": ""
   },
   {
-   "titulo": "10 Años De -Canciones De La China-",
-   "categoria": "Evento",
+   "titulo": "10 años de Canciones de la china",
+   "categoria": "Música",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "21:00",
    "horarios": "jue 21:00 (el 15/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: otros géneros",
-   "url": "https://www.alternativateatral.com/obra103078-10-anos-de-canciones-de-la-china",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Concierto.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -5836,6 +5983,28 @@
    "lng": -58.392513
   },
   {
+   "titulo": "Ciclo Generador: Tríada",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un recorrido por la música latinoamericana, el folklore y el repertorio de grandes cantautores",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Ciclo Wim Wenders (22° Encuentro de Cine Europeo)",
    "categoria": "Cine",
    "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
@@ -5858,6 +6027,28 @@
    "lng": -58.3884
   },
   {
+   "titulo": "Cine casonero en la vereda",
+   "categoria": "Cine",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Jueves desde las 20.30 h",
+   "precio": "A la gorra",
+   "descripcion": "Cine al aire libre todas las semanas, a la gorra no excluyente. No se suspende por lluvia.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.602953,
+   "lng": -58.414504
+  },
+  {
    "titulo": "Colección AMALITA",
    "categoria": "Visita guiada",
    "lugar": "Amalia Lacroze de Fortabat Art Collection",
@@ -5878,6 +6069,28 @@
    ],
    "lat": -34.599463,
    "lng": -58.364869
+  },
+  {
+   "titulo": "Contratapa: Ivana Vollaro",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa de la Cultura",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de conversaciones con artistas contemporáneos, coordinado por Marcos Krämer. Octubre: Filosofía y letras.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
   },
   {
    "titulo": "Curada de espanto",
@@ -6145,6 +6358,28 @@
    "lng": ""
   },
   {
+   "titulo": "El Libro Verde del Teatro",
+   "categoria": "Teatro",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "Jueves 15, 22 y 29 de octubre",
+   "precio": "Consultar",
+   "descripcion": "Ciclo escénico con encuentros los jueves 15, 22 y 29 de octubre (y 5 de noviembre).",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "El Raquetazo Del Profe",
    "categoria": "Teatro",
    "lugar": "Microteatro Buenos Aires",
@@ -6211,6 +6446,28 @@
    "lng": ""
   },
   {
+   "titulo": "El impulso y la forma",
+   "categoria": "Teatro",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad escénica del ciclo Armarios abiertos 2026.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "El tango vuelve a París",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -6231,28 +6488,6 @@
    ],
    "lat": "",
    "lng": ""
-  },
-  {
-   "titulo": "El tiempo no soporta que lo marquen",
-   "categoria": "Artes visuales",
-   "lugar": "Casa Nacional del Bicentenario",
-   "barrio": "Recoleta",
-   "direccion": "Riobamba 985",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2027-02-28",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Muestra en Casa Nacional del Bicentenario.",
-   "url": "https://vidrierabuenosaires.com/eventos/el-tiempo-no-soporta-que-lo-marquen",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Vidriera BA"
-   ],
-   "lat": -34.59761,
-   "lng": -58.394459
   },
   {
    "titulo": "Elvira: Mistress of the Dark (1988)",
@@ -6498,6 +6733,28 @@
    "lng": -58.380293
   },
   {
+   "titulo": "FESTIVAL DE CINE EXPERIMENTAL DE BOGOTÁ (CineAutopsia)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Audiovisuales, enfocados en la experimentación narrativa, técnica y conceptual.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "FESTIVAL RADAR",
    "categoria": "Festival",
    "lugar": "C Art Media",
@@ -6695,6 +6952,28 @@
    ],
    "lat": -34.597611,
    "lng": -58.446311
+  },
+  {
+   "titulo": "Florencia Abbate presenta I Ching: libro de los cambios",
+   "categoria": "Literatura y charlas",
+   "lugar": "CASA BRANDON",
+   "barrio": "Villa Crespo",
+   "direccion": "Drago, Luis Maria 236",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Lectura para el presente del I Ching, con Luis Mari, Cristián Costantini y Xul Solar. Fecha leída del afiche.",
+   "url": "https://brandon.org.ar/",
+   "dominio": "brandon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CASA BRANDON",
+   "fuentes": [
+    "CASA BRANDON"
+   ],
+   "lat": -34.60134,
+   "lng": -58.437454
   },
   {
    "titulo": "Florencia Canale presenta “Maldita” en La Puerta Libros",
@@ -6959,6 +7238,28 @@
    ],
    "lat": -34.604463,
    "lng": -58.39588
+  },
+  {
+   "titulo": "Henry, mis recuerdos junto a Enrique Pichon Riviere",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Presentación del libro de Estela Baistrocchi Carrió.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
   },
   {
    "titulo": "Hope: el primer impacto",
@@ -7358,28 +7659,6 @@
    "lng": ""
   },
   {
-   "titulo": "La Mesa (O Las Formas Que Toma El Amor)",
-   "categoria": "Teatro",
-   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-29",
-   "hora": "20:00",
-   "horarios": "jue 20:00 (hasta el 29/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra97316-la-mesa-o-las-formas-que-toma-el-amor",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.603731,
-   "lng": -58.388699
-  },
-  {
    "titulo": "La Reina, el Buda y Buñuel",
    "categoria": "Festival",
    "lugar": "Espacio Cultural de la Biblioteca del Congreso de la Nación",
@@ -7444,6 +7723,28 @@
    ],
    "lat": -34.586298,
    "lng": -58.392513
+  },
+  {
+   "titulo": "La forma como experiencia",
+   "categoria": "Taller",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-13",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller en el marco del programa Activar la práctica.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
   },
   {
    "titulo": "La función que sale mal",
@@ -7534,6 +7835,29 @@
    ],
    "lat": -34.604245,
    "lng": -58.3884
+  },
+  {
+   "titulo": "La mesa, o las formas que toma el amor",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Jueves 20 h",
+   "precio": "Consultar",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699
   },
   {
    "titulo": "La riqueza del monte | Museo de Arte Popular",
@@ -7667,6 +7991,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Leer y escribir la vida: taller anual",
+   "categoria": "Taller",
+   "lugar": "Casa de la Cultura · Biblioteca",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "18:00",
+   "horarios": "Martes de 18 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Taller coordinado por Agustina Rabaini; en octubre: literatura y vínculos familiares. Entrada gratuita sujeta a capacidad.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
   },
   {
    "titulo": "Les contes d'Hoffmann",
@@ -7870,6 +8216,29 @@
    "lng": ""
   },
   {
+   "titulo": "MINUÉ COMPASIVO (Juan Ignacio Fernández)",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Octubre: 15, 18, 22, 25, 29",
+   "precio": "Consultar",
+   "descripcion": "Una obra que entrelaza los hilos del amor y la política, mostrando cómo lo íntimo y lo histórico se confunden en un mismo pulso. (+16)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Mafalda Inmersiva",
    "categoria": "Evento",
    "lugar": "Centro Cultural Recoleta",
@@ -8000,28 +8369,6 @@
    ],
    "lat": -34.600925,
    "lng": -58.417668
-  },
-  {
-   "titulo": "Minué Compasivo",
-   "categoria": "Teatro",
-   "lugar": "CENTRO CULTURAL BORGES",
-   "barrio": "San Nicolás",
-   "direccion": "Viamonte 525",
-   "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-11-01",
-   "hora": "20:00",
-   "horarios": "jue 20:00 | dom 20:00 (hasta el 1/11); dom 20:00 (hasta el 25/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103510-minue-compasivo",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.599689,
-   "lng": -58.374353
   },
   {
    "titulo": "Mirlo y Martin Rucci",
@@ -8376,6 +8723,28 @@
    "lng": ""
   },
   {
+   "titulo": "OFFNI Cine Fest (Kino CNB)",
+   "categoria": "Cine",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Segunda edición del festival de cine fantástico en el Kino CNB.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Océano interior",
    "categoria": "Artes visuales",
    "lugar": "Museo Moderno (MAMBA)",
@@ -8462,6 +8831,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Peña en la Casa de la Cultura",
+   "categoria": "Música",
+   "lugar": "Casa de la Cultura · Subsuelo Las Rotativas",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "18:00",
+   "horarios": "Miércoles de 18 a 20.30 h",
+   "precio": "Gratis",
+   "descripcion": "Peña folklórica con Martina Guerreiro y Charly Candia, con pista de baile. Entrada libre hasta agotar capacidad.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
   },
   {
    "titulo": "Pink Floyd - The Division Bell Música En Total Oscuridad con Parlantes Holofónicos",
@@ -9304,6 +9695,28 @@
    "lng": ""
   },
   {
+   "titulo": "Tertulias Líricas",
+   "categoria": "Música",
+   "lugar": "Casa de la Cultura · Subsuelo Las Rotativas",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "Martes 19 h",
+   "precio": "Gratis",
+   "descripcion": "Música lírica en formato café concert. Entrada gratuita sujeta a capacidad.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
+  },
+  {
    "titulo": "The Ganjas en Strummer",
    "categoria": "Música",
    "lugar": "Strummer Bar",
@@ -9372,21 +9785,22 @@
   },
   {
    "titulo": "Tiempo Cero",
-   "categoria": "Teatro",
+   "categoria": "Danza",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-15",
    "fecha_fin": "2026-10-15",
    "hora": "20:30",
    "horarios": "jue 20:30 (hasta el 15/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103080-tiempo-cero",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Danza. Funciones el 8 y 15 de octubre.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -9590,6 +10004,28 @@
    ],
    "lat": -34.603835,
    "lng": -58.383465
+  },
+  {
+   "titulo": "Tragedia, un documental sobre las que hacen comedia",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural 25 de Mayo",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección del documental.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": -34.577901,
+   "lng": -58.481073
   },
   {
    "titulo": "Umbrales y constelaciones",
@@ -9858,6 +10294,28 @@
    "lng": ""
   },
   {
+   "titulo": "Zamba es Patrimonio",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-05",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de charlas y música sobre la zamba como expresión fundamental de las músicas argentinas.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "superficie y presencia",
    "categoria": "Artes visuales",
    "lugar": "MACBA",
@@ -9880,22 +10338,23 @@
    "lng": ""
   },
   {
-   "titulo": "Ático/Vaivén/Cenizas",
-   "categoria": "Evento",
+   "titulo": "ÁTICO/VAIVÉN/CENIZAS (Elena Dahn)",
+   "categoria": "Danza",
    "lugar": "CENTRO CULTURAL BORGES",
    "barrio": "San Nicolas",
-   "direccion": "Viamonte 525 - San Nicolas - CABA",
+   "direccion": "Viamonte 525",
    "fecha_inicio": "2026-10-15",
-   "fecha_fin": "2026-10-15",
+   "fecha_fin": "2026-10-18",
    "hora": "20:00",
-   "horarios": "jue 20:00 | vie 20:00 | sáb 20:00 | dom 20:00 (hasta el 18/10)",
+   "horarios": "Octubre: 15, 16, 17, 18",
    "precio": "Consultar",
-   "descripcion": "Pintadas como una segunda piel sobre la arquitectura de la sala, una serie de superficies de látex natural se convertirán en prótesis del cuerpo para dar lugar a tres piezas de performance. El comport",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/san-nicolas/planes/7FJQ0QD54J40/aticovaivencenizas",
-   "dominio": "saleplan.ar",
+   "descripcion": "Instalaciones maleables dan lugar a tres obras de performance, convirtiendo el escenario en un territorio de creación continuo.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
    "fuentes": [
+    "CENTRO CULTURAL BORGES",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -9967,28 +10426,6 @@
    ],
    "lat": -34.588483,
    "lng": -58.429983
-  },
-  {
-   "titulo": "\"Historias de tango”: un ciclo para ver el género en escena",
-   "categoria": "Música",
-   "lugar": "Casa de la Cultura",
-   "barrio": "Monserrat",
-   "direccion": "Av. de Mayo 575",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Es un ciclo donde el tango se cuenta en escenas. Cada espectáculo propone una mirada distinta: los barrios, la mujer, la noche, la ciudad, los encuentros y los desencuentros. Es un ciclo donde el tang",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/M1E5PYYEKZXV/historias-de-tango-un-ciclo-para-ver-el-genero-en-escena",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": -34.608197,
-   "lng": -58.374434
   },
   {
    "titulo": "(H)ay amor",
@@ -10374,6 +10811,28 @@
    "lng": -58.415942
   },
   {
+   "titulo": "Ada Gómez: expresión y estudio de obras",
+   "categoria": "Música",
+   "lugar": "CASA BRANDON",
+   "barrio": "Villa Crespo",
+   "direccion": "Drago, Luis Maria 236",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Expresión y estudio de obras con flauta. Fecha leída del afiche.",
+   "url": "https://brandon.org.ar/",
+   "dominio": "brandon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CASA BRANDON",
+   "fuentes": [
+    "CASA BRANDON"
+   ],
+   "lat": -34.60134,
+   "lng": -58.437454
+  },
+  {
    "titulo": "Adan y Eva, un amor de aquellos",
    "categoria": "Teatro",
    "lugar": "EL TINGLADO TEATRO",
@@ -10531,6 +10990,28 @@
    ],
    "lat": -34.596088,
    "lng": -58.417022
+  },
+  {
+   "titulo": "Armá tu dinocráneo",
+   "categoria": "Infantil",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "16:00",
+   "horarios": "Viernes 16 h",
+   "precio": "Consultar",
+   "descripcion": "Experiencia educativa de paleontología para 6 a 14 años: armado de una réplica de cráneo. Requiere entrada.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
   },
   {
    "titulo": "Asuntos Internos",
@@ -11004,6 +11485,28 @@
    "lng": -58.39588
   },
   {
+   "titulo": "Centro En Recorrido",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 16, 18, 23, 25",
+   "precio": "Consultar",
+   "descripcion": "Un recorrido transversal por distintas exposiciones y espacios del Centro Cultural Borges.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Cerounno presenta: NIUNCARGO + Banda en vivo - Capital Federal, Club Lucille",
    "categoria": "Música",
    "lugar": "Lucille",
@@ -11181,6 +11684,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Ciclo Cubilete: Noveno Maturín",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un concierto que recorrerá el universo sonoro que la banda viene construyendo en el último tiempo.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Ciclo Discos completos",
@@ -11695,6 +12220,28 @@
    ],
    "lat": -34.615582,
    "lng": -58.370506
+  },
+  {
+   "titulo": "Dibujos que cuentan",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-24",
+   "hora": "12:00",
+   "horarios": "Viernes y sábados de 12 a 16 h",
+   "precio": "Consultar",
+   "descripcion": "Taller de ilustración y creatividad para todas las edades, a cargo de Fernando Sassali y Luisa Torres. Cupo limitado.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
   },
   {
    "titulo": "Diciembre",
@@ -12285,6 +12832,29 @@
    "lng": -58.4131
   },
   {
+   "titulo": "El tiempo no soporta que lo marquen",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obras de Guido Ast, Pablo Butteri, Eva Dolard, Florencia Nieto y Heliana Rucco.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario",
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "El tipo",
    "categoria": "Evento",
    "lugar": "MOSCÚ TEATRO",
@@ -12464,22 +13034,23 @@
    "lng": -58.436893
   },
   {
-   "titulo": "Espumas De Oriente (Un Melodrama Argentino)",
+   "titulo": "Espumas de Oriente (Un melodrama argentino)",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-27",
+   "fecha_fin": "2026-10-23",
    "hora": "21:00",
-   "horarios": "vie 21:00 (hasta el 27/11)",
+   "horarios": "Viernes 21 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102551-espumas-de-oriente-un-melodrama-argentino",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -13065,22 +13636,24 @@
    "lng": ""
   },
   {
-   "titulo": "Historias de tango: Dúo Wolff-Possetti",
+   "titulo": "Historias de tango",
    "categoria": "Música",
-   "lugar": "Casa de la Cultura",
+   "lugar": "Casa de la Cultura · Salón Dorado",
    "barrio": "Monserrat",
    "direccion": "Av. de Mayo 575",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Viernes 16, 20 h.",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "Viernes 20 h",
    "precio": "Gratis",
-   "descripcion": "El dúo de Eva Wolff (bandoneón) y Hernán Possetti (piano= presenta una propuesta de relectura del tango, combinando clásicos de distintas épocas con obras propias y de autores contemporáneos.Los artis",
-   "url": "https://casadelaculturaba.org/actividad/historias-de-tango/",
-   "dominio": "casadelaculturaba.org",
+   "descripcion": "Ciclo de espectáculos de música, canto y danza, dirigido por Erica Di Salvo. Entrada libre hasta agotar capacidad.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
    "fuentes": [
+    "CASA DE LA CULTURA",
+    "SalePlan: agenda de Ciudad de Buenos Aires",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": -34.608197,
@@ -13579,6 +14152,28 @@
    "lng": -58.516441
   },
   {
+   "titulo": "LA FRECUENCIA KIRLIAN (Cristian Jesús Ponce)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "Octubre: 16, 23",
+   "precio": "Consultar",
+   "descripcion": "En la localidad de Kirlian, una radio clandestina emite historias sobre los horrores que acechan en la oscuridad. (+18)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "LA NOCHE DE LAS GRANDES VOCES",
    "categoria": "Teatro",
    "lugar": "Teatro Alambique",
@@ -13600,6 +14195,28 @@
    ],
    "lat": -34.580766,
    "lng": -58.497459
+  },
+  {
+   "titulo": "LA NOCHE DOS VECES (Mora Monteleone)",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Octubre: 16, 17, 23, 24",
+   "precio": "Consultar",
+   "descripcion": "Dos noches separadas por diez años avanzan en simultáneo: una fiesta, una guerra y un teléfono que no para de sonar.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "LA WARHOL - VIERNES 16 DE OCTUBRE",
@@ -14433,26 +15050,49 @@
    "lng": ""
   },
   {
-   "titulo": "Lucio Y Yo",
+   "titulo": "Lucio y yo",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-28",
+   "fecha_fin": "2026-10-24",
    "hora": "21:30",
-   "horarios": "vie 21:30 | sáb 21:30 (hasta el 28/11)",
+   "horarios": "Viernes y sábados 21.30 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101786-lucio-y-yo",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699
+  },
+  {
+   "titulo": "Lugar a dudas",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-24",
+   "hora": "12:00",
+   "horarios": "Viernes y sábados de 12 a 18 h",
+   "precio": "Consultar",
+   "descripcion": "Exposición permanente con módulos interactivos en las salas El Tiempo, La Información y El Azar.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
   },
   {
    "titulo": "Luis Salinas",
@@ -15196,6 +15836,28 @@
    "lng": ""
   },
   {
+   "titulo": "Museo Postal, Telegráfico y de las Telecomunicaciones",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-24",
+   "hora": "12:00",
+   "horarios": "Viernes y sábados de 12 a 18 h",
+   "precio": "Consultar",
+   "descripcion": "Recorrido por la historia de las comunicaciones a través de objetos, documentos y artefactos.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
+  },
+  {
    "titulo": "Museo del Mate 16-10",
    "categoria": "Evento",
    "lugar": "Av. de Mayo 853",
@@ -15329,6 +15991,28 @@
    ],
    "lat": -34.593686,
    "lng": -58.440202
+  },
+  {
+   "titulo": "Navratri",
+   "categoria": "Evento",
+   "lugar": "Güngur Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Celebración de Navratri.",
+   "url": "https://gungur.com/eventos/",
+   "dominio": "gungur.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA INDIA GÜNGUR"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Nico Wolo Soul Band",
@@ -15555,6 +16239,29 @@
    "lng": -58.438109
   },
   {
+   "titulo": "OTBA Orquesta del Tango de Buenos Aires, dirección Néstor Marconi",
+   "categoria": "Música",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Principal",
+   "barrio": "Villa Urquiza",
+   "direccion": "Av. Triunvirato 4444",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto de la Orquesta del Tango de Buenos Aires (DGMUS).",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO",
+    "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": -34.576385,
+   "lng": -58.483732
+  },
+  {
    "titulo": "OTRA NOCHE TARDE en vivo #música",
    "categoria": "Música",
    "lugar": "Moran",
@@ -15597,28 +16304,6 @@
    ],
    "lat": -34.585602,
    "lng": -58.444967
-  },
-  {
-   "titulo": "Orquesta del Tango de Buenos Aires",
-   "categoria": "Música",
-   "lugar": "Centro Cultural 25 de Mayo",
-   "barrio": "Villa Urquiza",
-   "direccion": "Av. Triunvirato 4444",
-   "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "La Orquesta del Tango de Buenos Aires se presentará en tres fechas, con artistas invitados, en el Centro Cultural 25 de Mayo. La Orquesta del tango de Buenos Aires, organismo estable de la Dirección G",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/NTBK15NGQ6BZ/orquesta-del-tango-de-buenos-aires",
-   "dominio": "saleplan.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "SalePlan: agenda de Ciudad de Buenos Aires"
-   ],
-   "lat": -34.576385,
-   "lng": -58.483732
   },
   {
    "titulo": "Osamenta y patria",
@@ -15952,6 +16637,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Indiehoy: Agenda de recitales"
+   ],
+   "lat": -34.60184,
+   "lng": -58.414222
+  },
+  {
+   "titulo": "Piccolini presenta Peor",
+   "categoria": "Música",
+   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el CAFF.",
+   "url": "https://caff.ar/",
+   "dominio": "caff.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
    ],
    "lat": -34.60184,
    "lng": -58.414222
@@ -16720,22 +17427,23 @@
    "lng": -58.425015
   },
   {
-   "titulo": "Sarmiento, La Clase",
+   "titulo": "Sarmiento, la clase",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-10-24",
    "hora": "19:30",
-   "horarios": "vie 19:30 | sáb 19:30 (hasta el 14/11)",
+   "horarios": "Viernes y sábados 19.30 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra99566-sarmiento-la-clase",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -17281,6 +17989,28 @@
    "lng": -58.392979
   },
   {
+   "titulo": "Tarde India para infancias",
+   "categoria": "Infantil",
+   "lugar": "Güngur Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "15:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tarde de cultura india para niños y niñas.",
+   "url": "https://gungur.com/eventos/",
+   "dominio": "gungur.com",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA INDIA GÜNGUR"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Teatralogía Ciclo 5",
    "categoria": "Teatro",
    "lugar": "El Piso - Cultura Escénica",
@@ -17304,21 +18034,22 @@
   },
   {
    "titulo": "Telefonistas",
-   "categoria": "Evento",
-   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-16",
-   "fecha_fin": "2026-10-16",
+   "fecha_fin": "2026-10-23",
    "hora": "20:30",
-   "horarios": "vie 20:30 (hasta el 27/11)",
+   "horarios": "Viernes 20.30 h",
    "precio": "Consultar",
-   "descripcion": "16 de Junio 1955. En la Casa Rosada, las telefonistas Rosa, Margarita y Mabel pasan su jornada laboral entre charlas sobre lo cotidiano, la amistad, los enojos, las envidias, las sospechas de amor de",
-   "url": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/san-nicolas/planes/XK2DH0ANE300/telefonistas",
-   "dominio": "saleplan.ar",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "SalePlan: agenda de Ciudad de Buenos Aires",
     "Alternativa Teatral"
    ],
@@ -19079,6 +19810,28 @@
    "lng": ""
   },
   {
+   "titulo": "Biblioteca bailable",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "16:30",
+   "horarios": "Sábado 17 de 16.30 a 18 h",
+   "precio": "Gratis",
+   "descripcion": "Matiné musical en la Biblioteca Encendida con una playlist colectiva. Todas las edades.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
+  },
+  {
    "titulo": "Bichocanasto (La Reunion)",
    "categoria": "Teatro",
    "lugar": "Machado Teatro",
@@ -19253,6 +20006,28 @@
    ],
    "lat": -34.622453,
    "lng": -58.419421
+  },
+  {
+   "titulo": "C Baila",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta en C Art Media.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "CRIANZA IRRESPETUOSA - MAMI FEST",
@@ -20137,6 +20912,28 @@
    "lng": -58.419421
   },
   {
+   "titulo": "Diálogo entre orillas: la ballena franca",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de ciencia.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "Don Chicho",
    "categoria": "Teatro",
    "lugar": "La Vieja Guarida",
@@ -20311,6 +21108,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "El Centro Por Dentro / Arquitectura",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 17, 18, 24, 25",
+   "precio": "Consultar",
+   "descripcion": "Una propuesta para descubrir el edificio que alberga al Borges a partir de su dimensión arquitectónica: sus formas, espacios, estructuras y transformaciones.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "El Cielo En Una Habitación",
@@ -20597,6 +21416,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "El pincho y la Coca",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de cine y audiovisual.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
   },
   {
    "titulo": "El precipicio",
@@ -21395,6 +22236,28 @@
    "lng": ""
   },
   {
+   "titulo": "Fiesta Club Brandon: Blujäus y OJ Santa Rita",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CASA BRANDON",
+   "barrio": "Villa Crespo",
+   "direccion": "Drago, Luis Maria 236",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Club Brandon con Blujäus y OJ Santa Rita.",
+   "url": "https://brandon.org.ar/",
+   "dominio": "brandon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CASA BRANDON",
+   "fuentes": [
+    "CASA BRANDON"
+   ],
+   "lat": -34.60134,
+   "lng": -58.437454
+  },
+  {
    "titulo": "Filarmónica de Buenos Aires: Vida de héroe",
    "categoria": "Música",
    "lugar": "Teatro Colón",
@@ -21570,6 +22433,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "GATILLERO (Cris Tapia Marchiori)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Octubre: 17, 24",
+   "precio": "Consultar",
+   "descripcion": "Una cruda historia de tragedia y redención, contada a través de un único plano continuo (+16)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Galería De Objetos Tristes",
@@ -22212,26 +23097,49 @@
    "lng": ""
   },
   {
-   "titulo": "KÄPITA RÖJA",
+   "titulo": "Käpita Röja",
    "categoria": "Danza",
-   "lugar": "AUDITORIO ISLAS MALVINAS (PARQUE CHACABUCO) Debajo de la Autopista",
+   "lugar": "Auditorio Islas Malvinas",
    "barrio": "",
    "direccion": "AV. EVA PERON 1400",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
-   "hora": "",
+   "hora": "18:30",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Un cuento ancestral, reimaginado en danza y música clásica de la India",
-   "url": "https://www.eventbrite.com/e/kapita-roja-tickets-2000436335931",
-   "dominio": "eventbrite.com",
+   "descripcion": "Espectáculo de Güngur.",
+   "url": "https://gungur.com/eventos/",
+   "dominio": "gungur.com",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
    "fuentes": [
+    "CENTRO CULTURAL DE LA INDIA GÜNGUR",
     "Eventbrite Buenos Aires"
    ],
    "lat": -34.632889,
    "lng": -58.444521
+  },
+  {
+   "titulo": "LA MUJER PUERCA (Santiago Loza)",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Octubre: 17, 24",
+   "precio": "Consultar",
+   "descripcion": "Una mujer ha vivido a pleno para conseguir la santidad. No lo ha logrado, tiene naturaleza puerca. (+14)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "LIGNEE - SABADO 17 DE OCTUBRE - GERMAN CICALA & MAZZEO - SALAS & MOLINA",
@@ -22254,6 +23162,28 @@
    ],
    "lat": -34.602426,
    "lng": -58.380197
+  },
+  {
+   "titulo": "LOS CALVOS (Elias Gismondi, Marcos Mossello)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "En un inhóspito pueblo del norte argentino llamado Tostado, un grupo de pintorescos personajes calvos indagan sobre su calvicie",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "La Armonía de la Pasión. En la misma sintonía..",
@@ -22916,22 +23846,23 @@
    "lng": ""
   },
   {
-   "titulo": "La Zapatería, Crónica De Mujeres Calzadas",
+   "titulo": "La zapatería. Crónica de mujeres calzadas",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-28",
+   "fecha_fin": "2026-10-24",
    "hora": "20:00",
-   "horarios": "sáb 20:00 (hasta el 28/11)",
+   "horarios": "Sábados 20 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra102530-la-zapateria-cronica-de-mujeres-calzadas",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -23156,6 +24087,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Leo Masliah Y La Orquestita Del Oeste",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "Octubre: 17, 18",
+   "precio": "Consultar",
+   "descripcion": "Leo Masliah y 30 músicos profesionales de la zona oeste ofrecen un concierto de una sonoridad imprevisible.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Leticia Brédice en Milagro",
@@ -23731,6 +24684,28 @@
    "lng": -58.383187
   },
   {
+   "titulo": "Me Darás Mil Hijos + Soneros del Calamaní",
+   "categoria": "Música",
+   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el CAFF.",
+   "url": "https://caff.ar/",
+   "dominio": "caff.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
+   ],
+   "lat": -34.60184,
+   "lng": -58.414222
+  },
+  {
    "titulo": "Mi Amiga La Oscuridad",
    "categoria": "Teatro",
    "lugar": "Teatro Ciego",
@@ -23841,22 +24816,23 @@
    "lng": ""
   },
   {
-   "titulo": "Mishiadura Bailable",
+   "titulo": "Mishiadura bailable",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-24",
    "hora": "22:30",
-   "horarios": "sáb 22:30 (hasta el 24/10)",
+   "horarios": "Sábados 22.30 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra51748-mishiadura-bailable",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -23905,6 +24881,28 @@
    ],
    "lat": -34.600814,
    "lng": -58.412554
+  },
+  {
+   "titulo": "Moldes y réplicas",
+   "categoria": "Infantil",
+   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "15:00",
+   "horarios": "Sábados de octubre, 15, 16 y 17 h",
+   "precio": "Consultar",
+   "descripcion": "Experiencia educativa para 6 a 12 años sobre cómo se reproducen fósiles, a cargo de CONICET Ferias. Requiere entrada.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423
   },
   {
    "titulo": "Movimiento invención: Tiempo de jugar",
@@ -24391,22 +25389,23 @@
    "lng": ""
   },
   {
-   "titulo": "Odisea: Bajo El Mar",
-   "categoria": "Teatro",
-   "lugar": "CENTRO CULTURAL 25 DE MAYO",
+   "titulo": "Odisea: bajo el mar",
+   "categoria": "Infantil",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Principal",
    "barrio": "Villa Urquiza",
    "direccion": "Triunvirato Av. 4444",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-11-28",
+   "fecha_fin": "2026-10-17",
    "hora": "15:00",
    "horarios": "sáb 15:00 (hasta el 28/11)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro, títeres",
-   "url": "https://www.alternativateatral.com/obra96700-odisea-bajo-el-mar",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Espectáculo en la Sala Principal.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
    "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO",
     "Alternativa Teatral"
    ],
    "lat": -34.577901,
@@ -24546,22 +25545,23 @@
    "lng": ""
   },
   {
-   "titulo": "Para No Caer - Vol. 1",
+   "titulo": "Para no caer, vol. 1",
    "categoria": "Teatro",
-   "lugar": "CENTRO CULTURAL 25 DE MAYO",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Redonda",
    "barrio": "Villa Urquiza",
    "direccion": "Triunvirato Av. 4444",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-10-17",
    "hora": "21:00",
    "horarios": "sáb 21:00 (hasta el 31/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra99842-para-no-caer-vol-1",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Función en la Sala Redonda.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
    "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO",
     "Alternativa Teatral"
    ],
    "lat": -34.577901,
@@ -25536,26 +26536,27 @@
    "lng": ""
   },
   {
-   "titulo": "Silvestre y La Naranja en C Art Media",
+   "titulo": "Silvestre y La Naranja",
    "categoria": "Música",
-   "lugar": "C Art Media",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
    "fecha_inicio": "2026-10-17",
    "fecha_fin": "2026-10-17",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/silvestre-y-la-naranja-en-c-art-media/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Presentación de su disco Alter Ego. Agotado.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "C Complejo Art Media",
    "fuentes": [
+    "C Complejo Art Media",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "Simondieu",
@@ -26260,6 +27261,72 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Una Obra, Una Muesta: Si El Desierto Crece, ¡Entonces Cavemos!",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 17, 18, 24, 25",
+   "precio": "Consultar",
+   "descripcion": "Recorremos la expo con Leila Tschopp interviene el espacio con pinturas murales y colgantes",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "Una Obra, Una Muestra: Tratado De Repetición",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Octubre: 17, 24",
+   "precio": "Consultar",
+   "descripcion": "Un recorrido por la expo que Luis Terán exhibe en el Espacio Circular",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "Una Obra, Una Muestra: Wunderkammer. Cámara De Maravillas",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 17, 18, 24, 25",
+   "precio": "Consultar",
+   "descripcion": "Un recorrido por la expo que Nicola Costantino exhibe en el Espacio Berni.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Una Semana Más",
@@ -27081,6 +28148,28 @@
    "lng": ""
   },
   {
+   "titulo": "Aniversarios Porteños: Villa Lugano",
+   "categoria": "Visita guiada",
+   "lugar": "Casa de la Cultura · Patio",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo en que cada barrio celebra su aniversario, con recorrido de memoria y presentaciones de artistas del barrio. Entrada libre.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
+  },
+  {
    "titulo": "Antidomingos en el Recoleta",
    "categoria": "Música",
    "lugar": "Centro Cultural Recoleta",
@@ -27565,6 +28654,50 @@
    "lng": ""
   },
   {
+   "titulo": "EL AMO DEL JARDÍN (Fernando Krapp)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 18, 25",
+   "precio": "Consultar",
+   "descripcion": "Yasuo Inomata, paisajista japonés radicado en Argentina, dedicó su vida a crear jardines. Fernando Krapp recorre su historia y su obra.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "EL PRÍNCIPE DE NANAWA (Clarisa Navas)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Octubre: 18, 25",
+   "precio": "Consultar",
+   "descripcion": "En la frontera entre Argentina y Paraguay, Clarisa Navas acompaña durante diez años a Ángel, registrando su paso de la niñez a la adolescencia",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Edipo En Ezeiza",
    "categoria": "Teatro",
    "lugar": "Sala Teatral Inda Ledesma - Espacio Experimental Leónidas Barletta",
@@ -27585,6 +28718,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Edipo en Ezeiza",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:00",
+   "horarios": "Domingos 19 h",
+   "precio": "Consultar",
+   "descripcion": "Teatro.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699
   },
   {
    "titulo": "El Aire Que Rodea Las Cosas",
@@ -28027,6 +29182,28 @@
    "lng": ""
   },
   {
+   "titulo": "Encuentro Con Artistas: El Jardín Estrangulado",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un encuentro junto a Miguel Harte para compartir el proceso creativo de su obra",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Ensayo Y Ficción. Programación 20/09, 04/10 Y 18/10",
    "categoria": "Teatro",
    "lugar": "ROSETI",
@@ -28074,19 +29251,20 @@
    "titulo": "Escribí Griselda",
    "categoria": "Teatro",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-18",
-   "fecha_fin": "2026-11-08",
+   "fecha_fin": "2026-10-25",
    "hora": "19:00",
-   "horarios": "dom 19:00 (del 18/10 al 8/11)",
+   "horarios": "Domingos 19 h",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra50373-escribi-griselda",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Estreno el domingo 18 de octubre.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -28973,6 +30151,28 @@
    "lng": ""
   },
   {
+   "titulo": "La Milonga del CC25",
+   "categoria": "Música",
+   "lugar": "Centro Cultural 25 de Mayo",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Milonga de los domingos en el CC25.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": -34.577901,
+   "lng": -58.481073
+  },
+  {
    "titulo": "La Mujer Invisible",
    "categoria": "Teatro",
    "lugar": "Muy Teatro",
@@ -29831,6 +31031,28 @@
    "lng": ""
   },
   {
+   "titulo": "Peña Folklorazo Queer",
+   "categoria": "Música",
+   "lugar": "CASA BRANDON",
+   "barrio": "Villa Crespo",
+   "direccion": "Drago, Luis Maria 236",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Peña folklórica queer en Casa Brandon.",
+   "url": "https://brandon.org.ar/",
+   "dominio": "brandon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CASA BRANDON",
+   "fuentes": [
+    "CASA BRANDON"
+   ],
+   "lat": -34.60134,
+   "lng": -58.437454
+  },
+  {
    "titulo": "Pimpinela",
    "categoria": "Música",
    "lugar": "Movistar Arena",
@@ -30030,6 +31252,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Silvestre y La Naranja",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Segunda función de la presentación de Alter Ego.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "Social Mix & NETWORKING - Conexiones reales en PALERMO",
@@ -30670,6 +31914,28 @@
    "lng": -58.412241
   },
   {
+   "titulo": "Cocina fácil con legumbres",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de ciudadanía y comunidad.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "De Cómo Aprender A Estar Solx",
    "categoria": "Teatro",
    "lugar": "Espacio Callejón",
@@ -30802,6 +32068,28 @@
    "lng": -58.383277
   },
   {
+   "titulo": "III Laboratorio Internacional de Creación y Desarrollo de Públicos Culturales",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de formación en escénicas.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "KIKI OPEN MIC STANDUP",
    "categoria": "Teatro",
    "lugar": "La Silla Comedy Club (ex Silla Eléctrica)",
@@ -30822,6 +32110,28 @@
    ],
    "lat": -34.590286,
    "lng": -58.446102
+  },
+  {
+   "titulo": "Kneecap",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Kneecap por primera vez en Argentina.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "Kneecap en Argentina",
@@ -31905,6 +33215,28 @@
    "lng": ""
   },
   {
+   "titulo": "Mundos Paralelos",
+   "categoria": "Evento",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo mensual organizado por Sasha Alvarado. Tercer martes de cada mes, 21 a 00 h.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.602953,
+   "lng": -58.414504
+  },
+  {
    "titulo": "Mío!",
    "categoria": "Teatro",
    "lugar": "Auditorio Aic Abasto",
@@ -32015,6 +33347,28 @@
    "lng": -58.390341
   },
   {
+   "titulo": "Niño Gutiérrez y Patricio Foglia",
+   "categoria": "Música",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto de música y sonido.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "Pasado, Presente, Pasión: Pasolini",
    "categoria": "Teatro",
    "lugar": "Ítaca, Complejo Teatral",
@@ -32079,6 +33433,28 @@
    ],
    "lat": -34.588488,
    "lng": -58.40874
+  },
+  {
+   "titulo": "Semana Cuadernos: Marcos Giralt Torrente",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "Martes 20, jueves 22 y viernes 23",
+   "precio": "Consultar",
+   "descripcion": "Encuentros de letras con el escritor, los días 20, 22 y 23 de octubre.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
   },
   {
    "titulo": "Tierra Citrus",
@@ -32215,6 +33591,28 @@
    "lng": -58.37731
   },
   {
+   "titulo": "CICLO CUADRO A CUADRO. LA OTRA FORMA (Diego Felipe Guzmán Ramírez)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un hombre intenta encajar en una sociedad donde todo debe ser perfectamente cuadrado, sin perder su identidad (+13)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Casa Tomada",
    "categoria": "Teatro",
    "lugar": "HASTA TRILCE",
@@ -32237,6 +33635,28 @@
    "lng": -58.416399
   },
   {
+   "titulo": "Ciclo Tango de miércoles: La Santa Milonga",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tango en vivo.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699
+  },
+  {
    "titulo": "Culture Shock Therapy | Language Exchange Café – Español & English",
    "categoria": "Evento",
    "lugar": "Charcas 3251",
@@ -32257,6 +33677,50 @@
    ],
    "lat": -34.592096,
    "lng": -58.411657
+  },
+  {
+   "titulo": "EL RETRATO PUNZÓ (Damian Dreizik)",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "En 1851, Prilidiano Pueyrredón debe retratar a Manuelita Rosas bajo presión política, enfrentando arte y propaganda",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "ELLA, EL INGLÉS (María Rojí)",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un monólogo musical con orquesta en vivo nos revela la historia de una argentina que conoce a un extranjero en la Buenos Aires de la década del 30.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Edificios emblemáticos - Museo de la Ciudad (Rock argentino en imágenes)",
@@ -32323,6 +33787,50 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Encuentro Con Artistas: Triggear",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorrido a la exposición junto a Damiana Poggi",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "Ensayo sobre la vejez",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "Miércoles 20 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de cine, miércoles de octubre.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699
   },
   {
    "titulo": "Entre gatos universalmente pardos",
@@ -32634,6 +34142,28 @@
    "lng": ""
   },
   {
+   "titulo": "Ping Pong Casonero",
+   "categoria": "Evento",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:30",
+   "horarios": "Miércoles 21.30 a 00 h",
+   "precio": "A la gorra",
+   "descripcion": "Ping pong a la gorra no excluyente consumiendo en el bar. Todas las semanas.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.602953,
+   "lng": -58.414504
+  },
+  {
    "titulo": "Propuesta Decente 2026 VALERIA JAROS | JAVIER BRACAMONTE",
    "categoria": "Evento",
    "lugar": "Av. Juramento 2059 piso 2",
@@ -32810,26 +34340,27 @@
    "lng": -58.434134
   },
   {
-   "titulo": "Alter Bridge en Argentina",
+   "titulo": "Alter Bridge",
    "categoria": "Música",
-   "lugar": "C Art Media",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/alter-bridge-en-argentina/",
-   "dominio": "indiehoy.com",
+   "descripcion": "La banda estadounidense de hard rock. Agotado.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "C Complejo Art Media",
    "fuentes": [
+    "C Complejo Art Media",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": ""
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "Amigas, Vinito y Risas - Stand Up",
@@ -32852,6 +34383,28 @@
    ],
    "lat": -34.596745,
    "lng": -58.388234
+  },
+  {
+   "titulo": "Asterisco: Festival Internacional de Cine LGBTIQ+",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jornada del festival de cine LGBTIQ+.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
   },
   {
    "titulo": "CARRIE Dir. Brian De Palma · Estados Unidos · 1976",
@@ -32920,6 +34473,28 @@
    "lng": -58.447039
   },
   {
+   "titulo": "Ciclo Generador: Juan Cruz De Urquiza",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jazz standards y originales del cuarteto jazzístico del reconocido trompetista",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Club de Lectura: El sonido de las palabras by Belén Ortega",
    "categoria": "Literatura y charlas",
    "lugar": "Casa Lucia Member of Meliá Collection",
@@ -32964,22 +34539,23 @@
    "lng": -58.416399
   },
   {
-   "titulo": "Del Aire En Flor - Tridente",
-   "categoria": "Teatro",
+   "titulo": "Del aire en flor - Tridente",
+   "categoria": "Música",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
    "hora": "21:00",
    "horarios": "jue 21:00 (el 22/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra103079-del-aire-en-flor-tridente",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Concierto.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -33227,6 +34803,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La gaviota. Ensayo abierto",
+   "categoria": "Teatro",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ensayo abierto sobre el texto de Chéjov.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
   },
   {
    "titulo": "La gaviota. Ensayo abierto",
@@ -33493,6 +35091,28 @@
    "lng": ""
   },
   {
+   "titulo": "Milonga Federal",
+   "categoria": "Música",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Milonga abierta, atípica y plural.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Mujeres que bailan",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -33513,6 +35133,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "No matar, de Juan Villegas",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural 25 de Mayo",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección de la película de Juan Villegas.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": -34.577901,
+   "lng": -58.481073
   },
   {
    "titulo": "ONLY Rose",
@@ -33626,6 +35268,28 @@
    "lng": ""
   },
   {
+   "titulo": "SESIÓN ABIERTA: SONIDO (Sebastián Verea)",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Sebastían Verea nos presenta \"Asombro\", una videoinstalación que explora los umbrales entre sistemas vivos y sistemas artificiales.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Siemprevivas",
    "categoria": "Cine",
    "lugar": "Malba · Auditorio",
@@ -33670,6 +35334,29 @@
    "lng": -58.437732
   },
   {
+   "titulo": "TODO LO QUE ESTÁ A MI LADO (Fernando Rubio)",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "Octubre: 22, 23, 24, 25, 29",
+   "precio": "Consultar",
+   "descripcion": "7 camas y 7 historias que reflexionan sobre el tiempo, la memoria y el valor de las personas que nos rodean.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Taller Abierto",
    "categoria": "Taller",
    "lugar": "Pje Bollini 2260",
@@ -33712,28 +35399,6 @@
    ],
    "lat": "",
    "lng": ""
-  },
-  {
-   "titulo": "Todo Lo Que Está A Mi Lado",
-   "categoria": "Evento",
-   "lugar": "CENTRO CULTURAL BORGES",
-   "barrio": "San Nicolás",
-   "direccion": "Viamonte 525",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-11-01",
-   "hora": "19:00",
-   "horarios": "jue 19:00 | vie 19:00 | sáb 19:00 | dom 19:00 (del 22/10 al 1/11)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: performance",
-   "url": "https://www.alternativateatral.com/obra29522-todo-lo-que-esta-a-mi-lado",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.599689,
-   "lng": -58.374353
   },
   {
    "titulo": "Tristán y los días por venir",
@@ -34198,6 +35863,28 @@
    "lng": -58.432785
   },
   {
+   "titulo": "Ciclo Cubilete: Nde Ramírez",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música mestiza y desprejuiciada que mezcla tradición y rock en un show pensado como cómic musical en movimiento.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Ciclo De La Peluca",
    "categoria": "Teatro",
    "lugar": "Teatro Carnero",
@@ -34215,6 +35902,28 @@
    "lugar_verificado": "",
    "fuentes": [
     "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "titulo": "Clásicos del rock nacional: Banda Sinfónica de la Ciudad de Buenos Aires",
+   "categoria": "Música",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Principal",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Con los artistas invitados Luis Ceravolo y Ángela Navarro.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
    ],
    "lat": "",
    "lng": ""
@@ -34373,6 +36082,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Dúo Ranas & Chino Laborde",
+   "categoria": "Música",
+   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el CAFF.",
+   "url": "https://caff.ar/",
+   "dominio": "caff.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
+   ],
+   "lat": -34.60184,
+   "lng": -58.414222
   },
   {
    "titulo": "El Deseo En El Pavo Real",
@@ -34769,6 +36500,28 @@
    ],
    "lat": -34.599782,
    "lng": -58.508075
+  },
+  {
+   "titulo": "La Fiesta de FM Luzu",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Corrientes Av. 6271",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Nueva edición de la fiesta de FM Luzu.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937
   },
   {
    "titulo": "Las Cargas",
@@ -36004,6 +37757,28 @@
    "lng": ""
   },
   {
+   "titulo": "Carolina De La Muela",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un recorrido atravesado por el jazz, la improvisación y la música popular.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Cecilia Gauna - Ofrenda",
    "categoria": "Teatro",
    "lugar": "El Alambique",
@@ -36113,6 +37888,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Collage con música en vivo",
+   "categoria": "Música",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo mensual, cuarto sábado de cada mes, de 19 a 21 h.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.602953,
+   "lng": -58.414504
   },
   {
    "titulo": "Criatura",
@@ -36333,6 +38130,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Encuentro Con Artistas: Luz Constructiva",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un encuentro de intercambio con Gonzalo Maciel para explorar el paso a paso de su labor creativa.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Encuentro de Cine Europeo: Cuatro madres",
@@ -36776,6 +38595,28 @@
    "lng": ""
   },
   {
+   "titulo": "LA CAMA (Mónica Lairana)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jorge (60) y Mabel (59) pasan las últimas horas como pareja encerrados en la casa familiar. Lloran, ríen, intentan hacer el amor por última vez. Desmantelan la casa, al tiempo que van desmantelando su relación (+18)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "LA FIESTA SANA en CASA TEMPLE | Sábado 24 de Octubre",
    "categoria": "Fiestas y electrónica",
    "lugar": "Casa Temple",
@@ -37173,6 +39014,28 @@
    "lng": ""
   },
   {
+   "titulo": "Odisea: bajo el mar",
+   "categoria": "Infantil",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Principal",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo en la Sala Principal.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": "",
+   "lng": ""
+  },
+  {
    "titulo": "Orishas en Argentina",
    "categoria": "Música",
    "lugar": "Teatro Vorterix",
@@ -37217,22 +39080,23 @@
    "lng": -58.383187
   },
   {
-   "titulo": "Otraronda Cantoras Presenta Invocaciones",
-   "categoria": "Evento",
+   "titulo": "OtraRonda Cantoras",
+   "categoria": "Música",
    "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes Av. 1543",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "20:00",
    "horarios": "sáb 20:00 (el 24/10)",
    "precio": "Consultar",
-   "descripcion": "Géneros: otros géneros",
-   "url": "https://www.alternativateatral.com/obra103186-otraronda-cantoras-presenta-invocaciones",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Concierto de cantoras.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
@@ -37259,6 +39123,28 @@
    ],
    "lat": -34.599782,
    "lng": -58.508075
+  },
+  {
+   "titulo": "Para no caer, vol. 1",
+   "categoria": "Teatro",
+   "lugar": "Centro Cultural 25 de Mayo · Sala Redonda",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en la Sala Redonda.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Parientes y León Vodo en Strummer Bar",
@@ -37922,6 +39808,28 @@
    "lng": -58.464665
   },
   {
+   "titulo": "Vení a cantar ABBA",
+   "categoria": "Música",
+   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el CAFF.",
+   "url": "https://caff.ar/",
+   "dominio": "caff.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
+   ],
+   "lat": -34.60184,
+   "lng": -58.414222
+  },
+  {
    "titulo": "Viene El Cuco",
    "categoria": "Teatro",
    "lugar": "El Piso - Cultura Escénica",
@@ -38208,6 +40116,28 @@
    "lng": -58.455514
   },
   {
+   "titulo": "Chamameceada",
+   "categoria": "Música",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Baile de chamamé.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividades/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Ciclo De Obras Cortas De Espaciojota (Octubre)",
    "categoria": "Teatro",
    "lugar": "Noavestruz Espacio De Cultura",
@@ -38382,6 +40312,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Encuentro Con Artistas: Rumores, Apariciones Y Algunas Criaturas Extraordinarias",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Un acercamiento a la muestra junto a su curadora, Guille Mongan, y a algunos de los artistas que exhiben sus obras.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Familia Equivocada (La Visita)",
@@ -38627,6 +40579,28 @@
    "lng": ""
   },
   {
+   "titulo": "La Milonga del CC25",
+   "categoria": "Música",
+   "lugar": "Centro Cultural 25 de Mayo",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Milonga de los domingos en el CC25.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": -34.577901,
+   "lng": -58.481073
+  },
+  {
    "titulo": "La Papa",
    "categoria": "Teatro",
    "lugar": "Timbre 4",
@@ -38691,6 +40665,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Lohdóh",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El groove y la melodía se entrelazan con sutileza y carácter en una experiencia conceptual, contemporánea y envolvente.",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Lolamora Tango",
@@ -38933,6 +40929,28 @@
    ],
    "lat": -34.587942,
    "lng": -58.395427
+  },
+  {
+   "titulo": "Pablo Grinjot y la Ludwig Van",
+   "categoria": "Música",
+   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 722",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show en el CAFF.",
+   "url": "https://caff.ar/",
+   "dominio": "caff.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CAFF - CLUB ATLETICO FERNANDEZ FIERRO"
+   ],
+   "lat": -34.60184,
+   "lng": -58.414222
   },
   {
    "titulo": "Papel (Proyecto Atemporal De Producción De Escritura Libre)",
@@ -39598,6 +41616,50 @@
    "lng": -58.428944
   },
   {
+   "titulo": "Elijo creer",
+   "categoria": "Evento",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 3508",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciclo mensual organizado por Deep Gea. Cuarto martes de cada mes, 20.30 a 23.30 h.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.602953,
+   "lng": -58.414504
+  },
+  {
+   "titulo": "En acción con... Cuadernos Hispanoamericanos y Mercedes Halfon",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "Recoleta",
+   "direccion": "Paraná 1159",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Encuentro de letras, con nuevas fechas el 3 y el 10 de noviembre.",
+   "url": "https://cceba.aecid.es/eventos/buscador-de-eventos",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647
+  },
+  {
    "titulo": "Franco Rizzaro en Niceto Club",
    "categoria": "Música",
    "lugar": "Niceto Club",
@@ -39884,6 +41946,28 @@
    "lng": -58.446381
   },
   {
+   "titulo": "FESTIVAL BITBANG: LA HUELLA DE ORO (PROYECCIÓN + Q&A) (Daniel Duche, Soledad Yáñez)",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La serie construye un mundo distópico donde la codicia, el poder y la identidad se entrelazan en una aventura tan épica como inquietante. (+13)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
    "titulo": "Feli Colina en Niceto Club",
    "categoria": "Música",
    "lugar": "Niceto Club",
@@ -39927,6 +42011,28 @@
    ],
    "lat": -34.603557,
    "lng": -58.369484
+  },
+  {
+   "titulo": "Festival Bitbang: Proyección De Cortos Latinoamericanos",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "Octubre: 28, 29",
+   "precio": "Consultar",
+   "descripcion": "Proyección de obras en la Categoría de Cortos Latinoamericanos del Festival Internacional de Cine de Animación BITBANG. (+18)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
   },
   {
    "titulo": "Las furias y Lo que le pasó a Reynoso",
@@ -40040,22 +42146,23 @@
    "lng": -58.37343
   },
   {
-   "titulo": "Rebecca WinckWorth en Argentina",
+   "titulo": "Rebecca Winckworth",
    "categoria": "Música",
    "lugar": "British Arts Centre",
    "barrio": "",
    "direccion": "",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-10-28",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://indiehoy.com/agenda/rebecca-winckworth-en-argentina/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Espectáculo en el British Arts Centre. Apto todo público.",
+   "url": "https://www.aaci.org.ar/bac/",
+   "dominio": "aaci.org.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "BRITISH ART CENTRE",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": "",
@@ -40084,6 +42191,138 @@
    "lng": ""
   },
   {
+   "titulo": "Acúfenos (la frecuencia del fin)",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1543",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Estreno de danza el jueves 29; funciones los jueves.",
+   "url": "https://www.centrocultural.coop/cartelera-mes",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699
+  },
+  {
+   "titulo": "Ciclo Generador: Jerónimo Quaglia Trío",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Composiciones originales y versiones de grandes estándares del jazz en un repertorio que dialoga con la tradición del género desde una mirada actual",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "Contratapa: Lorena Fernández",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa de la Cultura",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de conversaciones con artistas contemporáneos, coordinado por Marcos Krämer.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Artes Plásticas Eduardo Sívori",
+   "fuentes": [
+    "CASA DE LA CULTURA"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434
+  },
+  {
+   "titulo": "Festival Bitbang: Retrospectiva Alberto Vázquez",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL BORGES",
+   "barrio": "San Nicolas",
+   "direccion": "Viamonte 525",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Breve retrospectiva del director de animación, ilustrador y dibujante de cómics Alberto Vázquez. (+18)",
+   "url": "https://centroculturalborges.gob.ar/",
+   "dominio": "centroculturalborges.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL BORGES",
+   "fuentes": [
+    "CENTRO CULTURAL BORGES"
+   ],
+   "lat": -34.599689,
+   "lng": -58.374353
+  },
+  {
+   "titulo": "Fragmentos, de Laura Linares",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural 25 de Mayo",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4444",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyección de Fragmentos de Laura Linares.",
+   "url": "https://cc25.org/programacion/",
+   "dominio": "cc25.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL 25 DE MAYO",
+   "fuentes": [
+    "CENTRO CULTURAL 25 DE MAYO"
+   ],
+   "lat": -34.577901,
+   "lng": -58.481073
+  },
+  {
+   "titulo": "Horizonte Federal",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-12-06",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Primera edición de la exhibición temporaria.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/exhibiciones/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459
+  },
+  {
    "titulo": "Shohei Imamura bis",
    "categoria": "Cine",
    "lugar": "Teatro San Martín · Sala Leopoldo Lugones",
@@ -40104,6 +42343,28 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "Visita guiada al Centro Cultural Coreano",
+   "categoria": "Visita guiada",
+   "lugar": "CENTRO CULTURAL COREANO",
+   "barrio": "Retiro",
+   "direccion": "Maipú 972",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "11:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Recorrido para conocer la cultura coreana: música, arquitectura, gastronomía, vestimenta y arte. Gratuita con cupos limitados, con inscripción previa por formulario y confirmación por mail.",
+   "url": "https://argentina.korean-culture.org/es/464/board/191/read/148320",
+   "dominio": "argentina.korean-culture.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL COREANO",
+   "fuentes": [
+    "CENTRO CULTURAL COREANO"
+   ],
+   "lat": -34.596677,
+   "lng": -58.377
   }
  ]
 }
