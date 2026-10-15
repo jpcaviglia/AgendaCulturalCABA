@@ -2067,7 +2067,27 @@
    "direccion": "Bulnes Y Lavalle",
    "enlace_bio": "https://alpogo.com/buscar?busqueda=bula",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (Alpogo))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Alpogo))",
+    "2026-10-15 [instagram] La bio enlaza a la búsqueda 'bula' en Alpogo (21 eventos); en la ventana hay 8; CC Bula, CABA."
+   ],
+   "comportamiento": {
+    "agenda": "alpogo.com/buscar?busqueda=bula lista fecha, hora y lugar 'CC Bula'"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 8,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 8
+    }
    ]
   },
   {
@@ -2656,7 +2676,27 @@
    "direccion": "Gallo 760",
    "enlace_bio": "https://linktr.ee/rosetiespacio",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en tickethoy y Alternativa Teatral))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en tickethoy y Alternativa Teatral))",
+    "2026-10-15 [instagram] El Linktree de la bio estaba desactualizado (octubre); la portada de bue.tickethoy.com lista los próximos eventos de Roseti."
+   ],
+   "comportamiento": {
+    "agenda": "bue.tickethoy.com (portada) lista 'Próximos eventos' con día, hora y lugar"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -3205,7 +3245,26 @@
    "direccion": "Jaures, Jean 347",
    "enlace_bio": "https://linktr.ee/jjcircuitocultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/jjcircuitocultural"
+    "2026-10-15 [instagram] El Linktree anuncia la Peña Sombra Blanca todos los miércoles de 20 a 3 h (a contribución consciente, con reserva por WhatsApp); la cartelera de shows se anuncia en Instagram."
+   ],
+   "comportamiento": {
+    "agenda": "la agenda está en el enlace de la bio (sin abrir Instagram)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -3638,7 +3697,7 @@
     "CENTRO CULTURAL NUESTRA TIERRA"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Barracas",
    "direccion": "Iriarte, Gral. Av. 3500",
@@ -3987,7 +4046,29 @@
    "origen": "data/lugares.json",
    "barrio": "Boedo",
    "direccion": "Calvo, Carlos 3401",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Murga fundada en 1956 (Constitución 3339); los ensayos son para integrantes inscriptos, no se cargan."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casamaza",
@@ -4321,7 +4402,7 @@
     "CENTRO CULTURAL SEBASTIAN PIANA"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Caballito",
    "direccion": "Puan 360",
@@ -5084,7 +5165,27 @@
    "direccion": "Alvarez Thomas Av. 661",
    "enlace_bio": "https://www.cafaccess.com/productora/simona-producciones",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (productora de eventos))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (productora de eventos))",
+    "2026-10-15 [instagram] La bio enlaza a la productora en Cafaccess con la lista de shows; Av. Álvarez Thomas 661; 30/10 en adelante fuera de ventana. Sin horarios en el listado."
+   ],
+   "comportamiento": {
+    "agenda": "cafaccess.com/productora/simona-producciones lista fecha, título y precio desde"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 5,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 5
+    }
    ]
   },
   {
@@ -5520,7 +5621,7 @@
     "CENTRO CULTURAL BARRIO RIVADAVIA"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@c.c.barriorivadavia",
    "origen": "data/lugares.json",
    "barrio": "Floresta",
    "direccion": "Las Caracolas 200",
@@ -6277,7 +6378,26 @@
    "direccion": "Alsina, Adolfo 1475",
    "enlace_bio": "https://linktr.ee/tachelesba",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/tachelesba"
+    "2026-10-15 [instagram] Fuera de ventana: 31/10 La Real Academia y 15/11 Feria Plástica (gratis, 13 a 17 h). Adolfo Alsina 1475."
+   ],
+   "comportamiento": {
+    "extraccion": "la grilla de @tachelesba mezcla posts de productoras que lo etiquetan (Exquisita, Escuchame una cosita, Feria Plástica): ahí están las fechas futuras"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -6377,7 +6497,7 @@
     "CENTRO CULTURAL DEL BAJO FLORES"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Nueva Pompeya",
    "direccion": "Riestra Av. 1650",
@@ -7194,7 +7314,7 @@
     "CENTRO CULTURAL TATO BORES"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Soler 3929",
@@ -7664,7 +7784,29 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Paraguay 4667",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "la grilla mezcla posts de bandas y productoras que etiquetan al lugar; la programación se anuncia en cuentas de terceros"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Multiespacio Korova (Palermo) no publica su cartelera en su propio perfil; probar Passline/Venti o buscar etiquetas."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "nueva-uriarte",
@@ -7880,7 +8022,7 @@
     "CENTRO CULTURAL ARTES DE PARQUE CHACABUCO"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Parque Chacabuco",
    "direccion": "Cachimayo 1657",
@@ -8124,7 +8266,26 @@
    "direccion": "Luca, Esteban De 2270",
    "enlace_bio": "https://linktr.ee/ccmiguelmiranda",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmiguelmiranda"
+    "2026-10-15 [instagram] La agenda es un Google Calendar público (ICS: calendar.google.com/calendar/ical/<id>/public/basic.ics); sin actividades cargadas en la ventana. Parque Patricios."
+   ],
+   "comportamiento": {
+    "agenda": "Google Calendar incrustado en el sitio de Google Sites; se lee el ICS público sin navegador"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8981,7 +9142,7 @@
     "CENTRO CULTURAL DISCEPOLIN"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Saavedra",
    "direccion": "Tronador 4134",
@@ -9972,20 +10133,6 @@
    ]
   },
   {
-   "id": "balcarce-espacio-cultural",
-   "nombre": "BALCARCE ESPACIO CULTURAL",
-   "tipo": "lugar",
-   "lugares": [
-    "BALCARCE ESPACIO CULTURAL"
-   ],
-   "web": "",
-   "instagram": "@balcarce_espacio_cultural",
-   "origen": "data/lugares.json",
-   "barrio": "San Telmo",
-   "direccion": "Balcarce 1090",
-   "bio_probada": "2026-10-15"
-  },
-  {
    "id": "bolivar-852",
    "nombre": "BOLIVAR 852",
    "tipo": "lugar",
@@ -9997,7 +10144,29 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Bolivar 852",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "los flyers son carruseles de imágenes con día y horarios (puerta/show): hay que abrirlos y avanzar con la flecha; reservas por WhatsApp"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Tablao flamenco en Bolívar 852, San Telmo, con shows casi todos los días; los flyers de la semana salen en el carrusel más reciente."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ]
   },
   {
    "id": "casa-cultural-pepa-noia",
@@ -10441,7 +10610,7 @@
     "CENTRO CULTURAL VERSALLES"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Versalles",
    "direccion": "Bruselas 785",
@@ -10779,7 +10948,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Jufre 444",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "agenda": "eljufre.com.ar/cartelera-<día>/ (miercoles, jue, viernes, sabado, domingo): texto con día, hora y 'desde/hasta dd-mm'; no hace falta abrir Instagram"
+   },
+   "notas": [
+    "2026-10-15 [instagram] El perfil de Instagram enlaza a eljufre.com.ar, cuya cartelera tiene una página por día (miércoles a domingo); solo viernes y sábado traen obras en la ventana; miércoles, jueves y domingo sin obras. Jufré 444, Villa Crespo."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "espacio-gliptodonte",
@@ -11405,7 +11596,26 @@
    "direccion": "Bolivia 2329",
    "enlace_bio": "https://linktr.ee/latermomecanica",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/latermomecanica"
+    "2026-10-15 [instagram] Espacio abierto de martes a sábados de 16 a 21 h (según bio)."
+   ],
+   "comportamiento": {
+    "extraccion": "poca frecuencia de posts; los eventos son de colectivos que etiquetan a la Termo"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -11430,7 +11640,7 @@
     "CENTRO CULTURAL DEVOTO"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@centro_cultural_devoto",
    "origen": "data/lugares.json",
    "barrio": "Villa Devoto",
    "direccion": "Nueva York 4169",
@@ -11502,7 +11712,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Lugano",
    "direccion": "Calou, Juan P. 5447",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Casa cultural comunitaria de Lugano (Av. Riestra 5519) con poca actividad pública; la última fecha anunciada fue el 19/9."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casa-de-la-cultura-hilda-galarza",
@@ -11526,7 +11758,7 @@
     "CENTRO CULTURAL BARRIO COPELLO"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@centroculturalbarriocopello",
    "origen": "data/lugares.json",
    "barrio": "Villa Lugano",
    "direccion": "Dellepiane, Luis, Tte. Gral. 4900",
@@ -11543,7 +11775,7 @@
     "CENTRO CULTURAL CEPNA"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Villa Lugano",
    "direccion": "Murguiondo 4361",
@@ -11667,7 +11899,7 @@
     "CENTRO CULTURAL POETA ROBERTO SANTORO"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Villa Ortuzar",
    "direccion": "Giribone 1961",
@@ -11702,7 +11934,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Ortuzar",
    "direccion": "Donado 1778",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "la grilla de @camion.gram mezcla publicaciones de colaboradores (taggeadas): los eventos futuros aparecen en el post del artista"
+   },
+   "notas": [
+    "2026-10-15 [instagram] Espacio escénico y audiovisual en Donado 1778, Villa Ortúzar; el linktr.ee/camionespacioposible no se leyó."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "deseo-bsas",
@@ -11930,7 +12184,7 @@
     "CENTRO CULTURAL ANTONIO TALERICO"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Villa Soldati",
    "direccion": "Berg, Carlos 3387",
@@ -11944,7 +12198,7 @@
     "CENTRO CULTURAL ELADIA BLAZQUEZ"
    ],
    "web": "",
-   "instagram": "@ba.gops",
+   "instagram": "@gops.ba",
    "origen": "data/lugares.json",
    "barrio": "Villa Soldati",
    "direccion": "Rabanal, Francisco, Intendente Av. 2275",
@@ -15339,9 +15593,28 @@
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: club de techno; Instagram confirmado en RA",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/tcqlub"
+    "2026-10-15 [instagram] La bio (Linktree) estaba desactualizada (2025); la página del club en Venti lista los próximos eventos; DDTK x TCQ del 31/10 queda fuera de ventana."
    ],
-   "enlace_bio": "https://linktr.ee/tcqlub"
+   "enlace_bio": "https://linktr.ee/tcqlub",
+   "comportamiento": {
+    "agenda": "venti.com.ar/organizadores/tcq lista próximos eventos con fecha y hora; el Linktree de la bio no se actualiza"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "dune-park",
@@ -16057,9 +16330,28 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: bar de recitales; varias fechas en Indiehoy",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/strummerbar"
+    "2026-10-15 [instagram] La bio ('Entradas por Ticket Hoy') enlaza a la ticketera; la página del lugar daba error 500, pero la portada de bue.tickethoy.com lista los próximos eventos con fecha y hora por lugar."
    ],
-   "enlace_bio": "https://linktr.ee/strummerbar"
+   "enlace_bio": "https://linktr.ee/strummerbar",
+   "comportamiento": {
+    "agenda": "bue.tickethoy.com (portada) lista 'Próximos eventos' con día, hora y lugar; /lugares/strummer-bar dio error 500 al 15/10"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 12,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 12
+    }
+   ]
   },
   {
    "id": "espacio-incaa-atlas-flores",
