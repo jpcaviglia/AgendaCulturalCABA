@@ -1,0 +1,77 @@
+{
+ "id": "feliza-cultura-arcoiris",
+ "canal": "web",
+ "fuente": "FELIZA CULTURA ARCOIRIS",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://felizarcoiris.com/"
+ ],
+ "eventos": [
+  {
+   "titulo": "After Miércoles",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "Miércoles, 20 h a 5 h",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "",
+   "direccion": "Av. Córdoba 3271",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://felizarcoiris.com/",
+   "descripcion": "Empezá bien: happy hour hasta las 22 h. Club social y cultural cuir.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "After Jueves: el jueves de Feliza",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Jueves, 20 h a 5 h",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "",
+   "direccion": "Av. Córdoba 3271",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://felizarcoiris.com/",
+   "descripcion": "Cultura, comunidad y la noche que empieza bien.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Patio Marika: Pop vs Perreo toda la noche",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "Viernes, 20 h a 5 h",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "",
+   "direccion": "Av. Córdoba 3271",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://felizarcoiris.com/",
+   "descripcion": "Fiesta de los viernes en Feliza.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Antidomingos",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "Domingos, 20 h a 5 h",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "",
+   "direccion": "Av. Córdoba 3271",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://felizarcoiris.com/",
+   "descripcion": "Cerrá la semana con arte cuir.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

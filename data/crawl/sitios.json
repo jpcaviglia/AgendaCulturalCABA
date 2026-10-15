@@ -1989,13 +1989,49 @@
    "direccion": "Lambare 873",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_cultural",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: no_es_agenda] Radio comunitaria FM La Tribu; sin agenda de eventos clara"
+    "2026-10-14 [revisión anterior: no_es_agenda] Radio comunitaria FM La Tribu; sin agenda de eventos clara",
+    "2026-10-15 [web] Radio comunitaria con talleres; poca programación de eventos abiertos en la web."
+   ],
+   "entradas": [
+    "https://fmlatribu.com/talleres"
+   ],
+   "comportamiento": {
+    "extraccion": "la web es de la radio FM La Tribu: portada con noticias; /talleres lista talleres con rango de fechas y horarios; no hay agenda de eventos propia"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://fmlatribu.com/noticias",
+     "texto": "Noticias",
+     "motivo": "notas periodísticas, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://fmlatribu.com/quienes-somos",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://fmlatribu.com/podcast",
+     "texto": "Podcast",
+     "motivo": "contenidos de audio",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -2012,13 +2048,25 @@
    "direccion": "Bulnes 658",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 4
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio."
+    "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio.",
+    "2026-10-15 [web] La web vieja no responde; la actividad (Bulnes 658) se anuncia en Instagram @espaciomoebius."
+   ],
+   "enlace_bio": "https://linktr.ee/espaciomoebius",
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2034,15 +2082,32 @@
    "barrio": "Almagro",
    "direccion": "Maza 177",
    "entradas": [
+    "https://hastatrilce.com.ar/",
     "https://hastatrilce.com.ar/programacion/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 7,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "extraccion": "la portada lista obras y ciclos con 'Ver más'; cada ficha (se lee con fetch desde la pestaña) trae día, hora, precio y descripción",
+    "url": "hastatrilce.com.ar sin www"
+   },
+   "notas": [
+    "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
+    }
+   ]
   },
   {
    "id": "impa-centro-cultural-impa-la-fabrica",
@@ -2052,19 +2117,30 @@
     "IMPA CENTRO CULTURAL IMPA LA FABRICA"
    ],
    "web": "https://www.impalafabrica.org.ar",
-   "instagram": "@ccimpalafabrica",
+   "instagram": "@centroculturalimpa",
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Querandies 4290",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web propia; cartelera en Alternativa Teatral (ya rastreada) e Instagram @centroculturalimpa."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2678,13 +2754,32 @@
    "direccion": "Zelaya 3122",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Obra 'Dejar de ser' sin fechas publicadas; sin agenda en la web."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://culturalsoma.com/clases/",
+     "texto": "Clases",
+     "motivo": "clases regulares de la academia",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -3689,13 +3784,32 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_cultural",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: no_es_agenda] Actividades/talleres, sin fechas"
+    "2026-10-14 [revisión anterior: no_es_agenda] Actividades/talleres, sin fechas",
+    "2026-10-15 [web] Blog abandonado desde 2011 (Bacacay 1608)."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "http://estaciondelosdeseos.blogspot.com/",
+     "texto": "Otras actividades",
+     "motivo": "menú del blog sin entradas propias",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4190,13 +4304,44 @@
    "direccion": "Arredondo, Virrey 2495",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_cultural",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: no_es_agenda] Alquiler de salas"
+    "2026-10-14 [revisión anterior: no_es_agenda] Alquiler de salas",
+    "2026-10-15 [web] Sala de alquiler en Belgrano (Virrey Arredondo 2495); cartelera desactualizada desde 2019."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.inboccalupo.com.ar/salas",
+     "texto": "Alquiler de salas",
+     "motivo": "alquiler",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.inboccalupo.com.ar/espectaculoseducativos",
+     "texto": "Espectáculos educativos",
+     "motivo": "obras para escuelas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.inboccalupo.com.ar/mundoempresas",
+     "texto": "Mundo empresas",
+     "motivo": "eventos corporativos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4730,13 +4875,44 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Espectáculos"
+    "2026-10-14 [revisión anterior: navegador] Espectáculos",
+    "2026-10-15 [web] Web con cartelera de 2024 sin actualizar; el sitio redefine JSON.stringify (usar concatenación de texto en la consola)."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "http://www.elhueco.com.ar/editorial/index.html",
+     "texto": "Editorial",
+     "motivo": "editorial, no agenda",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.elhueco.com.ar/prensa.html",
+     "texto": "Prensa",
+     "motivo": "prensa",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elhuecoeditora.mitiendanube.com/",
+     "texto": "Tienda virtual",
+     "motivo": "tienda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5015,11 +5191,44 @@
    "direccion": "Peru 352",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Sitio institucional sin agenda; la actividad se comunica por redes."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://espacioculturalsanandres.com/quienes-somos/",
+     "texto": "Quiénes somos",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacioculturalsanandres.com/donaciones/",
+     "texto": "Donaciones",
+     "motivo": "donaciones",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacioculturalsanandres.com/contacto/",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "la-vidriera-de-la-dgeart",
@@ -5162,13 +5371,26 @@
    "direccion": "Chilavert, Martiniano, Coronel 1136",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2015"
+    "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2015",
+    "2026-10-15 [web] Blog sin actualizar desde 2015."
+   ],
+   "comportamiento": {
+    "url": "usar https://gtcpompeya.blogspot.com sin www"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5283,13 +5505,50 @@
    "direccion": "Del Libertador Av. 8465",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin eventos publicados en la web; solo cursos."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://ecunhi.com.ar/category/cursos-y-talleres/",
+     "texto": "Talleres",
+     "motivo": "cursos que empezaron en abril, con inscripción",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://ecunhi.com.ar/category/cursos-y-talleres/musica/",
+     "texto": "Música",
+     "motivo": "cursos de música ya en marcha",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://ecunhi.com.ar/category/cursos-y-talleres/letras/",
+     "texto": "Letras",
+     "motivo": "cursos de letras ya en marcha",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://ecunhi.com.ar/institucional/",
+     "texto": "Institucional",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5988,13 +6247,34 @@
    "direccion": "Godoy Cruz 2655",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Escuela; sin agenda de eventos"
+    "2026-10-14 [revisión anterior: sin_agenda] Escuela; sin agenda de eventos",
+    "2026-10-15 [web] Escuela de teatro musical; sin agenda en la web."
+   ],
+   "comportamiento": {
+    "url": "usar https://escuelajuanrodo.com.ar sin www; con www da un error fatal de PHP"
+   },
+   "enlaces_descartados": [
+    {
+     "url": "https://www.escuelajuanrodo.com.ar/#contacto",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6308,14 +6588,25 @@
    "direccion": "La Plata Av. 1255",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: Coincidencia dudosa; confirmar",
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin web ni redes encontradas."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6573,13 +6864,50 @@
    "direccion": "Catamarca 1747",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío"
+    "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío",
+    "2026-10-15 [web] Eventos = alquiler de espacios; sin agenda en la web, ver Instagram @knopfundacion."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.naum-knop.org/prensa",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.naum-knop.org/naum/biografia",
+     "texto": "Naum Knop",
+     "motivo": "biografía del artista",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.naum-knop.org/fundacion/historia",
+     "texto": "Fundación Naum Knop",
+     "motivo": "historia",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.naum-knop.org/contacto",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6914,13 +7242,37 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sitio sin actividad desde 2021."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://oei.org.ar/espaciocultural/blog/",
+     "texto": "Blog del espacio cultural",
+     "motivo": "crónicas de 2020 y 2021",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://oei.org.ar/espaciocultural/espacio-digital/",
+     "texto": "Espacio digital",
+     "motivo": "contenidos online sin fechas",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6936,18 +7288,52 @@
    "barrio": "Recoleta",
    "direccion": "Cordoba Av. 3271",
    "entradas": [
+    "https://felizarcoiris.com/",
     "https://felizarcoiris.com/agenda"
    ],
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "extraccion": "la portada lista los ciclos semanales por día (miércoles a domingo, 20 h a 5 h); no hay fechas puntuales"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 1
     }
-   }
+   },
+   "notas": [
+    "2026-10-15 [web] Programación semanal fija; sin fechas puntuales."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://felizarcoiris.com/talleres",
+     "texto": "Talleres",
+     "motivo": "talleres de la comunidad",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://felizarcoiris.com/preregistro/",
+     "texto": "Preregistro",
+     "motivo": "registro para entrar",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://felizarcoiris.com/sumate",
+     "texto": "Sumate a Feliza",
+     "motivo": "membresía del club",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ]
   },
   {
    "id": "british-art-centre",
@@ -8275,13 +8661,32 @@
    "direccion": "Calvo, Carlos 578",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: desactualizado] Blog WordPress con posts viejos"
+    "2026-10-14 [revisión anterior: desactualizado] Blog WordPress con posts viejos",
+    "2026-10-15 [web] Blog sin actualizar desde 2011."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "http://fedrosantelmo.wordpress.com/local-en-san-telmo/",
+     "texto": "Local en San Telmo",
+     "motivo": "descripción del local",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8301,13 +8706,50 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Sin agenda en la web; muestras y festival sin fechas publicadas."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://www.mercedessosa.org/la-fundacion/",
+     "texto": "La Fundación",
+     "motivo": "institucional",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.mercedessosa.org/acciones-sociales/",
+     "texto": "Instituciones educativas",
+     "motivo": "acciones sociales sin fechas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.mercedessosa.org/tienda/",
+     "texto": "Tienda",
+     "motivo": "tienda online",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.mercedessosa.org/discorgrafia/",
+     "texto": "Discografía",
+     "motivo": "discos",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -8716,7 +9158,35 @@
    "instagram": "@espaciomalcolm",
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
-   "direccion": "Aguirre 456"
+   "direccion": "Aguirre 456",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Linktree desactualizado; seguir redes del espacio."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://linktr.ee/espaciomalcolm",
+     "texto": "DIAFAR web",
+     "motivo": "sitio de la asociación, no agenda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-orsai",
@@ -8732,11 +9202,50 @@
    "direccion": "Serrano 1141",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {},
+   "notas": [
+    "2026-10-15 [web] Sitio editorial de Orsai; sin cartelera de eventos en la web."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://audiovisual.orsai.org/",
+     "texto": "Cine",
+     "motivo": "producción audiovisual de Orsai, no cartelera",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://escuela.orsai.org/",
+     "texto": "Escuela",
+     "motivo": "talleres de escritura virtuales",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacio.orsai.org/blog",
+     "texto": "Blog",
+     "motivo": "notas",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://tienda.orsai.org/",
+     "texto": "Tienda",
+     "motivo": "tienda",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-salvo",
@@ -8765,13 +9274,38 @@
    "direccion": "Serrano 587",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Escuela de música y artes; comunica por Instagram @espacioukelele."
+   ],
+   "comportamiento": {},
+   "enlaces_descartados": [
+    {
+     "url": "https://espacioukelele.com.ar/galeria/",
+     "texto": "Galería",
+     "motivo": "fotos",
+     "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacioukelele.com.ar/contacto/",
+     "texto": "Contacto",
+     "motivo": "contacto",
+     "fecha": "2026-10-15"
+    }
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -9244,14 +9778,25 @@
    "direccion": "Zuviria 6654",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: web corregida (antes https://www.piedrabuenarte.com.ar)",
-    "2026-10-14 [revisión anterior: navegador] Blog con novedades fechadas"
+    "2026-10-14 [revisión anterior: navegador] Blog con novedades fechadas",
+    "2026-10-15 [web] Blog sin actualizar desde 2011 (Villa Lugano)."
+   ],
+   "comportamiento": {},
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {

@@ -5,8 +5,8 @@
   "hasta": "2026-10-29"
  },
  "rastreo": {
-  "capturas": 169,
-  "con_eventos": 101
+  "capturas": 191,
+  "con_eventos": 104
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -61,9 +61,11 @@
   "EL GALPON DE CATALINAS",
   "EL GALPON DE GUEVARA",
   "EMERGENTE CLUB ALMAGRO",
+  "ESPACIO LA TRIBU",
   "El Cultural San Martín",
   "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
+  "FELIZA CULTURA ARCOIRIS",
   "Fundación Andreani",
   "Fundación Klemm",
   "Fundación Larivière",
@@ -74,6 +76,7 @@
   "Galería Piedras",
   "Galería Vasari",
   "Galería Zurbarán",
+  "HASTA TRILCE",
   "Hache Galería",
   "Henrique Faria Buenos Aires",
   "Indiehoy: Agenda de recitales",
@@ -5628,6 +5631,28 @@
    "lng": ""
   },
   {
+   "titulo": "After Jueves: el jueves de Feliza",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 3271",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "Jueves, 20 h a 5 h",
+   "precio": "Consultar",
+   "descripcion": "Cultura, comunidad y la noche que empieza bien.",
+   "url": "https://felizarcoiris.com/",
+   "dominio": "felizarcoiris.com",
+   "estado": "Próximo",
+   "lugar_verificado": "FELIZA CULTURA ARCOIRIS",
+   "fuentes": [
+    "FELIZA CULTURA ARCOIRIS"
+   ],
+   "lat": -34.597839,
+   "lng": -58.412882
+  },
+  {
    "titulo": "Alejandro Kauderer y Ernesto Romeo - Concierto para Organo y Sintetizadores (artista invitado Federi",
    "categoria": "Música",
    "lugar": "Basilica del Santisimo Sacramento",
@@ -9540,6 +9565,28 @@
    ],
    "lat": -34.604245,
    "lng": -58.3884
+  },
+  {
+   "titulo": "Seminario Hibridación: pensar y actuar en la complejidad",
+   "categoria": "Taller",
+   "lugar": "FM La Tribu",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-17",
+   "hora": "11:30",
+   "horarios": "Sábados de 11.30 a 13.30 h",
+   "precio": "Consultar",
+   "descripcion": "Seminario estable del colectivo A Pesar de Todo / Malgré Tout, a cargo de Miguel Benasayag y otros; del 29 de agosto al 17 de octubre, 11.30 a 13.30 h.",
+   "url": "https://fmlatribu.com/talleres",
+   "dominio": "fmlatribu.com",
+   "estado": "Próximo",
+   "lugar_verificado": "ESPACIO LA TRIBU",
+   "fuentes": [
+    "ESPACIO LA TRIBU"
+   ],
+   "lat": "",
+   "lng": ""
   },
   {
    "titulo": "Sensaciones de Tango en Café Tortoni",
@@ -17001,6 +17048,28 @@
    "lng": ""
   },
   {
+   "titulo": "Patio Marika: Pop vs Perreo toda la noche",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 3271",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "Viernes, 20 h a 5 h",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de los viernes en Feliza.",
+   "url": "https://felizarcoiris.com/",
+   "dominio": "felizarcoiris.com",
+   "estado": "Próximo",
+   "lugar_verificado": "FELIZA CULTURA ARCOIRIS",
+   "fuentes": [
+    "FELIZA CULTURA ARCOIRIS"
+   ],
+   "lat": -34.597839,
+   "lng": -58.412882
+  },
+  {
    "titulo": "Perlas Profanas",
    "categoria": "Evento",
    "lugar": "TEATRO EL POPULAR",
@@ -17695,6 +17764,28 @@
    ],
    "lat": -34.613108,
    "lng": -58.370577
+  },
+  {
+   "titulo": "Rodeo, el ciclo: viernes flamencos en Hasta Trilce",
+   "categoria": "Música",
+   "lugar": "HASTA TRILCE",
+   "barrio": "Almagro",
+   "direccion": "Maza 177",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Tercer viernes de cada mes, una propuesta flamenca diferente.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "HASTA TRILCE",
+   "fuentes": [
+    "HASTA TRILCE"
+   ],
+   "lat": -34.613273,
+   "lng": -58.416399
   },
   {
    "titulo": "Romphonics + Macedonia en La Tangente",
@@ -20854,6 +20945,28 @@
    "lng": ""
   },
   {
+   "titulo": "Ciclo Tango Nuevo 2026",
+   "categoria": "Música",
+   "lugar": "HASTA TRILCE",
+   "barrio": "Almagro",
+   "direccion": "Maza 177",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "Sábados 22.30 h",
+   "precio": "$ 15000 anticipada",
+   "descripcion": "Quinta temporada del ciclo coproducido con Revista El Sordo.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "HASTA TRILCE",
+   "fuentes": [
+    "HASTA TRILCE"
+   ],
+   "lat": -34.613273,
+   "lng": -58.416399
+  },
+  {
    "titulo": "Ciclo de Folklore: El mensú y el río",
    "categoria": "Música",
    "lugar": "Casa de la Cultura",
@@ -23392,7 +23505,7 @@
    "lng": -58.379031
   },
   {
-   "titulo": "Historias Bailadas",
+   "titulo": "Historias bailadas trasnoche",
    "categoria": "Danza",
    "lugar": "HASTA TRILCE",
    "barrio": "Almagro",
@@ -23401,13 +23514,14 @@
    "fecha_fin": "2026-10-17",
    "hora": "23:50",
    "horarios": "sáb 23:50 (el 17/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: danza",
-   "url": "https://www.alternativateatral.com/obra81721-historias-bailadas",
-   "dominio": "alternativateatral.com",
+   "precio": "$ 25000",
+   "descripcion": "Función de trasnoche de Historias bailadas.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "HASTA TRILCE",
    "fuentes": [
+    "HASTA TRILCE",
     "Alternativa Teatral"
    ],
    "lat": -34.613273,
@@ -24054,28 +24168,6 @@
    "lng": ""
   },
   {
-   "titulo": "La Escriba ( Partitura Poética Para Mujer)",
-   "categoria": "Teatro",
-   "lugar": "HASTA TRILCE",
-   "barrio": "Almagro",
-   "direccion": "Maza 177",
-   "fecha_inicio": "2026-10-17",
-   "fecha_fin": "2026-10-31",
-   "hora": "18:00",
-   "horarios": "sáb 18:00 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra87658-la-escriba-partitura-poetica-para-mujer",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.613273,
-   "lng": -58.416399
-  },
-  {
    "titulo": "La Generación Cansada",
    "categoria": "Teatro",
    "lugar": "Teatro Del Pueblo",
@@ -24602,6 +24694,29 @@
    ],
    "lat": "",
    "lng": ""
+  },
+  {
+   "titulo": "La escriba (Partitura poética para mujer)",
+   "categoria": "Teatro",
+   "lugar": "HASTA TRILCE",
+   "barrio": "Almagro",
+   "direccion": "Maza 177",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "Sábados 18 h",
+   "precio": "$ 25000",
+   "descripcion": "Una autora escribe la trama de su obra y se cuestiona hacia dónde la lleva el caos de la creación. Desde el 5/9.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "HASTA TRILCE",
+   "fuentes": [
+    "HASTA TRILCE",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.613273,
+   "lng": -58.416399
   },
   {
    "titulo": "La vida por correspondencia: lectura pública de cartas",
@@ -29085,6 +29200,28 @@
    "lng": -58.379462
   },
   {
+   "titulo": "Antidomingos",
+   "categoria": "Evento",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 3271",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "Domingos, 20 h a 5 h",
+   "precio": "Consultar",
+   "descripcion": "Cerrá la semana con arte cuir.",
+   "url": "https://felizarcoiris.com/",
+   "dominio": "felizarcoiris.com",
+   "estado": "Próximo",
+   "lugar_verificado": "FELIZA CULTURA ARCOIRIS",
+   "fuentes": [
+    "FELIZA CULTURA ARCOIRIS"
+   ],
+   "lat": -34.597839,
+   "lng": -58.412882
+  },
+  {
    "titulo": "Antidomingos en el Recoleta",
    "categoria": "Música",
    "lugar": "Centro Cultural Recoleta",
@@ -31595,7 +31732,7 @@
    "lng": ""
   },
   {
-   "titulo": "Maldición Eterna A Quien Lea Estas Páginas",
+   "titulo": "Maldición eterna a quien lea estas páginas",
    "categoria": "Teatro",
    "lugar": "HASTA TRILCE",
    "barrio": "Almagro",
@@ -31603,14 +31740,15 @@
    "fecha_inicio": "2026-10-18",
    "fecha_fin": "2026-10-25",
    "hora": "18:00",
-   "horarios": "dom 18:00 (hasta el 25/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra100381-maldicion-eterna-a-quien-lea-estas-paginas",
-   "dominio": "alternativateatral.com",
+   "horarios": "Domingos 18 h",
+   "precio": "$ 25000",
+   "descripcion": "Teatro: en 1978 un argentino viejo y amnésico llega a Nueva York. Desde el 23/8.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "HASTA TRILCE",
    "fuentes": [
+    "HASTA TRILCE",
     "Alternativa Teatral"
    ],
    "lat": -34.613273,
@@ -34573,22 +34711,23 @@
    "lng": ""
   },
   {
-   "titulo": "Peña Sin Cadenas",
-   "categoria": "Evento",
+   "titulo": "Peña Sin Cadenas: cine en fílmico",
+   "categoria": "Cine",
    "lugar": "HASTA TRILCE",
    "barrio": "Almagro",
    "direccion": "Maza 177",
    "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-12-22",
-   "hora": "",
-   "horarios": "mar 19:00 | 21:00 (hasta el 22/12)",
-   "precio": "Consultar",
-   "descripcion": "",
-   "url": "https://www.alternativateatral.com/obra75124-pena-sin-cadenas",
-   "dominio": "alternativateatral.com",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:00",
+   "horarios": "Martes 19 y 21 h",
+   "precio": "$ 8000",
+   "descripcion": "Presenta Fernando Martín Peña: funciones a las 19 y a las 21 h.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "HASTA TRILCE",
    "fuentes": [
+    "HASTA TRILCE",
     "Alternativa Teatral"
    ],
    "lat": -34.613273,
@@ -34703,6 +34842,28 @@
    ],
    "lat": -34.614179,
    "lng": -58.379462
+  },
+  {
+   "titulo": "After Miércoles",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "FELIZA CULTURA ARCOIRIS",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 3271",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "Miércoles, 20 h a 5 h",
+   "precio": "Consultar",
+   "descripcion": "Empezá bien: happy hour hasta las 22 h. Club social y cultural cuir.",
+   "url": "https://felizarcoiris.com/",
+   "dominio": "felizarcoiris.com",
+   "estado": "Próximo",
+   "lugar_verificado": "FELIZA CULTURA ARCOIRIS",
+   "fuentes": [
+    "FELIZA CULTURA ARCOIRIS"
+   ],
+   "lat": -34.597839,
+   "lng": -58.412882
   },
   {
    "titulo": "Aitana",
@@ -34839,8 +35000,8 @@
    "lng": -58.374353
   },
   {
-   "titulo": "Casa Tomada",
-   "categoria": "Teatro",
+   "titulo": "Casa tomada, de la Compañía de Danzas Ancestral",
+   "categoria": "Danza",
    "lugar": "HASTA TRILCE",
    "barrio": "Almagro",
    "direccion": "Maza 177",
@@ -34848,13 +35009,14 @@
    "fecha_fin": "2026-10-21",
    "hora": "20:30",
    "horarios": "mié 20:30 (el 21/10)",
-   "precio": "Consultar",
-   "descripcion": "Géneros: teatro",
-   "url": "https://www.alternativateatral.com/obra101994-casa-tomada",
-   "dominio": "alternativateatral.com",
+   "precio": "$ 23000",
+   "descripcion": "Danza: las raíces de los árboles milenarios rompen las baldosas.",
+   "url": "https://hastatrilce.com.ar/",
+   "dominio": "hastatrilce.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "HASTA TRILCE",
    "fuentes": [
+    "HASTA TRILCE",
     "Alternativa Teatral"
    ],
    "lat": -34.613273,
