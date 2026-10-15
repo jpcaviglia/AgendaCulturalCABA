@@ -13,6 +13,12 @@
    "verificada": true
   },
   {
+   "nombre": "Alberto Sendrós",
+   "web": "https://www.albertosendros.com",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
    "nombre": "Ignacio Liprandi",
    "web": "https://www.ignacioliprandi.com",
    "tipo": "Galería o museo",
@@ -150,6 +156,20 @@
    "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
   },
   {
+   "nombre": "Arte x Arte",
+   "web": "https://artexarte.com.ar/",
+   "tipo": "Galería o museo",
+   "verificada": true,
+   "instagram": "@artexarteespacio"
+  },
+  {
+   "nombre": "Almacén de Arte",
+   "web": "",
+   "tipo": "Galería o museo",
+   "verificada": false,
+   "nota": "URL no respondió desde el script (error de conexión o bloqueo); confirmar en el navegador"
+  },
+  {
    "nombre": "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
    "web": "https://www.macba.com.ar/",
    "tipo": "Galería o museo",
@@ -158,6 +178,12 @@
   {
    "nombre": "Calvaresi Galería",
    "web": "https://www.calvaresicontemporaneo.com/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
+   "nombre": "Cosmocosa",
+   "web": "https://cosmocosa.com/",
    "tipo": "Galería o museo",
    "verificada": true
   },
@@ -174,6 +200,18 @@
    "verificada": true
   },
   {
+   "nombre": "Gachi Prieto Galería",
+   "web": "https://www.gachiprieto.com/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
+   "nombre": "Galería Luisa Pedrouzo",
+   "web": "",
+   "tipo": "Galería o museo",
+   "verificada": false
+  },
+  {
    "nombre": "Hache Galería",
    "web": "https://hachegaleria.com/",
    "tipo": "Galería o museo",
@@ -186,8 +224,26 @@
    "verificada": true
   },
   {
+   "nombre": "Mar Dulce Galería",
+   "web": "",
+   "tipo": "Galería o museo",
+   "verificada": false
+  },
+  {
+   "nombre": "MARQ Museo de Arquitectura y Diseño",
+   "web": "https://socearq.org/marq/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
    "nombre": "Museo Casa de Yrurtia",
    "web": "https://museoyrurtia.cultura.gob.ar/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
+   "nombre": "Museo de Arte Español Enrique Larreta",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
    "tipo": "Galería o museo",
    "verificada": true
   },
@@ -216,6 +272,12 @@
    "verificada": true
   },
   {
+   "nombre": "Museo Kosice",
+   "web": "https://kosice.com.ar/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
    "nombre": "Museo Nacional de Arte Decorativo",
    "web": "https://museoartedecorativo.cultura.gob.ar/",
    "tipo": "Galería o museo",
@@ -224,6 +286,12 @@
   {
    "nombre": "Museo Nacional de Arte Oriental",
    "web": "https://mnao.cultura.gob.ar/",
+   "tipo": "Galería o museo",
+   "verificada": true
+  },
+  {
+   "nombre": "Museo Nacional del Grabado",
+   "web": "https://museodelgrabado.cultura.gob.ar/",
    "tipo": "Galería o museo",
    "verificada": true
   },

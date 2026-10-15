@@ -544,6 +544,44 @@
    ]
   },
   {
+   "id": "alberto-sendros",
+   "nombre": "Alberto Sendrós",
+   "tipo": "galeria",
+   "lugares": [
+    "Alberto Sendrós"
+   ],
+   "web": "http://galeriasendros.com/",
+   "instagram": "@galeria.sendros",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual.",
+    "2026-10-15: la web cambió de https://www.albertosendros.com a http://galeriasendros.com/",
+    "2026-10-15 [web] Web nueva galeriasendros.com e Instagram @galeria.sendros; la web no tiene muestra vigente, mirar el Instagram."
+   ],
+   "entradas": [
+    "http://galeriasendros.com/"
+   ],
+   "comportamiento": {
+    "estructura": "Una sola página con anclas: #muestraActual, #muestrasPasadas, #artistas. La muestra actual se ve arriba de todo."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
+  },
+  {
    "id": "ignacio-liprandi",
    "nombre": "Ignacio Liprandi",
    "tipo": "galeria",
@@ -1308,6 +1346,83 @@
    ]
   },
   {
+   "id": "arte-x-arte",
+   "nombre": "Arte x Arte",
+   "tipo": "galeria",
+   "lugares": [
+    "Arte x Arte"
+   ],
+   "web": "https://artexarte.com.ar/",
+   "instagram": "@artexarteespacio",
+   "origen": "data/galerias.json",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 6
+    }
+   },
+   "entradas": [
+    "https://artexarte.com.ar/la-breve-eternidad/",
+    "https://artexarte.com.ar/actividades/"
+   ],
+   "comportamiento": {
+    "menu": "Muestra Actual (enlace a la página de la muestra), Actividades, Visitas Guiadas, Eventos, Encuentros",
+    "plataforma": "WordPress"
+   },
+   "notas": [
+    "2026-10-15 [web] Lavalleja 1062. La web no tiene muestra vigente en octubre; revisar Instagram @artexarteespacio."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
+  },
+  {
+   "id": "almacen-de-arte",
+   "nombre": "Almacén de Arte",
+   "tipo": "galeria",
+   "lugares": [
+    "Almacén de Arte"
+   ],
+   "web": "https://www.almacendearte.net/",
+   "instagram": "@almacendearteok",
+   "origen": "data/galerias.json",
+   "notas": [
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de  a https://www.almacendearte.net/",
+    "2026-10-15 [web] Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram."
+   ],
+   "entradas": [
+    "https://www.almacendearte.net/actividades"
+   ],
+   "comportamiento": {
+    "plataforma": "Wix",
+    "sede": "Sede CABA ALMACÉN 47 dentro de Central AFFAIR (Galerías Larreta)."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 5
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
+  },
+  {
    "id": "macba-museo-de-arte-contemporaneo-de-buenos-aires",
    "nombre": "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
    "tipo": "galeria",
@@ -1456,6 +1571,44 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    }
+   ]
+  },
+  {
+   "id": "asociacion-calabresa-mutual-y-cultural",
+   "nombre": "ASOCIACION CALABRESA MUTUAL Y CULTURAL",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION CALABRESA MUTUAL Y CULTURAL"
+   ],
+   "web": "http://www.asociacioncalabresa.org.ar/index.html",
+   "instagram": "@asociacioncalabresa",
+   "origen": "data/lugares.json",
+   "barrio": "Almagro",
+   "direccion": "Yrigoyen, Hipolito Av. 3950",
+   "entradas": [
+    "http://www.asociacioncalabresa.org.ar/eventos.html"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "comportamiento": {
+    "estructura": "Tabla anual con fechas fijas; las películas y óperas se completan a último momento."
+   },
+   "notas": [
+    "2026-10-15 [web] Cine debate el 24/10 15:30, título a confirmar."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ]
   },
@@ -2404,6 +2557,80 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Zelaya 3134"
+  },
+  {
+   "id": "asoc-civil-la-bombocova",
+   "nombre": "ASOC. CIVIL LA BOMBOCOVA",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOC. CIVIL LA BOMBOCOVA"
+   ],
+   "web": "http://labombocova.com/equipo/",
+   "instagram": "@labombocova",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Perdriel 449",
+   "entradas": [
+    "https://labombocova.com/eventos/"
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "notas": [
+    "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos",
+    "2026-10-15 [web] Productora de espectáculos para contratar; sin agenda pública."
+   ],
+   "comportamiento": {
+    "contenido": "catálogo de servicios para eventos"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
+  },
+  {
+   "id": "asociacion-dante-alighieri",
+   "nombre": "ASOCIACION DANTE ALIGHIERI",
+   "tipo": "lugar",
+   "lugares": [
+    "ASOCIACION DANTE ALIGHIERI"
+   ],
+   "web": "https://www.dante.edu.ar/",
+   "instagram": "@ladante.ba",
+   "origen": "data/lugares.json",
+   "barrio": "Barracas",
+   "direccion": "Montes De Oca, Manuel Av. 501",
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "comportamiento": {
+    "contenido": "solo cursos"
+   },
+   "notas": [
+    "2026-10-15 [web] Sin agenda cultural en la web; mirar Instagram @ladante.ba."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "barrakesh-espacio-cultural",
@@ -7703,6 +7930,46 @@
    "direccion": "Av. del Libertador 1902"
   },
   {
+   "nombre": "Museo de Arte Español Enrique Larreta",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo de Arte Español Enrique Larreta"
+   ],
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+   "instagram": "@museolarreta",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+    "2026-10-15 [web] Agenda web desactualizada (2025); revisar Instagram @museolarreta."
+   ],
+   "id": "museo-de-arte-espanol-enrique-larreta",
+   "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta"
+   ],
+   "comportamiento": {
+    "web": "Página de la Ciudad desactualizada; sus obras de teatro salen en Alternativa Teatral (espacio Museo Larreta) y en Instagram/Linktree."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291"
+  },
+  {
    "nombre": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
    "tipo": "galeria",
    "lugares": [
@@ -7864,6 +8131,46 @@
    "direccion": "Laprida 1212"
   },
   {
+   "nombre": "Museo Nacional del Grabado",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Nacional del Grabado"
+   ],
+   "web": "https://museodelgrabado.cultura.gob.ar/",
+   "instagram": "@mndelgrabado",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://museodelgrabado.cultura.gob.ar/",
+    "2026-10-15 [web] Sin actividades ni exhibición vigente; parece cerrado temporalmente."
+   ],
+   "id": "museo-nacional-del-grabado",
+   "entradas": [
+    "https://museodelgrabado.cultura.gob.ar/actividades/"
+   ],
+   "comportamiento": {
+    "estado": "aviso de cierre en la portada (octubre 2026)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985, 2° piso"
+  },
+  {
    "nombre": "Museo Nacional de Arte Oriental",
    "tipo": "galeria",
    "lugares": [
@@ -7902,6 +8209,46 @@
    ],
    "barrio": "San Nicolás",
    "direccion": "Viamonte 525"
+  },
+  {
+   "nombre": "Museo Kosice",
+   "tipo": "galeria",
+   "lugares": [
+    "Museo Kosice"
+   ],
+   "web": "https://kosice.com.ar/",
+   "instagram": "@museokosice",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://kosice.com.ar/",
+    "2026-10-15 [web] Humahuaca 4662. Sin fechas de octubre; revisar Instagram."
+   ],
+   "id": "museo-kosice",
+   "entradas": [
+    "https://kosice.com.ar/"
+   ],
+   "comportamiento": {
+    "visitas": "Visitas con reserva; fechas en Novedades."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 4662"
   },
   {
    "nombre": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
@@ -7982,6 +8329,46 @@
    ],
    "barrio": "Belgrano",
    "direccion": "O'Higgins 2390"
+  },
+  {
+   "nombre": "MARQ Museo de Arquitectura y Diseño",
+   "tipo": "galeria",
+   "lugares": [
+    "MARQ Museo de Arquitectura y Diseño"
+   ],
+   "web": "https://socearq.org/marq/",
+   "instagram": "@marq_sca",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://socearq.org/marq/",
+    "2026-10-15 [web] MARQ funciona en Av. del Libertador 999; revisar Instagram."
+   ],
+   "id": "marq-museo-de-arquitectura-y-diseno",
+   "entradas": [
+    "https://socearq.org/marq/"
+   ],
+   "comportamiento": {
+    "web": "No tiene web propia: la programación sale en socearq.org/marq/ y en Instagram @marq_sca."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 999"
   },
   {
    "nombre": "Fundación Andreani",
@@ -8138,6 +8525,75 @@
    ]
   },
   {
+   "nombre": "Gachi Prieto Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Gachi Prieto Galería"
+   ],
+   "web": "https://www.gachiprieto.com/",
+   "instagram": "@gachiprietogaleria",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.gachiprieto.com/",
+    "2026-10-15 [web] Web confirmada gachiprieto.com; sin muestras publicadas, mirar Instagram."
+   ],
+   "id": "gachi-prieto-galeria",
+   "comportamiento": {
+    "plataforma": "Wix"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
+  },
+  {
+   "nombre": "Galería Luisa Pedrouzo",
+   "tipo": "galeria",
+   "lugares": [
+    "Galería Luisa Pedrouzo"
+   ],
+   "web": "",
+   "instagram": "@luisapedrouzo",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15 [web] Sin web propia; se agregó el Instagram @luisapedrouzo."
+   ],
+   "id": "galeria-luisa-pedrouzo",
+   "comportamiento": {
+    "canal": "sin web; usar Instagram"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
+  },
+  {
    "nombre": "Calvaresi Galería",
    "tipo": "galeria",
    "lugares": [
@@ -8176,6 +8632,77 @@
     }
    ],
    "barrio": "San Telmo"
+  },
+  {
+   "nombre": "Mar Dulce Galería",
+   "tipo": "galeria",
+   "lugares": [
+    "Mar Dulce Galería"
+   ],
+   "web": "",
+   "instagram": "@galeriamardulce",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15 [web] Galería con Instagram @galeriamardulce y tienda online."
+   ],
+   "id": "mar-dulce-galeria",
+   "comportamiento": {
+    "canal": "sin web de muestras; usar Instagram"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
+  },
+  {
+   "nombre": "Cosmocosa",
+   "tipo": "galeria",
+   "lugares": [
+    "Cosmocosa"
+   ],
+   "web": "https://cosmocosa.com/",
+   "instagram": "@cosmocosa",
+   "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
+   "notas": [
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://cosmocosa.com/",
+    "2026-10-15 [web] Galería abierta en Montevideo 1430 (Recoleta); la web está en renovación, mirar Instagram."
+   ],
+   "id": "cosmocosa",
+   "comportamiento": {
+    "estado_web": "en renovación (octubre 2026)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Montevideo 1430, PB"
   },
   {
    "nombre": "Fundación Larivière",
