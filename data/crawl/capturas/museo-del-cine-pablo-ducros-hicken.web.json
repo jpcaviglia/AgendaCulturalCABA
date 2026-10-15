@@ -1,0 +1,48 @@
+{
+ "id": "museo-del-cine-pablo-ducros-hicken",
+ "canal": "web",
+ "fuente": "Museo del Cine Pablo Ducrós Hicken",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museodelcine",
+  "https://museodelcineba.org/",
+  "https://museodelcineba.org/muestras/",
+  "https://museodelcineba.org/mado-2026-mas-alla-del-olvido-segunda-semana-del-cine-recuperado/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Wilenski, fotógrafo de artistas",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes, miércoles, jueves y viernes de 11 a 19 h; sábados, domingos y feriados de 11 a 20 h; martes cerrado",
+   "lugar": "Museo del Cine Pablo Ducrós Hicken",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "$ 2000 residentes (miércoles gratis para residentes argentinos); $ 10000 público general",
+   "url": "https://museodelcineba.org/muestras/",
+   "descripcion": "Primera exposición integral sobre la colección Wilenski: más de dos mil negativos de vidrio, en su mayoría inéditos, de un fotógrafo de retratos de artistas y figuras de la sociedad porteña.",
+   "vigente_sin_fin": true,
+   "post": ""
+  },
+  {
+   "titulo": "Museo del Cine Pablo Ducrós Hicken: exhibición \"Soñar, soñar\"",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes, miércoles, jueves y viernes de 11 a 19 h; sábados, domingos y feriados de 11 a 20 h; martes cerrado",
+   "lugar": "Museo del Cine Pablo Ducrós Hicken",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Museos",
+   "precio": "$ 2000 residentes; $ 10000 público general",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museodelcine",
+   "descripcion": "Museo dedicado a la preservación, investigación y difusión del patrimonio audiovisual argentino, con colección de historia del cine argentino y sala de proyecciones.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

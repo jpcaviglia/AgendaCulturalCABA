@@ -389,6 +389,12 @@
   "fecha": "2026-10-15",
   "url": "https://herlitzkafaria.com/exhibiciones/wasichay"
  },
+ "incaa.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+ },
  "indiehoy.com": {
   "ok": false,
   "motivo": "X-Frame-Options sameorigin",
@@ -461,6 +467,12 @@
   "fecha": "2026-10-15",
   "url": "https://livepass.com.ar/events/tres-mundos-en-cafe-berlin-2026-10-18-20-30-00-0300"
  },
+ "macnconicet.gob.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://www.macnconicet.gob.ar/visitas-reapertura/"
+ },
  "malba.org.ar": {
   "ok": false,
   "motivo": "HTTP 403",
@@ -497,6 +509,18 @@
   "fecha": "2026-10-15",
   "url": "https://www.mundogea.com.ar/sitio2023/"
  },
+ "museo.filo.uba.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museo.filo.uba.ar/actividades"
+ },
+ "museoabasto.org.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://www.museoabasto.org.ar/dias-horarios"
+ },
  "museoartedecorativo.cultura.gob.ar": {
   "ok": false,
   "motivo": "HTTP 403",
@@ -509,11 +533,41 @@
   "fecha": "2026-10-15",
   "url": "https://museodelacarcova.una.edu.ar/"
  },
+ "museodelcineba.org": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museodelcineba.org/muestras/"
+ },
+ "museodelholocausto.org.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museodelholocausto.org.ar/la-muestra/"
+ },
  "museoelangel.com": {
   "ok": true,
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://museoelangel.com/"
+ },
+ "museoevita.org.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museoevita.org.ar/umbrales-17-obras-una-misma-huella/"
+ },
+ "museohistoriconacional.cultura.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://museohistoriconacional.cultura.gob.ar/exhibiciones/"
+ },
+ "museojudio.org.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museojudio.org.ar/"
  },
  "museomacba.org": {
   "ok": true,
@@ -521,11 +575,41 @@
   "fecha": "2026-10-15",
   "url": "https://museomacba.org/programacion-actuales/"
  },
+ "museomalvinas.cultura.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://museomalvinas.cultura.gob.ar/exhibiciones/"
+ },
+ "museomitre.cultura.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://museomitre.cultura.gob.ar/exhibiciones/"
+ },
  "museomoderno.org": {
   "ok": true,
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://museomoderno.org/exposiciones/bosques-umbral/"
+ },
+ "museorojas.cultura.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://museorojas.cultura.gob.ar/exhibicion/aventuras-en-el-patio-de-los-arquetipos/"
+ },
+ "museos.untref.edu.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://museos.untref.edu.ar/es/muestras/el-legado-que-inspira-el-futuro/"
+ },
+ "museosarmiento.cultura.gob.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-15",
+  "url": "https://museosarmiento.cultura.gob.ar/exhibiciones/"
  },
  "museoyrurtia.cultura.gob.ar": {
   "ok": false,
@@ -730,6 +814,12 @@
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://tickets.congoclubcultural.com.ar/"
+ },
+ "tickets.latangente.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-15",
+  "url": "https://tickets.latangente.com.ar/musica/lobel"
  },
  "timbre4.com": {
   "ok": true,

@@ -1,0 +1,61 @@
+{
+ "id": "espacio-incaa-atlas-flores",
+ "canal": "web",
+ "fuente": "Espacio INCAA Atlas Flores",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Bajo tus pies",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "Todos los días 22 h (15 al 21 de octubre)",
+   "lugar": "Espacio INCAA Atlas Flores",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección de la película argentina Bajo tus pies en el Espacio INCAA Atlas Flores.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Soy ella",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-10-15",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección de Soy ella en el Espacio INCAA ATE Cultura.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Encantador",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Espacio INCAA ATE Cultura",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Proyección de Encantador en el Espacio INCAA ATE Cultura.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

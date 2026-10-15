@@ -1,0 +1,30 @@
+{
+ "id": "la-vieja-guardia",
+ "canal": "web",
+ "fuente": "LA VIEJA GUARDIA",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.laviejaguarida.com.ar",
+  "https://www.alternativateatral.com.ar/obra98228-don-chicho"
+ ],
+ "eventos": [
+  {
+   "titulo": "Don Chicho",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "Sábados de octubre 20:30 h",
+   "lugar": "LA VIEJA GUARDIA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.alternativateatral.com.ar/obra98228-don-chicho",
+   "descripcion": "Grotesco argentino de Alberto Novión, adaptación y dirección de Gonzalo A. Villanueva. Don Chicho, inmigrante italiano, y su esposa Regina acorralan a su hijo Luciano para que les devuelva todo lo que le dieron.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

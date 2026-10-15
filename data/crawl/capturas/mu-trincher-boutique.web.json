@@ -1,0 +1,65 @@
+{
+ "id": "mu-trincher-boutique",
+ "canal": "web",
+ "fuente": "MU TRINCHER BOUTIQUE",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://mutrincheraboutique.org/",
+  "https://lavaca.org/trinchera/",
+  "https://lavaca.org/trinchera/category/cartelera/",
+  "https://lavaca.org/trinchera/shop/",
+  "http://www.alternativateatral.com/espacio6395-mu-trinchera-boutique"
+ ],
+ "eventos": [
+  {
+   "titulo": "La vida fracturada",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "$ 10000",
+   "url": "http://www.alternativateatral.com/obra103229-la-vida-fracturada",
+   "descripcion": "Documental de ficción de Tian Cartier, Martín Longo, Pablo Piovano y Maxi Goldschmidt sobre los impactos socioambientales del extractivismo petrolero en Vaca Muerta y la lucha del pueblo Mapuche. Duración: 71 minutos.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Varieté del CIVEAR",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Varieté",
+   "precio": "$ 10000",
+   "url": "http://www.alternativateatral.com/obra103149-variete-del-civear",
+   "descripcion": "Noche de ventriloquía, magia, sketch, comedia y música en el espacio que perteneció al Mago Fu Manchú. Duración: 80 minutos.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Volvé que te perdonamos",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "$ 12000",
+   "url": "http://www.alternativateatral.com/obra103047-volve-que-te-perdonamos",
+   "descripcion": "Monólogo de humor crítico con Viviana Martinez, dirección de Alvaro Panaro, versión libre de una obra de autores italianos situada en los años 70. Duración: 60 minutos.",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

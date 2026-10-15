@@ -1,0 +1,31 @@
+{
+ "id": "museo-malvinas-e-islas-del-atlantico-sur",
+ "canal": "web",
+ "fuente": "Museo Malvinas e Islas del Atlántico Sur",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://museomalvinas.cultura.gob.ar/actividades/",
+  "https://museomalvinas.cultura.gob.ar/exhibiciones/",
+  "https://museomalvinas.cultura.gob.ar/info/visita/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Exhibición permanente del Museo Malvinas e Islas del Atlántico Sur",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a viernes de 9 a 17 h; sábados y domingos de 11 a 18 h",
+   "lugar": "Museo Malvinas e Islas del Atlántico Sur",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Museos",
+   "precio": "",
+   "url": "https://museomalvinas.cultura.gob.ar/exhibiciones/",
+   "descripcion": "Recorrido por los tres pisos del museo sobre la historia de Malvinas y las Islas del Atlántico Sur, en el Espacio Memoria y Derechos Humanos (ex ESMA).",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

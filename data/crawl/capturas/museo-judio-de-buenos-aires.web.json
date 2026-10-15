@@ -1,0 +1,30 @@
+{
+ "id": "museo-judio-de-buenos-aires",
+ "canal": "web",
+ "fuente": "Museo Judío de Buenos Aires",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://museojudio.org.ar/",
+  "https://reservas.museojudio.org.ar/es"
+ ],
+ "eventos": [
+  {
+   "titulo": "Exposición permanente del Museo Judío de Buenos Aires",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a viernes de 10 a 18 h (último ingreso 17:15), con reserva",
+   "lugar": "Museo Judío de Buenos Aires",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Museos",
+   "precio": "",
+   "url": "https://museojudio.org.ar/",
+   "descripcion": "Recorrido por las tradiciones del pueblo judío y por la historia de la inmigración judía a la Argentina desde mediados del siglo XIX; incluye visita al histórico Templo Libertad.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

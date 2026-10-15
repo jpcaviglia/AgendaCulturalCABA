@@ -343,8 +343,8 @@
   "dominio": "laviejaguarida.com.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@laviejaguarida",
-  "estado": "No se detectan eventos",
-  "evidencia": "No aparecen palabras ni enlaces de agenda",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -367,8 +367,8 @@
   "dominio": "lasmilyunartes.blogspot.com",
   "tipo_web": "Red social o enlace",
   "instagram": "@lasmilyunartes",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (2 veces), sin enlace claro",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -583,8 +583,8 @@
   "dominio": "facebook.com",
   "tipo_web": "Red social o enlace",
   "instagram": "",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 400",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Revisar a mano"
  },
  {
@@ -643,8 +643,8 @@
   "dominio": "mutrincheraboutique.org",
   "tipo_web": "Sitio propio",
   "instagram": "@mu.lavaca",
-  "estado": "Inaccesible desde la verificación",
-  "evidencia": "Error de conexión (URLError)",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -655,8 +655,8 @@
   "dominio": "multiespacio-pasco.blogspot.com",
   "tipo_web": "Red social o enlace",
   "instagram": "@elmultipasco",
-  "estado": "Tiene sección de agenda",
-  "evidencia": "1 enlaces a agenda/eventos",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Sitio web"
  },
  {
@@ -1171,8 +1171,8 @@
   "dominio": "facebook.com",
   "tipo_web": "Red social o enlace",
   "instagram": "",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 400",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Revisar a mano"
  },
  {
@@ -1183,8 +1183,8 @@
   "dominio": "mojitosdecuba.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@mojitosdecuba",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "Menciona agenda/eventos (4 veces), sin enlace claro",
+  "estado": "No se detectan eventos",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -1627,8 +1627,8 @@
   "dominio": "artemunar.com.ar",
   "tipo_web": "Sitio propio",
   "instagram": "@munar_arte",
-  "estado": "Inaccesible desde la verificación",
-  "evidencia": "Error de conexión (URLError)",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -1843,8 +1843,8 @@
   "dominio": "buenosaires.gob.ar",
   "tipo_web": "Gobierno o universidad",
   "instagram": "@dgeartistica",
-  "estado": "Inaccesible desde la verificación",
-  "evidencia": "HTTP 404: página no encontrada",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -2299,8 +2299,8 @@
   "dominio": "linktr.ee",
   "tipo_web": "Red social o enlace",
   "instagram": "@libariomultiespacio",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 403",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -3859,8 +3859,8 @@
   "dominio": "linktr.ee",
   "tipo_web": "Red social o enlace",
   "instagram": "@lalala.ortuzar",
-  "estado": "No verificable (bloquea o redirige)",
-  "evidencia": "HTTP 403",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Instagram (sin listado confirmado en la web)"
  },
  {
@@ -4603,8 +4603,200 @@
   "dominio": "incaa.gob.ar",
   "tipo_web": "Sitio propio",
   "instagram": "",
-  "estado": "Probable: menciona eventos",
-  "evidencia": "descubierto en Cine Gaumont (Espacio INCAA) el 2026-10-15",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "MUNTREF Museo de la Inmigración",
+  "barrio": "Puerto Madero",
+  "domicilio": "Av. Antártida Argentina s/n (ingreso por Apostadero Naval)",
+  "web": "https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
+  "dominio": "museos.untref.edu.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@muntref",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
+  "barrio": "Caballito",
+  "domicilio": "Av. Ángel Gallardo 470",
+  "web": "https://www.macnconicet.gob.ar/",
+  "dominio": "macnconicet.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@macn.oficial",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Casa de Ricardo Rojas",
+  "barrio": "Palermo",
+  "domicilio": "Charcas 2837",
+  "web": "https://museorojas.cultura.gob.ar/",
+  "dominio": "museorojas.cultura.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museocasarojas",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Casa Carlos Gardel",
+  "barrio": "Almagro",
+  "domicilio": "Jean Jaurès 735",
+  "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
+  "dominio": "buenosaires.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museocasagardel",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo de la Ciudad",
+  "barrio": "San Telmo",
+  "domicilio": "Defensa 219",
+  "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+  "dominio": "buenosaires.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@buenosairesmuseo",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo de los Niños Abasto",
+  "barrio": "Balvanera",
+  "domicilio": "Av. Corrientes 3247 (Shopping Abasto, nivel 2)",
+  "web": "https://www.museoabasto.org.ar/",
+  "dominio": "museoabasto.org.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museodelosninosabasto",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo del Cine Pablo Ducrós Hicken",
+  "barrio": "Barracas",
+  "domicilio": "Agustín R. Caffarena 51",
+  "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museodelcine",
+  "dominio": "buenosaires.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museodelcineba",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo del Holocausto de Buenos Aires",
+  "barrio": "San Nicolás",
+  "domicilio": "Montevideo 919",
+  "web": "https://museodelholocausto.org.ar/",
+  "dominio": "museodelholocausto.org.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museoshoa",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Histórico Nacional",
+  "barrio": "San Telmo",
+  "domicilio": "Defensa 1600",
+  "web": "https://museohistoriconacional.cultura.gob.ar/",
+  "dominio": "museohistoriconacional.cultura.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@mhnarg",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Histórico Sarmiento",
+  "barrio": "Belgrano",
+  "domicilio": "Cuba 2079",
+  "web": "https://museosarmiento.cultura.gob.ar/",
+  "dominio": "museosarmiento.cultura.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museosarmiento",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Malvinas e Islas del Atlántico Sur",
+  "barrio": "Núñez",
+  "domicilio": "Santiago de Calzadilla 1301 (Espacio Memoria y Derechos Humanos, ex ESMA)",
+  "web": "https://museomalvinas.cultura.gob.ar/",
+  "dominio": "museomalvinas.cultura.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museomalvinasoficial",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Mitre",
+  "barrio": "San Nicolás",
+  "domicilio": "San Martín 336",
+  "web": "https://museomitre.cultura.gob.ar/",
+  "dominio": "museomitre.cultura.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museomitre",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Evita",
+  "barrio": "Palermo",
+  "domicilio": "Lafinur 2988",
+  "web": "https://museoevita.org.ar/",
+  "dominio": "museoevita.org.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museoevita",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Judío de Buenos Aires",
+  "barrio": "San Nicolás",
+  "domicilio": "Libertad 769",
+  "web": "https://museojudio.org.ar/",
+  "dominio": "museojudio.org.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museojudioba",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+  "barrio": "Saavedra",
+  "domicilio": "Av. Crisólogo Larralde 6309",
+  "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
+  "dominio": "buenosaires.gob.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@museosaavedra",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
+  "canal": "Sitio web"
+ },
+ {
+  "nombre": "Museo Etnográfico Juan B. Ambrosetti",
+  "barrio": "San Nicolás",
+  "domicilio": "Moreno 350",
+  "web": "https://museo.filo.uba.ar/",
+  "dominio": "museo.filo.uba.ar",
+  "tipo_web": "Sitio propio",
+  "instagram": "@etnoba",
+  "estado": "Tiene sección de agenda",
+  "evidencia": "Rastreo con navegador del 2026-10-15",
   "canal": "Sitio web"
  }
 ]

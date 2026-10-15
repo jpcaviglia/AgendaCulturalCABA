@@ -1,0 +1,82 @@
+{
+ "id": "museo-etnografico-juan-b-ambrosetti",
+ "canal": "web",
+ "fuente": "Museo Etnográfico Juan B. Ambrosetti",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://museo.filo.uba.ar/",
+  "https://museo.filo.uba.ar/actividades",
+  "https://museo.filo.uba.ar/exposiciones",
+  "https://museo.filo.uba.ar/novedades/octubre-en-el-etnogr%C3%A1fico-1",
+  "https://museo.filo.uba.ar/novedades/visita-recorrido-general-por-el-museo-1",
+  "https://museo.filo.uba.ar/novedades/inauguraci%C3%B3n-bordando-historias-imagenes-sobre-arte-rupestre-en-la-argentina"
+ ],
+ "eventos": [
+  {
+   "titulo": "Recorrido general por el Museo Etnográfico",
+   "fecha_inicio": "2026-10-17",
+   "fecha_fin": "2026-10-17",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Visitas guiadas",
+   "precio": "Bono contribución voluntario: $ 1500 residentes, $ 5000 extranjeros",
+   "url": "https://museo.filo.uba.ar/novedades/visita-recorrido-general-por-el-museo-1",
+   "descripcion": "Recorrido por las salas y exposiciones del Museo Etnográfico Juan B. Ambrosetti.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Inauguración de \"Bordando historias: imágenes sobre arte rupestre en la Argentina\"",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "17:30",
+   "horarios": "",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Bono contribución voluntario: $ 1500 residentes, $ 5000 extranjeros",
+   "url": "https://museo.filo.uba.ar/novedades/inauguraci%C3%B3n-bordando-historias-imagenes-sobre-arte-rupestre-en-la-argentina",
+   "descripcion": "Inauguración de la nueva muestra sobre arte rupestre en la Argentina en el Museo Etnográfico.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Apertura al público del Depósito Visitable de Colecciones Etnográficas",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "15:30",
+   "horarios": "Jueves y domingos 15:30 h",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Visitas guiadas",
+   "precio": "Bono contribución voluntario: $ 1500 residentes, $ 5000 extranjeros",
+   "url": "https://museo.filo.uba.ar/actividades",
+   "descripcion": "Oportunidad de ver cerámica, armas y miniaturas de distintas culturas, tallas africanas y de la Isla de Pascua, y objetos de Oceanía.",
+   "vigente_sin_fin": true,
+   "post": ""
+  },
+  {
+   "titulo": "Exposiciones del Museo Etnográfico Juan B. Ambrosetti",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a viernes de 13 a 19 h; sábados y domingos de 15 a 19 h",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Bono contribución voluntario: $ 1500 residentes, $ 5000 extranjeros",
+   "url": "https://museo.filo.uba.ar/exposiciones",
+   "descripcion": "Pushaki Ke'iú (nueva exposición permanente), De la Puna al Chaco, Entre el exotismo y el progreso y Danzantes de la Luz.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}
