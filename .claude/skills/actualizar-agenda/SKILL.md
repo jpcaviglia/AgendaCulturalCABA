@@ -5,16 +5,20 @@ description: Actualiza la Agenda Cultural CABA rastreando con el navegador TODOS
 
 # Actualizar la Agenda Cultural CABA
 
-Todos los datos se juntan **con el navegador**. Los scripts de `scripts/` no entran a ningún sitio: solo
-llevan la cola, validan lo que encontraste, guardan lo aprendido y arman `data/eventos.json`.
+Los datos se juntan **con el navegador**, salvo lo que `scripts/sondear.py --corrida` puede leer con HTTP
+simple (sección 1b). El resto de los scripts no entra a ningún sitio: llevan la cola, validan lo que
+encontraste, guardan lo aprendido y arman `data/eventos.json`.
 
 Trabajá de principio a fin sin pedir confirmación. Hablá y escribí los datos en español.
 
 ## Reglas que no se negocian
 
-1. **Cada corrida recorre todos los sitios.** Lo que pasó en corridas anteriores (`ultimo`, `notas`,
+1. **Cada corrida recorre todos los sitios, salvo los rastreados hoy o ayer.** Un sitio con captura de hoy
+   o de ayer en `data/crawl/capturas/` no se vuelve a abrir: `crawl.py iniciar` lo marca `reutilizado` y
+   esa captura sigue publicada. Del resto, lo que pasó en corridas anteriores (`ultimo`, `notas`,
    `comportamiento`) dice *cómo* rastrear un sitio, nunca *si* rastrearlo. Un sitio que la vez pasada no
-   tenía eventos, o no cargó, se vuelve a abrir igual.
+   tenía eventos, o no cargó, se vuelve a abrir igual. No uses `iniciar --nueva` para "empezar de cero":
+   retoma o arma la cola sola; `--todos` (rastrear también lo de hoy y ayer) solo si el usuario lo pide.
 2. **"No hay eventos" es una conclusión que hay que probar.** Antes de marcar `sin_eventos` o `sin_agenda`
    tenés que haber abierto cada enlace a agenda, muestras, exposiciones, exhibiciones, cartelera,
    programación, actividades, ciclos, talleres, visitas o ticketera que aparezca en el sitio (menú,
@@ -48,9 +52,25 @@ git pull --rebase --autostash
 python scripts/crawl.py iniciar
 ```
 
-`iniciar` arma la cola con todos los sitios de `data/crawl/sitios.json`. Si hay una corrida abierta de
-los últimos 3 días, la retoma donde quedó (no se empieza de cero si la sesión anterior se cortó).
-También imprime la línea que carga las herramientas del navegador: guardala, se usa en cada página.
+`iniciar` arma la cola con todos los sitios de `data/crawl/sitios.json` y da por hechos los que tienen
+captura de hoy o de ayer. Si hay una corrida abierta de los últimos 3 días, la retoma donde quedó (no se
+empieza de cero si la sesión anterior se cortó). También imprime la línea que carga las herramientas del
+navegador: guardala, se usa en cada página.
+
+### 1b. Leer sin navegador lo que se pueda (siempre, antes del navegador)
+
+```bash
+python scripts/sondear.py --corrida
+```
+
+Pide las webs pendientes con HTTP simple (unos 2 minutos, sin gastar tokens del navegador):
+
+- **api / jsonld**: si dan eventos en la ventana, los guarda solo (`con_eventos`) y salen de la cola.
+- **html**: deja el texto de la portada y de las páginas de agenda en `data/crawl/local/textos/<id>.txt`.
+- El resto (`needs_browser`, `unreachable`, `sin_agenda_vista`) va al navegador como siempre.
+
+Nunca marca un sitio vacío: si no encontró eventos, el sitio sigue en la cola. Si la corrida se retoma otro
+día, volvé a correrlo (`siguiente` avisa si falta un sondeo reciente).
 
 ## 2. Recorrer la cola
 
@@ -66,6 +86,13 @@ Muestra los próximos sitios con todo lo que se sabe de ellos: `web`, `instagram
 no abrirlos) y `ultimo`. Leelo antes de abrir el sitio. Las notas que dicen
 "el script viejo lo marcó ... NO es confiable" vienen de un verificador que no abría las páginas: ignorá
 esa conclusión y revisá el sitio a fondo.
+
+Si el sitio trae `sondeo`, seguí su `pista` antes de abrir el navegador. Con `clase: html`, leé el
+archivo `texto` (tiene los enlaces del sitio como `texto [url]`) y cargá los eventos desde ahí; en
+`urls_visitadas` y `enlaces_candidatos` (`visitado: true`) van las `paginas_agenda` leídas. Abrí el
+navegador solo para lo que el texto no resuelve: fichas con la fecha de cierre, afiches en imagen, o un
+sitio donde el texto no muestra ningún evento (para marcarlo vacío hay que revisarlo en el navegador,
+regla 2).
 
 Para cada sitio: rastrearlo (sección 3 o 4), escribir el resultado en `data/crawl/tmp/<id>.json`
 (formato en la sección 5) y guardarlo:

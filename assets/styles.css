@@ -131,6 +131,7 @@ main { flex: 1; padding-top: 24px; padding-bottom: 32px; }
 }
 .campo { display: flex; flex-direction: column; gap: 4px; font-size: 0.85rem; color: var(--suave); }
 .campo-amplio { grid-column: 1 / -1; }
+.nota-filtro { grid-column: 1 / -1; margin: 0; font-size: 0.85rem; }
 @media (min-width: 720px) {
   .campo-amplio { grid-column: auto; }
 }

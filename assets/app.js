@@ -58,6 +58,21 @@
   // ---- Eventos ----
   let eventos = [];
 
+  // Horas publicadas de un evento, en minutos desde la medianoche: "hora" ("20:30"), cada "HH:MM" de
+  // "horarios" ("vie 20:30 | dom 19:30") y los rangos "de 11 a 19 h". Vacío si no publica ningún horario.
+  const aMinutos = (h, m = 0) => (h <= 24 && m < 60 ? h * 60 + m : null);
+  function horasDe(e) {
+    if (e._horas) return e._horas;
+    const minutos = [];
+    const texto = `${e.hora || ""} | ${e.horarios || ""}`;
+    for (const [, h, m] of texto.matchAll(/\b([01]?\d|2[0-3]):([0-5]\d)\b/g)) minutos.push(aMinutos(+h, +m));
+    for (const [, a, b] of texto.matchAll(/\b(\d{1,2})\s*(?:a|–|-)\s*(\d{1,2})\s*(?:h|hs)\b/gi)) {
+      minutos.push(aMinutos(+a), aMinutos(+b));
+    }
+    e._horas = minutos.filter((x) => x !== null);
+    return e._horas;
+  }
+
   function tarjetaEvento(e) {
     const etiquetas = crear("div", { class: "etiquetas" }, [
       e.categoria ? crear("span", { class: "etiqueta categoria" }, [document.createTextNode(e.categoria)]) : null,
@@ -106,8 +121,29 @@
     const barrio = $("barrio-evento").value;
     const categoria = $("categoria-evento").value;
     const soloGratis = $("solo-gratis").checked;
+    const desde = $("fecha-desde").value;
+    $("fecha-hasta").min = desde || $("fecha-hasta").dataset.min || "";
+    // Un "Hasta" anterior al "Desde" no tiene sentido: se corrige solo.
+    if (desde && $("fecha-hasta").value && $("fecha-hasta").value < desde) $("fecha-hasta").value = desde;
+    const hasta = $("fecha-hasta").value;
+    const horaDesde = $("hora-desde").value;
+    const [hh, mm] = horaDesde ? horaDesde.split(":").map(Number) : [0, 0];
+    const minDesde = hh * 60 + mm;
+    const sinHorario = horaDesde ? eventos.filter((e) => !horasDe(e).length).length : 0;
+    $("nota-hora").hidden = !sinHorario;
+    $("nota-hora").textContent = sinHorario
+      ? `${sinHorario} eventos no publican horario y no se muestran con este filtro.`
+      : "";
 
     const filtrados = eventos.filter((e) => {
+      // Con "Desde la hora" entra si alguna de sus horas publicadas es esa o más tarde.
+      if (horaDesde && !horasDe(e).some((m) => m >= minDesde)) return false;
+      // Entra si el evento está activo en algún día del rango (las muestras en curso, también).
+      if (desde || hasta) {
+        const fin = e.fecha_fin || (e.estado === "En curso" ? "9999-12-31" : e.fecha_inicio);
+        if (desde && fin < desde) return false;
+        if (hasta && e.fecha_inicio > hasta) return false;
+      }
       if (barrio && e.barrio !== barrio) return false;
       if (categoria && e.categoria !== categoria) return false;
       if (soloGratis && e.precio !== "Gratis") return false;
@@ -153,7 +189,7 @@
     }
     const ubicados = [...porPunto.values()].reduce((n, v) => n + v.length, 0);
     $("resumen-mapa").textContent =
-      `${porPunto.size} lugares con eventos activos (${ubicados} de ${eventosFiltrados.length} eventos ubicados). Los filtros de la pestaña Eventos también se aplican acá.`;
+      `${porPunto.size} lugares con eventos activos (${ubicados} de ${eventosFiltrados.length} eventos ubicados). Son los mismos filtros que en la pestaña Eventos.`;
   }
 
   function iniciarMapa() {
@@ -171,6 +207,10 @@
     eventos = datos.eventos || [];
     llenarSelect($("barrio-evento"), unicos(eventos, "barrio"), "Todos");
     llenarSelect($("categoria-evento"), unicos(eventos, "categoria"), "Todas");
+    // Horas cada media hora, de 00:00 a 23:30 (el valor es "HH:MM").
+    llenarSelect($("hora-desde"),
+      Array.from({ length: 48 }, (_, i) => `${String(i >> 1).padStart(2, "0")}:${i % 2 ? "30" : "00"}`),
+      "Cualquiera");
 
     const { desde, hasta } = datos.ventana;
     $("resumen-ventana").textContent =
@@ -179,7 +219,14 @@
       ? `Última actualización: ${fechaIso(datos.generado)}.`
       : "";
 
-    for (const id of ["buscar-evento", "barrio-evento", "categoria-evento", "solo-gratis"]) {
+    // El calendario solo ofrece los días de la ventana publicada.
+    for (const id of ["fecha-desde", "fecha-hasta"]) {
+      $(id).min = desde;
+      $(id).max = hasta;
+    }
+    $("fecha-hasta").dataset.min = desde;
+
+    for (const id of ["buscar-evento", "barrio-evento", "categoria-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
       $(id).addEventListener(id === "buscar-evento" ? "input" : "change", renderEventos);
     }
     renderEventos();
@@ -249,6 +296,12 @@
     $("vista-eventos").hidden = vista !== "eventos";
     $("vista-lugares").hidden = vista !== "lugares";
     $("vista-mapa").hidden = vista !== "mapa";
+    // Los filtros de eventos son los mismos en Eventos y en Mapa: se mueve el mismo formulario.
+    if (vista !== "lugares") {
+      $(`vista-${vista}`).querySelector(".cabecera-vista").after($("filtros-eventos"));
+      // La lista y el mapa se vuelven a dibujar con lo que dicen los campos, por si quedaron desfasados.
+      if (eventos.length) renderEventos();
+    }
     for (const enlace of document.querySelectorAll(".pestanas a")) {
       enlace.classList.toggle("activa", enlace.dataset.vista === vista);
     }
@@ -267,6 +320,8 @@
 
   async function iniciar() {
     window.addEventListener("hashchange", mostrarVista);
+    // Al volver con "atrás" o recargar, el navegador puede devolverle valores a los campos sin avisarle a la página.
+    window.addEventListener("pageshow", () => { if (eventos.length) renderEventos(); });
     mostrarVista();
     try {
       const [eventosDatos, lugaresDatos] = await Promise.all([

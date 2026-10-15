@@ -4,7 +4,8 @@ El navegador junta los datos; este script solo lleva la cola de la corrida, vali
 guarda la captura de cada sitio y anota lo aprendido sobre cada sitio para la próxima corrida.
 
 Uso:
-    python scripts/crawl.py iniciar [--nueva]     # arma la cola con TODOS los sitios (o retoma la corrida abierta)
+    python scripts/crawl.py iniciar [--nueva] [--todos]   # arma la cola (o retoma la corrida abierta); salvo
+                                                  # --todos, saltea los sitios con captura de hoy o de ayer
     python scripts/crawl.py siguiente [n]         # muestra los próximos n sitios pendientes con sus notas
     python scripts/crawl.py ver <id>              # muestra todo lo que se sabe de un sitio
     python scripts/crawl.py guardar <archivo.json|->   # registra el resultado de un sitio (ver formato en la skill)
@@ -57,7 +58,12 @@ GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|si
 MAX_NOTAS, MAX_HISTORIAL, MAX_ENTRADAS = 12, 10, 8
 # Enlaces descartados con motivo: no se vuelven a abrir hasta que pase este plazo.
 MAX_DESCARTADOS, DIAS_RECORDAR_DESCARTE = 30, 180
+# Un sitio con captura de hoy o de ayer no se vuelve a abrir: se reutiliza esa captura (pedido del usuario).
+DIAS_REUTILIZAR = 1
 HERRAMIENTAS = ".claude/skills/actualizar-agenda/navegador.js"
+# Sondeo sin navegador (scripts/sondear.py): se muestra en `siguiente` si tiene a lo sumo estos días.
+SONDEO = CRAWL / "local" / "sondeo.json"
+DIAS_SONDEO = 3
 
 # --- Instagram: cupo, enfriamiento y posts ya analizados (solo local, ver .gitignore) ---
 DESCARTADOS = CRAWL / "descartados.json"
@@ -222,13 +228,48 @@ def posponer_instagram(corrida, motivo):
     return len(pend)
 
 
+def captura_reciente(sid, canal):
+    """(fecha, estado) de la captura de <id>.<canal> si es de los últimos DIAS_REUTILIZAR días, o None."""
+    cap = leer_json(CAPTURAS / f"{sid}.{canal}.json")
+    corte = (hoy() - timedelta(days=DIAS_REUTILIZAR)).isoformat()
+    if cap and cap.get("fecha", "") >= corte:
+        return cap["fecha"], cap.get("estado", "")
+    return None
+
+
+def marcar_reutilizados(corrida, sitios):
+    """Da por hechos los ítems pendientes con captura reciente. Si la web reutilizada no tuvo eventos y el sitio
+    tiene Instagram, encola el Instagram (como haría `guardar`). Devuelve cuántos marcó."""
+    n = 0
+    for i in list(corrida["cola"]):
+        if i in corrida["hechos"]:
+            continue
+        sid, canal = i.split("|")
+        rec = captura_reciente(sid, canal)
+        if not rec:
+            continue
+        corrida["hechos"][i] = "reutilizado"
+        n += 1
+        ig = item(sid, "instagram")
+        if (canal == "web" and rec[1] != "con_eventos" and sitios.get(sid, {}).get("instagram")
+                and ig not in corrida["cola"]):
+            corrida["cola"].append(ig)
+    return n
+
+
 def cmd_iniciar(args):
     doc = cargar_sitios()
     previa = cargar_corrida()
+    todos = "--todos" in args
     if previa and not previa.get("fin") and "--nueva" not in args:
         inicio = date.fromisoformat(previa["id"][:10])
         if (hoy() - inicio).days <= 3:
             print(f"Se retoma la corrida {previa['id']} (iniciada {previa['inicio']}).")
+            if not todos:
+                n = marcar_reutilizados(previa, por_id(doc))
+                if n:
+                    escribir_json(CORRIDA, previa)
+                    print(f"{n} sitios con captura de hoy o de ayer: se reutilizan, no se vuelven a abrir.")
             return cmd_estado([])
         print(f"La corrida {previa['id']} quedó abierta hace más de 3 días: se empieza una nueva.")
         previa["fin"], previa["fin_ok"] = ahora(), False
@@ -236,10 +277,16 @@ def cmd_iniciar(args):
     cola = armar_cola(doc, previa)
     corrida = {"id": hoy().isoformat(), "inicio": ahora(), "fin": None, "ventana": {"desde": desde, "hasta": hasta},
                "cola": cola, "hechos": {}, "sitios_nuevos": [], "eventos": 0}
+    reutilizados = 0 if todos else marcar_reutilizados(corrida, por_id(doc))
     escribir_json(CORRIDA, corrida)
     omitidos = [s["nombre"] for s in doc["sitios"] if s.get("rastrear") is False]
     sin_canal = [s["nombre"] for s in doc["sitios"] if s.get("rastrear") is not False and not s.get("web") and not s.get("instagram")]
-    print(f"Corrida {corrida['id']}: {len(cola)} sitios en cola. Ventana {desde} a {hasta}.")
+    print(f"Corrida {corrida['id']}: {len(corrida['cola'])} sitios en cola, {len(pendientes(corrida))} por rastrear. "
+          f"Ventana {desde} a {hasta}.")
+    if reutilizados:
+        print(f"{reutilizados} sitios con captura de hoy o de ayer: se reutilizan, no se vuelven a abrir "
+              "(`iniciar --nueva --todos` para rastrear todo).")
+    print("Antes de abrir el navegador: `python scripts/sondear.py --corrida` (lee sin navegador lo que se pueda).")
     if omitidos:
         print(f"No se rastrean por decisión ({len(omitidos)}): {', '.join(omitidos)}")
     if sin_canal:
@@ -247,7 +294,34 @@ def cmd_iniciar(args):
     print("Herramientas del navegador, en cada página:\n  " + linea_herramientas())
 
 
-def resumen_sitio(s, canal=None):
+PISTAS_SONDEO = {
+    "html": "La agenda se lee sin navegador: leé `texto` (Read) y cargá los eventos desde ahí, con urls_visitadas = "
+            "paginas_agenda y enlaces_candidatos = esas páginas como visitadas. Abrí el navegador solo si el texto "
+            "no alcanza (faltan fechas o fichas) o si no aparece ningún evento (para marcar vacío hay que verificar "
+            "en el navegador).",
+    "needs_browser": "El HTML no trae la agenda (app de JavaScript): navegador.",
+    "sin_agenda_vista": "Sin pedidos simples no se vio agenda; no es prueba de que no haya: navegador.",
+    "unreachable": "No cargó con un pedido simple (motivo en `motivo`). Si es DNS, probá una vez en el navegador; "
+                   "si tampoco resuelve, dominio_caido con esa evidencia. Si es 403/400, el sitio bloquea "
+                   "pedidos simples: navegador normal.",
+    "api": "La API no se pudo guardar sola (ver `error`). Si hay `texto`, leelo como en html; si no, navegador.",
+    "jsonld": "El JSON-LD no se pudo guardar solo (ver `error`). Si hay `texto`, leelo como en html; si no, navegador.",
+}
+
+
+def cargar_sondeo():
+    doc = leer_json(SONDEO, {}) or {}
+    corte = (hoy() - timedelta(days=DIAS_SONDEO)).isoformat()
+    return {s["id"]: s for s in doc.get("sitios", []) if s.get("fecha", doc.get("fecha", ""))[:10] >= corte}
+
+
+def resumen_sondeo(r):
+    out = {k: r[k] for k in ("clase", "fecha", "motivo", "plataforma", "paginas_agenda", "texto", "error") if r.get(k)}
+    out["pista"] = PISTAS_SONDEO.get(r.get("clase"), "")
+    return out
+
+
+def resumen_sitio(s, canal=None, sondeo=None):
     claves = ("id", "nombre", "tipo", "lugares", "web", "instagram", "enlace_bio", "entradas", "comportamiento",
               "enlaces_pendientes", "ultimo")
     out = {k: s[k] for k in claves if s.get(k)}
@@ -260,6 +334,8 @@ def resumen_sitio(s, canal=None):
     out["historial"] = s.get("historial", [])[-4:]
     if canal == "web" and not s.get("web") and not s.get("instagram"):
         out["tarea"] = TAREA_BUSCAR
+    if canal == "web" and sondeo and s["id"] in sondeo:
+        out["sondeo"] = resumen_sondeo(sondeo[s["id"]])
     return out
 
 
@@ -289,11 +365,14 @@ def cmd_siguiente(args):
     if not pend:
         print("Cola vacía: correr armar_agenda.py y `crawl.py cerrar`.")
         return
+    sondeo = cargar_sondeo()
+    if not sondeo and any(i.endswith("|web") for i in pend):
+        print("Sin sondeo reciente: correr `python scripts/sondear.py --corrida` antes de seguir con las webs.")
     salida = []
     for i in pend[:n]:
         sid, canal = i.split("|")
         if sid in sitios:
-            salida.append(resumen_sitio(sitios[sid], canal))
+            salida.append(resumen_sitio(sitios[sid], canal, sondeo))
     print(json.dumps(salida, ensure_ascii=False, indent=1))
 
 

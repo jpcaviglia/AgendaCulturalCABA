@@ -7022,15 +7022,32 @@
    "barrio": "Parque Patricios",
    "direccion": "Brasil 2640",
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
     }
-   }
+   },
+   "entradas": [
+    "https://pompapetriyasos.com.ar/",
+    "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
+   ],
+   "notas": [
+    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "planta-inclan",
@@ -7045,15 +7062,31 @@
    "barrio": "Parque Patricios",
    "direccion": "Inclán 2661",
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 8,
+     "paginas": 4
     }
-   }
+   },
+   "entradas": [
+    "https://plantainclan.com/"
+   ],
+   "notas": [
+    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
+    }
+   ]
   },
   {
    "id": "deotravidaprod",
@@ -8913,13 +8946,29 @@
    "direccion": "Giuffra, Jose M.,Dr. 371",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El sitio no carga."
+    "2026-10-14 [revisión anterior: caido] El sitio no carga.",
+    "2026-10-15 [web] Leído sin navegador desde la API de The Events Calendar: 6 eventos en la ventana."
+   ],
+   "entradas": [
+    "https://lascala.com.ar/"
+   ],
+   "comportamiento": {
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
    ]
   },
   {

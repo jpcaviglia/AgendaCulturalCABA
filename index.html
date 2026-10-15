@@ -27,7 +27,7 @@
         <p id="resumen-ventana" class="suave">Cargando eventos…</p>
       </div>
 
-      <form class="filtros" id="filtros-eventos" role="search">
+      <form class="filtros" id="filtros-eventos" role="search" autocomplete="off">
         <label class="campo campo-amplio">
           <span>Buscar</span>
           <input type="search" id="buscar-evento" placeholder="Obra, artista, lugar…" autocomplete="off">
@@ -40,9 +40,22 @@
           <span>Categoría</span>
           <select id="categoria-evento"><option value="">Todas</option></select>
         </label>
+        <label class="campo">
+          <span>Desde</span>
+          <input type="date" id="fecha-desde">
+        </label>
+        <label class="campo">
+          <span>Hasta</span>
+          <input type="date" id="fecha-hasta">
+        </label>
+        <label class="campo">
+          <span>Desde la hora</span>
+          <select id="hora-desde"><option value="">Cualquiera</option></select>
+        </label>
         <label class="casilla">
           <input type="checkbox" id="solo-gratis"> Solo gratis
         </label>
+        <p id="nota-hora" class="suave nota-filtro" hidden></p>
       </form>
 
       <p id="vacio-eventos" class="vacio" hidden>No hay eventos con esos filtros.</p>
