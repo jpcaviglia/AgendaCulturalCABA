@@ -126,22 +126,6 @@
    }
   },
   {
-   "id": "datos-abiertos-gcba-eventos-y-actividades-culturales",
-   "nombre": "Datos abiertos GCBA: eventos y actividades culturales",
-   "tipo": "descubrimiento",
-   "lugares": [],
-   "web": "https://data.buenosaires.gob.ar/dataset/actividades-culturales",
-   "instagram": "",
-   "origen": "fuentes.json (lista anterior de agregadores)",
-   "notas": [
-    "2026-10-14: Accesible, pero los datos son históricos: el último evento es de 2018-2019.",
-    "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)"
-   ],
-   "comportamiento": {
-    "uso": "Los eventos del dataset son de 2018-2019: no cargar eventos de acá. Usar el dataset de espacios culturales del mismo portal para descubrir espacios de CABA que falten (sitios_nuevos). Con una revisión por mes alcanza: si ya se revisó este mes, guardar sin_agenda con esa evidencia."
-   }
-  },
-  {
    "id": "la-cultura-en-la-semana-boletin-gcba",
    "nombre": "La Cultura en la Semana (boletín GCBA)",
    "tipo": "descubrimiento",
