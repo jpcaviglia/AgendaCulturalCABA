@@ -316,6 +316,11 @@
    "motivo": "Sin datos estructurados (revisar a mano)"
   },
   {
+   "lugar": "CENTRO CULTURAL 25 DE MAYO",
+   "web": "https://cc25.org/",
+   "motivo": "Inaccesible (HTTPError)"
+  },
+  {
    "lugar": "CUERDA MECÁNICA CENTRO CULTURAL",
    "web": "https://cuerdamecanica.com/",
    "motivo": "Sin datos estructurados (revisar a mano)"
@@ -465,6 +470,11 @@
   {
    "lugar": "Arte x Arte",
    "web": "https://artexarte.com.ar/",
+   "motivo": "Sin datos estructurados (revisar a mano)"
+  },
+  {
+   "lugar": "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+   "web": "https://www.macba.com.ar/",
    "motivo": "Sin datos estructurados (revisar a mano)"
   }
  ],
