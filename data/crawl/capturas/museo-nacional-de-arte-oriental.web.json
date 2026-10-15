@@ -1,0 +1,47 @@
+{
+ "id": "museo-nacional-de-arte-oriental",
+ "canal": "web",
+ "fuente": "Museo Nacional de Arte Oriental",
+ "tipo": "galeria",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.google.com/search?q=Museo+Nacional+de+Arte+Oriental+Viamonte+525",
+  "https://mnao.cultura.gob.ar/",
+  "https://mnao.cultura.gob.ar/exhibiciones/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Ningyō: tradición y actualidad de las muñecas japonesas",
+   "fecha_inicio": "2026-09-30",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://mnao.cultura.gob.ar/exhibiciones/",
+   "descripcion": "Con la Fundación Japón y la Embajada del Japón.",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Oriente Todo",
+   "fecha_inicio": "2026-10-14",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://mnao.cultura.gob.ar/exhibiciones/",
+   "descripcion": "Exhibición permanente.",
+   "vigente_sin_fin": true,
+   "post": ""
+  }
+ ]
+}

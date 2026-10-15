@@ -1,7 +1,7 @@
 {
  "id": "2026-10-14",
  "inicio": "2026-10-14 23:12",
- "fin": null,
+ "fin": "2026-10-15 01:06",
  "ventana": {
   "desde": "2026-10-14",
   "hasta": "2026-10-28"
@@ -475,7 +475,20 @@
   "almacen-de-arte|instagram",
   "cosmocosa|instagram",
   "gachi-prieto-galeria|instagram",
-  "galeria-luisa-pedrouzo|instagram"
+  "galeria-luisa-pedrouzo|instagram",
+  "mar-dulce-galeria|instagram",
+  "marq-museo-de-arquitectura-y-diseno|instagram",
+  "museo-de-arte-espanol-enrique-larreta|instagram",
+  "maman-fine-art|instagram",
+  "museo-kosice|instagram",
+  "museo-nacional-del-grabado|instagram",
+  "pasaje-17|instagram",
+  "arepera-miss-venezuela-teatro-bar|instagram",
+  "asoc-civil-la-bombocova|instagram",
+  "asociacion-calabresa-mutual-y-cultural|instagram",
+  "asociacion-cultural-armenia|instagram",
+  "asociacion-dante-alighieri|instagram",
+  "asociacion-ucrania-de-cultura-provista-en-la-republica-argen|instagram"
  ],
  "hechos": {
   "alternativa-teatral|web": "con_eventos",
@@ -524,7 +537,46 @@
   "galeria-zurbaran|web": "con_eventos",
   "hache-galeria|web": "con_eventos",
   "henrique-faria-buenos-aires|web": "con_eventos",
-  "ignacio-liprandi|web": "dominio_caido"
+  "ignacio-liprandi|web": "dominio_caido",
+  "malba|web": "con_eventos",
+  "isla-flotante|web": "sin_eventos",
+  "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
+  "mar-dulce-galeria|web": "sin_agenda",
+  "marq-museo-de-arquitectura-y-diseno|web": "sin_eventos",
+  "museo-benito-quinquela-martin|web": "sin_agenda",
+  "museo-casa-de-yrurtia|web": "con_eventos",
+  "museo-de-arte-espanol-enrique-larreta|web": "sin_eventos",
+  "museo-de-arte-hispanoamericano-isaac-fernandez-blanco|web": "con_eventos",
+  "museo-de-arte-popular-jose-hernandez|web": "con_eventos",
+  "museo-de-arte-moderno-de-buenos-aires|web": "con_eventos",
+  "maman-fine-art|web": "dominio_caido",
+  "museo-de-artes-plasticas-eduardo-sivori|web": "con_eventos",
+  "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova|web": "con_eventos",
+  "museo-del-humor-muhu|web": "sin_agenda",
+  "museo-kosice|web": "sin_eventos",
+  "museo-nacional-de-arte-decorativo|web": "con_eventos",
+  "museo-nacional-de-arte-oriental|web": "con_eventos",
+  "museo-nacional-de-bellas-artes|web": "con_eventos",
+  "museo-nacional-del-grabado|web": "sin_eventos",
+  "museo-xul-solar|web": "con_eventos",
+  "nora-fisch|web": "con_eventos",
+  "pasaje-17|web": "dominio_caido",
+  "pasto-galeria|web": "con_eventos",
+  "rolf-art|web": "con_eventos",
+  "rubbers|web": "con_eventos",
+  "ruth-benzacar|web": "con_eventos",
+  "valk-gallery|web": "sin_agenda",
+  "w-galeria|web": "con_eventos",
+  "alianza-francesa|web": "con_eventos",
+  "alquimia-espacio-cultural|web": "con_eventos",
+  "archibrazo|web": "con_eventos",
+  "arepera-miss-venezuela-teatro-bar|web": "dominio_caido",
+  "artlab|web": "con_eventos",
+  "asoc-civil-la-bombocova|web": "sin_agenda",
+  "asociacion-calabresa-mutual-y-cultural|web": "sin_eventos",
+  "asociacion-cultural-armenia|web": "no_carga",
+  "asociacion-dante-alighieri|web": "sin_agenda",
+  "asociacion-ucrania-de-cultura-provista-en-la-republica-argen|web": "dominio_caido"
  },
  "sitios_nuevos": [
   "vidriera-ba",
@@ -556,5 +608,6 @@
   "teatro-vorterix",
   "strummer-bar"
  ],
- "eventos": 1735
+ "eventos": 1875,
+ "fin_ok": false
 }

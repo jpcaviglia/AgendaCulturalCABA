@@ -1,0 +1,61 @@
+{
+ "id": "archibrazo",
+ "canal": "web",
+ "fuente": "ARCHIBRAZO",
+ "tipo": "lugar",
+ "fecha": "2026-10-15",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.archibrazo.org/agenda/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Varieté de La amistad",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-16",
+   "hora": "21:15",
+   "horarios": "",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.archibrazo.org/agenda/",
+   "descripcion": "",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "La Rueda del Son + DJ Rulex",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "Domingos 18 y 25 de octubre a las 21",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.archibrazo.org/agenda/",
+   "descripcion": "",
+   "vigente_sin_fin": false,
+   "post": ""
+  },
+  {
+   "titulo": "Sinestesia + Cinco en Ohm",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:30",
+   "horarios": "",
+   "lugar": "Archibrazo",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.archibrazo.org/agenda/",
+   "descripcion": "",
+   "vigente_sin_fin": false,
+   "post": ""
+  }
+ ]
+}

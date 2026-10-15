@@ -547,15 +547,31 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "entradas": [
+    "https://ruthbenzacar.com/muestras/2026/",
     "https://ruthbenzacar.com/muestras/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "estructura": "/muestras/ redirige al año en curso; 'Ahora en Ruth Benzacar' con 'dd/mm al dd/mm'."
+   },
+   "notas": [
+    "2026-10-15 [web] Juan Ramírez de Velasco 1287, Villa Crespo."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "nora-fisch",
@@ -572,11 +588,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 4
     }
-   }
+   },
+   "comportamiento": {
+    "fichas": "Las fechas están en cada ficha (/muestras/<slug>/)."
+   },
+   "notas": [
+    "2026-10-15 [web] Tres muestras actuales hasta el 14/11."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "alberto-sendros",
@@ -668,13 +699,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Sitio JS; listado en exhibiciones.php"
+    "2026-10-14 [revisión anterior: navegador] Sitio JS; listado en exhibiciones.php",
+    "2026-10-15 [web] Web desactualizada; buscar Instagram de la galería."
+   ],
+   "comportamiento": {
+    "estado_web": "sin actualizar desde 2024"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -723,13 +767,26 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "sin_agenda",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: sin_agenda] Sin listado de muestras en el sitio; revisar Instagram @valkgallery_"
+    "2026-10-14 [revisión anterior: sin_agenda] Sin listado de muestras en el sitio; revisar Instagram @valkgallery_",
+    "2026-10-15 [web] Sin agenda en la web; buscar Instagram."
+   ],
+   "comportamiento": {
+    "web": "página de presentación sin programación"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -740,17 +797,33 @@
     "Rubbers"
    ],
    "web": "https://www.rubbers.com.ar",
-   "instagram": "",
+   "instagram": "@galeria_rubbers",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "sin_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] La web propia no publica muestras."
+   ],
+   "entradas": [
+    "https://somosmeridiano.com.ar/agenda/"
+   ],
+   "comportamiento": {
+    "web": "rubbers.com.ar es una sola página con la historia de la galería, sin muestras; la muestra actual sale en la agenda de Meridiano y en Instagram."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -873,15 +946,32 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "entradas": [
-    "https://www.bellasartes.gob.ar/agenda/"
+    "https://www.bellasartes.gob.ar/agenda/",
+    "https://www.bellasartes.gob.ar/exhibiciones/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 26,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "agenda": "La agenda muestra 15 días (día por día) con 'Categoría | Título | Días. Del ... al ..., a las HH h'; filtrar 'Horario de visita'.",
+    "exhibiciones": "/exhibiciones/ trae 'Del ... al ...' y sala."
+   },
+   "notas": [
+    "2026-10-15 [web] 28 actividades y exposiciones; entrada gratuita."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 26
+    }
+   ]
   },
   {
    "id": "museo-de-arte-moderno-de-buenos-aires",
@@ -894,15 +984,32 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "entradas": [
-    "https://museomoderno.org/agenda/"
+    "https://museomoderno.org/agenda/",
+    "https://museomoderno.org/exposiciones/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 22,
+     "paginas": 2
     }
-   }
+   },
+   "comportamiento": {
+    "ver_mas": "La agenda tiene botón 'Cargar más' (2 clics para ver todo octubre).",
+    "exposiciones": "/exposiciones/ (Presentes) no publica fechas de cierre; incluye muestras fuera del museo (Venecia, Parque de la Memoria): cargar solo las del edificio."
+   },
+   "notas": [
+    "2026-10-15 [web] Av. San Juan 350. 15 actividades y 7 exposiciones."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 22
+    }
+   ]
   },
   {
    "id": "galeria-vasari",
@@ -1024,19 +1131,36 @@
    "lugares": [
     "Rolf Art"
    ],
-   "web": "https://www.rolfart.com",
+   "web": "https://rolfart.com.ar/",
    "instagram": "",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga.",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de https://www.rolfart.com a https://rolfart.com.ar/",
+    "2026-10-15 [web] On view con fechas en la portada."
+   ],
+   "entradas": [
+    "https://rolfart.com.ar/"
+   ],
+   "comportamiento": {
+    "web": "www.rolfart.com da página de error; la web actual es rolfart.com.ar"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -1159,18 +1283,31 @@
     "Maman Fine Art"
    ],
    "web": "https://www.mamanfineart.com",
-   "instagram": "",
+   "instagram": "@mamanfineartgallery",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Cuenta suspendida.",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15 [web] Web suspendida; rastrear por Instagram."
+   ],
+   "comportamiento": {
+    "web": "hosting suspendido (2026-10)"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -1181,18 +1318,31 @@
     "Pasaje 17"
    ],
    "web": "https://www.pasaje17.com",
-   "instagram": "",
+   "instagram": "@galeriapasaje17",
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Dominio Wix desconectado.",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15 [web] Rastrear por Instagram."
+   ],
+   "comportamiento": {
+    "web": "dominio Wix desconectado"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -1246,13 +1396,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14: Defensa 1369, San Telmo. Tiene sección W—agenda"
+    "2026-10-14: Defensa 1369, San Telmo. Tiene sección W—agenda",
+    "2026-10-15 [web] Dos exhibiciones vigentes."
+   ],
+   "comportamiento": {
+    "fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae."
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
    ]
   },
   {
@@ -1285,14 +1448,29 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 38,
+     "paginas": 16
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] También https://malba.org.ar/exposiciones-actuales/",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15 [web] 38 actividades (cine, recorridos, literatura y 3 exposiciones). Belkis Ayón sigue en la agenda hasta el 28/10."
+   ],
+   "comportamiento": {
+    "extraccion": "Agenda por día en /agenda/on/AAAA/MM/DD/ (Elementor). Leer con fetch los 15 días y tomar los bloques 'HH:MM Categoría Título Sala' con enlace /evento/.",
+    "api": "wp-json/tribe responde 401",
+    "descartar": "categoría 'Amigos' (solo socios)"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 38
+    }
    ]
   },
   {
@@ -1498,11 +1676,36 @@
    "lugares": [
     "MACBA (Museo de Arte Contemporáneo de Buenos Aires)"
    ],
-   "web": "https://www.macba.com.ar/",
-   "instagram": "",
+   "web": "https://museomacba.org/",
+   "instagram": "@museomacba",
    "origen": "data/galerias.json",
    "notas": [
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
+    "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones."
+   ],
+   "entradas": [
+    "https://museomacba.org/programacion-actuales/",
+    "https://museomacba.org/agenda/"
+   ],
+   "comportamiento": {
+    "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 6
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
    ]
   },
   {
@@ -1591,18 +1794,32 @@
    "barrio": "Almagro",
    "direccion": "Bravo, Mario 441",
    "entradas": [
+    "https://www.archibrazo.org/agenda/",
     "https://www.archibrazo.org/eventos/salsa/?f=2026-10-18"
    ],
    "comportamiento": {
-    "datos_estructurados": "JSON-LD schema.org/Event en las fichas"
+    "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
+    "estructura": "Agenda por semanas con día, categoría, título, hora y sala (Sala Andralis / El Archibrazo)."
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 1
     }
-   }
+   },
+   "notas": [
+    "2026-10-15 [web] Teatro y música en vivo en Almagro."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "asociacion-calabresa-mutual-y-cultural",
@@ -1621,11 +1838,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {
+    "estructura": "Tabla anual con fechas fijas; las películas y óperas se completan a último momento."
+   },
+   "notas": [
+    "2026-10-15 [web] Cine debate el 24/10 15:30, título a confirmar."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "batacazo-cultural",
@@ -2590,13 +2822,26 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos"
+    "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos",
+    "2026-10-15 [web] Productora de espectáculos para contratar; sin agenda pública."
+   ],
+   "comportamiento": {
+    "contenido": "catálogo de servicios para eventos"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -2613,11 +2858,26 @@
    "direccion": "Montes De Oca, Manuel Av. 501",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {
+    "contenido": "solo cursos"
+   },
+   "notas": [
+    "2026-10-15 [web] Sin agenda cultural en la web; mirar Instagram @ladante.ba."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "barrakesh-espacio-cultural",
@@ -3330,11 +3590,29 @@
    "direccion": "Roseti 93",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 9,
+     "paginas": 1
     }
-   }
+   },
+   "entradas": [
+    "https://artlabpro.net/agenda/"
+   ],
+   "comportamiento": {
+    "extraccion": "Tarjetas con 'DÍA dd/mm HH:MM Título' y botón Comprar (la lista se repite dos veces: arriba destacados, abajo cronológica)."
+   },
+   "notas": [
+    "2026-10-15 [web] Agenda hasta fin de noviembre."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
+    }
+   ]
   },
   {
    "id": "c-complejo-art-media",
@@ -3626,11 +3904,27 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "con_agenda",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 10,
+     "paginas": 1
     }
-   }
+   },
+   "comportamiento": {
+    "agenda": "?search-start=AAAA-MM-DD lista lo vigente desde esa fecha en una sola página (14 actividades); las muestras figuran con su fecha de inicio.",
+    "sedes": "Microcentro (Av. Córdoba 946) y Palermo (Billinghurst 2563)."
+   },
+   "notas": [
+    "2026-10-15 [web] 10 actividades culturales en la ventana."
+   ],
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    }
+   ]
   },
   {
    "id": "asamblea-de-flores",
@@ -4450,7 +4744,32 @@
    "instagram": "@alquimiacentrocultural",
    "origen": "data/lugares.json",
    "barrio": "Palermo",
-   "direccion": "Ravignani, Emilio, Dr. 1408"
+   "direccion": "Ravignani, Emilio, Dr. 1408",
+   "entradas": [
+    "https://www.alternativateatral.com/cartelera.asp?cuando=30"
+   ],
+   "comportamiento": {
+    "fuente": "La página del espacio en Alternativa no lista obras sin JS; usar la cartelera general filtrada por sala 'Alquimia Centro Cultural'."
+   },
+   "notas": [
+    "2026-10-15 [web] Ravignani 1408, Palermo."
+   ],
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ]
   },
   {
    "id": "arepera-miss-venezuela-teatro-bar",
@@ -4466,13 +4785,26 @@
    "direccion": "Humboldt 2341",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Rastrear por Instagram."
+   ],
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4489,13 +4821,26 @@
    "direccion": "Armenia 1366",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-15",
      "estado": "no_carga",
-     "heredado": true
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
-    "2026-10-14 [revisión anterior: caido] El sitio no carga (error)."
+    "2026-10-14 [revisión anterior: caido] El sitio no carga (error).",
+    "2026-10-15 [web] La web no responde; reintentar la próxima corrida."
+   ],
+   "comportamiento": {
+    "carga": "ERR_CONNECTION_CLOSED el 2026-10-15"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4512,13 +4857,26 @@
    "direccion": "Soler 5039",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
-     "estado": "no_carga",
-     "heredado": true
+     "fecha": "2026-10-15",
+     "estado": "dominio_caido",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
-    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo"
+    "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
+    "2026-10-15 [web] Rastrear por Instagram."
+   ],
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -7784,14 +8142,39 @@
    "lugares": [
     "Museo Nacional de Arte Decorativo"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://museoartedecorativo.cultura.gob.ar/",
+   "instagram": "@museodecorativo",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://museoartedecorativo.cultura.gob.ar/",
+    "2026-10-15 [web] Exhibiciones: solo permanentes (Biblioteca, Baño pompeyano, salones del palacio)."
    ],
-   "id": "museo-nacional-de-arte-decorativo"
+   "id": "museo-nacional-de-arte-decorativo",
+   "entradas": [
+    "https://museoartedecorativo.cultura.gob.ar/actividades/"
+   ],
+   "comportamiento": {
+    "actividades": "Las tarjetas dicen 'hasta el None' cuando no tienen cierre; varias son de 2025."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 1902"
   },
   {
    "nombre": "Museo de Arte Español Enrique Larreta",
@@ -7799,14 +8182,39 @@
    "lugares": [
     "Museo de Arte Español Enrique Larreta"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+   "instagram": "@museolarreta",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+    "2026-10-15 [web] Agenda web desactualizada (2025); revisar Instagram @museolarreta."
    ],
-   "id": "museo-de-arte-espanol-enrique-larreta"
+   "id": "museo-de-arte-espanol-enrique-larreta",
+   "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta"
+   ],
+   "comportamiento": {
+    "web": "Página de la Ciudad desactualizada; sus obras de teatro salen en Alternativa Teatral (espacio Museo Larreta) y en Instagram/Linktree."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291"
   },
   {
    "nombre": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
@@ -7814,14 +8222,39 @@
    "lugares": [
     "Museo de Arte Hispanoamericano Isaac Fernández Blanco"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.amigosdelfernandezblanco.org/eventos.php",
+   "instagram": "@museofernandezblanco",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.amigosdelfernandezblanco.org/eventos.php",
+    "2026-10-15 [web] Suipacha 1422, Retiro."
    ],
-   "id": "museo-de-arte-hispanoamericano-isaac-fernandez-blanco"
+   "id": "museo-de-arte-hispanoamericano-isaac-fernandez-blanco",
+   "entradas": [
+    "https://www.amigosdelfernandezblanco.org/eventos.php"
+   ],
+   "comportamiento": {
+    "web": "La agenda la publica la Asociación de Amigos (amigosdelfernandezblanco.org/eventos.php); la página de la Ciudad es histórica."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1422"
   },
   {
    "nombre": "Museo de Artes Plásticas Eduardo Sívori",
@@ -7829,14 +8262,39 @@
    "lugares": [
     "Museo de Artes Plásticas Eduardo Sívori"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
+   "instagram": "@museo_sivori",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
+    "2026-10-15 [web] Dos exposiciones actuales hasta el 22/11. En octubre hay subasta a beneficio del museo (notas de prensa)."
    ],
-   "id": "museo-de-artes-plasticas-eduardo-sivori"
+   "id": "museo-de-artes-plasticas-eduardo-sivori",
+   "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori"
+   ],
+   "comportamiento": {
+    "web": "La página de la Ciudad (gcaba_historico) está al día con exposiciones actuales y pasadas."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ],
+   "barrio": "Palermo",
+   "direccion": "Av. Infanta Isabel 555"
   },
   {
    "nombre": "Museo de Arte Popular José Hernández",
@@ -7844,14 +8302,39 @@
    "lugares": [
     "Museo de Arte Popular José Hernández"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
+   "instagram": "@museodeartepopularmap",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
+    "2026-10-15 [web] Muestra del Salón de Arte Textil hasta el 25/10."
    ],
-   "id": "museo-de-arte-popular-jose-hernandez"
+   "id": "museo-de-arte-popular-jose-hernandez",
+   "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez"
+   ],
+   "comportamiento": {
+    "actividades": "La página de actividades remite a redes; no publica grilla."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373"
   },
   {
    "nombre": "Museo Xul Solar",
@@ -7859,14 +8342,40 @@
    "lugares": [
     "Museo Xul Solar"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.xulsolar.org.ar/",
+   "instagram": "@museo.xul.solar",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.xulsolar.org.ar/",
+    "2026-10-15 [web] Martes a viernes 12-20, sábados 12-19; entrada general $9.000."
    ],
-   "id": "museo-xul-solar"
+   "id": "museo-xul-solar",
+   "entradas": [
+    "https://www.eventbrite.com.ar/o/museo-xul-solar-38576839753",
+    "https://www.xulsolar.org.ar/"
+   ],
+   "comportamiento": {
+    "programacion": "La programación mensual es un PDF en Drive; las actividades pagas se venden en Eventbrite (organizador 38576839753)."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "Palermo",
+   "direccion": "Laprida 1212"
   },
   {
    "nombre": "Museo Nacional del Grabado",
@@ -7874,14 +8383,39 @@
    "lugares": [
     "Museo Nacional del Grabado"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://museodelgrabado.cultura.gob.ar/",
+   "instagram": "@mndelgrabado",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://museodelgrabado.cultura.gob.ar/",
+    "2026-10-15 [web] Sin actividades ni exhibición vigente; parece cerrado temporalmente."
    ],
-   "id": "museo-nacional-del-grabado"
+   "id": "museo-nacional-del-grabado",
+   "entradas": [
+    "https://museodelgrabado.cultura.gob.ar/actividades/"
+   ],
+   "comportamiento": {
+    "estado": "aviso de cierre en la portada (octubre 2026)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985, 2° piso"
   },
   {
    "nombre": "Museo Nacional de Arte Oriental",
@@ -7889,14 +8423,39 @@
    "lugares": [
     "Museo Nacional de Arte Oriental"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://mnao.cultura.gob.ar/",
+   "instagram": "@museooriental",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://mnao.cultura.gob.ar/",
+    "2026-10-15 [web] Viamonte 525."
    ],
-   "id": "museo-nacional-de-arte-oriental"
+   "id": "museo-nacional-de-arte-oriental",
+   "entradas": [
+    "https://mnao.cultura.gob.ar/exhibiciones/"
+   ],
+   "comportamiento": {
+    "estructura": "Exhibiciones con 'Desde el ... hasta el ...'."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ],
+   "barrio": "San Nicolás",
+   "direccion": "Viamonte 525"
   },
   {
    "nombre": "Museo Benito Quinquela Martín",
@@ -7904,14 +8463,36 @@
    "lugares": [
     "Museo Benito Quinquela Martín"
    ],
-   "web": "",
+   "web": "https://quinquela.ar/",
    "instagram": "",
-   "pendiente_alta": true,
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://quinquela.ar/",
+    "2026-10-15 [web] Av. Don Pedro de Mendoza 1835, La Boca."
    ],
-   "id": "museo-benito-quinquela-martin"
+   "id": "museo-benito-quinquela-martin",
+   "comportamiento": {
+    "web": "No hay agenda en la web; la colección permanente se visita con turno."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ],
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1835"
   },
   {
    "nombre": "Museo Kosice",
@@ -7919,14 +8500,39 @@
    "lugares": [
     "Museo Kosice"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://kosice.com.ar/",
+   "instagram": "@museokosice",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://kosice.com.ar/",
+    "2026-10-15 [web] Humahuaca 4662. Sin fechas de octubre; revisar Instagram."
    ],
-   "id": "museo-kosice"
+   "id": "museo-kosice",
+   "entradas": [
+    "https://kosice.com.ar/"
+   ],
+   "comportamiento": {
+    "visitas": "Visitas con reserva; fechas en Novedades."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Almagro",
+   "direccion": "Humahuaca 4662"
   },
   {
    "nombre": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
@@ -7934,14 +8540,39 @@
    "lugares": [
     "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://museodelacarcova.una.edu.ar/",
+   "instagram": "@museodelacarcova.una",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://museodelacarcova.una.edu.ar/",
+    "2026-10-15 [web] Museo de la UNA en Costanera Sur."
    ],
-   "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova"
+   "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova",
+   "entradas": [
+    "https://museodelacarcova.una.edu.ar/"
+   ],
+   "comportamiento": {
+    "estructura": "Portada con 'AGENDA' (fecha + título) y exposiciones con rango 'Del dd.mm.aaaa al dd.mm.aaaa'."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ],
+   "barrio": "Puerto Madero",
+   "direccion": "Av. España 1701"
   },
   {
    "nombre": "Museo Casa de Yrurtia",
@@ -7949,14 +8580,39 @@
    "lugares": [
     "Museo Casa de Yrurtia"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://museoyrurtia.cultura.gob.ar/",
+   "instagram": "@museoyrurtia",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://museoyrurtia.cultura.gob.ar/",
+    "2026-10-15 [web] O'Higgins 2390, Belgrano; entrada gratuita."
    ],
-   "id": "museo-casa-de-yrurtia"
+   "id": "museo-casa-de-yrurtia",
+   "entradas": [
+    "https://museoyrurtia.cultura.gob.ar/"
+   ],
+   "comportamiento": {
+    "estructura": "La portada trae la exhibición temporaria con fechas y las próximas actividades."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ],
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390"
   },
   {
    "nombre": "MARQ Museo de Arquitectura y Diseño",
@@ -7964,14 +8620,39 @@
    "lugares": [
     "MARQ Museo de Arquitectura y Diseño"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://socearq.org/marq/",
+   "instagram": "@marq_sca",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://socearq.org/marq/",
+    "2026-10-15 [web] MARQ funciona en Av. del Libertador 999; revisar Instagram."
    ],
-   "id": "marq-museo-de-arquitectura-y-diseno"
+   "id": "marq-museo-de-arquitectura-y-diseno",
+   "entradas": [
+    "https://socearq.org/marq/"
+   ],
+   "comportamiento": {
+    "web": "No tiene web propia: la programación sale en socearq.org/marq/ y en Instagram @marq_sca."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 999"
   },
   {
    "nombre": "Fundación Andreani",
@@ -8018,14 +8699,36 @@
    "lugares": [
     "Museo del Humor (MuHu)"
    ],
-   "web": "",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/museos/museo-del-humor/institucional",
    "instagram": "",
-   "pendiente_alta": true,
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/museos/museo-del-humor/institucional",
+    "2026-10-15 [web] Revisar Facebook/Instagram del MuHu si aparece."
    ],
-   "id": "museo-del-humor-muhu"
+   "id": "museo-del-humor-muhu",
+   "comportamiento": {
+    "web": "sin agenda en la web de la Ciudad"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ],
+   "barrio": "Puerto Madero",
+   "direccion": "Av. de los Italianos 851"
   },
   {
    "nombre": "Henrique Faria Buenos Aires",
@@ -8071,14 +8774,38 @@
    "lugares": [
     "Pasto Galería"
    ],
-   "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "web": "https://www.pastogaleria.com.ar/",
+   "instagram": "@pastogaleria",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15: la web cambió de  a https://www.pastogaleria.com.ar/",
+    "2026-10-15 [web] Web confirmada pastogaleria.com.ar."
    ],
-   "id": "pasto-galeria"
+   "id": "pasto-galeria",
+   "entradas": [
+    "https://www.pastogaleria.com.ar/"
+   ],
+   "comportamiento": {
+    "estructura": "La portada muestra 'Exhibición actual' sin fechas; las fechas están en la agenda de Meridiano."
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "barrio": "Retiro"
   },
   {
    "nombre": "Hache Galería",
@@ -8234,13 +8961,32 @@
     "Mar Dulce Galería"
    ],
    "web": "",
-   "instagram": "",
-   "pendiente_alta": true,
+   "instagram": "@galeriamardulce",
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
-    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear"
+    "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
+    "2026-10-15 [web] Galería con Instagram @galeriamardulce y tienda online."
    ],
-   "id": "mar-dulce-galeria"
+   "id": "mar-dulce-galeria",
+   "comportamiento": {
+    "canal": "sin web de muestras; usar Instagram"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-15",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "nombre": "Cosmocosa",
