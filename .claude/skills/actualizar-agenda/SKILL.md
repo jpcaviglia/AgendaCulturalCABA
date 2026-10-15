@@ -81,6 +81,11 @@ Cada ~40 sitios, publicá un avance (sección 6). Así la página se actualiza a
 
 1. Abrí la primera URL de `entradas` si hay; si no, `web`. Si hay `enlaces_pendientes`, abrilos también.
 2. Corré `preparar`. Si `comportamiento.espera_seg` dice que el sitio es lento, esperá eso antes.
+   `preparar` también cierra avisos de cookies y ventanas de newsletter, notificaciones o edad
+   (prefiere "rechazar" o "solo necesarias"), y lo repite mientras scrollea. Mirá `popups` en el
+   resultado: si dice `iframe de consentimiento`, o si en la captura sigue habiendo algo tapando la
+   página, cerralo con un clic y volvé a correr `preparar`. Nunca marques un sitio como vacío o caído
+   porque un aviso tapaba el contenido.
 3. Si `largo_texto` es muy chico o la página muestra un error:
    - intento 2: recargá, esperá 10-15 s más y corré `preparar` otra vez;
    - intento 3: probá la variante (`www`/sin `www`, `http`/`https`, la portada si estabas en una sección,
@@ -153,7 +158,9 @@ cupo y no todos los perfiles entran en cada corrida: se rotan, primero los revis
 al repositorio) queda cada post abierto con los eventos que tenía. No vuelvas a abrirlos:
 
 1. Abrí `https://www.instagram.com/<usuario>/`, esperá 3-5 s y corré `instagram_perfil`.
-   Si `pide_login` es verdadero o aparece un captcha: `bloqueado` y pasá al siguiente.
+   Si aparece un diálogo de cookies ("Rechazar cookies opcionales") o de notificaciones ("Ahora no"),
+   corré `popups` o cerralo con un clic. Si `pide_login` es verdadero o aparece un captcha:
+   `bloqueado` y pasá al siguiente.
 2. Pasá las URLs de `posts` al script:
    `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
    Abrí **solo los NUEVOS** (hasta ~9) y las destacadas "Agenda", "Cartelera", "Programación" si hay.
@@ -245,7 +252,8 @@ Un objeto JSON por sitio y canal en `data/crawl/tmp/<id>.json`:
   entradas; el post de Instagram solo si no hay otra.
 - `vigente_sin_fin: true` solo cuando la fuente lo publica como vigente sin fecha de cierre.
 - `comportamiento`: claves y valores cortos que le sirvan a la próxima corrida (`espera_seg`, `scroll`,
-  `ver_mas`, `paginacion`, `menu`, `cookies`, `plataforma`, `fichas`, `extraccion`, `bloqueos`).
+  `ver_mas`, `paginacion`, `menu`, `cookies` (qué aviso aparece y cómo se cierra), `popups`,
+  `plataforma`, `fichas`, `extraccion`, `bloqueos`).
   Se fusiona con lo que ya había; poné una clave en `null` para borrarla si dejó de ser cierta.
 - `nota`: una o dos frases con lo aprendido. Se acumulan en `notas` del sitio.
 - `web_nueva`, `instagram`, `enlace_bio`: solo si descubriste que cambiaron o faltaban.

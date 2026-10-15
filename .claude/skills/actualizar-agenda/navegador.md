@@ -6,7 +6,8 @@ devuelve una promesa vacía o `{}` en vez del resultado, esperá unos segundos y
 `JSON.stringify(window.__ag)` para leerlo.
 
 Están probados en Chromium con páginas de prueba: carga lenta, scroll infinito, botón "cargar más",
-banner de cookies y enlaces a muestras dentro del menú. Si cambiás uno, mantené esos casos funcionando.
+avisos de cookies (gestores conocidos, shadow DOM, avisos que aparecen tarde), ventanas de newsletter y
+de edad, y enlaces a muestras dentro del menú. Si cambiás uno, mantené esos casos funcionando.
 
 ## `preparar`: esperar, scrollear, expandir y listar enlaces
 
@@ -14,7 +15,8 @@ Correrlo **en cada página de listado** (agenda, muestras, cartelera, programaci
 termina de navegar. Hace, en orden:
 
 1. Espera hasta 30 s a que el texto de la página deje de cambiar (sitios lentos, apps con JavaScript).
-2. Acepta el banner de cookies si hay uno.
+2. Cierra avisos de cookies y ventanas que tapan la página (ver `popups` abajo), y lo vuelve a hacer en
+   cada paso del scroll, porque hay avisos que aparecen a los segundos o al bajar.
 3. Scrollea hasta el final, una y otra vez, hasta que la página deja de crecer (carga diferida y scroll
    infinito), y aprieta los botones "ver más / cargar más / load more" que no navegan a otra página.
 4. Devuelve los enlaces separados en: `secciones` (agenda, muestras, exposiciones, cartelera, etc. del
@@ -36,10 +38,66 @@ termina de navegar. Hace, en orden:
   }
   const espera_ms = Date.now() - t0;
   const visible = (b) => b.offsetParent !== null || getComputedStyle(b).position === "fixed";
-  const RE_COOKIES = /^(aceptar|acepto|accept|accept all|aceptar todo|aceptar todas|allow all|entendido|got it|ok|de acuerdo)$/i;
-  for (const b of document.querySelectorAll("button, [role=button], a")) {
-    if (visible(b) && RE_COOKIES.test((b.innerText || "").trim())) { b.click(); break; }
-  }
+  // --- cerrarPopups: igual en preparar, esperar y popups ---
+  const popups = [];
+  const cerrarPopups = () => {
+    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
+      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
+    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
+    const raices = [document];
+    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
+    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
+    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
+    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
+    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
+      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
+      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
+      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
+      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
+    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
+    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
+    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
+    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
+    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
+    const enAviso = (b) => {
+      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
+      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
+        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
+      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
+    };
+    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
+    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
+    if (b2) return clic(b2, "cookies");
+    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
+    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
+    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
+    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
+    const area = innerWidth * innerHeight;
+    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
+      const r = m.getBoundingClientRect(), t = m.innerText || "";
+      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
+      m.dataset.agPopup = "1";
+      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
+      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
+        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
+      if (b && noNavegaPopup(b)) return clic(b, "ventana");
+      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
+      popups.push("ventana: Escape");
+      return true;
+    }
+    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
+    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
+    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
+    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
+    if (popups.length) for (const e of [document.documentElement, document.body])
+      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
+    return false;
+  };
+  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
+  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
+  // --- fin cerrarPopups ---
+  await despejar();
   const RE_MAS = /^\+?\s*((ver|cargar|mostrar) m[aá]s|load more|show more|see more|view more|m[aá]s (eventos|muestras|actividades|resultados|fechas|funciones)|ver todos|ver todas|siguientes)\b/i;
   const noNavega = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
   let alto = 0, quietos = 0, pasos = 0, clics = 0;
@@ -47,6 +105,7 @@ termina de navegar. Hace, en orden:
     window.scrollTo(0, document.documentElement.scrollHeight);
     pasos++;
     await dormir(1200);
+    await despejar(); // hay avisos que aparecen a los segundos o al scrollear
     const boton = [...document.querySelectorAll("button, [role=button], a")].find((b) =>
       visible(b) && !b.dataset.agClic && noNavega(b) && (b.innerText || "").trim().length < 40 && RE_MAS.test((b.innerText || "").trim()));
     if (boton && clics < 20) {
@@ -101,7 +160,7 @@ termina de navegar. Hace, en orden:
   ].filter(Boolean);
   window.__ag = JSON.stringify({
     url: location.href, titulo: document.title, espera_ms, largo_texto: largoTexto(), pasos_scroll: pasos,
-    clics_ver_mas: clics, fechas_en_texto: (document.body.innerText.match(RE_FECHA) || []).length,
+    clics_ver_mas: clics, popups, fechas_en_texto: (document.body.innerText.match(RE_FECHA) || []).length,
     eventos_jsonld: (jsonld.match(/"@type"\s*:\s*"[A-Za-z]*Event"/g) || []).length, plataforma,
     secciones: out.secciones.slice(0, 40), fichas: out.fichas.slice(0, 120),
     ticketeras: out.ticketeras.slice(0, 20), externos: out.externos.slice(0, 30),
@@ -137,9 +196,160 @@ Para la página de un evento o una muestra: espera a que cargue y devuelve el te
     estables = n === largo && n > 150 ? estables + 1 : 0;
     largo = n;
   }
+  // --- cerrarPopups: igual en preparar, esperar y popups ---
+  const popups = [];
+  const cerrarPopups = () => {
+    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
+      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
+    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
+    const raices = [document];
+    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
+    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
+    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
+    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
+    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
+      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
+      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
+      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
+      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
+    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
+    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
+    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
+    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
+    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
+    const enAviso = (b) => {
+      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
+      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
+        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
+      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
+    };
+    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
+    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
+    if (b2) return clic(b2, "cookies");
+    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
+    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
+    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
+    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
+    const area = innerWidth * innerHeight;
+    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
+      const r = m.getBoundingClientRect(), t = m.innerText || "";
+      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
+      m.dataset.agPopup = "1";
+      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
+      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
+        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
+      if (b && noNavegaPopup(b)) return clic(b, "ventana");
+      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
+      popups.push("ventana: Escape");
+      return true;
+    }
+    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
+    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
+    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
+    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
+    if (popups.length) for (const e of [document.documentElement, document.body])
+      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
+    return false;
+  };
+  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
+  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
+  // --- fin cerrarPopups ---
+  await despejar();
   const raiz = document.querySelector("main, article, [role=main], #content, .content") || document.body;
   window.__ag = JSON.stringify({ url: location.href, titulo: document.title, espera_ms: Date.now() - t0,
-    texto: raiz.innerText.replace(/\n{3,}/g, "\n\n").slice(0, 6000) });
+    popups, texto: raiz.innerText.replace(/\n{3,}/g, "\n\n").slice(0, 6000) });
+  return window.__ag;
+})()
+```
+
+## `popups`: avisos de cookies y ventanas que tapan la página
+
+`preparar` y `esperar` ya lo hacen solos (devuelven en `popups` lo que cerraron). Este fragmento suelto
+sirve cuando aparece un aviso después, por ejemplo al abrir un menú o al volver a una página.
+
+Qué cierra, en orden:
+
+1. Gestores de consentimiento conocidos (OneTrust, Didomi, Cookiebot, Usercentrics, CookieYes,
+   Complianz, Cookie Notice, Iubenda, CookieFirst, Google, Borlabs, Cookie Consent), incluso dentro de
+   shadow DOM. Si hay opción, **rechaza** o elige "solo necesarias"; si no, acepta.
+2. Avisos de cookies propios del sitio: un botón "Rechazar / Aceptar / Entendido / OK / Cerrar" dentro de
+   un aviso fijo o un diálogo que habla de cookies o privacidad. Nunca aprieta un "OK" suelto.
+3. Ventanas que tapan al menos un cuarto de la pantalla y hablan de newsletter, suscripción,
+   notificaciones, promociones, descargar la app o edad: usa la ✕ o "No, gracias / Ahora no / Cerrar";
+   en un control de edad, "Sí / Soy mayor". Si no hay botón, manda Escape. Cada ventana se intenta una
+   sola vez.
+4. Si el aviso está en un iframe de otro dominio, JS no puede tocarlo: lo informa como
+   `iframe de consentimiento`. Sacá una captura y cerralo con un clic (herramienta `computer`).
+5. Si después de cerrar algo la página quedó sin scroll (`overflow: hidden`), la destraba.
+
+Si `popups` muestra un aviso que se repite en cada página del sitio, anotalo en
+`comportamiento.cookies` (por ejemplo "OneTrust, se rechaza") para la próxima corrida. Si una ventana
+no se pudo cerrar y tapa el contenido, cerrala a mano con un clic y anotá cómo en `comportamiento`.
+
+```js popups
+(async () => {
+  // --- cerrarPopups: igual en preparar, esperar y popups ---
+  const popups = [];
+  const cerrarPopups = () => {
+    const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e);
+      return r.width > 2 && r.height > 2 && s.visibility !== "hidden" && s.display !== "none" && s.opacity !== "0"; };
+    const txt = (e) => (e.innerText || e.value || e.getAttribute("aria-label") || "").trim().replace(/\s+/g, " ");
+    const raices = [document];
+    for (const e of document.querySelectorAll("*")) if (e.shadowRoot) raices.push(e.shadowRoot);
+    const todos = (sel) => raices.flatMap((r) => [...r.querySelectorAll(sel)]).filter(vis);
+    const clic = (b, que) => { b.click(); popups.push(`${que}: ${txt(b).slice(0, 40) || b.id || b.className}`); return true; };
+    // 1. Gestores de consentimiento conocidos; se prefiere rechazar (o "solo necesarias") antes que aceptar.
+    const CMP = ["#onetrust-reject-all-handler", "#onetrust-accept-btn-handler", "#didomi-notice-disagree-button",
+      "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+      "[data-testid=uc-deny-all-button]", "[data-testid=uc-accept-all-button]", ".cky-btn-reject", ".cky-btn-accept",
+      ".cmplz-deny", ".cmplz-accept", "#cn-refuse-cookie", "#cn-accept-cookie", "#wt-cli-reject-btn", "#wt-cli-accept-all-btn",
+      ".iubenda-cs-reject-btn", ".iubenda-cs-accept-btn", "[data-cookiefirst-action=reject]", "[data-cookiefirst-action=accept]",
+      ".fc-cta-do-not-consent", ".fc-cta-consent", "._brlbs-refuse-btn", "._brlbs-btn-accept-all", ".cc-deny", ".cc-allow", ".cc-dismiss"];
+    for (const sel of CMP) { const b = todos(sel)[0]; if (b) return clic(b, "cookies"); }
+    // 2. Avisos de cookies propios del sitio: botón dentro de un aviso que habla de cookies o privacidad.
+    const RE_AVISO = /cookie|privacidad|privacy|consent|datos personales/i;
+    const RE_NO = /^(rechazar|denegar|no acepto|decline|reject|deny|solo (las )?(cookies )?(necesarias|esenciales)|only (necessary|essential)|usar solo)/i;
+    const RE_SI = /^(aceptar|acepto|accept|allow|permitir|entendido|de acuerdo|estoy de acuerdo|agree|ok\b|okay|got it|continuar|cerrar|close|×|✕)/i;
+    const enAviso = (b) => {
+      let c = b.closest("[class*=cookie i], [id*=cookie i], [class*=consent i], [id*=consent i], [class*=gdpr i], [class*=privacy i], [role=dialog], [aria-modal=true], [class*=banner i], [class*=notice i], [class*=aviso i]");
+      for (let e = b.parentElement, k = 0; !c && e && k < 8; e = e.parentElement, k++)
+        if (/fixed|sticky/.test(getComputedStyle(e).position)) c = e;
+      return !!c && (c.innerText || "").length < 2500 && RE_AVISO.test(c.innerText || "");
+    };
+    const botones = todos("button, [role=button], a, input[type=button], input[type=submit]").filter((b) => txt(b).length < 45 && noNavegaPopup(b) && enAviso(b));
+    const b2 = botones.find((b) => RE_NO.test(txt(b))) || botones.find((b) => RE_SI.test(txt(b)));
+    if (b2) return clic(b2, "cookies");
+    // 3. Ventanas que tapan la página: newsletter, notificaciones, promociones, control de edad.
+    const RE_MODAL = /suscrib|newsletter|bolet[ií]n|notificaci|descuento|oferta|promo|mayor de (edad|18)|\+18|registrate|sign ?up|whatsapp|descarg[aá] la app/i;
+    const RE_CERRAR = /^(×|✕|✖|x|cerrar|close|no,? gracias|no thanks|ahora no|not now|m[aá]s tarde|omitir|saltar|skip|continuar sin)/i;
+    const RE_EDAD = /^(s[ií](?![a-z])|soy mayor|tengo (m[aá]s de )?18|ingresar|entrar|enter|yes)/i;
+    const area = innerWidth * innerHeight;
+    for (const m of [...document.querySelectorAll("*")].filter((e) => getComputedStyle(e).position === "fixed" && vis(e))) {
+      const r = m.getBoundingClientRect(), t = m.innerText || "";
+      if (m.dataset.agPopup || r.width * r.height < area * 0.25 || t.length > 2500 || !RE_MODAL.test(t)) continue;
+      m.dataset.agPopup = "1";
+      const cand = [...m.querySelectorAll("button, [role=button], a, [aria-label], [class*=close i]")].filter(vis);
+      const b = cand.find((e) => /cerrar|close/i.test(e.getAttribute("aria-label") || "") || /close|cerrar/i.test(String(e.className)))
+        || cand.find((e) => RE_CERRAR.test(txt(e))) || (/edad|18/.test(t) && cand.find((e) => RE_EDAD.test(txt(e))));
+      if (b && noNavegaPopup(b)) return clic(b, "ventana");
+      document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
+      popups.push("ventana: Escape");
+      return true;
+    }
+    // 4. Consentimiento en un iframe de otro dominio: JS no lo puede tocar.
+    const marco = todos("iframe").find((f) => /consent|cmp|sourcepoint|privacy-mgmt|cookie/i.test(f.src || f.id || ""));
+    if (marco && !popups.some((p) => p.startsWith("iframe"))) popups.push("iframe de consentimiento: cerrarlo con un clic (captura)");
+    // 5. Si se cerró algo y la página quedó trabada sin scroll, destrabarla.
+    if (popups.length) for (const e of [document.documentElement, document.body])
+      if (getComputedStyle(e).overflow === "hidden") e.style.setProperty("overflow", "auto", "important");
+    return false;
+  };
+  const noNavegaPopup = (b) => b.tagName !== "A" || !b.getAttribute("href") || /^(#|javascript:)/i.test(b.getAttribute("href"));
+  const despejar = async () => { for (let k = 0; k < 4 && cerrarPopups(); k++) await new Promise((r) => setTimeout(r, 800)); };
+  // --- fin cerrarPopups ---
+  await despejar();
+  window.__ag = JSON.stringify({ url: location.href, popups });
   return window.__ag;
 })()
 ```
