@@ -24,8 +24,8 @@ Con --corrida sondea solo las webs pendientes de la corrida abierta y además:
                     `crawl.py siguiente` lo muestra para leerlo en vez de abrir el navegador.
 El informe se fusiona con el anterior (por sitio, con su fecha).
 """
-import gzip
 import html as html_lib
+import http.client
 import json
 import re
 import socket
@@ -33,12 +33,14 @@ import ssl
 import subprocess
 import sys
 import time
+import zlib
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from http.cookiejar import CookieJar
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlparse
-from urllib.request import Request, urlopen
+from urllib.request import HTTPCookieProcessor, HTTPSHandler, Request, build_opener
 
 from comun import CORRIDA, CRAWL, RAIZ, SITIOS, ZONA_BA, dominio, escribir_json, leer_json
 
@@ -47,6 +49,7 @@ TEXTOS = CRAWL / "local" / "textos"
 TMP = CRAWL / "tmp"
 UA = "Mozilla/5.0 (compatible; AgendaCulturalCABA-sondeo; lectura de agenda pública)"
 TIMEOUT, MAX_BYTES, PAUSA = 15, 1_500_000, 1.0
+REINTENTABLES, MAX_ESPERA = {429, 500, 502, 503, 504}, 30  # se reintentan una vez, esperando hasta 30 s
 MESES = "ene|feb|mar|abr|may|jun|jul|ago|sep|set|oct|nov|dic|jan|apr|aug|dec"
 RE_FECHA = re.compile(rf"\b\d{{1,2}}\s*(de\s+)?({MESES})[a-záéíóú]*\.?\b|\b({MESES})[a-z]*\.?\s+\d{{1,2}}\b|\b\d{{1,2}}[/.]\d{{1,2}}([/.]\d{{2,4}})?\b", re.I)
 RE_AGENDA = re.compile(r"agenda|cartelera|programaci|\beventos?\b|\bevents?\b|actividades|muestras?|exposici|exhibici|exhibitions?|funciones|conciertos|calendario|calendar|en-cartel|pr[oó]xim|upcoming", re.I)
@@ -56,34 +59,96 @@ CONTEXTO = ssl.create_default_context()
 SIN_VERIFICAR = ssl._create_unverified_context()  # solo para leer páginas públicas cuando el certificado está mal
 
 
-def pedir(url):
-    """(estado, url_final, texto, nota). estado = código HTTP, o 0 si falló (la nota dice por qué)."""
-    nota = ""
-    for ctx in (CONTEXTO, SIN_VERIFICAR):
+def descomprimir(datos, codificacion):
+    """Descomprime lo que se llegó a bajar. Tolera archivos cortados por MAX_BYTES o por el servidor."""
+    if codificacion in ("", "identity"):
+        return datos, ""
+    if codificacion not in ("gzip", "x-gzip", "deflate"):
+        return b"", f"respuesta comprimida con {codificacion}, que no se puede leer"
+    for wbits in (zlib.MAX_WBITS | 32, -zlib.MAX_WBITS):  # gzip o zlib (detecta solo), y deflate sin cabecera
         try:
-            req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/json;q=0.9,*/*;q=0.5",
-                                        "Accept-Language": "es-AR,es;q=0.9", "Accept-Encoding": "gzip"})
-            with urlopen(req, timeout=TIMEOUT, context=ctx) as r:
-                datos = r.read(MAX_BYTES)
-                if r.headers.get("Content-Encoding") == "gzip":
-                    datos = gzip.decompress(datos)
-                cs = r.headers.get_content_charset() or "utf-8"
-                return r.status, r.geturl(), datos.decode(cs, "replace"), nota
-        except HTTPError as e:
-            return e.code, url, "", f"HTTP {e.code}"
-        except ssl.SSLError as e:
-            nota = "certificado inválido"
+            return zlib.decompressobj(wbits).decompress(datos, MAX_BYTES * 2), ""
+        except zlib.error:
             continue
-        except URLError as e:
-            if isinstance(e.reason, ssl.SSLError) or "CERTIFICATE" in str(e.reason).upper():
-                nota = "certificado inválido"
+    return b"", "la compresión de la respuesta está rota"
+
+
+def decodificar(datos, charset):
+    if not charset:
+        m = re.search(rb'<meta[^>]+charset=["\']?([\w-]+)', datos[:4096], re.I)
+        charset = m.group(1).decode("ascii") if m else "utf-8"
+    try:
+        return datos.decode(charset, "replace")
+    except LookupError:  # el sitio declara un charset que no existe
+        return datos.decode("utf-8", "replace")
+
+
+def motivo_error(e):
+    """Un motivo corto y estable para el informe, a partir de la excepción."""
+    r = e.reason if isinstance(e, URLError) and not isinstance(e, HTTPError) else e
+    if isinstance(r, (socket.timeout, TimeoutError)) or "timed out" in str(r).lower():
+        return "timeout"
+    if isinstance(r, ssl.SSLError) or "CERTIFICATE" in str(r).upper():
+        return "certificado inválido"
+    if isinstance(r, socket.gaierror):
+        return "el dominio no resuelve (DNS)"
+    if isinstance(r, ConnectionRefusedError):
+        return "conexión rechazada"
+    if isinstance(r, (ConnectionResetError, ConnectionAbortedError, http.client.RemoteDisconnected,
+                      http.client.IncompleteRead, EOFError)):
+        return "conexión cortada"
+    return f"{type(r).__name__}: {r}"[:120]
+
+
+def abrir(url, ctx):
+    """Un pedido. Las cookies se guardan durante el pedido: hay sitios que redirigen hasta que se las devuelve."""
+    abridor = build_opener(HTTPCookieProcessor(CookieJar()), HTTPSHandler(context=ctx))
+    req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/json;q=0.9,*/*;q=0.5",
+                                "Accept-Language": "es-AR,es;q=0.9", "Accept-Encoding": "gzip, deflate"})
+    with abridor.open(req, timeout=TIMEOUT) as r:
+        try:
+            datos = r.read(MAX_BYTES)
+        except http.client.IncompleteRead as e:  # el servidor cortó antes de terminar: sirve lo que llegó
+            datos = e.partial
+        datos, nota = descomprimir(datos, (r.headers.get("Content-Encoding") or "").strip().lower())
+        return r.status, r.geturl(), decodificar(datos, r.headers.get_content_charset()), nota
+
+
+def espera_reintento(e):
+    try:
+        return min(float(e.headers.get("Retry-After", "")), MAX_ESPERA)
+    except (TypeError, ValueError):
+        return PAUSA * 5
+
+
+def pedir(url):
+    """(estado, url_final, texto, nota). estado = código HTTP, o 0 si falló (la nota dice por qué).
+    Si el certificado está mal, vuelve a pedir sin verificarlo. Reintenta una vez, tras una pausa, lo que suele ser
+    pasajero: timeout, conexión cortada, 429 (demasiados pedidos) y errores 5xx del servidor."""
+    ctx, nota, reintento = CONTEXTO, "", True
+    while True:
+        try:
+            est, final, texto, aviso = abrir(url, ctx)
+            nota = "; ".join(x for x in (nota, aviso) if x)
+            if not texto.strip():
+                nota = nota or "la respuesta llegó vacía"
+            return est, final, texto, nota
+        except HTTPError as e:
+            if e.code in REINTENTABLES and reintento:
+                reintento = False
+                time.sleep(espera_reintento(e))
                 continue
-            return 0, url, "", f"{type(e.reason).__name__}: {e.reason}"[:120]
-        except (socket.timeout, TimeoutError):
-            return 0, url, "", "timeout"
+            return e.code, url, "", f"HTTP {e.code}" + (" (demasiados pedidos)" if e.code == 429 else "")
         except Exception as e:  # noqa: BLE001 - un sitio roto no debe frenar el sondeo
-            return 0, url, "", f"{type(e).__name__}: {e}"[:120]
-    return 0, url, "", nota or "error"
+            motivo = motivo_error(e)
+            if motivo == "certificado inválido" and ctx is CONTEXTO:
+                ctx, nota = SIN_VERIFICAR, motivo
+                continue
+            if motivo in ("timeout", "conexión cortada") and reintento:
+                reintento = False
+                time.sleep(PAUSA * 3)
+                continue
+            return 0, url, "", motivo
 
 
 def texto_visible(html):
@@ -264,7 +329,7 @@ def sondear_sitio(s, leer=None):
     out = {"id": s["id"], "web": s["web"], "plataforma": [], "pedidos": 0}
     est, final, html, nota = pedir(s["web"])
     out["pedidos"] += 1
-    if est != 200 or not html:
+    if not 200 <= est < 300 or not html.strip():
         out.update(clase="unreachable", motivo=nota or f"HTTP {est}")
         return out
     out["url_final"] = final
