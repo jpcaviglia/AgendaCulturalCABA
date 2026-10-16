@@ -11,7 +11,7 @@ can be combined; each chip shows how many events it has with the other filters),
 **Agendar** (Google Calendar or an .ics file); **+ info** (the event's page inside the agenda, when the site
 allows it); and **Favoritos** (the star), which are saved in the browser (localStorage) with a copy of the
 event, so they are not lost when a run rebuilds `eventos.json`. On phones the sections move to a bottom bar.
-The look is black and white with square corners; the typefaces (Archivo and Space Mono) are loaded from Google Fonts and the map from unpkg and OpenStreetMap.
+The look is black and white with square corners, a dusty-rose accent and one muted color per category; the typefaces (Archivo and Space Mono) are loaded from Google Fonts and the map from unpkg and OpenStreetMap.
 
 ## How it is updated
 
