@@ -333,6 +333,8 @@ main { flex: 1; padding-top: 28px; padding-bottom: 48px; }
 }
 .ficha-categoria .n { font-size: 0.8rem; color: var(--suave); font-variant-numeric: tabular-nums; }
 .ficha-categoria[aria-pressed="true"] .n { color: inherit; opacity: 0.75; }
+/* Sin eventos con los filtros de ahora: se atenúa, pero una ficha elegida sigue visible para poder quitarla */
+.ficha-categoria.sin-resultados:not([aria-pressed="true"]) { opacity: 0.5; }
 
 /* Más filtros */
 .avanzados {

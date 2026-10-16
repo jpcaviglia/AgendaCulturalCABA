@@ -580,10 +580,13 @@
   }
 
   // Lo que depende de los filtros: fichas activas, cuenta de "Más filtros" y botón para quitarlos.
-  function actualizarControles(f) {
+  function actualizarControles(f, disponibles) {
     $("solo-noche").checked = f.horaDesde === "20:00";
     for (const b of $("categorias").querySelectorAll(".ficha")) {
       const c = b.dataset.categoria;
+      const n = disponibles.get(c) || 0;
+      b.querySelector(".n").textContent = String(n);
+      b.classList.toggle("sin-resultados", n === 0);
       b.setAttribute("aria-pressed", String(c ? f.categorias.has(c) : f.categorias.size === 0));
     }
     const unDia = f.desde && f.desde === f.hasta && diasVentana.includes(f.desde);
@@ -621,7 +624,15 @@
     limite = LOTE;
     dibujarAgenda();
     actualizarTira(sinFechas, f);
-    actualizarControles(f);
+    // El número de cada ficha de categoría: lo que hay con los demás filtros, sin contar la categoría misma.
+    const disponibles = new Map();
+    const sinCategorias = { ...f, categorias: new Set() };
+    for (const e of eventos) {
+      if (!pasaFiltros(e, sinCategorias) || !pasaFechas(e, f)) continue;
+      disponibles.set("", (disponibles.get("") || 0) + 1);
+      if (e.categoria) disponibles.set(e.categoria, (disponibles.get(e.categoria) || 0) + 1);
+    }
+    actualizarControles(f, disponibles);
     renderMapa();
   }
 
@@ -699,7 +710,7 @@
     const ficha = (categoria, nombre, cantidad) => {
       const b = crear("button", { type: "button", class: "ficha ficha-categoria", "aria-pressed": "false", "data-categoria": categoria }, [
         texto(nombre),
-        cantidad ? crear("span", { class: "n" }, [texto(String(cantidad))]) : null,
+        crear("span", { class: "n" }, [texto(String(cantidad))]),
       ]);
       if (categoria) b.style.setProperty("--h", String(tonoCategoria(categoria)));
       else b.classList.add("todas");
@@ -712,7 +723,7 @@
       return b;
     };
     $("categorias").replaceChildren(
-      ficha("", "Todas", 0),
+      ficha("", "Todas", eventos.length),
       ...[...porCategoria].sort((a, b) => b[1] - a[1]).map(([nombre, n]) => ficha(nombre, nombre, n)),
     );
 
