@@ -8,7 +8,9 @@ Usage:
                                                   # --todos, skips sites with a capture from today or yesterday
     python scripts/crawl.py siguiente [n]         # shows the next n pending sites with their notes
     python scripts/crawl.py ver <id>              # shows everything known about a site
-    python scripts/crawl.py guardar <archivo.json|->   # records the result of a site (format in the skill)
+    python scripts/crawl.py guardar <archivo.json|->   # validates and records the result of a site (format in
+                                                  # the skill); rejects events that link to the listing
+                                                  # page instead of their own page (see url_de_listado)
     python scripts/crawl.py ig-vistos <id> <url_post>...   # which Instagram posts were already analyzed (do not reopen)
     python scripts/crawl.py estado                # run progress and Instagram quota
     python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report
@@ -26,6 +28,7 @@ import json
 import re
 import subprocess
 import sys
+from collections import Counter
 from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
@@ -454,6 +457,24 @@ def normalizar_evento(raw, sitio, errores, avisos):
     return e
 
 
+def url_de_listado(res, sitio, eventos):
+    """(url, count) when 3 or more events, at least half of them, link to the same page and that page is the
+    site's website, one of its `entradas` or a page visited in this crawl, i.e. the listing instead of each
+    event's page. None if not, or if the source has no page per event (`comportamiento.sin_fichas`, in the result
+    or already saved for the site). Instagram posts are allowed: one post can announce several events."""
+    if (res.get("comportamiento") or {}).get("sin_fichas") or (sitio.get("comportamiento") or {}).get("sin_fichas"):
+        return None
+    urls = [_norm_url(e.get("url")) for e in eventos if e.get("url") and "instagram.com" not in e.get("url")]
+    if len(urls) < 3:
+        return None
+    url, n = Counter(urls).most_common(1)[0]
+    if n < 3 or n * 2 < len(eventos):
+        return None
+    paginas = {_norm_url(u) for u in (res.get("urls_visitadas") or []) + (res.get("entradas") or [])
+               + (sitio.get("entradas") or []) + [sitio.get("web"), res.get("web_nueva")] if u}
+    return (url, n) if url in paginas else None
+
+
 def validar(res, sitios):
     """Returns (site, channel, events, errors, warnings)."""
     errores, avisos = [], []
@@ -527,6 +548,12 @@ def validar(res, sitios):
             continue
         vistos.add(clave)
         eventos.append(e)
+    listado = url_de_listado(res, sitio, eventos)
+    if listado:
+        url, n = listado
+        errores.append(f"{n} de {len(eventos)} eventos enlazan al listado {url} y no a su propia página. Poner en 'url' "
+                       "la ficha de cada evento (el enlace de su tarjeta), o, si la fuente no tiene una página por "
+                       "evento, explicarlo una vez en comportamiento: {\"sin_fichas\": \"<motivo>\"}")
     if estado == "con_eventos" and res.get("eventos") and not eventos and not errores:
         avisos.append("todos los eventos ya terminaron: se registra como sin_eventos")
         res["estado"] = "sin_eventos"

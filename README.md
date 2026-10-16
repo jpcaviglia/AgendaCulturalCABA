@@ -44,7 +44,8 @@ They use the Python 3.10+ standard library. `crawl.py` does not visit any site; 
 network do so with plain HTTP requests, at a slow pace.
 
 - `scripts/crawl.py`: run queue, validation of each result (rejects "sin eventos" if agenda links were left
-  unopened or listings unscrolled, and "no carga" with fewer than 3 attempts) and a record of what was
+  unopened or listings unscrolled, "no carga" with fewer than 3 attempts, and results where most events link
+  to the listing page instead of their own page, unless the site is marked `sin_fichas`) and a record of what was
   learned, including the discarded links so they are not reopened. `crawl.py herramientas` prints the line
   that loads `.claude/skills/actualizar-agenda/navegador.js` into the tab (from jsDelivr, pinned to the last
   pushed commit of that file).

@@ -9019,17 +9019,18 @@
     "web": {
      "fecha": "2026-10-15",
      "estado": "con_eventos",
-     "eventos": 11,
-     "paginas": 2
+     "eventos": 9,
+     "paginas": 13
     }
    },
    "comportamiento": {
     "extraccion": "el Buscador de eventos lista la agenda (título, fechas, categoría) en 226 páginas de 10; la primera trae lo próximo; no hay hora en el listado",
-    "cookies": "banner de cookies de AECID al pie, no tapa"
+    "cookies": "banner de cookies de AECID al pie, no tapa",
+    "fichas": "cada evento del Buscador enlaza a /w/<slug>: ahí están la hora, la sede (no siempre el CCEBA: MALBA, Teatro Sarmiento, otras provincias) y si es online; abrir cada ficha en el navegador (el HTML sin JavaScript no trae la fecha)"
    },
    "notas": [
-    "2026-10-15 [web] Agenda paginada en /eventos/buscador-de-eventos; la portada muestra la misma lista. Las horas están en cada ficha.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cceba_ar"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cceba_ar",
+    "2026-10-15 [web] Corregido: cada evento enlaza a su ficha /w/<slug>. Se quitaron El Libro Verde del Teatro (formación online) y Diálogo entre orillas (en Puerto Madryn)."
    ],
    "enlaces_descartados": [
     {
@@ -9057,6 +9058,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
+    },
+    {
+     "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "enlace_bio": "https://linktr.ee/cceba_ar"
