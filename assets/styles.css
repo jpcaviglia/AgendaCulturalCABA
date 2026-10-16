@@ -315,7 +315,21 @@ main { flex: 1; padding-top: 28px; padding-bottom: 48px; }
 }
 .ficha:hover { border-color: var(--acento); }
 .ficha input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.ficha-hora { cursor: default; padding-right: 8px; }
+.ficha-hora select {
+  font: inherit;
+  font-weight: 700;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 6px 2px;
+  min-height: 36px;
+  cursor: pointer;
+}
+.ficha-hora select:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; border-radius: 6px; }
+.ficha-hora select option { color: var(--tinta); background: var(--superficie); }
 .ficha:has(input:checked),
+.ficha.activa,
 .ficha[aria-pressed="true"] { background: var(--tinta); border-color: var(--tinta); color: var(--papel); }
 .ficha:has(input:focus-visible) { outline: 2px solid var(--acento); outline-offset: 2px; }
 .ficha[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }

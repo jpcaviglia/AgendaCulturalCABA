@@ -46,9 +46,9 @@
             <input type="checkbox" id="solo-gratis">
             <span>Gratis</span>
           </label>
-          <label class="ficha">
-            <input type="checkbox" id="solo-noche">
-            <span>Desde las 20 h</span>
+          <label class="ficha ficha-hora">
+            <span>Desde las</span>
+            <select id="hora-desde"><option value="">cualquier hora</option></select>
           </label>
           <button type="button" class="ficha" id="mas-filtros" aria-expanded="false" aria-controls="avanzados">
             Más filtros <span id="cuenta-avanzados" class="cuenta" hidden></span>
@@ -75,10 +75,6 @@
           <label class="campo">
             <span>Hasta</span>
             <input type="date" id="fecha-hasta">
-          </label>
-          <label class="campo">
-            <span>Desde la hora</span>
-            <select id="hora-desde"><option value="">Cualquiera</option></select>
           </label>
         </div>
         <p id="nota-hora" class="suave nota-filtro" hidden></p>

@@ -581,7 +581,7 @@
 
   // Lo que depende de los filtros: fichas activas, cuenta de "Más filtros" y botón para quitarlos.
   function actualizarControles(f, disponibles) {
-    $("solo-noche").checked = f.horaDesde === "20:00";
+    $("hora-desde").closest(".ficha").classList.toggle("activa", Boolean(f.horaDesde));
     for (const b of $("categorias").querySelectorAll(".ficha")) {
       const c = b.dataset.categoria;
       const n = disponibles.get(c) || 0;
@@ -590,7 +590,7 @@
       b.setAttribute("aria-pressed", String(c ? f.categorias.has(c) : f.categorias.size === 0));
     }
     const unDia = f.desde && f.desde === f.hasta && diasVentana.includes(f.desde);
-    const avanzados = [f.barrio, f.lugar, !unDia && (f.desde || f.hasta), f.horaDesde && f.horaDesde !== "20:00"].filter(Boolean).length;
+    const avanzados = [f.barrio, f.lugar, !unDia && (f.desde || f.hasta)].filter(Boolean).length;
     $("cuenta-avanzados").textContent = avanzados;
     $("cuenta-avanzados").hidden = avanzados === 0;
     const hay = Boolean(f.q || f.barrio || f.lugar || f.categorias.size || f.gratis || f.horaDesde || f.desde || f.hasta);
@@ -702,7 +702,7 @@
     // Horas cada media hora, de 00:00 a 23:30 (el valor es "HH:MM").
     llenarSelect($("hora-desde"),
       Array.from({ length: 48 }, (_, i) => `${String(i >> 1).padStart(2, "0")}:${i % 2 ? "30" : "00"}`),
-      "Cualquiera");
+      "cualquier hora");
 
     // Categorías como fichas, de la más a la menos frecuente.
     const porCategoria = new Map();
@@ -743,11 +743,6 @@
     for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
       $(id).addEventListener(["buscar-evento", "lugar-evento"].includes(id) ? "input" : "change", renderEventos);
     }
-    // "Desde las 20 h" es un atajo del campo "Desde la hora".
-    $("solo-noche").addEventListener("change", () => {
-      $("hora-desde").value = $("solo-noche").checked ? "20:00" : "";
-      renderEventos();
-    });
     $("mas-filtros").addEventListener("click", () => abrirAvanzados($("avanzados").hidden));
     $("limpiar-filtros").addEventListener("click", limpiarFiltros);
     $("vacio-limpiar").addEventListener("click", limpiarFiltros);
