@@ -61,6 +61,34 @@
   // Un lugar con sala ("Malba · Auditorio") se agrupa con el lugar ("Malba").
   const lugarBase = (lugar) => (lugar || "").split(" · ")[0].trim();
 
+  const texto = (t) => document.createTextNode(t);
+
+  // Cada categoría tiene su tono (grados de matiz) para el punto y el nombre; las que no figuran reciben uno fijo según su nombre.
+  const TONOS = {
+    "Teatro": 345, "Música": 262, "Evento": 215, "Fiestas y electrónica": 318, "Artes visuales": 32,
+    "Cine": 190, "Visita guiada": 145, "Feria": 48, "Taller": 170, "Literatura y charlas": 285,
+    "Festival": 335, "Danza": 72, "Infantil": 100, "Gastronomía": 12, "Deporte": 125,
+  };
+  const tonoCategoria = (c) => TONOS[c] ?? [...c].reduce((a, ch) => (a * 31 + ch.charCodeAt(0)) % 360, 7);
+
+  const FORMATO_SEMANA = new Intl.DateTimeFormat("es-AR", { weekday: "long" });
+  const FORMATO_SEMANA_CORTO = new Intl.DateTimeFormat("es-AR", { weekday: "short" });
+  const FORMATO_MES = new Intl.DateTimeFormat("es-AR", { month: "long" });
+  const fechaLocal = (iso) => {
+    const [a, m, d] = iso.split("-").map(Number);
+    return new Date(a, m - 1, d);
+  };
+  const finDe = (e) => e.fecha_fin || (e.estado === "En curso" ? "9999-12-31" : e.fecha_inicio);
+
+  // Hora a mostrar al costado de un evento: la que publica ("hora") o la única que aparece en "horarios".
+  const HORA = /\b([01]?\d|2[0-3]):([0-5]\d)\b/g;
+  function horaPrincipal(e) {
+    const horas = new Set([...`${e.hora || ""} | ${e.horarios || ""}`.matchAll(HORA)].map((m) => `${m[1].padStart(2, "0")}:${m[2]}`));
+    const propia = [...(e.hora || "").matchAll(HORA)][0];
+    if (propia) return `${propia[1].padStart(2, "0")}:${propia[2]}`;
+    return horas.size === 1 ? [...horas][0] : "";
+  }
+
   // ---- Favoritos (en este navegador) ----
   // Cada corrida rehace data/eventos.json, así que se guarda una copia del evento junto con su id (estable entre
   // corridas, ver id_estable en scripts/armar_agenda.py): si el evento sigue en la agenda se actualiza con los datos
@@ -92,10 +120,11 @@
       pintar();
       if (!$("vista-favoritos").hidden) renderFavoritos();
     });
+    // La estrella la dibuja el CSS; acá solo el estado y el nombre accesible.
     const pintar = () => {
       const si = esFavorito(e);
-      b.textContent = si ? "★ Guardado" : "☆ Guardar";
       b.setAttribute("aria-pressed", String(si));
+      b.setAttribute("aria-label", si ? "Quitar de favoritos" : "Guardar en favoritos");
       b.title = si ? "Quitar de favoritos" : "Guardar en favoritos";
     };
     pintar();
@@ -120,14 +149,14 @@
     if (cambio) guardarFavoritos();
     // Primero lo que sigue vigente, por fecha; al final lo que ya terminó.
     items.sort((a, b) => (a.termino - b.termino) || a.e.fecha_inicio.localeCompare(b.e.fecha_inicio));
-    $("lista-favoritos").replaceChildren(...items.map(({ e, aviso }) => tarjetaEvento(e, aviso)));
+    $("lista-favoritos").replaceChildren(...items.map(({ e, aviso }) => filaEvento(e, { aviso, conFecha: true })));
     pintarVacio("vacio-favoritos", "lista-favoritos", items.length === 0);
     const terminados = items.filter((x) => x.termino).length;
     $("borrar-terminados").hidden = terminados === 0;
     $("resumen-favoritos").textContent = items.length
       ? `${items.length} ${items.length === 1 ? "evento guardado" : "eventos guardados"} en este navegador` +
         (terminados ? ` (${terminados} ya ${terminados === 1 ? "terminó" : "terminaron"}).` : ".")
-      : "Los eventos que guardes con ☆ aparecen acá. Se guardan en este navegador.";
+      : "Los eventos que guardes con la estrella aparecen acá. Se guardan en este navegador.";
   }
 
   function iniciarFavoritos() {
@@ -159,50 +188,68 @@
     return e._horas;
   }
 
-  function tarjetaEvento(e, aviso = "") {
-    const etiquetas = crear("div", { class: "etiquetas" }, [
-      aviso ? crear("span", { class: "etiqueta aviso" }, [document.createTextNode(aviso)]) : null,
-      e.categoria ? crear("span", { class: "etiqueta categoria" }, [document.createTextNode(e.categoria)]) : null,
-      e.precio === "Gratis" ? crear("span", { class: "etiqueta gratis" }, [document.createTextNode("Gratis")]) : null,
-      e.estado === "En curso" ? crear("span", { class: "etiqueta" }, [document.createTextNode("En cartel")]) : null,
-      e.lugar_verificado ? crear("span", { class: "etiqueta confirmado" }, [document.createTextNode("Lugar verificado")]) : null,
-    ]);
+  // Fecha del evento en palabras. "Del 6 de noviembre al 31 de diciembre", "El 20 de octubre", "Desde el ...".
+  function textoFechas(e) {
+    if (e.fecha_fin && e.fecha_fin !== e.fecha_inicio) return `Del ${fechaIso(e.fecha_inicio)} al ${fechaIso(e.fecha_fin)}`;
+    if (e.estado === "Próximo" || e.fecha_fin) return `El ${fechaIso(e.fecha_inicio)}`;
+    return `Desde el ${fechaIso(e.fecha_inicio)}`;
+  }
 
-    const titulo = crear("h2", {}, [document.createTextNode(e.titulo)]);
+  // Una fila de la agenda. En la lista por día la fecha ya está en el título del día, así que solo se repite
+  // cuando el evento dura varios días ("enCartel": hasta cuándo); fuera de esa lista (Favoritos) siempre va.
+  function filaEvento(e, { aviso = "", conFecha = false, enCartel = false } = {}) {
+    const categoria = e.categoria
+      ? crear("p", { class: "categoria", style: `--h:${tonoCategoria(e.categoria)}` }, [texto(e.categoria)])
+      : null;
+    const etiquetas = [
+      aviso ? crear("span", { class: "etiqueta aviso" }, [texto(aviso)]) : null,
+      conFecha && e.estado === "En curso" ? crear("span", { class: "etiqueta" }, [texto("En cartel")]) : null,
+      e.lugar_verificado ? crear("span", { class: "etiqueta confirmado" }, [texto("Lugar verificado")]) : null,
+    ].filter(Boolean);
+
+    const titulo = crear("h3", {}, [texto(e.titulo)]);
     // El nombre del lugar filtra la agenda por ese lugar.
     const nombreLugar = e.lugar
       ? boton(e.lugar, "enlace-lugar", () => {
           $("lugar-evento").value = lugarBase(e.lugar);
+          abrirAvanzados(true);
           if (!$("vista-favoritos").hidden) location.hash = "#eventos"; // desde Favoritos, se va a la agenda
           renderEventos();
           $("filtros-eventos").scrollIntoView({ behavior: "smooth", block: "start" });
         })
-      : crear("strong", {}, [document.createTextNode("Lugar a confirmar")]);
+      : crear("strong", {}, [texto("Lugar a confirmar")]);
     if (e.lugar) nombreLugar.title = `Ver solo los eventos de ${lugarBase(e.lugar)}`;
-    const lugar = crear("p", { class: "dato" }, [nombreLugar]);
-    const direccion = [e.direccion, e.barrio].filter(Boolean).join(" · ");
-    const ubicacion = direccion ? crear("p", { class: "dato" }, [document.createTextNode(direccion)]) : null;
-    const horario = e.horarios ? crear("p", { class: "dato" }, [document.createTextNode(e.horarios)]) : null;
-    let fechas;
-    if (e.fecha_fin && e.fecha_fin !== e.fecha_inicio) {
-      fechas = `Del ${fechaIso(e.fecha_inicio)} al ${fechaIso(e.fecha_fin)}`;
-    } else if (e.estado === "Próximo" || e.fecha_fin) {
-      fechas = `El ${fechaIso(e.fecha_inicio)}`;
-    } else {
-      fechas = `Desde el ${fechaIso(e.fecha_inicio)}`;
-    }
-    if (e.hora && !e.horarios) fechas += ` · ${e.hora} h`;
-    const cuando = crear("p", { class: "dato" }, [document.createTextNode(fechas)]);
+    // Hay lugares cuyo nombre es la dirección: no se repite.
+    const direccion = [e.direccion && !(e.lugar || "").includes(e.direccion) ? e.direccion : "", e.barrio].filter(Boolean).join(", ");
+    const lugar = crear("p", { class: "dato" }, [nombreLugar, direccion ? texto(` · ${direccion}`) : null]);
+
+    const fechas = textoFechas(e) + (e.hora && !e.horarios ? ` · ${e.hora} h` : "");
+    const multidia = Boolean(e.fecha_fin && e.fecha_fin !== e.fecha_inicio);
+    let cuando = "";
+    if (conFecha) cuando = textoFechas(e);
+    else if (enCartel) cuando = e.fecha_fin ? `Hasta el ${fechaIso(e.fecha_fin)}` : "En cartel";
+    else if (multidia) cuando = textoFechas(e);
+    const horarios = [cuando, e.horarios].filter(Boolean);
 
     const sinPrecio = !e.precio || e.precio === "Consultar";
-    const textoPrecio = e.precio === "Gratis" ? "Entrada libre" : sinPrecio ? "Consultar precio" : e.precio;
-    const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
-    const pie = crear("div", { class: "pie-tarjeta" }, [
-      crear("span", { class: "dato" }, [document.createTextNode(textoPrecio)]),
-      crear("div", { class: "acciones" }, [e.id ? botonFavorito(e) : null, menuCalendario(e), masInfo]),
+    const precio = crear("span", { class: `precio${e.precio === "Gratis" ? " gratis" : sinPrecio ? " sin-dato" : ""}` }, [
+      texto(e.precio === "Gratis" ? "Entrada libre" : sinPrecio ? "Consultar precio" : e.precio),
     ]);
 
-    return crear("li", { class: "tarjeta" }, [etiquetas, titulo, lugar, ubicacion, cuando, horario, pie]);
+    const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
+    const hora = horaPrincipal(e);
+    return crear("li", { class: "fila" }, [
+      crear("div", { class: hora ? "hora" : "hora sin" }, [texto(hora || (e.horarios ? "Ver horarios" : "Sin hora"))]),
+      crear("div", { class: "cuerpo" }, [
+        categoria,
+        titulo,
+        lugar,
+        horarios.length ? crear("p", { class: "dato" }, [texto(horarios.join(" · "))]) : null,
+        crear("p", { class: "dato" }, [precio]),
+        etiquetas.length ? crear("div", { class: "etiquetas" }, etiquetas) : null,
+      ]),
+      crear("div", { class: "acciones" }, [e.id ? botonFavorito(e) : null, menuCalendario(e), masInfo]),
+    ]);
   }
 
   const boton = (texto, clase, alHacerClic) => {
@@ -340,50 +387,237 @@
     return menu;
   }
 
-  function renderEventos() {
-    const q = normalizar($("buscar-evento").value.trim());
-    const barrio = $("barrio-evento").value;
-    const lugarBuscado = normalizar($("lugar-evento").value.trim());
-    const categoria = $("categoria-evento").value;
-    const soloGratis = $("solo-gratis").checked;
+  // ---- Filtros y lista por día ----
+  const LOTE = 80; // filas que se dibujan por vez; el resto se pide con "Mostrar más"
+  let limite = LOTE;
+  let grupos = [];
+  let diasVentana = [];
+
+  function leerFiltros() {
     const desde = $("fecha-desde").value;
     $("fecha-hasta").min = desde || $("fecha-hasta").dataset.min || "";
     // Un "Hasta" anterior al "Desde" no tiene sentido: se corrige solo.
     if (desde && $("fecha-hasta").value && $("fecha-hasta").value < desde) $("fecha-hasta").value = desde;
-    const hasta = $("fecha-hasta").value;
-    const horaDesde = $("hora-desde").value;
-    const [hh, mm] = horaDesde ? horaDesde.split(":").map(Number) : [0, 0];
-    const minDesde = hh * 60 + mm;
-    const sinHorario = horaDesde ? eventos.filter((e) => !horasDe(e).length).length : 0;
+    return {
+      q: normalizar($("buscar-evento").value.trim()),
+      barrio: $("barrio-evento").value,
+      lugar: normalizar($("lugar-evento").value.trim()),
+      categoria: $("categoria-evento").value,
+      gratis: $("solo-gratis").checked,
+      horaDesde: $("hora-desde").value,
+      desde,
+      hasta: $("fecha-hasta").value,
+    };
+  }
+
+  // Todo menos las fechas: con esto se cuentan las actividades de cada día de la tira.
+  function pasaFiltros(e, f) {
+    // Con "Desde la hora" entra si alguna de sus horas publicadas es esa o más tarde.
+    if (f.horaDesde) {
+      const [hh, mm] = f.horaDesde.split(":").map(Number);
+      if (!horasDe(e).some((m) => m >= hh * 60 + mm)) return false;
+    }
+    if (f.barrio && e.barrio !== f.barrio) return false;
+    // Coincidencia parcial: "proa" encuentra "Fundación PROA" y "Fundación Proa".
+    if (f.lugar && !normalizar(lugarBase(e.lugar)).includes(f.lugar)) return false;
+    if (f.categoria && e.categoria !== f.categoria) return false;
+    if (f.gratis && e.precio !== "Gratis") return false;
+    if (f.q) {
+      e._texto ??= normalizar([e.titulo, e.lugar, e.barrio, e.direccion, e.descripcion].join(" "));
+      if (!e._texto.includes(f.q)) return false;
+    }
+    return true;
+  }
+
+  // Entra si el evento está activo en algún día del rango (las muestras en curso, también).
+  function pasaFechas(e, f) {
+    // Sin un "Desde" elegido, lo que ya terminó no se muestra (los datos pueden tener algún día de atraso).
+    if (!f.desde && finDe(e) < hoyIso()) return false;
+    if (!f.desde && !f.hasta) return true;
+    if (f.desde && finDe(e) < f.desde) return false;
+    if (f.hasta && e.fecha_inicio > f.hasta) return false;
+    return true;
+  }
+
+  // Orden dentro del día: por hora; lo de la madrugada (hasta las 6) va al final de la noche, no al principio.
+  const minutosOrden = (e) => {
+    const h = horaPrincipal(e);
+    const m = h ? Number(h.slice(0, 2)) * 60 + Number(h.slice(3)) : horasDe(e).length ? Math.min(...horasDe(e)) : null;
+    if (m === null) return 9999;
+    return m < 6 * 60 ? m + 24 * 60 : m;
+  };
+
+  // Un grupo por día en que empieza algo y, al final, "En cartel": lo que empezó antes del primer día
+  // que se mira (hoy, o el "Desde" elegido) y sigue.
+  function agrupar(lista, f) {
+    const hoy = hoyIso();
+    const inicio = f.desde && f.desde > hoy ? f.desde : hoy;
+    const porDia = new Map();
+    const cartel = [];
+    for (const e of lista) {
+      if (e.fecha_inicio < inicio && finDe(e) >= inicio) cartel.push(e);
+      else {
+        if (!porDia.has(e.fecha_inicio)) porDia.set(e.fecha_inicio, []);
+        porDia.get(e.fecha_inicio).push(e);
+      }
+    }
+    const dias = [...porDia.keys()].sort().map((clave) => ({
+      clave,
+      eventos: porDia.get(clave).sort((a, b) => minutosOrden(a) - minutosOrden(b) || a.titulo.localeCompare(b.titulo, "es")),
+    }));
+    if (cartel.length) {
+      cartel.sort((a, b) => (a.fecha_fin || "9999").localeCompare(b.fecha_fin || "9999") || a.titulo.localeCompare(b.titulo, "es"));
+      dias.push({ clave: "cartel", cartel: true, eventos: cartel });
+    }
+    return dias;
+  }
+
+  const actividades = (n) => `${n} ${n === 1 ? "actividad" : "actividades"}`;
+
+  function seccionDia(g, visibles) {
+    const hoy = hoyIso();
+    let cabecera;
+    if (g.cartel) {
+      cabecera = [
+        crear("span", { class: "numero" }, [texto("En cartel")]),
+        crear("span", { class: "mes" }, [texto("Ya empezaron y siguen")]),
+      ];
+    } else {
+      const fecha = fechaLocal(g.clave);
+      cabecera = [
+        g.clave === hoy ? crear("span", { class: "hoy" }, [texto("Hoy")]) : null,
+        crear("span", { class: "semana" }, [texto(FORMATO_SEMANA.format(fecha))]),
+        crear("span", { class: "numero" }, [texto(String(fecha.getDate()))]),
+        crear("span", { class: "mes" }, [texto(FORMATO_MES.format(fecha))]),
+      ];
+    }
+    cabecera.push(crear("span", { class: "total" }, [texto(actividades(g.eventos.length))]));
+    return crear("section", { class: g.cartel ? "dia en-cartel" : "dia" }, [
+      crear("h2", { class: "dia-cab" }, cabecera),
+      crear("ul", { class: "filas" }, visibles.map((e) => filaEvento(e, { enCartel: g.cartel }))),
+    ]);
+  }
+
+  function dibujarAgenda() {
+    let presupuesto = limite;
+    let mostrados = 0;
+    const secciones = [];
+    for (const g of grupos) {
+      if (presupuesto <= 0) break;
+      const visibles = g.eventos.slice(0, presupuesto);
+      presupuesto -= visibles.length;
+      mostrados += visibles.length;
+      secciones.push(seccionDia(g, visibles));
+    }
+    $("lista-eventos").replaceChildren(...secciones);
+    const total = eventosFiltrados.length;
+    const faltan = total - mostrados;
+    $("mas-resultados").hidden = faltan <= 0;
+    $("mas-resultados").textContent = `Mostrar ${Math.min(LOTE, faltan)} más (faltan ${faltan})`;
+    pintarVacio("vacio-eventos", "lista-eventos", total === 0);
+  }
+
+  function abrirAvanzados(abrir) {
+    $("avanzados").hidden = !abrir;
+    $("mas-filtros").setAttribute("aria-expanded", String(abrir));
+  }
+
+  // La tira de días: un botón por día de la ventana, con la cantidad de actividades y una barra de volumen.
+  function construirTira(desde, hasta) {
+    diasVentana = [];
+    for (let dia = desde; dia <= hasta; dia = sumarDias(dia, 1)) diasVentana.push(dia);
+    const hoy = hoyIso();
+    const todos = crear("button", { type: "button", class: "dia-boton todos", "data-dia": "" }, [
+      crear("span", { class: "sem" }, [texto("todos")]),
+      crear("span", { class: "num" }, [texto("los días")]),
+      crear("span", { class: "cant" }),
+      crear("span", { class: "barra" }),
+    ]);
+    const botones = diasVentana.map((dia, i) => {
+      const fecha = fechaLocal(dia);
+      const finde = fecha.getDay() === 0 || fecha.getDay() === 6;
+      const corto = FORMATO_SEMANA_CORTO.format(fecha).replace(".", "");
+      const b = crear("button", { type: "button", class: `dia-boton${finde ? " finde" : ""}`, "data-dia": dia, style: `--i:${i}` }, [
+        crear("span", { class: "sem" }, [texto(dia === hoy ? "hoy" : corto)]),
+        crear("span", { class: "num" }, [texto(String(fecha.getDate()))]),
+        crear("span", { class: "cant" }),
+        crear("span", { class: "barra" }),
+      ]);
+      b.dataset.nombre = `${FORMATO_SEMANA.format(fecha)} ${fecha.getDate()} de ${FORMATO_MES.format(fecha)}`;
+      return b;
+    });
+    $("tira-dias").replaceChildren(todos, ...botones);
+    $("tira-dias").addEventListener("click", (ev) => {
+      const b = ev.target.closest(".dia-boton");
+      if (!b) return;
+      const dia = b.dataset.dia;
+      const ya = dia && $("fecha-desde").value === dia && $("fecha-hasta").value === dia;
+      $("fecha-desde").value = $("fecha-hasta").value = ya ? "" : dia;
+      renderEventos();
+    });
+    $("tira-dias").classList.add("entrada");
+    setTimeout(() => $("tira-dias").classList.remove("entrada"), 2000);
+  }
+
+  function actualizarTira(sinFechas, f) {
+    const conteo = new Map(diasVentana.map((d) => [d, 0]));
+    for (const e of sinFechas) {
+      const fin = finDe(e);
+      for (const d of diasVentana) if (e.fecha_inicio <= d && d <= fin) conteo.set(d, conteo.get(d) + 1);
+    }
+    const maximo = Math.max(1, ...conteo.values());
+    const unDia = f.desde && f.desde === f.hasta ? f.desde : "";
+    for (const b of $("tira-dias").querySelectorAll(".dia-boton")) {
+      const dia = b.dataset.dia;
+      const n = dia ? conteo.get(dia) : sinFechas.length;
+      b.querySelector(".cant").textContent = String(n);
+      b.style.setProperty("--p", dia ? String(n / maximo) : "1");
+      b.setAttribute("aria-pressed", String(dia ? dia === unDia : !f.desde && !f.hasta));
+      b.setAttribute("aria-label", dia ? `${b.dataset.nombre}: ${actividades(n)}` : `Todos los días: ${actividades(n)}`);
+    }
+  }
+
+  // Lo que depende de los filtros: fichas activas, cuenta de "Más filtros" y botón para quitarlos.
+  function actualizarControles(f) {
+    $("solo-noche").checked = f.horaDesde === "20:00";
+    for (const b of $("categorias").querySelectorAll(".ficha")) {
+      b.setAttribute("aria-pressed", String((b.dataset.categoria || "") === f.categoria));
+    }
+    const unDia = f.desde && f.desde === f.hasta && diasVentana.includes(f.desde);
+    const avanzados = [f.barrio, f.lugar, !unDia && (f.desde || f.hasta), f.horaDesde && f.horaDesde !== "20:00"].filter(Boolean).length;
+    $("cuenta-avanzados").textContent = avanzados;
+    $("cuenta-avanzados").hidden = avanzados === 0;
+    const hay = Boolean(f.q || f.barrio || f.lugar || f.categoria || f.gratis || f.horaDesde || f.desde || f.hasta);
+    $("limpiar-filtros").hidden = !hay;
+    const total = eventosFiltrados.length;
+    $("resumen-resultados").textContent = hay
+      ? `${total} de ${actividades(eventos.length)} con estos filtros.`
+      : `${actividades(total)}.`;
+  }
+
+  function limpiarFiltros() {
+    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "categoria-evento", "fecha-desde", "fecha-hasta", "hora-desde"]) {
+      $(id).value = "";
+    }
+    $("solo-gratis").checked = false;
+    renderEventos();
+  }
+
+  function renderEventos() {
+    const f = leerFiltros();
+    const sinHorario = f.horaDesde ? eventos.filter((e) => !horasDe(e).length).length : 0;
     $("nota-hora").hidden = !sinHorario;
     $("nota-hora").textContent = sinHorario
       ? `${sinHorario} eventos no publican horario y no se muestran con este filtro.`
       : "";
 
-    const filtrados = eventos.filter((e) => {
-      // Con "Desde la hora" entra si alguna de sus horas publicadas es esa o más tarde.
-      if (horaDesde && !horasDe(e).some((m) => m >= minDesde)) return false;
-      // Entra si el evento está activo en algún día del rango (las muestras en curso, también).
-      if (desde || hasta) {
-        const fin = e.fecha_fin || (e.estado === "En curso" ? "9999-12-31" : e.fecha_inicio);
-        if (desde && fin < desde) return false;
-        if (hasta && e.fecha_inicio > hasta) return false;
-      }
-      if (barrio && e.barrio !== barrio) return false;
-      // Coincidencia parcial: "proa" encuentra "Fundación PROA" y "Fundación Proa".
-      if (lugarBuscado && !normalizar(lugarBase(e.lugar)).includes(lugarBuscado)) return false;
-      if (categoria && e.categoria !== categoria) return false;
-      if (soloGratis && e.precio !== "Gratis") return false;
-      if (q) {
-        const todo = normalizar([e.titulo, e.lugar, e.barrio, e.direccion, e.descripcion].join(" "));
-        if (!todo.includes(q)) return false;
-      }
-      return true;
-    });
-
-    $("lista-eventos").replaceChildren(...filtrados.map(tarjetaEvento));
-    pintarVacio("vacio-eventos", "lista-eventos", filtrados.length === 0);
-    eventosFiltrados = filtrados;
+    const sinFechas = eventos.filter((e) => pasaFiltros(e, f));
+    eventosFiltrados = sinFechas.filter((e) => pasaFechas(e, f));
+    grupos = agrupar(eventosFiltrados, f);
+    limite = LOTE;
+    dibujarAgenda();
+    actualizarTira(sinFechas, f);
+    actualizarControles(f);
     renderMapa();
   }
 
@@ -433,7 +667,6 @@
   function iniciarEventos(datos) {
     eventos = datos.eventos || [];
     llenarSelect($("barrio-evento"), unicos(eventos, "barrio"), "Todos");
-    llenarSelect($("categoria-evento"), unicos(eventos, "categoria"), "Todas");
     // Sugerencias del campo Lugar: un nombre por lugar (sin la sala; entre "Fundación PROA" y
     // "Fundación Proa" queda la grafía más usada), con cuántos eventos tiene.
     const porLugar = new Map();
@@ -456,12 +689,31 @@
       Array.from({ length: 48 }, (_, i) => `${String(i >> 1).padStart(2, "0")}:${i % 2 ? "30" : "00"}`),
       "Cualquiera");
 
+    // Categorías como fichas, de la más a la menos frecuente.
+    const porCategoria = new Map();
+    for (const e of eventos) if (e.categoria) porCategoria.set(e.categoria, (porCategoria.get(e.categoria) || 0) + 1);
+    const ficha = (categoria, nombre, cantidad) => {
+      const b = crear("button", { type: "button", class: "ficha ficha-categoria", "aria-pressed": "false", "data-categoria": categoria }, [
+        texto(nombre),
+        cantidad ? crear("span", { class: "n" }, [texto(String(cantidad))]) : null,
+      ]);
+      if (categoria) b.style.setProperty("--h", String(tonoCategoria(categoria)));
+      else b.classList.add("todas");
+      b.addEventListener("click", () => {
+        $("categoria-evento").value = categoria && $("categoria-evento").value === categoria ? "" : categoria;
+        renderEventos();
+      });
+      return b;
+    };
+    $("categorias").replaceChildren(
+      ficha("", "Todas", 0),
+      ...[...porCategoria].sort((a, b) => b[1] - a[1]).map(([nombre, n]) => ficha(nombre, nombre, n)),
+    );
+
     const { desde, hasta } = datos.ventana;
     $("resumen-ventana").textContent =
-      `${eventos.length} actividades entre el ${fechaIso(desde)} y el ${fechaIso(hasta)}.`;
-    $("actualizado").textContent = datos.generado
-      ? `Última actualización: ${fechaIso(datos.generado)}.`
-      : "";
+      `${eventos.length} actividades entre el ${fechaIso(desde)} y el ${fechaIso(hasta)}.` +
+      (datos.generado ? ` Última actualización: ${fechaIso(datos.generado)}.` : "");
 
     // El calendario solo ofrece los días de la ventana publicada.
     for (const id of ["fecha-desde", "fecha-hasta"]) {
@@ -469,10 +721,23 @@
       $(id).max = hasta;
     }
     $("fecha-hasta").dataset.min = desde;
+    construirTira(desde, hasta);
 
-    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "categoria-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
+    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "solo-gratis", "fecha-desde", "fecha-hasta", "hora-desde"]) {
       $(id).addEventListener(["buscar-evento", "lugar-evento"].includes(id) ? "input" : "change", renderEventos);
     }
+    // "Desde las 20 h" es un atajo del campo "Desde la hora".
+    $("solo-noche").addEventListener("change", () => {
+      $("hora-desde").value = $("solo-noche").checked ? "20:00" : "";
+      renderEventos();
+    });
+    $("mas-filtros").addEventListener("click", () => abrirAvanzados($("avanzados").hidden));
+    $("limpiar-filtros").addEventListener("click", limpiarFiltros);
+    $("vacio-limpiar").addEventListener("click", limpiarFiltros);
+    $("mas-resultados").addEventListener("click", () => {
+      limite += LOTE;
+      dibujarAgenda();
+    });
     renderEventos();
   }
 

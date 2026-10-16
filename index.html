@@ -2,9 +2,14 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Agenda Cultural CABA</title>
   <meta name="description" content="Agenda cultural de la Ciudad de Buenos Aires: eventos de las próximas dos semanas y los espacios culturales de la ciudad.">
+  <meta name="theme-color" content="#fbfbf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b1828" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -29,43 +34,64 @@
       </div>
 
       <form class="filtros" id="filtros-eventos" role="search" autocomplete="off">
-        <label class="campo campo-amplio">
-          <span>Buscar</span>
-          <input type="search" id="buscar-evento" placeholder="Obra, artista, lugar…" autocomplete="off">
+        <div class="tira" id="tira-dias" role="group" aria-label="Elegir un día"></div>
+
+        <label class="buscador">
+          <span class="solo-lectores">Buscar</span>
+          <input type="search" id="buscar-evento" placeholder="Buscar obra, artista o lugar" autocomplete="off">
         </label>
-        <label class="campo">
-          <span>Barrio</span>
-          <select id="barrio-evento"><option value="">Todos</option></select>
-        </label>
-        <label class="campo">
-          <span>Lugar</span>
-          <input type="search" id="lugar-evento" list="opciones-lugar-evento" placeholder="Todos" autocomplete="off">
-          <datalist id="opciones-lugar-evento"></datalist>
-        </label>
-        <label class="campo">
-          <span>Categoría</span>
-          <select id="categoria-evento"><option value="">Todas</option></select>
-        </label>
-        <label class="campo">
-          <span>Desde</span>
-          <input type="date" id="fecha-desde">
-        </label>
-        <label class="campo">
-          <span>Hasta</span>
-          <input type="date" id="fecha-hasta">
-        </label>
-        <label class="campo">
-          <span>Desde la hora</span>
-          <select id="hora-desde"><option value="">Cualquiera</option></select>
-        </label>
-        <label class="casilla">
-          <input type="checkbox" id="solo-gratis"> Solo gratis
-        </label>
+
+        <div class="fichas" role="group" aria-label="Filtros rápidos">
+          <label class="ficha">
+            <input type="checkbox" id="solo-gratis">
+            <span>Gratis</span>
+          </label>
+          <label class="ficha">
+            <input type="checkbox" id="solo-noche">
+            <span>Desde las 20 h</span>
+          </label>
+          <button type="button" class="ficha" id="mas-filtros" aria-expanded="false" aria-controls="avanzados">
+            Más filtros <span id="cuenta-avanzados" class="cuenta" hidden></span>
+          </button>
+          <button type="button" class="ficha ficha-limpiar" id="limpiar-filtros" hidden>Quitar filtros</button>
+        </div>
+
+        <div class="categorias" id="categorias" role="group" aria-label="Categoría"></div>
+        <input type="hidden" id="categoria-evento">
+
+        <div class="avanzados" id="avanzados" hidden>
+          <label class="campo">
+            <span>Barrio</span>
+            <select id="barrio-evento"><option value="">Todos</option></select>
+          </label>
+          <label class="campo">
+            <span>Lugar</span>
+            <input type="search" id="lugar-evento" list="opciones-lugar-evento" placeholder="Todos" autocomplete="off">
+            <datalist id="opciones-lugar-evento"></datalist>
+          </label>
+          <label class="campo">
+            <span>Desde</span>
+            <input type="date" id="fecha-desde">
+          </label>
+          <label class="campo">
+            <span>Hasta</span>
+            <input type="date" id="fecha-hasta">
+          </label>
+          <label class="campo">
+            <span>Desde la hora</span>
+            <select id="hora-desde"><option value="">Cualquiera</option></select>
+          </label>
+        </div>
         <p id="nota-hora" class="suave nota-filtro" hidden></p>
       </form>
 
-      <p id="vacio-eventos" class="vacio" hidden>No hay eventos con esos filtros.</p>
-      <ul id="lista-eventos" class="tarjetas" aria-live="polite"></ul>
+      <p id="resumen-resultados" class="resumen-resultados" aria-live="polite"></p>
+      <p id="vacio-eventos" class="vacio" hidden>
+        No hay eventos con esos filtros.
+        <button type="button" class="boton" id="vacio-limpiar">Quitar filtros</button>
+      </p>
+      <div id="lista-eventos" class="agenda"></div>
+      <p class="mas-resultados"><button type="button" class="boton boton-principal" id="mas-resultados" hidden></button></p>
     </section>
 
     <section id="vista-mapa" aria-labelledby="titulo-mapa" hidden>
@@ -82,22 +108,24 @@
         <p class="suave">Lugares de la ciudad y dónde publican su programación. El estado indica si su sitio web tiene una sección de agenda.</p>
       </div>
 
-      <form class="filtros" id="filtros-lugares" role="search">
-        <label class="campo campo-amplio">
-          <span>Buscar</span>
-          <input type="search" id="buscar-lugar" placeholder="Nombre o dirección…" autocomplete="off">
+      <form class="filtros filtros-lugares" id="filtros-lugares" role="search">
+        <label class="buscador">
+          <span class="solo-lectores">Buscar</span>
+          <input type="search" id="buscar-lugar" placeholder="Buscar por nombre o dirección" autocomplete="off">
         </label>
-        <label class="campo">
-          <span>Barrio</span>
-          <select id="barrio-lugar"><option value="">Todos</option></select>
-        </label>
-        <label class="campo">
-          <span>Estado</span>
-          <select id="estado-lugar"><option value="">Todos</option></select>
-        </label>
+        <div class="avanzados">
+          <label class="campo">
+            <span>Barrio</span>
+            <select id="barrio-lugar"><option value="">Todos</option></select>
+          </label>
+          <label class="campo">
+            <span>Estado</span>
+            <select id="estado-lugar"><option value="">Todos</option></select>
+          </label>
+        </div>
       </form>
 
-      <p id="resumen-lugares" class="suave"></p>
+      <p id="resumen-lugares" class="resumen-resultados"></p>
       <p id="vacio-lugares" class="vacio" hidden>No hay lugares con esos filtros.</p>
       <ul id="lista-lugares" class="tarjetas"></ul>
     </section>
@@ -105,13 +133,13 @@
     <section id="vista-favoritos" aria-labelledby="titulo-favoritos" hidden>
       <div class="cabecera-vista">
         <h1 id="titulo-favoritos">Mis favoritos</h1>
-        <p id="resumen-favoritos" class="suave">Los eventos que guardes con ☆ aparecen acá. Se guardan en este navegador.</p>
+        <p id="resumen-favoritos" class="suave">Los eventos que guardes con la estrella aparecen acá. Se guardan en este navegador.</p>
       </div>
       <p class="acciones-favoritos">
         <button type="button" class="boton" id="borrar-terminados" hidden>Quitar los que terminaron</button>
       </p>
-      <p id="vacio-favoritos" class="vacio" hidden>Todavía no guardaste eventos. Tocá ☆ Guardar en cualquier evento.</p>
-      <ul id="lista-favoritos" class="tarjetas"></ul>
+      <p id="vacio-favoritos" class="vacio" hidden>Todavía no guardaste eventos. Tocá la estrella en cualquier evento para verlo acá.</p>
+      <ul id="lista-favoritos" class="filas"></ul>
     </section>
   </main>
 
@@ -128,15 +156,6 @@
     <p id="panel-aviso" class="suave panel-aviso"></p>
     <div class="panel-pie" id="panel-pie"></div>
   </dialog>
-
-  <footer class="pie">
-    <div class="contenedor">
-      <p>Eventos recopilados de los sitios y redes de <a id="fuente-eventos" href="#lugares">cada espacio</a>, de Turismo Buenos Aires y de agregadores.
-        <span id="actualizado"></span></p>
-      <p class="suave">Las fechas y horarios son los que publica cada organizador. Confirmalos en su sitio antes de ir.
-        La verificación de lugares es automática y puede tener errores.</p>
-    </div>
-  </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="assets/app.js"></script>
