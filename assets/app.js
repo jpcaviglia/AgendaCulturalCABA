@@ -63,14 +63,6 @@
 
   const texto = (t) => document.createTextNode(t);
 
-  // Cada categoría tiene su tono (grados de matiz) para el punto y el nombre; las que no figuran reciben uno fijo según su nombre.
-  const TONOS = {
-    "Teatro": 345, "Música": 262, "Evento": 215, "Fiestas y electrónica": 318, "Artes visuales": 32,
-    "Cine": 190, "Visita guiada": 145, "Feria": 48, "Taller": 170, "Literatura y charlas": 285,
-    "Festival": 335, "Danza": 72, "Infantil": 100, "Gastronomía": 12, "Deporte": 125,
-  };
-  const tonoCategoria = (c) => TONOS[c] ?? [...c].reduce((a, ch) => (a * 31 + ch.charCodeAt(0)) % 360, 7);
-
   const FORMATO_SEMANA = new Intl.DateTimeFormat("es-AR", { weekday: "long" });
   const FORMATO_SEMANA_CORTO = new Intl.DateTimeFormat("es-AR", { weekday: "short" });
   const FORMATO_MES = new Intl.DateTimeFormat("es-AR", { month: "long" });
@@ -199,7 +191,7 @@
   // cuando el evento dura varios días ("enCartel": hasta cuándo); fuera de esa lista (Favoritos) siempre va.
   function filaEvento(e, { aviso = "", conFecha = false, enCartel = false } = {}) {
     const categoria = e.categoria
-      ? crear("p", { class: "categoria", style: `--h:${tonoCategoria(e.categoria)}` }, [texto(e.categoria)])
+      ? crear("p", { class: "categoria" }, [texto(e.categoria)])
       : null;
     const etiquetas = [
       aviso ? crear("span", { class: "etiqueta aviso" }, [texto(aviso)]) : null,
@@ -712,8 +704,6 @@
         texto(nombre),
         crear("span", { class: "n" }, [texto(String(cantidad))]),
       ]);
-      if (categoria) b.style.setProperty("--h", String(tonoCategoria(categoria)));
-      else b.classList.add("todas");
       b.addEventListener("click", () => {
         // "Todas" quita la selección; cualquier otra ficha se suma o se saca.
         if (!categoria) categoriasElegidas.clear();
