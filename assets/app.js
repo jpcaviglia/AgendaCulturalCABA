@@ -392,6 +392,8 @@
   let limite = LOTE;
   let grupos = [];
   let diasVentana = [];
+  // Las categorías se combinan: con varias elegidas entra un evento de cualquiera de ellas.
+  const categoriasElegidas = new Set();
 
   function leerFiltros() {
     const desde = $("fecha-desde").value;
@@ -402,7 +404,7 @@
       q: normalizar($("buscar-evento").value.trim()),
       barrio: $("barrio-evento").value,
       lugar: normalizar($("lugar-evento").value.trim()),
-      categoria: $("categoria-evento").value,
+      categorias: categoriasElegidas,
       gratis: $("solo-gratis").checked,
       horaDesde: $("hora-desde").value,
       desde,
@@ -420,7 +422,7 @@
     if (f.barrio && e.barrio !== f.barrio) return false;
     // Coincidencia parcial: "proa" encuentra "Fundación PROA" y "Fundación Proa".
     if (f.lugar && !normalizar(lugarBase(e.lugar)).includes(f.lugar)) return false;
-    if (f.categoria && e.categoria !== f.categoria) return false;
+    if (f.categorias.size && !f.categorias.has(e.categoria)) return false;
     if (f.gratis && e.precio !== "Gratis") return false;
     if (f.q) {
       e._texto ??= normalizar([e.titulo, e.lugar, e.barrio, e.direccion, e.descripcion].join(" "));
@@ -581,13 +583,14 @@
   function actualizarControles(f) {
     $("solo-noche").checked = f.horaDesde === "20:00";
     for (const b of $("categorias").querySelectorAll(".ficha")) {
-      b.setAttribute("aria-pressed", String((b.dataset.categoria || "") === f.categoria));
+      const c = b.dataset.categoria;
+      b.setAttribute("aria-pressed", String(c ? f.categorias.has(c) : f.categorias.size === 0));
     }
     const unDia = f.desde && f.desde === f.hasta && diasVentana.includes(f.desde);
     const avanzados = [f.barrio, f.lugar, !unDia && (f.desde || f.hasta), f.horaDesde && f.horaDesde !== "20:00"].filter(Boolean).length;
     $("cuenta-avanzados").textContent = avanzados;
     $("cuenta-avanzados").hidden = avanzados === 0;
-    const hay = Boolean(f.q || f.barrio || f.lugar || f.categoria || f.gratis || f.horaDesde || f.desde || f.hasta);
+    const hay = Boolean(f.q || f.barrio || f.lugar || f.categorias.size || f.gratis || f.horaDesde || f.desde || f.hasta);
     $("limpiar-filtros").hidden = !hay;
     const total = eventosFiltrados.length;
     $("resumen-resultados").textContent = hay
@@ -596,10 +599,11 @@
   }
 
   function limpiarFiltros() {
-    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "categoria-evento", "fecha-desde", "fecha-hasta", "hora-desde"]) {
+    for (const id of ["buscar-evento", "lugar-evento", "barrio-evento", "fecha-desde", "fecha-hasta", "hora-desde"]) {
       $(id).value = "";
     }
     $("solo-gratis").checked = false;
+    categoriasElegidas.clear();
     renderEventos();
   }
 
@@ -700,7 +704,9 @@
       if (categoria) b.style.setProperty("--h", String(tonoCategoria(categoria)));
       else b.classList.add("todas");
       b.addEventListener("click", () => {
-        $("categoria-evento").value = categoria && $("categoria-evento").value === categoria ? "" : categoria;
+        // "Todas" quita la selección; cualquier otra ficha se suma o se saca.
+        if (!categoria) categoriasElegidas.clear();
+        else if (!categoriasElegidas.delete(categoria)) categoriasElegidas.add(categoria);
         renderEventos();
       });
       return b;

@@ -5,8 +5,8 @@ Static site with the cultural events in the City of Buenos Aires for the next tw
 `data/lugares.json`.
 
 On the site: events are listed day by day (a strip of the 15 days shows how many activities each day has and
-filters by day; what started before is grouped under **En cartel**), with filters by text, category, free
-events and "from 20 h", and under **Más filtros** by venue, neighborhood, date range and time;
+filters by day; what started before is grouped under **En cartel**), with filters by text, category (several
+can be combined), free events and "from 20 h", and under **Más filtros** by venue, neighborhood, date range and time;
 **Agendar** (Google Calendar or an .ics file); **+ info** (the event's page inside the agenda, when the site
 allows it); and **Favoritos** (the star), which are saved in the browser (localStorage) with a copy of the
 event, so they are not lost when a run rebuilds `eventos.json`. On phones the sections move to a bottom bar.
