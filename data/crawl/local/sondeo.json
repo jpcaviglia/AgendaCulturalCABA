@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-15 19:08",
- "segundos": 21,
+ "fecha": "2026-10-18 20:44",
+ "segundos": 15,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -4071,6 +4071,270 @@
    "texto_portada": 1223,
    "clase": "needs_browser",
    "fecha": "2026-10-15 19:08",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "sala-lugones",
+   "web": "https://complejoteatral.gob.ar/cine",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://complejoteatral.gob.ar/genero/cine/",
+   "paginas_agenda": [
+    "https://complejoteatral.gob.ar/agenda/",
+    "https://complejoteatral.gob.ar/visitas-guiadas/",
+    "https://complejoteatral.gob.ar/recursos-para-espectadores/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 35,
+   "texto_portada": 7473,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sala-lugones.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "nuestro-cine",
+   "web": "https://linktr.ee/nuestrocine",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/nuestrocine",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 10,
+   "texto_portada": 5149,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/nuestro-cine.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "club-cultural-mares",
+   "web": "https://linktr.ee/mares_",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/mares_",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 4972,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/club-cultural-mares.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "deseo-bsas",
+   "web": "https://linktr.ee/deseobsas",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/deseobsas",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 88,
+   "texto_portada": 7199,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/deseo-bsas.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "la-nube",
+   "web": "https://linktr.ee/lanubebuenosaires",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/lanubebuenosaires",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 14,
+   "texto_portada": 5507,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/la-nube.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "club-cultural-bula",
+   "web": "https://alpogo.com/buscar?busqueda=bula",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://alpogo.com/buscar?busqueda=bula",
+   "paginas_agenda": [
+    "https://alpogo.com/evento/el-ultimo-vecino-en-buenos-aires-28169",
+    "https://alpogo.com/evento/anti-lunes-1910-29617",
+    "https://alpogo.com/evento/abatov-28501"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 23,
+   "texto_portada": 5193,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/club-cultural-bula.txt",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "roseti",
+   "web": "https://bue.tickethoy.com/lugares/roseti",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://bue.tickethoy.com/lugares/roseti",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 6,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "strummer-bar",
+   "web": "https://bue.tickethoy.com/lugares/strummer-bar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://bue.tickethoy.com/lugares/strummer-bar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 6,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "factoria",
+   "web": "https://compras.evento-simple.com/factoria",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://compras.evento-simple.com/factoria",
+   "paginas_agenda": [
+    "https://compras.evento-simple.com/factoria/eventos/la-joven-guarrior-presenta-discusiones-cruzadas-sobre-temas-menores-e57",
+    "https://compras.evento-simple.com/factoria/eventos/laberinto-de-la-musica-e54"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 488,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "espacio-simona",
+   "web": "https://www.cafaccess.com/productora/simona-producciones",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://www.cafaccess.com/productora/simona-producciones",
+   "paginas_agenda": [
+    "https://www.cafaccess.com/descubrir",
+    "https://www.cafaccess.com/landing",
+    "https://www.cafaccess.com/crear-evento"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1122,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "centro-cultural-thames",
+   "web": "https://culturalthames.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "la-casa-del-arbol",
+   "web": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "club-conjura",
+   "web": "https://www.passline.com/sitio/2191791-club-conjura",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "la-paz-arriba",
+   "web": "https://www.passline.com/sitio/la-paz-arriba",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "centro-cultural-miguel-miranda",
+   "web": "https://sites.google.com/view/cc-miguel-miranda/inicio",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://sites.google.com/view/cc-miguel-miranda/inicio",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 484,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "el-jufre-teatro-bar",
+   "web": "https://eljufre.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://eljufre.com.ar/",
+   "paginas_agenda": [
+    "https://eljufre.com.ar/cartelera-miercoles/",
+    "https://eljufre.com.ar/cartelera-jue/",
+    "https://eljufre.com.ar/cartelera-viernes/",
+    "https://eljufre.com.ar/talleres-verano/",
+    "https://eljufre.com.ar/talleres-y-seminarios/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 664,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "centro-cultural-armoza",
+   "web": "https://ccarmoza.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-18 20:44",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "tcq",
+   "web": "https://www.venti.com.ar/organizadores/tcq",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://venti.live:443/organizadores/tcq",
+   "redirige_a": "venti.live:443",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 36,
+   "clase": "needs_browser",
+   "fecha": "2026-10-18 20:44",
    "estado_corrida_anterior": "sin_dato"
   }
  ]
