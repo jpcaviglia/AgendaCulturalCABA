@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15",
+ "actualizado": "2026-10-18",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -1522,20 +1522,24 @@
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
     "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "entradas": [
+    "https://museomacba.org/",
+    "https://museomacba.org/agenda/",
     "https://museomacba.org/programacion-actuales/",
-    "https://museomacba.org/agenda/"
+    "https://museomacba.org/programacion-futura/"
    ],
    "comportamiento": {
-    "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org."
+    "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org.",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
-     "eventos": 3,
+     "eventos": 4,
      "paginas": 6
     }
    },
@@ -1545,6 +1549,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-18",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ],
    "enlace_bio": "https://linktr.ee/museomacba"
@@ -5383,7 +5393,8 @@
      "estado": "sin_agenda",
      "eventos": 0
     }
-   ]
+   ],
+   "bio_probada": "2026-10-18"
   },
   {
    "id": "centro-cultural-colegiales",
@@ -8840,23 +8851,32 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
      "eventos": 3,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "entradas": [
     "https://pompapetriyasos.com.ar/",
+    "https://pompapetriyasos.com.ar/formacion/",
+    "https://pompapetriyasos.com.ar/seminarios/",
     "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
    ],
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-18",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
@@ -8882,21 +8902,28 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
      "eventos": 8,
-     "paginas": 4
+     "paginas": 5
     }
    },
    "entradas": [
     "https://plantainclan.com/"
    ],
    "notas": [
-    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
+    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana.",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
+    },
+    {
+     "fecha": "2026-10-18",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
@@ -9275,32 +9302,28 @@
    "barrio": "Recoleta",
    "direccion": "Cordoba Av. 3271",
    "entradas": [
+    "https://felizarcoiris.com/agenda?vista=semana",
     "https://felizarcoiris.com/",
     "https://felizarcoiris.com/agenda"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "la portada lista los ciclos semanales por día (miércoles a domingo, 20 h a 5 h); no hay fechas puntuales"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 1
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-15 [web] Programación semanal fija; sin fechas puntuales.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 2 eventos en la ventana."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://felizarcoiris.com/talleres",
-     "texto": "Talleres",
-     "motivo": "talleres de la comunidad",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://felizarcoiris.com/preregistro/",
      "texto": "Preregistro",
@@ -9320,6 +9343,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-18",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "enlace_bio": "https://linktr.ee/felizarcoiris"
@@ -12745,15 +12774,15 @@
    "direccion": "Triunvirato Av. 4444",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "la portada lista todas las fechas como tarjetas (día, mes, día de semana, título, sala); /programacion/ es un calendario con detalle por día",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "cookies": "barra de accesibilidad, sin aviso"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
      "eventos": 11,
-     "paginas": 2
+     "paginas": 6
     }
    },
    "entradas": [
@@ -12762,15 +12791,10 @@
    ],
    "notas": [
     "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 11 eventos en la ventana."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://cc25.org/cursos-y-talleres/",
-     "texto": "Cursos y talleres",
-     "motivo": "cursos regulares, no eventos",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://cc25.org/comunidades/",
      "texto": "Comunidades CC25",
@@ -12793,6 +12817,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    },
+    {
+     "fecha": "2026-10-18",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
@@ -12944,21 +12974,23 @@
    "direccion": "Juramento 4686",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
-     "eventos": 7,
+     "eventos": 12,
      "paginas": 2
     }
    },
    "entradas": [
+    "https://cuerdamecanica.com/",
     "https://cuerdamecanica.com/cartelera/"
    ],
    "comportamiento": {
-    "extraccion": "/cartelera/ lista por día con título, hora, descripción y precio; vistas Lista/Mes; el texto se lee con innerText sin paginar"
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
    },
    "notas": [
     "2026-10-15 [web] Cartelera completa en /cartelera/.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica",
+    "2026-10-18 [web] Leído sin navegador desde la API de The Events Calendar: 12 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -12992,6 +13024,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
+    },
+    {
+     "fecha": "2026-10-18",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
     }
    ],
    "enlace_bio": "https://linktr.ee/cuerdamecanica"
@@ -14393,7 +14431,8 @@
     }
    ],
    "barrio": "Palermo",
-   "direccion": "Lafinur 2988"
+   "direccion": "Lafinur 2988",
+   "bio_probada": "2026-10-18"
   },
   {
    "nombre": "Museo del Cine Pablo Ducrós Hicken",
@@ -14407,7 +14446,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museodelcine",
-    "2026-10-15 [web] La programación de auditorio de octubre no está en la web oficial (última noticia 11/09): revisar Instagram @museodelcineba. MADO 2026 fue en enero. Dirección a confirmar."
+    "2026-10-15 [web] La programación de auditorio de octubre no está en la web oficial (última noticia 11/09): revisar Instagram @museodelcineba. MADO 2026 fue en enero. Dirección a confirmar.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodelcineba"
    ],
    "id": "museo-del-cine-pablo-ducros-hicken",
    "entradas": [
@@ -14454,7 +14494,8 @@
     }
    ],
    "barrio": "Barracas",
-   "direccion": "Agustín R. Caffarena 51"
+   "direccion": "Agustín R. Caffarena 51",
+   "enlace_bio": "https://linktr.ee/museodelcineba"
   },
   {
    "nombre": "Museo Histórico Nacional",
@@ -14468,7 +14509,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museohistoriconacional.cultura.gob.ar/",
-    "2026-10-15 [web] Mismo sistema que Casa de Ricardo Rojas, Museo Mitre, Sarmiento y Malvinas (/actividades/, /exhibiciones/). Horarios y precio de entrada no relevados."
+    "2026-10-15 [web] Mismo sistema que Casa de Ricardo Rojas, Museo Mitre, Sarmiento y Malvinas (/actividades/, /exhibiciones/). Horarios y precio de entrada no relevados.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/mhnarg"
    ],
    "id": "museo-historico-nacional",
    "entradas": [
@@ -14494,7 +14536,8 @@
     }
    ],
    "barrio": "San Telmo",
-   "direccion": "Defensa 1600"
+   "direccion": "Defensa 1600",
+   "enlace_bio": "https://linktr.ee/mhnarg"
   },
   {
    "nombre": "Museo Mitre",
@@ -14508,7 +14551,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museomitre.cultura.gob.ar/",
-    "2026-10-15 [web] Sin actividades próximas publicadas (última 1/10/2026); entrada libre, miércoles a domingo de 12 a 17:45 h."
+    "2026-10-15 [web] Sin actividades próximas publicadas (última 1/10/2026); entrada libre, miércoles a domingo de 12 a 17:45 h.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomitre"
    ],
    "id": "museo-mitre",
    "entradas": [
@@ -14534,7 +14578,8 @@
     }
    ],
    "barrio": "San Nicolás",
-   "direccion": "San Martín 336"
+   "direccion": "San Martín 336",
+   "enlace_bio": "https://linktr.ee/museomitre"
   },
   {
    "nombre": "Museo Histórico Sarmiento",
@@ -14548,7 +14593,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museosarmiento.cultura.gob.ar/",
-    "2026-10-15 [web] Entrada libre y gratuita, martes a domingo y feriados de 11 a 19 h."
+    "2026-10-15 [web] Entrada libre y gratuita, martes a domingo y feriados de 11 a 19 h.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museosarmiento"
    ],
    "id": "museo-historico-sarmiento",
    "entradas": [
@@ -14574,7 +14620,8 @@
     }
    ],
    "barrio": "Belgrano",
-   "direccion": "Cuba 2079"
+   "direccion": "Cuba 2079",
+   "enlace_bio": "https://linktr.ee/museosarmiento"
   },
   {
    "nombre": "Museo Etnográfico Juan B. Ambrosetti",
@@ -14588,7 +14635,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museo.filo.uba.ar/",
-    "2026-10-15 [web] Moreno 350. Después del 29/10: taller infantil en quechua 31/10 y taller de Amalia Vargas 1/11. El 15/10 cierra a las 16 h por la Marcha Federal Universitaria."
+    "2026-10-15 [web] Moreno 350. Después del 29/10: taller infantil en quechua 31/10 y taller de Amalia Vargas 1/11. El 15/10 cierra a las 16 h por la Marcha Federal Universitaria.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/etnoba"
    ],
    "id": "museo-etnografico-juan-b-ambrosetti",
    "entradas": [
@@ -14628,7 +14676,8 @@
     }
    ],
    "barrio": "San Nicolás",
-   "direccion": "Moreno 350"
+   "direccion": "Moreno 350",
+   "enlace_bio": "https://linktr.ee/etnoba"
   },
   {
    "nombre": "Museo de la Ciudad",
@@ -14642,7 +14691,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
-    "2026-10-15 [web] En Buenos Aires Museo (Museo de la Ciudad) las exposiciones temporarias se anuncian como noticias; falta fecha de cierre de 'El otro Perotta'."
+    "2026-10-15 [web] En Buenos Aires Museo (Museo de la Ciudad) las exposiciones temporarias se anuncian como noticias; falta fecha de cierre de 'El otro Perotta'.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/buenosairesmuseo"
    ],
    "id": "museo-de-la-ciudad",
    "entradas": [
@@ -14694,7 +14744,8 @@
     }
    ],
    "barrio": "San Telmo",
-   "direccion": "Defensa 219"
+   "direccion": "Defensa 219",
+   "enlace_bio": "https://linktr.ee/buenosairesmuseo"
   },
   {
    "nombre": "Museo Casa Carlos Gardel",
@@ -14708,7 +14759,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
-    "2026-10-15 [web] Los conciertos del ciclo 'Al estilo gardeliano' se anuncian como noticias, ya pasados (último 8/10); mirar Instagram @museocasagardel por los próximos."
+    "2026-10-15 [web] Los conciertos del ciclo 'Al estilo gardeliano' se anuncian como noticias, ya pasados (último 8/10); mirar Instagram @museocasagardel por los próximos.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museocasagardel"
    ],
    "id": "museo-casa-carlos-gardel",
    "entradas": [
@@ -14760,7 +14812,8 @@
     }
    ],
    "barrio": "Almagro",
-   "direccion": "Jean Jaurès 735"
+   "direccion": "Jean Jaurès 735",
+   "enlace_bio": "https://linktr.ee/museocasagardel"
   },
   {
    "nombre": "MUNTREF Museo de la Inmigración",
@@ -14774,7 +14827,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
-    "2026-10-15 [web] Museo en Puerto Madero (Av. Antártida Argentina s/n). Muestra del 4/10 sobre inmigración japonesa y 'dos trabajos' inaugurados ese día no detallados en la portada; vale revisar Novedades."
+    "2026-10-15 [web] Museo en Puerto Madero (Av. Antártida Argentina s/n). Muestra del 4/10 sobre inmigración japonesa y 'dos trabajos' inaugurados ese día no detallados en la portada; vale revisar Novedades.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/muntref"
    ],
    "id": "muntref-museo-de-la-inmigracion",
    "entradas": [
@@ -14827,7 +14881,8 @@
     }
    ],
    "barrio": "Puerto Madero",
-   "direccion": "Av. Antártida Argentina s/n (ingreso por Apostadero Naval)"
+   "direccion": "Av. Antártida Argentina s/n (ingreso por Apostadero Naval)",
+   "enlace_bio": "https://linktr.ee/muntref"
   },
   {
    "nombre": "Museo Nacional Ferroviario",
@@ -14867,7 +14922,8 @@
     }
    ],
    "barrio": "Retiro",
-   "direccion": "Av. del Libertador 405"
+   "direccion": "Av. del Libertador 405",
+   "bio_probada": "2026-10-18"
   },
   {
    "nombre": "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
@@ -14881,7 +14937,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.macnconicet.gob.ar/",
-    "2026-10-15 [web] Av. Ángel Gallardo 470, Caballito. /eventos/ solo tenía una muestra temporaria; las 'Actividades' del menú son contenidos virtuales."
+    "2026-10-15 [web] Av. Ángel Gallardo 470, Caballito. /eventos/ solo tenía una muestra temporaria; las 'Actividades' del menú son contenidos virtuales.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/macn.oficial"
    ],
    "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
    "entradas": [
@@ -14922,7 +14979,8 @@
     }
    ],
    "barrio": "Caballito",
-   "direccion": "Av. Ángel Gallardo 470"
+   "direccion": "Av. Ángel Gallardo 470",
+   "enlace_bio": "https://linktr.ee/macn.oficial"
   },
   {
    "nombre": "Planetario Galileo Galilei",
@@ -14936,7 +14994,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://planetario.buenosaires.gob.ar/",
-    "2026-10-15 [web] Agenda en texto corrido; precios en /tickets (no relevados)."
+    "2026-10-15 [web] Agenda en texto corrido; precios en /tickets (no relevados).",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/planetarioba"
    ],
    "id": "planetario-galileo-galilei",
    "entradas": [
@@ -14988,7 +15047,8 @@
     }
    ],
    "barrio": "Palermo",
-   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)"
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "enlace_bio": "https://linktr.ee/planetarioba"
   },
   {
    "nombre": "Museo Casa de Ricardo Rojas",
@@ -15002,7 +15062,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museorojas.cultura.gob.ar/",
-    "2026-10-15 [web] Museo de entrada gratuita, martes a sábado y feriados de 11 a 19 h. Los ciclos de taller publican varios encuentros en una sola ficha."
+    "2026-10-15 [web] Museo de entrada gratuita, martes a sábado y feriados de 11 a 19 h. Los ciclos de taller publican varios encuentros en una sola ficha.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museocasarojas"
    ],
    "id": "museo-casa-de-ricardo-rojas",
    "entradas": [
@@ -15050,7 +15111,8 @@
     }
    ],
    "barrio": "Palermo",
-   "direccion": "Charcas 2837"
+   "direccion": "Charcas 2837",
+   "enlace_bio": "https://linktr.ee/museocasarojas"
   },
   {
    "nombre": "Museo Nacional de la Historia del Traje",
@@ -15064,7 +15126,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museohistoriconacional.cultura.gob.ar/info/coleccion-del-traje-argentino/",
-    "2026-10-15 [web] Sin muestra vigente publicada en la web; revisar Instagram @museodeltrajeba."
+    "2026-10-15 [web] Sin muestra vigente publicada en la web; revisar Instagram @museodeltrajeba.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeltrajeba"
    ],
    "id": "museo-nacional-de-la-historia-del-traje",
    "comportamiento": {},
@@ -15085,7 +15148,8 @@
     }
    ],
    "barrio": "Monserrat",
-   "direccion": "Chile 832"
+   "direccion": "Chile 832",
+   "enlace_bio": "https://linktr.ee/museodeltrajeba"
   },
   {
    "nombre": "Museo del Holocausto de Buenos Aires",
@@ -15099,7 +15163,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museodelholocausto.org.ar/",
-    "2026-10-15 [web] Montevideo 919, Recoleta/San Nicolás. Sin agenda de eventos con fechas en la web; los cursos 2026 (capacitación docente y formación de guías) no publican fechas en el listado."
+    "2026-10-15 [web] Montevideo 919, Recoleta/San Nicolás. Sin agenda de eventos con fechas en la web; los cursos 2026 (capacitación docente y formación de guías) no publican fechas en el listado.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoshoa"
    ],
    "id": "museo-del-holocausto-de-buenos-aires",
    "entradas": [
@@ -15151,7 +15216,8 @@
     }
    ],
    "barrio": "San Nicolás",
-   "direccion": "Montevideo 919"
+   "direccion": "Montevideo 919",
+   "enlace_bio": "https://linktr.ee/museoshoa"
   },
   {
    "nombre": "Museo Judío de Buenos Aires",
@@ -15205,7 +15271,8 @@
     }
    ],
    "barrio": "San Nicolás",
-   "direccion": "Libertad 769"
+   "direccion": "Libertad 769",
+   "bio_probada": "2026-10-18"
   },
   {
    "nombre": "Museo Sitio de Memoria ESMA",
@@ -15219,14 +15286,16 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.espaciomemoria.ar/",
-    "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana."
+    "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana.",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "id": "museo-sitio-de-memoria-esma",
    "entradas": [
+    "https://www.espaciomemoria.ar/",
     "https://www.espaciomemoria.ar/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "/agenda/ lista todas las instituciones del predio (Casa de la Militancia, Casa Nuestros Hijos, Cuatro Columnas, Espacio Cultural Nuestros Hijos) con fecha y hora; tiene filtros por localización"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "enlaces_descartados": [
     {
@@ -15250,15 +15319,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
      "eventos": 4,
-     "paginas": 2
+     "paginas": 5
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-18",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
@@ -15313,7 +15388,8 @@
     }
    ],
    "barrio": "Núñez",
-   "direccion": "Santiago de Calzadilla 1301 (Espacio Memoria y Derechos Humanos, ex ESMA)"
+   "direccion": "Santiago de Calzadilla 1301 (Espacio Memoria y Derechos Humanos, ex ESMA)",
+   "bio_probada": "2026-10-18"
   },
   {
    "nombre": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
@@ -15327,7 +15403,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
-    "2026-10-15 [web] Noticias de la portada traen las actividades de la quincena; la nota del ciclo 'Sala de Ensayo' (8/10) no dio fecha en el texto leído."
+    "2026-10-15 [web] Noticias de la portada traen las actividades de la quincena; la nota del ciclo 'Sala de Ensayo' (8/10) no dio fecha en el texto leído.",
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museosaavedra"
    ],
    "id": "museo-historico-de-buenos-aires-cornelio-de-saavedra",
    "entradas": [
@@ -15373,7 +15450,8 @@
     }
    ],
    "barrio": "Saavedra",
-   "direccion": "Av. Crisólogo Larralde 6309"
+   "direccion": "Av. Crisólogo Larralde 6309",
+   "enlace_bio": "https://linktr.ee/museosaavedra"
   },
   {
    "nombre": "Museo de los Niños Abasto",
@@ -15439,7 +15517,8 @@
     }
    ],
    "barrio": "Balvanera",
-   "direccion": "Av. Corrientes 3247 (Shopping Abasto, nivel 2)"
+   "direccion": "Av. Corrientes 3247 (Shopping Abasto, nivel 2)",
+   "bio_probada": "2026-10-18"
   },
   {
    "nombre": "Museo Mundial del Tango",
@@ -15474,7 +15553,8 @@
     }
    ],
    "barrio": "Monserrat",
-   "direccion": "Av. de Mayo 833"
+   "direccion": "Av. de Mayo 833",
+   "bio_probada": "2026-10-18"
   },
   {
    "id": "vidriera-ba",
@@ -15924,13 +16004,15 @@
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: club de electrónica; web confirmada en RA",
-    "2026-10-15 [web] La agenda completa está en /fechas."
+    "2026-10-15 [web] La agenda completa está en /fechas.",
+    "2026-10-18 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "entradas": [
+    "https://www.crobar.com.ar/",
     "https://www.crobar.com.ar/fechas"
    ],
    "comportamiento": {
-    "extraccion": "/fechas lista todas las fechas con día, sala, evento y line up; sin scroll largo"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "enlaces_descartados": [
     {
@@ -15966,10 +16048,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-18",
      "estado": "con_eventos",
-     "eventos": 5,
-     "paginas": 2
+     "eventos": 4,
+     "paginas": 1
     }
    },
    "historial": [
@@ -15978,6 +16060,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
+    },
+    {
+     "fecha": "2026-10-18",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ]
   },
