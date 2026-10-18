@@ -1895,7 +1895,29 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Estado De Israel Av. 4116",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Teatro independiente, Av. Estado de Israel 4116"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin funciones publicadas para la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casa-gatica",
@@ -3811,7 +3833,27 @@
    "direccion": "Suarez 1502",
    "enlace_bio": "https://linktr.ee/batacazodearte",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/batacazodearte"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/batacazodearte",
+    "2026-10-18 [instagram] Programan show infantil y ecoferia los sábados en Av. Suárez 1502; revisar cada semana."
+   ],
+   "comportamiento": {
+    "bio": "Linktree: formularios de talleres, sin agenda"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4032,7 +4074,27 @@
    "direccion": "Ugarte, Manuel 2789",
    "enlace_bio": "https://linktr.ee/baseculturalugarte",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/baseculturalugarte"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/baseculturalugarte",
+    "2026-10-18 [instagram] Instagram sin agenda futura publicada al 18/10."
+   ],
+   "comportamiento": {
+    "bio": "Linktree solo formularios"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -4223,7 +4285,27 @@
    "direccion": "Inclan 4191",
    "enlace_bio": "https://linktr.ee/titamerellocc",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/titamerellocc"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/titamerellocc",
+    "2026-10-18 [instagram] Quedaron sin abrir los highlights EVENTOS/TALLERES de la cuenta."
+   ],
+   "comportamiento": {
+    "bio": "Linktree solo colaboraciones; el bio dice 'Agenda abierta 2026' con highlights EVENTOS y TALLERES sin abrir"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6357,7 +6439,29 @@
    "origen": "data/lugares.json",
    "barrio": "Liniers",
    "direccion": "Pieres 226",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Cuenta inactiva desde 2023"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Instagram abandonado."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-elias-castelnuovo",
@@ -8556,7 +8660,27 @@
    "direccion": "24 De Noviembre 2273",
    "enlace_bio": "https://linktr.ee/ccvictorjara",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccvictorjara"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccvictorjara",
+    "2026-10-18 [instagram] Sin agenda propia en la grilla al 18/10."
+   ],
+   "comportamiento": {
+    "bio": "Grilla mezclada con posts de terceros; olla popular lunes 20 h (solidaria)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -10600,7 +10724,29 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Brasil 444",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Reels sin texto con fechas; highlights de actividades"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin fechas concretas; tiene Linktree linktr.ee/ccpepanoia sin leer."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casona-plurinacional-de-la-cultura",
@@ -12747,7 +12893,37 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Pueyrredon",
    "direccion": "Artigas, Jose Gervasio, Gral. 5701",
-   "enlace_bio": "https://linktr.ee/BarriadaCultural"
+   "enlace_bio": "https://linktr.ee/BarriadaCultural",
+   "comportamiento": {
+    "bio": "Linktree solo con formularios de inscripción a talleres"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Instagram con pocas novedades; milonga mensual (próxima en noviembre)."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://barriadacultural.blogspot.com/",
+     "texto": "Blog",
+     "motivo": "blog de notas e info de talleres, no agenda con fechas",
+     "fecha": "2026-10-18"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "cualquier-lado",
