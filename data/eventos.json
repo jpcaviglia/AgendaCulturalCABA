@@ -5,8 +5,8 @@
   "hasta": "2026-11-01"
  },
  "rastreo": {
-  "capturas": 338,
-  "con_eventos": 196
+  "capturas": 386,
+  "con_eventos": 207
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -16,6 +16,8 @@
   "ARTLAB",
   "Alternativa Teatral",
   "Arte al Día: agenda",
+  "BARRAKESH ESPACIO CULTURAL",
+  "BATACAZO CULTURAL",
   "BOLIVAR 852",
   "BRITISH ART CENTRE",
   "Buenos Aires Secreta: planes del fin de semana",
@@ -26,16 +28,24 @@
   "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
   "CASA BRANDON",
   "CASA DE LA CULTURA",
+  "CASA RODOLFO WALSH",
   "CASONA CULTURAL HUMAHUACA",
   "CENTRO CULTURAL 25 DE MAYO",
+  "CENTRO CULTURAL ANIBAL TROILO",
   "CENTRO CULTURAL ARMOZA",
   "CENTRO CULTURAL BORGES",
   "CENTRO CULTURAL COREANO",
   "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
   "CENTRO CULTURAL DE LA CIENCIA",
   "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+  "CENTRO CULTURAL DISCEPOLIN",
   "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+  "CENTRO CULTURAL EL DESEO",
+  "CENTRO CULTURAL ELÍAS CASTELNUOVO",
+  "CENTRO CULTURAL FORTUNATO LACAMERA",
   "CENTRO CULTURAL MACEDONIA",
+  "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE",
+  "CENTRO CULTURAL MUSICLETA",
   "CENTRO CULTURAL PACO URONDO",
   "CENTRO CULTURAL RICARDO ROJAS",
   "CENTRO CULTURAL THAMES",
@@ -52,6 +62,7 @@
   "CULTURAL MORAN",
   "Cacodelphia",
   "Casa Nacional del Bicentenario",
+  "Central Affair (Galerías Larreta)",
   "Centro Cultural Recoleta",
   "Cine Gaumont (Espacio INCAA)",
   "Cine club Farus",
@@ -8423,6 +8434,30 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "eaea8b8edfa9",
+   "titulo": "Seminario de lectura y escritura 'Cosas con palabras'",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ANIBAL TROILO",
+   "barrio": "Palermo",
+   "direccion": "Gorriti 5740",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-12",
+   "hora": "18:00",
+   "horarios": "Jueves 15 y 29 de octubre y 12 de noviembre, de 18 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Tres encuentros de lectura y escritura a cargo de la Lic. Constanza Penacini, docente, investigadora y editora. Entrada libre y gratuita sin inscripción.",
+   "url": "https://www.instagram.com/ccanibaltroilo/p/Dec0BLLSIY3/",
+   "dominio": "instagram.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ANIBAL TROILO"
+   ],
+   "lat": -34.583858,
+   "lng": -58.438736,
    "embebible": false
   },
   {
@@ -21516,6 +21551,30 @@
    "embebible": true
   },
   {
+   "id": "a7973b06bd69",
+   "titulo": "Geografías del gesto",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Matta",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Martes a sábados de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Exposición curada por Christine Clément con obras de Luciano Garbati, Nieves Legaspi, Solange Heilenkotter y Carlos Fernández, sobre cuerpo, memoria y territorio entre Chile y Argentina. Entrada libre y gratuita.",
+   "url": "https://www.instagram.com/centroculturalmatta/reel/DejmyR4xpbk/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
    "id": "bae7e00bcd72",
    "titulo": "Gift card para mamá",
    "categoria": "Evento",
@@ -23515,6 +23574,30 @@
    "lat": -34.60134,
    "lng": -58.437454,
    "embebible": true
+  },
+  {
+   "id": "9e15db2a533f",
+   "titulo": "Peña del Orgullo con Folclore por Todes",
+   "categoria": "Música",
+   "lugar": "Batacazo Cultural",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "2026-10-18",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Clase de folklore desde las 20 h y artistas en vivo, pista abierta y micrófono abierto desde las 21 h.",
+   "url": "https://www.instagram.com/culturalbatacazo/p/DecpWrnGqQr/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BATACAZO CULTURAL"
+   ],
+   "lat": -34.602799,
+   "lng": -58.420788,
+   "embebible": false
   },
   {
    "id": "9ae83fbc4c13",
@@ -25924,6 +26007,30 @@
    "embebible": true
   },
   {
+   "id": "39882b4acea0",
+   "titulo": "Presentación de la edición del libro 'Relación histórica de los sucesos de la rebelión de José Gabriel Tupac Amaru' de Pedro de Angelis",
+   "categoria": "Literatura y charlas",
+   "lugar": "Casa Rodolfo Walsh",
+   "barrio": "Palermo",
+   "direccion": "Nicaragua 4441",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exponen Gabriel Ignacio Anitua y Horacio Sebastián Garcete en Casa Walsh (Nicaragua 4445).",
+   "url": "https://www.instagram.com/lacasawalsh/p/DejotNuRpN1/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASA RODOLFO WALSH"
+   ],
+   "lat": -34.589327,
+   "lng": -58.423551,
+   "embebible": false
+  },
+  {
    "id": "af39ff0c6021",
    "titulo": "Raphael en Argentina",
    "categoria": "Música",
@@ -26477,6 +26584,30 @@
    "embebible": false
   },
   {
+   "id": "3365ec26e74d",
+   "titulo": "Alegoh (urbano)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (urbano) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "e23effc2619c",
    "titulo": "Alicia en el pais de las maravillas - en POST STREET BAR - PoS",
    "categoria": "Evento",
@@ -26788,6 +26919,30 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "342cb5cd79bb",
+   "titulo": "Darío Cosin (jazz)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (jazz) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
    "embebible": false
   },
   {
@@ -27657,6 +27812,30 @@
    "embebible": true
   },
   {
+   "id": "cb77dca2c71a",
+   "titulo": "Romina Victoria (pop)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (pop) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "97d920ed209a",
    "titulo": "Sabe la Tierra en Balvanera",
    "categoria": "Feria",
@@ -28261,6 +28440,30 @@
    "embebible": true
   },
   {
+   "id": "aa2a7c98b4fa",
+   "titulo": "Charla: Los caminos de la escritura, con Analía Sivak",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural Discepolín",
+   "barrio": "Saavedra",
+   "direccion": "Tronador 4134",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Encuentro para explorar el proceso creativo y el oficio de escribir junto a Analía Sivak, comunicadora social, periodista y productora. Entrada libre y no arancelada.",
+   "url": "https://www.instagram.com/gops.ba/p/Dekas0-J8Ef/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DISCEPOLIN"
+   ],
+   "lat": -34.552819,
+   "lng": -58.486806,
+   "embebible": false
+  },
+  {
    "id": "ef4926a4ff88",
    "titulo": "Ciclo La construcción de un monstruo: Violencia – The Shining (1980)",
    "categoria": "Cine",
@@ -28330,6 +28533,30 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "03be7907c865",
+   "titulo": "Clementina Banda (rock)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (rock) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
    "embebible": false
   },
   {
@@ -29151,6 +29378,30 @@
    "embebible": false
   },
   {
+   "id": "72fd691d6e03",
+   "titulo": "M1a1a1a (acústico)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (acústico) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "3386142f6eab",
    "titulo": "Mala Praxis | show de stand up",
    "categoria": "Teatro",
@@ -29293,6 +29544,30 @@
    "lat": -34.622066,
    "lng": -58.370745,
    "embebible": true
+  },
+  {
+   "id": "ef6c769c4215",
+   "titulo": "Nehuen Pipi (acústico)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (acústico) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
   },
   {
    "id": "7225a56b0828",
@@ -29461,6 +29736,30 @@
    "lat": -34.588545,
    "lng": -58.431853,
    "embebible": true
+  },
+  {
+   "id": "b8662ec09fac",
+   "titulo": "Pedro Kablan (rock)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (rock) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
   },
   {
    "id": "19e9b6a1666e",
@@ -30258,6 +30557,30 @@
    "embebible": false
   },
   {
+   "id": "a5ea0a590a13",
+   "titulo": "Carpi Barrionuevo (rock)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (rock) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "8909d8de41ef",
    "titulo": "Catálogo familiar de flores y plantas",
    "categoria": "Artes visuales",
@@ -30688,6 +31011,30 @@
    ],
    "lat": -34.576882,
    "lng": -58.403392,
+   "embebible": false
+  },
+  {
+   "id": "35330ba1ae0d",
+   "titulo": "Encuentro de danzas",
+   "categoria": "Danza",
+   "lugar": "Centro Cultural Elías Castelnuovo",
+   "barrio": "Liniers",
+   "direccion": "Montiel 1041",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Encuentro con los talleres de danzas folklóricas, danza fusión, Zumba BA, ritmos latinos niños y producción de danzas. Montiel 1041, Liniers.",
+   "url": "https://www.instagram.com/centroculturaleliascastelnuovo/p/DefTRdkBvyz/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ELÍAS CASTELNUOVO"
+   ],
+   "lat": -34.650618,
+   "lng": -58.525779,
    "embebible": false
   },
   {
@@ -32232,6 +32579,30 @@
    "embebible": false
   },
   {
+   "id": "5c2a0924b0d7",
+   "titulo": "Panacea: tributo a Spinetta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (tributo a Spinetta) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "8e53349783d8",
    "titulo": "Paula Giordano / Cel Mamone",
    "categoria": "Música",
@@ -33675,6 +34046,30 @@
    "embebible": false
   },
   {
+   "id": "21f19be9f7ca",
+   "titulo": "Cabeza de Elefante (rock)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (rock) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "e0c38048b191",
    "titulo": "Camerata De Misiones Con Xavier Inchausti Y Leila Balat Paiva",
    "categoria": "Evento",
@@ -35021,6 +35416,30 @@
    "lat": "",
    "lng": "",
    "embebible": true
+  },
+  {
+   "id": "a6ebb8cfbe09",
+   "titulo": "Ivana Karmalita (funk)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (funk) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
   },
   {
    "id": "c0990519b5b5",
@@ -36560,6 +36979,30 @@
    "embebible": true
   },
   {
+   "id": "9076223fb705",
+   "titulo": "Paxantomi (música del mundo)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (música del mundo) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "b4d2d5212723",
    "titulo": "Pedro Gariani, Melania Won y más",
    "categoria": "Fiestas y electrónica",
@@ -36938,6 +37381,30 @@
    "lugar_verificado": "",
    "fuentes": [
     "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "53612ad3ef4c",
+   "titulo": "Samanta Schweblin: Formas de desvío. De la literatura al cine y la escena",
+   "categoria": "Taller",
+   "lugar": "Librería La Libre",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "18:00",
+   "horarios": "Viernes 23 de octubre de 18 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Encuentro del Taller de Escritura Audiovisual a partir del cuento 'Nada de todo esto' de Samanta Schweblin, con fragmentos, cortometrajes y fotografías teatrales. Cupo limitado, con inscripción por mail. En Librería La Libre, Chacabuco 917.",
+   "url": "https://www.instagram.com/lacamerafortunato/p/DekzgjtR7OP/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL FORTUNATO LACAMERA"
    ],
    "lat": "",
    "lng": "",
@@ -38315,6 +38782,30 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "39f92fe0ffbd",
+   "titulo": "Angie Alturria (cumbia)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "00:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (cumbia) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
    "embebible": false
   },
   {
@@ -41446,6 +41937,30 @@
    "embebible": false
   },
   {
+   "id": "48a90435c644",
+   "titulo": "Los Bonnies (rock)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (rock) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "728d69980398",
    "titulo": "Los Esmirlos - Tributo a The Smiths",
    "categoria": "Música",
@@ -42725,6 +43240,30 @@
    "embebible": false
   },
   {
+   "id": "c4ee82138885",
+   "titulo": "Poesía con Entretantos Editora",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Lectura de poesía a cargo de Entretantos Editora en Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
+  },
+  {
    "id": "2871124b818b",
    "titulo": "Polenta",
    "categoria": "Fiestas y electrónica",
@@ -43925,6 +44464,30 @@
    "lat": -34.630481,
    "lng": -58.419733,
    "embebible": true
+  },
+  {
+   "id": "df71659447b2",
+   "titulo": "The Housing Rockers (SRV)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música en vivo (blues rock en homenaje a SRV) en la agenda semanal de Musicleta.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false
   },
   {
    "id": "4e0fc318c1d2",
@@ -46768,6 +47331,30 @@
    "embebible": true
   },
   {
+   "id": "279e0a122736",
+   "titulo": "Seminario en Movimiento con Sebastián Terragni",
+   "categoria": "Taller",
+   "lugar": "Teatro El Deseo",
+   "barrio": "Balvanera",
+   "direccion": "Saavedra 569",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "13:00",
+   "horarios": "Domingo 25 de octubre de 13 a 16 h",
+   "precio": "Consultar",
+   "descripcion": "Jornada única de entrenamiento para actores, actrices y bailarines, para habitar el cuerpo desde la expresión del movimiento y la música. Inscripción: 11 5728 0953.",
+   "url": "https://www.instagram.com/cceldeseo/p/DeerxqbxlxE/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL EL DESEO"
+   ],
+   "lat": -34.616299,
+   "lng": -58.402844,
+   "embebible": false
+  },
+  {
    "id": "248c000acf66",
    "titulo": "Sexualizarte",
    "categoria": "Teatro",
@@ -48189,6 +48776,30 @@
    "embebible": true
   },
   {
+   "id": "d334b56dccf3",
+   "titulo": "Doble inauguración: Despaisaje",
+   "categoria": "Artes visuales",
+   "lugar": "Barrakesh",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:00",
+   "horarios": "Mié a vie 14 a 19 h y sáb 12 a 17 h",
+   "precio": "Consultar",
+   "descripcion": "Sala 1: 'Despaisaje', muestra colectiva de Blanca Machuca, Adrián Sosa, Alfredo Frías, Guadalupe Carrizo y Agustina Lazarte con Ceibo Gallery, sobre territorio, trabajo rural y extractivismo.",
+   "url": "https://www.instagram.com/barrakesh.ar/p/DeemmPZR6yb/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BARRAKESH ESPACIO CULTURAL"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
    "id": "a80794412acd",
    "titulo": "Elijo creer",
    "categoria": "Evento",
@@ -48742,6 +49353,30 @@
    ],
    "lat": -34.603557,
    "lng": -58.369484,
+   "embebible": false
+  },
+  {
+   "id": "07fd351c8157",
+   "titulo": "AFFAIR #4: feria de galerías de arte",
+   "categoria": "Feria",
+   "lugar": "Central Affair",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-11-01",
+   "hora": "15:00",
+   "horarios": "28 de octubre al 1 de noviembre, 15 a 22 h",
+   "precio": "Consultar",
+   "descripcion": "Más de 30 galerías de arte en un único lugar, en Central AFFAIR (San Martín 954 / Florida 971).",
+   "url": "https://www.instagram.com/estoesunaffair/p/DepPvnTs1ga/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Central Affair (Galerías Larreta)"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": false
   },
   {

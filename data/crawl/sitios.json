@@ -1261,9 +1261,29 @@
    "origen": "data/galerias.json",
    "notas": [
     "2026-10-14: Sin sitio propio; plataforma de 16 galerías en Florida 971. Ver también gallery.com.ar",
-    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial"
+    "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
+    "2026-10-18 [instagram] Bio: linktr.ee/centralaffair sin abrir."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Perfil con la feria AFFAIR #4 en la bio"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "malba",
@@ -1839,7 +1859,29 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Medrano Av. 627",
-   "enlace_bio": "https://maps.app.goo.gl/Mkk5ELZbce19vVRKA"
+   "enlace_bio": "https://maps.app.goo.gl/Mkk5ELZbce19vVRKA",
+   "comportamiento": {
+    "bio": "Espacio LGBTIQNB+ con programación semanal en Instagram"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Fiesta post-Marcha del 7/11 queda fuera de la ventana."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "caff-club-atletico-fernandez-fierro",
@@ -1931,7 +1973,27 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Sanchez De Bustamante 551",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda visible."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casona-cultural-humahuaca",
@@ -2053,7 +2115,27 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Lezica 4266",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-macedonia",
@@ -2953,7 +3035,27 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Tucuman 1833",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-del-partido-de-la-estrada",
@@ -2967,7 +3069,29 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Mexico 2849",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Cena show con danza española y folklore; el 31/10"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-deseo",
@@ -2984,6 +3108,25 @@
    "enlace_bio": "https://panel.alternativateatral.com/espacio4779-",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (Alternativa Teatral: cartelera del espacio))"
+   ],
+   "comportamiento": {
+    "bio": "Teatro independiente en Saavedra 569"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -3817,7 +3960,29 @@
    "origen": "data/lugares.json",
    "barrio": "Barracas",
    "direccion": "California 1672",
-   "enlace_bio": "https://malevamag.com/aca-puede-pasar-de-todo-asi-es-barrakesch"
+   "enlace_bio": "https://malevamag.com/aca-puede-pasar-de-todo-asi-es-barrakesch",
+   "comportamiento": {
+    "bio": "Posts de inauguraciones con fecha"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Abre mié a vie 14 a 19 h y sáb 12 a 17 h."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "batacazo-de-arte",
@@ -3870,9 +4035,29 @@
    "direccion": "Santo Domingo 2752",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lausina"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lausina",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "enlace_bio": "https://linktr.ee/lausina"
+   "enlace_bio": "https://linktr.ee/lausina",
+   "comportamiento": {
+    "bio": "Talleres gratuitos semanales"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-nuestra-tierra",
@@ -4392,7 +4577,27 @@
    "origen": "data/lugares.json",
    "barrio": "Boedo",
    "direccion": "Boedo Av. 830",
-   "enlace_bio": "https://cafecito.app/elsurco"
+   "enlace_bio": "https://cafecito.app/elsurco",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-los-chiflados-de-boedo",
@@ -4406,7 +4611,27 @@
    "origen": "data/lugares.json",
    "barrio": "Boedo",
    "direccion": "San Juan Av. 3545",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-nicolas-olivari",
@@ -4642,7 +4867,27 @@
    "origen": "data/lugares.json",
    "barrio": "Caballito",
    "direccion": "Rivadavia Av. 5764",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-alberto-olmedo",
@@ -4657,9 +4902,27 @@
    "barrio": "Caballito",
    "direccion": "Viale, Luis 1052",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-eternauta",
@@ -4674,9 +4937,27 @@
    "barrio": "Caballito",
    "direccion": "Lobos, Eleodoro, Dr. 437",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-lola-mora",
@@ -4691,9 +4972,27 @@
    "barrio": "Caballito",
    "direccion": "Rio De Janeiro 946",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-neville",
@@ -4709,7 +5008,25 @@
    "direccion": "Paysandu 1483",
    "enlace_bio": "https://linktr.ee/neville.caballito",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/neville.caballito"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/neville.caballito",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5495,9 +5812,27 @@
    "barrio": "Colegiales",
    "direccion": "Conde 943",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "cultural-mamita",
@@ -6016,7 +6351,27 @@
    "origen": "data/lugares.json",
    "barrio": "Floresta",
    "direccion": "Mercedes 1405",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-barrio-rivadavia",
@@ -6030,7 +6385,27 @@
    "origen": "data/lugares.json",
    "barrio": "Floresta",
    "direccion": "Las Caracolas 200",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-suenero",
@@ -6475,7 +6850,27 @@
    "origen": "data/lugares.json",
    "barrio": "Liniers",
    "direccion": "Montiel 1041",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Posts con encuentros de talleres"
+   },
+   "notas": [],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "el-tanque-cultural",
@@ -6521,9 +6916,27 @@
    "barrio": "Mataderos",
    "direccion": "Leguizamon, Martiniano 1470",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "asociacion-centro-betanzos",
@@ -6537,7 +6950,27 @@
    "origen": "data/lugares.json",
    "barrio": "Monserrat",
    "direccion": "Republica Bolivariana De Venezuela 1534",
-   "enlace_bio": "http://radioenxebre.com.ar/"
+   "enlace_bio": "http://radioenxebre.com.ar/",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Instagram con eventos esporádicos en Venezuela 1536."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casa-de-la-cultura",
@@ -6897,7 +7330,27 @@
    "origen": "data/lugares.json",
    "barrio": "Monte Castro",
    "direccion": "Sanabria 2440",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-taller",
@@ -6912,9 +7365,27 @@
    "barrio": "Monte Castro",
    "direccion": "Gonzalez, Elpidio 4967",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-del-bajo-flores",
@@ -6946,9 +7417,29 @@
    "barrio": "Nueva Pompeya",
    "direccion": "Tilcara 3365",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Talleres semanales sin fechas"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-la-casona-de-arena",
@@ -6962,7 +7453,27 @@
    "origen": "data/lugares.json",
    "barrio": "Nueva Pompeya",
    "direccion": "Almafuerte Av. 735",
-   "enlace_bio": "https://maps.app.goo.gl/C3iUost533xFqzRi6"
+   "enlace_bio": "https://maps.app.goo.gl/C3iUost533xFqzRi6",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "grupo-de-teatro-comunitario-de-pompeya",
@@ -7118,9 +7629,27 @@
    "barrio": "Nuñez",
    "direccion": "O'Higgins 3050",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-nuestros-hijos-fundacion-madres-de-plaza-de",
@@ -7471,7 +8000,29 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Nicaragua 4441",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Posts recientes con presentaciones y talleres"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Además publica talleres de dibujo y pintura sin fechas."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "cc-amigos-de-eladia-blasquez",
@@ -7485,7 +8036,27 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Santa Fe Av. 5362",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda visible."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-anibal-troilo",
@@ -7502,7 +8073,26 @@
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Los posts propios son pocos; el Programa Cultural en Barrios publica en @gops.ba"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-buda-bar",
@@ -7518,7 +8108,27 @@
    "direccion": "Costa Rica 4659",
    "enlace_bio": "https://linktr.ee/budabarbs",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/budabarbs"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/budabarbs",
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "comportamiento": {
+    "bio": "Posts de alquiler de salones, sin shows"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -7710,7 +8320,27 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Tagle 2772",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Exposiciones de la Embajada de Chile"
+   },
+   "notas": [],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-richards",
@@ -8766,7 +9396,27 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Patricios",
    "direccion": "Caseros Av. 2516",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-miguel-miranda",
@@ -9670,9 +10320,27 @@
    "barrio": "Saavedra",
    "direccion": "Ramallo 2606",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin funciones futuras publicadas."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-discepolin",
@@ -9687,9 +10355,29 @@
    "barrio": "Saavedra",
    "direccion": "Tronador 4134",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Hay que revisar @gops.ba para varios centros (Talerico, Chacabuco, CEPNA, Bajo Flores)."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Cuenta compartida @gops.ba (Programa Cultural en Barrios): publica charlas y talleres de todos los centros"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-lino-e-spilimbergo",
@@ -9704,9 +10392,27 @@
    "barrio": "Saavedra",
    "direccion": "Perez, Roque 3545",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-garcia",
@@ -10786,20 +11492,6 @@
    ]
   },
   {
-   "id": "cdca",
-   "nombre": "CDCA",
-   "tipo": "lugar",
-   "lugares": [
-    "CDCA"
-   ],
-   "web": "",
-   "instagram": "@cdca.santelmo",
-   "origen": "data/lugares.json",
-   "barrio": "San Telmo",
-   "direccion": "Estados Unidos 425",
-   "bio_probada": "2026-10-15"
-  },
-  {
    "id": "centro-cultural-argentino-croata-de-san-telmo",
    "nombre": "CENTRO CULTURAL ARGENTINO CROATA DE SAN TELMO",
    "tipo": "lugar",
@@ -10811,7 +11503,27 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Bolivar 1556",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-fortunato-lacamera",
@@ -10828,7 +11540,26 @@
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Publica también las novedades del PCB junto a @gops.ba"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-leopoldo-gonzalez",
@@ -10842,7 +11573,27 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Independencia Av. 446",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-torquato-tasso",
@@ -11170,9 +11921,29 @@
    "direccion": "La Selva 4022",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lacasitadelaselva"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lacasitadelaselva",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "enlace_bio": "https://linktr.ee/lacasitadelaselva"
+   "enlace_bio": "https://linktr.ee/lacasitadelaselva",
+   "comportamiento": {
+    "bio": "Teatro de sala en La Selva 4022"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-anduma",
@@ -11285,7 +12056,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Lavalleja 1008",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda visible."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-de-arte-y-movimiento-bailaba",
@@ -11299,7 +12090,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Scalabrini Ortiz, Raul Av. 540",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Clases y sociales de salsa, bachata y tango; sin fechas en posts"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-musicleta",
@@ -11315,7 +12128,27 @@
    "direccion": "Aguirre 489",
    "enlace_bio": "https://bit.ly/musicleta",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (agenda semanal))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (agenda semanal))",
+    "2026-10-18 [instagram] El post del 18/10 cubre martes 20 a sábado 24."
+   ],
+   "comportamiento": {
+    "bio": "Publica la agenda semanal de música en vivo todas las noches"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 16,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 16
+    }
    ]
   },
   {
@@ -12177,7 +13010,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Del Parque",
    "direccion": "Lamarca, Emilio 2502",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin agenda visible."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-sofia-gempel-arte",
@@ -12337,9 +13190,27 @@
    "barrio": "Villa Devoto",
    "direccion": "Nueva York 4169",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-lineas-de-fuga",
@@ -12440,7 +13311,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Lugano",
    "direccion": "Chilavert, Martiniano, Coronel 5453",
-   "enlace_bio": "https://fiestadelcine.com.ar/"
+   "enlace_bio": "https://fiestadelcine.com.ar/",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Cuenta con poca actividad; bio apunta a fiestadelcine.com.ar."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-barrio-copello",
@@ -12455,9 +13346,27 @@
    "barrio": "Villa Lugano",
    "direccion": "Dellepiane, Luis, Tte. Gral. 4900",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-cepna",
@@ -12489,9 +13398,29 @@
    "barrio": "Villa Lugano",
    "direccion": "2 De Abril De 1982 6997",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Talleres semanales"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-saladiyo",
