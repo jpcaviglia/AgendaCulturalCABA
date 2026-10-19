@@ -461,21 +461,27 @@ def normalizar_evento(raw, sitio, errores, avisos):
 
 
 def url_de_listado(res, sitio, eventos):
-    """(url, count) when 3 or more events, at least half of them, link to the same page and that page is the
-    site's website, one of its `entradas` or a page visited in this crawl, i.e. the listing instead of each
-    event's page. None if not, or if the source has no page per event (`comportamiento.sin_fichas`, in the result
-    or already saved for the site). Instagram posts are allowed: one post can announce several events."""
+    """(url, count) when at least half of the different events (title, not date: several dates of one play may
+    share its page) link to the same page, i.e. the listing instead of each event's page: 3 or more events for any
+    page, 2 or more if it is the site's website, one of its `entradas` or a page visited in this crawl.
+    None if not, or if the source has no page per event (`comportamiento.sin_fichas`, in the result or already
+    saved for the site). Instagram posts are allowed: one post can announce several events."""
     if (res.get("comportamiento") or {}).get("sin_fichas") or (sitio.get("comportamiento") or {}).get("sin_fichas"):
         return None
-    urls = [_norm_url(e.get("url")) for e in eventos if e.get("url") and "instagram.com" not in e.get("url")]
-    if len(urls) < 3:
+    por_url = {}
+    for e in eventos:
+        if e.get("url") and "instagram.com" not in e["url"]:
+            por_url.setdefault(_norm_url(e["url"]), set()).add(sin_tildes(e["titulo"]))
+    total = len({sin_tildes(e["titulo"]) for e in eventos})
+    if not por_url or total < 2:
         return None
-    url, n = Counter(urls).most_common(1)[0]
-    if n < 3 or n * 2 < len(eventos):
+    url, titulos = max(por_url.items(), key=lambda kv: len(kv[1]))
+    n = len(titulos)
+    if n * 2 < total:
         return None
     paginas = {_norm_url(u) for u in (res.get("urls_visitadas") or []) + (res.get("entradas") or [])
                + (sitio.get("entradas") or []) + [sitio.get("web"), res.get("web_nueva")] if u}
-    return (url, n) if url in paginas else None
+    return (url, n) if n >= 3 or (n >= 2 and url in paginas) else None
 
 
 def validar(res, sitios):

@@ -423,8 +423,10 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   generic text.
 - `precio`: "Gratis", "$ 8000", "Desde $ 5000", or empty. `url`: the event's own page (the link of its card
   in the listing) or its tickets page; the Instagram post only if there is no other. Never the listing, agenda
-  or home page: `guardar` rejects the result when 3 or more events, at least half of them, share a URL that is
-  one of the pages you visited. Take each card's link from `bloques()` (it returns the `url` of every card) and
+  or home page: `guardar` rejects the result when at least half of the different events (by title; several
+  dates of one play may share a page) share the same URL, with 3 or more events for any page, or 2 or more if
+  it is the site's website or a page you visited. If it rejects, the crawl did not go deep enough: open each
+  event's page, do not just add `sin_fichas`. Take each card's link from `bloques()` (it returns the `url` of every card) and
   open the event pages: they often have the hour, the real venue (another room, another city) or say the
   event is online, which the listing does not show. Only if the source has no page per event (a PDF, a
   Linktree, an article listing several shows, a ticketing page without links per show), say so once in
