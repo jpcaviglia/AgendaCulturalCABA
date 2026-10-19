@@ -180,9 +180,9 @@ def tuvo_eventos(s):
 
 
 def armar_cola(doc, previa=None):
-    """All the sites, every run. Order: aggregators, discovery, galleries, venues with a website,
-    and at the end the Instagram of those without a website. Within each phase, first what was left uncrawled
-    in the previous run and what already had events."""
+    """All the sites, every run. Order: aggregators, discovery, galleries, venues with a website and the
+    Instagram of those without one (`pendientes` spreads these among the websites). Within each phase, first
+    what was left uncrawled in the previous run and what already had events."""
     pendientes_previos = set()
     if previa and not previa.get("fin_ok"):
         pendientes_previos = {i for i in previa.get("cola", []) if i not in previa.get("hechos", {})}
@@ -211,14 +211,20 @@ def cargar_corrida():
 
 
 def pendientes(corrida, sitios=None):
-    """Websites in queue order and then Instagram, the profiles checked longest ago first."""
+    """Websites in queue order with the Instagram profiles spread evenly among them (the profiles checked
+    longest ago first), so the daily quota is spent along the run and not all at the end."""
     pend = [i for i in corrida["cola"] if i not in corrida["hechos"]]
     if sitios is None:
         return pend
     webs = [i for i in pend if i.endswith("|web")]
     igs = sorted((i for i in pend if i.endswith("|instagram")),
                  key=lambda i: (ultima_ig(sitios.get(i.split("|")[0], {})), corrida["cola"].index(i)))
-    return webs + igs
+    salida, k = [], 0
+    for j, ig in enumerate(igs):
+        corte = round((j + 1) * len(webs) / (len(igs) + 1))
+        salida += webs[k:corte] + [ig]
+        k = max(k, corte)
+    return salida + webs[k:]
 
 
 def posponer_instagram(corrida, motivo):
@@ -350,7 +356,7 @@ def cmd_siguiente(args):
         sys.exit("No hay corrida abierta: correr primero `python scripts/crawl.py iniciar`.")
     sitios = por_id(cargar_sitios())
     pend = pendientes(corrida, sitios)
-    if pend and pend[0].endswith("|instagram"):
+    if any(i.endswith("|instagram") for i in pend[:n]):
         est = ig_estado()
         restantes, enfriado = ig_cupo(est)
         if enfriado or restantes < est["limites"]["min_paginas_perfil"]:

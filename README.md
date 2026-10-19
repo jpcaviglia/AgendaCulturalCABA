@@ -47,7 +47,8 @@ To run it: open Claude Code in this folder with Claude in Chrome connected and a
 They use the Python 3.10+ standard library. `crawl.py` does not visit any site; the others that read from the
 network do so with plain HTTP requests, at a slow pace.
 
-- `scripts/crawl.py`: run queue, validation of each result (rejects "sin eventos" if agenda links were left
+- `scripts/crawl.py`: run queue (Instagram profiles are spread evenly among the websites so the daily quota
+  is used along the run), validation of each result (rejects "sin eventos" if agenda links were left
   unopened or listings unscrolled, "no carga" with fewer than 3 attempts, and results where half or more of the events share one link (the
   listing page) instead of each having its own page, unless the site is marked `sin_fichas`) and a record of what was
   learned, including the discarded links so they are not reopened. `crawl.py herramientas` prints the line

@@ -267,14 +267,17 @@ day and time goes as a separate event.
 ## 4. Crawl Instagram
 
 Instagram is crawled for venues with no website, and for those with a website when the website gave no
-events (the script queues them by itself, after all the websites). Use the browser's already logged-in
-session; do not log in or create accounts.
+events (the script queues them by itself). `siguiente` spreads the Instagram profiles evenly among the
+websites, so the quota is spent along the whole run and there is no backlog of profiles at the end: when
+`siguiente` returns an Instagram item, crawl it right then, like any other. Use the browser's already
+logged-in session; do not log in or create accounts.
 
 **Limits.** Instagram throttles accounts that open many pages in a row, so the script keeps a quota and not
 all the profiles fit in each run: they rotate, the longest-unchecked first.
 
 - Daily quota of Instagram pages (profile + each opened post), 150 by default. `siguiente` shows what is
-  left; when it runs out, it leaves the remaining profiles as `pospuesto` and they go first next time.
+  left; when it runs out, it leaves the remaining profiles as `pospuesto` (the websites go on) and they go
+  first next time.
 - If a profile is saved as `bloqueado`, Instagram is not opened for 24 h (cool-down): the pending profiles
   stay `pospuesto`. Do not try to continue with another profile.
 - Every 25 pages, `guardar` asks for a 5-minute pause: take it (or continue with websites, if any remain).
