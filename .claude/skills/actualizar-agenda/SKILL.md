@@ -93,7 +93,12 @@ only tries the new ones (or the ones not tried for more than 60 days), so it is 
 
 ## 2. Go through the queue
 
-Repeat until the queue is empty:
+**At most 20 sites per session.** A session crawls up to 20 items from the queue (websites and Instagram
+profiles both count; sites saved by `sondear.py --corrida` and `reutilizado` ones do not), then publishes a
+progress update (section 6) and stops. The next session runs `crawl.py iniciar` and resumes the open run
+where it left off. Only the session that empties the queue goes on to section 7 and closes the run.
+
+Repeat until the queue is empty or you have crawled 20 sites in this session:
 
 ```bash
 python scripts/crawl.py siguiente 3
@@ -148,8 +153,8 @@ retry). Do not change the status to get around the validation.
 
 Save each site as soon as you finish it: if the session is cut off, what was saved is not lost.
 
-Every ~40 sites, publish a progress update (section 6). That way the page is updated even if the run is cut
-off.
+After the 20th site, publish a progress update (section 6) and end the session. That way the page is
+updated after every session even if the run takes several.
 
 ## 3. Crawl a website
 
