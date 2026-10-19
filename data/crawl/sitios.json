@@ -2196,6 +2196,25 @@
    "enlace_bio": "https://linktr.ee/cclimonero",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cclimonero"
+   ],
+   "comportamiento": {
+    "bio": "Posts con fiestas y shows"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -4088,7 +4107,27 @@
    "origen": "data/lugares.json",
    "barrio": "Barracas",
    "direccion": "Caseros Av. 1712",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "circuito-cultural-barracas",
@@ -4646,9 +4685,27 @@
    "barrio": "Boedo",
    "direccion": "Castro 954",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "el-castillo-de-sandro",
@@ -5541,7 +5598,27 @@
    "direccion": "Dorrego Av. 911",
    "enlace_bio": "https://linktr.ee/clubsocial911",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/clubsocial911"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/clubsocial911",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "comportamiento": {
+    "bio": "Entradas en clubsocial911.com"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5556,7 +5633,29 @@
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
    "direccion": "Caldas 380",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Multiespacio en Caldas 380, Chacarita; talleres y laboratorios"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Además hay un taller de teatro y monólogos los miércoles de 19 a 21:30 h sin fecha de inicio."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "dumont-4040-ex-santos-4040",
@@ -5572,7 +5671,27 @@
    "direccion": "Santos Dumont 4040",
    "enlace_bio": "https://www.alternativateatral.com/espacio6582-dumont-4040",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (cartelera del espacio))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (cartelera del espacio))",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "comportamiento": {
+    "bio": "Teatro en Santos Dumont 4040"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -5662,7 +5781,25 @@
    "direccion": "Fitz Roy 1245",
    "enlace_bio": "https://linktr.ee/eltallerdeomar",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltallerdeomar"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltallerdeomar",
+    "2026-10-18 [instagram] Sin eventos visibles al 18/10."
+   ],
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6485,9 +6622,27 @@
    "direccion": "Suarez 557",
    "notas": [
     "2026-10-14: web corregida (antes https://conventillodenelly.com.ar/)",
-    "2026-10-14: conventillodenelly.com.ar figura en Google pero su DNS falla hoy; reintentar"
+    "2026-10-14: conventillodenelly.com.ar figura en Google pero su DNS falla hoy; reintentar",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "el-galpon-de-catalinas",
@@ -7075,7 +7230,27 @@
    "origen": "data/lugares.json",
    "barrio": "Monserrat",
    "direccion": "Republica Bolivariana De Venezuela 1283",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-politico-cultural-el-hormiguero",
@@ -7089,7 +7264,27 @@
    "origen": "data/lugares.json",
    "barrio": "Monserrat",
    "direccion": "Yrigoyen, Hipolito 1440",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "cine-club-farus",
@@ -9274,7 +9469,29 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Chas",
    "direccion": "Victorica, Benjamin, General, Av. 2642",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Talleres semanales de barrio"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casa-cultural-victor-jara",
@@ -9720,7 +9937,27 @@
    "direccion": "",
    "enlace_bio": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (evento en Passline))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (evento en Passline))",
+    "2026-10-18 [instagram] Mismo evento que figura en el Passline de Club Conjura."
+   ],
+   "comportamiento": {
+    "bio": "Productora de ciclos de cine en Club Conjura (Nicasio Oroño 2476), miércoles, entradas por Passline"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -12164,9 +12401,27 @@
    "barrio": "Villa Crespo",
    "direccion": "Araoz 234",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-teatro-fray-mocho",
@@ -12214,7 +12469,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Tres Arroyos 402",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "Afiches en imagen, sin texto"
+   },
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "club-cultural-matienzo",
@@ -12292,7 +12569,25 @@
    "direccion": "Thames 240",
    "enlace_bio": "https://linktr.ee/qivillacrespo",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/qivillacrespo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/qivillacrespo",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -13435,9 +13730,27 @@
    "barrio": "Villa Lugano",
    "direccion": "Beron De Astrada 5920",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "galpon-cultural-piedrabuenarte",
@@ -13556,7 +13869,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Ortuzar",
    "direccion": "Combatientes De Malvinas Av. 3562",
-   "enlace_bio": "http://www.conservatoriograssiurquiza.com/"
+   "enlace_bio": "http://www.conservatoriograssiurquiza.com/",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "camion",
@@ -14234,7 +14567,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Urquiza",
    "direccion": "Triunvirato Av. 4307",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "el-colectivo-arte-en-movimiento",
@@ -17815,9 +18168,27 @@
    "instagram": "@el.metodo.kairos",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista"
+    "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
+    "2026-10-18 [instagram] Sin eventos propios visibles al 18/10."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-18",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "niceto-club",

@@ -5,8 +5,8 @@
   "hasta": "2026-11-01"
  },
  "rastreo": {
-  "capturas": 386,
-  "con_eventos": 207
+  "capturas": 405,
+  "con_eventos": 210
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -50,6 +50,7 @@
   "CENTRO CULTURAL RICARDO ROJAS",
   "CENTRO CULTURAL THAMES",
   "CENTRO CULTURAL TORQUATO TASSO",
+  "CENTRO CULTURAL “EL LIMONERO”",
   "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
   "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
   "CHELA",
@@ -69,7 +70,9 @@
   "Colección Fortabat",
   "Complejo Teatral de Buenos Aires",
   "Crobar",
+  "DEOTRAVIDAPROD",
   "DESEO BSAS",
+  "DRAMIA Centro Cultural",
   "Dune Park",
   "EL CASTILLO DE SANDRO",
   "EL CULTURAL MASALA",
@@ -28481,7 +28484,8 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "club conjura"
+    "club conjura",
+    "DEOTRAVIDAPROD"
    ],
    "lat": -34.598307,
    "lng": -58.459862,
@@ -40492,6 +40496,30 @@
    "embebible": false
   },
   {
+   "id": "59757cb06eeb",
+   "titulo": "Entre cuerpo y palabra: laboratorio de movimiento inspirado en Pina Bausch",
+   "categoria": "Taller",
+   "lugar": "Dramia Centro Cultural",
+   "barrio": "Chacarita",
+   "direccion": "Caldas 380",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "14:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Laboratorio de movimiento coordinado por Silvia Weitzman, para explorar otras formas de expresión entre el cuerpo y la palabra. Dramia, Caldas 380, Chacarita.",
+   "url": "https://www.instagram.com/dramia.cc/p/DePuf6pzrwh/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DRAMIA Centro Cultural"
+   ],
+   "lat": -34.59374,
+   "lng": -58.455712,
+   "embebible": false
+  },
+  {
    "id": "c3e5d225f0d4",
    "titulo": "Es treatro, es deseo: Julieta y Romeo",
    "categoria": "Teatro",
@@ -40920,6 +40948,30 @@
    "lugar_verificado": "",
    "fuentes": [
     "SalePlan: agenda de Ciudad de Buenos Aires"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false
+  },
+  {
+   "id": "fce5fdf711d1",
+   "titulo": "Fiesta de cumpleaños: cumple el barrio, el Limo y Lo de Checho",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CC Limonero",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiestón popular para bailar, comer y celebrar en CC Limonero (Salguero 668).",
+   "url": "https://www.instagram.com/cclimonero/p/DekndZ3GccP/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL “EL LIMONERO”"
    ],
    "lat": "",
    "lng": "",
