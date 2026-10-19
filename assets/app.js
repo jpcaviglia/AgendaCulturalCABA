@@ -239,8 +239,18 @@
 
     const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
     const hora = horaPrincipal(e);
-    return crear("li", { class: "fila" }, [
+    // La imagen es un enlace al sitio del evento (hotlink): si no carga, la fila se acomoda sin ella.
+    const imagen = e.imagen ? crear("img", { class: "miniatura", src: e.imagen, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" }) : null;
+    if (imagen) {
+      imagen.addEventListener("error", () => {
+        const fila = imagen.closest(".fila");
+        imagen.remove();
+        if (fila) fila.classList.remove("con-imagen");
+      });
+    }
+    return crear("li", { class: imagen ? "fila con-imagen" : "fila" }, [
       crear("div", { class: hora ? "hora" : "hora sin" }, [texto(hora || (e.horarios ? "Ver horarios" : "Sin hora"))]),
+      imagen,
       crear("div", { class: "cuerpo" }, [
         categoria,
         titulo,

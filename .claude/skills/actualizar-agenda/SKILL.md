@@ -429,6 +429,10 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   event is online, which the listing does not show. Only if the source has no page per event (a PDF, a
   Linktree, an article listing several shows, a ticketing page without links per show), say so once in
   `comportamiento`: `"sin_fichas": "<reason>"`. It is saved for the site and the check is not applied again.
+- `imagen` (optional): absolute https URL of the event's picture, shown next to it on the website (it is linked,
+  not downloaded). Copy it from `bloques()` (the card's picture), `jsonld()` or `esperar()` (`og:image`), never
+  invent it. Leave it empty if the source has no picture of its own: not the venue's logo, a generic banner or an
+  icon. Instagram post pictures are not used (their URLs expire). `guardar` ignores any that is not https.
 - `vigente_sin_fin: true` only when the source publishes it as current with no closing date.
 - `comportamiento`: short keys and values that help the next run (`espera_seg`, `scroll`, `ver_mas`,
   `paginacion`, `menu`, `cookies` (which notice appears and how it is closed), `popups`, `plataforma`,

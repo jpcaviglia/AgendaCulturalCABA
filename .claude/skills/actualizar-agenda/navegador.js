@@ -191,7 +191,11 @@
     const copia = raiz.cloneNode(true);
     copia.querySelectorAll("nav, footer, header, aside, script, style, form, [class*=share i], [class*=related i], [class*=newsletter i]").forEach((e) => e.remove());
     const texto = (copia.innerText || raiz.innerText).replace(/[ \t]+/g, " ").replace(/ ?\n[\s]*/g, "\n").trim();
-    return fin({ url: location.href, espera_ms, popups, texto: texto.slice(0, max), ...(texto.length > max ? { texto_total: texto.length } : {}) });
+    const og = document.querySelector('meta[property="og:image"], meta[name="twitter:image"]')?.content || "";
+    let imagen = "";
+    try { imagen = new URL(og, location.href).href; } catch {}
+    return fin({ url: location.href, espera_ms, popups, texto: texto.slice(0, max), ...(imagen.startsWith("https://") ? { imagen } : {}),
+      ...(texto.length > max ? { texto_total: texto.length } : {}) });
   };
 
   // popups: solo cerrar avisos (cuando aparece uno después, por ejemplo al abrir un menú).
@@ -201,7 +205,29 @@
     return fin({ url: location.href, popups: lista });
   };
 
-  // bloques: cada tarjeta, fila o ítem de un listado que tenga una fecha, con su enlace.
+  // URL https absoluta de la imagen de una tarjeta (la más grande del elemento), o "". Mira src, data-src y srcset,
+  // y el background-image; descarta íconos, logos y data: URIs.
+  const imagenDe = (el) => {
+    const cands = [];
+    for (const img of el.querySelectorAll("img")) {
+      const srcset = (img.getAttribute("srcset") || img.getAttribute("data-srcset") || "").split(",")
+        .map((s) => s.trim().split(/\s+/)[0]).filter(Boolean).pop();
+      const src = img.currentSrc || img.getAttribute("data-src") || img.getAttribute("data-lazy-src") || srcset || img.src;
+      const area = (img.naturalWidth || img.width || 0) * (img.naturalHeight || img.height || 0);
+      cands.push([src, area]);
+    }
+    for (const n of [el, ...el.querySelectorAll("[style*=background], [class*=img], [class*=image], [class*=foto], [class*=thumb]")]) {
+      const m = /url\(["']?([^"')]+)["']?\)/.exec(getComputedStyle(n).backgroundImage || "");
+      if (m) cands.push([m[1], n.offsetWidth * n.offsetHeight]);
+    }
+    const buena = cands
+      .map(([s, a]) => { try { return [new URL(s, location.href).href, a]; } catch { return null; } })
+      .filter((c) => c && c[0].startsWith("https://") && !/logo|icon|sprite|avatar|placeholder|blank|\.svg(\?|$)/i.test(c[0]))
+      .sort((x, y) => y[1] - x[1])[0];
+    return buena ? buena[0] : "";
+  };
+
+  // bloques: cada tarjeta, fila o ítem de un listado que tenga una fecha, con su enlace y su imagen.
   const bloques = (op = {}) => {
     const max = op.max || 120;
     const RE = new RegExp(`\\b\\d{1,2}\\s*(de\\s+)?(${MESES})[a-záéíóú]*\\.?\\b|\\b(${MESES})[a-z]*\\.?\\s+\\d{1,2}\\b|\\b\\d{1,2}[/.]\\d{1,2}([/.]\\d{2,4})?\\b|\\b(hoy|mañana|lunes|martes|miércoles|jueves|viernes|sábado|domingo)s?\\b`, "i");
@@ -220,7 +246,8 @@
       const a = el.querySelector("a[href]") || el.closest("a[href]");
       let url = "";
       if (a) { const u = new URL(a.href); url = u.origin === location.origin ? u.pathname + u.search : u.href; }
-      lista.push({ texto: texto.slice(0, 300), url });
+      const imagen = imagenDe(el);
+      lista.push({ texto: texto.slice(0, 300), url, ...(imagen ? { imagen } : {}) });
     }
     return fin({ url: location.href, base: location.origin, total: lista.length, bloques: lista.slice(0, max) });
   };
@@ -240,7 +267,8 @@
         out.push({ titulo: n.name, inicio: n.startDate, fin: n.endDate, lugar: loc.name || "",
           direccion: typeof dir === "string" ? dir : [dir.streetAddress, dir.addressLocality].filter(Boolean).join(", "),
           precio: of.price !== undefined ? `${of.priceCurrency || ""} ${of.price}`.trim() : "", url: n.url || location.href,
-          descripcion: (n.description || "").replace(/\s+/g, " ").slice(0, largoDesc) });
+          descripcion: (n.description || "").replace(/\s+/g, " ").slice(0, largoDesc),
+          imagen: [].concat(n.image || []).map((i) => (typeof i === "string" ? i : i && i.url) || "").find((u) => /^https:\/\//.test(u)) || "" });
       }
       ["@graph", "itemListElement", "item", "subEvent"].forEach((k) => n[k] && recorrer(n[k]));
     };

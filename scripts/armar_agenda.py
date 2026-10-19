@@ -23,7 +23,8 @@ MAX_EDAD_DIAS = 10
 # Instagram is rotated between runs because of its rate limit, so its captures last longer.
 MAX_EDAD_DIAS_INSTAGRAM = 21
 CAMPOS_PUBLICOS = ("id", "titulo", "categoria", "lugar", "barrio", "direccion", "fecha_inicio", "fecha_fin", "hora",
-                   "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng", "embebible")
+                   "horarios", "precio", "descripcion", "url", "dominio", "estado", "lugar_verificado", "fuentes", "lat", "lng", "embebible",
+                   "imagen")
 TIPO_DEDUP = {"lugar": "sitio", "galeria": "sitio", "agregador": "agregador", "descubrimiento": "agregador"}
 # Web crawl status -> status shown in the Lugares tab (assets/app.js).
 ESTADO_LUGAR = {

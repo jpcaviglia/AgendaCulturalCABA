@@ -75,8 +75,8 @@ How to read the result:
 ## `esperar(opciones)`: event pages
 
 For the page of one event or exhibition: waits for it to load, closes notices and returns the main text
-without menu, footer, sidebars or "share". It returns up to 2500 characters; if there is more,
-`texto_total` appears. If what is missing (closing date, price) is not in what came back, ask for more:
+without menu, footer, sidebars or "share". It also returns `imagen` (the page's `og:image`, when it is an
+https URL). It returns up to 2500 characters; if there is more, `texto_total` appears. If what is missing (closing date, price) is not in what came back, ask for more:
 `esperar({max: 6000})`.
 
 ## `popups()`: cookie notices and windows that cover the page
@@ -105,14 +105,15 @@ with a click and note how in `comportamiento`.
 
 ## `bloques(opciones)`: cards with a date from a listing
 
-Returns every card, row or item that has a date, with its link (up to 300 characters each, 120 cards;
+Returns every card, row or item that has a date, with its link and, when the card has one, its picture in
+`imagen` (the largest https image of the card; logos, icons and SVGs are skipped) (up to 300 characters each, 120 cards;
 `bloques({max: 200})` for more). It reads a whole listing without requesting the text of the entire page:
 **use it instead of `get_page_text`**, which returns the whole page with menu and footer. Run it after
 `preparar` (which already scrolled and expanded).
 
 ## `jsonld(opciones)`: events with structured data
 
-Returns the JSON-LD events (title, start, end, venue, address, price, url, description of up to 200
+Returns the JSON-LD events (title, start, end, venue, address, price, url, `imagen`, description of up to 200
 characters). `jsonld({descripcion: 400})` for longer descriptions.
 
 ## `turismo()`: Turismo BA ("Qué hacer esta semana" agenda)

@@ -9,7 +9,7 @@ from clasificar import sin_tildes
 # most reliable source: the venue's own website, then its Instagram and only then the aggregators (which copy,
 # summarize or change titles). Aggregators only fill in the fields the own source left empty.
 PRIORIDAD = {"sitio": 0, "instagram": 1, "agregador": 2}
-VACIOS_FUSIONABLES = ("categoria", "lugar", "barrio", "direccion", "horarios", "descripcion", "url", "fecha_fin", "hora")
+VACIOS_FUSIONABLES = ("categoria", "lugar", "barrio", "direccion", "horarios", "descripcion", "url", "fecha_fin", "hora", "imagen")
 STOP = {"el", "la", "los", "las", "de", "del", "y", "en", "a", "un", "una", "con", "al"}
 
 

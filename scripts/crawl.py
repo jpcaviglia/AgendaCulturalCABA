@@ -54,7 +54,7 @@ NEGATIVOS = ("sin_eventos", "sin_agenda", "no_cultural")
 FALLAS = ("no_carga", "dominio_caido", "bloqueado")
 FASES = {"agregador": 0, "descubrimiento": 1, "galeria": 2, "lugar": 3}
 CAMPOS_EVENTO = ("titulo", "fecha_inicio", "fecha_fin", "hora", "horarios", "lugar", "barrio", "direccion",
-                 "categoria", "precio", "url", "descripcion", "vigente_sin_fin", "post")
+                 "categoria", "precio", "url", "descripcion", "vigente_sin_fin", "post", "imagen")
 FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HORA = re.compile(r"^([01]\d|2[0-3]):[0-5]\d$")
 GRATIS = re.compile(r"\b(gratis|gratuit[oa]|entrada libre|libre y gratuit[oa]|sin cargo|free)\b", re.I)
@@ -454,6 +454,9 @@ def normalizar_evento(raw, sitio, errores, avisos):
     if e["url"] and not e["url"].startswith("http"):
         errores.append(f"{nombre}: url {e['url']!r} debe ser absoluta (https://...)")
         return None
+    if e["imagen"] and not e["imagen"].startswith("https://"):  # an http image would be blocked on the https website
+        avisos.append(f"{nombre}: imagen {e['imagen'][:60]!r} no es una URL https absoluta, se ignora")
+        e["imagen"] = ""
     return e
 
 
