@@ -364,8 +364,10 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
 - **Discovery** (Arte al Día, Gallery, Indiehoy, Time Out, Meridiano): useful to find venues and
   exhibitions that are not on the list. Load the CABA exhibitions that appear with dates, and add the new
   venues in `sitios_nuevos`.
-- **Searches** (techno and electronic parties, festivals, fairs, missing museums and galleries): they are
-  Google searches done in every run. `comportamiento.consultas` has the queries: add the month and year,
+- **Searches** (techno and electronic parties, festivals, fairs, missing museums and galleries): the four
+  `busqueda-*` entries in `sitios.json` are marked `"rastrear": false` because their sites were already
+  collected, so they are not in the queue. To run one again, set its `rastrear` back to true. They are Google
+  searches; `comportamiento.consultas` has the queries: add the month and year,
   open the first useful results, load the window's events with their `lugar`, and add in `sitios_nuevos`
   the clubs, organizers, festivals, fairs, museums and galleries that publish their own agenda, so they are
   crawled directly from then on. Before adding one, check with `crawl.py ver <name>` that it is not already
@@ -384,7 +386,8 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
 - In aggregators and discovery sources the `lugar` of each event is mandatory: the name of the venue where
   it takes place, identical to the one in `data/lugares.json` if it is there.
 - A site with `"rastrear": false` in `sitios.json` does not enter the queue. It is only marked that way if
-  the user asks (today: Paseo La Plaza, whose programming arrives through the aggregators).
+  the user asks (today: Paseo La Plaza, whose programming arrives through the aggregators, and the four
+  `busqueda-*` Google searches, whose sites were already collected).
 
 ## 5. Result format
 
