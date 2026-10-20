@@ -5,8 +5,8 @@
   "hasta": "2026-11-02"
  },
  "rastreo": {
-  "capturas": 69,
-  "con_eventos": 45
+  "capturas": 89,
+  "con_eventos": 65
  },
  "fuentes": [
   "Alternativa Teatral",
@@ -37,6 +37,17 @@
   "Eventbrite Buenos Aires",
   "FELIZA CULTURA ARCOIRIS",
   "Fundación Andreani",
+  "Fundación Klemm",
+  "Fundación Larivière",
+  "Fundación PROA",
+  "Galería Barro",
+  "Galería Jorge Mara - La Ruche",
+  "Galería Mite",
+  "Galería Piedras",
+  "Galería Vasari",
+  "Galería Zurbarán",
+  "Hache Galería",
+  "Henrique Faria Buenos Aires",
   "Indiehoy: Agenda de recitales",
   "Indiehoy: muestras de arte del mes",
   "Jodify",
@@ -45,8 +56,17 @@
   "La Mensajera ECI",
   "La Rural Ticket",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+  "MALBA",
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
+  "Museo Casa de Yrurtia",
+  "Museo Nacional de Arte Decorativo",
+  "Museo Nacional de Arte Oriental",
+  "Museo Nacional de Bellas Artes",
   "Museo Sitio de Memoria ESMA",
+  "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
+  "Museo de Arte Moderno de Buenos Aires",
+  "Museo de Arte Popular José Hernández",
+  "Museo de Artes Plásticas Eduardo Sívori",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
@@ -408,6 +428,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-Tita-Merello.jpg"
   },
   {
+   "id": "befea7b36850",
+   "titulo": "Vida interior, de Santiago García Sáenz",
+   "categoria": "Artes visuales",
+   "lugar": "Hache",
+   "barrio": "",
+   "direccion": "Loyola 32",
+   "fecha_inicio": "2026-07-07",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "Lunes a viernes de 14 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Exhibición de Santiago García Sáenz con curaduría de Francisco Lemus.",
+   "url": "https://hachegaleria.com/en/exhibicion/vida-interior/",
+   "dominio": "hachegaleria.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Hache Galería"
+   ],
+   "lat": -34.600487,
+   "lng": -58.431402,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "cdc94f10f918",
    "titulo": "Adriana Bustos. Código natal: los orígenes cósmicos del Museo",
    "categoria": "Artes visuales",
@@ -415,21 +460,22 @@
    "barrio": "Recoleta",
    "direccion": "Av. del Libertador 1473",
    "fecha_inicio": "2026-07-09",
-   "fecha_fin": "2026-11-07",
+   "fecha_fin": "2026-11-15",
    "hora": "",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "“Adriana Bustos. Código natal: los orígenes cósmicos del Museo” es una exposición temporaria e interdisciplinar de la artista argentina Adriana Bustos, inaugurada en julio de 2026 en el Museo Nacional de Bellas Artes (MN",
-   "url": "https://vidrierabuenosaires.com/eventos/adriana-bustos-codigo-natal",
-   "dominio": "vidrierabuenosaires.com",
+   "precio": "Gratis",
+   "descripcion": "Obra especialmente comisionada a la artista por el 130° aniversario del Bellas Artes. Primer piso.",
+   "url": "https://www.bellasartes.gob.ar/exhibiciones/",
+   "dominio": "bellasartes.gob.ar",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
+    "Museo Nacional de Bellas Artes",
     "Vidriera BA"
    ],
    "lat": -34.583915,
    "lng": -58.392915,
-   "embebible": true,
+   "embebible": false,
    "imagen": "https://vidriera.earth/adriana-bustos.-codigo-natal-los-origenes-cosmicos-del-museo/images.jpeg-reduced-vdtdgi"
   },
   {
@@ -983,6 +1029,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Visita-guiada-lengua-de-senas_agosto-2025.jpg"
   },
   {
+   "id": "1b90d403fb3a",
+   "titulo": "Prefiero fierro, de Luciana Lamothe",
+   "categoria": "Artes visuales",
+   "lugar": "BARRO",
+   "barrio": "La Boca",
+   "direccion": "Caboto 531",
+   "fecha_inicio": "2026-08-08",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a viernes de 12 a 18 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra de Luciana Lamothe, heredera de la fascinación por los materiales industriales y de una inclinación por la transgresión.",
+   "url": "https://barro.cc/es/muestras/1329/prefiero-fierro",
+   "dominio": "barro.cc",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Barro"
+   ],
+   "lat": -34.628822,
+   "lng": -58.359406,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "4dfe687a45ae",
    "titulo": "Umbrales y constelaciones",
    "categoria": "Artes visuales",
@@ -1210,7 +1281,7 @@
   },
   {
    "id": "682f460ea2ce",
-   "titulo": "Thomas Demand. El tartamudeo de la historia",
+   "titulo": "Thomas Demand: El tartamudeo de la historia",
    "categoria": "Artes visuales",
    "lugar": "Fundación Proa",
    "barrio": "La Boca",
@@ -1218,14 +1289,15 @@
    "fecha_inicio": "2026-08-22",
    "fecha_fin": "2026-11-30",
    "hora": "",
-   "horarios": "",
+   "horarios": "Miércoles a domingo de 12 a 19 h",
    "precio": "Consultar",
-   "descripcion": "“Thomas Demand: El tartamudeo de la historia” es la primera gran exposición retrospectiva en Argentina dedicada al destacado artista alemán Thomas Demand. Organizada junto a la Foundation for the Exhibition of Photograph",
-   "url": "https://vidrierabuenosaires.com/eventos/thomas-demand-el-tartamudeo-de-la-historia",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Por primera vez en la Argentina, retrospectiva de Thomas Demand con unas 60 obras, exhibida en el Jeu de Paume en 2023; curaduría de Douglas Fogle.",
+   "url": "https://www.proa.org/esp/exhibicion-proa-thomas-demand-el-tartamudeo-de-la-historia-presentacion.php",
+   "dominio": "proa.org",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
+    "Fundación PROA",
     "Vidriera BA"
    ],
    "lat": -34.633441,
@@ -1306,6 +1378,31 @@
    "lat": "",
    "lng": "",
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "408ed886259a",
+   "titulo": "Del boceto al bronce (centenario del Monumento a Dorrego)",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Casa de Yrurtia",
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390",
+   "fecha_inicio": "2026-08-27",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "Miércoles a viernes de 10 a 18 h; sábados y domingos de 11 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Muestra cápsula por el centenario de la inauguración del Monumento al Coronel Manuel Dorrego, con dibujos, bocetos y fotografías de la evolución de la obra.",
+   "url": "https://museoyrurtia.cultura.gob.ar/exhibicion/del-boceto-al-bronce/",
+   "dominio": "museoyrurtia.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Casa de Yrurtia",
+   "fuentes": [
+    "Museo Casa de Yrurtia"
+   ],
+   "lat": -34.55741,
+   "lng": -58.455514,
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -1560,6 +1657,31 @@
    "imagen": ""
   },
   {
+   "id": "0ff633120956",
+   "titulo": "Atmosferismo, de Alejandra Seeber",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Artes Plásticas Eduardo Sívori",
+   "barrio": "Palermo",
+   "direccion": "Av. Infanta Isabel 555",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición de Alejandra Seeber en el Museo Sívori.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/atmosferismo-alejandra-seeber",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Artes Plásticas Eduardo Sívori"
+   ],
+   "lat": -34.568917,
+   "lng": -58.41811,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "64e98fb12ee7",
    "titulo": "Atmosferismo. Alejandra Seeber",
    "categoria": "Artes visuales",
@@ -1687,6 +1809,31 @@
    "imagen": "https://vidriera.earth/santos-vega/santos-vega_www-01.png-reduced-2mvjs_"
   },
   {
+   "id": "a6aac69d6c7b",
+   "titulo": "Agustín Riganelli. La estilización del esfuerzo. Retrospectiva (Colección Sívori)",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Artes Plásticas Eduardo Sívori",
+   "barrio": "Palermo",
+   "direccion": "Av. Infanta Isabel 555",
+   "fecha_inicio": "2026-09-05",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Retrospectiva del escultor Agustín Riganelli con obras de la Colección Sívori.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/agustin-riganelli-la-estilizacion-del-esfuerzo-retrospectiva-coleccion-sivori",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Artes Plásticas Eduardo Sívori"
+   ],
+   "lat": -34.568917,
+   "lng": -58.41811,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9181f5e54f02",
    "titulo": "Agustín Riganelli. La estilización del esfuerzo. Retrospectiva. Colección Sívori",
    "categoria": "Artes visuales",
@@ -1759,6 +1906,31 @@
    "lat": -34.608197,
    "lng": -58.374434,
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "a4068a2ae0fe",
+   "titulo": "Leandro Katz. La noche y las palabras",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-09-09",
+   "fecha_fin": "2027-01-10",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Primera exposición antológica del artista argentino: instalaciones, fotografías, dibujos, grabados y películas. Primer piso.",
+   "url": "https://www.bellasartes.gob.ar/exhibiciones/",
+   "dominio": "bellasartes.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Nacional de Bellas Artes"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -1835,6 +2007,31 @@
    "lng": -58.404988,
    "embebible": true,
    "imagen": "https://vidriera.earth/xxii-salon-de-arte-textil-2026/images.jpeg-reduced-k5jaqs"
+  },
+  {
+   "id": "0c6631e41805",
+   "titulo": "XXII Salón de Arte Textil en Pequeño y Mediano Formato",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-09-10",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obras premiadas y seleccionadas de artistas que exploran el arte textil entre la tradición y la experimentación; coorganizado con la Asociación de Amigos del museo.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/xxii-salon-de-arte-textil",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Arte Popular José Hernández"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e6ecacdf12d5",
@@ -1990,27 +2187,28 @@
    "id": "361663c134b0",
    "titulo": "Viva Frida",
    "categoria": "Artes visuales",
-   "lugar": "Malba",
+   "lugar": "Malba · Nivel 2",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
    "fecha_inicio": "2026-09-18",
    "fecha_fin": "2027-03-15",
    "hora": "",
-   "horarios": "Lunes, miércoles, jueves, viernes, sábados y domingos, de 12 a 20 h. Miércoles de 11 a 20 h.",
+   "horarios": "Jueves a lunes de 12 a 20 h; miércoles de 11 a 20 h; martes cerrado",
    "precio": "Consultar",
-   "descripcion": "A diferencia de muestras centradas exclusivamente en sus óleos, esta exhibición se enfoca en la dimensión íntima y creativa de la artista a través de sus objetos personales: Indumentaria y estilo: Se exhibirán sus icóni",
-   "url": "https://vidrierabuenosaires.com/eventos/viva-frida-malba",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Exposición Viva Frida, hasta el 15 de marzo de 2027.",
+   "url": "https://malba.org.ar/evento/viva-frida/",
+   "dominio": "malba.org.ar",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
+    "MALBA",
     "Vidriera BA",
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.576882,
    "lng": -58.403392,
-   "embebible": true,
+   "embebible": false,
    "imagen": "https://vidriera.earth/Viva Frida/screenshot-2026-04-09-at-6.12.08 pm.png-reduced-c_9UWr"
   },
   {
@@ -2037,6 +2235,81 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Primavera-camara-accion_principal.jpg"
+  },
+  {
+   "id": "7ff57756466e",
+   "titulo": "Coraza Fantasma, de Josefina Labourt",
+   "categoria": "Artes visuales",
+   "lugar": "Piedras",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-19",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Miércoles a sábado",
+   "precio": "Consultar",
+   "descripcion": "Exhibición de Josefina Labourt en la galería.",
+   "url": "https://piedrasgaleria.com/exhibicion/coraza-fantasma/",
+   "dominio": "piedrasgaleria.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Piedras"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "18a2515cbe4a",
+   "titulo": "Rosa Tapisserie, de Teresa Giarcovich (Sala de Proyectos)",
+   "categoria": "Artes visuales",
+   "lugar": "Piedras",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-19",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Miércoles a sábado",
+   "precio": "Consultar",
+   "descripcion": "Exhibición de Teresa Giarcovich en la Sala de Proyectos.",
+   "url": "https://piedrasgaleria.com/exhibicion/rosa-tapisserie/",
+   "dominio": "piedrasgaleria.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Piedras"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "af1f7c9bb42c",
+   "titulo": "Goya en Buenos Aires. Tapices de las Colecciones Reales de España",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-09-22",
+   "fecha_fin": "2027-01-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Se exhiben dos piezas de gran formato diseñadas por Goya, en diálogo con la colección institucional.",
+   "url": "https://www.bellasartes.gob.ar/exhibiciones/",
+   "dominio": "bellasartes.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Nacional de Bellas Artes"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "1fe85957ed8a",
@@ -2185,6 +2458,31 @@
    ],
    "lat": -34.599689,
    "lng": -58.374353,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "665188d4b785",
+   "titulo": "Ningyō: tradición y actualidad de las muñecas japonesas",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-09-30",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición con la Fundación Japón y la Embajada del Japón sobre la cultura de las ningyō y los sentidos que estas figuras adquirieron en Japón a lo largo de los siglos.",
+   "url": "https://mnao.cultura.gob.ar/exhibicion/ningyo-tradicion-y-actualidad-de-las-munecas-japonesas/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
    "embebible": false,
    "imagen": ""
   },
@@ -3543,6 +3841,31 @@
    "imagen": "https://vidriera.earth/vidrio-liquido-geometria-multisensorial/bg3.jpeg-reduced-utwjiy"
   },
   {
+   "id": "ac86288397f4",
+   "titulo": "Wasichay, de Alejandro Puente",
+   "categoria": "Artes visuales",
+   "lugar": "Herlitzka & Co.",
+   "barrio": "Recoleta",
+   "direccion": "Guido 1725",
+   "fecha_inicio": "2026-10-07",
+   "fecha_fin": "2026-12-09",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición de Alejandro Puente en Herlitzka & Co. (antes Henrique Faria Buenos Aires).",
+   "url": "https://herlitzkafaria.com/es/exhibiciones/wasichay",
+   "dominio": "herlitzkafaria.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Henrique Faria Buenos Aires"
+   ],
+   "lat": -34.590538,
+   "lng": -58.389178,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "1df7491e67f9",
    "titulo": "8 mujeres",
    "categoria": "Teatro",
@@ -3844,6 +4167,31 @@
    "imagen": ""
   },
   {
+   "id": "fdf3cd6b18db",
+   "titulo": "PROA21 | Antonio Della Guardia: Nuevas geometrías de existencia",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-10-10",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "Miércoles a domingo de 12 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Proyecto de Antonio Della Guardia con curaduría de Benedetta Casini sobre arquitectura industrial, cuerpo y trabajo contemporáneo a partir del legado de Olivetti.",
+   "url": "https://www.proa.org/esp/exhibicion-proa-proa21-antonio-della-guardia-nuevas-geometrias-de-existencia-presentacion.php",
+   "dominio": "proa.org",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Fundación PROA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "42be4477fd02",
    "titulo": "SHAMOCK",
    "categoria": "Teatro",
@@ -3992,6 +4340,31 @@
    "lat": "",
    "lng": "",
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "4704f151a26c",
+   "titulo": "Las vueltas del lápiz, de Rómulo Macciò",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Vasari",
+   "barrio": "Retiro",
+   "direccion": "Esmeralda 1357",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "Lunes a viernes de 11 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra de dibujos de Rómulo Macciò.",
+   "url": "https://www.galeriavasari.com.ar/muestra/las-vueltas-del-lapiz/138",
+   "dominio": "galeriavasari.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Vasari"
+   ],
+   "lat": -34.592167,
+   "lng": -58.378348,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -4371,6 +4744,31 @@
    "imagen": ""
   },
   {
+   "id": "3ba196c370ad",
+   "titulo": "A propósito de nieve derretida, de Fabián Bercic",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Klemm · Sala Bonino",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 626",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Proyecto site-specific del artista Fabián Bercic en la Sala Bonino, con texto de Eva Grinstein; retoma el concepto de jardín y sus enredaderas. Permanece hasta noviembre de 2026.",
+   "url": "https://www.klemm.org.ar/Exposiciones/Actuales/A-proposito-de-nieve-derrretida.-Fabian-Bercic",
+   "dominio": "klemm.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Fundación Klemm"
+   ],
+   "lat": -34.596292,
+   "lng": -58.376498,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "d9af6e25601d",
    "titulo": "A.m.o.r. el musical",
    "categoria": "Música",
@@ -4396,6 +4794,81 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000321876.jpg"
   },
   {
+   "id": "01c1ef7ee677",
+   "titulo": "Belkis Ayón: Mito y desobediencia",
+   "categoria": "Artes visuales",
+   "lugar": "Malba · Mito y desobediencia",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2027-03-15",
+   "hora": "",
+   "horarios": "Jueves a lunes de 12 a 20 h; miércoles de 11 a 20 h; martes cerrado",
+   "precio": "Consultar",
+   "descripcion": "Muestra de la artista cubana Belkis Ayón, hasta el 15 de marzo de 2027.",
+   "url": "https://malba.org.ar/evento/belkis-ayon-mito-y-desobediencia/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "3d250112fd16",
+   "titulo": "Biblioteca de Matías Errázuriz Ortúzar",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Arte Decorativo",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición permanente en el espacio recuperado de la biblioteca del dueño de casa, bibliófilo y coleccionista.",
+   "url": "https://museoartedecorativo.cultura.gob.ar/exhibicion/biblioteca/",
+   "dominio": "museoartedecorativo.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Decorativo",
+   "fuentes": [
+    "Museo Nacional de Arte Decorativo"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "da4677671e5f",
+   "titulo": "Cal",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Lariviere · Sala 1",
+   "barrio": "La Boca",
+   "direccion": "Caboto 564",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 19 h",
+   "precio": "$ 6000",
+   "descripcion": "Exposición en la Sala 1 de la Fundación Lariviere, desde septiembre de 2026. La ficha no publica descripción ni fecha de cierre.",
+   "url": "https://www.fundacionlariviere.org/ag/novedades/254_cal2.html",
+   "dominio": "fundacionlariviere.org",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Larivière",
+   "fuentes": [
+    "Fundación Larivière"
+   ],
+   "lat": -34.628932,
+   "lng": -58.358932,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "b8b24ed78ba8",
    "titulo": "Cambio de Rol: clase y práctica de tango",
    "categoria": "Danza",
@@ -4418,6 +4891,31 @@
    "lat": -34.60204,
    "lng": -58.408331,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "75971a1b286f",
+   "titulo": "Carolina Simonelli",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Zurbarán",
+   "barrio": "Retiro",
+   "direccion": "Cerrito 1522",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a viernes de 12 a 20 h, excepto feriados",
+   "precio": "Gratis",
+   "descripcion": "Exposición de Carolina Simonelli en Zurbarán ('Hoy en Zurbarán'); la ficha no publica fechas ni texto curatorial.",
+   "url": "https://www.zurbaran.com.ar/carolina-simonelli/",
+   "dominio": "zurbaran.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Zurbarán"
+   ],
+   "lat": -34.608398,
+   "lng": -58.381966,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -4467,6 +4965,56 @@
    ],
    "lat": -34.599463,
    "lng": -58.364869,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "0c0e70d6817f",
+   "titulo": "Colección__Malba—Costantini Latinoamérica__en expansión",
+   "categoria": "Artes visuales",
+   "lugar": "Malba · Nivel 1",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves a lunes de 12 a 20 h; miércoles de 11 a 20 h; martes cerrado",
+   "precio": "Consultar",
+   "descripcion": "Exposición permanente de la Colección Malba—Costantini.",
+   "url": "https://malba.org.ar/evento/coleccion-aniversario/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "95f4184c527d",
+   "titulo": "Dan Graham. Whirligig, Molinete, 2019",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "Miércoles a domingo de 12 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Estructura circular con espejos bidireccionales que el espectador atraviesa como un laberinto.",
+   "url": "https://www.proa.org/esp/exhibicion-proa-whirligig-molinete-2019-presentacion.php",
+   "dominio": "proa.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Fundación PROA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
    "embebible": true,
    "imagen": ""
   },
@@ -4646,6 +5194,31 @@
    "imagen": ""
   },
   {
+   "id": "0bb4e3fd3843",
+   "titulo": "Fueguinos. Imaginarios visuales de las tierras australes",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Hispanoamericano Isaac Fernández Blanco (Palacio Noel)",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1422",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición de fotografías de expedicionarios, científicos y misioneros que retrataron paisajes y pueblos originarios de las tierras australes de América del Sur.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/fueguinos-imaginarios-visuales-de-las-tierras-australes",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Arte Hispanoamericano Isaac Fernández Blanco"
+   ],
+   "lat": -34.590797,
+   "lng": -58.380116,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "37796353b142",
    "titulo": "Gaviota",
    "categoria": "Teatro",
@@ -4696,6 +5269,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000321513.jpg"
   },
   {
+   "id": "01045b3b90ca",
+   "titulo": "Historias compartidas: recorridos dialogados y talleres para adultos mayores",
+   "categoria": "Visita guiada",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-23",
+   "hora": "11:30",
+   "horarios": "Lunes 19, miércoles 21, jueves 22 y viernes 23, 11:30 h",
+   "precio": "Consultar",
+   "descripcion": "Recorridos dialogados y talleres para adultos mayores.",
+   "url": "https://museomoderno.org/agenda/historias-compartidas-2/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "3df1486e4017",
    "titulo": "I love stand up - stand up show",
    "categoria": "Teatro",
@@ -4744,6 +5342,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/kneecap-en-argentina.webp"
+  },
+  {
+   "id": "9c050f8ab453",
+   "titulo": "La Odisea, o la vida como aventura metafísica",
+   "categoria": "Literatura y charlas",
+   "lugar": "Malba · Biblioteca",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de literatura en Malba.",
+   "url": "https://malba.org.ar/evento/la-odisea-o-la-vida-como-aventura-metafisica/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "f00c5d37475e",
@@ -4846,6 +5469,31 @@
    "imagen": "https://vidriera.earth/la-ultima-sesion-de-freud/images-1-.jpeg-reduced-mrgrrs"
   },
   {
+   "id": "07eddeb10d80",
+   "titulo": "Lana Negra",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Lariviere · Sala 2",
+   "barrio": "La Boca",
+   "direccion": "Caboto 564",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 19 h",
+   "precio": "$ 6000",
+   "descripcion": "Exposición en la Sala 2 de la Fundación Lariviere, desde agosto de 2026. La ficha no publica descripción ni fecha de cierre.",
+   "url": "https://www.fundacionlariviere.org/ag/novedades/116_lana-negra.html",
+   "dominio": "fundacionlariviere.org",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Larivière",
+   "fuentes": [
+    "Fundación Larivière"
+   ],
+   "lat": -34.628932,
+   "lng": -58.358932,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "42f0852e10e5",
    "titulo": "Las adoro",
    "categoria": "Teatro",
@@ -4869,6 +5517,31 @@
    "lng": -58.449505,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000311613.jpg"
+  },
+  {
+   "id": "b48d4e2275ac",
+   "titulo": "Las tres ecologías – Solaroid",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-26",
+   "hora": "11:00",
+   "horarios": "Lunes 19 y 26 de octubre, 11 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad de Las tres ecologías en el Museo Moderno.",
+   "url": "https://museomoderno.org/agenda/las-tres-ecologias-solaroid/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "22a3da80c815",
@@ -4971,6 +5644,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000312750.jpg"
   },
   {
+   "id": "0efe9935a6f0",
+   "titulo": "Micro-mediaciones por Mito y desobediencia",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Nivel -1",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-02",
+   "hora": "17:00",
+   "horarios": "19/10 17:00 h; 26/10 17:00 h; 02/11 17:00 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/micro-mediaciones-por-mito-y-desobediencia/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "4af6219af0f1",
+   "titulo": "Microrrecorridos: No todos los dragones son iguales",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorrido breve para descubrir las historias, características y símbolos asociados a los dragones.",
+   "url": "https://mnao.cultura.gob.ar/actividad/microrrecorridos-no-todos-los-dragones-son-iguales/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "cc6b48e6900a",
    "titulo": "Mira quien habla - stand up show",
    "categoria": "Teatro",
@@ -4994,6 +5717,56 @@
    "lng": -58.39588,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/000128436.jpg"
+  },
+  {
+   "id": "ad1c2bd6d876",
+   "titulo": "Miradas Trianguladas: el pasado fluyente",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Sala pedagógica",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/miradas-trianguladas-el-pasado-fluyente/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "cf498eb20081",
+   "titulo": "Monocromías (exposición colectiva)",
+   "categoria": "Artes visuales",
+   "lugar": "Jorge Mara - La Ruche",
+   "barrio": "Retiro",
+   "direccion": "Paraná 1133",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a viernes de 15 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Exposición colectiva con Carlos Arnaiz, Estrada, Sarah Grilo, Don Hunstein, Kirin, Macaparana, George Noël, César Paternosto, Fidel Sclavo, Eduardo Stupía, Hiroshi Sugimoto y Carola Zech.",
+   "url": "https://www.jorgemaralaruche.com.ar/",
+   "dominio": "jorgemaralaruche.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Jorge Mara - La Ruche"
+   ],
+   "lat": -34.608862,
+   "lng": -58.387647,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "25c82abafdc3",
@@ -5096,6 +5869,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/40/000319140.jpg"
   },
   {
+   "id": "118a0493c304",
+   "titulo": "Oriente Todo (exhibición permanente)",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición permanente sobre las producciones culturales del enorme territorio que abarca la noción de Oriente.",
+   "url": "https://mnao.cultura.gob.ar/exhibicion/oriente-todo/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "2ad3fe075504",
+   "titulo": "PROA21 | Nicolás Rodríguez: Simbiosis & sabotaje",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-12-30",
+   "hora": "",
+   "horarios": "Miércoles a domingo de 12 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Proyecto del programa de residencias sobre apropiación botánica, acción comunitaria y reparación urbana.",
+   "url": "https://www.proa.org/esp/exhibicion-proa-proa21-residencias-nicolas-rodriguez-simbiosis-sabotaje-presentacion.php",
+   "dominio": "proa.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Fundación PROA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "008096fc4cb8",
    "titulo": "Plástica escatológica",
    "categoria": "Artes visuales",
@@ -5144,6 +5967,56 @@
    "lng": -58.378773,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/raphael-gran-rex.jpg"
+  },
+  {
+   "id": "a3c99e02fcd7",
+   "titulo": "Recorridos públicos: visitas participativas en el Museo Moderno",
+   "categoria": "Visita guiada",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-25",
+   "hora": "16:00",
+   "horarios": "Lunes 19, miércoles 21 a domingo 25, 16 h",
+   "precio": "Consultar",
+   "descripcion": "Visitas participativas por las exposiciones del museo.",
+   "url": "https://museomoderno.org/agenda/recorridos-publicos-6/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "0495c39cef06",
+   "titulo": "Reserva visitable",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Visita al espacio que guarda el patrimonio no exhibido del museo.",
+   "url": "https://mnao.cultura.gob.ar/actividad/reserva-visitable-1/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "eb06ba6b1254",
@@ -5371,6 +6244,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000311651.jpg"
   },
   {
+   "id": "167ef616bb7e",
+   "titulo": "Taller de experimentación artística",
+   "categoria": "Taller",
+   "lugar": "Museo Casa de Yrurtia",
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-12-03",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Taller anual para todo público, del 6/08 al 3/12.",
+   "url": "https://museoyrurtia.cultura.gob.ar/actividad/taller-de-experimentacion-artistica-1/",
+   "dominio": "museoyrurtia.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Casa de Yrurtia",
+   "fuentes": [
+    "Museo Casa de Yrurtia"
+   ],
+   "lat": -34.55741,
+   "lng": -58.455514,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "29369e5b6aa6",
+   "titulo": "Trajetos brasileiros na arte latino-americana",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Nivel 1",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-02",
+   "hora": "16:00",
+   "horarios": "19/10 16:00 h; 26/10 16:00 h; 02/11 16:00 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/trajetos-brasileiros-na-arte-latino-americana/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9a8afdec61d5",
    "titulo": "Tres pálidas hermanas",
    "categoria": "Teatro",
@@ -5444,6 +6367,56 @@
    "lng": -58.416121,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/79/000317479.jpg"
+  },
+  {
+   "id": "081efdfeabdd",
+   "titulo": "Visitas guiadas diarias por el Palacio Errázuriz Alvear",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Nacional de Arte Decorativo",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorridos por el Palacio Errázuriz Alvear, sede del museo.",
+   "url": "https://museoartedecorativo.cultura.gob.ar/actividad/visitas-guiadas-diarias/",
+   "dominio": "museoartedecorativo.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Decorativo",
+   "fuentes": [
+    "Museo Nacional de Arte Decorativo"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "2d3947a82a18",
+   "titulo": "Visitas participativas",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Casa de Yrurtia",
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Visitas para recorrer el museo y conocer su historia.",
+   "url": "https://museoyrurtia.cultura.gob.ar/actividad/visitas-particivas/",
+   "dominio": "museoyrurtia.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Casa de Yrurtia",
+   "fuentes": [
+    "Museo Casa de Yrurtia"
+   ],
+   "lat": -34.55741,
+   "lng": -58.455514,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "f4f5bc3994f3",
@@ -5721,6 +6694,31 @@
    "lng": -58.449505,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000293753.jpg"
+  },
+  {
+   "id": "ff349498d27b",
+   "titulo": "Frida",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/frida/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "9a736b81d66d",
@@ -6122,31 +7120,6 @@
    "lng": -58.416399,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000236017.jpg"
-  },
-  {
-   "id": "f06e5e6789ac",
-   "titulo": "Susana Rodríguez. Historia íntima",
-   "categoria": "Artes visuales",
-   "lugar": "Museo Nacional de Bellas Artes",
-   "barrio": "Recoleta",
-   "direccion": "Av. del Libertador 1473",
-   "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2027-01-17",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "\"Historia íntima\" es una importante exposición artística de la destacada creadora plástica argentina Susana Rodríguez, curada por Gabriela Naso.",
-   "url": "https://vidrierabuenosaires.com/eventos/susana-rodriguez-historia-intima",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Vidriera BA"
-   ],
-   "lat": -34.583915,
-   "lng": -58.392915,
-   "embebible": true,
-   "imagen": "https://vidriera.earth/susana-rodriguez.-historia-intima/images-1-.jpeg-reduced-l6ephj"
   },
   {
    "id": "c3d33f30a1a0",
@@ -6961,6 +7934,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000320893.jpg"
   },
   {
+   "id": "8912a7c94591",
+   "titulo": "Las tres ecologías – De la observación al trazo",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "13:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de Las tres ecologías en el Museo Moderno.",
+   "url": "https://museomoderno.org/agenda/las-tres-ecologias-de-la-observacion-al-trazo/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "30be0f108bdf",
    "titulo": "Liquidación total!",
    "categoria": "Teatro",
@@ -7061,6 +8059,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/39/000306439.jpg"
   },
   {
+   "id": "08de16490da3",
+   "titulo": "Narrando el futuro: taller de escritura de crónicas, ensayos y autoficción, con Claudio Iglesias",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller de escritura a partir de las exposiciones y la colección del Museo Moderno.",
+   "url": "https://museomoderno.org/agenda/narrando-el-futuro/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "5786917be650",
    "titulo": "Open mic del stand up club",
    "categoria": "Teatro",
@@ -7086,6 +8109,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/46/000273846.jpg"
   },
   {
+   "id": "1352b8737a3b",
+   "titulo": "Poder adquisitivo, de Paula Castro",
+   "categoria": "Artes visuales",
+   "lugar": "Mite Galería",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-12-05",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición de Paula Castro con curaduría de Alejo Ponce de León.",
+   "url": "https://www.mitegaleria.com.ar/exhibiciones_ver?i=230",
+   "dominio": "mitegaleria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Galería Mite"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "210209e4bcbc",
    "titulo": "Rancheá con tu gente",
    "categoria": "Evento",
@@ -7107,6 +8155,56 @@
    ],
    "lat": -34.597839,
    "lng": -58.412882,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c04a9e9deace",
+   "titulo": "Recorridos abiertos por Viva Frida",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Nivel 2",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "21/10 17:00 h; 23/10 17:00 h; 24/10 17:00 h; 28/10 17:00 h; 30/10 17:00 h; 31/10 17:00 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/recorridos-abiertos-por-viva-frida/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "df43ec732286",
+   "titulo": "Recorridos abiertos por la Colección Malba—Costantini",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Nivel 1",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-31",
+   "hora": "16:00",
+   "horarios": "21/10 16:00 h; 24/10 16:00 h; 28/10 16:00 h; 31/10 16:00 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/recorridos-abiertos-por-la-coleccion-malba-costantini/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
    "embebible": false,
    "imagen": ""
   },
@@ -7161,6 +8259,32 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000319587.jpg"
   },
   {
+   "id": "f06e5e6789ac",
+   "titulo": "Susana Rodríguez. Historia íntima",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2027-01-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Primera exposición en el Museo de la artista argentina, con cerca de 40 grabados, dibujos y collages. Segundo piso.",
+   "url": "https://www.bellasartes.gob.ar/exhibiciones/",
+   "dominio": "bellasartes.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Nacional de Bellas Artes",
+    "Vidriera BA"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": false,
+   "imagen": "https://vidriera.earth/susana-rodriguez.-historia-intima/images-1-.jpeg-reduced-l6ephj"
+  },
+  {
    "id": "b6a5b05f19ca",
    "titulo": "Taller: Escribir masticando. Una aproximación a la escritura gastronómica, con Mercedes Cebrián",
    "categoria": "Taller",
@@ -7208,6 +8332,31 @@
    "lat": -34.60204,
    "lng": -58.408331,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "efc520553863",
+   "titulo": "Tercera Dimensión: taller de exploración artística para personas mayores",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "16:00",
+   "horarios": "Miércoles 21 y 28 de octubre, 16 h",
+   "precio": "Consultar",
+   "descripcion": "Taller de exploración artística dirigido a personas mayores.",
+   "url": "https://museomoderno.org/agenda/tercera-dimension-4/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -7284,6 +8433,31 @@
    "lng": -58.433284,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000318325.jpg"
+  },
+  {
+   "id": "6b4d117f9495",
+   "titulo": "Visita guiada por la exposición Goya en Buenos Aires",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada por los tapices de Goya.",
+   "url": "https://www.bellasartes.gob.ar/agenda/visita-goya/",
+   "dominio": "bellasartes.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Nacional de Bellas Artes"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "89526ddf106e",
@@ -7786,6 +8960,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/19/000311619.jpg"
   },
   {
+   "id": "6c7cbe6755dc",
+   "titulo": "El diablo andaba en los choclos",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/el-diablo-andaba-en-los-choclos/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "07745ea5d125",
    "titulo": "El fabricante de fantasmas",
    "categoria": "Teatro",
@@ -7834,6 +9033,31 @@
    "lng": -58.435009,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000322050.jpg"
+  },
+  {
+   "id": "0997ae6de467",
+   "titulo": "Elvira Fernández, vendedora de tienda",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/elvira-fernandez-vendedora-de-tienda/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "b26e69bc14f1",
@@ -8336,6 +9560,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/55/000320355.jpg"
   },
   {
+   "id": "017295064f50",
+   "titulo": "Las hijas del fuego",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "23:50",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/las-hijas-del-fuego/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a119bfd9ffa7",
    "titulo": "Las ruinas",
    "categoria": "Teatro",
@@ -8613,6 +9862,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/88/000322188.jpg"
   },
   {
+   "id": "fa45bb446609",
+   "titulo": "Mujeres que bailan",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/mujeres-que-bailan/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "996ebdc689d5",
    "titulo": "No Matar – de Juan Villegas",
    "categoria": "Cine",
@@ -8788,6 +10062,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/49/000316249.jpg"
   },
   {
+   "id": "6dae05dff998",
+   "titulo": "Siemprevivas",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/siemprevivas/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a494e5abcdf1",
    "titulo": "Somos de vino - Degustación de vino y tapas en Palermo Wine Club.",
    "categoria": "Gastronomía",
@@ -8938,6 +10237,56 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/image-2.webp"
   },
   {
+   "id": "e049f9ac8f27",
+   "titulo": "Trama: taller anual de experimentación artística para adultos",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "17:00",
+   "horarios": "Jueves 22 y 29 de octubre, 17 h",
+   "precio": "Consultar",
+   "descripcion": "Taller anual de experimentación artística para jóvenes y adultos.",
+   "url": "https://museomoderno.org/agenda/trama-3/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "00ff50faac7e",
+   "titulo": "Tristán y los días por venir",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/tristan-y-los-dias-por-venir/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "981abc99627c",
    "titulo": "Un cuadro blanco (versión modificada de art de yazmina reza)",
    "categoria": "Teatro",
@@ -9036,6 +10385,31 @@
    "lng": -58.416121,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000321601.jpg"
+  },
+  {
+   "id": "20038021cdce",
+   "titulo": "Vorágine",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/voragine/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "b9d1a22db366",
@@ -9461,6 +10835,31 @@
    "lng": -58.3997,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/35/000319435.jpg"
+  },
+  {
+   "id": "9d3f3cb68133",
+   "titulo": "Annemarie",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "23/10 20:00 h; 30/10 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/annemarie/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e81bb50bf4cd",
@@ -10438,6 +11837,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/39/000312239.jpg"
   },
   {
+   "id": "7c1131e42f3c",
+   "titulo": "El cañonero de giles",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/el-canonero-de-giles/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "5b5ce4b19d80",
    "titulo": "El centroforward murió al amanecer",
    "categoria": "Teatro",
@@ -10463,23 +11887,24 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000321285.jpg"
   },
   {
-   "id": "65efd368d2c3",
-   "titulo": "El cine es otra cosa 2026",
+   "id": "e7bf0e5605f4",
+   "titulo": "El cine es otra cosa 2026: ciclo de cine y video experimental",
    "categoria": "Cine",
-   "lugar": "Museo Moderno",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
    "barrio": "San Telmo",
    "direccion": "Av. San Juan 350",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Viernes y sábado, 19 h. Domingo, 18 h.",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "Vie 23 y sáb 24 a las 19 h; dom 25 a las 18 h",
    "precio": "Consultar",
-   "descripcion": "Este fin de semana, el Museo Moderno presenta su ciclo -&#34;El cine es otra cosa&#34;, que reúne obras que entienden el paisaje no como un escenario, sino como una forma de conocimiento. A lo largo d",
+   "descripcion": "Ciclo de cine y video experimental.",
    "url": "https://museomoderno.org/agenda/el-cine-es-otra-cosa-2026/",
    "dominio": "museomoderno.org",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": -34.622066,
@@ -11888,6 +13313,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/54/000319754.jpg"
   },
   {
+   "id": "a4852dbfbd7c",
+   "titulo": "Las tres ecologías – Laboratorio de futuro: Restaurar el deseo por nuestros ríos y costas",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "11:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Laboratorio de futuro de Las tres ecologías.",
+   "url": "https://museomoderno.org/agenda/las-tres-ecologias-laboratorio-de-futuro-restaurar-el-deseo-por-nuestros-rios-y-costas/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e409a6768867",
    "titulo": "Llanto",
    "categoria": "Teatro",
@@ -11911,6 +13361,31 @@
    "lng": -58.444443,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000321009.jpg"
+  },
+  {
+   "id": "16dc76239ef2",
+   "titulo": "Lo Noy",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/lo-noy/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e694cb4b8b16",
@@ -12259,6 +13734,31 @@
    ],
    "lat": -34.589664,
    "lng": -58.443479,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "e60732532ee2",
+   "titulo": "Machado",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:30",
+   "horarios": "23/10 21:30 h; 30/10 21:30 h",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/machado/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
    "embebible": false,
    "imagen": ""
   },
@@ -12812,6 +14312,31 @@
    "lng": -58.425733,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000318801.jpg"
+  },
+  {
+   "id": "c93d8d434c18",
+   "titulo": "Noches de Buenos Aires",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/noches-de-buenos-aires/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "c57b4214f666",
@@ -14318,6 +15843,31 @@
    "imagen": ""
   },
   {
+   "id": "61dc32bb1224",
+   "titulo": "¡Caigan las rosas blancas!",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/caigan-las-rosas-blancas/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "b3374429f4fb",
    "titulo": "¡basta, clara!",
    "categoria": "Teatro",
@@ -15218,6 +16768,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/28/000321328.jpg"
   },
   {
+   "id": "869f4a3614d7",
+   "titulo": "Bocetos guiados en la exposición de Adriana Bustos",
+   "categoria": "Taller",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "14:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Maratón de bocetos guiados frente a la obra de Adriana Bustos.",
+   "url": "https://www.bellasartes.gob.ar/agenda/bocetos-adriana-bustos/",
+   "dominio": "bellasartes.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Nacional de Bellas Artes"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "29c65e8f41bf",
    "titulo": "Bodas de plata",
    "categoria": "Teatro",
@@ -15318,6 +16893,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000308009.jpg"
   },
   {
+   "id": "6d3cdd3463a7",
+   "titulo": "Caleidoscopio: taller anual de arte para familias",
+   "categoria": "Infantil",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "16:00",
+   "horarios": "Sábados 24 y 31 de octubre, 16 h",
+   "precio": "Consultar",
+   "descripcion": "Taller anual de arte para familias.",
+   "url": "https://museomoderno.org/agenda/caleidoscopio-4/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "d09f7cd7a7ba",
    "titulo": "Callejero Fino",
    "categoria": "Música",
@@ -15341,6 +16941,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/Callejero-Fino-C-Art-Media.jpg"
+  },
+  {
+   "id": "21043f135e90",
+   "titulo": "Cartografías sensoriales del té: lugares, aromas y culturas de Asia",
+   "categoria": "Taller",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Experiencia cultural y sensorial que recorre territorios de Asia a través del aroma, la percepción y el té.",
+   "url": "https://mnao.cultura.gob.ar/actividad/cartografias-sensoriales-del-te-lugares-aromas-y-culturas-de-asia/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "9e5ef62ce720",
@@ -16644,6 +18269,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/26/000320926.jpg"
   },
   {
+   "id": "2b2ca87cd2f0",
+   "titulo": "El tren fluvial",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "24/10 20:00 h; 31/10 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/el-tren-fluvial/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "150274078014",
    "titulo": "El vacío de toda espera",
    "categoria": "Artes visuales",
@@ -16842,6 +18492,31 @@
    "lng": -58.372316,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/47/000318847.jpg"
+  },
+  {
+   "id": "7420d7821802",
+   "titulo": "Ensayo infinito: taller anual de experimentación artística para adolescentes",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:30",
+   "horarios": "Sábados 24 y 31 de octubre, 17:30 h",
+   "precio": "Consultar",
+   "descripcion": "Taller anual de experimentación artística para adolescentes.",
+   "url": "https://museomoderno.org/agenda/ensayo-infinito-3/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "d75df3ea7fbb",
@@ -18872,6 +20547,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/59/000322059.jpg"
   },
   {
+   "id": "414102571e01",
+   "titulo": "Los vencedores",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "22:00",
+   "horarios": "24/10 22:00 h; 31/10 22:00 h",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/los-vencedores/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "87da9a4c284a",
    "titulo": "Los vicios",
    "categoria": "Teatro",
@@ -19447,6 +21147,56 @@
    "lng": -58.388699,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/29/000266129.jpg"
+  },
+  {
+   "id": "6da51b9dd2aa",
+   "titulo": "Moderno bailable: programa de talleres intensivos",
+   "categoria": "Danza",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "11:30",
+   "horarios": "Sábados 24 y 31 de octubre, 11:30 h",
+   "precio": "Consultar",
+   "descripcion": "Programa de talleres intensivos de danza.",
+   "url": "https://museomoderno.org/agenda/moderno-bailable/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "ea0479de63e5",
+   "titulo": "Movimiento invención: Tiempo de jugar",
+   "categoria": "Infantil",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Espacio de exploración y creatividad.",
+   "url": "https://museomoderno.org/agenda/movimiento-invencion-tiempo-de-jugar/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "48e9bb8bab60",
@@ -20176,6 +21926,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/52/000313352.jpg"
   },
   {
+   "id": "5bce6ced7cf9",
+   "titulo": "Pentagrama: concierto y charla sobre música y braille",
+   "categoria": "Música",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto y charla sobre música y braille.",
+   "url": "https://museomoderno.org/agenda/pentagrama-2/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "3449c667706f",
    "titulo": "Pequeño william",
    "categoria": "Teatro",
@@ -20376,6 +22151,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/65/000320965.jpg"
   },
   {
+   "id": "5d2fcb5b047d",
+   "titulo": "Psicosis",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:50",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/psicosis/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "85a80486c7aa",
    "titulo": "Que Xou da Xuxa é esse?",
    "categoria": "Infantil",
@@ -20499,6 +22299,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/64/000321264.jpg"
+  },
+  {
+   "id": "58715ed33c66",
+   "titulo": "Recorrido en LSA por la exposición Naturaleza arquitecta",
+   "categoria": "Visita guiada",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorrido en lengua de señas argentina.",
+   "url": "https://museomoderno.org/agenda/recorrido-en-lsa-2/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "06edd50d8dbf",
@@ -20751,6 +22576,31 @@
    "lng": -58.416399,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000316675.jpg"
+  },
+  {
+   "id": "683c5fcb6365",
+   "titulo": "SPAA 2026: Seminario Permanente de Arte Argentino",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "11:30",
+   "horarios": "Sábados 24 y 31 de octubre, 11:30 h (y 7/11)",
+   "precio": "Consultar",
+   "descripcion": "Seminario permanente de arte argentino.",
+   "url": "https://museomoderno.org/agenda/spaa-2026/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "392cb6bfa847",
@@ -21251,6 +23101,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1792000978815-25tqniibz.webp"
+  },
+  {
+   "id": "b586908cc053",
+   "titulo": "Taller: De Roma a Buenos Aires: los derroteros de San Sebastián, con Ignacio Cerbino Loza",
+   "categoria": "Taller",
+   "lugar": "Hache",
+   "barrio": "",
+   "direccion": "Loyola 32",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller a cargo de Ignacio Cerbino Loza en la galería.",
+   "url": "https://hachegaleria.com/",
+   "dominio": "hachegaleria.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Hache Galería"
+   ],
+   "lat": -34.600487,
+   "lng": -58.431402,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "8bd78f513251",
@@ -22053,6 +23928,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/58/000320958.jpg"
   },
   {
+   "id": "e8a1a73bb436",
+   "titulo": "Xul",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "18:00",
+   "horarios": "24/10 18:00 h; 31/10 18:00 h",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/xul/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a8cbd3d4a072",
    "titulo": "Yo soy mi propio monstruo",
    "categoria": "Teatro",
@@ -22678,6 +24578,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000309451.jpg"
   },
   {
+   "id": "814e4ebdd3ff",
+   "titulo": "Caja de sorpresas: espacio para la primera infancia",
+   "categoria": "Infantil",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Espacio de juego para la primera infancia.",
+   "url": "https://museomoderno.org/agenda/caja-de-sorpresas/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "6cf926af3794",
    "titulo": "Camilo",
    "categoria": "Música",
@@ -22727,6 +24652,31 @@
    "lng": -58.425397,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000317068.jpg"
+  },
+  {
+   "id": "d0dc1f13ea22",
+   "titulo": "Cartografías del hacer: charla con el taller Palacio México",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo Casa de Yrurtia",
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Charla con el grupo de artistas del taller Palacio México sobre cómo se configuran los nuevos espacios de creación.",
+   "url": "https://museoyrurtia.cultura.gob.ar/actividad/cartografias-del-hacer-1/",
+   "dominio": "museoyrurtia.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Casa de Yrurtia",
+   "fuentes": [
+    "Museo Casa de Yrurtia"
+   ],
+   "lat": -34.55741,
+   "lng": -58.455514,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "914a7c92d255",
@@ -27358,6 +29308,56 @@
    "imagen": ""
   },
   {
+   "id": "bb5cef95077b",
+   "titulo": "Conciertos Extraordinarios - Instrumentos Notables",
+   "categoria": "Música",
+   "lugar": "Museo de Arte Hispanoamericano Isaac Fernández Blanco (Palacio Noel)",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1422",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "19:30",
+   "horarios": "Miércoles 28 de octubre, 19:30 h (próximo concierto el 11 al 18 de noviembre)",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de conciertos de la Asociación de Amigos del museo con instrumentos notables; abono de 3 conciertos y entrada individual.",
+   "url": "https://www.amigosdelfernandezblanco.org/curso.php?id=404",
+   "dominio": "amigosdelfernandezblanco.org",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
+   "fuentes": [
+    "Museo de Arte Hispanoamericano Isaac Fernández Blanco"
+   ],
+   "lat": -34.590797,
+   "lng": -58.380116,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "e23a84f265aa",
+   "titulo": "El agua en la naturaleza y el arte: presentación de la publicación",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Presentación de la publicación.",
+   "url": "https://museomoderno.org/agenda/el-agua-en-la-naturaleza-y-el-arte/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "b8217ff6193c",
    "titulo": "El brote",
    "categoria": "Teatro",
@@ -27406,6 +29406,31 @@
    "lng": -58.438913,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/nicetoindiehoy-2.jpg"
+  },
+  {
+   "id": "14cad53658e7",
+   "titulo": "Historias compartidas: recorrido por Bosques umbral",
+   "categoria": "Visita guiada",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorrido para adultos por la muestra Bosques umbral.",
+   "url": "https://museomoderno.org/agenda/historias-compartidas-7/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "89edf7291d11",
@@ -27609,6 +29634,31 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/rebecca-winckworth-argentina.jpg"
   },
   {
+   "id": "542e8e475e7c",
+   "titulo": "Riccardo Frolloni en Residencia",
+   "categoria": "Literatura y charlas",
+   "lugar": "Malba · Biblioteca",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de literatura en Malba.",
+   "url": "https://malba.org.ar/evento/riccardo-frolloni-en-residencia/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "cb52cb860762",
    "titulo": "Suite juárez",
    "categoria": "Teatro",
@@ -27809,6 +29859,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000321368.jpg"
   },
   {
+   "id": "ddf82e122e8c",
+   "titulo": "Cómo tú me ves",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/como-tu-me-ves/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "08c2a5e0ed8f",
+   "titulo": "Deserto Vértigo",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/deserto-vertigo/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "29817de32053",
    "titulo": "En homenaje a carlos guastavino",
    "categoria": "Teatro",
@@ -27959,6 +30059,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000312093.jpg"
   },
   {
+   "id": "42378ecfcaa9",
+   "titulo": "La rubia Mireya",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/la-rubia-mireya/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "6f4b779bf257",
    "titulo": "Mal de altura",
    "categoria": "Música",
@@ -28034,6 +30159,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000322633.jpg"
   },
   {
+   "id": "7470406d5924",
+   "titulo": "Porteña de corazón",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/portena-de-corazon/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "593fad68528e",
+   "titulo": "Retrospectiva RAM",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/retrospectiva-rafael-maino/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9a23b4982870",
    "titulo": "Sofía Campos",
    "categoria": "Música",
@@ -28082,6 +30257,31 @@
    "lng": -58.400662,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000320915.jpg"
+  },
+  {
+   "id": "86fdcf527004",
+   "titulo": "Sueño pélvico",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "23:50",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/sueno-pelvico/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "0fed2b794384",
@@ -28534,6 +30734,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/62/000320462.jpg"
   },
   {
+   "id": "27ba3a171186",
+   "titulo": "Donn: Le danseur du XXe siècle",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/donn-le-danseur-du-xxe-siecle/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9396c65bef33",
    "titulo": "El curioso caso del dr zorondo",
    "categoria": "Teatro",
@@ -28582,6 +30807,31 @@
    "lng": -58.416266,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/12/000283312.jpg"
+  },
+  {
+   "id": "9a847540dfe4",
+   "titulo": "El hincha",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/el-hincha/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "74c437c5e181",
@@ -28657,6 +30907,31 @@
    "lng": -58.417273,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000322285.jpg"
+  },
+  {
+   "id": "be2fa08b47f6",
+   "titulo": "Esquirlas de realidad: de la investigación a la literatura",
+   "categoria": "Literatura y charlas",
+   "lugar": "Malba · Biblioteca",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad de literatura en Malba.",
+   "url": "https://malba.org.ar/evento/esquirlas-de-realidad-de-la-investigacion-a-la-literatura/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "d9bc02ba327e",
@@ -29211,6 +31486,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/66/000304466.jpg"
   },
   {
+   "id": "00cbb6edfbf1",
+   "titulo": "La modelo y la estrella",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/la-modelo-y-la-estrella/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "e56fb9c3e1a4",
    "titulo": "La vida es fútbol",
    "categoria": "Teatro",
@@ -29359,6 +31659,31 @@
    "lng": -58.424045,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000320925.jpg"
+  },
+  {
+   "id": "0f04c5ec29dc",
+   "titulo": "M.E.S.A. — Primavera",
+   "categoria": "Visita guiada",
+   "lugar": "Malba · Sala pedagógica",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Actividad educativa de Malba.",
+   "url": "https://malba.org.ar/evento/m-e-s-a-primavera/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "f659e816badd",
@@ -29586,6 +31911,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/64/000322364.jpg"
   },
   {
+   "id": "a91df2d85f40",
+   "titulo": "Recordá esto, una película de Matías Capelli",
+   "categoria": "Cine",
+   "lugar": "Museo Casa de Yrurtia",
+   "barrio": "Belgrano",
+   "direccion": "O'Higgins 2390",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Proyección de la película Recordá esto, de Matías Capelli.",
+   "url": "https://museoyrurtia.cultura.gob.ar/actividad/recorda-esto/",
+   "dominio": "museoyrurtia.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Casa de Yrurtia",
+   "fuentes": [
+    "Museo Casa de Yrurtia"
+   ],
+   "lat": -34.55741,
+   "lng": -58.455514,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a5e7287a254b",
    "titulo": "Ricci´s | Mark & Math | Masant b2b Sam Levy | Beli",
    "categoria": "Fiestas y electrónica",
@@ -29609,6 +31959,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1791991254568.webp"
+  },
+  {
+   "id": "799aaf3cadc9",
+   "titulo": "Ruge",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/ruge/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "ceb974c04bb9",
@@ -31339,6 +33714,31 @@
    "imagen": "https://www.espaciomemoria.ar/wp-content/uploads/2026/10/Mov-de-un-monumento.jpg"
   },
   {
+   "id": "8909924e56fa",
+   "titulo": "Muñecas para armar: taller de origami",
+   "categoria": "Taller",
+   "lugar": "Museo Nacional de Arte Oriental",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1902",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller para conocer las shiori ningyō, muñecas japonesas de papel, y explorar su creación con origami.",
+   "url": "https://mnao.cultura.gob.ar/actividad/munecas-para-armar-taller-de-origami/",
+   "dominio": "mnao.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de Arte Oriental",
+   "fuentes": [
+    "Museo Nacional de Arte Oriental"
+   ],
+   "lat": -34.582611,
+   "lng": -58.401076,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "41b3526a16a8",
    "titulo": "No voy sola",
    "categoria": "Música",
@@ -31385,6 +33785,31 @@
    ],
    "lat": "",
    "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "97fd5f8fec18",
+   "titulo": "Noche de brujas",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:50",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/noche-de-brujas/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
    "embebible": false,
    "imagen": ""
   },
@@ -31940,6 +34365,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/14/000309414.jpg"
   },
   {
+   "id": "571fb06fa76f",
+   "titulo": "Una arqueología de la atención: las ballenas y la iluminación artificial, taller con José Luis Espejo",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Moderno de Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "16:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller a cargo de José Luis Espejo.",
+   "url": "https://museomoderno.org/agenda/una-arqueologia-de-la-atencion/",
+   "dominio": "museomoderno.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Moderno de Buenos Aires"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "9fefed114695",
    "titulo": "Una obra más real que la del mundo",
    "categoria": "Teatro",
@@ -32190,6 +34640,31 @@
    "lng": -58.438913,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/akapellah.jpg"
+  },
+  {
+   "id": "e24dabfe9628",
+   "titulo": "Art, Chaos, Riot",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/art-chaos-riot/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "3e9f8ffa03d2",
@@ -32741,6 +35216,31 @@
    "lng": -58.449904,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/92/000322392.jpg"
+  },
+  {
+   "id": "0bfb3c5435d0",
+   "titulo": "Gente de la ruta",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/gente-de-la-ruta/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "61d87d59e5eb",
@@ -33516,6 +36016,31 @@
    "lng": -58.441562,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000322510.jpg"
+  },
+  {
+   "id": "1319480f59aa",
+   "titulo": "Soy ella",
+   "categoria": "Cine",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Función en el Auditorio de Malba.",
+   "url": "https://malba.org.ar/evento/soy-ella/",
+   "dominio": "malba.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MALBA"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "0a72ebb8058a",

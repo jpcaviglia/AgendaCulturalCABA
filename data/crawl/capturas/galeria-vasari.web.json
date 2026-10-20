@@ -1,0 +1,32 @@
+{
+ "id": "galeria-vasari",
+ "canal": "web",
+ "fuente": "Galería Vasari",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://galeriavasari.com.ar/",
+  "https://galeriavasari.com.ar/muestra_actual",
+  "https://www.galeriavasari.com.ar/muestra/las-vueltas-del-lapiz/138"
+ ],
+ "eventos": [
+  {
+   "titulo": "Las vueltas del lápiz, de Rómulo Macciò",
+   "fecha_inicio": "2026-10-15",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "Lunes a viernes de 11 a 19 h",
+   "lugar": "Galería Vasari",
+   "barrio": "Retiro",
+   "direccion": "Esmeralda 1357",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://www.galeriavasari.com.ar/muestra/las-vueltas-del-lapiz/138",
+   "descripcion": "Muestra de dibujos de Rómulo Macciò.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

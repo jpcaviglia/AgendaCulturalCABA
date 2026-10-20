@@ -1,0 +1,47 @@
+{
+ "id": "hache-galeria",
+ "canal": "web",
+ "fuente": "Hache Galería",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://hachegaleria.com/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Vida interior, de Santiago García Sáenz",
+   "fecha_inicio": "2026-07-07",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "Lunes a viernes de 14 a 19 h",
+   "lugar": "Hache",
+   "barrio": "",
+   "direccion": "Loyola 32",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://hachegaleria.com/en/exhibicion/vida-interior/",
+   "descripcion": "Exhibición de Santiago García Sáenz con curaduría de Francisco Lemus.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Taller: De Roma a Buenos Aires: los derroteros de San Sebastián, con Ignacio Cerbino Loza",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "Hache",
+   "barrio": "",
+   "direccion": "Loyola 32",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://hachegaleria.com/",
+   "descripcion": "Taller a cargo de Ignacio Cerbino Loza en la galería.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

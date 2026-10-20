@@ -941,18 +941,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 3
+     "eventos": 4,
+     "paginas": 6
     }
    },
    "comportamiento": {
     "fechas": "Proa publica el cierre solo como mes ('Noviembre, 2026'); se carga como vigente con el mes en horarios.",
-    "mirar": "MIRAR son audioguías y radio, no eventos."
+    "mirar": "MIRAR son audioguías y radio, no eventos.",
+    "extraccion": "/exhibiciones-proa-actuales.php se lee por HTTP con sondear.py --leer: título, enlace y 'Mes, año - Mes, año'"
    },
    "notas": [
-    "2026-10-15 [web] Tres muestras actuales; Futuras vacía."
+    "2026-10-15 [web] Tres muestras actuales; Futuras vacía.",
+    "2026-10-19 [web] 2026-10-19: 4 exhibiciones actuales; fechas de cierre aproximadas al mes (Demand 'Noviembre', Della Guardia 'Octubre-Noviembre') y precio sin leer. Zulberti figura en Vidriera hasta el 30/10 pero no en Proa."
    ],
    "historial": [
     {
@@ -960,6 +962,32 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.proa.org/esp/exhibiciones-proa-futuras.php",
+     "texto": "Futuras",
+     "motivo": "muestras que empiezan después de la ventana",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.proa.org/esp/exhibiciones-proa-pasadas.php",
+     "texto": "Pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.proa.org/esp/educacion.php",
+     "texto": "Educación",
+     "motivo": "actividades educativas y visitas para escuelas",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -979,18 +1007,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 26,
-     "paginas": 2
+     "eventos": 6,
+     "paginas": 5
     }
    },
    "comportamiento": {
-    "agenda": "La agenda muestra 15 días (día por día) con 'Categoría | Título | Días. Del ... al ..., a las HH h'; filtrar 'Horario de visita'.",
-    "exhibiciones": "/exhibiciones/ trae 'Del ... al ...' y sala."
+    "agenda": "La agenda muestra 15 días con 'Categoría | Título | Días. Del ... al ..., a las HH h'; /exhibiciones/ trae 'Del ... al ...' y piso",
+    "exhibiciones": "/exhibiciones/ trae 'Del ... al ...' y sala.",
+    "extraccion": "se leen por HTTP con sondear.py --leer",
+    "sin_fichas": "las exhibiciones comparten el listado /exhibiciones/ (no hay ficha por muestra con fecha útil)"
    },
    "notas": [
-    "2026-10-15 [web] 28 actividades y exposiciones; entrada gratuita."
+    "2026-10-15 [web] 28 actividades y exposiciones; entrada gratuita.",
+    "2026-10-19 [web] 2026-10-19: 4 exposiciones vigentes o por abrir (Goya, Katz, Bustos, Rodríguez) y dos actividades; entrada gratuita según la política del museo."
    ],
    "historial": [
     {
@@ -998,6 +1029,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 26
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.bellasartes.gob.ar/paginas/encuentro-cine-europeo-2026/",
+     "texto": "Cine",
+     "motivo": "ciclo de cine ya listado por el Centro Cultural Recoleta y sin fechas por función en la nota",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1017,18 +1062,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 22,
-     "paginas": 2
+     "eventos": 20,
+     "paginas": 22
     }
    },
    "comportamiento": {
-    "ver_mas": "La agenda tiene botón 'Cargar más' (2 clics para ver todo octubre).",
-    "exposiciones": "/exposiciones/ (Presentes) no publica fechas de cierre; incluye muestras fuera del museo (Venecia, Parque de la Memoria): cargar solo las del edificio."
+    "ver_mas": "La agenda tiene botón 'Cargar más' (2 clics para ver todo el período); sin él por HTTP solo llegan los primeros 10",
+    "exposiciones": "/exposiciones/ no publica fechas de cierre; incluye muestras fuera del museo (Venecia, Parque de la Memoria): cargar solo las del edificio",
+    "extraccion": "el texto de la agenda trae 'Fechas: Día D de Mes HH:MM h' por actividad; las URLs de las fichas se tomaron de los enlaces"
    },
    "notas": [
-    "2026-10-15 [web] Av. San Juan 350. 15 actividades y 7 exposiciones."
+    "2026-10-15 [web] Av. San Juan 350. 15 actividades y 7 exposiciones.",
+    "2026-10-19 [web] 2026-10-19: 19 actividades de la agenda (talleres, recorridos, cine y música); las muestras del edificio (Habitando el futuro, Océano interior) llegan por Vidriera BA. 'Diseñar futuros deseables' es virtual y no se cargó."
    ],
    "historial": [
     {
@@ -1036,6 +1083,26 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 22
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 20
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 20
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://museomoderno.org/educacion/",
+     "texto": "Educación",
+     "motivo": "programas educativos ya incluidos en la agenda",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1051,7 +1118,7 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 3
@@ -1061,17 +1128,25 @@
     "2026-10-14 [revisión anterior: caido] El sitio no carga (error de conexión/certificado).",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.galeriavasari.com a https://galeriavasari.com.ar/",
-    "2026-10-15 [web] Esmeralda 1357. Blues infinitos (Alfredo Prior) cerró el 8/10."
+    "2026-10-15 [web] Esmeralda 1357. Blues infinitos (Alfredo Prior) cerró el 8/10.",
+    "2026-10-19 [web] 2026-10-19: Las vueltas del lápiz (15/10 al 27/11); Blues infinitos cerró el 8/10."
    ],
    "entradas": [
+    "https://galeriavasari.com.ar/muestra_actual",
     "https://galeriavasari.com.ar/"
    ],
    "comportamiento": {
-    "web": "https://www.galeriavasari.com muestra página de error; la web actual es galeriavasari.com.ar (http://galeriavasari.com redirige)."
+    "web": "https://www.galeriavasari.com muestra error; la web actual es galeriavasari.com.ar"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -1089,22 +1164,27 @@
    "instagram": "",
    "origen": "data/galerias.json",
    "entradas": [
+    "https://www.zurbaran.com.ar/",
     "https://www.zurbaran.com.ar/programacion-2026/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 1
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Próxima: colectiva por los 50 años de Zurbarán desde el 12 de noviembre."
+    "2026-10-15 [web] Próxima: colectiva por los 50 años de Zurbarán desde el 12 de noviembre.",
+    "2026-10-19 [web] 2026-10-19: Carolina Simonelli en Cerrito 1522 (sin fechas publicadas); Ricardo Celma es en Santa Fe y no se cargó."
    ],
    "comportamiento": {
-    "estructura": "Calendario anual con estados 'Finalizado / Ahora / Próximo' y día de inauguración; no publica cierre."
+    "estructura": "Calendario anual con estados 'Finalizado / Ahora / Próximo' y día de inauguración; no publica cierre.",
+    "espera_seg": 6,
+    "extraccion": "la portada tiene 'Hoy en Zurbarán' (Cerrito 1522) y 'Hoy en Zurbarán Santa Fe' (descartar: no es CABA); la ficha trae horario sin fechas",
+    "sin_fichas": "las fichas no publican fechas de la exposición"
    },
    "historial": [
     {
@@ -1112,6 +1192,32 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.zurbaran.com.ar/tienda-de-arte/",
+     "texto": "Tienda",
+     "motivo": "es la tienda",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.zurbaran.com.ar/category/mercado-de-arte/",
+     "texto": "Mercado de arte",
+     "motivo": "notas de opinión sobre el mercado",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.zurbaran.com.ar/category/nuestros-artistas/",
+     "texto": "Nuestros artistas",
+     "motivo": "directorio de artistas",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1130,18 +1236,19 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Muestra vigente: Luciana Lamothe desde el 8/8 (sin fecha de cierre publicada)."
+    "2026-10-15 [web] Muestra vigente: Luciana Lamothe desde el 8/8 (sin fecha de cierre publicada).",
+    "2026-10-19 [web] 2026-10-19: vigente Prefiero fierro (desde el 8/8, sin cierre publicado; la anterior duró del 30/05 al 8/8)."
    ],
    "comportamiento": {
-    "fichas": "Las muestras solo traen fecha de inauguración (08.08.2026); la primera de /muestras es la vigente. La siguiente anterior fue del 30.05 (las muestras duran ~2 meses y medio)."
+    "fichas": "Las muestras solo traen fecha de inauguración (08.08.2026); la primera de /muestras es la vigente. Duran ~2 meses y medio."
    },
    "historial": [
     {
@@ -1149,6 +1256,32 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://barro.cc/es/camara",
+     "texto": "Cámara",
+     "motivo": "proyectos de videoarte online",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://barro.cc/es/ferias",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://barro.cc/es/acciones",
+     "texto": "Acciones",
+     "motivo": "proyectos fuera de la galería, sin agenda",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1203,21 +1336,24 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Lista de exhibiciones con enlaces a cada muestra (exhibiciones_ver)",
-    "2026-10-15 [web] Poder adquisitivo (Ariel Mora) cerró el 3/10; Paula Castro abre el 21/10."
+    "2026-10-15 [web] Poder adquisitivo (Ariel Mora) cerró el 3/10; Paula Castro abre el 21/10.",
+    "2026-10-19 [web] 2026-10-19: Paula Castro (21/10 al 5/12). Sin dirección ni horarios en la ficha (la completa armar_agenda)."
    ],
    "entradas": [
     "https://www.mitegaleria.com.ar/exhibiciones"
    ],
    "comportamiento": {
-    "fichas": "exhibiciones_ver?i=N: la de mayor N es la más reciente; fechas solo en la ficha."
+    "fichas": "exhibiciones_ver?i=N: la de mayor N es la más reciente; fechas solo en la ficha.",
+    "espera_seg": 6,
+    "extraccion": "/exhibiciones lista 2026 con 'Artista | TÍTULO'; la primera es la más reciente y su ficha (exhibiciones_ver?i=N) trae curador y fechas"
    },
    "historial": [
     {
@@ -1225,6 +1361,26 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.mitegaleria.com.ar/ferias",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.mitegaleria.com.ar/artistas",
+     "texto": "Artistas",
+     "motivo": "directorio de artistas",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1244,18 +1400,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Exposiciones 2012/2026 en esa página",
-    "2026-10-15 [web] Paraná 1133. La entrada correcta es la portada, no /exposiciones/."
+    "2026-10-15 [web] Paraná 1133. La entrada correcta es la portada, no /exposiciones/.",
+    "2026-10-19 [web] 2026-10-19: Monocromías en cartel, sin fechas publicadas."
    ],
    "comportamiento": {
-    "estructura": "La exposición actual está en la portada (sin fechas); /exposiciones/ es el archivo de anteriores."
+    "estructura": "La exposición actual está en la portada (sin fechas); /exposiciones/ es el archivo de anteriores.",
+    "sin_fichas": "la portada no enlaza una página por exposición"
    },
    "historial": [
     {
@@ -1263,6 +1421,26 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.jorgemaralaruche.com.ar/exposiciones/",
+     "texto": "Exposiciones 2012/2026",
+     "motivo": "archivo de exposiciones anteriores",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.jorgemaralaruche.com.ar/participacion-en-ferias-de-arte/",
+     "texto": "Ferias de Arte",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1350,10 +1528,10 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 1
+     "paginas": 3
     }
    },
    "entradas": [
@@ -1363,7 +1541,8 @@
     "estructura": "La portada lista 'Exhibición actual' con fechas y 'Próxima feria' (ferias en el exterior y arteBA: no son en la galería)."
    },
    "notas": [
-    "2026-10-15 [web] Dos muestras actuales hasta el 14/11."
+    "2026-10-15 [web] Dos muestras actuales hasta el 14/11.",
+    "2026-10-19 [web] 2026-10-19: dos muestras hasta el 14/11. 'Temperatura ambiente' figura en el menú sin fechas leídas. Sin dirección en el texto (la completa armar_agenda)."
    ],
    "historial": [
     {
@@ -1371,6 +1550,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://piedrasgaleria.com/feria/",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior y arteBA",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1464,19 +1657,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 38,
-     "paginas": 16
+     "eventos": 44,
+     "paginas": 17
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] También https://malba.org.ar/exposiciones-actuales/",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
-    "2026-10-15 [web] 38 actividades (cine, recorridos, literatura y 3 exposiciones). Belkis Ayón sigue en la agenda hasta el 28/10."
+    "2026-10-15 [web] 38 actividades (cine, recorridos, literatura y 3 exposiciones). Belkis Ayón sigue en la agenda hasta el 28/10.",
+    "2026-10-19 [web] 2026-10-19: 15 días de agenda leídos por HTTP (ciclo de cine, recorridos, literatura, exposiciones). Sin precios (no están en el listado)."
    ],
    "comportamiento": {
-    "extraccion": "Agenda por día en /agenda/on/AAAA/MM/DD/ (Elementor). Leer con fetch los 15 días y tomar los bloques 'HH:MM Categoría Título Sala' con enlace /evento/.",
+    "extraccion": "La agenda por día /agenda/on/AAAA/MM/DD/ se lee por HTTP con sondear.pedir (15 días): cada bloque es 'HH:MM Categoría' + enlace /evento/<slug> + título + sala; descartar categoría 'Amigos' y 'Museo cerrado'",
     "api": "wp-json/tribe responde 401",
     "descartar": "categoría 'Amigos' (solo socios)"
    },
@@ -1486,6 +1680,32 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 38
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 44
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.malba.org.ar/cursos/",
+     "texto": "Cursos",
+     "motivo": "cursos pagos con inscripción, ya incluidos en /agenda cuando tienen fecha",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.malba.org.ar/amigos/",
+     "texto": "Amigos",
+     "motivo": "actividades solo para socios",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.malba.org.ar/eventos/sobre/virtual/",
+     "texto": "Virtual",
+     "motivo": "actividades virtuales",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1500,24 +1720,27 @@
    "instagram": "@fundacion_klemm",
    "origen": "data/galerias.json",
    "entradas": [
+    "https://www.klemm.org.ar/Exposiciones/Actuales",
     "https://www.klemm.org.ar/Exposiciones/Actuales/",
     "https://www.klemm.org.ar/Exposiciones"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 3
+     "eventos": 1,
+     "paginas": 5
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Cada muestra en /Exposiciones/Actuales/...",
     "2026-10-15 [web] Dos muestras actuales sin fechas publicadas.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionklemm"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionklemm",
+    "2026-10-19 [web] 2026-10-19: Fabián Bercic en la Sala Bonino hasta noviembre; el 29º Premio Klemm 2026 abre en noviembre (sin día)."
    ],
    "comportamiento": {
-    "fichas": "Las fichas de 'Actuales' no traen fechas."
+    "fichas": "Las fichas de 'Actuales' no traen fechas.",
+    "extraccion": "/Exposiciones/Actuales y la ficha se leen por HTTP con sondear.py --leer; la ficha dice 'permanecerá hasta noviembre de 2026'"
    },
    "historial": [
     {
@@ -1525,9 +1748,35 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
-   "enlace_bio": "https://linktr.ee/fundacionklemm"
+   "enlace_bio": "https://linktr.ee/fundacionklemm",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.klemm.org.ar/Exposiciones/Pasadas",
+     "texto": "Exposiciones Pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.klemm.org.ar/Premio-Klemm",
+     "texto": "Premio Klemm",
+     "motivo": "el 29º Premio Klemm 2026 es en noviembre sin día publicado",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.klemm.org.ar/Aprendizaje",
+     "texto": "Aprendizaje",
+     "motivo": "programas educativos sin fechas",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "id": "centro-cultural-recoleta",
@@ -16096,21 +16345,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museoartedecorativo.cultura.gob.ar/",
     "2026-10-15 [web] Exhibiciones: solo permanentes (Biblioteca, Baño pompeyano, salones del palacio).",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodecorativo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodecorativo",
+    "2026-10-19 [web] 2026-10-19: solo hay visitas guiadas diarias y exhibiciones permanentes (salones del Palacio); sin actividades con fecha en la ventana (las últimas son de 2025). Sin horarios ni precio leídos."
    ],
    "id": "museo-nacional-de-arte-decorativo",
    "entradas": [
-    "https://museoartedecorativo.cultura.gob.ar/actividades/"
+    "https://museoartedecorativo.cultura.gob.ar/actividades/",
+    "https://museoartedecorativo.cultura.gob.ar/exhibiciones/"
    ],
    "comportamiento": {
-    "actividades": "Las tarjetas dicen 'hasta el None' cuando no tienen cierre; varias son de 2025."
+    "actividades": "Las tarjetas dicen 'hasta el None' cuando no tienen cierre; varias son de 2025.",
+    "plataforma": "Museos del Ministerio de Cultura: /actividades/ y /exhibiciones/ se leen por HTTP"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "eventos": 2,
+     "paginas": 5
     }
    },
    "historial": [
@@ -16119,6 +16371,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Palermo",
@@ -16180,21 +16438,23 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.amigosdelfernandezblanco.org/eventos.php",
     "2026-10-15 [web] Suipacha 1422, Retiro.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museofernandezblanco"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museofernandezblanco",
+    "2026-10-19 [web] 2026-10-19: un concierto el 28/10 y la muestra Fueguinos (sin fechas publicadas en la nota). Las visitas para Jóvenes Amigos son solo para socios y no se cargaron."
    ],
    "id": "museo-de-arte-hispanoamericano-isaac-fernandez-blanco",
    "entradas": [
     "https://www.amigosdelfernandezblanco.org/eventos.php"
    ],
    "comportamiento": {
-    "web": "La agenda la publica la Asociación de Amigos (amigosdelfernandezblanco.org/eventos.php); la página de la Ciudad es histórica."
+    "web": "La agenda la publica la Asociación de Amigos (amigosdelfernandezblanco.org/eventos.php); la página de la Ciudad es histórica.",
+    "extraccion": "/eventos.php (Asociación de Amigos) lista conciertos y visitas con 'FINALIZADO'; muchas visitas son exclusivas para socios jóvenes; las muestras del museo se anuncian en buenosaires.gob.ar (link del Linktree)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "eventos": 2,
+     "paginas": 4
     }
    },
    "historial": [
@@ -16203,11 +16463,31 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Retiro",
    "direccion": "Suipacha 1422",
-   "enlace_bio": "https://linktr.ee/museofernandezblanco"
+   "enlace_bio": "https://linktr.ee/museofernandezblanco",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.amigosdelfernandezblanco.org/cursos.php",
+     "texto": "Cursos y Talleres",
+     "motivo": "cursos pagos de la Asociación de Amigos, sin fechas de la ventana en el listado",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.amigosdelfernandezblanco.org/podcasts.php",
+     "texto": "Podcasts y Videos",
+     "motivo": "contenido grabado",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo de Artes Plásticas Eduardo Sívori",
@@ -16222,21 +16502,23 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori",
     "2026-10-15 [web] Dos exposiciones actuales hasta el 22/11. En octubre hay subasta a beneficio del museo (notas de prensa).",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museo_sivori"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museo_sivori",
+    "2026-10-19 [web] 2026-10-19: dos exposiciones actuales hasta el 22/11; sin horarios ni precio leídos."
    ],
    "id": "museo-de-artes-plasticas-eduardo-sivori",
    "entradas": [
     "https://buenosaires.gob.ar/gcaba_historico/museosivori/exposiciones-en-el-museo-sivori"
    ],
    "comportamiento": {
-    "web": "La página de la Ciudad (gcaba_historico) está al día con exposiciones actuales y pasadas."
+    "web": "La página de la Ciudad (gcaba_historico) está al día con exposiciones actuales y pasadas.",
+    "extraccion": "La página 'Exposiciones actuales' se lee por HTTP con sondear.py --leer: título y 'Desde el ... hasta el ...'"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "historial": [
@@ -16245,11 +16527,25 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Palermo",
    "direccion": "Av. Infanta Isabel 555",
-   "enlace_bio": "https://linktr.ee/museo_sivori"
+   "enlace_bio": "https://linktr.ee/museo_sivori",
+   "enlaces_descartados": [
+    {
+     "url": "https://buenosaires.gob.ar/exposiciones-pasadas-0",
+     "texto": "Exposiciones pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo de Arte Popular José Hernández",
@@ -16264,21 +16560,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez",
     "2026-10-15 [web] Muestra del Salón de Arte Textil hasta el 25/10.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeartepopularmap"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeartepopularmap",
+    "2026-10-19 [web] 2026-10-19: XXII Salón de Arte Textil hasta el 25/10; 'Rituales cotidianos' (María Laura Pini) sin fechas en su ficha, no cargada. La fototeca del MAP terminó en marzo."
    ],
    "id": "museo-de-arte-popular-jose-hernandez",
    "entradas": [
+    "https://buenosaires.gob.ar/gcaba_historico/exposiciones-2026-del-map",
     "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museojosehernandez"
    ],
    "comportamiento": {
-    "actividades": "La página de actividades remite a redes; no publica grilla."
+    "actividades": "La página de actividades remite a redes; no publica grilla.",
+    "extraccion": "/exposiciones-2026-del-map lista las muestras del año; la fecha está en cada ficha"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 4
+     "paginas": 2
     }
    },
    "historial": [
@@ -16287,11 +16586,25 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Palermo",
    "direccion": "Av. del Libertador 2373",
-   "enlace_bio": "https://linktr.ee/museodeartepopularmap"
+   "enlace_bio": "https://linktr.ee/museodeartepopularmap",
+   "enlaces_descartados": [
+    {
+     "url": "https://buenosaires.gob.ar/exhibiciones-pasadas",
+     "texto": "Exhibiciones pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo Xul Solar",
@@ -16389,21 +16702,24 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://mnao.cultura.gob.ar/",
-    "2026-10-15 [web] Viamonte 525."
+    "2026-10-15 [web] Viamonte 525.",
+    "2026-10-19 [web] 2026-10-19: muestra Ningyō (hasta el 22/11), Oriente Todo permanente, visitas y dos talleres; la biblioteca Okaeri y otras actividades sin fecha no se cargaron. Sin horarios ni precio leídos."
    ],
    "id": "museo-nacional-de-arte-oriental",
    "entradas": [
+    "https://mnao.cultura.gob.ar/actividades/",
     "https://mnao.cultura.gob.ar/exhibiciones/"
    ],
    "comportamiento": {
-    "estructura": "Exhibiciones con 'Desde el ... hasta el ...'."
+    "estructura": "Exhibiciones con 'Desde el ... hasta el ...'.",
+    "plataforma": "Museos del Ministerio de Cultura: /actividades/ y /exhibiciones/ se leen por HTTP"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 3
+     "eventos": 6,
+     "paginas": 9
     }
    },
    "historial": [
@@ -16412,6 +16728,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "barrio": "San Nicolás",
@@ -16514,21 +16836,26 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museoyrurtia.cultura.gob.ar/",
     "2026-10-15 [web] O'Higgins 2390, Belgrano; entrada gratuita.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoyrurtia"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoyrurtia",
+    "2026-10-19 [web] 2026-10-19: muestra Del boceto al bronce y 4 actividades (taller anual, visitas participativas, charla 25/10, película 30/10); las horas de las actividades no figuran en el listado."
    ],
    "id": "museo-casa-de-yrurtia",
    "entradas": [
+    "https://museoyrurtia.cultura.gob.ar/actividades/",
+    "https://museoyrurtia.cultura.gob.ar/exhibiciones/",
     "https://museoyrurtia.cultura.gob.ar/"
    ],
    "comportamiento": {
-    "estructura": "La portada trae la exhibición temporaria con fechas y las próximas actividades."
+    "estructura": "La portada trae la exhibición temporaria con fechas y las próximas actividades.",
+    "plataforma": "Museos del Ministerio de Cultura (/actividades/ y /exhibiciones/ se leen por HTTP con sondear.py --leer)",
+    "horarios": "Miércoles a viernes 10 a 18 h; sábados y domingos 11 a 19 h; lunes y martes cerrado"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 2
+     "eventos": 5,
+     "paginas": 4
     }
    },
    "historial": [
@@ -16537,11 +16864,31 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "barrio": "Belgrano",
    "direccion": "O'Higgins 2390",
-   "enlace_bio": "https://linktr.ee/museoyrurtia"
+   "enlace_bio": "https://linktr.ee/museoyrurtia",
+   "enlaces_descartados": [
+    {
+     "url": "https://museoyrurtia.cultura.gob.ar/ver-noticias/",
+     "texto": "Noticias",
+     "motivo": "notas sobre actividades ya listadas en /actividades/",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://museoyrurtia.cultura.gob.ar/info/accesibilidad/",
+     "texto": "Accesibilidad",
+     "motivo": "información de accesibilidad",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "MARQ Museo de Arquitectura y Diseño",
@@ -16656,21 +17003,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://herlitzkafaria.com/",
     "2026-10-15 [web] La galería funciona como Herlitzka & Co.; web herlitzkafaria.com.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/herlitzka.co"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/herlitzka.co",
+    "2026-10-19 [web] 2026-10-19: Wasichay (7/10 al 9/12) en Guido 1725; Futuras vacía."
    ],
    "id": "henrique-faria-buenos-aires",
    "entradas": [
     "https://herlitzkafaria.com/es/exhibiciones/actuales"
    ],
    "comportamiento": {
-    "nombre": "Henrique Faria Buenos Aires ahora es Herlitzka & Co. (herlitzkafaria.com)."
+    "nombre": "Henrique Faria Buenos Aires ahora es Herlitzka & Co. (herlitzkafaria.com).",
+    "certificado": "el navegador da 'Privacy error' en https://herlitzkafaria.com; sondear.py --leer lo lee sin problemas",
+    "extraccion": "/es/exhibiciones/actuales y /futuras se leen por HTTP; la actual trae 'Artista Título d mes año - d mes año'"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 5
     }
    },
    "historial": [
@@ -16679,9 +17029,35 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
-   "enlace_bio": "https://linktr.ee/herlitzka.co"
+   "enlace_bio": "https://linktr.ee/herlitzka.co",
+   "enlaces_descartados": [
+    {
+     "url": "https://herlitzkafaria.com/es/exhibiciones/pasadas",
+     "texto": "Pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://herlitzkafaria.com/es/ferias",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://herlitzkafaria.com/es/novedades",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Pasto Galería",
@@ -16735,7 +17111,8 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://hachegaleria.com/",
-    "2026-10-15 [web] Web hachegaleria.com. La muestra de Leticia Obeid en Palacio Libertad (Tita Merello) queda para el sitio de Palacio Libertad."
+    "2026-10-15 [web] Web hachegaleria.com. La muestra de Leticia Obeid en Palacio Libertad (Tita Merello) queda para el sitio de Palacio Libertad.",
+    "2026-10-19 [web] 2026-10-19: Vida interior (hasta el 27/11) y un taller el 24/10; Lucía Reissig en Espacio 1876 (Buenos Aires Herald Art Gallery, hasta feb 2027) sin dirección no cargada; Tita Merello queda para Palacio Libertad."
    ],
    "id": "hache-galeria",
    "entradas": [
@@ -16746,10 +17123,10 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 2
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "historial": [
@@ -16758,6 +17135,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15"
@@ -17016,23 +17399,25 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.fundacionlariviere.org/",
-    "2026-10-15 [web] Caboto 564, La Boca. Jueves a domingos de 12 a 19; contribución general $6.000."
+    "2026-10-15 [web] Caboto 564, La Boca. Jueves a domingos de 12 a 19; contribución general $6.000.",
+    "2026-10-19 [web] 2026-10-19: 2 muestras presentes (Lana Negra y Cal); 'Futuras' vacía; la agenda solo tenía el cierre de Marcos López (3/10) y un concurso de fotografía."
    ],
    "id": "fundacion-lariviere",
    "entradas": [
-    "https://www.fundacionlariviere.org/novedades/category/5_presentes.html",
-    "https://www.fundacionlariviere.org/novedades/category/22_agenda.html"
+    "https://www.fundacionlariviere.org/ag/novedades/category/5_presentes.html",
+    "https://www.fundacionlariviere.org/novedades/category/22_agenda.html",
+    "https://www.fundacionlariviere.org/novedades/category/5_presentes.html"
    ],
    "comportamiento": {
-    "idioma": "Abre en inglés (/en/); las categorías son 'presentes', 'futuras', 'agenda'.",
-    "fichas": "Las fichas no publican fecha de cierre."
+    "idioma": "Abre en inglés (/en/); las categorías son 'presentes', 'futuras', 'agenda'",
+    "fichas": "Las fichas no publican fecha de cierre y por HTTP llegan vacías; el listado 'Presentes' trae título, mes y sala"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 6
+     "paginas": 3
     }
    },
    "historial": [
@@ -17041,11 +17426,31 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "La Boca",
    "direccion": "Caboto 564",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.fundacionlariviere.org/ag/novedades/category/4_pasadas.html",
+     "texto": "Pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.fundacionlariviere.org/2-inicio",
+     "texto": "Librería",
+     "motivo": "es la tienda",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo Evita",
