@@ -17159,11 +17159,12 @@
     "fichas": "cada ficha /pelicula/86/<id> muestra días 15/10 a 21/10 como pestañas; las funciones están por día",
     "extraccion": "portada lista las películas; la ficha da el rango de días",
     "cartelera": "la ficha de cada película tiene pestañas por día (solo los días con función): leer cada pestaña; un zoom a la región [300,600,958,900] muestra las funciones sin JS",
-    "espera_seg": 4
+    "espera_seg": 4,
+    "imagen": "el API https://apiv2.gaf.adro.studio/movie/86/<id> (el id va en la URL de la ficha) devuelve poster (imagen), descripcion, Duracion y showtimes: se lee con sondear.pedir sin navegador"
    },
    "notas": [
     "2026-10-15 [web] Cartelera semanal; se cargó el rango de días visible en la ficha (15 a 21/10) sin horarios por función.",
-    "2026-10-20 [web] 2026-10-20: 11 películas; cada ficha tiene un selector de días con sus funciones (clic en la pestaña del día). Siete abren el 20/21-10 y cuatro empiezan el 23, 24 o 25/10. Sin precio publicado en la ficha."
+    "2026-10-20 [web] 2026-10-20: imágenes y sinopsis agregadas desde el API de la ficha (apiv2.gaf.adro.studio/movie/86/<id>)."
    ],
    "ultimo": {
     "web": {
@@ -17176,6 +17177,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11

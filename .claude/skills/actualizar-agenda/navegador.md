@@ -233,6 +233,9 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   (the `idComplejo` shows in `performance.getEntriesByType('resource')`). `data.datos` are the films and
   `data.funciones` the showtimes (`codPelicula`, `hora`, `subtitulada`, `formato`). It is slow: run the loop over the days in
   an async IIFE that sets `window.__done` and poll it (a direct `await` of 14 days times out at 45 s). It has no prices.
+- **Cinemas on GAF** (cineartecacodelphia.com.ar, a SPA that `fetch` cannot read): `https://apiv2.gaf.adro.studio/movie/<cine>/<id>` (both come from the
+  film page URL `/pelicula/<cine>/<id>`) is JSON with `poster` (the picture), `descripcion`, `Duracion` and `showtimes`; read it with `sondear.pedir`,
+  no browser needed. Check `imagen` is filled in before saving any cinema.
 - **Passline `/sitio/<id>`**: the shows are in the text (title, date, hour) but the links to each show are
   `<a href="https://www.passline.com/sitio-evento/<slug>">`: read them from the `<a>` tags, then `fetch` each one for the lowest `$`.
 - **Monthly agenda as a PDF** (Embajada del Japón: `AgendaCultural.html` redirects to `/files/<n>.pdf`): `get_page_text` finds no text;
