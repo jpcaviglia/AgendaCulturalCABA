@@ -420,8 +420,11 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
 - In aggregators and discovery sources the `lugar` of each event is mandatory: the name of the venue where
   it takes place, identical to the one in `data/lugares.json` if it is there.
 - A site with `"rastrear": false` in `sitios.json` does not enter the queue. It is only marked that way if
-  the user asks (today: Paseo La Plaza, whose programming arrives through the aggregators, and the four
-  `busqueda-*` Google searches, whose sites were already collected).
+  the user asks (today: Paseo La Plaza, whose programming arrives through the aggregators, the four
+  `busqueda-*` Google searches, whose sites were already collected, and the theatres whose programming is
+  published on Alternativa Teatral, which is crawled as an aggregator: Teatro del Pueblo, Cervantes, Picadero,
+  Timbre 4, UPB, Caras y Caretas, Fray Mocho, Cultura Faro, Eureka, IMPA, El Deseo and El Método Kairos). A theatre
+  found later whose notes say its programming is on Alternativa Teatral is not added to the queue either.
 
 ## 5. Result format
 

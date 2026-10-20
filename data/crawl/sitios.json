@@ -3460,7 +3460,8 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web propia; cartelera en Alternativa Teatral (ya rastreada) e Instagram @centroculturalimpa."
+    "2026-10-15 [web] Sin web propia; cartelera en Alternativa Teatral (ya rastreada) e Instagram @centroculturalimpa.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {},
    "historial": [
@@ -3471,7 +3472,8 @@
      "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "jungla-habitat-cultural",
@@ -4196,7 +4198,8 @@
    "direccion": "Saavedra 569",
    "enlace_bio": "https://panel.alternativateatral.com/espacio4779-",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (Alternativa Teatral: cartelera del espacio))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (Alternativa Teatral: cartelera del espacio))",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {
     "bio": "Teatro independiente en Saavedra 569"
@@ -4216,7 +4219,8 @@
      "estado": "con_eventos",
      "eventos": 1
     }
-   ]
+   ],
+   "rastrear": false
   },
   {
    "id": "centro-cultural-ricardo-rojas",
@@ -8886,7 +8890,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio carga en blanco.",
-    "2026-10-15 [web] La web oficial no muestra contenido; según Alternativa Teatral, 'Animal o la salida humana' se da los sábados 20 h del 10/10 al 24/10/2026 en Venezuela 330. Reintentar la web en la próxima corrida."
+    "2026-10-15 [web] La web oficial no muestra contenido; según Alternativa Teatral, 'Animal o la salida humana' se da los sábados 20 h del 10/10 al 24/10/2026 en Venezuela 330. Reintentar la web en la próxima corrida.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {},
    "historial": [
@@ -8897,7 +8902,8 @@
      "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "centro-cultural-y-de-capacitacion-prof-dr-ramon-carrillo",
@@ -9649,7 +9655,8 @@
    },
    "notas": [
     "2026-10-15 [sondeo sin navegador] Sin fechas en el HTML; buscar agenda o inicios de talleres en el navegador o Instagram.",
-    "2026-10-15 [web] Auditorio UPB en Núñez. 'Chau señor miedo' y 'Las que traman la trama' no tenían funciones listadas en AT al 15/10; 'Lo que el olvido no puede' arranca el 15/11."
+    "2026-10-15 [web] Auditorio UPB en Núñez. 'Chau señor miedo' y 'Las que traman la trama' no tenían funciones listadas en AT al 15/10; 'Lo que el olvido no puede' arranca el 15/11.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "entradas": [
     "http://www.alternativateatral.com/espacio375-auditorio-upb-universidad-popular-de-belgrano"
@@ -9681,7 +9688,8 @@
      "estado": "con_eventos",
      "eventos": 2
     }
-   ]
+   ],
+   "rastrear": false
   },
   {
    "id": "alquimia-espacio-cultural",
@@ -10646,7 +10654,8 @@
    "notas": [
     "2026-10-14: web corregida (antes http://www.centroenjambre.com.ar/)",
     "2026-10-14 [revisión anterior: sin_agenda] enjambre.cc sin agenda; usar @eureka.cultural",
-    "2026-10-15 [web] La web guardada es de otra organización; Eureka (Av. Corrientes 4269) no tiene web propia encontrada, su cartelera aparece en Alternativa Teatral."
+    "2026-10-15 [web] La web guardada es de otra organización; Eureka (Av. Corrientes 4269) no tiene web propia encontrada, su cartelera aparece en Alternativa Teatral.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {},
    "historial": [
@@ -10657,7 +10666,8 @@
      "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "espacio-cultural-juan-rodo",
@@ -13671,7 +13681,8 @@
    "notas": [
     "2026-10-14: Confirmar: puede ser Centro Cultural El Faro",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web; su cartelera aparece en Alternativa Teatral (ya rastreada) y en Facebook."
+    "2026-10-15 [web] Sin web; su cartelera aparece en Alternativa Teatral (ya rastreada) y en Facebook.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {},
    "historial": [
@@ -13682,7 +13693,8 @@
      "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "el-cultural-san-martin",
@@ -14933,7 +14945,8 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Blog eliminado.",
-    "2026-10-15 [web] El blog fue eliminado; su cartelera se publica en Alternativa Teatral (ya rastreada como agregador)."
+    "2026-10-15 [web] El blog fue eliminado; su cartelera se publica en Alternativa Teatral (ya rastreada como agregador).",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "comportamiento": {},
    "historial": [
@@ -14943,7 +14956,8 @@
      "estado": "dominio_caido",
      "eventos": 0
     }
-   ]
+   ],
+   "rastrear": false
   },
   {
    "id": "chimera",
@@ -21557,7 +21571,8 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11)."
+    "2026-10-15 [web] Cada ficha de obra trae días, hora, estreno y última función en HTML simple. El ciclo de música no tiene conciertos entre el 15 y el 29/10 (próximo: 18/11).",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "entradas": [
     "https://www.teatrocervantes.gob.ar/en-el-teatro/"
@@ -21613,7 +21628,8 @@
      "estado": "con_eventos",
      "eventos": 4
     }
-   ]
+   ],
+   "rastrear": false
   },
   {
    "id": "paseo-la-plaza",
@@ -21654,7 +21670,8 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios."
+    "2026-10-15 [web] La programación del mes completo está en /programacion/?filtro=mes, en HTML simple; una obra por evento con sus funciones en horarios.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "entradas": [
     "https://www.teatropicadero.com.ar/programacion/?filtro=mes"
@@ -21693,7 +21710,8 @@
      "eventos": 15
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "timbre-4",
@@ -21708,7 +21726,8 @@
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
     "2026-10-15 [web] Las fechas exactas salen de las páginas por día /teatro/funciones-AAAAMMDD.html (HTML simple); una obra por evento con sus funciones. La Escuela (/escuela/) solo ofrece preinscripción a los talleres anuales 2027, sin fechas en la ventana.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/teatrotimbre4"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/teatrotimbre4",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "entradas": [
     "https://www.timbre4.com/teatro/funciones-20261015.html"
@@ -21759,7 +21778,8 @@
      "eventos": 18
     }
    ],
-   "enlace_bio": "https://linktr.ee/teatrotimbre4"
+   "enlace_bio": "https://linktr.ee/teatrotimbre4",
+   "rastrear": false
   },
   {
    "id": "teatro-del-pueblo",
@@ -21773,7 +21793,8 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó. Cursos: solo un taller de montaje que empezó el 13/08 (fuera de la ventana); la página de talleres de dramaturgia no lista ninguno."
+    "2026-10-15 [web] Las fichas traen día de la semana y hora; 'Soy Dicky del Solar' dice 'Lunes 20 hs, última función' sin fecha y no se cargó. Cursos: solo un taller de montaje que empezó el 13/08 (fuera de la ventana); la página de talleres de dramaturgia no lista ninguno.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "entradas": [
     "https://teatrodelpueblo.com.ar/"
@@ -21813,7 +21834,8 @@
      "eventos": 17
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "rastrear": false
   },
   {
    "id": "itaca-complejo-teatral",
@@ -21869,7 +21891,8 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala con mucha programación en Alternativa Teatral; no estaba en la lista",
-    "2026-10-18 [instagram] Sin eventos propios visibles al 18/10."
+    "2026-10-18 [instagram] Sin eventos propios visibles al 18/10.",
+    "2026-10-20: rastrear=false por pedido del usuario: su cartelera se publica en Alternativa Teatral, que ya se recorre como agregador"
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {},
@@ -21888,7 +21911,8 @@
      "estado": "sin_eventos",
      "eventos": 0
     }
-   ]
+   ],
+   "rastrear": false
   },
   {
    "id": "niceto-club",
