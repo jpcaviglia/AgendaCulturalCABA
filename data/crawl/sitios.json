@@ -1795,15 +1795,18 @@
    "notas": [
     "2026-10-14: Sin sitio propio; plataforma de 16 galerías en Florida 971. Ver también gallery.com.ar",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
-    "2026-10-18 [instagram] Bio: linktr.ee/centralaffair sin abrir."
+    "2026-10-18 [instagram] Bio: linktr.ee/centralaffair sin abrir.",
+    "2026-10-20 [instagram] 2026-10-20: feria del 28/10 al 1/11, entrada libre y gratuita."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Perfil con la feria AFFAIR #4 en la bio"
+    "bio": "Perfil con la feria AFFAIR #4 en la bio",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -1812,6 +1815,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -2718,17 +2727,20 @@
    "direccion": "Medrano Av. 627",
    "enlace_bio": "https://maps.app.goo.gl/Mkk5ELZbce19vVRKA",
    "comportamiento": {
-    "bio": "Espacio LGBTIQNB+ con programación semanal en Instagram"
+    "bio": "Espacio LGBTIQNB+ con programación semanal en Instagram",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Fiesta post-Marcha del 7/11 queda fuera de la ventana."
+    "2026-10-18 [instagram] Fiesta post-Marcha del 7/11 queda fuera de la ventana.",
+    "2026-10-20 [instagram] 2026-10-20: agenda del fin de semana en un solo post; la fiesta FulbiRancheo del 23/10 (23:59) tiene entradas agotadas y no se cargó. Dirección no leída."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "eventos": 4,
+     "paginas": 2
     }
    },
    "historial": [
@@ -2737,6 +2749,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ]
   },
@@ -3093,14 +3111,17 @@
    "direccion": "Salguero, Jeronimo 668",
    "enlace_bio": "https://linktr.ee/cclimonero",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cclimonero"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cclimonero",
+    "2026-10-20 [instagram] 2026-10-20: una fiesta el 24/10; los lunes hay olla popular solidaria."
    ],
    "comportamiento": {
-    "bio": "Posts con fiestas y shows"
+    "bio": "Posts con fiestas y shows",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -3109,6 +3130,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -5556,16 +5583,19 @@
    "direccion": "California 1672",
    "enlace_bio": "https://malevamag.com/aca-puede-pasar-de-todo-asi-es-barrakesch",
    "comportamiento": {
-    "bio": "Posts de inauguraciones con fecha"
+    "bio": "Posts de inauguraciones con fecha",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Abre mié a vie 14 a 19 h y sáb 12 a 17 h."
+    "2026-10-18 [instagram] Abre mié a vie 14 a 19 h y sáb 12 a 17 h.",
+    "2026-10-20 [instagram] 2026-10-20: doble inauguración el 27/10 a las 19 h; sin fecha de cierre publicada; dirección no leída."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
+     "eventos": 2,
      "paginas": 3
     }
    },
@@ -5575,6 +5605,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -5899,23 +5935,25 @@
    "direccion": "Suarez 1301",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "comportamiento": {
     "agenda": "la portada (default.aspx) es la agenda: notas con fecha (varieté, cine y tango, charlas)",
     "cursos": "/cursos.aspx = clases semanales todo el año (yoga, tango, dibujo, danza jazz, tejido) desde marzo; no se cargan como eventos",
-    "pdf": "los cronogramas de la agenda a veces son PDF con imagen"
+    "pdf": "los cronogramas de la agenda a veces son PDF con imagen",
+    "contenido": "institucional, sin agenda"
    },
    "entradas": [
     "https://sociedadluz.org.ar/default.aspx"
    ],
    "notas": [
     "2026-10-15 [sondeo sin navegador] El 15/10 la última actividad publicada era el 11/10; revisar en el navegador o Instagram si hay nuevas.",
-    "2026-10-15 [web] Agenda de la portada sin actividades posteriores al 11/10; revisar Instagram @sociedadluz. Av. Suárez 1301, Barracas."
+    "2026-10-15 [web] Agenda de la portada sin actividades posteriores al 11/10; revisar Instagram @sociedadluz. Av. Suárez 1301, Barracas.",
+    "2026-10-20 [web] 2026-10-20: sin agenda."
    ],
    "bio_probada": "2026-10-15",
    "historial": [
@@ -5923,6 +5961,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -5942,14 +5986,17 @@
    "enlace_bio": "https://linktr.ee/baseculturalugarte",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/baseculturalugarte",
-    "2026-10-18 [instagram] Instagram sin agenda futura publicada al 18/10."
+    "2026-10-18 [instagram] Instagram sin agenda futura publicada al 18/10.",
+    "2026-10-20 [instagram] 2026-10-20: sin fechas próximas anunciadas."
    ],
    "comportamiento": {
-    "bio": "Linktree solo formularios"
+    "bio": "Linktree solo formularios",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -5958,6 +6005,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -6194,17 +6247,20 @@
    "enlace_bio": "https://linktr.ee/titamerellocc",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/titamerellocc",
-    "2026-10-18 [instagram] Quedaron sin abrir los highlights EVENTOS/TALLERES de la cuenta."
+    "2026-10-18 [instagram] Quedaron sin abrir los highlights EVENTOS/TALLERES de la cuenta.",
+    "2026-10-20 [instagram] 2026-10-20: una jam el 31/10 anunciada por la cuenta del ciclo; los martes hay olla solidaria de 17 a 20 h."
    ],
    "comportamiento": {
-    "bio": "Linktree solo colaboraciones; el bio dice 'Agenda abierta 2026' con highlights EVENTOS y TALLERES sin abrir"
+    "bio": "Linktree solo colaboraciones; el bio dice 'Agenda abierta 2026' con highlights EVENTOS y TALLERES sin abrir",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 3
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -6213,6 +6269,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -7584,17 +7646,20 @@
    "direccion": "Caldas 380",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Multiespacio en Caldas 380, Chacarita; talleres y laboratorios"
+    "bio": "Multiespacio en Caldas 380, Chacarita; talleres y laboratorios",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Además hay un taller de teatro y monólogos los miércoles de 19 a 21:30 h sin fecha de inicio."
+    "2026-10-18 [instagram] Además hay un taller de teatro y monólogos los miércoles de 19 a 21:30 h sin fecha de inicio.",
+    "2026-10-20 [instagram] 2026-10-20: talleres mensuales sin fecha; sin eventos."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "historial": [
@@ -7603,6 +7668,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ]
   },
@@ -7988,23 +8059,31 @@
    "direccion": "Lacroze, Federico Av. 4181",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "comportamiento": {
     "web": "la web cargada es la de la Mutual Sentimiento (mutualsentimiento.org.ar): no tiene agenda de Sexto Cultural",
-    "buscar": "buscar Instagram o web propia de Sexto Cultural (Chacarita)"
+    "buscar": "buscar Instagram o web propia de Sexto Cultural (Chacarita)",
+    "contenido": "mutual con mercado, radio y educación; sin agenda"
    },
    "notas": [
     "2026-10-15 [sondeo sin navegador] La web es de la Mutual Sentimiento y no publica la agenda del espacio; hace falta otra fuente.",
-    "2026-10-15 [web] La web es la de la Mutual Sentimiento y no publica la agenda; usar Instagram @sexto_cultural."
+    "2026-10-15 [web] La web es la de la Mutual Sentimiento y no publica la agenda; usar Instagram @sexto_cultural.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -8723,19 +8802,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Escuela de música con clases; sin eventos públicos fechados. Muestras anuales: revisar Instagram @escuelademusicayartestempo hacia fin de año."
+    "2026-10-15 [web] Escuela de música con clases; sin eventos públicos fechados. Muestras anuales: revisar Instagram @escuelademusicayartestempo hacia fin de año.",
+    "2026-10-20 [web] 2026-10-20: solo oferta de clases."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "sitio institucional de escuela de música; las muestras de fin de año se ven en YouTube; sin agenda"
+    "extraccion": "sitio institucional de escuela de música; las muestras de fin de año se ven en YouTube; sin agenda",
+    "contenido": "escuela con clases regulares"
    },
    "enlaces_descartados": [
     {
@@ -8773,11 +8854,23 @@
      "texto": "Tienda de instrumentos",
      "motivo": "tienda",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://escuelademusicatempo.com/comedia-musical.html",
+     "texto": "Nuevas actividades",
+     "motivo": "clases regulares de la escuela, sin fechas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -9410,20 +9503,30 @@
    "direccion": "Montiel 1041",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Posts con encuentros de talleres"
+    "bio": "Posts con encuentros de talleres",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
-   "notas": [],
+   "notas": [
+    "2026-10-20 [instagram] 2026-10-20: un encuentro en la ventana (22/10 18:30); el resto son grillas de talleres regulares. Precio: centro cultural barrial de entrada gratuita (no figura en el post)."
+   ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -9976,19 +10079,20 @@
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
     "agenda": "/agenda es un calendario Wix con un evento por día; cada ficha /event-details/<slug> dice si es virtual",
     "virtuales": "los Feminarios suelen ser virtuales y no se cargan",
-    "extraccion": "/agenda es un calendario Wix con un evento por día; la ficha /event-details/<slug> dice 'evento virtual' o la sede"
+    "extraccion": "sitio de Wix; la agenda dice 'No hay eventos en este momento'"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-15 [sondeo sin navegador] El 15/10 el único evento de la ventana era un Feminario virtual (19/10); revisar si hay presenciales.",
-    "2026-10-15 [web] Tucumán 359, piso 9. En la ventana solo hay un Feminario virtual (19/10)."
+    "2026-10-15 [web] Tucumán 359, piso 9. En la ventana solo hay un Feminario virtual (19/10).",
+    "2026-10-20 [web] 2026-10-20: agenda vacía; revisar el Instagram de tanto en tanto."
    ],
    "bio_probada": "2026-10-15",
    "enlaces_descartados": [
@@ -10008,6 +10112,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -10813,17 +10923,20 @@
    "direccion": "Nicaragua 4441",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Posts recientes con presentaciones y talleres"
+    "bio": "Posts recientes con presentaciones y talleres",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Además publica talleres de dibujo y pintura sin fechas."
+    "2026-10-18 [instagram] Además publica talleres de dibujo y pintura sin fechas.",
+    "2026-10-20 [instagram] 2026-10-20: solo talleres; sin agenda."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "historial": [
@@ -10832,6 +10945,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
+     "eventos": 0
     }
    ]
   },
@@ -10882,15 +11001,18 @@
    "barrio": "Palermo",
    "direccion": "Gorriti 5740",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-20 [instagram] 2026-10-20: el encuentro del 29/10 es el único dentro de la ventana (el del 15/10 ya pasó)."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Los posts propios son pocos; el Programa Cultural en Barrios publica en @gops.ba"
+    "bio": "Los posts propios son pocos; el Programa Cultural en Barrios publica en @gops.ba",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -10899,6 +11021,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -11174,12 +11302,16 @@
    "direccion": "Tagle 2772",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Exposiciones de la Embajada de Chile"
+    "bio": "Exposiciones de la Embajada de Chile",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
-   "notas": [],
+   "notas": [
+    "2026-10-20 [instagram] 2026-10-20: una muestra vigente hasta el 24/10."
+   ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -11188,6 +11320,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -12537,17 +12675,20 @@
    "enlace_bio": "https://linktr.ee/ccvictorjara",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccvictorjara",
-    "2026-10-18 [instagram] Sin agenda propia en la grilla al 18/10."
+    "2026-10-18 [instagram] Sin agenda propia en la grilla al 18/10.",
+    "2026-10-20 [instagram] 2026-10-20: un festival el 30/10 (hora no leída); el 17/10 hubo el tributo Sólidos Bólidos."
    ],
    "comportamiento": {
-    "bio": "Grilla mezclada con posts de terceros; olla popular lunes 20 h (solidaria)"
+    "bio": "Grilla mezclada con posts de terceros; olla popular lunes 20 h (solidaria)",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 1
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -12556,6 +12697,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -15278,17 +15425,20 @@
    "direccion": "Brasil 444",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Reels sin texto con fechas; highlights de actividades"
+    "bio": "Reels sin texto con fechas; highlights de actividades",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Sin fechas concretas; tiene Linktree linktr.ee/ccpepanoia sin leer."
+    "2026-10-18 [instagram] Sin fechas concretas; tiene Linktree linktr.ee/ccpepanoia sin leer.",
+    "2026-10-20 [instagram] 2026-10-20: sin agenda vigente."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "historial": [
@@ -15296,6 +15446,12 @@
      "fecha": "2026-10-18",
      "canal": "instagram",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -15401,23 +15557,32 @@
    "barrio": "San Telmo",
    "direccion": "San Juan Av. 353",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-20 [instagram] 2026-10-20: un encuentro en la ventana (23/10, en la Librería La Libre); 'Pinceladas de tango | San Telmo' ya pasó."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Publica también las novedades del PCB junto a @gops.ba"
+    "bio": "Publica también las novedades del PCB junto a @gops.ba",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
@@ -16181,22 +16346,31 @@
    "enlace_bio": "https://bit.ly/musicleta",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (agenda semanal))",
-    "2026-10-18 [instagram] El post del 18/10 cubre martes 20 a sábado 24."
+    "2026-10-18 [instagram] El post del 18/10 cubre martes 20 a sábado 24.",
+    "2026-10-20 [instagram] 2026-10-20: agenda semanal en un post (20 al 24/10, 2-4 bandas por noche); los DJ karaoke de madrugada no se cargaron. Dirección no leída."
    ],
    "comportamiento": {
-    "bio": "Publica la agenda semanal de música en vivo todas las noches"
+    "bio": "Publica la agenda semanal de música en vivo todas las noches",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 16,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 16
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 16
@@ -18467,10 +18641,13 @@
    "direccion": "Artigas, Jose Gervasio, Gral. 5701",
    "enlace_bio": "https://linktr.ee/BarriadaCultural",
    "comportamiento": {
-    "bio": "Linktree solo con formularios de inscripción a talleres"
+    "bio": "Linktree solo con formularios de inscripción a talleres",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-18 [instagram] Instagram con pocas novedades; milonga mensual (próxima en noviembre)."
+    "2026-10-18 [instagram] Instagram con pocas novedades; milonga mensual (próxima en noviembre).",
+    "2026-10-20 [instagram] 2026-10-20: sin anuncios con fecha para la ventana; la milonga Una Emoción vuelve en noviembre."
    ],
    "enlaces_descartados": [
     {
@@ -18482,15 +18659,21 @@
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0

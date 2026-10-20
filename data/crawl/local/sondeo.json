@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-20 15:50",
+ "fecha": "2026-10-20 15:58",
  "segundos": 9,
  "sitios": [
   {
@@ -4819,26 +4819,6 @@
    "estado_corrida_anterior": "sin_eventos"
   },
   {
-   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
-   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "plataforma": [],
-   "pedidos": 5,
-   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "paginas_agenda": [
-    "https://saleplan.ar/publicar-evento",
-    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
-    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=arte-y-exposiciones",
-    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 44,
-   "texto_portada": 9815,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
-   "fecha": "2026-10-20 15:50",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "puerta-18",
    "web": "https://www.puerta18.org.ar/",
    "plataforma": [
@@ -4855,6 +4835,46 @@
    "estado_corrida_anterior": "no_cultural"
   },
   {
+   "id": "rincon-casa-cultural",
+   "web": "http://rinconcasacultural.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:50",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "savia-espacio-cultural",
+   "web": "http://www.saviacultural.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:50",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
+   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "plataforma": [],
+   "pedidos": 5,
+   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "paginas_agenda": [
+    "https://saleplan.ar/publicar-evento",
+    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
+    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=arte-y-exposiciones",
+    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 44,
+   "texto_portada": 9815,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
+   "fecha": "2026-10-20 15:58",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
    "id": "sociedad-luz",
    "web": "https://sociedadluz.org.ar/",
    "plataforma": [],
@@ -4869,7 +4889,7 @@
    "texto_portada": 87743,
    "clase": "html",
    "texto": "data/crawl/local/textos/sociedad-luz.txt",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -4886,7 +4906,7 @@
    "texto_portada": 2105,
    "clase": "html",
    "texto": "data/crawl/local/textos/sexto-cultural.txt",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -4906,7 +4926,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 3966,
    "clase": "needs_browser",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_agenda"
   },
   {
@@ -4924,7 +4944,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 2215,
    "clase": "needs_browser",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_eventos"
   },
   {
@@ -4938,18 +4958,8 @@
    "fechas_en_texto": 0,
    "texto_portada": 42,
    "clase": "needs_browser",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "rincon-casa-cultural",
-   "web": "http://rinconcasacultural.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:50",
-   "estado_corrida_anterior": "dominio_caido"
   },
   {
    "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
@@ -4967,18 +4977,8 @@
    "texto_portada": 2499,
    "clase": "html",
    "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "savia-espacio-cultural",
-   "web": "http://www.saviacultural.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:50",
-   "estado_corrida_anterior": "dominio_caido"
   },
   {
    "id": "wara-wara",
@@ -4987,7 +4987,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-20 15:50",
+   "fecha": "2026-10-20 15:58",
    "estado_corrida_anterior": "sin_agenda"
   }
  ]

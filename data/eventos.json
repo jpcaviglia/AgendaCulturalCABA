@@ -5,8 +5,8 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 387,
-  "con_eventos": 210
+  "capturas": 407,
+  "con_eventos": 221
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -17,6 +17,8 @@
   "Alternativa Teatral",
   "Arte al Día: agenda",
   "Arte x Arte",
+  "BARRAKESH ESPACIO CULTURAL",
+  "BATACAZO CULTURAL",
   "BOLIVAR 852",
   "BRITISH ART CENTRE",
   "Buenos Aires Secreta: planes del fin de semana",
@@ -24,11 +26,14 @@
   "C Complejo Art Media",
   "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
   "CASA BRANDON",
+  "CASA CULTURAL \"TITA MERELLO\"",
+  "CASA CULTURAL VICTOR JARA",
   "CASA DE LA CULTURA",
   "CASA DE LA PROVINCIA DE BUENOS AIRES",
   "CASONA CULTURAL HUMAHUACA",
   "CENTRO CULTURAL 25 DE MAYO",
   "CENTRO CULTURAL ADAN BUENOS AIRES",
+  "CENTRO CULTURAL ANIBAL TROILO",
   "CENTRO CULTURAL ANTONIO TALERICO",
   "CENTRO CULTURAL ARMOZA",
   "CENTRO CULTURAL ARTES DE PARQUE CHACABUCO",
@@ -41,7 +46,11 @@
   "CENTRO CULTURAL DEL BAJO FLORES",
   "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
   "CENTRO CULTURAL ELADIA BLAZQUEZ",
+  "CENTRO CULTURAL ELÍAS CASTELNUOVO",
+  "CENTRO CULTURAL FORTUNATO LACAMERA",
   "CENTRO CULTURAL MACEDONIA",
+  "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE",
+  "CENTRO CULTURAL MUSICLETA",
   "CENTRO CULTURAL NUESTRA TIERRA",
   "CENTRO CULTURAL PACO URONDO",
   "CENTRO CULTURAL POETA ROBERTO SANTORO",
@@ -51,6 +60,7 @@
   "CENTRO CULTURAL THAMES",
   "CENTRO CULTURAL TORQUATO TASSO",
   "CENTRO CULTURAL VERSALLES",
+  "CENTRO CULTURAL “EL LIMONERO”",
   "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
   "CENTRO SOCIAL Y CULTURAL CASA CAMBALACHE",
   "CHELA",
@@ -65,6 +75,7 @@
   "CULTURAL MORAN",
   "Cacodelphia",
   "Casa Nacional del Bicentenario",
+  "Central Affair (Galerías Larreta)",
   "Centro Cultural Recoleta",
   "Cine Gaumont (Espacio INCAA)",
   "Cine club Farus",
@@ -7475,6 +7486,31 @@
    "imagen": ""
   },
   {
+   "id": "56cd64569f0d",
+   "titulo": "Alegoh en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Urbano en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "4cf8dba893dc",
    "titulo": "Alerta espacial (función en el domo)",
    "categoria": "Teatro",
@@ -7880,6 +7916,31 @@
    "imagen": "https://imagenes.passline.com/eventos/crepusculo-en-post-street-bar-pos-rec.jpg"
   },
   {
+   "id": "7591c74f3cd2",
+   "titulo": "Darío Cosin en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jazz en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "352d241ee2b1",
    "titulo": "Del Mediterráneo oriental al Plata",
    "categoria": "Artes visuales",
@@ -8079,6 +8140,31 @@
    "lng": -58.403392,
    "embebible": false,
    "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/2026-09-28-132603-002.avif"
+  },
+  {
+   "id": "ab8883a9bf3a",
+   "titulo": "Geografías del gesto",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE",
+   "barrio": "Palermo",
+   "direccion": "Tagle 2772",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Martes a sábados de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Exposición de cuatro artistas de Chile y Argentina (Luciano Garbati, Nieves Legaspi, Solange Heilenkotter y Carlos Fernández) sobre el cuerpo, la memoria y el territorio. Curaduría de Christine Clément. Hasta el 24 de octubre.",
+   "url": "https://www.instagram.com/centroculturalmatta/reel/DejmyR4xpbk/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MATTA - EMBAJADA DE CHILE"
+   ],
+   "lat": -34.581303,
+   "lng": -58.39859,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "3ac6be42ef2b",
@@ -9231,6 +9317,31 @@
    ],
    "lat": -34.609809,
    "lng": -58.37217,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "574ca706303e",
+   "titulo": "Rom Victoria en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Pop en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
    "embebible": false,
    "imagen": ""
   },
@@ -10427,6 +10538,31 @@
    "imagen": "https://us-east-1.linodeobjects.com/centralticket/event-10741-upload-1790379273653-1861c0b6.jpeg"
   },
   {
+   "id": "9978228dbd2e",
+   "titulo": "Clementina Banda en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "48b1367b1120",
    "titulo": "Conquista condarco",
    "categoria": "Teatro",
@@ -11107,6 +11243,31 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/jere-klein-argentina-2026.jpg"
   },
   {
+   "id": "82206301f8d6",
+   "titulo": "Kablan Pedro en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f02ecc870118",
    "titulo": "LIPP SUCHEN: semana Charly García",
    "categoria": "Evento",
@@ -11434,6 +11595,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000310099.jpg"
   },
   {
+   "id": "557308339ba7",
+   "titulo": "M1a1a1a en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Acústico en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "d2617622212f",
    "titulo": "MARTÍN DELP ORGAN TRIO",
    "categoria": "Música",
@@ -11607,6 +11793,31 @@
    "lng": -58.370745,
    "embebible": true,
    "imagen": "https://museomoderno.org/wp-content/uploads/2026/07/JosefinaTommasi_T3A9472-copia-1024x683.jpg"
+  },
+  {
+   "id": "767d6bdeef3d",
+   "titulo": "Nehuen Pipi en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Acústico en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "49a57392ffd0",
@@ -12915,6 +13126,31 @@
    "imagen": ""
   },
   {
+   "id": "f4fedbd61c3e",
+   "titulo": "Cabaret Astral, temporada III vol. 7: Libra",
+   "categoria": "Teatro",
+   "lugar": "BATACAZO CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Agenda del fin de semana en Batacazo Cultural. Con Romi Vivero, Pau Rozen y Meilin Fire, hosteo astrológico y feria: ¿puede existir la belleza sin justicia?",
+   "url": "https://www.instagram.com/culturalbatacazo/p/DesDYf7Gk4c/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BATACAZO CULTURAL"
+   ],
+   "lat": -34.602799,
+   "lng": -58.420788,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "26bb69d189a9",
    "titulo": "Cabaret Astral. Vol. VII: Libra",
    "categoria": "Teatro",
@@ -13038,6 +13274,31 @@
    "lng": -58.464747,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/60/000320060.jpg"
+  },
+  {
+   "id": "a02401306714",
+   "titulo": "Carpi Barrionuevo en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "d544b88593e7",
@@ -13765,6 +14026,31 @@
    ],
    "lat": -34.597839,
    "lng": -58.412882,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "2ac2fa4ed830",
+   "titulo": "Encuentro de danzas de los talleres del Centro Castelnuovo",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL ELÍAS CASTELNUOVO",
+   "barrio": "Liniers",
+   "direccion": "Montiel 1041",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Muestra de los talleres de danzas folklóricas, danza fusión, Zumba BA, ritmos latinos para niños y producción de danzas.",
+   "url": "https://www.instagram.com/centroculturaleliascastelnuovo/p/DefTRdkBvyz/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ELÍAS CASTELNUOVO"
+   ],
+   "lat": -34.650618,
+   "lng": -58.525779,
    "embebible": false,
    "imagen": ""
   },
@@ -16079,6 +16365,31 @@
    "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Siemprevivas.jpeg"
   },
   {
+   "id": "4067a20d366e",
+   "titulo": "Somos Panacea: homenaje a Spinetta en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a494e5abcdf1",
    "titulo": "Somos de vino - Degustación de vino y tapas en Palermo Wine Club.",
    "categoria": "Gastronomía",
@@ -17811,6 +18122,31 @@
    "imagen": "https://imagenes.passline.com/eventos/cosmic-funk-tributo-a-jamiroquai-en-makena-560329-rec.jpg"
   },
   {
+   "id": "cc3f70d28123",
+   "titulo": "Cabeza de Elefante en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "e0c38048b191",
    "titulo": "Camerata de misiones con xavier inchausti y leila balat paiva",
    "categoria": "Evento",
@@ -18084,6 +18420,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/4885dc38-6275-423f-82b9-079e648e8db9.jpg"
+  },
+  {
+   "id": "82c7322cf096",
+   "titulo": "Ciclo Kulñenas y Por decir: lecturas, feria y música",
+   "categoria": "Literatura y charlas",
+   "lugar": "BATACAZO CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Agenda del fin de semana en Batacazo Cultural. Lecturas de Vera Goodday, Flavia Calise, Flor Dapiaggi, Natacha Durán, Cami Mermet y Estefi Chiarelli; feria y música de Nai Nation.",
+   "url": "https://www.instagram.com/culturalbatacazo/p/DesDYf7Gk4c/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BATACAZO CULTURAL"
+   ],
+   "lat": -34.602799,
+   "lng": -58.420788,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "b6493a5641ed",
@@ -20820,6 +21181,31 @@
    "lng": -58.373633,
    "embebible": true,
    "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6a9acd8d02c0d7.93869237.webp"
+  },
+  {
+   "id": "6a16f647083c",
+   "titulo": "Ivana Karmalita en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Funk en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "1b2e6e043908",
@@ -23857,6 +24243,31 @@
    "imagen": "https://hastatrilce.com.ar/wp-content/uploads/2026/09/PARA-TICKETERA.jpg"
   },
   {
+   "id": "47a6590643a4",
+   "titulo": "Paxanto Mi en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Música del mundo en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "69325f43f1e3",
    "titulo": "Pedro Gariani | Melania Wonder | Nebula Estudio | Manu Barcelo b2b Panko",
    "categoria": "Fiestas y electrónica",
@@ -24532,6 +24943,31 @@
    ],
    "lat": -34.58006,
    "lng": -58.451008,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "53612ad3ef4c",
+   "titulo": "Samanta Schweblin: formas de desvío (de la literatura al cine y la escena)",
+   "categoria": "Literatura y charlas",
+   "lugar": "Librería La Libre",
+   "barrio": "San Telmo",
+   "direccion": "Chacabuco 917",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Encuentro del Taller de Escritura Audiovisual del centro, a partir del cuento 'Nada de todo esto' de Samanta Schweblin: fragmentos, cortometrajes y fotografías teatrales. Cupo limitado, con inscripción por mail.",
+   "url": "https://www.instagram.com/lacamerafortunato/p/DekzgjtR7OP/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL FORTUNATO LACAMERA"
+   ],
+   "lat": -34.618835,
+   "lng": -58.375906,
    "embebible": false,
    "imagen": ""
   },
@@ -27023,6 +27459,31 @@
    "imagen": ""
   },
   {
+   "id": "2c1cbe3f74a2",
+   "titulo": "Angie Alturria en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "00:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cumbia en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "01ebfdde4c57",
    "titulo": "Animal o la salida humana - Sábado 24 de octubre de 2026",
    "categoria": "Teatro",
@@ -29030,6 +29491,31 @@
    "imagen": ""
   },
   {
+   "id": "ce4fba9a9ece",
+   "titulo": "Cumple el barrio, cumple el Limo y cumple lo de Checho: fiestón popular",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CENTRO CULTURAL “EL LIMONERO”",
+   "barrio": "Almagro",
+   "direccion": "Salguero 668",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta popular de aniversario con baile, comida y de todo para todxs, en el CC Limonero.",
+   "url": "https://www.instagram.com/cclimonero/p/DekndZ3GccP/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL “EL LIMONERO”"
+   ],
+   "lat": -34.602474,
+   "lng": -58.419471,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "c059fc6065ae",
    "titulo": "Curso: El universo que no vemos",
    "categoria": "Taller",
@@ -30407,6 +30893,31 @@
    "lng": -58.373668,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/20/000321720.jpg"
+  },
+  {
+   "id": "3d185288ebef",
+   "titulo": "Entretantos Editora (poesía) en Musicleta",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Literatura en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "00df5b110068",
@@ -33446,6 +33957,31 @@
    "imagen": "https://imagenes.passline.com/eventos/lobby-en-biri-biri-540692-rec.jpg"
   },
   {
+   "id": "2055c4325b98",
+   "titulo": "Los Bonnies en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Rock en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "06ef13890a54",
    "titulo": "Los Intocables",
    "categoria": "Música",
@@ -34653,6 +35189,31 @@
    "lng": -58.38449,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000299185.jpg"
+  },
+  {
+   "id": "975d2a6e7886",
+   "titulo": "Música en vivo: Coramina, Cloe Abigail, No te menojes y Sociedad Fuego",
+   "categoria": "Música",
+   "lugar": "BATACAZO CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Agenda del fin de semana en Batacazo Cultural. Producción de Sad Pop Club y Contraluz.",
+   "url": "https://www.instagram.com/culturalbatacazo/p/DesDYf7Gk4c/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BATACAZO CULTURAL"
+   ],
+   "lat": -34.602799,
+   "lng": -58.420788,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "6e91b101033b",
@@ -38219,6 +38780,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/38/000322138.jpg"
   },
   {
+   "id": "9589ac9f0cdd",
+   "titulo": "The Housing Rockers (SRV) en Musicleta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MUSICLETA",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 489",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Blues en vivo en Musicleta, bar de Villa Crespo con música en vivo todas las noches. Agenda semanal de octubre.",
+   "url": "https://www.instagram.com/ccmusicleta/p/Dep6cxoDtgt/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MUSICLETA"
+   ],
+   "lat": -34.597911,
+   "lng": -58.435287,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "fbcd2ae0f5f0",
    "titulo": "The Hunger (ciclo Nuestro Cine: cine cuir)",
    "categoria": "Cine",
@@ -41157,6 +41743,31 @@
    "lng": -58.478406,
    "embebible": true,
    "imagen": "https://cuerdamecanica.com/wp-content/uploads/2026/09/duo-karma-nueva-fecha-03-scaled.jpg"
+  },
+  {
+   "id": "93a369960bc3",
+   "titulo": "Dúo Reno12 con Jujuy y la Típica y Angie Arlanti",
+   "categoria": "Música",
+   "lugar": "BATACAZO CULTURAL",
+   "barrio": "Almagro",
+   "direccion": "Medrano Av. 627",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Agenda del fin de semana en Batacazo Cultural. Noche de música con el Dúo Reno12 (Pablo Belmes y Luke Tebiancook), Jujuy y la Típica y Angie Arlanti.",
+   "url": "https://www.instagram.com/culturalbatacazo/p/DesDYf7Gk4c/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BATACAZO CULTURAL"
+   ],
+   "lat": -34.602799,
+   "lng": -58.420788,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "fdf66f3dfda1",
@@ -46924,6 +47535,31 @@
    "imagen": "https://www.rojas.uba.ar/storage/images/M1mQMjGkNNxT6eFMGmYnNZjMyDYOAaESU5ox0t71.jpeg"
   },
   {
+   "id": "7ea12edfd07b",
+   "titulo": "Despaisaje (muestra colectiva, inauguración)",
+   "categoria": "Artes visuales",
+   "lugar": "BARRAKESH ESPACIO CULTURAL",
+   "barrio": "Barracas",
+   "direccion": "California 1672",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición de cinco artistas tucumanos (Blanca Machuca, Adrián Sosa, Alfredo Frías, Guadalupe Carrizo y Agustina Lazarte) en colaboración con Ceibo Gallery, sobre territorio, trabajo rural, extractivismo y memoria material. Sala 1. Doble inauguración el 27/10.",
+   "url": "https://www.instagram.com/barrakesh.ar/p/DeemmPZR6yb/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BARRAKESH ESPACIO CULTURAL"
+   ],
+   "lat": -34.646617,
+   "lng": -58.372611,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a80794412acd",
    "titulo": "Elijo creer",
    "categoria": "Evento",
@@ -47254,6 +47890,31 @@
    "imagen": "https://imagenes.passline.com/eventos/six-feet-under-latin-american-tour-2026-507087-rec.jpg"
   },
   {
+   "id": "071738889686",
+   "titulo": "Solo para decirte que me comí las ciruelas que dejaste en la heladera (Solana Tixi, inauguración)",
+   "categoria": "Artes visuales",
+   "lugar": "BARRAKESH ESPACIO CULTURAL",
+   "barrio": "Barracas",
+   "direccion": "California 1672",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición individual de Solana Tixi, curaduría de Natalia Sosa Molina. Sala 2. Doble inauguración el 27/10.",
+   "url": "https://www.instagram.com/barrakesh.ar/p/DeemmPZR6yb/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BARRAKESH ESPACIO CULTURAL"
+   ],
+   "lat": -34.646617,
+   "lng": -58.372611,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "888c0ec339cb",
    "titulo": "The silence of the lambs - en POST STREET BAR - PoS",
    "categoria": "Evento",
@@ -47377,6 +48038,31 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-Feria-libro-antiguo.jpg"
+  },
+  {
+   "id": "360697a1465a",
+   "titulo": "AFFAIR #4: feria de arte contemporáneo en Galerías Larreta",
+   "categoria": "Feria",
+   "lugar": "Central Affair (Galerías Larreta)",
+   "barrio": "Retiro",
+   "direccion": "San Martín 954 / Florida 971, entrepiso",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-11-01",
+   "hora": "15:00",
+   "horarios": "Del 28 de octubre al 1 de noviembre, de 15 a 22 h",
+   "precio": "Gratis",
+   "descripcion": "Cuarta edición de la feria de galerías Affair, con diseño espacial de Aili Chen que pone en valor la arquitectura original de Galerías Larreta; galerías invitadas y Fondo Fluido CABA. Todos los días de 15 a 22 h.",
+   "url": "https://www.instagram.com/estoesunaffair/p/DeuTCc-sDob/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Central Affair (Galerías Larreta)"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "242ed76122ef",
@@ -50394,6 +51080,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-802977-rec.jpg"
   },
   {
+   "id": "eaea8b8edfa9",
+   "titulo": "Seminario de lectura y escritura: Cosas con palabras",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL ANIBAL TROILO",
+   "barrio": "Palermo",
+   "direccion": "Gorriti 5740",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-11-12",
+   "hora": "18:00",
+   "horarios": "Jueves 29 de octubre y 12 de noviembre, de 18 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Seminario a cargo de la Lic. Constanza Penacini: tres encuentros (15 y 29 de octubre y 12 de noviembre) para leer, debatir y explorar la lectura y la escritura. Entrada libre y gratuita sin inscripción.",
+   "url": "https://www.instagram.com/ccanibaltroilo/p/Dec0BLLSIY3/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ANIBAL TROILO"
+   ],
+   "lat": -34.583858,
+   "lng": -58.438736,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f7bc06ff8a50",
    "titulo": "Shohei Imamura bis: El profundo deseo de los dioses",
    "categoria": "Cine",
@@ -52600,6 +53311,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/946006dd-b4ae-4cf7-aced-4174c94c703c.jpg"
+  },
+  {
+   "id": "a25d41c4fcaf",
+   "titulo": "Festival Fusión",
+   "categoria": "Festival",
+   "lugar": "CASA CULTURAL VICTOR JARA",
+   "barrio": "Parque Patricios",
+   "direccion": "24 De Noviembre 2273",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de música fusión con Nubark Jazz, Jacaranda Banda, La Sexta Napolitana y Kuma Quartet, con feria. Anunciado en un post de un artista que etiqueta a la casa.",
+   "url": "https://www.instagram.com/enricoarielrusso/p/DeudZ8nBNNI/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASA CULTURAL VICTOR JARA"
+   ],
+   "lat": -34.637321,
+   "lng": -58.409155,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "252ccc52f9b4",
@@ -59046,6 +59782,31 @@
    "lng": -58.369617,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-800759-rec.jpg"
+  },
+  {
+   "id": "c7c2940b6344",
+   "titulo": "La Jam de Boedo (fecha reprogramada)",
+   "categoria": "Música",
+   "lugar": "CASA CULTURAL \"TITA MERELLO\"",
+   "barrio": "Boedo",
+   "direccion": "Inclan 4191",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Jam de Boedo en La Merello, reprogramada para el sábado 31 de octubre a las 21:30 h.",
+   "url": "https://www.instagram.com/lajamdeboedo/p/Dek-9B4xcWF/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASA CULTURAL \"TITA MERELLO\""
+   ],
+   "lat": -34.633324,
+   "lng": -58.422339,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "da774e1f04e4",
