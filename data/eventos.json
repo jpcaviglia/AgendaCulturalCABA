@@ -5,17 +5,19 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 168,
-  "con_eventos": 113
+  "capturas": 188,
+  "con_eventos": 130
  },
  "fuentes": [
   "ALIANZA FRANCESA",
   "ALQUIMIA ESPACIO CULTURAL",
+  "AMARAMA ESPACIO CULTURAL",
   "ARCHIBRAZO",
   "ARTLAB",
   "Alternativa Teatral",
   "Arte al Día: agenda",
   "Arte x Arte",
+  "BOLIVAR 852",
   "BRITISH ART CENTRE",
   "Buenos Aires Secreta: planes del fin de semana",
   "Buenos Aliens",
@@ -34,19 +36,33 @@
   "CENTRO CULTURAL COREANO",
   "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
   "CENTRO CULTURAL DE LA CIENCIA",
+  "CENTRO CULTURAL DE LA INDIA GÜNGUR",
   "CENTRO CULTURAL DEL BAJO FLORES",
+  "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
   "CENTRO CULTURAL ELADIA BLAZQUEZ",
+  "CENTRO CULTURAL MACEDONIA",
   "CENTRO CULTURAL NUESTRA TIERRA",
+  "CENTRO CULTURAL PACO URONDO",
   "CENTRO CULTURAL POETA ROBERTO SANTORO",
+  "CENTRO CULTURAL RICARDO ROJAS",
   "CENTRO CULTURAL SEBASTIAN PIANA",
   "CENTRO CULTURAL TATO BORES",
+  "CENTRO CULTURAL THAMES",
+  "CENTRO CULTURAL TORQUATO TASSO",
   "CENTRO CULTURAL VERSALLES",
+  "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+  "CHELA",
+  "CIUDAD CULTURAL KONEX",
+  "CLUB CULTURAL BULA",
   "CLUB CULTURAL MARES",
   "CUALQUIER LADO",
   "CUERDA MECÁNICA CENTRO CULTURAL",
+  "CULTRUM",
   "Cacodelphia",
   "Casa Nacional del Bicentenario",
   "Centro Cultural Recoleta",
+  "Cine Gaumont (Espacio INCAA)",
+  "Cine club Farus",
   "Colección Fortabat",
   "Cátulo Casa Cultural",
   "EL JUFRE TEATRO-BAR",
@@ -120,6 +136,7 @@
   "Vamos Feria",
   "Vidriera BA",
   "W Galería",
+  "club conjura",
   "nuestro cine",
   "peli y picada"
  ],
@@ -1660,7 +1677,7 @@
    "categoria": "Artes visuales",
    "lugar": "Palacio Libertad",
    "barrio": "Retiro",
-   "direccion": "",
+   "direccion": "Sarmiento 151",
    "fecha_inicio": "2026-09-02",
    "fecha_fin": "2026-11-02",
    "hora": "",
@@ -1674,8 +1691,8 @@
    "fuentes": [
     "Buenos Aires Secreta: planes del fin de semana"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603557,
+   "lng": -58.369484,
    "embebible": false,
    "imagen": ""
   },
@@ -2635,6 +2652,31 @@
    "imagen": ""
   },
   {
+   "id": "f38b1c8da3f9",
+   "titulo": "¡Oíd mortales! ADN de la argentinidad para conquistar el mundo",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-09-28",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "Inauguración el 16 de octubre a las 19 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra sobre la identidad argentina en el Salón de las Columnas, del 28 de septiembre al 23 de octubre.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/oid-mortales-adn-de-la-argentinidad-para-conquistar-el-mundo",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "En curso",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-08/PLACAS%20P%C3%81GINA%20URONDO%2824%29.jpg"
+  },
+  {
    "id": "5b3ea0f22720",
    "titulo": "Bienestar Fest",
    "categoria": "Festival",
@@ -2719,7 +2761,7 @@
    "fecha_inicio": "2026-09-30",
    "fecha_fin": "2026-11-22",
    "hora": "",
-   "horarios": "",
+   "horarios": "De miércoles a domingo de 14 a 21 h",
    "precio": "Consultar",
    "descripcion": "Exhibición con la Fundación Japón y la Embajada del Japón sobre la cultura de las ningyō y los sentidos que estas figuras adquirieron en Japón a lo largo de los siglos.",
    "url": "https://mnao.cultura.gob.ar/exhibicion/ningyo-tradicion-y-actualidad-de-las-munecas-japonesas/",
@@ -2727,7 +2769,8 @@
    "estado": "En curso",
    "lugar_verificado": "Museo Nacional de Arte Oriental",
    "fuentes": [
-    "Museo Nacional de Arte Oriental"
+    "Museo Nacional de Arte Oriental",
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
    ],
    "lat": -34.582611,
    "lng": -58.401076,
@@ -3640,6 +3683,31 @@
    "imagen": ""
   },
   {
+   "id": "1528c2d05652",
+   "titulo": "El legado que inspira el futuro. 140 años de la inmigración japonesa en la Argentina",
+   "categoria": "Artes visuales",
+   "lugar": "MUNTREF Museo de la Inmigración",
+   "barrio": "Puerto Madero",
+   "direccion": "Av. Antártida Argentina s/n",
+   "fecha_inicio": "2026-10-04",
+   "fecha_fin": "2026-12-13",
+   "hora": "",
+   "horarios": "De domingo a domingo de 11 a 18 h",
+   "precio": "Gratis",
+   "descripcion": "Exposición de la Asociación Japonesa en la Argentina por los 140 años de la inmigración japonesa. Ingreso presentando DNI.",
+   "url": "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
+   "dominio": "ar.emb-japan.go.jp",
+   "estado": "En curso",
+   "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "fuentes": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "lat": -34.586135,
+   "lng": -58.37248,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "643d2795db05",
    "titulo": "Feria de Mataderos",
    "categoria": "Feria",
@@ -4442,6 +4510,31 @@
    "imagen": "https://vidriera.earth/latente-insistencia-de-un-recuerdo/s_1.jpeg-reduced-8f6h_w"
   },
   {
+   "id": "30c260628007",
+   "titulo": "FNOBA.6: Festival Nueva Ópera de Buenos Aires",
+   "categoria": "Festival",
+   "lugar": "CHELA",
+   "barrio": "Parque Patricios",
+   "direccion": "Iguazu 451",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Del 8 al 25 de octubre. En la semana 3: La Pendule y Pocket Cosmogonies (22 y 23/10), Joven Amaroq (23 y 24/10), Mitos e historias de elefantes y Thanks for Being Lifeless (24 y 25/10)",
+   "precio": "Gratis",
+   "descripcion": "6.ª edición del Festival Nueva Ópera de la Fundación Williams: 10 años, 10 días, 10 nuevas óperas que articulan música, escena experimental, tecnología y artes visuales. Entrada libre y gratuita con reserva en la web de la Fundación Williams.",
+   "url": "https://chela.org.ar/fnoba-6/",
+   "dominio": "chela.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "CHELA",
+   "fuentes": [
+    "CHELA"
+   ],
+   "lat": -34.643007,
+   "lng": -58.406071,
+   "embebible": true,
+   "imagen": "https://fnoba.vercel.app/uploads/og-share.jpg"
+  },
+  {
    "id": "d2ab7b82b595",
    "titulo": "Seminario de Clown",
    "categoria": "Taller",
@@ -4768,6 +4861,31 @@
    "imagen": "https://vidriera.earth/shamock./000320703.jpg-reduced-owsg1j"
   },
   {
+   "id": "1192b10e5cac",
+   "titulo": "Taller Fábrica de Historias",
+   "categoria": "Taller",
+   "lugar": "Amarama Espacio Cultural",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 543",
+   "fecha_inicio": "2026-10-10",
+   "fecha_fin": "2026-10-24",
+   "hora": "10:30",
+   "horarios": "Sábados 10, 17 y 24 de octubre de 10:30 a 12:30 h",
+   "precio": "Consultar",
+   "descripcion": "Taller de narración oral con Paula Broner y Bernardo Sabbioni: el modelo del buen narrador espontáneo, relatos autobiográficos y entrenamiento para la interpretación del texto.",
+   "url": "https://www.instagram.com/p/DdodZjfuUMM/",
+   "dominio": "instagram.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "AMARAMA ESPACIO CULTURAL"
+   ],
+   "lat": -34.603551,
+   "lng": -58.41434,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "ab15e505df9d",
    "titulo": "¿Dónde está Alicia?",
    "categoria": "Teatro",
@@ -4893,6 +5011,31 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "908a5d5f2853",
+   "titulo": "Introducción al análisis de la banda sonora",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-13",
+   "fecha_fin": "2026-11-03",
+   "hora": "18:00",
+   "horarios": "Martes 13, 20, 27 de octubre y 3 de noviembre, de 18 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Curso abierto a la comunidad, sin conocimientos previos, para comprender el rol del sonido, la música y la escucha en el lenguaje audiovisual. Aula Payró. Certificado UBA.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/introduccion-al-analisis-de-la-banda-sonora",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "En curso",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-09/PLACAS%20P%C3%81GINA%20URONDO%2842%29.jpg"
   },
   {
    "id": "4704f151a26c",
@@ -6998,6 +7141,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000294393.jpg"
   },
   {
+   "id": "2d9f6f15b4c3",
+   "titulo": "Autopista América 2000",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "20 al 21/10: 21:30 h; 22 al 25/10: 19:45 h; 26 al 28/10: 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Thriller, 81 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6368",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6368%2Fprimario.png?alt=media"
+  },
+  {
    "id": "e7380a661086",
    "titulo": "BAROLO ÍNTIMO: Cúpula + Cata + Historia + Jazz y boleros en vivo",
    "categoria": "Música",
@@ -7125,6 +7293,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-812754-rec.jpg"
   },
   {
+   "id": "e9087f1890d8",
+   "titulo": "Ciclo Visagë | Los Telebolitos (COL) / Adicta",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 9000",
+   "descripcion": "Desde Colombia, Los Telebolitos con su influencia del new wave ochentoso; comparten escenario con Adicta, banda pionera de la música electrónica argentina.",
+   "url": "https://www.rojas.uba.ar/agenda/ciclo-visage-los-telebolitos-coladicta/918",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/cOUHdxTaZ7hlxfCZ9IVzZB42WKDy1T47dQ6ec0tl.jpeg"
+  },
+  {
    "id": "19f3e0b2012d",
    "titulo": "Civilización",
    "categoria": "Teatro",
@@ -7148,6 +7341,31 @@
    "lng": -58.449505,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000293753.jpg"
+  },
+  {
+   "id": "4b8b95a316ef",
+   "titulo": "Cordobeces: la película",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "20 al 21/10: 14:00 y 22:15 h; 22 al 26/10: 16:00 h; 28/10: 16:00 h",
+   "precio": "Consultar",
+   "descripcion": "Comedia, 88 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6362",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6362%2Fprimario.png?alt=media"
   },
   {
    "id": "bb787b26eb8d",
@@ -7273,6 +7491,31 @@
    "lng": -58.3884,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "e95c6b51e806",
+   "titulo": "Escondida en mi cabeza",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "20 al 21/10: 16:00 h",
+   "precio": "Consultar",
+   "descripcion": "Comedia, 99 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/512",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F512%2Fprimario.png?alt=media"
   },
   {
    "id": "a781790d05fd",
@@ -7601,6 +7844,31 @@
    "imagen": ""
   },
   {
+   "id": "e0067de1defd",
+   "titulo": "La noche del demonio: Están entre nosotros 2D+4D",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "22:00",
+   "horarios": "20/10: 22:00 SUB 4D h",
+   "precio": "Consultar",
+   "descripcion": "Terror, 106 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/492",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F492%2Fprimario.png?alt=media"
+  },
+  {
    "id": "0f3816ba8260",
    "titulo": "La vida es así",
    "categoria": "Cine",
@@ -7699,6 +7967,56 @@
    "lng": -58.374434,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "3383de275780",
+   "titulo": "Lo dejamos acá",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "20 al 21/10: 15:15 y 19:45 h; 22 al 25/10: 14:00 y 17:45 y 21:30 h; 26/10: 14:00 y 22:00 h; 27/10: 14:00 h; 28/10: 14:00 y 22:00 h",
+   "precio": "Consultar",
+   "descripcion": "Comedia, 98 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6344",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6344%2Fprimario.png?alt=media"
+  },
+  {
+   "id": "8635167fd23d",
+   "titulo": "Lo que trajo la tormenta",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "20 al 21/10: 19:00 SUB h",
+   "precio": "Consultar",
+   "descripcion": "Drama, 121 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6364",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6364%2Fprimario.png?alt=media"
   },
   {
    "id": "636f81a6c57f",
@@ -8077,6 +8395,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000320475.jpg"
   },
   {
+   "id": "dab68e7feeb4",
+   "titulo": "Pepita la pistolera",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "20 al 21/10: 18:00 y 20:00 h; 22 al 28/10: 15:00 h",
+   "precio": "Consultar",
+   "descripcion": "Thriller, 103 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/500",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F500%2Fprimario.png?alt=media"
+  },
+  {
    "id": "29a0de6c4f1b",
    "titulo": "Peña sin cadenas",
    "categoria": "Teatro",
@@ -8202,6 +8545,31 @@
    "imagen": ""
   },
   {
+   "id": "287d42bfc2ee",
+   "titulo": "Tangótica: milonga y clase",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:30",
+   "horarios": "Todos los martes: clase de 19:30 a 20:30 h y milonga hasta la medianoche",
+   "precio": "Consultar",
+   "descripcion": "Milonga y clase de tango todos los martes en el Centro Cultural Macedonia.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/tangotica",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1782860101099-banner.png"
+  },
+  {
    "id": "f5c714157dbb",
    "titulo": "Tecweek",
    "categoria": "Evento",
@@ -8302,6 +8670,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000321534.jpg"
   },
   {
+   "id": "8e38b87f99ef",
+   "titulo": "Una quinta en Portugal",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-21",
+   "hora": "",
+   "horarios": "20 al 21/10: 14:30 h",
+   "precio": "Consultar",
+   "descripcion": "Drama, 114 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/514",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F514%2Fprimario.png?alt=media"
+  },
+  {
    "id": "7bffef89e2e4",
    "titulo": "Visitas guiadas a la Casa de la Cultura",
    "categoria": "Visita guiada",
@@ -8350,6 +8743,31 @@
    "lng": -58.430749,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "c50a0de701f2",
+   "titulo": "Yo, Narciso",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "20 al 28/10: 17:00 h",
+   "precio": "Consultar",
+   "descripcion": "Comedia, 95 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/490",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F490%2Fprimario.png?alt=media"
   },
   {
    "id": "41b0afb38ae7",
@@ -8840,6 +9258,31 @@
    "imagen": ""
   },
   {
+   "id": "b71a76aa66c2",
+   "titulo": "Cineclub Farus: Stand By Me + 12 Angry Men",
+   "categoria": "Cine",
+   "lugar": "Cine club Farus",
+   "barrio": "Monserrat",
+   "direccion": "Venezuela 932",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "Antesala 19 h; Stand By Me 20 h; 12 Angry Men 22 h",
+   "precio": "$ 10000",
+   "descripcion": "Doble función de cineclub en Paradiso Cultural. Entrada por película con consumición $10.000, o las dos con 2 consumiciones $18.000.",
+   "url": "https://centralticket.net/10741",
+   "dominio": "centralticket.net",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Cine club Farus"
+   ],
+   "lat": -34.614179,
+   "lng": -58.379462,
+   "embebible": false,
+   "imagen": "https://us-east-1.linodeobjects.com/centralticket/event-10741-upload-1790379273653-1861c0b6.jpeg"
+  },
+  {
    "id": "48b1367b1120",
    "titulo": "Conquista condarco",
    "categoria": "Teatro",
@@ -8915,23 +9358,24 @@
    "imagen": "https://imagenes.passline.com/eventos/-795371-rec.jpg"
   },
   {
-   "id": "25ae3e936a53",
-   "titulo": "DE OTRA VIDA PRESENTA // CICLO LA CONSTRUCCIÓN DE UN MONSTRUO: VIOLENCIA / THE SHINING (1980) // EN CLUB CONJURA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
+   "id": "8518cf5a1e8e",
+   "titulo": "De Otra Vida presenta: Ciclo La construcción de un monstruo: Violencia / The Shining (1980)",
+   "categoria": "Cine",
+   "lugar": "club conjura",
    "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
+   "direccion": "Nicasio oroño 2476",
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-21",
    "hora": "21:00",
    "horarios": "",
    "precio": "Desde $ 4000",
-   "descripcion": "DE OTRA VIDA PRESENTA // CICLO LA CONSTRUCCIÓN DE UN MONSTRUO: VIOLENCIA / THE SHINING (1980) // EN CLUB CONJURA en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-violencia-the-shining-1980-en-club-conjura",
+   "descripcion": "Proyección de The Shining (1980) en el ciclo La construcción de un monstruo, presentado por De Otra Vida.",
+   "url": "https://www.passline.com/sitio-evento/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-violencia-the-shining-1",
    "dominio": "passline.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "club conjura",
     "Passline"
    ],
    "lat": -34.598307,
@@ -9215,6 +9659,31 @@
    "imagen": ""
   },
   {
+   "id": "db7a9c76835e",
+   "titulo": "Estética ricotera: un abordaje de la producción visual de Los Redondos",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-11-11",
+   "hora": "18:00",
+   "horarios": "Miércoles 21, 28 de octubre, 4 y 11 de noviembre, de 18 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Curso que recorre la producción visual de Los Redondos, de Gulp! a Momo Sampler, sus referencias y transformaciones. Aulas 201 y 7.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/estetica-ricotera-un-abordaje-de-la-produccion-visual-de-los-redondos",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2829%29_0.jpg"
+  },
+  {
    "id": "adefd0fa8064",
    "titulo": "Festival MORANGO N°26 #detodo",
    "categoria": "Música",
@@ -9313,6 +9782,31 @@
    "lng": -58.436048,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000318923.jpg"
+  },
+  {
+   "id": "db9fffb5bd9a",
+   "titulo": "Historia y presente de las inundaciones en la Región Metropolitana de Buenos Aires",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Mesa con miembros de redes barriales y académicos sobre las inundaciones en Buenos Aires, en el marco de la muestra El agua arrasó todo. Entrepiso, Aula 4.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/historia-y-presente-de-las-inundaciones-en-la-region-metropolitana-de-buenos-aires",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2830%29.jpg"
   },
   {
    "id": "ae7fa7239b81",
@@ -9438,6 +9932,31 @@
    "lng": -58.436561,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-775975-rec.jpg"
+  },
+  {
+   "id": "0a72620ddc03",
+   "titulo": "La casa",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "21/10: 17:30 y 22:00 h; 22 al 28/10: 17:30 y 22:15 h",
+   "precio": "Consultar",
+   "descripcion": "Thriller, 108 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6347",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6347%2Fprimario.png?alt=media"
   },
   {
    "id": "b3457ab0222f",
@@ -9939,6 +10458,31 @@
    "lng": -58.439693,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/oz-y-cigaro-552717-rec.jpg"
+  },
+  {
+   "id": "2919f46297ac",
+   "titulo": "Paz Carrara presenta TRES X TRES",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "TRESXTRES es una gira pensada para volver al corazón de las canciones. Entradas agotadas.",
+   "url": "https://culturalthames.com.ar/event/135374-paz-carrara-presenta-tres-x-tres",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1787153477598-banner.jpg"
   },
   {
    "id": "9b89870b29fe",
@@ -10518,6 +11062,31 @@
    "imagen": ""
   },
   {
+   "id": "18da54b613ad",
+   "titulo": "Visita guiada | Exposición Lo que el agua revela",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada junto a la artista María Gracia Geraci a su exposición fotográfica sobre el cuerpo, el agua y la creación.",
+   "url": "https://www.rojas.uba.ar/agenda/visita-guiada-exposicion-lo-que-el-agua-revela/927",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/86lrgBFCBy3nrCnDe7xqR37hDfLvzuHsQOLSnpcF.jpeg"
+  },
+  {
    "id": "89526ddf106e",
    "titulo": "Visitas guiadas al Palacio Ceci",
    "categoria": "Evento",
@@ -10568,29 +11137,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/26/000322126.jpg"
   },
   {
-   "id": "1cf857248d52",
-   "titulo": "¿dónde está mónica?",
+   "id": "01eb27955442",
+   "titulo": "¿Dónde está Mónica?",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural Rector Ricardo Rojas",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
    "barrio": "Balvanera",
-   "direccion": "Av. Corrientes 2038",
+   "direccion": "Corrientes Av. 2038",
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-21",
    "hora": "20:00",
    "horarios": "Mié 20:00 (hasta el 21/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural Rector Ricardo Rojas (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra97264-donde-esta-monica",
-   "dominio": "alternativateatral.com",
+   "precio": "$ 15000",
+   "descripcion": "Obra inspirada en un caso real: la historia de dos amigas hasta que una de ellas desaparece en 1997. Autora: Sonia Novello.",
+   "url": "https://www.rojas.uba.ar/agenda/teatro-donde-esta-monica/904",
+   "dominio": "rojas.uba.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
    "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS",
     "Alternativa Teatral"
    ],
    "lat": -34.604892,
    "lng": -58.395876,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/40/000304640.jpg"
+   "imagen": "https://www.rojas.uba.ar/storage/images/7DGQ00QmjXZy33HcPd5Zlt0OEays2O7Itib9M9Db.jpeg"
   },
   {
    "id": "c81b9f8f4eb6",
@@ -10691,6 +11261,31 @@
    "lng": -58.423057,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-735803-rec.jpg"
+  },
+  {
+   "id": "f45f192fc628",
+   "titulo": "Acrobacia en telas",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "10:30",
+   "horarios": "Todos los jueves de 10:30 a 12:00 h",
+   "precio": "Consultar",
+   "descripcion": "Clases de acrobacia en telas para nivel inicial, principiantes e intermedio, en grupos reducidos.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/acrobacia-en-telas",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1782861124011-banner.png"
   },
   {
    "id": "3a73426c1b12",
@@ -11295,6 +11890,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/54/000321454.jpg"
   },
   {
+   "id": "80ee22db928d",
+   "titulo": "Días de Impro",
+   "categoria": "Teatro",
+   "lugar": "CULTRUM",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4205",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Show de improvisación. Entrada libre y gratuita.",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTRUM"
+   ],
+   "lat": -34.577892,
+   "lng": -58.480299,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "cee7cd233c91",
    "titulo": "EL SHOW DE LOS PELADOS- COMEDY SHOW!",
    "categoria": "Teatro",
@@ -11418,6 +12038,31 @@
    "lng": -58.433079,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/65/000321165.jpg"
+  },
+  {
+   "id": "3f71642a0d33",
+   "titulo": "El mal que nos acecha: formas de lo argentino en el cine de terror",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-11-12",
+   "hora": "18:00",
+   "horarios": "Jueves 22, 29 de octubre, 5 y 12 de noviembre, de 18 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Curso de extensión sobre qué hace argentino al cine de terror local. Aula 202.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/el-mal-que-nos-acecha-formas-de-lo-argentino-en-el-cine-de-terror",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-09/PLACAS%20P%C3%81GINA%20URONDO%2847%29.jpg"
   },
   {
    "id": "84729a520961",
@@ -11919,6 +12564,31 @@
    "lng": -58.371093,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-802833-rec.jpg"
+  },
+  {
+   "id": "7bb43480fff9",
+   "titulo": "Iré Latin Jazz: Choco Drums presenta la música de Cucho Valdez",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL TORQUATO TASSO",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1575",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:00",
+   "horarios": "Apertura de sala 20 h",
+   "precio": "Consultar",
+   "descripcion": "Choco Drums, percusionista cubano radicado en Buenos Aires, lidera Iré Latin Jazz entre la tradición afrocubana y el jazz contemporáneo. Entradas por Passline.",
+   "url": "https://torquatotasso.com.ar/2020/05/05/choco-drums/",
+   "dominio": "torquatotasso.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL TORQUATO TASSO",
+   "fuentes": [
+    "CENTRO CULTURAL TORQUATO TASSO"
+   ],
+   "lat": -34.626399,
+   "lng": -58.371093,
+   "embebible": true,
+   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/09/IMG_3478-1024x407.jpg"
   },
   {
    "id": "9f3768296f10",
@@ -12951,6 +13621,31 @@
    "imagen": "https://imagenes.passline.com/eventos/noches-de-bandoneon-en-octubre-julio-coviello-562544-rec.jpg"
   },
   {
+   "id": "c498b7ac7108",
+   "titulo": "Nene y las cosas",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "22/10: 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 66 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6365",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6365%2Fprimario.png?alt=media"
+  },
+  {
    "id": "996ebdc689d5",
    "titulo": "No Matar – de Juan Villegas",
    "categoria": "Cine",
@@ -12999,6 +13694,31 @@
    "lng": -58.397788,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000321093.jpg"
+  },
+  {
+   "id": "56cdfc8fcab8",
+   "titulo": "Noche de Música: Luz de Giro y Las Acacias",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "Noche de música a beneficio (recaudación de fondos para FEP).",
+   "url": "https://culturalthames.com.ar/event/165640-noche-de-musica",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1791228295661-banner.jpg"
   },
   {
    "id": "d2c479b42c7d",
@@ -13351,6 +14071,56 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F543544579%2F1619588993753%2F1%2Foriginal.20230627-034550?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2158%2C1079&s=a3bf13cb68a358ffc212cfb70528e935"
   },
   {
+   "id": "bf428e3c97db",
+   "titulo": "Susana Rinaldi, libre",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "22 al 28/10: 18:45 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 80 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6376",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6376%2Fprimario.png?alt=media"
+  },
+  {
+   "id": "c2985cd37638",
+   "titulo": "Swing Club",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "Todos los jueves desde las 20:30 h",
+   "precio": "Consultar",
+   "descripcion": "Clase de swing (Lindy Hop) para principiantes e intermedios y baile social.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/swing-club",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1787705767720-banner.png"
+  },
+  {
    "id": "e1183a38f635",
    "titulo": "TRIBUTO A CAMILO EN CABALLITO",
    "categoria": "Música",
@@ -13374,6 +14144,31 @@
    "lng": -58.454156,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-813100-rec.jpg"
+  },
+  {
+   "id": "5eedcd4cac51",
+   "titulo": "Taller inicial de Go",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural e Informativo de la Embajada del Japón",
+   "barrio": "Retiro",
+   "direccion": "Bouchard 547, piso 15",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "15:00",
+   "horarios": "Jueves 22 de octubre de 15:00 a 16:30 h",
+   "precio": "Gratis",
+   "descripcion": "Taller de iniciación al juego de Go a cargo del Prof. Hayashi, organizado por la Asociación Argentina del Juego de Go.",
+   "url": "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
+   "dominio": "ar.emb-japan.go.jp",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "fuentes": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e98915f9b736",
@@ -13450,6 +14245,31 @@
    "lng": -58.436362,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/terror-en-la-biblioteca-566389-rec.jpg"
+  },
+  {
+   "id": "ff85e09716d2",
+   "titulo": "Tierra de crimen",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "22 al 28/10: 22:25 h",
+   "precio": "Consultar",
+   "descripcion": "Drama, 112 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6373",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6373%2Fprimario.png?alt=media"
   },
   {
    "id": "e6c66f3685f9",
@@ -13851,6 +14671,31 @@
    "lng": -58.416883,
    "embebible": true,
    "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/06/22-10-819x1024.jpg"
+  },
+  {
+   "id": "6ddc768b1812",
+   "titulo": "¿Querés ser mi hijo?",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "22 al 28/10: 14:30 y 20:30 h",
+   "precio": "Consultar",
+   "descripcion": "Comedia, 98 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6374",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6374%2Fprimario.png?alt=media"
   },
   {
    "id": "6855286e72c5",
@@ -14302,6 +15147,31 @@
    "lng": -58.450012,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/73/000322673.jpg"
+  },
+  {
+   "id": "1bdc769573ef",
+   "titulo": "Animal",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "Reúne tres cuentos de Samanta Schweblin llevados al teatro.",
+   "url": "https://culturalthames.com.ar/event/126964-animal",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1791415588445-banner.jpg"
   },
   {
    "id": "9e9576bc2d57",
@@ -14956,6 +15826,31 @@
    "imagen": ""
   },
   {
+   "id": "b6493a5641ed",
+   "titulo": "Ciclo RoJazz | Fernando Lerman a la 4ta potencia",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "El saxofonista y flautista Fernando Lerman presenta su nuevo cuarteto de música argentina con obras propias y standards.",
+   "url": "https://www.rojas.uba.ar/agenda/ciclo-rojazz-fernando-lerman-a-la-4ta-potencia/907",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/IUGVT99miZUDAzvLLcq1dw5f8eEz8455Usi690XF.jpeg"
+  },
+  {
    "id": "48e1ba31beec",
    "titulo": "Ciclo arco iris 23-10",
    "categoria": "Teatro",
@@ -15031,6 +15926,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/31/000321331.jpg"
   },
   {
+   "id": "822dcb07e6e9",
+   "titulo": "Clase abierta no participativa de Ceremonia del Té",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural e Informativo de la Embajada del Japón",
+   "barrio": "Retiro",
+   "direccion": "Bouchard 547, piso 15",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "10:00",
+   "horarios": "Viernes de octubre de 10:00 a 11:30 h (23 y 30 de octubre)",
+   "precio": "Gratis",
+   "descripcion": "A cargo de Urasenke Argentina. Gratuita, con inscripción previa por formulario.",
+   "url": "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
+   "dominio": "ar.emb-japan.go.jp",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "fuentes": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "13bb2e8054ad",
    "titulo": "Claveles rojos",
    "categoria": "Teatro",
@@ -15054,6 +15974,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000240299.jpg"
+  },
+  {
+   "id": "c46e76e9dc6d",
+   "titulo": "Club Cultrum",
+   "categoria": "Música",
+   "lugar": "CULTRUM",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4205",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Show en vivo, jam, juegos y happy hour. Entrada libre y gratuita.",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTRUM"
+   ],
+   "lat": -34.577892,
+   "lng": -58.480299,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "0de8b64ebacd",
@@ -15580,6 +16525,31 @@
    "lng": -58.420662,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/63/000319163.jpg"
+  },
+  {
+   "id": "152b3e43e75b",
+   "titulo": "Desobediente",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "23/10: 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 109 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6366",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6366%2Fprimario.png?alt=media"
   },
   {
    "id": "98e4cd9c2a30",
@@ -16685,6 +17655,31 @@
    "imagen": "https://imagenes.passline.com/eventos/gretel-toloza-y-el-micelio-presentan-filamentos-566488-rec.jpg"
   },
   {
+   "id": "99a3ff403c98",
+   "titulo": "Gabriel Sainz - Superpoblado // La Ronda celebra a Charly",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 33000",
+   "descripcion": "Gabriel Sainz presenta Superpoblado en un show musical inmersivo; La Ronda celebra a Charly.",
+   "url": "https://culturalthames.com.ar/event/150389-gabriel-sainz-superpoblado-la-ronda-celebra-a-charly",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790358762853-banner.png"
+  },
+  {
    "id": "446c901bd6d5",
    "titulo": "Gauchinos presenta: NIULAI (牛来 #cine",
    "categoria": "Cine",
@@ -17734,6 +18729,31 @@
    "lng": -58.439662,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/charly-garcia-jam-559772-rec.jpg"
+  },
+  {
+   "id": "716ede8a78ed",
+   "titulo": "La Marshall: milonga queer",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "21 h clase de tango, 22 h milonga",
+   "precio": "Consultar",
+   "descripcion": "Milonga queer el cuarto viernes del mes: clase de tango y milonga con mucho baile.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/milonga-queer-marshall",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1789586276156-banner.png"
   },
   {
    "id": "88fe3d008fe9",
@@ -20144,6 +21164,31 @@
    "imagen": "https://imagenes.passline.com/eventos/presentacion-de-disco-560648-rec.jpg"
   },
   {
+   "id": "aa9439c738ea",
+   "titulo": "Presentación del libro \"Historias Desobedientes\"",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Presentación del libro de Desobedientes, colectivo de hijos y familiares de genocidas por Memoria, Verdad y Justicia. Salón de los Balcones.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/presentacion-del-libro-historias-desobedientes",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-09/PLACAS%20P%C3%81GINA%20URONDO%2844%29.jpg"
+  },
+  {
    "id": "57a3cfa42398",
    "titulo": "Prohibido suicidarse en primavera",
    "categoria": "Teatro",
@@ -20721,29 +21766,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000320410.jpg"
   },
   {
-   "id": "252a9e53a8b5",
-   "titulo": "Soledad Villamil",
-   "categoria": "Evento",
-   "lugar": "Torquato Tasso",
-   "barrio": "",
+   "id": "cd2eacdac97d",
+   "titulo": "Soledad Villamil en concierto",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL TORQUATO TASSO",
+   "barrio": "San Telmo",
    "direccion": "Defensa 1575",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
+   "fecha_fin": "2026-10-31",
    "hora": "22:00",
-   "horarios": "",
-   "precio": "Desde $ 60000",
-   "descripcion": "Soledad Villamil en Torquato Tasso. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/soledad-villamil-530553",
-   "dominio": "passline.com",
+   "horarios": "Únicas funciones: 23, 24, 30 y 31 de octubre, 22 h (apertura 20 h)",
+   "precio": "Consultar",
+   "descripcion": "Soledad Villamil se presenta en el escenario del Torquato Tasso. Ubicación por orden de llegada, mesas compartidas. Entradas por Passline.",
+   "url": "https://torquatotasso.com.ar/2020/05/03/soledad-villamil/",
+   "dominio": "torquatotasso.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL TORQUATO TASSO",
    "fuentes": [
+    "CENTRO CULTURAL TORQUATO TASSO",
     "Passline"
    ],
    "lat": -34.626399,
    "lng": -58.371093,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/-758209-rec.jpg"
+   "embebible": true,
+   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/07/IMG_1991-1024x407.jpg"
   },
   {
    "id": "be43c6725ace",
@@ -21422,31 +22468,6 @@
    "imagen": "https://imagenes.passline.com/eventos/viernes-2310-more-joyce-arg-569899-rec.jpg"
   },
   {
-   "id": "0b7581b16419",
-   "titulo": "VOIDPALOOZA DÍA 3 // MONOBLOCKS + LUSAT-555 + RIGANTTI + BRUNO DEL FABRO + PERLA MADRE",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "Desde $ 10000",
-   "descripcion": "VOIDPALOOZA DÍA 3 // MONOBLOCKS + LUSAT-555 + RIGANTTI + BRUNO DEL FABRO + PERLA MADRE en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/voidpalooza-dia-3-monoblocks-lusat555-rigantti-bruno-del-fabro-perla-madre",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/voidpalooza-dia-3-monoblocks-lusat555-rigantti-bruno-del-fabro-perla-madre-565519-rec.jpg"
-  },
-  {
    "id": "f62d786fffca",
    "titulo": "Vacio al horno con papas",
    "categoria": "Teatro",
@@ -21745,6 +22766,57 @@
    "lng": -58.443029,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/sabado-2310-substance-02-558078-rec.jpg"
+  },
+  {
+   "id": "4a9880197b48",
+   "titulo": "Viernes de Tablao Bolívar: flamenco salsero",
+   "categoria": "Música",
+   "lugar": "Bolívar 852 Tablao Flamenco",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 852",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:30",
+   "horarios": "Puertas 21:30, clase de rumbas 22:30, show 23:30",
+   "precio": "Desde $ 15000",
+   "descripcion": "Noche de flamenco y salsa para bailar, cenar y beber: clase de rumbas y show. Anticipada $15.000, en puerta $20.000.",
+   "url": "https://www.instagram.com/p/DerevTLRU9E/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "BOLIVAR 852"
+   ],
+   "lat": -34.617884,
+   "lng": -58.372997,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "0b7581b16419",
+   "titulo": "Voidpalooza día 3: Monoblocks + Lusat-555 + Rigantti + Bruno del Fabro + Perla Madre",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 10000",
+   "descripcion": "Tercer día del Voidpalooza con Monoblocks, Lusat-555, Rigantti, Bruno del Fabro y Perla Madre.",
+   "url": "https://www.passline.com/sitio-evento/voidpalooza-dia-3-monoblocks-lusat555-rigantti-bruno-del-fabro-perla-madre",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/voidpalooza-dia-3-monoblocks-lusat555-rigantti-bruno-del-fabro-perla-madre-565519-rec.jpg"
   },
   {
    "id": "f8880dd76295",
@@ -22371,6 +23443,31 @@
    "lng": -58.401992,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/55/000319555.jpg"
+  },
+  {
+   "id": "f01d24410a5f",
+   "titulo": "ABATOV",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL BULA",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Show de ABATOV en el Centro Cultural Bula.",
+   "url": "https://alpogo.com/evento/abatov-28501",
+   "dominio": "alpogo.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL BULA"
+   ],
+   "lat": -34.599946,
+   "lng": -58.41754,
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/1dcf734f-9c42-44ca-8374-4a0294784827.webp"
   },
   {
    "id": "0b0bf518774c",
@@ -23799,6 +24896,31 @@
    "imagen": ""
   },
   {
+   "id": "6e355bd10e19",
+   "titulo": "Ciclo RoJazz | Barranco Trío (BRA)",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Cierre de la edición 2026 del ciclo: trío brasileño de música instrumental entre el jazz, el fusión y el rock progresivo.",
+   "url": "https://www.rojas.uba.ar/agenda/ciclo-rojazz-barranco-trio-bra/908",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/azu30pw6iMBbw9z3dXkPPwwd5K0qgE7BljZBtjlS.jpeg"
+  },
+  {
    "id": "ab7d62bcd9de",
    "titulo": "Ciclo arde troya",
    "categoria": "Teatro",
@@ -24999,6 +26121,31 @@
    "lng": -58.395798,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000274668.jpg"
+  },
+  {
+   "id": "d8705167b9b2",
+   "titulo": "El camino contrario",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "24/10: 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 78 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6367",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6367%2Fprimario.png?alt=media"
   },
   {
    "id": "37a22f98906b",
@@ -26204,6 +27351,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/64/000319164.jpg"
   },
   {
+   "id": "5ac85e655a40",
+   "titulo": "Flotando apenas",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "$ 16000",
+   "descripcion": "Tragedia acuática de Juan Azar sobre un matrimonio de contrabandistas.",
+   "url": "https://culturalthames.com.ar/event/22622",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-images-fanz.s3.amazonaws.com/1750107269328-WhatsApp%20Image%202025-06-16%20at%205.53.27%20PM.jpeg"
+  },
+  {
    "id": "83ba2639aede",
    "titulo": "Fuera de línea: sistema dañado (dirección: Gabriela Spezzi)",
    "categoria": "Teatro",
@@ -26555,29 +27727,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000319950.jpg"
   },
   {
-   "id": "6f789b8a7051",
-   "titulo": "Hermana Beba en Konex",
+   "id": "f60d6fe16128",
+   "titulo": "Hermana Beba",
    "categoria": "Música",
-   "lugar": "Ciudad Cultural Konex",
+   "lugar": "Ciudad Cultural Konex · Patio",
    "barrio": "Balvanera",
    "direccion": "Sarmiento 3125",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "",
-   "horarios": "",
+   "hora": "20:30",
+   "horarios": "Puerta 20 h, show 20:30 h",
    "precio": "$ 39000",
-   "descripcion": "Recital: Hermana Beba en Konex en Ciudad Cultural Konex.",
-   "url": "https://indiehoy.com/agenda/hermana-beba-en-konex/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Hermana Beba en el Patio de Ciudad Cultural Konex (también el 6 de noviembre).",
+   "url": "https://entradas.cckonex.org/event/hermana-beba",
+   "dominio": "entradas.cckonex.org",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CIUDAD CULTURAL KONEX",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.606606,
    "lng": -58.410354,
    "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/konex-1.jpg"
+   "imagen": "https://cdn.getcrowder.com/images/5a5c27ad-7fcb-4571-8f07-12b1888fc6bb-hb---640x640.jpg"
   },
   {
    "id": "4475b2e0833b",
@@ -27229,6 +28402,81 @@
    "lng": -58.478406,
    "embebible": true,
    "imagen": "https://cuerdamecanica.com/wp-content/uploads/2026/09/la-ferni-1.png"
+  },
+  {
+   "id": "3e6a7e7f179c",
+   "titulo": "La Furiosa Orquestada",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 10000",
+   "descripcion": "Tango queer y feminista, con clase y música en vivo.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/la-furiosa-orquestada",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1787059918641-banner.png"
+  },
+  {
+   "id": "1bf94f8c839e",
+   "titulo": "La Noche Stone",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "CLUB CULTURAL BULA",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Desde $ 5000",
+   "descripcion": "Noche Stone en el Centro Cultural Bula.",
+   "url": "https://alpogo.com/evento/la-noche-stone-2410-29351",
+   "dominio": "alpogo.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL BULA"
+   ],
+   "lat": -34.599946,
+   "lng": -58.41754,
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/4918d7c2-f7fc-4345-a0f2-b973cca798ab.webp"
+  },
+  {
+   "id": "ac646c6071e2",
+   "titulo": "La RE Fiesta",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Ciudad Cultural Konex · Sala de las Columnas",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "Medianoche, puerta 00:30 h",
+   "precio": "Desde $ 14000",
+   "descripcion": "Fiesta de trasnoche en la Sala de las Columnas.",
+   "url": "https://entradas.cckonex.org/event/la-re-fiesta",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/ca002a63-0f0b-4d2b-ba7d-dbd18832f951-cckonexticketera2.jpg"
   },
   {
    "id": "4df96dba2c68",
@@ -28610,31 +29858,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000321084.jpg"
   },
   {
-   "id": "e5ecbf498f15",
-   "titulo": "MICROONDAS + TELEPLOMO + LOS COWBOYS // EN CLUB CONJURA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Desde $ 5000",
-   "descripcion": "MICROONDAS + TELEPLOMO + LOS COWBOYS // EN CLUB CONJURA en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/microondas-teleplomo-los-cowboys-en-club-conjura",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/microondas-teleplomo-los-cowboys-en-club-conjura-556856-rec.jpg"
-  },
-  {
    "id": "621a24569236",
    "titulo": "MUBI Fest en U.House: instalación, charla, video performance y música",
    "categoria": "Cine",
@@ -28733,6 +29956,31 @@
    "lng": -58.412882,
    "embebible": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196121878%2F2861751049301%2F1%2Foriginal.20261019-185851?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.054&s=0c464800253f1055a023850c1cf40cb5"
+  },
+  {
+   "id": "c9e888d01989",
+   "titulo": "Manu Estrada y Mati Donetto: Ciudadano del Amor",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Ciudadano del Amor es el EP del cantautor Manu Estrada.",
+   "url": "https://culturalthames.com.ar/event/140786-manu-estrada-y-mati-donetto-ciudadano-del-amor",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1787774887582-banner.jpg"
   },
   {
    "id": "91296d07b787",
@@ -29008,6 +30256,32 @@
    "lng": -58.420662,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/18/000319818.jpg"
+  },
+  {
+   "id": "db724271ab4d",
+   "titulo": "Microondas + Teleplomo + Los Cowboys",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 5000",
+   "descripcion": "Noche de bandas en Club Conjura.",
+   "url": "https://www.passline.com/sitio-evento/microondas-teleplomo-los-cowboys-en-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/microondas-teleplomo-los-cowboys-en-club-conjura-556856-rec.jpg"
   },
   {
    "id": "aaff7c360b7b",
@@ -29536,29 +30810,30 @@
    "imagen": "https://imagenes.passline.com/eventos/-813734-rec.jpg"
   },
   {
-   "id": "ba2ff3f283e6",
-   "titulo": "Nina cuenta. deconstrucción de la gaviota",
+   "id": "bd3386b8cd70",
+   "titulo": "Nina cuenta. Deconstrucción de La Gaviota",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural Rector Ricardo Rojas",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
    "barrio": "Balvanera",
-   "direccion": "Av. Corrientes 2038",
+   "direccion": "Corrientes Av. 2038",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-31",
    "hora": "21:00",
-   "horarios": "Sáb 21:00 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural Rector Ricardo Rojas (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra103251-nina-cuenta-deconstruccion-de-la-gaviota",
-   "dominio": "alternativateatral.com",
+   "horarios": "Sábados 24 y 31 de octubre, 21 h",
+   "precio": "$ 15000",
+   "descripcion": "Obra escrita y dirigida por Cecilia Propato a partir de una investigación sobre La gaviota de Chéjov.",
+   "url": "https://www.rojas.uba.ar/agenda/nina-cuenta-deconstruccion-de-la-gaviota/913",
+   "dominio": "rojas.uba.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
    "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS",
     "Alternativa Teatral"
    ],
    "lat": -34.604892,
    "lng": -58.395876,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/72/000321272.jpg"
+   "imagen": "https://www.rojas.uba.ar/storage/images/9Mk0sNfU5U3NmbRVVvn8V3FlAznZlh7cItgMoheX.jpeg"
   },
   {
    "id": "4987e8eb367e",
@@ -31965,31 +33240,6 @@
    "imagen": "https://imagenes.passline.com/eventos/-799225-rec.jpg"
   },
   {
-   "id": "b6b6747fddbe",
-   "titulo": "Soledad Villamil",
-   "categoria": "Evento",
-   "lugar": "Torquato Tasso",
-   "barrio": "",
-   "direccion": "Defensa 1575",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "22:00",
-   "horarios": "",
-   "precio": "Desde $ 60000",
-   "descripcion": "Soledad Villamil en Torquato Tasso. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/soledad-villamil-530554",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.626399,
-   "lng": -58.371093,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/-758213-rec.jpg"
-  },
-  {
    "id": "18c4b9850108",
    "titulo": "Solomun",
    "categoria": "Fiestas y electrónica",
@@ -32521,26 +33771,27 @@
    "id": "c3057c43c2bc",
    "titulo": "Todo lo que me falta",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural Thames",
+   "lugar": "CENTRO CULTURAL THAMES",
    "barrio": "Palermo",
    "direccion": "Thames 1426",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-31",
    "hora": "20:00",
-   "horarios": "Sáb 20:00 (hasta el 28/11)",
+   "horarios": "Sábados 24 y 31 de octubre, 20 h",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural Thames (Palermo).",
-   "url": "https://www.alternativateatral.com/obra95114-todo-lo-que-me-falta",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Obra sobre un hombre que se tatúa la imagen de la persona que ama y empieza a obsesionarse.",
+   "url": "https://culturalthames.com.ar/event/14594",
+   "dominio": "culturalthames.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CENTRO CULTURAL THAMES",
     "Alternativa Teatral"
    ],
    "lat": -34.588545,
    "lng": -58.431853,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000297023.jpg"
+   "imagen": "https://event-images-fanz.s3.amazonaws.com/1750355637094-ROSAURA-288.jpg"
   },
   {
    "id": "a6460a4a1b40",
@@ -34248,6 +35499,31 @@
    "imagen": ""
   },
   {
+   "id": "f46d6db252da",
+   "titulo": "Bernarda Alba, Epílogo de un drama",
+   "categoria": "Danza",
+   "lugar": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "barrio": "San Cristobal",
+   "direccion": "Independencia Av. 2540",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "1 alimento no perecedero",
+   "descripcion": "El Ballet de la Ciudad de Buenos Aires presenta una obra de danza-teatro dirigida por Miguel Gómez, relectura de La casa de Bernarda Alba de Lorca con danza española, flamenco y ballet clásico. Salón Principal, 50 minutos.",
+   "url": "https://centrosalamanca.com.ar/centro/eventos/bernarda-alba-epilogo-de-un-drama/",
+   "dominio": "centrosalamanca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "fuentes": [
+    "CENTRO SALAMANCA RECREATIVO CULTURAL Y S"
+   ],
+   "lat": -34.618819,
+   "lng": -58.401517,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "05aa36164bd8",
    "titulo": "Bingo Mostra Musical",
    "categoria": "Evento",
@@ -34472,6 +35748,31 @@
    "lng": -58.442199,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000320951.jpg"
+  },
+  {
+   "id": "fe48346af2c3",
+   "titulo": "Ciclo de cine japonés en el Palacio Libertad: Un verano con los extraños y Las gafas",
+   "categoria": "Cine",
+   "lugar": "Palacio Libertad",
+   "barrio": "Retiro",
+   "direccion": "Sarmiento 151",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "15:00",
+   "horarios": "Domingo 25 de octubre: 15:00 Un verano con los extraños (Nobuhiko Obayashi, 1988) y 17:30 Las gafas (Naoko Ogigami, 2007)",
+   "precio": "Gratis",
+   "descripcion": "Última jornada del ciclo de cine japonés del Palacio Libertad. Entrada libre y gratuita por orden de llegada.",
+   "url": "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
+   "dominio": "ar.emb-japan.go.jp",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "fuentes": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "lat": -34.603557,
+   "lng": -58.369484,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "96b719014f78",
@@ -34799,6 +36100,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/45/000321645.jpg"
   },
   {
+   "id": "f5622a4118f6",
+   "titulo": "Desde la Raíz",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo de música en vivo presentado por Alqui.",
+   "url": "https://culturalthames.com.ar/event/153557-desde-la-raiz",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1789524629451-banner.jpg"
+  },
+  {
    "id": "db5407edb131",
    "titulo": "Docente humanum est",
    "categoria": "Teatro",
@@ -35048,6 +36374,31 @@
    "lng": -58.380074,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/57/000297157.jpg"
+  },
+  {
+   "id": "fbf1e4fa676d",
+   "titulo": "El Sueño de los Elefantes presenta Cuerpo Adentro",
+   "categoria": "Evento",
+   "lugar": "Ciudad Cultural Konex · Sala de las Columnas",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "17 y 19:30 h",
+   "precio": "Desde $ 40000",
+   "descripcion": "Experiencia inmersiva de El Sueño de los Elefantes, con dos funciones el domingo 25.",
+   "url": "https://entradas.cckonex.org/event/el-sueno-de-los-elefantes",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/52b522ad-a1c9-431e-ba8d-befeb9cba35c-esdle2026mayo-1miniatura-2-fechas.jpg"
   },
   {
    "id": "90601052d648",
@@ -35800,6 +37151,31 @@
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1792414053869-gvqxv9b2k.webp"
   },
   {
+   "id": "ea27a36e3d42",
+   "titulo": "Fauna Postal",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Obra a partir de un incidente fatal en un pequeño pueblo de provincia.",
+   "url": "https://culturalthames.com.ar/event/146627-fauna-postal",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1788556725260-banner.jpg"
+  },
+  {
    "id": "f5b9449b5f53",
    "titulo": "Feria de manualidades y artesanias de La plazoleta Joaquín Sánchez",
    "categoria": "Feria",
@@ -35925,31 +37301,6 @@
    "imagen": "https://imagenes.passline.com/eventos/funcion-2510-2115hs-en-post-street-bar-pos-rec.jpg"
   },
   {
-   "id": "030d719947b2",
-   "titulo": "GRIS + MONTESPLASH + NUMEN + IMO // EN CLUB CONJURA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-25",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "Desde $ 5000",
-   "descripcion": "GRIS + MONTESPLASH + NUMEN + IMO // EN CLUB CONJURA en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/gris-montesplash-numen-imo-en-club-conjura",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/gris-montesplash-numen-imo-en-club-conjura-565537-rec.jpg"
-  },
-  {
    "id": "8a24142b5f14",
    "titulo": "Gallini",
    "categoria": "Teatro",
@@ -35973,6 +37324,32 @@
    "lng": -58.425397,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/62/000321162.jpg"
+  },
+  {
+   "id": "6dff0519545c",
+   "titulo": "Gris + Montesplash + Numen + Imo",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 5000",
+   "descripcion": "Tarde de bandas en Club Conjura.",
+   "url": "https://www.passline.com/sitio-evento/gris-montesplash-numen-imo-en-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/gris-montesplash-numen-imo-en-club-conjura-565537-rec.jpg"
   },
   {
    "id": "c68637af3ed5",
@@ -37252,6 +38629,31 @@
    "imagen": ""
   },
   {
+   "id": "35ab478bc730",
+   "titulo": "Los Abeles Impro: Originals",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Espectáculo de improvisación original de Los Abeles Impro.",
+   "url": "https://culturalthames.com.ar/event/162800-los-abeles-impro",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790780365979-banner.jpg"
+  },
+  {
    "id": "9967ee589cae",
    "titulo": "Los acantilados",
    "categoria": "Teatro",
@@ -38275,6 +39677,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000288425.jpg"
+  },
+  {
+   "id": "e55af82adb2d",
+   "titulo": "Pizza Libre Vegana: edición Halloween",
+   "categoria": "Gastronomía",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "13:00",
+   "horarios": "De 13 a 16 h",
+   "precio": "$ 20000",
+   "descripcion": "Regreso de Liberen a la Pizza: pizza libre vegana en edición Halloween.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/pizza-libre-vegana-edicion-halloween",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1789587121611-banner.png"
   },
   {
    "id": "e03c4c5282ad",
@@ -39479,6 +40906,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000311901.jpg"
   },
   {
+   "id": "2a5db32c8c99",
+   "titulo": "Xul",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "25/10: 20:00 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 104 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6363",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6363%2Fprimario.png?alt=media"
+  },
+  {
    "id": "90985e4a0a20",
    "titulo": "Y... se nos fue redepente",
    "categoria": "Teatro",
@@ -39729,6 +41181,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-810788-rec.jpg"
   },
   {
+   "id": "a38490112ffd",
+   "titulo": "Archivo El Rojas.UBA | Roberto Jacoby: artista invitado",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Intervención multimedia y performática de Roberto Jacoby, artista invitado del Archivo El Rojas.UBA.",
+   "url": "https://www.rojas.uba.ar/agenda/archivo-el-rojasuba-artista-invitado-roberto-jacoby/921",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/sDsSjU7GnMfs9ifiNH5YHdiKwWjlSSa94YZvRfDX.jpeg"
+  },
+  {
    "id": "2106d8b6b65c",
    "titulo": "BLACK MONDAY Stand Up",
    "categoria": "Teatro",
@@ -39777,6 +41254,31 @@
    "lng": -58.43726,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/48/000312748.jpg"
+  },
+  {
+   "id": "c42338fd64d0",
+   "titulo": "Charla | Sociedades experimentales y desutopías 2026",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "A más de veinte años del Área de Sociedades Experimentales de Roberto Jacoby en el Rojas, un encuentro con la editorial Beatriz Viterbo.",
+   "url": "https://www.rojas.uba.ar/agenda/charla-sociedades-experimentales-y-desutopias-2026/914",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/igf7FcHMeUwOr0f85ioT8nBRiAV7qX97E9fJhqV1.jpeg"
   },
   {
    "id": "ffee964d3147",
@@ -39930,6 +41432,31 @@
    "imagen": ""
   },
   {
+   "id": "16b325537f8c",
+   "titulo": "La Bomba de Tiempo",
+   "categoria": "Música",
+   "lugar": "Ciudad Cultural Konex · Patio",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-11-02",
+   "hora": "20:00",
+   "horarios": "Todos los lunes, 20 h",
+   "precio": "Desde $ 22000",
+   "descripcion": "Show de percusión e improvisación de La Bomba de Tiempo, todos los lunes en el Patio del Konex.",
+   "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/cc75a1ae-055b-4515-8980-bf8ccb65dad6-lbdt-aire-libre-640x640.png"
+  },
+  {
    "id": "49cd01d7fb50",
    "titulo": "Los habitantes de Mor (Peras Compañía Teatral)",
    "categoria": "Teatro",
@@ -40031,6 +41558,31 @@
    "imagen": "https://imagenes.passline.com/eventos/persona-martes-11-de-agosto-de-2026-558835-rec.jpg"
   },
   {
+   "id": "37591182974a",
+   "titulo": "Para hacer una película hace falta…",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "18:30",
+   "horarios": "26/10: 18:30 h",
+   "precio": "Consultar",
+   "descripcion": "Documental, 146 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6377",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6377%2Fprimario.png?alt=media"
+  },
+  {
    "id": "b925121dbb28",
    "titulo": "Terrifier - en POST STREET BAR - PoS",
    "categoria": "Evento",
@@ -40054,6 +41606,56 @@
    "lng": -58.428161,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/terrifier-en-post-street-bar-pos-569197-rec.jpg"
+  },
+  {
+   "id": "b172443ef9c5",
+   "titulo": "Adolescencia, sexo y muerte en campamento Miasma",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "22:00",
+   "horarios": "27/10: 22:00 h",
+   "precio": "Consultar",
+   "descripcion": "Terror, 112 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6371",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6371%2Fprimario.png?alt=media"
+  },
+  {
+   "id": "3f07f31233cb",
+   "titulo": "Bit Bang",
+   "categoria": "Cine",
+   "lugar": "Cine Gaumont (Espacio INCAA)",
+   "barrio": "Balvanera",
+   "direccion": "Av. Rivadavia 1635",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "27 al 28/10: 19:30 h",
+   "precio": "Consultar",
+   "descripcion": "Animación, 120 min. En cartelera del Cine Gaumont (Espacio INCAA).",
+   "url": "https://www.cinegaumont.ar/es-AR/programacion/6372",
+   "dominio": "cinegaumont.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cine Gaumont (Espacio INCAA)",
+   "fuentes": [
+    "Cine Gaumont (Espacio INCAA)"
+   ],
+   "lat": -34.608888,
+   "lng": -58.389625,
+   "embebible": true,
+   "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6372%2Fprimario.png?alt=media"
   },
   {
    "id": "853da3c27c3a",
@@ -40104,6 +41706,31 @@
    "lng": -58.395798,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "28d210b4b877",
+   "titulo": "Ciclo Visagë | Los Péndulos",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 9000",
+   "descripcion": "La banda de Gonzalo Gutiérrez Durán, Juan Pablo Rey, Adrián Outeda y Lucas Rousseaux vuelve a presentarse en el ciclo.",
+   "url": "https://www.rojas.uba.ar/agenda/ciclo-visage-los-pendulos/919",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/M1mQMjGkNNxT6eFMGmYnNZjMyDYOAaESU5ox0t71.jpeg"
   },
   {
    "id": "a80794412acd",
@@ -40434,6 +42061,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000320609.jpg"
   },
   {
+   "id": "31c502010fb6",
+   "titulo": "Trama / Salidas culturales: ¿Qué nos pasa con Charly?",
+   "categoria": "Literatura y charlas",
+   "lugar": "Ciudad Cultural Konex · Sala Auditorio",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Encuentro de la serie Trama / Salidas culturales dedicado a la figura de Charly García.",
+   "url": "https://entradas.cckonex.org/event/que-nos-pasa-con-charly-trama",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/fc1f0a73-6efa-44c7-8530-c858411b5ab0-640px.jpg"
+  },
+  {
    "id": "37cd942408fb",
    "titulo": "Un Neoyorquino en Buenos Aires - ALWAYS COOL - Jazz Voyeur Club -",
    "categoria": "Fiestas y electrónica",
@@ -40559,6 +42211,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Canciones-de-musicales_Favero-y-cia_principal.jpg"
   },
   {
+   "id": "091d3e985ae4",
+   "titulo": "Carcajada Comedia: Cortá la semana",
+   "categoria": "Teatro",
+   "lugar": "CULTRUM",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4205",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "A la gorra",
+   "descripcion": "Ciclo de stand up de los miércoles.",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTRUM"
+   ],
+   "lat": -34.577892,
+   "lng": -58.480299,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "5c838d529df2",
    "titulo": "Charla: El juguete rabioso, 100 años",
    "categoria": "Literatura y charlas",
@@ -40582,6 +42259,31 @@
    "lng": -58.392513,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "0582df608e9b",
+   "titulo": "Cineclub Farus: The Evil Dead + La masacre de Texas",
+   "categoria": "Cine",
+   "lugar": "Cine club Farus",
+   "barrio": "Monserrat",
+   "direccion": "Venezuela 932",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "Antesala 19 h; The Evil Dead 20 h; La masacre de Texas 21:40 h",
+   "precio": "$ 10000",
+   "descripcion": "Doble función de cine de terror en Paradiso Cultural. Entrada por película con consumición $10.000, o las dos con 2 consumiciones $18.000.",
+   "url": "https://centralticket.net/10743",
+   "dominio": "centralticket.net",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Cine club Farus"
+   ],
+   "lat": -34.614179,
+   "lng": -58.379462,
+   "embebible": false,
+   "imagen": "https://us-east-1.linodeobjects.com/centralticket/event-10743-upload-1790380124436-2242fb54.jpeg"
   },
   {
    "id": "bb5cef95077b",
@@ -40885,6 +42587,31 @@
    "imagen": ""
   },
   {
+   "id": "583f99643250",
+   "titulo": "Imaginarios urbanos, proyecciones sobre el Riachuelo",
+   "categoria": "Literatura y charlas",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Mesa sobre las proyecciones identitarias, urbanas y ambientales del Riachuelo, en el marco de la muestra El agua arrasó todo. Entrepiso, Aula 4.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/imaginarios-urbanos-proyecciones-sobre-el-riachuelo",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2831%29.jpg"
+  },
+  {
    "id": "89edf7291d11",
    "titulo": "La cena secreta",
    "categoria": "Teatro",
@@ -41008,6 +42735,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/40principales-teatro-opera.jpg"
+  },
+  {
+   "id": "d0dd63658cdd",
+   "titulo": "Lucas Heredia y Rodrigo Carazo en concierto",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Referentes de la canción de autor de la escena de Córdoba.",
+   "url": "https://culturalthames.com.ar/event/163293-lucas-heredia-y-rodrigo-carazo-en-concierto",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790913583637-banner.jpg"
   },
   {
    "id": "8bb00132863a",
@@ -41186,6 +42938,31 @@
    "imagen": "https://imagenes.passline.com/eventos/piwa-la-piwa-abre-pato-lange-558814-rec.jpg"
   },
   {
+   "id": "84b746b5cc1c",
+   "titulo": "Primer encuentro Coral 2026 en el Urondo",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Primer concierto del ciclo de coros vocacionales e institucionales 2026. Salón de los Balcones.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/primer-encuentro-coral-2026-en-el-urondo",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2830%29_0.jpg"
+  },
+  {
    "id": "4ea56f5f2a50",
    "titulo": "REC - 28/10",
    "categoria": "Evento",
@@ -41362,6 +43139,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/86/000319586.jpg"
+  },
+  {
+   "id": "71d214b7b65e",
+   "titulo": "Surfer Rosas 15 años con Fantasmagoria + Sugar Tampaxxx y más",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL BULA",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Quince años de Surfer Rosas con Fantasmagoria, Sugar Tampaxxx y más bandas.",
+   "url": "https://alpogo.com/evento/surfer-rosas-15-anos-con-fantasmagoria-sugar-tampaxxx-y-mas-29457",
+   "dominio": "alpogo.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL BULA"
+   ],
+   "lat": -34.599946,
+   "lng": -58.41754,
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/4ecc3eb3-bdbb-48dc-938f-45c3d9496912.webp"
   },
   {
    "id": "d99ba38f1268",
@@ -41564,6 +43366,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/63/000322863.jpg"
   },
   {
+   "id": "c7362b2ddf81",
+   "titulo": "Ailén Peralta presenta Entre nosotros",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL TORQUATO TASSO",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1575",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "22:00",
+   "horarios": "Apertura de sala 20 h",
+   "precio": "Consultar",
+   "descripcion": "Show acústico e íntimo con canciones de su recorrido. Entradas por Passline.",
+   "url": "https://torquatotasso.com.ar/2020/05/02/ailen-peralta/",
+   "dominio": "torquatotasso.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL TORQUATO TASSO",
+   "fuentes": [
+    "CENTRO CULTURAL TORQUATO TASSO"
+   ],
+   "lat": -34.626399,
+   "lng": -58.371093,
+   "embebible": true,
+   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/09/IMG_3517-1024x407.jpg"
+  },
+  {
    "id": "8feca8e64e98",
    "titulo": "Ailén Peralta | Entre nosotros | Show acústico",
    "categoria": "Música",
@@ -41737,6 +43564,31 @@
    "lng": -58.417022,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/charly-garcia-parte-de-la-religion-musica-en-total-oscuridad-con-parlantes-holofonicos-555193-rec.jpg"
+  },
+  {
+   "id": "1d0803e7e016",
+   "titulo": "Chinese Football por primera vez en Argentina",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL BULA",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 70000",
+   "descripcion": "Primera presentación en Argentina de la banda china Chinese Football.",
+   "url": "https://alpogo.com/evento/chinese-football-por-primera-vez-en-argentina-29029",
+   "dominio": "alpogo.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL BULA"
+   ],
+   "lat": -34.599946,
+   "lng": -58.41754,
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/adaf00e9-8983-4840-92e1-3105b3e1cbee.webp"
   },
   {
    "id": "900f5f7ad20d",
@@ -42768,6 +44620,31 @@
    "imagen": "https://imagenes.passline.com/eventos/pptfest20-291026-557958-rec.jpg"
   },
   {
+   "id": "5e7dd044af7c",
+   "titulo": "Pablo Dacal presenta El Otro Lado",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "En el ciclo Sonido Organizado, el cancionista presenta su nuevo álbum, grabado frente a la pampa ondulada.",
+   "url": "https://www.rojas.uba.ar/agenda/pablo-dacal-presenta-el-otro-lado/910",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/62L676eqCucPcVua9uiAXraaJlOKlraOMSRWmQ8G.jpeg"
+  },
+  {
    "id": "b1356dc8e78a",
    "titulo": "Piwi Red",
    "categoria": "Evento",
@@ -43094,31 +44971,6 @@
    "imagen": "https://imagenes.passline.com/eventos/-813687-rec.jpg"
   },
   {
-   "id": "160d6cecc5e6",
-   "titulo": "VOLTAJE ALTERNO // ECHOES THE BAND (TRIBUTO A PINK FLOYD) + BLUE LAMINA // EN CLUB CONJURA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-29",
-   "fecha_fin": "2026-10-29",
-   "hora": "19:30",
-   "horarios": "",
-   "precio": "Desde $ 8000",
-   "descripcion": "VOLTAJE ALTERNO // ECHOES THE BAND (TRIBUTO A PINK FLOYD) + BLUE LAMINA // EN CLUB CONJURA en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/voltaje-alterno-echoes-the-band-tributo-a-pink-floyd-blue-lamina-en-club-conjura",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/voltaje-alterno-echoes-the-band-tributo-a-pink-floyd-los-duendes-en-club-conjura-568079-rec.jpg"
-  },
-  {
    "id": "b2d7c6d702a0",
    "titulo": "Visita guiada por el Centro Cultural Coreano",
    "categoria": "Visita guiada",
@@ -43140,6 +44992,82 @@
    ],
    "lat": -34.596677,
    "lng": -58.377,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c656dfbce852",
+   "titulo": "Voltaje Alterno + Echoes the Band (tributo a Pink Floyd) + Blue Lamina",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Desde $ 8000",
+   "descripcion": "Voltaje Alterno, el tributo a Pink Floyd de Echoes the Band y Blue Lamina.",
+   "url": "https://www.passline.com/sitio-evento/voltaje-alterno-echoes-the-band-tributo-a-pink-floyd-blue-lamina-en-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/voltaje-alterno-echoes-the-band-tributo-a-pink-floyd-los-duendes-en-club-conjura-568079-rec.jpg"
+  },
+  {
+   "id": "003050a6896f",
+   "titulo": "Wabi Sabi. La belleza de lo imperfecto",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-11-19",
+   "hora": "21:00",
+   "horarios": "Jueves 29/10 y 5, 12 y 19/11, 21 h",
+   "precio": "$ 15000",
+   "descripcion": "Compañía Pata de Ganso: una declaración contra la velocidad, bailar la impermanencia y la imperfección.",
+   "url": "https://www.rojas.uba.ar/agenda/wabi-sabi-la-belleza-de-lo-imperfecto/915",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/uinsBZUMdRyTJehfn5847dS97fvA1gnzEWbWH5H.png"
+  },
+  {
+   "id": "a36ed750254d",
+   "titulo": "XIV Encuentro Internacional de Haiku",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural e Informativo de la Embajada del Japón",
+   "barrio": "Retiro",
+   "direccion": "Bouchard 547, piso 15",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-30",
+   "hora": "14:30",
+   "horarios": "Jueves 29 de 14:30 a 16:30 h en el Centro Cultural de la Embajada; viernes 30 de 14:00 a 17:00 h en la Facultad de Derecho UBA",
+   "precio": "Gratis",
+   "descripcion": "Encuentro organizado por el Instituto Tōzai. El viernes 30 es en la Facultad de Derecho UBA (Av. Figueroa Alcorta 2263, 2.º piso). Gratis con inscripción previa.",
+   "url": "https://www.ar.emb-japan.go.jp/files/101010241.pdf",
+   "dominio": "ar.emb-japan.go.jp",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
+   "fuentes": [
+    "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": false,
    "imagen": ""
   },
@@ -43317,6 +45245,31 @@
    "lng": -58.373966,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/fiestas.jpg"
+  },
+  {
+   "id": "d22a43877a8d",
+   "titulo": "35 Orgullos: del Edicto a la Ley. Memoria, visibilidad y lucha",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-11-20",
+   "hora": "18:00",
+   "horarios": "Inauguración el 30 de octubre a las 18 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra con un recorrido político y estético por la genealogía de las marchas del orgullo en Buenos Aires. Salón de las Columnas.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/35-orgullos-del-edicto-la-ley-memoria-visibilidad-y-lucha",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-08/PLACAS%20P%C3%81GINA%20URONDO%2815%29_0.jpg"
   },
   {
    "id": "c5b639aaeaa8",
@@ -44067,6 +46020,31 @@
    "lat": -34.611711,
    "lng": -58.512491,
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "c783a9f9c1b2",
+   "titulo": "Clase libre, abierta y gratuita: último viernes del mes",
+   "categoria": "Taller",
+   "lugar": "Amarama Espacio Cultural",
+   "barrio": "Almagro",
+   "direccion": "Sanchez De Bustamante 543",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Otra clase libre, abierta y gratuita de Sant Rodríguez en el ciclo del último viernes del mes.",
+   "url": "https://www.instagram.com/p/Ddkk_lPDLnK/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "AMARAMA ESPACIO CULTURAL"
+   ],
+   "lat": -34.603551,
+   "lng": -58.41434,
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -45222,6 +47200,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-791226-rec.jpg"
   },
   {
+   "id": "35079d84ff72",
+   "titulo": "Hestald + Histerica",
+   "categoria": "Música",
+   "lugar": "CLUB CULTURAL BULA",
+   "barrio": "Almagro",
+   "direccion": "Bulnes Y Lavalle",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "Hestald e Histerica en el Centro Cultural Bula.",
+   "url": "https://alpogo.com/evento/hestald-histerica-29460",
+   "dominio": "alpogo.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CLUB CULTURAL BULA"
+   ],
+   "lat": -34.599946,
+   "lng": -58.41754,
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/ee9aa017-4a63-420c-af0f-71568f08f981.webp"
+  },
+  {
    "id": "14a430c4dc22",
    "titulo": "Impro Sessions | Halloween Edition",
    "categoria": "Teatro",
@@ -45247,29 +47250,30 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193165854%2F479596694985%2F1%2Foriginal.20260910-143851?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9431187e51d08af176281c98518e0725"
   },
   {
-   "id": "3a6013d08865",
-   "titulo": "Informe sobre nadie",
+   "id": "66691d5721d6",
+   "titulo": "Informe sobre Nadie",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural Rector Ricardo Rojas",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
    "barrio": "Balvanera",
-   "direccion": "Av. Corrientes 2038",
+   "direccion": "Corrientes Av. 2038",
    "fecha_inicio": "2026-10-30",
    "fecha_fin": "2026-10-30",
    "hora": "21:00",
    "horarios": "Vie 21:00 (el 30/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural Rector Ricardo Rojas (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra101007-informe-sobre-nadie",
-   "dominio": "alternativateatral.com",
+   "precio": "$ 15000",
+   "descripcion": "Última función de la pieza que homenajea a Claudio Nadie, con dramaturgia de Theo Fernández y dirección de Benicio Chendo.",
+   "url": "https://www.rojas.uba.ar/agenda/informe-sobre-nadie/884",
+   "dominio": "rojas.uba.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
    "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS",
     "Alternativa Teatral"
    ],
    "lat": -34.604892,
    "lng": -58.395876,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/14/000314914.jpg"
+   "imagen": "https://www.rojas.uba.ar/storage/images/KTWdc3QItAvprgAZ0AB4voXkWnfp4BIyW3FaT6bF.jpeg"
   },
   {
    "id": "6aaf500e9e53",
@@ -46076,6 +48080,31 @@
    "imagen": "https://imagenes.passline.com/eventos/museum-viernes-3010-rakkatta-rec.jpg"
   },
   {
+   "id": "338c62783385",
+   "titulo": "Maldita Ginebra: ciclo de poesía y música",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Micrófono abierto para poetas y músicos.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/maldita-ginebra",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1789669611352-banner.jpg"
+  },
+  {
    "id": "f659e816badd",
    "titulo": "Me gusta de oro",
    "categoria": "Teatro",
@@ -46852,6 +48881,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000318384.jpg"
   },
   {
+   "id": "20ec50aeb242",
+   "titulo": "Sueño dirigido | Guillermo Martínez",
+   "categoria": "Evento",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de encuentros para desarmar los libros que amamos con escritores reconocidos. Modera: Natalia Hidalgo.",
+   "url": "https://www.rojas.uba.ar/agenda/ciclo-sueno-dirigido/902",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/PO0zJWI6QKoMtxLhtztH8h8jvw57vrzn9sJ3rBrX.jpeg"
+  },
+  {
    "id": "fc70792223fa",
    "titulo": "Super (ARG) | Williams | Zocco | Maldonado | Zio Benetti",
    "categoria": "Fiestas y electrónica",
@@ -46875,6 +48929,31 @@
    "lng": -58.499864,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "5eda069cd90d",
+   "titulo": "Tito Córdoba presenta Bá",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Tito Córdoba presenta su último disco, Bá, con banda.",
+   "url": "https://culturalthames.com.ar/event/164579-tito-cordoba",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1791048077097-banner.jpg"
   },
   {
    "id": "bcfa2a2bdc8c",
@@ -47201,6 +49280,31 @@
    "lng": -58.423057,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/winona-riders-en-groove-31102026-541787-rec.jpg"
+  },
+  {
+   "id": "140e3a9eba88",
+   "titulo": "Yoga del Sur de la India & Kalaripayattu",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+   "barrio": "Palermo",
+   "direccion": "José Antonio Cabrera 4175",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Encuentro de yoga del sur de la India y Kalaripayattu en el Centro Cultural Güngur y Thali, de 18:30 a 20:30 h.",
+   "url": "https://www.eventbrite.com/e/yoga-del-sur-de-india-kalaripayattu-tickets-2002731633227",
+   "dominio": "eventbrite.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA INDIA GÜNGUR"
+   ],
+   "lat": -34.595697,
+   "lng": -58.424504,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "6e6c2c0a5c6f",
@@ -47604,6 +49708,31 @@
    "imagen": "https://imagenes.passline.com/eventos/andando-descalzo-celebra-sus-30-anos-537233-rec.jpg"
   },
   {
+   "id": "aab306512b4c",
+   "titulo": "ARMUSA al Rojo Vivo | Tomás Gubitsch",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL RICARDO ROJAS",
+   "barrio": "Balvanera",
+   "direccion": "Corrientes Av. 2038",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Cuarto encuentro del ciclo de memoria audiovisual de la música argentina, dedicado a Tomás Gubitsch.",
+   "url": "https://www.rojas.uba.ar/agenda/armusa-al-rojo-vivo-ciclo-mensual-de-musica-inoxidable-en-formato-documental/849",
+   "dominio": "rojas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RICARDO ROJAS",
+   "fuentes": [
+    "CENTRO CULTURAL RICARDO ROJAS"
+   ],
+   "lat": -34.604892,
+   "lng": -58.395876,
+   "embebible": true,
+   "imagen": "https://www.rojas.uba.ar/storage/images/U5XKLR791X6qRypknuCkJDuRqwS7vIryCvaxj2HU.jpeg"
+  },
+  {
    "id": "59a6b3717418",
    "titulo": "ATOM",
    "categoria": "Fiestas y electrónica",
@@ -47979,6 +50108,31 @@
    "lng": -58.374719,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-807982-rec.jpg"
+  },
+  {
+   "id": "672c50caec8f",
+   "titulo": "Broke Party: especial Halloween",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Ciudad Cultural Konex · Sala de las Columnas",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:59",
+   "horarios": "Medianoche, puerta 00:30 h",
+   "precio": "Desde $ 8000",
+   "descripcion": "Fiesta de trasnoche especial de Halloween en la Sala de las Columnas.",
+   "url": "https://entradas.cckonex.org/event/broke-party",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/b0b2b9cb-52df-42c8-89cb-f8371d478115-640px.jpg"
   },
   {
    "id": "2f74b1f1b8f7",
@@ -49783,6 +51937,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/80/000321380.jpg"
   },
   {
+   "id": "2c919c45000e",
+   "titulo": "Homenaje al rock argentino: Lauraro Riente",
+   "categoria": "Música",
+   "lugar": "CULTRUM",
+   "barrio": "Villa Urquiza",
+   "direccion": "Triunvirato Av. 4205",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "A la gorra",
+   "descripcion": "Show en vivo y jam con Lauraro Riente en homenaje al rock argentino.",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CULTRUM"
+   ],
+   "lat": -34.577892,
+   "lng": -58.480299,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "bc0f887c39e5",
    "titulo": "ILOVEMUSIC 31/10",
    "categoria": "Evento",
@@ -50859,31 +53038,6 @@
    "imagen": "https://imagenes.passline.com/eventos/noche-de-brujas-vantage-567515-rec.jpg"
   },
   {
-   "id": "4934b694788f",
-   "titulo": "NOCHE RETRUCO // GOYA + APOTEGMA + REQUIEM FUZZ // EN CLUB CONJURA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-31",
-   "fecha_fin": "2026-10-31",
-   "hora": "20:00",
-   "horarios": "",
-   "precio": "Desde $ 5000",
-   "descripcion": "NOCHE RETRUCO // GOYA + APOTEGMA + REQUIEM FUZZ // EN CLUB CONJURA en Club Conjura. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/noche-retruco-goya-apotegma-requiem-fuzz-en-club-conjura",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/noche-retruco-goya-apotegma-requiem-fuzz-en-club-conjura-563863-rec.jpg"
-  },
-  {
    "id": "45eb09a5ee16",
    "titulo": "NightCrawl",
    "categoria": "Evento",
@@ -50932,6 +53086,32 @@
    "lng": -58.462494,
    "embebible": true,
    "imagen": "https://www.espaciomemoria.ar/wp-content/uploads/2026/10/no-voy-sola.jpg"
+  },
+  {
+   "id": "3ccc13e9b7bc",
+   "titulo": "Noche Retruco: Goya + Apotegma + Requiem Fuzz",
+   "categoria": "Música",
+   "lugar": "club conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio oroño 2476",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 5000",
+   "descripcion": "Noche Retruco con Goya, Apotegma y Requiem Fuzz.",
+   "url": "https://www.passline.com/sitio-evento/noche-retruco-goya-apotegma-requiem-fuzz-en-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "club conjura",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/noche-retruco-goya-apotegma-requiem-fuzz-en-club-conjura-563863-rec.jpg"
   },
   {
    "id": "54dfd3f583ed",
@@ -52035,6 +54215,31 @@
    "imagen": "https://images.venti.live/user-images/1790866797226-lg.jpg"
   },
   {
+   "id": "d4e065a16866",
+   "titulo": "Suena Primavera: Duda Brack",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Ciclo de cantoras de Brasil de MundosMusic, segunda temporada.",
+   "url": "https://culturalthames.com.ar/event/132902-suena-primavera-duda-brack",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1786653996487-banner.jpg"
+  },
+  {
    "id": "8086c95cf83d",
    "titulo": "Sábado 31 de Octubre MIKE RISH @LaBiblioteca x Somos Produce",
    "categoria": "Fiestas y electrónica",
@@ -52060,6 +54265,31 @@
    "lng": -58.376088,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-795976-rec.jpg"
+  },
+  {
+   "id": "fffa932d55d5",
+   "titulo": "Taller de Ópera del Conservatorio Superior de Música Manuel de Falla",
+   "categoria": "Música",
+   "lugar": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "barrio": "San Cristobal",
+   "direccion": "Independencia Av. 2540",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "1 alimento no perecedero",
+   "descripcion": "Escenas de La sonnambula (Bellini) y Carmen (Bizet) con catorce cantantes en formación, dirección musical de Rita Casamajor y dirección escénica de Diego Cosín. Salón Principal.",
+   "url": "https://centrosalamanca.com.ar/centro/eventos/taller-de-opera-del-conservatorio-superior-de-musica-manuel-de-falla/",
+   "dominio": "centrosalamanca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "fuentes": [
+    "CENTRO SALAMANCA RECREATIVO CULTURAL Y S"
+   ],
+   "lat": -34.618819,
+   "lng": -58.401517,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "1852bbdf0dc8",
@@ -52539,29 +54769,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000322656.jpg"
   },
   {
-   "id": "631438516f1f",
-   "titulo": "A Wilhelm Scream",
+   "id": "23642db6ea38",
+   "titulo": "A Wilhelm Scream: único show en Argentina",
    "categoria": "Música",
-   "lugar": "Club Cultural Bula",
+   "lugar": "CLUB CULTURAL BULA",
    "barrio": "Almagro",
    "direccion": "Bulnes Y Lavalle",
    "fecha_inicio": "2026-11-01",
    "fecha_fin": "2026-11-01",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
-   "precio": "$ 80000",
-   "descripcion": "Recital: A Wilhelm Scream en Club Cultural Bula.",
-   "url": "https://indiehoy.com/agenda/a-wilhelm-scream-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 90000",
+   "descripcion": "Único show en Argentina de la banda de punk A Wilhelm Scream.",
+   "url": "https://alpogo.com/evento/a-wilhelm-scream-unico-show-en-argentina-25264",
+   "dominio": "alpogo.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CLUB CULTURAL BULA",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.599946,
    "lng": -58.41754,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/whilhem.jpg"
+   "embebible": true,
+   "imagen": "https://imagenes.alpogo.com/eventos/b659d867-bcd2-41e6-8104-666cf77ba93d.webp"
   },
   {
    "id": "1188d52b49ee",
@@ -52612,6 +54843,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1790114536829.webp"
+  },
+  {
+   "id": "d49611b55280",
+   "titulo": "Afiches: concierto Nro 2",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "$ 10000",
+   "descripcion": "Segunda aparición de Afiches en el Cultural Thames.",
+   "url": "https://culturalthames.com.ar/event/164018-afiches-concierto-nro-2",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790949259443-banner.jpg"
   },
   {
    "id": "22ce2395dff4",
@@ -52839,6 +55095,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-777166-rec.jpg"
   },
   {
+   "id": "40aa439ed21a",
+   "titulo": "Casimiro del Tango",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL MACEDONIA",
+   "barrio": "Almagro",
+   "direccion": "Sarmiento 3632",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 25000",
+   "descripcion": "Musical inspirado en la figura de Casimiro Alcorta.",
+   "url": "https://centroculturalmacedonia.fanz.com.ar/event/casimiro-del-tango",
+   "dominio": "centroculturalmacedonia.fanz.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL MACEDONIA"
+   ],
+   "lat": -34.605782,
+   "lng": -58.41655,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1786373349865-banner.jpg"
+  },
+  {
    "id": "e0cd882fd77b",
    "titulo": "Ciclo manga corta",
    "categoria": "Teatro",
@@ -53013,6 +55294,31 @@
    "lng": -58.387833,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-805467-rec.jpg"
+  },
+  {
+   "id": "e38e5e9acd15",
+   "titulo": "Dulce o Konex",
+   "categoria": "Infantil",
+   "lugar": "Ciudad Cultural Konex · Patio + Sala de las Columnas",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "16:00",
+   "horarios": "De 16 a 19 h",
+   "precio": "$ 30000",
+   "descripcion": "Tarde de Halloween para chicos y familias en el Patio y la Sala de las Columnas.",
+   "url": "https://entradas.cckonex.org/event/dulce-o-konex",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/a8a00dce-cbab-4888-8f6a-912a6f228558-dulceokonex2026fminiatura.jpg"
   },
   {
    "id": "2375d72349ea",
@@ -54218,6 +56524,31 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/konex-2.jpg"
   },
   {
+   "id": "28efac44e7b0",
+   "titulo": "Pupina Plomer: especial brujas",
+   "categoria": "Literatura y charlas",
+   "lugar": "Ciudad Cultural Konex · Gran Sala",
+   "barrio": "Balvanera",
+   "direccion": "Sarmiento 3125",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 25000",
+   "descripcion": "Pupina Plomer presenta su especial brujas en la Gran Sala.",
+   "url": "https://entradas.cckonex.org/event/pupina-plomer",
+   "dominio": "entradas.cckonex.org",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CIUDAD CULTURAL KONEX"
+   ],
+   "lat": -34.606606,
+   "lng": -58.410354,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/d03d7e85-8184-4580-9f80-83ba1bfe4950-640x640.jpg"
+  },
+  {
    "id": "4640858c81ce",
    "titulo": "Resistencia poética",
    "categoria": "Teatro",
@@ -54642,6 +56973,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/65/000315265.jpg"
+  },
+  {
+   "id": "b03d19b39969",
+   "titulo": "Hermana Rueda",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL PACO URONDO",
+   "barrio": "San Nicolas",
+   "direccion": "25 De Mayo 201",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "2026-11-02",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra escénica en el Salón de los Balcones del Centro Cultural Paco Urondo.",
+   "url": "https://pacourondo.filo.uba.ar/index.php/eventos/hermana-rueda",
+   "dominio": "pacourondo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL PACO URONDO",
+   "fuentes": [
+    "CENTRO CULTURAL PACO URONDO"
+   ],
+   "lat": -34.605279,
+   "lng": -58.370845,
+   "embebible": false,
+   "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2833%29.jpg"
   },
   {
    "id": "8b56fdbf41f8",

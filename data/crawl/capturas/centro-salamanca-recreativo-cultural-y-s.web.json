@@ -1,0 +1,53 @@
+{
+ "id": "centro-salamanca-recreativo-cultural-y-s",
+ "canal": "web",
+ "fuente": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://centrosalamanca.com.ar/",
+  "https://centrosalamanca.com.ar/centro/",
+  "https://centrosalamanca.com.ar/centro/eventos/",
+  "https://centrosalamanca.com.ar/centro/eventos/bernarda-alba-epilogo-de-un-drama/",
+  "https://centrosalamanca.com.ar/centro/eventos/taller-de-opera-del-conservatorio-superior-de-musica-manuel-de-falla/",
+  "https://centrosalamanca.com.ar/centro/clases/taekwondo/",
+  "https://centrosalamanca.com.ar/centro/clases/flexibilidad-y-fortalecimiento/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Bernarda Alba, Epílogo de un drama",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "",
+   "lugar": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "1 alimento no perecedero",
+   "url": "https://centrosalamanca.com.ar/centro/eventos/bernarda-alba-epilogo-de-un-drama/",
+   "descripcion": "El Ballet de la Ciudad de Buenos Aires presenta una obra de danza-teatro dirigida por Miguel Gómez, relectura de La casa de Bernarda Alba de Lorca con danza española, flamenco y ballet clásico. Salón Principal, 50 minutos.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Taller de Ópera del Conservatorio Superior de Música Manuel de Falla",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "CENTRO SALAMANCA RECREATIVO CULTURAL Y S",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "1 alimento no perecedero",
+   "url": "https://centrosalamanca.com.ar/centro/eventos/taller-de-opera-del-conservatorio-superior-de-musica-manuel-de-falla/",
+   "descripcion": "Escenas de La sonnambula (Bellini) y Carmen (Bizet) con catorce cantantes en formación, dirección musical de Rita Casamajor y dirección escénica de Diego Cosín. Salón Principal.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

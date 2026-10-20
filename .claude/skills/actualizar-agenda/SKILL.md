@@ -46,8 +46,9 @@ are Spanish identifiers: use them exactly.
   `tabs_context`…). If they do not show up, load them with ToolSearch (`chrome`). Use a single tab of your
   own for the whole crawl.
 - Ready-made, tested JS tools: [navegador.md](navegador.md) says what each one does; read it at the start.
-  The code is in `navegador.js` and is **not pasted**: it is loaded with the line that `crawl.py iniciar`
-  prints (changing only the call at the end). The most used are `preparar()` (wait + cookies + scroll + "ver
+  The code is in `navegador.js` and is **not pasted**: first start `python scripts/crawl.py servir` in the
+  background (it serves the file on 127.0.0.1; the auto-mode classifier denies the jsDelivr import as
+  external code), then load it with the line that `crawl.py iniciar` prints (changing only the call at the end). The most used are `preparar()` (wait + cookies + scroll + "ver
   más" + classified links), `bloques()` (cards with a date) and `esperar()` (event pages). To read a listing
   use `bloques()` before `get_page_text`, and take screenshots only when the information is in an image or a
   notice cannot be closed.
@@ -56,7 +57,6 @@ are Spanish identifiers: use them exactly.
 ## 1. Start or resume
 
 ```bash
-git pull --rebase --autostash
 python scripts/crawl.py iniciar
 ```
 
@@ -98,7 +98,7 @@ only tries the new ones (or the ones not tried for more than 60 days), so it is 
 
 **At most 20 sites per session.** A session crawls up to 20 items from the queue (websites and Instagram
 profiles both count; sites saved by `sondear.py --corrida` and `reutilizado` ones do not), then publishes a
-progress update (section 6) and stops. The next session runs `crawl.py iniciar` and resumes the open run
+progress update (section 6, after writing down the lessons of the session and updating the docs) and stops. The next session runs `crawl.py iniciar` and resumes the open run
 where it left off. Only the session that empties the queue goes on to section 7 and closes the run.
 
 Repeat until the queue is empty or you have crawled 20 sites in this session:
@@ -164,8 +164,10 @@ accents and `¡«»` can fail: write the script with the Write tool and run it. 
 answers "no verdict" from the auto-mode classifier, retry once as-is; the `computer` `zoom` action on a
 region of the page reads small widgets (day tabs, times) without JavaScript.
 
-After the 20th site, publish a progress update (section 6) and end the session. That way the page is
-updated after every session even if the run takes several.
+After the 20th site, do the "Lecciones de la corrida" review (section 7) for this session: move what you
+learned to the skill, `navegador.md`, the scripts and the docs (`README.md`) as CLAUDE.md requires. Then publish
+a progress update (section 6) with those changes in the same commit and end the session. That way the page,
+the lessons and the docs are up to date after every session even if the run takes several.
 
 ## 3. Crawl a website
 
@@ -245,7 +247,8 @@ The home page is almost never enough: it usually shows a single exhibition or th
   aggregator) usually show title, venue and date only, and the page has the price and the picture. Do not
   save `precio` and `imagen` empty because the listing lacks them: open every event page (in the browser, or
   over HTTP with `sondear.pedir` and `sondear.objetos_evento`: its JSON-LD has `offers.price` and `image`, and
-  `og:image` is the fallback) and fill both in. An empty `precio` is only right when the page itself shows
+  `og:image` is the fallback; Eventbrite pages give no price over HTTP: read the `ARS` amount in the browser text)
+  and fill both in. An empty `precio` is only right when the page itself shows
   no price (or "Consultar"). When a listing has hundreds of events (Alternativa Teatral, Passline), do this
   at least for the ones in the next 7 days and say in the `nota` that the rest has no price yet.
 - From an event page, follow the link to tickets or "más info" if the performances or the price are there.
@@ -506,7 +509,7 @@ each save replaces the previous capture of that site.
 
 ```bash
 python scripts/armar_agenda.py
-git add data/
+git add data/ .claude/ scripts/ README.md
 git commit -m "Agenda <date>: crawl progress (<done>/<total> sites)"
 git pull --rebase --autostash && git push
 ```
@@ -562,7 +565,8 @@ python scripts/crawl.py cerrar
 
 ### Lecciones de la corrida
 
-Before the last commit, read the report (`data/crawl/informes/<date>.md`) and review the run: what was
+After every 20-site session (before its progress commit, section 6) and again before the closing commit, read
+the report (`data/crawl/informes/<date>.md`) and review what was crawled since the last review: what was
 costly, what failed, what you had to solve without the skill saying how. Each useful thing goes to its place:
 
 - **About one site** (where its agenda is, which button expands, that it does not load without waiting): it

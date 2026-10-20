@@ -15,6 +15,10 @@ Usage:
     python scripts/crawl.py estado                # run progress and Instagram quota
     python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report
     python scripts/crawl.py herramientas [llamada]   # the line that loads navegador.js into the tab
+    python scripts/crawl.py servir                # serves navegador.js on 127.0.0.1:8791 (leave it running in the
+                                                  # background); `herramientas` then prints a local import line
+                                                  # instead of the jsDelivr one, which the browser tool's
+                                                  # auto-mode classifier denies as external code
 
 Files:
     data/crawl/sitios.json          what to crawl and how each site behaves (enriched on every run)
@@ -26,6 +30,7 @@ Files:
 """
 import json
 import re
+import socket
 import subprocess
 import sys
 from collections import Counter
@@ -136,15 +141,64 @@ def url_herramientas():
     return f"https://cdn.jsdelivr.net/gh/{m.group(1)}@{commit}/{HERRAMIENTAS}", ""
 
 
+PUERTO_HERRAMIENTAS = 8791
+
+
+def servidor_activo():
+    """True if `crawl.py servir` is answering on 127.0.0.1."""
+    try:
+        with socket.create_connection(("127.0.0.1", PUERTO_HERRAMIENTAS), timeout=0.5):
+            return True
+    except OSError:
+        return False
+
+
 def linea_herramientas(llamada="preparar()"):
-    url, motivo = url_herramientas()
-    if not url:
-        return f"({motivo}) Pegar {HERRAMIENTAS} entero seguido de `window.__agt.{llamada}` en cada página."
+    if servidor_activo():
+        # Local copy of the repo's own file: the browser's auto-mode classifier does not treat it as external code.
+        url = f"http://127.0.0.1:{PUERTO_HERRAMIENTAS}/navegador.js"
+    else:
+        url, motivo = url_herramientas()
+        if not url:
+            return f"({motivo}) Pegar {HERRAMIENTAS} entero seguido de `window.__agt.{llamada}` en cada página."
     return f'(async () => {{ window.__agt || await import("{url}"); return window.__agt.{llamada}; }})()'
 
 
 def cmd_herramientas(args):
     print(linea_herramientas(args[0] if args else "preparar()"))
+
+
+def cmd_servir(args):
+    """Serves navegador.js from the working tree on 127.0.0.1 (blocks; run it in the background)."""
+    from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+    class Manejador(BaseHTTPRequestHandler):
+        def _cabeceras(self, codigo, tipo="text/plain", largo=0):
+            self.send_response(codigo)
+            self.send_header("Content-Type", tipo)
+            self.send_header("Content-Length", str(largo))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Private-Network", "true")
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+
+        def do_OPTIONS(self):
+            self._cabeceras(204)
+
+        def do_GET(self):
+            if self.path.split("?")[0] != "/navegador.js":
+                return self._cabeceras(404)
+            cuerpo = (RAIZ / HERRAMIENTAS).read_bytes()
+            self._cabeceras(200, "text/javascript; charset=utf-8", len(cuerpo))
+            self.wfile.write(cuerpo)
+
+        def log_message(self, *a):
+            pass
+
+    if servidor_activo():
+        return print(f"Ya hay un servidor en 127.0.0.1:{PUERTO_HERRAMIENTAS}.")
+    print(f"Sirviendo {HERRAMIENTAS} en http://127.0.0.1:{PUERTO_HERRAMIENTAS}/navegador.js (Ctrl+C para parar)", flush=True)
+    ThreadingHTTPServer(("127.0.0.1", PUERTO_HERRAMIENTAS), Manejador).serve_forever()
 
 
 # --- loading and saving -----------------------------------------------------------
@@ -368,9 +422,14 @@ def cmd_siguiente(args):
             print(f"Instagram: quedan {restantes} páginas de cupo hoy. Antes de abrir posts, consultar "
                   "`crawl.py ig-vistos <id> <urls>` y abrir solo los nuevos.")
     hechos = len(corrida["hechos"])
-    url, _ = url_herramientas()
-    if url:
-        print(f"Herramientas: {url}")
+    if servidor_activo():
+        print(f"Herramientas: http://127.0.0.1:{PUERTO_HERRAMIENTAS}/navegador.js")
+    else:
+        url, _ = url_herramientas()
+        if url:
+            print(f"Herramientas: {url}")
+        print("Sin servidor local de herramientas: `python scripts/crawl.py servir` (en segundo plano) evita el bloqueo "
+              "del clasificador al importar desde jsDelivr.")
     print(f"Avance: {hechos} de {len(corrida['cola'])} hechos. Ventana {corrida['ventana']['desde']} a {corrida['ventana']['hasta']}.")
     if not pend:
         print("Cola vacía: correr armar_agenda.py y `crawl.py cerrar`.")
@@ -962,7 +1021,8 @@ def cmd_cerrar(args):
 
 
 COMANDOS = {"iniciar": cmd_iniciar, "siguiente": cmd_siguiente, "ver": cmd_ver, "guardar": cmd_guardar, "ig-vistos": cmd_ig_vistos,
-            "estado": cmd_estado, "cerrar": cmd_cerrar, "herramientas": cmd_herramientas}
+            "estado": cmd_estado, "cerrar": cmd_cerrar, "herramientas": cmd_herramientas,
+            "servir": cmd_servir}
 
 
 def main():

@@ -1,0 +1,35 @@
+{
+ "id": "chela",
+ "canal": "web",
+ "fuente": "CHELA",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://chela.org.ar/",
+  "https://chela.org.ar/fnoba-6/",
+  "https://chela.org.ar/las-cuencas-cuentan-2026-aperturas-publicas/",
+  "https://fnoba.vercel.app/",
+  "https://fnoba.vercel.app/play/la-pendule",
+  "https://fnoba.vercel.app/play/mitos-e-historias-de-elefantes"
+ ],
+ "eventos": [
+  {
+   "titulo": "FNOBA.6: Festival Nueva Ópera de Buenos Aires",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Del 8 al 25 de octubre. En la semana 3: La Pendule y Pocket Cosmogonies (22 y 23/10), Joven Amaroq (23 y 24/10), Mitos e historias de elefantes y Thanks for Being Lifeless (24 y 25/10)",
+   "lugar": "CHELA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Festival",
+   "precio": "Gratis",
+   "url": "https://chela.org.ar/fnoba-6/",
+   "descripcion": "6.ª edición del Festival Nueva Ópera de la Fundación Williams: 10 años, 10 días, 10 nuevas óperas que articulan música, escena experimental, tecnología y artes visuales. Entrada libre y gratuita con reserva en la web de la Fundación Williams.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://fnoba.vercel.app/uploads/og-share.jpg"
+  }
+ ]
+}

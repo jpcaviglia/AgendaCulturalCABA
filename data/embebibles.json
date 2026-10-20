@@ -221,6 +221,12 @@
   "fecha": "2026-10-15",
   "url": "https://www.ccomplejoartmedia.com.ar/events"
  },
+ "centralticket.net": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-20",
+  "url": "https://centralticket.net/10741"
+ },
  "centroanafrank.com.ar": {
   "ok": true,
   "motivo": "",
@@ -238,6 +244,12 @@
   "motivo": "HTTP 403",
   "fecha": "2026-10-15",
   "url": "https://centroculturalborges.gob.ar/evento/513"
+ },
+ "centroculturalmacedonia.fanz.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-20",
+  "url": "https://centroculturalmacedonia.fanz.com.ar/event/tangotica"
  },
  "centroculturalrecoleta.org": {
   "ok": false,
@@ -364,6 +376,12 @@
   "motivo": "frame-ancestors 'none'",
   "fecha": "2026-10-15",
   "url": "https://www.enigmatickets.com/event/b625edaa-bdc4-4e4b-a1e3-c72fafb0f85c"
+ },
+ "entradas.cckonex.org": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-20",
+  "url": "https://entradas.cckonex.org/event/hermana-beba"
  },
  "entradasba.buenosaires.gob.ar": {
   "ok": false,

@@ -1,0 +1,82 @@
+{
+ "id": "cultrum",
+ "canal": "instagram",
+ "fuente": "CULTRUM",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/cultrumeventos/",
+  "https://www.instagram.com/p/Dd7cBLVka7r/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Días de Impro",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "descripcion": "Show de improvisación. Entrada libre y gratuita.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Club Cultrum",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "descripcion": "Show en vivo, jam, juegos y happy hour. Entrada libre y gratuita.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Carcajada Comedia: Cortá la semana",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Stand up",
+   "precio": "A la gorra",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "descripcion": "Ciclo de stand up de los miércoles.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Homenaje al rock argentino: Lauraro Riente",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "CULTRUM",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Rock",
+   "precio": "A la gorra",
+   "url": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "descripcion": "Show en vivo y jam con Lauraro Riente en homenaje al rock argentino.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/Dd7cBLVka7r/",
+   "imagen": ""
+  }
+ ]
+}
