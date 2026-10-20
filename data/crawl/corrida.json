@@ -459,7 +459,11 @@
   "gachi-prieto-galeria|instagram",
   "cosmocosa|instagram",
   "marq-museo-de-arquitectura-y-diseno|instagram",
-  "maman-fine-art|instagram"
+  "maman-fine-art|instagram",
+  "museo-nacional-del-grabado|instagram",
+  "roseti|instagram",
+  "factoria|instagram",
+  "centro-cultural-miguel-miranda|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -571,8 +575,29 @@
   "mar-dulce-galeria|instagram": "con_eventos",
   "monstera-club-cultural|instagram": "sin_eventos",
   "multiespacio-jxi|instagram": "no_carga",
-  "neu-kultur-haus|instagram": "no_carga"
+  "neu-kultur-haus|instagram": "no_carga",
+  "museo-nacional-del-grabado|web": "sin_eventos",
+  "museo-kosice|web": "con_eventos",
+  "club-cultural-mares|web": "con_eventos",
+  "la-nube|web": "con_eventos",
+  "nuestro-cine|web": "con_eventos",
+  "sala-lugones|web": "con_eventos",
+  "alianza-francesa|web": "con_eventos",
+  "pasillo-al-fondo-espacio-cultural|instagram": "con_eventos",
+  "teatrarte|instagram": "con_eventos",
+  "un-lugar-aparte|instagram": "con_eventos",
+  "vertice-espacio|instagram": "no_cultural",
+  "vertigo-espacio-cultural|instagram": "no_cultural",
+  "strummer-bar|web": "con_eventos",
+  "roseti|web": "sin_eventos",
+  "tcq|web": "con_eventos",
+  "espacio-simona|web": "con_eventos",
+  "factoria|web": "sin_eventos",
+  "el-jufre-teatro-bar|web": "con_eventos",
+  "centro-cultural-miguel-miranda|web": "sin_eventos",
+  "nuestra-america|instagram": "sin_eventos",
+  "woki-toki|instagram": "no_carga"
  },
  "sitios_nuevos": [],
- "eventos": 2727
+ "eventos": 2775
 }

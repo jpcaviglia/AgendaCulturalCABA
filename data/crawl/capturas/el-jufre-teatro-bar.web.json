@@ -1,0 +1,69 @@
+{
+ "id": "el-jufre-teatro-bar",
+ "canal": "web",
+ "fuente": "EL JUFRE TEATRO-BAR",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://eljufre.com.ar/",
+  "https://eljufre.com.ar/cartelera-miercoles/",
+  "https://eljufre.com.ar/cartelera-jue/",
+  "https://eljufre.com.ar/cartelera-viernes/",
+  "https://eljufre.com.ar/cartelera-sabado/",
+  "https://eljufre.com.ar/cartelera-domingo/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Festival de obras cortas (dirección: Pablo Roig)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "Sábados 20 h",
+   "lugar": "El Jufre Teatro Bar",
+   "barrio": "Villa Crespo",
+   "direccion": "Jufré 444",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://eljufre.com.ar/cartelera-sabado/",
+   "descripcion": "Ciclo de obras cortas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Fuera de línea: sistema dañado (dirección: Gabriela Spezzi)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "22:00",
+   "horarios": "Sábados 22 h",
+   "lugar": "El Jufre Teatro Bar",
+   "barrio": "Villa Crespo",
+   "direccion": "Jufré 444",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://eljufre.com.ar/cartelera-sabado/",
+   "descripcion": "¿Y si un simple trámite bancario se transformara en una situación de la que no podés salir? Clara y Ernesto...",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Basta para mí (dirección: Patricia Meda)",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-11-01",
+   "hora": "17:30",
+   "horarios": "Domingos 17:30 h",
+   "lugar": "El Jufre Teatro Bar",
+   "barrio": "Villa Crespo",
+   "direccion": "Jufré 444",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://eljufre.com.ar/cartelera-domingo/",
+   "descripcion": "¿Cuál es tu límite de tolerancia con el otro?",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

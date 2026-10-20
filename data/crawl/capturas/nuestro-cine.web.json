@@ -1,0 +1,48 @@
+{
+ "id": "nuestro-cine",
+ "canal": "web",
+ "fuente": "nuestro cine",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://linktr.ee/nuestrocine",
+  "https://www.eventbrite.com.ar/e/jennifers-body-ciclo-nuestro-cine-feat-maricafe-viewing-party-tickets-2002979642028"
+ ],
+ "eventos": [
+  {
+   "titulo": "The Hunger (ciclo Nuestro Cine: cine cuir)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "Ciclo Nuestro Cine",
+   "barrio": "Palermo",
+   "direccion": "Honduras 4096",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://linktr.ee/nuestrocine",
+   "descripcion": "Proyección de The Hunger en el ciclo Nuestro Cine, cine cuir por y para nosotres; entradas por formulario.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Jennifer's Body (ciclo Nuestro Cine feat. Maricafé, viewing party)",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "Ciclo Nuestro Cine",
+   "barrio": "Palermo",
+   "direccion": "Honduras 4096",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.eventbrite.com.ar/e/jennifers-body-ciclo-nuestro-cine-feat-maricafe-viewing-party-tickets-2002979642028",
+   "descripcion": "Proyección de Jennifer's Body en el ciclo Nuestro Cine, cine cuir por y para nosotres, con Maricafé.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

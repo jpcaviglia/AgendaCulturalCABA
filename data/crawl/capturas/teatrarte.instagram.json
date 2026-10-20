@@ -1,0 +1,48 @@
+{
+ "id": "teatrarte",
+ "canal": "instagram",
+ "fuente": "TEATRARTE",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://linktr.ee/teatrartedevoto",
+  "https://www.alternativateatral.com/teatro5177-teatrarte"
+ ],
+ "eventos": [
+  {
+   "titulo": "El Seminario",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "22:00",
+   "horarios": "Viernes 22 h",
+   "lugar": "TEATRARTE",
+   "barrio": "Villa Devoto",
+   "direccion": "Asunción 4168",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "https://www.alternativateatral.com/obra102332-el-seminario",
+   "descripcion": "El Seminario, en TEATRARTE. Funciones semanales según la cartelera de Alternativa Teatral.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Yo soy mi propio monstruo",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "Sábados 20 h",
+   "lugar": "TEATRARTE",
+   "barrio": "Villa Devoto",
+   "direccion": "Asunción 4168",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.alternativateatral.com/obra103556-yo-soy-mi-propio-monstruo",
+   "descripcion": "Yo soy mi propio monstruo, en TEATRARTE. Funciones semanales según la cartelera de Alternativa Teatral.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

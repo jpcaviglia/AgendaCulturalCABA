@@ -269,6 +269,12 @@
   "fecha": "2026-10-15",
   "url": "https://www.cinegaumont.ar/es-AR/programacion/6368"
  },
+ "citritickets.com.ar": {
+  "ok": false,
+  "motivo": "frame-ancestors 'self'",
+  "fecha": "2026-10-20",
+  "url": "https://citritickets.com.ar/evento?id=728b4027-02db-4dad-a112-87439eeb28b6&occurrence=2dec21d2-4ad8-487d-855a-9fa177fdc5ab"
+ },
  "clubsocialcambalache.com": {
   "ok": true,
   "motivo": "",
@@ -496,6 +502,12 @@
   "motivo": "frame-ancestors 'self'",
   "fecha": "2026-10-15",
   "url": "https://www.klemm.org.ar/Exposiciones/Actuales/A-la-espera-de-que-el-sueno-me-traiga-olvido"
+ },
+ "kosice.com.ar": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-20",
+  "url": "https://kosice.com.ar/entradas/entradas.php"
  },
  "lafraguacultural.com": {
   "ok": true,

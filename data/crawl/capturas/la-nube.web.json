@@ -1,0 +1,49 @@
+{
+ "id": "la-nube",
+ "canal": "web",
+ "fuente": "La Nube",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://linktr.ee/lanubebuenosaires",
+  "https://events.flashpass.com.ar/eventos/vicio-fantasia-x-la-nube-2954",
+  "https://events.flashpass.com.ar/eventos/veronica-zhang-ss27-handle-with-care-desfile-after-party-6712"
+ ],
+ "eventos": [
+  {
+   "titulo": "Vicio Fantasia x La Nube",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "23 a 05 h",
+   "lugar": "La Nube",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "$ 22000",
+   "url": "https://events.flashpass.com.ar/eventos/vicio-fantasia-x-la-nube-2954",
+   "descripcion": "Primera fiesta de la temporada al aire libre en La Nube. Lineup: E.tt.a & Sol Porro, Palazzo & Ari Harari, Loic Merci & Rocketsinthemix.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Verónica Zhang SS27 – Handle with care: desfile + after party",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "22:30 a 04 h",
+   "lugar": "La Nube",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "$ 16000",
+   "url": "https://events.flashpass.com.ar/eventos/veronica-zhang-ss27-handle-with-care-desfile-after-party-6712",
+   "descripcion": "Desfile de la colección SS27 de Verónica Zhang y after party en La Nube.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}
