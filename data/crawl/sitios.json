@@ -3653,7 +3653,7 @@
    "direccion": "Acuña De Figueroa, Francisco 795",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -3662,12 +3662,21 @@
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Blog sin actualizar desde 2022 aproximadamente.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lacasadeteresa"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lacasadeteresa",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "blog abandonado, sin fechas con año"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -3871,7 +3880,7 @@
    "direccion": "Guardia Vieja 3811",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
@@ -3879,13 +3888,22 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Dominio propio caído; el espacio se encuentra en Instagram (@ladran.sancho_ok) y Facebook."
+    "2026-10-15 [web] Dominio propio caído; el espacio se encuentra en Instagram (@ladran.sancho_ok) y Facebook.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -3906,23 +3924,32 @@
    "direccion": "Medrano Av. 645",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog vacío",
-    "2026-10-15 [web] Blog abandonado; revisar Instagram @lasmilyunartes."
+    "2026-10-15 [web] Blog abandonado; revisar Instagram @lasmilyunartes.",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar desde 2015; revisar Instagram."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "blog de Blogger con vista tipo magazine; sin fechas actuales"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -4838,21 +4865,30 @@
    "direccion": "Riobamba 434",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "blog político de 2017"
+   },
    "notas": [
-    "2026-10-15 [web] Blog político inactivo desde 2017; la web guardada no corresponde a una agenda cultural."
+    "2026-10-15 [web] Blog político inactivo desde 2017; la web guardada no corresponde a una agenda cultural.",
+    "2026-10-20 [web] 2026-10-20: no es un espacio cultural con programación."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_cultural",
      "eventos": 0
     }
    ],
@@ -4973,16 +5009,19 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
    },
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "librería, sin agenda"
+   },
    "notas": [
-    "2026-10-15 [web] Es una librería sin programación en la web; ver Instagram @libreria.micasa por presentaciones."
+    "2026-10-15 [web] Es una librería sin programación en la web; ver Instagram @libreria.micasa por presentaciones.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
    "enlaces_descartados": [
     {
@@ -5019,6 +5058,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -5098,18 +5143,20 @@
    "direccion": "Pasco 689",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
     }
    },
    "comportamiento": {
-    "web": "blog de Blogspot sin novedades desde 2012-2013 (la página de talleres tiene un comentario de 2023)"
+    "web": "blog de Blogspot sin novedades desde 2012-2013 (la página de talleres tiene un comentario de 2023)",
+    "extraccion": "blog abandonado desde 2014"
    },
    "notas": [
     "2026-10-15 [sondeo sin navegador] El blog está abandonado: conviene buscar Instagram u otra web; si no hay, revisar si el espacio sigue abierto.",
-    "2026-10-15 [web] Blog abandonado; Instagram @elmultipasco."
+    "2026-10-15 [web] Blog abandonado; Instagram @elmultipasco.",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar desde 2014; revisar Instagram."
    ],
    "bio_probada": "2026-10-15",
    "historial": [
@@ -5117,6 +5164,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -7040,15 +7093,18 @@
    "direccion": "Biedma, Jose Juan 1020",
    "notas": [
     "2026-10-15: la web cambió de https://www.facebook.com/lecidespaciocultural a https://lecidespaciocultural.blogspot.com/",
-    "2026-10-15 [web] Blog abandonado desde 2016; José Juan Biedma 1020, Caballito. Buscar Instagram si existe."
+    "2026-10-15 [web] Blog abandonado desde 2016; José Juan Biedma 1020, Caballito. Buscar Instagram si existe.",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar desde 2016; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "blog de Blogger abandonado desde 2016"
+   },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "historial": [
@@ -7056,6 +7112,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -7074,7 +7136,7 @@
    "direccion": "Yerbal 1655",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -7082,13 +7144,22 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Cena-show permanente sin programación fechada; Yerbal 1655, Caballito."
+    "2026-10-15 [web] Cena-show permanente sin programación fechada; Yerbal 1655, Caballito.",
+    "2026-10-20 [web] 2026-10-20: cena show permanente sin agenda; revisar Instagram."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "cena show permanente sin fechas"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -7922,17 +7993,20 @@
    "direccion": "Arredondo, Virrey 2495",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Alquiler de salas",
-    "2026-10-15 [web] Sala de alquiler en Belgrano (Virrey Arredondo 2495); cartelera desactualizada desde 2019."
+    "2026-10-15 [web] Sala de alquiler en Belgrano (Virrey Arredondo 2495); cartelera desactualizada desde 2019.",
+    "2026-10-20 [web] 2026-10-20: sin cartelera; revisar Instagram @espacioinboccalupo."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "carga": "aceptar el aviso de cookies; sitio de Wix sin agenda"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.inboccalupo.com.ar/salas",
@@ -7948,9 +8022,9 @@
     },
     {
      "url": "https://www.inboccalupo.com.ar/mundoempresas",
-     "texto": "Mundo empresas",
-     "motivo": "eventos corporativos",
-     "fecha": "2026-10-15"
+     "texto": "Mundo Empresas",
+     "motivo": "eventos corporativos, no públicos",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -7958,6 +8032,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -8756,8 +8836,8 @@
    "direccion": "Don Pedro De Mendoza Av. 1555",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     }
@@ -8765,15 +8845,24 @@
    "notas": [
     "2026-10-14: web corregida (antes http://artemunar.com.ar/)",
     "2026-10-14 [revisión anterior: sin_agenda] Galería/museo sin muestras fechadas en el sitio; @munar_arte",
-    "2026-10-15 [web] Sitio de una sola página sin fechas; la programación está en Instagram @munar_arte."
+    "2026-10-15 [web] Sitio de una sola página sin fechas; la programación está en Instagram @munar_arte.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "portfolio de actividades pasadas; la agenda está en Instagram"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -9579,23 +9668,32 @@
    "bio_probada": "2026-10-15",
    "notas": [
     "2026-10-15: la web cambió de https://www.buenosaires.gob.ar/cultura/ensenanzaartistica/la-vidriera a https://buenosaires.gob.ar/gcaba_historico/la-vidriera",
-    "2026-10-15 [web] URL cambió a /gcaba_historico/la-vidriera. Perú 374, San Telmo. La agenda web se actualiza poco; la programación vigente se publica en Instagram @dgeartistica."
+    "2026-10-15 [web] URL cambió a /gcaba_historico/la-vidriera. Perú 374, San Telmo. La agenda web se actualiza poco; la programación vigente se publica en Instagram @dgeartistica.",
+    "2026-10-20 [web] 2026-10-20: la agenda de la ficha quedó en junio; revisar Instagram de la DGEART."
    ],
    "entradas": [
     "https://buenosaires.gob.ar/gcaba_historico/la-vidriera"
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; la ficha tiene la 'Agenda de conciertos' con la próxima fecha del ciclo Música en La Vidriera"
+   },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -9893,7 +9991,7 @@
    "direccion": "Chilavert, Martiniano, Coronel 1136",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -9901,14 +9999,23 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2015",
-    "2026-10-15 [web] Blog sin actualizar desde 2015."
+    "2026-10-15 [web] Blog sin actualizar desde 2015.",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar desde 2015; revisar Instagram."
    ],
    "comportamiento": {
-    "url": "usar https://gtcpompeya.blogspot.com sin www"
+    "url": "usar https://gtcpompeya.blogspot.com sin www",
+    "carga": "certificado inválido en https con www; sondear.py lo lee igual",
+    "extraccion": "blog abandonado desde 2015"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -11372,21 +11479,30 @@
    "direccion": "Justo, Juan B. Av. 889",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: EspacioLaEscalera",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web; solo Facebook y directorios."
+    "2026-10-15 [web] Sin web; solo Facebook y directorios.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -11457,24 +11573,33 @@
    "direccion": "Alvarez, Julian 1315",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/libariomultiespacio",
-    "2026-10-15 [web] La agenda está en Instagram @libariomultiespacio y cuentas de cada ciclo; Julián Álvarez 1315, Palermo."
+    "2026-10-15 [web] La agenda está en Instagram @libariomultiespacio y cuentas de cada ciclo; Julián Álvarez 1315, Palermo.",
+    "2026-10-20 [web] 2026-10-20: la agenda está en Instagram; revisar @libariomultiespacio."
    ],
    "enlace_bio": "https://linktr.ee/libariomultiespacio",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "Linktree que remite a las redes para la agenda"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -12494,7 +12619,7 @@
    "direccion": "Catamarca 1747",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -12502,16 +12627,14 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío",
-    "2026-10-15 [web] Eventos = alquiler de espacios; sin agenda en la web, ver Instagram @knopfundacion."
+    "2026-10-15 [web] Eventos = alquiler de espacios; sin agenda en la web, ver Instagram @knopfundacion.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram @knopfundacion."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "carga": "certificado inválido en https sin www; en el navegador carga",
+    "contenido": "fundación con salas en alquiler"
+   },
    "enlaces_descartados": [
-    {
-     "url": "https://www.naum-knop.org/prensa",
-     "texto": "Prensa",
-     "motivo": "notas de prensa",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://www.naum-knop.org/naum/biografia",
      "texto": "Naum Knop",
@@ -12519,21 +12642,33 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://www.naum-knop.org/fundacion/historia",
-     "texto": "Fundación Naum Knop",
-     "motivo": "historia",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.naum-knop.org/contacto",
      "texto": "Contacto",
      "motivo": "contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.naum-knop.org/prensa",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.naum-knop.org/fundacion/historia",
+     "texto": "Fundación",
+     "motivo": "historia institucional",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -13883,21 +14018,30 @@
    "direccion": "San Juan Av. 1826",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: labisagraenSL",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web; se comunica por Facebook e Instagram @labisagraok."
+    "2026-10-15 [web] Sin web; se comunica por Facebook e Instagram @labisagraok.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -16432,9 +16576,12 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "No confirmada",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "Linktree sin agenda; club social y deportivo"
+   },
    "notas": [
-    "2026-10-15 [web] Club social y deportivo; la agenda va por Instagram."
+    "2026-10-15 [web] Club social y deportivo; la agenda va por Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram @laculturadelbarrio.oficial."
    ],
    "enlaces_descartados": [
     {
@@ -16446,7 +16593,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -16455,6 +16602,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -17385,7 +17538,7 @@
    "direccion": "Zuviria 6654",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -17394,12 +17547,22 @@
    "notas": [
     "2026-10-14: web corregida (antes https://www.piedrabuenarte.com.ar)",
     "2026-10-14 [revisión anterior: navegador] Blog con novedades fechadas",
-    "2026-10-15 [web] Blog sin actualizar desde 2011 (Villa Lugano)."
+    "2026-10-15 [web] Blog sin actualizar desde 2011 (Villa Lugano).",
+    "2026-10-20 [web] 2026-10-20: blog sin actualizar desde 2011; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "blog abandonado desde 2011",
+    "carga": "http redirige a https"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -17682,10 +17845,12 @@
    "enlace_bio": "https://linktr.ee/lalala.ortuzar",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lalala.ortuzar",
-    "2026-10-15 [web] Linktree desactualizado (último show 15/9); la programación vigente se busca en Instagram."
+    "2026-10-15 [web] Linktree desactualizado (último show 15/9); la programación vigente se busca en Instagram.",
+    "2026-10-20 [web] 2026-10-20: Linktree con eventos de 2024; revisar Instagram @lalala.ortuzar."
    ],
    "comportamiento": {
-    "plataforma": "Linktree con un enlace de Passline por show, sin actualizar"
+    "plataforma": "Linktree con un enlace de Passline por show, sin actualizar",
+    "extraccion": "la web es el Linktree con enlaces de Passline por evento; está desactualizado"
    },
    "enlaces_descartados": [
     {
@@ -17697,7 +17862,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -17706,6 +17871,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -21384,14 +21555,17 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museohistoriconacional.cultura.gob.ar/info/coleccion-del-traje-argentino/",
     "2026-10-15 [web] Sin muestra vigente publicada en la web; revisar Instagram @museodeltrajeba.",
-    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeltrajeba"
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeltrajeba",
+    "2026-10-20 [web] 2026-10-20: sin muestra vigente publicada; revisar Instagram @museodeltrajeba."
    ],
    "id": "museo-nacional-de-la-historia-del-traje",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha institucional dentro del sitio del Museo Histórico Nacional"
+   },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
@@ -21401,6 +21575,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -21903,13 +22083,16 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://turismo.buenosaires.gob.ar/es/otros-establecimientos/museo-mundial-del-tango",
-    "2026-10-15 [web] Sin web propia; agenda en Instagram @acanacionaldeltango. Av. de Mayo 833, Monserrat."
+    "2026-10-15 [web] Sin web propia; agenda en Instagram @acanacionaldeltango. Av. de Mayo 833, Monserrat.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
    "id": "museo-mundial-del-tango",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha de turismo sin agenda"
+   },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -21918,6 +22101,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0

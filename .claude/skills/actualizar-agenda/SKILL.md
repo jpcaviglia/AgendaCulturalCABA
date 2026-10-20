@@ -312,6 +312,9 @@ day and time goes as a separate event.
 - **Weekly bar programming** (trivias, bingos, "pizza y vino libre", Tinder Night, chess tournaments) is
   loaded only when it is cultural (talleres, charlas, degustaciones, karaoke, ciclos); say what was left out
   in `comportamiento`. A current exhibition with no closing date anywhere is not loaded.
+- A listing or poster with a date but **no year** (`viernes 18/10`, `jueves 3/3`): check that the weekday matches 2026 (18/10/2026
+  is a Sunday) and, on a blog, the year in the post URL (`/2016/09/…`); if it does not match, it is an old post: do not
+  load it, and say in the `nota` that the agenda is stale.
 - A museum whose home page or Instagram bio says "cerrado por montaje" and whose posts carry no dates is
   `sin_eventos` with that as `evidencia`.
 
