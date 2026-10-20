@@ -1,0 +1,50 @@
+{
+ "id": "museo-de-la-ciudad",
+ "canal": "web",
+ "fuente": "Museo de la Ciudad",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo/exposiciones",
+  "https://buenosaires.gob.ar/gcaba_historico/museos/buenos-aires-museo/noticias",
+  "https://buenosaires.gob.ar/gcaba_historico/noticias/el-otro-perotta-una-mirada-inedita-sobre-el-fotografo-que-retrato-el-0"
+ ],
+ "eventos": [
+  {
+   "titulo": "Inauguración de \"El otro Perotta\": retrospectiva de José Luis Perotta",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "Museo de la Ciudad",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 223",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/el-otro-perotta-una-mirada-inedita-sobre-el-fotografo-que-retrato-el-0",
+   "descripcion": "Inauguración de la primera gran retrospectiva del fotógrafo José Luis Perotta (1948-1989), con curaduría de Paula Carrella, a partir del Fondo Fotográfico del museo: moda y publicidad, música y cultura popular, ensayos fotográficos.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Jos%C3%A9%20Luis%20Perotta.%20Autorretrato%2C%20c.1969.2.jpg"
+  },
+  {
+   "titulo": "Recorridos guiados por la exposición permanente del Museo de la Ciudad",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "15:30",
+   "horarios": "Miércoles, jueves y viernes 15.30 h",
+   "lugar": "Museo de la Ciudad",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 187",
+   "categoria": "Visitas guiadas",
+   "precio": "$ 2.000 residentes (gratis los miércoles para residentes argentinos); $ 10.000 público general",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+   "descripcion": "Visita guiada por la exposición permanente en Altos de Elorriaga, sede del museo en el Casco Histórico.",
+   "vigente_sin_fin": true,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

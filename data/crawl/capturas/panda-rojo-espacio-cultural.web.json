@@ -1,0 +1,67 @@
+{
+ "id": "panda-rojo-espacio-cultural",
+ "canal": "web",
+ "fuente": "PANDA ROJO ESPACIO CULTURAL",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://pandarojo.com.ar/cartelera/",
+  "https://pandarojo.com.ar/contacto/",
+  "https://pandarojo.com.ar/production/cineclub/",
+  "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Cineclub Panda Rojo",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "categoria": "Cine",
+   "precio": "Anticipada $ 5.000 + cargo; en puerta $ 9.000; suscriptores sin cargo",
+   "url": "https://pandarojo.com.ar/production/cineclub/",
+   "descripcion": "Proyección del Cineclub de Panda Rojo: los suscriptores votan las películas y no pagan entrada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2026/05/uni-pageCineclub.png"
+  },
+  {
+   "titulo": "El Circuito - Espacio Escénico Abierto",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "categoria": "Artes escénicas",
+   "precio": "Gratis",
+   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/",
+   "descripcion": "Espacio escénico abierto en el que artistas tienen hasta 10 minutos de escenario para probar material nuevo; también hay expo de artes visuales y fotografía. No se cobra entrada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2024/10/unisize_elCircuitoAO_4320x2160_@2x.jpg"
+  },
+  {
+   "titulo": "El Circuito - Espacio Escénico Abierto",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "categoria": "Artes escénicas",
+   "precio": "Gratis",
+   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/",
+   "descripcion": "Espacio escénico abierto en el que artistas tienen hasta 10 minutos de escenario para probar material nuevo; también hay expo de artes visuales y fotografía. No se cobra entrada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2024/10/unisize_elCircuitoAO_4320x2160_@2x.jpg"
+  }
+ ]
+}

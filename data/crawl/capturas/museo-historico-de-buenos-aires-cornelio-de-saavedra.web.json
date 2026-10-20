@@ -1,0 +1,66 @@
+{
+ "id": "museo-historico-de-buenos-aires-cornelio-de-saavedra",
+ "canal": "web",
+ "fuente": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
+  "https://buenosaires.gob.ar/gcaba_historico/noticias/sala-de-ensayo-con-la-escuela-de-musica-ndeg-09-en-el-museo-saavedra",
+  "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra"
+ ],
+ "eventos": [
+  {
+   "titulo": "Taller de juegos teatrales en el Museo Saavedra",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "15:00",
+   "horarios": "",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra",
+   "descripcion": "En el Mes de las Personas Adultas Mayores: recorrido por algunas salas del museo y taller de juegos teatrales como cierre de la jornada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Gemini_Generated_Image_mbnihqmbnihqmbni.jpg"
+  },
+  {
+   "titulo": "Cuentos al patio: narraciones orales en el Museo Saavedra",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "categoria": "Literatura",
+   "precio": "",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra",
+   "descripcion": "Los Cuenteros de la Escuela de la Palabra comparten una jornada de narraciones orales en el jardín del museo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Gemini_Generated_Image_mbnihqmbnihqmbni.jpg"
+  },
+  {
+   "titulo": "Sala de Ensayo con la Escuela de Música N° 9 en el Museo Saavedra",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "17:30",
+   "horarios": "",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/sala-de-ensayo-con-la-escuela-de-musica-ndeg-09-en-el-museo-saavedra",
+   "descripcion": "Estudiantes y docentes de la Escuela de Música N° 9 de Villa Urquiza presentan su orquesta y su coro en una presentación abierta a la comunidad.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/File.jpg"
+  }
+ ]
+}

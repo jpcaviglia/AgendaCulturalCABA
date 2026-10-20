@@ -1,0 +1,52 @@
+{
+ "id": "museo-evita",
+ "canal": "web",
+ "fuente": "Museo Evita",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://museoevita.org.ar/",
+  "https://museoevita.org.ar/agenda/",
+  "https://museoevita.org.ar/umbrales-17-obras-una-misma-huella/",
+  "https://museoevita.org.ar/visitas-guiadas/",
+  "https://museoevita.org.ar/entre-la-devocion-y-la-critica-conversaciones-sobre-la-pintura-de-roberto-cortes/",
+  "https://museoevita.org.ar/recorrido-accesible-para-personas-ciegas-o-con-baja-vision/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Umbrales. 17 obras, una misma huella",
+   "fecha_inicio": "2026-08-04",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "Martes a domingo de 11 a 19 h",
+   "lugar": "Museo Evita",
+   "barrio": "Palermo",
+   "direccion": "Lafinur 2988",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://museoevita.org.ar/umbrales-17-obras-una-misma-huella/",
+   "descripcion": "Muestra colectiva de 17 artistas (entre ellos Nicolás García Uriburu, Daniel Santoro y Daniela Jozami) en la Sala de Exposición Temporaria: cada obra es un umbral hacia la figura de Evita.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Visita guiada para público general en el Museo Evita",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "16:00",
+   "horarios": "Todos los días 16 h, en español. Cupo limitado",
+   "lugar": "Museo Evita",
+   "barrio": "Palermo",
+   "direccion": "Lafinur 2988",
+   "categoria": "Visitas guiadas",
+   "precio": "",
+   "url": "https://museoevita.org.ar/visitas-guiadas-general/",
+   "descripcion": "Visita guiada por el museo y la vida de Eva Perón, en español, con cupo limitado.",
+   "vigente_sin_fin": true,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

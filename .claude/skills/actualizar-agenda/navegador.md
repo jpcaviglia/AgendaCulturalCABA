@@ -178,6 +178,12 @@ handler raises, the browser's request hangs and, after six of them, Chrome stops
 port). If the POST still does not arrive, put the text in a `<pre>` inside `<article>` and read it with
 `get_page_text` (the `javascript_tool` result is cut at ~1,000 characters).
 
+**A frozen tab** (`CDP sendCommand "Runtime.evaluate" timed out after 45000ms`, usually after importing the tools
+on a heavy single-page app): do not close the old tab first, because closing the only tab of the group drops the
+group and the next call fails with "not in Claude's tab group". Call `tabs_context_mcp {createIfEmpty: true}`, use
+the tab it returns and navigate again. Everything kept in `window` is lost; what was saved to `localStorage`
+(per origin) survives a navigation inside the same site, so long collections can be stored there between pages.
+
 ## Patterns of known sites
 
 - **WordPress + The Events Calendar** (`tribe-events` in the HTML): open

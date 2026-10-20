@@ -134,7 +134,26 @@ which prints the status, the page's JSON-LD events and the text with the links. 
 - The Events Calendar listing (`/eventos/`) carries JSON-LD even if the API is closed (403);
 - dates in the event page URL (`…-jueves-22-de-octubre-21-h-2026/`);
 - on ticketing sites like revamos.com, the dates of a play with several performances are in the page code
-  (`ticketsByDate`).
+  (`ticketsByDate`);
+- the pages of the ticketing platforms that venues link (Venti, Livepass, TicketHoy-like) carry JSON-LD with
+  `startDate` (with its UTC offset), description, image and `Desde $` in the text: take the listing from the
+  venue's own page and read each event page with `sondear.pedir` + `sondear.objetos_evento` in a Python
+  one-off (Niceto Club: the venue's `/agenda/` HTML has day sections and cards, the price is on venti.live);
+- the Ministry of Culture museum platform (`museo<x>.cultura.gob.ar`: Rojas, Mitre, Sarmiento, Malvinas, Histórico
+  Nacional) answers over HTTP: `/actividades/` lists the fichas and each ficha has `¿Cuándo?`, `Horario` and
+  `Entrada`; `/exhibiciones/` mixes current, permanent and past, so only an exhibition with a closing date is
+  loaded. Run `scripts/imagenes.py <id>` afterwards for the pictures (CSS background);
+- the Buenos Aires City museums (`buenosaires.gob.ar/gcaba_historico/cultura/museos/...`) publish their
+  activities as news cards whose links are not in the text: open the page in the browser and `fetch()` each
+  news item from there, or search for the permanent guided tours (weekday and hour) in the "Información
+  general" block and load them with `vigente_sin_fin: true`;
+- a site where `sondear.py --leer` times out is retried with `--timeout 90`; inside a Python one-off set
+  `sondear.TIMEOUT = 60` (Otra Historia, Museo Etnográfico).
+
+If a JSON API answers over plain HTTP (Ticketek's `prod-cms-api.ticketek.com.ar`), do the fetching in a Python
+one-off and use the browser only to render the pages that list the links; if the data only exists in the page,
+send it out with the local receiver ("Getting a big result out of the page" in `navegador.md`) instead of
+reading it back in ~1,000-character pieces.
 
 Paginated listings are not always in date order: go through `page/2`, `page/3`… until everything falls after
 the window. If the site is slow, `--timeout 45` (and note `espera_seg`). What does not come out this way

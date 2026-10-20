@@ -5,8 +5,8 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 228,
-  "con_eventos": 168
+  "capturas": 248,
+  "con_eventos": 184
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -134,8 +134,17 @@
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
   "Movistar Arena",
   "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
+  "Museo Casa Carlos Gardel",
+  "Museo Casa de Ricardo Rojas",
   "Museo Casa de Yrurtia",
+  "Museo Etnográfico Juan B. Ambrosetti",
+  "Museo Evita",
+  "Museo Histórico Nacional",
+  "Museo Histórico Sarmiento",
+  "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+  "Museo Judío de Buenos Aires",
   "Museo Kosice",
+  "Museo Malvinas e Islas del Atlántico Sur",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
   "Museo Nacional de Bellas Artes",
@@ -147,7 +156,13 @@
   "Museo de Arte Popular José Hernández",
   "Museo de Artes Plásticas Eduardo Sívori",
   "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+  "Museo de la Ciudad",
+  "Museo del Holocausto de Buenos Aires",
+  "NUEVA URIARTE",
+  "Niceto Club",
   "Nora Fisch",
+  "OTRA HISTORIA",
+  "PANDA ROJO ESPACIO CULTURAL",
   "PASILLO AL FONDO ESPACIO CULTURAL",
   "PLANTA ALTA",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
@@ -164,6 +179,7 @@
   "TEATRARTE",
   "Teatro Gran Rex",
   "Teatro Vorterix",
+  "Ticketek",
   "Time Out Buenos Aires: Agenda",
   "Time Out: arte",
   "Turismo Buenos Aires: Qué hacer esta semana",
@@ -632,6 +648,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-29-7-No-me-quedan-mas-lagrimas.jpg"
   },
   {
+   "id": "e951a845c0d2",
+   "titulo": "Sarmiento y la fotografía",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Histórico Sarmiento",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2180",
+   "fecha_inicio": "2026-07-28",
+   "fecha_fin": "2026-12-30",
+   "hora": "",
+   "horarios": "Martes a domingo de 11 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Exhibición temporaria con fotografías de las colecciones del museo sobre Domingo F. Sarmiento.",
+   "url": "https://museosarmiento.cultura.gob.ar/exhibicion/sarmiento-y-la-fotografia/",
+   "dominio": "museosarmiento.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Histórico Sarmiento",
+   "fuentes": [
+    "Museo Histórico Sarmiento"
+   ],
+   "lat": -34.560867,
+   "lng": -58.454416,
+   "embebible": false,
+   "imagen": "https://museosarmiento.cultura.gob.ar/media/uploads/site-8/destacados/.thumbnails/banner_expo_sarmiento.jpg/banner_expo_sarmiento-1500x0-no-upscale.jpg"
+  },
+  {
    "id": "3e49ba8d1069",
    "titulo": "Concierto Las canciones más lindas de Charly",
    "categoria": "Música",
@@ -957,6 +998,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-Tita-Merello.jpg"
   },
   {
+   "id": "b6a90192fc1f",
+   "titulo": "Umbrales. 17 obras, una misma huella",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Evita",
+   "barrio": "Palermo",
+   "direccion": "Lafinur 2988",
+   "fecha_inicio": "2026-08-04",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "Martes a domingo de 11 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra colectiva de 17 artistas (entre ellos Nicolás García Uriburu, Daniel Santoro y Daniela Jozami) en la Sala de Exposición Temporaria: cada obra es un umbral hacia la figura de Evita.",
+   "url": "https://museoevita.org.ar/umbrales-17-obras-una-misma-huella/",
+   "dominio": "museoevita.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Evita",
+   "fuentes": [
+    "Museo Evita"
+   ],
+   "lat": -34.580745,
+   "lng": -58.414739,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "09262c85adf8",
    "titulo": "Berlín Berlín",
    "categoria": "Música",
@@ -1207,6 +1273,31 @@
    "imagen": "https://vidriera.earth/umbrales-y-constelaciones/3_2.jpg-reduced-4q4rfn"
   },
   {
+   "id": "468407739b74",
+   "titulo": "Aventuras en el Patio de los Arquetipos",
+   "categoria": "Infantil",
+   "lugar": "Museo Casa de Ricardo Rojas",
+   "barrio": "Palermo",
+   "direccion": "Charcas 2837",
+   "fecha_inicio": "2026-08-14",
+   "fecha_fin": "2026-12-31",
+   "hora": "",
+   "horarios": "Martes a sábado de 11 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Espacio Infancia: territorio de juego y exploración para chicos y chicas, que se suben al colectivo 'Doble RR' y encarnan roles de sabios, héroes, creadores, rebeldes o magos.",
+   "url": "https://museorojas.cultura.gob.ar/exhibicion/aventuras-en-el-patio-de-los-arquetipos/",
+   "dominio": "museorojas.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Casa de Ricardo Rojas",
+   "fuentes": [
+    "Museo Casa de Ricardo Rojas"
+   ],
+   "lat": -34.59395,
+   "lng": -58.406263,
+   "embebible": false,
+   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/002-rojasdaniel_duhau.jpg/002-rojasdaniel_duhau-1500x0-no-upscale.jpg"
+  },
+  {
    "id": "ae7cb9dc054a",
    "titulo": "Curada de espanto",
    "categoria": "Artes visuales",
@@ -1255,6 +1346,31 @@
    "lng": -58.370193,
    "embebible": true,
    "imagen": "https://museomacba.org/wp-content/uploads/2026/09/PATERNOSTO.png"
+  },
+  {
+   "id": "91bb0775739d",
+   "titulo": "Enigmático rostro: dibujos, bocetos y grafías en los papeles de Ricardo Rojas",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Casa de Ricardo Rojas",
+   "barrio": "Palermo",
+   "direccion": "Charcas 2837",
+   "fecha_inicio": "2026-08-14",
+   "fecha_fin": "2026-12-31",
+   "hora": "",
+   "horarios": "Martes a sábado de 11 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Exhibición temporaria sobre los rostros que Ricardo Rojas dibujó de sí mismo y de otros en sus papeles, manuscritos y libros: el dibujo como forma de pensamiento y de construcción de la identidad.",
+   "url": "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/",
+   "dominio": "museorojas.cultura.gob.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Museo Casa de Ricardo Rojas",
+   "fuentes": [
+    "Museo Casa de Ricardo Rojas"
+   ],
+   "lat": -34.59395,
+   "lng": -58.406263,
+   "embebible": false,
+   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/er_-_portada.jpg/er_-_portada-1500x0-no-upscale.jpg"
   },
   {
    "id": "5143692ba1e0",
@@ -3041,6 +3157,31 @@
    "imagen": ""
   },
   {
+   "id": "669f7d953a11",
+   "titulo": "Casa de la Cultura",
+   "categoria": "Visita guiada",
+   "lugar": "Casa de la Cultura - Ex Edificio La Prensa",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "2026-11-28",
+   "hora": "",
+   "horarios": "Visitas del 1 al 31 de octubre y del 4 al 28 de noviembre",
+   "precio": "Desde $ 7700",
+   "descripcion": "En el recorrido vas a conocer el hall de acceso, el Patio Central con los pasajes de carruajes, la Biblioteca itinerante, los subsuelos y el majestuoso Salón Dorado. También vas a escuchar historias sobre José C. Paz, fundador del diario, y sobre la importancia cultural y social de este edificio a l",
+   "url": "https://www.ticketek.com.ar/casa-de-la-cultura/casa-de-la-cultura-ex-edificio-la-prensa",
+   "dominio": "ticketek.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.608197,
+   "lng": -58.374434,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "c760cdc72b6c",
    "titulo": "Centro Ana Frank",
    "categoria": "Visita guiada",
@@ -3194,29 +3335,30 @@
   {
    "id": "bc92cf95b7cf",
    "titulo": "Mafalda Inmersiva",
-   "categoria": "Visita guiada",
+   "categoria": "Artes visuales",
    "lugar": "Centro Cultural Recoleta",
    "barrio": "Recoleta",
-   "direccion": "Junín 1930",
+   "direccion": "Junin 1930",
    "fecha_inicio": "2026-10-01",
    "fecha_fin": "2026-11-15",
    "hora": "",
-   "horarios": "De jueves a domingos",
-   "precio": "Consultar",
-   "descripcion": "Llega una experiencia alucinante para entrar al universo de Quino. La emblemática historieta se transforma en un recorrido multisensorial e interactivo que integra video mapping de alta resolución, pr",
-   "url": "https://turismo.buenosaires.gob.ar/es/article/mafalda-inmersiva?QHS2026",
-   "dominio": "turismo.buenosaires.gob.ar",
+   "horarios": "Del 20/10 al 15/11 (turnos en la compra)",
+   "precio": "Desde $ 24000",
+   "descripcion": "Por primera vez, el universo creado por Quino sale del papel y se convierte en una experiencia que podés recorrer, tocar y vivir. Mafalda Inmersiva invita a chicos y grandes a caminar durante una hora por 1.300 m² y 14 salas temáticas. QUÉ VAS A ENCONTRAR Entrá a la casa de Mafalda, visitá el almacé",
+   "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta",
+   "dominio": "ticketek.com.ar",
    "estado": "En curso",
-   "lugar_verificado": "Museo Mundial del Tango",
+   "lugar_verificado": "",
    "fuentes": [
+    "Ticketek",
+    "Buenos Aires Secreta: planes del fin de semana",
     "Turismo Buenos Aires: Qué hacer esta semana",
-    "Vidriera BA",
-    "Buenos Aires Secreta: planes del fin de semana"
+    "Vidriera BA"
    ],
    "lat": -34.586298,
    "lng": -58.392513,
-   "embebible": false,
-   "imagen": "https://turismo.buenosaires.gob.ar/sites/turismo/files/field/image/mafalda-inmersiva-1500x610.jpg"
+   "embebible": true,
+   "imagen": "https://admin.ticketek.com.ar/sites/default/files/images/show-header/mafnew960.png"
   },
   {
    "id": "da7c373c49f3",
@@ -3377,15 +3519,16 @@
    "direccion": "Av. Córdoba 6056",
    "fecha_inicio": "2026-10-02",
    "fecha_fin": "2026-11-15",
-   "hora": "",
-   "horarios": "Jueves a domingos, 20 h.",
-   "precio": "Consultar",
-   "descripcion": "A cielo abierto (la versión local de la aclamada obra británica Skylight, escrita por David Hare) se presenta actualmente en el Teatro Regio de Buenos Aires. La puesta en escena está dirigida por Mey Scápola y cuenta con",
-   "url": "https://vidrierabuenosaires.com/eventos/a-cielo-abierto",
-   "dominio": "vidrierabuenosaires.com",
+   "hora": "20:00",
+   "horarios": "Funciones: 22/10 20:00, 23/10 20:00, 24/10 20:00, 25/10 20:00, 29/10 20:00, 30/10 20:00, 31/10 20:00, 01/11 20:00",
+   "precio": "Desde $ 12500",
+   "descripcion": "En una noche helada, él, un empresario exitoso, la busca a ella, una maestra de escuela pública. Su reencuentro reaviva un pasado amoroso marcado por visiones opuestas: él prioriza la ambición y ella el compromiso social. A cielo abierto explora el precio de ser fieles a las propias convicciones y e",
+   "url": "https://www.ticketek.com.ar/cielo-abierto/teatro-regio",
+   "dominio": "ticketek.com.ar",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
+    "Ticketek",
     "Vidriera BA",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
@@ -8189,6 +8332,31 @@
    "imagen": ""
   },
   {
+   "id": "78a2065b67bd",
+   "titulo": "Livre Fiesta",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Todos los martes LIVRE!!! hay Open Mic, Jam de Dibujo, Feria, Flash Tattoo, videojuegos y 10 shows en vivo por semana! 2 pistas, 2 Dj´s y la mejor fiesta de hiphop de Buenos Aires 🎤🔥 \\n",
+   "url": "https://otrahistoria.com.ar/evento/livre-fiesta-3-2/2026-10-20/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2024/06/livre-e1725306585980.jpg"
+  },
+  {
    "id": "3383de275780",
    "titulo": "Lo dejamos acá",
    "categoria": "Cine",
@@ -8287,6 +8455,31 @@
    "lng": -58.433113,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-814289-rec.jpg"
+  },
+  {
+   "id": "b247a10fcef4",
+   "titulo": "MB Trends Week",
+   "categoria": "Evento",
+   "lugar": "Figueroa 5500",
+   "barrio": "",
+   "direccion": "Julio Argentino Noble 4045",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Desde $ 75000",
+   "descripcion": "La semana de la tendencia, la innovación y el diseño en Buenos Aires Marcia Blanco Producciones presenta la segunda edición de MB Trends Week 2026, el evento que reúne a los protagonistas de la moda, el diseño, la innovación y la belleza en una experiencia única que celebra el talento argentino y la",
+   "url": "https://www.ticketek.com.ar/mb-trends-week/figueroa-5500",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.560758,
+   "lng": -58.422375,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "d3fcd16e8070",
@@ -8741,6 +8934,31 @@
    "imagen": "https://hastatrilce.com.ar/wp-content/uploads/2022/11/pena-sin-cadenas-e1668461031867.png"
   },
   {
+   "id": "34fea3de59f1",
+   "titulo": "Pisar Malvinas: experiencia inmersiva en realidad virtual",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Malvinas e Islas del Atlántico Sur",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Santiago de Calzadilla 1301",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Sábados y domingos de 11 a 17 h, por orden de llegada",
+   "precio": "Gratis",
+   "descripcion": "Recorrido en realidad virtual por Monte Longdon y Cerro Cove, y 'Fauna Marina de Malvinas' bajo el mar de las islas. Para mayores de 10 años.",
+   "url": "https://museomalvinas.cultura.gob.ar/info/pisar-malvinas/",
+   "dominio": "museomalvinas.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Malvinas e Islas del Atlántico Sur",
+   "fuentes": [
+    "Museo Malvinas e Islas del Atlántico Sur"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": "https://museomalvinas.cultura.gob.ar/media/uploads/site-30/destacados/.thumbnails/pisar_1.png/pisar_1-600x0-no-upscale.png"
+  },
+  {
    "id": "6d04bae82722",
    "titulo": "Quiero tu sexo",
    "categoria": "Cine",
@@ -8812,6 +9030,31 @@
    ],
    "lat": -34.606074,
    "lng": -58.409498,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "efd4e507234f",
+   "titulo": "Recorridos guiados por la exposición permanente del Museo de la Ciudad",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de la Ciudad",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 187",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "15:30",
+   "horarios": "Miércoles, jueves y viernes 15.30 h",
+   "precio": "$ 2.000 residentes (gratis los miércoles para residentes argentinos); $ 10.000 público general",
+   "descripcion": "Visita guiada por la exposición permanente en Altos de Elorriaga, sede del museo en el Casco Histórico.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de la Ciudad"
+   ],
+   "lat": -34.609809,
+   "lng": -58.37217,
    "embebible": false,
    "imagen": ""
   },
@@ -9092,6 +9335,31 @@
    "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F514%2Fprimario.png?alt=media"
   },
   {
+   "id": "88a0c944531a",
+   "titulo": "Visita guiada para público general en el Museo Evita",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Evita",
+   "barrio": "Palermo",
+   "direccion": "Lafinur 2988",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "16:00",
+   "horarios": "Todos los días 16 h, en español. Cupo limitado",
+   "precio": "Consultar",
+   "descripcion": "Visita guiada por el museo y la vida de Eva Perón, en español, con cupo limitado.",
+   "url": "https://museoevita.org.ar/visitas-guiadas-general/",
+   "dominio": "museoevita.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Evita",
+   "fuentes": [
+    "Museo Evita"
+   ],
+   "lat": -34.580745,
+   "lng": -58.414739,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "7bffef89e2e4",
    "titulo": "Visitas guiadas a la Casa de la Cultura",
    "categoria": "Visita guiada",
@@ -9114,6 +9382,81 @@
    "lat": -34.608197,
    "lng": -58.374434,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "f0dda9f8b854",
+   "titulo": "Visitas guiadas abiertas al público en el Museo del Holocausto",
+   "categoria": "Visita guiada",
+   "lugar": "Museo del Holocausto de Buenos Aires",
+   "barrio": "San Nicolás",
+   "direccion": "Montevideo 919",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes 18 h. Domingos 15 y 17 h",
+   "precio": "Consultar",
+   "descripcion": "Visita guiada abierta al público general por la exhibición permanente y la sala de muestras temporales del museo. Requiere sacar turno en la web.",
+   "url": "https://museodelholocausto.org.ar/turnos/",
+   "dominio": "museodelholocausto.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo del Holocausto de Buenos Aires",
+   "fuentes": [
+    "Museo del Holocausto de Buenos Aires"
+   ],
+   "lat": -34.598037,
+   "lng": -58.389553,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "51456a4362cb",
+   "titulo": "Visitas guiadas al Museo Casa Carlos Gardel",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Casa Carlos Gardel",
+   "barrio": "Balvanera",
+   "direccion": "Jean Jaures 735",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes 12 h. Miércoles y viernes 12 y 14 h. Sábados, domingos y feriados 12, 15 y 17 h",
+   "precio": "$ 2.000 residentes (gratis los miércoles para residentes argentinos); $ 10.000 extranjeros",
+   "descripcion": "Recorrido guiado por la casa donde vivió Carlos Gardel con su madre, sede del museo dedicado a su patrimonio y a su época.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo Casa Carlos Gardel"
+   ],
+   "lat": -34.601673,
+   "lng": -58.407812,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "0c0845c0bba8",
+   "titulo": "Visitas guiadas al Museo Judío de Buenos Aires y al Templo Libertad",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Judío de Buenos Aires",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 769",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes y jueves 11 y 15 h (español e inglés)",
+   "precio": "Consultar",
+   "descripcion": "Visitas guiadas en español e inglés por la exposición permanente sobre la inmigración judía en la Argentina y por el Templo Libertad. Hay que reservar y presentar documento de identidad o pasaporte.",
+   "url": "https://museojudio.org.ar/",
+   "dominio": "museojudio.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Judío de Buenos Aires",
+   "fuentes": [
+    "Museo Judío de Buenos Aires"
+   ],
+   "lat": -34.599592,
+   "lng": -58.383894,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -10113,9 +10456,9 @@
    "categoria": "Teatro",
    "lugar": "Teatro Presidente Alvear",
    "barrio": "",
-   "direccion": "",
+   "direccion": "Av. Corrientes 1659",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-11-01",
+   "fecha_fin": "2026-12-13",
    "hora": "20:00",
    "horarios": "Miércoles a sábados, 20 h; domingos, 19 h",
    "precio": "Desde $ 23000",
@@ -10125,10 +10468,11 @@
    "estado": "Próximo",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Complejo Teatral de Buenos Aires"
+    "Complejo Teatral de Buenos Aires",
+    "Ticketek"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.604463,
+   "lng": -58.39588,
    "embebible": false,
    "imagen": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Zds1ePGhVGv4zqUoFSed.jpg"
   },
@@ -10234,6 +10578,32 @@
    "imagen": ""
   },
   {
+   "id": "521855a78630",
+   "titulo": "HOMOGÉNICA FESTEJA 1 AÑO DE “POST POP” en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 22.000",
+   "descripcion": "Homogénica celebra 1 año de su disco debut “POST POP” con nuevo show: torta, piñata e invitados especiales. ¡Estás invitadx!",
+   "url": "https://venti.live/evento/homog-nica-festeja-1-a-o-de-post-pop-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club",
+    "Indiehoy: Agenda de recitales"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1785862688515-lg.jpg"
+  },
+  {
    "id": "cf659f4eab60",
    "titulo": "Hanukkah",
    "categoria": "Teatro",
@@ -10282,31 +10652,6 @@
    "lng": -58.370845,
    "embebible": false,
    "imagen": "https://pacourondo.filo.uba.ar/index.php/sites/pacourondo.filo.uba.ar/files/2026-10/PLACAS%20P%C3%81GINA%20URONDO%2830%29.jpg"
-  },
-  {
-   "id": "ae7fa7239b81",
-   "titulo": "Homogénica",
-   "categoria": "Música",
-   "lugar": "Niceto Club",
-   "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-21",
-   "hora": "",
-   "horarios": "",
-   "precio": "$ 19000",
-   "descripcion": "Recital: Homogénica en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/homogenica-en-niceto-club-2/",
-   "dominio": "indiehoy.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Indiehoy: Agenda de recitales"
-   ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/niceto-01.jpg"
   },
   {
    "id": "0b7953153b32",
@@ -10362,25 +10707,26 @@
    "id": "31738a5124b8",
    "titulo": "Jere Klein",
    "categoria": "Música",
-   "lugar": "Teatro Ópera ON",
+   "lugar": "Teatro Opera On",
    "barrio": "",
-   "direccion": "",
+   "direccion": "Av. Corrientes 860",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-21",
-   "hora": "",
-   "horarios": "",
-   "precio": "Desde $67.800",
-   "descripcion": "Recital: Jere Klein en Teatro Ópera ON.",
-   "url": "https://indiehoy.com/agenda/jere-klein-en-argentina/",
-   "dominio": "indiehoy.com",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "Funciones: 21/10 21:00, 22/10 21:00",
+   "precio": "Desde $ 60000",
+   "descripcion": "¡ÉXITO ROTUNDO! ¡JERE KLEIN SUMA NUEVA FECHA EN ARGENTINA! LUEGO DE AGOTAR SU PRIMER TEATRO ÓPERA, LA REVOLUCIÓN DE LA MÚSICA URBANA CHILENA AGREGA NUEVO SHOW EN BUENOS AIRES 21 DE OCTUBRE | TEATRO ÓPERA - NUEVA FECHA 22 DE OCTUBRE | TEATRO ÓPERA - SOLD OUT ¡Jere Klein imparable! Lo que iba a ser un",
+   "url": "https://www.ticketek.com.ar/jere-klein/teatro-opera",
+   "dominio": "ticketek.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Ticketek",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/jere-klein-argentina-2026.jpg"
   },
   {
@@ -10809,6 +11155,31 @@
    "lng": -58.385873,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/39/000306439.jpg"
+  },
+  {
+   "id": "2abff14c77da",
+   "titulo": "Monzani, Acosta, Villanueva, Perez Garber en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Con el grupo vamos a estar tocando nuestras reversiones de standars de jazz. Con un enfoque moderno, buscamos variedad de texturas y armonías en el marco de la improvisación.",
+   "url": "https://livepass.com.ar/events/monzani-acosta-villanueva-perez-garber-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/bf340b256e14a7e912a605a9f59acbbb4331ea66.png?1791904390"
   },
   {
    "id": "799e9013ae33",
@@ -11361,6 +11732,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000319587.jpg"
+  },
+  {
+   "id": "efb33787b8e0",
+   "titulo": "Soy Califa! Dexter Gordon Tribute en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Una noche dedicada la música de Dexter Gordon, una de las figuras fundamentales del saxofón tenor y del lenguaje del jazz moderno. Su particular sonido, su fraseo amplio y su profundo vínculo con la tradición del bebop y el hard bop constituyen el punto de partida de este cuarteto.El repertorio combina composiciones de Gordon con una selección de s",
+   "url": "https://livepass.com.ar/events/soy-califa-dexter-gordon-tribute-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ab9116df8d92faead48ff6faa5890617aa2a14a6.png?1791381841"
   },
   {
    "id": "f06e5e6789ac",
@@ -11991,6 +12387,31 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/04/alter-bridge-arg.jpg"
   },
   {
+   "id": "d53c04a26625",
+   "titulo": "Apertura al público del Depósito Visitable de Colecciones Etnográficas",
+   "categoria": "Evento",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "San Telmo",
+   "direccion": "Moreno 350",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "15:30",
+   "horarios": "Jueves 22 y 29 de octubre y domingo 25 de octubre a las 15:30 h",
+   "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
+   "descripcion": "Apertura al público del depósito visitable del museo, con colecciones etnográficas.",
+   "url": "https://museo.filo.uba.ar/novedades/apertura-al-p%C3%BAblico-del-dep%C3%B3sito-visitable-de-colecciones-etnogr%C3%A1ficas-11",
+   "dominio": "museo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Etnográfico Juan B. Ambrosetti",
+   "fuentes": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "lat": -34.611332,
+   "lng": -58.371022,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "17f4aff40b58",
    "titulo": "Asterisco Festival Internacional de Cine LGBTIQ+",
    "categoria": "Cine",
@@ -12014,6 +12435,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/festival-asterisco-siemprevivas-cceba-web.jpg/43afb5e9-acb3-1c78-e439-66f61598a583?t=1791386779442"
+  },
+  {
+   "id": "0163b6074542",
+   "titulo": "BHAVI en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Bhavi festeja su cumpleaños en Niceto Club con varias sorpresas, que incluye la pre escucha de su nuevo álbum, mix de clásicos, DJ set y mucho más.",
+   "url": "https://venti.live/evento/bhavi-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791919211101-lg.jpg"
   },
   {
    "id": "f18330fef022",
@@ -12317,6 +12763,31 @@
    "imagen": "https://imagenes.passline.com/eventos/cineclub-edicion-21-scream-jueves-22-de-octubre-rec.jpg"
   },
   {
+   "id": "575ef43b3972",
+   "titulo": "Cineclub Panda Rojo",
+   "categoria": "Cine",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Anticipada $ 5.000 + cargo; en puerta $ 9.000; suscriptores sin cargo",
+   "descripcion": "Proyección del Cineclub de Panda Rojo: los suscriptores votan las películas y no pagan entrada.",
+   "url": "https://pandarojo.com.ar/production/cineclub/",
+   "dominio": "pandarojo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
+   "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL"
+   ],
+   "lat": -34.60677,
+   "lng": -58.409877,
+   "embebible": true,
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2026/05/uni-pageCineclub.png"
+  },
+  {
    "id": "aa59a0493c1b",
    "titulo": "Combo de Juegos, tragos y amigues",
    "categoria": "Evento",
@@ -12466,6 +12937,31 @@
    "lng": -58.427276,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/coraline-1410-564672-rec.jpg"
+  },
+  {
+   "id": "98f0846e424e",
+   "titulo": "Cuando las palabras son hilos: bordar para reparar (cuarto encuentro)",
+   "categoria": "Taller",
+   "lugar": "Museo Casa de Ricardo Rojas",
+   "barrio": "Palermo",
+   "direccion": "Charcas 2837",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "16:00",
+   "horarios": "Jueves 22 de octubre de 16 a 18 h",
+   "precio": "Gratis",
+   "descripcion": "Cuarto encuentro del ciclo de bordado literario: la reparación textil como gesto simbólico y creativo. Participación libre con inscripción previa hasta cubrir cupo.",
+   "url": "https://museorojas.cultura.gob.ar/actividad/cuando-las-palabras-son-hilos-ciclo-2026/",
+   "dominio": "museorojas.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Casa de Ricardo Rojas",
+   "fuentes": [
+    "Museo Casa de Ricardo Rojas"
+   ],
+   "lat": -34.59395,
+   "lng": -58.406263,
+   "embebible": false,
+   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/2026_cuando_las_palabras_son_hilos_-portada_web.jpg/2026_cuando_las_palabras_son_hilos_-portada_web-1500x0-no-upscale.jpg"
   },
   {
    "id": "f28ff4fc8d83",
@@ -12644,6 +13140,32 @@
    "imagen": "https://imagenes.passline.com/eventos/el-show-de-los-pelados-comedy-show-560428-rec.jpg"
   },
   {
+   "id": "dccf7025cd54",
+   "titulo": "El Circuito - Espacio Escénico Abierto",
+   "categoria": "Artes visuales",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "Jue 20:00 (hasta el 17/12)",
+   "precio": "Gratis",
+   "descripcion": "Espacio escénico abierto en el que artistas tienen hasta 10 minutos de escenario para probar material nuevo; también hay expo de artes visuales y fotografía. No se cobra entrada.",
+   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/",
+   "dominio": "pandarojo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
+   "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.60677,
+   "lng": -58.409877,
+   "embebible": true,
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2024/10/unisize_elCircuitoAO_4320x2160_@2x.jpg"
+  },
+  {
    "id": "21ec8d48fa30",
    "titulo": "El Libro Verde del Teatro",
    "categoria": "Teatro",
@@ -12667,31 +13189,6 @@
    "lng": -58.387647,
    "embebible": false,
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/el-libro-verde-del-tetro-cceba-web.jpg/b2720bc7-ba61-573d-351a-9ef6f74066e5?t=1789496674522"
-  },
-  {
-   "id": "476bc907b6bb",
-   "titulo": "El circuito - espacio escénico abierto",
-   "categoria": "Teatro",
-   "lugar": "Panda Rojo Espacio Cultural",
-   "barrio": "Balvanera",
-   "direccion": "Sarmiento 3096",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-29",
-   "hora": "20:00",
-   "horarios": "Jue 20:00 (hasta el 17/12)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de danza - teatro, danza en Panda Rojo Espacio Cultural (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra83737-el-circuito-espacio-escenico-abierto",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.60677,
-   "lng": -58.409877,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/19/000311619.jpg"
   },
   {
    "id": "6c7cbe6755dc",
@@ -13295,6 +13792,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000318634.jpg"
   },
   {
+   "id": "51b94020f850",
+   "titulo": "Inauguración de \"El otro Perotta\": retrospectiva de José Luis Perotta",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de la Ciudad",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 223",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Inauguración de la primera gran retrospectiva del fotógrafo José Luis Perotta (1948-1989), con curaduría de Paula Carrella, a partir del Fondo Fotográfico del museo: moda y publicidad, música y cultura popular, ensayos fotográficos.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/el-otro-perotta-una-mirada-inedita-sobre-el-fotografo-que-retrato-el-0",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de la Ciudad"
+   ],
+   "lat": -34.610541,
+   "lng": -58.372093,
+   "embebible": false,
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Jos%C3%A9%20Luis%20Perotta.%20Autorretrato%2C%20c.1969.2.jpg"
+  },
+  {
    "id": "062cdb70bb2d",
    "titulo": "Iré Latin Jazz | La música de Chucho Valdés | Choco Drums",
    "categoria": "Música",
@@ -13445,6 +13967,31 @@
    "imagen": ""
   },
   {
+   "id": "02d8c87ce65d",
+   "titulo": "Jazz Standards & Ballads! en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Grupo de jazz liderado por la cantante Azul Delgado, brindarán un show donde recorrerán standards clásicos y baladas icónicas del género.",
+   "url": "https://livepass.com.ar/events/jazz-standards-ballads-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1ca6785ca41b2d87a5f39525f8405740598c321c.png?1792169023"
+  },
+  {
    "id": "8939ff689285",
    "titulo": "Jeff Buckley - Grace Música En Total Oscuridad con Parlantes Holofónicos",
    "categoria": "Música",
@@ -13478,20 +14025,21 @@
    "direccion": "Marcelo T. de Alvear 1125",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
-   "hora": "",
+   "hora": "21:00",
    "horarios": "",
-   "precio": "Desde $80.500",
-   "descripcion": "Recital: Jovanotti en Teatro Coliseo.",
-   "url": "https://indiehoy.com/agenda/jovanotti-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 70000",
+   "descripcion": "El 22 de octubre, el Teatro Coliseo recibe a Jovanotti con un show único donde la música se convierte en experiencia, energía y conexión colectiva. Con una carrera que redefinió los límites de la música contemporánea, Jovanotti llega a Buenos Aires con una propuesta escénica vibrante que trasciende",
+   "url": "https://www.ticketek.com.ar/jovanotti/teatro-coliseo",
+   "dominio": "ticketek.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Ticketek",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.596736,
    "lng": -58.383277,
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/05/jovanotti-arg.jpg"
   },
   {
@@ -13595,6 +14143,31 @@
    "imagen": "https://imagenes.passline.com/eventos/kika-club-jueves-passline-570025-rec.jpg"
   },
   {
+   "id": "d31be7217b52",
+   "titulo": "KILOMBO Jue 22 OCT en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "LLEGA LA PRIMER BATALLA DE BAILE A LOS JUEVES DE KILOMBO 🔥 Este jueves 22Oct. Se corta la semana y por primera vez hacemos nuestra primera batalla Open Styles, 100% DE MÚSICA KILOMBERA - dancehall, shatta, afro, dembow, funk BR y todos los ritmos que hacen temblar nuestra pista🥵 Si sos bailarine y querés dejarlo todo en la pista, este es tu momento. 🔥 INFO DE LA BATALLA: • Formato: Open Style - Mú",
+   "url": "https://venti.live/evento/kilombo-jue-22-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1792415460077-lg.jpg"
+  },
+  {
    "id": "66ca34177b55",
    "titulo": "Karaoke Night",
    "categoria": "Música",
@@ -13670,6 +14243,31 @@
    "imagen": ""
   },
   {
+   "id": "3e318c212077",
+   "titulo": "La Fatal",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Tres bandas, una misma noche: Delirantes Por Ahí, Marjorette y Rosario Herz llegan para hacer vibrar el escenario. Y cuando no estés frente al escenario, la noche sigue con karaoke, jam, arcade y mucho más. 🎤 Música en vivo · 🎮 Arcade · 🎶 Karaoke · 🎸 Jam Una noche, tres bandas y mil formas... \\n",
+   "url": "https://otrahistoria.com.ar/evento/la-fatal-7/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-27-at-19.50.29.jpeg"
+  },
+  {
    "id": "cdef15a5ca1e",
    "titulo": "La Jam Nacional | Jue 22 Oct | Charly García 82/94",
    "categoria": "Música",
@@ -13693,6 +14291,31 @@
    "lng": -58.436561,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-775974-rec.jpg"
+  },
+  {
+   "id": "f4f0b07565ba",
+   "titulo": "La Máquina Camaleón – Solito World Tour 22 OCT en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "¡Nueva fecha! La Máquina Camaleón presenta Solito World Tour, una gira en formato piano y voz junto a Felipe Lizarzaburu. Con más de 12 años de trayectoria en la escena alternativa latinoamericana, La Máquina Camaleón propone una noche para cantar, descubrir y vivir su música de otra manera. Una experiencia cercana, acústica y diferente, donde las canciones de La Máquina Camaleón cobrarán una nuev",
+   "url": "https://venti.live/evento/la-m-quina-camale-n-solito-world-tour-22-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1788609743113-lg.jpg"
   },
   {
    "id": "6287ed54257c",
@@ -14072,6 +14695,31 @@
    "lng": -58.417022,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/luis-alberto-spinetta-peluson-of-milk-musica-en-total-oscuridad-con-parlantes-holofonicos-555146-rec.jpg"
+  },
+  {
+   "id": "d9ac0d35ce6a",
+   "titulo": "MAG PRESENTA \"Cuando esté rota las pelotas no diré nada pero habrá señales!!\" en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "MAG, presenta su nuevo ep full band, Cuando esté rota las pelotas no diré nada pero habrá señales!!>:) inaugura una etapa, marcada por una búsqueda sonora más visceral y experimental, donde la potencia de las guitarras se encuentra con el pop, el humor y una mirada crítica sobre el presente. Se despliega un show de alto voltaje. El pop, el techno y el metal se funden en una experiencia hipnótica y",
+   "url": "https://venti.live/evento/mag-presenta-cuando-est-rota-las-pelotas-no-dir-nada-pero-habr-se-ales-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1789598026276-lg.jpg"
   },
   {
    "id": "9ea869662597",
@@ -14651,6 +15299,31 @@
    "imagen": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/9cDzIaQnfzKXCGGlsvGe.jpg"
   },
   {
+   "id": "d605dea89ae4",
+   "titulo": "Paula Giordano / Cel Mamone en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $18.000",
+   "descripcion": "En dúo de dúos, Paula Giordano y Cel Mamone hacen músicas brasileñas y latinoamericanas. Dos estilos diferentes y complementarios en un encuentro compartido. Cada intérprete muestra versiones de lo más propias. Paula Giordano con Diego Penelas en piano y Cel Mamone con Rodrigo Agudelo en guitarra.",
+   "url": "https://livepass.com.ar/events/paula-giordano-cel-mamone-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/2102afcc5aba9ba9fcffc66093beff364bc6ac40.png?1790949802"
+  },
+  {
    "id": "b76531343f98",
    "titulo": "Promesa: Pussy Boys, Caco y Otro Juan",
    "categoria": "Música",
@@ -15025,6 +15698,31 @@
    "lng": -58.454156,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-813100-rec.jpg"
+  },
+  {
+   "id": "427d075006ca",
+   "titulo": "Taller de juegos teatrales en el Museo Saavedra",
+   "categoria": "Taller",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "En el Mes de las Personas Adultas Mayores: recorrido por algunas salas del museo y taller de juegos teatrales como cierre de la jornada.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo Histórico de Buenos Aires Cornelio de Saavedra"
+   ],
+   "lat": -34.568231,
+   "lng": -58.507789,
+   "embebible": false,
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Gemini_Generated_Image_mbnihqmbnihqmbni.jpg"
   },
   {
    "id": "5eedcd4cac51",
@@ -15604,29 +16302,30 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194723394%2F297302492894%2F1%2Foriginal.20260930-140500?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c9f7d8d69c6073a4ff99ff526a47b8d7"
   },
   {
-   "id": "f20ed2746c02",
-   "titulo": "Çantamarta",
+   "id": "0e2c3078ffe2",
+   "titulo": "ÇANTAMARTA en Niceto Club (+18 años)",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
+   "direccion": "Cnel. Niceto Vega 5510",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
-   "precio": "$ 25000",
-   "descripcion": "Recital: Çantamarta en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/cantamarta-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "precio": "$ 15.000",
+   "descripcion": "Con la esquina + violenta, Çantamarta inaugura una nueva etapa sobre el escenario. El directo crece en intensidad y profundidad con una propuesta audiovisual que acompaña la evolución de su sonido: ritmos afrolatinos, electrónica orgánica y una interpretación cargada de emoción. Un concierto pensado para conectar desde la cercanía, invitando al público a bailar, sentir y recorrer las distintas esq",
+   "url": "https://venti.live/evento/antamarta-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/4.jpg"
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1784723861015-lg.jpg"
   },
   {
    "id": "374de2a3eb00",
@@ -15929,6 +16628,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-814796-rec.jpg"
+  },
+  {
+   "id": "5add183eac23",
+   "titulo": "Abasto Jazz Quinteto en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Bebop y Hardbop - 2 en 1",
+   "url": "https://livepass.com.ar/events/abasto-jazz-quinteto-en-ccnu-2026-10-23-22-30-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/602e119e22280df4092cb80abca0b41daff28a0d.png?1789139501"
   },
   {
    "id": "610c5b234599",
@@ -16506,6 +17230,56 @@
    "lng": -58.426264,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/carlos-michelini-trio-jazz-564682-rec.jpg"
+  },
+  {
+   "id": "f78734d9a53c",
+   "titulo": "CICLO GRINGO’",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "Michelle Viquez, Contradiction, Alvarito. \\n",
+   "url": "https://otrahistoria.com.ar/evento/ciclo-gringo-6/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260929-WA0011.jpg"
+  },
+  {
+   "id": "d1df1d5f944d",
+   "titulo": "CICLO ROTO 23 OCT en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "$ 10.000",
+   "descripcion": "Ciclo Roto es una noche en la que muchas cosas pueden pasar. No hay una fecha igual a la otra, porque se desarma, se rompe y se vuelve a armar siempre de una manera única. El núcleo es la música en vivo, llevada por la Banda Rota (host del ciclo) y la jam, y alrededor se despliegan distintas disciplinas como visuales, feria y dj set. En cada rincón de este ciclo vas a encontrar algo interesante, g",
+   "url": "https://venti.live/evento/ciclo-roto-23-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790133716000-lg.jpg"
   },
   {
    "id": "78177969fd62",
@@ -17358,6 +18132,31 @@
    "lng": "",
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "5f5d36e6adb4",
+   "titulo": "DANCETERIA 23 OCT en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "DANCETERIA: THERE WILL BE BLOOD! VIERNES 23 DE OCTRUBRE - NICETO SALA HUMBOLDT DJ SETS: -MORSCH -NIKI",
+   "url": "https://venti.live/evento/danceteria-23-oct-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791762079418-lg.jpg"
   },
   {
    "id": "edb23b45f18d",
@@ -19217,6 +20016,31 @@
    "imagen": "https://imagenes.passline.com/eventos/titulo-evento-intense-techno-back-to-the-80-s-559268-rec.jpg"
   },
   {
+   "id": "be0ffd887ec9",
+   "titulo": "Inauguración: \"Bordando historias: imágenes sobre arte rupestre en la Argentina\"",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "San Telmo",
+   "direccion": "Moreno 350",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
+   "descripcion": "Inauguración de la muestra sobre arte rupestre en la Argentina a través de bordados.",
+   "url": "https://museo.filo.uba.ar/novedades/inauguraci%C3%B3n-bordando-historias-imagenes-sobre-arte-rupestre-en-la-argentina",
+   "dominio": "museo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Etnográfico Juan B. Ambrosetti",
+   "fuentes": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "lat": -34.611332,
+   "lng": -58.371022,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "fc7a3723d90d",
    "titulo": "Incidiera + Fenicia Rubi",
    "categoria": "Música",
@@ -19742,6 +20566,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-814890-rec.jpg"
   },
   {
+   "id": "8a3fee491caa",
+   "titulo": "LA PERLA BLANCA",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "Viernes 23/10/2026 - Otra Historia, Estomba 851 LA PERLA BLANCA por primera vez en Otra Historia. Veni a perrear y ayúdanos a filmar nuestro primer cortometraje 🏎️🪩💦 00:00hs - 02:00hs rapidas y furiosas 02:00hs - 04:00hs dj pires 04:00hs - 06:00hs dj madrí \\n",
+   "url": "https://otrahistoria.com.ar/evento/la-perla-blanca/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260922-WA00541.jpg"
+  },
+  {
    "id": "76118cb83951",
    "titulo": "LA WARHOL - VIERNES 23 DE OCTUBRE",
    "categoria": "Evento",
@@ -19815,6 +20664,31 @@
    "lng": -58.39588,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-791965-rec.jpg"
+  },
+  {
+   "id": "44359b2228f4",
+   "titulo": "La Casa de Bernarda Alba",
+   "categoria": "Teatro",
+   "lugar": "Teatro Devoto",
+   "barrio": "",
+   "direccion": "Av. Lincoln 3815",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 24000",
+   "descripcion": "En La Casa de Bernarda Alba, nueve mujeres conviven bajo el estricto luto impuesto por Bernarda, su madre, en una atmósfera asfixiante. La llegada de un hombre desatará una serie de emociones y secretos ocultos, llevando la armonía familiar al borde de la tragedia. Lorca nos presenta un mundo oscuro",
+   "url": "https://www.ticketek.com.ar/la-casa-de-bernarda-alba/teatro-devoto",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.599782,
+   "lng": -58.508075,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "3fab3b854508",
@@ -19991,6 +20865,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-810639-rec.jpg"
+  },
+  {
+   "id": "1c63fb815dbb",
+   "titulo": "La Romana By Picheo 808 en Niceto Club",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "LA ROMANA BY PICHEO 808 Picheo 808 presenta La Romana, una nueva experiencia en Niceto Club. Una noche de reggaetón y música urbana, con la esencia de Picheo 808 y una propuesta pensada para vivir una noche diferente. Viernes 09 de octubre Niceto Club 23:59 hs",
+   "url": "https://venti.live/evento/la-romana-by-picheo-808-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791567025632-lg.jpg"
   },
   {
    "id": "5c32c5d2ff1c",
@@ -20292,6 +21191,31 @@
    "lng": -58.432736,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000321806.jpg"
+  },
+  {
+   "id": "509d09f3834d",
+   "titulo": "Laniakea, Lucernario, Amigo de lo Ajeno y Viaje Relámpago",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "Laniakea, Lucernario, Amigo de lo Ajeno y Viaje Relámpago se encuentran para hacer la previa de Halloween 🎃 Vení con tu disfraz! \\n",
+   "url": "https://otrahistoria.com.ar/evento/laniakea-lucernario-amigo-de-lo-ajeno-y-viaje-relampago/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260928-WA00702.jpg"
   },
   {
    "id": "a0f2aa17b825",
@@ -20870,6 +21794,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-799844-rec.jpg"
   },
   {
+   "id": "398d5f8f2172",
+   "titulo": "MIXTAPE",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "Ya nadie baila, y vos ¿bailás? ESTAN DISPONIBLES LAS ENTRADAS PARA LA PRIMERA EDICIÓN DE LA FIESTA DE MIXTAPE⭐️ El viernes 23 de Octubre en Estomba 851 (Villa Ortuzar) Nos acompañan como banda: @juanaamadruda @_frann.r @teoschniper @tomiriveroo__ @laurileguiza_ @ y nos hacen la fiesta los djs: @ian.baronn @feliinapoli @calaamj Los esperamos!!⭐️⭐️⭐️",
+   "url": "https://otrahistoria.com.ar/evento/mix-tape/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260925-WA00571.jpg"
+  },
+  {
    "id": "2fdd502158c7",
    "titulo": "MUBI Fest: Carolo + HTML (música electrónica y experimentación audiovisual)",
    "categoria": "Música",
@@ -21194,6 +22143,31 @@
    "lng": -58.436561,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/maria-volante-hedone-mango-blu-564137-rec.jpg"
+  },
+  {
+   "id": "a904c095b5c6",
+   "titulo": "Marsico, Vazquez, Mollard en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "El trío usa composiciones de artistas tanto del jazz tradicional como del contemporáneo para a partir de ellas crear espacios de completa improvisación que no necesariamente tengan alguna relación con la composición inicial.",
+   "url": "https://livepass.com.ar/events/marsico-vazquez-mollard-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e3be65560304c6724300c27af93808f22853d544.png?1790085353"
   },
   {
    "id": "6f9bc70d92e2",
@@ -22024,6 +22998,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/popenvivo2-565895-rec.jpg"
   },
   {
+   "id": "649657c50d75",
+   "titulo": "PRETA PORTER + GITANOS + PERSEA en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 12.000",
+   "descripcion": "PRETA PORTER EN HUMBOLDT El 23 de octubre tocamos por primera vez en CABA. Desde Berazategui, Preta Porter llega a Humboldt | Niceto Club para compartir una noche de rock junto a @gitanosbluesbastardo y @persea.ar, ambas bandas de Quilmes. Es una fecha especial para nosotros: empezamos a tocar en vivo recién en junio y, unos meses después, nos encontramos por primera vez tocando en Capital. PRETA",
+   "url": "https://venti.live/evento/preta-porter-gitanos-persea-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791503896456-lg.jpg"
+  },
+  {
    "id": "78a4b667bfe7",
    "titulo": "Pace - All Night Long",
    "categoria": "Fiestas y electrónica",
@@ -22049,28 +23048,29 @@
    "imagen": "https://images.venti.live/user-images/1791372419801-lg.jpg"
   },
   {
-   "id": "ec5e5f1c5ebd",
-   "titulo": "Palito Ortega en Teatro Ópera",
+   "id": "7c8a5191921a",
+   "titulo": "Palito Ortega",
    "categoria": "Música",
-   "lugar": "Teatro Ópera ON",
+   "lugar": "Teatro Opera On",
    "barrio": "",
-   "direccion": "",
+   "direccion": "Av. Corrientes 860",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
-   "hora": "",
+   "hora": "21:00",
    "horarios": "",
-   "precio": "Desde $50.850",
-   "descripcion": "Recital: Palito Ortega en Teatro Ópera en Teatro Ópera ON.",
-   "url": "https://indiehoy.com/agenda/palito-ortega-teatro-opera-2026/",
-   "dominio": "indiehoy.com",
+   "precio": "Desde $ 45000",
+   "descripcion": "La cuenta regresiva ya comenzó y, ante la gran respuesta del público, Palito Ortega suma una nueva función en el Teatro Ópera: será el viernes 23 de octubre, además de la presentación ya anunciada para el próximo viernes 16 de octubre. En el marco de su gira “Por Siempre”, el artista viene recorrien",
+   "url": "https://www.ticketek.com.ar/palito-ortega/teatro-opera",
+   "dominio": "ticketek.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Ticketek",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/palito-ortega-teatro-opera-nueva-funcion-2026.jpg"
   },
   {
@@ -22753,6 +23753,56 @@
    "lng": -58.426426,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "3eea17b2b8b3",
+   "titulo": "Rigoletto",
+   "categoria": "Música",
+   "lugar": "Teatro Avenida",
+   "barrio": "",
+   "direccion": "Av. de Mayo 1222",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "Funciones: 23/10 20:00, 24/10 20:00",
+   "precio": "Desde $ 18750",
+   "descripcion": "",
+   "url": "https://www.ticketek.com.ar/rigoletto/teatro-avenida",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.609303,
+   "lng": -58.387979,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "4339078e3a73",
+   "titulo": "SELF- TITLED AFTERGLOW 2.0 en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Después de años presentándose como Quimey Saunders, llega una nueva etapa. Por primera vez, SAUNDERS se presenta oficialmente bajo su nuevo alias, mostrando una nueva versión de su sonido, una renovada selección musical y una identidad que marca el comienzo de una nueva era. Además, estará presentando parte de su nueva música propia. Durante el sunset, realizará un recorrido por distintas etapas d",
+   "url": "https://venti.live/evento/self-titled-afterglow-2-0-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791843541760-lg.jpg"
   },
   {
    "id": "0ba26426729f",
@@ -24364,29 +25414,30 @@
    "imagen": "https://imagenes.passline.com/eventos/-744193-rec.jpg"
   },
   {
-   "id": "ad710e6e865d",
-   "titulo": "Ze Pequeña",
+   "id": "fe7a77917f95",
+   "titulo": "Ze Pequeña en Niceto Club (+18 años)",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
+   "direccion": "Cnel. Niceto Vega 5510",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "$ 22000",
+   "precio": "$ 25.000",
    "descripcion": "Recital: Ze Pequeña en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/ze-pequena-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "url": "https://venti.live/evento/ze-peque-a-en-niceto-club",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/niceto-03.jpg"
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1787232056763-lg.jpg"
   },
   {
    "id": "f8c2a5862a54",
@@ -25718,29 +26769,30 @@
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1790287368821.webp"
   },
   {
-   "id": "69ddf084f8f0",
-   "titulo": "Ben Marcus",
+   "id": "44202ca46926",
+   "titulo": "Ben Marcus. \"Buenas intenciones Tour” en Humboldt | Niceto Club (+18 años)",
    "categoria": "Música",
-   "lugar": "Humboldt (Niceto Club)",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "",
+   "hora": "21:00",
    "horarios": "",
-   "precio": "$ 15000",
-   "descripcion": "Recital: Ben Marcus en Humboldt (Niceto Club).",
-   "url": "https://indiehoy.com/agenda/ben-marcus-en-humboldt-niceto-club/",
-   "dominio": "indiehoy.com",
+   "precio": "$ 15.000",
+   "descripcion": "Tras ganarse el respeto de la crítica y el público en España, el músico y compositor Ben Marcus anuncia oficialmente su primera gira por Latinoamérica. Bajo el título \"Buenas Intenciones\", este tour marca el desembarco del artista en México y Argentina, llevando su rock de autor a una audiencia que lleva tiempo reclamando su presencia. Ben Marcus no es un recién llegado. Su solvencia en directo ha",
+   "url": "https://venti.live/evento/ben-marcus-buenas-intenciones-tour-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/nicetoindiehoy-17.jpg"
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1785790696637-lg.jpg"
   },
   {
    "id": "8a7eb1ccc4a9",
@@ -26345,6 +27397,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000310787.jpg"
   },
   {
+   "id": "4750dbbb734b",
+   "titulo": "Chamcita - Agucho en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "El sábado 24 de octubre, Chamcita llega al CCNU para compartir sus canciones, acompañada por la música de Agucho, cantautor oriundo de Salto, Provincia de Buenos Aires, quien estará a cargo de la apertura del show.Ambos artistas han compartido escenario en diferentes formatos, y esta vez, vuelven a encontrarse para traer su música, su historia y su",
+   "url": "https://livepass.com.ar/events/chamcita-agucho-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/332c86e9ccfd706be2179dafab183802d298aa12.png?1791902334"
+  },
+  {
    "id": "9411845c69d9",
    "titulo": "Charlee Espinoza",
    "categoria": "Evento",
@@ -26645,6 +27722,31 @@
    "imagen": "https://images.venti.live/user-images/1790720783009-lg.jpg"
   },
   {
+   "id": "c943220fd724",
+   "titulo": "Club 69 | 24 OCT en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 30.000",
+   "descripcion": "Ingreso valido hasta las 4 am",
+   "url": "https://venti.live/evento/club-69-24-oct-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790720783009-lg.jpg"
+  },
+  {
    "id": "080f99155546",
    "titulo": "Club oeste",
    "categoria": "Teatro",
@@ -26845,6 +27947,56 @@
    "imagen": "https://imagenes.passline.com/eventos/coramina-no-te-me-enojes-cloe-abigail-bariloche-sociedad-fuego-en-batacazo-cultural-568376-rec.jpg"
   },
   {
+   "id": "94cd97216169",
+   "titulo": "Corapa 24 0ct en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 14.500",
+   "descripcion": "",
+   "url": "https://venti.live/evento/corapa-24-0ct-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790692478104-lg.jpg"
+  },
+  {
+   "id": "61daa45b0239",
+   "titulo": "Coro San Benito de Palermo: concierto de música coral",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Sarmiento",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2180",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de conciertos 2026 del museo: el Coro San Benito de Palermo, dirigido por Judith Albera, ofrece Messe Brève de Gounod, Spanish Serenade de Elgar y obras a capella de raíz latinoamericana y africana.",
+   "url": "https://museosarmiento.cultura.gob.ar/actividad/coro-san-benito-de-palermo/",
+   "dominio": "museosarmiento.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico Sarmiento",
+   "fuentes": [
+    "Museo Histórico Sarmiento"
+   ],
+   "lat": -34.560867,
+   "lng": -58.454416,
+   "embebible": false,
+   "imagen": "https://museosarmiento.cultura.gob.ar/media/uploads/site-8/destacados/.thumbnails/slide_37.jpg/slide_37-1500x0-no-upscale.jpg"
+  },
+  {
    "id": "e38100eeb700",
    "titulo": "Criatura",
    "categoria": "Teatro",
@@ -26968,6 +28120,31 @@
    "lng": -58.369617,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/59/000319959.jpg"
+  },
+  {
+   "id": "1b923cfff7f7",
+   "titulo": "Cuentos al patio: narraciones orales en el Museo Saavedra",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Los Cuenteros de la Escuela de la Palabra comparten una jornada de narraciones orales en el jardín del museo.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo Histórico de Buenos Aires Cornelio de Saavedra"
+   ],
+   "lat": -34.568231,
+   "lng": -58.507789,
+   "embebible": false,
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Gemini_Generated_Image_mbnihqmbnihqmbni.jpg"
   },
   {
    "id": "3fb71eed4b63",
@@ -27121,6 +28298,31 @@
    "imagen": "https://imagenes.passline.com/eventos/death-symphony-by-moise-soto-568794-rec.jpg"
   },
   {
+   "id": "a5e5e910305f",
+   "titulo": "DEFEST VOL. 11",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 18.000",
+   "descripcion": "Sábado 24/10 20 Hs. DEFEST VOL. 11 En Vivo: EL INVIERNO DE MOREL LOS DEFECTOS LAS FORMAS VIVAS After Party House of Gaming - 🎧 Igor Disorder Expo + Feria OH - Estomba 851 (CABA) \\n",
+   "url": "https://otrahistoria.com.ar/evento/defest-vol-11/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261007-WA0049.jpg"
+  },
+  {
    "id": "ce843d90d8ab",
    "titulo": "DOBLECERO en Argentina",
    "categoria": "Evento",
@@ -27144,6 +28346,31 @@
    "lng": -58.439662,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/doblecero-en-argentina-487380-rec.jpg"
+  },
+  {
+   "id": "319d9eb105fd",
+   "titulo": "Daniel Agostini",
+   "categoria": "Música",
+   "lugar": "Auditorio de Belgrano",
+   "barrio": "",
+   "direccion": "Virrey Loreto 2348",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 28000",
+   "descripcion": "Daniel Javier Agostini, conocido artísticamente como Daniel Agostini, es un cantautor argentino de música tropical. En 2020 publica \"Simple\" un álbum de estudio, y varios singles, entre ellos el tema \"Devuélveme el amor\" Ese mismo año lanza el single \"Que seas muy feliz\" junto a Yanina Hernández . E",
+   "url": "https://www.ticketek.com.ar/daniel-agostini/auditorio-de-belgrano",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.567048,
+   "lng": -58.449464,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "4098336fd43d",
@@ -29404,6 +30631,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/14/000320714.jpg"
   },
   {
+   "id": "f2f07a1caa7a",
+   "titulo": "Honey Bunny CICLO DE CINE",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "HALLOWEEN \\n",
+   "url": "https://otrahistoria.com.ar/evento/honey-bunny-ciclo-de-cine/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20260930-WA00331.jpg"
+  },
+  {
    "id": "d85662fe9244",
    "titulo": "Hotel julio césar",
    "categoria": "Teatro",
@@ -29552,6 +30804,31 @@
    "lng": -58.412003,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/indeseable-entre-petes-gimnasios-510535-rec.jpg"
+  },
+  {
+   "id": "5d85537400c8",
+   "titulo": "Ine Crespo y Seba Dorso: dúo de música folclórica argentina",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Nacional",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1600",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Dúo de música folclórica argentina en el Auditorio del museo.",
+   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/ine-crespo-y-seba-dorso/",
+   "dominio": "museohistoriconacional.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
+   "fuentes": [
+    "Museo Histórico Nacional"
+   ],
+   "lat": -34.626623,
+   "lng": -58.370805,
+   "embebible": false,
+   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/dmus.jpg/dmus-1500x0-no-upscale.jpg"
   },
   {
    "id": "30feaaed1d83",
@@ -30106,6 +31383,31 @@
    "imagen": "https://api.tickethoy.org/images/eventos/32331/imgn0000.jpg"
   },
   {
+   "id": "13e7f9228c8b",
+   "titulo": "La Valdenegro FIESTA",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "",
+   "url": "https://otrahistoria.com.ar/evento/la-valdenegro-fiesta/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261007-WA00101.jpg"
+  },
+  {
    "id": "4df96dba2c68",
    "titulo": "La boda judía",
    "categoria": "Teatro",
@@ -30280,6 +31582,31 @@
    "lng": -58.416742,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/83/000311483.jpg"
+  },
+  {
+   "id": "f3762ebcaf34",
+   "titulo": "La historia de la guitarra argentina, con Mercedes Mollard",
+   "categoria": "Música",
+   "lugar": "Museo Malvinas e Islas del Atlántico Sur",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Santiago de Calzadilla 1301",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "La guitarrista y compositora Mercedes Mollard presenta un repertorio de música argentina vinculado con la naturaleza, los ritmos y la identidad nacional, a través de los siglos XX y XXI.",
+   "url": "https://museomalvinas.cultura.gob.ar/noticia/octubre-en-el-museo-malvinas-historia-arte-y-cultura-argentina/",
+   "dominio": "museomalvinas.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Malvinas e Islas del Atlántico Sur",
+   "fuentes": [
+    "Museo Malvinas e Islas del Atlántico Sur"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": "https://museomalvinas.cultura.gob.ar/media/uploads/site-30/destacados/.thumbnails/whatsapp_image_2026-10-06_at_09.28.16.jpeg/whatsapp_image_2026-10-06_at_09.28.16-600x0-no-upscale.jpeg"
   },
   {
    "id": "f9e886297a4f",
@@ -31460,6 +32787,31 @@
    "imagen": ""
   },
   {
+   "id": "4fe63d35f645",
+   "titulo": "Lucero Loguercio Dartiguelongue Gerez en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Cuarteto de jazz de guitarra, bajo, saxo alto y batería. El repertorio combina clásicos del género con jazz contemporáneo, en una propuesta de sonido eléctrico con influencias del rock.",
+   "url": "https://livepass.com.ar/events/lucero-loguercio-dartiguelongue-gerez-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7cee5cc2994d301d036ffcc9caa225a272f71bab.png?1791984750"
+  },
+  {
    "id": "2ed5ac3f11c8",
    "titulo": "Luciano Pereyra",
    "categoria": "Música",
@@ -32241,29 +33593,30 @@
    "imagen": "https://imagenes.passline.com/eventos/-802700-rec.jpg"
   },
   {
-   "id": "48e9bb8bab60",
-   "titulo": "Mustafunk + O´funk´illo",
+   "id": "671a24cc0d49",
+   "titulo": "Mustafunk + O´funk´illo (España) en Niceto Club (+18 años)",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
+   "direccion": "Cnel. Niceto Vega 5510",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "$ 40000",
-   "descripcion": "Recital: Mustafunk + O´funk´illo en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/mustafunk-ofunkillo-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "precio": "$ 40.000",
+   "descripcion": "El próximo sábado 24 de octubre, el escenario de Niceto Club será punto de encuentro para dos bandas que llevan el funk a territorios propios: O’Funk’illo, una de las grandes referencias del funk andaluz, llega por primera vez a la Argentina, y Mustafunk, uno de los exponentes más originales de la escena independiente argentina, será parte de esta noche especial. Con más de 25 años de trayectoria,",
+   "url": "https://venti.live/evento/mustafunk-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/niceto-01.jpg"
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1789140787517-lg.jpg"
   },
   {
    "id": "71b7303e07b1",
@@ -32289,6 +33642,31 @@
    "lng": -58.38449,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000299185.jpg"
+  },
+  {
+   "id": "6e91b101033b",
+   "titulo": "NINETY 24 OCT en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "NINETY SEGUNDA EDICIÓN Hay proyectos que nacen del deseo simple pero honesto de hacer las cosas bien: cuidar el sonido, construir un buen ambiente y generar un espacio propio para compartir la música que nos mueve. El SÁBADO 24 de Octubre presentamos NINETY en Niceto Bar (Salón).",
+   "url": "https://venti.live/evento/ninety-24-oct-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791218341634-lg.jpg"
   },
   {
    "id": "2102af52154e",
@@ -33166,6 +34544,31 @@
    "lng": -58.372086,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/pepi-dillon-cielo-rojo-557836-rec.jpg"
+  },
+  {
+   "id": "5e1168cc778f",
+   "titulo": "Pablo Angeli",
+   "categoria": "Teatro",
+   "lugar": "Teatro Devoto",
+   "barrio": "",
+   "direccion": "Av. Lincoln 3815",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 35000",
+   "descripcion": "Autor: Pablo Angeli Interprete: Pablo Angeli Género: Unipersonal de Humor CARMEN Y OSVALDO Y TODA LA FAMILIA Las fiestas de fin de año: ese campo de batalla donde las copas tintinean, los turrones se derriten y las tensiones familiares explotan con el sonido del corcho. En “Carmen y Osvaldo y toda l",
+   "url": "https://www.ticketek.com.ar/pablo-angeli/teatro-devoto",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.599782,
+   "lng": -58.508075,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "ad32aeabc644",
@@ -34396,12 +35799,37 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/14/000321114.jpg"
   },
   {
+   "id": "c2e54bb038e4",
+   "titulo": "Roze",
+   "categoria": "Música",
+   "lugar": "Teatro Opera On",
+   "barrio": "",
+   "direccion": "Av. Corrientes 860",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 30000",
+   "descripcion": "24 DE OCTUBRE | TEATRO OPERA ROZE, el dúo de cumbia que está revolucionando la escena, anuncia su primera gira federal en un momento de máxima expansión. El tour que comenzará en el mes de Mayo, ya tiene fechas confirmadas en Quality Lab de Córdoba el 14 de Mayo y el 15 de Mayo en HUB de Santa Fe, p",
+   "url": "https://www.ticketek.com.ar/roze/teatro-opera",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "0fedea55c59c",
    "titulo": "Roze en Teatro Ópera",
    "categoria": "Música",
    "lugar": "Teatro Ópera ON",
    "barrio": "",
-   "direccion": "",
+   "direccion": "Av. Corrientes 860",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "",
@@ -34415,8 +35843,8 @@
    "fuentes": [
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603658,
+   "lng": -58.378892,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/roze-opera.jpg"
   },
@@ -35879,6 +37307,31 @@
    "imagen": "https://imagenes.passline.com/eventos/universo-stand-up-comedy-show-560216-rec.jpg"
   },
   {
+   "id": "6dcfd5406456",
+   "titulo": "UNPLUGGED de terror",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 6.000",
+   "descripcion": "U N P L U G G E D de terror🩸 SABADO 24/10 🎤@soyadamra / @danleyend_vh / @shon13x 🎧Dj residente @decimesiko 📌20 a 01hs en @elpatiodeestomba 🎟️Entrada por el link de la página de @otrahistoriaclubcultural 🕹️Invita: @club.houseofgaming \\n",
+   "url": "https://otrahistoria.com.ar/evento/unplugged-de-terror/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-09-30-at-18.04.15.jpeg"
+  },
+  {
    "id": "9f8cb71e6d8a",
    "titulo": "Un bosque cerca del mar, de Carolina Romano (inauguración)",
    "categoria": "Artes visuales",
@@ -36204,29 +37657,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000310385.jpg"
   },
   {
-   "id": "873e2f97c042",
-   "titulo": "Velvet Is Back",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Otra Historia Club Cultural",
-   "barrio": "",
+   "id": "5f9822a134eb",
+   "titulo": "Velvet is back! ✨",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
    "direccion": "Estomba 851",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Fiesta / evento de música electrónica listado en Resident Advisor.",
-   "url": "https://ra.co/events/2546224",
-   "dominio": "ra.co",
+   "precio": "$ 14.000",
+   "descripcion": "House is back! 💿 Este sábado 24 de Octubre Velvet Is Back esta de vuelta en Otra Historia - Estomba 851 Nuestra fiesta under bimestral del house alternativo argentino va a estar presentando a Lucas Metz, Gemma y nuestro residente Andres Capra para completar una gran noche asegurada. Los esperamos para seguir compartiendo musica con... \\n",
+   "url": "https://otrahistoria.com.ar/evento/velvet-is-back-%e2%9c%a8/",
+   "dominio": "otrahistoria.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "OTRA HISTORIA",
    "fuentes": [
+    "OTRA HISTORIA",
     "Resident Advisor: Buenos Aires"
    ],
    "lat": -34.583372,
    "lng": -58.464665,
-   "embebible": false,
-   "imagen": "https://images.ra.co/978c077b73c12639d4f4859d62ebe421b4d70bb3.png"
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260926-WA00311.jpg"
   },
   {
    "id": "71058780a4d9",
@@ -36855,6 +38309,31 @@
    "lng": -58.370506,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000319017.jpg"
+  },
+  {
+   "id": "97e0f63ec644",
+   "titulo": "“NOCHE PICANTE Y RABIOSA” LOCAL FREAKS (tributo a Audioslave y Rage against the machine) + RED HOT CHIMICHURRIS (tributo a RHCP) en Niceto Bar",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 10.000",
+   "descripcion": "UNA NOCHE, TRES TRIBUTOS Y TODO EL ROCK DE LOS 90/ 2000 El sonido de Red Hot Chili Peppers, Rage Against the Machine y Audioslave llega a Niceto Bar. El 24 de octubre, a las 20 hs, Palermo se prepara para una noche a puro rock con dos bandas tributo que prometen revivir la energía, la potencia y la actitud de tres de las bandas más influyentes de las últimas décadas. Por un lado, todo el funk, la",
+   "url": "https://venti.live/evento/noche-picante-y-rabiosa-local-freaks-tributo-a-audioslave-y-rage-against-the-machine-red-hot-chimichurris-tributo-a-rhcp-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790622505821-lg.jpg"
   },
   {
    "id": "7e5ca30a6357",
@@ -37486,6 +38965,31 @@
    "imagen": "https://imagenes.passline.com/eventos/batalla-de-canciones-byfuerza_underground-569497-rec.jpg"
   },
   {
+   "id": "b47874a4780e",
+   "titulo": "BRITPOP UP",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "BRITPOP UP vuelve a Otra Historia Club Cultural con una nueva tarde de feria temática y mucha música. 📅 domingo 25 de octubre 🕠 desde las 17:30 hs La entrada es libre y gratuita. Durante toda la jornada vas a encontrar: feria de emprendimientos flash tattoo tarot acústicos en vivo de: Mateo y Nico de... \\n",
+   "url": "https://otrahistoria.com.ar/evento/britpop-up-2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261005-WA0036.jpg"
+  },
+  {
    "id": "939ac8f70888",
    "titulo": "Baile social / Juanma Torres Rhythm & Blues Combo",
    "categoria": "Música",
@@ -37609,6 +39113,31 @@
    "lng": -58.385575,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000309451.jpg"
+  },
+  {
+   "id": "b57828072812",
+   "titulo": "Boom Boom Kid 25 OCT en Niceto Club",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "",
+   "url": "https://venti.live/evento/boom-boom-kid-25-oct-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790021202326-lg.jpg"
   },
   {
    "id": "cb9822e09c31",
@@ -37812,6 +39341,31 @@
    "lng": -58.442199,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000320951.jpg"
+  },
+  {
+   "id": "88cec6ca00f0",
+   "titulo": "Ciclo Musicátedras: Ensamble de Cellos del Conservatorio Manuel de Falla",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Nacional",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1600",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "El Ensamble de Cellos del Conservatorio Superior de Música Manuel de Falla estrena tres obras propias e interpreta obras de compositores argentinos y latinoamericanos.",
+   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/concierto-del-ensamble-de-cellos-del-conservatorio-manuel-de-falla/",
+   "dominio": "museohistoriconacional.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
+   "fuentes": [
+    "Museo Histórico Nacional"
+   ],
+   "lat": -34.626623,
+   "lng": -58.370805,
+   "embebible": false,
+   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/mf.jpg/mf-1500x0-no-upscale.jpg"
   },
   {
    "id": "fe48346af2c3",
@@ -42623,6 +44177,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/72/000322872.jpg"
   },
   {
+   "id": "d02d06a6db02",
+   "titulo": "Treasures of Classic Jazz en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "El septeto ofrece una mirada renovada y actualizada del jazz clásico de los años 1920s y 30s a través de arreglos propios de piezas emblemáticas del repertorio tradicional e incorporando composiciones originales basadas en dicho estilo.",
+   "url": "https://livepass.com.ar/events/treasures-of-classic-jazz-en-ccnu-2026-10-25-21-30-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/dc59287481c7c8d234ccf0f436be73e7eab93fcb.png?1792430344"
+  },
+  {
    "id": "f4c225cef3ce",
    "titulo": "Tómbola 16",
    "categoria": "Teatro",
@@ -43048,6 +44627,31 @@
    "lng": -58.446377,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000321956.jpg"
+  },
+  {
+   "id": "3f37feb94535",
+   "titulo": "Vivitos y Coleando 2",
+   "categoria": "Infantil",
+   "lugar": "Auditorio de Belgrano",
+   "barrio": "",
+   "direccion": "Virrey Loreto 2348",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Desde $ 22500",
+   "descripcion": "De Hugo Midon y Carlos Gianni Desde el 20 de junio de 2026 en el Auditorio Belgrano Vuelve el juego, vuelve la música, vuelve ese mundo donde todo es posible. Vivitos y Coleando 2 retoma el espíritu mágico, poético y profundamente humano del teatro de Hugo Midón y Carlos Gianni, para invitar a chico",
+   "url": "https://www.ticketek.com.ar/vivitos-y-coleando-2/auditorio-de-belgrano",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.567048,
+   "lng": -58.449464,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "2b667a97409f",
@@ -43777,6 +45381,31 @@
    "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F6377%2Fprimario.png?alt=media"
   },
   {
+   "id": "c1d0a04c9cfc",
+   "titulo": "Sala de Ensayo con la Escuela de Música N° 9 en el Museo Saavedra",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "barrio": "Saavedra",
+   "direccion": "Crisólogo Larralde 6309",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Estudiantes y docentes de la Escuela de Música N° 9 de Villa Urquiza presentan su orquesta y su coro en una presentación abierta a la comunidad.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/sala-de-ensayo-con-la-escuela-de-musica-ndeg-09-en-el-museo-saavedra",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo Histórico de Buenos Aires Cornelio de Saavedra"
+   ],
+   "lat": -34.568231,
+   "lng": -58.507789,
+   "embebible": false,
+   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/File.jpg"
+  },
+  {
    "id": "35b609e51544",
    "titulo": "Taller de lectura: África y Europa. Un recorrido literario",
    "categoria": "Taller",
@@ -44002,29 +45631,30 @@
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/en-accion-cuadernos-cceba-web.jpg/4a15a332-c1f7-8347-6afc-b077e5006324?t=1789504603228"
   },
   {
-   "id": "4b2766bfd854",
-   "titulo": "Franco Rizzaro",
+   "id": "1ad25d438103",
+   "titulo": "Franco Rizzaro en Niceto Club (+18 años)",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
+   "direccion": "Cnel. Niceto Vega 5510",
    "fecha_inicio": "2026-10-27",
    "fecha_fin": "2026-10-27",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "$ 28000",
-   "descripcion": "Recital: Franco Rizzaro en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/franco-rizzaro-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "precio": "$ 34.000",
+   "descripcion": "FRANCO RIZZARO VUELVE A NICETO CLUB El músico argentino regresa al mítico escenario de Palermo para una noche pensada de principio a fin: canciones nuevas, un presente en pleno crecimiento y esa cercanía que lo volvió uno de los artistas jóvenes más queribles de la escena local. Franco Rizzaro vuelve a Niceto Club. El escenario donde ya se presentó en 2024 lo recibe otra vez, con un repertorio que",
+   "url": "https://venti.live/evento/franco-rizzaro-en-niceto-club",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/nicetoindiehoy-3.jpg"
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790008328245-lg.jpg"
   },
   {
    "id": "025097f7ce9a",
@@ -44075,6 +45705,56 @@
    "lng": -58.421478,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/86/000320486.jpg"
+  },
+  {
+   "id": "2dd3efe1d3cb",
+   "titulo": "Livre Fiesta",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Todos los martes LIVRE!!! hay Open Mic, Jam de Dibujo, Feria, Flash Tattoo, videojuegos y 10 shows en vivo por semana! 2 pistas, 2 Dj´s y la mejor fiesta de hiphop de Buenos Aires 🎤🔥 \\n",
+   "url": "https://otrahistoria.com.ar/evento/livre-fiesta-3-2/2026-10-27/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2024/06/livre-e1725306585980.jpg"
+  },
+  {
+   "id": "901b109d1aaf",
+   "titulo": "Mentes Expertas Nathaly Marcus",
+   "categoria": "Teatro",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 32000",
+   "descripcion": "Nutrióloga funcional, conferencista internacional y fundadora del centro Bienesta y del Instituto de Salud Funcional Mente-Cuerpo (ISFMC). Con más de 20 años de trayectoria, la autora de bestsellers como El Método de las 3 R y Sana, Salvaje y Sabia y conductora del exitoso podcast Las 3 R’s, se ha c",
+   "url": "https://www.ticketek.com.ar/mentes-expertas-nathaly-marcus/teatro-coliseo",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.596736,
+   "lng": -58.383277,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "a3a3358e9731",
@@ -44756,6 +46436,31 @@
    "imagen": "https://imagenes.passline.com/eventos/funcion-2810-1940hs-en-post-street-bar-pos-rec.jpg"
   },
   {
+   "id": "b3426ca72b81",
+   "titulo": "Garcia - Gomez - Oqui en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Trío de música Nacional",
+   "url": "https://livepass.com.ar/events/garcia-gomez-oqui-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8dfd880cc5070c282c025ac33e4e50657197d8a1.png?1791984682"
+  },
+  {
    "id": "85603193141a",
    "titulo": "Hablame Sucio. Ciclo de poesía fetichista (6ª edición)",
    "categoria": "Literatura y charlas",
@@ -44963,7 +46668,7 @@
    "categoria": "Música",
    "lugar": "Teatro Ópera ON",
    "barrio": "",
-   "direccion": "",
+   "direccion": "Av. Corrientes 860",
    "fecha_inicio": "2026-10-28",
    "fecha_fin": "2026-10-28",
    "hora": "",
@@ -44977,8 +46682,8 @@
    "fuentes": [
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.603658,
+   "lng": -58.378892,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/40principales-teatro-opera.jpg"
   },
@@ -45863,6 +47568,31 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/54ad94ef-345d-4b8e-83f8-0546e91d90d9.jpg"
   },
   {
+   "id": "bd34aebd6bbb",
+   "titulo": "Ciclo Releyendo a… Sarmiento, biógrafo y biografiado: Aldao y Psicología de Sarmiento",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo Histórico Sarmiento",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2180",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "18:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Charla de Adriana Amante sobre 'La biografía como diagnóstico': Aldao de Sarmiento y Psicología de Sarmiento de Nerio Rojas, dentro del ciclo sobre el género de la biografía histórica.",
+   "url": "https://museosarmiento.cultura.gob.ar/actividad/ciclo-releyendo-a/",
+   "dominio": "museosarmiento.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico Sarmiento",
+   "fuentes": [
+    "Museo Histórico Sarmiento"
+   ],
+   "lat": -34.560867,
+   "lng": -58.454416,
+   "embebible": false,
+   "imagen": "https://museosarmiento.cultura.gob.ar/media/uploads/site-8/destacados/.thumbnails/slide_charlas_releyendo_a_sarmiento.jpg/slide_charlas_releyendo_a_sarmiento-1500x0-no-upscale.jpg"
+  },
+  {
    "id": "38c571e1426b",
    "titulo": "Ciclo de cine coreano: Hijo mayor (Cecilia Kang)",
    "categoria": "Cine",
@@ -46086,6 +47816,31 @@
    "lng": -58.387521,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-810791-rec.jpg"
+  },
+  {
+   "id": "fd49ac83fa07",
+   "titulo": "El Circuito - Espacio Escénico Abierto",
+   "categoria": "Artes visuales",
+   "lugar": "Panda Rojo Espacio Cultural",
+   "barrio": "Abasto",
+   "direccion": "Sarmiento 3096",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Espacio escénico abierto en el que artistas tienen hasta 10 minutos de escenario para probar material nuevo; también hay expo de artes visuales y fotografía. No se cobra entrada.",
+   "url": "https://pandarojo.com.ar/production/el-circuito-espacio-escenico-abierto/",
+   "dominio": "pandarojo.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "PANDA ROJO ESPACIO CULTURAL",
+   "fuentes": [
+    "PANDA ROJO ESPACIO CULTURAL"
+   ],
+   "lat": -34.60677,
+   "lng": -58.409877,
+   "embebible": true,
+   "imagen": "https://pandarojo.com.ar/wp-content/uploads/2024/10/unisize_elCircuitoAO_4320x2160_@2x.jpg"
   },
   {
    "id": "29817de32053",
@@ -46416,6 +48171,31 @@
    "imagen": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/humbe/humbe-image-main-1773172293.jpg"
   },
   {
+   "id": "dca52a418742",
+   "titulo": "Jazz After Hours en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "El quinteto se reúne para recorrer algunos de los grandes standards del género\\. Un repertorio de clásicos que atraviesa el swing, el blues y las baladas.",
+   "url": "https://livepass.com.ar/events/jazz-after-hours-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e4c518c0395b6343d737005139422d26eab49c63.png?1791984044"
+  },
+  {
    "id": "42ef78638c9c",
    "titulo": "Juan bonaudi y diego rolón - homenaje a zitarrosa",
    "categoria": "Evento",
@@ -46640,6 +48420,56 @@
    "lng": -58.426264,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/manuel-weil-trio-presenta-siempre-igual-564947-rec.jpg"
+  },
+  {
+   "id": "ca0f92e12464",
+   "titulo": "MARCELO TOLEDO DE PEÑA! en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 20.000",
+   "descripcion": "Marcelo Toledo vuelve a Buenos Aires, vuelve con todo su estilo a cantarle a sus provincianos, a sus seguidores y a todos los amantes del Folklore. Regresa con nuevas producciones, con artistas invitados, y un repertorio bien festivo donde nos propone disfrutar de una noche llena de Folklore Santiagueño como el mismo “Gustito a Mishtol”.",
+   "url": "https://venti.live/evento/marcelo-toledo-de-pe-a-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1787759456954-lg.jpg"
+  },
+  {
+   "id": "0726e6b9fec8",
+   "titulo": "MICU",
+   "categoria": "Música",
+   "lugar": "Teatro Santa María",
+   "barrio": "",
+   "direccion": "Montevideo 842",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 51750",
+   "descripcion": "Micu en vivo se presentará el día jueves 29 de Octubre a las 21h en Teatro Santa María.",
+   "url": "https://www.ticketek.com.ar/micu/teatro-santa-maria",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.599146,
+   "lng": -58.389744,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "6f4b779bf257",
@@ -46918,29 +48748,29 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000322633.jpg"
   },
   {
-   "id": "aa02ec4cddb5",
-   "titulo": "PARALLAX",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Otra historia. Club cultural.",
-   "barrio": "",
-   "direccion": "Estomba 851, Villa ortuzar.",
+   "id": "2ee0ebb29ef0",
+   "titulo": "Oíd Mortales",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
    "fecha_inicio": "2026-10-29",
    "fecha_fin": "2026-10-29",
-   "hora": "21:00",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $ 7000",
-   "descripcion": "PARALLAX en Otra historia. Club cultural.. Entradas por Passline.",
-   "url": "https://www.passline.com/eventos/parallax",
-   "dominio": "passline.com",
+   "precio": "$ 13.000",
+   "descripcion": "festival cultural que celebra la potencia y vitalidad del rock y el pop nacional. Toda la propuesta está atravesada por el concepto del viaje: proponemos una experiencia, que rinde homenaje a los paisajes, la cultura y la diversidad de la Ruta 40. Más allá de lo musical, el evento asume un compromiso social innegociable. Utilizamos... \\n",
+   "url": "https://otrahistoria.com.ar/evento/oid-mortales/",
+   "dominio": "otrahistoria.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "OTRA HISTORIA",
    "fuentes": [
-    "Passline"
+    "OTRA HISTORIA"
    ],
    "lat": -34.583372,
    "lng": -58.464665,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/parallax-563001-rec.jpg"
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260930-WA00541.jpg"
   },
   {
    "id": "f183886e1a5b",
@@ -46992,6 +48822,57 @@
    "lng": -58.395876,
    "embebible": true,
    "imagen": "https://www.rojas.uba.ar/storage/images/62L676eqCucPcVua9uiAXraaJlOKlraOMSRWmQ8G.jpeg"
+  },
+  {
+   "id": "22d424c67c2a",
+   "titulo": "Parallax",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 7.000",
+   "descripcion": "PARALLAX llega a Otra Historia Club Cultural. Una noche de rock y psicodelia junto a @FURIA! · @Pos Ludió · @Fungals , en un espacio transformado especialmente para la fecha. Desde las 21 hs, música en vivo, una ambientación y puesta visual inmersiva que transforma el espacio y acompaña cada momento de la noche. La... \\n",
+   "url": "https://otrahistoria.com.ar/evento/parallax/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA",
+    "Passline"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-12.44.00.jpeg"
+  },
+  {
+   "id": "7389a061e3f8",
+   "titulo": "Pepechet y Soldana en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El 29/10 vamos a estar tocando en Niceto Bar junto a los genios de @soldanagruv 🙂‍↕️ • Van a escuchar temas propios y algún que otro cover fusionero💜 Las entradas son gratis y se reservan mediante el link del perfil🔗",
+   "url": "https://venti.live/evento/pepechet-y-soldana-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790625262513-lg.jpg"
   },
   {
    "id": "b1356dc8e78a",
@@ -47772,6 +49653,31 @@
    "imagen": "https://imagenes.passline.com/eventos/aspennials-vantage-562596-rec.jpg"
   },
   {
+   "id": "147533b2217d",
+   "titulo": "AZAR",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "AZAR presenta Sinestesia, un showcase especial para celebrar el lanzamiento de su EP S.E.R.R.. La banda interpretará el EP completo en un formato full band, acompañada por invitados especiales, en una puesta especialmente preparada para la ocasión. Será una experiencia audiovisual e inmersiva, pensada especialmente para llevar el universo de S.E.R.",
+   "url": "https://otrahistoria.com.ar/evento/azar/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260930-WA0017.jpg"
+  },
+  {
    "id": "f68662ceab18",
    "titulo": "Activación: Visita guiada con artistas",
    "categoria": "Visita guiada",
@@ -47871,6 +49777,31 @@
    "lng": -58.448137,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/calamaro-movistar-arena.jpg"
+  },
+  {
+   "id": "2c2524fb4054",
+   "titulo": "Andy Hillar + Carismático Player en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 12.000",
+   "descripcion": "",
+   "url": "https://venti.live/evento/andy-hillar-carism-tico-player-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791405507119-lg.jpg"
   },
   {
    "id": "c5a18622ee3a",
@@ -47974,6 +49905,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/bitbang-bit-bingo-musical-566923-rec.jpg"
   },
   {
+   "id": "22d94d1161d6",
+   "titulo": "BRUNO ALBANO en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "Bruno Albano, cantante, bajista y compositor, reconocido por su trayectoria al frente de Banda de Turistas, presenta en vivo las canciones de Roto, su más reciente álbum de estudio. Luego de más de una década como integrante de una de las bandas referentes del rock alternativo argentino, Albano inició su carrera solista en 2019 con Yo no soy Bruno, al que siguió Solitarista (2022). Desde entonces,",
+   "url": "https://venti.live/evento/bruno-albano-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1792004492826-lg.jpg"
+  },
+  {
    "id": "8bcd91146e41",
    "titulo": "Baden en vivo – Full banda + invitados",
    "categoria": "Música",
@@ -47997,6 +49953,31 @@
    "lng": -58.437755,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/baden-en-vivo-full-banda-invitados-563696-rec.jpg"
+  },
+  {
+   "id": "863a1c1b83f5",
+   "titulo": "Ben & Sweets en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $18.000",
+   "descripcion": "Un quinteto dedicado a la música y al sonido de dos figuras fundamentales del Jazz: Harry “Sweets” Edison y Ben Webster.Un homenaje a una tradición del Jazz en la que el sonido y el swing son protagonistas.",
+   "url": "https://livepass.com.ar/events/ben-sweets-en-ccnu-2026-10-30-22-30-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/28296a762c233eaa6efab35329cf2183f54b4284.png?1791901719"
   },
   {
    "id": "32ca6e76ebf8",
@@ -48174,6 +50155,31 @@
    "imagen": "https://imagenes.passline.com/eventos/cadena-perpetura-30-octubre-2026-542419-rec.jpg"
   },
   {
+   "id": "071c24ef796f",
+   "titulo": "CALLITWEEN",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "$ 7.500",
+   "descripcion": "La Callit renace para Halloween con una noche llena de magia, nostalgia y pop. 🐍🖤 Disney, los hitazos de reputation de Taylor Swift y todo el pop que amamos se mezclan en una fiesta pensada para revivir nuestra infancia mientras bailamos toda la noche. 🎃 Dresscode spooky/Disney obligatorio, con premios al mejor disfraz.... \\n",
+   "url": "https://otrahistoria.com.ar/evento/%e2%9c%a6-callitween-%e2%9c%a6/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260928-WA0064.jpg"
+  },
+  {
    "id": "61c71532a474",
    "titulo": "CANTA Y NO LLORES CANTOBAR KARAOKE BA",
    "categoria": "Fiestas y electrónica",
@@ -48197,6 +50203,31 @@
    "lng": -58.422882,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/canta-y-no-llores-cantobar-karaoke-ba-569403-rec.jpg"
+  },
+  {
+   "id": "d006e7a542d2",
+   "titulo": "CDS en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Trio de Jazz-funk que recorre parte del repertorio del destacadoguitarrista John Scofield, interpretado en el fomato guitarra, bajo y batería.También estarán tocando algunas composiciones propias dentro del genero acid jazz y funk/jazz.",
+   "url": "https://livepass.com.ar/events/cds-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1baf926f52c9e3fedbf131a4bd8862b5de9f756e.png?1791984434"
   },
   {
    "id": "5aed0f2080d3",
@@ -48648,6 +50679,31 @@
    "lng": -58.403392,
    "embebible": false,
    "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Donn.jpeg"
+  },
+  {
+   "id": "01fe421d2ed3",
+   "titulo": "Dr Daniel López Rosetti",
+   "categoria": "Teatro",
+   "lugar": "Teatro Opera On",
+   "barrio": "",
+   "direccion": "Av. Corrientes 860",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 35000",
+   "descripcion": "\"Cuando hacés cosas nuevas, obligas al cerebro a crear nuevas conexiones.\" Daniel López Rosetti lleva años repitiendo esa idea en conferencias, entrevistas y libros. La utiliza para explicar que salir de la rutina, aprender y aceptar desafíos no solo enriquece la vida, sino que mantiene al cerebro a",
+   "url": "https://www.ticketek.com.ar/dr-daniel-lopez-rosetti/teatro-opera",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "99f63735d579",
@@ -49226,6 +51282,31 @@
    "imagen": "https://api.cafaccess.com/storage/images/events/1929/front_page_2026-10-09_01-13-43.jpg"
   },
   {
+   "id": "085099a69e20",
+   "titulo": "Fiesta Pixie - Halloween en Niceto Bar",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 9.000",
+   "descripcion": "🎃 FIESTA PIXIE — HALLOWEEN ESPECIAL 80’S 🎃 Este Halloween, Fiesta Pixie se transforma para llevarte directo a los años 80. 🪩✨ El viernes 30 de octubre, nos encontramos en Niceto Bar para una noche de pop, clásicos, nostalgia y, por supuesto, disfraces. 📼 Especial 80’s 🎃 Halloween 👻 Dress code: disfraces 🪩 Pop, hits y clásicos para bailar toda la noche Vení con tu mejor disfraz, inspiradx en los 80",
+   "url": "https://venti.live/evento/fiesta-pixie-halloween-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790021071349-lg.jpg"
+  },
+  {
    "id": "6d60a8ba151a",
    "titulo": "Fiesta Placer Halloween (formato Boiler Room)",
    "categoria": "Fiestas y electrónica",
@@ -49476,6 +51557,31 @@
    "lng": -58.406424,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/38/000311238.jpg"
+  },
+  {
+   "id": "4a5788f1dc4a",
+   "titulo": "HALLOWEEN / D'FOREST & MUSICOLOGY en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Nos encontramos una vez más en la pista principal de NICETO CLUB está vez festejando Halloween junto a SGALIA, ZONE7, NANO y MARKO SPERATTI. Evento producido por D'FOREST & MUSICOLOGY",
+   "url": "https://venti.live/evento/halloween-en-niceto-d-forest-musicology-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791926250051-lg.jpg"
   },
   {
    "id": "d2999af67166",
@@ -49905,6 +52011,31 @@
    "imagen": "https://imagenes.passline.com/eventos/kyara-563703-rec.jpg"
   },
   {
+   "id": "edb89ca89309",
+   "titulo": "Karaoke en el Patio",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "VIERNES 30 de Octubre puerta 20hs KARAOKE en Patio de Estomba @elpatiodeestomba Cantamos en el pato esos temas que tanto nos gustan, una rancheada entre amigos, pogo y cofradia, tambien vamos a estar jugando en consolas: Sega GENESIS, Nes, Playstation 2 & 3 y Arcades ESTOMBA 851 - VILLA ORTUZAR - CABA Reserva de... \\n",
+   "url": "https://otrahistoria.com.ar/evento/karaoke-en-el-patio-2/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/KAROKE2.jpg"
+  },
+  {
    "id": "fdece605fbf3",
    "titulo": "Kasta",
    "categoria": "Música",
@@ -49928,6 +52059,31 @@
    "lng": -58.438913,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/05/kasta.jpg"
+  },
+  {
+   "id": "94467e195edc",
+   "titulo": "Kasta Greatest Hits en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "$ 140.000",
+   "descripcion": "Por primera vez en Latinoamérica, Kasta llega en vivo a Buenos Aires. Considerados una de las bandas más importantes e influyentes del rap en ruso, Kasta marcó a toda una generación desde fines de los 90 con una mezcla de hip hop clásico, funk y letras filosas sobre la vida cotidiana, la sociedad y la realidad urbana. Un show histórico para la comunidad rusoparlante y una oportunidad única para de",
+   "url": "https://venti.live/evento/kasta-greatest-hits-en-niceto-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1778852141892-lg.jpg"
   },
   {
    "id": "5377099d15e4",
@@ -50030,6 +52186,31 @@
    "imagen": "https://imagenes.passline.com/eventos/lo-mas-90-20-especial-halloween-566153-rec.jpg"
   },
   {
+   "id": "ce4ab2ad8b46",
+   "titulo": "LOS FUNGIS, FORMOSATIVA, MONTE, TURBOGARCIA",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 8.000",
+   "descripcion": "LOS FUNGIS, FORMOSATIVA, MONTE, TURBOGARCIA. \\n",
+   "url": "https://otrahistoria.com.ar/evento/los-fungis-formosativa-monte-turbogarcia/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260924-WA00251.jpg"
+  },
+  {
    "id": "b4608197c641",
    "titulo": "LOS HERMANOS UKELELE ORCHESTRA",
    "categoria": "Música",
@@ -50080,6 +52261,31 @@
    "lng": -58.447937,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/la-joaqui-c-art-media.jpg"
+  },
+  {
+   "id": "9ee9abaf7e95",
+   "titulo": "La Raxxet 30 OCT en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 18.000",
+   "descripcion": "HALLOWEEN RAXXET PARTY 🐆💀 bueno nos pidieron un monton esta fexxa y aqui estamo!!! esta vez a puro raxxetoneo 💋 recibimos en cabina por primera vez a @djniikoo con un set para vacilar a pleeeeeno y un showcase de @pausrrr pa chogguear como ustedes saben tan readys para lo ke se viene? nos gustaria verlos disfrazados ok",
+   "url": "https://venti.live/evento/la-raxxet-30-oct-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1792157338006-lg.jpg"
   },
   {
    "id": "44ff7b94b121",
@@ -52890,6 +55096,31 @@
    "imagen": "https://imagenes.passline.com/eventos/canta-y-no-llores-cantobar-karaoke-ba-569405-rec.jpg"
   },
   {
+   "id": "d896c93cdd71",
+   "titulo": "CICLO SONICO",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 6.500",
+   "descripcion": "",
+   "url": "https://otrahistoria.com.ar/evento/ciclo-sonico-3/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260929-WA0025.jpg"
+  },
+  {
    "id": "630678f73880",
    "titulo": "CINE ORIENTE – La noche esta marchandose ya",
    "categoria": "Cine",
@@ -52990,6 +55221,31 @@
    "imagen": "https://imagenes.passline.com/eventos/catarsis-en-pareja-stand-up-paseo-la-plaza-561081-rec.jpg"
   },
   {
+   "id": "d7e801911364",
+   "titulo": "Charla: Textiles vallistos, saberes, sentidos y valores de las artesanas de los valles altoandinos de Jujuy",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "San Telmo",
+   "direccion": "Moreno 350",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
+   "descripcion": "Charla sobre los saberes, sentidos y valores de las artesanas textiles de los valles altoandinos de Jujuy.",
+   "url": "https://museo.filo.uba.ar/novedades/charla-textiles-vallistos-saberes-sentidos-y-valores-de-las-artesanas-de-los-valles-altoan",
+   "dominio": "museo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Etnográfico Juan B. Ambrosetti",
+   "fuentes": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "lat": -34.611332,
+   "lng": -58.371022,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "7edb90dab799",
    "titulo": "Charly Fest 32!",
    "categoria": "Festival",
@@ -53038,6 +55294,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/downtempo-rooftop-pres-sabado-31-de-octubre-568585-rec.jpg"
+  },
+  {
+   "id": "48956b5b6120",
+   "titulo": "Club 69 | 31 OCT HALLOWEEN en Niceto Club (+18 años)",
+   "categoria": "Música",
+   "lugar": "Niceto Club",
+   "barrio": "Palermo",
+   "direccion": "Cnel. Niceto Vega 5510",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 35.000",
+   "descripcion": "MUIKA LA CINTIA NICO MONJES Ingreso valido hasta las 4 am",
+   "url": "https://venti.live/evento/club-69-31-oct-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790946308101-lg.jpg"
   },
   {
    "id": "ca10caad7df1",
@@ -53693,6 +55974,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/41/000321841.jpg"
   },
   {
+   "id": "b39b2d4983e3",
+   "titulo": "Entrelíneas Quinteto presenta: El último Brahms",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Sarmiento",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2180",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de conciertos 2026 del Museo Histórico Sarmiento. Entrada libre y gratuita; se entregan números desde dos horas antes del inicio, hasta completar la capacidad de la sala.",
+   "url": "https://museosarmiento.cultura.gob.ar/actividad/el-coro-san-benito-de-palermo-es-una-agrupacion-de-camara-independiente-amateur-formada-por-cantantes-vocacionales-que-desarrollan-la-practica-del-canto-coral-como-un-medio-para-enriquecerse-humana-y-artisticamente-creado-en-1988-su-actual-directora-es-la-prof-judith-albera-el-coro-san-benito-de-palermo-ha-presentado-programas-con-obras-del-renacimiento-italiano-frances-ingles-y-espanol-tambien-abordo-motetes-cantatas-y-corales-de-johann-sebastian-bach-y-georg-friedrich-handel-obras-del/",
+   "dominio": "museosarmiento.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico Sarmiento",
+   "fuentes": [
+    "Museo Histórico Sarmiento"
+   ],
+   "lat": -34.560867,
+   "lng": -58.454416,
+   "embebible": false,
+   "imagen": "https://museosarmiento.cultura.gob.ar/media/uploads/site-8/destacados/.thumbnails/slide_38.jpg/slide_38-1500x0-no-upscale.jpg"
+  },
+  {
    "id": "5f3476b50054",
    "titulo": "Es tan largo el adiós. sesión en espera.",
    "categoria": "Teatro",
@@ -53816,6 +56122,31 @@
    "lng": -58.358199,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/fiestas.jpg"
+  },
+  {
+   "id": "718e5a9f4a55",
+   "titulo": "FIESTA MERMELADA - HALLOWEEN en Humboldt | Niceto Club (+18 años)",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Niceto Club · Sala Humboldt",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5510",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 15.000",
+   "descripcion": "★★★ HALLOWEEN MERMELADA ★★★ Como todos los años se viene la fiesta de halloween de la Merme. 🎃 Una de las noches más esperadas. Si alguna vez soñaste con una noche donde suena Crystal Castles, alguien se maquilla con sangre en el baño y terminás bailando “Heads Will Roll” entre humo y flashes, esta es tu fiesta de Halloween. Vas a moverte como si estuvieras en una rave escondida de Londres en 2009",
+   "url": "https://venti.live/evento/fiesta-mermelada-halloween-en-humboldt-niceto-club-18-a-os",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": -34.587411,
+   "lng": -58.438913,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790861620564-lg.jpg"
   },
   {
    "id": "fc8d0f62512a",
@@ -54168,6 +56499,31 @@
    "lng": -58.406424,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/72/000322272.jpg"
+  },
+  {
+   "id": "eaf9f25b5241",
+   "titulo": "Fátima Florez",
+   "categoria": "Teatro",
+   "lugar": "Teatro Opera On",
+   "barrio": "",
+   "direccion": "Av. Corrientes 860",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 40000",
+   "descripcion": "La multifacética artista desembarca el 31 de octubre en el Teatro Ópera ON con una superproducción de nivel internacional, luego de su gira por Latinoamérica y de recorrer Mar del Plata, Córdoba, Uruguay y los principales escenarios del país, Fátima llega a la calle Corrientes con “Fátima Universal”",
+   "url": "https://www.ticketek.com.ar/fatima-florez/teatro-opera",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "859b7e1e52ec",
@@ -54845,6 +57201,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/73/000321973.jpg"
   },
   {
+   "id": "b76739e41050",
+   "titulo": "Infancias: taller Jugamos con palabras en quechua",
+   "categoria": "Taller",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "San Telmo",
+   "direccion": "Moreno 350",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "15:30",
+   "horarios": "",
+   "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
+   "descripcion": "Taller infantil para jugar con palabras en quechua.",
+   "url": "https://museo.filo.uba.ar/novedades/infancias-taller-jugamos-con-palabras-en-quechua",
+   "dominio": "museo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Etnográfico Juan B. Ambrosetti",
+   "fuentes": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "lat": -34.611332,
+   "lng": -58.371022,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "a916736ca4b8",
    "titulo": "Inquieta Proyecta Vol. VIII: Miedos Locales",
    "categoria": "Evento",
@@ -54868,6 +57249,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-797488-rec.jpg"
+  },
+  {
+   "id": "6cdec8865c43",
+   "titulo": "Jairo",
+   "categoria": "Música",
+   "lugar": "Teatro Devoto",
+   "barrio": "",
+   "direccion": "Av. Lincoln 3815",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 45000",
+   "descripcion": "50 AÑOS DE MÚSICA presenta una serie de canciones que han sido y son importantes en la trayectoria del cantante y cuenta con la participación de destacados artistas, como la banda Eruca Sativa y Abel Pintos en \"Milonga del Trovador\" y \"Caballo Loco\", acompañado en esta ocasión porLuciano Pereyra ya",
+   "url": "https://www.ticketek.com.ar/jairo/teatro-devoto",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.599782,
+   "lng": -58.508075,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "541f0fbc72e2",
@@ -54994,6 +57400,31 @@
    "lng": -58.436561,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/kiss-army-day-v-especial-halloween-556805-rec.jpg"
+  },
+  {
+   "id": "bea1fd33fb36",
+   "titulo": "Karma Criollo - Musica Peruana en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Celebramos el día de la cancion criolla Peruana, tocando y cantando los grandes exitos de la musica de la costa y tambien algunas perlitas escondidas. No faltaran sus buenos valses cortavenas,festejos , marineras, zamacuecas y landos. Los esperamos para brindar y cantar juntos!",
+   "url": "https://livepass.com.ar/events/karma-criollo-musica-peruana-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/c30c6ff3ea0907cd979d262f054ef688032a9fea.png?1792158370"
   },
   {
    "id": "9dbdd2224895",
@@ -55169,6 +57600,31 @@
    "lng": -58.433201,
    "embebible": true,
    "imagen": "https://api.tickethoy.org/images/eventos/32332/imgn0000.jpg"
+  },
+  {
+   "id": "d1f20005cade",
+   "titulo": "La Verbena de la Paloma",
+   "categoria": "Teatro",
+   "lugar": "Teatro Avenida",
+   "barrio": "",
+   "direccion": "Av. de Mayo 1222",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Desde $ 30000",
+   "descripcion": "Luego del éxito obtenido en temporadas anteriores con Antologías de la Zarzuela, lo que marcó el regreso parcial del género a ese verdadero “templo del arte español” que es el Teatro Avenida, las autoridades del mismo junto a Jorge Mazzini anuncian el estreno de LA VERBENA DE LA PALOMA en versión co",
+   "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.609303,
+   "lng": -58.387979,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "1b006b94bb72",
@@ -55369,6 +57825,31 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2026/09/LENGUA-LENGUA-LENGUA_ph-Alejandra-Del-Castello_principal.jpg"
+  },
+  {
+   "id": "b0f709dc56db",
+   "titulo": "Litto Nebbia",
+   "categoria": "Música",
+   "lugar": "Teatro Santa María",
+   "barrio": "",
+   "direccion": "Montevideo 842",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 55000",
+   "descripcion": "",
+   "url": "https://www.ticketek.com.ar/litto-nebbia/teatro-santa-maria",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.599146,
+   "lng": -58.389744,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "cd514067e629",
@@ -55721,6 +58202,31 @@
    "imagen": "https://imagenes.passline.com/eventos/fiestas.jpg"
   },
   {
+   "id": "078129205631",
+   "titulo": "Miley Cyrus Fest — Edición Mileyween en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "$ 13.000",
+   "descripcion": "💜🎃 MILEY CYRUS FEST — EDICIÓN MILEYWEEN 🎃💜 Este Halloween, Miley Cyrus Fest llega a Niceto Bar con una edición especial para celebrar la música, las diferentes eras y toda la trayectoria de Miley Cyrus. Una noche para cantar, bailar y disfrutar junto a otros fans, recorriendo sus grandes éxitos, clásicos y diferentes etapas musicales, con una propuesta especial inspirada en Halloween. 🦇✨ 🎤 Música",
+   "url": "https://venti.live/evento/miley-cyrus-fest-edici-n-mileyween-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1790017944961-lg.jpg"
+  },
+  {
    "id": "45dc6b2d1301",
    "titulo": "Miuka | La Cintia | Nico Monjes",
    "categoria": "Fiestas y electrónica",
@@ -55744,6 +58250,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1791919591795-ljirthooo.webp"
+  },
+  {
+   "id": "366f261ffc5f",
+   "titulo": "Monster Buu Band",
+   "categoria": "Infantil",
+   "lugar": "Auditorio de Belgrano",
+   "barrio": "",
+   "direccion": "Virrey Loreto 2348",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 16000",
+   "descripcion": "La banda más monstruosamente divertida vuelve al teatro con música, juegos y personajes increíbles para que toda la familia cante, baile y se ría a lo grande.” Nominada Premios Martin Fierro Latino 2025 / Mejor Programa Infantil En escena, Draco Garnik, Mao Ling, Kitsu Luna, FPZ Franki Pop Zombie, R",
+   "url": "https://www.ticketek.com.ar/monster-buu-band/auditorio-de-belgrano",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.567048,
+   "lng": -58.449464,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "fe95f919f057",
@@ -56020,6 +58551,31 @@
    "lng": -58.403392,
    "embebible": false,
    "imagen": "https://malba.org.ar/wp-content/uploads/2025/10/15888.gif"
+  },
+  {
+   "id": "b2eb98674768",
+   "titulo": "Noche de halloween en Otra Historia",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 6.000",
+   "descripcion": "Mucha música, mucho baile y un concurso para los mejores disfraces de la noche ¡con premios!! 1er premio: Un vino. 2do premio: Una caja de Ferrero rocher. 3er premio: Un trago de la barra. @noptum.banda @inoportunabanda @ree_en_una \\n",
+   "url": "https://otrahistoria.com.ar/evento/noche-de-halloween-en-otra-historia/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261002-WA0048.jpg"
   },
   {
    "id": "90d1178f95e7",
@@ -56473,6 +59029,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-788657-rec.jpg"
   },
   {
+   "id": "4b80eb26d28b",
+   "titulo": "RITUAL GLITCH",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:45",
+   "horarios": "",
+   "precio": "$ 10.000",
+   "descripcion": "La fiesta de Halloween del Ciclo Bauhaus @ciclo_bauhaus Con sorpresas para quiénes vengan disfrazadxs + concurso de aullidos y otros sorteos 😈 31 de Octubre / Trasnoche 😈😈😈😈😈😈 Música: Nikias Nava (Dj Set) @nikias_nava Lucía Enid (Live Set) @luciaenid Erótica (Live Set) @erotica.wav Crudo (Live Set) (Mar del Plata) @__crudo__ Terrible Juan (Dj... \\n",
+   "url": "https://otrahistoria.com.ar/evento/ritual-glitch/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261014-WA0000.jpg"
+  },
+  {
    "id": "ac3b3e05b54e",
    "titulo": "Radiohead - Kid A Música En Total Oscuridad con Parlantes Holofónicos",
    "categoria": "Música",
@@ -56648,6 +59229,31 @@
    "imagen": "https://imagenes.passline.com/eventos/fiestas.jpg"
   },
   {
+   "id": "2b7dc58baaf1",
+   "titulo": "RioSanto – Hombre Búho en vivo en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://venti.live/evento/riosanto-hombre-b-ho-en-vivo-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1791503380362-lg.jpg"
+  },
+  {
    "id": "e064dbe67788",
    "titulo": "Rápido y Gracioso",
    "categoria": "Teatro",
@@ -56747,6 +59353,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193970890%2F297185989036%2F1%2Foriginal.20260920-223550?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.728&fp-y=0.627&s=5dc14fa18743e9762ab291cd5227ae5e"
+  },
+  {
+   "id": "22e254bece52",
+   "titulo": "SANTURRONA | HALLOWEEN 31-10 en Niceto Bar",
+   "categoria": "Música",
+   "lugar": "Niceto Club · Niceto Bar",
+   "barrio": "",
+   "direccion": "Cnel. Niceto Vega 5507",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "$ 10.000",
+   "descripcion": "SANTURRONA - EDICION HALLOWEEN PERREO DEL BIEN La fiesta que homenajea al reggaeton con el set mejor curado para un perreo divino. No es chivo es data: la posta del reggaeton pasa acá. De lo clásico a lo nuevo. EDICION ESPECIAL HALLOWEEN Esta fiesta tiene la costumbre de lanzarse los fines de semana que caen once (en honor a nuestra productora), pero esta vez tenemos preparada una edición especial",
+   "url": "https://venti.live/evento/santurrona-halloween-31-10-en-niceto-bar",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Niceto Club"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1792415150512-lg.jpg"
   },
   {
    "id": "5910dfd401bb",
@@ -56949,6 +59580,31 @@
    "lng": -58.395717,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/27/000313927.jpg"
+  },
+  {
+   "id": "d46ea9758de4",
+   "titulo": "Sitka ensamble: cuarteto de guitarras",
+   "categoria": "Música",
+   "lugar": "Museo Histórico Nacional",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1600",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Cuarteto de guitarras que interpreta música de compositores argentinos.",
+   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/sitka-ensamble/",
+   "dominio": "museohistoriconacional.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional de la Historia del Traje",
+   "fuentes": [
+    "Museo Histórico Nacional"
+   ],
+   "lat": -34.626623,
+   "lng": -58.370805,
+   "embebible": false,
+   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/en.png/en-1500x0-no-upscale.png"
   },
   {
    "id": "f82e66e8650a",
@@ -57478,6 +60134,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/52/000321452.jpg"
   },
   {
+   "id": "9c2797a36eb9",
+   "titulo": "Volar es Humano Aterrizar es Divino",
+   "categoria": "Teatro",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "Enrique Piñeyro regresa décimo tercer año consecutivo con su stand-up ‘Volar es Humano, Aterrizar es Divino’ en el Teatro Coliseo. Con una mirada crítica, que combina humor, ironía y reflexión, Piñeyro nos lleva de la risa a la lucidez en un viaje que desarma los mitos sobre los peligros de volar. L",
+   "url": "https://www.ticketek.com.ar/volar-es-humano-aterrizar-es-divino/teatro-coliseo",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.596736,
+   "lng": -58.383277,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "d16030284141",
    "titulo": "cuando estemos viejos",
    "categoria": "Evento",
@@ -57630,6 +60311,31 @@
    "imagen": "https://lascala.com.ar/wp-content/uploads/2026/10/01-Flyer-TROIS-RIVIERE.jpg"
   },
   {
+   "id": "dd944b5cfcec",
+   "titulo": "100 Años de Musicales",
+   "categoria": "Teatro",
+   "lugar": "Teatro Opera On",
+   "barrio": "",
+   "direccion": "Av. Corrientes 860",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Desde $ 50000",
+   "descripcion": "Una noche única para celebrar un siglo de teatro musical Ricky Pashkus y Pablo Gorlero presentan 100 AÑOS DE MUSICALES, un gran espectáculo que celebra un siglo de historia, emoción y canciones del teatro musical, reuniendo sobre el escenario del Teatro Ópera ON a destacadas figuras del género junto",
+   "url": "https://www.ticketek.com.ar/100-anos-de-musicales/teatro-opera",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.603658,
+   "lng": -58.378892,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "23642db6ea38",
    "titulo": "A Wilhelm Scream: único show en Argentina",
    "categoria": "Música",
@@ -57731,29 +60437,30 @@
    "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790949259443-banner.jpg"
   },
   {
-   "id": "22ce2395dff4",
-   "titulo": "Akapellah",
+   "id": "3d15732aa055",
+   "titulo": "Akapellah La Cruz Tour 2026 en Buenos Aires en Niceto Club (+18 años)",
    "categoria": "Música",
    "lugar": "Niceto Club",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5510",
+   "direccion": "Cnel. Niceto Vega 5510",
    "fecha_inicio": "2026-11-01",
    "fecha_fin": "2026-11-01",
-   "hora": "",
+   "hora": "21:00",
    "horarios": "",
-   "precio": "$ 35000",
-   "descripcion": "Recital: Akapellah en Niceto Club.",
-   "url": "https://indiehoy.com/agenda/akapellah-en-niceto-club/",
-   "dominio": "indiehoy.com",
+   "precio": "$ 38.000",
+   "descripcion": "La Cruz Tour es un regreso a las raíces de Akapellah, un recorrido por el universo de La Cruz, un disco que conecta identidad, historia y evolución a través de su sonido y su palabra. Con un repertorio que mezcla sus clásicos, nuevos himnos y momentos íntimos, este tour representa una etapa de madurez artística y personal. Cada concierto es una experiencia intensa, donde el público no solo escucha",
+   "url": "https://venti.live/evento/akapellah-la-cruz-tour-2026-en-buenos-aires-en-niceto-club-18-a-os",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Niceto Club",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": -34.587411,
-   "lng": -58.438913,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/akapellah.jpg"
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1788023021218-lg.jpg"
   },
   {
    "id": "e24dabfe9628",
@@ -57981,6 +60688,31 @@
    "imagen": "https://event-banners-fanz.s3.amazonaws.com/1786373349865-banner.jpg"
   },
   {
+   "id": "a5bf684bcaff",
+   "titulo": "Ciclo de talleres Amalia Vargas: \"Flores, altares sagrados y Munay\"",
+   "categoria": "Taller",
+   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
+   "barrio": "San Telmo",
+   "direccion": "Moreno 350",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller del ciclo de Amalia Vargas sobre flores, altares sagrados y Munay.",
+   "url": "https://museo.filo.uba.ar/novedades/ciclo-de-talleres-amalia-vargas-flores-altares-sagrados-y-munay",
+   "dominio": "museo.filo.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Etnográfico Juan B. Ambrosetti",
+   "fuentes": [
+    "Museo Etnográfico Juan B. Ambrosetti"
+   ],
+   "lat": -34.611332,
+   "lng": -58.371022,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e0cd882fd77b",
    "titulo": "Ciclo manga corta",
    "categoria": "Teatro",
@@ -58105,6 +60837,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://lascala.com.ar/wp-content/uploads/2026/10/01-Flyer-DT-Noviembre.jpg"
+  },
+  {
+   "id": "4b2f556bcb0c",
+   "titulo": "DUO TRIXIE Y METEORO en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $15.000",
+   "descripcion": "Vuelven Trixie y Meteoro para compartir las canciones más queridas del blues y el rock nacional e internacional, y algo de tango también.Versiones muy personales de dos voces solistas que se amalgaman bellamente, acompañadas de violín y piano.Un homenaje a los grandes que divierte y emociona, lejos de la solemnidad.@valerialeandrabuono@canarioescar",
+   "url": "https://livepass.com.ar/events/duo-trixie-y-meteoro-en-ccnu-2026-11-01-19-00-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/efaa397ad3712cf604321ee47f9b03bc2193759a.png?1791391944"
   },
   {
    "id": "672707e25c68",
@@ -59463,6 +62220,31 @@
    "imagen": "https://cdn.getcrowder.com/images/d03d7e85-8184-4580-9f80-83ba1bfe4950-640x640.jpg"
   },
   {
+   "id": "67dea6d19e6a",
+   "titulo": "ROLL & TRAP",
+   "categoria": "Música",
+   "lugar": "Otra Historia",
+   "barrio": "Villa Ortuzar",
+   "direccion": "Estomba 851",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 10.000",
+   "descripcion": "Base Nc, Lola Imposti, Bufosa y Nitrogenados \\n",
+   "url": "https://otrahistoria.com.ar/evento/roll-trap/",
+   "dominio": "otrahistoria.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "OTRA HISTORIA",
+   "fuentes": [
+    "OTRA HISTORIA"
+   ],
+   "lat": -34.583372,
+   "lng": -58.464665,
+   "embebible": true,
+   "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20261014-WA00552.jpg"
+  },
+  {
    "id": "4640858c81ce",
    "titulo": "Resistencia poética",
    "categoria": "Teatro",
@@ -59763,6 +62545,31 @@
    "imagen": "https://imagenes.passline.com/eventos/vigilia-hipnagogico-565615-rec.jpg"
   },
   {
+   "id": "5e6d1d3f223e",
+   "titulo": "Vocayuva en CCNU",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Nueva Uriarte",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Desde $18.000",
+   "descripcion": "VOCAYUVA, un proyecto instrumental-vocal que nos trae versiones de canciones y tambien composiciones propias, música del mundo con anclaje en América Latina y una inclinada preferencia por el jazz. Con toda la impronta de nuestra tierra y sus voces, con todo el vuelo, el color y la precisión que ese gusto por el jazz les da a sus interpretes. Vocay",
+   "url": "https://livepass.com.ar/events/vocayuva-en-ccnu-2026-11-01-21-30-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f5cfc83fb2ceb349304d8bcec144c48acd77e3fd.png?1791904844"
+  },
+  {
    "id": "d23959043640",
    "titulo": "Voigtlander",
    "categoria": "Teatro",
@@ -59887,6 +62694,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/65/000315265.jpg"
+  },
+  {
+   "id": "2ccf61e3488c",
+   "titulo": "Gala Sinfonica Fundación Fleming",
+   "categoria": "Música",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "2026-11-02",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 25000",
+   "descripcion": "2 de noviembre de 2026 | 20:00 hs | Teatro Coliseo La Fundación Alexander Fleming presenta una noche única para disfrutar de la música de las más emblemáticas bandas sonoras del cine interpretadas por una gran orquesta sinfónica con músicos del Teatro Colón. Una experiencia emocionante que une cultu",
+   "url": "https://www.ticketek.com.ar/gala-sinfonica-fundacion-fleming/teatro-coliseo",
+   "dominio": "ticketek.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Ticketek"
+   ],
+   "lat": -34.596736,
+   "lng": -58.383277,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "b03d19b39969",

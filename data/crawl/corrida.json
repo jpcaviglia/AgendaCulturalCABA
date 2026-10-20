@@ -400,7 +400,11 @@
   "centro-cultural-miguel-miranda|instagram",
   "pasaje-17|instagram",
   "la-fragua-cultural|instagram",
-  "el-puente|instagram"
+  "el-puente|instagram",
+  "museo-de-los-ninos-abasto|instagram",
+  "museo-del-cine-pablo-ducros-hicken|instagram",
+  "museo-mitre|instagram",
+  "museo-nacional-ferroviario|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -632,8 +636,28 @@
   "movistar-arena|web": "con_eventos",
   "planta-alta|instagram": "con_eventos",
   "zelaya|instagram": "con_eventos",
-  "tacheles-polo-de-cultura-emergente|instagram": "con_eventos"
+  "tacheles-polo-de-cultura-emergente|instagram": "con_eventos",
+  "ticketek|web": "con_eventos",
+  "museo-casa-carlos-gardel|web": "con_eventos",
+  "museo-casa-de-ricardo-rojas|web": "con_eventos",
+  "museo-de-la-ciudad|web": "con_eventos",
+  "museo-de-los-ninos-abasto|web": "sin_agenda",
+  "museo-del-cine-pablo-ducros-hicken|web": "sin_eventos",
+  "museo-del-holocausto-de-buenos-aires|web": "con_eventos",
+  "museo-etnografico-juan-b-ambrosetti|web": "con_eventos",
+  "museo-evita|web": "con_eventos",
+  "museo-historico-de-buenos-aires-cornelio-de-saavedra|web": "con_eventos",
+  "museo-historico-nacional|web": "con_eventos",
+  "museo-historico-sarmiento|web": "con_eventos",
+  "museo-judio-de-buenos-aires|web": "con_eventos",
+  "museo-malvinas-e-islas-del-atlantico-sur|web": "con_eventos",
+  "museo-mitre|web": "sin_eventos",
+  "museo-nacional-ferroviario|web": "sin_agenda",
+  "niceto-club|web": "con_eventos",
+  "nueva-uriarte|web": "con_eventos",
+  "otra-historia|web": "con_eventos",
+  "panda-rojo-espacio-cultural|web": "con_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 4298
+ "eventos": 4469
 }
