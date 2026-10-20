@@ -1,0 +1,48 @@
+{
+ "id": "poncho-club-cultural",
+ "canal": "web",
+ "fuente": "PONCHO CLUB CULTURAL",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://ponchoteatro.com/",
+  "https://reservaescena.com/ponchoteatro/el-lapiz-no-se-borra"
+ ],
+ "eventos": [
+  {
+   "titulo": "El lápiz no se borra",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "Sábados 21 h",
+   "lugar": "PONCHO CLUB CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://reservaescena.com/ponchoteatro/el-lapiz-no-se-borra",
+   "descripcion": "Inspirada en La noche de los lápices: en La Plata, 1975, Pablo, un joven estudiante, se enamora de Claudia. Declarada de Interés para la Promoción y Defensa de los Derechos Humanos; ganadora de los Premios al Teatro Independiente 2025 (Revelación).",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Magia (teatro para bebés)",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "lugar": "PONCHO CLUB CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://reservaescena.com/ponchoteatro/magia-teatro-para-bebes",
+   "descripcion": "Teatro para bebés, domingo 25 de octubre a las 17 h.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

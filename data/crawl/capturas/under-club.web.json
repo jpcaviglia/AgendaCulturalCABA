@@ -1,0 +1,50 @@
+{
+ "id": "under-club",
+ "canal": "web",
+ "fuente": "Under Club",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.underclub.com.ar/",
+  "https://venti.live/organizadores/under-club",
+  "https://venti.live/evento/fabio-florido-7-horas",
+  "https://venti.live/evento/collab-3000-julieta-lake-k-lp-s"
+ ],
+ "eventos": [
+  {
+   "titulo": "Fabio Florido 7 horas",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "Under Club",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiesta electrónica",
+   "precio": "Desde $ 20000",
+   "url": "https://venti.live/evento/fabio-florido-7-horas",
+   "descripcion": "Fiesta de música electrónica en Under Club; evento +21.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://images.venti.live/user-images/1789600928898-lg.jpg"
+  },
+  {
+   "titulo": "Collabs 3000: Julieta Lake, Kølpøs",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "Under Club",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiesta electrónica",
+   "precio": "Desde $ 55000",
+   "url": "https://venti.live/evento/collab-3000-julieta-lake-k-lp-s",
+   "descripcion": "Collabs 3000 con Julieta Lake y Kølpøs en Under Club.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://images.venti.live/user-images/1789661702265-lg.jpg"
+  }
+ ]
+}

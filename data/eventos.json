@@ -5,8 +5,8 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 248,
-  "con_eventos": 184
+  "capturas": 268,
+  "con_eventos": 194
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -110,6 +110,7 @@
   "Jodify",
   "KOWALSKI CLUB DE CULTURA",
   "LA CONVERSA",
+  "LA FRAGUA CULTURAL",
   "LA MINGA CLUB CULTURAL",
   "LA PAZ ARRIBA",
   "LA PLAPLA",
@@ -145,6 +146,7 @@
   "Museo Judío de Buenos Aires",
   "Museo Kosice",
   "Museo Malvinas e Islas del Atlántico Sur",
+  "Museo Mitre",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
   "Museo Nacional de Bellas Artes",
@@ -165,18 +167,24 @@
   "PANDA ROJO ESPACIO CULTURAL",
   "PASILLO AL FONDO ESPACIO CULTURAL",
   "PLANTA ALTA",
+  "PONCHO CLUB CULTURAL",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Pasaje 17",
   "Passline",
   "Pasto Galería",
+  "Planetario Galileo Galilei",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
   "Rolf Art",
+  "SIGUE LA POLILLA",
   "Sala Lugones",
   "Strummer Bar",
   "TACHELES POLO DE CULTURA EMERGENTE",
   "TCQ",
   "TEATRARTE",
+  "THE MONKEYS",
+  "Teatro Coliseo",
+  "Teatro Colón",
   "Teatro Gran Rex",
   "Teatro Vorterix",
   "Ticketek",
@@ -184,6 +192,8 @@
   "Time Out: arte",
   "Turismo Buenos Aires: Qué hacer esta semana",
   "UN LUGAR APARTE",
+  "USINA DEL ARTE",
+  "Under Club",
   "VUELA EL PEZ",
   "Vamos Feria",
   "Vidriera BA",
@@ -5698,6 +5708,31 @@
    "imagen": "https://teatrocolon.org.ar/wp-content/uploads/2025/12/atardecer-en-el-teatro-colon_V2_FIN_web-solo-sol.png"
   },
   {
+   "id": "3a8f8738f177",
+   "titulo": "Bernardino Rivadavia, el precursor del Estado en el imaginario de Mitre",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Mitre",
+   "barrio": "San Nicolás",
+   "direccion": "San Martín 336",
+   "fecha_inicio": "2026-10-18",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingos de 12 a 18 h (último ingreso 17:45)",
+   "precio": "Gratis",
+   "descripcion": "Nueva exposición temporaria en la Sala Moores, por los 200 años de la Constitución unitaria de 1826: la mirada de Mitre sobre Rivadavia a partir de los documentos que el museo custodia.",
+   "url": "https://www.instagram.com/museomitre/p/Deo-P1OiVjd/",
+   "dominio": "instagram.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Mitre"
+   ],
+   "lat": -34.604078,
+   "lng": -58.374184,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9ae837f46ee4",
    "titulo": "Charly en el pais de las maravillas",
    "categoria": "Música",
@@ -7374,6 +7409,56 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/adicta-cc-rojas.jpg"
   },
   {
+   "id": "88190e5368da",
+   "titulo": "Agujeros Negros (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "12:00",
+   "horarios": "Sábados y domingos 12 h; martes a viernes 17 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo astronómico inmersivo en el domo, recomendado para adultos y adolescentes.",
+   "url": "https://planetario.buenosaires.gob.ar/agujeros-negros-supermasivos",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "4cf8dba893dc",
+   "titulo": "Alerta espacial (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "14:30",
+   "horarios": "Sábados y domingos 14:30 y 19 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo astronómico inmersivo recomendado para niños y adolescentes.",
+   "url": "https://planetario.buenosaires.gob.ar/alerta-espacial-noticias-bajo-la-lupa",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a0cfa5fbc5ee",
    "titulo": "Alicia en el pais de las maravillas - en POST STREET BAR - PoS",
    "categoria": "Evento",
@@ -8783,6 +8868,31 @@
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/nino-gutierre-y-patricio-foglia-cceba-web.jpg/88dd9123-e42d-0d04-c039-bafe9e533988?t=1790606089725"
   },
   {
+   "id": "53cf56c37a47",
+   "titulo": "Odisea espacial",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "11:00",
+   "horarios": "Sábados y domingos 11 h; viernes 11 h",
+   "precio": "Consultar",
+   "descripcion": "Actividad del museo del Planetario.",
+   "url": "https://planetario.buenosaires.gob.ar/odisea-espacial",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "006f917d1395",
    "titulo": "Para todos los hombres del mundo (muestra permanente)",
    "categoria": "Artes visuales",
@@ -9185,6 +9295,31 @@
    "imagen": "https://event-banners-fanz.s3.amazonaws.com/1782860101099-banner.png"
   },
   {
+   "id": "626dcc802073",
+   "titulo": "Te quiero, desde el mar hasta el cielo (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "13:00",
+   "horarios": "Sábados y domingos 13 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo de divulgación científica inmersivo, recomendado para niños.",
+   "url": "https://planetario.buenosaires.gob.ar/te-quiero-desde-el-mar-hasta-el-cielo",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "425cc47bff70",
    "titulo": "Teatro: riesgo y refugio",
    "categoria": "Literatura y charlas",
@@ -9310,6 +9445,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000321534.jpg"
   },
   {
+   "id": "181c2c6417b8",
+   "titulo": "Top 5: lo mejor del universo (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "17:30",
+   "horarios": "Sábados y domingos 17:30 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo astronómico inmersivo recomendado para niños.",
+   "url": "https://planetario.buenosaires.gob.ar/top-5-lo-mejor-del-universo",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "8e38b87f99ef",
    "titulo": "Una quinta en Portugal",
    "categoria": "Cine",
@@ -9333,6 +9493,31 @@
    "lng": -58.389625,
    "embebible": true,
    "imagen": "https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F372001%2F514%2Fprimario.png?alt=media"
+  },
+  {
+   "id": "857970ee2e8f",
+   "titulo": "Veo Veo (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "16:00",
+   "horarios": "Sábados y domingos 16 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo astronómico inmersivo para niños pequeños.",
+   "url": "https://planetario.buenosaires.gob.ar/veo-veo",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "88a0c944531a",
@@ -9481,6 +9666,81 @@
    ],
    "lat": -34.601013,
    "lng": -58.430749,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "8739d7dea0f6",
+   "titulo": "Visitas guiadas al Museo del Planetario",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "14:30",
+   "horarios": "Sábados y domingos 14:30 y 16 h; martes a viernes 12 y 16 h",
+   "precio": "Consultar",
+   "descripcion": "Visitas guiadas al museo del Planetario.",
+   "url": "https://planetario.buenosaires.gob.ar/visitas-guiadas",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c23448d486bc",
+   "titulo": "Visitas guiadas al Teatro Colón",
+   "categoria": "Teatro",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "",
+   "horarios": "Visitas cada 15 minutos en español, de 50 minutos",
+   "precio": "Consultar",
+   "descripcion": "Recorrido de 50 minutos por la Sala, el Foyer Principal, la Galería de Bustos y el Salón Dorado.",
+   "url": "https://teatrocolon.org.ar/visitas-guiadas/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "7e0751cbbbbc",
+   "titulo": "Vuelta por el Universo (función en el domo)",
+   "categoria": "Teatro",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-11-02",
+   "hora": "12:30",
+   "horarios": "Martes a viernes 12:30 h",
+   "precio": "Consultar",
+   "descripcion": "Espectáculo astronómico inmersivo recomendado de 10 a 14 años.",
+   "url": "https://planetario.buenosaires.gob.ar/vuelta-por-el-universo",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": false,
    "imagen": ""
   },
@@ -9697,21 +9957,22 @@
    "fecha_inicio": "2026-10-21",
    "fecha_fin": "2026-10-23",
    "hora": "20:00",
-   "horarios": "Mié 20:00 (el 21/10)",
+   "horarios": "Miércoles 21, jueves 22 y viernes 23 de octubre 20 h",
    "precio": "Consultar",
-   "descripcion": "La Berliner Philharmoniker (Filarmónica de Berlín) regresa al escenario del Teatro Colón de Buenos Aires en octubre de 2026, tras 26 años de ausencia en Argentina. Bajo la dirección musical de Kirill Petrenko, la prestig",
-   "url": "https://vidrierabuenosaires.com/eventos/berliner-philharmoniker",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Funciones del 21, 22 y 23 de octubre de 2026 de la Filarmónica de Berlín (conciertos extraordinarios).",
+   "url": "https://teatrocolon.org.ar/produccion/berliner-philharmoniker/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
    "embebible": true,
-   "imagen": "https://vidriera.earth/berliner-philharmoniker/bph_kp_2025-26_cropped__c_stephan_rabold-2.jpg-reduced-8gveg5"
+   "imagen": "https://teatrocolon.org.ar/wp-content/uploads/2025/12/BPH_KP_2025-26_cropped__c_Stephan_Rabold-2.jpg"
   },
   {
    "id": "26196514991f",
@@ -14028,12 +14289,13 @@
    "hora": "21:00",
    "horarios": "",
    "precio": "Desde $ 70000",
-   "descripcion": "El 22 de octubre, el Teatro Coliseo recibe a Jovanotti con un show único donde la música se convierte en experiencia, energía y conexión colectiva. Con una carrera que redefinió los límites de la música contemporánea, Jovanotti llega a Buenos Aires con una propuesta escénica vibrante que trasciende",
-   "url": "https://www.ticketek.com.ar/jovanotti/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
+   "descripcion": "Show único de Jovanotti en el Teatro Coliseo.",
+   "url": "https://www.teatrocoliseo.org.ar/jovanotti-jueves-22-de-octubre-21-h-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Ticketek",
     "Indiehoy: Agenda de recitales"
    ],
@@ -19062,6 +19324,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/95/000312895.jpg"
   },
   {
+   "id": "5eb6d2f2124e",
+   "titulo": "Entre el sonido y el tiempo (visita guiada)",
+   "categoria": "Visita guiada",
+   "lugar": "Usina del Arte · Hall Central",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Viernes y sábado 14, 15, 16, 18 y 19 h; domingo 12:45 y 17:30 h",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada para adultos por la Usina del Arte. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/entre-el-sonido-y-el-tiempo/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "e39994d526d8",
+   "titulo": "Entre el sonido y el tiempo / Between Time and Sound (visita guiada en inglés)",
+   "categoria": "Visita guiada",
+   "lugar": "Usina del Arte · Hall Central",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Viernes y sábado 17 h; domingo 16:30 h",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada para adultos en inglés. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/entre-el-sonido-y-el-tiempo-eng/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "6a1f50f44c81",
    "titulo": "Escenas en el Panda octubre",
    "categoria": "Evento",
@@ -19085,6 +19397,31 @@
    "lng": -58.409877,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/escenas-en-el-panda-octubre-563706-rec.jpg"
+  },
+  {
+   "id": "0ebcc94899d1",
+   "titulo": "Espacio lúdico",
+   "categoria": "Infantil",
+   "lugar": "Usina del Arte · Salón Mayor",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Viernes 16 a 20 h; sábado y domingo 14 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Espacio lúdico para chicos y familias. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/ludo-espacio/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "15e100c01775",
@@ -19112,23 +19449,24 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/42/000319042.jpg"
   },
   {
-   "id": "160575d431be",
-   "titulo": "Experiencia argenta",
+   "id": "fd69d66330e6",
+   "titulo": "Experiencia Argenta",
    "categoria": "Teatro",
-   "lugar": "Espacio Cultural La Fragua",
+   "lugar": "LA FRAGUA CULTURAL",
    "barrio": "Almagro",
-   "direccion": "Av.  Rivadavia  4127",
+   "direccion": "Rivadavia Av. 4127",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-24",
+   "fecha_fin": "2026-10-23",
    "hora": "22:30",
    "horarios": "Vie y Sáb 22:30 (del 23/10 al 24/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Espacio Cultural La Fragua (Almagro).",
+   "precio": "$ 25000",
+   "descripcion": "Comedia de humor ácido y escenas absurdas sobre las experiencias cotidianas de los argentinos. Duración: 50 minutos.",
    "url": "https://www.alternativateatral.com/obra103488-experiencia-argenta",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA FRAGUA CULTURAL",
     "Alternativa Teatral"
    ],
    "lat": -34.61266,
@@ -21218,6 +21556,31 @@
    "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260928-WA00702.jpg"
   },
   {
+   "id": "48fdbd63be54",
+   "titulo": "Las canciones más lindas de Charly (invitado: Pablo Granados)",
+   "categoria": "Música",
+   "lugar": "Usina del Arte",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto homenaje a Charly García con Pablo Granados como artista invitado.",
+   "url": "https://usinadelarte.ar/actividad/las-canciones-mas-lindas-de-charly-artista-invitado-pablo-granados/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "a0f2aa17b825",
    "titulo": "Las cargas",
    "categoria": "Teatro",
@@ -22075,7 +22438,7 @@
    "categoria": "Fiestas y electrónica",
    "lugar": "Blow",
    "barrio": "Palermo",
-   "direccion": "Niceto Vega 5699",
+   "direccion": "Niceto Vega 5685",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
    "hora": "23:59",
@@ -22089,8 +22452,8 @@
    "fuentes": [
     "Jodify"
    ],
-   "lat": -34.585956,
-   "lng": -58.440158,
+   "lat": -34.58607,
+   "lng": -58.440054,
    "embebible": false,
    "imagen": "https://images.venti.live/user-images/1790894316687-lg.jpg"
   },
@@ -24683,6 +25046,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/unos-teatro-563085-rec.jpg"
+  },
+  {
+   "id": "d6902dd4ac24",
+   "titulo": "Un hombre peligroso (5ª temporada)",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 45000",
+   "descripcion": "Experiencia inmersiva en los mitines secretos del movimiento anarquista y revolucionario.",
+   "url": "https://ticketslapolilla.com/event/22616",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1776788273924-banner.jpg"
   },
   {
    "id": "788ff711d357",
@@ -28072,29 +28460,30 @@
    "imagen": "https://images.ra.co/0683d9688494c3156659a01b8b5adc0e4340eb66.png"
   },
   {
-   "id": "8d586c6bc391",
-   "titulo": "Cuadros de una exposición",
+   "id": "0185931d1740",
+   "titulo": "Cuadros de una exposición (Orquesta Académica del Teatro Colón)",
    "categoria": "Música",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "",
+   "hora": "17:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "La Orquesta Académica del Colón, formada por los músicos más jóvenes de la casa, toma la Sala principal con un programa de alto voltaje. Primero, el Concierto para piano n.º 1 de Prokofiev, con Iván Rutkauskas como solis",
-   "url": "https://vidrierabuenosaires.com/eventos/cuadros-de-una-exposicion",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Orquesta Académica del Teatro Colón en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/cuadros-de-una-exposicion/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Vidriera BA"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
    "embebible": true,
-   "imagen": "https://vidriera.earth/cuadros-de-una-exposicion/academica_05_redes_web-2-2000x1125.png-reduced-kb6m1"
+   "imagen": "https://teatrocolon.org.ar/wp-content/uploads/2023/12/Sala-desde-escenario-03.jpg"
   },
   {
    "id": "608dd7dc42e1",
@@ -28218,6 +28607,31 @@
    ],
    "lat": -34.609062,
    "lng": -58.460537,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c059fc6065ae",
+   "titulo": "Curso: El universo que no vemos",
+   "categoria": "Taller",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "10:00",
+   "horarios": "Sábados 24 y 31 de octubre 10:00 h",
+   "precio": "Consultar",
+   "descripcion": "Curso de divulgación astronómica a cargo del Prof. Rafael Girola.",
+   "url": "https://planetario.buenosaires.gob.ar/el-universo-que-no-vemos",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": false,
    "imagen": ""
   },
@@ -29075,28 +29489,29 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000282506.jpg"
   },
   {
-   "id": "699850a0873f",
+   "id": "7f414d513ce9",
    "titulo": "El lápiz no se borra",
    "categoria": "Teatro",
-   "lugar": "Poncho Teatro",
+   "lugar": "PONCHO CLUB CULTURAL",
    "barrio": "Villa Crespo",
-   "direccion": "",
+   "direccion": "Marechal, Leopoldo 1219",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-31",
    "hora": "21:00",
-   "horarios": "Sáb 21:00 (hasta el 31/10)",
+   "horarios": "Sábados 21 h",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Poncho Teatro (Villa Crespo).",
-   "url": "https://www.alternativateatral.com/obra90578-el-lapiz-no-se-borra",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Inspirada en La noche de los lápices: en La Plata, 1975, Pablo, un joven estudiante, se enamora de Claudia. Declarada de Interés para la Promoción y Defensa de los Derechos Humanos; ganadora de los Premios al Teatro Independiente 2025 (Revelación).",
+   "url": "https://reservaescena.com/ponchoteatro/el-lapiz-no-se-borra",
+   "dominio": "reservaescena.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "PONCHO CLUB CULTURAL",
     "Alternativa Teatral"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": true,
+   "lat": -34.606287,
+   "lng": -58.438882,
+   "embebible": false,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000317276.jpg"
   },
   {
@@ -29801,31 +30216,32 @@
    "imagen": "https://imagenes.passline.com/eventos/francisco-el-musical-del-fin-del-mundo-524989-rec.jpg"
   },
   {
-   "id": "2e2544c47124",
-   "titulo": "Fabio Florido",
+   "id": "50e59ea8da47",
+   "titulo": "Fabio Florido 7 horas",
    "categoria": "Fiestas y electrónica",
-   "lugar": "Blow",
+   "lugar": "Under Club",
    "barrio": "Palermo",
    "direccion": "Niceto Vega 5699",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "23:00",
+   "hora": "23:59",
    "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Fiesta de música electrónica. Line up: Fabio Florido (Italia). Estilo: techno..",
-   "url": "https://www.buenosaliens.com/#agenda",
-   "dominio": "buenosaliens.com",
+   "precio": "Desde $ 20000",
+   "descripcion": "Fiesta de música electrónica en Under Club; evento +21.",
+   "url": "https://venti.live/evento/fabio-florido-7-horas",
+   "dominio": "venti.live",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "Buenos Aliens",
+    "Under Club",
     "Resident Advisor: Buenos Aires",
-    "Jodify"
+    "Jodify",
+    "Buenos Aliens"
    ],
    "lat": -34.585956,
    "lng": -58.440158,
    "embebible": true,
-   "imagen": "https://images.ra.co/b5dcbd6fdb0762d5e25e99cbbcc07134302e768f.png"
+   "imagen": "https://images.venti.live/user-images/1789600928898-lg.jpg"
   },
   {
    "id": "e278fe3f7cb7",
@@ -33266,6 +33682,31 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194833172%2F312450813027%2F1%2Foriginal.20261001-165157?crop=focalpoint&fit=crop&w=401&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=806efd348e9a35d156b7eb45898ece04"
   },
   {
+   "id": "50073dce6e56",
+   "titulo": "Mery Granados y Joaco Burgos: una noche para Charly",
+   "categoria": "Música",
+   "lugar": "Usina del Arte · Auditorio",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto homenaje a Charly García.",
+   "url": "https://usinadelarte.ar/actividad/mery-granados-y-joaco-burgos-una-noche-para-charly/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e3a6d6c2bdf2",
    "titulo": "Mi amiga la oscuridad",
    "categoria": "Teatro",
@@ -34269,6 +34710,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://cc25.org/wp-content/uploads/2026/09/odisea.png"
+  },
+  {
+   "id": "8a0d96ff065d",
+   "titulo": "Observación por telescopios",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:30",
+   "horarios": "Sábados y domingos 19:30 h",
+   "precio": "Consultar",
+   "descripcion": "Observación del cielo con telescopios; sujeta a condiciones meteorológicas.",
+   "url": "https://planetario.buenosaires.gob.ar/telescopios",
+   "dominio": "planetario.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Planetario Galileo Galilei",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "4cce71048e38",
@@ -36198,6 +36664,31 @@
    "lng": -58.433659,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-800408-rec.jpg"
+  },
+  {
+   "id": "de3e88ec41aa",
+   "titulo": "Savoy Night / Swing",
+   "categoria": "Danza",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 12000",
+   "descripcion": "Fiesta de Bailá Swing: clase, social, música en vivo y DJ.",
+   "url": "https://ticketslapolilla.com/event/165438-savoy-night-swing",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1791221635025-banner.jpg"
   },
   {
    "id": "8d847175a0ff",
@@ -39343,6 +39834,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000320951.jpg"
   },
   {
+   "id": "1cf0652632d0",
+   "titulo": "Charly en el país de las Maravillas",
+   "categoria": "Infantil",
+   "lugar": "Usina del Arte · Auditorio",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Show para toda la familia.",
+   "url": "https://usinadelarte.ar/actividad/charly-en-el-pais-de-las-maravillas/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "88cec6ca00f0",
    "titulo": "Ciclo Musicátedras: Ensamble de Cellos del Conservatorio Manuel de Falla",
    "categoria": "Música",
@@ -39543,23 +40059,24 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000267351.jpg"
   },
   {
-   "id": "de71c406e04b",
-   "titulo": "Concierto entre almohadones: Cartas que cantan",
-   "categoria": "Música",
+   "id": "ecfc3755f095",
+   "titulo": "Concierto entre almohadones",
+   "categoria": "Infantil",
    "lugar": "Teatro Colón",
    "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-12-13",
-   "hora": "",
+   "fecha_fin": "2026-10-25",
+   "hora": "11:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Dos hermanos castigados sin pantallas en un altillo, y un cartero perdido entre siglos con una bolsa de cartas que nunca llegaron. Así arranca la segunda edición de este clásico familiar del Salón Dorado, donde los chico",
-   "url": "https://vidrierabuenosaires.com/eventos/concierto-entre-almohadones-cartas-que-cantan",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Colón para niños en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/concierto-entre-almohadones-cartas-que-cantan-aventuras-liricas-en-el-altillo/",
+   "dominio": "teatrocolon.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Colón",
    "fuentes": [
+    "Teatro Colón",
     "Vidriera BA"
    ],
    "lat": -34.601086,
@@ -40544,6 +41061,31 @@
    "imagen": ""
   },
   {
+   "id": "b90edd7613ae",
+   "titulo": "Emociones en acción: taller de dibujo con FILGO",
+   "categoria": "Taller",
+   "lugar": "Usina del Arte · Salón Mayor",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "14:00",
+   "horarios": "Domingo de 14 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Taller de dibujo acompañado por FILGO. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/emociones-en-accion-taller-de-dibujo-nos-acompana-filgo/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "665de75379c6",
    "titulo": "En jaque",
    "categoria": "Teatro",
@@ -41145,6 +41687,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/37/000316537.jpg"
   },
   {
+   "id": "b7260fcd508e",
+   "titulo": "Historias de circo: visita guiada lúdica para familias",
+   "categoria": "Visita guiada",
+   "lugar": "Usina del Arte · Hall Central",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "15:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Visita guiada lúdica para toda la familia. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/historias-de-circovisita-guiada-ludica-para-familias/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "25dc3f73cc27",
    "titulo": "Homenaje a La máquina de hacer pájaros",
    "categoria": "Música",
@@ -41343,6 +41910,31 @@
    "lng": -58.415942,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000310713.jpg"
+  },
+  {
+   "id": "871d70f12ce1",
+   "titulo": "José Luis Juri: recital de piano",
+   "categoria": "Música",
+   "lugar": "Usina del Arte · Sala de Cámara",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Ciclo de Música de Cámara. Entradas gratuitas, se retiran desde las 11 h en la Usina.",
+   "url": "https://usinadelarte.ar/actividad/jose-luis-jurirecital-de-piano/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "8e5faaa0b377",
@@ -42500,28 +43092,29 @@
    "imagen": "https://imagenes.passline.com/eventos/metalocalypse-dethklok-20-years-of-brutality-525145-rec.jpg"
   },
   {
-   "id": "f54e2508c66d",
-   "titulo": "Magia teatro para bebés",
+   "id": "a71653d47f17",
+   "titulo": "Magia (teatro para bebés)",
    "categoria": "Teatro",
-   "lugar": "Poncho Teatro",
+   "lugar": "PONCHO CLUB CULTURAL",
    "barrio": "Villa Crespo",
-   "direccion": "",
+   "direccion": "Marechal, Leopoldo 1219",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "2026-10-25",
    "hora": "17:00",
    "horarios": "Dom 17:00 (el 25/10)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Poncho Teatro (Villa Crespo).",
-   "url": "https://www.alternativateatral.com/obra55878-magia-teatro-para-bebes",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Teatro para bebés, domingo 25 de octubre a las 17 h.",
+   "url": "https://reservaescena.com/ponchoteatro/magia-teatro-para-bebes",
+   "dominio": "reservaescena.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "PONCHO CLUB CULTURAL",
     "Alternativa Teatral"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": true,
+   "lat": -34.606287,
+   "lng": -58.438882,
+   "embebible": false,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/95/000262395.jpg"
   },
   {
@@ -43977,6 +44570,31 @@
    "imagen": "https://imagenes.passline.com/eventos/tomas-di-maria-sexteto-presentacion-del-disco-indocil-553544-rec.jpg"
   },
   {
+   "id": "db4d8a663d17",
+   "titulo": "Taller: Mi botiquín emocional, por Juegología",
+   "categoria": "Taller",
+   "lugar": "Usina del Arte · Espacio Creativo (2º piso)",
+   "barrio": "La Boca",
+   "direccion": "Caffarena, Agustin R. 2",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Taller de Juegología. Capacidad limitada.",
+   "url": "https://usinadelarte.ar/actividad/taller-mi-botiquin-emocional-por-juegologia/",
+   "dominio": "usinadelarte.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "USINA DEL ARTE",
+   "fuentes": [
+    "USINA DEL ARTE"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e2436a7ad51e",
    "titulo": "Tardes de soledad",
    "categoria": "Teatro",
@@ -45004,6 +45622,33 @@
    "imagen": "https://www.rojas.uba.ar/storage/images/sDsSjU7GnMfs9ifiNH5YHdiKwWjlSSa94YZvRfDX.jpeg"
   },
   {
+   "id": "9b411d3ef73d",
+   "titulo": "Aura: Gala Lírica con Freddie De Tommaso y Nadine Sierra",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "20:00",
+   "horarios": "Lun 20:00 (el 26/10)",
+   "precio": "Consultar",
+   "descripcion": "Aura en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/aura-freddie-de-tommaso-y-nadine-sierra/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón",
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/freddie-de-tommaso-y-nadine-sierra/nadine-sierra-y-freddie-de-tommaso.png-reduced-oee-rz"
+  },
+  {
    "id": "2106d8b6b65c",
    "titulo": "BLACK MONDAY Stand Up",
    "categoria": "Teatro",
@@ -45177,32 +45822,6 @@
    "lng": -58.380293,
    "embebible": true,
    "imagen": "https://api.alianzafrancesa.org.ar/uploads/images/1790796846993-DiseÃ±o_sin_tÃ­tulo_(2).webp"
-  },
-  {
-   "id": "79d4ce531d5d",
-   "titulo": "Freddie De Tommaso y Nadine Sierra",
-   "categoria": "Música",
-   "lugar": "Teatro Colón",
-   "barrio": "San Nicolás",
-   "direccion": "Cerrito 628",
-   "fecha_inicio": "2026-10-26",
-   "fecha_fin": "2026-10-26",
-   "hora": "20:00",
-   "horarios": "Lun 20:00 (el 26/10)",
-   "precio": "Consultar",
-   "descripcion": "El aclamado tenor Freddie De Tommaso y la célebre soprano Nadine Sierra se presentarán juntos en una imperdible Gala Lírica en Buenos Aires.",
-   "url": "https://vidrierabuenosaires.com/eventos/freddie-de-tommaso-y-nadine-sierra",
-   "dominio": "vidrierabuenosaires.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Vidriera BA",
-    "Alternativa Teatral"
-   ],
-   "lat": -34.601086,
-   "lng": -58.383187,
-   "embebible": true,
-   "imagen": "https://vidriera.earth/freddie-de-tommaso-y-nadine-sierra/nadine-sierra-y-freddie-de-tommaso.png-reduced-oee-rz"
   },
   {
    "id": "b5851eb47643",
@@ -45733,8 +46352,8 @@
   },
   {
    "id": "901b109d1aaf",
-   "titulo": "Mentes Expertas Nathaly Marcus",
-   "categoria": "Teatro",
+   "titulo": "Mentes Expertas: Nathaly Marcus",
+   "categoria": "Literatura y charlas",
    "lugar": "Teatro Coliseo",
    "barrio": "Retiro",
    "direccion": "Marcelo T. de Alvear 1125",
@@ -45742,13 +46361,14 @@
    "fecha_fin": "2026-10-27",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $ 32000",
-   "descripcion": "Nutrióloga funcional, conferencista internacional y fundadora del centro Bienesta y del Instituto de Salud Funcional Mente-Cuerpo (ISFMC). Con más de 20 años de trayectoria, la autora de bestsellers como El Método de las 3 R y Sana, Salvaje y Sabia y conductora del exitoso podcast Las 3 R’s, se ha c",
-   "url": "https://www.ticketek.com.ar/mentes-expertas-nathaly-marcus/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
+   "precio": "Desde $ 40000",
+   "descripcion": "Charla de la nutrióloga funcional y conferencista Nathaly Marcus sobre longevidad, epigenética y nutrición integrativa.",
+   "url": "https://www.teatrocoliseo.org.ar/mentes-expertas-nathaly-marcus-martes-27-de-octubre-20h-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Ticketek"
    ],
    "lat": -34.596736,
@@ -46840,6 +47460,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/07/000295707.jpg"
   },
   {
+   "id": "a2d2bd2d9163",
+   "titulo": "Nahuel Di Pierro (bajo) y Fernando Pérez (piano)",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Canción de Cámara en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/nahuel-di-pierro-bajo-y-fernando-perez-piano/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "8b723382c532",
    "titulo": "Paisajes sonoros contemporáneos, por la Orquesta Nacional de Música Argentina",
    "categoria": "Música",
@@ -47893,6 +48538,31 @@
    "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/whatsapp_image_2026-10-08_at_09.08.44.jpeg/whatsapp_image_2026-10-08_at_09.08.44-1500x0-no-upscale.jpeg"
   },
   {
+   "id": "b524d266b80b",
+   "titulo": "Excéntrico Varieté",
+   "categoria": "Teatro",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Varieté del espacio de creación de números de la Formación de Teatro Corporal.",
+   "url": "https://ticketslapolilla.com/event/165470-excentrico-variete",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1791222590055-banner.jpg"
+  },
+  {
    "id": "59e3af3b6369",
    "titulo": "Exposición: Horizonte Federal",
    "categoria": "Artes visuales",
@@ -48320,6 +48990,31 @@
    "lng": -58.3884,
    "embebible": false,
    "imagen": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/FOTO-cesar-brie-portada.jpg"
+  },
+  {
+   "id": "97498ef6d508",
+   "titulo": "Las ruinas (CETC)",
+   "categoria": "Teatro",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:30",
+   "horarios": "Jueves y viernes 20:30 h",
+   "precio": "Consultar",
+   "descripcion": "CETC en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/las-ruinas/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://teatrocolon.org.ar/wp-content/uploads/2026/03/CETC_LasRuinas_REDES-3.png"
   },
   {
    "id": "6fdedfedd625",
@@ -50255,31 +50950,6 @@
    "imagen": "https://imagenes.passline.com/eventos/chiar-557023-rec.jpg"
   },
   {
-   "id": "c38bd2540bb1",
-   "titulo": "COLLABS 3000 - Julieta Lake - Kølpøs",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Under Club",
-   "barrio": "Palermo",
-   "direccion": "Niceto Vega 5699",
-   "fecha_inicio": "2026-10-30",
-   "fecha_fin": "2026-10-30",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Fiesta / evento de música electrónica listado en Resident Advisor.",
-   "url": "https://ra.co/events/2491855",
-   "dominio": "ra.co",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Resident Advisor: Buenos Aires"
-   ],
-   "lat": -34.585956,
-   "lng": -58.440158,
-   "embebible": false,
-   "imagen": "https://images.ra.co/d68613455f34fa5d497ce572d49e23e2243d3697.png"
-  },
-  {
    "id": "db43ef40e27c",
    "titulo": "Catarsis en Pareja Stand Up - Paseo la Plaza",
    "categoria": "Teatro",
@@ -50503,6 +51173,32 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://cc25.org/wp-content/uploads/2025/09/banda-Sinfonica-720-x-405-px1.jpg"
+  },
+  {
+   "id": "c38bd2540bb1",
+   "titulo": "Collabs 3000: Julieta Lake, Kølpøs",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Under Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:59",
+   "horarios": "",
+   "precio": "Desde $ 55000",
+   "descripcion": "Collabs 3000 con Julieta Lake y Kølpøs en Under Club.",
+   "url": "https://venti.live/evento/collab-3000-julieta-lake-k-lp-s",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Under Club",
+    "Resident Advisor: Buenos Aires"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158,
+   "embebible": true,
+   "imagen": "https://images.venti.live/user-images/1789661702265-lg.jpg"
   },
   {
    "id": "1049dc1c3ce9",
@@ -55346,6 +56042,31 @@
    "imagen": ""
   },
   {
+   "id": "2ed213311a53",
+   "titulo": "Crisálida",
+   "categoria": "Danza",
+   "lugar": "SIGUE LA POLILLA",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 878",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Parte de las danzas folklóricas y pregunta qué cuerpos fueron históricamente autorizados a habitar la tradición.",
+   "url": "https://ticketslapolilla.com/event/157253-crisalida",
+   "dominio": "ticketslapolilla.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SIGUE LA POLILLA"
+   ],
+   "lat": -34.622284,
+   "lng": -58.419175,
+   "embebible": true,
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1790123609656-banner.png"
+  },
+  {
    "id": "a3e657c48dea",
    "titulo": "Crobar Be Techno Pres.: KAS:ST",
    "categoria": "Fiestas y electrónica",
@@ -55949,6 +56670,32 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/b6ca70e5-b45b-4dbc-a18b-25930c6a0d45.jpg"
   },
   {
+   "id": "15feb431a8df",
+   "titulo": "Enrique Piñeyro: Volar es humano, aterrizar es divino",
+   "categoria": "Teatro",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Retiro",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 14000",
+   "descripcion": "Stand-up de Enrique Piñeyro con la recreación de una cabina de Boeing 707 y proyecciones envolventes (función del 31 de octubre; la ficha anuncia también el 9, 10, 16 y 17; hora no confirmada en la ficha).",
+   "url": "https://www.teatrocoliseo.org.ar/enrique-pineyro-volar-es-humano-aterrizar-es-divino-9-10-16-17-y-31-de-octubre-2026/",
+   "dominio": "teatrocoliseo.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Coliseo",
+   "fuentes": [
+    "Teatro Coliseo",
+    "Ticketek"
+   ],
+   "lat": -34.596736,
+   "lng": -58.383277,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "0c0efcf4e84b",
    "titulo": "Ensamble arthaus + tambor fantasma - temporada de conciertos 2026 - concierto vii. el visionario",
    "categoria": "Música",
@@ -56046,6 +56793,31 @@
    "lat": "",
    "lng": "",
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "e17047f670e8",
+   "titulo": "Estudio Nimbus",
+   "categoria": "Música",
+   "lugar": "THE MONKEYS",
+   "barrio": "Palermo",
+   "direccion": "Guatemala 4462",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural. La entrada incluye $4.000 de consumición.",
+   "url": "https://reservas.themonkeys.com.ar/show/4",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.588172,
+   "lng": -58.422331,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -57049,6 +57821,31 @@
    "lng": -58.416399,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/80/000321380.jpg"
+  },
+  {
+   "id": "a0b9b4ea21f9",
+   "titulo": "Historias secretas del Teatro Colón",
+   "categoria": "Teatro",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Temporada 2026 en el Teatro Colón.",
+   "url": "https://teatrocolon.org.ar/produccion/historias-secretas-del-teatro-colon/",
+   "dominio": "teatrocolon.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Teatro Colón",
+   "fuentes": [
+    "Teatro Colón"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://teatrocolon.org.ar/wp-content/uploads/2025/11/Historias-Secretas-Febrero-2026__web-1-2000x1125.png"
   },
   {
    "id": "2c919c45000e",
@@ -60134,31 +60931,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/52/000321452.jpg"
   },
   {
-   "id": "9c2797a36eb9",
-   "titulo": "Volar es Humano Aterrizar es Divino",
-   "categoria": "Teatro",
-   "lugar": "Teatro Coliseo",
-   "barrio": "Retiro",
-   "direccion": "Marcelo T. de Alvear 1125",
-   "fecha_inicio": "2026-10-31",
-   "fecha_fin": "2026-10-31",
-   "hora": "20:30",
-   "horarios": "",
-   "precio": "Desde $ 7000",
-   "descripcion": "Enrique Piñeyro regresa décimo tercer año consecutivo con su stand-up ‘Volar es Humano, Aterrizar es Divino’ en el Teatro Coliseo. Con una mirada crítica, que combina humor, ironía y reflexión, Piñeyro nos lleva de la risa a la lucidez en un viaje que desarma los mitos sobre los peligros de volar. L",
-   "url": "https://www.ticketek.com.ar/volar-es-humano-aterrizar-es-divino/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Ticketek"
-   ],
-   "lat": -34.596736,
-   "lng": -58.383277,
-   "embebible": true,
-   "imagen": ""
-  },
-  {
    "id": "d16030284141",
    "titulo": "cuando estemos viejos",
    "categoria": "Evento",
@@ -62697,7 +63469,7 @@
   },
   {
    "id": "2ccf61e3488c",
-   "titulo": "Gala Sinfonica Fundación Fleming",
+   "titulo": "Gala sinfónica Fundación Fleming",
    "categoria": "Música",
    "lugar": "Teatro Coliseo",
    "barrio": "Retiro",
@@ -62706,13 +63478,14 @@
    "fecha_fin": "2026-11-02",
    "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $ 25000",
-   "descripcion": "2 de noviembre de 2026 | 20:00 hs | Teatro Coliseo La Fundación Alexander Fleming presenta una noche única para disfrutar de la música de las más emblemáticas bandas sonoras del cine interpretadas por una gran orquesta sinfónica con músicos del Teatro Colón. Una experiencia emocionante que une cultu",
-   "url": "https://www.ticketek.com.ar/gala-sinfonica-fundacion-fleming/teatro-coliseo",
-   "dominio": "ticketek.com.ar",
+   "precio": "Consultar",
+   "descripcion": "Gala sinfónica de la Fundación Fleming en el Teatro Coliseo.",
+   "url": "https://www.teatrocoliseo.org.ar/gala-sinfonica-fundacion-fleming-2-de-noviembre-2026/",
+   "dominio": "teatrocoliseo.org.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Teatro Coliseo",
    "fuentes": [
+    "Teatro Coliseo",
     "Ticketek"
    ],
    "lat": -34.596736,

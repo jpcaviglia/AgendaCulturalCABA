@@ -404,7 +404,16 @@
   "museo-de-los-ninos-abasto|instagram",
   "museo-del-cine-pablo-ducros-hicken|instagram",
   "museo-mitre|instagram",
-  "museo-nacional-ferroviario|instagram"
+  "museo-nacional-ferroviario|instagram",
+  "parque-de-la-memoria|instagram",
+  "asociacion-calabresa-mutual-y-cultural|instagram",
+  "arepera-miss-venezuela-teatro-bar|instagram",
+  "asoc-civil-la-bombocova|instagram",
+  "asociacion-cultural-armenia|instagram",
+  "asociacion-ucrania-de-cultura-provista-en-la-republica-argen|instagram",
+  "asociacion-dante-alighieri|instagram",
+  "casa-balear-de-buenos-aires|instagram",
+  "buenos-aires-dance-club|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -656,8 +665,28 @@
   "niceto-club|web": "con_eventos",
   "nueva-uriarte|web": "con_eventos",
   "otra-historia|web": "con_eventos",
-  "panda-rojo-espacio-cultural|web": "con_eventos"
+  "panda-rojo-espacio-cultural|web": "con_eventos",
+  "planetario-galileo-galilei|web": "con_eventos",
+  "parque-de-la-memoria|web": "sin_eventos",
+  "poncho-club-cultural|web": "con_eventos",
+  "sigue-la-polilla|web": "con_eventos",
+  "teatro-coliseo|web": "con_eventos",
+  "teatro-colon|web": "con_eventos",
+  "the-monkeys|web": "con_eventos",
+  "under-club|web": "con_eventos",
+  "usina-del-arte|web": "con_eventos",
+  "asociacion-calabresa-mutual-y-cultural|web": "sin_eventos",
+  "arepera-miss-venezuela-teatro-bar|web": "dominio_caido",
+  "asoc-civil-la-bombocova|web": "sin_agenda",
+  "asociacion-cultural-armenia|web": "no_carga",
+  "asociacion-ucrania-de-cultura-provista-en-la-republica-argen|web": "dominio_caido",
+  "asociacion-dante-alighieri|web": "sin_agenda",
+  "casa-balear-de-buenos-aires|web": "sin_agenda",
+  "buenos-aires-dance-club|web": "sin_agenda",
+  "museo-mitre|instagram": "con_eventos",
+  "museo-del-cine-pablo-ducros-hicken|instagram": "sin_eventos",
+  "la-fragua-cultural|instagram": "con_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 4469
+ "eventos": 4512
 }
