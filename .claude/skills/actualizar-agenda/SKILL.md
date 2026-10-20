@@ -468,7 +468,10 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   several venues, aggregators and third-party Instagram accounts it always goes. Same name as in
   `data/lugares.json` or `data/galerias.json` so they deduplicate well. If the event is in another room,
   `"<Lugar> · <Sala>"`.
-- Dates `AAAA-MM-DD`; `hora` `HH:MM` (just one; if there are several, in `horarios`). If it does not give
+- Dates `AAAA-MM-DD`; `hora` `HH:MM` (just one; if there are several, in `horarios`).
+  `horarios` is how the website decides which days an event runs: write the weekdays first and the hours next to them
+  (`Jueves a domingo 19:00 y 20:45`, `Jue y vie 21 h. Sáb 20 h`, `Martes a sábados de 11 a 19 h`); text with only specific dates
+  (`Sábados 10, 17 y 24 de octubre`) is read as one event that starts on `fecha_inicio`. If it does not give
   the year, assume the current one only if the date does not end up in the past; if in doubt, do not load
   it.
 - `categoria`: copy the label, genre or category the source shows ("Cine", "Teatro", "Rock", "Stand up",

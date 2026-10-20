@@ -127,6 +127,7 @@
   }
   // Rangos "Miércoles a domingos de 14 a 20 h" (sin horas de función): días, desde, hasta, fechas opcionales.
   const TRAMO_RANGO = /((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*|\s*\|\s*)?)+)\s*(?:de\s+)(\d{1,2})(?::\d{2})?\s*(?:a|-|–)\s*(\d{1,2})(?::\d{2})?\s*(?:h|hs)\b(?:\s*\(([^)]*)\))?/gi;
+  const INICIO_DIAS = /^\s*(?:de\s+)?((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*)?)+)(?=\s*(?:[,:;.\-–]|$)|\s+(?:funciones?|a las|desde|de|\d{1,2}\s*(?:h|hs)\b))/i;
   // Tramos del texto: { dias, fechas (rango opcional), horas: ["19:00", ...] o franja: "14–20 h" }.
   function tramosDe(txt) {
     const out = [];
@@ -134,6 +135,18 @@
       out.push({ dias: m[1], fechas: m[3], horas: [...m[2].matchAll(/\b(\d{1,2}):(\d{2})\b/g)].map((x) => `${x[1].padStart(2, "0")}:${x[2]}`) });
     }
     for (const m of txt.matchAll(TRAMO_RANGO)) out.push({ dias: m[1], fechas: m[4], horas: [], franja: `${+m[2]}–${+m[3]} h` });
+    // "Jueves a domingo, funciones cada 15 minutos entre las 19:00 y las 20:45", "Miércoles a sábado", "Jueves a domingos,
+    // 20 h.", "Jueves y viernes, 21 h. Sábados, 20 h.": los días abren la frase y las horas (si las hay) vienen después,
+    // no pegadas a los días. Cada frase es un tramo con sus propias horas.
+    if (!out.length) {
+      for (const frase of txt.split(/\.\s+/)) {
+        const m = frase.match(INICIO_DIAS);
+        if (!m) continue;
+        const horas = [...frase.matchAll(/\b(\d{1,2}):(\d{2})\b|\b(\d{1,2})\s*(?:h|hs)\b/gi)]
+          .map((x) => `${(x[1] || x[3]).padStart(2, "0")}:${x[2] || "00"}`);
+        out.push({ dias: m[1], fechas: undefined, horas });
+      }
+    }
     return out;
   }
   const TODOS_LOS_DIAS = /todos los d[ií]as(?:\s+de\s+(\d{1,2})(?::\d{2})?\s*(?:a|-|–)\s*(\d{1,2})(?::\d{2})?\s*(?:h|hs)\b)?/i;
