@@ -1,0 +1,50 @@
+{
+ "id": "la-rural-ticket",
+ "canal": "web",
+ "fuente": "La Rural Ticket",
+ "tipo": "agregador",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.laruralticket.com.ar",
+  "https://www.laruralticket.com.ar/event/pintabaphoto2026",
+  "https://www.laruralticket.com.ar/event/el-garage-motorshow-2026",
+  "https://www.laruralticket.com.ar/event/deliwine2026"
+ ],
+ "eventos": [
+  {
+   "titulo": "Pinta BA Photo 2026",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "Vie 23 y sáb 24 de 14 a 20:30 h; dom 25 de 14 a 20 h (jueves 22 solo invitados)",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "categoria": "Feria de arte",
+   "precio": "",
+   "url": "https://www.laruralticket.com.ar/event/pintabaphoto2026",
+   "descripcion": "Feria de fotografía a 200 años de la fotografía: obras, artistas y galerías. Menores de 10 años no pagan entrada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "El Garage Motorshow 2026",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-25",
+   "hora": "12:00",
+   "horarios": "12 a 20 h",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "categoria": "Feria",
+   "precio": "",
+   "url": "https://www.laruralticket.com.ar/event/el-garage-motorshow-2026",
+   "descripcion": "Mega expo de autos, motos, colectivos y camiones clásicos, reformados y tuning, con espacio de Ferraris y actividades en vivo cada hora.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

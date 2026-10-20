@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18",
+ "actualizado": "2026-10-19",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -48,7 +48,8 @@
    "notas": [
     "2026-10-14: Accesible. Tiene fichas de espacios con cartelera (p. ej. Alquimia).",
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
-    "2026-10-14 [web] Cartelera de 30 días: 1209 obras; 806 de CABA con función en la ventana (127 de fuera de CABA descartadas). Hay ~190 salas de CABA que no están en lugares.json (Ítaca, Timbre 4, Teatro del Pueblo, Kairós, Colón...): pendiente decidir si se suman."
+    "2026-10-14 [web] Cartelera de 30 días: 1209 obras; 806 de CABA con función en la ventana (127 de fuera de CABA descartadas). Hay ~190 salas de CABA que no están en lugares.json (Ítaca, Timbre 4, Teatro del Pueblo, Kairós, Colón...): pendiente decidir si se suman.",
+    "2026-10-19 [web] 2026-10-19: 1221 tarjetas; 829 de CABA con función en la ventana (161 fuera de CABA, 1 streaming, 231 sin función en la ventana). Sin precio ni descripción en el listado."
    ],
    "entradas": [
     "https://www.alternativateatral.com/cartelera.asp?cuando=30",
@@ -58,16 +59,16 @@
     "extraccion": "Cartelera nueva (2026-10): tarjetas article.ct-card con h3 a (obra), .ct-sala, barrio en .ct-meta>.ct-dim, una .ct-per por temporada ('SÁB 20:00 · hasta el 31/10', '· el 28/10', '· del 1/11 al 29/11', '· hoy'), .ct-tags. Ordenadas por próxima función.",
     "uso": "Las obras de salas que ya están en la lista también suman: se deduplican con la web propia del lugar. Salas nuevas de CABA van en sitios_nuevos.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
-    "ver_mas": "Botón 'VER 48 MÁS' al pie; ~45 clics para 30 días (correrlo en segundo plano: >45 s). Alcanza con llegar a tarjetas con badge 'DESDE' posterior a la ventana.",
-    "volcado": "Los datos se pasan con el portapapeles: botón que hace navigator.clipboard.writeText y Get-Clipboard en PowerShell.",
+    "ver_mas": "Botón 'Ver N más' (fuera de las tarjetas): clic en bucle (1,2 s) hasta que desaparece; son ~1221 tarjetas para cuando=30. Elegir el ÚLTIMO botón, hay botones 'Ver 1 más' dentro de tarjetas.",
+    "volcado": "Enviar window.__rows por fetch POST a un servidor local http://127.0.0.1:PUERTO (sin await, el renderer se cuelga si es grande).",
     "fichas": "No hace falta abrir fichas: el listado trae obra, sala, barrio, días/horarios y fechas; precio solo en la ficha."
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 806,
-     "paginas": 2
+     "eventos": 829,
+     "paginas": 4
     }
    },
    "historial": [
@@ -76,6 +77,26 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 806
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 829
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.alternativateatral.com/novedades.asp",
+     "texto": "Novedades",
+     "motivo": "novedades editoriales/notas, no cartelera",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.alternativateatral.com/convocatorias.php",
+     "texto": "Castings",
+     "motivo": "convocatorias, no evento",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -130,22 +151,25 @@
    "notas": [
     "2026-10-14: Accesible. Cada página trae JSON-LD con eventos (fecha, lugar, dirección).",
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
-    "2026-10-14 [web] 311 eventos en la ventana; 189 de CABA culturales o de ocio cargados."
+    "2026-10-14 [web] 311 eventos en la ventana; 189 de CABA culturales o de ocio cargados.",
+    "2026-10-19 [web] 2026-10-19: 12 páginas del listado, 74 eventos únicos; se cargaron los culturales de CABA en la ventana. Se descartaron congresos, cursos de RCP, marketing y eventos online."
    ],
    "comportamiento": {
-    "extraccion": "JSON-LD del listado trae nombre, fecha (sin hora), lugar y dirección; ~20% es provincia y ~20% cursos/negocios/bienestar a descartar.",
+    "extraccion": "Con HTTP: pedir /d/argentina--buenos-aires/events/?page=1..12 y leer el JSON-LD de cada página (sondear.objetos_evento): 74 eventos únicos con url, imagen, sala y dirección. Mezcla congresos, cursos y eventos online o de otros países: filtrar por región CABA (incluye 'C.A.B.A.') y por tema.",
     "paginacion": "?page=N&start_date=AAAA-MM-DD&end_date=AAAA-MM-DD filtra la ventana; ~20 eventos nuevos por página, 16 páginas. Se puede hacer fetch de cada página desde la pestaña y leer el JSON-LD.",
-    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado."
+    "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
+    "sin_fichas": "la ficha de Eventbrite no se abre: el JSON-LD del listado trae fecha, hora, sala y descripción"
    },
    "entradas": [
+    "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
     "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/?start_date=2026-10-14&end_date=2026-10-28"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 190,
-     "paginas": 17
+     "eventos": 26,
+     "paginas": 12
     }
    },
    "historial": [
@@ -154,6 +178,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 190
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 26
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.eventbrite.com.ar/b/argentina--buenos-aires/nightlife/",
+     "texto": "After 8pm",
+     "motivo": "misma agenda filtrada por categoría",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -168,10 +206,11 @@
    "notas": [
     "2026-10-14: Accesible. Lista recitales en Argentina; muchos enlaces a eventos.",
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
-    "2026-10-14 [web] 111 recitales en la ventana; 81 en salas de CABA (se descartaron La Plata, Córdoba, Rosario, conurbano y salas dudosas)."
+    "2026-10-14 [web] 111 recitales en la ventana; 81 en salas de CABA (se descartaron La Plata, Córdoba, Rosario, conurbano y salas dudosas).",
+    "2026-10-19 [web] 2026-10-19: 86 recitales en la ventana; se cargaron los de salas de CABA. Descartadas salas de La Plata, Haedo, Avellaneda, Rosario, Córdoba y Mendoza."
    ],
    "comportamiento": {
-    "extraccion": "Agenda de recitales de todo el país: cargar solo los de CABA, con sala y fecha.",
+    "extraccion": "sondear.py --leer https://indiehoy.com/eventos/ --max 200000 entrega los 311 recitales de ~12 meses con fecha, sala y enlace a la ficha; se filtran por ventana y se descartan salas fuera de CABA. Hora solo en la ficha.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "plataforma": "WordPress + Events Manager: lista única .em-events-list con encabezados de fecha ('Miércoles, 14 Octubre, 2026') y li.list-style-event (título, sala, beneficio). Trae ~10 meses en una sola página.",
     "fichas": "La hora y dirección están solo en la ficha /agenda/<slug>/; no hace falta abrirlas para fecha y sala."
@@ -181,9 +220,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 81,
+     "eventos": 65,
      "paginas": 1
     }
    },
@@ -193,6 +232,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 81
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 65
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://indiehoy.com/comunidad/",
+     "texto": "Comunidad",
+     "motivo": "club de descuentos, no agenda",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -1542,20 +1595,24 @@
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
     "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "entradas": [
+    "https://museomacba.org/",
+    "https://museomacba.org/agenda/",
     "https://museomacba.org/programacion-actuales/",
-    "https://museomacba.org/agenda/"
+    "https://museomacba.org/programacion-futura/"
    ],
    "comportamiento": {
-    "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org."
+    "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org.",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 3,
+     "eventos": 4,
      "paginas": 6
     }
    },
@@ -1565,6 +1622,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ],
    "enlace_bio": "https://linktr.ee/museomacba"
@@ -3349,7 +3412,27 @@
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Riobamba 345",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: el handle @castel_cult_20 no existe y no se halló otra cuenta ni web; revisar si el espacio sigue abierto."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "el-sabato-espacio-cultural",
@@ -4091,9 +4174,27 @@
    "barrio": "Barracas",
    "direccion": "Iriarte, Gral. Av. 3500",
    "notas": [
-    "2026-10-14: comparte la web https://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web https://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin agenda propia en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-kultural-trivenchi",
@@ -7595,9 +7696,27 @@
    "barrio": "Nueva Pompeya",
    "direccion": "Riestra Av. 1650",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin agenda propia en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-homero-manzi",
@@ -9318,9 +9437,29 @@
    "barrio": "Parque Chacabuco",
    "direccion": "Cachimayo 1657",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: @gops.ba no publica agenda por centro; revisar la web buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php si se quiere cubrir talleres."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "cuenta compartida @gops.ba: el alt de las miniaturas trae el texto; casi todo son resúmenes y talleres con inscripción"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "espacio-suenos",
@@ -9599,7 +9738,27 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Patricios",
    "direccion": "Zavaleta 443",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: handle @cccasiopea_ inexistente; buscar la cuenta o la ficha en buenosaires.gob.ar."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-el-cantaro",
@@ -9760,7 +9919,28 @@
    "direccion": "Cátulo Castillo 2480",
    "enlace_bio": "https://linktr.ee/catulocc",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/catulocc"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/catulocc",
+    "2026-10-19 [instagram] 2026-10-19: publica pocos eventos; la Jam Ricotera del 23/10 es el único en la ventana."
+   ],
+   "comportamiento": {
+    "extraccion": "el alt de las miniaturas del perfil trae el texto del post",
+    "enlace_bio": "Linktree solo con suscripciones (sin agenda)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
    ]
   },
   {
@@ -9859,23 +10039,32 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 3,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "entradas": [
     "https://pompapetriyasos.com.ar/",
+    "https://pompapetriyasos.com.ar/formacion/",
+    "https://pompapetriyasos.com.ar/seminarios/",
     "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
    ],
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
@@ -9901,17 +10090,18 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 8,
-     "paginas": 4
+     "eventos": 7,
+     "paginas": 5
     }
    },
    "entradas": [
     "https://plantainclan.com/"
    ],
    "notas": [
-    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
+    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana.",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 7 eventos en la ventana."
    ],
    "historial": [
     {
@@ -9919,6 +10109,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
     }
    ],
    "bio_probada": "2026-10-15"
@@ -10327,32 +10523,28 @@
    "barrio": "Recoleta",
    "direccion": "Cordoba Av. 3271",
    "entradas": [
+    "https://felizarcoiris.com/agenda?vista=semana",
     "https://felizarcoiris.com/",
     "https://felizarcoiris.com/agenda"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "la portada lista los ciclos semanales por día (miércoles a domingo, 20 h a 5 h); no hay fechas puntuales"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 1
+     "eventos": 27,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-15 [web] Programación semanal fija; sin fechas puntuales.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 27 eventos en la ventana."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://felizarcoiris.com/talleres",
-     "texto": "Talleres",
-     "motivo": "talleres de la comunidad",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://felizarcoiris.com/preregistro/",
      "texto": "Preregistro",
@@ -10372,6 +10564,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 27
     }
    ],
    "enlace_bio": "https://linktr.ee/felizarcoiris"
@@ -11045,7 +11243,29 @@
    "direccion": "Callao Av. 237",
    "enlace_bio": "https://linktr.ee/casapba",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casapba"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casapba",
+    "2026-10-19 [instagram] 2026-10-19: Linktree sin agenda; el perfil publica ciclo Cine Continuado y muestras en Av. Callao 237."
+   ],
+   "comportamiento": {
+    "sin_fichas": "los datos salen del texto alternativo de las miniaturas del perfil",
+    "extraccion": "el alt de cada miniatura (a[href*=/p/] img) trae el texto completo del post: no hace falta abrirlos",
+    "enlace_bio": "Linktree sin agenda (solo canal de WhatsApp y trámites)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
    ]
   },
   {
@@ -11600,15 +11820,16 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 47,
+     "eventos": 44,
      "paginas": 6
     }
    },
    "bio_probada": "2026-10-15",
    "notas": [
-    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 47 eventos en la ventana."
+    "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 47 eventos en la ventana.",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 44 eventos en la ventana."
    ],
    "historial": [
     {
@@ -11616,6 +11837,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 47
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 44
     }
    ]
   },
@@ -12117,16 +12344,17 @@
    "direccion": "Giuffra, Jose M.,Dr. 371",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 6,
+     "eventos": 9,
      "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga.",
     "2026-10-15 [web] Leído sin navegador desde la API de The Events Calendar: 6 eventos en la ventana.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/scaladesantelmo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/scaladesantelmo",
+    "2026-10-19 [web] Leído sin navegador desde la API de The Events Calendar: 9 eventos en la ventana."
    ],
    "entradas": [
     "https://lascala.com.ar/"
@@ -12140,6 +12368,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "enlace_bio": "https://linktr.ee/scaladesantelmo"
@@ -13554,9 +13788,27 @@
    "barrio": "Villa Gral. Mitre",
    "direccion": "Caracas 1249",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: handle @c.c.lapaternal inexistente; como los otros centros del programa en barrios, quizá publique en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "casa-cultural-el-potrero",
@@ -13676,9 +13928,27 @@
    "barrio": "Villa Lugano",
    "direccion": "Murguiondo 4361",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin agenda propia en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-juan-carlos-castagnino",
@@ -13853,9 +14123,27 @@
    "barrio": "Villa Ortuzar",
    "direccion": "Giribone 1961",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin agenda propia en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "conservatorio-grassi-urquiza",
@@ -14213,7 +14501,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Soldati",
    "direccion": "Berg, Carlos 3387",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "extraccion": "cuenta compartida @gops.ba: el alt de las miniaturas trae el texto; casi todo son resúmenes y talleres con inscripción"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: @gops.ba no publica agenda por centro; revisar la web buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php si se quiere cubrir talleres."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-eladia-blazquez",
@@ -14228,9 +14538,27 @@
    "barrio": "Villa Soldati",
    "direccion": "Rabanal, Francisco, Intendente Av. 2275",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin agenda propia en @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-25-de-mayo",
@@ -14246,15 +14574,15 @@
    "direccion": "Triunvirato Av. 4444",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "la portada lista todas las fechas como tarjetas (día, mes, día de semana, título, sala); /programacion/ es un calendario con detalle por día",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "cookies": "barra de accesibilidad, sin aviso"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 11,
-     "paginas": 2
+     "eventos": 10,
+     "paginas": 6
     }
    },
    "entradas": [
@@ -14263,15 +14591,10 @@
    ],
    "notas": [
     "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 10 eventos en la ventana."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://cc25.org/cursos-y-talleres/",
-     "texto": "Cursos y talleres",
-     "motivo": "cursos regulares, no eventos",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://cc25.org/comunidades/",
      "texto": "Comunidades CC25",
@@ -14297,6 +14620,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     }
    ],
    "enlace_bio": "https://linktr.ee/cc25demayo"
@@ -14412,9 +14741,27 @@
    "barrio": "Villa Urquiza",
    "direccion": "La Pampa 3855",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: handle @ccbelgrano_r inexistente. Es un centro del programa cultural en barrios del GCBA (como los de @gops.ba): probablemente sus actividades salgan en esa cuenta compartida."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-cepas",
@@ -14467,21 +14814,23 @@
    "direccion": "Juramento 4686",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 7,
+     "eventos": 10,
      "paginas": 2
     }
    },
    "entradas": [
+    "https://cuerdamecanica.com/",
     "https://cuerdamecanica.com/cartelera/"
    ],
    "comportamiento": {
-    "extraccion": "/cartelera/ lista por día con título, hora, descripción y precio; vistas Lista/Mes; el texto se lee con innerText sin paginar"
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
    },
    "notas": [
     "2026-10-15 [web] Cartelera completa en /cartelera/.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica",
+    "2026-10-19 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -14515,6 +14864,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     }
    ],
    "enlace_bio": "https://linktr.ee/cuerdamecanica"
@@ -16791,14 +17146,16 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.espaciomemoria.ar/",
-    "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana."
+    "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana.",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "id": "museo-sitio-de-memoria-esma",
    "entradas": [
+    "https://www.espaciomemoria.ar/",
     "https://www.espaciomemoria.ar/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "/agenda/ lista todas las instituciones del predio (Casa de la Militancia, Casa Nuestros Hijos, Cuatro Columnas, Espacio Cultural Nuestros Hijos) con fecha y hora; tiene filtros por localización"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "enlaces_descartados": [
     {
@@ -16822,15 +17179,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 4,
-     "paginas": 2
+     "paginas": 5
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
@@ -17119,13 +17482,17 @@
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
     "2026-10-14: listado semanal de ferias de CABA con días y direcciones",
-    "2026-10-15 [web] Listado semanal de ferias artesanales de CABA con fechas; cada tarjeta duplicada en el DOM."
+    "2026-10-15 [web] Listado semanal de ferias artesanales de CABA con fechas; cada tarjeta duplicada en el DOM.",
+    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
    ],
    "entradas": [
+    "https://www.vamosferia.com/feria/oficial-f91d839f-6b9a-4d6c-8b51-91aa82b0557d-22102026",
+    "https://www.vamosferia.com/feria/oficial-2da82904-6b32-439f-83c1-d7b33d7b87d1-22102026",
+    "https://www.vamosferia.com/feria/feria-de-manualidades-y-artesanias-de-la-plazoleta-joaquin-sanchez-23102026",
     "https://www.vamosferia.com/ferias"
    ],
    "comportamiento": {
-    "extraccion": "tarjetas con enlace \"Ver feria\"; cada una aparece dos veces; sin ficha hace falta",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "copiar": "datos pasados por portapapeles"
    },
    "enlaces_descartados": [
@@ -17144,10 +17511,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 30,
-     "paginas": 1
+     "eventos": 8,
+     "paginas": 4
     }
    },
    "historial": [
@@ -17156,6 +17523,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 30
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
     }
    ]
   },
@@ -17171,34 +17544,42 @@
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
     "2026-10-14: ferias y exposiciones de La Rural",
-    "2026-10-15 [web] Portada con los próximos eventos de La Rural (ferias y exposiciones)."
+    "2026-10-15 [web] Portada con los próximos eventos de La Rural (ferias y exposiciones).",
+    "2026-10-19 [web] 2026-10-19: 3 eventos en portada; Expo Deli & Wine (4-6/11) queda fuera de la ventana."
    ],
    "entradas": [
+    "https://www.laruralticket.com.ar",
     "https://www.laruralticket.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "portada lista 4 eventos con fechas en el texto; sin scroll"
+    "extraccion": "la portada lista 3 eventos con fecha y enlace /event/<slug>; legible con sondear.py --leer"
    },
    "enlaces_descartados": [
-    {
-     "url": "https://www.laruralticket.com.ar/page/preguntas-frecuentes",
-     "texto": "Soporte",
-     "motivo": "preguntas frecuentes, no agenda",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://www.laruralticket.com.ar/",
      "texto": "Explorá los eventos que pasaron por La Rural Ticket en 2026",
      "motivo": "archivo de eventos pasados",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.laruralticket.com.ar/page/preguntas-frecuentes",
+     "texto": "Soporte",
+     "motivo": "preguntas frecuentes",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.laruralticket.com.ar/page/como-llegar",
+     "texto": "Cómo llegar",
+     "motivo": "cómo llegar, no agenda",
+     "fecha": "2026-10-19"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 1
+     "eventos": 2,
+     "paginas": 4
     }
    },
    "historial": [
@@ -17207,6 +17588,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15"
@@ -17223,7 +17610,8 @@
    "origen": "descubierto en Búsqueda: festivales el 2026-10-15",
    "notas": [
     "2026-10-15: nota semanal con 30+ planes con lugar y fecha",
-    "2026-10-15 [web] Blog con scroll infinito: no usar preparar; leer la nota semanal y las portadas de Qué hacer, Cultura, Cine y Música."
+    "2026-10-15 [web] Blog con scroll infinito: no usar preparar; leer la nota semanal y las portadas de Qué hacer, Cultura, Cine y Música.",
+    "2026-10-19 [web] 2026-10-19: nota semanal con 29 planes; se cargaron los que tienen lugar y fecha claros en la ventana. Fechas de algunas fichas del blog son poco fiables."
    ],
    "entradas": [
     "https://bairessecreta.com/planes-para-este-fin-de-semana/",
@@ -17235,7 +17623,8 @@
    "comportamiento": {
     "scroll": "NO scrollear: scroll infinito de notas viejas; ir a los enlaces del header",
     "menu": "header: Qué hacer, Cultura, Cine, Música",
-    "extraccion": "leer la nota semanal de planes del fin de semana y abrir 2-3 notas de las secciones"
+    "extraccion": "leída con sondear.py (texto); la nota de la semana del 22 al 25/10 se publicó el 19/10",
+    "sin_fichas": "la nota semanal reúne los planes sin una página propia por evento"
    },
    "enlaces_descartados": [
     {
@@ -17271,10 +17660,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 20,
-     "paginas": 7
+     "eventos": 9,
+     "paginas": 1
     }
    },
    "historial": [
@@ -17283,6 +17672,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 20
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "bio_probada": "2026-10-15"
@@ -17390,15 +17785,18 @@
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: agenda nacional de fiestas electrónicas con club y barrio",
-    "2026-10-15 [web] Agenda nacional: filtrar por barrio de CABA. El 15 a 18 tienen cobertura parcial acá (Buenos Aliens cubre el resto)."
+    "2026-10-15 [web] Agenda nacional: filtrar por barrio de CABA. El 15 a 18 tienen cobertura parcial acá (Buenos Aliens cubre el resto).",
+    "2026-10-19 [web] 2026-10-19: ~168 fiestas del país en la ventana; se cargaron las de CABA con sala y barrio en la tarjeta (sin hora). Se saltearon tarjetas sin sala."
    ],
    "entradas": [
     "https://jodify.com.ar/events"
    ],
    "comportamiento": {
-    "scroll": "carga un día más al scrollear hasta el final; hay que scrollear hasta el 29 de octubre",
-    "extraccion": "tarjetas con link /event/<uuid>; venue como 'Club - Barrio'; mezcla todo el país",
-    "salida": "los resultados de javascript_tool se cortan en ~1000 caracteres: extraer en tandas"
+    "scroll": "scroll infinito: bajar con window.scrollTo hasta ver el 3 de noviembre (~440 fiestas de todo el país en total)",
+    "extraccion": "h2 con la fecha y enlaces a /event/<uuid>; cada tarjeta trae line up, 'Sala - Barrio', género y precio; filtrar por barrio de CABA",
+    "salida": "los resultados de javascript_tool se cortan en ~1000 caracteres: extraer en tandas",
+    "sin_fichas": "no se abrieron las fichas: line up, sala y precio salen de la tarjeta",
+    "plataforma": "no sondeable por HTTP (403); usar navegador"
    },
    "enlaces_descartados": [
     {
@@ -17410,9 +17808,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 45,
+     "eventos": 73,
      "paginas": 1
     }
    },
@@ -17422,6 +17820,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 45
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 73
     }
    ]
   },
@@ -17437,46 +17841,48 @@
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: agenda de música electrónica de Argentina",
-    "2026-10-15 [web] La portada trae un artículo destacado arriba y la agenda con fiestas de todo el país; filtrar las de CABA. No scrollear: cubre meses futuros."
+    "2026-10-15 [web] La portada trae un artículo destacado arriba y la agenda con fiestas de todo el país; filtrar las de CABA. No scrollear: cubre meses futuros.",
+    "2026-10-19 [web] 2026-10-19: la portada publica solo el viernes y sábado siguientes (23 y 24/10); se cargaron las fiestas de CABA."
    ],
    "entradas": [
     "https://www.buenosaliens.com/"
    ],
    "comportamiento": {
-    "extraccion": "la agenda está en la portada; cada fiesta tiene fecha, club y line up; sin ficha propia",
-    "scroll": "no hace falta"
+    "extraccion": "la agenda de la portada solo muestra el fin de semana próximo (pestañas calendar__day VIE 23 / SÁB 24); entre lunes y jueves hay que usar la agenda de Resident Advisor para el resto",
+    "scroll": "no hace falta",
+    "sin_fichas": "cada fiesta es un bloque de la portada, sin página propia"
    },
    "enlaces_descartados": [
     {
-     "url": "http://www.buenosaliens.com/notas",
+     "url": "https://www.buenosaliens.com/notas",
      "texto": "notas",
-     "motivo": "notas y entrevistas, no agenda",
-     "fecha": "2026-10-15"
+     "motivo": "notas editoriales, no agenda",
+     "fecha": "2026-10-19"
     },
     {
-     "url": "http://www.buenosaliens.com/musica",
+     "url": "https://www.buenosaliens.com/musica",
      "texto": "música",
-     "motivo": "sets y lanzamientos, no agenda",
-     "fecha": "2026-10-15"
+     "motivo": "música publicada, no agenda",
+     "fecha": "2026-10-19"
     },
     {
-     "url": "http://www.buenosaliens.com/podcasts",
+     "url": "https://www.buenosaliens.com/podcasts",
      "texto": "podcasts",
      "motivo": "podcasts, no agenda",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-19"
     },
     {
-     "url": "http://www.buenosaliens.com/foros",
+     "url": "https://www.buenosaliens.com/foros",
      "texto": "foros",
      "motivo": "foros, no agenda",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-19"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 20,
+     "eventos": 15,
      "paginas": 1
     }
    },
@@ -17486,6 +17892,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 20
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 15
     }
    ]
   },

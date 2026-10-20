@@ -140,6 +140,10 @@ thing without loading anything:
 - Post: `document.querySelector('time').dateTime.slice(0,10)` and
   `(document.querySelector('article')||document.body).innerText.replace(/\s+/g,' ').slice(0,700)`.
 
+- Fastest: the `alt` of each grid thumbnail already holds the post's full caption (up to ~600 characters):
+  `[...document.querySelectorAll('a[href*="/p/"],a[href*="/reel/"]')].slice(0,9).map(a=>a.href+' | '+a.querySelector('img').alt)`.
+  Most profiles are covered with that, without opening any post (so 1 page of quota per profile).
+
 What to know about the grid: it mixes the profile's own posts with posts of other accounts that tag it
 (bands, producers, collaborators; their URLs start with another username), and many venues announce their
 shows only there. The recent post ids start with `De` (October 2026): older ones (`Dd`, `Dc`, `DT`...) are
@@ -147,6 +151,15 @@ months old. Flyers without a caption are images: use `zoom` on the viewer (x 420
 click the arrow (about x 808, y 299) to see each day. "Sorry, this page isn't available" usually means a
 wrong username (look the venue up on Google, correct `instagram` in `sitios.json` and `lugares.json`) and
 sometimes a closed account.
+
+## Getting a big result out of the page
+
+`javascript_tool` returns a few KB; the clipboard is blocked when the tab is not focused. For hundreds of rows
+(Alternativa Teatral, Jodify), store them in `window.__rows` and send them to a local receiver: run a tiny
+`http.server` on `127.0.0.1` that writes the POST body to a file (with `Access-Control-Allow-Origin: *`), then in the page
+`fetch('http://127.0.0.1:PORT/',{method:'POST',body:JSON.stringify(window.__rows)})` **without awaiting it** (awaiting a
+large body freezes the call). Long loops (clicking "Ver más" 80 times) go in an async IIFE that sets `window.__done`;
+poll it with calls under 40 s.
 
 ## Patterns of known sites
 
