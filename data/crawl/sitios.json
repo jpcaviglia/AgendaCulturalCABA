@@ -213,7 +213,7 @@
     "extraccion": "sondear.py --leer https://indiehoy.com/eventos/ --max 200000 entrega los 311 recitales de ~12 meses con fecha, sala y enlace a la ficha; se filtran por ventana y se descartan salas fuera de CABA. Hora solo en la ficha.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "plataforma": "WordPress + Events Manager: lista única .em-events-list con encabezados de fecha ('Miércoles, 14 Octubre, 2026') y li.list-style-event (título, sala, beneficio). Trae ~10 meses en una sola página.",
-    "fichas": "La hora y dirección están solo en la ficha /agenda/<slug>/; no hace falta abrirlas para fecha y sala."
+    "fichas": "La ficha /agenda/<slug>/ trae en su JSON-LD el precio (offers.price, p. ej. 'Desde $75.000') y la imagen; abrirlas con sondear.pedir (HTTP) para completar precio e imagen."
    },
    "entradas": [
     "https://indiehoy.com/eventos/"
@@ -232,6 +232,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 81
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 65
     },
     {
      "fecha": "2026-10-19",
