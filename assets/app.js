@@ -357,9 +357,9 @@
       : e.embebible ? "Si la página no carga, abrila en su sitio."
       : "Este sitio no se deja mostrar dentro de la agenda: abrilo en una pestaña nueva.";
     $("panel-aviso").hidden = !e.url;
+    // replaceChildren(null) escribiría el texto "null": solo se pasan los nodos que existen.
     $("panel-pie").replaceChildren(
-      menuCalendario(e),
-      e.url ? enlaceExterno(e.url, "Abrir en el sitio ↗", "boton boton-principal") : null,
+      ...[menuCalendario(e), e.url ? enlaceExterno(e.url, "Abrir en el sitio ↗", "boton boton-principal") : null].filter(Boolean),
     );
     $("panel-info").classList.toggle("con-marco", Boolean(e.url && e.embebible));
     $("panel-info").showModal();
