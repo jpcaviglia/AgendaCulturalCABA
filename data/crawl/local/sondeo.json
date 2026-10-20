@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-20 15:39",
- "segundos": 15,
+ "fecha": "2026-10-20 15:43",
+ "segundos": 9,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -4437,26 +4437,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
-   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "plataforma": [],
-   "pedidos": 5,
-   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "paginas_agenda": [
-    "https://saleplan.ar/publicar-evento",
-    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
-    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=arte-y-exposiciones",
-    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 44,
-   "texto_portada": 9815,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "la-casa-de-teresa-israel",
    "web": "http://lacasadeteresa.blogspot.com/",
    "plataforma": [],
@@ -4493,16 +4473,6 @@
    "clase": "needs_browser",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "paraje-arteson",
-   "web": "https://www.parajearteson.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "dominio_caido"
   },
   {
    "id": "jaciento-oviedo",
@@ -4558,40 +4528,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "puerta-18",
-   "web": "https://www.puerta18.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://www.puerta18.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3126,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "sociedad-luz",
-   "web": "https://sociedadluz.org.ar/",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://sociedadluz.org.ar/",
-   "paginas_agenda": [
-    "https://sociedadluz.org.ar/default.aspx",
-    "https://sociedadluz.org.ar/cursos.aspx"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 136,
-   "texto_portada": 87743,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/sociedad-luz.txt",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
    "id": "le-cid-espacio-cultural",
    "web": "https://lecidespaciocultural.blogspot.com/",
    "plataforma": [],
@@ -4622,23 +4558,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "sexto-cultural",
-   "web": "https://mutualsentimiento.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://mutualsentimiento.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 9,
-   "texto_portada": 2105,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/sexto-cultural.txt",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
    "id": "inboccalupo",
    "web": "https://www.inboccalupo.com.ar",
    "plataforma": [
@@ -4653,26 +4572,6 @@
    "clase": "needs_browser",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "tempo-escuela-de-musica-y-artes",
-   "web": "https://escuelademusicatempo.com/index.html",
-   "plataforma": [],
-   "pedidos": 6,
-   "url_final": "https://escuelademusicatempo.com/index.html",
-   "paginas_agenda": [
-    "https://escuelademusicatempo.com/nuestras-actividades.html",
-    "https://escuelademusicatempo.com/muestras.html",
-    "https://escuelademusicatempo.com/actividades.html",
-    "https://escuelademusicatempo.com/clases-de-guitarra-clasica.html",
-    "https://escuelademusicatempo.com/clases-de-guitarra-electrica.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3966,
-   "clase": "needs_browser",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_agenda"
   },
   {
    "id": "munar",
@@ -4700,38 +4599,6 @@
    "texto_portada": 3463,
    "clase": "html",
    "texto": "data/crawl/local/textos/la-vidriera-de-la-dgeart.txt",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "polo-bandoneon",
-   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 2425,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "tierra-violeta",
-   "web": "https://www.tierra-violeta.com.ar",
-   "plataforma": [
-    "wix"
-   ],
-   "pedidos": 2,
-   "url_final": "https://www.tierra-violeta.com.ar",
-   "paginas_agenda": [
-    "https://www.tierra-violeta.com.ar/agenda"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 2215,
-   "clase": "needs_browser",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "sin_eventos"
   },
@@ -4823,20 +4690,6 @@
    "estado_corrida_anterior": "sin_agenda"
   },
   {
-   "id": "universidad-catolica-de-buenos-aires",
-   "web": "https://www.uca.edu.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://uca.edu.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 42,
-   "clase": "needs_browser",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
    "id": "la-bisagra",
    "web": "http://www.seamoslibresmp.com.ar/",
    "plataforma": [],
@@ -4845,84 +4698,6 @@
    "motivo": "el dominio no resuelve (DNS)",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "dominio_caido"
-  },
-  {
-   "id": "rincon-casa-cultural",
-   "web": "http://rinconcasacultural.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "dominio_caido"
-  },
-  {
-   "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
-   "web": "https://www.centrocultural.coop",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://www.centrocultural.coop",
-   "paginas_agenda": [
-    "https://www.centrocultural.coop/agenda",
-    "https://www.centrocultural.coop/cartelera-mes",
-    "https://www.centrocultural.coop/eventos/modo-colectivo"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 32,
-   "texto_portada": 2499,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "oceanario-club-cultural",
-   "web": "https://www.oceanario.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "dominio_caido"
-  },
-  {
-   "id": "oliverio-girondo",
-   "web": "https://oliveriogirondoespaciocultural.wordpress.com/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://oliveriogirondoespaciocultural.wordpress.com/",
-   "paginas_agenda": [
-    "https://oliveriogirondoespaciocultural.wordpress.com/programacion/",
-    "https://oliveriogirondoespaciocultural.wordpress.com/clases/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 889,
-   "clase": "needs_browser",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_agenda"
-  },
-  {
-   "id": "savia-espacio-cultural",
-   "web": "http://www.saviacultural.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "el dominio no resuelve (DNS)",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "dominio_caido"
-  },
-  {
-   "id": "wara-wara",
-   "web": "https://warawaracultural.wixsite.com/inicio",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_agenda"
   },
   {
    "id": "galpon-cultural-piedrabuenarte",
@@ -4935,22 +4710,6 @@
    "fechas_en_texto": 0,
    "texto_portada": 36,
    "clase": "needs_browser",
-   "fecha": "2026-10-20 15:39",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
-   "id": "oihoy-casa-abierta",
-   "web": "https://oihoy.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://oihoy.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 1391,
-   "clase": "sin_agenda_vista",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "sin_eventos"
   },
@@ -4989,6 +4748,247 @@
    "texto": "data/crawl/local/textos/museo-mundial-del-tango.txt",
    "fecha": "2026-10-20 15:39",
    "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
+   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "plataforma": [],
+   "pedidos": 5,
+   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "paginas_agenda": [
+    "https://saleplan.ar/publicar-evento",
+    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
+    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=arte-y-exposiciones",
+    "https://saleplan.ar/planes?desde=2026-10-20&amp;hasta=2027-10-21&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 44,
+   "texto_portada": 9815,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "paraje-arteson",
+   "web": "https://www.parajearteson.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "puerta-18",
+   "web": "https://www.puerta18.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://www.puerta18.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3126,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "no_cultural"
+  },
+  {
+   "id": "sociedad-luz",
+   "web": "https://sociedadluz.org.ar/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://sociedadluz.org.ar/",
+   "paginas_agenda": [
+    "https://sociedadluz.org.ar/default.aspx",
+    "https://sociedadluz.org.ar/cursos.aspx"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 136,
+   "texto_portada": 87743,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sociedad-luz.txt",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
+   "id": "sexto-cultural",
+   "web": "https://mutualsentimiento.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://mutualsentimiento.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 9,
+   "texto_portada": 2105,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sexto-cultural.txt",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "tempo-escuela-de-musica-y-artes",
+   "web": "https://escuelademusicatempo.com/index.html",
+   "plataforma": [],
+   "pedidos": 6,
+   "url_final": "https://escuelademusicatempo.com/index.html",
+   "paginas_agenda": [
+    "https://escuelademusicatempo.com/nuestras-actividades.html",
+    "https://escuelademusicatempo.com/muestras.html",
+    "https://escuelademusicatempo.com/actividades.html",
+    "https://escuelademusicatempo.com/clases-de-guitarra-clasica.html",
+    "https://escuelademusicatempo.com/clases-de-guitarra-electrica.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3966,
+   "clase": "needs_browser",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "tierra-violeta",
+   "web": "https://www.tierra-violeta.com.ar",
+   "plataforma": [
+    "wix"
+   ],
+   "pedidos": 2,
+   "url_final": "https://www.tierra-violeta.com.ar",
+   "paginas_agenda": [
+    "https://www.tierra-violeta.com.ar/agenda"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 2215,
+   "clase": "needs_browser",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
+   "id": "polo-bandoneon",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/promocioncultural/polo-bandoneon",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 2425,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
+   "id": "universidad-catolica-de-buenos-aires",
+   "web": "https://www.uca.edu.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://uca.edu.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 42,
+   "clase": "needs_browser",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
+   "id": "rincon-casa-cultural",
+   "web": "http://rinconcasacultural.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
+   "web": "https://www.centrocultural.coop",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://www.centrocultural.coop",
+   "paginas_agenda": [
+    "https://www.centrocultural.coop/agenda",
+    "https://www.centrocultural.coop/cartelera-mes",
+    "https://www.centrocultural.coop/eventos/modo-colectivo"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 32,
+   "texto_portada": 2499,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "oceanario-club-cultural",
+   "web": "https://www.oceanario.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "oliverio-girondo",
+   "web": "https://oliveriogirondoespaciocultural.wordpress.com/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://oliveriogirondoespaciocultural.wordpress.com/",
+   "paginas_agenda": [
+    "https://oliveriogirondoespaciocultural.wordpress.com/programacion/",
+    "https://oliveriogirondoespaciocultural.wordpress.com/clases/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 915,
+   "clase": "needs_browser",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "savia-espacio-cultural",
+   "web": "http://www.saviacultural.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "el dominio no resuelve (DNS)",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "dominio_caido"
+  },
+  {
+   "id": "wara-wara",
+   "web": "https://warawaracultural.wixsite.com/inicio",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "oihoy-casa-abierta",
+   "web": "https://oihoy.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://oihoy.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 1391,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-20 15:43",
+   "estado_corrida_anterior": "sin_eventos"
   }
  ]
 }

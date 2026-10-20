@@ -5,8 +5,8 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 349,
-  "con_eventos": 196
+  "capturas": 367,
+  "con_eventos": 204
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -28,6 +28,7 @@
   "CASA DE LA PROVINCIA DE BUENOS AIRES",
   "CASONA CULTURAL HUMAHUACA",
   "CENTRO CULTURAL 25 DE MAYO",
+  "CENTRO CULTURAL ADAN BUENOS AIRES",
   "CENTRO CULTURAL ANTONIO TALERICO",
   "CENTRO CULTURAL ARMOZA",
   "CENTRO CULTURAL ARTES DE PARQUE CHACABUCO",
@@ -82,13 +83,19 @@
   "EL SABATO ESPACIO CULTURAL",
   "EL ZORZAL ESQUINA CULTURAL",
   "EMERGENTE CLUB ALMAGRO",
+  "ESPACIO CULTURAL CARLOS GARDEL",
+  "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS",
+  "ESPACIO CULTURAL DEL SUR",
   "ESPACIO CULTURAL FONROUGE",
+  "ESPACIO CULTURAL JULIAN CENTEYA",
+  "ESPACIO CULTURAL MARCO DEL PONT",
   "ESPACIO EL ZONKO",
   "ESPACIO LA TRIBU",
   "ESPACIO MALCOLM",
   "ESPACIO SIMONA",
   "ESPÍRITU MAMUT",
   "El Cultural San Martín",
+  "Espacio Cultural Plaza Defensa",
   "Espacio INCAA Atlas Flores",
   "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
@@ -167,6 +174,7 @@
   "Nora Fisch",
   "OTRA HISTORIA",
   "PANDA ROJO ESPACIO CULTURAL",
+  "PARQUE DE LA MEMORIA",
   "PASILLO AL FONDO ESPACIO CULTURAL",
   "PLANTA ALTA",
   "PONCHO CLUB CULTURAL",
@@ -9247,6 +9255,31 @@
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/semana-cuadernos-h-marcos-giralt-torrente-cceba-web.jpg/ac4c2451-6a50-2cd2-532b-208f89681db3?t=1790254018164"
   },
   {
+   "id": "f40e322372f6",
+   "titulo": "Susurros en la Tierra (muestra fotográfica de la Escuela de Fotografía de Naturaleza)",
+   "categoria": "Artes visuales",
+   "lugar": "CENTRO CULTURAL ADAN BUENOS AIRES",
+   "barrio": "Parque Chacabuco",
+   "direccion": "Av. Eva Perón 1400",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "Todos los días de 12 a 19 h, hasta el sábado 24",
+   "precio": "Gratis",
+   "descripcion": "Muestra fotográfica de profesores, alumnos y viajeros de la Escuela de Fotografía de Naturaleza: instantes de la vida silvestre. Hasta el sábado 24 de octubre.",
+   "url": "https://www.instagram.com/ecadanbuenosayres/p/DercHEvEQJ0/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ADAN BUENOS AIRES"
+   ],
+   "lat": -34.632889,
+   "lng": -58.444521,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "78958f6ee2f7",
    "titulo": "Taller Cabina Nativa",
    "categoria": "Taller",
@@ -13654,6 +13687,31 @@
    "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/milonga_fed_marzo.jpeg/milonga_fed_marzo-1500x0-no-upscale.jpeg"
   },
   {
+   "id": "72bff8f18e03",
+   "titulo": "Encuentro: trabajos prácticos finales de Danzas Folklóricas Argentinas III y IV (UNA Folklore, cátedra Randisi)",
+   "categoria": "Danza",
+   "lugar": "Espacio Cultural Plaza Defensa",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 535",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "Jueves 22 de 19 a 21 h",
+   "precio": "Gratis",
+   "descripcion": "El taller de Danza Candombe recibe la muestra de trabajos finales de Danzas Folklóricas Argentinas de la UNA.",
+   "url": "https://www.instagram.com/ecplazadefensa/p/DeuMabDO6-x/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Espacio Cultural Plaza Defensa"
+   ],
+   "lat": -34.614141,
+   "lng": -58.371874,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "602d08cc3a40",
    "titulo": "Entre tus siestas",
    "categoria": "Teatro",
@@ -15288,6 +15346,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-814489-rec.jpg"
   },
   {
+   "id": "1b120b51882c",
+   "titulo": "Muestra de teatro 2026: sketches de Shakespeare y clásicos",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL CARLOS GARDEL",
+   "barrio": "Colegiales",
+   "direccion": "Olleros 3640",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Muestra de los talleres de teatro del espacio con sketches de Shakespeare y clásicos.",
+   "url": "https://www.instagram.com/eccarlosgardel/p/DecubwrkuG9/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CARLOS GARDEL"
+   ],
+   "lat": -34.58265,
+   "lng": -58.45058,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "fa45bb446609",
    "titulo": "Mujeres que bailan",
    "categoria": "Cine",
@@ -16741,6 +16824,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000286201.jpg"
+  },
+  {
+   "id": "b4f13eacbe02",
+   "titulo": "1789, del Grupo Tambo Teatro",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS",
+   "barrio": "Parque Avellaneda",
+   "direccion": "Directorio Av. Y Lacarra",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:30",
+   "horarios": "Viernes 23 y 30 de octubre, 20:30 h (también 13, 20 y 27 de noviembre)",
+   "precio": "Gratis",
+   "descripcion": "Obra de Ariane Mnouchkine con dirección de Daniel Begino, en el Antiguo Tambo. Entradas con reserva previa.",
+   "url": "https://www.instagram.com/chacradelosremedios/p/DesWW_ZOymV/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "bf5f799dd792",
@@ -19648,6 +19756,31 @@
    ],
    "lat": -34.606074,
    "lng": -58.409498,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "4e828e64061d",
+   "titulo": "Fileteados del terror: artistas del terror",
+   "categoria": "Taller",
+   "lugar": "ESPACIO CULTURAL MARCO DEL PONT",
+   "barrio": "Flores",
+   "direccion": "Artigas 202",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Actividad de la programación de octubre del Espacio Cultural Marcó del Pont (Artigas 202, Flores). Entrada libre y sin cargo.",
+   "url": "https://www.instagram.com/ccmpont/p/Dd0SzkoMZcv/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL MARCO DEL PONT"
+   ],
+   "lat": -34.627367,
+   "lng": -58.46533,
    "embebible": false,
    "imagen": ""
   },
@@ -27611,6 +27744,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000308009.jpg"
   },
   {
+   "id": "8ff84d5929b4",
+   "titulo": "Café literario | Artes integradas: Encuentro con la música",
+   "categoria": "Literatura y charlas",
+   "lugar": "ESPACIO CULTURAL CARLOS GARDEL",
+   "barrio": "Colegiales",
+   "direccion": "Olleros 3640",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Tarde de música y literatura. Coordinación: Eugenio López; locutor: Gustavo Álvarez.",
+   "url": "https://www.instagram.com/eccarlosgardel/p/DecwrRrmRBU/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CARLOS GARDEL"
+   ],
+   "lat": -34.58265,
+   "lng": -58.45058,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "6d3cdd3463a7",
    "titulo": "Caleidoscopio: taller anual de arte para familias",
    "categoria": "Infantil",
@@ -29014,6 +29172,31 @@
    "imagen": "https://imagenes.passline.com/eventos/delfina-sinatra-en-ferona-565083-rec.jpg"
   },
   {
+   "id": "0abb6d59e276",
+   "titulo": "Desbloqueame para un café",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL CARLOS GARDEL",
+   "barrio": "Colegiales",
+   "direccion": "Olleros 3640",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Obra de Walter Deleón, con colaboración dramatúrgica de Marisol Santini: Ignacio y Laura se reencuentran por casualidad tras una década separados.",
+   "url": "https://www.instagram.com/eccarlosgardel/p/Der_gD0GT4M/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CARLOS GARDEL"
+   ],
+   "lat": -34.58265,
+   "lng": -58.45058,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "49aefb6762a0",
    "titulo": "Desfragmentador. fragmento #7",
    "categoria": "Teatro",
@@ -30165,6 +30348,31 @@
    "lng": -58.39588,
    "embebible": false,
    "imagen": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Zds1ePGhVGv4zqUoFSed.jpg"
+  },
+  {
+   "id": "449cfcfe59ca",
+   "titulo": "Estampas callejeras (muestra de 1° año de la EMAD)",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS",
+   "barrio": "Parque Avellaneda",
+   "direccion": "Directorio Av. Y Lacarra",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "Sábado 24 y domingo 25 de octubre, 17 h",
+   "precio": "Gratis",
+   "descripcion": "Muestra de comprobación de 1° año del Curso de Formación para la Actuación en Espacios Abiertos (EMAD), en el playón del Antiguo Tambo. Se suspende por lluvia.",
+   "url": "https://www.instagram.com/chacradelosremedios/p/Deue0ypsDME/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "ee93ca7ee596",
@@ -33483,6 +33691,31 @@
    "imagen": "https://imagenes.passline.com/eventos/museum-sabado-2410-rec.jpg"
   },
   {
+   "id": "2e10e1ee89ff",
+   "titulo": "Magia y humor en el Tambo: Civilización o barbarie, con Facundo Daelli",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS",
+   "barrio": "Parque Avellaneda",
+   "direccion": "Directorio Av. Y Lacarra",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Show de magia, ilusionismo y faquirismo para toda la familia. Se suspende por lluvia.",
+   "url": "https://www.instagram.com/chacradelosremedios/p/DeuH7ehR7nJ/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL CHACRA DE LOS REMEDIOS"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "325f356e7171",
    "titulo": "Magnanimidad & ausencia - tarrío rebobinado",
    "categoria": "Teatro",
@@ -33556,6 +33789,31 @@
    "lng": -58.431853,
    "embebible": true,
    "imagen": "https://event-banners-fanz.s3.amazonaws.com/1787774887582-banner.jpg"
+  },
+  {
+   "id": "4fb83601c449",
+   "titulo": "Maratón de danzas tradicionales: Pacho Barroso presenta La Folklo-ría + Brotes",
+   "categoria": "Música",
+   "lugar": "ESPACIO CULTURAL JULIAN CENTEYA",
+   "barrio": "Boedo",
+   "direccion": "Av. San Juan 3255",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Noche de folklore para bailar, cantar y compartir: Pacho Barroso presenta La Folklo-ría, con las artistas invitadas Brotes.",
+   "url": "https://www.instagram.com/ecjcenteya/p/DesS9n2PC72/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL JULIAN CENTEYA"
+   ],
+   "lat": -34.624493,
+   "lng": -58.411395,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "91296d07b787",
@@ -34061,6 +34319,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-788307-rec.jpg"
   },
   {
+   "id": "3edecc00b17b",
+   "titulo": "Mujeres en la música en Latinoamérica 4",
+   "categoria": "Música",
+   "lugar": "Espacio Cultural del Sur · Sala 1 Galería",
+   "barrio": "Barracas",
+   "direccion": "Av. Caseros 1750",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obras de compositoras latinoamericanas y argentinas de los siglos XIX y XX, con Ana María Zanotta (soprano) y Silvia Trachcel (piano).",
+   "url": "https://www.instagram.com/ecdelsur/p/DecV-QMlH5R/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL DEL SUR"
+   ],
+   "lat": -34.633378,
+   "lng": -58.386908,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "ac11e31d9e0a",
    "titulo": "Mumi Pearson Quinteto - Homenaje a Sarah Vaughan & Nancy Wilson con Cannonball Adderley – Jazz Voyeur Club",
    "categoria": "Fiestas y electrónica",
@@ -34410,6 +34693,31 @@
    "lng": -58.411188,
    "embebible": true,
    "imagen": "https://elasticbeanstalk-us-east-1-723417877149.s3.amazonaws.com/users/f246f0c5-d314-499c-acab-bbd52073bb5a/events/mu1q7jjtb02a08e76bce-nave_square.jpg"
+  },
+  {
+   "id": "4ae0dc9203f9",
+   "titulo": "Navegación x la Memoria",
+   "categoria": "Evento",
+   "lugar": "PARQUE DE LA MEMORIA",
+   "barrio": "Núñez",
+   "direccion": "Obligado Rafael, Av.Costanera 6745",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "12:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "A 50 años del 24 de marzo de 1976, una flota de veleros zarpa desde distintos puntos del área metropolitana para encontrarse frente a la costanera del Parque de la Memoria y trazar una X sobre el Río de la Plata.",
+   "url": "https://www.instagram.com/parquedelamemoria/p/DeuD1nfOqIx/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "PARQUE DE LA MEMORIA"
+   ],
+   "lat": -34.555842,
+   "lng": -58.41509,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "11f2b0855ddb",
@@ -37675,6 +37983,31 @@
    "imagen": ""
   },
   {
+   "id": "eb5ff0119536",
+   "titulo": "Tiempo y belleza",
+   "categoria": "Evento",
+   "lugar": "ESPACIO CULTURAL MARCO DEL PONT",
+   "barrio": "Flores",
+   "direccion": "Artigas 202",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Actividad de la programación de octubre del Espacio Cultural Marcó del Pont. Entrada libre y sin cargo.",
+   "url": "https://www.instagram.com/ccmpont/p/Dd0SzkoMZcv/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL MARCO DEL PONT"
+   ],
+   "lat": -34.627367,
+   "lng": -58.46533,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "6c57c6723ff9",
    "titulo": "Tita Merello. Una diva plebeya. Visita guiada",
    "categoria": "Visita guiada",
@@ -39582,6 +39915,31 @@
    "lng": -58.440825,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-814012-rec.jpg"
+  },
+  {
+   "id": "aef6839b7ad4",
+   "titulo": "Ballet Whonkai Fareta",
+   "categoria": "Danza",
+   "lugar": "ESPACIO CULTURAL MARCO DEL PONT",
+   "barrio": "Flores",
+   "direccion": "Artigas 202",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Espectáculo de danza de la programación de octubre del Espacio Cultural Marcó del Pont. Entrada libre y sin cargo.",
+   "url": "https://www.instagram.com/ccmpont/p/Dd0SzkoMZcv/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL MARCO DEL PONT"
+   ],
+   "lat": -34.627367,
+   "lng": -58.46533,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "c650650151a6",
@@ -60405,6 +60763,31 @@
    "lng": -58.394447,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/49/000322449.jpg"
+  },
+  {
+   "id": "62d7cb87f825",
+   "titulo": "Seiza Anime: edición Matsuri",
+   "categoria": "Evento",
+   "lugar": "ESPACIO CULTURAL MARCO DEL PONT",
+   "barrio": "Flores",
+   "direccion": "Artigas 202",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Encuentro de cultura anime de la programación de octubre del Espacio Cultural Marcó del Pont. Entrada libre y sin cargo.",
+   "url": "https://www.instagram.com/ccmpont/p/Dd0SzkoMZcv/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL MARCO DEL PONT"
+   ],
+   "lat": -34.627367,
+   "lng": -58.46533,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "34ac3058b701",

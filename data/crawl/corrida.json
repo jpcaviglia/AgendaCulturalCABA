@@ -477,7 +477,11 @@
   "multiespacio-pasco|instagram",
   "munar|instagram",
   "museo-mundial-del-tango|instagram",
-  "museo-nacional-de-la-historia-del-traje|instagram"
+  "museo-nacional-de-la-historia-del-traje|instagram",
+  "oceanario-club-cultural|instagram",
+  "paraje-arteson|instagram",
+  "oihoy-casa-abierta|instagram",
+  "polo-bandoneon|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -830,8 +834,26 @@
   "multiespacio-pasco|web": "sin_eventos",
   "munar|web": "sin_agenda",
   "museo-mundial-del-tango|web": "sin_agenda",
-  "museo-nacional-de-la-historia-del-traje|web": "sin_agenda"
+  "museo-nacional-de-la-historia-del-traje|web": "sin_agenda",
+  "oceanario-club-cultural|web": "dominio_caido",
+  "paraje-arteson|web": "dominio_caido",
+  "oihoy-casa-abierta|web": "sin_agenda",
+  "oliverio-girondo|web": "sin_eventos",
+  "polo-bandoneon|web": "sin_agenda",
+  "libario|instagram": "sin_agenda",
+  "espacio-cultural-chacra-de-los-remedios|instagram": "con_eventos",
+  "espacio-cultural-marco-del-pont|instagram": "con_eventos",
+  "espacio-cultural-julian-centeya|instagram": "con_eventos",
+  "espacio-cultural-del-sur|instagram": "con_eventos",
+  "espacio-cultural-carlos-gardel|instagram": "con_eventos",
+  "espacio-cultural-resurgimiento|instagram": "sin_eventos",
+  "espacio-cultural-plaza-defensa|instagram": "con_eventos",
+  "centro-cultural-adan-buenos-aires|instagram": "con_eventos",
+  "parque-de-la-memoria|instagram": "con_eventos",
+  "fundacion-mercedes-sosa|instagram": "sin_eventos",
+  "espacio-cultural-soma|instagram": "sin_agenda",
+  "museo-nacional-de-la-historia-del-traje|instagram": "sin_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 4516
+ "eventos": 4531
 }

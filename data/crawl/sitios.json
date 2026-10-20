@@ -4007,18 +4007,21 @@
    "direccion": "Estado De Palestina 919",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Dominio propio caído; la cartelera está en Instagram @paraje_arteson. Palestina 919, Almagro."
+    "2026-10-15 [web] Dominio propio caído; la cartelera está en Instagram @paraje_arteson. Palestina 919, Almagro.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
@@ -4028,6 +4031,12 @@
     },
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -4754,16 +4763,25 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Obra 'Dejar de ser' sin fechas publicadas; sin agenda en la web.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalsoma",
-    "2026-10-20 [web] 2026-10-20: sin obras en cartelera; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin obras en cartelera; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: perfil de Instagram no disponible; las compañías tienen cuentas propias."
    ],
    "comportamiento": {
-    "extraccion": "la agenda se ve con HTTP y en el navegador; 'En cartelera' vacía"
+    "extraccion": "la agenda se ve con HTTP y en el navegador; 'En cartelera' vacía",
+    "instagram": "el perfil @culturalsoma no está disponible el 2026-10-20; probar @somacdc y @vortice.ciadanza (compañías del espacio)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "enlaces_descartados": [
     {
@@ -4802,6 +4820,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -5713,11 +5737,14 @@
    "barrio": "Barracas",
    "direccion": "Caseros Av. 1750",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "el grid es casi todo reels de funciones ya realizadas; el texto de cada post se lee en el alt de las imágenes sin abrirlos (1 página de cupo)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: un anuncio en la ventana (24/10); el resto son crónicas (El Bloqueo 17/10, Electro Tango 18/10)."
    ],
    "ultimo": {
     "web": {
@@ -5725,6 +5752,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -5739,6 +5772,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15"
@@ -5887,6 +5926,12 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
@@ -5894,13 +5939,16 @@
     "2026-10-15 [sondeo sin navegador] Sin exposición vigente en el HTML del 15/10 (la última cerró el 11/10); revisar en el navegador si se anunció la próxima.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/parquedelamemoria",
     "2026-10-15 [web] Sin exposición temporaria vigente ni anunciada al 15/10 (última cerró el 11/10); queda el monumento y las esculturas. Revisar Instagram por inauguraciones.",
-    "2026-10-20 [web] 2026-10-20: sin exposición vigente; 'Identidad' (Abuelas de Plaza de Mayo) anunciada sin fecha. Revisar Instagram por la inauguración."
+    "2026-10-20 [web] 2026-10-20: sin exposición vigente; 'Identidad' (Abuelas de Plaza de Mayo) anunciada sin fecha. Revisar Instagram por la inauguración.",
+    "2026-10-20 [instagram] 2026-10-20: un evento en la ventana (24/10); la exposición 'La memoria de la colección' cerró el 18/10 (el Moderno) y no hay otra anunciada con fecha."
    ],
    "comportamiento": {
     "exposiciones": "/arte-exposiciones/ muestra la exposición actual; 'La memoria de la colección' cerró el 11/10/2026",
     "visitas": "/educacion/ = visitas guiadas solo para escuelas e instituciones con reserva (no se cargan)",
     "horario": "sala martes a viernes 11-17, fines de semana 11-18; parque 10-18/19",
-    "extraccion": "/arte-exposiciones/ lista 'Exposición actual' con fechas y 'Próximamente' sin fecha; con get_page_text alcanza"
+    "extraccion": "/arte-exposiciones/ lista 'Exposición actual' con fechas y 'Próximamente' sin fecha; con get_page_text alcanza",
+    "instagram": "el texto de los posts se lee en el alt del grid; el parque comparte posts con @modernoba",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "enlace_bio": "https://linktr.ee/parquedelamemoria",
    "enlaces_descartados": [
@@ -5947,6 +5995,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -7653,11 +7707,14 @@
    "barrio": "Chacarita",
    "direccion": "Olleros 3640",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "el texto completo de cada post (fecha, hora, dirección) está en el alt de la imagen del grid: se lee sin abrir los posts (1 página de cupo)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: 3 actividades entre el 22 y el 24/10; 'Nada más que malambo' no se cargó porque su post no trae fecha. Precio: el espacio es de entrada gratuita (circuito de espacios culturales)."
    ],
    "ultimo": {
     "web": {
@@ -7665,6 +7722,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 4
     }
    },
    "historial": [
@@ -7679,6 +7742,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "bio_probada": "2026-10-15"
@@ -8337,12 +8406,15 @@
    "barrio": "Flores",
    "direccion": "Artigas, Jose Gervasio, Gral. 202",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "publica un afiche mensual 'Programación <mes>' con todos los eventos (fechas en la imagen, horas apenas legibles) y un post por función; los de noviembre (6/11 teatro y música) ya están anunciados",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText y zoom del afiche"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmpont",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: 4 actividades del afiche de octubre dentro de la ventana (horas no legibles, no cargadas); '30/10 Locuras / humor' no se cargó por título ilegible; 6/11 teatro y música quedan fuera de la ventana."
    ],
    "ultimo": {
     "web": {
@@ -8350,6 +8422,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 5
     }
    },
    "historial": [
@@ -8364,6 +8442,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ],
    "enlace_bio": "https://linktr.ee/ccmpont"
@@ -10035,14 +10119,17 @@
    "barrio": "Nueva Pompeya",
    "direccion": "Saenz Av. 1480",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva sin agenda"
+   },
    "notas": [
-    "2026-10-15 [web] Ficha institucional sin fechas: talleres de tango en Av. Sáenz 1480, Pompeya; anuncios en Instagram @polo_bandoneon."
+    "2026-10-15 [web] Ficha institucional sin fechas: talleres de tango en Av. Sáenz 1480, Pompeya; anuncios en Instagram @polo_bandoneon.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     }
@@ -10052,6 +10139,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -11577,17 +11670,26 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/libariomultiespacio",
     "2026-10-15 [web] La agenda está en Instagram @libariomultiespacio y cuentas de cada ciclo; Julián Álvarez 1315, Palermo.",
-    "2026-10-20 [web] 2026-10-20: la agenda está en Instagram; revisar @libariomultiespacio."
+    "2026-10-20 [web] 2026-10-20: la agenda está en Instagram; revisar @libariomultiespacio.",
+    "2026-10-20 [instagram] 2026-10-20: perfil de Instagram no disponible; sin cartelera en Alternativa Teatral."
    ],
    "enlace_bio": "https://linktr.ee/libariomultiespacio",
    "comportamiento": {
-    "contenido": "Linktree que remite a las redes para la agenda"
+    "contenido": "Linktree que remite a las redes para la agenda",
+    "instagram": "el perfil no está disponible el 2026-10-20",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "historial": [
     {
@@ -11599,6 +11701,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -11922,12 +12030,15 @@
    "barrio": "Parque Avellaneda",
    "direccion": "Directorio Av. Y Lacarra",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "la programación (talleres, espectáculos gratuitos) se anuncia en posts con afiche; las fechas a veces solo están en la imagen (screenshot)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/chacradelosremedios",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: 3 anuncios en la ventana; 1789 sigue los viernes de noviembre (13, 20 y 27)."
    ],
    "ultimo": {
     "web": {
@@ -11935,6 +12046,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 5
     }
    },
    "historial": [
@@ -11949,6 +12066,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "enlace_bio": "https://linktr.ee/chacradelosremedios"
@@ -11966,12 +12089,15 @@
    "barrio": "Parque Chacabuco",
    "direccion": "Peron, Eva Av. 1400",
    "comportamiento": {
-    "extraccion": "ficha descriptiva sin agenda; revisar Instagram/Facebook"
+    "extraccion": "ficha descriptiva sin agenda; revisar Instagram/Facebook",
+    "instagram": "un post semanal 'Te esperamos esta semana en el Adán' y un carrusel mensual 'Octubre en el Adán' (no leído lámina por lámina); el texto está en el alt del grid",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial.",
+    "2026-10-20 [instagram] 2026-10-20: una muestra vigente hasta el 24/10; el carrusel 'Octubre en el Adán' (teatro, música, danza, humor, magia, anime) puede traer más funciones: leerlo en la próxima corrida."
    ],
    "ultimo": {
     "web": {
@@ -11979,6 +12105,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "historial": [
@@ -11999,6 +12131,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15"
@@ -13936,12 +14074,15 @@
    "barrio": "San Cristobal",
    "direccion": "San Juan Av. 3255",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "un post por actividad con fecha, hora y dirección en el texto; el grid trae los textos en el alt de las imágenes (se pueden leer sin abrir cada post)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ecjcenteya",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: un solo evento en la ventana (24/10); los demás posts son funciones ya realizadas (16 y 17/10)."
    ],
    "ultimo": {
     "web": {
@@ -13949,6 +14090,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 4
     }
    },
    "historial": [
@@ -13963,6 +14110,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "enlace_bio": "https://linktr.ee/ecjcenteya"
@@ -15342,11 +15495,14 @@
    "barrio": "San Telmo",
    "direccion": "Defensa 535",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "un post por encuentro con fecha y hora en el alt de la imagen; el afiche mensual 'Octubre 2026' es un carrusel de ~11 láminas (no se leyó completo)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: un encuentro en la ventana (22/10); el carrusel de la programación de octubre (29/9) puede traer más actividades: leerlo lámina por lámina en la próxima corrida."
    ],
    "ultimo": {
     "web": {
@@ -15354,6 +15510,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "historial": [
@@ -15368,6 +15530,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15"
@@ -15444,16 +15612,25 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin agenda en la web; muestras y festival sin fechas publicadas.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionmercedessosa",
-    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram/Linktree."
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram/Linktree.",
+    "2026-10-20 [instagram] 2026-10-20: el festival anual ya terminó; sin actividades en la ventana."
    ],
    "comportamiento": {
-    "extraccion": "sitio institucional con tienda; sin agenda"
+    "extraccion": "sitio institucional con tienda; sin agenda",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "enlaces_descartados": [
     {
@@ -15498,6 +15675,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -16666,19 +16849,22 @@
    "direccion": "Escalada De San Martin, R. 332",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/oceanarioclub",
-    "2026-10-15 [web] Dominio propio caído; la agenda vigente está en Instagram @oceanario_clubcultural."
+    "2026-10-15 [web] Dominio propio caído; la agenda vigente está en Instagram @oceanario_clubcultural.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
    "enlace_bio": "https://linktr.ee/oceanarioclub",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
@@ -16688,6 +16874,12 @@
     },
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -16711,18 +16903,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Sección Programación",
-    "2026-10-15 [web] Sitio vacío; solo enlaza a Facebook ('Oliverio en Facebook'), sin Instagram conocido."
+    "2026-10-15 [web] Sitio vacío; solo enlaza a Facebook ('Oliverio en Facebook'), sin Instagram conocido.",
+    "2026-10-20 [web] 2026-10-20: blog vacío; revisar Instagram."
    ],
    "comportamiento": {
-    "plataforma": "blog WordPress.com sin contenido; la actividad está en su página de Facebook"
+    "plataforma": "blog WordPress.com sin contenido; la actividad está en su página de Facebook",
+    "extraccion": "blog sin entradas"
    },
    "enlaces_descartados": [
     {
@@ -16755,6 +16949,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -17048,11 +17248,14 @@
    "barrio": "Villa Del Parque",
    "direccion": "Artigas, Jose Gervasio, Gral. 2262",
    "comportamiento": {
-    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram",
+    "instagram": "los afiches traen fecha y hora en la imagen; el texto del post a veces solo dice 'Viernes'",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: sin funciones anunciadas para la ventana."
    ],
    "ultimo": {
     "web": {
@@ -17060,6 +17263,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "historial": [
@@ -17073,6 +17282,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -17897,19 +18112,21 @@
    "direccion": "14 De Julio 426",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sitio sin agenda clara",
-    "2026-10-15 [web] Espacio de Villa Ortúzar (14 de Julio 426); web sin calendario. Mirar Instagram @oihoy_."
+    "2026-10-15 [web] Espacio de Villa Ortúzar (14 de Julio 426); web sin calendario. Mirar Instagram @oihoy_.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "sitio institucional sin agenda; las actividades puntuales se anuncian en Instagram @oihoy_"
+    "extraccion": "sitio institucional sin agenda; las actividades puntuales se anuncian en Instagram @oihoy_",
+    "contenido": "descripción de la oferta, sin agenda"
    },
    "enlaces_descartados": [
     {
@@ -17923,6 +18140,12 @@
      "texto": "Contacto",
      "motivo": "datos de contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://oihoy.com.ar/capacitaciones/",
+     "texto": "Capacitaciones",
+     "motivo": "capacitaciones para comunidades, sin fechas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -17930,6 +18153,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -21556,16 +21785,25 @@
     "2026-10-15: la web cambió de  a https://museohistoriconacional.cultura.gob.ar/info/coleccion-del-traje-argentino/",
     "2026-10-15 [web] Sin muestra vigente publicada en la web; revisar Instagram @museodeltrajeba.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museodeltrajeba",
-    "2026-10-20 [web] 2026-10-20: sin muestra vigente publicada; revisar Instagram @museodeltrajeba."
+    "2026-10-20 [web] 2026-10-20: sin muestra vigente publicada; revisar Instagram @museodeltrajeba.",
+    "2026-10-20 [instagram] 2026-10-20: cuenta inactiva desde 2024; sin actividades en la ventana."
    ],
    "id": "museo-nacional-de-la-historia-del-traje",
    "comportamiento": {
-    "extraccion": "ficha institucional dentro del sitio del Museo Histórico Nacional"
+    "extraccion": "ficha institucional dentro del sitio del Museo Histórico Nacional",
+    "instagram": "cuenta sin publicaciones recientes (último post ~octubre de 2024)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "web": {
      "fecha": "2026-10-20",
      "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
     }
@@ -21581,6 +21819,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
