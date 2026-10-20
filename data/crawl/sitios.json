@@ -16916,12 +16916,12 @@
     "plataforma": "SPA (gaf-webapp): fetch devuelve 'no funciona sin JavaScript', hay que navegar a cada /pelicula/86/<id>",
     "fichas": "cada ficha /pelicula/86/<id> muestra días 15/10 a 21/10 como pestañas; las funciones están por día",
     "extraccion": "portada lista las películas; la ficha da el rango de días",
-    "cartelera": "la ficha de cada película ofrece solo hoy y mañana (selector de días con funciones)",
+    "cartelera": "la ficha de cada película tiene pestañas por día (solo los días con función): leer cada pestaña; un zoom a la región [300,600,958,900] muestra las funciones sin JS",
     "espera_seg": 4
    },
    "notas": [
     "2026-10-15 [web] Cartelera semanal; se cargó el rango de días visible en la ficha (15 a 21/10) sin horarios por función.",
-    "2026-10-20 [web] 2026-10-20: 11 películas con funciones el 20 y 21/10. Solo se leyeron los horarios de Quiero tu sexo y Digger; el resto de las fichas no cargó a tiempo. Sin precio publicado en la ficha."
+    "2026-10-20 [web] 2026-10-20: 11 películas; cada ficha tiene un selector de días con sus funciones (clic en la pestaña del día). Siete abren el 20/21-10 y cuatro empiezan el 23, 24 o 25/10. Sin precio publicado en la ficha."
    ],
    "ultimo": {
     "web": {
@@ -16934,6 +16934,18 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
