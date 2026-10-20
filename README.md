@@ -59,7 +59,9 @@ network do so with plain HTTP requests, at a slow pace.
 - `scripts/biolinks.py`: looks for the Linktree of each Instagram account without opening Instagram.
 - `scripts/saleplan.py`: reads the SalePlan listings and saves only what no other source brought.
 - `scripts/armar_agenda.py`: builds `data/eventos.json` (14-day window, classification, duplicates, missing
-  addresses, map, stable id for each event). `--sin-geo` builds without querying the network.
+  addresses, map, stable id for each event). `--sin-geo` builds without querying the network. With no
+  recent captures it leaves `eventos.json` untouched, unless `--vaciar` is given (then it writes it with no
+  events).
 - `scripts/duplicados.py`: lists possible duplicates for review and saves the decisions.
 - `clasificar.py`, `deduplicar.py`, `direcciones.py`, `embebibles.py`, `geocodificar.py`, `comun.py`:
   shared functions.

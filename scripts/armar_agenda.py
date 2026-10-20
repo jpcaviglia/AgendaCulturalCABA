@@ -4,6 +4,10 @@ Usage:
     python scripts/armar_agenda.py            # builds eventos.json (and places new addresses on the map)
     python scripts/armar_agenda.py --sin-geo  # without querying new addresses on OpenStreetMap
     python scripts/armar_agenda.py --simular  # shows the result without writing
+    python scripts/armar_agenda.py --vaciar   # with no recent captures, writes eventos.json with no events
+
+Without --vaciar, if there are no recent captures it exits without touching eventos.json, so a crawl that
+saved nothing never empties the website by accident.
 
 It takes the latest capture of each site and channel, keeps what falls inside the 14-day window, classifies,
 removes duplicates between sources and updates the status of each venue in data/lugares.json according to
@@ -155,7 +159,15 @@ def main():
     crudos, usadas, viejas = leer_capturas()
     print(f"Ventana {desde} a {hasta}. {len(usadas)} capturas ({len(viejas)} ignoradas por viejas), {len(crudos)} eventos crudos.")
     if not usadas:
-        sys.exit("No hay capturas recientes: no se toca eventos.json.")
+        if "--vaciar" not in sys.argv:
+            sys.exit("No hay capturas recientes: no se toca eventos.json (`--vaciar` para dejarlo sin eventos).")
+        if simular:
+            print("eventos.json quedaría sin eventos.")
+            return
+        escribir_json(SALIDA, {"generado": hoy().isoformat(), "ventana": {"desde": desde, "hasta": hasta},
+                               "rastreo": {"capturas": 0, "con_eventos": 0}, "fuentes": [], "eventos": []})
+        print(f"Escrito {SALIDA.relative_to(DATOS.parent)} sin eventos (no hay capturas recientes).")
+        return
 
     lugares = leer_json(DATOS / "lugares.json", [])
     lugares_por_nombre = {sin_tildes(l["nombre"]): l for l in lugares}
