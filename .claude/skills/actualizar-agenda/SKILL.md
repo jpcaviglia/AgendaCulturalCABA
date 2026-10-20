@@ -141,8 +141,8 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   one-off (Niceto Club: the venue's `/agenda/` HTML has day sections and cards, the price is on venti.live);
 - `sondear.pedir` can decode a non-UTF-8 page (`centrocultural.coop`) with `�` in accents: fix the titles by hand before
   saving (`guardar` stores them as they are).
-- Centro Cultural Borges: run `python scripts/borges.py` (reads its API, writes `data/crawl/tmp/centro-cultural-borges.json`) and save
-  that file with `crawl.py guardar`; no browser needed.
+- Centro Cultural Borges: `sondear.py --corrida` runs `scripts/borges.py` first by itself (it reads the site's API) and saves the
+  result; if it fails, run it by hand and save `data/crawl/tmp/centro-cultural-borges.json` with `crawl.py guardar`. No browser needed.
 - A calendar app whose cards have no links (Centro Cultural Borges: clicking a card goes to `/evento/<id>`) loads its data from a
   JSON API: read `performance.getEntriesByType('resource')` after clicking (print the names with `[?=&]` replaced), then request the API over
   HTTP with `Accept: application/json` and a `Referer` header. It gives every event's id, so each event links to its own page.

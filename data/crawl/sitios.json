@@ -14771,7 +14771,7 @@
     "2026-10-20 [web] 2026-10-20: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: `python scripts/borges.py` lee la API pública JSON (/api/public/agenda y /evento-detalle) y escribe data/crawl/tmp/centro-cultural-borges.json con cada función enlazada a /evento/<id>; después `crawl.py guardar` ese archivo",
+    "extraccion": "sin navegador: `sondear.py --corrida` ejecuta primero `scripts/borges.py` (API pública JSON) y guarda el resultado, con cada función enlazada a /evento/<id>; a mano: `python scripts/borges.py` y luego `crawl.py guardar data/crawl/tmp/centro-cultural-borges.json`",
     "cookies": "sin aviso",
     "espera_seg": 6,
     "imagen": "imagenUrl de la API (relativa a /uploads/)"
@@ -14826,6 +14826,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 35
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 69
     },
     {
      "fecha": "2026-10-20",

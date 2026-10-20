@@ -26,6 +26,8 @@ With --corrida it probes only the pending websites of the open run and also:
                     (`sin_enlace_propio` in the report).
     html            leaves the text of the home page and the agenda pages in data/crawl/local/textos/<id>.txt;
                     `crawl.py siguiente` shows it so it can be read instead of opening the browser.
+Before probing, --corrida runs the site-specific readers (LECTORES: `scripts/borges.py` for Centro Cultural Borges) for
+the pending sites that have one, and saves what they bring with `crawl.py guardar`; those sites are not probed.
 The report is merged with the previous one (per site, with its date).
 """
 import html as html_lib
@@ -538,6 +540,29 @@ def leer_pagina(args):
     print(texto[max(i, 0):max(i, 0) + maximo])
 
 
+# Sites whose agenda is read by a script of their own (a JSON API): it runs first in --corrida.
+LECTORES = {"centro-cultural-borges": "borges.py"}
+
+
+def lectores_propios(pendientes):
+    """Runs the site-specific readers of the pending sites and saves their result. Returns the ids saved."""
+    guardados = []
+    for sid, script in LECTORES.items():
+        if sid not in pendientes:
+            continue
+        for cmd in ([script], ["crawl.py", "guardar", str(TMP / f"{sid}.json")]):
+            ruta = cmd[0] if cmd[0] == "crawl.py" else script
+            p = subprocess.run([sys.executable, str(RAIZ / "scripts" / ruta)] + cmd[1:],
+                               capture_output=True, text=True, encoding="utf-8")
+            if p.returncode != 0:
+                print(f"  {sid}: {ruta} falló: {(p.stdout + p.stderr).strip()[-300:]}")
+                break
+        else:
+            guardados.append(sid)
+            print(f"  {sid}: leído con scripts/{script} y guardado")
+    return guardados
+
+
 def main():
     args = sys.argv[1:]
     if "--leer" in args:
@@ -553,7 +578,8 @@ def main():
         if not corrida or corrida.get("fin"):
             sys.exit("No hay corrida abierta: correr primero `python scripts/crawl.py iniciar`.")
         pend = {i.split("|")[0] for i in corrida["cola"] if i.endswith("|web") and i not in corrida["hechos"]}
-        sitios = [s for s in sitios if s["id"] in pend]
+        propios = lectores_propios(pend)
+        sitios = [s for s in sitios if s["id"] in pend and s["id"] not in propios]
         desde, hasta = corrida["ventana"]["desde"], corrida["ventana"]["hasta"]
     if limite:
         sitios = sitios[:limite]
