@@ -257,6 +257,26 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   accepted. If it denies that too, write small snippets of your own (or paste `navegador.js` inline) and
   ask the user before choosing, as the skill says for CSP.
 
+## Where the picture is (`imagen`)
+
+`scripts/imagenes.py` reads the pictures that are in the page's HTML. For the rest, in the browser (fetch each event
+page from a tab of the same site, because Python gets 403 or only the app shell):
+
+- **og:image in the page, 403 for Python**: Passline `/eventos/<slug>`, Fanz sites (Thames, Macedonia, Armoza), Malba is the
+  exception (no og:image: take the first `<img>` that is not an SVG from `wp-content/uploads`), Fundación Andreani (first `<img>` of `/uploads/`).
+- **Passline listing** (`/sitio/<id>`, `/productora/<id>`): each card has its `<img>`, `https://www.passline.com/imagenes/eventos/<slug>-<id>-rec.jpg`
+  (the file name can be empty: `-788307-rec.jpg`); match it by the card's link.
+- **Resident Advisor**: the og:image is an `imgproxy.ra.co` URL with the original in base64 after `quality:50/`:
+  `atob(...)` gives `https://images.ra.co/<hash>.jpg|png`.
+- **Tickethoy** (single-page app): open each event page and read the `<img>` `https://api.tickethoy.org/images/eventos/<id>/imgn0000.jpg`.
+- **Museums of the Ministry of Culture** (`*.cultura.gob.ar`): the photo is a CSS background,
+  `/media/uploads/site-N/destacados/.thumbnails/<name>/<name>-1500x0-no-upscale.jpg` (no og:image, no `<img>`). `imagenes.py` finds it.
+- **Day-by-day calendars** (Centro Cultural Borges): clicking a day shows the cards of that day, each with its `<img src=/uploads/<uuid>.jpg>`
+  and the title: go through the days and match by title (normalised, without accents).
+- **Cinexo cinemas**: `https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F<idComplejo>%2F<codigo>%2Fprimario.png?alt=media`.
+- **Not usable**: `http://` pictures (Centro Cultural Recoleta has no https; the website would block them), a venue's generic photo
+  repeated in several events, and text-only sites (Casona Humahuaca's cycles, Feliza's agenda has no per-event image).
+
 ## If you change `navegador.js`
 
 The local server (`crawl.py servir`) serves the file from disk, so the change applies on the next page load; the

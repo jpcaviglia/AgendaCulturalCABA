@@ -6,15 +6,7 @@
  "fecha": "2026-10-20",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://ccarmoza.com/",
-  "https://ccarmoza.com/event/126163-pinta-tu-copa",
-  "https://ccarmoza.com/event/104092-charla-de-sexologia-vinculos-no-monogamicos",
-  "https://ccarmoza.com/event/104091-cenas-intimas-en-la-cava-edicion-viajeros",
-  "https://ccarmoza.com/event/169992-bingo-de-cancionesemo",
-  "https://ccarmoza.com/event/107357-karaoke-night",
-  "https://ccarmoza.com/event/106037-noche-de-trivia-the-office",
-  "https://ccarmoza.com/event/114815-fogon-vermu-y-aceitunas",
-  "https://ccarmoza.com/event/170684-pinta-tu-taza-de-ceramica"
+  "https://ccarmoza.com/"
  ],
  "eventos": [
   {
@@ -32,7 +24,7 @@
    "descripcion": "Taller de pintura sobre copas en el Centro Cultural Armoza.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1784836464041-banner.jpg"
   },
   {
    "titulo": "Charla de sexología: vínculos no monogámicos",
@@ -49,7 +41,7 @@
    "descripcion": "Charla sobre vínculos no monogámicos.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1779925777184-banner.jpg"
   },
   {
    "titulo": "Cenas íntimas en la Cava: edición Viajeros",
@@ -66,7 +58,7 @@
    "descripcion": "Cena en la cava del centro cultural; quedan pocas entradas.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1779925564418-banner.jpg"
   },
   {
    "titulo": "Bingo de canciones: Emo",
@@ -83,7 +75,7 @@
    "descripcion": "Bingo musical con canciones emo.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1792106016057-banner.jpg"
   },
   {
    "titulo": "Karaoke Night",
@@ -100,7 +92,7 @@
    "descripcion": "Noche de karaoke.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1780773891538-banner.jpg"
   },
   {
    "titulo": "Noche de trivia: The Office",
@@ -117,7 +109,7 @@
    "descripcion": "Trivia sobre la serie The Office.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1792455875972-banner.jpg"
   },
   {
    "titulo": "Degustación de vermú artesanal bajo las estrellas",
@@ -134,7 +126,7 @@
    "descripcion": "Degustación de vermú artesanal con aceitunas, al aire libre.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1792193998605-banner.jpg"
   },
   {
    "titulo": "Pintá tu taza de cerámica",
@@ -151,7 +143,7 @@
    "descripcion": "Taller para pintar una taza de cerámica.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1792428854091-banner.jpg"
   }
  ]
 }

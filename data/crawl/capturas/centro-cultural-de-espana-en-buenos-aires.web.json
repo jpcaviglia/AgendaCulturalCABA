@@ -7,17 +7,18 @@
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://cceba.aecid.es/",
-  "https://cceba.aecid.es/eventos/esta-semana",
-  "https://cceba.aecid.es/w/nino-gutierre-y-patricio-foglia",
-  "https://cceba.aecid.es/w/cceba-jazz-9",
-  "https://cceba.aecid.es/w/el-libro-verde-del-teatro",
-  "https://cceba.aecid.es/w/iii-laboratorio-internacional-de-creacion-y-desarrollo-de-publicos-culturales",
-  "https://cceba.aecid.es/w/semana-cuadernos-marcos-giralt-torrente",
-  "https://cceba.aecid.es/w/la-gaviota.-ensayo-abierto",
-  "https://cceba.aecid.es/w/festival-asterisco-2026",
-  "https://cceba.aecid.es/w/la-casa-aitana-cordero",
   "https://cceba.aecid.es/eventos/buscador-de-eventos",
-  "https://cceba.aecid.es/w/cuadernos-hispanoamericanos-mercedes-halfon"
+  "https://cceba.aecid.es/w/cocina-fácil-con-legumbres",
+  "https://cceba.aecid.es/w/cuadernos-hispanoamericanos-mercedes-halfon",
+  "https://cceba.aecid.es/w/el-impulso-y-la-forma-5",
+  "https://cceba.aecid.es/w/el-pincho-y-la-coca-4",
+  "https://cceba.aecid.es/w/festival-asterisco-2026",
+  "https://cceba.aecid.es/w/iii-laboratorio-internacional-de-creacion-y-desarrollo-de-publicos-culturales",
+  "https://cceba.aecid.es/w/la-gaviota.-ensayo-abierto",
+  "https://cceba.aecid.es/w/nino-gutierre-y-patricio-foglia",
+  "https://cceba.aecid.es/w/semana-cuadernos-marcos-giralt-torrente",
+  "https://cceba.aecid.es/w/el-libro-verde-del-teatro",
+  "https://cceba.aecid.es/w/dialogo-entre-orillas"
  ],
  "eventos": [
   {
@@ -35,7 +36,7 @@
    "descripcion": "Concierto en el CCEBA, ciclo de música y sonido.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/nino-gutierre-y-patricio-foglia-cceba-web.jpg/88dd9123-e42d-0d04-c039-bafe9e533988?t=1790606089725"
   },
   {
    "titulo": "CCEBA Jazz",
@@ -52,7 +53,7 @@
    "descripcion": "Ciclo CCEBA Jazz en el Centro Cultural de España en Buenos Aires.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/iturri-sella-farb-cceba-jazz-web+%281%29.jpg/2bb3e7ca-97bc-2cc4-eb48-d2a6df940368?t=1792093116751"
   },
   {
    "titulo": "El Libro Verde del Teatro",
@@ -69,7 +70,7 @@
    "descripcion": "Actividad de artes escénicas del CCEBA.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/el-libro-verde-del-tetro-cceba-web.jpg/b2720bc7-ba61-573d-351a-9ef6f74066e5?t=1789496674522"
   },
   {
    "titulo": "III Laboratorio Internacional de Creación y Desarrollo de Públicos Culturales",
@@ -86,7 +87,7 @@
    "descripcion": "Laboratorio de formación sobre creación y desarrollo de públicos culturales.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/laboratorio-publicos-cceba-web.png/185586a6-0caf-44c7-1dfc-4fc8c9dde301?t=1791998781036"
   },
   {
    "titulo": "Semana Cuadernos: Marcos Giralt Torrente",
@@ -103,7 +104,7 @@
    "descripcion": "Semana dedicada al escritor Marcos Giralt Torrente, con Cuadernos Hispanoamericanos.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/semana-cuadernos-h-marcos-giralt-torrente-cceba-web.jpg/ac4c2451-6a50-2cd2-532b-208f89681db3?t=1790254018164"
   },
   {
    "titulo": "La gaviota. Ensayo abierto",
@@ -120,7 +121,7 @@
    "descripcion": "Ensayo abierto de La gaviota en el Teatro Sarmiento.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/la-gaviota-cceba-web.jpg/044d07c3-67c5-1909-8768-65ca9326d8a6?t=1791473210423"
   },
   {
    "titulo": "Asterisco Festival Internacional de Cine LGBTIQ+",
@@ -137,7 +138,7 @@
    "descripcion": "Función del festival Asterisco en el MALBA.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/festival-asterisco-siemprevivas-cceba-web.jpg/43afb5e9-acb3-1c78-e439-66f61598a583?t=1791386779442"
   },
   {
    "titulo": "La casa, de Aitana Cordero",
@@ -154,7 +155,7 @@
    "descripcion": "Obra de Aitana Cordero en el Teatro Verdi.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/la-casa-aitana-cordero-cceba-web-2.jpg/7876c54a-65d6-bb8e-967b-608c81b6d66f?t=1791380697387"
   },
   {
    "titulo": "En acción con… Cuadernos Hispanoamericanos y Mercedes Halfon",
@@ -171,7 +172,7 @@
    "descripcion": "Encuentro del ciclo En acción con… de Cuadernos Hispanoamericanos, con Mercedes Halfon.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/en-accion-cuadernos-cceba-web.jpg/4a15a332-c1f7-8347-6afc-b077e5006324?t=1789504603228"
   }
  ]
 }

@@ -559,8 +559,11 @@ python scripts/duplicados.py distintos 1 2 4    # different events (never asked 
   `data/crawl/duplicados.json` and hold for future runs, so the list shrinks over time.
 
 Check the pictures: `python scripts/crawl.py sin-imagen` lists the venues with 4 or more events and none with an `imagen`.
-For each one that is not an Instagram-only or PDF source, read the event pages (or the platform's API), add `imagen`
-and save the site again; if the source really has no pictures, say so in its `nota`.
+For each one that is not an Instagram-only or PDF source, first run `python scripts/imagenes.py <id>` (reads the event
+pages over HTTP: og:image, known `<img>` patterns, Ministry of Culture CSS backgrounds, JSON-LD) and save the
+`data/crawl/tmp/<id>.reimage.json` it writes with `crawl.py guardar`. What it cannot read (403 pages, single-page apps)
+is read from the browser: see "Where the picture is" in `navegador.md`. A picture that repeats in 3 or more events of a
+site is the venue's generic photo, not the event's: leave it out. If the source really has no pictures, say so in the `nota`.
 
 Then build again and close the run:
 
