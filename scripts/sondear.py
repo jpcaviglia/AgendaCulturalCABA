@@ -238,7 +238,11 @@ MAX_TEXTO_PAGINA, MAX_TEXTO = 12_000, 30_000
 
 
 def limpiar(t):
-    return re.sub(r"\s+", " ", html_lib.unescape(re.sub(r"<[^>]+>", " ", t or ""))).strip()
+    """Plain text: tags removed and entities decoded; twice, because some sites escape their markup ('&lt;i&gt;')."""
+    t = t or ""
+    for _ in range(2):
+        t = html_lib.unescape(re.sub(r"<[^>]*$", "", re.sub(r"<[^>]+>", " ", t)))  # also a tag cut in half at the end
+    return re.sub(r"\s+", " ", t).strip()
 
 
 def texto_linktree(html):

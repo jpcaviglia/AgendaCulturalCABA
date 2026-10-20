@@ -1616,7 +1616,7 @@
     "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
     "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento."
    ],
    "entradas": [
     "https://museomacba.org/",
@@ -1626,7 +1626,7 @@
    ],
    "comportamiento": {
     "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org.",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "ultimo": {
     "web": {
@@ -1642,6 +1642,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     },
     {
      "fecha": "2026-10-19",
@@ -10055,7 +10067,7 @@
    "direccion": "Brasil 2640",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "ultimo": {
     "web": {
@@ -10074,11 +10086,17 @@
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 3 eventos; completados con la ficha de cada evento."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
@@ -10106,7 +10124,7 @@
    "direccion": "Inclán 2661",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "ultimo": {
     "web": {
@@ -10121,7 +10139,7 @@
    ],
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana.",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 7 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 7 eventos; completados con la ficha de cada evento."
    ],
    "historial": [
     {
@@ -10129,6 +10147,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
     },
     {
      "fecha": "2026-10-19",
@@ -10543,13 +10567,13 @@
    "barrio": "Recoleta",
    "direccion": "Cordoba Av. 3271",
    "entradas": [
-    "https://felizarcoiris.com/agenda?vista=semana",
     "https://felizarcoiris.com/",
+    "https://felizarcoiris.com/agenda?vista=semana",
     "https://felizarcoiris.com/agenda"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "ultimo": {
     "web": {
@@ -10562,7 +10586,7 @@
    "notas": [
     "2026-10-15 [web] Programación semanal fija; sin fechas puntuales.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 27 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 27 eventos; completados con la ficha de cada evento."
    ],
    "enlaces_descartados": [
     {
@@ -10584,6 +10608,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 27
     },
     {
      "fecha": "2026-10-19",
@@ -11831,12 +11861,13 @@
    "barrio": "San Nicolas",
    "direccion": "Sarmiento 151",
    "entradas": [
+    "https://palaciolibertad.gob.ar/",
     "https://palaciolibertad.gob.ar/agenda/",
     "https://palaciolibertad.gob.ar/visitas-guiadas/"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "ultimo": {
     "web": {
@@ -11849,7 +11880,7 @@
    "bio_probada": "2026-10-15",
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 47 eventos en la ventana.",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 44 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 44 eventos; completados con la ficha de cada evento."
    ],
    "historial": [
     {
@@ -11857,6 +11888,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 47
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 44
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 44
     },
     {
      "fecha": "2026-10-19",
@@ -12374,13 +12417,13 @@
     "2026-10-14 [revisión anterior: caido] El sitio no carga.",
     "2026-10-15 [web] Leído sin navegador desde la API de The Events Calendar: 6 eventos en la ventana.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/scaladesantelmo",
-    "2026-10-19 [web] Leído sin navegador desde la API de The Events Calendar: 9 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 9 eventos; completados con la ficha de cada evento."
    ],
    "entradas": [
     "https://lascala.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "historial": [
     {
@@ -12388,6 +12431,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     },
     {
      "fecha": "2026-10-19",
@@ -14594,7 +14643,7 @@
    "direccion": "Triunvirato Av. 4444",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora",
     "cookies": "barra de accesibilidad, sin aviso"
    },
    "ultimo": {
@@ -14612,7 +14661,7 @@
    "notas": [
     "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 10 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento."
    ],
    "enlaces_descartados": [
     {
@@ -14640,6 +14689,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     },
     {
      "fecha": "2026-10-19",
@@ -14845,12 +14900,12 @@
     "https://cuerdamecanica.com/cartelera/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "notas": [
     "2026-10-15 [web] Cartelera completa en /cartelera/.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica",
-    "2026-10-19 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento."
    ],
    "enlaces_descartados": [
     {
@@ -14884,6 +14939,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     },
     {
      "fecha": "2026-10-19",
@@ -17167,7 +17228,7 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.espaciomemoria.ar/",
     "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana.",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento."
    ],
    "id": "museo-sitio-de-memoria-esma",
    "entradas": [
@@ -17175,7 +17236,7 @@
     "https://www.espaciomemoria.ar/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
    },
    "enlaces_descartados": [
     {
@@ -17208,6 +17269,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
@@ -17503,16 +17570,16 @@
    "notas": [
     "2026-10-14: listado semanal de ferias de CABA con días y direcciones",
     "2026-10-15 [web] Listado semanal de ferias artesanales de CABA con fechas; cada tarjeta duplicada en el DOM.",
-    "2026-10-19 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
+    "2026-10-19 [web] Leído sin navegador: 8 eventos; completados con la ficha de cada evento."
    ],
    "entradas": [
+    "https://www.vamosferia.com/ferias",
     "https://www.vamosferia.com/feria/oficial-f91d839f-6b9a-4d6c-8b51-91aa82b0557d-22102026",
     "https://www.vamosferia.com/feria/oficial-2da82904-6b32-439f-83c1-d7b33d7b87d1-22102026",
-    "https://www.vamosferia.com/feria/feria-de-manualidades-y-artesanias-de-la-plazoleta-joaquin-sanchez-23102026",
-    "https://www.vamosferia.com/ferias"
+    "https://www.vamosferia.com/feria/feria-de-manualidades-y-artesanias-de-la-plazoleta-joaquin-sanchez-23102026"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
+    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora",
     "copiar": "datos pasados por portapapeles"
    },
    "enlaces_descartados": [
@@ -17543,6 +17610,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 30
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
     },
     {
      "fecha": "2026-10-19",
