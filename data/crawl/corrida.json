@@ -1,7 +1,7 @@
 {
  "id": "2026-10-19",
  "inicio": "2026-10-19 22:01",
- "fin": null,
+ "fin": "2026-10-20 16:20",
  "ventana": {
   "desde": "2026-10-19",
   "hasta": "2026-11-02"
@@ -1023,9 +1023,12 @@
   "sexto-cultural|instagram": "pospuesto",
   "sociedad-luz|instagram": "pospuesto",
   "tempo-escuela-de-musica-y-artes|instagram": "pospuesto",
-  "tierra-violeta|instagram": "pospuesto"
+  "tierra-violeta|instagram": "pospuesto",
+  "centro-cultural-de-la-cooperacion-floreal-gorini|web": "con_eventos",
+  "saleplan-agenda-de-ciudad-de-buenos-aires|web": "con_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 4580,
- "motivo_pospuesto": "cupo diario de páginas agotado"
+ "eventos": 4931,
+ "motivo_pospuesto": "cupo diario de páginas agotado",
+ "fin_ok": false
 }

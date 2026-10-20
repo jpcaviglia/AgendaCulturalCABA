@@ -410,7 +410,8 @@
    "notas": [
     "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
     "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo.",
-    "2026-10-15 [web] scripts/saleplan.py: 1655 tarjetas de CABA en la ventana, 992 ya cubiertas por otras fuentes, 663 guardadas sin lugar."
+    "2026-10-15 [web] scripts/saleplan.py: 1655 tarjetas de CABA en la ventana, 992 ya cubiertas por otras fuentes, 663 guardadas sin lugar.",
+    "2026-10-20 [web] scripts/saleplan.py: 1657 tarjetas de CABA en la ventana, 1334 ya cubiertas por otras fuentes, 323 guardadas sin lugar."
    ],
    "entradas": [
     "https://saleplan.ar/buenos-aires/eventos?page=1",
@@ -426,9 +427,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 662,
+     "eventos": 323,
      "paginas": 81
     }
    },
@@ -450,6 +451,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 662
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 323
     }
    ],
    "lugar_opcional": true
@@ -14763,26 +14770,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 16,
-     "paginas": 2
+     "eventos": 14,
+     "paginas": 16
     }
    },
    "comportamiento": {
-    "extraccion": "/cartelera-mes lista todo el mes con título, disciplina, primera fecha y hora y 'Funciones ...'; las pestañas de teatro, música y danza son la misma lista filtrada",
+    "extraccion": "HTML por HTTP: /cartelera-mes lista cada obra con imagen, título, fecha de la primera función y 'Funciones ...'; la ficha /eventos/<slug> trae 'Entrada: $'; no trae fecha de cierre (se cargó hasta fin de mes)",
     "expo": "las exposiciones están en la portada (agendahoy), no en la cartelera"
    },
    "notas": [
-    "2026-10-15 [web] Cartelera mensual en /cartelera-mes. Exposiciones aparte en la portada, sin fechas de cierre en el listado."
+    "2026-10-15 [web] Cartelera mensual en /cartelera-mes. Exposiciones aparte en la portada, sin fechas de cierre en el listado.",
+    "2026-10-20 [web] 2026-10-20: 13 obras/conciertos; las funciones semanales se cargaron hasta el 31/10 (la cartelera es mensual y no publica fecha de cierre). Exposiciones de la portada no relevadas."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://www.centrocultural.coop/agenda",
-     "texto": "Agenda",
-     "motivo": "misma programación mensual que la cartelera",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://www.centrocultural.coop/agenda-mes/1421/2026-10",
      "texto": "Teatro en octubre",
@@ -14806,6 +14808,12 @@
      "texto": "Biblioteca",
      "motivo": "biblioteca",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.centrocultural.coop/agenda",
+     "texto": "Agenda",
+     "motivo": "misma programación mensual que la cartelera",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -14814,6 +14822,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 16
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 14
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 14
     }
    ],
    "bio_probada": "2026-10-15"
