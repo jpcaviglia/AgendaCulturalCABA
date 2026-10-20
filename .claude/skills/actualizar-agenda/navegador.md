@@ -161,7 +161,9 @@ sometimes a closed account.
 large body freezes the call). Long loops (clicking "Ver más" 80 times) go in an async IIFE that sets `window.__done`;
 poll it with calls under 40 s.
 
-Gotchas: start the receiver with a Windows path (`C:/...`), not the Git Bash `/c/...` one: Python cannot open it, the
+Gotchas: start the receiver as its own background command (`run_in_background`), not inside a `( ... &)` subshell,
+and give it a few seconds before the first POST (the file shows up late); a test `curl -X POST` overwrites what the
+page already sent. Start the receiver with a Windows path (`C:/...`), not the Git Bash `/c/...` one: Python cannot open it, the
 handler raises, the browser's request hangs and, after six of them, Chrome stops connecting to that port (use a new
 port). If the POST still does not arrive, put the text in a `<pre>` inside `<article>` and read it with
 `get_page_text` (the `javascript_tool` result is cut at ~1,000 characters).
@@ -188,6 +190,12 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   show links to `/sitio-evento/<slug>` and on a `/productora/` page to `/eventos/<slug>`: from the same tab,
   `fetch` those URLs and read the prices in the text (`$ 6000`, the lowest is the "Desde"). The same text
   gives the day, so there is no need to open each page by hand.
+  - Passline's full listing (`home.passline.com/eventos.php`): the button `#callEvents` ("VER MÁS EVENTOS") is
+    a `<buttom>` that the generic "ver más" matcher does not find; click it from a JS loop (~3 clicks to pass the
+    window, 1,181 cards). Each card is `div.row > div.col` with `a[href*="/eventos/"]` (desktop and mobile links
+    repeat: dedupe by href). `fetch` of `www.passline.com/eventos/<slug>` works from the `home.passline.com` tab
+    (4-5 in parallel, about 1 per second): `.donde` has venue, address and `C.A.B.A.`, and the lowest `$ N` in the
+    text is the "Desde". The card title is cut with "...": `og:title` on the page has the full one.
   - Venti: `venti.com.ar/organizadores/<slug>` ("Próximos eventos", with date and hour).
   - Livepass `livepass.com.ar/taxons/<venue>`, Cafaccess `cafaccess.com/productora/<slug>` (date, title, price),
     Alpogo `alpogo.com/buscar?busqueda=<venue>`, Tickethoy (`bue.tickethoy.com` home lists all venues: filter
@@ -209,6 +217,17 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   next one if the 14-day window crosses into it.
 - **"Actuales / Próximas / Anteriores" tabs**: open "Actuales" and "Próximas"; "Anteriores" can be discarded
   with the reason "archivo de muestras pasadas".
+
+- **Month calendars where each day is clicked** (Centro Cultural Borges `/agenda`): loop over the day cells
+  (`div.grid.grid-cols-7.gap-1 > *`), click each, wait ~800 ms and read `main.innerText` from the
+  `MAR 20 OCT` heading on; one JS loop of ~10 s reads the whole window. The events have no link of their own:
+  save the site with `"sin_fichas"` in `comportamiento`.
+- **Pages `get_page_text` cannot read** (it returns only the footer or "no text"): wait ~10 s and read
+  `document.body.innerText` with JS; for a long result, write it into `<article><pre>` and call `get_page_text`,
+  which is not cut at ~1,000 characters.
+- **Auto-mode classifier**: it can deny a `javascript_tool` call that runs the toolkit imported from jsDelivr
+  ("Code from External"), even with an allow rule for the tool. Pasting `navegador.js` inline or writing small
+  snippets of your own works; ask the user before choosing, as the skill says for CSP.
 
 ## If you change `navegador.js`
 

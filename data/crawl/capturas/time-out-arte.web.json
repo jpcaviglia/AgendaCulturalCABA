@@ -1,0 +1,30 @@
+{
+ "id": "time-out-arte",
+ "canal": "web",
+ "fuente": "Time Out: arte",
+ "tipo": "descubrimiento",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura"
+ ],
+ "eventos": [
+  {
+   "titulo": "Pinta BAphoto",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "categoria": "Feria",
+   "precio": "",
+   "url": "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura",
+   "descripcion": "Feria de fotografía Pinta BAphoto en La Rural, del 22 al 25 de octubre.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "centro-cultural-coreano",
+ "canal": "web",
+ "fuente": "CENTRO CULTURAL COREANO",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://argentina.korean-culture.org/es",
+  "https://argentina.korean-culture.org/es/464/board/191/list",
+  "https://argentina.korean-culture.org/es/464/board/191/read/148320",
+  "https://argentina.korean-culture.org/es/791/board/481/list",
+  "https://argentina.korean-culture.org/es/1877/schedule/list",
+  "https://argentina.korean-culture.org/es/466/board/193/list"
+ ],
+ "eventos": [
+  {
+   "titulo": "Visita guiada por el Centro Cultural Coreano",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "11:00",
+   "horarios": "Jueves 29 de octubre, 11 h",
+   "lugar": "CENTRO CULTURAL COREANO",
+   "barrio": "Retiro",
+   "direccion": "Maipú 972",
+   "categoria": "Visita guiada",
+   "precio": "Gratis",
+   "url": "https://argentina.korean-culture.org/es/464/board/191/read/148320",
+   "descripcion": "Recorrido por el centro para conocer la música, la arquitectura, la gastronomía, la vestimenta y el arte coreanos. Cupos limitados: hay que inscribirse y recibir confirmación por mail.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Ciclo de cine coreano: Hijo mayor (Cecilia Kang)",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "",
+   "horarios": "",
+   "lugar": "CENTRO CULTURAL COREANO",
+   "barrio": "Retiro",
+   "direccion": "Maipú 972",
+   "categoria": "Cine",
+   "precio": "Gratis",
+   "url": "https://argentina.korean-culture.org/es/466/board/193/list",
+   "descripcion": "Una familia coreana busca nuevas posibilidades en Argentina; película de Cecilia Kang (118 min). Entrada gratuita con reserva por formulario.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

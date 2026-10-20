@@ -1,0 +1,70 @@
+{
+ "id": "british-art-centre",
+ "canal": "web",
+ "fuente": "BRITISH ART CENTRE",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.aaci.org.ar/bac/",
+  "https://www.aaci.org.ar/categorias-bac/events/",
+  "https://www.aaci.org.ar/categorias-bac/workshops/",
+  "https://www.aaci.org.ar/bac/choir-nights-4th-edition/",
+  "https://www.aaci.org.ar/bac/rebecca-winckworth/",
+  "https://www.aaci.org.ar/bac/seminario-de-clown/",
+  "https://www.aaci.org.ar/bac/coro-bac/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Choir Nights 4th edition",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-20",
+   "hora": "19:00",
+   "horarios": "Lunes 19 y martes 20 de octubre, 19:00 hs (más 2 fechas en el listado)",
+   "lugar": "BRITISH ART CENTRE",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1333",
+   "categoria": "Música",
+   "precio": "Entradas a contribución",
+   "url": "https://www.aaci.org.ar/bac/choir-nights-4th-edition/",
+   "descripcion": "Cuarta edición de las Choir Nights. Entradas a contribución para el programa de inglés de AACI en el barrio 31; se pagan en puerta.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Rebecca Winckworth",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "BRITISH ART CENTRE",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1333",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.aaci.org.ar/bac/rebecca-winckworth/",
+   "descripcion": "Concierto de Rebecca Winckworth en el British Arts Centre.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Seminario de Clown",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-19",
+   "hora": "18:30",
+   "horarios": "Jueves de 18:30 hs, del 8 de octubre al 19 de noviembre",
+   "lugar": "BRITISH ART CENTRE",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1333",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://www.aaci.org.ar/bac/seminario-de-clown/",
+   "descripcion": "Seminario de clown dirigido por Mercedes Arguimbau y Marilyn Petito. Consultas por mail.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}
