@@ -471,6 +471,8 @@ main { flex: 1; padding-top: 32px; padding-bottom: 56px; }
   font-variant-numeric: tabular-nums;
   padding-top: 2px;
 }
+.fila .hora span { display: block; }
+.fila .hora.varias { font-size: 1.25rem; }
 .fila .hora.sin {
   font-family: var(--mono);
   font-stretch: 100%;

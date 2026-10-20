@@ -15,7 +15,7 @@
   };
 
   const normalizar = (texto) =>
-    (texto || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
   const fechaIso = (iso) => {
     const [a, m, d] = iso.split("-").map(Number);
@@ -88,6 +88,53 @@
     const propia = [...(e.hora || "").matchAll(HORA)][0];
     if (propia) return `${propia[1].padStart(2, "0")}:${propia[2]}`;
     return horas.size === 1 ? [...horas][0] : "";
+  }
+
+  // Horas de un evento el día `iso`, leídas de "horarios" ("Lun 19:00 y 21:30 (hasta el 26/10) · Sáb y Dom 16:00",
+  // "vie 20:30 | dom 19:30"): cada tramo es días + horas + un rango de fechas opcional entre paréntesis.
+  // Si no se puede leer el día, se usa la hora única del evento (horaPrincipal). Devuelve ["19:00", "21:30"].
+  const SEMANA = [1, 2, 3, 4, 5, 6, 0]; // lun..dom, como getDay()
+  const sinTildes = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const CODIGO_DIA = { lun: 1, mar: 2, mie: 3, jue: 4, vie: 5, sab: 6, dom: 0 };
+  const TRAMO = /((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*|\s*\|\s*)?)+)\s*(?:de\s+|a las\s+)?((?:\b\d{1,2}:\d{2}\b(?:\s*(?:h|hs)\b)?(?:\s*(?:y|,|\|)\s*)?)+)(?:\s*\(([^)]*)\))?/gi;
+  function diasDelTramo(txt) {
+    const marcas = [...sinTildes(txt).matchAll(/\b(lun|mar|mie|jue|vie|sab|dom)[a-z]*/g)];
+    const dias = new Set();
+    marcas.forEach((m, i) => {
+      const dia = CODIGO_DIA[m[1]];
+      const sig = marcas[i + 1];
+      const entre = sig ? sinTildes(txt).slice(m.index + m[0].length, sig.index).trim() : "";
+      if (sig && entre === "a") {
+        for (let k = SEMANA.indexOf(dia); ; k = (k + 1) % 7) {
+          dias.add(SEMANA[k]);
+          if (SEMANA[k] === CODIGO_DIA[sig[1]]) break;
+        }
+      } else dias.add(dia);
+    });
+    return dias;
+  }
+  function rangoVale(rango, iso) {
+    if (!rango) return true;
+    const r = sinTildes(rango);
+    const [, mes, dia] = iso.split("-").map(Number);
+    const md = mes * 100 + dia;
+    let m;
+    if ((m = r.match(/del (\d+)\/(\d+) al (\d+)\/(\d+)/))) return md >= +m[2] * 100 + +m[1] && md <= +m[4] * 100 + +m[3];
+    if ((m = r.match(/hasta (?:el )?(\d+)\/(\d+)/))) return md <= +m[2] * 100 + +m[1];
+    if ((m = r.match(/^(?:el )?(\d+)\/(\d+)$/))) return md === +m[2] * 100 + +m[1];
+    if (/\bhoy\b/.test(r)) return iso === hoyIso();
+    return true;
+  }
+  function horasDelDia(e, iso) {
+    const dia = fechaLocal(iso).getDay();
+    const horas = new Set();
+    for (const [, dias, horasTxt, rango] of (e.horarios || "").matchAll(TRAMO)) {
+      if (!diasDelTramo(dias).has(dia) || !rangoVale(rango, iso)) continue;
+      for (const [, h, m] of horasTxt.matchAll(/\b(\d{1,2}):(\d{2})\b/g)) horas.add(`${h.padStart(2, "0")}:${m}`);
+    }
+    if (horas.size) return [...horas].sort();
+    const unica = horaPrincipal(e);
+    return unica ? [unica] : [];
   }
 
   // ---- Favoritos (en este navegador) ----
@@ -198,7 +245,7 @@
 
   // Una fila de la agenda. En la lista por día la fecha ya está en el título del día, así que solo se repite
   // cuando el evento dura varios días ("enCartel": hasta cuándo); fuera de esa lista (Favoritos) siempre va.
-  function filaEvento(e, { aviso = "", conFecha = false, enCartel = false } = {}) {
+  function filaEvento(e, { aviso = "", conFecha = false, enCartel = false, dia = "" } = {}) {
     const categoria = e.categoria
       ? crear("p", { class: "categoria", style: `--h:${tonoCategoria(e.categoria)}` }, [texto(e.categoria)])
       : null;
@@ -238,7 +285,9 @@
     ]);
 
     const masInfo = e.url || e.descripcion ? boton("+ info", "boton", () => abrirPanel(e, fechas)) : null;
-    const hora = horaPrincipal(e);
+    // En la lista por día, las horas de ese día; fuera de ella (Favoritos), la hora única del evento.
+    const horas = dia ? horasDelDia(e, dia) : [horaPrincipal(e)].filter(Boolean);
+    const hora = horas.length ? horas.slice(0, 3) : "";
     // La imagen es un enlace al sitio del evento (hotlink): si no carga, la fila se acomoda sin ella.
     const imagen = e.imagen ? crear("img", { class: "miniatura", src: e.imagen, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer" }) : null;
     if (imagen) {
@@ -249,7 +298,8 @@
       });
     }
     return crear("li", { class: imagen ? "fila con-imagen" : "fila" }, [
-      crear("div", { class: hora ? "hora" : "hora sin" }, [texto(hora || (e.horarios ? "Ver horarios" : "Sin hora"))]),
+      crear("div", { class: hora ? (hora.length > 1 ? "hora varias" : "hora") : "hora sin" },
+        hora ? hora.map((h) => crear("span", {}, [texto(h)])) : [texto(e.horarios ? "Ver horarios" : "Sin hora")]),
       imagen,
       crear("div", { class: "cuerpo" }, [
         categoria,
@@ -453,8 +503,8 @@
   }
 
   // Orden dentro del día: por hora; lo de la madrugada (hasta las 6) va al final de la noche, no al principio.
-  const minutosOrden = (e) => {
-    const h = horaPrincipal(e);
+  const minutosOrden = (e, dia) => {
+    const h = dia ? horasDelDia(e, dia)[0] : horaPrincipal(e);
     const m = h ? Number(h.slice(0, 2)) * 60 + Number(h.slice(3)) : horasDe(e).length ? Math.min(...horasDe(e)) : null;
     if (m === null) return 9999;
     return m < 6 * 60 ? m + 24 * 60 : m;
@@ -476,7 +526,7 @@
     }
     const dias = [...porDia.keys()].sort().map((clave) => ({
       clave,
-      eventos: porDia.get(clave).sort((a, b) => minutosOrden(a) - minutosOrden(b) || a.titulo.localeCompare(b.titulo, "es")),
+      eventos: porDia.get(clave).sort((a, b) => minutosOrden(a, clave) - minutosOrden(b, clave) || a.titulo.localeCompare(b.titulo, "es")),
     }));
     if (cartel.length) {
       cartel.sort((a, b) => (a.fecha_fin || "9999").localeCompare(b.fecha_fin || "9999") || a.titulo.localeCompare(b.titulo, "es"));
@@ -507,7 +557,7 @@
     cabecera.push(crear("span", { class: "total" }, [texto(actividades(g.eventos.length))]));
     return crear("section", { class: g.cartel ? "dia en-cartel" : "dia" }, [
       crear("h2", { class: "dia-cab" }, cabecera),
-      crear("ul", { class: "filas" }, visibles.map((e) => filaEvento(e, { enCartel: g.cartel }))),
+      crear("ul", { class: "filas" }, visibles.map((e) => filaEvento(e, { enCartel: g.cartel, dia: g.cartel ? hoy : g.clave }))),
     ]);
   }
 
