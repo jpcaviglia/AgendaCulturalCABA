@@ -425,6 +425,9 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
   published on Alternativa Teatral, which is crawled as an aggregator: Teatro del Pueblo, Cervantes, Picadero,
   Timbre 4, UPB, Caras y Caretas, Fray Mocho, Cultura Faro, Eureka, IMPA, El Deseo and El Método Kairos). A theatre
   found later whose notes say its programming is on Alternativa Teatral is not added to the queue either.
+  Also marked on 2026-10-20, at the user's request: 44 sites whose every channel (website and Instagram) was
+  crawled in the open run and had no events (`sin_eventos`, `no_carga`, `sin_agenda`, `no_cultural`,
+  `descartado` or `dominio_caido`).
 
 ## 5. Result format
 
