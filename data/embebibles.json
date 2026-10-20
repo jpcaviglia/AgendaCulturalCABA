@@ -89,6 +89,12 @@
   "fecha": "2026-10-15",
   "url": "https://www.bellasartes.gob.ar/exhibiciones/"
  },
+ "bienestarfest.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-19",
+  "url": "https://bienestarfest.com.ar/"
+ },
  "brandon.org.ar": {
   "ok": true,
   "motivo": "",
@@ -934,6 +940,12 @@
   "motivo": "",
   "fecha": "2026-10-15",
   "url": "https://torquatotasso.com.ar/"
+ },
+ "tuentrada.com": {
+  "ok": false,
+  "motivo": "X-Frame-Options sameorigin",
+  "fecha": "2026-10-19",
+  "url": "https://tuentrada.com/axel-tgr?utm_source=perfit&utm_medium=email&utm_campaign=Axel%20en%20el%20Rex"
  },
  "turismo.buenosaires.gob.ar": {
   "ok": false,

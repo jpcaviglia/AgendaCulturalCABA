@@ -11,10 +11,11 @@
    "origen": "fuentes.json (lista anterior de agregadores)",
    "notas": [
     "2026-10-14: Accesible. Incluye 112 actividades con fecha de inicio, horario, precio, lugar y enlace al sitio del organizador.",
-    "2026-10-14 [web] 112 actividades; 110 con lugar y dentro de la ventana."
+    "2026-10-14 [web] 112 actividades; 110 con lugar y dentro de la ventana.",
+    "2026-10-19 [web] 2026-10-19: 115 actividades, 112 con lugar cargadas (3 sin lugar descartadas), leídas por HTTP."
    ],
    "comportamiento": {
-    "extraccion": "Fragmento turismo de navegador.md: 112 actividades; el arreglo no trae fecha_fin.",
+    "extraccion": "El arreglo [{\"orden\"... está en el HTML y se lee por HTTP con sondear.pedir (sin navegador); mismo resultado que turismo()",
     "sin_fecha_fin": "Turismo BA solo publica fecha de inicio: las actividades que ya empezaron van con vigente_sin_fin: true"
    },
    "entradas": [
@@ -22,9 +23,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 110,
+     "eventos": 112,
      "paginas": 1
     }
    },
@@ -34,6 +35,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 110
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 112
     }
    ]
   },
@@ -5232,9 +5239,29 @@
    "barrio": "Caballito",
    "direccion": "Puan 360",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: @gops.ba es una cuenta común a ~14 centros; el grid trae mayormente crónicas pasadas. Ciclo de lectura Flores (vie 30/10) sin sede ni hora en el post, no cargado."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "cuenta_compartida": "@gops.ba publica por todos los centros culturales de barrio (cada post nombra el centro y la dirección); el lugar real está en el texto del post"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-sureda",
@@ -8736,9 +8763,27 @@
    "barrio": "Palermo",
    "direccion": "Soler 3929",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin posts propios en el grid compartido de @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-thames",
@@ -15220,14 +15265,15 @@
     "https://ra.co/events/ar/buenosaires"
    ],
    "notas": [
-    "2026-10-14 [web] 29 eventos en la ventana; 25 en CABA. Clubes que faltan en la lista: Crobar, Blow, Under Club, La Nube, Avant Garten, The Sub, TCQ, Dune Park, Blue Velvet, Kinzen Tea House (pendiente sumarlos)."
+    "2026-10-14 [web] 29 eventos en la ventana; 25 en CABA. Clubes que faltan en la lista: Crobar, Blow, Under Club, La Nube, Avant Garten, The Sub, TCQ, Dune Park, Blue Velvet, Kinzen Tea House (pendiente sumarlos).",
+    "2026-10-19 [web] 2026-10-19: API graphql area 395, 29 eventos en la ventana; 24 en CABA cargados (sin precio; excluidos Ezeiza, La Plata y HOT HALLOWEEN sin ficha). Clubes a sumar: Crobar, Blow, Under Club, The Sub, Dune Park, AMK Club, Casa Futuro, La Greco."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 25,
-     "paginas": 1
+     "eventos": 24,
+     "paginas": 2
     }
    },
    "historial": [
@@ -15236,6 +15282,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 25
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 24
     }
    ]
   },
