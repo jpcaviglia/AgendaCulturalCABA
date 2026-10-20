@@ -141,6 +141,9 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   one-off (Niceto Club: the venue's `/agenda/` HTML has day sections and cards, the price is on venti.live);
 - `sondear.pedir` can decode a non-UTF-8 page (`centrocultural.coop`) with `�` in accents: fix the titles by hand before
   saving (`guardar` stores them as they are).
+- A calendar app whose cards have no links (Centro Cultural Borges: clicking a card goes to `/evento/<id>`) loads its data from a
+  JSON API: read `performance.getEntriesByType('resource')` after clicking (print the names with `[?=&]` replaced), then request the API over
+  HTTP with `Accept: application/json` and a `Referer` header. It gives every event's id, so each event links to its own page.
 - a Venti organizer page (`venti.com.ar/organizadores/<slug>`, the `Eventos` link of Under Club) is empty over HTTP: open
   it in the browser, read it with `get_page_text` and `fetch()` each event page from there (JSON-LD `offers`, `image`);
 - the Ministry of Culture museum platform (`museo<x>.cultura.gob.ar`: Rojas, Mitre, Sarmiento, Malvinas, Histórico
