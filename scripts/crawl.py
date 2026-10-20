@@ -15,6 +15,7 @@ Usage:
     python scripts/crawl.py estado                # run progress and Instagram quota
     python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report
     python scripts/crawl.py herramientas [llamada]   # the line that loads navegador.js into the tab
+    python scripts/crawl.py sin-imagen            # venues with 4+ published events and no picture in any (data/eventos.json)
     python scripts/crawl.py servir                # serves navegador.js on 127.0.0.1:8791 (leave it running in the
                                                   # background); `herramientas` then prints a local import line
                                                   # instead of the jsDelivr one, which the browser tool's
@@ -166,6 +167,22 @@ def linea_herramientas(llamada="preparar()"):
 
 def cmd_herramientas(args):
     print(linea_herramientas(args[0] if args else "preparar()"))
+
+
+def cmd_sin_imagen(args):
+    """Venues whose published events (data/eventos.json) have 4 or more events and none with a picture."""
+    doc = leer_json(DATOS / "eventos.json", {}) or {}
+    eventos = doc.get("eventos", []) if isinstance(doc, dict) else doc
+    por = {}
+    for e in eventos:
+        n = por.setdefault(e.get("lugar") or "?", [0, 0])
+        n[0] += 1
+        n[1] += bool(e.get("imagen"))
+    sin = sorted(((k, v[0]) for k, v in por.items() if v[0] >= 4 and not v[1]), key=lambda x: -x[1])
+    con = sum(v[1] for v in por.values())
+    print(f"{con} de {len(eventos)} eventos con imagen. Lugares con 4 o más eventos y ninguna imagen ({len(sin)}):")
+    for k, n in sin:
+        print(f"  {n:3d}  {k}")
 
 
 def cmd_servir(args):
@@ -628,6 +645,9 @@ def validar(res, sitios):
         errores.append(f"{n} de {len(eventos)} eventos enlazan al listado {url} y no a su propia página. Poner en 'url' "
                        "la ficha de cada evento (el enlace de su tarjeta), o, si la fuente no tiene una página por "
                        "evento, explicarlo una vez en comportamiento: {\"sin_fichas\": \"<motivo>\"}")
+    if canal == "web" and len(eventos) >= 4 and not any(e["imagen"] for e in eventos):
+        avisos.append(f"ningún evento de {len(eventos)} trae 'imagen': buscar la foto en la ficha de cada evento (og:image, "
+                      "JSON-LD, el API de la plataforma) antes de seguir; si la fuente no tiene fotos, decirlo en la 'nota'")
     if estado == "con_eventos" and res.get("eventos") and not eventos and not errores:
         avisos.append("todos los eventos ya terminaron: se registra como sin_eventos")
         res["estado"] = "sin_eventos"
@@ -1022,7 +1042,7 @@ def cmd_cerrar(args):
 
 COMANDOS = {"iniciar": cmd_iniciar, "siguiente": cmd_siguiente, "ver": cmd_ver, "guardar": cmd_guardar, "ig-vistos": cmd_ig_vistos,
             "estado": cmd_estado, "cerrar": cmd_cerrar, "herramientas": cmd_herramientas,
-            "servir": cmd_servir}
+            "servir": cmd_servir, "sin-imagen": cmd_sin_imagen}
 
 
 def main():

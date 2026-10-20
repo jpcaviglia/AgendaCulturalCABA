@@ -486,9 +486,11 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   event is online, which the listing does not show. Only if the source has no page per event (a PDF, a
   Linktree, an article listing several shows, a ticketing page without links per show), say so once in
   `comportamiento`: `"sin_fichas": "<reason>"`. It is saved for the site and the check is not applied again.
-- `imagen` (optional): absolute https URL of the event's picture, shown next to it on the website (it is linked,
+- `imagen`: absolute https URL of the event's picture, shown next to it on the website (it is linked,
   not downloaded). Copy it from `bloques()` (the card's picture), `jsonld()` or `esperar()` (`og:image`), never
-  invent it. Leave it empty if the source has no picture of its own: not the venue's logo, a generic banner or an
+  invent it. Look for it on every web result: if the page is a JavaScript app, find the platform's JSON API in
+  `performance.getEntriesByType('resource')` (it often has `poster`, `image` or `og:image`). `guardar` warns when a web result
+  with 4 or more events has none. Leave it empty only if the source has no picture of its own: not the venue's logo, a generic banner or an
   icon. Instagram post pictures are not used (their URLs expire). `guardar` ignores any that is not https.
 - `vigente_sin_fin: true` only when the source publishes it as current with no closing date.
 - `comportamiento`: short keys and values that help the next run (`espera_seg`, `scroll`, `ver_mas`,
@@ -555,6 +557,10 @@ python scripts/duplicados.py distintos 1 2 4    # different events (never asked 
   treat pairs whose titles share almost all their words as `iguales` and the rest as `distintos`, leaving the
   doubtful ones undecided). The decisions are saved in
   `data/crawl/duplicados.json` and hold for future runs, so the list shrinks over time.
+
+Check the pictures: `python scripts/crawl.py sin-imagen` lists the venues with 4 or more events and none with an `imagen`.
+For each one that is not an Instagram-only or PDF source, read the event pages (or the platform's API), add `imagen`
+and save the site again; if the source really has no pictures, say so in its `nota`.
 
 Then build again and close the run:
 

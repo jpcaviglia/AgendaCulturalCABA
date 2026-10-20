@@ -52,7 +52,7 @@ network do so with plain HTTP requests, at a slow pace.
   unopened or listings unscrolled, "no carga" with fewer than 3 attempts, and results where half or more of the events share one link (the
   listing page) instead of each having its own page, unless the site is marked `sin_fichas`) and a record of what was
   learned, including the discarded links so they are not reopened. `crawl.py herramientas` prints the line
-  that loads `.claude/skills/actualizar-agenda/navegador.js` into the tab. `crawl.py servir` (left running
+  that loads `.claude/skills/actualizar-agenda/navegador.js` into the tab. `crawl.py sin-imagen` lists the venues whose published events have no picture. `crawl.py servir` (left running
   in the background) serves that file from the working tree on `127.0.0.1:8791`, and `herramientas` then prints
   a local import; without it the line uses jsDelivr, pinned to the last pushed commit of the file, which the
   browser tool's auto-mode classifier may deny as external code.
