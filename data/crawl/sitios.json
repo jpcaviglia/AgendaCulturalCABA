@@ -4499,7 +4499,7 @@
    "direccion": "Republica Bolivariana De Venezuela 2255",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -4507,26 +4507,41 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Espacio del sindicato ATSA (Saavedra 166); solo talleres semanales en la web, la cartelera se comunica por redes."
+    "2026-10-15 [web] Espacio del sindicato ATSA (Saavedra 166); solo talleres semanales en la web, la cartelera se comunica por redes.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza pero /complejo-cultural/ no trae contenido"
+   },
    "enlaces_descartados": [
-    {
-     "url": "https://www.atsa.org.ar/voces-de-la-sanidad/",
-     "texto": "Voces de la Sanidad",
-     "motivo": "programa de radio y medios del sindicato",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://www.atsa.org.ar/sanidad-solidaria/",
      "texto": "Sanidad solidaria",
      "motivo": "acción solidaria del sindicato",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.atsa.org.ar/voces-de-la-sanidad/",
+     "texto": "Voces de Sanidad",
+     "motivo": "medio de comunicación del sindicato",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.atsa.org.ar/casa-celeste-y-blanca/",
+     "texto": "Casa Celeste y Blanca",
+     "motivo": "sede social del sindicato",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -4583,15 +4598,18 @@
    "direccion": "Uriburu Jose E., Pres. 763",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 3
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 6
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza: la portada lista las entradas de agenda con una línea de fecha; cada ficha trae día, hora y sinopsis (sin precio ni og:image en el texto)"
+   },
    "notas": [
-    "2026-10-15 [web] Web con novedades desactualizadas; revisar redes. Función 'Olga Poblete' de los sábados de octubre sin año confirmado."
+    "2026-10-15 [web] Web con novedades desactualizadas; revisar redes. Función 'Olga Poblete' de los sábados de octubre sin año confirmado.",
+    "2026-10-20 [web] 2026-10-20: Troilo Interactivo (12 y 19/11) y el seminario del 21/11 quedan fuera de la ventana. Precios no relevados (entradas por mail o ticketera)."
    ],
    "enlaces_descartados": [
     {
@@ -4611,6 +4629,18 @@
      "texto": "Música",
      "motivo": "misma lista de novedades filtrada",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/residencias-de-creacion-la-sabato/",
+     "texto": "Residencias de Creación",
+     "motivo": "convocatoria, no evento",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/",
+     "texto": "Buzón de proyectos Milo Lockett",
+     "motivo": "convocatoria de proyectos",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -4619,9 +4649,18 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "entradas": [
+    "https://elsabato.economicas.uba.ar/"
+   ]
   },
   {
    "id": "el-zorzal-esquina-cultural",
@@ -5526,26 +5565,43 @@
    "direccion": "Iriarte, Gral. Av. 2165",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "dominio_caido",
+     "fecha": "2026-10-20",
+     "estado": "no_cultural",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sitio de notas/blog; sin agenda de funciones",
-    "2026-10-15 [web] El dominio ya no pertenece al circuito (blog de tours); buscar la agenda en su Instagram."
+    "2026-10-15 [web] El dominio ya no pertenece al circuito (blog de tours); buscar la agenda en su Instagram.",
+    "2026-10-20 [web] 2026-10-20: no es un espacio cultural con programación."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "blog de turismo, notas de 2025"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.ccbarracas.com.ar/free-walking-tours-en-buenos-aires/",
+     "texto": "Free Walking Tours",
+     "motivo": "oferta comercial de tours de una agencia",
+     "fecha": "2026-10-20"
+    }
+   ]
   },
   {
    "id": "espacio-cultural-del-sur",
@@ -6616,20 +6672,29 @@
    "direccion": "Rosario 242",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web; la agenda se comunica por Instagram @ccsureda."
+    "2026-10-15 [web] Sin web; la agenda se comunica por Instagram @ccsureda.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -6651,20 +6716,29 @@
    "direccion": "Campichuelo 472",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web activa; milongas, cine y talleres se anuncian por Instagram @clubpremierdecaballito."
+    "2026-10-15 [web] Sin web activa; milongas, cine y talleres se anuncian por Instagram @clubpremierdecaballito.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -6686,8 +6760,8 @@
    "direccion": "Mendez De Andes Y Fragata Pres. Sarmiento",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "no_cultural",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     },
@@ -6701,10 +6775,12 @@
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sin agenda en el sitio; usar redes",
     "2026-10-15 [web] Sala y estudio de alquiler; no publica eventos.",
-    "2026-10-15 [instagram] Espacio de alquiler de sala y estudio fotográfico con poca programación propia."
+    "2026-10-15 [instagram] Espacio de alquiler de sala y estudio fotográfico con poca programación propia.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram."
    ],
    "comportamiento": {
-    "extraccion": "perfil con poca publicación de eventos"
+    "extraccion": "perfil con poca publicación de eventos",
+    "contenido": "sala y estudio en alquiler"
    },
    "enlaces_descartados": [
     {
@@ -6725,6 +6801,12 @@
      "fecha": "2026-10-15",
      "canal": "instagram",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -7663,13 +7745,16 @@
    "barrio": "Colegiales",
    "direccion": "Alvarez Thomas Av. 487",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "solo Facebook"
+   },
    "notas": [
-    "2026-10-15 [web] La web es solo una página de Facebook que exige login; la agenda se busca en Instagram (@mamitabar)."
+    "2026-10-15 [web] La web es solo una página de Facebook que exige login; la agenda se busca en Instagram (@mamitabar).",
+    "2026-10-20 [web] 2026-10-20: solo Facebook; rastrear por Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "bloqueado",
      "eventos": 0,
      "paginas": 1
@@ -7678,6 +7763,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "bloqueado",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "bloqueado",
      "eventos": 0
@@ -8033,17 +8124,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Actividades regulares (escuelitas, talleres)",
-    "2026-10-15 [web] Espacio comunitario con actividades semanales; sin cartelera de eventos."
+    "2026-10-15 [web] Espacio comunitario con actividades semanales; sin cartelera de eventos.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; el Instagram/Facebook comunican las jornadas."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "organización barrial, sin agenda cultural"
+   },
    "enlaces_descartados": [
     {
      "url": "https://espaciofermin.com.ar/jornadas-solidarias/",
@@ -8056,6 +8150,12 @@
      "texto": "Comuna 7",
      "motivo": "información comunitaria",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espaciofermin.com.ar/",
+     "texto": "Actividades",
+     "motivo": "escuelita de fútbol y actividades solidarias, no culturales",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -8063,6 +8163,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -9869,7 +9975,7 @@
    "direccion": "Del Libertador Av. 8465",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -9877,16 +9983,13 @@
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin eventos publicados en la web; solo cursos."
+    "2026-10-15 [web] Sin eventos publicados en la web; solo cursos.",
+    "2026-10-20 [web] 2026-10-20: sin eventos; talleres anuales iniciados en abril (no se cargan)."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; la agenda está vacía; los talleres anuales figuran en la portada y /category/cursos-y-talleres/"
+   },
    "enlaces_descartados": [
-    {
-     "url": "https://ecunhi.com.ar/category/cursos-y-talleres/",
-     "texto": "Talleres",
-     "motivo": "cursos que empezaron en abril, con inscripción",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://ecunhi.com.ar/category/cursos-y-talleres/musica/",
      "texto": "Música",
@@ -9909,6 +10012,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -10972,17 +11081,20 @@
    "direccion": "Guemes 3825",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Centro cultural de Palermo con talleres y una proyección mensual (primer sábado)."
+    "2026-10-15 [web] Centro cultural de Palermo con talleres y una proyección mensual (primer sábado).",
+    "2026-10-20 [web] 2026-10-20: solo talleres regulares; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "talleres regulares sin fechas"
+   },
    "enlaces_descartados": [
     {
      "url": "https://cceldonn.github.io/eldonn/#contacto",
@@ -10996,6 +11108,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -11052,7 +11170,7 @@
    "direccion": "Godoy Cruz 2655",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -11061,22 +11179,31 @@
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Escuela; sin agenda de eventos",
     "2026-10-15 [web] Escuela de teatro musical; sin agenda en la web.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/escuelajuanrodo"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/escuelajuanrodo",
+    "2026-10-20 [web] 2026-10-20: solo oferta de talleres anuales; revisar Instagram @escuelajuanrodo por muestras."
    ],
    "comportamiento": {
-    "url": "usar https://escuelajuanrodo.com.ar sin www; con www da un error fatal de PHP"
+    "url": "usar https://escuelajuanrodo.com.ar sin www; con www da un error fatal de PHP",
+    "carga": "usar https://escuelajuanrodo.com.ar sin www (con www dio un error PHP fatal el 2026-10-20)",
+    "contenido": "escuela de teatro musical"
    },
    "enlaces_descartados": [
     {
-     "url": "https://www.escuelajuanrodo.com.ar/#contacto",
-     "texto": "Contacto",
-     "motivo": "contacto",
-     "fecha": "2026-10-15"
+     "url": "https://www.escuelajuanrodo.com.ar/",
+     "texto": "Galerías",
+     "motivo": "galerías de fotos de la escuela",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -12715,26 +12842,44 @@
    "direccion": "Austria 2156",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "no_carga",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga.",
-    "2026-10-15 [web] El sitio existe pero cierra la conexión desde este navegador; reintentar en la próxima corrida. Austria 2154, lunes a viernes de 16 a 20 h."
+    "2026-10-15 [web] El sitio existe pero cierra la conexión desde este navegador; reintentar en la próxima corrida. Austria 2154, lunes a viernes de 16 a 20 h.",
+    "2026-10-20 [web] 2026-10-20: sin agenda actual; solo cursos semanales de la biblioteca."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "carga": "https:// da certificado inválido: abrir por http:// (el navegador acepta; sondear.py falla)",
+    "extraccion": "blog; la sección Actividades es una entrada vieja"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "no_carga",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.carlossviamonte.com.ar/",
+     "texto": "CSV Radio",
+     "motivo": "radio online",
+     "fecha": "2026-10-20"
+    }
+   ]
   },
   {
    "id": "casa-nacional-del-bicentenario",
@@ -12837,19 +12982,21 @@
    "barrio": "Recoleta",
    "direccion": "Paraguay 1514",
    "comportamiento": {
-    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)"
+    "plataforma": "WordPress con The Events Calendar: probar /eventos/ y /wp-json/tribe/events/v1/events?per_page=50 (JSON en el navegador)",
+    "extraccion": "HTTP alcanza: /eventos/ y /eventos/mes/AAAA-MM/ son el calendario de The Events Calendar"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sitio sin actividad desde 2021."
+    "2026-10-15 [web] Sitio sin actividad desde 2021.",
+    "2026-10-20 [web] 2026-10-20: calendario vacío; sitio sin actualizar desde 2021."
    ],
    "enlaces_descartados": [
     {
@@ -12863,11 +13010,23 @@
      "texto": "Espacio digital",
      "motivo": "contenidos online sin fechas",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://oei.org.ar/",
+     "texto": "Muestras y exposiciones",
+     "motivo": "muestras virtuales de 2020-2021",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -13271,21 +13430,30 @@
    "direccion": "Vidal 3801",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: instagram] Agenda por newsletter Mailchimp; usar redes",
     "2026-10-15 [web] La agenda es un newsletter de Mailchimp caído; seguir Instagram @espaciogarcia.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciogarcia"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciogarcia",
+    "2026-10-20 [web] 2026-10-20: sin agenda pública; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "la agenda era un newsletter de Mailchimp roto; la programación se comunica por Instagram @espaciogarcia"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -13351,33 +13519,24 @@
    "direccion": "San Juan Av. 2651",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; la portada lista los próximos festivales"
+   },
    "notas": [
-    "2026-10-15 [web] Sin eventos vigentes; la web solo publica festivales anuales y clases regulares."
+    "2026-10-15 [web] Sin eventos vigentes; la web solo publica festivales anuales y clases regulares.",
+    "2026-10-20 [web] 2026-10-20: sin festivales próximos publicados; revisar de nuevo."
    ],
    "enlaces_descartados": [
     {
      "url": "https://www.okiren.org.ar/institucional/",
      "texto": "Sobre COA",
      "motivo": "institucional",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://www.okiren.org.ar/becas/",
-     "texto": "Becas",
-     "motivo": "becas de estudio",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://www.okiren.org.ar/okinawa/",
-     "texto": "Okinawa",
-     "motivo": "información cultural",
      "fecha": "2026-10-15"
     },
     {
@@ -13391,11 +13550,29 @@
      "texto": "Contacto",
      "motivo": "contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.okiren.org.ar/becas/",
+     "texto": "Becas",
+     "motivo": "becas, no evento",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.okiren.org.ar/okinawa/",
+     "texto": "Okinawa",
+     "motivo": "información institucional sobre Okinawa",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -14793,21 +14970,30 @@
    "direccion": "Piedras 1020",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Solo Facebook: clasicofernandez.com.ar; parece un restaurante, evaluar si corresponde",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web activa; solo Facebook (4,3 mil seguidores) y la ficha de Maps."
+    "2026-10-15 [web] Sin web activa; solo Facebook (4,3 mil seguidores) y la ficha de Maps.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -15583,7 +15769,7 @@
    "direccion": "Justo, Juan B. Av. 2261",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
@@ -15598,10 +15784,12 @@
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Entrenamiento; no es centro cultural",
     "2026-10-15 [web] Gimnasio, no es un espacio cultural.",
-    "2026-10-15 [instagram] Gimnasio/estudio de entrenamiento: no cultural."
+    "2026-10-15 [instagram] Gimnasio/estudio de entrenamiento: no cultural.",
+    "2026-10-20 [web] 2026-10-20: gimnasio, no es un espacio cultural."
    ],
    "comportamiento": {
-    "extraccion": "perfil con poca publicación de eventos"
+    "extraccion": "perfil con poca publicación de eventos",
+    "contenido": "gimnasio"
    },
    "enlaces_descartados": [
     {
@@ -15621,6 +15809,12 @@
     {
      "fecha": "2026-10-15",
      "canal": "instagram",
+     "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
      "estado": "no_cultural",
      "eventos": 0
     }
@@ -16411,17 +16605,20 @@
    "direccion": "Nogoya 3455",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "no_cultural",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Taller de arte con clases regulares en Villa del Parque; sin agenda de eventos."
+    "2026-10-15 [web] Taller de arte con clases regulares en Villa del Parque; sin agenda de eventos.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; el bloque de masterclass es de plantilla."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "sitio de una artista, sin agenda"
+   },
    "enlaces_descartados": [
     {
      "url": "https://sofigempel.com.ar/obra-disponible/",
@@ -16446,6 +16643,12 @@
      "texto": "Contacto",
      "motivo": "contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://sofigempel.com.ar/",
+     "texto": "Mi obra",
+     "motivo": "portfolio de la artista",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -16453,6 +16656,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -18051,21 +18260,30 @@
    "direccion": "Ibera 4896",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Sin canal propio encontrado",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web ni redes encontradas."
+    "2026-10-15 [web] Sin web ni redes encontradas.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -18086,20 +18304,29 @@
    "direccion": "Ibera 5257",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web activa; usar Instagram @espacio_ilda."
+    "2026-10-15 [web] Sin web activa; usar Instagram @espacio_ilda.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0

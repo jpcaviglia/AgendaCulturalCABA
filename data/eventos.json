@@ -5,8 +5,8 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 288,
-  "con_eventos": 194
+  "capturas": 308,
+  "con_eventos": 195
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -79,6 +79,7 @@
   "EL GALPON DE CATALINAS",
   "EL GALPON DE GUEVARA",
   "EL JUFRE TEATRO-BAR",
+  "EL SABATO ESPACIO CULTURAL",
   "EL ZORZAL ESQUINA CULTURAL",
   "EMERGENTE CLUB ALMAGRO",
   "ESPACIO CULTURAL FONROUGE",
@@ -3316,6 +3317,31 @@
    "lng": -58.422375,
    "embebible": true,
    "imagen": "https://vidriera.earth/fuerza-bruta-aven/e9.jpg-reduced-zdi7it"
+  },
+  {
+   "id": "15741618b78c",
+   "titulo": "Galácticos (muestra del colectivo Galácticos Itinerantes)",
+   "categoria": "Artes visuales",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
+   "barrio": "Balvanera",
+   "direccion": "Uriburu Jose E., Pres. 763",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a sábados desde las 11 h",
+   "precio": "Consultar",
+   "descripcion": "Muestra en la Sala de Exposiciones Milo Lockett: un viaje imaginario para explorar lo que la razón aún no alcanza a ver.",
+   "url": "https://elsabato.economicas.uba.ar/galacticos/",
+   "dominio": "elsabato.economicas.uba.ar",
+   "estado": "En curso",
+   "lugar_verificado": "EL SABATO ESPACIO CULTURAL",
+   "fuentes": [
+    "EL SABATO ESPACIO CULTURAL"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "e576281d6988",
@@ -24973,6 +24999,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000315022.jpg"
   },
   {
+   "id": "535eff6b05d5",
+   "titulo": "Tu, Divino Momento",
+   "categoria": "Danza",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
+   "barrio": "Balvanera",
+   "direccion": "Uriburu Jose E., Pres. 763",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de Mara Doval presentada en el marco de Subterránea, residencias de investigación en danzas de El Sábato.",
+   "url": "https://elsabato.economicas.uba.ar/tu-divino-momento/",
+   "dominio": "elsabato.economicas.uba.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "EL SABATO ESPACIO CULTURAL",
+   "fuentes": [
+    "EL SABATO ESPACIO CULTURAL"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "0c7b1c659e81",
    "titulo": "Té Con Floyd - Pink Floyd pre Dark Side",
    "categoria": "Evento",
@@ -34762,27 +34813,28 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/92/000311092.jpg"
   },
   {
-   "id": "287723e04a76",
-   "titulo": "Olga poblete - ciclo de artes circenses",
+   "id": "ad1bd4473404",
+   "titulo": "Olga Poblete: ciclo de artes circenses",
    "categoria": "Teatro",
-   "lugar": "El Sábato Espacio Cultural Económicas Uba",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
    "barrio": "Balvanera",
-   "direccion": "José Evaristo Uriburu 763",
+   "direccion": "Uriburu Jose E., Pres. 763",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-31",
    "hora": "20:00",
-   "horarios": "Sáb 20:00 (hasta el 31/10)",
+   "horarios": "Sábados 20 h (24/10 obra de clown Pampa Cyborg; 31/10 Micro Circo)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de circo en El Sábato Espacio Cultural Económicas Uba (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra103275-olga-poblete-ciclo-de-artes-circenses",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Ciclo de artes circenses inspirado en Olga Poblete y la investigación de Circa. Espectáculos para toda la familia, 60 minutos.",
+   "url": "https://elsabato.economicas.uba.ar/olga-poblete/",
+   "dominio": "elsabato.economicas.uba.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "EL SABATO ESPACIO CULTURAL",
    "fuentes": [
+    "EL SABATO ESPACIO CULTURAL",
     "Alternativa Teatral"
    ],
-   "lat": -34.600284,
-   "lng": -58.398491,
+   "lat": "",
+   "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000321487.jpg"
   },

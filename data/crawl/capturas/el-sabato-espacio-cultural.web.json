@@ -1,0 +1,69 @@
+{
+ "id": "el-sabato-espacio-cultural",
+ "canal": "web",
+ "fuente": "EL SABATO ESPACIO CULTURAL",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://elsabato.economicas.uba.ar/",
+  "https://elsabato.economicas.uba.ar/tu-divino-momento/",
+  "https://elsabato.economicas.uba.ar/olga-poblete/",
+  "https://elsabato.economicas.uba.ar/galacticos/",
+  "https://elsabato.economicas.uba.ar/troilo-interactivo/",
+  "https://elsabato.economicas.uba.ar/inscripcion-a-los-talleres-de-cultura/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Tu, Divino Momento",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://elsabato.economicas.uba.ar/tu-divino-momento/",
+   "descripcion": "Obra de Mara Doval presentada en el marco de Subterránea, residencias de investigación en danzas de El Sábato.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Olga Poblete: ciclo de artes circenses",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "Sábados 20 h (24/10 obra de clown Pampa Cyborg; 31/10 Micro Circo)",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Circo",
+   "precio": "",
+   "url": "https://elsabato.economicas.uba.ar/olga-poblete/",
+   "descripcion": "Ciclo de artes circenses inspirado en Olga Poblete y la investigación de Circa. Espectáculos para toda la familia, 60 minutos.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Galácticos (muestra del colectivo Galácticos Itinerantes)",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Lunes a sábados desde las 11 h",
+   "lugar": "EL SABATO ESPACIO CULTURAL",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://elsabato.economicas.uba.ar/galacticos/",
+   "descripcion": "Muestra en la Sala de Exposiciones Milo Lockett: un viaje imaginario para explorar lo que la razón aún no alcanza a ver.",
+   "vigente_sin_fin": true,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}
