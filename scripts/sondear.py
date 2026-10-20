@@ -21,6 +21,9 @@ Usage:
 With --corrida it probes only the pending websites of the open run and also:
     api / jsonld    if there are events in the window, it saves them with `crawl.py guardar` (con_eventos); those
                     sites are no longer opened in the browser. It never saves "sin eventos".
+                    Before saving, it opens each event's own page (up to MAX_FICHAS per site) to fill in the price, picture
+                    and time the listing lacks; events without a `url` of their own stay as the listing gave them
+                    (`sin_enlace_propio` in the report).
     html            leaves the text of the home page and the agenda pages in data/crawl/local/textos/<id>.txt;
                     `crawl.py siguiente` shows it so it can be read instead of opening the browser.
 The report is merged with the previous one (per site, with its date).
@@ -441,6 +444,43 @@ def sondear_sitio(s, leer=None):
     return out
 
 
+def imagen_de(x):
+    """https URL of the picture of a JSON-LD object (string, list or ImageObject), or ''."""
+    img = x.get("image")
+    img = img[0] if isinstance(img, list) and img else img
+    img = img.get("url", "") if isinstance(img, dict) else img
+    return img if isinstance(img, str) and img.startswith("https://") else ""
+
+
+MAX_FICHAS = 80  # event pages opened per site to fill in what the listing lacks
+
+
+def completar_desde_fichas(eventos):
+    """The listing's JSON-LD often has no price, picture or time: they are on each event's own page. Opens the page
+    of every event that has a `url` and lacks one of them (up to MAX_FICHAS per site, with a pause between pages)
+    and fills in `precio`, `imagen`, `hora` and `descripcion` from its JSON-LD. Returns how many events have no
+    `url` of their own (they stay as the listing gave them)."""
+    abiertas = 0
+    for e in eventos:
+        falta = not e.get("precio") or not e.get("imagen") or not e.get("hora")
+        if not e.get("url") or not falta or abiertas >= MAX_FICHAS:
+            continue
+        abiertas += 1
+        est, _, html, _ = pedir(e["url"])
+        time.sleep(PAUSA)
+        objs = objetos_evento(html) if est == 200 else []
+        if not objs:
+            continue
+        x = next((o for o in objs if fecha_hora(o.get("startDate"))[0] == e["fecha_inicio"]), objs[0])
+        ficha = evento_ld(x, False)
+        e["precio"] = e.get("precio") or ficha["precio"]
+        e["hora"] = e.get("hora") or ficha["hora"]
+        e["imagen"] = e.get("imagen") or imagen_de(x)
+        if len(e.get("descripcion", "")) < 40:
+            e["descripcion"] = ficha["descripcion"] or e.get("descripcion", "")
+    return sum(1 for e in eventos if not e.get("url"))
+
+
 def guardar_eventos(r):
     """Saves with `crawl.py guardar` the events the API or JSON-LD gave. Only con_eventos: if there are no events,
     or validation rejects them, the site is left to read the text or open the browser (r['error'])."""
@@ -453,6 +493,9 @@ def guardar_eventos(r):
             r["error"] = "no dio eventos en la ventana"
         return False
     fuente = "la API de The Events Calendar" if r["clase"] == "api" else "el JSON-LD de la página"
+    sin_url = completar_desde_fichas(eventos)
+    if sin_url:
+        r["sin_enlace_propio"] = sin_url  # no page of their own to open: price and picture stay as the listing gave them
     res = {"id": r["id"], "canal": "web", "estado": "con_eventos", "urls_visitadas": urls, "intentos": 1,
            "scroll_completo": False, "evidencia": "",
            "enlaces_candidatos": [{"texto": "página leída por el sondeo", "url": u, "visitado": True} for u in urls],

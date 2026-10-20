@@ -55,7 +55,7 @@ network do so with plain HTTP requests, at a slow pace.
   that loads `.claude/skills/actualizar-agenda/navegador.js` into the tab (from jsDelivr, pinned to the last
   pushed commit of that file).
 - `scripts/sondear.py`: reads without a browser the sites that allow it (`--corrida`) or a single page
-  (`--leer <url>`, Linktree too).
+  (`--leer <url>`, Linktree too); the events it saves are completed with the price, picture and time from each event's own page.
 - `scripts/biolinks.py`: looks for the Linktree of each Instagram account without opening Instagram.
 - `scripts/saleplan.py`: reads the SalePlan listings and saves only what no other source brought.
 - `scripts/armar_agenda.py`: builds `data/eventos.json` (14-day window, classification, duplicates, missing

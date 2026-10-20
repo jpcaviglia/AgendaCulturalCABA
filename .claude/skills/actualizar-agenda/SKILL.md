@@ -74,7 +74,10 @@ python scripts/sondear.py --corrida
 Requests the pending sites with plain HTTP (about 2 minutes, without spending browser tokens):
 
 - **api / jsonld**: if they give events in the window, it saves them by itself (`con_eventos`) and they leave
-  the queue.
+  the queue. Before saving it opens each event's own page (up to 80 per site) to fill in the price, picture and
+  time the listing lacks. Events whose JSON-LD has no `url` of their own stay without link, price or picture
+  (the report counts them as `sin_enlace_propio` in `data/crawl/local/sondeo.json`); if the site's listing
+  links an event page (`/eventos/<slug>`), open it and add the data by saving the site again.
 - **html**: leaves the text of the home page and of the agenda pages in
   `data/crawl/local/textos/<id>.txt`.
 - The rest (`needs_browser`, `unreachable`, `sin_agenda_vista`) goes to the browser as usual.
