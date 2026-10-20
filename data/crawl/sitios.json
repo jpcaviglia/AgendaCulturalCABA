@@ -14768,10 +14768,10 @@
     "2026-10-14 [revisión anterior: navegador] Agenda JS (Schedule)",
     "2026-10-15 [web] La portada trae la agenda completa del mes en bloques por fecha, sin hora.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroborges",
-    "2026-10-20 [web] 2026-10-20: cada función enlaza a su propia ficha /evento/<id> (leídas por la API, sin navegador); antes apuntaban a /agenda."
+    "2026-10-20 [web] 2026-10-20: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
    ],
    "comportamiento": {
-    "extraccion": "API pública JSON (con Accept y Referer por HTTP): /api/public/agenda?mes=M&anio=AAAA lista cada función con id, fecha, hora, imagen, área y sala; /api/public/evento-detalle?id=N trae 'ficha' (precio) y descripción; la ficha de cada evento es /evento/<id>",
+    "extraccion": "sin navegador: `python scripts/borges.py` lee la API pública JSON (/api/public/agenda y /evento-detalle) y escribe data/crawl/tmp/centro-cultural-borges.json con cada función enlazada a /evento/<id>; después `crawl.py guardar` ese archivo",
     "cookies": "sin aviso",
     "espera_seg": 6,
     "imagen": "imagenUrl de la API (relativa a /uploads/)"
@@ -14826,6 +14826,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 35
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 69
     },
     {
      "fecha": "2026-10-20",
