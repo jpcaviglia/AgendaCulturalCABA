@@ -29,7 +29,7 @@ To run it: open Claude Code in this folder with Claude in Chrome connected and a
 
 | File | What it is |
 |---|---|
-| `data/crawl/sitios.json` | All the sites to crawl and what was learned about each one: where its agenda is (`entradas`), how it behaves (`comportamiento`), notes, pending links and the results of the latest runs. |
+| `data/crawl/sitios.json` | All the sites to crawl and what was learned about each one: where its agenda is (`entradas`), how it behaves (`comportamiento`), notes, pending links and the results of the latest runs; `"rastrear": false` skips the site, `"rastrear_web": false` crawls only its Instagram. |
 | `data/crawl/capturas/` | What was found on the last visit to each site (`<id>.web.json`, `<id>.instagram.json`). |
 | `data/crawl/corrida.json` | Queue and progress of the current run (lets it resume if it is interrupted). |
 | `data/crawl/informes/` | One report per run. |

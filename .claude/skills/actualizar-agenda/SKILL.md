@@ -453,7 +453,7 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
   found later whose notes say its programming is on Alternativa Teatral is not added to the queue either.
   Also marked on 2026-10-20, at the user's request: 78 sites (44 + 34 later) whose every channel (website and Instagram) was
   crawled in the open run and had no events (`sin_eventos`, `no_carga`, `sin_agenda`, `no_cultural`,
-  `descartado` or `dominio_caido`). Sites with a website that came up empty and an Instagram not yet crawled stay in the queue.
+  `descartado` or `dominio_caido`). A site whose website came up empty (`sin_eventos`, `sin_agenda`, `dominio_caido`) and that has an Instagram is marked `"rastrear_web": false` (user's request, 2026-10-20): the run queues only its Instagram, and `sondear.py` skips its website. Set it back to true if the website changes.
 
 ## 5. Result format
 

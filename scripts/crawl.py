@@ -22,7 +22,8 @@ Usage:
                                                   # auto-mode classifier denies as external code
 
 Files:
-    data/crawl/sitios.json          what to crawl and how each site behaves (enriched on every run)
+    data/crawl/sitios.json          what to crawl and how each site behaves (enriched on every run);
+                                    "rastrear": false = the site is skipped, "rastrear_web": false = only its Instagram is crawled
     data/crawl/capturas/<id>.<canal>.json   what was found on the last visit to each site
     data/crawl/corrida.json         queue and progress of the current run
     data/crawl/informes/<fecha>.md  report of each run
@@ -268,9 +269,9 @@ def armar_cola(doc, previa=None):
     for s in doc["sitios"]:
         if s.get("rastrear") is False:
             continue
-        if s.get("web"):
+        if s.get("web") and not (s.get("rastrear_web") is False and s.get("instagram")):
             elegidos.append((orden(s, "web"), item(s["id"], "web")))
-        elif s.get("instagram"):
+        elif s.get("instagram"):  # also the sites with "rastrear_web": false (the website is not crawled)
             elegidos.append((orden(s, "instagram"), item(s["id"], "instagram")))
         else:  # no website or Instagram: its official website is searched for
             elegidos.append((orden(s, "web"), item(s["id"], "web")))

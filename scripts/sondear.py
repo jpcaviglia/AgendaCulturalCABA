@@ -547,7 +547,7 @@ def main():
     hilos = int(args[args.index("--hilos") + 1]) if "--hilos" in args else 8
     corrida_modo = "--corrida" in args
     doc = leer_json(SITIOS)
-    sitios = [s for s in doc["sitios"] if s.get("web") and s.get("rastrear") is not False and (not ids or s["id"] in ids)]
+    sitios = [s for s in doc["sitios"] if s.get("web") and s.get("rastrear") is not False and s.get("rastrear_web") is not False and (not ids or s["id"] in ids)]
     if corrida_modo:
         corrida = leer_json(CORRIDA)
         if not corrida or corrida.get("fin"):
