@@ -1,0 +1,81 @@
+{
+ "id": "time-out-buenos-aires-agenda",
+ "canal": "web",
+ "fuente": "Time Out Buenos Aires: Agenda",
+ "tipo": "agregador",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.timeout.com/es/buenos-aires/agenda-semana"
+ ],
+ "eventos": [
+  {
+   "titulo": "MUBI Fest Buenos Aires",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Cinépolis Houssay",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 2135",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "descripcion": "Cuatro días de películas en cuatro salas: Minotauro (Zvyagintsev), La casa del ángel, Cobarde, Making Marie Antoinette, Sheep in the Box y Pulp. Entradas en mubifest.com.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "MUBI Fest: Carolo + HTML (música electrónica y experimentación audiovisual)",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:30",
+   "horarios": "",
+   "lugar": "U.House",
+   "barrio": "Chacarita",
+   "direccion": "Aguirre 1410",
+   "categoria": "Música",
+   "precio": "Gratis",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "descripcion": "Show en vivo de música electrónica y experimentación audiovisual, parte de las actividades especiales gratuitas de MUBI Fest.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "MUBI Fest en U.House: instalación, charla, video performance y música",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "17:00 instalación; 18:30 charla; 19:30 video performance; 21 Ekathé; 22 Funk Poke",
+   "lugar": "U.House",
+   "barrio": "Chacarita",
+   "direccion": "Aguirre 1410",
+   "categoria": "Cine",
+   "precio": "Gratis",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "descripcion": "Instalación fotográfica en homenaje a Agnès Varda (17), charla sobre terror argentino con Laura Casabé y Luciano Lamberti (18:30), video performance de Melon Manga (19:30), Ekathé (21) y DJ set de Funk Poke (22).",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Sandra Mihanovich en el Teatro Colón",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "descripcion": "Sandra Mihanovich con un repertorio que repasa distintos momentos de su trayectoria; gala solidaria. Entradas por Entrada Uno.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

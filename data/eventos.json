@@ -5,8 +5,8 @@
   "hasta": "2026-11-02"
  },
  "rastreo": {
-  "capturas": 34,
-  "con_eventos": 30
+  "capturas": 42,
+  "con_eventos": 35
  },
  "fuentes": [
   "Alternativa Teatral",
@@ -23,8 +23,11 @@
   "CENTRO CULTURAL POETA ROBERTO SANTORO",
   "CENTRO CULTURAL SEBASTIAN PIANA",
   "CENTRO CULTURAL TATO BORES",
+  "CENTRO CULTURAL VERSALLES",
+  "CUALQUIER LADO",
   "CUERDA MECÁNICA CENTRO CULTURAL",
   "Cátulo Casa Cultural",
+  "EL ZORZAL ESQUINA CULTURAL",
   "Eventbrite Buenos Aires",
   "FELIZA CULTURA ARCOIRIS",
   "Indiehoy: Agenda de recitales",
@@ -37,10 +40,112 @@
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
+  "Time Out Buenos Aires: Agenda",
   "Turismo Buenos Aires: Qué hacer esta semana",
-  "Vamos Feria"
+  "Vamos Feria",
+  "Vidriera BA"
  ],
  "eventos": [
+  {
+   "id": "f42fd1ce561d",
+   "titulo": "Programa \"Habitando el futuro\" del Museo Moderno (70° aniversario)",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Moderno",
+   "barrio": "San Telmo",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-01-01",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El programa \"Habitando el futuro\" es el eje central de las celebraciones por el 70° Aniversario del Museo de Arte Moderno de Buenos Aires durante todo el año 2026. El proyecto reúne más de diez exposiciones simultáneas e",
+   "url": "https://vidrierabuenosaires.com/eventos/museo-moderno-habitando-el-futuro",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/Programa \"Habitando el futuro\" del Museo Moderno (70° aniversario)/museo-moderno-70-anos-20260415-2221364.jpg-reduced-_jh4O8"
+  },
+  {
+   "id": "22e83f4f53f6",
+   "titulo": "Cuestión de género",
+   "categoria": "Teatro",
+   "lugar": "Teatro Metropolitan",
+   "barrio": "",
+   "direccion": "Av. Corrientes 1343, CABA",
+   "fecha_inicio": "2026-01-03",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Cuestión de Género\" es una exitosa comedia teatral que transita su segunda temporada en la mítica Avenida Corrientes de Buenos Aires, protagonizada por las grandes figuras de la escena nacional Moria Casán y Jorge Marra",
+   "url": "https://vidrierabuenosaires.com/eventos/cuestion-de-genero",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.603642,
+   "lng": -58.385873,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/cuestion-de-genero/images-3-.jpeg-reduced-yzasbd"
+  },
+  {
+   "id": "c16c53f670b8",
+   "titulo": "La función que sale mal",
+   "categoria": "Teatro",
+   "lugar": "Teatro Multiteatro",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-01-07",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La exitosa comedia teatral La función que sale mal se está presentando en el Multiteatro Comafi de Buenos Aires, ubicado en plena Avenida Corrientes. Se trata de un fenómeno internacional de humor físico y caos coreograf",
+   "url": "https://vidrierabuenosaires.com/eventos/la-funcion-que-sale-mal",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/la-funcion-que-sale-mal/5h0a1575-scaled.jpg-reduced-4pcptw"
+  },
+  {
+   "id": "393a989bc053",
+   "titulo": "Rocky",
+   "categoria": "Teatro",
+   "lugar": "Teatro Lola Membrives",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 1280",
+   "fecha_inicio": "2026-01-10",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La obra de teatro Rocky, protagonizada y dirigida por Nico Vázquez junto a Mariano Demaría, es uno de los mayores fenómenos de la cartelera argentina. Esta superproducción e impactante experiencia inmersiva 360° se prese",
+   "url": "https://vidrierabuenosaires.com/eventos/rocky",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.604337,
+   "lng": -58.384777,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/rocky/rocky-volvio-con-su-segunda-temporada-foto-prensa-rocky-7gvp4wr3ibhwlkt2kbud2sycrq.jpg-reduced-j5sksy"
+  },
   {
    "id": "90d6ddcf4f85",
    "titulo": "Argentinismos, de Cecilia Ivanchevich",
@@ -217,6 +322,56 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Rey-Principal.jpg"
   },
   {
+   "id": "128737cde45f",
+   "titulo": "Océano interior",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Moderno (MAMBA)",
+   "barrio": "",
+   "direccion": "Av. San Juan 350",
+   "fecha_inicio": "2026-04-01",
+   "fecha_fin": "2027-04-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Instalada en el subsuelo del museo para reforzar la sensación de inmersión, propone un recorrido sensorial por las profundidades oceánicas, la biodiversidad submarina y los paisajes remotos de la Antártida, imaginando nu",
+   "url": "https://vidrierabuenosaires.com/eventos/oceano-interior",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.622066,
+   "lng": -58.370745,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/oceano-interior/3-1.jpg-reduced-v6ct1_"
+  },
+  {
+   "id": "8d99951e46a1",
+   "titulo": "Sottovoce",
+   "categoria": "Teatro",
+   "lugar": "El Nacional Sancor Seguros",
+   "barrio": "",
+   "direccion": "Av. Corrientes 960",
+   "fecha_inicio": "2026-06-04",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Sebastián y Claudio (Adrián Suar y Fernán Mirás), primos y socios, están a punto de vender la empresa textil heredada de sus padres. Minutos antes de cerrar el acuerdo, una discusión sobre cómo dividir el dinero enciende",
+   "url": "https://vidrierabuenosaires.com/eventos/sotto-voce",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.603968,
+   "lng": -58.380276,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/sottovoce/foto-afiche-sottovoce.webp-reduced-pvpak6"
+  },
+  {
    "id": "2d1275982c43",
    "titulo": "Tita Merello. Una diva plebeya",
    "categoria": "Música",
@@ -234,12 +389,38 @@
    "estado": "En curso",
    "lugar_verificado": "Palacio Libertad (ex Centro Cultural Kirchner)",
    "fuentes": [
-    "Palacio Libertad (ex Centro Cultural Kirchner)"
+    "Palacio Libertad (ex Centro Cultural Kirchner)",
+    "Vidriera BA"
    ],
    "lat": -34.603557,
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-Tita-Merello.jpg"
+  },
+  {
+   "id": "cdc94f10f918",
+   "titulo": "Adriana Bustos. Código natal: los orígenes cósmicos del Museo",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-07-09",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "“Adriana Bustos. Código natal: los orígenes cósmicos del Museo” es una exposición temporaria e interdisciplinar de la artista argentina Adriana Bustos, inaugurada en julio de 2026 en el Museo Nacional de Bellas Artes (MN",
+   "url": "https://vidrierabuenosaires.com/eventos/adriana-bustos-codigo-natal",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/adriana-bustos.-codigo-natal-los-origenes-cosmicos-del-museo/images.jpeg-reduced-vdtdgi"
   },
   {
    "id": "10842be58d3f",
@@ -290,6 +471,31 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "b13589d14ba3",
+   "titulo": "Dan Graham. Whirligig, Molinete",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-08-01",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Whirligig (Molinete)\" es una célebre instalación monumental del artista conceptual estadounidense Dan Graham, creada en 2019. La obra consiste en una estructura circular transitable de acero y vidrios bidireccionales qu",
+   "url": "https://vidrierabuenosaires.com/eventos/dan-graham-whirligig-molinete",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/dan-graham.-whirligig-molinete/exhibicion_destacado_esp_687.jpg-reduced-gb1cro"
   },
   {
    "id": "4668c94fb48f",
@@ -390,6 +596,31 @@
    "lng": -58.377289,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "13ea33cb019d",
+   "titulo": "Melisa Zulberti: Protocolos para un comportamiento colectivo",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-08-01",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Protocolos para un comportamiento colectivo es la actual residencia de creación de la artista interdisciplinaria y directora creativa Melisa Zulberti en el espacio de arte contiguo de la Fundación PROA, PROA21.",
+   "url": "https://vidrierabuenosaires.com/eventos/melisa-zulberti-protocolos-para-un-comportamiento-colectivo",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/melisa-zulberti-protocolos-para-un-comportamiento-colectivo/melisa.png-reduced-b8orrs"
   },
   {
    "id": "a5af011d8577",
@@ -742,6 +973,56 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Visita-guiada-lengua-de-senas_agosto-2025.jpg"
   },
   {
+   "id": "4dfe687a45ae",
+   "titulo": "Umbrales y constelaciones",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Esculturas Luis Perlotti",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-08-13",
+   "fecha_fin": "2026-11-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Umbrales y constelaciones\" es una exposición de arte contemporáneo de las artistas Andrea Bloise y Mariana Brihuega, inaugurada el 13 de agosto de 2026 en el Museo de Esculturas Luis Perlotti de la Ciudad de Buenos Aire",
+   "url": "https://vidrierabuenosaires.com/eventos/umbrales-y-constelaciones",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/umbrales-y-constelaciones/3_2.jpg-reduced-4q4rfn"
+  },
+  {
+   "id": "ae7cb9dc054a",
+   "titulo": "Curada de espanto",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-08-14",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Curada de Espanto\" es la destacada exposición individual de la artista argentina Ornella Pocetti. Bajo la curaduría de Carlos Gutiérrez, la muestra sumerge al espectador en un universo de terror, fantasía y gótico riopl",
+   "url": "https://vidrierabuenosaires.com/eventos/curada-de-espanto",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/uploads/img_0553.jpg-reduced-x9j9dd"
+  },
+  {
    "id": "f419b50a7dad",
    "titulo": "César PATERNOSTO | LA IMAGINACIÓN GEOMÉTRICA",
    "categoria": "Artes visuales",
@@ -792,6 +1073,31 @@
    "imagen": "https://museomacba.org/wp-content/uploads/2026/09/MILLER.png"
   },
   {
+   "id": "3788cfcd44e2",
+   "titulo": "La imaginación geométrica",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-08-14",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"La imaginación geométrica\" es una importante exposición retrospectiva del artista argentino César Paternosto que se presenta actualmente en el MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+   "url": "https://vidrierabuenosaires.com/eventos/la-imaginacion-geometrica",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/la-imaginacion-geometrica/img_0534.jpg-reduced-utwtah"
+  },
+  {
    "id": "676bc6c7e30f",
    "titulo": "Ornella POCETTI | CURADA DE ESPANTO",
    "categoria": "Artes visuales",
@@ -815,6 +1121,31 @@
    "lng": -58.370193,
    "embebible": true,
    "imagen": "https://museomacba.org/wp-content/uploads/2026/09/POCETTI.png"
+  },
+  {
+   "id": "205e5d893e2e",
+   "titulo": "superficie y presencia",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-08-14",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Superficie y presencia\" es la primera exposición individual en América Latina del reconocido artista alemán Gerold Miller, actualmente exhibida en la planta baja del MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+   "url": "https://vidrierabuenosaires.com/eventos/superficie-y-presencia",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/superficie-y-presencia/img_0496-2.jpg-reduced-jldj9z"
   },
   {
    "id": "8a1b3603c670",
@@ -842,6 +1173,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Joyeros-argentinos_principal.jpg"
   },
   {
+   "id": "682f460ea2ce",
+   "titulo": "Thomas Demand. El tartamudeo de la historia",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-08-22",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "“Thomas Demand: El tartamudeo de la historia” es la primera gran exposición retrospectiva en Argentina dedicada al destacado artista alemán Thomas Demand. Organizada junto a la Foundation for the Exhibition of Photograph",
+   "url": "https://vidrierabuenosaires.com/eventos/thomas-demand-el-tartamudeo-de-la-historia",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/thomas-demand.-el-tartamudeo-de-la-historia/images-2-.jpeg-reduced-ajsspz"
+  },
+  {
    "id": "ab0169d98388",
    "titulo": "La Boca 5.0",
    "categoria": "Visita guiada",
@@ -865,6 +1221,57 @@
    "lng": -58.370524,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "e92bf29cf881",
+   "titulo": "Dribbling",
+   "categoria": "Teatro",
+   "lugar": "Paseo La Plaza",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 1660, CABA",
+   "fecha_inicio": "2026-08-26",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Dribbling es un intenso thriller teatral en la cartelera porteña que sumerge al espectador en los oscuros mecanismos del poder, la fama y la manipulación mediática dentro del fútbol de élite. La trama gira en torno a Jav",
+   "url": "https://vidrierabuenosaires.com/eventos/dribbling",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.604463,
+   "lng": -58.39588,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/dribbling/dr.jpg-reduced-zlagns"
+  },
+  {
+   "id": "a9f189f161b9",
+   "titulo": "Lo mucho que te amé",
+   "categoria": "Teatro",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "Retiro",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-08-27",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "Jue y Vie y Sáb y Dom 18:00 (hasta el 25/10)",
+   "precio": "Consultar",
+   "descripcion": "Conversación en el Modo IA: lo mucho que te ame teatro cervantes lo mucho que te ame teatro cervantes Lo mucho que te amé es una obra de teatro basada en la célebre novela de Eduardo Sacheri, adaptada junto a Corina Fior",
+   "url": "https://vidrierabuenosaires.com/eventos/lo-mucho-que-te-ame",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/lo-mucho-que-te-ame/lmqtame_www_800x532-1.png-reduced-7zgeg"
   },
   {
    "id": "a82fb8ffb164",
@@ -967,6 +1374,31 @@
    "imagen": ""
   },
   {
+   "id": "b6aee402c943",
+   "titulo": "Nicolás Rodríguez. Simbiosis & sabotaje",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Proa",
+   "barrio": "La Boca",
+   "direccion": "Av. Pedro de Mendoza 1929",
+   "fecha_inicio": "2026-09-01",
+   "fecha_fin": "2026-12-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Simbiosis & sabotaje es un proyecto artístico y residencia de creación del artista mendocino Nicolás Rodríguez, desarrollado en el espacio PROA21",
+   "url": "https://vidrierabuenosaires.com/eventos/nicolas-rodriguez-simbiosis-and-sabotaje",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.633441,
+   "lng": -58.353514,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/nicolas-rodriguez.-simbiosis-sabotaje/nicolas-rodriguez.png-reduced-v9qs6c"
+  },
+  {
    "id": "3193eddd5028",
    "titulo": "Pampa Cósmica",
    "categoria": "Artes visuales",
@@ -1042,6 +1474,57 @@
    "imagen": ""
   },
   {
+   "id": "64e98fb12ee7",
+   "titulo": "Atmosferismo. Alejandra Seeber",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Sívori",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Atmosferismo\" es la exposición individual de la destacada artista argentina Alejandra Seeber, inaugurada en el Museo de Artes Plásticas Eduardo Sívori de Buenos Aires. Curada por Teresa Riccardi, la muestra reúne un con",
+   "url": "https://vidrierabuenosaires.com/eventos/atmosferismo-alejandra-seeber",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/atmosferismo.-alejandra-seeber/ag-atmosferismo-alejandra-seeber-museo-sivori.pvzbywfi_2eaehm.webp-reduced-dkqcnr"
+  },
+  {
+   "id": "a3524c94e05d",
+   "titulo": "Estos pequeños libros que quedan",
+   "categoria": "Artes visuales",
+   "lugar": "ArtHaus",
+   "barrio": "San Nicolas",
+   "direccion": "",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "Jue 20:00 (hasta el 22/10)",
+   "precio": "Consultar",
+   "descripcion": "estos pequeños libros que quedanestos pequeños libros que quedanEstos pequeños libros que quedan es una destacada obra de teatro escrita y dirigida por la autora argentina Cynthia Edul.",
+   "url": "https://vidrierabuenosaires.com/eventos/estos-pequenos-libros-que-quedan",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/estos-pequenos-libros-que-quedan/images-1-.jpeg-reduced-kmyjdm"
+  },
+  {
    "id": "517189495165",
    "titulo": "La ratonera",
    "categoria": "Teatro",
@@ -1065,6 +1548,57 @@
    "lng": -58.387606,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "7c5cdb0bdc08",
+   "titulo": "Santos Vega",
+   "categoria": "Teatro",
+   "lugar": "Teatro Nacional Cervantes",
+   "barrio": "Retiro",
+   "direccion": "Libertad 815",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-12-13",
+   "hora": "20:00",
+   "horarios": "Jue y Vie y Sáb y Dom 20:00 (hasta el 13/12)",
+   "precio": "Consultar",
+   "descripcion": "Esta puesta en escena es una versión dirigida por Daniel Casablanca sobre el clásico texto gauchesco de Luis Bayón Herrera escrito originalmente en 1913. La producción ofrece una mirada renovada que funciona como un puen",
+   "url": "https://vidrierabuenosaires.com/eventos/santos-vega",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.598847,
+   "lng": -58.383983,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/santos-vega/santos-vega_www-01.png-reduced-2mvjs_"
+  },
+  {
+   "id": "9181f5e54f02",
+   "titulo": "Agustín Riganelli. La estilización del esfuerzo. Retrospectiva. Colección Sívori",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Sívori",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-05",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "“Agustín Riganelli. La estilización del esfuerzo. Retrospectiva. Colección Sívori” es una gran exposición dedicada a uno de los escultores argentinos más trascendentes de la primera mitad del siglo XX. Organizada por el",
+   "url": "https://vidrierabuenosaires.com/eventos/agustin-riganelli-la-estilizacion-del-esfuerzo-retrospectiva-coleccion-sivori",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/uploads/unnamed__3_.jpg-reduced-vawhgk"
   },
   {
    "id": "f72c0ded8b97",
@@ -1140,6 +1674,56 @@
    "lng": -58.392156,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "c6c54f9bd1ba",
+   "titulo": "El espacio infinito — Georges Rousse",
+   "categoria": "Artes visuales",
+   "lugar": "Lavalleja 1062",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-09-10",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El espacio infinito establece un diálogo entre la fotografía de Georges Rousse y la literatura de Jorge Luis Borges, explorando las relaciones entre espacio, mirada y perspectiva. Con curaduría de Marisa Sanabria Sequeir",
+   "url": "https://vidrierabuenosaires.com/eventos/el-espacio-infinito-georges-rousse",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/el-espacio-infinito-georges-rousse/07-vitry-2007-255x327cm-.jpg-reduced-6mju4j"
+  },
+  {
+   "id": "0212e3b160b9",
+   "titulo": "XXII Salón de Arte Textil 2026",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-09-10",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El Salón celebra su 22° aniversario consolidado como un espacio clave para el movimiento textil contemporáneo en el país. La exposición reúne una amplia variedad de propuestas de artistas nacionales y extranjeros selecci",
+   "url": "https://vidrierabuenosaires.com/eventos/xxii-salon-de-arte-textil-2026",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/xxii-salon-de-arte-textil-2026/images.jpeg-reduced-k5jaqs"
   },
   {
    "id": "e6ecacdf12d5",
@@ -1242,6 +1826,33 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Amor-en-el-palacio_principal-1.jpg"
   },
   {
+   "id": "361663c134b0",
+   "titulo": "Viva Frida",
+   "categoria": "Artes visuales",
+   "lugar": "Malba",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "fecha_inicio": "2026-09-18",
+   "fecha_fin": "2027-03-15",
+   "hora": "",
+   "horarios": "Lunes, miércoles, jueves, viernes, sábados y domingos, de 12 a 20 h. Miércoles de 11 a 20 h.",
+   "precio": "Consultar",
+   "descripcion": "A diferencia de muestras centradas exclusivamente en sus óleos, esta exhibición se enfoca en la dimensión íntima y creativa de la artista a través de sus objetos personales: Indumentaria y estilo: Se exhibirán sus icóni",
+   "url": "https://vidrierabuenosaires.com/eventos/viva-frida-malba",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Buenos Aires Secreta: planes del fin de semana"
+   ],
+   "lat": -34.576882,
+   "lng": -58.403392,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/Viva Frida/screenshot-2026-04-09-at-6.12.08 pm.png-reduced-c_9UWr"
+  },
+  {
    "id": "cf5d830b6bac",
    "titulo": "¡Primavera, cámara, acción! Safari fotográfico",
    "categoria": "Evento",
@@ -1265,32 +1876,6 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Primavera-camara-accion_principal.jpg"
-  },
-  {
-   "id": "361663c134b0",
-   "titulo": "Viva Frida",
-   "categoria": "Artes visuales",
-   "lugar": "MALBA",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "fecha_inicio": "2026-09-20",
-   "fecha_fin": "2027-03-15",
-   "hora": "",
-   "horarios": "Lunes, miércoles, jueves, viernes, sábados y domingos, de 12 a 20 h. Miércoles de 11 a 20 h.",
-   "precio": "Consultar",
-   "descripcion": "En el marco de los 25 años de Malba, llega &#34;Viva Frida&#34;, la exposición más importante que examina la vida, la obra y la construcción de identidad de una de las artistas más influyentes del sig",
-   "url": "https://malba.org.ar/evento/viva-frida/",
-   "dominio": "malba.org.ar",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana",
-    "Buenos Aires Secreta: planes del fin de semana"
-   ],
-   "lat": -34.576882,
-   "lng": -58.403392,
-   "embebible": false,
-   "imagen": ""
   },
   {
    "id": "1fe85957ed8a",
@@ -1468,31 +2053,6 @@
    "imagen": ""
   },
   {
-   "id": "33124797ab3e",
-   "titulo": "A cielo abierto",
-   "categoria": "Teatro",
-   "lugar": "Teatro Regio",
-   "barrio": "Chacarita",
-   "direccion": "Av. Córdoba 6056",
-   "fecha_inicio": "2026-10-01",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Jueves a domingos, 20 h.",
-   "precio": "Consultar",
-   "descripcion": "En una noche helada, un empresario exitoso y una humilde maestra se reencuentran para revivir un pasado amoroso marcado por visiones opuestas: él prioriza la ambición y ella el compromiso social. &#34",
-   "url": "https://www.ticketek.com.ar/cielo-abierto/teatro-regio",
-   "dominio": "ticketek.com.ar",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana"
-   ],
-   "lat": -34.58424,
-   "lng": -58.445723,
-   "embebible": true,
-   "imagen": ""
-  },
-  {
    "id": "d229ed6c758f",
    "titulo": "Bus Turístico",
    "categoria": "Visita guiada",
@@ -1516,6 +2076,31 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "231cef822079",
+   "titulo": "CASA FOA",
+   "categoria": "Feria",
+   "lugar": "Regimiento de Patricios 1053",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La 42° edición de Casa FOA Buenos Aires 2026 ya abrió sus puertas y se lleva a cabo del 1 de octubre al 1 de noviembre de 2026.",
+   "url": "https://vidrierabuenosaires.com/eventos/casa-foa",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/casa-foa/casafoa.webp-reduced-tbia8m"
   },
   {
    "id": "78d3f5cdd365",
@@ -1668,29 +2253,30 @@
    "imagen": ""
   },
   {
-   "id": "9bad004d0cb0",
-   "titulo": "Fuerza Bruta Aven",
-   "categoria": "Evento",
+   "id": "3cce27c578ce",
+   "titulo": "Fuerza Bruta — AVEN",
+   "categoria": "Teatro",
    "lugar": "Sala SinPiso",
    "barrio": "Palermo",
    "direccion": "Julio Argentino Noble 4100",
    "fecha_inicio": "2026-10-01",
-   "fecha_fin": "",
+   "fecha_fin": "2026-10-31",
    "hora": "",
    "horarios": "Jueves y viernes, 21 h. Sábados, 20 h. Domingos, 19 h.",
    "precio": "Consultar",
-   "descripcion": "Fuerza Bruta vuelve a Buenos Aires con Aven. Un show sorprendente, que suma algunas modificaciones desde su última vez en la Ciudad. Preparate para vivir millones de sensaciones y mucha adrenalina. Re",
-   "url": "https://turismo.buenosaires.gob.ar/es/article/fuerza-bruta?QHS2026",
-   "dominio": "turismo.buenosaires.gob.ar",
+   "descripcion": "El espectáculo que inventó el formato inmersivo en Buenos Aires regresa con AVEN, su versión más renovada. Acrobacia aérea, agua, luces, música y efectos visuales que rodean al espectador de todos lados. No hay escenario",
+   "url": "https://vidrierabuenosaires.com/eventos/fuerza-bruta-aven",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "En curso",
-   "lugar_verificado": "Museo Mundial del Tango",
+   "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": -34.560758,
    "lng": -58.422375,
-   "embebible": false,
-   "imagen": ""
+   "embebible": true,
+   "imagen": "https://vidriera.earth/fuerza-bruta-aven/e9.jpg-reduced-zdi7it"
   },
   {
    "id": "e576281d6988",
@@ -1718,14 +2304,14 @@
    "imagen": ""
   },
   {
-   "id": "f1d7e952e7d2",
+   "id": "bc92cf95b7cf",
    "titulo": "Mafalda Inmersiva",
    "categoria": "Visita guiada",
    "lugar": "Centro Cultural Recoleta",
    "barrio": "Recoleta",
    "direccion": "Junín 1930",
    "fecha_inicio": "2026-10-01",
-   "fecha_fin": "",
+   "fecha_fin": "2026-11-15",
    "hora": "",
    "horarios": "De jueves a domingos",
    "precio": "Consultar",
@@ -1735,12 +2321,14 @@
    "estado": "En curso",
    "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana"
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA",
+    "Buenos Aires Secreta: planes del fin de semana"
    ],
    "lat": -34.586298,
    "lng": -58.392513,
    "embebible": false,
-   "imagen": ""
+   "imagen": "https://vidriera.earth/mafalda-inmersiva/mafalda-inmersiva-1500x610.jpg-reduced-tqj_p8"
   },
   {
    "id": "da7c373c49f3",
@@ -1843,6 +2431,32 @@
    "imagen": ""
   },
   {
+   "id": "2539cf31fc94",
+   "titulo": "A cielo abierto",
+   "categoria": "Teatro",
+   "lugar": "Teatro Regio",
+   "barrio": "Chacarita",
+   "direccion": "Av. Córdoba 6056",
+   "fecha_inicio": "2026-10-02",
+   "fecha_fin": "2026-11-15",
+   "hora": "",
+   "horarios": "Jueves a domingos, 20 h.",
+   "precio": "Consultar",
+   "descripcion": "A cielo abierto (la versión local de la aclamada obra británica Skylight, escrita por David Hare) se presenta actualmente en el Teatro Regio de Buenos Aires. La puesta en escena está dirigida por Mey Scápola y cuenta con",
+   "url": "https://vidrierabuenosaires.com/eventos/a-cielo-abierto",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Turismo Buenos Aires: Qué hacer esta semana"
+   ],
+   "lat": -34.58424,
+   "lng": -58.445723,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/a-cielo-abierto/igrl4t5jqkackl2mhwkr.jpg-reduced-jvsde3"
+  },
+  {
    "id": "593127cd04e1",
    "titulo": "La Pilarcita",
    "categoria": "Teatro",
@@ -1891,6 +2505,31 @@
    "lng": -58.394692,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "e39df08ac142",
+   "titulo": "Miguel Dávila. Tercer orden",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-02",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Miguel Dávila: Tercer orden\" es una importante exposición antológica que rinde homenaje al pintor argentino Miguel Dávila (1926–2009) en conmemoración del centenario de su nacimiento.",
+   "url": "https://vidrierabuenosaires.com/eventos/miguel-davila-tercer-orden",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/miguel-davila.-tercer-orden/davi_5.jpg-reduced-ez3kee"
   },
   {
    "id": "f25458f37e1c",
@@ -2368,6 +3007,31 @@
    "imagen": ""
   },
   {
+   "id": "10ea641406d6",
+   "titulo": "El Brote",
+   "categoria": "Teatro",
+   "lugar": "Teatro Picadero",
+   "barrio": "Balvanera",
+   "direccion": "Pasaje Discépolo 1857",
+   "fecha_inicio": "2026-10-07",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"El brote\" es uno de los fenómenos más aclamados del teatro argentino contemporáneo. Escrita y dirigida por Emiliano Dionisi y protagonizada de forma magistral por Roberto Peloni, la obra es un monólogo intenso que desdi",
+   "url": "https://vidrierabuenosaires.com/eventos/el-brote",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/el-brote/images.jpeg-reduced-q9bsrh"
+  },
+  {
    "id": "5895ccd7e6af",
    "titulo": "El secreto",
    "categoria": "Teatro",
@@ -2593,6 +3257,106 @@
    "imagen": ""
   },
   {
+   "id": "18b4605d0213",
+   "titulo": "Vidrio Líquido: Geometría Multisensorial",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-07",
+   "fecha_fin": "2026-11-15",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Vidrio Líquido: Geometría Multisensorial\" es una innovadora exposición de arte contemporáneo de la artista plástica argentina Belén Gesualdo, inaugurada el 7 de octubre de 2026. La muestra propone un quiebre en la produ",
+   "url": "https://vidrierabuenosaires.com/eventos/vidrio-liquido-geometria-multisensorial",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/vidrio-liquido-geometria-multisensorial/bg3.jpeg-reduced-utwjiy"
+  },
+  {
+   "id": "1df7491e67f9",
+   "titulo": "8 mujeres",
+   "categoria": "Teatro",
+   "lugar": "Multiteatro",
+   "barrio": "",
+   "direccion": "Av. Corrientes 1283",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-12-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La aclamada comedia de misterio 8 Mujeres, dirigida por José María Muscari, se presenta en el Teatro Multiteatro Comafi de la Avenida Corrientes. La obra cuenta con un elenco estelar que reúne a grandes figuras de la esc",
+   "url": "https://vidrierabuenosaires.com/eventos/8-mujeres",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.604454,
+   "lng": -58.392156,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/8-mujeres/caballe_8-mujeres_plateanet_1200x628-1024x536.jpg-reduced-gdnfpm"
+  },
+  {
+   "id": "9d62244b28e3",
+   "titulo": "Bustillo 1929-1939. Tiempos de modernidad",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Victoria Ocampo",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La exposición “Bustillo 1929-1939. Tiempos de modernidad” se presenta actualmente en la Casa Victoria Ocampo, organizada por el Fondo Nacional de las Artes en el marco de la XX Bienal Internacional de Arquitectura de Bue",
+   "url": "https://vidrierabuenosaires.com/eventos/bustillo",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/bustillo-1929-1939.-tiempos-de-modernidad/img_0656.jpg-reduced-6pe61u"
+  },
+  {
+   "id": "12b117df8a0d",
+   "titulo": "Latente insistencia de un recuerdo",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Latente insistencia de un recuerdo\" es la actual exposición temporal de la artista argentina Sany Pereyra Iraola. Se trata de una muestra artística compuesta por cuatro instalaciones en cerámica bajo la curaduría de la",
+   "url": "https://vidrierabuenosaires.com/eventos/latente-insistencia-de-un-recuerdo",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/latente-insistencia-de-un-recuerdo/s_1.jpeg-reduced-8f6h_w"
+  },
+  {
    "id": "463946eb419b",
    "titulo": "La Casa de Monkey Island",
    "categoria": "Teatro",
@@ -2660,7 +3424,8 @@
    "estado": "En curso",
    "lugar_verificado": "Palacio Libertad (ex Centro Cultural Kirchner)",
    "fuentes": [
-    "Palacio Libertad (ex Centro Cultural Kirchner)"
+    "Palacio Libertad (ex Centro Cultural Kirchner)",
+    "Vidriera BA"
    ],
    "lat": -34.603557,
    "lng": -58.369484,
@@ -2766,6 +3531,57 @@
    "lng": -58.385873,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "42be4477fd02",
+   "titulo": "SHAMOCK",
+   "categoria": "Teatro",
+   "lugar": "Espacio Aguirre",
+   "barrio": "Villa Crespo",
+   "direccion": "Aguirre 1270",
+   "fecha_inicio": "2026-10-10",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Mujeres irlandesas son enviadas vírgenes a Buenos Aires para encontrar marido y ser felices para siempre. Pero.... nada de eso sucede. Al llegar se encuentran con engaños, pasos de tango, scons, amistad y empoderamiento",
+   "url": "https://vidrierabuenosaires.com/eventos/shamock",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.590792,
+   "lng": -58.442199,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/shamock./000320703.jpg-reduced-owsg1j"
+  },
+  {
+   "id": "ab15e505df9d",
+   "titulo": "¿Dónde está Alicia?",
+   "categoria": "Teatro",
+   "lugar": "Alquimia Centro Cultural",
+   "barrio": "Palermo",
+   "direccion": "Ravignani 1408",
+   "fecha_inicio": "2026-10-10",
+   "fecha_fin": "2026-10-31",
+   "hora": "21:30",
+   "horarios": "Sáb 21:30 (hasta el 31/10)",
+   "precio": "Consultar",
+   "descripcion": "¡70 años y sin prepaga! Así comienza la aventura de Chichí, quien ahora se tiene que hacer pasar por su consuegra Alicia, para que su hija Hilda, pueda internarla en la clínica de su yerno, Juan. ¿Te parece un enredo? En",
+   "url": "https://vidrierabuenosaires.com/eventos/donde-esta-alicia",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.584297,
+   "lng": -58.442405,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/donde-esta-alicia/portada1-horizontal-sin-logo.jpg-reduced-4m9amz"
   },
   {
    "id": "72f92e51c5e1",
@@ -2893,6 +3709,56 @@
    "imagen": ""
   },
   {
+   "id": "0f7c9104f05f",
+   "titulo": "El tiempo no soporta que lo marquen",
+   "categoria": "Artes visuales",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Recoleta",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El proyecto aborda la memoria afectiva y las formas en que el tiempo transforma imágenes, cuerpos, objetos y paisajes. La propuesta parte de la idea de que recordar no funciona como un archivo fiel, sino como una experi",
+   "url": "https://vidrierabuenosaires.com/eventos/el-tiempo-no-soporta-que-lo-marquen",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/el-tiempo-no-soporta-que-lo-marquen/screenshot-2026-10-13-at-11.42.58-pm.png-reduced-gxortg"
+  },
+  {
+   "id": "2f600bf00e7f",
+   "titulo": "Paisajes coreográficos",
+   "categoria": "Danza",
+   "lugar": "Teatro San Martín",
+   "barrio": "San Nicolas",
+   "direccion": "Av. Corrientes 1530",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Funciona como un espacio abierto donde estudiantes de segundo y tercer año comparten con el público su proceso creativo, de aprendizaje y de experimentación en la composición.",
+   "url": "https://vidrierabuenosaires.com/eventos/paisajes-coreograficos",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.604245,
+   "lng": -58.3884,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/paisajes-coreograficos/paisajes-coreograficos_2.png-reduced-vsnrjs"
+  },
+  {
    "id": "d4db1fa4a0f8",
    "titulo": "Festival Ennio Morricone",
    "categoria": "Música",
@@ -3018,14 +3884,14 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Principal-Mercedes-Sosa.jpg"
   },
   {
-   "id": "3efb6ae8d33d",
+   "id": "4cb532134b85",
    "titulo": "Oxitocina (Inés y los perros)",
    "categoria": "Teatro",
    "lugar": "Teatro San Martín",
    "barrio": "San Nicolás",
    "direccion": "Av. Corrientes 1530",
    "fecha_inicio": "2026-10-17",
-   "fecha_fin": "",
+   "fecha_fin": "2026-11-01",
    "hora": "",
    "horarios": "Martes y jueves a domingo, 19:30 h.",
    "precio": "Consultar",
@@ -3035,12 +3901,13 @@
    "estado": "En curso",
    "lugar_verificado": "Complejo Teatral de Buenos Aires",
    "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana"
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA"
    ],
    "lat": -34.604245,
    "lng": -58.3884,
    "embebible": false,
-   "imagen": ""
+   "imagen": "https://vidriera.earth/oxitocina/oxitocina-10-ctba-2026-foto-carlos-furman-2-.jpg-reduced-orrori"
   },
   {
    "id": "6a5d56b6e438",
@@ -3216,6 +4083,56 @@
    "lng": -58.425397,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000321876.jpg"
+  },
+  {
+   "id": "b8b24ed78ba8",
+   "titulo": "Cambio de Rol: clase y práctica de tango",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-02",
+   "hora": "17:00",
+   "horarios": "Todos los lunes: clase de 17 a 18 h, práctica de 18 a 19 h",
+   "precio": "Consultar",
+   "descripcion": "Espacio de Ángela Meléndez para bailar, probar ambos roles y explorar el tango, con Juampy Ramírez y maestros invitados.",
+   "url": "https://www.instagram.com/elzorzalcultural/p/Demsg5sJcKx/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "ccdda19ecd2b",
+   "titulo": "Clases de tango con Sabrina Masso y Federico Naveira",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-26",
+   "hora": "20:30",
+   "horarios": "Lunes 19 y 26/10, de 20:30 a 22:30 h",
+   "precio": "Consultar",
+   "descripcion": "Dos horas de aprendizaje y exploración del baile. Nivel intermedio y avanzado.",
+   "url": "https://www.instagram.com/elzorzalcultural/p/DemY_ixCz06/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "65c4ba38da7f",
@@ -3443,6 +4360,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/62/000317662.jpg"
   },
   {
+   "id": "a483df92c0a1",
+   "titulo": "La última sesión de Freud",
+   "categoria": "Teatro",
+   "lugar": "Enrique Santos Discépolo 1857",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2027-01-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Bajo la brillante dirección de Daniel Veronese, esta multipremiada obra de Mark St. Germain cuenta con las actuaciones principales de Luis Machín —quien compone de manera magistral al Dr. Sigmund Freud— y Javier Lorenzo",
+   "url": "https://vidrierabuenosaires.com/eventos/la-ultima-sesion-de-freud",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/la-ultima-sesion-de-freud/images-1-.jpeg-reduced-mrgrrs"
+  },
+  {
    "id": "42f0852e10e5",
    "titulo": "Las adoro",
    "categoria": "Teatro",
@@ -3491,31 +4433,6 @@
    "lng": -58.449904,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000321453.jpg"
-  },
-  {
-   "id": "bc92cf95b7cf",
-   "titulo": "Mafalda Inmersiva",
-   "categoria": "Artes visuales",
-   "lugar": "Centro Cultural Recoleta",
-   "barrio": "Recoleta",
-   "direccion": "Junin 1930",
-   "fecha_inicio": "2026-10-19",
-   "fecha_fin": "2026-11-02",
-   "hora": "",
-   "horarios": "",
-   "precio": "Desde $ 5600",
-   "descripcion": "Muestra inmersiva sobre el universo de Quino: 13 salas, proyecciones 360° y experiencia opcional de realidad virtual (~60 minutos).",
-   "url": "https://bairessecreta.com/planes-para-este-fin-de-semana/",
-   "dominio": "bairessecreta.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Buenos Aires Secreta: planes del fin de semana"
-   ],
-   "lat": -34.586298,
-   "lng": -58.392513,
-   "embebible": false,
-   "imagen": ""
   },
   {
    "id": "a455ca3e243b",
@@ -3593,6 +4510,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/000128436.jpg"
   },
   {
+   "id": "25c82abafdc3",
+   "titulo": "Mujercitas: técnica femenina de tango",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-26",
+   "hora": "",
+   "horarios": "Todos los lunes (19/10 Corina Herrera, 26/10 Inés Muzzopappa)",
+   "precio": "Consultar",
+   "descripcion": "Espacio de técnica femenina con referentes del tango. Nivel intermedio y avanzado.",
+   "url": "https://www.instagram.com/elzorzalcultural/p/DeevVRuoP72/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "38050940ffde",
    "titulo": "Nido de lagarto",
    "categoria": "Teatro",
@@ -3666,6 +4608,31 @@
    "lng": -58.378773,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/raphael-gran-rex.jpg"
+  },
+  {
+   "id": "3ac0942b62a2",
+   "titulo": "Sandra Mihanovich en el Teatro Colón",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-19",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Sandra Mihanovich con un repertorio que repasa distintos momentos de su trayectoria; gala solidaria. Entradas por Entrada Uno.",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "dominio": "timeout.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Time Out Buenos Aires: Agenda"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e9b7b16291be",
@@ -3918,29 +4885,30 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/adicta-cc-rojas.jpg"
   },
   {
-   "id": "e427815a061a",
-   "titulo": "Andrés Calamaro en Movistar Arena",
+   "id": "189cc78088ac",
+   "titulo": "Andrés Calamaro",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-10-20",
+   "fecha_fin": "2026-11-23",
    "hora": "",
    "horarios": "",
-   "precio": "Desde $45.000",
-   "descripcion": "Recital: Andrés Calamaro en Movistar Arena en Movistar Arena Argentina.",
-   "url": "https://indiehoy.com/agenda/andres-calamaro-movistar-arena-octubre-2026/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "La propuesta de este tour se centra en un repaso profundo por el gran catálogo de clásicos de la carrera de Andrés Calamaro, dándole prioridad a la potencia de su voz y a su banda en vivo sobre el escenario, sin la neces",
+   "url": "https://vidrierabuenosaires.com/eventos/andres-calamaro-movistar-arena-2026",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/andres-calamaro-movistar-arena-octubre-2026.jpg"
+   "lat": -34.59426,
+   "lng": -58.448137,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/Andrés Calamaro/andres-calamaro-scaled.jpg-reduced-gZsAHJ"
   },
   {
    "id": "2d8f8c8f1e34",
@@ -4169,29 +5137,30 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2025/12/iron-maiden-argentina-2026.jpg"
   },
   {
-   "id": "77f537a74620",
-   "titulo": "Iron Maiden",
+   "id": "c7261e3a04a8",
+   "titulo": "Iron Maiden - Run for your lives",
    "categoria": "Música",
    "lugar": "Estadio Huracán",
    "barrio": "Parque Patricios",
    "direccion": "Av. Amancio Alcorta 2544",
    "fecha_inicio": "2026-10-20",
-   "fecha_fin": "",
+   "fecha_fin": "2026-10-21",
    "hora": "",
    "horarios": "Martes 20 y miércoles 21, 21 h.",
    "precio": "Consultar",
-   "descripcion": "Iron Maiden llega a Buenos Aires con su aclamada gira mundial Run for yor lives World Tour. Celebrando su 50 aniversario, sus fanáticos podrán presenciar la nueva y vanguardista producción, con una pu",
-   "url": "https://livepass.com.ar/events/iron-maiden-en-huracan",
-   "dominio": "livepass.com.ar",
+   "descripcion": "Iron Maiden se presentará en la Argentina el martes 20 (agotado) y miércoles 21 de octubre de 2026. Los conciertos forman parte de su masiva gira mundial Run For Your Lives World Tour, que celebra los 50 años de historia",
+   "url": "https://vidrierabuenosaires.com/eventos/iron-maiden-run-for-your-lives",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Turismo Buenos Aires: Qué hacer esta semana"
    ],
    "lat": -34.642946,
    "lng": -58.39689,
    "embebible": true,
-   "imagen": ""
+   "imagen": "https://vidriera.earth/iron-maiden-run-for-your-lives/b8c89ef4f96f1572144ae9eed4ac9023.jpg-reduced-h5ba8g"
   },
   {
    "id": "a806fdd96306",
@@ -4494,6 +5463,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000236017.jpg"
   },
   {
+   "id": "f06e5e6789ac",
+   "titulo": "Susana Rodríguez. Historia íntima",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2027-01-17",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "\"Historia íntima\" es una importante exposición artística de la destacada creadora plástica argentina Susana Rodríguez, curada por Gabriela Naso.",
+   "url": "https://vidrierabuenosaires.com/eventos/susana-rodriguez-historia-intima",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/susana-rodriguez.-historia-intima/images-1-.jpeg-reduced-l6ephj"
+  },
+  {
    "id": "f5c714157dbb",
    "titulo": "Tecweek",
    "categoria": "Evento",
@@ -4569,30 +5563,31 @@
    "imagen": ""
   },
   {
-   "id": "bcd3c757055e",
+   "id": "fedad76d8c14",
    "titulo": "Aitana",
    "categoria": "Música",
    "lugar": "Movistar Arena",
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-21",
+   "fecha_fin": "2026-10-23",
    "hora": "",
    "horarios": "Miércoles 21 a viernes 23, 21 h.",
    "precio": "Consultar",
-   "descripcion": "La estrella del pop español Aitana regresa a Argentina con su &#34;Cuarto Azul World Tour&#34;, la gira más ambiciosa de su carrera. En este show, presentará en vivo su último álbum, que marca una evo",
-   "url": "https://www.movistararena.com.ar/show/1c45fcb6-79fa-4c5e-83e5-e314d93e0c33",
-   "dominio": "movistararena.com.ar",
+   "descripcion": "La estrella del pop español Aitana se presenta en Buenos Aires esta semana con tres conciertos en el Movistar Arena los días 21, 22 y 23 de octubre de 2026. En el marco de su ambicioso \"Cuarto Azul World Tour\", la artist",
+   "url": "https://vidrierabuenosaires.com/eventos/aitana",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
-   "lugar_verificado": "Movistar Arena",
+   "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Turismo Buenos Aires: Qué hacer esta semana",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.59426,
    "lng": -58.448137,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/04/aitana-movistar-arena.jpg"
+   "embebible": true,
+   "imagen": "https://vidriera.earth/aitana/.webp-reduced-it90fd"
   },
   {
    "id": "6694d16c9645",
@@ -4670,29 +5665,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/63/000321163.jpg"
   },
   {
-   "id": "9191a10c46ac",
-   "titulo": "Berliner philharmoniker",
+   "id": "235387341604",
+   "titulo": "Berliner Philharmoniker",
    "categoria": "Música",
    "lugar": "Teatro Colón",
-   "barrio": "San Nicolas",
+   "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-21",
+   "fecha_fin": "2026-10-23",
    "hora": "20:00",
    "horarios": "Mié 20:00 (el 21/10)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de clásica en Teatro Colón (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra100036-berliner-philharmoniker",
-   "dominio": "alternativateatral.com",
+   "descripcion": "La Berliner Philharmoniker (Filarmónica de Berlín) regresa al escenario del Teatro Colón de Buenos Aires en octubre de 2026, tras 26 años de ausencia en Argentina. Bajo la dirección musical de Kirill Petrenko, la prestig",
+   "url": "https://vidrierabuenosaires.com/eventos/berliner-philharmoniker",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/59/000311759.jpg"
+   "imagen": "https://vidriera.earth/berliner-philharmoniker/bph_kp_2025-26_cropped__c_stephan_rabold-2.jpg-reduced-8gveg5"
   },
   {
    "id": "26196514991f",
@@ -4795,7 +5791,8 @@
     "CENTRO CULTURAL NUESTRA TIERRA",
     "CENTRO CULTURAL POETA ROBERTO SANTORO",
     "CENTRO CULTURAL SEBASTIAN PIANA",
-    "CENTRO CULTURAL TATO BORES"
+    "CENTRO CULTURAL TATO BORES",
+    "CENTRO CULTURAL VERSALLES"
    ],
    "lat": -34.552819,
    "lng": -58.486806,
@@ -5453,6 +6450,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000319587.jpg"
   },
   {
+   "id": "8d93c298e3d7",
+   "titulo": "Tango Bar: milonga de los miércoles",
+   "categoria": "Música",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "Miércoles de 21 a 01 h; 19:30 clase pre-milonga",
+   "precio": "Consultar",
+   "descripcion": "Milonga temprana de todos los miércoles en El Zorzal Cultural.",
+   "url": "https://www.instagram.com/elzorzalcultural/p/DerwbE8pZ0D/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "8bed298f7d5c",
    "titulo": "Tita y rodhesia",
    "categoria": "Teatro",
@@ -6103,31 +7125,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/79/000277479.jpg"
   },
   {
-   "id": "1f655634b235",
-   "titulo": "Estos pequeños libros que quedan",
-   "categoria": "Teatro",
-   "lugar": "Arthaus Central",
-   "barrio": "San Nicolas",
-   "direccion": "Bartolomé Mitre 434",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "20:00",
-   "horarios": "Jue 20:00 (hasta el 22/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Arthaus Central (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra98288-estos-pequenos-libros-que-quedan",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.606929,
-   "lng": -58.37291,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/36/000307036.jpg"
-  },
-  {
    "id": "0fd6f3482a7d",
    "titulo": "Estrellada",
    "categoria": "Teatro",
@@ -6580,27 +7577,28 @@
   {
    "id": "a119bfd9ffa7",
    "titulo": "Las ruinas",
-   "categoria": "Música",
+   "categoria": "Teatro",
    "lugar": "Teatro Colón",
-   "barrio": "San Nicolas",
+   "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-01",
    "hora": "",
    "horarios": "Jue 18:00 y 20:30, Vie y Sáb 18:00 (del 22/10 al 31/10)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de opera en Teatro Colón (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra100288-las-ruinas",
-   "dominio": "alternativateatral.com",
+   "descripcion": "\"Las ruinas\" es una obra de danza y ópera experimental comisionada por el Teatro Colón de Buenos Aires. Creada por el coreógrafo argentino Juan Onofri Barbato, con dramaturgia de Laura Sbdar y música original de Ailín Gr",
+   "url": "https://vidrierabuenosaires.com/eventos/las-ruinas",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/36/000312436.jpg"
+   "imagen": "https://vidriera.earth/las-ruinas/cetc_lasruinas_redes-3.png-reduced-jyq4fm"
   },
   {
    "id": "5e5d65c761b2",
@@ -6628,31 +7626,6 @@
    "imagen": ""
   },
   {
-   "id": "a9f189f161b9",
-   "titulo": "Lo mucho que te amé",
-   "categoria": "Teatro",
-   "lugar": "Teatro Nacional Cervantes",
-   "barrio": "San Nicolas",
-   "direccion": "Libertad 815",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-25",
-   "hora": "18:00",
-   "horarios": "Jue y Vie y Sáb y Dom 18:00 (hasta el 25/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Teatro Nacional Cervantes (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra102726-lo-mucho-que-te-ame",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.598847,
-   "lng": -58.383983,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/92/000319592.jpg"
-  },
-  {
    "id": "6055be5afff4",
    "titulo": "Los Pericos",
    "categoria": "Música",
@@ -6663,19 +7636,20 @@
    "fecha_fin": "2026-10-22",
    "hora": "",
    "horarios": "",
-   "precio": "Desde $45.000",
-   "descripcion": "Recital: Los Pericos en Teatro Gran Rex.",
-   "url": "https://indiehoy.com/agenda/los-pericos-en-teatro-gran-rex/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "En este show imperdible, la legendaria banda argentina de reggae y rock latino hará la presentación oficial de \"Inmortal\", su nuevo álbum de estudio que cuenta con 10 canciones inéditas, además de repasar los grandes clá",
+   "url": "https://vidrierabuenosaires.com/eventos/los-pericos",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.603366,
    "lng": -58.378773,
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/04/656695329_18402729142182689_3864283203874088204_n-1.jpg"
+   "embebible": true,
+   "imagen": "https://vidriera.earth/los-pericos/pericos1.1.jpg-reduced-pfvejb"
   },
   {
    "id": "3e9c2abc22b1",
@@ -6701,6 +7675,31 @@
    "lng": -58.41482,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000320599.jpg"
+  },
+  {
+   "id": "4ef67541106a",
+   "titulo": "MUBI Fest Buenos Aires",
+   "categoria": "Cine",
+   "lugar": "Cinépolis Houssay",
+   "barrio": "Recoleta",
+   "direccion": "Av. Córdoba 2135",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cuatro días de películas en cuatro salas: Minotauro (Zvyagintsev), La casa del ángel, Cobarde, Making Marie Antoinette, Sheep in the Box y Pulp. Entradas en mubifest.com.",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "dominio": "timeout.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Time Out Buenos Aires: Agenda"
+   ],
+   "lat": -34.598096,
+   "lng": -58.409241,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "09b1e586dc9a",
@@ -7001,31 +8000,6 @@
    "lng": -58.38775,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/05/000244505.jpg"
-  },
-  {
-   "id": "7c5cdb0bdc08",
-   "titulo": "Santos vega",
-   "categoria": "Teatro",
-   "lugar": "Teatro Nacional Cervantes",
-   "barrio": "San Nicolas",
-   "direccion": "Libertad 815",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-11-01",
-   "hora": "20:00",
-   "horarios": "Jue y Vie y Sáb y Dom 20:00 (hasta el 13/12)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro, musical en Teatro Nacional Cervantes (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra102684-santos-vega",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.598847,
-   "lng": -58.383983,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/80/000319480.jpg"
   },
   {
    "id": "31b6913953ca",
@@ -10428,6 +11402,31 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182430721%2F1880419606183%2F1%2Foriginal.20260417-184855?crop=focalpoint&fit=crop&w=401&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.477&fp-y=0.056&s=e4b9f4be85db6e58f27096960ef12293"
   },
   {
+   "id": "2fdd502158c7",
+   "titulo": "MUBI Fest: Carolo + HTML (música electrónica y experimentación audiovisual)",
+   "categoria": "Música",
+   "lugar": "U.House",
+   "barrio": "Chacarita",
+   "direccion": "Aguirre 1410",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Show en vivo de música electrónica y experimentación audiovisual, parte de las actividades especiales gratuitas de MUBI Fest.",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "dominio": "timeout.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Time Out Buenos Aires: Agenda"
+   ],
+   "lat": -34.589664,
+   "lng": -58.443479,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "aeba7fb7c306",
    "titulo": "Mala madre",
    "categoria": "Teatro",
@@ -11354,14 +12353,14 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000316306.jpg"
   },
   {
-   "id": "e62bd6184f23",
+   "id": "33cf5783f679",
    "titulo": "Pinta BAphoto",
    "categoria": "Artes visuales",
    "lugar": "La Rural",
    "barrio": "Palermo",
    "direccion": "Av Santa Fe y Thames",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "",
+   "fecha_fin": "2026-10-25",
    "hora": "",
    "horarios": "Viernes y sábado, de 14 a 20:30 h. Domingo, de 14 a 20 h.",
    "precio": "Consultar",
@@ -11371,12 +12370,13 @@
    "estado": "Próximo",
    "lugar_verificado": "Museo Mundial del Tango",
    "fuentes": [
-    "Turismo Buenos Aires: Qué hacer esta semana"
+    "Turismo Buenos Aires: Qué hacer esta semana",
+    "Vidriera BA"
    ],
    "lat": "",
    "lng": "",
    "embebible": false,
-   "imagen": ""
+   "imagen": "https://vidriera.earth/pinta-baphoto/pinta-baphoto-2024-1899088.jpg-reduced-ti6srf"
   },
   {
    "id": "e8476e8c828d",
@@ -13705,6 +14705,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000320150.jpg"
   },
   {
+   "id": "4adaf49bdbd2",
+   "titulo": "Ciro y los Persas",
+   "categoria": "Música",
+   "lugar": "Estadio Diego Armando Maradona",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Ciro y Los Persas llegan a Buenos Aires el 24 de octubre con un show que recorre los grandes clásicos de la banda y suma canciones de su trayectoria como solista. Una noche para cantar, saltar y disfrutar del rock argent",
+   "url": "https://vidrierabuenosaires.com/eventos/ciro-y-los-persas",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/ciro-y-los-persas/cirobendu-1024x683.webp-reduced-cqm2gv"
+  },
+  {
    "id": "e40a54a894e9",
    "titulo": "Clamores",
    "categoria": "Teatro",
@@ -13978,6 +15003,31 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "8d586c6bc391",
+   "titulo": "Cuadros de una exposición",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La Orquesta Académica del Colón, formada por los músicos más jóvenes de la casa, toma la Sala principal con un programa de alto voltaje. Primero, el Concierto para piano n.º 1 de Prokofiev, con Iván Rutkauskas como solis",
+   "url": "https://vidrierabuenosaires.com/eventos/cuadros-de-una-exposicion",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/cuadros-de-una-exposicion/academica_05_redes_web-2-2000x1125.png-reduced-kb6m1"
   },
   {
    "id": "608dd7dc42e1",
@@ -14729,6 +15779,31 @@
    "lng": -58.444055,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/26/000320926.jpg"
+  },
+  {
+   "id": "150274078014",
+   "titulo": "El vacío de toda espera",
+   "categoria": "Artes visuales",
+   "lugar": "MACBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-11-29",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La nueva exhibición fotográfica en blanco y negro del artista Gianni Civile, titulada \"El vacío de toda espera\", se inaugurará el 24 de octubre de 2026 en el espacio Kabinet del MACBA bajo la curaduría de Karina Acosta",
+   "url": "https://vidrierabuenosaires.com/eventos/el-vacio-de-toda-espera",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://vidriera.earth/el-vacio-de-toda-espera/civile-pag-1536x864.png-reduced-uwzb3l"
   },
   {
    "id": "6f8858359a7c",
@@ -16983,29 +18058,30 @@
    "imagen": ""
   },
   {
-   "id": "e0510e44cf10",
-   "titulo": "Luciano Pereyra en Movistar Arena",
+   "id": "2ed5ac3f11c8",
+   "titulo": "Luciano Pereyra",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "",
    "horarios": "",
-   "precio": "Desde $65.000",
-   "descripcion": "Recital: Luciano Pereyra en Movistar Arena en Movistar Arena Argentina.",
-   "url": "https://indiehoy.com/agenda/luciano-pereyra-en-movistar-arena-3/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "Luciano Pereyra se presentará en el Movistar Arena de Buenos Aires este sábado 24 de octubre de 2026 a las 21:00 hs, marcando el cierre de sus presentaciones en este recinto porteño en el marco de su exitoso tour mundial",
+   "url": "https://vidrierabuenosaires.com/eventos/luciano-pereyra",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/luciano-pereyra-movistar.jpg"
+   "lat": -34.59426,
+   "lng": -58.448137,
+   "embebible": true,
+   "imagen": "https://turismo.buenosaires.gob.ar/sites/turismo/files/field/image/luciano%20pereyra.jpg"
   },
   {
    "id": "ff11b9d00b32",
@@ -17084,6 +18160,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000321084.jpg"
   },
   {
+   "id": "621a24569236",
+   "titulo": "MUBI Fest en U.House: instalación, charla, video performance y música",
+   "categoria": "Cine",
+   "lugar": "U.House",
+   "barrio": "Chacarita",
+   "direccion": "Aguirre 1410",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "17:00 instalación; 18:30 charla; 19:30 video performance; 21 Ekathé; 22 Funk Poke",
+   "precio": "Gratis",
+   "descripcion": "Instalación fotográfica en homenaje a Agnès Varda (17), charla sobre terror argentino con Laura Casabé y Luciano Lamberti (18:30), video performance de Melon Manga (19:30), Ekathé (21) y DJ set de Funk Poke (22).",
+   "url": "https://www.timeout.com/es/buenos-aires/agenda-semana",
+   "dominio": "timeout.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Time Out Buenos Aires: Agenda"
+   ],
+   "lat": -34.589664,
+   "lng": -58.443479,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "325f356e7171",
    "titulo": "Magnanimidad & ausencia - tarrío rebobinado",
    "categoria": "Teatro",
@@ -17157,6 +18258,31 @@
    "lng": -58.424561,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/64/000311564.jpg"
+  },
+  {
+   "id": "effc2ffd7a3b",
+   "titulo": "Maratón “Bocetos guiados”",
+   "categoria": "Artes visuales",
+   "lugar": "Museo Nacional de Bellas Artes",
+   "barrio": "Recoleta",
+   "direccion": "Av. del Libertador 1473",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La Maratón “Bocetos guiados” es una jornada especial de dibujo de entrada libre y gratuita que se realizará el sábado 24 de octubre de 2026, de 14:00 a 18:00 h, en el Museo Nacional de Bellas Artes de Buenos Aires. El ev",
+   "url": "https://vidrierabuenosaires.com/eventos/maraton-bocetos-guiados",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.583915,
+   "lng": -58.392915,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/maraton-bocetos-guiados/55536189773_4f6cb456fb_k.jpg-reduced-utkz6m"
   },
   {
    "id": "1fe5b913a6f2",
@@ -20138,31 +21264,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/91/000318691.jpg"
   },
   {
-   "id": "ab15e505df9d",
-   "titulo": "¿dónde está alicia?",
-   "categoria": "Teatro",
-   "lugar": "Alquimia Centro Cultural",
-   "barrio": "Palermo",
-   "direccion": "Ravignani 1408",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-31",
-   "hora": "21:30",
-   "horarios": "Sáb 21:30 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Alquimia Centro Cultural (Palermo).",
-   "url": "https://www.alternativateatral.com/obra102737-donde-esta-alicia",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.584297,
-   "lng": -58.442405,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/92/000320192.jpg"
-  },
-  {
    "id": "a05bb06ae85f",
    "titulo": "¿inocentes o culpables?... elige sus destinos",
    "categoria": "Teatro",
@@ -20538,6 +21639,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000306199.jpg"
   },
   {
+   "id": "6613f48c9c96",
+   "titulo": "Atardecer en el Teatro Colón",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "El Colón a puertas cerradas y en grupo reducido. Es una visita guiada privada por los espacios más emblemáticos del teatro. Termina en el Salón Dorado con brindis, degustación de vinos, bocaditos y música clásica en vivo",
+   "url": "https://vidrierabuenosaires.com/eventos/atardecer-en-el-teatro-colon",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/atardecer-en-el-teatro-colon/atardecer-en-el-teatro-colon_v2_fin_web-solo-sol.png-reduced-pdd11v"
+  },
+  {
    "id": "673ce4031d9b",
    "titulo": "Aurora despierta",
    "categoria": "Teatro",
@@ -20638,29 +21764,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000309451.jpg"
   },
   {
-   "id": "d2633fbd979a",
+   "id": "6cf926af3794",
    "titulo": "Camilo",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-25",
+   "fecha_fin": "2026-10-26",
    "hora": "",
    "horarios": "",
-   "precio": "Desde $55.000",
-   "descripcion": "Recital: Camilo en Movistar Arena Argentina.",
-   "url": "https://indiehoy.com/agenda/camilo-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "El cantante colombiano Camilo se presentará en Buenos Aires los días domingo 25 y lunes 26 de octubre de 2026 en el Movistar Arena, en el marco de su gira internacional Camilo Worldwide Tour 2026.",
+   "url": "https://vidrierabuenosaires.com/eventos/camilo",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/camilo-movistar-arena-buenos-aires.jpg"
+   "lat": -34.59426,
+   "lng": -58.448137,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/camilo/camilo-en-miami.jpg-reduced-c0zlrr"
   },
   {
    "id": "c0fd5226a862",
@@ -20886,6 +22013,31 @@
    "lng": -58.470676,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000267351.jpg"
+  },
+  {
+   "id": "de71c406e04b",
+   "titulo": "Concierto entre almohadones: Cartas que cantan",
+   "categoria": "Música",
+   "lugar": "Teatro Colón",
+   "barrio": "San Nicolás",
+   "direccion": "Cerrito 628",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-12-13",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Dos hermanos castigados sin pantallas en un altillo, y un cartero perdido entre siglos con una bolsa de cartas que nunca llegaron. Así arranca la segunda edición de este clásico familiar del Salón Dorado, donde los chico",
+   "url": "https://vidrierabuenosaires.com/eventos/concierto-entre-almohadones-cartas-que-cantan",
+   "dominio": "vidrierabuenosaires.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Vidriera BA"
+   ],
+   "lat": -34.601086,
+   "lng": -58.383187,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/concierto-entre-almohadones-cartas-que-cantan/wlgpymmn.png-reduced-qeqnue"
   },
   {
    "id": "9d3b85158ee8",
@@ -24241,6 +25393,31 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195421976%2F222974203638%2F1%2Foriginal.20261009-020629?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.991&fp-y=0.199&s=3c6ac1fa99510dcce3ceff933f7d3fed"
   },
   {
+   "id": "6b8dd70cad74",
+   "titulo": "The Fog, de John Carpenter + tres cortometrajes (a beneficio de La última carta)",
+   "categoria": "Cine",
+   "lugar": "CUALQUIER LADO",
+   "barrio": "Villa Santa Rita",
+   "direccion": "Pasaje Las Provincias 3164",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "$ 7000",
+   "descripcion": "Proyección de The Fog (John Carpenter) y tres cortometrajes para ayudar a financiar el corto La última carta. Cupos limitados; entradas por transferencia.",
+   "url": "https://www.instagram.com/cualquierlado_clubdeartes/p/Dej8lbLCKoc/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CUALQUIER LADO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "886fed068c04",
    "titulo": "Tiramisú (receta original)",
    "categoria": "Teatro",
@@ -24966,29 +26143,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/48/000312748.jpg"
   },
   {
-   "id": "452b9a23adbb",
-   "titulo": "Freddie de tommaso",
+   "id": "79d4ce531d5d",
+   "titulo": "Freddie De Tommaso y Nadine Sierra",
    "categoria": "Música",
    "lugar": "Teatro Colón",
-   "barrio": "San Nicolas",
+   "barrio": "San Nicolás",
    "direccion": "Cerrito 628",
    "fecha_inicio": "2026-10-26",
    "fecha_fin": "2026-10-26",
    "hora": "20:00",
    "horarios": "Lun 20:00 (el 26/10)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de clásica en Teatro Colón (San Nicolas).",
-   "url": "https://www.alternativateatral.com/obra100292-freddie-de-tommaso",
-   "dominio": "alternativateatral.com",
+   "descripcion": "El aclamado tenor Freddie De Tommaso y la célebre soprano Nadine Sierra se presentarán juntos en una imperdible Gala Lírica en Buenos Aires.",
+   "url": "https://vidrierabuenosaires.com/eventos/freddie-de-tommaso-y-nadine-sierra",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Alternativa Teatral"
    ],
    "lat": -34.601086,
    "lng": -58.383187,
    "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/45/000312445.jpg"
+   "imagen": "https://vidriera.earth/freddie-de-tommaso-y-nadine-sierra/nadine-sierra-y-freddie-de-tommaso.png-reduced-oee-rz"
   },
   {
    "id": "9544ac0174d0",
@@ -25366,29 +26544,30 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196000993%2F3009801078482%2F1%2Foriginal.20261016-205346?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.501&fp-y=0.664&s=600cb6e480063d49b84658cbc9ace044"
   },
   {
-   "id": "cb919f2fb987",
+   "id": "2e2a166e3994",
    "titulo": "Marc Anthony",
    "categoria": "Música",
-   "lugar": "Movistar Arena Argentina",
-   "barrio": "",
-   "direccion": "",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
    "fecha_inicio": "2026-10-28",
-   "fecha_fin": "2026-10-28",
+   "fecha_fin": "2026-10-29",
    "hora": "",
    "horarios": "",
-   "precio": "Desde $90.000",
-   "descripcion": "Recital: Marc Anthony en Movistar Arena Argentina.",
-   "url": "https://indiehoy.com/agenda/marc-anthony-en-argentina/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "Marc Anthony se presentará en Buenos Aires los próximos miércoles 28 y jueves 29 de octubre de 2026 en el Movistar Arena. El regreso del \"Rey de la Salsa\" a la Argentina generó un furor absoluto: tras agotarse por comple",
+   "url": "https://vidrierabuenosaires.com/eventos/marc-anthony",
+   "dominio": "vidrierabuenosaires.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
-   "lat": "",
-   "lng": "",
-   "embebible": false,
-   "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/marc-anthony-movistar.jpg"
+   "lat": -34.59426,
+   "lng": -58.448137,
+   "embebible": true,
+   "imagen": "https://vidriera.earth/marc-anthony/download.jpeg-reduced-qrtutq"
   },
   {
    "id": "d1002c249688",

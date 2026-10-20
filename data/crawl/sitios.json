@@ -125,13 +125,16 @@
    "notas": [
     "2026-10-14: Accesible. Tiene secciones de agenda semanal y mensual.",
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
-    "2026-10-14 [web] /agenda redirige a que-hacer-este-mes-agenda; la semanal está en /agenda-semana. Se cargaron los ítems con lugar y fecha en la ventana."
+    "2026-10-14 [web] /agenda redirige a que-hacer-este-mes-agenda; la semanal está en /agenda-semana. Se cargaron los ítems con lugar y fecha en la ventana.",
+    "2026-10-19 [web] 2026-10-19: lectura parcial de agenda-semana (editorial, 12 propuestas): cargadas MUBI Fest y su programa en U.House y Mihanovich en el Colón; quedaron sin cargar el festival de teatro en Almagro, el unipersonal de Villa Crespo, Rivarola, Artlab y otras. No se abrió que-hacer-este-mes-agenda."
    ],
    "comportamiento": {
-    "extraccion": "Notas con ítems numerados ('1. Título'), cada uno con fechas en el texto y 'Dónde:'. get_page_text solo trae el primer <article>: copiar el innerText de main.",
+    "extraccion": "artículo editorial con ~12 propuestas de la semana; get_page_text solo devuelve la primera, leer document.body.innerText por JS en tramos",
     "uso": "También sirve para descubrir espacios nuevos (sitios_nuevos).",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
-    "popups": "Ventana de newsletter: botón 'No, gracias'."
+    "popups": "Ventana de newsletter: botón 'No, gracias'.",
+    "plataforma": "HTTP 403 a scripts; abre en el navegador",
+    "sin_fichas": "artículo editorial que lista varias propuestas; no hay página por evento"
    },
    "entradas": [
     "https://www.timeout.com/es/buenos-aires/agenda-semana",
@@ -139,10 +142,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 11,
-     "paginas": 3
+     "eventos": 4,
+     "paginas": 1
     }
    },
    "historial": [
@@ -151,6 +154,19 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
+   ],
+   "enlaces_pendientes": [
+    {
+     "url": "https://www.timeout.com/es/buenos-aires/que-hacer-este-mes-agenda",
+     "texto": "",
+     "desde": "2026-10-19"
     }
    ]
   },
@@ -427,13 +443,14 @@
    "notas": [
     "2026-10-15: ticketera; Emergente Club Almagro vende sus entradas acá (events.flashpass.com.ar/eventos/<slug>). Puede traer eventos de otros lugares y de fuera de CABA: filtrar los de CABA.",
     "2026-10-15 [sondeo sin navegador] Sin navegador solo se ven eventos destacados (Búzios, Praia do Rosa, Hurlingham); falta encontrar el listado completo filtrado por CABA.",
-    "2026-10-15 [web] Ticketera sin listado de CABA; para El Emergente Almagro buscar su Instagram o Passline. Revisar si la plataforma agrega un buscador."
+    "2026-10-15 [web] Ticketera sin listado de CABA; para El Emergente Almagro buscar su Instagram o Passline. Revisar si la plataforma agrega un buscador.",
+    "2026-10-19 [web] 2026-10-19: portada con 12 eventos, ninguno en CABA (Brasil, Corrientes, Gran Buenos Aires)."
    ],
    "comportamiento": {
     "portada": "la portada destaca ~12 eventos (muchos en Brasil y fuera de CABA); no lista todo lo que vende",
     "fichas": "events.flashpass.com.ar/eventos/<slug> trae JSON-LD de un solo evento",
     "busqueda": "buscar en el navegador un listado o filtro por ciudad (Buenos Aires/CABA); Emergente Club Almagro vende acá",
-    "extraccion": "sin listado por ciudad: solo la portada con ~12 destacados; cada ficha /eventos/<slug> trae JSON-LD de un solo evento"
+    "extraccion": "portada con JSON-LD; se lee por HTTP con sondear.py --leer, la ficha trae 'Ubicación' con ciudad"
    },
    "enlaces_descartados": [
     {
@@ -457,10 +474,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "historial": [
@@ -469,7 +486,16 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
+   ],
+   "entradas": [
+    "https://events.flashpass.com.ar/"
    ]
   },
   {
@@ -3541,7 +3567,28 @@
    "direccion": "Jaures, Jean 690",
    "enlace_bio": "https://linktr.ee/elzorzalcultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elzorzalcultural"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elzorzalcultural",
+    "2026-10-19 [instagram] 2026-10-19: actividades semanales leídas del grid (lunes cambio de rol, Mujercitas, clases Masso-Naveira; miércoles Tango Bar). Quedan jueves a sábado (prácticas y milongas) sin leer."
+   ],
+   "comportamiento": {
+    "bio": "el Linktree lista milongas semanales sin fechas (y 'Eventos de Abril' vencido)",
+    "grilla": "el alt de las miniaturas trae el texto del post completo"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 4
+    }
    ]
   },
   {
@@ -5974,7 +6021,29 @@
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
    "direccion": "Gregorio Perez 3556",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "actividad": "cuenta casi inactiva: escuela de canto y estudio de grabación, sin agenda pública"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: Instagram casi inactivo, sin eventos."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-carlos-gardel",
@@ -7201,7 +7270,27 @@
    "direccion": "Acassuso 6930",
    "enlace_bio": "https://linktr.ee/eltanquecultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltanquecultural"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltanquecultural",
+    "2026-10-19 [instagram] 2026-10-19: Instagram sin eventos en la ventana (festival CooperARTE 18-23/11)."
+   ],
+   "comportamiento": {
+    "bio": "El Linktree no tiene agenda"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -12563,9 +12652,27 @@
    "barrio": "Versalles",
    "direccion": "Bruselas 785",
    "notas": [
-    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram"
+    "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
+    "2026-10-19 [instagram] 2026-10-19: sin posts propios en el grid compartido de @gops.ba."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "casa-brandon",
@@ -14603,11 +14710,33 @@
     "CUALQUIER LADO"
    ],
    "web": "",
-   "instagram": "@cualquierladoclubdeartes",
+   "instagram": "@cualquierlado_clubdeartes",
    "origen": "data/lugares.json",
    "barrio": "Villa Santa Rita",
    "direccion": "Las Provincias 3164",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "cuenta": "el handle correcto es @cualquierlado_clubdeartes (sin guion bajo antes era 404); anuncia con flyers de imagen, fecha dentro de la imagen"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: handle corregido a @cualquierlado_clubdeartes. Cata de vino sáb 7/11 queda fuera de la ventana."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-antonio-talerico",
@@ -17573,36 +17702,38 @@
    "origen": "descubierto en Búsqueda: ferias el 2026-10-14",
    "notas": [
     "2026-10-14: agenda cultural curada de CABA con fechas, dirección y precio",
-    "2026-10-15 [web] Agenda curada; el listado completo está en /eventos. No hay fecha de inicio en \"Hasta X\": se carga desde hoy."
+    "2026-10-15 [web] Agenda curada; el listado completo está en /eventos. No hay fecha de inicio en \"Hasta X\": se carga desde hoy.",
+    "2026-10-19 [web] 2026-10-19: 60 fichas leídas (curaduría de teatro, muestras y recitales grandes), sin precio. La última sesión de Freud figura desde 2023 en la fuente: se cargó con inicio en la ventana."
    ],
    "entradas": [
     "https://vidrierabuenosaires.com/eventos"
    ],
    "comportamiento": {
-    "extraccion": "listado /eventos: tipo, título, fecha (\"Hasta X\", Hoy, Mañana, \"17 oct · +1\"), lugar; vigentes arriba y \"Finalizado\" al pie",
+    "extraccion": "/eventos carga por JS (60 fichas tras 'ver más'); cada /eventos/<slug> trae JSON-LD Event y se lee por HTTP con sondear.pedir + objetos_evento",
     "ver_mas": "el enlace \"Ver más\" lleva a /newsletter: no apretarlo",
-    "copiar": "portapapeles"
+    "copiar": "portapapeles",
+    "precio": "el JSON-LD no trae offers; la ficha enlaza a la boletería"
    },
    "enlaces_descartados": [
     {
      "url": "https://vidrierabuenosaires.com/cultura",
      "texto": "Cultura",
-     "motivo": "notas y guías, no agenda",
-     "fecha": "2026-10-15"
+     "motivo": "notas editoriales, no eventos",
+     "fecha": "2026-10-19"
     },
     {
      "url": "https://vidrierabuenosaires.com/blog",
      "texto": "Blog",
-     "motivo": "blog, no agenda",
-     "fecha": "2026-10-15"
+     "motivo": "notas editoriales, no eventos",
+     "fecha": "2026-10-19"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 43,
-     "paginas": 2
+     "eventos": 60,
+     "paginas": 62
     }
    },
    "historial": [
@@ -17611,6 +17742,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 43
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 60
     }
    ],
    "bio_probada": "2026-10-15"

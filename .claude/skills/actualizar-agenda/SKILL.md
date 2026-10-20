@@ -351,7 +351,9 @@ On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or al
 ## 4b. Aggregators and discovery sources
 
 - **Turismo BA**: use `turismo()`. It returns the events already in the result format (with
-  `vigente_sin_fin` set): copy its `eventos` as is into the file, without rewriting them.
+  `vigente_sin_fin` set): copy its `eventos` as is into the file, without rewriting them. Without the
+  browser, the same array (`[{"orden"...`) is in the HTML that `sondear.pedir` returns: parse it with
+  `json.JSONDecoder().raw_decode` and apply the same mapping.
 - **SalePlan**: **it is not opened in the browser.** It is read at the end with
   `python scripts/saleplan.py` (section 7): it reads the listings over HTTP and saves only what no other
   source brought, with no venue. If `siguiente` shows it, skip it. Only if the script says it could not
