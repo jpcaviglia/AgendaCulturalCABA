@@ -268,6 +268,20 @@ day and time goes as a separate event.
 - Permanent guided tours (every day, or "lunes 11 h" with no announced end): one event with
   `vigente_sin_fin: true`, `fecha_inicio` the premiere date if given or today's, and the times and prices.
 - **Virtual** or online events: not loaded, even if the organizer is a CABA venue.
+- **Recurring cycles** published only by periodicity ("3er martes de cada mes", "último sábado", "todas las
+  semanas"): compute the dates that fall in the window and load one event per date, or one event with
+  `horarios` if weekly. A cycle whose text names a past period ("todos los lunes de Marzo 2026") or a
+  workshop list that says "programación definitiva a fin de marzo" is stale: do not load it, say so in the `nota`.
+- **Cinemas and listings with a day selector** (one page per film with tabs by day): read every tab. Films
+  differ: some open today and others only on Friday or Sunday, so never copy one film's dates to the rest.
+- **A venue's own agenda is out of date but its ticketing page is not** (Casa Brandon: `/agenda/` stopped on
+  the 18th, Passline had the next two weeks): load from the ticketing listing, with the venue as `lugar`, and
+  say it in the `nota`. The Passline data already read for the Passline site can be reused for this.
+- **Weekly bar programming** (trivias, bingos, "pizza y vino libre", Tinder Night, chess tournaments) is
+  loaded only when it is cultural (talleres, charlas, degustaciones, karaoke, ciclos); say what was left out
+  in `comportamiento`. A current exhibition with no closing date anywhere is not loaded.
+- A museum whose home page or Instagram bio says "cerrado por montaje" and whose posts carry no dates is
+  `sin_eventos` with that as `evidencia`.
 
 ### 3.4 New links
 
