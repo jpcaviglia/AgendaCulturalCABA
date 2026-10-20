@@ -1,0 +1,33 @@
+{
+ "id": "el-cultural-san-martin",
+ "canal": "web",
+ "fuente": "El Cultural San Martín",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://elculturalsanmartin.ar/",
+  "https://elculturalsanmartin.ar/eventos/",
+  "https://elculturalsanmartin.ar/cursos-octubre/",
+  "https://elculturalsanmartin.ar/evento/la-vida-por-correspondencia/"
+ ],
+ "eventos": [
+  {
+   "titulo": "La vida por correspondencia: lectura pública de cartas",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "Sábados 24 y 31 de octubre, 17 h",
+   "lugar": "Casa de la Cultura · Subsuelo",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 575",
+   "categoria": "Literatura y charlas",
+   "precio": "",
+   "url": "https://elculturalsanmartin.ar/evento/la-vida-por-correspondencia/",
+   "descripcion": "Mercedes Morán, Lorena Vega, Analía Couceyro y Cristina Banegas leen cartas extraordinarias de escritores y artistas, de Kafka a Pizarnik, de Virginia Woolf a Manuel Puig, de John Cage a Van Gogh.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "la-conversa",
+ "canal": "instagram",
+ "fuente": "LA CONVERSA",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/espaciolaconversa/",
+  "https://www.instagram.com/p/DemhC0nNAie/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Distancia: Hernán Genovese y Roger Helou",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "La Conversa",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 809",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.instagram.com/p/DemhC0nNAie/",
+   "descripcion": "Tangos, milongas y artistas invitados con Hernán Genovese y Roger Helou. Capacidad limitada; reservas por WhatsApp.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DemhC0nNAie/",
+   "imagen": ""
+  },
+  {
+   "titulo": "1000 guitarras para Víctor Jara",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "La Conversa",
+   "barrio": "Boedo",
+   "direccion": "Castro Barros 809",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.instagram.com/espaciolaconversa/",
+   "descripcion": "Espacio de encuentro con música, teatro y poesía en homenaje a Víctor Jara. Capacidad limitada; reservas por WhatsApp.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/espaciolaconversa/",
+   "imagen": ""
+  }
+ ]
+}

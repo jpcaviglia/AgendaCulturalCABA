@@ -228,6 +228,23 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   wait 2.5 s) for the next week, collect the `/event/<id>-<slug>` links from the `<a>` tags, and `fetch('/event/<slug>')`
   from the same tab: the HTML has the prices with `$` and `og:image`. An Instagram bio may write the domain as
   `.fanz.com` when it is `.fanz.com.ar`.
+- **Fanz sites where the "Entradas" buttons are not links** (Club Cultural Matienzo): the home lists every event by date, but each
+  button is a `<div>`: click it from JS (`[...document.querySelectorAll('*')].filter(e=>e.children.length===0&&/^\s*Entradas\s*$/.test(e.innerText))[i].click()`),
+  wait 3 s and read `location.pathname` (`/event/<id>-<slug>`); navigate back to the home for the next one. Its `og:image` is the
+  platform's logo (`white-label-logos-fanz`): never use it as the event's picture.
+- **Tickethoy white-label sites** (tickets.congoclubcultural.com.ar, `/musica/<slug>`): a single-page app. Open each event in a hidden
+  same-origin `iframe` (`f.src=h; await sleep(6000); f.contentDocument.body.innerText`) inside an async IIFE and poll `window.__done`;
+  the page says `Entradas desde $X` (free events: `ENTRADA LIBRE Y GRATUITA`) and the photo is `api.tickethoy.org/images/eventos/<id>/imgn0000.jpg`.
+- **Bombo** (`wearebombo.app.link/<id>` redirects to `wearebombo.com/event/<id>`): 403 for Python; in the browser the page has the hours,
+  the prices with `$` (they sometimes do not load) and `files.wearebombo.com/events/<blob>` as `og:image`.
+- **Wix Events** (clubsocialcambalache.com): the home lists "Próximos eventos" with day and hour inside the title; each
+  `/detalles-y-registro/<slug>` is rendered by JavaScript (`fetch` gives the shell); the picture is the `og:image` on wixstatic.
+- **Alternativa Teatral venue page** (`/espacio<N>-<slug>`): lists the plays with links `/obra<N>-<slug>`; each one has `og:image`
+  (`img.alternativateatral.com/scripts/es/fotos/obras/resumen/...`) but almost never the price over HTTP. Use it to get links and
+  pictures when the venue's own site only shows days and hours (El Galpón de Guevara).
+- **Programme as a JS page + HTTP fichas** (complejoteatral.gob.ar): `/agenda/` fills the cards with JavaScript, but the
+  `/produccion/<slug>/` links read from the tab can be fetched with `sondear.pedir`: "Funciones", "Valor de las localidades", "Dónde" and `og:image`.
+  Importing `navegador.js` hung that page for 45 s: use small snippets of your own.
 - **Cinemas on Cinexo** (cinegaumont.ar): the day selector calls
   `https://apifront.cinexo.com.ar/mobile/consultas/peliculas/PeliculasConFuncionesYHorarios?idComplejo=<id>&fecha=DD/MM/AAAA`
   (the `idComplejo` shows in `performance.getEntriesByType('resource')`). `data.datos` are the films and

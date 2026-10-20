@@ -1,0 +1,67 @@
+{
+ "id": "club-cultural-matienzo",
+ "canal": "web",
+ "fuente": "CLUB CULTURAL MATIENZO",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.ccmatienzo.com.ar/",
+  "https://www.ccmatienzo.com.ar/event/172103-promesa-pussy-boys-caco-otro-juan",
+  "https://www.ccmatienzo.com.ar/event/154613-sol-bassa-ciruelo-mostruo",
+  "https://www.ccmatienzo.com.ar/event/165239-reybruja-en-matienzo"
+ ],
+ "eventos": [
+  {
+   "titulo": "Promesa: Pussy Boys, Caco y Otro Juan",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Gratis",
+   "url": "https://www.ccmatienzo.com.ar/event/172103-promesa-pussy-boys-caco-otro-juan",
+   "descripcion": "Ciclo Promesa: tres bandas emergentes por fecha (Pussy Boys, Caco y Otro Juan). Entradas gratuitas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Sol Bassa + Ciruelo + Mostruo",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "$ 15000",
+   "url": "https://www.ccmatienzo.com.ar/event/154613-sol-bassa-ciruelo-mostruo",
+   "descripcion": "Recital con Sol Bassa, Ciruelo y Mostruo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Reybruja en Matienzo",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "CLUB CULTURAL MATIENZO",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "$ 12000",
+   "url": "https://www.ccmatienzo.com.ar/event/165239-reybruja-en-matienzo",
+   "descripcion": "Reybruja en vivo en Club Cultural Matienzo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

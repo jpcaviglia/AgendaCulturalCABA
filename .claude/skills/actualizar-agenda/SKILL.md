@@ -363,7 +363,9 @@ repository) holds every opened post with the events it had. Do not open them aga
    Open **only the NEW ones** (up to ~9) and the "Agenda", "Cartelera", "Programación" highlights if there
    are any. Run `instagram_post` on each. Use `publicado` to deduce the year of dates like "sábado 18". If a
    new post is more than 2 months old and the earlier ones too, there is no need to keep going down.
-3. If the text has no date, look at the poster (screenshot).
+3. If the text has no date, look at the poster (screenshot). A post that is a carousel ("Este finde", "Octubre") usually has the
+   agenda on the 2nd image: click the arrow and read the screenshot. If a screenshot or JS call times out, the tab's renderer is
+   frozen: open a new tab (`tabs_create_mcp`, then `tabs_context_mcp`) and continue there.
 4. Follow the bio link (`bio` or `enlace_bio`): Linktree, ticketing site or website. Apply section 3.
 5. In the result put:
    - `posts`: **all** the grid post URLs you considered, new and already seen, with `publicado` if you know
