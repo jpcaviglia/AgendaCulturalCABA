@@ -715,17 +715,18 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 2
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "comportamiento": {
     "estructura": "/muestras/ redirige al año en curso; 'Ahora en Ruth Benzacar' con 'dd/mm al dd/mm'."
    },
    "notas": [
-    "2026-10-15 [web] Juan Ramírez de Velasco 1287, Villa Crespo."
+    "2026-10-15 [web] Juan Ramírez de Velasco 1287, Villa Crespo.",
+    "2026-10-19 [web] 2026-10-19: las últimas muestras (Andrés Piña y Roberto Aizenberg) cerraron el 17/10; sin próxima publicada."
    ],
    "historial": [
     {
@@ -733,6 +734,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://ruthbenzacar.com/novedades/",
+     "texto": "Novedades",
+     "motivo": "participaciones de los artistas en ferias y muestras de otras ciudades",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -751,17 +766,18 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 3,
      "paginas": 4
     }
    },
    "comportamiento": {
-    "fichas": "Las fechas están en cada ficha (/muestras/<slug>/)."
+    "fichas": "Las fechas están en cada ficha (/muestras/<slug>/); /muestras/ se lee por HTTP"
    },
    "notas": [
-    "2026-10-15 [web] Tres muestras actuales hasta el 14/11."
+    "2026-10-15 [web] Tres muestras actuales hasta el 14/11.",
+    "2026-10-19 [web] 2026-10-19: tres exhibiciones actuales del 12/9 al 14/11 (sin dirección ni horario leídos)."
    ],
    "historial": [
     {
@@ -769,6 +785,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://norafisch.com/muestras/",
+     "texto": "Anteriores",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -784,7 +814,7 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -793,13 +823,14 @@
    "notas": [
     "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual.",
     "2026-10-15: la web cambió de https://www.albertosendros.com a http://galeriasendros.com/",
-    "2026-10-15 [web] Web nueva galeriasendros.com e Instagram @galeria.sendros; la web no tiene muestra vigente, mirar el Instagram."
+    "2026-10-15 [web] Web nueva galeriasendros.com e Instagram @galeria.sendros; la web no tiene muestra vigente, mirar el Instagram.",
+    "2026-10-19 [web] 2026-10-19: la 'muestra actual' leída por HTTP es Nicolás Bacal (7/6 al 12/7), ya terminada; abrirla en el navegador por si la portada se actualiza con JS."
    ],
    "entradas": [
     "http://galeriasendros.com/"
    ],
    "comportamiento": {
-    "estructura": "Una sola página con anclas: #muestraActual, #muestrasPasadas, #artistas. La muestra actual se ve arriba de todo."
+    "estructura": "La portada muestra la 'muestra actual' con título y 'DD MES al DD MES'; por HTTP llegó la de junio-julio"
    },
    "historial": [
     {
@@ -807,41 +838,21 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
-    }
-   ],
-   "bio_probada": "2026-10-15"
-  },
-  {
-   "id": "ignacio-liprandi",
-   "nombre": "Ignacio Liprandi",
-   "tipo": "galeria",
-   "lugares": [
-    "Ignacio Liprandi"
-   ],
-   "web": "https://www.ignacioliprandi.com",
-   "instagram": "",
-   "origen": "data/galerias.json",
-   "ultimo": {
-    "web": {
-     "fecha": "2026-10-15",
-     "estado": "dominio_caido",
-     "eventos": 0,
-     "paginas": 2
-    }
-   },
-   "notas": [
-    "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Dominio perdido; la galería podría haber cerrado. Revisar a mano."
-   ],
-   "comportamiento": {
-    "dominio": "secuestrado / vendido (2026-10)"
-   },
-   "historial": [
+    },
     {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "canal": "web",
-     "estado": "dominio_caido",
+     "estado": "sin_eventos",
      "eventos": 0
+    }
+   ],
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "http://galeriasendros.com/",
+     "texto": "Muestras pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -857,21 +868,24 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "fecha": "2026-10-19",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] La web propia no publica muestras."
+    "2026-10-15 [web] La web propia no publica muestras.",
+    "2026-10-19 [web] 2026-10-19: la web es solo institucional; la programación está en Instagram."
    ],
    "entradas": [
     "https://somosmeridiano.com.ar/agenda/"
    ],
    "comportamiento": {
-    "web": "rubbers.com.ar es una sola página con la historia de la galería, sin muestras; la muestra actual sale en la agenda de Meridiano y en Instagram."
+    "web": "rubbers.com.ar es una sola página con la historia de la galería, sin muestras; la muestra actual sale en la agenda de Meridiano y en Instagram.",
+    "bloqueos": "HTTP 403 a scripts; en el navegador carga",
+    "espera_seg": 6
    },
    "historial": [
     {
@@ -879,9 +893,23 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.en.rubbers.com.ar/",
+     "texto": "English",
+     "motivo": "misma página en inglés",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "id": "coleccion-fortabat",
@@ -1297,23 +1325,25 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga.",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.rolfart.com a https://rolfart.com.ar/",
-    "2026-10-15 [web] On view con fechas en la portada."
+    "2026-10-15 [web] On view con fechas en la portada.",
+    "2026-10-19 [web] 2026-10-19: próxima exhibición DAFA desde el 23/10 (cierre ambiguo en la portada) y arteBA 29/10-1/11; las exhibiciones institucionales son fuera de CABA (salvo Estado de asamblea en ArtHaus)."
    ],
    "entradas": [
     "https://rolfart.com.ar/"
    ],
    "comportamiento": {
-    "web": "www.rolfart.com da página de error; la web actual es rolfart.com.ar"
+    "web": "www.rolfart.com da error; la web actual es rolfart.com.ar",
+    "sin_fichas": "la portada lista exhibiciones y ferias sin página por evento; las 'ON VIEW | INSTITUTIONAL' son en museos de otras ciudades"
    },
    "historial": [
     {
@@ -1321,6 +1351,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -1456,7 +1492,7 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 2
@@ -1465,14 +1501,22 @@
    "notas": [
     "2026-10-14 [revisión anterior: caido] Cuenta suspendida.",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
-    "2026-10-15 [web] Web suspendida; rastrear por Instagram."
+    "2026-10-15 [web] Web suspendida; rastrear por Instagram.",
+    "2026-10-19 [web] 2026-10-19: la web está suspendida; usar Instagram @mamanfineartgallery."
    ],
    "comportamiento": {
-    "web": "hosting suspendido (2026-10)"
+    "web": "hosting suspendido (2026-10)",
+    "bloqueos": "HTTP 523 a scripts; cuenta de hosting suspendida"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -1582,23 +1626,31 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 1
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: Defensa 1369, San Telmo. Tiene sección W—agenda",
     "2026-10-15 [web] Dos exhibiciones vigentes.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/w_w_w_galeria"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/w_w_w_galeria",
+    "2026-10-19 [web] 2026-10-19: dos ediciones vigentes (Banquete y Persistencias); las de W—galería terminaron en septiembre. Sin días exactos, dirección ni horarios leídos (el día de inicio de Banquete es aproximado)."
    ],
    "comportamiento": {
-    "fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae."
+    "fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae.",
+    "extraccion": "/index.php/es/exhibitions lista las ediciones con 'Mes año / Mes año' y espacio (W—galería, W—archivo, W—naturae); se lee por HTTP"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
@@ -1913,22 +1965,25 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 6
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "entradas": [
+    "https://artexarte.com.ar/",
     "https://artexarte.com.ar/la-breve-eternidad/",
     "https://artexarte.com.ar/actividades/"
    ],
    "comportamiento": {
     "menu": "Muestra Actual (enlace a la página de la muestra), Actividades, Visitas Guiadas, Eventos, Encuentros",
-    "plataforma": "WordPress"
+    "plataforma": "WordPress",
+    "extraccion": "La portada trae 'Muestra Actual' con 'Del ... al ...'"
    },
    "notas": [
-    "2026-10-15 [web] Lavalleja 1062. La web no tiene muestra vigente en octubre; revisar Instagram @artexarteespacio."
+    "2026-10-15 [web] Lavalleja 1062. La web no tiene muestra vigente en octubre; revisar Instagram @artexarteespacio.",
+    "2026-10-19 [web] 2026-10-19: El espacio infinito (10/9 al 7/11)."
    ],
    "historial": [
     {
@@ -1936,9 +1991,23 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://artexarte.com.ar/programa-de-becas-para-clinica-de-proyectos-artisticos-2026/",
+     "texto": "Clínica de proyectos artísticos",
+     "motivo": "convocatoria de becas, no evento",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "id": "almacen-de-arte",
@@ -1953,21 +2022,23 @@
    "notas": [
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de  a https://www.almacendearte.net/",
-    "2026-10-15 [web] Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram."
+    "2026-10-15 [web] Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram.",
+    "2026-10-19 [web] 2026-10-19: sin actividades desde 2023; la presencial es en San Nicolás de los Arroyos."
    ],
    "entradas": [
     "https://www.almacendearte.net/actividades"
    ],
    "comportamiento": {
-    "plataforma": "Wix",
-    "sede": "Sede CABA ALMACÉN 47 dentro de Central AFFAIR (Galerías Larreta)."
+    "plataforma": "Wix; HTTP da 403 a scripts, en el navegador carga",
+    "sede": "Sede CABA ALMACÉN 47 dentro de Central AFFAIR (Galerías Larreta).",
+    "bloqueos": "403 a scripts"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 5
+     "paginas": 2
     }
    },
    "historial": [
@@ -1976,9 +2047,29 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.almacendearte.net/artistas",
+     "texto": "Artistas",
+     "motivo": "directorio de artistas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.almacendearte.net/almacen-47",
+     "texto": "ALMACÉN 47",
+     "motivo": "home gallery en San Nicolás de los Arroyos, fuera de CABA",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "id": "macba-museo-de-arte-contemporaneo-de-buenos-aires",
@@ -9945,7 +10036,27 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Gascon 1474",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: handle sin respuesta; buscar la cuenta nueva (Multiespacio JXI, Palermo)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "multiespacio-korova",
@@ -14192,7 +14303,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Estado De Israel Av. 4791",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "actividad": "sin posts desde ~julio de 2026"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: sin eventos próximos; último post de julio aprox."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "oceanario-club-cultural",
@@ -14622,7 +14755,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Del Parque",
    "direccion": "No confirmada",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: handle sin respuesta; buscar la cuenta nueva de Neu Kultur Haus (La Paternal)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-devoto",
@@ -16619,7 +16772,8 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.xulsolar.org.ar/",
     "2026-10-15 [web] Martes a viernes 12-20, sábados 12-19; entrada general $9.000.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoxulsolar"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoxulsolar",
+    "2026-10-19 [web] 2026-10-19: una visita guiada (jueves 18 h, hasta el 22/10) en Eventbrite; la programación del mes está en una carpeta de Drive que no se pudo abrir."
    ],
    "id": "museo-xul-solar",
    "entradas": [
@@ -16627,14 +16781,17 @@
     "https://www.xulsolar.org.ar/"
    ],
    "comportamiento": {
-    "programacion": "La programación mensual es un PDF en Drive; las actividades pagas se venden en Eventbrite (organizador 38576839753)."
+    "programacion": "La programación mensual es un PDF en Drive; las actividades pagas se venden en Eventbrite (organizador 38576839753).",
+    "bloqueos": "xulsolar.org.ar responde 403 a scripts",
+    "extraccion": "las actividades están en el Eventbrite del museo (enlace de la bio); la ficha trae startDate/endDate en el JSON-LD",
+    "horarios": "martes a viernes 12 a 20 h, sábados 12 a 19 h"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 3
+     "paginas": 4
     }
    },
    "historial": [
@@ -16643,11 +16800,25 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Palermo",
    "direccion": "Laprida 1212",
-   "enlace_bio": "https://linktr.ee/museoxulsolar"
+   "enlace_bio": "https://linktr.ee/museoxulsolar",
+   "enlaces_descartados": [
+    {
+     "url": "https://drive.google.com/drive/folders/1IVchp7ddgQhhyE-ts-TL5HbX2yEEnTEz?usp=drive_link",
+     "texto": "Programación del Mes (Drive)",
+     "motivo": "carpeta de Google Drive, pide permisos",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo Nacional del Grabado",
@@ -16794,21 +16965,24 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museodelacarcova.una.edu.ar/",
-    "2026-10-15 [web] Museo de la UNA en Costanera Sur."
+    "2026-10-15 [web] Museo de la UNA en Costanera Sur.",
+    "2026-10-19 [web] 2026-10-19: una jornada el 24/10 y la muestra Cooperación. Esfuerzo. Porvenir. (dato de otra fuente); sin dirección ni horarios leídos."
    ],
    "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova",
    "entradas": [
+    "https://museodelacarcova.una.edu.ar/agenda",
     "https://museodelacarcova.una.edu.ar/"
    ],
    "comportamiento": {
-    "estructura": "Portada con 'AGENDA' (fecha + título) y exposiciones con rango 'Del dd.mm.aaaa al dd.mm.aaaa'."
+    "estructura": "el sitio es de la UNA: /agenda lista fecha y título; las exposiciones temporarias no tienen listado con fechas (texto institucional)",
+    "sin_fichas": "la exposición vigente no tiene ficha propia"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 2
+     "eventos": 2,
+     "paginas": 5
     }
    },
    "historial": [
@@ -16817,11 +16991,31 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Puerto Madero",
    "direccion": "Av. España 1701",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://museodelacarcova.una.edu.ar/contenidos/visitas-guiadas_12934",
+     "texto": "Visitas guiadas",
+     "motivo": "visitas con turno para instituciones",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://museodelacarcova.una.edu.ar/contenidos/la-coleccion_12939",
+     "texto": "Colección Permanente",
+     "motivo": "descripción de la colección",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Museo Casa de Yrurtia",
@@ -16902,21 +17096,24 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://socearq.org/marq/",
-    "2026-10-15 [web] MARQ funciona en Av. del Libertador 999; revisar Instagram."
+    "2026-10-15 [web] MARQ funciona en Av. del Libertador 999; revisar Instagram.",
+    "2026-10-19 [web] 2026-10-19: el MARQ no tiene actividades publicadas para octubre-noviembre; las últimas son de junio."
    ],
    "id": "marq-museo-de-arquitectura-y-diseno",
    "entradas": [
     "https://socearq.org/marq/"
    ],
    "comportamiento": {
-    "web": "No tiene web propia: la programación sale en socearq.org/marq/ y en Instagram @marq_sca."
+    "web": "No tiene web propia: la programación sale en socearq.org/marq/ y en Instagram @marq_sca.",
+    "espera_seg": 7,
+    "extraccion": "la sección MARQ de socearq.org lista sus actividades como notas con fecha; cargar en el navegador"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 3
     }
    },
    "historial": [
@@ -16925,11 +17122,31 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
    "barrio": "Recoleta",
    "direccion": "Av. del Libertador 999",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://socearq.org/escuela/",
+     "texto": "Escuela",
+     "motivo": "cursos de la Sociedad Central de Arquitectos, no del museo ni abiertos a todo público; sin fechas de octubre o noviembre",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://socearq.org/biblioteca/",
+     "texto": "Biblioteca",
+     "motivo": "servicio de biblioteca",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Fundación Andreani",
@@ -17071,18 +17288,21 @@
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.pastogaleria.com.ar/",
-    "2026-10-15 [web] Web confirmada pastogaleria.com.ar."
+    "2026-10-15 [web] Web confirmada pastogaleria.com.ar.",
+    "2026-10-19 [web] 2026-10-19: Cantini hasta el 2/11; sin próxima anunciada. Sin dirección ni horario leídos."
    ],
    "id": "pasto-galeria",
    "entradas": [
+    "https://www.pastogaleria.com.ar/exhibiciones.php",
     "https://www.pastogaleria.com.ar/"
    ],
    "comportamiento": {
-    "estructura": "La portada muestra 'Exhibición actual' sin fechas; las fechas están en la agenda de Meridiano."
+    "estructura": "La portada muestra 'Exhibición actual' sin fechas; las fechas están en la agenda de Meridiano.",
+    "extraccion": "/exhibiciones.php muestra la 'ACTUAL' con 'd de Mes - d de Mes año'; se lee por HTTP con sondear.py --leer"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -17094,10 +17314,30 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Retiro",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.pastogaleria.com.ar/exhibiciones_pasadas.php",
+     "texto": "Pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.pastogaleria.com.ar/ferias.php",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Hache Galería",
@@ -17158,18 +17398,20 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.gachiprieto.com/",
     "2026-10-15 [web] Web confirmada gachiprieto.com; sin muestras publicadas, mirar Instagram.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/gachiprietogaleria"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/gachiprietogaleria",
+    "2026-10-19 [web] 2026-10-19: la web no publica programación en texto; ver Instagram."
    ],
    "id": "gachi-prieto-galeria",
    "comportamiento": {
-    "plataforma": "Wix"
+    "plataforma": "Wix; HTTP da 403/error a scripts, carga en el navegador; las secciones son grillas de imágenes sin texto",
+    "espera_seg": 6
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-19",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 4
     }
    },
    "historial": [
@@ -17178,9 +17420,29 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
     }
    ],
-   "enlace_bio": "https://linktr.ee/gachiprietogaleria"
+   "enlace_bio": "https://linktr.ee/gachiprietogaleria",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.gachiprieto.com/ferias",
+     "texto": "Ferias",
+     "motivo": "ferias en el exterior",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://www.gachiprieto.com/artistas",
+     "texto": "Artistas",
+     "motivo": "directorio de artistas",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Galería Luisa Pedrouzo",
@@ -17324,17 +17586,25 @@
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
-    "2026-10-15 [web] Galería con Instagram @galeriamardulce y tienda online."
+    "2026-10-15 [web] Galería con Instagram @galeriamardulce y tienda online.",
+    "2026-10-19 [instagram] 2026-10-19: inauguración de Carolina Romano el 24/10 (sin fecha de cierre); la de María Luque terminó el 17/10."
    ],
    "id": "mar-dulce-galeria",
    "comportamiento": {
-    "canal": "sin web de muestras; usar Instagram"
+    "canal": "sin web de muestras; usar Instagram",
+    "grilla": "el alt de las miniaturas trae el texto completo de cada post"
    },
    "ultimo": {
     "web": {
      "fecha": "2026-10-15",
      "estado": "sin_agenda",
      "eventos": 0,
+     "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
      "paginas": 1
     }
    },
@@ -17344,6 +17614,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15"
@@ -17361,15 +17637,17 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://cosmocosa.com/",
     "2026-10-15 [web] Galería abierta en Montevideo 1430 (Recoleta); la web está en renovación, mirar Instagram.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cosmocosa"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cosmocosa",
+    "2026-10-19 [web] 2026-10-19: la web está en renovación; dirección Montevideo 1430 PB."
    ],
    "id": "cosmocosa",
    "comportamiento": {
-    "estado_web": "en renovación (octubre 2026)"
+    "estado_web": "en renovación (octubre 2026)",
+    "web": "en renovación al 2026-10-19; mirar el Linktree o Instagram"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -17381,11 +17659,25 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
     }
    ],
    "barrio": "Recoleta",
    "direccion": "Montevideo 1430, PB",
-   "enlace_bio": "https://linktr.ee/cosmocosa"
+   "enlace_bio": "https://linktr.ee/cosmocosa",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.artsy.net/partner/cosmocosa",
+     "texto": "Artsy",
+     "motivo": "perfil en Artsy con muestras ya pasadas",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Fundación Larivière",

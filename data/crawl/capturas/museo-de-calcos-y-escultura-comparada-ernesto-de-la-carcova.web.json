@@ -1,0 +1,51 @@
+{
+ "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova",
+ "canal": "web",
+ "fuente": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://museodelacarcova.una.edu.ar/",
+  "https://museodelacarcova.una.edu.ar/agenda",
+  "https://museodelacarcova.una.edu.ar/agenda/viva-la-litografia_49071",
+  "https://museodelacarcova.una.edu.ar/contenidos/exposiciones-temporarias_20738",
+  "https://museodelacarcova.una.edu.ar/contenidos/visitas-guiadas_12934"
+ ],
+ "eventos": [
+  {
+   "titulo": "¡Viva la litografía! 40 años del taller Aída Carballo",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "11:00",
+   "horarios": "11 h conversación; 15 h taller abierto de litografía",
+   "lugar": "Museo de la Cárcova",
+   "barrio": "Puerto Madero",
+   "direccion": "",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://museodelacarcova.una.edu.ar/agenda/viva-la-litografia_49071",
+   "descripcion": "Jornada por los 40 años del taller de litografía y los 10 de su reapertura: conversación abierta con docentes de distintas etapas, talleres de litografía y tipografía, exposición de estampas y encuentro.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Cooperación. Esfuerzo. Porvenir.",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Museo de la Cárcova",
+   "barrio": "Puerto Madero",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://museodelacarcova.una.edu.ar/contenidos/exposiciones-temporarias_20738",
+   "descripcion": "Exposición en el Museo de la Cárcova, del 17 de septiembre al 27 de noviembre (dato del Museo Casa de Yrurtia).",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

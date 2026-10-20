@@ -1,0 +1,31 @@
+{
+ "id": "arte-x-arte",
+ "canal": "web",
+ "fuente": "Arte x Arte",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://artexarte.com.ar/",
+  "https://artexarte.com.ar/la-breve-eternidad/"
+ ],
+ "eventos": [
+  {
+   "titulo": "El espacio infinito: Georges Rousse y Jorge Luis Borges",
+   "fecha_inicio": "2026-09-10",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Arte x Arte",
+   "barrio": "Villa Crespo",
+   "direccion": "Lavalleja 1062",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://artexarte.com.ar/la-breve-eternidad/",
+   "descripcion": "Diálogo entre la fotografía de Georges Rousse y la literatura de Borges sobre espacio, mirada y perspectiva; curaduría de Marisa Sanabria Sequeiros.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

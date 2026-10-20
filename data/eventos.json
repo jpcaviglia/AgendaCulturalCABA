@@ -5,12 +5,13 @@
   "hasta": "2026-11-02"
  },
  "rastreo": {
-  "capturas": 89,
-  "con_eventos": 65
+  "capturas": 108,
+  "con_eventos": 73
  },
  "fuentes": [
   "Alternativa Teatral",
   "Arte al Día: agenda",
+  "Arte x Arte",
   "Buenos Aires Secreta: planes del fin de semana",
   "Buenos Aliens",
   "CASA DE LA PROVINCIA DE BUENOS AIRES",
@@ -57,23 +58,30 @@
   "La Rural Ticket",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
   "MALBA",
+  "Mar Dulce Galería",
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
   "Museo Casa de Yrurtia",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
   "Museo Nacional de Bellas Artes",
   "Museo Sitio de Memoria ESMA",
+  "Museo Xul Solar",
   "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
   "Museo de Arte Moderno de Buenos Aires",
   "Museo de Arte Popular José Hernández",
   "Museo de Artes Plásticas Eduardo Sívori",
+  "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+  "Nora Fisch",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
+  "Pasto Galería",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
+  "Rolf Art",
   "Time Out Buenos Aires: Agenda",
   "Turismo Buenos Aires: Qué hacer esta semana",
   "Vamos Feria",
-  "Vidriera BA"
+  "Vidriera BA",
+  "W Galería"
  ],
  "eventos": [
   {
@@ -1707,6 +1715,31 @@
    "imagen": "https://vidriera.earth/atmosferismo.-alejandra-seeber/ag-atmosferismo-alejandra-seeber-museo-sivori.pvzbywfi_2eaehm.webp-reduced-dkqcnr"
   },
   {
+   "id": "b5aab2427b0d",
+   "titulo": "Desnudo y asustado, de Federico Cantini",
+   "categoria": "Artes visuales",
+   "lugar": "PASTO",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-11-02",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cuarta exposición individual de Federico Cantini en la galería: tallas sobre madera, pinturas e instalación.",
+   "url": "https://www.pastogaleria.com.ar/exhibiciones.php?i=114",
+   "dominio": "pastogaleria.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Pasto Galería",
+   "fuentes": [
+    "Pasto Galería"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "a3524c94e05d",
    "titulo": "Estos pequeños libros que quedan",
    "categoria": "Artes visuales",
@@ -1984,6 +2017,31 @@
    "imagen": "https://vidriera.earth/el-espacio-infinito-georges-rousse/07-vitry-2007-255x327cm-.jpg-reduced-6mju4j"
   },
   {
+   "id": "9352fcc32e98",
+   "titulo": "El espacio infinito: Georges Rousse y Jorge Luis Borges",
+   "categoria": "Artes visuales",
+   "lugar": "Arte x Arte",
+   "barrio": "Villa Crespo",
+   "direccion": "Lavalleja 1062",
+   "fecha_inicio": "2026-09-10",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Diálogo entre la fotografía de Georges Rousse y la literatura de Borges sobre espacio, mirada y perspectiva; curaduría de Marisa Sanabria Sequeiros.",
+   "url": "https://artexarte.com.ar/la-breve-eternidad/",
+   "dominio": "artexarte.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Arte x Arte"
+   ],
+   "lat": -34.59663,
+   "lng": -58.427915,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "0212e3b160b9",
    "titulo": "XXII Salón de Arte Textil 2026",
    "categoria": "Artes visuales",
@@ -2081,6 +2139,81 @@
    "lat": -34.640145,
    "lng": -58.36188,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "148e68c06757",
+   "titulo": "Corporum Solidorum",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Nora Fisch",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-12",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Corporum Solidorum: exhibición en Nora Fisch, del 12 de septiembre al 14 de noviembre de 2026.",
+   "url": "https://norafisch.com/muestras/corporum-solidorum/",
+   "dominio": "norafisch.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Nora Fisch"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "635e6b741a10",
+   "titulo": "Diario del Norte (1992)",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Nora Fisch",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-12",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Diario del Norte (1992): exhibición en Nora Fisch, del 12 de septiembre al 14 de noviembre de 2026.",
+   "url": "https://norafisch.com/muestras/diario-del-norte-1992/",
+   "dominio": "norafisch.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Nora Fisch"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "883d4534c2ad",
+   "titulo": "Gente lejana",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Nora Fisch",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-12",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Gente lejana: exhibición en Nora Fisch, del 12 de septiembre al 14 de noviembre de 2026.",
+   "url": "https://norafisch.com/muestras/gente-lejana/",
+   "dominio": "norafisch.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Nora Fisch"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -4994,6 +5127,31 @@
    "imagen": ""
   },
   {
+   "id": "e5bed7fafde6",
+   "titulo": "Cooperación. Esfuerzo. Porvenir.",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de la Cárcova",
+   "barrio": "Puerto Madero",
+   "direccion": "",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-27",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición en el Museo de la Cárcova, del 17 de septiembre al 27 de noviembre (dato del Museo Casa de Yrurtia).",
+   "url": "https://museodelacarcova.una.edu.ar/contenidos/exposiciones-temporarias_20738",
+   "dominio": "museodelacarcova.una.edu.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+   "fuentes": [
+    "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "95f4184c527d",
    "titulo": "Dan Graham. Whirligig, Molinete, 2019",
    "categoria": "Artes visuales",
@@ -5919,6 +6077,31 @@
    "imagen": ""
   },
   {
+   "id": "d0d6acb27f85",
+   "titulo": "Persistencias (W—naturae)",
+   "categoria": "Artes visuales",
+   "lugar": "W—naturae",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición en W—naturae, de julio a noviembre de 2026.",
+   "url": "https://w-w-w.ar/index.php/es/edition/persistencias",
+   "dominio": "w-w-w.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "W Galería"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "008096fc4cb8",
    "titulo": "Plástica escatológica",
    "categoria": "Artes visuales",
@@ -5967,6 +6150,31 @@
    "lng": -58.378773,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/raphael-gran-rex.jpg"
+  },
+  {
+   "id": "9664244e2adf",
+   "titulo": "Raúl Flores: Banquete. Obras 1995-2007",
+   "categoria": "Artes visuales",
+   "lugar": "W—archivo",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra de obras de Raúl Flores (1995-2007) en W—archivo, de octubre de 2026 a febrero de 2027.",
+   "url": "https://w-w-w.ar/index.php/es/edition/banquete-obras-1995-2007",
+   "dominio": "w-w-w.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "W Galería"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "a3c99e02fcd7",
@@ -10387,6 +10595,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000321601.jpg"
   },
   {
+   "id": "8bc14c675dca",
+   "titulo": "Visita guiada sobre astrología en el Museo Xul Solar",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Xul Solar",
+   "barrio": "Recoleta",
+   "direccion": "Laprida 1212",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "18:00",
+   "horarios": "Jueves a las 18 h (última fecha publicada: 22/10)",
+   "precio": "Desde $ 25000",
+   "descripcion": "Visita guiada por el museo con mirada astrológica sobre la obra de Xul Solar. Entradas por Eventbrite.",
+   "url": "https://www.eventbrite.com.ar/e/visita-guiada-sobre-astrologia-en-el-museo-xul-solar-tickets-533943147327",
+   "dominio": "eventbrite.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Xul Solar"
+   ],
+   "lat": -34.596542,
+   "lng": -58.408655,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "20038021cdce",
    "titulo": "Vorágine",
    "categoria": "Cine",
@@ -11610,6 +11843,31 @@
    "lng": -58.449505,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/28/000321528.jpg"
+  },
+  {
+   "id": "a3d0c2d42afe",
+   "titulo": "DAFA: Sara Facio y Alicia D'Amico",
+   "categoria": "Artes visuales",
+   "lugar": "Rolf Art",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición en la galería de las fotógrafas Sara Facio y Alicia D'Amico; próxima, desde el 23/10.",
+   "url": "https://rolfart.com.ar/",
+   "dominio": "rolfart.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Rolf Art"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "0de6c46d6dd5",
@@ -23478,6 +23736,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000293656.jpg"
   },
   {
+   "id": "9f8cb71e6d8a",
+   "titulo": "Un bosque cerca del mar, de Carolina Romano (inauguración)",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Mar Dulce",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1490",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "",
+   "hora": "16:00",
+   "horarios": "Martes a sábado de 16 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Primera exposición individual de Carolina Romano en la galería: más de una docena de pinturas en acrílico que transportan a la costa. Inauguración el sábado 24/10 de 16 a 19 h.",
+   "url": "https://www.instagram.com/p/DepNaUNIOk4/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Mar Dulce Galería"
+   ],
+   "lat": -34.58821,
+   "lng": -58.433394,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "008eb28057a1",
    "titulo": "Un departamento de dos ambientes",
    "categoria": "Teatro",
@@ -24000,6 +24283,31 @@
    "lat": -34.604463,
    "lng": -58.39588,
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "da868d17a989",
+   "titulo": "¡Viva la litografía! 40 años del taller Aída Carballo",
+   "categoria": "Taller",
+   "lugar": "Museo de la Cárcova",
+   "barrio": "Puerto Madero",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "11:00",
+   "horarios": "11 h conversación; 15 h taller abierto de litografía",
+   "precio": "Consultar",
+   "descripcion": "Jornada por los 40 años del taller de litografía y los 10 de su reapertura: conversación abierta con docentes de distintas etapas, talleres de litografía y tipografía, exposición de estampas y encuentro.",
+   "url": "https://museodelacarcova.una.edu.ar/agenda/viva-la-litografia_49071",
+   "dominio": "museodelacarcova.una.edu.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
+   "fuentes": [
+    "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -30331,6 +30639,31 @@
    "lat": -34.586298,
    "lng": -58.392513,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "9cdfd7c55a5b",
+   "titulo": "arteBA 2026: stand de Rolf Art",
+   "categoria": "Feria",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Feria arteBA en La Rural, con muestra colectiva de Rolf Art.",
+   "url": "https://rolfart.com.ar/",
+   "dominio": "rolfart.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Rolf Art"
+   ],
+   "lat": -34.579456,
+   "lng": -58.419536,
+   "embebible": true,
    "imagen": ""
   },
   {

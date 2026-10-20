@@ -1,0 +1,49 @@
+{
+ "id": "w-galeria",
+ "canal": "web",
+ "fuente": "W Galería",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://w-w-w.ar/index.php/es/exhibitions",
+  "https://w-w-w.ar/index.php/es/edition/banquete-obras-1995-2007",
+  "https://w-w-w.ar/index.php/es/edition/persistencias"
+ ],
+ "eventos": [
+  {
+   "titulo": "Raúl Flores: Banquete. Obras 1995-2007",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "",
+   "lugar": "W—archivo",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://w-w-w.ar/index.php/es/edition/banquete-obras-1995-2007",
+   "descripcion": "Muestra de obras de Raúl Flores (1995-2007) en W—archivo, de octubre de 2026 a febrero de 2027.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Persistencias (W—naturae)",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "",
+   "lugar": "W—naturae",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://w-w-w.ar/index.php/es/edition/persistencias",
+   "descripcion": "Exhibición en W—naturae, de julio a noviembre de 2026.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

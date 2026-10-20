@@ -452,7 +452,14 @@
   "el-laberinto-de-parque-chas|instagram",
   "el-metodo-kairos|instagram",
   "el-taller-de-omar|instagram",
-  "calvaresi-galeria|instagram"
+  "calvaresi-galeria|instagram",
+  "alberto-sendros|instagram",
+  "rubbers|instagram",
+  "almacen-de-arte|instagram",
+  "gachi-prieto-galeria|instagram",
+  "cosmocosa|instagram",
+  "marq-museo-de-arquitectura-y-diseno|instagram",
+  "maman-fine-art|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -544,8 +551,28 @@
   "galeria-mite|web": "con_eventos",
   "galeria-zurbaran|web": "con_eventos",
   "henrique-faria-buenos-aires|web": "con_eventos",
-  "fundacion-klemm|web": "con_eventos"
+  "fundacion-klemm|web": "con_eventos",
+  "nora-fisch|web": "con_eventos",
+  "rolf-art|web": "con_eventos",
+  "ruth-benzacar|web": "sin_eventos",
+  "w-galeria|web": "con_eventos",
+  "arte-x-arte|web": "con_eventos",
+  "alberto-sendros|web": "sin_eventos",
+  "pasto-galeria|web": "con_eventos",
+  "museo-xul-solar|web": "con_eventos",
+  "rubbers|web": "sin_agenda",
+  "almacen-de-arte|web": "sin_eventos",
+  "gachi-prieto-galeria|web": "sin_agenda",
+  "ignacio-liprandi|web": "descartado",
+  "cosmocosa|web": "sin_agenda",
+  "marq-museo-de-arquitectura-y-diseno|web": "sin_eventos",
+  "maman-fine-art|web": "dominio_caido",
+  "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova|web": "con_eventos",
+  "mar-dulce-galeria|instagram": "con_eventos",
+  "monstera-club-cultural|instagram": "sin_eventos",
+  "multiespacio-jxi|instagram": "no_carga",
+  "neu-kultur-haus|instagram": "no_carga"
  },
  "sitios_nuevos": [],
- "eventos": 2714
+ "eventos": 2727
 }
