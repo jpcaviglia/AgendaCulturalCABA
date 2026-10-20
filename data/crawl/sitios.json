@@ -4011,16 +4011,25 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 7,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Dominio propio caído; la cartelera está en Instagram @paraje_arteson. Palestina 919, Almagro.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-20 [instagram] 2026-10-20: el Instagram solo anuncia promos y remite a Alternativa Teatral (espacio3143-paraje-arteson), de donde salió la cartelera semanal; precios de las fichas."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "web": "dominio sin DNS"
+    "web": "dominio sin DNS",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "historial": [
     {
@@ -4040,6 +4049,12 @@
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 7
     }
    ]
   },
@@ -4060,18 +4075,21 @@
     "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en tickethoy y Alternativa Teatral))",
     "2026-10-15 [instagram] El Linktree de la bio estaba desactualizado (octubre); la portada de bue.tickethoy.com lista los próximos eventos de Roseti.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: Roseti sin eventos en Tickethoy; se mira su Instagram."
+    "2026-10-20 [web] 2026-10-19: Roseti sin eventos en Tickethoy; se mira su Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: un recital en la ventana, anunciado por una cuenta que etiqueta a Roseti; hay además un seminario intensivo con César Brie (fecha no leída) y la Usina de creación (clases de prueba los miércoles)."
    ],
    "comportamiento": {
     "agenda": "Tickethoy (JS): si la página del lugar falla, la portada de bue.tickethoy.com lista todos los lugares",
-    "plataforma": "Tickethoy: /lugares/<venue> da 500; usar la home y filtrar por el local"
+    "plataforma": "Tickethoy: /lugares/<venue> da 500; usar la home y filtrar por el local",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 3
     },
     "web": {
      "fecha": "2026-10-20",
@@ -4092,6 +4110,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "entradas": [
@@ -4112,10 +4136,13 @@
    "direccion": "Gallo 557",
    "enlace_bio": "http://www.casacolombo.com.ar/ (redirige a Instagram)",
    "comportamiento": {
-    "extraccion": "el lugar casi no publica su cartelera: las fechas aparecen en posts de bandas etiquetadas"
+    "extraccion": "el lugar casi no publica su cartelera: las fechas aparecen en posts de bandas etiquetadas",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Casa Colombo (Gallo 557): revisar etiquetados de bandas en cada corrida."
+    "2026-10-15 [instagram] Casa Colombo (Gallo 557): revisar etiquetados de bandas en cada corrida.",
+    "2026-10-20 [instagram] 2026-10-20: solo convocatorias a productores; sin shows con fecha."
    ],
    "enlaces_descartados": [
     {
@@ -4127,7 +4154,7 @@
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -4136,6 +4163,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -5292,7 +5325,7 @@
    "direccion": "Zelaya 3118",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
@@ -5301,16 +5334,33 @@
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/puerta18",
-    "2026-10-15 [web] ONG de formación tecnológica para jóvenes (Zelaya 3118, Almagro); no se cargan cursos de inscripción interna."
+    "2026-10-15 [web] ONG de formación tecnológica para jóvenes (Zelaya 3118, Almagro); no se cargan cursos de inscripción interna.",
+    "2026-10-20 [web] 2026-10-20: oferta educativa, no es un espacio cultural con programación abierta."
    ],
    "enlace_bio": "https://linktr.ee/puerta18",
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "cursos y talleres tecnológicos para jóvenes con inscripción"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "no_cultural",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.puerta18.org.ar/",
+     "texto": "Agenda",
+     "motivo": "calendario de cursos de formación, no evento cultural",
+     "fecha": "2026-10-20"
     }
    ]
   },
@@ -5796,10 +5846,13 @@
    "direccion": "Luzuriaga 348",
    "enlace_bio": "https://linktr.ee/luzuriagaclubsocial",
    "notas": [
-    "2026-10-15 [instagram] Luzuriaga Club Social: sin agenda visible en Instagram al 15/10."
+    "2026-10-15 [instagram] Luzuriaga Club Social: sin agenda visible en Instagram al 15/10.",
+    "2026-10-20 [instagram] 2026-10-20: sin programación anunciada; último contenido propio de 2025."
    ],
    "comportamiento": {
-    "extraccion": "cartelera no publicada en el perfil propio; los eventos aparecen en reels de colectivos etiquetados"
+    "extraccion": "cartelera no publicada en el perfil propio; los eventos aparecen en reels de colectivos etiquetados",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "enlaces_descartados": [
     {
@@ -5811,7 +5864,7 @@
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -5820,6 +5873,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -6018,17 +6077,20 @@
    "direccion": "Olazabal 1784",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "el perfil publica un post semanal 'Se viene un finde' con día y organizador; las fiestas grandes (Viral, Menea para mí 7/11) se anuncian en cuentas de productoras etiquetadas"
+    "extraccion": "el perfil publica un post semanal 'Se viene un finde' con día y organizador; las fiestas grandes (Viral, Menea para mí 7/11) se anuncian en cuentas de productoras etiquetadas",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Quetrén (Olazábal 1784, Barrio Chino): el 'Viral de octubre' no trae fecha en el texto; la fiesta post Marcha del Orgullo es el 7/11 (fuera de ventana)."
+    "2026-10-15 [instagram] Quetrén (Olazábal 1784, Barrio Chino): el 'Viral de octubre' no trae fecha en el texto; la fiesta post Marcha del Orgullo es el 7/11 (fuera de ventana).",
+    "2026-10-20 [instagram] 2026-10-20: un evento en la ventana (23/10); el club también tiene ciclos mensuales (Viral, Picoteo, La Maleva, Quetrén en cortos)."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 4
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -6037,6 +6099,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -6162,14 +6230,17 @@
    "direccion": "Calvo, Carlos 3401",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho"
+    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Murga fundada en 1956 (Constitución 3339); los ensayos son para integrantes inscriptos, no se cargan."
+    "2026-10-15 [instagram] Murga fundada en 1956 (Constitución 3339); los ensayos son para integrantes inscriptos, no se cargan.",
+    "2026-10-20 [instagram] 2026-10-20: murga con ensayos; sin eventos públicos fechados."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -6178,6 +6249,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -6198,15 +6275,18 @@
    "direccion": "Maza 1160",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "casa de servicios (estudio, salas de ensayo): no publica eventos abiertos"
+    "extraccion": "casa de servicios (estudio, salas de ensayo): no publica eventos abiertos",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Casamaza es un estudio de grabación y salas de ensayo; no hay cartelera."
+    "2026-10-15 [instagram] Casamaza es un estudio de grabación y salas de ensayo; no hay cartelera.",
+    "2026-10-20 [instagram] 2026-10-20: espacio de alquiler sin programación pública publicada."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
@@ -6216,6 +6296,12 @@
      "fecha": "2026-10-15",
      "canal": "instagram",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -7042,19 +7128,22 @@
    "notas": [
     "2026-10-15 [instagram] La bio enlaza a la ticketera (evento-simple) con los prÃ³ximos eventos; solo uno en la ventana (15/10); 'Laberinto de la mÃºsica' es el 5/12.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: sin eventos hasta el 2/11; próximos el 5/11 y el 5/12 (revisar la próxima corrida)."
+    "2026-10-20 [web] 2026-10-19: sin eventos hasta el 2/11; próximos el 5/11 y el 5/12 (revisar la próxima corrida).",
+    "2026-10-20 [instagram] 2026-10-20: festival del 24/10 con programación que se sigue anunciando; la programación completa está en las historias/perfil."
    ],
    "comportamiento": {
     "agenda": "Evento Simple: 'Próximos eventos' con fecha y hora",
     "plataforma": "Evento Simple: la página del local lista 'Próximos eventos' con fecha y hora; carga en el navegador",
-    "espera_seg": 6
+    "espera_seg": 6,
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 2
+     "paginas": 4
     },
     "web": {
      "fecha": "2026-10-20",
@@ -7075,6 +7164,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "entradas": [
@@ -7234,22 +7329,31 @@
    "direccion": "Rio De Janeiro 28",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "el primer carrusel de la semana ('Agenda semanal') trae todos los días con hora; hay que verlo como imagen (zoom); las fechas de fiestas están también en posts de bandas etiquetadas"
+    "extraccion": "el primer carrusel de la semana ('Agenda semanal') trae todos los días con hora; hay que verlo como imagen (zoom); las fechas de fiestas están también en posts de bandas etiquetadas",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Río Patio Cultural (Río de Janeiro 28, Caballito): abre martes a sábado desde las 20 h. 'Club del Tributo Vol. XI: Mujeres del Rock' es el 4/11 (fuera de ventana)."
+    "2026-10-15 [instagram] Río Patio Cultural (Río de Janeiro 28, Caballito): abre martes a sábado desde las 20 h. 'Club del Tributo Vol. XI: Mujeres del Rock' es el 4/11 (fuera de ventana).",
+    "2026-10-20 [instagram] 2026-10-20: agenda semanal en un carrusel (martes a domingo, 20 h); se cargó solo la semana vigente (20 al 25/10). El Festival de Jams de Buenos Aires arranca el sábado 24 (masterclass 29/10 19 h): leer sus fechas en @jams.debuenosaires."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 6,
-     "paginas": 5
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 6
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 6
@@ -7957,11 +8061,14 @@
    "direccion": "Alvarez Thomas Av. 487",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "web": "solo Facebook"
+    "web": "solo Facebook",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] La web es solo una página de Facebook que exige login; la agenda se busca en Instagram (@mamitabar).",
-    "2026-10-20 [web] 2026-10-20: solo Facebook; rastrear por Instagram."
+    "2026-10-20 [web] 2026-10-20: solo Facebook; rastrear por Instagram.",
+    "2026-10-20 [instagram] 2026-10-20: bar de música en vivo que publica una agenda semanal cada semana; la de la semana del 20/10 aún no estaba publicada: reintentar a fin de semana."
    ],
    "ultimo": {
     "web": {
@@ -7969,6 +8076,12 @@
      "estado": "bloqueado",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "historial": [
@@ -7982,6 +8095,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "bloqueado",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -8225,17 +8344,20 @@
    "direccion": "Avellaneda Av. 2177",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "perfil de organización político-social; publica mayormente comunicados, no agenda de actividades"
+    "extraccion": "perfil de organización político-social; publica mayormente comunicados, no agenda de actividades",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Sin eventos en las últimas publicaciones; revisar destacadas 'Talleres' solo si se busca oferta de cursos."
+    "2026-10-15 [instagram] Sin eventos en las últimas publicaciones; revisar destacadas 'Talleres' solo si se busca oferta de cursos.",
+    "2026-10-20 [instagram] 2026-10-20: contenido político, no es un espacio cultural con programación."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "no_cultural",
      "eventos": 0,
-     "paginas": 6
+     "paginas": 2
     }
    },
    "historial": [
@@ -8243,6 +8365,12 @@
      "fecha": "2026-10-15",
      "canal": "instagram",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "no_cultural",
      "eventos": 0
     }
    ]
@@ -11822,22 +11950,31 @@
    "direccion": "Paraguay 4667",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "la grilla mezcla posts de bandas y productoras que etiquetan al lugar; la programación se anuncia en cuentas de terceros"
+    "extraccion": "la grilla mezcla posts de bandas y productoras que etiquetan al lugar; la programación se anuncia en cuentas de terceros",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Multiespacio Korova (Palermo) no publica su cartelera en su propio perfil; probar Passline/Venti o buscar etiquetas."
+    "2026-10-15 [instagram] Multiespacio Korova (Palermo) no publica su cartelera en su propio perfil; probar Passline/Venti o buscar etiquetas.",
+    "2026-10-20 [instagram] 2026-10-20: sin fechas próximas en el perfil; las fiestas se venden por la bio."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -12571,16 +12708,19 @@
    "notas": [
     "2026-10-15 [instagram] La agenda es un Google Calendar público (ICS: calendar.google.com/calendar/ical/<id>/public/basic.ics); sin actividades cargadas en la ventana. Parque Patricios.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: sin eventos públicos en la ventana; revisar Instagram y el canal de WhatsApp."
+    "2026-10-20 [web] 2026-10-19: sin eventos públicos en la ventana; revisar Instagram y el canal de WhatsApp.",
+    "2026-10-20 [instagram] 2026-10-20: peña del 6/11 fuera de ventana; revisar a fin de mes."
    ],
    "comportamiento": {
     "agenda": "Google Calendar incrustado: leer el ICS público",
     "plataforma": "Google Sites + Google Calendar: ical en https://calendar.google.com/calendar/ical/<id>/public/basic.ics (ids en el src del iframe)",
-    "extraccion": "el segundo calendario es de reservas internas del salón; no sirve como agenda"
+    "extraccion": "el segundo calendario es de reservas internas del salón; no sirve como agenda",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -12602,6 +12742,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
     }
@@ -14216,21 +14362,30 @@
    "direccion": "Rincon 1330",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Dominio caído; revisar Instagram @rinconcasacultural."
+    "2026-10-15 [web] Dominio caído; revisar Instagram @rinconcasacultural.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -16597,22 +16752,31 @@
    "direccion": "Viale, Luis 89",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "la grilla de @espaciosalvo mezcla reels de Brilla Crespo (@brillacrespo), que es quien publica las fechas"
+    "extraccion": "la grilla de @espaciosalvo mezcla reels de Brilla Crespo (@brillacrespo), que es quien publica las fechas",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Brilla Crespo (Av. Corrientes y Scalabrini Ortiz) volvería en diciembre; revisar @brillacrespo."
+    "2026-10-15 [instagram] Brilla Crespo (Av. Corrientes y Scalabrini Ortiz) volvería en diciembre; revisar @brillacrespo.",
+    "2026-10-20 [instagram] 2026-10-20: sin anuncios propios; revisar la cuenta de Brilla Crespo si hay nueva edición."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -16853,17 +17017,26 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/oceanarioclub",
     "2026-10-15 [web] Dominio propio caído; la agenda vigente está en Instagram @oceanario_clubcultural.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-20 [instagram] 2026-10-20: ni web ni Instagram disponibles; el sitio parece cerrado."
    ],
    "enlace_bio": "https://linktr.ee/oceanarioclub",
    "comportamiento": {
-    "web": "dominio sin DNS"
+    "web": "dominio sin DNS",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "historial": [
     {
@@ -16882,6 +17055,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -17030,22 +17209,31 @@
    "direccion": "Jufre 127",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/saviacultural",
-    "2026-10-15 [web] Dominio caído; el Linktree no tiene agenda; revisar Instagram @saviacultural."
+    "2026-10-15 [web] Dominio caído; el Linktree no tiene agenda; revisar Instagram @saviacultural.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
    "enlace_bio": "https://linktr.ee/saviacultural",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -17541,22 +17729,31 @@
    "direccion": "Calou, Juan P. 5447",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho"
+    "extraccion": "perfil comunitario: publica comunicados y resúmenes de lo ya hecho",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
-    "2026-10-15 [instagram] Casa cultural comunitaria de Lugano (Av. Riestra 5519) con poca actividad pública; la última fecha anunciada fue el 19/9."
+    "2026-10-15 [instagram] Casa cultural comunitaria de Lugano (Av. Riestra 5519) con poca actividad pública; la última fecha anunciada fue el 19/9.",
+    "2026-10-20 [instagram] 2026-10-20: casa cultural de Lugano con poca actividad publicada; sin eventos en la ventana."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -17808,19 +18005,22 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
+     "eventos": 3,
      "paginas": 3
     }
    },
    "comportamiento": {
-    "extraccion": "un post por evento con día y hora; los homenajes solidarios (entrada: un alimento no perecedero) se anuncian por finde"
+    "extraccion": "un post por evento con día y hora; los homenajes solidarios (entrada: un alimento no perecedero) se anuncian por finde",
+    "instagram": "el texto de los posts se lee en el alt del grid (1 página de cupo por perfil)",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] Blog abandonado desde 2020.",
     "2026-10-15 [instagram] El Puente (Rivadavia 9810, Villa Luro, 25 años). El 10/10 hubo música acústica solidaria (pasado).",
-    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2020; la programación se anuncia en Instagram (@elpuentecultural)."
+    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2020; la programación se anuncia en Instagram (@elpuentecultural).",
+    "2026-10-20 [instagram] 2026-10-20: ciclo Oktubre los sábados (24 y 31/10); taller de fotografía desde el 21/10 (precio $50.000 por mes, 2x$80.000); el afiche de las noches no trae los nombres de los espectáculos."
    ],
    "historial": [
     {
@@ -17840,6 +18040,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "bio_probada": "2026-10-15"
