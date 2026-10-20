@@ -125,33 +125,51 @@
     if (/\bhoy\b/.test(r)) return iso === hoyIso();
     return true;
   }
+  // Rangos "Miércoles a domingos de 14 a 20 h" (sin horas de función): días, desde, hasta, fechas opcionales.
+  const TRAMO_RANGO = /((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*|\s*\|\s*)?)+)\s*(?:de\s+)(\d{1,2})(?::\d{2})?\s*(?:a|-|–)\s*(\d{1,2})(?::\d{2})?\s*(?:h|hs)\b(?:\s*\(([^)]*)\))?/gi;
+  // Tramos del texto: { dias, fechas (rango opcional), horas: ["19:00", ...] o franja: "14–20 h" }.
+  function tramosDe(txt) {
+    const out = [];
+    for (const m of txt.matchAll(TRAMO)) {
+      out.push({ dias: m[1], fechas: m[3], horas: [...m[2].matchAll(/\b(\d{1,2}):(\d{2})\b/g)].map((x) => `${x[1].padStart(2, "0")}:${x[2]}`) });
+    }
+    for (const m of txt.matchAll(TRAMO_RANGO)) out.push({ dias: m[1], fechas: m[4], horas: [], franja: `${+m[2]}–${+m[3]} h` });
+    return out;
+  }
+  const TODOS_LOS_DIAS = /todos los d[ií]as(?:\s+de\s+(\d{1,2})(?::\d{2})?\s*(?:a|-|–)\s*(\d{1,2})(?::\d{2})?\s*(?:h|hs)\b)?/i;
+
+  // Horas del evento el día `iso`: ["19:00", "21:30"], o la franja ["14–20 h"] si solo dice "de 14 a 20 h".
+  // Si no se puede leer el día, la hora única del evento (horaPrincipal).
   function horasDelDia(e, iso) {
     const dia = fechaLocal(iso).getDay();
+    const txt = e.horarios || "";
     const horas = new Set();
-    for (const [, dias, horasTxt, rango] of (e.horarios || "").matchAll(TRAMO)) {
-      if (!diasDelTramo(dias).has(dia) || !rangoVale(rango, iso)) continue;
-      for (const [, h, m] of horasTxt.matchAll(/\b(\d{1,2}):(\d{2})\b/g)) horas.add(`${h.padStart(2, "0")}:${m}`);
+    const franjas = new Set();
+    for (const t of tramosDe(txt)) {
+      if (!diasDelTramo(t.dias).has(dia) || !rangoVale(t.fechas, iso)) continue;
+      t.horas.forEach((h) => horas.add(h));
+      if (t.franja) franjas.add(t.franja);
     }
     if (horas.size) return [...horas].sort();
+    if (franjas.size) return [...franjas];
+    const todos = txt.match(TODOS_LOS_DIAS);
+    if (todos && todos[1]) return [`${+todos[1]}–${+todos[2]} h`];
     const unica = horaPrincipal(e);
     return unica ? [unica] : [];
   }
 
-  // ¿Funciona el evento el día `iso`? "si" / "no" si "horarios" dice en qué días de la semana (con horas o con rangos
-  // "de 11 a 19 h", "todos los días") y entre qué fechas; "?" si no lo dice (se cuenta como en cartel). El primer día
-  // del evento siempre es "si".
-  const TRAMO_RANGO = /((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*|\s*\|\s*)?)+)\s*(?:de\s+)\d{1,2}(?::\d{2})?\s*(?:a|-|–)\s*\d{1,2}(?::\d{2})?\s*(?:h|hs)\b(?:\s*\(([^)]*)\))?/gi;
+  // ¿"horarios" dice en qué días funciona el evento? Si no, solo se sabe que empieza y que sigue.
+  const horarioConocido = (e) => tramosDe(e.horarios || "").length > 0 || TODOS_LOS_DIAS.test(e.horarios || "");
+
+  // ¿Funciona el evento el día `iso`? "si" / "no" cuando "horarios" dice los días de la semana (con horas, con rangos
+  // "de 11 a 19 h" o "todos los días") y entre qué fechas; "?" si no lo dice: solo el primer día es "si" y los demás
+  // se cuentan como en cartel.
   function actividadDelDia(e, iso) {
     if (iso < e.fecha_inicio || iso > finDe(e)) return "no";
-    if (iso === e.fecha_inicio) return "si";
+    if (!horarioConocido(e)) return iso === e.fecha_inicio ? "si" : "?";
+    if (TODOS_LOS_DIAS.test(e.horarios)) return "si";
     const dia = fechaLocal(iso).getDay();
-    const txt = e.horarios || "";
-    const tramos = [
-      ...[...txt.matchAll(TRAMO)].map((m) => [m[1], m[3]]),
-      ...[...txt.matchAll(TRAMO_RANGO)].map((m) => [m[1], m[2]]),
-    ];
-    if (!tramos.length) return /todos los d[ií]as/i.test(txt) ? "si" : "?";
-    return tramos.some(([dias, rango]) => diasDelTramo(dias).has(dia) && rangoVale(rango, iso)) ? "si" : "no";
+    return tramosDe(e.horarios).some((t) => diasDelTramo(t.dias).has(dia) && rangoVale(t.fechas, iso)) ? "si" : "no";
   }
 
   // ---- Favoritos (en este navegador) ----
@@ -315,7 +333,7 @@
       });
     }
     return crear("li", { class: imagen ? "fila con-imagen" : "fila" }, [
-      crear("div", { class: hora ? (hora.length > 1 ? "hora varias" : "hora") : "hora sin" },
+      crear("div", { class: hora ? (hora.length > 1 ? "hora varias" : hora[0].includes("h") ? "hora franja" : "hora") : "hora sin" },
         hora ? hora.map((h) => crear("span", {}, [texto(h)])) : [texto(e.horarios ? "Ver horarios" : "Sin hora")]),
       imagen,
       crear("div", { class: "cuerpo" }, [
@@ -522,7 +540,7 @@
   // Orden dentro del día: por hora; lo de la madrugada (hasta las 6) va al final de la noche, no al principio.
   const minutosOrden = (e, dia) => {
     const h = dia ? horasDelDia(e, dia)[0] : horaPrincipal(e);
-    const m = h ? Number(h.slice(0, 2)) * 60 + Number(h.slice(3)) : horasDe(e).length ? Math.min(...horasDe(e)) : null;
+    const m = h ? Number(h.match(/\d+/)[0]) * 60 + Number((h.match(/:(\d\d)/) || [0, 0])[1]) : horasDe(e).length ? Math.min(...horasDe(e)) : null;
     if (m === null) return 9999;
     return m < 6 * 60 ? m + 24 * 60 : m;
   };
@@ -544,7 +562,7 @@
       const estados = dias_a_mirar.map((d) => [d, actividadDelDia(e, d)]);
       const dias_si = estados.filter(([, a]) => a === "si");
       if (dias_si.length) dias_si.forEach(([d]) => poner(d, e));
-      else if (e.fecha_inicio >= inicio) poner(e.fecha_inicio, e);
+      else if (!horarioConocido(e) && e.fecha_inicio >= inicio) poner(e.fecha_inicio, e);
       else if (finDe(e) >= inicio && estados.some(([, a]) => a === "?")) cartel.push(e);
     }
     const dias = [...porDia.keys()].sort().map((clave) => ({

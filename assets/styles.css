@@ -473,6 +473,7 @@ main { flex: 1; padding-top: 32px; padding-bottom: 56px; }
 }
 .fila .hora span { display: block; }
 .fila .hora.varias { font-size: 1.25rem; }
+.fila .hora.franja { font-size: 1.15rem; }
 .fila .hora.sin {
   font-family: var(--mono);
   font-stretch: 100%;
