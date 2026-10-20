@@ -61,7 +61,8 @@
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "ver_mas": "Botón 'Ver N más' (fuera de las tarjetas): clic en bucle (1,2 s) hasta que desaparece; son ~1221 tarjetas para cuando=30. Elegir el ÚLTIMO botón, hay botones 'Ver 1 más' dentro de tarjetas.",
     "volcado": "Enviar window.__rows por fetch POST a un servidor local http://127.0.0.1:PUERTO (sin await, el renderer se cuelga si es grande).",
-    "fichas": "No hace falta abrir fichas: el listado trae obra, sala, barrio, días/horarios y fechas; precio solo en la ficha."
+    "fichas": "No hace falta abrir fichas: el listado trae obra, sala, barrio, días/horarios y fechas; precio solo en la ficha.",
+    "horarios": "Cada .ct-per es un período 'DIAS HH:MM · hasta el D/M | del D/M al D/M | el D/M'; los días con varios horarios se escriben 'LUN 19:00 | 21:30'. Se guardan legibles en `horarios` ('Lun 19:00 y 21:30 (hasta el 26/10)'); `hora` solo si hay un único horario."
    },
    "ultimo": {
     "web": {
@@ -77,6 +78,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 806
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 829
     },
     {
      "fecha": "2026-10-19",
