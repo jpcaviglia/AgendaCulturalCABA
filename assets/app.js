@@ -137,6 +137,23 @@
     return unica ? [unica] : [];
   }
 
+  // ¿Funciona el evento el día `iso`? "si" / "no" si "horarios" dice en qué días de la semana (con horas o con rangos
+  // "de 11 a 19 h", "todos los días") y entre qué fechas; "?" si no lo dice (se cuenta como en cartel). El primer día
+  // del evento siempre es "si".
+  const TRAMO_RANGO = /((?:\b(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)[a-zéáíóú]*\.?(?:\s+(?:y|a|e)\s+|\s*,\s*|\s*\|\s*)?)+)\s*(?:de\s+)\d{1,2}(?::\d{2})?\s*(?:a|-|–)\s*\d{1,2}(?::\d{2})?\s*(?:h|hs)\b(?:\s*\(([^)]*)\))?/gi;
+  function actividadDelDia(e, iso) {
+    if (iso < e.fecha_inicio || iso > finDe(e)) return "no";
+    if (iso === e.fecha_inicio) return "si";
+    const dia = fechaLocal(iso).getDay();
+    const txt = e.horarios || "";
+    const tramos = [
+      ...[...txt.matchAll(TRAMO)].map((m) => [m[1], m[3]]),
+      ...[...txt.matchAll(TRAMO_RANGO)].map((m) => [m[1], m[2]]),
+    ];
+    if (!tramos.length) return /todos los d[ií]as/i.test(txt) ? "si" : "?";
+    return tramos.some(([dias, rango]) => diasDelTramo(dias).has(dia) && rangoVale(rango, iso)) ? "si" : "no";
+  }
+
   // ---- Favoritos (en este navegador) ----
   // Cada corrida rehace data/eventos.json, así que se guarda una copia del evento junto con su id (estable entre
   // corridas, ver id_estable en scripts/armar_agenda.py): si el evento sigue en la agenda se actualiza con los datos
@@ -510,19 +527,25 @@
     return m < 6 * 60 ? m + 24 * 60 : m;
   };
 
-  // Un grupo por día en que empieza algo y, al final, "En cartel": lo que empezó antes del primer día
-  // que se mira (hoy, o el "Desde" elegido) y sigue.
+  // Un grupo por día en que el evento funciona (el día que empieza y los días de la semana en que dan funciones,
+  // según "horarios") y, al final, "En cartel": lo que empezó antes del primer día que se mira (hoy, o el "Desde"
+  // elegido), sigue y no dice en qué días funciona. Un evento puede aparecer en varios días.
   function agrupar(lista, f) {
     const hoy = hoyIso();
     const inicio = f.desde && f.desde > hoy ? f.desde : hoy;
+    const dias_a_mirar = diasVentana.filter((d) => d >= inicio && (!f.hasta || d <= f.hasta));
     const porDia = new Map();
+    const poner = (dia, e) => {
+      if (!porDia.has(dia)) porDia.set(dia, []);
+      porDia.get(dia).push(e);
+    };
     const cartel = [];
     for (const e of lista) {
-      if (e.fecha_inicio < inicio && finDe(e) >= inicio) cartel.push(e);
-      else {
-        if (!porDia.has(e.fecha_inicio)) porDia.set(e.fecha_inicio, []);
-        porDia.get(e.fecha_inicio).push(e);
-      }
+      const estados = dias_a_mirar.map((d) => [d, actividadDelDia(e, d)]);
+      const dias_si = estados.filter(([, a]) => a === "si");
+      if (dias_si.length) dias_si.forEach(([d]) => poner(d, e));
+      else if (e.fecha_inicio >= inicio) poner(e.fecha_inicio, e);
+      else if (finDe(e) >= inicio && estados.some(([, a]) => a === "?")) cartel.push(e);
     }
     const dias = [...porDia.keys()].sort().map((clave) => ({
       clave,
@@ -573,7 +596,7 @@
       secciones.push(seccionDia(g, visibles));
     }
     $("lista-eventos").replaceChildren(...secciones);
-    const total = eventosFiltrados.length;
+    const total = grupos.reduce((n, g) => n + g.eventos.length, 0);
     const faltan = total - mostrados;
     $("mas-resultados").hidden = faltan <= 0;
     $("mas-resultados").textContent = `Mostrar ${Math.min(LOTE, faltan)} más (faltan ${faltan})`;
@@ -626,7 +649,7 @@
     const conteo = new Map(diasVentana.map((d) => [d, 0]));
     for (const e of sinFechas) {
       const fin = finDe(e);
-      for (const d of diasVentana) if (e.fecha_inicio <= d && d <= fin) conteo.set(d, conteo.get(d) + 1);
+      for (const d of diasVentana) if (e.fecha_inicio <= d && d <= fin && actividadDelDia(e, d) !== "no") conteo.set(d, conteo.get(d) + 1);
     }
     const maximo = Math.max(1, ...conteo.values());
     const unDia = f.desde && f.desde === f.hasta ? f.desde : "";

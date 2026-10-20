@@ -4,7 +4,7 @@ Static site with the cultural events in the City of Buenos Aires for the next tw
 `assets/`), a map and the list of cultural venues. The site is in Spanish. It reads `data/eventos.json` and
 `data/lugares.json`.
 
-On the site: events are listed day by day, each with its picture next to it when the source has one and the time(s) it has on that day, read from `horarios` (a play with several performances shows the times of that weekday) (a strip of the 15 days shows how many activities each day has and
+On the site: events are listed day by day (an event appears on every day it runs, according to the weekdays in its `horarios`), each with its picture next to it when the source has one and the time(s) it has on that day, read from `horarios` (a play with several performances shows the times of that weekday) (a strip of the 15 days shows how many activities each day has and
 filters by day; what started before is grouped under **En cartel**), with filters by text, category (several
 can be combined; each chip shows how many events it has with the other filters), free events and a
 "Desde las" time selector, and under **Más filtros** by venue, neighborhood and date range;
