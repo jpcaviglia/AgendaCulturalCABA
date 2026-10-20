@@ -161,6 +161,11 @@ sometimes a closed account.
 large body freezes the call). Long loops (clicking "Ver más" 80 times) go in an async IIFE that sets `window.__done`;
 poll it with calls under 40 s.
 
+Gotchas: start the receiver with a Windows path (`C:/...`), not the Git Bash `/c/...` one: Python cannot open it, the
+handler raises, the browser's request hangs and, after six of them, Chrome stops connecting to that port (use a new
+port). If the POST still does not arrive, put the text in a `<pre>` inside `<article>` and read it with
+`get_page_text` (the `javascript_tool` result is cut at ~1,000 characters).
+
 ## Patterns of known sites
 
 - **WordPress + The Events Calendar** (`tribe-events` in the HTML): open

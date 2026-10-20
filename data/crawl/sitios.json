@@ -17802,7 +17802,8 @@
     "extraccion": "h2 con la fecha y enlaces a /event/<uuid>; cada tarjeta trae line up, 'Sala - Barrio', género y precio; filtrar por barrio de CABA",
     "salida": "los resultados de javascript_tool se cortan en ~1000 caracteres: extraer en tandas",
     "sin_fichas": "no se abrieron las fichas: line up, sala y precio salen de la tarjeta",
-    "plataforma": "no sondeable por HTTP (403); usar navegador"
+    "plataforma": "no sondeable por HTTP (403); usar navegador",
+    "fichas": "La ficha /event/<uuid> (solo con navegador: fetch desde una pestaña de jodify.com.ar; por HTTP da 403/429) trae en su JSON-LD el precio, la hora y la imagen. La tarjeta del listado no los trae: abrir todas las fichas. La dirección solo está en el texto renderizado."
    },
    "enlaces_descartados": [
     {
@@ -17826,6 +17827,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 45
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 73
     },
     {
      "fecha": "2026-10-19",
