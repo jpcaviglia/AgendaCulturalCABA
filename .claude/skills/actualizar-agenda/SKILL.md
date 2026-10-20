@@ -156,6 +156,14 @@ retry). Do not change the status to get around the validation.
 
 Save each site as soon as you finish it: if the session is cut off, what was saved is not lost.
 
+A site that needs one read per event and cannot be finished in reasonable time (Centro Cultural de la
+Cooperación: monthly pages by discipline, weekday-only functions) is not saved half done: leave it in the
+queue for the next session and say so in the progress update. Huge sources (Passline: ~1,100 pages) take
+about 25 minutes of fetching, so count them as several sites of the session's time. A Bash heredoc with
+accents and `¡«»` can fail: write the script with the Write tool and run it. If the browser JS tool or Bash
+answers "no verdict" from the auto-mode classifier, retry once as-is; the `computer` `zoom` action on a
+region of the page reads small widgets (day tabs, times) without JavaScript.
+
 After the 20th site, publish a progress update (section 6) and end the session. That way the page is
 updated after every session even if the run takes several.
 
