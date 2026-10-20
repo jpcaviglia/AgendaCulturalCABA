@@ -818,19 +818,27 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Dominio estacionado (Hostinger). Buscar web actual.",
     "2026-10-15: la web cambió de https://www.albertosendros.com a http://galeriasendros.com/",
     "2026-10-15 [web] Web nueva galeriasendros.com e Instagram @galeria.sendros; la web no tiene muestra vigente, mirar el Instagram.",
-    "2026-10-19 [web] 2026-10-19: la 'muestra actual' leída por HTTP es Nicolás Bacal (7/6 al 12/7), ya terminada; abrirla en el navegador por si la portada se actualiza con JS."
+    "2026-10-19 [web] 2026-10-19: la 'muestra actual' leída por HTTP es Nicolás Bacal (7/6 al 12/7), ya terminada; abrirla en el navegador por si la portada se actualiza con JS.",
+    "2026-10-20 [instagram] Sin muestra vigente al 20/10; la bio dice proyecto InHouse 2026-2029."
    ],
    "entradas": [
     "http://galeriasendros.com/"
    ],
    "comportamiento": {
-    "estructura": "La portada muestra la 'muestra actual' con título y 'DD MES al DD MES'; por HTTP llegó la de junio-julio"
+    "estructura": "La portada muestra la 'muestra actual' con título y 'DD MES al DD MES'; por HTTP llegó la de junio-julio",
+    "horarios": "Miércoles a viernes de 14 a 18 hs"
    },
    "historial": [
     {
@@ -844,17 +852,15 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15",
-   "enlaces_descartados": [
-    {
-     "url": "http://galeriasendros.com/",
-     "texto": "Muestras pasadas",
-     "motivo": "archivo de muestras pasadas",
-     "fecha": "2026-10-19"
-    }
-   ]
+   "bio_probada": "2026-10-15"
   },
   {
    "id": "rubbers",
@@ -872,12 +878,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] La web propia no publica muestras.",
-    "2026-10-19 [web] 2026-10-19: la web es solo institucional; la programación está en Instagram."
+    "2026-10-19 [web] 2026-10-19: la web es solo institucional; la programación está en Instagram.",
+    "2026-10-20 [instagram] Muestra Detrás del Ojo (Candelaria Palacios) vigente sin fechas publicadas: revisar en la próxima corrida si aparecen fechas. Web institucional, la agenda va solo por Instagram."
    ],
    "entradas": [
     "https://somosmeridiano.com.ar/agenda/"
@@ -898,6 +911,12 @@
      "fecha": "2026-10-19",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -1536,19 +1555,27 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Dominio Wix desconectado.",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
-    "2026-10-15 [web] Rastrear por Instagram."
+    "2026-10-15 [web] Rastrear por Instagram.",
+    "2026-10-20 [instagram] Muestra Recuerdos del Edén (inauguró 1/10, sin fecha de cierre publicada). Abre jueves 17 a 20 h.",
+    "2026-10-20 [web] La galería solo publica en Instagram (@galeriapasaje17)."
    ],
    "comportamiento": {
-    "web": "dominio Wix desconectado"
+    "web": "pasaje17.com.ar fue tomado por un sitio de casino: ignorar; la galería solo publica en Instagram"
    },
    "historial": [
     {
@@ -1556,9 +1583,29 @@
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.pasaje17.com.ar",
+     "texto": "pasaje17.com.ar",
+     "motivo": "el dominio ahora muestra un casino online (spam), no la galería",
+     "fecha": "2026-10-20"
+    }
+   ]
   },
   {
    "id": "galeria-piedras",
@@ -2023,7 +2070,8 @@
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de  a https://www.almacendearte.net/",
     "2026-10-15 [web] Web y sede confirmadas (almacendearte.net, Central AFFAIR en Galerías Larreta). La web está desactualizada; revisar Instagram.",
-    "2026-10-19 [web] 2026-10-19: sin actividades desde 2023; la presencial es en San Nicolás de los Arroyos."
+    "2026-10-19 [web] 2026-10-19: sin actividades desde 2023; la presencial es en San Nicolás de los Arroyos.",
+    "2026-10-20 [instagram] Sede principal en San Nicolás de los Arroyos; en CABA solo ferias."
    ],
    "entradas": [
     "https://www.almacendearte.net/actividades"
@@ -2039,6 +2087,12 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "historial": [
@@ -2051,6 +2105,12 @@
     {
      "fecha": "2026-10-19",
      "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
     }
@@ -2262,7 +2322,29 @@
    "web": "",
    "instagram": "@peliypicada",
    "origen": "data/lugares.json",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "alt_grilla": "el alt de la miniatura trae el epígrafe"
+   },
+   "notas": [
+    "2026-10-20 [instagram] Ciclo mensual de cine debate en Paternal (sábados 19:30); dirección no publicada; precio sin publicar (entradas por link en bio)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "cultural-moran",
@@ -2392,18 +2474,21 @@
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "estructura": "Agenda por semanas con día, categoría, título, hora y sala (Sala Andralis / El Archibrazo)."
+    "estructura": "Agenda por semanas con día, categoría, título, hora y sala (Sala Andralis / El Archibrazo).",
+    "lectura": "agenda y fichas /eventos/<slug>/ se leen sin navegador con sondear.py --leer; la ficha trae precio y og:image",
+    "talleres": "clases semanales sin fechas de inicio/fin: no se cargan"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 1
+     "eventos": 5,
+     "paginas": 7
     }
    },
    "notas": [
-    "2026-10-15 [web] Teatro y música en vivo en Almagro."
+    "2026-10-15 [web] Teatro y música en vivo en Almagro.",
+    "2026-10-20 [web] 31/10 La Mulbe figura a las 11:30 en la cartelera (probablemente error, show de noche). Talleres regulares sin fechas."
    ],
    "historial": [
     {
@@ -2411,9 +2496,23 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.archibrazo.org/convocatoria/",
+     "texto": "Convocatoria",
+     "motivo": "convocatoria, no evento",
+     "fecha": "2026-10-20"
+    }
+   ]
   },
   {
    "id": "asociacion-calabresa-mutual-y-cultural",
@@ -6346,7 +6445,7 @@
    "direccion": "Roseti 93",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 9,
      "paginas": 1
@@ -6356,15 +6455,24 @@
     "https://artlabpro.net/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "Tarjetas con 'DÍA dd/mm HH:MM Título' y botón Comprar (la lista se repite dos veces: arriba destacados, abajo cronológica)."
+    "extraccion": "Tarjetas con 'DÍA dd/mm HH:MM Título' y botón Comprar (la lista se repite dos veces: arriba destacados, abajo cronológica).",
+    "sin_fichas": "la agenda abre la compra en una ventana, sin página por evento; precios solo al comprar",
+    "lectura": "la agenda se lee con sondear.py --leer"
    },
    "notas": [
     "2026-10-15 [web] Agenda hasta fin de noviembre.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/artlabpro"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/artlabpro",
+    "2026-10-20 [web] Agenda con eventos hasta diciembre; la ventana empieza el 23/10. Sin precio ni ficha propia."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 9
@@ -7450,7 +7558,29 @@
    "origen": "data/lugares.json",
    "barrio": "Flores",
    "direccion": "Alvarez, Donato, Tte. Gral. 524",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "el enlace de bio es la página del espacio en Alternativa Teatral (solo archivo si no hay cartelera)"
+   },
+   "notas": [
+    "2026-10-20 [instagram] Sin programación fechada en la ventana; publica clases de tango semanales sin horarios claros."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "tempo-escuela-de-musica-y-artes",
@@ -9132,20 +9262,23 @@
    "barrio": "Palermo",
    "direccion": "Ravignani, Emilio, Dr. 1408",
    "entradas": [
+    "https://www.alternativateatral.com/espacio6471-alquimia-espacio-cultural",
     "https://www.alternativateatral.com/cartelera.asp?cuando=30"
    ],
    "comportamiento": {
-    "fuente": "La página del espacio en Alternativa no lista obras sin JS; usar la cartelera general filtrada por sala 'Alquimia Centro Cultural'."
+    "fuente": "La página del espacio en Alternativa no lista obras sin JS; usar la cartelera general filtrada por sala 'Alquimia Centro Cultural'.",
+    "plataforma": "la agenda del centro está en su página de Alternativa Teatral (su web es campsite.bio/ccalquimia); las fichas de obra no traen funciones en el texto, solo día de la semana en la cartelera del espacio"
    },
    "notas": [
-    "2026-10-15 [web] Ravignani 1408, Palermo."
+    "2026-10-15 [web] Ravignani 1408, Palermo.",
+    "2026-10-20 [web] Funciones con solo día de la semana: fechas = primera y última dentro de la ventana. Faltan precio y hora de los estrenos 30/10 y 1/11."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 2
+     "eventos": 5,
+     "paginas": 6
     }
    },
    "historial": [
@@ -9154,6 +9287,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "bio_probada": "2026-10-15"
@@ -10234,10 +10373,12 @@
    "enlace_bio": "https://linktr.ee/lacasadelarbol",
    "notas": [
     "2026-10-15 [instagram] La bio enlaza a la productora El Árbol Cultural en Passline, que lista fecha, hora y precio de cada show; los del 30/10 en adelante quedan fuera de ventana.",
-    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
+    "2026-10-20 [web] Passline productora lista 7 fechas hasta 13/11; precios en el listado."
    ],
    "comportamiento": {
-    "agenda": "Passline productora: abrir en el navegador (403 sin navegador)"
+    "agenda": "Passline productora: abrir en el navegador (403 sin navegador)",
+    "espera_seg": 5
    },
    "ultimo": {
     "instagram": {
@@ -10245,12 +10386,24 @@
      "estado": "con_eventos",
      "eventos": 5,
      "paginas": 2
+    },
+    "web": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 5,
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 5
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
     }
@@ -10457,7 +10610,30 @@
    "origen": "data/lugares.json",
    "barrio": "Palermo",
    "direccion": "Cordoba Av. 4379",
-   "enlace_bio": "http://www.circuitosmaradonianos.com.ar/"
+   "enlace_bio": "http://www.circuitosmaradonianos.com.ar/",
+   "comportamiento": {
+    "semanal": "publica 'ESTA SEMANA EN THAMES 240' cada semana (el último fue 15-18/10, entradas por Passline); el venue reabrió el 8/10 en Thames 240",
+    "bio": "circuitosmaradonianos.com.ar lista 10 encuentros con fecha"
+   },
+   "notas": [
+    "2026-10-20 [instagram] Reabrió en Thames 240 (Palermo) el 8/10. La programación de la semana del 22/10 aún no estaba publicada; revisar de nuevo. Dirección: Thames 240."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "espacio-cultural-chacra-de-los-remedios",
@@ -12923,10 +13099,13 @@
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (Agenda y Entradas en Passline))",
     "2026-10-15 [instagram] La bio ('Agenda y Entradas') enlaza a su pÃ¡gina de Passline con todos los eventos, fecha y hora; 30/10 y noviembre quedan fuera de ventana.",
-    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos"
+    "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
+    "2026-10-20 [web] Passline sitio lista todas las fechas (hasta diciembre). Precios tomados del texto de la ficha (menor valor)."
    ],
    "comportamiento": {
-    "agenda": "Passline sitio: abrir en el navegador (403 sin navegador)"
+    "agenda": "Passline sitio: abrir en el navegador (403 sin navegador)",
+    "espera_seg": 5,
+    "fichas": "los enlaces /sitio-evento/<slug> se leen con fetch desde la pestaña; el precio sale del texto"
    },
    "ultimo": {
     "instagram": {
@@ -12934,12 +13113,24 @@
      "estado": "con_eventos",
      "eventos": 10,
      "paginas": 2
+    },
+    "web": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 10,
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 10
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
     }
@@ -16886,21 +17077,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
     "2026-10-15 [web] Agenda web desactualizada (2025); revisar Instagram @museolarreta.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museolarreta"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museolarreta",
+    "2026-10-20 [web] Actividades leídas desde el Linktree y sus noticias, sin navegador. Falta ver exposiciones permanentes y cursos del programa Amigos."
    ],
    "id": "museo-de-arte-espanol-enrique-larreta",
    "entradas": [
+    "https://linktr.ee/museolarreta",
     "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta/agenda-cultural-del-museo-larreta"
    ],
    "comportamiento": {
-    "web": "Página de la Ciudad desactualizada; sus obras de teatro salen en Alternativa Teatral (espacio Museo Larreta) y en Instagram/Linktree."
+    "web": "Página de la Ciudad desactualizada; sus obras de teatro salen en Alternativa Teatral (espacio Museo Larreta) y en Instagram/Linktree.",
+    "agenda": "Linktree del museo lista las actividades como noticias de buenosaires.gob.ar/gcaba_historico/noticias; leer con sondear.py --leer"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 2
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 4,
+     "paginas": 6
     }
    },
    "historial": [
@@ -16909,6 +17103,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ],
    "barrio": "Belgrano",
@@ -17777,7 +17977,8 @@
     "2026-10-15: la web cambió de  a https://www.gachiprieto.com/",
     "2026-10-15 [web] Web confirmada gachiprieto.com; sin muestras publicadas, mirar Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/gachiprietogaleria",
-    "2026-10-19 [web] 2026-10-19: la web no publica programación en texto; ver Instagram."
+    "2026-10-19 [web] 2026-10-19: la web no publica programación en texto; ver Instagram.",
+    "2026-10-20 [instagram] Sin muestra fechada visible; sitio Wix con contenido en imágenes."
    ],
    "id": "gachi-prieto-galeria",
    "comportamiento": {
@@ -17788,6 +17989,12 @@
     "web": {
      "fecha": "2026-10-19",
      "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 4
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 4
     }
@@ -17803,6 +18010,12 @@
      "fecha": "2026-10-19",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -17885,7 +18098,8 @@
     "2026-10-15: la web cambió de  a https://www.calvaresicontemporaneo.com/",
     "2026-10-15 [web] Web confirmada calvaresicontemporaneo.com (San Telmo).",
     "2026-10-15 [web] La primera de /muestras es la vigente; las demás son archivo.",
-    "2026-10-19 [web] 2026-10-19: última muestra terminó el 16/10; sin próxima anunciada. Revisar de nuevo en la próxima corrida."
+    "2026-10-19 [web] 2026-10-19: última muestra terminó el 16/10; sin próxima anunciada. Revisar de nuevo en la próxima corrida.",
+    "2026-10-20 [instagram] Sin próxima muestra anunciada al 20/10. Revisar de nuevo."
    ],
    "id": "calvaresi-galeria",
    "entradas": [
@@ -17894,7 +18108,8 @@
    "comportamiento": {
     "plataforma": "Wix; HTTP da 403 a scripts pero carga en el navegador; las tarjetas de /muestras no son enlaces: hay que hacer clic y la ficha trae las fechas (dd/mm/aaaa-dd/mm/aaaa)",
     "fichas": "la fecha está solo en la ficha; /muestras lista las muestras de la más reciente a la más antigua",
-    "espera_seg": 5
+    "espera_seg": 5,
+    "bio": "linktr.ee/Calvaresi sin agenda"
    },
    "ultimo": {
     "web": {
@@ -17902,6 +18117,12 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 3
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
     }
    },
    "historial": [
@@ -17920,6 +18141,12 @@
     {
      "fecha": "2026-10-19",
      "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
     }
@@ -18016,12 +18243,14 @@
     "2026-10-15: la web cambió de  a https://cosmocosa.com/",
     "2026-10-15 [web] Galería abierta en Montevideo 1430 (Recoleta); la web está en renovación, mirar Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cosmocosa",
-    "2026-10-19 [web] 2026-10-19: la web está en renovación; dirección Montevideo 1430 PB."
+    "2026-10-19 [web] 2026-10-19: la web está en renovación; dirección Montevideo 1430 PB.",
+    "2026-10-20 [instagram] Sin muestra actual publicada al 20/10; abierta lunes a viernes 14-19 h en Montevideo 1430 PB."
    ],
    "id": "cosmocosa",
    "comportamiento": {
     "estado_web": "en renovación (octubre 2026)",
-    "web": "en renovación al 2026-10-19; mirar el Linktree o Instagram"
+    "web": "en renovación al 2026-10-19; mirar el Linktree o Instagram",
+    "bio": "linktr.ee/cosmocosa sin agenda vigente"
    },
    "ultimo": {
     "web": {
@@ -18029,6 +18258,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "historial": [
@@ -18042,6 +18277,12 @@
      "fecha": "2026-10-19",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -20691,13 +20932,51 @@
    "lugares": [
     "Teatro Gran Rex"
    ],
-   "web": "",
+   "web": "https://teatro-granrex.com.ar",
    "instagram": "@teatro_granrex",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala de recitales y teatro"
+    "2026-10-15: sala de recitales y teatro",
+    "2026-10-20: la web cambió de  a https://teatro-granrex.com.ar",
+    "2026-10-20 [web] Se agrega la web teatro-granrex.com.ar (estaba solo Instagram). Precios sin publicar en HTML. Ivy Queen 25/10 cancelado.",
+    "2026-10-20 [instagram] Agenda completa en la web oficial; Instagram redundante."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "entradas": [
+    "https://teatro-granrex.com.ar"
+   ],
+   "comportamiento": {
+    "web": "teatro-granrex.com.ar (TuEntrada) lista Próximos Eventos en la portada; legible sin navegador con sondear.py --leer",
+    "precio": "las fichas no traen precio en el HTML (ticketera TuEntrada)"
+   },
+   "ultimo": {
+    "web": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 11,
+     "paginas": 3
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "teatro-coliseo",
@@ -20827,13 +21106,34 @@
    "lugares": [
     "Teatro Vorterix"
    ],
-   "web": "",
+   "web": "https://www.allaccess.com.ar/venue/teatro-vorterix",
    "instagram": "@teatrovorterix",
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
-    "2026-10-15: sala de recitales"
+    "2026-10-15: sala de recitales",
+    "2026-10-20: la web cambió de  a https://www.allaccess.com.ar/venue/teatro-vorterix",
+    "2026-10-20 [instagram] Agenda leída desde la página del venue en All Access. Hora/precio sin publicar en el HTML."
    ],
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "bio": "el link de bio es allaccess.com.ar/venue/teatro-vorterix: lista todos los shows (legible con sondear.py --leer); hora y precio no están en el HTML"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ]
   },
   {
    "id": "strummer-bar",

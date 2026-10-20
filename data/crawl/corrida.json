@@ -463,7 +463,8 @@
   "museo-nacional-del-grabado|instagram",
   "roseti|instagram",
   "factoria|instagram",
-  "centro-cultural-miguel-miranda|instagram"
+  "centro-cultural-miguel-miranda|instagram",
+  "pasaje-17|instagram"
  ],
  "hechos": {
   "macba-museo-de-arte-contemporaneo-de-buenos-aires|web": "con_eventos",
@@ -596,8 +597,28 @@
   "el-jufre-teatro-bar|web": "con_eventos",
   "centro-cultural-miguel-miranda|web": "sin_eventos",
   "nuestra-america|instagram": "sin_eventos",
-  "woki-toki|instagram": "no_carga"
+  "woki-toki|instagram": "no_carga",
+  "la-paz-arriba|web": "con_eventos",
+  "la-casa-del-arbol|web": "con_eventos",
+  "museo-de-arte-espanol-enrique-larreta|web": "con_eventos",
+  "peli-y-picada|instagram": "con_eventos",
+  "teatro-calderon|instagram": "sin_eventos",
+  "teatro-gran-rex|web": "con_eventos",
+  "teatro-vorterix|instagram": "con_eventos",
+  "teatro-gran-rex|instagram": "sin_agenda",
+  "vuela-el-pez|instagram": "con_eventos",
+  "pasaje-17|instagram": "con_eventos",
+  "calvaresi-galeria|instagram": "sin_eventos",
+  "alberto-sendros|instagram": "sin_eventos",
+  "pasaje-17|web": "dominio_caido",
+  "rubbers|instagram": "sin_eventos",
+  "almacen-de-arte|instagram": "sin_eventos",
+  "gachi-prieto-galeria|instagram": "sin_eventos",
+  "archibrazo|web": "con_eventos",
+  "artlab|web": "con_eventos",
+  "alquimia-espacio-cultural|web": "con_eventos",
+  "cosmocosa|instagram": "sin_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 2775
+ "eventos": 2834
 }

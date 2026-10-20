@@ -5,11 +5,14 @@
   "hasta": "2026-11-03"
  },
  "rastreo": {
-  "capturas": 129,
-  "con_eventos": 86
+  "capturas": 149,
+  "con_eventos": 97
  },
  "fuentes": [
   "ALIANZA FRANCESA",
+  "ALQUIMIA ESPACIO CULTURAL",
+  "ARCHIBRAZO",
+  "ARTLAB",
   "Alternativa Teatral",
   "Arte al Día: agenda",
   "Arte x Arte",
@@ -56,8 +59,10 @@
   "Indiehoy: Agenda de recitales",
   "Indiehoy: muestras de arte del mes",
   "Jodify",
+  "LA PAZ ARRIBA",
   "LA SCALA DE SAN TELMO",
   "LOS POMPAS",
+  "La Casa del Árbol",
   "La Mensajera ECI",
   "La Nube",
   "La Rural Ticket",
@@ -72,6 +77,7 @@
   "Museo Nacional de Bellas Artes",
   "Museo Sitio de Memoria ESMA",
   "Museo Xul Solar",
+  "Museo de Arte Español Enrique Larreta",
   "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
   "Museo de Arte Moderno de Buenos Aires",
   "Museo de Arte Popular José Hernández",
@@ -80,6 +86,7 @@
   "Nora Fisch",
   "PASILLO AL FONDO ESPACIO CULTURAL",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
+  "Pasaje 17",
   "Pasto Galería",
   "Planta Inclán",
   "Resident Advisor: Buenos Aires",
@@ -88,13 +95,17 @@
   "Strummer Bar",
   "TCQ",
   "TEATRARTE",
+  "Teatro Gran Rex",
+  "Teatro Vorterix",
   "Time Out Buenos Aires: Agenda",
   "Turismo Buenos Aires: Qué hacer esta semana",
   "UN LUGAR APARTE",
+  "VUELA EL PEZ",
   "Vamos Feria",
   "Vidriera BA",
   "W Galería",
-  "nuestro cine"
+  "nuestro cine",
+  "peli y picada"
  ],
  "eventos": [
   {
@@ -3061,6 +3072,31 @@
    "imagen": ""
   },
   {
+   "id": "9f8dd4f45f40",
+   "titulo": "Recuerdos del Edén",
+   "categoria": "Artes visuales",
+   "lugar": "Galería Pasaje 17",
+   "barrio": "Almagro",
+   "direccion": "Bartolomé Mitre 1559",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Jueves de 17 a 20 h (consultar otros horarios)",
+   "precio": "Gratis",
+   "descripcion": "Muestra de Sofía Althabe, Ana Luisa Bondone Fernández y Gabriela Grondona. Curaduría: Rodrigo Alonso. Inauguración 1/10; fecha de cierre no publicada.",
+   "url": "https://www.instagram.com/galeriapasaje17/p/Ddg6gK_TZlQ/",
+   "dominio": "instagram.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Pasaje 17"
+   ],
+   "lat": -34.607718,
+   "lng": -58.388677,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "e036a7d709d0",
    "titulo": "Rocky",
    "categoria": "Teatro",
@@ -4422,21 +4458,22 @@
    "fecha_inicio": "2026-10-10",
    "fecha_fin": "2026-10-31",
    "hora": "21:30",
-   "horarios": "Sáb 21:30 (hasta el 31/10)",
+   "horarios": "Sábados 21:30 h",
    "precio": "Consultar",
-   "descripcion": "¡70 años y sin prepaga! Así comienza la aventura de Chichí, quien ahora se tiene que hacer pasar por su consuegra Alicia, para que su hija Hilda, pueda internarla en la clínica de su yerno, Juan. ¿Te parece un enredo? En",
-   "url": "https://vidrierabuenosaires.com/eventos/donde-esta-alicia",
-   "dominio": "vidrierabuenosaires.com",
+   "descripcion": "Comedia desopilante: Chichí debe hacerse pasar por su consuegra Alicia para internarse en la clínica de su yerno.",
+   "url": "https://www.alternativateatral.com/obra102737-donde-esta-alicia",
+   "dominio": "alternativateatral.com",
    "estado": "En curso",
    "lugar_verificado": "",
    "fuentes": [
-    "Vidriera BA",
-    "Alternativa Teatral"
+    "ALQUIMIA ESPACIO CULTURAL",
+    "Alternativa Teatral",
+    "Vidriera BA"
    ],
    "lat": -34.584297,
    "lng": -58.442405,
    "embebible": true,
-   "imagen": "https://vidriera.earth/donde-esta-alicia/portada1-horizontal-sin-logo.jpg-reduced-4m9amz"
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/92/000320192.jpg"
   },
   {
    "id": "72f92e51c5e1",
@@ -7093,6 +7130,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000321776.jpg"
   },
   {
+   "id": "1fbc6fec9bc6",
+   "titulo": "Muy Martes!",
+   "categoria": "Música",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 6000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/muy-martes-061026-556360",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "d75dc1fa1b6d",
    "titulo": "Mío!",
    "categoria": "Teatro",
@@ -8430,6 +8492,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000313953.jpg"
   },
   {
+   "id": "528fcc3ab0ba",
+   "titulo": "Salsa Arriba",
+   "categoria": "Danza",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/salsa-arriba-071026-556371",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "3d7c0f2856dd",
+   "titulo": "Sombras con Daniel Agostini - 30 años",
+   "categoria": "Teatro",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Entradas agotadas.",
+   "url": "https://teatro-granrex.com.ar/sombras-con-daniel-agostini",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "594517715ea9",
    "titulo": "Somos y seremos mar",
    "categoria": "Teatro",
@@ -8954,6 +9066,31 @@
    "lng": -58.415942,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/96/000320696.jpg"
+  },
+  {
+   "id": "41e6301c8c38",
+   "titulo": "Catálogo familiar de flores y plantas",
+   "categoria": "Taller",
+   "lugar": "Museo de Arte Español Enrique Larreta",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "16:30",
+   "horarios": "",
+   "precio": "Entrada al museo",
+   "descripcion": "Taller para familias a cargo de Romina Orazi en el jardín hispanoárabe del museo. Requiere inscripción previa.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/catalogo-familiar-de-flores-y-plantas-cargo-de-romina-orazi-artista-2",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Arte Español Enrique Larreta"
+   ],
+   "lat": -34.560793,
+   "lng": -58.455542,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "aa59a0493c1b",
@@ -9531,6 +9668,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000319390.jpg"
   },
   {
+   "id": "8d518c1757c7",
+   "titulo": "IN SOUNDS",
+   "categoria": "Música",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/in-sounds-221026",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a126c30ffc28",
    "titulo": "Improvisto",
    "categoria": "Teatro",
@@ -9840,15 +10002,16 @@
    "direccion": "Av. Corrientes 857",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-22",
-   "hora": "",
+   "hora": "20:30",
    "horarios": "",
    "precio": "Consultar",
    "descripcion": "En este show imperdible, la legendaria banda argentina de reggae y rock latino hará la presentación oficial de \"Inmortal\", su nuevo álbum de estudio que cuenta con 10 canciones inéditas, además de repasar los grandes clá",
-   "url": "https://vidrierabuenosaires.com/eventos/los-pericos",
-   "dominio": "vidrierabuenosaires.com",
+   "url": "https://teatro-granrex.com.ar/los-pericos-tgr",
+   "dominio": "teatro-granrex.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Teatro Gran Rex",
     "Vidriera BA",
     "Indiehoy: Agenda de recitales"
    ],
@@ -9856,6 +10019,31 @@
    "lng": -58.378773,
    "embebible": true,
    "imagen": "https://vidriera.earth/los-pericos/pericos1.1.jpg-reduced-pfvejb"
+  },
+  {
+   "id": "5805201fa216",
+   "titulo": "Los Pericos - Meet & Greet",
+   "categoria": "Música",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/los-pericos-m&g-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "83240e8f07c7",
@@ -10384,6 +10572,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/73/000318273.jpg"
   },
   {
+   "id": "6dbc728135c5",
+   "titulo": "Terror en la Biblioteca",
+   "categoria": "Teatro",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 12000",
+   "descripcion": "",
+   "url": "https://www.passline.com/eventos/terror-en-la-biblioteca",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "e6c66f3685f9",
    "titulo": "Todo lo que está a mi lado",
    "categoria": "Teatro",
@@ -10782,6 +10995,31 @@
    "lng": -58.417273,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/02/000314202.jpg"
+  },
+  {
+   "id": "ec82a1a06495",
+   "titulo": "¿Dónde están las wachas? | Emex Sarassa - Clara Lambertucci - Eluney Sposato - VICO",
+   "categoria": "Música",
+   "lugar": "Archibrazo",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "A la gorra (hasta $ 16500)",
+   "descripcion": "Ciclo de música en vivo para encontrarse entre las trabajadoras y trabajadores de la escena.",
+   "url": "https://www.archibrazo.org/eventos/dondeestanleswaches/",
+   "dominio": "archibrazo.org",
+   "estado": "Próximo",
+   "lugar_verificado": "ARCHIBRAZO",
+   "fuentes": [
+    "ARCHIBRAZO"
+   ],
+   "lat": -34.604896,
+   "lng": -58.416883,
+   "embebible": true,
+   "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/06/22-10-819x1024.jpg"
   },
   {
    "id": "6855286e72c5",
@@ -11192,20 +11430,21 @@
    "direccion": "Av. Corrientes 857",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-23",
-   "hora": "",
+   "hora": "20:30",
    "horarios": "",
-   "precio": "Desde $45.000",
+   "precio": "Consultar",
    "descripcion": "Recital: Axel en Teatro Gran Rex.",
-   "url": "https://indiehoy.com/agenda/axel-en-teatro-gran-rex/",
-   "dominio": "indiehoy.com",
+   "url": "https://teatro-granrex.com.ar/axel-tgr",
+   "dominio": "teatro-granrex.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Teatro Gran Rex",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.603366,
    "lng": -58.378773,
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/03/axel-gran-rex.jpeg"
   },
   {
@@ -11834,6 +12073,31 @@
    "imagen": ""
   },
   {
+   "id": "5dd4e002f9f4",
+   "titulo": "Cumple Charly - Habladurías vol. 2",
+   "categoria": "Música",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "A la gorra (hasta $ 16500)",
+   "descripcion": "Festejo de cumpleaños de Charly García con música en vivo y visuales.",
+   "url": "https://www.archibrazo.org/eventos/musicaenvivo/",
+   "dominio": "archibrazo.org",
+   "estado": "Próximo",
+   "lugar_verificado": "ARCHIBRAZO",
+   "fuentes": [
+    "ARCHIBRAZO"
+   ],
+   "lat": -34.604896,
+   "lng": -58.416883,
+   "embebible": true,
+   "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/06/23-10-819x1024.jpg"
+  },
+  {
    "id": "633099ed2d08",
    "titulo": "Curuza una historia a flor de piel",
    "categoria": "Teatro",
@@ -11882,6 +12146,32 @@
    "lng": -58.449505,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/28/000321528.jpg"
+  },
+  {
+   "id": "1b09f865154e",
+   "titulo": "Círculo de Sonido | Loló Gasparini + Juna",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de música electrónica (House). Line up: Loló Gasparini | Juna.",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB",
+    "Jodify"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/22ff513cbd55c9b0f64c2ee5b0d9a4409bd39281.jpeg"
   },
   {
    "id": "a3d0c2d42afe",
@@ -13361,6 +13651,32 @@
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1779154357024.webp"
   },
   {
+   "id": "5c32c5d2ff1c",
+   "titulo": "La Señora Macbeth",
+   "categoria": "Teatro",
+   "lugar": "Alquimia Centro Cultural",
+   "barrio": "Palermo",
+   "direccion": "Ravignani 1408",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "Viernes 21 h",
+   "precio": "$ 25000",
+   "descripcion": "Obra de teatro en Alquimia Centro Cultural.",
+   "url": "https://www.alternativateatral.com/obra102992-la-senora-macbeth",
+   "dominio": "alternativateatral.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ALQUIMIA ESPACIO CULTURAL",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.584297,
+   "lng": -58.442405,
+   "embebible": true,
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000320867.jpg"
+  },
+  {
    "id": "f43d250a6257",
    "titulo": "La anticrista y las langostas contra los vírgenes encratitas",
    "categoria": "Teatro",
@@ -13586,31 +13902,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/60/000244660.jpg"
   },
   {
-   "id": "57bba7b865a2",
-   "titulo": "La señora macbeth",
-   "categoria": "Teatro",
-   "lugar": "Alquimia Centro Cultural",
-   "barrio": "Palermo",
-   "direccion": "Ravignani 1408",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "21:00",
-   "horarios": "Vie 21:00 (el 23/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro, unipersonales en Alquimia Centro Cultural (Palermo).",
-   "url": "https://www.alternativateatral.com/obra102992-la-senora-macbeth",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.584297,
-   "lng": -58.442405,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000320867.jpg"
-  },
-  {
    "id": "fc6cd61d105d",
    "titulo": "La vida ante mis ojos",
    "categoria": "Teatro",
@@ -13784,31 +14075,6 @@
    "lng": -58.425733,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000306287.jpg"
-  },
-  {
-   "id": "65bd91d2516e",
-   "titulo": "Loló Gasparini | Juna",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Artlab",
-   "barrio": "Chacarita",
-   "direccion": "Roseti 93",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "23:59",
-   "horarios": "",
-   "precio": "$ 28750",
-   "descripcion": "Fiesta de música electrónica (House). Line up: Loló Gasparini | Juna.",
-   "url": "https://jodify.com.ar/event/25e76dd2-5000-4cf0-aec4-9c28ef9cdf3d",
-   "dominio": "jodify.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Jodify"
-   ],
-   "lat": -34.586043,
-   "lng": -58.446381,
-   "embebible": false,
-   "imagen": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/22ff513cbd55c9b0f64c2ee5b0d9a4409bd39281.jpeg"
   },
   {
    "id": "1ed11bfe498a",
@@ -14812,6 +15078,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/04/000318604.jpg"
   },
   {
+   "id": "e3117521fe72",
+   "titulo": "POPENVIVO2",
+   "categoria": "Música",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 10000",
+   "descripcion": "",
+   "url": "https://www.passline.com/eventos/popenvivo2",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "78a4b667bfe7",
    "titulo": "Pace - All Night Long",
    "categoria": "Fiestas y electrónica",
@@ -15116,6 +15407,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/37/000320437.jpg"
   },
   {
+   "id": "2d4667ee9afd",
+   "titulo": "Pogofest - Especial Halloween",
+   "categoria": "Música",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.allaccess.com.ar/event/pogofest--especial-halloween",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
+   "imagen": "https://cdn.getcrowder.com/images/6f883a9d-87e5-4e6d-83c7-b794b680ed6e-pogofest-halloween-arg-640x640.png"
+  },
+  {
    "id": "57a3cfa42398",
    "titulo": "Prohibido suicidarse en primavera",
    "categoria": "Teatro",
@@ -15139,6 +15455,31 @@
    "lng": -58.416433,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000320950.jpg"
+  },
+  {
+   "id": "02fc92609b96",
+   "titulo": "Proyecto Gomez Casa",
+   "categoria": "Música",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "911d2338efd6",
@@ -15313,6 +15654,31 @@
    "lat": -34.586141,
    "lng": -58.426426,
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "0ba26426729f",
+   "titulo": "Salta la Banca",
+   "categoria": "Música",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.allaccess.com.ar/event/salta-la-banca",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -16341,6 +16707,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000273598.jpg"
+  },
+  {
+   "id": "4943529c5b91",
+   "titulo": "Árboles: Martín Reyna en el Museo Larreta",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Español Enrique Larreta",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "17:00",
+   "horarios": "Inauguración viernes 23/10, 17 h",
+   "precio": "Entrada al museo",
+   "descripcion": "Exposición de Martín Reyna que reúne más de cuatro décadas de investigación artística en torno a los árboles, la naturaleza y el acto de pintar.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/arboles-martin-reyna-en-el-museo-larreta-inauguracion-viernes-23-de",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Arte Español Enrique Larreta"
+   ],
+   "lat": -34.560793,
+   "lng": -58.455542,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "fb685bcadc51",
@@ -19019,6 +19410,56 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/21/000295821.jpg"
   },
   {
+   "id": "187f4f245cff",
+   "titulo": "Escuchas HiFi - Air - Moon Safari (1998), 1er turno",
+   "categoria": "Música",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Escucha de disco completo presentada por Marian Fernández Cabrera.",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "178bc170b638",
+   "titulo": "Escuchas HiFi - Illya Kuryaki and The Valderramas - Chaco (1995), 2do turno",
+   "categoria": "Música",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Escucha de disco completo presentada por Daniel Bajarlía.",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e672ab37ecb5",
    "titulo": "Esperando a Godot",
    "categoria": "Teatro",
@@ -21676,6 +22117,31 @@
    "imagen": ""
   },
   {
+   "id": "6caf26950957",
+   "titulo": "Muestra de canto - Turno A",
+   "categoria": "Música",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "",
+   "url": "https://www.passline.com/eventos/muestra-de-canto-turno-a-21hs",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "48e9bb8bab60",
    "titulo": "Mustafunk + O´funk´illo",
    "categoria": "Música",
@@ -22227,6 +22693,31 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/orishas-vorterix.jpg"
   },
   {
+   "id": "4d13406feac9",
+   "titulo": "Orishas Represent Cuba",
+   "categoria": "Música",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.allaccess.com.ar/event/orishas-represent-cuba",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "3e550c1c0b48",
    "titulo": "Otraronda cantoras presenta invocaciones",
    "categoria": "Evento",
@@ -22404,6 +22895,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/52/000313352.jpg"
   },
   {
+   "id": "5de5edc0d14e",
+   "titulo": "Peli y Picada: Blue Heron (2025)",
+   "categoria": "Cine",
+   "lugar": "Peli y Picada",
+   "barrio": "Paternal",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cine debate en Paternal: Blue Heron, primer largometraje de Sophy Romvari. Película, picada casera vegetariana, vino y debate.",
+   "url": "https://www.instagram.com/peliypicada/p/Dem0pMttB5j/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "peli y picada"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "5bce6ced7cf9",
    "titulo": "Pentagrama: concierto y charla sobre música y braille",
    "categoria": "Música",
@@ -22527,6 +23043,31 @@
    "lng": -58.377391,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/43/000285243.jpg"
+  },
+  {
+   "id": "cf4bebd7cb79",
+   "titulo": "Piazzolla Atmósferas",
+   "categoria": "Música",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "14:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "e3eb031d0fd6",
@@ -23357,6 +23898,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/02/000321602.jpg"
   },
   {
+   "id": "e99ee13cf24e",
+   "titulo": "Silver Walker presenta: Gonz Lijtenberg + DFRA Experience Jazz Band (live) + Mariano Blanco + Santi Cichelli",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "1dd9c10be0d0",
    "titulo": "Simondieu",
    "categoria": "Teatro",
@@ -23480,6 +24046,31 @@
    "lng": -58.483611,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000322467.jpg"
+  },
+  {
+   "id": "c6975cf7b3cd",
+   "titulo": "Sinestesia + Cinco en Ohm",
+   "categoria": "Música",
+   "lugar": "Archibrazo",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "$ 8800",
+   "descripcion": "Sinestesia es un proyecto creado por mujeres que celebra la naturaleza a través de canciones y colores.",
+   "url": "https://www.archibrazo.org/eventos/folklore/",
+   "dominio": "archibrazo.org",
+   "estado": "Próximo",
+   "lugar_verificado": "ARCHIBRAZO",
+   "fuentes": [
+    "ARCHIBRAZO"
+   ],
+   "lat": -34.604896,
+   "lng": -58.416883,
+   "embebible": true,
+   "imagen": "https://www.archibrazo.org/wp-content/uploads/2024/03/10-24-819x1024.png"
   },
   {
    "id": "18c4b9850108",
@@ -24658,6 +25249,32 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/91/000318691.jpg"
   },
   {
+   "id": "864b3753b10e",
+   "titulo": "¿Qué Crisis?",
+   "categoria": "Teatro",
+   "lugar": "Alquimia Centro Cultural",
+   "barrio": "Palermo",
+   "direccion": "Ravignani 1408",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "18:30",
+   "horarios": "Sábados 18:30 h",
+   "precio": "$ 25000",
+   "descripcion": "Ciclo teatral compuesto por tres obras cortas.",
+   "url": "https://www.alternativateatral.com/obra102988-que-crisis",
+   "dominio": "alternativateatral.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ALQUIMIA ESPACIO CULTURAL",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.584297,
+   "lng": -58.442405,
+   "embebible": true,
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000320734.jpg"
+  },
+  {
    "id": "a05bb06ae85f",
    "titulo": "¿inocentes o culpables?... elige sus destinos",
    "categoria": "Teatro",
@@ -24706,31 +25323,6 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/74/000322174.jpg"
-  },
-  {
-   "id": "864b3753b10e",
-   "titulo": "¿qué crisis?",
-   "categoria": "Teatro",
-   "lugar": "Alquimia Centro Cultural",
-   "barrio": "Palermo",
-   "direccion": "Ravignani 1408",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-31",
-   "hora": "18:30",
-   "horarios": "Sáb 18:30 (hasta el 31/10)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Alquimia Centro Cultural (Palermo).",
-   "url": "https://www.alternativateatral.com/obra102988-que-crisis",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.584297,
-   "lng": -58.442405,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000320734.jpg"
   },
   {
    "id": "456fc063a200",
@@ -24808,6 +25400,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/05/000320905.jpg"
   },
   {
+   "id": "8f52ebe327fb",
+   "titulo": "A Touch of Color Kiki Ball",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 8000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/a-touch-of-color-kiki-ball",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "e8ede7593f7d",
    "titulo": "A brillar mi amor, peluquería",
    "categoria": "Teatro",
@@ -24879,6 +25496,31 @@
    ],
    "lat": -34.630001,
    "lng": -58.401728,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c408698b81ca",
+   "titulo": "Abrazo Cine Conversación en LPA",
+   "categoria": "Cine",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/abrazo-cine-conversacion-en-lpa",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
    "embebible": false,
    "imagen": ""
   },
@@ -26260,6 +26902,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000320293.jpg"
   },
   {
+   "id": "fc4a8b97609f",
+   "titulo": "Elnueveonce presenta nuevo disco",
+   "categoria": "Música",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.allaccess.com.ar/event/elnueveonce-presenta-nuevo-disco",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "665de75379c6",
    "titulo": "En jaque",
    "categoria": "Teatro",
@@ -27186,6 +27853,31 @@
    "imagen": ""
   },
   {
+   "id": "df358a60caf7",
+   "titulo": "La Rueda del Son + Dj Rulex",
+   "categoria": "Música",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Descargas salseras sin escenario tradicional: seis intérpretes y público en el mismo plano. Todos los domingos de octubre.",
+   "url": "https://www.archibrazo.org/eventos/salsa/",
+   "dominio": "archibrazo.org",
+   "estado": "Próximo",
+   "lugar_verificado": "ARCHIBRAZO",
+   "fuentes": [
+    "ARCHIBRAZO"
+   ],
+   "lat": -34.604896,
+   "lng": -58.416883,
+   "embebible": true,
+   "imagen": "https://www.archibrazo.org/wp-content/uploads/2026/09/GRAFFS-EXTRA-819x1024.png"
+  },
+  {
    "id": "3229bff095cb",
    "titulo": "La bestia (lo de adentro)",
    "categoria": "Teatro",
@@ -27708,6 +28400,31 @@
    "lat": -34.597839,
    "lng": -58.412882,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "19cb47ff13c7",
+   "titulo": "Liga Bazooka",
+   "categoria": "Evento",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/liga-bazooka-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -29764,29 +30481,80 @@
    "imagen": "https://vidriera.earth/freddie-de-tommaso-y-nadine-sierra/nadine-sierra-y-freddie-de-tommaso.png-reduced-oee-rz"
   },
   {
-   "id": "9544ac0174d0",
-   "titulo": "Los habitantes de mor",
+   "id": "b5851eb47643",
+   "titulo": "Joven lectura al aire libre en el Jardín Andaluz",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo de Arte Español Enrique Larreta",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "15:00",
+   "horarios": "Lunes 15 a 17 h",
+   "precio": "Gratis",
+   "descripcion": "Espacio de lectura al aire libre para jóvenes. Sin inscripción previa; se suspende por lluvia.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/comunidad-joven-lectura-al-aire-libre-en-el-jardin-andaluz-lunes-de",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de Arte Español Enrique Larreta"
+   ],
+   "lat": -34.560793,
+   "lng": -58.455542,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "49cd01d7fb50",
+   "titulo": "Los habitantes de Mor (Peras Compañía Teatral)",
    "categoria": "Teatro",
-   "lugar": "Auditorio Del Museo De Arte Español Enrique Larreta",
+   "lugar": "Museo de Arte Español Enrique Larreta",
    "barrio": "Belgrano",
    "direccion": "Juramento 2291",
    "fecha_inicio": "2026-10-26",
    "fecha_fin": "2026-11-02",
    "hora": "19:30",
-   "horarios": "Lun 19:30 (del 26/10 al 2/11)",
+   "horarios": "Lunes 19.30 a 21 h: 26/10, 2/11 (y 16, 23, 30/11, 7 y 14/12)",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Auditorio Del Museo De Arte Español Enrique Larreta (Belgrano).",
-   "url": "https://www.alternativateatral.com/obra99927-los-habitantes-de-mor",
-   "dominio": "alternativateatral.com",
+   "descripcion": "Adaptación libre de Sueño de una noche de verano de Shakespeare en el Jardín Andaluz. Dirección: Klau Anghilante. Capacidad limitada; se suspende por lluvia.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/estreno-teatral-en-el-jardin-andaluz-los-habitantes-de-mor",
+   "dominio": "buenosaires.gob.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
    "fuentes": [
+    "Museo de Arte Español Enrique Larreta",
     "Alternativa Teatral"
    ],
    "lat": -34.560793,
    "lng": -58.455542,
-   "embebible": true,
+   "embebible": false,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/70/000322370.jpg"
+  },
+  {
+   "id": "853da3c27c3a",
+   "titulo": "Bobicraft",
+   "categoria": "Evento",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/bobicraft-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "4b2766bfd854",
@@ -29837,6 +30605,31 @@
    "lng": -58.421478,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/86/000320486.jpg"
+  },
+  {
+   "id": "98ac4ee1b3b2",
+   "titulo": "Muy Martes!",
+   "categoria": "Música",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "$ 6000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/muy-martes-131026-556363",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e898efa0a3ab",
@@ -30039,6 +30832,31 @@
    "imagen": ""
   },
   {
+   "id": "fbe3dd8e79e5",
+   "titulo": "Conciertos: Sol Liebeskind",
+   "categoria": "Música",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e23a84f265aa",
    "titulo": "El agua en la naturaleza y el arte: presentación de la publicación",
    "categoria": "Literatura y charlas",
@@ -30186,6 +31004,31 @@
    "lat": -34.604245,
    "lng": -58.3884,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "6c39909f6837",
+   "titulo": "Los 40 Primavera Pop",
+   "categoria": "Música",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/los-40-primavera-pop",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -30386,6 +31229,31 @@
    ],
    "lat": -34.576882,
    "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "dc5b024acce5",
+   "titulo": "Salsa Arriba",
+   "categoria": "Danza",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/salsa-arriba-071026-556372",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
    "embebible": false,
    "imagen": ""
   },
@@ -30773,20 +31641,21 @@
    "direccion": "Av. Corrientes 857",
    "fecha_inicio": "2026-10-29",
    "fecha_fin": "2026-10-29",
-   "hora": "",
+   "hora": "20:30",
    "horarios": "",
-   "precio": "Desde $45.000",
+   "precio": "Consultar",
    "descripcion": "Recital: Humbe en Teatro Gran Rex.",
-   "url": "https://indiehoy.com/agenda/humbe-argentina-gran-rex/",
-   "dominio": "indiehoy.com",
+   "url": "https://teatro-granrex.com.ar/humbe-tgr",
+   "dominio": "teatro-granrex.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Teatro Gran Rex",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.603366,
    "lng": -58.378773,
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/02/humbre-argentina-gran-rex.jpg"
   },
   {
@@ -30913,6 +31782,31 @@
    "lng": -58.37291,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000322633.jpg"
+  },
+  {
+   "id": "f183886e1a5b",
+   "titulo": "PPTfest2.0",
+   "categoria": "Música",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Entradas agotadas.",
+   "url": "https://www.passline.com/sitio-evento/pptfest20-291026",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "7470406d5924",
@@ -31290,6 +32184,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/11/000317511.jpg"
   },
   {
+   "id": "0f58e7bf1be4",
+   "titulo": "BITBANG - Bit Bingo Musical",
+   "categoria": "Música",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 12000",
+   "descripcion": "",
+   "url": "https://www.passline.com/sitio-evento/bitbang-bit-bingo-musical",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "32ca6e76ebf8",
    "titulo": "Ben Sterling | Baez & Saint | No Rush",
    "categoria": "Fiestas y electrónica",
@@ -31390,31 +32309,6 @@
    "imagen": ""
   },
   {
-   "id": "f9edaff034b8",
-   "titulo": "Carlos Alfonsin | Balaciano",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Artlab",
-   "barrio": "Chacarita",
-   "direccion": "Roseti 93",
-   "fecha_inicio": "2026-10-30",
-   "fecha_fin": "2026-10-30",
-   "hora": "23:00",
-   "horarios": "",
-   "precio": "$ 28750",
-   "descripcion": "Fiesta de música electrónica (House). Line up: Carlos Alfonsin | Balaciano.",
-   "url": "https://jodify.com.ar/event/736f7e81-44b8-4d1d-98d0-f7f7d57ceb1b",
-   "dominio": "jodify.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Jodify"
-   ],
-   "lat": -34.586043,
-   "lng": -58.446381,
-   "embebible": false,
-   "imagen": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/7bdf7d70d087b867b2f08224a17e88d384697dcc.png"
-  },
-  {
    "id": "f0f7f82dbeed",
    "titulo": "Ciclo arco iris 30-10",
    "categoria": "Teatro",
@@ -31513,6 +32407,32 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "89536cd22d63",
+   "titulo": "Círculo de Sonido | Carlos Alfonsin + Balaciano",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "ARTLAB",
+   "barrio": "Chacarita",
+   "direccion": "Roseti 93",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "23:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de música electrónica (House). Line up: Carlos Alfonsin | Balaciano.",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
+   "estado": "Próximo",
+   "lugar_verificado": "ARTLAB",
+   "fuentes": [
+    "ARTLAB",
+    "Jodify"
+   ],
+   "lat": -34.586043,
+   "lng": -58.446381,
+   "embebible": true,
+   "imagen": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/7bdf7d70d087b867b2f08224a17e88d384697dcc.png"
   },
   {
    "id": "638859a8e69e",
@@ -31813,6 +32733,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1791410496949.webp"
+  },
+  {
+   "id": "22e6f66c6a78",
+   "titulo": "Fiebre Fiesta en Vorterix (Halloween)",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://www.allaccess.com.ar/event/fiebre-fiesta-en-vorterix-30-10-halloween",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "6db8853fdf0b",
@@ -32342,6 +33287,31 @@
    "imagen": ""
   },
   {
+   "id": "d9589cf2990b",
+   "titulo": "La pelota es nuestra (Circuito Maradoniano)",
+   "categoria": "Literatura y charlas",
+   "lugar": "Quetren Quetren",
+   "barrio": "Belgrano",
+   "direccion": "Olazabal 1784",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "Partido de 18 a 20 h; 20 h charla y comida post partido",
+   "precio": "Gratis",
+   "descripcion": "En el cumpleaños de Diego, partido de fútbol femenino y charla sobre fútbol y barrio. Gratuito, con inscripción previa por Google Form. Organiza Vuela el Pez.",
+   "url": "https://circuitosmaradonianos.com.ar/8-circuito-tercer-tiempo-de-las-pibas/",
+   "dominio": "circuitosmaradonianos.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "VUELA EL PEZ"
+   ],
+   "lat": -34.556693,
+   "lng": -58.452366,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e56fb9c3e1a4",
    "titulo": "La vida es fútbol",
    "categoria": "Teatro",
@@ -32393,27 +33363,28 @@
   },
   {
    "id": "968586fa2afb",
-   "titulo": "Lisa María",
+   "titulo": "Lisa Maria",
    "categoria": "Música",
-   "lugar": "Artlab",
+   "lugar": "ARTLAB",
    "barrio": "Chacarita",
    "direccion": "Roseti 93",
    "fecha_inicio": "2026-10-30",
    "fecha_fin": "2026-10-30",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "Desde $20.000",
+   "precio": "Consultar",
    "descripcion": "Recital: Lisa María en Artlab.",
-   "url": "https://indiehoy.com/agenda/lisa-maria-artlab/",
-   "dominio": "indiehoy.com",
+   "url": "https://artlabpro.net/agenda/",
+   "dominio": "artlabpro.net",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "ARTLAB",
    "fuentes": [
+    "ARTLAB",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.586043,
    "lng": -58.446381,
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/lisa-maria-artlab.jpg"
   },
   {
@@ -32590,6 +33561,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/nei-van-soria-la-fabrica.jpg"
+  },
+  {
+   "id": "603dcb03e206",
+   "titulo": "Ney Matogrosso",
+   "categoria": "Música",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/ney-matogroso-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "b24d1733efc8",
@@ -32817,6 +33813,31 @@
    "imagen": ""
   },
   {
+   "id": "8735d7fd4ccd",
+   "titulo": "Sasha Vuela y Sinti Pacha",
+   "categoria": "Música",
+   "lugar": "La Casa del Árbol",
+   "barrio": "Palermo",
+   "direccion": "Cordoba Av. 5217",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 14000",
+   "descripcion": "",
+   "url": "https://www.passline.com/eventos/sasha-vuela-y-sinti-pacha",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Casa del Árbol"
+   ],
+   "lat": -34.589886,
+   "lng": -58.436362,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "ceb974c04bb9",
    "titulo": "Sgalia | Zone7 | Nano | Marko Speratti",
    "categoria": "Fiestas y electrónica",
@@ -32951,14 +33972,15 @@
    "fecha_inicio": "2026-10-30",
    "fecha_fin": "2026-10-30",
    "hora": "21:00",
-   "horarios": "Vie 21:00 (del 30/10 al 27/11)",
+   "horarios": "Estreno 30/10",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro, comedia en Alquimia Centro Cultural (Palermo).",
+   "descripcion": "Cuatro vecinos despliegan desconfianza y paranoia en un living, en una comedia de espías de una hora.",
    "url": "https://www.alternativateatral.com/obra103691-una-de-pelicula",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "ALQUIMIA ESPACIO CULTURAL",
     "Alternativa Teatral"
    ],
    "lat": -34.584297,
@@ -33719,6 +34741,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/43/000310643.jpg"
   },
   {
+   "id": "8d79d46cc20e",
+   "titulo": "Especial Halloween: Carrie y Sangría",
+   "categoria": "Cine",
+   "lugar": "Peli y Picada",
+   "barrio": "Paternal",
+   "direccion": "",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Carrie (1976) de Brian De Palma, charla posterior, pizza casera y sangría. Cupos limitados; entradas por link en bio.",
+   "url": "https://www.instagram.com/peliypicada/p/Dem1ZmhGSJI/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "peli y picada"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "50e26f5a9576",
    "titulo": "FESTIVAL ATOM",
    "categoria": "Fiestas y electrónica",
@@ -33793,6 +34840,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194848488%2F1090164453443%2F1%2Foriginal.20261001-192913?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=077e99ddd9a2b08f8ca763cb3edc8bcd"
+  },
+  {
+   "id": "0a0aaf7fd4d5",
+   "titulo": "Fiesta Climax Halloween",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Teatro Vorterix",
+   "barrio": "Colegiales",
+   "direccion": "Av. Federico Lacroze 3455",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de disfraces de reggaeton.",
+   "url": "https://www.allaccess.com.ar/event/fiesta-climax-halloween",
+   "dominio": "allaccess.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Vorterix"
+   ],
+   "lat": -34.58006,
+   "lng": -58.451008,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "eeceb7200f2b",
@@ -34169,6 +35241,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://pub-3516a925384a42e884333b23b2f75c13.r2.dev/flyers/1789574540024.webp"
+  },
+  {
+   "id": "7faa5714ec86",
+   "titulo": "La Mulbe (Halloween)",
+   "categoria": "Música",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "11:30",
+   "horarios": "",
+   "precio": "$ 8800",
+   "descripcion": "Noche de brujas con disfraces y hits del rock alternativo, pop punk y nu-metal.",
+   "url": "https://www.archibrazo.org/eventos/showdemusica/",
+   "dominio": "archibrazo.org",
+   "estado": "Próximo",
+   "lugar_verificado": "ARCHIBRAZO",
+   "fuentes": [
+    "ARCHIBRAZO"
+   ],
+   "lat": -34.604896,
+   "lng": -58.416883,
+   "embebible": true,
+   "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/10/GraficaArchi-2026-18-819x1024.png"
   },
   {
    "id": "1b006b94bb72",
@@ -35048,6 +36145,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000322675.jpg"
   },
   {
+   "id": "ede2545b3028",
+   "titulo": "Se Fue Larga Late Night",
+   "categoria": "Teatro",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/se-fue-larga-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e6ad37787a39",
    "titulo": "Seis fantasmas a la mesa",
    "categoria": "Teatro",
@@ -35675,6 +36797,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/05/000321505.jpg"
   },
   {
+   "id": "48f84949beb7",
+   "titulo": "Boda Lyniel",
+   "categoria": "Teatro",
+   "lugar": "Teatro Gran Rex",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Corrientes 857",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "",
+   "url": "https://teatro-granrex.com.ar/boda-lyniel-tgr",
+   "dominio": "teatro-granrex.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Teatro Gran Rex"
+   ],
+   "lat": -34.603366,
+   "lng": -58.378773,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "e0cd882fd77b",
    "titulo": "Ciclo manga corta",
    "categoria": "Teatro",
@@ -35960,14 +37107,15 @@
    "fecha_inicio": "2026-11-01",
    "fecha_fin": "2026-11-01",
    "hora": "19:00",
-   "horarios": "Dom 19:00 (el 1/11)",
+   "horarios": "Estreno 1/11",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Alquimia Centro Cultural (Palermo).",
+   "descripcion": "La historia de Jorge, sodero de setenta años, cuyo único amigo se va a vivir a España.",
    "url": "https://www.alternativateatral.com/obra103311-el-ultimo-de-mis-amigos",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "ALQUIMIA ESPACIO CULTURAL",
     "Alternativa Teatral"
    ],
    "lat": -34.584297,
@@ -36625,6 +37773,31 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2026/09/LENGUA-LENGUA-LENGUA_ph-Alejandra-Del-Castello_principal.jpg"
+  },
+  {
+   "id": "3ebe475822ea",
+   "titulo": "Lenguas Malditas - Punk, Filosofía y la Revolución del Sonido",
+   "categoria": "Literatura y charlas",
+   "lugar": "La Paz Arriba",
+   "barrio": "Recoleta",
+   "direccion": "Callao 1082",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 20000",
+   "descripcion": "Con Pequeño Bambi, Liliana Herrero, Marie Bardet y Flor Bergallo.",
+   "url": "https://www.passline.com/sitio-evento/lenguas-malditaspunk-filosfia-y-la-revoluciojn-del-sonido-con-pequeno-bambi-liliana-herrero-marie-bardet-flor-bergallo",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA PAZ ARRIBA"
+   ],
+   "lat": -34.599637,
+   "lng": -58.392676,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "8059cd7317d1",
