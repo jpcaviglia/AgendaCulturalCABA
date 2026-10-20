@@ -158,7 +158,8 @@
     "extraccion": "Con HTTP: pedir /d/argentina--buenos-aires/events/?page=1..12 y leer el JSON-LD de cada página (sondear.objetos_evento): 74 eventos únicos con url, imagen, sala y dirección. Mezcla congresos, cursos y eventos online o de otros países: filtrar por región CABA (incluye 'C.A.B.A.') y por tema.",
     "paginacion": "?page=N&start_date=AAAA-MM-DD&end_date=AAAA-MM-DD filtra la ventana; ~20 eventos nuevos por página, 16 páginas. Se puede hacer fetch de cada página desde la pestaña y leer el JSON-LD.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
-    "sin_fichas": "la ficha de Eventbrite no se abre: el JSON-LD del listado trae fecha, hora, sala y descripción"
+    "sin_fichas": "la ficha de Eventbrite no se abre: el JSON-LD del listado trae fecha, hora, sala y descripción",
+    "fichas": "La ficha /e/<slug> responde por HTTP y su JSON-LD trae offers (lowPrice/highPrice o price), hora (startDate), imagen y descripción: abrirlas con sondear.pedir para completar precio."
    },
    "entradas": [
     "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
@@ -178,6 +179,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 190
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 26
     },
     {
      "fecha": "2026-10-19",
