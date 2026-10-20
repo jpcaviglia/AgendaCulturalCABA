@@ -313,6 +313,13 @@ calendar (list in `navegador.md`, "Ticketing platforms of a venue"): open it in 
 gave the whole window this way. A bio link with a stale agenda (old dates) or a login-gated Canva is not
 enough: go on to the profile.
 
+The bio link can also be the venue's page on All Access (`allaccess.com.ar/venue/<slug>`: every show with its
+date, no hour or price) or on Alternativa Teatral (`/espacioNNN-<slug>`: current plays by weekday and
+"Proximamente"; if it only lists "Archivo histórico" there is no current programming). Both are read with
+`--leer`. Check where the bio link lands before trusting it: a domain can change hands (pasaje17.com.ar now
+shows a casino page); save that website as `dominio_caido` with that evidence and keep crawling the Instagram.
+A venue that only has an Instagram, and whose bio link is a working official website, goes in `web_nueva`.
+
 **Budget.** A profile costs 3-6 pages (profile + 2-4 posts), so only ~25-30 profiles fit in a day. Spend the
 quota first on bars, clubs, theaters and venues that announce shows on Instagram, and leave community
 organizations (political groups, murgas, associations) for the end: their posts are usually communiqués.

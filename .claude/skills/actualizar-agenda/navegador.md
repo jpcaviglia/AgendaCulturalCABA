@@ -173,7 +173,10 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
   with `title`, `start_date`, `end_date`, `venue`, `cost`, `url`. If it responds 404, use `/eventos/` or
   `/events/` with `preparar`.
 - **Wix**: loads slowly and in parts; `preparar` already waits, but if `largo_texto` stays low, wait 10 s
-  more and repeat. Menus are sometimes in a "Más" dropdown: open it by hand and look at its links.
+  more and repeat. Menus are sometimes in a "Más" dropdown: open it by hand and look at its links. Many Wix
+  galleries answer 403 to `sondear.py --leer`: use the browser (`get_page_text`). Exhibition names are often
+  links with no `href` in the DOM (click the card with a screenshot) and a gallery's "Galería"/"Ferias" pages can
+  be only images: if the exhibition has no dates anywhere else, it is not loaded.
 - **Linktree / Taplink** (Instagram bio): every button is a link. Open the ones that say agenda, cartelera,
   entradas, eventos, programación, or that go to a ticketing site.
 - **Alternativa Teatral**: a venue's page lists its plays on stage with days and times; enter each play to
@@ -181,7 +184,10 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
 - **Ticketing platforms of a venue** (the link in the Instagram bio is usually one of these, and it lists every
   show with date and time, so there is no need to open Instagram):
   - Passline: `passline.com/sitio/<id-or-slug>` and `/productora/<id>` (the text lists "title, date, hour,
-    venue" and the price). `sondear.py --leer` gets 403 here: open it in the browser.
+    venue" and the price). `sondear.py --leer` gets 403 here: open it in the browser. On a `/sitio/` page each
+  show links to `/sitio-evento/<slug>` and on a `/productora/` page to `/eventos/<slug>`: from the same tab,
+  `fetch` those URLs and read the prices in the text (`$ 6000`, the lowest is the "Desde"). The same text
+  gives the day, so there is no need to open each page by hand.
   - Venti: `venti.com.ar/organizadores/<slug>` ("Próximos eventos", with date and hour).
   - Livepass `livepass.com.ar/taxons/<venue>`, Cafaccess `cafaccess.com/productora/<slug>` (date, title, price),
     Alpogo `alpogo.com/buscar?busqueda=<venue>`, Tickethoy (`bue.tickethoy.com` home lists all venues: filter
