@@ -230,6 +230,13 @@ The home page is almost never enough: it usually shows a single exhibition or th
   date (start and end of an exhibition), venue or room, time or price. In galleries and museums the closing
   date is often only on the event page: enter the ones for **current or upcoming** exhibitions (not the
   archive or the artists' pages).
+- **Price and picture come from the event's own page.** Listings (and the `sondear.py --leer` text of an
+  aggregator) usually show title, venue and date only, and the page has the price and the picture. Do not
+  save `precio` and `imagen` empty because the listing lacks them: open every event page (in the browser, or
+  over HTTP with `sondear.pedir` and `sondear.objetos_evento`: its JSON-LD has `offers.price` and `image`, and
+  `og:image` is the fallback) and fill both in. An empty `precio` is only right when the page itself shows
+  no price (or "Consultar"). When a listing has hundreds of events (Alternativa Teatral, Passline), do this
+  at least for the ones in the next 7 days and say in the `nota` that the rest has no price yet.
 - From an event page, follow the link to tickets or "más info" if the performances or the price are there.
   Maximum depth: 3 levels from the listing, same domain or ticketing site.
 - If a listing has its information in images (posters) without text, take a screenshot and read it.
@@ -429,7 +436,7 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   source shows none and it is not obvious. For galleries, `Artes visuales`. Without a label, the event stays
   as "Evento" unless the title or description say otherwise: do not leave the description empty or with
   generic text.
-- `precio`: "Gratis", "$ 8000", "Desde $ 5000", or empty. `url`: the event's own page (the link of its card
+- `precio`: "Gratis", "$ 8000", "Desde $ 5000", or empty only if the event's page shows none (section 3.3). `url`: the event's own page (the link of its card
   in the listing) or its tickets page; the Instagram post only if there is no other. Never the listing, agenda
   or home page: `guardar` rejects the result when at least half of the different events (by title; several
   dates of one play may share a page) share the same URL, with 3 or more events for any page, or 2 or more if
