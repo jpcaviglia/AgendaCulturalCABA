@@ -3405,23 +3405,32 @@
    "direccion": "Bulnes 658",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "no_carga",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El dominio redirige a otro sitio.",
-    "2026-10-15 [web] La web vieja no responde; la actividad (Bulnes 658) se anuncia en Instagram @espaciomoebius."
+    "2026-10-15 [web] La web vieja no responde; la actividad (Bulnes 658) se anuncia en Instagram @espaciomoebius.",
+    "2026-10-20 [web] 2026-10-20: el sitio no responde; revisar el Linktree/Instagram de Espacio Moebius."
    ],
    "enlace_bio": "https://linktr.ee/espaciomoebius",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "conexión rechazada"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_carga",
      "eventos": 0
     }
    ]
@@ -4714,8 +4723,8 @@
    "direccion": "Zelaya 3122",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
     }
@@ -4723,15 +4732,36 @@
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Obra 'Dejar de ser' sin fechas publicadas; sin agenda en la web.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalsoma"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalsoma",
+    "2026-10-20 [web] 2026-10-20: sin obras en cartelera; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "la agenda se ve con HTTP y en el navegador; 'En cartelera' vacía"
+   },
    "enlaces_descartados": [
     {
      "url": "https://culturalsoma.com/clases/",
      "texto": "Clases",
      "motivo": "clases regulares de la academia",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://culturalsoma.com/horarios-2/",
+     "texto": "Horarios",
+     "motivo": "horarios de clases",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://culturalsoma.com/arteenaccion/",
+     "texto": "Arte en acción",
+     "motivo": "proyecto institucional",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://culturalsoma.com/somacdc",
+     "texto": "SOMA CDC",
+     "motivo": "compañía de danza, sin fechas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -4739,6 +4769,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -4758,24 +4794,32 @@
    "direccion": "Gallo 769",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
+     "fecha": "2026-10-20",
+     "estado": "bloqueado",
      "eventos": 0,
      "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Facebook público no muestra programación vigente; usar Instagram."
+    "2026-10-15 [web] Facebook público no muestra programación vigente; usar Instagram.",
+    "2026-10-20 [web] 2026-10-20: solo Facebook; rastrear por Instagram."
    ],
    "comportamiento": {
-    "plataforma": "solo Facebook; sin login no muestra eventos"
+    "plataforma": "solo Facebook; sin login no muestra eventos",
+    "web": "solo Facebook"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "bloqueado",
      "eventos": 0
     }
    ]
@@ -5615,13 +5659,16 @@
    "origen": "data/lugares.json",
    "barrio": "Barracas",
    "direccion": "Caseros Av. 1750",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -5630,6 +5677,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -6829,17 +6882,20 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Actividades/talleres, sin fechas",
-    "2026-10-15 [web] Blog abandonado desde 2011 (Bacacay 1608)."
+    "2026-10-15 [web] Blog abandonado desde 2011 (Bacacay 1608).",
+    "2026-10-20 [web] 2026-10-20: blog sin contenido; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "blog vacío"
+   },
    "enlaces_descartados": [
     {
      "url": "http://estaciondelosdeseos.blogspot.com/",
@@ -6853,6 +6909,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -7519,13 +7581,16 @@
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
    "direccion": "Olleros 3640",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -7534,6 +7599,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -8185,14 +8256,17 @@
    "origen": "data/lugares.json",
    "barrio": "Flores",
    "direccion": "Artigas, Jose Gervasio, Gral. 202",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmpont"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmpont",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -8201,6 +8275,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -8857,7 +8937,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -8865,32 +8945,42 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Espectáculos",
-    "2026-10-15 [web] Web con cartelera de 2024 sin actualizar; el sitio redefine JSON.stringify (usar concatenación de texto en la consola)."
+    "2026-10-15 [web] Web con cartelera de 2024 sin actualizar; el sitio redefine JSON.stringify (usar concatenación de texto en la consola).",
+    "2026-10-20 [web] 2026-10-20: cartelera desactualizada (afiches de 2024); revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "cartelera en afiches (imágenes) sin año; los días de la semana no coinciden con 2026",
+    "carga": "redirige a https://www"
+   },
    "enlaces_descartados": [
-    {
-     "url": "http://www.elhueco.com.ar/editorial/index.html",
-     "texto": "Editorial",
-     "motivo": "editorial, no agenda",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "http://www.elhueco.com.ar/prensa.html",
-     "texto": "Prensa",
-     "motivo": "prensa",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://elhuecoeditora.mitiendanube.com/",
      "texto": "Tienda virtual",
      "motivo": "tienda",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "http://www.elhueco.com.ar/editorial/index.html",
+     "texto": "Editorial",
+     "motivo": "editorial, no evento",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "http://www.elhueco.com.ar/prensa.html",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -9412,16 +9502,19 @@
    "direccion": "Peru 352",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "institucional con artículos"
+   },
    "notas": [
     "2026-10-15 [web] Sitio institucional sin agenda; la actividad se comunica por redes.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espacioculturalsanandres"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espacioculturalsanandres",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram."
    ],
    "enlaces_descartados": [
     {
@@ -9441,11 +9534,29 @@
      "texto": "Contacto",
      "motivo": "contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacioculturalsanandres.com/concurso/",
+     "texto": "Concurso de fotografía",
+     "motivo": "concurso, no evento",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://espacioculturalsanandres.com/",
+     "texto": "Donaciones",
+     "motivo": "donaciones",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -11685,14 +11796,17 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Avellaneda",
    "direccion": "Directorio Av. Y Lacarra",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/chacradelosremedios"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/chacradelosremedios",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -11701,6 +11815,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -11809,21 +11929,30 @@
    "direccion": "La Plata Av. 1255",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Coincidencia dudosa; confirmar",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web ni redes encontradas."
+    "2026-10-15 [web] Sin web ni redes encontradas.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -13287,7 +13416,7 @@
    "direccion": "Arroyo 1138",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -13296,13 +13425,22 @@
    "notas": [
     "2026-10-14: web corregida (antes https://www.buenosaires.itamaraty.gov.ar)",
     "2026-10-14 [revisión anterior: caido] Redirige a login gov.br; usar @embrasilargentina",
-    "2026-10-15 [web] Agenda en Linktree y redes @culturalbrasilbaires; el Linktree está suspendido hasta el 25/10 por veda electoral."
+    "2026-10-15 [web] Agenda en Linktree y redes @culturalbrasilbaires; el Linktree está suspendido hasta el 25/10 por veda electoral.",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
    ],
    "enlace_bio": "https://linktr.ee/culturalbrasilbaires",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "gov.br sin agenda; la agenda vive en el Linktree/Instagram @culturalbrasilbaires (suspendido hasta el 25/10 por veda electoral)"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -13662,14 +13800,17 @@
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
    "direccion": "San Juan Av. 3255",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ecjcenteya"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ecjcenteya",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -13678,6 +13819,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -15050,13 +15197,16 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Defensa 535",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -15065,6 +15215,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -15086,17 +15242,20 @@
    "direccion": "Calvo, Carlos 578",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog WordPress con posts viejos",
-    "2026-10-15 [web] Blog sin actualizar desde 2011."
+    "2026-10-15 [web] Blog sin actualizar desde 2011.",
+    "2026-10-20 [web] 2026-10-20: blog sin agenda; revisar Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "blog de reseñas de libros, sin agenda"
+   },
    "enlaces_descartados": [
     {
      "url": "http://fedrosantelmo.wordpress.com/local-en-san-telmo/",
@@ -15110,6 +15269,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ]
@@ -15131,18 +15296,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin agenda en la web; muestras y festival sin fechas publicadas.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionmercedessosa"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionmercedessosa",
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram/Linktree."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "sitio institucional con tienda; sin agenda"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.mercedessosa.org/la-fundacion/",
@@ -15167,11 +15335,23 @@
      "texto": "Discografía",
      "motivo": "discos",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.mercedessosa.org/",
+     "texto": "Donaciones",
+     "motivo": "donaciones",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -15963,25 +16143,29 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Aguirre 456",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "la web es el Linktree: lista el próximo evento con fecha y un formulario de inscripción; el detalle (hora, lugar) está en el post de Instagram",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
+   },
    "notas": [
     "2026-10-15 [web] Linktree desactualizado; seguir redes del espacio.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciomalcolm"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciomalcolm",
+    "2026-10-20 [web] 2026-10-20: un evento (cine club del 24/10); el Instagram lo anuncia con hora y entrada gratuita con inscripción."
    ],
    "enlaces_descartados": [
     {
-     "url": "https://linktr.ee/espaciomalcolm",
-     "texto": "DIAFAR web",
-     "motivo": "sitio de la asociación, no agenda",
-     "fecha": "2026-10-15"
+     "url": "https://www.diafar.org",
+     "texto": "Diafar web",
+     "motivo": "sitio de la asociación Diafar, institucional",
+     "fecha": "2026-10-20"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 1
+     "fecha": "2026-10-20",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -15990,9 +16174,18 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
-   "enlace_bio": "https://linktr.ee/espaciomalcolm"
+   "enlace_bio": "https://linktr.ee/espaciomalcolm",
+   "entradas": [
+    "https://linktr.ee/espaciomalcolm"
+   ]
   },
   {
    "id": "espacio-orsai",
@@ -16008,15 +16201,18 @@
    "direccion": "Serrano 1141",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; blog editorial sin cartelera"
+   },
    "notas": [
-    "2026-10-15 [web] Sitio editorial de Orsai; sin cartelera de eventos en la web."
+    "2026-10-15 [web] Sitio editorial de Orsai; sin cartelera de eventos en la web.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; el taller de libros no tiene fechas publicadas."
    ],
    "enlaces_descartados": [
     {
@@ -16026,22 +16222,22 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://escuela.orsai.org/",
-     "texto": "Escuela",
-     "motivo": "talleres de escritura virtuales",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://espacio.orsai.org/blog",
      "texto": "Blog",
      "motivo": "notas",
      "fecha": "2026-10-15"
     },
     {
+     "url": "https://escuela.orsai.org/",
+     "texto": "Escuela",
+     "motivo": "escuela online de la editorial",
+     "fecha": "2026-10-20"
+    },
+    {
      "url": "https://tienda.orsai.org/",
      "texto": "Tienda",
-     "motivo": "tienda",
-     "fecha": "2026-10-15"
+     "motivo": "tienda de libros",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -16049,6 +16245,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -16104,10 +16306,10 @@
    "direccion": "Serrano 587",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     },
     "instagram": {
      "fecha": "2026-10-15",
@@ -16119,10 +16321,11 @@
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Escuela de música y artes; comunica por Instagram @espacioukelele.",
-    "2026-10-15 [instagram] Escuela y espacio cultural: oferta de talleres y colonia sin fechas puntuales en octubre."
+    "2026-10-15 [instagram] Escuela y espacio cultural: oferta de talleres y colonia sin fechas puntuales en octubre.",
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram @espacioukelele."
    ],
    "comportamiento": {
-    "extraccion": "perfil con poca publicación de eventos"
+    "extraccion": "HTTP alcanza; sin agenda, solo talleres regulares"
    },
    "enlaces_descartados": [
     {
@@ -16136,6 +16339,12 @@
      "texto": "Contacto",
      "motivo": "contacto",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://espacioukelele.com.ar/",
+     "texto": "Novedades",
+     "motivo": "novedades de la escuela sin fechas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -16149,6 +16358,12 @@
      "fecha": "2026-10-15",
      "canal": "instagram",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -16679,13 +16894,16 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Del Parque",
    "direccion": "Artigas, Jose Gervasio, Gral. 2262",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha oficial descriptiva, sin agenda; la programación se comunica por Instagram"
+   },
    "notas": [
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial; revisar Instagram."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -16694,6 +16912,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
