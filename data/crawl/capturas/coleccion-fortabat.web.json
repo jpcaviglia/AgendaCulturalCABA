@@ -1,0 +1,50 @@
+{
+ "id": "coleccion-fortabat",
+ "canal": "web",
+ "fuente": "Colección Fortabat",
+ "tipo": "galeria",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://coleccionamalita.org.ar/exposiciones",
+  "https://coleccionamalita.org.ar/",
+  "https://coleccionamalita.org.ar/exposiciones/coleccion-permanente-arte-argentino-2025-11-06",
+  "https://coleccionamalita.org.ar/exposiciones/jorge-gumier-maier-la-diferencia"
+ ],
+ "eventos": [
+  {
+   "titulo": "Colección permanente. Arte argentino",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-12-31",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 20 h",
+   "lugar": "Colección de Arte Amalia Lacroze de Fortabat",
+   "barrio": "Puerto Madero",
+   "direccion": "Olga Cossettini 141",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://coleccionamalita.org.ar/exposiciones/coleccion-permanente-arte-argentino-2025-11-06",
+   "descripcion": "Exhibición permanente de arte argentino de la Colección Amalia Lacroze de Fortabat.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Jorge Gumier Maier, la diferencia",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 20 h",
+   "lugar": "Colección de Arte Amalia Lacroze de Fortabat",
+   "barrio": "Puerto Madero",
+   "direccion": "Olga Cossettini 141",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://coleccionamalita.org.ar/exposiciones/jorge-gumier-maier-la-diferencia",
+   "descripcion": "Primera exposición retrospectiva de Jorge Gumier Maier, artista, activista gay y curador de la Galería del Centro Cultural Rojas en los 90.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

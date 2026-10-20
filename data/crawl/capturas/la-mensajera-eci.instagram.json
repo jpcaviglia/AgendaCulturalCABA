@@ -1,0 +1,49 @@
+{
+ "id": "la-mensajera-eci",
+ "canal": "instagram",
+ "fuente": "La Mensajera ECI",
+ "tipo": "lugar",
+ "fecha": "2026-10-19",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/lamensajera.eci/",
+  "https://www.instagram.com/p/DeAEzfAFvve/",
+  "https://www.instagram.com/p/DehsyYIonGD/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Habrá Canciones: Octubre ricotero y solidario, primer Octubre sin el Indio",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "La Mensajera ECI",
+   "barrio": "La Paternal",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DehsyYIonGD/",
+   "descripcion": "Noche de canciones para celebrar el legado del Indio Solari, con espíritu solidario, en La Mensajera Espacio Cultural Independiente.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DehsyYIonGD/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Noche de Mancias",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "La Mensajera ECI",
+   "barrio": "La Paternal",
+   "direccion": "",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DeAEzfAFvve/",
+   "descripcion": "Noche de Mancias en La Mensajera Espacio Cultural Independiente (según la agenda de octubre del espacio).",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DeAEzfAFvve/",
+   "imagen": ""
+  }
+ ]
+}

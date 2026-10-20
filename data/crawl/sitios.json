@@ -646,21 +646,22 @@
    "origen": "data/galerias.json",
    "comportamiento": {
     "uso": "directorio de galerías socias con web, horarios y dirección",
-    "extraccion": "La agenda (pestaña del mes) lista barrio, fechas 'Jue. 27.08 al 15.10', galería, título y bajada; get_page_text solo trae el primer artículo: copiar el innerText de main.",
+    "extraccion": "la agenda (?mes=AAAA-MM) se lee por HTTP con sondear.py --leer; cada tarjeta trae barrio, fechas, galería y enlace /actividad/<slug>/",
     "directorio": "Al pie de la agenda está la lista de ~70 galerías socias (sirve para encontrar galerías que falten)."
    },
    "entradas": [
     "https://somosmeridiano.com.ar/agenda/"
    ],
    "notas": [
-    "2026-10-15 [web] 12 muestras vigentes en octubre."
+    "2026-10-15 [web] 12 muestras vigentes en octubre.",
+    "2026-10-19 [web] 2026-10-19: 7 muestras de la agenda de octubre y noviembre (mismo conjunto); sin precio ni dirección (las completa armar_agenda)."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 12,
-     "paginas": 2
+     "eventos": 7,
+     "paginas": 9
     }
    },
    "historial": [
@@ -669,6 +670,32 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 12
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://somosmeridiano.com.ar/novedades/",
+     "texto": "Novedades",
+     "motivo": "notas institucionales",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://somosmeridiano.com.ar/nodo/",
+     "texto": "NODO",
+     "motivo": "circuito de galerías de otras ciudades y feria; no es una muestra puntual",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://somosmeridiano.com.ar/galerias/",
+     "texto": "Galerías",
+     "motivo": "directorio de socias",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -871,17 +898,18 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 1
+     "eventos": 2,
+     "paginas": 4
     }
    },
    "comportamiento": {
-    "filtros": "Botones Isotope (.actuales / .proximas): leer los elementos con esas clases, no hace falta hacer clic."
+    "filtros": "Botones Isotope (.actuales / .proximas): leer los elementos con esas clases en el navegador, no hace falta hacer clic; el HTML por HTTP trae todas las muestras históricas mezcladas"
    },
    "notas": [
-    "2026-10-15 [web] Actuales: solo la colección permanente; Próximas vacía (Indiehoy anuncia la retrospectiva de Gumier Maier desde el 24/10, todavía no publicada en la web)."
+    "2026-10-15 [web] Actuales: solo la colección permanente; Próximas vacía (Indiehoy anuncia la retrospectiva de Gumier Maier desde el 24/10, todavía no publicada en la web).",
+    "2026-10-19 [web] 2026-10-19: Actuales: colección permanente (hasta 31/12/2026); Próximas: Gumier Maier desde el 24/10 hasta el 28/02/2027. Horarios jueves a domingo de 12 a 20 h según Indiehoy."
    ],
    "historial": [
     {
@@ -889,6 +917,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -1508,10 +1542,10 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 19,
-     "paginas": 22
+     "eventos": 21,
+     "paginas": 25
     }
    },
    "notas": [
@@ -1519,14 +1553,17 @@
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://centroculturalrecoleta.org a http://www.centroculturalrecoleta.org/",
     "2026-10-15 [web] La web funciona por http://www (el https falla). 19 actividades de la ventana.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elrecoleta"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elrecoleta",
+    "2026-10-19 [web] 2026-10-19: 20 actividades de /agenda y 1 taller; el precio solo se leyó en una ficha (el resto sin precio). Los talleres que empiezan en noviembre (3 al 6/11) quedan fuera de la ventana."
    ],
    "entradas": [
+    "http://www.centroculturalrecoleta.org/agenda",
+    "http://www.centroculturalrecoleta.org/talleres",
     "http://www.centroculturalrecoleta.org/agenda/"
    ],
    "comportamiento": {
     "url": "https://centroculturalrecoleta.org da ERR_SSL_PROTOCOL_ERROR; usar http://www.centroculturalrecoleta.org",
-    "extraccion": "/agenda lista todo (tarjetas #categoría, título, días); las muestras dicen solo 'Mar. a dom.' y las fichas tampoco traen fecha de cierre.",
+    "extraccion": "/agenda y /talleres se leen por HTTP con sondear.py (texto de las tarjetas con días y hora)",
     "ver_mas": "No apretar enlaces 'ver más' de las tarjetas (navegan a la ficha)."
    },
    "historial": [
@@ -1535,9 +1572,35 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 19
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 21
     }
    ],
-   "enlace_bio": "https://linktr.ee/elrecoleta"
+   "enlace_bio": "https://linktr.ee/elrecoleta",
+   "enlaces_descartados": [
+    {
+     "url": "http://www.centroculturalrecoleta.org/clave1317",
+     "texto": "Ingreso y horarios",
+     "motivo": "horarios generales",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "http://www.centroculturalrecoleta.org/tienda",
+     "texto": "CeDIP",
+     "motivo": "centro de documentación, no eventos",
+     "fecha": "2026-10-19"
+    },
+    {
+     "url": "http://www.centroculturalrecoleta.org/cafe",
+     "texto": "LIPM",
+     "motivo": "es el ciclo LIPM, ya incluido en /agenda",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "id": "espacio-de-arte-fundacion-osde",
@@ -1551,27 +1614,37 @@
    "origen": "data/galerias.json",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] App JS casi sin texto inicial; esperar la carga",
     "2026-10-14: la web no respondió al script viejo; confirmar la web oficial",
     "2026-10-15: la web cambió de https://www.osde.com.ar/espaciodearte a https://www.fundacionosde.com.ar/",
-    "2026-10-15 [web] Web nueva: fundacionosde.com.ar. Espacio de Arte en Arroyo 807, Retiro."
+    "2026-10-15 [web] Web nueva: fundacionosde.com.ar. Espacio de Arte en Arroyo 807, Retiro.",
+    "2026-10-19 [web] 2026-10-19: Los días libres (24/09 al 05/12, Arroyo 807); la muestra de Federico Kirschbaum está en Salta (descartada)."
    ],
    "entradas": [
     "https://www.fundacionosde.com.ar/"
    ],
    "comportamiento": {
-    "web": "osde.com.ar/espaciodearte da 404 y artefundacionosde.com.ar no resuelve; las muestras están en el carrusel de la portada de fundacionosde.com.ar (también hay muestras en Salta: descartarlas)."
+    "web": "osde.com.ar/espaciodearte da 404 y artefundacionosde.com.ar no resuelve; las muestras están en el carrusel de la portada de fundacionosde.com.ar (también hay muestras en Salta: descartarlas).",
+    "espera_seg": 8,
+    "extraccion": "la portada es una app JS; el carrusel trae las muestras con 'Espacio de Arte, <dirección>' y fechas: leer document.body.innerText; descartar las de Salta (Vicente López 585) y los cursos de salud",
+    "sin_fichas": "la portada no enlaza una página por muestra"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -2729,7 +2802,37 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Guardia Vieja 3580",
-   "enlace_bio": "https://docs.google.com/forms/d/e/1FAIpQLSfWkZPa5W_ZAfF3sR75RoFJ3wPNQLxyCVDEjEjd1038fHimXQ"
+   "enlace_bio": "https://docs.google.com/forms/d/e/1FAIpQLSfWkZPa5W_ZAfF3sR75RoFJ3wPNQLxyCVDEjEjd1038fHimXQ",
+   "comportamiento": {
+    "bio": "el enlace de la bio es un formulario para proponer actividades"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: sin eventos próximos en el grid."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://docs.google.com/forms/d/e/1FAIpQLSfWkZPa5W_ZAfF3sR75RoFJ3wPNQLxyCVDEjEjd1038fHimXQ",
+     "texto": "Formulario de la bio",
+     "motivo": "formulario de propuestas, no agenda",
+     "fecha": "2026-10-19"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "kowalski-club-de-cultura",
@@ -6161,7 +6264,32 @@
    "direccion": "Fraga 119",
    "enlace_bio": "https://linktr.ee/fragacultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural",
+    "2026-10-19 [instagram] 2026-10-19: sin eventos con fecha en la ventana; el taller de arte mensual (un domingo al mes) cae después del 2/11. Tiene web propia fragacultural.org.ar sin revisar."
+   ],
+   "comportamiento": {},
+   "enlaces_pendientes": [
+    {
+     "url": "http://www.fragacultural.org.ar",
+     "texto": "",
+     "desde": "2026-10-19"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6176,7 +6304,29 @@
    "origen": "data/lugares.json",
    "barrio": "Chacarita",
    "direccion": "Newbery, Jorge Av. 3519",
-   "enlace_bio": "https://www.hunterbier.com.ar/ (no resuelve)"
+   "enlace_bio": "https://www.hunterbier.com.ar/ (no resuelve)",
+   "comportamiento": {
+    "actividad": "cuenta sin posts desde 2021"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: cervecería sin actividad cultural ni posts recientes."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_cultural",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_cultural",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "la-tomada",
@@ -6192,7 +6342,27 @@
    "direccion": "Fraga 119",
    "enlace_bio": "https://linktr.ee/fragacultural",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fragacultural",
+    "2026-10-19 [instagram] 2026-10-19: sin eventos propios en la cuenta compartida."
+   ],
+   "comportamiento": {
+    "cuenta_compartida": "@fragacultural es también la cuenta de La Tomada (casa de Fraga 119)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -6665,7 +6835,37 @@
    "origen": "data/lugares.json",
    "barrio": "Flores",
    "direccion": "Moron 2453",
-   "enlace_bio": "https://forms.gle/xHYZirC32yKy4fPb6"
+   "enlace_bio": "https://forms.gle/xHYZirC32yKy4fPb6",
+   "comportamiento": {
+    "grilla": "los afiches traen la fecha dentro de la imagen; el alt tiene la descripción"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: sin eventos en la ventana; Tónica (Todo se hunde en la noche) 14 y 21/11 en Morón 2453, entradas por Ticketia."
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://forms.gle/xHYZirC32yKy4fPb6",
+     "texto": "Formulario de la bio",
+     "motivo": "formulario de reserva de una función ya realizada",
+     "fecha": "2026-10-19"
+    }
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "planta-alta",
@@ -7257,7 +7457,29 @@
    "origen": "data/lugares.json",
    "barrio": "La Paternal",
    "direccion": "Boyacá 1989/1983 (confirmar altura)",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "agenda": "publica un afiche 'Agenda de octubre' (carrusel de imagen) a principio de mes: leerlo con zoom"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: del afiche de octubre quedan el viernes 23 (Habrá Canciones) y el sábado 31 (Noche de Mancias); falta el precio."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ]
   },
   {
    "id": "vertice-espacio",
@@ -7395,7 +7617,27 @@
    "origen": "data/lugares.json",
    "barrio": "Liniers",
    "direccion": "Fonrouge 483",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: quedaba solo la última clase del taller Lápiz 3D (20/10); Segundo Tiempo (26/9) y Recreo (16/10) ya pasaron."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "centro-cultural-macedonio-fernandez",
@@ -9268,7 +9510,25 @@
    "direccion": "Thames 1625",
    "enlace_bio": "https://linktr.ee/rotechnobar",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/rotechnobar"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/rotechnobar",
+    "2026-10-19 [instagram] 2026-10-19: ningún handle de Instagram carga; buscar la cuenta vigente o la boletería (Passline/RA) del local."
+   ],
+   "comportamiento": {},
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 3
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -10274,7 +10534,27 @@
    "direccion": "Dean Funes 2142",
    "enlace_bio": "https://linktr.ee/galponface",
    "notas": [
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/galponface"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/galponface",
+    "2026-10-19 [instagram] 2026-10-19: ni la web ni el Instagram cargan; revisar si la cuenta cambió de handle."
+   ],
+   "comportamiento": {
+    "bloqueos": "faceproyecto.ar da 403 a todo (HTTP y navegador)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -11393,7 +11673,29 @@
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
    "direccion": "Pavon 2552",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "grilla": "el alt de las miniaturas trae el texto completo del post"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: concierto del 31/10; clases semanales de biodanza (miércoles 19 h) y gimnasia rítmica (sábados 11 h) no cargadas (bienestar)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ]
   },
   {
    "id": "la-bisagra",
@@ -13349,20 +13651,6 @@
    ]
   },
   {
-   "id": "espacio-gliptodonte",
-   "nombre": "ESPACIO GLIPTODONTE",
-   "tipo": "lugar",
-   "lugares": [
-    "ESPACIO GLIPTODONTE"
-   ],
-   "web": "",
-   "instagram": "@espacio.gliptodonte",
-   "origen": "data/lugares.json",
-   "barrio": "Villa Crespo",
-   "direccion": "Marechal, Leopoldo 1160",
-   "enlace_bio": "https://linktr.ee/espacio.gliptodonte"
-  },
-  {
    "id": "espacio-malcolm",
    "nombre": "ESPACIO MALCOLM",
    "tipo": "lugar",
@@ -14136,7 +14424,27 @@
    "direccion": "Melincue 4276",
    "enlace_bio": "https://linktr.ee/Lineasdefuga",
    "notas": [
-    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas Alternativa Teatral))"
+    "2026-10-14: el enlace de la bio lleva a eventos (si (entradas Alternativa Teatral))",
+    "2026-10-19 [instagram] 2026-10-19: sin eventos culturales con fecha; solo clases de movimiento y salud semanales."
+   ],
+   "comportamiento": {
+    "bio": "el Linktree lleva a las entradas de Medio Pueblo (Alternativa Teatral, ya sin funciones)"
+   },
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 4
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
    ]
   },
   {
@@ -15441,7 +15749,27 @@
    "origen": "data/lugares.json",
    "barrio": "Villa Urquiza",
    "direccion": "Leguizamon, Honorio, Dr. 3726",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: el Instagram no existe más con ese handle; la única presencia es Facebook (bloqueado). Se reintenta en la próxima corrida."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "cine-gaumont-espacio-incaa",
@@ -16265,20 +16593,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.fundacionandreani.org.ar/",
     "2026-10-15 [web] Web fundacionandreani.org.ar; cuatro exposiciones actuales sin fecha de cierre publicada. Hay un ciclo de artes escénicas (La Casa) sin fechas en la portada.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionandreani"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/fundacionandreani",
+    "2026-10-19 [web] 2026-10-19: 4 exposiciones vigentes (miércoles a domingos de 12 a 19 h, entrada gratuita, sin fecha de cierre publicada) y las funciones de La Casa. L. Las fechas de inauguración no figuran salvo la de Estamos aquí."
    ],
    "id": "fundacion-andreani",
    "entradas": [
+    "https://www.fundacionandreani.org.ar/",
     "https://www.fundacionandreani.org.ar/actuales-(e419)"
    ],
    "comportamiento": {
-    "fichas": "Las fichas de exposiciones actuales no publican fechas de inauguración ni cierre; se listan en 'Actuales'."
+    "fichas": "Las fichas de exposiciones actuales no publican fechas de inauguración ni cierre; se listan en 'Actuales'.",
+    "espera_seg": 6,
+    "extraccion": "la portada lista 5 tarjetas con 'Más info'; cada ficha se lee con fetch desde la misma pestaña; el HTTP desde script da error"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 4,
+     "eventos": 5,
      "paginas": 6
     }
    },
@@ -16288,10 +16620,24 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "barrio": "La Boca",
-   "enlace_bio": "https://linktr.ee/fundacionandreani"
+   "enlace_bio": "https://linktr.ee/fundacionandreani",
+   "enlaces_descartados": [
+    {
+     "url": "https://www.fundacionandreani.org.ar/",
+     "texto": "Aula",
+     "motivo": "talleres internos, sin fechas en la portada",
+     "fecha": "2026-10-19"
+    }
+   ]
   },
   {
    "nombre": "Henrique Faria Buenos Aires",
@@ -16460,16 +16806,24 @@
    "origen": "lista de referencia de museos y galerías de CABA (2026-10-15), sin verificar",
    "notas": [
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
-    "2026-10-15 [web] Sin web propia; se agregó el Instagram @luisapedrouzo."
+    "2026-10-15 [web] Sin web propia; se agregó el Instagram @luisapedrouzo.",
+    "2026-10-19 [instagram] 2026-10-19: Instagram sin actividad de 2026."
    ],
    "id": "galeria-luisa-pedrouzo",
    "comportamiento": {
-    "canal": "sin web; usar Instagram"
+    "canal": "sin web; usar Instagram",
+    "actividad": "cuenta sin posts de 2026"
    },
    "ultimo": {
     "web": {
      "fecha": "2026-10-15",
      "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
     }
@@ -16479,6 +16833,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -16497,22 +16857,24 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.calvaresicontemporaneo.com/",
     "2026-10-15 [web] Web confirmada calvaresicontemporaneo.com (San Telmo).",
-    "2026-10-15 [web] La primera de /muestras es la vigente; las demás son archivo."
+    "2026-10-15 [web] La primera de /muestras es la vigente; las demás son archivo.",
+    "2026-10-19 [web] 2026-10-19: última muestra terminó el 16/10; sin próxima anunciada. Revisar de nuevo en la próxima corrida."
    ],
    "id": "calvaresi-galeria",
    "entradas": [
     "https://www.calvaresicontemporaneo.com/muestras"
    ],
    "comportamiento": {
-    "plataforma": "Wix",
-    "fichas": "la fecha está solo en la ficha; /muestras lista las muestras de la más reciente a la más antigua"
+    "plataforma": "Wix; HTTP da 403 a scripts pero carga en el navegador; las tarjetas de /muestras no son enlaces: hay que hacer clic y la ficha trae las fechas (dd/mm/aaaa-dd/mm/aaaa)",
+    "fichas": "la fecha está solo en la ficha; /muestras lista las muestras de la más reciente a la más antigua",
+    "espera_seg": 5
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "historial": [
@@ -16527,6 +16889,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
    "barrio": "San Telmo",
@@ -16534,26 +16902,26 @@
     {
      "url": "https://www.calvaresicontemporaneo.com/ferias",
      "texto": "Ferias",
-     "motivo": "ferias a las que va la galería, no muestras en sala",
-     "fecha": "2026-10-15"
+     "motivo": "ferias en las que participa la galería, no en CABA",
+     "fecha": "2026-10-19"
     },
     {
      "url": "https://www.calvaresicontemporaneo.com/artistas-artists2",
      "texto": "Artistas",
      "motivo": "directorio de artistas",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-19"
     },
     {
      "url": "https://www.calvaresicontemporaneo.com/publicaciones",
      "texto": "Publicaciones",
-     "motivo": "publicaciones, no evento",
-     "fecha": "2026-10-15"
+     "motivo": "catálogos",
+     "fecha": "2026-10-19"
     },
     {
      "url": "https://www.calvaresicontemporaneo.com/prensa",
      "texto": "Prensa",
-     "motivo": "notas de prensa",
-     "fecha": "2026-10-15"
+     "motivo": "notas de prensa pasadas",
+     "fecha": "2026-10-19"
     }
    ],
    "bio_probada": "2026-10-15"

@@ -5,8 +5,8 @@
   "hasta": "2026-11-02"
  },
  "rastreo": {
-  "capturas": 50,
-  "con_eventos": 37
+  "capturas": 69,
+  "con_eventos": 45
  },
  "fuentes": [
   "Alternativa Teatral",
@@ -27,17 +27,25 @@
   "CENTRO CULTURAL VERSALLES",
   "CUALQUIER LADO",
   "CUERDA MECÁNICA CENTRO CULTURAL",
+  "Centro Cultural Recoleta",
+  "Colección Fortabat",
   "Cátulo Casa Cultural",
   "EL ZORZAL ESQUINA CULTURAL",
+  "ESPACIO CULTURAL FONROUGE",
+  "ESPACIO EL ZONKO",
+  "Espacio de Arte Fundación OSDE",
   "Eventbrite Buenos Aires",
   "FELIZA CULTURA ARCOIRIS",
+  "Fundación Andreani",
   "Indiehoy: Agenda de recitales",
   "Indiehoy: muestras de arte del mes",
   "Jodify",
   "LA SCALA DE SAN TELMO",
   "LOS POMPAS",
+  "La Mensajera ECI",
   "La Rural Ticket",
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
+  "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
   "Museo Sitio de Memoria ESMA",
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Planta Inclán",
@@ -1175,6 +1183,32 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Joyeros-argentinos_principal.jpg"
   },
   {
+   "id": "e1f009b121b0",
+   "titulo": "\"El\", de Nicolás Said",
+   "categoria": "Artes visuales",
+   "lugar": "Constitución Galería",
+   "barrio": "La Boca",
+   "direccion": "Del Valle Iberlucea 1140",
+   "fecha_inicio": "2026-08-22",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "Jueves a sábado de 14:30 a 19:30 h",
+   "precio": "Consultar",
+   "descripcion": "Exposición de Nicolás Said sobre la estética de lo monstruoso, de lo medieval a las narrativas contemporáneas.",
+   "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/",
+   "dominio": "indiehoy.com",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Indiehoy: muestras de arte del mes",
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": -34.636197,
+   "lng": -58.36374,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "682f460ea2ce",
    "titulo": "Thomas Demand. El tartamudeo de la historia",
    "categoria": "Artes visuales",
@@ -1248,6 +1282,31 @@
    "lng": -58.39588,
    "embebible": true,
    "imagen": "https://vidriera.earth/dribbling/dr.jpg-reduced-zlagns"
+  },
+  {
+   "id": "a4fdaf7f2237",
+   "titulo": "La línea como destino (exhibición colectiva)",
+   "categoria": "Artes visuales",
+   "lugar": "SASHA D",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-08-26",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Recorrido por el dibujo argentino a través de distintas generaciones, miradas y poéticas.",
+   "url": "https://somosmeridiano.com.ar/actividad/exhibicion-colectiva-la-linea-como-destino",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "a9f189f161b9",
@@ -1401,6 +1460,31 @@
    "imagen": "https://vidriera.earth/nicolas-rodriguez.-simbiosis-sabotaje/nicolas-rodriguez.png-reduced-v9qs6c"
   },
   {
+   "id": "cb8c93d48aab",
+   "titulo": "Intervenciones, autopsias y disecciones sobre la imagen gráfica (exhibición colectiva)",
+   "categoria": "Artes visuales",
+   "lugar": "MC Galería",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-09-02",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exposición curada por Javier Villa sobre la intervención de la imagen gráfica y el collage a partir del pop, el surrealismo y la política; con obras de Jorge de la Vega, León Ferrari y otros.",
+   "url": "https://somosmeridiano.com.ar/actividad/exhibicion-colectiva-intervenciones-autopsias-y-disecciones-sobre-la-imagen-grafica",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "3193eddd5028",
    "titulo": "Pampa Cósmica",
    "categoria": "Artes visuales",
@@ -1525,6 +1609,31 @@
    "lng": -58.37291,
    "embebible": true,
    "imagen": "https://vidriera.earth/estos-pequenos-libros-que-quedan/images-1-.jpeg-reduced-kmyjdm"
+  },
+  {
+   "id": "fc19fd2754b3",
+   "titulo": "Federico Cantini: Desnudo y asustado",
+   "categoria": "Artes visuales",
+   "lugar": "PASTO",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-03",
+   "fecha_fin": "2026-11-02",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Cuarta exposición individual de Federico Cantini (Rosario, 1991) en la galería.",
+   "url": "https://somosmeridiano.com.ar/actividad/federico-cantini-desnudo-y-asustado",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "517189495165",
@@ -1753,6 +1862,31 @@
    "imagen": ""
   },
   {
+   "id": "e6f08c94a857",
+   "titulo": "Estamos aquí, de Claudia Aravena Abughosh",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Andreani",
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1987",
+   "fecha_inicio": "2026-09-11",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingos de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Primera exposición individual en Argentina de la artista chilena Claudia Aravena Abughosh: una instalación audiovisual que transita del cine a la sala de exposición.",
+   "url": "https://www.fundacionandreani.org.ar/estamos-aqui-(e640)",
+   "dominio": "fundacionandreani.org.ar",
+   "estado": "En curso",
+   "lugar_verificado": "Fundación Andreani",
+   "fuentes": [
+    "Fundación Andreani"
+   ],
+   "lat": -34.640145,
+   "lng": -58.36188,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "74be22d31b7a",
    "titulo": "Evita Experiencia",
    "categoria": "Visita guiada",
@@ -1800,6 +1934,31 @@
    "lat": "",
    "lng": "",
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "d62abd3e0ae1",
+   "titulo": "Algunas flores (exhibición colectiva)",
+   "categoria": "Artes visuales",
+   "lugar": "Cecilia Caballero Arte Contemporáneo",
+   "barrio": "Retiro",
+   "direccion": "",
+   "fecha_inicio": "2026-09-17",
+   "fecha_fin": "2026-10-22",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Exhibición colectiva con curaduría de Georgina Valdez Cristofani; participan Mariano Benavente, Fernando Brizuela, Paula Cahen D’Anvers, Nicola Costantino, Pastel, Alfredo Londaibere, Andrea Moccio y otros.",
+   "url": "https://somosmeridiano.com.ar/actividad/exhibicion-colectiva-algunas-flores",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -1901,6 +2060,31 @@
    ],
    "lat": -34.637346,
    "lng": -58.359325,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "d910f1b73220",
+   "titulo": "Los días libres",
+   "categoria": "Artes visuales",
+   "lugar": "Espacio de Arte Fundación OSDE",
+   "barrio": "Retiro",
+   "direccion": "Arroyo 807",
+   "fecha_inicio": "2026-09-24",
+   "fecha_fin": "2026-12-05",
+   "hora": "",
+   "horarios": "Lunes a sábados de 12 a 20 h",
+   "precio": "Gratis",
+   "descripcion": "Muestra en el Espacio de Arte de Fundación OSDE. El carrusel de la portada no da más detalle (artistas ni curaduría).",
+   "url": "https://www.fundacionosde.com.ar/",
+   "dominio": "fundacionosde.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Espacio de Arte Fundación OSDE"
+   ],
+   "lat": -34.592179,
+   "lng": -58.378692,
    "embebible": true,
    "imagen": ""
   },
@@ -2051,31 +2235,6 @@
    ],
    "lat": -34.597807,
    "lng": -58.429928,
-   "embebible": false,
-   "imagen": ""
-  },
-  {
-   "id": "e1f009b121b0",
-   "titulo": "\"El\", de Nicolás Said",
-   "categoria": "Artes visuales",
-   "lugar": "Constitución Galería",
-   "barrio": "",
-   "direccion": "Del Valle Iberlucea 1140",
-   "fecha_inicio": "2026-10-01",
-   "fecha_fin": "2026-10-31",
-   "hora": "",
-   "horarios": "Jueves a sábado de 14:30 a 19:30 h",
-   "precio": "Consultar",
-   "descripcion": "Exposición de Nicolás Said sobre la estética de lo monstruoso, de lo medieval a las narrativas contemporáneas.",
-   "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/",
-   "dominio": "indiehoy.com",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Indiehoy: muestras de arte del mes"
-   ],
-   "lat": -34.636197,
-   "lng": -58.36374,
    "embebible": false,
    "imagen": ""
   },
@@ -2454,6 +2613,31 @@
    ],
    "lat": -34.604337,
    "lng": -58.384777,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "ee5dd281f7cd",
+   "titulo": "Rosario Briones: ÉCLAT",
+   "categoria": "Artes visuales",
+   "lugar": "OTTO Galería",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-01",
+   "fecha_fin": "2026-11-10",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Primera exposición individual de Rosario Briones en la galería, con obras de las series Derivas, Intervalos y Latente; curaduría de Ale Roux.",
+   "url": "https://somosmeridiano.com.ar/actividad/rosario-briones-eclat",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": true,
    "imagen": ""
   },
@@ -3409,6 +3593,31 @@
    "imagen": "https://vidriera.earth/bustillo-1929-1939.-tiempos-de-modernidad/img_0656.jpg-reduced-6pe61u"
   },
   {
+   "id": "757c77cc870d",
+   "titulo": "Catalina Chervin: La realidad está en los detalles",
+   "categoria": "Artes visuales",
+   "lugar": "Oda",
+   "barrio": "Recoleta",
+   "direccion": "",
+   "fecha_inicio": "2026-10-08",
+   "fecha_fin": "2026-11-16",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Muestra de Catalina Chervin con curaduría de María José Herrera.",
+   "url": "https://somosmeridiano.com.ar/actividad/catalina-chervin-la-realidad-esta-en-los-detalles",
+   "dominio": "somosmeridiano.com.ar",
+   "estado": "En curso",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "12b117df8a0d",
    "titulo": "Latente insistencia de un recuerdo",
    "categoria": "Artes visuales",
@@ -4237,6 +4446,31 @@
    "imagen": ""
   },
   {
+   "id": "ad82a69da9de",
+   "titulo": "Colección permanente. Arte argentino",
+   "categoria": "Artes visuales",
+   "lugar": "Colección de Arte Amalia Lacroze de Fortabat",
+   "barrio": "Puerto Madero",
+   "direccion": "Olga Cossettini 141",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-12-31",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Exhibición permanente de arte argentino de la Colección Amalia Lacroze de Fortabat.",
+   "url": "https://coleccionamalita.org.ar/exposiciones/coleccion-permanente-arte-argentino-2025-11-06",
+   "dominio": "coleccionamalita.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Colección Fortabat"
+   ],
+   "lat": -34.599463,
+   "lng": -58.364869,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "65c4ba38da7f",
    "titulo": "De cómo aprender a estar solx",
    "categoria": "Teatro",
@@ -4310,6 +4544,106 @@
    "lng": -58.407884,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/48/000322448.jpg"
+  },
+  {
+   "id": "767c070941fd",
+   "titulo": "El juguete rabioso: 100 años",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "18:00",
+   "horarios": "Desde el 25/06",
+   "precio": "Consultar",
+   "descripcion": "Muestra por los 100 años de El juguete rabioso, de Roberto Arlt.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/el-juguete-rabioso-100-anos",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c556edba1c7c",
+   "titulo": "Encuentro de Cine Europeo",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "Hasta el domingo 1/11",
+   "precio": "Consultar",
+   "descripcion": "Encuentro de Cine Europeo en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/encuentro-de-cine-europeo",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "3b512cebef21",
+   "titulo": "Eslabón Leyes",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/eslabon-leyes",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "1d8f70208766",
+   "titulo": "Fantasía de valor",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta · Sala 11",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra en la Sala 11 del Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/fantasia-de-valor",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "37796353b142",
@@ -4410,6 +4744,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/kneecap-en-argentina.webp"
+  },
+  {
+   "id": "f00c5d37475e",
+   "titulo": "La materia después, de Mene Savasta",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Andreani",
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1987",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingos de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Instalación de sitio específico que articula sonido, luz y objetos en torno al imaginario de un templo en ruinas donde transcurre una ceremonia.",
+   "url": "https://www.fundacionandreani.org.ar/la-materia-despues-(e641)",
+   "dominio": "fundacionandreani.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Andreani",
+   "fuentes": [
+    "Fundación Andreani"
+   ],
+   "lat": -34.640145,
+   "lng": -58.36188,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "ab166a88be98",
@@ -4562,6 +4921,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000322825.jpg"
   },
   {
+   "id": "892f84eb0a09",
+   "titulo": "Melodía encadenada, de Andrés Aizicovich",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta · Sala 4",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Pinturas e instalación escultórica de Andrés Aizicovich, seleccionado en la Convocatoria de Artes Visuales 2026; curaduría de Javier Villa. Una fuente con cabezas-vasijas hace circular agua como imagen de la transmisión y la comunicación.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/melodia-encadenada",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a4ba8cf32cbb",
    "titulo": "Menos lunes - stand up show",
    "categoria": "Teatro",
@@ -4637,6 +5021,31 @@
    "imagen": ""
   },
   {
+   "id": "448f933f008e",
+   "titulo": "Museo Participativo Prohibido No Tocar",
+   "categoria": "Infantil",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Museo participativo del Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/museo-participativo-prohibido-no-tocar",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "38050940ffde",
    "titulo": "Nido de lagarto",
    "categoria": "Teatro",
@@ -4687,6 +5096,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/40/000319140.jpg"
   },
   {
+   "id": "008096fc4cb8",
+   "titulo": "Plástica escatológica",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/plastica-escatologica",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "73eabe6c6267",
    "titulo": "Raphael",
    "categoria": "Música",
@@ -4710,6 +5144,31 @@
    "lng": -58.378773,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/raphael-gran-rex.jpg"
+  },
+  {
+   "id": "eb06ba6b1254",
+   "titulo": "Sala Histórica",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra en la Sala Histórica del Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/sala-historica",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "3ac0942b62a2",
@@ -4837,6 +5296,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/95/000318795.jpg"
   },
   {
+   "id": "6c69744459c8",
+   "titulo": "Sombras lúcidas, de Agustín Telo",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Andreani",
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1987",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingos de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Primera exposición individual de Agustín Telo en un espacio institucional: instalación de objetos e imágenes intervenidos sobre la memoria como proceso de transformación.",
+   "url": "https://www.fundacionandreani.org.ar/sombras-lucidas-(e642)",
+   "dominio": "fundacionandreani.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Andreani",
+   "fuentes": [
+    "Fundación Andreani"
+   ],
+   "lat": -34.640145,
+   "lng": -58.36188,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "0844b9113a86",
    "titulo": "Soy dicky del solar",
    "categoria": "Teatro",
@@ -4912,6 +5396,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/38/000318938.jpg"
   },
   {
+   "id": "557d06495bd5",
+   "titulo": "Trübe (Turbio), de Martin Borini",
+   "categoria": "Artes visuales",
+   "lugar": "Fundación Andreani",
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1987",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Miércoles a domingos de 12 a 19 h",
+   "precio": "Gratis",
+   "descripcion": "Escultura lumínica de sitio específico realizada con elementos que la industria del espectáculo dejó fuera de uso.",
+   "url": "https://www.fundacionandreani.org.ar/trube-turbio-(e652)",
+   "dominio": "fundacionandreani.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Andreani",
+   "fuentes": [
+    "Fundación Andreani"
+   ],
+   "lat": -34.640145,
+   "lng": -58.36188,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "49c0b191a8b0",
    "titulo": "Una muerte compartida",
    "categoria": "Teatro",
@@ -4935,6 +5444,31 @@
    "lng": -58.416121,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/79/000317479.jpg"
+  },
+  {
+   "id": "f4f5bc3994f3",
+   "titulo": "XX Bienal Internacional de Arquitectura de Buenos Aires",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra de la XX Bienal Internacional de Arquitectura de Buenos Aires, hasta el 31/10.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/xx-bienal-internacional-de-arquitectura-de-buenos-aires",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "fbf405042463",
@@ -5315,6 +5849,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/26/000320026.jpg"
   },
   {
+   "id": "3986d8684746",
+   "titulo": "La escucha mutua",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Propuesta del ciclo LIPM - Música electroacústica.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/la-escucha-mutua",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f7660b8ea33a",
    "titulo": "La vida extraordinaria",
    "categoria": "Teatro",
@@ -5588,6 +6147,31 @@
    "lng": -58.392915,
    "embebible": true,
    "imagen": "https://vidriera.earth/susana-rodriguez.-historia-intima/images-1-.jpeg-reduced-l6ephj"
+  },
+  {
+   "id": "c3d33f30a1a0",
+   "titulo": "Taller Lápiz 3D para chicos de 6 a 10 años",
+   "categoria": "Infantil",
+   "lugar": "Espacio Cultural Fonrouge",
+   "barrio": "Liniers",
+   "direccion": "Fonrouge 483",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-20",
+   "hora": "18:30",
+   "horarios": "Martes 13 y 20 de octubre, de 18:30 a 19:30 h",
+   "precio": "Consultar",
+   "descripcion": "Taller para diseñar, modelar y crear juguetes con lápiz 3D, dictado por la Lic. en Artes Cristina Solanas. Cupos limitados; inscripción por WhatsApp.",
+   "url": "https://www.instagram.com/p/Dd4yjNpSa4V/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL FONROUGE"
+   ],
+   "lat": -34.643307,
+   "lng": -58.510646,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "f5c714157dbb",
@@ -6127,6 +6711,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/66/000318466.jpg"
   },
   {
+   "id": "150f9639104b",
+   "titulo": "Entre gatos universalmente pardos",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural Recoleta · Cine",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Proyección del documental de Ariel Borenstein y Damián Finvarb sobre Salvador Benesdra, autor de El traductor, a 30 años de su muerte, y charla con los directores y Pedro Yagüe.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/entre-gatos-universalmente-pardos",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "9da77adc1400",
    "titulo": "Función de cine",
    "categoria": "Cine",
@@ -6552,6 +7161,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000319587.jpg"
   },
   {
+   "id": "b6a5b05f19ca",
+   "titulo": "Taller: Escribir masticando. Una aproximación a la escritura gastronómica, con Mercedes Cebrián",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural Recoleta · Puente de Capilla",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-21",
+   "fecha_fin": "2026-10-21",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller de escritura gastronómica con Mercedes Cebrián. Inscripciones abiertas.",
+   "url": "http://www.centroculturalrecoleta.org/talleres/escribir-masticando-una-aproximacion-a-la-escritura-gastronomica-con-mercedes-cebrian",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "8d93c298e3d7",
    "titulo": "Tango Bar: milonga de los miércoles",
    "categoria": "Música",
@@ -6825,6 +7459,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/04/alter-bridge-arg.jpg"
+  },
+  {
+   "id": "8b6839b046ae",
+   "titulo": "Buscando a Shakespeare",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "18:00",
+   "horarios": "Jueves de octubre, 18 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de cine en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/buscando-a-shakespeare",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "db51f54e85bb",
@@ -8054,6 +8713,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/62/000312762.jpg"
   },
   {
+   "id": "5ac2f23cfc39",
+   "titulo": "Quimera, de Oscar Araiz",
+   "categoria": "Danza",
+   "lugar": "Centro Cultural Recoleta · Capilla",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "Jueves 22 y 29 de octubre, 19 h",
+   "precio": "Consultar",
+   "descripcion": "Obra de Oscar Araiz en la Capilla del Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/quimera",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f1f1cea442e8",
    "titulo": "Ricky behrens más",
    "categoria": "Teatro",
@@ -9279,6 +9963,31 @@
    "imagen": "https://cc25.org/wp-content/uploads/2025/09/banda-Sinfonica-720-x-405-px1.jpg"
   },
   {
+   "id": "f3606412bd1b",
+   "titulo": "Comedias de terror",
+   "categoria": "Cine",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "18:00",
+   "horarios": "Viernes de octubre, 18 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de cine de comedias de terror.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/ciclos/comedias-de-terror",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "782ac63731e0",
    "titulo": "Conexiones: un viaje en el tiempo improvisado",
    "categoria": "Teatro",
@@ -9577,6 +10286,31 @@
    "lng": -58.37291,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000317550.jpg"
+  },
+  {
+   "id": "aa39258e9985",
+   "titulo": "Discos completos",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "19:30",
+   "horarios": "Viernes de octubre, 19:30 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de música en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/ciclos/discos-completos",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "a065b76abab2",
@@ -10351,6 +11085,31 @@
    "lat": "",
    "lng": "",
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "9e998ad392b2",
+   "titulo": "Habrá Canciones: Octubre ricotero y solidario, primer Octubre sin el Indio",
+   "categoria": "Música",
+   "lugar": "La Mensajera ECI",
+   "barrio": "La Paternal",
+   "direccion": "Boyacá 1989/1983 (confirmar altura)",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de canciones para celebrar el legado del Indio Solari, con espíritu solidario, en La Mensajera Espacio Cultural Independiente.",
+   "url": "https://www.instagram.com/p/DehsyYIonGD/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Mensajera ECI"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -13659,27 +14418,27 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000273598.jpg"
   },
   {
-   "id": "5ab8e42acd31",
-   "titulo": "\"Jorge Gumier Maier, la diferencia\"",
-   "categoria": "Artes visuales",
-   "lugar": "Colección de Arte Amalita Fortabat",
-   "barrio": "",
-   "direccion": "Olga Cossettini 141",
+   "id": "cc9c04c5e9af",
+   "titulo": "1, 2, 3… Sol",
+   "categoria": "Infantil",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
    "fecha_inicio": "2026-10-24",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Jueves a domingo de 12 a 20 h",
+   "fecha_fin": "2026-10-24",
+   "hora": "16:00",
+   "horarios": "Sábados 17/10, 24/10, 7/11 y 14/11, 16 h",
    "precio": "Consultar",
-   "descripcion": "Primera exposición retrospectiva de Jorge Gumier Maier, artista, activista gay y curador de la Galería del Centro Cultural Rojas en los 90.",
-   "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/",
-   "dominio": "indiehoy.com",
+   "descripcion": "Actividad para chicos y familias en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/1-2-3-sol",
+   "dominio": "centroculturalrecoleta.org",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
    "fuentes": [
-    "Indiehoy: muestras de arte del mes"
+    "Centro Cultural Recoleta"
    ],
-   "lat": -34.599463,
-   "lng": -58.364869,
+   "lat": -34.586298,
+   "lng": -58.392513,
    "embebible": false,
    "imagen": ""
   },
@@ -17034,6 +17793,32 @@
    "lat": "",
    "lng": "",
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "778dcd01541c",
+   "titulo": "Jorge Gumier Maier, la diferencia",
+   "categoria": "Artes visuales",
+   "lugar": "Colección de Arte Amalia Lacroze de Fortabat",
+   "barrio": "Puerto Madero",
+   "direccion": "Olga Cossettini 141",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2027-02-28",
+   "hora": "",
+   "horarios": "Jueves a domingo de 12 a 20 h",
+   "precio": "Consultar",
+   "descripcion": "Primera exposición retrospectiva de Jorge Gumier Maier, artista, activista gay y curador de la Galería del Centro Cultural Rojas en los 90.",
+   "url": "https://coleccionamalita.org.ar/exposiciones/jorge-gumier-maier-la-diferencia",
+   "dominio": "coleccionamalita.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Colección Fortabat",
+    "Indiehoy: muestras de arte del mes"
+   ],
+   "lat": -34.599463,
+   "lng": -58.364869,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -21718,6 +22503,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/48/000321548.jpg"
   },
   {
+   "id": "81077c4d838f",
+   "titulo": "Antidomingos en el Recoleta",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:00",
+   "horarios": "Domingos, 19 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo de música de los domingos en el Centro Cultural Recoleta.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/ciclos/antidomingos-en-el-recoleta",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "6c1e666da5ad",
    "titulo": "Aquella máquina de coser... por el mundo adelante",
    "categoria": "Teatro",
@@ -23694,6 +24504,31 @@
    "lng": -58.462494,
    "embebible": true,
    "imagen": "https://www.espaciomemoria.ar/wp-content/uploads/2026/08/la-barbarie.jpg"
+  },
+  {
+   "id": "d3c4caeef403",
+   "titulo": "La Casa. L, de Aitana Cordero (ciclo Cabina Escénica)",
+   "categoria": "Danza",
+   "lugar": "Fundación Andreani",
+   "barrio": "La Boca",
+   "direccion": "Av. Don Pedro de Mendoza 1987",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-29",
+   "hora": "20:00",
+   "horarios": "25/10 20 h; 29/10 16 h (también 17/10 y 3/11)",
+   "precio": "Gratis",
+   "descripcion": "La directora y coreógrafa española Aitana Cordero presenta La Casa. L, en su primera gira latinoamericana. Funciones el 25/10 a las 20 h y el 29/10 a las 16 h; entrada libre con inscripción previa.",
+   "url": "https://www.fundacionandreani.org.ar/aitana-cordero-(e669)",
+   "dominio": "fundacionandreani.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Fundación Andreani",
+   "fuentes": [
+    "Fundación Andreani"
+   ],
+   "lat": -34.640145,
+   "lng": -58.36188,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "caf2330857b5",
@@ -26498,6 +27333,31 @@
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/Canciones-de-musicales_Favero-y-cia_principal.jpg"
   },
   {
+   "id": "5c838d529df2",
+   "titulo": "Charla: El juguete rabioso, 100 años",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla por los 100 años de El juguete rabioso.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/charla-el-juguete-rabioso-100-anos",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "b8217ff6193c",
    "titulo": "El brote",
    "categoria": "Teatro",
@@ -27222,6 +28082,56 @@
    "lng": -58.400662,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000320915.jpg"
+  },
+  {
+   "id": "0fed2b794384",
+   "titulo": "TEKN0S",
+   "categoria": "Música",
+   "lugar": "Centro Cultural Recoleta",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-10-29",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Propuesta del ciclo LIPM - Música electroacústica.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/tekn0s",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "972d9183177c",
+   "titulo": "TrashGuzmania 2001-2030",
+   "categoria": "Artes visuales",
+   "lugar": "Centro Cultural Recoleta · Salas 7, 8 y 9",
+   "barrio": "Recoleta",
+   "direccion": "Junín 1930",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "Martes a domingo",
+   "precio": "Consultar",
+   "descripcion": "Muestra en las Salas 7, 8 y 9 del Centro Cultural Recoleta, desde el 29/10.",
+   "url": "http://www.centroculturalrecoleta.org/agenda/trashguzmania-2001-2030",
+   "dominio": "centroculturalrecoleta.org",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL RECOLETA",
+   "fuentes": [
+    "Centro Cultural Recoleta"
+   ],
+   "lat": -34.586298,
+   "lng": -58.392513,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "fe559aa51100",
@@ -30454,6 +31364,31 @@
    "imagen": "https://www.espaciomemoria.ar/wp-content/uploads/2026/10/no-voy-sola.jpg"
   },
   {
+   "id": "54dfd3f583ed",
+   "titulo": "Noche de Mancias",
+   "categoria": "Evento",
+   "lugar": "La Mensajera ECI",
+   "barrio": "La Paternal",
+   "direccion": "Boyacá 1989/1983 (confirmar altura)",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de Mancias en La Mensajera Espacio Cultural Independiente (según la agenda de octubre del espacio).",
+   "url": "https://www.instagram.com/p/DeAEzfAFvve/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "La Mensajera ECI"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "90d1178f95e7",
    "titulo": "Noche de jazz con hualfin street jazz",
    "categoria": "Teatro",
@@ -31028,6 +31963,31 @@
    "lng": -58.450223,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000321451.jpg"
+  },
+  {
+   "id": "ef23bec84994",
+   "titulo": "Urubamba Hoy: concierto presentando Más allá de las palabras",
+   "categoria": "Música",
+   "lugar": "Espacio El Zonko",
+   "barrio": "San Cristobal",
+   "direccion": "Pavón 2552",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Concierto de música andina con temas del disco Más allá de las palabras y la participación especial de Facundo Guevara en percusión. Comidas caseras; reservas por teléfono.",
+   "url": "https://www.instagram.com/p/Dep6y4tzsX-/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO EL ZONKO"
+   ],
+   "lat": -34.627449,
+   "lng": -58.400698,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "49ec973ee1fd",
