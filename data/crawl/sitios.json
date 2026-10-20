@@ -2960,8 +2960,8 @@
    "direccion": "Belgrano Av. 3540",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "bloqueado",
+     "fecha": "2026-10-20",
+     "estado": "no_carga",
      "eventos": 0,
      "paginas": 2
     }
@@ -2969,16 +2969,24 @@
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Blog privado de Blogger: no se puede leer sin invitación. Av. Belgrano 3540, Almagro.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lahomeromanzi"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lahomeromanzi",
+    "2026-10-20 [web] 2026-10-20: el blog ya no es público; revisar el Instagram y el Linktree."
    ],
    "comportamiento": {
-    "bloqueos": "el blog es privado (solo lectores invitados); buscar la agenda en redes sociales"
+    "bloqueos": "el blog es privado (solo lectores invitados); buscar la agenda en redes sociales",
+    "web": "redirige a login de Google"
    },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "bloqueado",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_carga",
      "eventos": 0
     }
    ],
@@ -4103,18 +4111,21 @@
    "direccion": "Chile 2958",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Escuela de parkour y circo; solo clases regulares, sin eventos en la web.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccartesdelmovimiento"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccartesdelmovimiento",
+    "2026-10-20 [web] 2026-10-20: solo clases regulares; revisar Instagram @ccartesdelmovimiento."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; sin agenda de eventos, solo grilla de clases"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.cecam.com.ar/#about-us",
@@ -4126,12 +4137,24 @@
      "url": "https://www.cecam.com.ar/contact",
      "texto": "Contacto",
      "motivo": "contacto",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.cecam.com.ar/archives",
+     "texto": "Historia",
+     "motivo": "historia institucional",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -4153,22 +4176,46 @@
    "direccion": "Tucuman 3233",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] Página de GCBA movida (404).",
-    "2026-10-15 [web] La página del programa Barrios ya no existe en el sitio del Gobierno; el centro comunica por Instagram @culturalfonsina."
+    "2026-10-15 [web] La página del programa Barrios ya no existe en el sitio del Gobierno; el centro comunica por Instagram @culturalfonsina.",
+    "2026-10-20 [web] 2026-10-20: la ficha oficial no existe más; el centro comunica por Instagram @culturalfonsina.",
+    "2026-10-20 [instagram] 2026-10-20: sin eventos anunciados para la ventana."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "página del GCBA movida (404)",
+    "instagram": "destacadas por año (muestras 2025, 2026); los posts son crónicas de actividades pasadas",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "no_carga",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -6314,20 +6361,29 @@
    "direccion": "Aranguren, Juan F., Dr. 213",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] La web dejó de existir; el espacio se comunica por Instagram @casajache."
+    "2026-10-15 [web] La web dejó de existir; el espacio se comunica por Instagram @casajache.",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
@@ -7894,27 +7950,28 @@
    "direccion": "Avellaneda Av. 2547",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza; solo grilla anual de talleres"
+   },
    "notas": [
-    "2026-10-15 [web] Blog del centro barrial (Av. Avellaneda 2547, Flores): solo talleres con inscripción y horarios."
-   ],
-   "enlaces_descartados": [
-    {
-     "url": "https://ccrarlt.blogspot.com/2026/02/grilla-de-talleres-2026.html",
-     "texto": "Grilla de talleres 2026",
-     "motivo": "grilla anual de talleres regulares con inscripción, no eventos",
-     "fecha": "2026-10-15"
-    }
+    "2026-10-15 [web] Blog del centro barrial (Av. Avellaneda 2547, Flores): solo talleres con inscripción y horarios.",
+    "2026-10-20 [web] 2026-10-20: solo grilla anual de talleres regulares; no se carga como evento."
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -8334,7 +8391,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
@@ -8342,38 +8399,47 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Página de agenda",
-    "2026-10-15 [web] La agenda web está desactualizada (último evento 7 de julio); las novedades van por Instagram @ccelsueniero."
+    "2026-10-15 [web] La agenda web está desactualizada (último evento 7 de julio); las novedades van por Instagram @ccelsueniero.",
+    "2026-10-20 [web] 2026-10-20: sin eventos vigentes; revisar Instagram @ccelsueniero."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "HTTP alcanza (sitio estático); /agenda.html = talleres semanales sin fechas + evento de julio viejo"
+   },
    "enlaces_descartados": [
     {
      "url": "http://elsueniero.org.ar/ubicación.html",
      "texto": "Ubicación",
      "motivo": "cómo llegar",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     },
     {
      "url": "http://elsueniero.org.ar/agricultura-familiar.html",
-     "texto": "Agricultura familiar",
-     "motivo": "proyecto de huerta, no agenda",
-     "fecha": "2026-10-15"
+     "texto": "Agricultura Familiar",
+     "motivo": "venta de productos de agricultura familiar",
+     "fecha": "2026-10-20"
     },
     {
      "url": "http://elsueniero.org.ar/aportes-voluntarios.html",
      "texto": "Aportes voluntarios",
      "motivo": "donaciones",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     },
     {
      "url": "http://elsueniero.org.ar/contacto.html",
      "texto": "Contacto",
      "motivo": "contacto",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
@@ -8638,20 +8704,29 @@
    "direccion": "Segui, F. J., Alte. 2160",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] No tiene web propia; la agenda se comunica por Instagram @ccsefarad y Facebook."
+    "2026-10-15 [web] No tiene web propia; la agenda se comunica por Instagram @ccsefarad y Facebook.",
+    "2026-10-20 [web] 2026-10-20: sin web propia; rastrear por Instagram."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "solo ficha de Google Maps"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -9671,32 +9746,37 @@
    "direccion": "Del Libertador Av. 8151",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 6
+     "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: caido] El sitio no carga (error).",
     "2026-10-15: la web cambió de https://www.conti.derhuman.jus.gov.ar a http://conti.derhuman.jus.gov.ar/",
     "2026-10-15 [web] La web no se actualiza desde 2025; revisar Instagram o la Secretaría de Derechos Humanos.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroculturalconti"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroculturalconti",
+    "2026-10-20 [web] 2026-10-20: la web sigue sin actualizarse; la programación vigente está en Instagram (@centroculturalconti).",
+    "2026-10-20 [instagram] 2026-10-20: cuenta de Instagram inactiva desde febrero de 2025; web también desactualizada."
    ],
    "comportamiento": {
-    "url": "usar http://conti.derhuman.jus.gov.ar sin www (con www no resuelve); centroculturalconti.jus.gov.ar redirige al Ministerio de Justicia"
+    "url": "usar http://conti.derhuman.jus.gov.ar sin www (con www no resuelve); centroculturalconti.jus.gov.ar redirige al Ministerio de Justicia",
+    "extraccion": "HTTP alcanza pero la agenda está desactualizada",
+    "instagram": "cuenta sin publicaciones propias desde febrero de 2025",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "enlaces_descartados": [
     {
      "url": "http://conti.derhuman.jus.gov.ar/2021/09/entradas.php",
      "texto": "Visitanos",
      "motivo": "información de visitas",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "http://conti.derhuman.jus.gov.ar/areas/agenda/actividades-v2.php",
-     "texto": "Escuelas",
-     "motivo": "misma página que Agenda",
      "fecha": "2026-10-15"
     },
     {
@@ -9722,6 +9802,18 @@
     {
      "fecha": "2026-10-15",
      "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
     }
@@ -10102,35 +10194,56 @@
    "direccion": "Fitz Roy 1327",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 4
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Poco contenido en el sitio; usar redes",
     "2026-10-15 [web] Productora cultural, sin agenda de eventos en la web.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casaculturalsofia"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casaculturalsofia",
+    "2026-10-20 [web] 2026-10-20: sin programación pública."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "productora cultural sin agenda pública"
+   },
    "enlaces_descartados": [
     {
      "url": "https://casasofia.org.ar/quienes-somos/",
      "texto": "Quiénes somos",
      "motivo": "institucional",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     },
     {
      "url": "https://casasofia.org.ar/trabajemos-juntos/",
      "texto": "Trabajemos juntos",
-     "motivo": "servicios de producción",
-     "fecha": "2026-10-15"
+     "motivo": "contacto comercial",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://casasofia.org.ar/gestionar-lo-real/",
+     "texto": "Gestionar lo Real",
+     "motivo": "servicios de gestión cultural",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://casasofia.org.ar/colabora/",
+     "texto": "Colaborá",
+     "motivo": "donaciones",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -10436,17 +10549,21 @@
    "direccion": "Bullrich, Int. Av. 55",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sitio de noticias del centro, no publica agenda; usar http:// porque https da error de certificado."
+    "2026-10-15 [web] Sitio de noticias del centro, no publica agenda; usar http:// porque https da error de certificado.",
+    "2026-10-20 [web] 2026-10-20: solo clases virtuales/religiosas; revisar Instagram @cciar_islam por actividades presenciales."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "carga": "https:// da certificado inválido: abrir por http://",
+    "contenido": "clases religiosas y de árabe, virtuales"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.ccislamicoreyfahd.org.ar/conferencia-11/",
@@ -10471,11 +10588,23 @@
      "texto": "Visita distinguida",
      "motivo": "nota de una visita pasada",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.ccislamicoreyfahd.org.ar/",
+     "texto": "Culture",
+     "motivo": "el menú son clases religiosas virtuales (fiqh, hadiz, tafsir, árabe) y noticias, sin agenda con fechas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -10531,23 +10660,47 @@
    "direccion": "Honduras 5272",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] El dominio ccrichards.com ya no es del centro cultural (sitio de apuestas); usar Instagram @cc_richards."
+    "2026-10-15 [web] El dominio ccrichards.com ya no es del centro cultural (sitio de apuestas); usar Instagram @cc_richards.",
+    "2026-10-20 [web] 2026-10-20: dominio cambió de manos; rastrear por Instagram @cc_richards.",
+    "2026-10-20 [instagram] 2026-10-20: sin shows anunciados desde julio; si hay fechas, aparecen en Passline."
    ],
    "enlace_bio": "https://linktr.ee/ccrichards",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio cambió de dueño (apuestas)",
+    "instagram": "los shows se venden por Passline; el último post propio es de julio",
+    "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ]
@@ -11440,14 +11593,17 @@
    "origen": "data/lugares.json",
    "barrio": "Parque Chacabuco",
    "direccion": "Peron, Eva Av. 1400",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "ficha descriptiva sin agenda; revisar Instagram/Facebook"
+   },
    "notas": [
     "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
-    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram."
+    "2026-10-15 [web] La ficha en buenosaires.gob.ar es solo descriptiva y no publica programación; buscar agenda en su Facebook/Instagram.",
+    "2026-10-20 [web] 2026-10-20: sin programación en la ficha oficial."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -11462,6 +11618,12 @@
     },
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -11755,15 +11917,16 @@
    "direccion": "Combate De Los Pozos 1936",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2014",
-    "2026-10-15 [web] Blog sin actividad desde 2014."
+    "2026-10-15 [web] Blog sin actividad desde 2014.",
+    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2014."
    ],
    "comportamiento": {
     "url": "usar https://casadelaculturacompadresdelhorizonte.blogspot.com sin www (con www da error de certificado)"
@@ -11791,6 +11954,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -12502,7 +12671,7 @@
    "direccion": "Santa Fe Av. 2520",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -12510,12 +12679,21 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sitio Google casi sin contenido; usar @centroculturalpkr",
-    "2026-10-15 [web] Espacio de alquiler; no publica agenda en la web."
+    "2026-10-15 [web] Espacio de alquiler; no publica agenda en la web.",
+    "2026-10-20 [web] 2026-10-20: solo alquiler de espacios."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "alquiler de salas"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -13127,17 +13305,20 @@
    "origen": "data/lugares.json",
    "barrio": "San Cristobal",
    "direccion": "Cochabamba 3245",
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "redirige a login de Google"
+   },
    "notas": [
     "2026-10-15 [web] La web de Google Sites ya no existe; el club tiene Instagram @centroarzuanomellidense.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroarzuanomellidense"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroarzuanomellidense",
+    "2026-10-20 [web] 2026-10-20: el sitio ya no es público; buscar si tiene Instagram o web nueva."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "dominio_caido",
+     "fecha": "2026-10-20",
+     "estado": "no_carga",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "historial": [
@@ -13145,6 +13326,12 @@
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "no_carga",
      "eventos": 0
     }
    ],
@@ -13803,7 +13990,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
@@ -13811,9 +13998,12 @@
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Grilla de programación",
-    "2026-10-15 [web] Escuela de formación actoral; no publica funciones en la web (revisar Instagram)."
+    "2026-10-15 [web] Escuela de formación actoral; no publica funciones en la web (revisar Instagram).",
+    "2026-10-20 [web] 2026-10-20: sin agenda de eventos."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "contenido": "escuela de formación actoral sin agenda pública"
+   },
    "enlaces_descartados": [
     {
      "url": "https://www.cclitocruz.com/classes-2022",
@@ -13822,21 +14012,39 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://www.cclitocruz.com/sala-alquiler",
-     "texto": "Espacio",
-     "motivo": "alquiler de sala",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.cclitocruz.com/internacional",
      "texto": "Clases online",
      "motivo": "cursos online",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.cclitocruz.com/sala-alquiler",
+     "texto": "Espacio",
+     "motivo": "alquiler de sala",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.cclitocruz.com/clases",
+     "texto": "Clases",
+     "motivo": "clases regulares de formación actoral",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.cclitocruz.com/cursos-1",
+     "texto": "Cursos",
+     "motivo": "formación actoral regular",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
@@ -17544,7 +17752,7 @@
    "direccion": "Ibera 6085",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
@@ -17553,12 +17761,21 @@
    "notas": [
     "2026-10-14: Solo Facebook: Centro Cultural Genesis",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Sin web ni redes encontradas; solo figura en directorios (Ibera 6085, Villa Urquiza)."
+    "2026-10-15 [web] Sin web ni redes encontradas; solo figura en directorios (Ibera 6085, Villa Urquiza).",
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "web": "dominio sin DNS"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
