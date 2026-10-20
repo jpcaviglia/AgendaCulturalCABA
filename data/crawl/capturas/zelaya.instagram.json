@@ -1,0 +1,50 @@
+{
+ "id": "zelaya",
+ "canal": "instagram",
+ "fuente": "ZELAYA",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/zelaya3134_teatro/",
+  "http://www.alternativateatral.com/espacio5099-zelaya",
+  "http://www.alternativateatral.com/obra95423-el-trabajo",
+  "http://www.alternativateatral.com/obra101121-la-tristeza"
+ ],
+ "eventos": [
+  {
+   "titulo": "El trabajo, de Federico León",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "Viernes y sábados 20 h",
+   "lugar": "ZELAYA",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3134",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "http://www.alternativateatral.com/obra95423-el-trabajo",
+   "descripcion": "Un grupo de participantes de un taller busca una forma de experimentación radical: Matías, Marian y Dina aplican reglas, acuerdos y mandamientos. Dirección: Federico León.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000298099.jpg"
+  },
+  {
+   "titulo": "La tristeza, de Consuelo Iturraspe",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:00",
+   "horarios": "Domingos 19 h",
+   "lugar": "ZELAYA",
+   "barrio": "Abasto",
+   "direccion": "Zelaya 3134",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "http://www.alternativateatral.com/obra101121-la-tristeza",
+   "descripcion": "En una de las últimas remiserías del país, Sonia y Caballo construyen una amistad a través de la radio. Con Fernanda Bercovich.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000319301.jpg"
+  }
+ ]
+}

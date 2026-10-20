@@ -1,0 +1,68 @@
+{
+ "id": "mu-trincher-boutique",
+ "canal": "web",
+ "fuente": "MU TRINCHER BOUTIQUE",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://lavaca.org/trinchera/",
+  "http://www.alternativateatral.com/espacio6395-mu-trinchera-boutique",
+  "http://www.alternativateatral.com/obra103149-variete-del-civear",
+  "http://www.alternativateatral.com/obra103047-volve-que-te-perdonamos",
+  "http://www.alternativateatral.com/obra97221-pelotas"
+ ],
+ "eventos": [
+  {
+   "titulo": "Varieté del CIVEAR",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:00",
+   "horarios": "Viernes 21 h",
+   "lugar": "MU Trinchera Boutique",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 143",
+   "categoria": "Teatro",
+   "precio": "$ 10000",
+   "url": "http://www.alternativateatral.com/obra103149-variete-del-civear",
+   "descripcion": "Ventriloquía, magia, sketch, comedia y música en el espacio que perteneciera al Mago Fu Manchú. Show para todxs.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/97/000321097.jpg"
+  },
+  {
+   "titulo": "Volvé que te perdonamos",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábado 24/10 21 h",
+   "lugar": "MU Trinchera Boutique",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 143",
+   "categoria": "Teatro",
+   "precio": "$ 12000",
+   "url": "http://www.alternativateatral.com/obra103047-volve-que-te-perdonamos",
+   "descripcion": "Versión libre de una obra de dos autores italianos situada en los años 70: monólogo de humor crítico sobre las peripecias de una mujer.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/73/000320773.jpg"
+  },
+  {
+   "titulo": "Pelotas",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "Sábado 31/10",
+   "lugar": "MU Trinchera Boutique",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 143",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "http://www.alternativateatral.com/obra97221-pelotas",
+   "descripcion": "Cinco mujeres corren detrás de una pelota con el sueño de participar en un torneo de Villa Launa, pueblo del interior de Córdoba.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000304087.jpg"
+  }
+ ]
+}

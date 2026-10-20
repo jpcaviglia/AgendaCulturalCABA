@@ -1,0 +1,30 @@
+{
+ "id": "espacio-incaa-atlas-flores",
+ "canal": "web",
+ "fuente": "Espacio INCAA Atlas Flores",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Bajo tus pies",
+   "fecha_inicio": "2026-10-20",
+   "fecha_fin": "2026-10-21",
+   "hora": "22:00",
+   "horarios": "Todos los días 22 h (hasta el miércoles 21/10)",
+   "lugar": "Espacio INCAA Atlas Flores",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/",
+   "descripcion": "Función de cine en el Espacio INCAA Atlas Flores, todos los días a las 22 h.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

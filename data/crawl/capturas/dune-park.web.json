@@ -1,0 +1,33 @@
+{
+ "id": "dune-park",
+ "canal": "web",
+ "fuente": "Dune Park",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://dunepark.club/",
+  "https://dunepark.club/club/",
+  "https://ra.co/clubs/213422",
+  "https://ra.co/events/2558443"
+ ],
+ "eventos": [
+  {
+   "titulo": "mita x Dune Park: aniversario 1",
+   "fecha_inicio": "2026-10-23",
+   "fecha_fin": "2026-10-23",
+   "hora": "23:59",
+   "horarios": "",
+   "lugar": "Dune Park",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas",
+   "precio": "",
+   "url": "https://ra.co/events/2558443",
+   "descripcion": "Primer aniversario de mita records, con house music: Pedro Gariani (São Paulo), Melania Wonder (Chile), Nebula Estudio, Panko y Manu Barceló.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://images.ra.co/1953d22099e3ff7e2ac9d8e9b425a20439b9b0b4.png"
+  }
+ ]
+}

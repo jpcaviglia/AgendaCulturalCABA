@@ -3144,21 +3144,23 @@
    "direccion": "Acuña De Figueroa, Francisco 1030",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 1
+     "eventos": 5,
+     "paginas": 7
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
-    "2026-10-15 [web] Eventos en tarjetas con enlaces a Flashpass; dos sedes (Almagro y Abasto). La sede de ATR y Redondos Diskos se asumió Almagro (no figura en la tarjeta)."
+    "2026-10-15 [web] Eventos en tarjetas con enlaces a Flashpass; dos sedes (Almagro y Abasto). La sede de ATR y Redondos Diskos se asumió Almagro (no figura en la tarjeta).",
+    "2026-10-20 [web] 2026-10-20: 6 tarjetas en la portada; 5 en la ventana (El Átomo Music Festival es el 19/12). 'Polo Cultural 1040' = sede Almagro."
    ],
    "entradas": [
     "http://elemergente.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "la portada es una landing que cierra un modal ('Ahora no, entrar al sitio'); los eventos son enlaces a events.flashpass.com.ar con fecha en el slug y tarjetas por categoría; hay varias sedes (Legendaria, Emergente)"
+    "extraccion": "la portada es una landing que cierra un modal ('Ahora no, entrar al sitio'); los eventos son enlaces a events.flashpass.com.ar con fecha en el slug y tarjetas por categoría; hay varias sedes (Legendaria, Emergente)",
+    "fichas": "las fichas de flashpass traen JSON-LD (precio, imagen); se leen con sondear.pedir + objetos_evento sin navegador"
    },
    "enlaces_descartados": [
     {
@@ -3174,6 +3176,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "bio_probada": "2026-10-15"
@@ -3264,29 +3272,27 @@
    "direccion": "Lambare 873",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "eventos": 2,
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Radio comunitaria FM La Tribu; sin agenda de eventos clara",
-    "2026-10-15 [web] Radio comunitaria con talleres; poca programación de eventos abiertos en la web."
+    "2026-10-15 [web] Radio comunitaria con talleres; poca programación de eventos abiertos en la web.",
+    "2026-10-20 [web] 2026-10-20: /talleres lista 3 talleres; el seminario Hibridación terminó el 17/10. No hay agenda de eventos propia; sin precios ni fichas por taller."
    ],
    "entradas": [
     "https://fmlatribu.com/talleres"
    ],
    "comportamiento": {
-    "extraccion": "la web es de la radio FM La Tribu: portada con noticias; /talleres lista talleres con rango de fechas y horarios; no hay agenda de eventos propia"
+    "extraccion": "la web es de la radio FM La Tribu: portada con noticias; /talleres lista talleres con rango de fechas y horarios; no hay agenda de eventos propia",
+    "espera_seg": 5,
+    "plataforma": "app de JavaScript: sondear no ve el contenido, hay que abrir /talleres en el navegador",
+    "sin_fichas": "los talleres se listan en /talleres sin página propia por taller"
    },
    "enlaces_descartados": [
-    {
-     "url": "https://fmlatribu.com/noticias",
-     "texto": "Noticias",
-     "motivo": "notas periodísticas, no agenda",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://fmlatribu.com/quienes-somos",
      "texto": "Quiénes somos",
@@ -3298,6 +3304,24 @@
      "texto": "Podcast",
      "motivo": "contenidos de audio",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://fmlatribu.com/noticias",
+     "texto": "Noticias",
+     "motivo": "notas periodísticas de la radio, no agenda",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://fmlatribu.com/podcasts",
+     "texto": "Podcasts",
+     "motivo": "contenido grabado",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://fmlatribu.com/archivo-sonoro",
+     "texto": "Archivo sonoro",
+     "motivo": "archivo de audios",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -3306,6 +3330,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15"
@@ -3363,10 +3393,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 7,
-     "paginas": 2
+     "eventos": 8,
+     "paginas": 12
     }
    },
    "comportamiento": {
@@ -3375,7 +3405,8 @@
    },
    "notas": [
     "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha.",
-    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/hastatrilce"
+    "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/hastatrilce",
+    "2026-10-20 [web] 2026-10-20: la portada lista la cartelera; cada ficha trae día, hora y precio. Rodeo (3er viernes) cae el 20/11, fuera de ventana; Tango Nuevo terminó en abril."
    ],
    "historial": [
     {
@@ -3383,9 +3414,29 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
     }
    ],
-   "enlace_bio": "https://linktr.ee/hastatrilce"
+   "enlace_bio": "https://linktr.ee/hastatrilce",
+   "enlaces_descartados": [
+    {
+     "url": "https://hastatrilce.com.ar/bar/",
+     "texto": "Bar",
+     "motivo": "es el bar, sin programación",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://hastatrilce.com.ar/institucional/",
+     "texto": "Institucional",
+     "motivo": "datos de contacto",
+     "fecha": "2026-10-20"
+    }
+   ]
   },
   {
    "id": "impa-centro-cultural-impa-la-fabrica",
@@ -3579,17 +3630,18 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 2
+     "fecha": "2026-10-20",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 5
     }
    },
    "comportamiento": {
     "extraccion": "/programacion_teatro/ lista obras con sinopsis; el día y la hora están solo en la ficha de cada obra (se leen con fetch); varias fichas no traen fecha"
    },
    "notas": [
-    "2026-10-15 [web] Cartelera de teatro con fichas que a veces omiten días; entradas por Alternativa Teatral."
+    "2026-10-15 [web] Cartelera de teatro con fichas que a veces omiten días; entradas por Alternativa Teatral.",
+    "2026-10-20 [web] 2026-10-20: el sitio quedó sin actualizar desde 2024; las fichas traen fechas de 2024. Revisar el Instagram."
    ],
    "enlaces_descartados": [
     {
@@ -3615,6 +3667,24 @@
      "texto": "Restobar",
      "motivo": "restaurante",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/salas-de-ensayo/",
+     "texto": "Salas de ensayo",
+     "motivo": "alquiler de salas, no evento",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/lafraguarestobar/",
+     "texto": "Restobar",
+     "motivo": "restobar, sin programación",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.lafraguacultural.com/2023/07/24/convocatoria-teatral/",
+     "texto": "Convocatoria",
+     "motivo": "convocatoria, no evento",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -3623,6 +3693,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
    "bio_probada": "2026-10-15"
@@ -3641,24 +3717,26 @@
    "direccion": "Guardia Vieja 3777",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "eventos": 3,
+     "paginas": 4
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Cartelera en la portada",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/laviejaguarida",
-    "2026-10-15 [web] Cartelera en la portada. El ciclo 'El hombre extinguido' terminó el 11/10."
+    "2026-10-15 [web] Cartelera en la portada. El ciclo 'El hombre extinguido' terminó el 11/10.",
+    "2026-10-20 [web] 2026-10-20: 3 obras en la portada con día y hora; las fichas están en Alternativa Teatral (el precio solo figura en Mala Mía)."
    ],
    "enlace_bio": "https://linktr.ee/laviejaguarida",
    "entradas": [
     "https://www.laviejaguarida.com.ar"
    ],
    "comportamiento": {
-    "espera_seg": 5,
-    "extraccion": "la cartelera está en la portada (texto), con botones RESERVAR a Alternativa Teatral"
+    "espera_seg": 6,
+    "extraccion": "la cartelera está en la portada (texto), con botones RESERVAR a Alternativa Teatral",
+    "plataforma": "Wix: la cartelera aparece a los ~6 s en la portada; se lee con innerText"
    },
    "enlaces_descartados": [
     {
@@ -3678,6 +3756,12 @@
      "texto": "PRENSA",
      "motivo": "notas de prensa",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.laviejaguarida.com.ar",
+     "texto": "Restaurante",
+     "motivo": "menú gastronómico",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -3686,6 +3770,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ]
   },
@@ -4641,7 +4731,8 @@
    "enlace_bio": "https://linktr.ee/maquinal",
    "notas": [
     "2026-10-14: el enlace de la bio lleva a eventos (si (eventos en revamos.com))",
-    "2026-10-15 [instagram] Agenda leída del Linktree de la bio y de las fichas de revamos.com, sin abrir Instagram (0 páginas de cupo)."
+    "2026-10-15 [instagram] Agenda leída del Linktree de la bio y de las fichas de revamos.com, sin abrir Instagram (0 páginas de cupo).",
+    "2026-10-20 [instagram] 2026-10-20: agenda leída del Linktree y fichas de revamos.com sin abrir Instagram. Hedwig tiene también 6/11 y 20/11 (fuera de ventana)."
    ],
    "comportamiento": {
     "extraccion": "sin navegador: el Linktree (linktr.ee/maquinal) lista cada show con fecha en el título y enlace a revamos.com; la ficha de revamos trae hora y precios en el HTML (fechas múltiples en ticketsByDate)",
@@ -4649,7 +4740,7 @@
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 8,
      "paginas": 9
@@ -4658,6 +4749,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 8
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 8
@@ -4747,7 +4844,7 @@
    "direccion": "Riobamba 143",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 3,
      "paginas": 5
@@ -4758,7 +4855,8 @@
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/mu.lavaca",
     "2026-10-15: la web cambió de https://mutrincheraboutique.org/ a https://lavaca.org/trinchera/",
-    "2026-10-15 [web] Dominio viejo caído; web actual lavaca.org/trinchera (cartelera desactualizada, última: agosto). Programación vigente en Alternativa Teatral (espacio6395) e Instagram @mu.trinchera. Riobamba 143, Balvanera."
+    "2026-10-15 [web] Dominio viejo caído; web actual lavaca.org/trinchera (cartelera desactualizada, última: agosto). Programación vigente en Alternativa Teatral (espacio6395) e Instagram @mu.trinchera. Riobamba 143, Balvanera.",
+    "2026-10-20 [web] 2026-10-20: cartelera leída de la ficha del espacio en Alternativa Teatral (lavaca.org/trinchera sigue desactualizada). Próximos: La oso 8/11, La vida fracturada 12/11, etc. (fuera de ventana)."
    ],
    "enlace_bio": "https://linktr.ee/mu.lavaca",
    "entradas": [
@@ -4779,6 +4877,12 @@
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
@@ -4914,24 +5018,27 @@
    "lugares": [
     "ZELAYA"
    ],
-   "web": "",
+   "web": "http://www.alternativateatral.com/espacio5099-zelaya",
    "instagram": "@zelaya3134_teatro",
    "origen": "data/lugares.json",
    "barrio": "Balvanera",
    "direccion": "Zelaya 3134",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "los posts repiten 'Viernes y sábados 20 h' de la obra en cartel; entradas por Alternativa Teatral"
+    "extraccion": "la cartelera completa y vigente está en la ficha del espacio en Alternativa Teatral (espacio5099-zelaya), sin abrir posts; se lee con sondear --leer",
+    "instagram": "los posts del perfil ya no alcanzan: el cartel vigente se lee mejor en Alternativa Teatral"
    },
    "notas": [
-    "2026-10-15 [instagram] Sala en el fondo de un jardín en el Abasto (Zelaya 3134)."
+    "2026-10-15 [instagram] Sala en el fondo de un jardín en el Abasto (Zelaya 3134).",
+    "2026-10-20: la web cambió de  a http://www.alternativateatral.com/espacio5099-zelaya",
+    "2026-10-20 [instagram] 2026-10-20: El trabajo (vie y sáb 20 h) y La tristeza (dom 19 h); próximo estreno: Abu Bomba Agitadora internacional (desde el 11/11)."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "eventos": 2,
+     "paginas": 4
     }
    },
    "historial": [
@@ -4940,6 +5047,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -7802,17 +7915,19 @@
    "direccion": "Rivadavia Av. 7609",
    "enlace_bio": "https://linktr.ee/plantaaltarockbar",
    "notas": [
-    "2026-10-15 [instagram] Rock bar en Av. Rivadavia 7609, Flores; publica un flyer por banda sin texto en el epígrafe."
+    "2026-10-15 [instagram] Rock bar en Av. Rivadavia 7609, Flores; publica un flyer por banda sin texto en el epígrafe.",
+    "2026-10-20 [instagram] 2026-10-20: 3 shows en la ventana leídos de la grilla (23 y 24/10); el Linktree de la bio no trae enlaces."
    ],
    "comportamiento": {
-    "extraccion": "los posts son flyers sin texto: hay que mirar la imagen (zoom sobre el visor); un flyer por show con día y hora"
+    "extraccion": "los flyers de la grilla se leen con screenshot a escala completa (día y hora en el flyer); no hizo falta abrir cada post",
+    "instagram": "el Linktree de la bio está vacío"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 4
+     "eventos": 3,
+     "paginas": 1
     }
    },
    "historial": [
@@ -7821,6 +7936,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ]
   },
@@ -9002,17 +9123,19 @@
    "direccion": "Alsina, Adolfo 1475",
    "enlace_bio": "https://linktr.ee/tachelesba",
    "notas": [
-    "2026-10-15 [instagram] Fuera de ventana: 31/10 La Real Academia y 15/11 Feria Plástica (gratis, 13 a 17 h). Adolfo Alsina 1475."
+    "2026-10-15 [instagram] Fuera de ventana: 31/10 La Real Academia y 15/11 Feria Plástica (gratis, 13 a 17 h). Adolfo Alsina 1475.",
+    "2026-10-20 [instagram] 2026-10-20: 24/10 Primavera al fin y 31/10 fiesta de Halloween (9 bandas). El 15/11 Feria Plástica queda fuera de ventana."
    ],
    "comportamiento": {
-    "extraccion": "la grilla de @tachelesba mezcla posts de productoras que lo etiquetan (Exquisita, Escuchame una cosita, Feria Plástica): ahí están las fechas futuras"
+    "extraccion": "la grilla de @tachelesba mezcla posts de productoras que lo etiquetan (Exquisita, Escuchame una cosita, Feria Plástica): ahí están las fechas futuras",
+    "instagram": "los posts de las productoras que lo etiquetan (Exquisita, Escuchame una cosita) traen día, hora y programa; el Linktree solo tiene carta, rider y tienda"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 4
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "historial": [
@@ -9021,6 +9144,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -10660,20 +10789,22 @@
    "direccion": "Honduras 5317",
    "comportamiento": {
     "plataforma": "la web solo enlaza a tickets.latangente.com.ar, que lista todos los shows",
-    "extraccion": "enlaces a /musica/<slug> con título y 'Jue 15 de octubre - 20:00 hs'"
+    "extraccion": "enlaces a /musica/<slug> con título y 'Jue 15 de octubre - 20:00 hs'",
+    "fichas": "las fichas son una SPA: el precio ('Entradas desde $') aparece a los ~4 s; se leyeron cargando cada ficha en un iframe del mismo origen; las imágenes de las tarjetas son lazy (data-src con api.tickethoy.org/images/eventos/<id>/imgn0000.jpg)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 15,
-     "paginas": 2
+     "eventos": 12,
+     "paginas": 14
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/latangente",
-    "2026-10-15 [web] La programación está en tickets.latangente.com.ar (49 shows hasta diciembre); la web principal no la muestra."
+    "2026-10-15 [web] La programación está en tickets.latangente.com.ar (49 shows hasta diciembre); la web principal no la muestra.",
+    "2026-10-20 [web] 2026-10-20: toda la programación está en tickets.latangente.com.ar; ventana leída hasta el 1/11 (último show antes del 2/11)."
    ],
    "enlace_bio": "https://linktr.ee/latangente",
    "entradas": [
@@ -10685,6 +10816,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 15
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
     }
    ]
   },
@@ -11171,7 +11308,7 @@
    "direccion": "Del Barco Centenera 1126",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 3
@@ -11180,7 +11317,8 @@
    "notas": [
     "2026-10-14 [revisión anterior: instagram] El sitio redirige a Linktree",
     "2026-10-15: la web cambió de https://www.lamingaclubcultural.com.ar a https://linktr.ee/lamingacc",
-    "2026-10-15 [web] La web redirige a un Linktree; los eventos se leen en Ticketia."
+    "2026-10-15 [web] La web redirige a un Linktree; los eventos se leen en Ticketia.",
+    "2026-10-20 [web] 2026-10-20: Ticketia lista 2 shows; en la ventana solo Kispicas (24/10); La Curiosa es el 15/11."
    ],
    "enlace_bio": "https://linktr.ee/lamingacc",
    "entradas": [
@@ -11191,21 +11329,33 @@
    },
    "enlaces_descartados": [
     {
-     "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
-     "texto": "Espectáculos de vacaciones",
-     "motivo": "vacaciones de invierno, ya pasadas",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.youtube.com/user/LaMingaClubCultural",
      "texto": "Canal de YouTube",
      "motivo": "videos",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
+     "texto": "Espectáculos de vacaciones",
+     "motivo": "ciclo de vacaciones de invierno, pasado",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.youtube.com/playlist?list=PLPKVaZPZ8pt2wjzz8VUk0AlKS8z8fNpTo",
+     "texto": "Streamings",
+     "motivo": "videos online",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -13688,10 +13838,10 @@
    "direccion": "Viamonte 1730",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 2
+     "eventos": 4,
+     "paginas": 5
     }
    },
    "entradas": [
@@ -13701,7 +13851,8 @@
     "extraccion": "la portada tiene 'Actividades de esta semana' en texto con fechas de Cine Debate y Café Psicológico; las páginas de actividad son fichas de tienda (Tiendanube) sin calendario"
    },
    "notas": [
-    "2026-10-15 [web] Solo la portada muestra las fechas de la semana; las fichas son de tienda."
+    "2026-10-15 [web] Solo la portada muestra las fechas de la semana; las fichas son de tienda.",
+    "2026-10-20 [web] 2026-10-20: 'Actividades de esta semana' en la portada con fechas; los demás talleres de lectura del listado no traen día ni hora."
    ],
    "enlaces_descartados": [
     {
@@ -13725,14 +13876,14 @@
     {
      "url": "https://larondaespaciocultural.com.ar/cursos-on-demand/",
      "texto": "Cursos on demand",
-     "motivo": "cursos grabados",
-     "fecha": "2026-10-15"
+     "motivo": "cursos grabados, no eventos",
+     "fecha": "2026-10-20"
     },
     {
      "url": "https://larondaespaciocultural.com.ar/blog/",
      "texto": "Blog",
-     "motivo": "notas",
-     "fecha": "2026-10-15"
+     "motivo": "blog de notas",
+     "fecha": "2026-10-20"
     }
    ],
    "historial": [
@@ -13741,6 +13892,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ]
   },
@@ -16342,8 +16505,8 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
+     "fecha": "2026-10-20",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     },
@@ -16359,7 +16522,8 @@
    },
    "notas": [
     "2026-10-15 [web] Blog abandonado desde 2020.",
-    "2026-10-15 [instagram] El Puente (Rivadavia 9810, Villa Luro, 25 años). El 10/10 hubo música acústica solidaria (pasado)."
+    "2026-10-15 [instagram] El Puente (Rivadavia 9810, Villa Luro, 25 años). El 10/10 hubo música acústica solidaria (pasado).",
+    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2020; la programación se anuncia en Instagram (@elpuentecultural)."
    ],
    "historial": [
     {
@@ -16373,6 +16537,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
     }
    ],
    "bio_probada": "2026-10-15"
@@ -19659,7 +19829,8 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
     "2026-10-15 [web] Museo en Puerto Madero (Av. Antártida Argentina s/n). Muestra del 4/10 sobre inmigración japonesa y 'dos trabajos' inaugurados ese día no detallados en la portada; vale revisar Novedades.",
-    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/muntref"
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/muntref",
+    "2026-10-20 [web] 2026-10-20: la portada lista 'En exposición ahora' con fichas /muestras/<slug>; las fichas de las muestras nuevas no traen fecha de cierre. 'Entre pasados', 'Una nación para la escuela' y 'Disonancias' figuran en la lista de novedades pero no se cargaron (otra sede, sin confirmar)."
    ],
    "id": "muntref-museo-de-la-inmigracion",
    "entradas": [
@@ -19671,36 +19842,36 @@
    },
    "enlaces_descartados": [
     {
+     "url": "https://museos.untref.edu.ar/es/prensa",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-15"
+    },
+    {
      "url": "https://museos.untref.edu.ar/es/archivo-de-muestras/a2026",
      "texto": "Archivo de muestras",
      "motivo": "archivo de muestras pasadas",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     },
     {
      "url": "https://museos.untref.edu.ar/es/recorridos-virtuales",
      "texto": "Recorridos virtuales",
      "motivo": "recorridos virtuales online, no presenciales",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     },
     {
      "url": "https://museos.untref.edu.ar/es/educacion",
      "texto": "Educación",
      "motivo": "visitas educativas para escuelas con reserva",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://museos.untref.edu.ar/es/prensa",
-     "texto": "Prensa",
-     "motivo": "notas de prensa",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-20"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 4
+     "eventos": 6,
+     "paginas": 7
     }
    },
    "historial": [
@@ -19709,6 +19880,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "barrio": "Puerto Madero",
@@ -19769,7 +19946,8 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.macnconicet.gob.ar/",
     "2026-10-15 [web] Av. Ángel Gallardo 470, Caballito. /eventos/ solo tenía una muestra temporaria; las 'Actividades' del menú son contenidos virtuales.",
-    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/macn.oficial"
+    "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/macn.oficial",
+    "2026-10-20 [web] 2026-10-20: /eventos/ lista una sola muestra temporaria; las muestras fotográficas del menú son de 2020-2021; Exhibiciones son las salas permanentes (no se cargan)."
    ],
    "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
    "entradas": [
@@ -19781,24 +19959,30 @@
    },
    "enlaces_descartados": [
     {
-     "url": "https://www.macnconicet.gob.ar/reservas-escolares/",
-     "texto": "Reservas escolares",
-     "motivo": "visitas escolares con reserva (privadas)",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.macnconicet.gob.ar/actividades-para-hacer-en-casa/",
      "texto": "Actividades para hacer en casa",
      "motivo": "contenido virtual",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.macnconicet.gob.ar/reservas-escolares/",
+     "texto": "Reservas escolares",
+     "motivo": "visitas escolares con reserva (privadas)",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.macnconicet.gob.ar/instantenatural/",
+     "texto": "Muestras fotográficas",
+     "motivo": "muestras fotográficas de 2020-2021, archivo",
+     "fecha": "2026-10-20"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 6
+     "eventos": 1,
+     "paginas": 8
     }
    },
    "historial": [
@@ -19807,6 +19991,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Caballito",
@@ -21236,51 +21426,58 @@
    "origen": "descubierto en Búsqueda: fiestas techno y electrónica el 2026-10-15",
    "notas": [
     "2026-10-15: club de house; web confirmada en RA",
-    "2026-10-15 [web] La agenda vigente se lee en Resident Advisor (ra.co/clubs/213422); en la ventana solo figura el 23/10."
+    "2026-10-15 [web] La agenda vigente se lee en Resident Advisor (ra.co/clubs/213422); en la ventana solo figura el 23/10.",
+    "2026-10-20 [web] 2026-10-20: en la ventana solo figura el 23/10 en RA (siguientes: 6/11 y 7/11). Sin precio en RA."
    ],
    "entradas": [
     "https://ra.co/clubs/213422"
    ],
    "comportamiento": {
-    "agenda": "la web propia no lista fechas; el club y los tickets enlazan a ra.co/clubs/213422 y shpass"
+    "agenda": "la web propia no lista fechas; la agenda vigente está en ra.co/clubs/213422 (403 por HTTP, se abre en el navegador)"
    },
    "enlaces_descartados": [
-    {
-     "url": "http://www.dunepark.club/biblioteca/",
-     "texto": "Biblioteca",
-     "motivo": "portal de notas y difusión, no agenda",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "http://www.dunepark.club/galeria/",
-     "texto": "Galería",
-     "motivo": "fotos de eventos pasados",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "http://www.dunepark.club/shop/",
-     "texto": "Shop",
-     "motivo": "tienda",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://shpass.com.ar/productores/dune-park-6439",
      "texto": "Tickets",
      "motivo": "ticketera externa, misma agenda que RA",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://dunepark.club/biblioteca/",
+     "texto": "Biblioteca",
+     "motivo": "portal de notas, no agenda",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://dunepark.club/galeria/",
+     "texto": "Galería",
+     "motivo": "fotos de eventos pasados",
+     "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://dunepark.club/shop/",
+     "texto": "Shop",
+     "motivo": "es la tienda",
+     "fecha": "2026-10-20"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 3
+     "paginas": 4
     }
    },
    "historial": [
     {
      "fecha": "2026-10-15",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-20",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -21759,20 +21956,22 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: sala de recitales",
-    "2026-10-15 [web] Cartelera en la portada."
+    "2026-10-15 [web] Cartelera en la portada.",
+    "2026-10-20 [web] 2026-10-20: cartelera en la portada (Squarespace); las fichas están en Passline. Los shows desde el 4/11 quedan fuera de la ventana."
    ],
    "entradas": [
     "https://www.latrastienda.com/"
    ],
    "comportamiento": {
-    "extraccion": "la portada lista próximos shows con fecha y hora; sin scroll largo"
+    "extraccion": "la portada lista próximos shows con fecha y hora; sin scroll largo",
+    "fichas": "los enlaces de entradas van a passline.com/eventos-ficha-dvm/<slug>; por HTTP da 403, desde el navegador (fetch en una pestaña de passline) se leen precios y og:image"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 6,
-     "paginas": 1
+     "eventos": 5,
+     "paginas": 6
     }
    },
    "historial": [
@@ -21781,6 +21980,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "bio_probada": "2026-10-15"
@@ -21797,13 +22002,17 @@
    "origen": "descubierto en Búsqueda: museos y galerías que falten el 2026-10-15",
    "notas": [
     "2026-10-15: estadio de recitales",
-    "2026-10-15 [web] Se cargó la primera fecha de cada show; las fechas adicionales ('y N más') están en cada ficha."
+    "2026-10-15 [web] Se cargó la primera fecha de cada show; las fechas adicionales ('y N más') están en cada ficha.",
+    "2026-10-20 [web] 2026-10-20: ventana hasta el 1/11; Bersuit (3/11) y siguientes fuera de ventana. Sin hora ni imagen en las fichas."
    ],
    "entradas": [
     "https://www.movistararena.com.ar/shows"
    ],
    "comportamiento": {
-    "extraccion": "/shows lista tarjetas con título, primera fecha y 'y N fechas más'; las demás fechas están en la ficha"
+    "extraccion": "/shows lista tarjetas con título, primera fecha y 'y N fechas más'; las demás fechas están en la ficha",
+    "plataforma": "sondear da unreachable; en el navegador /shows lista tarjetas con 'y N fechas más'; las fechas extra están en cada ficha /show/<uuid> (se leen cargándola en un iframe, ~4 s)",
+    "espera_seg": 6,
+    "sin_fichas": "las fichas no traen imagen propia del show ni hora en el texto"
    },
    "enlaces_descartados": [
     {
@@ -21813,24 +22022,24 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://www.movistararena.com.ar/premium",
-     "texto": "Premium",
-     "motivo": "venta de paquetes",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.movistararena.com.ar/preguntas-frecuentes",
      "texto": "Preguntas frecuentes",
      "motivo": "soporte",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://www.movistararena.com.ar/premium",
+     "texto": "Premium",
+     "motivo": "hospitality, no evento",
+     "fecha": "2026-10-20"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 8,
-     "paginas": 1
+     "eventos": 12,
+     "paginas": 8
     }
    },
    "historial": [
@@ -21839,6 +22048,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
     }
    ],
    "bio_probada": "2026-10-15"
@@ -22134,15 +22349,17 @@
    "origen": "descubierto en Cine Gaumont (Espacio INCAA) el 2026-10-15",
    "notas": [
     "2026-10-15: aparece en la cartelera de Espacios INCAA con localidad CABA",
-    "2026-10-15 [web] La cartelera de Espacios INCAA lista todo el país; solo CABA: Atlas Flores y ATE Cultura (este último sin sitio propio)."
+    "2026-10-15 [web] La cartelera de Espacios INCAA lista todo el país; solo CABA: Atlas Flores y ATE Cultura (este último sin sitio propio).",
+    "2026-10-20 [web] 2026-10-20: la tabla solo trae hasta el miércoles 21/10 (Bajo tus pies, 22 h todos los días); vuelve a revisarse cuando publiquen la semana siguiente."
    ],
    "entradas": [
     "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
    ],
    "comportamiento": {
     "espera_seg": 8,
-    "extraccion": "la cartelera es una tabla en el texto (espacio, localidad, día, hora, película); filtrar líneas con CABA",
-    "herramientas": "el resultado de preparar() con URLs con ? lo bloquea la herramienta: quitar query strings antes de devolverlo"
+    "extraccion": "tabla en el texto (espacio, localidad, día, hora, película); filtrar líneas con 'Atlas Flores'",
+    "herramientas": "el resultado de preparar() con URLs con ? lo bloquea la herramienta: quitar query strings antes de devolverlo",
+    "sin_fichas": "la cartelera de Espacios INCAA es una tabla sin enlace por película"
    },
    "enlaces_descartados": [
     {
@@ -22160,9 +22377,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-20",
      "estado": "con_eventos",
-     "eventos": 3,
+     "eventos": 1,
      "paginas": 1
     }
    },
@@ -22172,6 +22389,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   }

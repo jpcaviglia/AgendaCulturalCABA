@@ -1,0 +1,37 @@
+{
+ "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
+ "canal": "web",
+ "fuente": "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
+ "tipo": "lugar",
+ "fecha": "2026-10-20",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.macnconicet.gob.ar/",
+  "https://www.macnconicet.gob.ar/eventos/",
+  "https://www.macnconicet.gob.ar/exhibiciones/",
+  "https://www.macnconicet.gob.ar/visitas-reapertura/",
+  "https://www.macnconicet.gob.ar/monstruos-en-el-museo/",
+  "https://www.macnconicet.gob.ar/instantenatural/",
+  "https://www.macnconicet.gob.ar/patagonia-muestra-fotografica/",
+  "https://www.macnconicet.gob.ar/evento/exploraciones-imaginarias/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Exploraciones imaginarias",
+   "fecha_inicio": "2026-10-16",
+   "fecha_fin": "2026-11-30",
+   "hora": "",
+   "horarios": "Martes a domingo de 14 a 18:15 h",
+   "lugar": "Museo Argentino de Ciencias Naturales Bernardino Rivadavia",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "$ 8000",
+   "url": "https://www.macnconicet.gob.ar/evento/exploraciones-imaginarias/",
+   "descripcion": "Exposición temporaria de Laura Zingariello, con curaduría de Magdalena Mastromarino: un viaje por mundos marinos y terrestres donde las formas de la naturaleza se encuentran con lo imaginario. Incluida en la entrada del museo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://www.macnconicet.gob.ar/wp-content/uploads/Copia-de-Arte-y-naturaleza-Ilustracion-cientifica-y-arte-contemporaneo-en-dialogo-Post-de-Instagram-45.png"
+  }
+ ]
+}

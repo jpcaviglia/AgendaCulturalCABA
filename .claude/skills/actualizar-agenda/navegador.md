@@ -235,10 +235,17 @@ port). If the POST still does not arrive, put the text in a `<pre>` inside `<art
 - **Tickethoy white-label sites** (tickets.congoclubcultural.com.ar, `/musica/<slug>`): a single-page app. Open each event in a hidden
   same-origin `iframe` (`f.src=h; await sleep(6000); f.contentDocument.body.innerText`) inside an async IIFE and poll `window.__done`;
   the page says `Entradas desde $X` (free events: `ENTRADA LIBRE Y GRATUITA`) and the photo is `api.tickethoy.org/images/eventos/<id>/imgn0000.jpg`.
+  On the listing only the first cards have the picture in `src`; the rest are lazy (`data-src` holds the `<id>`): read `a.querySelector('img').dataset.src`
+  after scrolling. Count on ~4 s per ficha (La Tangente: 12 events in two calls).
 - **Bombo** (`wearebombo.app.link/<id>` redirects to `wearebombo.com/event/<id>`): 403 for Python; in the browser the page has the hours,
   the prices with `$` (they sometimes do not load) and `files.wearebombo.com/events/<blob>` as `og:image`.
 - **Wix Events** (clubsocialcambalache.com): the home lists "Próximos eventos" with day and hour inside the title; each
   `/detalles-y-registro/<slug>` is rendered by JavaScript (`fetch` gives the shell); the picture is the `og:image` on wixstatic.
+- **Instagram-only theatre whose posts are old**: find its page with `https://www.alternativateatral.com/teatros.asp?q=<name>` (the link is
+  `/espacio<N>-<slug>`), read it with `sondear.py --leer` (current plays by weekday, "Proximamente") and put it in `web_nueva` (Zelaya).
+- **Resident Advisor** (`ra.co/clubs/<id>`, `ra.co/events/<id>`): 403 over HTTP; in the browser `innerText` has the upcoming events, the date and
+  hour of the ficha. Its `og:image` is an `imgproxy.ra.co/.../<base64>` URL: the base64 segment decodes to the real `https://images.ra.co/<hash>.png`.
+- **Tiendanube** (La Ronda): `og:image` comes as `http://dcdn-us.mitiendanube.com/...`; `guardar` drops any picture that is not https, so change it to `https://`.
 - **Alternativa Teatral venue page** (`/espacio<N>-<slug>`): lists the plays with links `/obra<N>-<slug>`; each one has `og:image`
   (`img.alternativateatral.com/scripts/es/fotos/obras/resumen/...`) but almost never the price over HTTP. Use it to get links and
   pictures when the venue's own site only shows days and hours (El Galpón de Guevara).
