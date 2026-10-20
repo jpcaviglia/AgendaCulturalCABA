@@ -508,17 +508,19 @@
    "origen": "data/galerias.json",
    "comportamiento": {
     "uso": "Solo sirve para ferias (Pinta BAphoto) y alguna muestra en Buenos Aires.",
-    "idioma": "La portada abre en inglés; casi todo es internacional."
+    "idioma": "La portada abre en inglés; casi todo es internacional.",
+    "sin_fichas": "la portada solo menciona la feria en una nota; no hay página de evento"
    },
    "entradas": [
     "https://www.artealdia.com/"
    ],
    "notas": [
-    "2026-10-14 [web] Portada con notas internacionales; lo único en CABA dentro de la ventana es Pinta BAphoto en La Rural."
+    "2026-10-14 [web] Portada con notas internacionales; lo único en CABA dentro de la ventana es Pinta BAphoto en La Rural.",
+    "2026-10-19 [web] 2026-10-19: portada internacional; lo único en CABA es Pinta BAphoto (La Rural, 23-25/10)."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-14",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 1
@@ -527,6 +529,12 @@
    "historial": [
     {
      "fecha": "2026-10-14",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-19",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -544,22 +552,24 @@
    "comportamiento": {
     "uso": "notas mensuales con muestras; buscar la del mes en curso",
     "scroll": "NO scrollear /arte/: es scroll infinito de notas viejas (no correr preparar ahí). Abrir directo la nota '6 muestras de arte para visitar en <mes> en Buenos Aires'.",
-    "extraccion": "La nota trae lugar con dirección, título, fechas y horarios; get_page_text la lee entera.",
-    "agenda": "El enlace 'Agenda' del menú (indiehoy.com/eventos/) es la agenda de recitales: se rastrea en indiehoy-agenda-de-recitales. Revisarla primero; no tiene categoría ni filtro de arte (solo Córdoba / Rosario / Internacionales), por eso las muestras salen de la nota mensual."
+    "extraccion": "la nota mensual se lee por HTTP con sondear.py --leer",
+    "agenda": "El enlace 'Agenda' del menú (indiehoy.com/eventos/) es la agenda de recitales: se rastrea en indiehoy-agenda-de-recitales. Revisarla primero; no tiene categoría ni filtro de arte (solo Córdoba / Rosario / Internacionales), por eso las muestras salen de la nota mensual.",
+    "sin_fichas": "nota que lista varias muestras; no hay página por muestra"
    },
    "entradas": [
     "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/"
    ],
    "notas": [
     "2026-10-15 [web] La nota mensual está en /arte/6-muestras-de-arte-para-visitar-<mes>-buenos-aires-<año>/.",
-    "2026-10-15 [web] Revisada la Agenda del menú (/eventos/): solo recitales. Las muestras están en la nota mensual /arte/6-muestras-de-arte-para-visitar-<mes>-buenos-aires-<año>/."
+    "2026-10-15 [web] Revisada la Agenda del menú (/eventos/): solo recitales. Las muestras están en la nota mensual /arte/6-muestras-de-arte-para-visitar-<mes>-buenos-aires-<año>/.",
+    "2026-10-19 [web] 2026-10-19: nota de octubre (07/10) con 6 muestras; 5 cargadas (Parque de la Memoria cerró el 18/10). Sin precio en la nota."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-10-19",
      "estado": "con_eventos",
-     "eventos": 6,
-     "paginas": 4
+     "eventos": 5,
+     "paginas": 2
     }
    },
    "historial": [
@@ -574,6 +584,20 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://indiehoy.com/arte/",
+     "texto": "Arte",
+     "motivo": "scroll infinito de notas viejas; la muestra del mes es la nota mensual",
+     "fecha": "2026-10-19"
     }
    ]
   },
@@ -2461,7 +2485,29 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Billinghurst 350",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "actividad": "cuenta casi inactiva (35 posts), sin agenda"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: Instagram casi inactivo, sin eventos."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-comunarte",
@@ -2475,7 +2521,29 @@
    "origen": "data/lugares.json",
    "barrio": "Almagro",
    "direccion": "Castro Barros Av. 236",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "grilla": "los talleres están en flyers (imagen) sin horarios en el texto"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: sin eventos cargables; los talleres de octubre están en un flyer (no se leyó la imagen)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-la-tribu",
@@ -6475,7 +6543,29 @@
    "origen": "data/lugares.json",
    "barrio": "Flores",
    "direccion": "Arrotea 951",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "peña": "la Peña de Arrotea se anuncia en @lapeniadearrotea (domingos, entradas anticipadas); revisar esa cuenta"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: sin eventos con fecha; revisar @lapeniadearrotea para la peña folklórica."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-fermin",
@@ -10888,7 +10978,27 @@
    "origen": "data/lugares.json",
    "barrio": "Retiro",
    "direccion": "Cordoba Av. 807",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {},
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: @encupula no existe más; buscar el handle nuevo (Retiro, Av. Córdoba 807)."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 2
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "no_carga",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-embajada-del-brasil",
@@ -12390,7 +12500,29 @@
    "origen": "data/lugares.json",
    "barrio": "San Telmo",
    "direccion": "Bolivar 1019",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "actividad": "cuenta inactiva desde 2025"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: Instagram sin posts de 2026."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "espacio-cultural-plaza-defensa",
@@ -12637,7 +12769,29 @@
    "origen": "data/lugares.json",
    "barrio": "Velez Sarsfield",
    "direccion": "Escalada De San Martin, R. 4553",
-   "bio_probada": "2026-10-15"
+   "bio_probada": "2026-10-15",
+   "comportamiento": {
+    "actividad": "cuenta inactiva desde 2022"
+   },
+   "notas": [
+    "2026-10-19 [instagram] 2026-10-19: Instagram inactivo desde 2022."
+   ],
+   "ultimo": {
+    "instagram": {
+     "fecha": "2026-10-19",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
+    }
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-19",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    }
+   ]
   },
   {
    "id": "centro-cultural-versalles",
