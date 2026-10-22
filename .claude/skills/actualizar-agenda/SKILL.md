@@ -355,6 +355,9 @@ all the profiles fit in each run: they rotate, the longest-unchecked first.
   first next time.
 - If a profile is saved as `bloqueado`, Instagram is not opened for 24 h (cool-down): the pending profiles
   stay `pospuesto`. Do not try to continue with another profile.
+- **A run is never closed while Instagram profiles are `pospuesto`.** An empty queue with postponed profiles is not the end:
+  `siguiente` says so and `cerrar` refuses. Leave the run open; the next session's `iniciar` puts them back in the queue and they go
+  first. Close with `--forzar` only if the user asks.
 - Every 25 pages, `guardar` asks for a 5-minute pause: take it (or continue with websites, if any remain).
 - The limits are adjusted in `data/crawl/local/instagram_estado.json` (`limites`).
 
@@ -655,7 +658,7 @@ git pull --rebase --autostash && git push
 In the commit message, one line for each change in the skill, the scripts or the README.
 
 If the run was cut off by a block or a browser error that cannot be solved, close with
-`crawl.py cerrar --forzar`: what was left uncrawled goes first next time.
+`crawl.py cerrar --forzar`: what was left uncrawled goes first next time. `cerrar` also refuses (without `--forzar`) when Instagram profiles are `pospuesto`; do not force it on your own.
 
 Final report (3-6 lines, in English): events published, sites crawled by status, new sites, failures
 (`no_carga`, `dominio_caido`, `bloqueado`), what changed in the skill or the scripts, and what is worth

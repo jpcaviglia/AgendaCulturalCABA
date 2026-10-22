@@ -13,7 +13,8 @@ Usage:
                                                   # page instead of their own page (see url_de_listado)
     python scripts/crawl.py ig-vistos <id> <url_post>...   # which Instagram posts were already analyzed (do not reopen)
     python scripts/crawl.py estado                # run progress and Instagram quota
-    python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report
+    python scripts/crawl.py cerrar [--forzar]     # closes the run and writes the report; refuses while sites or
+                                                  # postponed Instagram profiles are left (iniciar re-queues those)
     python scripts/crawl.py herramientas [llamada]   # the line that loads navegador.js into the tab
     python scripts/crawl.py sin-imagen            # venues with 4+ published events and no picture in any (data/eventos.json)
     python scripts/crawl.py servir                # serves navegador.js on 127.0.0.1:8791 (leave it running in the
@@ -346,6 +347,12 @@ def cmd_iniciar(args):
         inicio = date.fromisoformat(previa["id"][:10])
         if (hoy() - inicio).days <= 3:
             print(f"Se retoma la corrida {previa['id']} (iniciada {previa['inicio']}).")
+            pospuestos = [i for i, e in previa["hechos"].items() if e == "pospuesto"]
+            for i in pospuestos:
+                del previa["hechos"][i]
+            if pospuestos:
+                escribir_json(CORRIDA, previa)
+                print(f"{len(pospuestos)} perfiles de Instagram pospuestos vuelven a la cola.")
             if not todos:
                 n = marcar_reutilizados(previa, por_id(doc))
                 if n:
@@ -450,7 +457,12 @@ def cmd_siguiente(args):
               "del clasificador al importar desde jsDelivr.")
     print(f"Avance: {hechos} de {len(corrida['cola'])} hechos. Ventana {corrida['ventana']['desde']} a {corrida['ventana']['hasta']}.")
     if not pend:
-        print("Cola vacía: correr armar_agenda.py y `crawl.py cerrar`.")
+        pospuestos = [i for i, e in corrida["hechos"].items() if e == "pospuesto"]
+        if pospuestos:
+            print(f"Cola vacía, pero hay {len(pospuestos)} perfiles de Instagram pospuestos (cupo diario o pausa): "
+                  "NO cerrar la corrida. Dejarla abierta: `crawl.py iniciar` en la próxima sesión los devuelve a la cola.")
+        else:
+            print("Cola vacía: correr armar_agenda.py y `crawl.py cerrar`.")
         return
     sondeo = cargar_sondeo()
     if not sondeo and any(i.endswith("|web") for i in pend):
@@ -1010,7 +1022,12 @@ def cmd_cerrar(args):
     if pend and "--forzar" not in args:
         sys.exit(f"Quedan {len(pend)} sitios sin rastrear (p. ej. {', '.join(pend[:5])}). Rastrearlos, o cerrar con "
                  "--forzar si se cortó por un bloqueo o error del navegador (quedan primeros en la próxima).")
-    corrida["fin"], corrida["fin_ok"] = ahora(), not pend
+    pospuestos = [i for i, e in corrida["hechos"].items() if e == "pospuesto"]
+    if pospuestos and "--forzar" not in args:
+        sys.exit(f"Hay {len(pospuestos)} perfiles de Instagram pospuestos (p. ej. {', '.join(pospuestos[:5])}). No se cierra "
+                 "la corrida: queda abierta y `crawl.py iniciar` los devuelve a la cola en la próxima sesión (dentro de 3 días). "
+                 "--forzar solo si el usuario pide cerrar igual.")
+    corrida["fin"], corrida["fin_ok"] = ahora(), not pend and not pospuestos
     escribir_json(CORRIDA, corrida)
     sitios = por_id(cargar_sitios())
     nombre = lambda i: sitios.get(i.split("|")[0], {}).get("nombre", i)
