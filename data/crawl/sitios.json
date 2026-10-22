@@ -10163,6 +10163,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "comportamiento": {
@@ -10171,7 +10177,8 @@
    "notas": [
     "2026-10-15 [web] Sitio institucional sin agenda; la actividad se comunica por redes.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espacioculturalsanandres",
-    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin agenda; revisar Instagram.",
+    "2026-10-22 [instagram] Cierre del ciclo el viernes 11 de diciembre."
    ],
    "enlaces_descartados": [
     {
@@ -10217,6 +10224,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "enlace_bio": "https://linktr.ee/espacioculturalsanandres",
@@ -10787,12 +10800,19 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin eventos publicados en la web; solo cursos.",
-    "2026-10-20 [web] 2026-10-20: sin eventos; talleres anuales iniciados en abril (no se cargan)."
+    "2026-10-20 [web] 2026-10-20: sin eventos; talleres anuales iniciados en abril (no se cargan).",
+    "2026-10-22 [instagram] Próxima Peña de los Abrazos 7/11 y Festival de les Chiques 14/11 (fuera de la ventana)."
    ],
    "comportamiento": {
     "extraccion": "HTTP alcanza; la agenda está vacía; los talleres anuales figuran en la portada y /category/cursos-y-talleres/"
@@ -10829,6 +10849,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15",
@@ -12057,13 +12083,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Escuela; sin agenda de eventos",
     "2026-10-15 [web] Escuela de teatro musical; sin agenda en la web.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/escuelajuanrodo",
-    "2026-10-20 [web] 2026-10-20: solo oferta de talleres anuales; revisar Instagram @escuelajuanrodo por muestras."
+    "2026-10-20 [web] 2026-10-20: solo oferta de talleres anuales; revisar Instagram @escuelajuanrodo por muestras.",
+    "2026-10-22 [instagram] Función de fin de año en diciembre."
    ],
    "comportamiento": {
     "url": "usar https://escuelajuanrodo.com.ar sin www; con www da un error fatal de PHP",
@@ -12089,6 +12122,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -12783,13 +12822,20 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: Coincidencia dudosa; confirmar",
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin web ni redes encontradas.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Instagram sin actividad desde diciembre de 2024."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -12805,6 +12851,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -14523,13 +14575,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 4
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: instagram] Agenda por newsletter Mailchimp; usar redes",
     "2026-10-15 [web] La agenda es un newsletter de Mailchimp caído; seguir Instagram @espaciogarcia.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciogarcia",
-    "2026-10-20 [web] 2026-10-20: sin agenda pública; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin agenda pública; revisar Instagram.",
+    "2026-10-22 [instagram] Sala cultural en el primer piso sin programación vigente."
    ],
    "comportamiento": {
     "extraccion": "la agenda era un newsletter de Mailchimp roto; la programación se comunica por Instagram @espaciogarcia"
@@ -14545,6 +14604,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -17341,6 +17406,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "comportamiento": {
@@ -17348,7 +17419,8 @@
    },
    "notas": [
     "2026-10-15 [web] Sitio editorial de Orsai; sin cartelera de eventos en la web.",
-    "2026-10-20 [web] 2026-10-20: sin agenda; el taller de libros no tiene fechas publicadas."
+    "2026-10-20 [web] 2026-10-20: sin agenda; el taller de libros no tiene fechas publicadas.",
+    "2026-10-22 [instagram] Instagram con pocos posts; sin agenda."
    ],
    "enlaces_descartados": [
     {
@@ -17387,6 +17459,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -19810,12 +19888,19 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin web activa; usar Instagram @espacio_ilda.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Instagram sin actividad desde 2023."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -19831,6 +19916,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],

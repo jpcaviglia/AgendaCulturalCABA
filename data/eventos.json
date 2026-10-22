@@ -5,8 +5,8 @@
   "hasta": "2026-11-05"
  },
  "rastreo": {
-  "capturas": 432,
-  "con_eventos": 232
+  "capturas": 439,
+  "con_eventos": 234
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -96,6 +96,8 @@
   "ESPACIO CULTURAL DEL SUR",
   "ESPACIO CULTURAL JULIAN CENTEYA",
   "ESPACIO CULTURAL MARCO DEL PONT",
+  "ESPACIO CULTURAL NUESTROS HIJOS. FUNDACION MADRES DE PLAZA DE MAYO",
+  "ESPACIO CULTURAL SAN ANDRES",
   "ESPACIO EL ZONKO",
   "ESPACIO LA TRIBU",
   "ESPACIO MALCOLM",
@@ -54875,6 +54877,31 @@
    "imagen": ""
   },
   {
+   "id": "ccfb15bcd54b",
+   "titulo": "Ciclo de órgano de tubos histórico: segundo concierto",
+   "categoria": "Música",
+   "lugar": "ESPACIO CULTURAL SAN ANDRÉS",
+   "barrio": "Monserrat",
+   "direccion": "Av. Belgrano 579",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "19:00",
+   "horarios": "Viernes 30 de octubre 19 h",
+   "precio": "Bono contribución a voluntad, sugerido $ 12000",
+   "descripcion": "Programa para voz y órgano con obras de Buxtehude, Bach, Rachmaninoff y Vaughan Williams, por Moshe Ariel Ganelin y la mezzosoprano Tatiana Ganelina, en el órgano Forster & Andrews (1883). Av. Belgrano 579.",
+   "url": "https://www.instagram.com/p/DeHRFxBjGf0/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL SAN ANDRES"
+   ],
+   "lat": -34.61249,
+   "lng": -58.374326,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "c783a9f9c1b2",
    "titulo": "Clase libre, abierta y gratuita: último viernes del mes",
    "categoria": "Taller",
@@ -64089,6 +64116,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-813737-rec.jpg"
   },
   {
+   "id": "ec16d368f542",
+   "titulo": "No voy sola",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL NUESTROS HIJOS (FUNDACION MADRES DE PLAZA DE MAYO)",
+   "barrio": "",
+   "direccion": "Av. del Libertador 8151",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro independiente con Luna Monti y Candelaria Torres, en ECuNHi (Av. del Libertador 8151, Espacio Memoria). Entradas agotadas.",
+   "url": "https://www.instagram.com/p/DehpZz9BX6V/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL NUESTROS HIJOS. FUNDACION MADRES DE PLAZA DE MAYO"
+   ],
+   "lat": -34.536631,
+   "lng": -58.462494,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "41b3526a16a8",
    "titulo": "No voy sola",
    "categoria": "Música",
@@ -68333,6 +68385,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/1ffb4854-6b26-4f5e-b81a-c342f9b9a63a.jpg"
+  },
+  {
+   "id": "f4d7e8c7d023",
+   "titulo": "No voy sola",
+   "categoria": "Teatro",
+   "lugar": "ESPACIO CULTURAL NUESTROS HIJOS (FUNDACION MADRES DE PLAZA DE MAYO)",
+   "barrio": "",
+   "direccion": "Av. del Libertador 8151",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Obra de teatro independiente con Luna Monti y Candelaria Torres, en ECuNHi (Av. del Libertador 8151, Espacio Memoria). Entradas agotadas.",
+   "url": "https://www.instagram.com/p/DehpZz9BX6V/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "ESPACIO CULTURAL NUESTROS HIJOS. FUNDACION MADRES DE PLAZA DE MAYO"
+   ],
+   "lat": -34.536631,
+   "lng": -58.462494,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "cfc45547991e",
