@@ -1,0 +1,47 @@
+{
+ "id": "club-premier",
+ "canal": "instagram",
+ "fuente": "CLUB PREMIER",
+ "tipo": "lugar",
+ "fecha": "2026-10-22",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/clubpremierdecaballito/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Peña La Capuzzella",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Sábado 24 de octubre 21 h",
+   "lugar": "CLUB PREMIER",
+   "barrio": "",
+   "direccion": "Campichuelo 472",
+   "categoria": "Música",
+   "precio": "$ 5000 a $ 10000",
+   "url": "https://www.instagram.com/p/DepBJF1kWaF/",
+   "descripcion": "Música en vivo con La China López y Pablo Cesario, cierre con micrófono abierto y barra popular. Reservas al 1141926722.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DepBJF1kWaF/",
+   "imagen": ""
+  },
+  {
+   "titulo": "La Milonguita de El Amague",
+   "fecha_inicio": "2026-10-22",
+   "fecha_fin": "2026-10-22",
+   "hora": "20:00",
+   "horarios": "Jueves 22 de octubre: clase 20 h, milonga 21:30 a 3 h",
+   "lugar": "CLUB PREMIER",
+   "barrio": "",
+   "direccion": "Campichuelo 472",
+   "categoria": "Tango",
+   "precio": "Clase $ 8000; sombrero sugerido $ 7000 a $ 10000",
+   "url": "https://www.instagram.com/p/DenWq-LioWi/",
+   "descripcion": "Clase de tango (2 niveles) y milonga con show en vivo de Martín El Zurdo Machuca e invitados, música de Manu González.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DenWq-LioWi/",
+   "imagen": ""
+  }
+ ]
+}

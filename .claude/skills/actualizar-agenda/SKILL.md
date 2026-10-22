@@ -398,6 +398,12 @@ repository) holds every opened post with the events it had. Do not open them aga
    Open **only the NEW ones** (up to ~9) and the "Agenda", "Cartelera", "Programación" highlights if there
    are any. Run `instagram_post` on each. Use `publicado` to deduce the year of dates like "sábado 18". If a
    new post is more than 2 months old and the earlier ones too, there is no need to keep going down.
+   **Shortcuts without the helper script** (when `navegador.js` cannot be imported on instagram.com, `window.__agt` stays empty):
+   the profile grid links give each post's shortcode, and the shortcode encodes its publication date (decode it in the page:
+   base64-like alphabet `A-Za-z0-9-_`, `id >> 23` + `1314220021721` ms), so posts older than ~3 weeks can be skipped without opening
+   them and `publicado` is known. A new post's caption is read with `fetch('/p/<code>/')` from any instagram.com tab (`og:description`,
+   decode the entities with a `textarea`), which is quicker than navigating; a carousel agenda needs the real page (click the arrow on
+   the image and `zoom` on it). A profile that renders no grid (`posts: []`) twice is left in the queue, not saved.
 3. If the text has no date, look at the poster (screenshot). A post that is a carousel ("Este finde", "Octubre") usually has the
    agenda on the 2nd image: click the arrow and read the screenshot. If a screenshot or JS call times out, the tab's renderer is
    frozen: open a new tab (`tabs_create_mcp`, then `tabs_context_mcp`) and continue there.

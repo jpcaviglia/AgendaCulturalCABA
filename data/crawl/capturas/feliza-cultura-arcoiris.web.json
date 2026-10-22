@@ -3,65 +3,16 @@
  "canal": "web",
  "fuente": "FELIZA CULTURA ARCOIRIS",
  "tipo": "lugar",
- "fecha": "2026-10-19",
+ "fecha": "2026-10-22",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://felizarcoiris.com/",
   "https://felizarcoiris.com/agenda?vista=semana",
+  "https://felizarcoiris.com/eventos/feliza-halloween",
+  "https://felizarcoiris.com/eventos/gran-fieston-del-orgullo",
   "https://felizarcoiris.com/talleres"
  ],
  "eventos": [
-  {
-   "titulo": "Rancheá con tu gente",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "",
-   "hora": "20:00",
-   "horarios": "",
-   "lugar": "FELIZA CULTURA ARCOIRIS",
-   "barrio": "",
-   "direccion": "Av. Córdoba 3271",
-   "categoria": "",
-   "precio": "",
-   "url": "",
-   "descripcion": "Juegos, patio y amigues: la excusa perfecta para arrancar, con happy hour hasta las 22h — Probaste nuestros Tequeños? Crocantes por fuera, queso derretido por dentro",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "MIRAMOS POPSTARS",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "",
-   "hora": "21:00",
-   "horarios": "",
-   "lugar": "FELIZA CULTURA ARCOIRIS",
-   "barrio": "",
-   "direccion": "Av. Córdoba 3271",
-   "categoria": "",
-   "precio": "",
-   "url": "",
-   "descripcion": "Verlo en grupo, con la casa llena y gritando junto con toda la sala. POPSTARS, el clásico de casting que armó bandas pop a pura audición, en pantalla gigante",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Función de cine",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "",
-   "hora": "21:00",
-   "horarios": "",
-   "lugar": "FELIZA CULTURA ARCOIRIS",
-   "barrio": "",
-   "direccion": "Av. Córdoba 3271",
-   "categoria": "",
-   "precio": "",
-   "url": "",
-   "descripcion": "Sudor Tortita Cine Club",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
   {
    "titulo": "Combo de Juegos, tragos y amigues",
    "fecha_inicio": "2026-10-22",
@@ -80,24 +31,7 @@
    "imagen": ""
   },
   {
-   "titulo": "Lesbiana, deja de llorar",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "",
-   "hora": "20:00",
-   "horarios": "",
-   "lugar": "FELIZA CULTURA ARCOIRIS",
-   "barrio": "",
-   "direccion": "Av. Córdoba 3271",
-   "categoria": "",
-   "precio": "",
-   "url": "",
-   "descripcion": "",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "En las bandejas el único Fabián Jara",
+   "titulo": "Fabián Jara trae lo que mañana va a estar en todos lados",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "",
    "hora": "22:00",
@@ -159,7 +93,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Sonando lo último de ROSALÍA, Villano Antillano, Yomel El Meloso, Yailin la Mas Viral y Cardi B",
+   "descripcion": "La cabina se pone turbia: reggaetón queer, dembow al piso y cero vergüenza",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -176,7 +110,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Acá no se mira: se agita",
+   "descripcion": "VIERNES 23 DE OCTUBRE ENTRADA FREE EDICIÓN: POP VS PERREO Donde? 🌈 (Av.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -199,7 +133,7 @@
    "imagen": ""
   },
   {
-   "titulo": "En las bandejas el único Fabián Jara",
+   "titulo": "Pop recién salido del horno, por Fabián Jara",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "",
    "hora": "01:00",
@@ -227,7 +161,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Micrófono, luces y una lista de hits que no falla: elegí la tuya y regalale a la sala su momento favorito",
+   "descripcion": "Micrófono, luces y una lista de hits que no falla: elegí la tuya y regalale a la sala su momento favorito conducido por Rodri Peiretti",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -267,7 +201,7 @@
    "imagen": ""
   },
   {
-   "titulo": "LA HERMANASTRA FEA, en Cineclub FabulosXS Desconocidxs",
+   "titulo": "CHAINSAW MAN, EL ARCO DE REZE",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "",
    "hora": "20:00",
@@ -278,7 +212,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Una de las últimas maravillas del animé. Tiene algo de Akira, algo del comic Constantine y es todo un festín audiovisual. Denji es un cazador de demonios con poderes sobrenaturales.",
+   "descripcion": "Una de las últimas maravillas del animé. Tiene algo de Akira, algo del comic Constantine y es todo un festín audiovisual. Denji es un cazador de demonios con poderes sobrenaturales. FABULOSXS DESCONOCIDXS CINE CLUB",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -301,7 +235,7 @@
    "imagen": ""
   },
   {
-   "titulo": "Batalla de Lipsync: HALLOWEEN 1",
+   "titulo": "Batalla de Lipsync: MOSTRERÍO 👹",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "",
    "hora": "22:00",
@@ -312,7 +246,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Duelo de divas al filo: cada ronda sube la apuesta y la última canción te deja de pie arriba de la silla — Conquistá la corona de la noche y ganá 120k en premios! Compiten: Lilith Rosaire · Diana · Violet · Host: Trakyna",
+   "descripcion": "Empezamos la celebración de Halloween con una batalla de lipsync terrorífica: les artistas se suben al escenario a competir por 130K en premios y LA GLORIA Compiten: @lilithrosaire · @lacolaoficial · @novak_aike · @diana_vangothic345 · Hostea: @trakynafluxx",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -329,13 +263,13 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "Esta noche no se alquila, se hereda",
+   "descripcion": "Lo que armamos entre todes se agita a la 1",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
   },
   {
-   "titulo": "En las bandejas el único Fabián Jara",
+   "titulo": "Fabián Jara te adelanta la banda sonora del año",
    "fecha_inicio": "2026-10-25",
    "fecha_fin": "",
    "hora": "01:00",
@@ -414,7 +348,7 @@
    "categoria": "",
    "precio": "",
    "url": "",
-   "descripcion": "La noche más amable de la semana: vení a bajar un cambio sin quedarte en casa",
+   "descripcion": "SE VIENE UNA NUEVA HELAPOP Y NO PODEMOS MÁS DE LA MANIJA! 🚨 Volvemos a nuestro spot favorito del amor, la hermosa @felizarcoiris 🌈 Este DOMINGO 25/10de desde las 18:00 hs se viaja fuerte en el tiempo.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

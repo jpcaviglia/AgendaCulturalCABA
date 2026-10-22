@@ -2256,7 +2256,8 @@
     "2026-10-15: la web cambió de https://www.macba.com.ar/ a https://museomacba.org/",
     "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba",
-    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "entradas": [
     "https://museomacba.org/",
@@ -2266,11 +2267,11 @@
    ],
    "comportamiento": {
     "web": "macba.com.ar ya no es del museo (blog de spam); la web oficial es museomacba.org.",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
      "eventos": 4,
      "paginas": 6
@@ -2297,6 +2298,12 @@
     },
     {
      "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-22",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
@@ -4259,13 +4266,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Escuela de parkour y circo; solo clases regulares, sin eventos en la web.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccartesdelmovimiento",
-    "2026-10-20 [web] 2026-10-20: solo clases regulares; revisar Instagram @ccartesdelmovimiento."
+    "2026-10-20 [web] 2026-10-20: solo clases regulares; revisar Instagram @ccartesdelmovimiento.",
+    "2026-10-22 [instagram] Instagram sin posts desde febrero de 2026."
    ],
    "comportamiento": {
     "extraccion": "HTTP alcanza; sin agenda de eventos, solo grilla de clases"
@@ -4301,6 +4315,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -4648,12 +4668,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Espacio del sindicato ATSA (Saavedra 166); solo talleres semanales en la web, la cartelera se comunica por redes.",
-    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: sin agenda en la web; revisar Instagram.",
+    "2026-10-22 [instagram] Talleres de afiliados sin fechas; revisar destacadas en otra corrida."
    ],
    "comportamiento": {
     "extraccion": "HTTP alcanza pero /complejo-cultural/ no trae contenido"
@@ -4688,6 +4715,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -5531,13 +5564,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 3
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Sección Shows y Eventos",
     "2026-10-15 [web] Productora de espectáculos para contratar; sin agenda pública.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/labombocova",
-    "2026-10-20 [web] 2026-10-20: el sitio ofrece servicios para eventos, no publica programación pública; revisar el Instagram."
+    "2026-10-20 [web] 2026-10-20: el sitio ofrece servicios para eventos, no publica programación pública; revisar el Instagram.",
+    "2026-10-22 [instagram] Instagram sin eventos con fecha en la ventana; ofrece cursos y juegos de ritmo por consulta."
    ],
    "comportamiento": {
     "contenido": "catálogo de servicios para eventos",
@@ -5553,6 +5593,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -5598,6 +5644,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 4
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 1
     }
    },
    "comportamiento": {
@@ -5606,7 +5658,8 @@
    "notas": [
     "2026-10-15 [web] Sin agenda cultural en la web; mirar Instagram @ladante.ba.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ladante.ba",
-    "2026-10-20 [web] 2026-10-20: sin programación cultural en la web."
+    "2026-10-20 [web] 2026-10-20: sin programación cultural en la web.",
+    "2026-10-22 [instagram] Agenda de la Settimana della Lingua Italiana en un carrusel (2ª imagen: 22, 27 y 29/10); actividades gratuitas."
    ],
    "historial": [
     {
@@ -5620,6 +5673,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "enlace_bio": "https://linktr.ee/ladante.ba",
@@ -6260,6 +6319,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
@@ -6308,6 +6373,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -6813,12 +6884,19 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] La web dejó de existir; el espacio se comunica por Instagram @casajache.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Stand up semanal los miércoles; precio no publicado en el post (la bio enlaza a un evento de Passline)."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -6835,6 +6913,12 @@
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15",
@@ -7069,12 +7153,19 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin web; la agenda se comunica por Instagram @ccsureda.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Instagram sin actividad desde octubre de 2023."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -7090,6 +7181,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -7114,12 +7211,19 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sin web activa; milongas, cine y talleres se anuncian por Instagram @clubpremierdecaballito.",
-    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: dominio sin DNS; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Eventos de organizadores externos (Capuzzella, El Amague) que alquilan el Club Premier, publicados como colaboración; el club anuncia clases de rock."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -7136,6 +7240,12 @@
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15",
@@ -8568,6 +8678,12 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "comportamiento": {
@@ -8575,7 +8691,8 @@
    },
    "notas": [
     "2026-10-15 [web] Blog del centro barrial (Av. Avellaneda 2547, Flores): solo talleres con inscripción y horarios.",
-    "2026-10-20 [web] 2026-10-20: solo grilla anual de talleres regulares; no se carga como evento."
+    "2026-10-20 [web] 2026-10-20: solo grilla anual de talleres regulares; no se carga como evento.",
+    "2026-10-22 [instagram] Instagram sin posts desde marzo de 2026."
    ],
    "historial": [
     {
@@ -8588,6 +8705,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -9066,12 +9189,19 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Página de agenda",
     "2026-10-15 [web] La agenda web está desactualizada (último evento 7 de julio); las novedades van por Instagram @ccelsueniero.",
-    "2026-10-20 [web] 2026-10-20: sin eventos vigentes; revisar Instagram @ccelsueniero."
+    "2026-10-20 [web] 2026-10-20: sin eventos vigentes; revisar Instagram @ccelsueniero.",
+    "2026-10-22 [instagram] Viernes de cine en El Sueñero (ciclo CIAO! cine italiano y documental)."
    ],
    "comportamiento": {
     "extraccion": "HTTP alcanza (sitio estático); /agenda.html = talleres semanales sin fechas + evento de julio viejo"
@@ -9114,6 +9244,12 @@
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "bio_probada": "2026-10-15",
@@ -9390,12 +9526,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] No tiene web propia; la agenda se comunica por Instagram @ccsefarad y Facebook.",
-    "2026-10-20 [web] 2026-10-20: sin web propia; rastrear por Instagram."
+    "2026-10-20 [web] 2026-10-20: sin web propia; rastrear por Instagram.",
+    "2026-10-22 [instagram] Instagram sin actividad desde agosto de 2024."
    ],
    "comportamiento": {
     "web": "solo ficha de Google Maps"
@@ -9411,6 +9554,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -10923,13 +11072,20 @@
      "estado": "dominio_caido",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Rastrear por Instagram.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/prosvita_arg",
-    "2026-10-20 [web] 2026-10-20: el dominio sigue sin resolver; se reintenta en la próxima corrida."
+    "2026-10-20 [web] 2026-10-20: el dominio sigue sin resolver; se reintenta en la próxima corrida.",
+    "2026-10-22 [instagram] Publica crónicas de actos ya realizados."
    ],
    "comportamiento": {
     "web": "dominio sin DNS"
@@ -10945,6 +11101,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "dominio_caido",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -10969,13 +11131,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Poco contenido en el sitio; usar redes",
     "2026-10-15 [web] Productora cultural, sin agenda de eventos en la web.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/casaculturalsofia",
-    "2026-10-20 [web] 2026-10-20: sin programación pública."
+    "2026-10-20 [web] 2026-10-20: sin programación pública.",
+    "2026-10-22 [instagram] Laboratorio Gestionar lo Real: virtual, no se carga."
    ],
    "comportamiento": {
     "contenido": "productora cultural sin agenda pública"
@@ -11017,6 +11186,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -11344,12 +11519,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'caido' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Sitio de noticias del centro, no publica agenda; usar http:// porque https da error de certificado.",
-    "2026-10-20 [web] 2026-10-20: solo clases virtuales/religiosas; revisar Instagram @cciar_islam por actividades presenciales."
+    "2026-10-20 [web] 2026-10-20: solo clases virtuales/religiosas; revisar Instagram @cciar_islam por actividades presenciales.",
+    "2026-10-22 [instagram] Publica clases y jutbas ya grabadas; sin agenda de eventos."
    ],
    "comportamiento": {
     "carga": "https:// da certificado inválido: abrir por http://",
@@ -11398,6 +11580,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -12849,12 +13037,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: desactualizado] Blog sin novedades desde 2014",
     "2026-10-15 [web] Blog sin actividad desde 2014.",
-    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2014."
+    "2026-10-20 [web] 2026-10-20: blog abandonado desde 2014.",
+    "2026-10-22 [instagram] Próximo evento: 13/11 (fuera de ventana)."
    ],
    "comportamiento": {
     "url": "usar https://casadelaculturacompadresdelhorizonte.blogspot.com sin www (con www da error de certificado)"
@@ -12890,6 +13085,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -13287,11 +13488,11 @@
    "direccion": "Brasil 2640",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
      "eventos": 3,
      "paginas": 3
@@ -13306,7 +13507,8 @@
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas",
-    "2026-10-19 [web] Leído sin navegador: 3 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 3 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
    ],
    "historial": [
     {
@@ -13323,6 +13525,12 @@
     },
     {
      "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-22",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
@@ -13344,11 +13552,11 @@
    "direccion": "Inclán 2661",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
      "eventos": 7,
      "paginas": 5
@@ -13360,7 +13568,8 @@
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana.",
     "2026-10-19 [web] Leído sin navegador: 7 eventos; completados con la ficha de cada evento.",
-    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (7 de 7 eventos)."
+    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (7 de 7 eventos).",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 7 eventos en la ventana."
    ],
    "historial": [
     {
@@ -13383,6 +13592,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 7
+    },
+    {
+     "fecha": "2026-10-22",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
@@ -13643,12 +13858,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: sin_agenda] Sitio Google casi sin contenido; usar @centroculturalpkr",
     "2026-10-15 [web] Espacio de alquiler; no publica agenda en la web.",
-    "2026-10-20 [web] 2026-10-20: solo alquiler de espacios."
+    "2026-10-20 [web] 2026-10-20: solo alquiler de espacios.",
+    "2026-10-22 [instagram] Alquiler de salas/coworking; Instagram sin actividad desde 2024."
    ],
    "comportamiento": {
     "contenido": "alquiler de salas"
@@ -13663,6 +13885,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -13890,26 +14118,27 @@
    "barrio": "Recoleta",
    "direccion": "Cordoba Av. 3271",
    "entradas": [
-    "https://felizarcoiris.com/",
     "https://felizarcoiris.com/agenda?vista=semana",
+    "https://felizarcoiris.com/",
     "https://felizarcoiris.com/agenda"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 27,
-     "paginas": 3
+     "eventos": 23,
+     "paginas": 5
     }
    },
    "notas": [
     "2026-10-15 [web] Programación semanal fija; sin fechas puntuales.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris",
-    "2026-10-19 [web] Leído sin navegador: 27 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 27 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 23 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -13943,6 +14172,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 27
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 23
     }
    ],
    "enlace_bio": "https://linktr.ee/felizarcoiris"
@@ -14712,13 +14947,20 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_agenda",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Escuela de salsa; organiza bailes sociales y talleres mensuales sin fechas en la web (ver Instagram).",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/buenosairesdanceclub",
-    "2026-10-20 [web] 2026-10-20: bailes sociales y talleres mensuales sin fechas en la web."
+    "2026-10-20 [web] 2026-10-20: bailes sociales y talleres mensuales sin fechas en la web.",
+    "2026-10-22 [instagram] Escuela de salsa; Instagram con contenido didáctico, sin agenda de eventos."
    ],
    "comportamiento": {
     "extraccion": "la web no publica fechas de bailes sociales; revisar Instagram y Linktree"
@@ -14759,6 +15001,12 @@
     {
      "fecha": "2026-10-20",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -14829,20 +15077,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 69,
-     "paginas": 39
+     "eventos": 71,
+     "paginas": 42
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Agenda JS (Schedule)",
     "2026-10-15 [web] La portada trae la agenda completa del mes en bloques por fecha, sin hora.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroborges",
-    "2026-10-20 [web] 2026-10-20: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
+    "2026-10-20 [web] 2026-10-20: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>.",
+    "2026-10-22 [web] 2026-10-22: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: `sondear.py --corrida` ejecuta primero `scripts/borges.py` (API pública JSON) y guarda el resultado, con cada función enlazada a /evento/<id>; a mano: `python scripts/borges.py` y luego `crawl.py guardar data/crawl/tmp/centro-cultural-borges.json`",
+    "extraccion": "scripts/borges.py lee la API pública JSON (ver el docstring)",
     "cookies": "sin aviso",
     "espera_seg": 6,
     "imagen": "imagenUrl de la API (relativa a /uploads/)"
@@ -14921,6 +15170,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 69
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 71
     }
    ],
    "enlace_bio": "https://linktr.ee/centroborges"
@@ -15109,12 +15364,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 2
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Grilla de programación",
     "2026-10-15 [web] Escuela de formación actoral; no publica funciones en la web (revisar Instagram).",
-    "2026-10-20 [web] 2026-10-20: sin agenda de eventos."
+    "2026-10-20 [web] 2026-10-20: sin agenda de eventos.",
+    "2026-10-22 [instagram] Escuela de artes escénicas; Instagram casi inactivo."
    ],
    "comportamiento": {
     "contenido": "escuela de formación actoral sin agenda pública"
@@ -15162,6 +15424,12 @@
      "fecha": "2026-10-20",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -15512,26 +15780,27 @@
    "barrio": "San Nicolas",
    "direccion": "Sarmiento 151",
    "entradas": [
-    "https://palaciolibertad.gob.ar/",
     "https://palaciolibertad.gob.ar/agenda/",
-    "https://palaciolibertad.gob.ar/visitas-guiadas/"
+    "https://palaciolibertad.gob.ar/visitas-guiadas/",
+    "https://palaciolibertad.gob.ar/"
    ],
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 44,
+     "eventos": 45,
      "paginas": 6
     }
    },
    "bio_probada": "2026-10-15",
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 47 eventos en la ventana.",
-    "2026-10-19 [web] Leído sin navegador: 44 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 44 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 45 eventos en la ventana."
    ],
    "historial": [
     {
@@ -15557,6 +15826,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 44
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 45
     }
    ]
   },
@@ -16218,9 +16493,9 @@
    "direccion": "Giuffra, Jose M.,Dr. 371",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 9,
+     "eventos": 10,
      "paginas": 2
     }
    },
@@ -16229,13 +16504,14 @@
     "2026-10-15 [web] Leído sin navegador desde la API de The Events Calendar: 6 eventos en la ventana.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/scaladesantelmo",
     "2026-10-19 [web] Leído sin navegador: 9 eventos; completados con la ficha de cada evento.",
-    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (9 de 9 eventos)."
+    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (9 de 9 eventos).",
+    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
    ],
    "entradas": [
     "https://lascala.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
    },
    "historial": [
     {
@@ -16261,6 +16537,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 9
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     }
    ],
    "enlace_bio": "https://linktr.ee/scaladesantelmo"
@@ -17709,12 +17991,19 @@
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Taller de arte con clases regulares en Villa del Parque; sin agenda de eventos.",
-    "2026-10-20 [web] 2026-10-20: sin agenda; el bloque de masterclass es de plantilla."
+    "2026-10-20 [web] 2026-10-20: sin agenda; el bloque de masterclass es de plantilla.",
+    "2026-10-22 [instagram] Talleres regulares sin fechas; seminario Entre flores con fechas 24 y 31/10 (horario y precio por consulta)."
    ],
    "comportamiento": {
     "contenido": "sitio de una artista, sin agenda"
@@ -17763,6 +18052,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15",
@@ -18979,12 +19274,12 @@
    "direccion": "Triunvirato Av. 4444",
    "comportamiento": {
     "datos_estructurados": "JSON-LD schema.org/Event en las fichas",
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "cookies": "barra de accesibilidad, sin aviso"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
      "eventos": 10,
      "paginas": 6
@@ -18997,7 +19292,8 @@
    "notas": [
     "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo",
-    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 10 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -19034,6 +19330,12 @@
     },
     {
      "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    },
+    {
+     "fecha": "2026-10-22",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
@@ -19294,7 +19596,7 @@
    "direccion": "Juramento 4686",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
      "eventos": 10,
      "paginas": 2
@@ -19305,12 +19607,13 @@
     "https://cuerdamecanica.com/cartelera/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)"
    },
    "notas": [
     "2026-10-15 [web] Cartelera completa en /cartelera/.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica",
-    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -19353,6 +19656,12 @@
     },
     {
      "fecha": "2026-10-19",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    },
+    {
+     "fecha": "2026-10-22",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
@@ -22566,7 +22875,8 @@
     "2026-10-15: agregado desde una lista de referencia; confirmar web oficial, dirección y que sigue abierto antes de rastrear",
     "2026-10-15: la web cambió de  a https://www.espaciomemoria.ar/",
     "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana.",
-    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 5 eventos en la ventana."
    ],
    "id": "museo-sitio-de-memoria-esma",
    "entradas": [
@@ -22574,7 +22884,7 @@
     "https://www.espaciomemoria.ar/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora"
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)"
    },
    "enlaces_descartados": [
     {
@@ -22598,9 +22908,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 4,
+     "eventos": 5,
      "paginas": 5
     }
    },
@@ -22622,6 +22932,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "barrio": "Núñez",
@@ -23012,16 +23328,19 @@
    "notas": [
     "2026-10-14: listado semanal de ferias de CABA con días y direcciones",
     "2026-10-15 [web] Listado semanal de ferias artesanales de CABA con fechas; cada tarjeta duplicada en el DOM.",
-    "2026-10-19 [web] Leído sin navegador: 8 eventos; completados con la ficha de cada evento."
+    "2026-10-19 [web] Leído sin navegador: 8 eventos; completados con la ficha de cada evento.",
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 9 eventos en la ventana."
    ],
    "entradas": [
+    "https://www.vamosferia.com/feria/feria-de-manualidades-y-artesanias-de-la-plazoleta-joaquin-sanchez-23102026",
+    "https://www.vamosferia.com/feria/feria-julio-cortazar-23102026",
+    "https://www.vamosferia.com/feria/oficial-2147d1c6-0672-402d-921b-3decb1ce00ad-23102026",
     "https://www.vamosferia.com/ferias",
     "https://www.vamosferia.com/feria/oficial-f91d839f-6b9a-4d6c-8b51-91aa82b0557d-22102026",
-    "https://www.vamosferia.com/feria/oficial-2da82904-6b32-439f-83c1-d7b33d7b87d1-22102026",
-    "https://www.vamosferia.com/feria/feria-de-manualidades-y-artesanias-de-la-plazoleta-joaquin-sanchez-23102026"
+    "https://www.vamosferia.com/feria/oficial-2da82904-6b32-439f-83c1-d7b33d7b87d1-22102026"
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: datos estructurados de la página (scripts/sondear.py --corrida); fichas de cada evento para precio, imagen y hora",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "copiar": "datos pasados por portapapeles"
    },
    "enlaces_descartados": [
@@ -23040,9 +23359,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-19",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 8,
+     "eventos": 9,
      "paginas": 4
     }
    },
@@ -23064,6 +23383,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ]
   },
