@@ -1,7 +1,7 @@
 {
  "id": "2026-10-20",
  "inicio": "2026-10-20 16:23",
- "fin": null,
+ "fin": "2026-10-22 00:11",
  "ventana": {
   "desde": "2026-10-20",
   "hasta": "2026-11-03"
@@ -369,7 +369,8 @@
   "doup|instagram",
   "espacio-moebius|instagram",
   "jaciento-oviedo|instagram",
-  "puerta-18|instagram"
+  "puerta-18|instagram",
+  "wara-wara|instagram"
  ],
  "hechos": {
   "alternativa-teatral|web": "reutilizado",
@@ -381,7 +382,7 @@
   "la-rural-ticket|web": "reutilizado",
   "passline|web": "reutilizado",
   "resident-advisor-buenos-aires|web": "reutilizado",
-  "saleplan-agenda-de-ciudad-de-buenos-aires|web": "reutilizado",
+  "saleplan-agenda-de-ciudad-de-buenos-aires|web": "con_eventos",
   "ticketek|web": "reutilizado",
   "time-out-buenos-aires-agenda|web": "reutilizado",
   "turismo-buenos-aires-que-hacer-esta-semana|web": "reutilizado",
@@ -729,9 +730,16 @@
   "doup|instagram": "pospuesto",
   "espacio-moebius|instagram": "pospuesto",
   "jaciento-oviedo|instagram": "pospuesto",
-  "puerta-18|instagram": "pospuesto"
+  "puerta-18|instagram": "pospuesto",
+  "zelaya|web": "con_eventos",
+  "teatro-vorterix|web": "con_eventos",
+  "centro-cultural-macedonia|web": "con_eventos",
+  "wara-wara|web": "descartado",
+  "universidad-catolica-de-buenos-aires|web": "con_eventos",
+  "wara-wara|instagram": "descartado"
  },
  "sitios_nuevos": [],
- "eventos": 276,
- "motivo_pospuesto": "cupo diario de páginas agotado"
+ "eventos": 627,
+ "motivo_pospuesto": "cupo diario de páginas agotado",
+ "fin_ok": true
 }

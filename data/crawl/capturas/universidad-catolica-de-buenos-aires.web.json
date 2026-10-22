@@ -1,0 +1,35 @@
+{
+ "id": "universidad-catolica-de-buenos-aires",
+ "canal": "web",
+ "fuente": "UNIVERSIDAD CATOLICA DE BUENOS AIRES",
+ "tipo": "lugar",
+ "fecha": "2026-10-22",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://uca.edu.ar/es/calendario/10/2026",
+  "https://uca.edu.ar/es/eventos/exposicion-objetos-que-cuentan-historias",
+  "https://uca.edu.ar/es/pabellon-de-bellas-artes",
+  "https://uca.edu.ar/es/pabellon-de-bellas-artes/muestras/muestras-2026/178-hashtag-4--datificio",
+  "https://uca.edu.ar/es/pabellon-de-bellas-artes/muestras/muestras-2026/176-madre-de-china",
+  "https://uca.edu.ar/es/pabellon-de-bellas-artes/visitas"
+ ],
+ "eventos": [
+  {
+   "titulo": "Exposición: Objetos que cuentan historias",
+   "fecha_inicio": "2026-10-19",
+   "fecha_fin": "2026-11-19",
+   "hora": "",
+   "horarios": "Todos los días de 9 a 20 h",
+   "lugar": "UNIVERSIDAD CATOLICA DE BUENOS AIRES · Biblioteca Central, Hall",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "",
+   "url": "https://uca.edu.ar/es/eventos/exposicion-objetos-que-cuentan-historias",
+   "descripcion": "Selección de objetos de cerámica, lítico, óseo y metal recuperados en sitios arqueológicos de la quebrada de La Cueva (NOA). Curaduría de Paola Ramundo y Verónica Parselis.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

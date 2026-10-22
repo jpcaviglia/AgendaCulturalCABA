@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-20 15:58",
- "segundos": 9,
+ "fecha": "2026-10-21 23:59",
+ "segundos": 8,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -4948,20 +4948,6 @@
    "estado_corrida_anterior": "sin_eventos"
   },
   {
-   "id": "universidad-catolica-de-buenos-aires",
-   "web": "https://www.uca.edu.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://uca.edu.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 42,
-   "clase": "needs_browser",
-   "fecha": "2026-10-20 15:58",
-   "estado_corrida_anterior": "sin_eventos"
-  },
-  {
    "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
    "web": "https://www.centrocultural.coop",
    "plataforma": [],
@@ -4981,14 +4967,84 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
+   "id": "centro-cultural-macedonia",
+   "web": "https://centroculturalmacedonia.fanz.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-21 23:59",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "zelaya",
+   "web": "http://www.alternativateatral.com/espacio5099-zelaya",
+   "plataforma": [],
+   "pedidos": 5,
+   "url_final": "http://www.alternativateatral.com/espacio5099-zelaya",
+   "paginas_agenda": [
+    "http://www.alternativateatral.com/eventos.asp",
+    "http://www.alternativateatral.com/obras.asp",
+    "http://www.alternativateatral.com/servicios.asp",
+    "http://www.alternativateatral.com/anunciantes.asp"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 56,
+   "texto_portada": 2560,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/zelaya.txt",
+   "fecha": "2026-10-21 23:59",
+   "estado_corrida_anterior": "sin_dato"
+  },
+  {
+   "id": "universidad-catolica-de-buenos-aires",
+   "web": "https://www.uca.edu.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://uca.edu.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 42,
+   "clase": "needs_browser",
+   "fecha": "2026-10-21 23:59",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
    "id": "wara-wara",
    "web": "https://warawaracultural.wixsite.com/inicio",
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 403",
-   "fecha": "2026-10-20 15:58",
+   "fecha": "2026-10-21 23:59",
    "estado_corrida_anterior": "sin_agenda"
+  },
+  {
+   "id": "teatro-vorterix",
+   "web": "https://www.allaccess.com.ar/venue/teatro-vorterix",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://www.allaccess.com.ar/venue/teatro-vorterix",
+   "paginas_agenda": [
+    "https://www.allaccess.com.ar/event/easykid",
+    "https://www.allaccess.com.ar/event/jauria-en-vorterix",
+    "https://www.allaccess.com.ar/event/perota-chingo-buenos-aires-2026"
+   ],
+   "jsonld_eventos": 3,
+   "fechas_en_texto": 33,
+   "texto_portada": 2043,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "EASYKID",
+     "inicio": "2026-11-19T00:00:00Z"
+    }
+   ],
+   "texto": "data/crawl/local/textos/teatro-vorterix.txt",
+   "fecha": "2026-10-21 23:59",
+   "estado_corrida_anterior": "sin_dato",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
   }
  ]
 }

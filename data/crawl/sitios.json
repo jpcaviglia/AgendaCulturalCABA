@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20",
+ "actualizado": "2026-10-22",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -411,7 +411,8 @@
     "2026-10-14: Accesible. Al hacer scroll en el navegador aparecen más tarjetas, pero esas tarjetas ya están en el HTML del servidor. La agenda semanal se pagina con ?page=N: en 17 páginas aparecen 433 eventos únicos. Cada evento (/planes/ID/) trae JSON-LD tipo Event con nombre, lugar, dirección y ticket.",
     "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo.",
     "2026-10-15 [web] scripts/saleplan.py: 1655 tarjetas de CABA en la ventana, 992 ya cubiertas por otras fuentes, 663 guardadas sin lugar.",
-    "2026-10-20 [web] scripts/saleplan.py: 1657 tarjetas de CABA en la ventana, 1334 ya cubiertas por otras fuentes, 323 guardadas sin lugar."
+    "2026-10-20 [web] scripts/saleplan.py: 1657 tarjetas de CABA en la ventana, 1334 ya cubiertas por otras fuentes, 323 guardadas sin lugar.",
+    "2026-10-22 [web] scripts/saleplan.py: 1654 tarjetas de CABA en la ventana, 1321 ya cubiertas por otras fuentes, 333 guardadas sin lugar."
    ],
    "entradas": [
     "https://saleplan.ar/buenos-aires/eventos?page=1",
@@ -427,9 +428,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-22",
      "estado": "con_eventos",
-     "eventos": 323,
+     "eventos": 333,
      "paginas": 81
     }
    },
@@ -457,6 +458,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 323
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 333
     }
    ],
    "lugar_opcional": true
@@ -3069,10 +3076,11 @@
    "notas": [
     "2026-10-15 [instagram] Sarmiento 3632, Almagro. El Google Sites de la cartelera dio 404.",
     "2026-10-20: la web cambió de  a https://centroculturalmacedonia.fanz.com.ar/",
-    "2026-10-20 [instagram] Calendario leído del 19/10 al 1/11. Semanas con días sin eventos. Precio vacío en las clases y milongas sin precio publicado."
+    "2026-10-20 [instagram] Calendario leído del 19/10 al 1/11. Semanas con días sin eventos. Precio vacío en las clases y milongas sin precio publicado.",
+    "2026-10-22 [web] Calendario Fanz leído hasta el 4/11; la ficha de los jueves/martes semanales no trae precio."
    ],
    "comportamiento": {
-    "extraccion": "misma plataforma Fanz que culturalthames.com.ar",
+    "extraccion": "over HTTP da 400; en el navegador la home lista los eventos y cada ficha /event/<slug> se lee con fetch (og:image, precio con $)",
     "agenda": "la bio enlaza a centroculturalmacedonia.fanz.com.ar (la bio escribe .fanz.com sin .ar, que no resuelve): calendario semanal Previous/Next con todos los eventos; cada ficha /event/<slug> se lee con fetch desde la misma pestaña (precio con $, og:image)"
    },
    "enlaces_descartados": [
@@ -3089,6 +3097,12 @@
      "estado": "con_eventos",
      "eventos": 8,
      "paginas": 11
+    },
+    "web": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 9,
+     "paginas": 10
     }
    },
    "historial": [
@@ -3103,7 +3117,16 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
+   ],
+   "entradas": [
+    "https://centroculturalmacedonia.fanz.com.ar/"
    ]
   },
   {
@@ -5426,13 +5449,14 @@
    "direccion": "Zelaya 3134",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "extraccion": "la cartelera completa y vigente está en la ficha del espacio en Alternativa Teatral (espacio5099-zelaya), sin abrir posts; se lee con sondear --leer",
+    "extraccion": "ficha del espacio en Alternativa Teatral + ficha de cada obra con sondear.pedir (og:image); días y fechas en la ficha de la obra",
     "instagram": "los posts del perfil ya no alcanzan: el cartel vigente se lee mejor en Alternativa Teatral"
    },
    "notas": [
     "2026-10-15 [instagram] Sala en el fondo de un jardín en el Abasto (Zelaya 3134).",
     "2026-10-20: la web cambió de  a http://www.alternativateatral.com/espacio5099-zelaya",
-    "2026-10-20 [instagram] 2026-10-20: El trabajo (vie y sáb 20 h) y La tristeza (dom 19 h); próximo estreno: Abu Bomba Agitadora internacional (desde el 11/11)."
+    "2026-10-20 [instagram] 2026-10-20: El trabajo (vie y sáb 20 h) y La tristeza (dom 19 h); próximo estreno: Abu Bomba Agitadora internacional (desde el 11/11).",
+    "2026-10-22 [web] Cartelera leída sin navegador. Próximo estreno Abu Bomba (desde el 11/11), fuera de la ventana."
    ],
    "ultimo": {
     "instagram": {
@@ -5440,6 +5464,12 @@
      "estado": "con_eventos",
      "eventos": 2,
      "paginas": 4
+    },
+    "web": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "historial": [
@@ -5454,6 +5484,29 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    }
+   ],
+   "entradas": [
+    "http://www.alternativateatral.com/espacio5099-zelaya"
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "http://www.alternativateatral.com/teatro5099-zelaya?archivo=t",
+     "texto": "Archivo histórico",
+     "motivo": "archivo de funciones pasadas",
+     "fecha": "2026-10-22"
+    },
+    {
+     "url": "http://www.alternativateatral.com/servicios.asp",
+     "texto": "Cursos y Talleres",
+     "motivo": "listado general de Alternativa Teatral, no de Zelaya",
+     "fecha": "2026-10-22"
     }
    ]
   },
@@ -13470,23 +13523,41 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 2
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 6
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Calendario institucional con eventos; filtrar los culturales",
-    "2026-10-15 [web] Calendario casi totalmente académico; revisar solo ocasionalmente. Av. Alicia Moreau de Justo 1300, Puerto Madero."
+    "2026-10-15 [web] Calendario casi totalmente académico; revisar solo ocasionalmente. Av. Alicia Moreau de Justo 1300, Puerto Madero.",
+    "2026-10-22 [web] Calendario casi todo académico (jornadas, defensas, misas). Pabellón de las Bellas Artes: HASHTAG #4 cerró el 20/10; Madre de China (inaug. 31/8) sin fecha de cierre, no se carga."
    ],
-   "comportamiento": {},
+   "comportamiento": {
+    "espera_seg": 6,
+    "scroll": "calendario mensual con todos los eventos de la UCA; filtrar los culturales"
+   },
    "historial": [
     {
      "fecha": "2026-10-15",
      "canal": "web",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/muestras",
+     "texto": "Muestras",
+     "motivo": "misma lista de muestras 2026 que la home del Pabellón; vigentes revisadas una por una",
+     "fecha": "2026-10-22"
     }
    ]
   },
@@ -17583,41 +17654,6 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
-    }
-   ]
-  },
-  {
-   "id": "wara-wara",
-   "nombre": "WARA WARA",
-   "tipo": "lugar",
-   "lugares": [
-    "WARA WARA"
-   ],
-   "web": "https://warawaracultural.wixsite.com/inicio",
-   "instagram": "@somoswarawara",
-   "origen": "data/lugares.json",
-   "barrio": "Villa Crespo",
-   "direccion": "Martinez Rosas 969",
-   "ultimo": {
-    "web": {
-     "fecha": "2026-10-15",
-     "estado": "sin_agenda",
-     "eventos": 0,
-     "paginas": 1
-    }
-   },
-   "notas": [
-    "2026-10-14 [revisión anterior: instagram] Wix casi sin texto; usar @somoswarawara",
-    "2026-10-15 [web] Posible cierre o despedida del espacio; confirmar en Instagram @somoswarawara."
-   ],
-   "bio_probada": "2026-10-15",
-   "comportamiento": {},
-   "historial": [
-    {
-     "fecha": "2026-10-15",
-     "canal": "web",
-     "estado": "sin_agenda",
-     "eventos": 0
     }
    ]
   },
@@ -24629,11 +24665,13 @@
    "notas": [
     "2026-10-15: sala de recitales",
     "2026-10-20: la web cambió de  a https://www.allaccess.com.ar/venue/teatro-vorterix",
-    "2026-10-20 [instagram] Agenda leída desde la página del venue en All Access. Hora/precio sin publicar en el HTML."
+    "2026-10-20 [instagram] Agenda leída desde la página del venue en All Access. Hora/precio sin publicar en el HTML.",
+    "2026-10-22 [web] 6 shows hasta el 31/10; los siguientes empiezan el 6/11. Hora y precio sin publicar en el HTML."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "el link de bio es allaccess.com.ar/venue/teatro-vorterix: lista todos los shows (legible con sondear.py --leer); hora y precio no están en el HTML"
+    "bio": "el link de bio es allaccess.com.ar/venue/teatro-vorterix: lista todos los shows (legible con sondear.py --leer); hora y precio no están en el HTML",
+    "extraccion": "página del venue en All Access (sondear --leer) + JSON-LD de cada ficha; la hora del JSON-LD viene en UTC y no es confiable, precio no publicado"
    },
    "ultimo": {
     "instagram": {
@@ -24641,6 +24679,12 @@
      "estado": "con_eventos",
      "eventos": 6,
      "paginas": 2
+    },
+    "web": {
+     "fecha": "2026-10-22",
+     "estado": "con_eventos",
+     "eventos": 6,
+     "paginas": 7
     }
    },
    "historial": [
@@ -24649,6 +24693,23 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    }
+   ],
+   "entradas": [
+    "https://www.allaccess.com.ar/venue/teatro-vorterix"
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://www.allaccess.com.ar/puntos-de-venta",
+     "texto": "Puntos de Venta",
+     "motivo": "puntos de venta físicos, no agenda",
+     "fecha": "2026-10-22"
     }
    ]
   },

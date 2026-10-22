@@ -156,6 +156,10 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   activities as news cards whose links are not in the text: open the page in the browser and `fetch()` each
   news item from there, or search for the permanent guided tours (weekday and hour) in the "Información
   general" block and load them with `vigente_sin_fin: true`;
+- All Access (`allaccess.com.ar/event/<slug>`): the venue page lists every show with its date; the JSON-LD `startDate` of each
+  event page has no usable offset (a 22:00 show appears as `T02:59` or `T00:00`), so leave `hora` empty unless the text gives it;
+- Fanz venues (`<venue>.fanz.com.ar`, Centro Cultural Macedonia): HTTP gives 400, so open the home in the browser (weekly calendar +
+  event list) and `fetch()` each `/event/<slug>` for `og:image` and the `$` price;
 - a site where `sondear.py --leer` times out is retried with `--timeout 90`; inside a Python one-off set
   `sondear.TIMEOUT = 60` (Otra Historia, Museo Etnográfico).
 
