@@ -5,8 +5,8 @@
   "hasta": "2026-11-07"
  },
  "rastreo": {
-  "capturas": 448,
-  "con_eventos": 238
+  "capturas": 468,
+  "con_eventos": 245
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -75,6 +75,7 @@
   "Colección Fortabat",
   "Complejo Teatral de Buenos Aires",
   "Crobar",
+  "DEOTRAVIDAPROD",
   "DESEO BSAS",
   "Doble Sentido",
   "EL CASTILLO DE SANDRO",
@@ -142,7 +143,9 @@
   "MALBA",
   "MAQUINAL ESPACIO CULTURAL",
   "MARQ Museo de Arquitectura y Diseño",
+  "MOJITOS DE CUBA",
   "MU TRINCHER BOUTIQUE",
+  "MULTIESPACIO PASCO",
   "MUNTREF Museo de la Inmigración",
   "Mar Dulce Galería",
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
@@ -160,10 +163,12 @@
   "Museo Kosice",
   "Museo Malvinas e Islas del Atlántico Sur",
   "Museo Mitre",
+  "Museo Mundial del Tango",
   "Museo Nacional de Arte Decorativo",
   "Museo Nacional de Arte Oriental",
   "Museo Nacional de Bellas Artes",
   "Museo Sitio de Memoria ESMA",
+  "Museo Xul Solar",
   "Museo de Arte Español Enrique Larreta",
   "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
   "Museo de Arte Moderno de Buenos Aires",
@@ -175,6 +180,7 @@
   "NUEVA URIARTE",
   "Niceto Club",
   "Nora Fisch",
+  "OIHOY CASA ABIERTA",
   "OTRA HISTORIA",
   "PANDA ROJO ESPACIO CULTURAL",
   "PARAJE ARTESON",
@@ -191,7 +197,9 @@
   "RIO, PATIO CULTURAL",
   "Resident Advisor: Buenos Aires",
   "Rolf Art",
+  "SAVIA ESPACIO CULTURAL",
   "SIGUE LA POLILLA",
+  "SOCIEDAD LUZ",
   "Sala Lugones",
   "SalePlan: agenda de Ciudad de Buenos Aires",
   "Strummer Bar",
@@ -7186,31 +7194,6 @@
    "imagen": ""
   },
   {
-   "id": "ec3a149c5324",
-   "titulo": "Ping Pong Casonero",
-   "categoria": "Evento",
-   "lugar": "CASONA CULTURAL HUMAHUACA",
-   "barrio": "Abasto",
-   "direccion": "Humahuaca 3491",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-28",
-   "hora": "21:30",
-   "horarios": "Miércoles de 21:30 a 00 h",
-   "precio": "Consultar",
-   "descripcion": "Ping pong todas las semanas, organizado por el Bar Casonero. A la gorra no excluyente consumiendo en el bar.",
-   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
-   "dominio": "casonahumahuaca.com.ar",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "CASONA CULTURAL HUMAHUACA"
-   ],
-   "lat": -34.60293,
-   "lng": -58.414058,
-   "embebible": true,
-   "imagen": ""
-  },
-  {
    "id": "1352b8737a3b",
    "titulo": "Poder adquisitivo, de Paula Castro",
    "categoria": "Artes visuales",
@@ -7484,31 +7467,6 @@
    "lat": -34.586298,
    "lng": -58.392513,
    "embebible": false,
-   "imagen": ""
-  },
-  {
-   "id": "3484385a6b57",
-   "titulo": "Cine Casonero en la vereda",
-   "categoria": "Cine",
-   "lugar": "CASONA CULTURAL HUMAHUACA",
-   "barrio": "Abasto",
-   "direccion": "Humahuaca 3491",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-29",
-   "hora": "20:30",
-   "horarios": "Jueves desde las 20:30 h",
-   "precio": "Consultar",
-   "descripcion": "Cine en la vereda todas las semanas; no se suspende por lluvia. A la gorra no excluyente.",
-   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
-   "dominio": "casonahumahuaca.com.ar",
-   "estado": "En curso",
-   "lugar_verificado": "",
-   "fuentes": [
-    "CASONA CULTURAL HUMAHUACA"
-   ],
-   "lat": -34.60293,
-   "lng": -58.414058,
-   "embebible": true,
    "imagen": ""
   },
   {
@@ -7949,7 +7907,7 @@
    "barrio": "Palermo",
    "direccion": "Godoy Cruz 2270",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-30",
+   "fecha_fin": "2026-11-07",
    "hora": "16:00",
    "horarios": "Viernes a las 16 h",
    "precio": "Gratis",
@@ -8074,7 +8032,7 @@
    "barrio": "Palermo",
    "direccion": "Godoy Cruz 2270",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-07",
    "hora": "12:00",
    "horarios": "Viernes y sábados de 12 a 16 h",
    "precio": "Gratis",
@@ -8582,7 +8540,7 @@
    "barrio": "Palermo",
    "direccion": "Godoy Cruz 2270",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-07",
    "hora": "12:00",
    "horarios": "Viernes y sábados de 12 a 18 h",
    "precio": "Gratis",
@@ -8760,7 +8718,7 @@
    "barrio": "Palermo",
    "direccion": "Godoy Cruz 2270",
    "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-07",
    "hora": "12:00",
    "horarios": "Viernes y sábados de 12 a 18 h",
    "precio": "Gratis",
@@ -10537,6 +10495,31 @@
    "imagen": ""
   },
   {
+   "id": "4548e674ac25",
+   "titulo": "Buenas vibraciones",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Buenas vibraciones en el Cine Arte Cacodelphia. Comedia, 88 min. Estreno.",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/0c8499b0814e59f10db2b6289f475f02",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "95bc458bd46f",
    "titulo": "Buenos Aires Social and Political Walk",
    "categoria": "Evento",
@@ -10810,6 +10793,31 @@
    "lng": -58.419039,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000320150.jpg"
+  },
+  {
+   "id": "bd8290964742",
+   "titulo": "CIERRABRE: Mauri Ermann y banda",
+   "categoria": "Música",
+   "lugar": "OíHoy Espacio para la Regeneración",
+   "barrio": "Villa Ortúzar",
+   "direccion": "14 de Julio 426",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "21:00",
+   "horarios": "Puertas 20 h; concierto 21 h",
+   "precio": "Consultar",
+   "descripcion": "Estreno del concierto «Cierrabre» de Mauri Ermann y banda. Entradas por el link de la bio.",
+   "url": "https://www.instagram.com/p/DerURJ0G9tc/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "OIHOY CASA ABIERTA"
+   ],
+   "lat": -34.588298,
+   "lng": -58.464747,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "e004ea3a5f74",
@@ -13321,6 +13329,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000302501.jpg"
   },
   {
+   "id": "5db2484a7660",
+   "titulo": "El poder de la red",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "El poder de la red en el Cine Arte Cacodelphia. 112 min. Estreno.",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/d12d2ce84889aea468382c3ef7047775",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "40b03bcb0034",
    "titulo": "El pájaro y el oso",
    "categoria": "Teatro",
@@ -13568,6 +13601,31 @@
    "lat": -34.583915,
    "lng": -58.392915,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "a17463fc582a",
+   "titulo": "Encuentro de mindfulness",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Encuentro de mindfulness en el Centro Cultural Armoza (Miller 3036).",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -15279,6 +15337,31 @@
    "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/IMG-20260930-WA00331.jpg"
   },
   {
+   "id": "5fb9aeabb67f",
+   "titulo": "Hope: el primer impacto",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "La policía investiga a una misteriosa criatura que ha causado estragos en un pueblo remoto, y al rastrear a la bestia en un bosque cercano unos cazadores terminan convirtiéndose en su presa, con el desastre alcanzando proporciones cósmicas en la mayor superproducción de la historia del cine coreano.",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/7817db0706284221aa22e528782b4059",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6acec8bf8f41e2.98278848.webp"
+  },
+  {
    "id": "d85662fe9244",
    "titulo": "Hotel Julio César",
    "categoria": "Teatro",
@@ -15806,6 +15889,31 @@
    "lng": -58.437075,
    "embebible": true,
    "imagen": "https://ticketia.com.ar/img/events/397/6ac110259b583.jpeg"
+  },
+  {
+   "id": "3c9caf097af4",
+   "titulo": "Kontinental 25",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Una mujer ejecuta un desalojo que inesperadamente deriva en el suicidio del desalojado. Con el suceso a flor de piel, transitará un camino de cuestionamientos intentando construir una narrativa que le permita expiar culpas y calmar angustias. Durante el recorrido por la ciudad de Cluj en Transilvania, las heridas de la Europa contemporánea estarán presentes en este largometraje para hablar de gent",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/a718fd006cae4e80f7fb488d0544cbd0",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6ac52fe4bac688.58439761.webp"
   },
   {
    "id": "cf2ac45f09b9",
@@ -16487,6 +16595,31 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/3c68812d-afde-4b1a-a382-56821adb39ce.jpg"
   },
   {
+   "id": "44b474832e41",
+   "titulo": "La casa",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Tras quedar fuera del mercado laboral, acorralado por la realidad, Hugo Vaca (Peretti) acepta una propuesta tan inesperada como extraña para no perder lo único que le queda —su casa—: firmar un contrato que le permite venderla y seguir viviendo allí hasta el final de sus días. Pero a medida que trata con los compradores, sospecha que detrás de la operación se esconde algo mucho más oscuro, y sin s",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/d527bfe1d80fb6e122ba00892b3ffd9c",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6acec91b0de2b4.25153338.webp"
+  },
+  {
    "id": "4a2cae2bf7f3",
    "titulo": "La casa ache",
    "categoria": "Teatro",
@@ -16937,6 +17070,31 @@
    "lng": -58.41615,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/80/000304480.jpg"
+  },
+  {
+   "id": "e23c6b42077c",
+   "titulo": "La vida es así",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "En una paradisíaca costa del sur de Cerdeña, los destinos de un humilde pastor y el poderoso empresario que busca transformar sus tierras en un exclusivo resort se enfrentan en una disputa que trasciende lo legal. Efisio Mulas se niega a abandonar la pequeña casa donde nació y vivió toda su vida, mientras su hija Francesca queda atrapada entre la promesa del progreso y el profundo vínculo con su t",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/c62ce5e7bdffac58608e2181778ccfe6",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6acec8b05e3723.43377207.webp"
   },
   {
    "id": "3be36ad270ac",
@@ -17670,16 +17828,16 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000320434.jpg"
   },
   {
-   "id": "d9891fc82201",
+   "id": "026c69aceea8",
    "titulo": "Los nadadores",
    "categoria": "Cine",
    "lugar": "Cacodelphia",
    "barrio": "San Nicolás",
    "direccion": "Av. Roque Sáenz Peña 1150",
    "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "21:00",
-   "horarios": "Sábado 24 a las 21:00",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
    "precio": "Consultar",
    "descripcion": "Es el día 368 de verano, hace tres días que no llega la noche. Entre el calor extremo, cortes de luz y un éxodo masivo al exterior, un grupo de amigos pasa el día en la calle. Acechados por el delirio del calor, deciden empezar a meterse en las mansiones de un vecindario vacío para probar así todas las piscinas que puedan, pero el calor siempre será una amenaza infernal...",
    "url": "https://cineartecacodelphia.com.ar/pelicula/86/981a07ce9573a8eaa24d1e6d1ea33ab5",
@@ -17743,6 +17901,31 @@
    "lng": -58.427537,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/59/000322059.jpg"
+  },
+  {
+   "id": "0236e2c93134",
+   "titulo": "Los vencedores",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Un director argentino viaja a Malvinas para explorar las huellas de la guerra del 82. Lo que parecía un retrato del conflicto se convierte en una historia de inesperada amistad con el \"enemigo\".",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/7b7316a63fa1a6873d1fde69a1786877",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6a9090fb1799c6.79288683.webp"
   },
   {
    "id": "414102571e01",
@@ -19309,6 +19492,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/57/000313557.jpg"
   },
   {
+   "id": "8e1ce247ce7f",
+   "titulo": "Nadie existe (últimas funciones)",
+   "categoria": "Teatro",
+   "lugar": "SAVIA - espacio cultural",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "20:00",
+   "horarios": "Sábados 24 y 31 de octubre, 20 h",
+   "precio": "A la gorra",
+   "descripcion": "Últimas dos funciones de la obra Nadie existe; entradas por Alternativa Teatral o a la gorra.",
+   "url": "https://www.instagram.com/p/DewmtjTINcj/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SAVIA ESPACIO CULTURAL"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "8d4be480f53c",
    "titulo": "Naftalinas",
    "categoria": "Teatro",
@@ -19432,6 +19640,31 @@
    "lat": -34.555842,
    "lng": -58.41509,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "e18466c5d64b",
+   "titulo": "Naza",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Naza en el Cine Arte Cacodelphia. 80 min. Estreno.",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/2e4c2437c8e6254a6daacaabe5a629ef",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -20755,8 +20988,8 @@
    "hora": "17:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Taller para pintar una taza de cerámica.",
-   "url": "https://ccarmoza.com/event/170684-pinta-tu-taza-de-ceramica",
+   "descripcion": "Pintá tu taza de cerámica en el Centro Cultural Armoza (Miller 3036).",
+   "url": "https://ccarmoza.com/",
    "dominio": "ccarmoza.com",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -20766,7 +20999,7 @@
    "lat": -34.56653,
    "lng": -58.485097,
    "embebible": true,
-   "imagen": "https://event-banners-fanz.s3.amazonaws.com/1792428854091-banner.jpg"
+   "imagen": ""
   },
   {
    "id": "e3eb031d0fd6",
@@ -23155,6 +23388,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-794889-rec.jpg"
   },
   {
+   "id": "02bd0e9c83f3",
+   "titulo": "Sábado regenerativo: jornada abierta de Técnica Alexander",
+   "categoria": "Taller",
+   "lugar": "OíHoy Espacio para la Regeneración",
+   "barrio": "Villa Ortúzar",
+   "direccion": "14 de Julio 426",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "10:00",
+   "horarios": "10 a 13 h",
+   "precio": "Gratis",
+   "descripcion": "Jornada abierta y gratuita de Técnica Alexander; a las 14 h taller de movimiento, expansión y creatividad.",
+   "url": "https://www.instagram.com/p/De2-x-rmwaW/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "OIHOY CASA ABIERTA"
+   ],
+   "lat": -34.588298,
+   "lng": -58.464747,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "0d43ef581d42",
    "titulo": "Sí, mi Amor! Stand Up de Pareja",
    "categoria": "Teatro",
@@ -23303,6 +23561,31 @@
    "lng": -58.436048,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/24/000319924.jpg"
+  },
+  {
+   "id": "89b4971402aa",
+   "titulo": "Taller de escritura erótica",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-24",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller de escritura erótica en el Centro Cultural Armoza (Miller 3036).",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "8bd78f513251",
@@ -23655,6 +23938,31 @@
    "lng": -58.46533,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "a39c32570054",
+   "titulo": "Tiempos de ilusión",
+   "categoria": "Cine",
+   "lugar": "Cacodelphia",
+   "barrio": "San Nicolás",
+   "direccion": "Av. Roque Sáenz Peña 1150",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-28",
+   "hora": "",
+   "horarios": "Funciones diarias del 24 al 28/10 (horarios en la web del cine)",
+   "precio": "Consultar",
+   "descripcion": "Vincent tiene casi trece años y vive en un suburbio parisino de clase media en 1985, atrapado entre un hermano mayor distante y unos padres en permanente conflicto. En el paso de la infancia a la adultez, el relato acompaña su proceso de descubrimiento frente a las grandes dudas sobre la identidad, la amistad, la familia, la religión, el deseo y los primeros amores. Un film sobre esa etapa en la q",
+   "url": "https://cineartecacodelphia.com.ar/pelicula/86/b5dfae1a368741bb89d353c0a1b681f0",
+   "dominio": "cineartecacodelphia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Cacodelphia",
+   "fuentes": [
+    "Cacodelphia"
+   ],
+   "lat": -34.607921,
+   "lng": -58.373633,
+   "embebible": true,
+   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6acf019234e603.56902856.webp"
   },
   {
    "id": "6c57c6723ff9",
@@ -29937,31 +30245,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000314987.jpg"
   },
   {
-   "id": "931633354121",
-   "titulo": "Los vencedores",
-   "categoria": "Cine",
-   "lugar": "Cacodelphia",
-   "barrio": "San Nicolás",
-   "direccion": "Av. Roque Sáenz Peña 1150",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-25",
-   "hora": "19:00",
-   "horarios": "Domingo 25 a las 19:00",
-   "precio": "Consultar",
-   "descripcion": "Un director argentino viaja a Malvinas para explorar las huellas de la guerra del 82. Lo que parecía un retrato del conflicto se convierte en una historia de inesperada amistad con el \"enemigo\".",
-   "url": "https://cineartecacodelphia.com.ar/pelicula/86/7b7316a63fa1a6873d1fde69a1786877",
-   "dominio": "cineartecacodelphia.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "Cacodelphia",
-   "fuentes": [
-    "Cacodelphia"
-   ],
-   "lat": -34.607921,
-   "lng": -58.373633,
-   "embebible": true,
-   "imagen": "https://apiv2.gaf.adro.studio/uploads/86/poster/6a9090fb1799c6.79288683.webp"
-  },
-  {
    "id": "577bf7748c91",
    "titulo": "Los árboles mueren de pie",
    "categoria": "Teatro",
@@ -33877,6 +34160,31 @@
    "imagen": ""
   },
   {
+   "id": "5dc1e4d5a51c",
+   "titulo": "Plenario público: Litto Nebbia recibe el Premio Tagini",
+   "categoria": "Música",
+   "lugar": "Palacio Carlos Gardel - Academia Nacional del Tango",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 833",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "18:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Plenario público de la Academia Nacional del Tango en el que el músico Litto Nebbia recibe el Premio Tagini.",
+   "url": "https://www.instagram.com/p/DesYs8NxCai/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Mundial del Tango"
+   ],
+   "lat": -34.608701,
+   "lng": -58.378264,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "c1d0a04c9cfc",
    "titulo": "Sala de Ensayo con la Escuela de Música N° 9 en el Museo Saavedra",
    "categoria": "Música",
@@ -34052,6 +34360,31 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179404124%2F439836167012%2F1%2Foriginal.20260309-172119?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=24d9dd7e254bab00073740f9c4052bd0"
   },
   {
+   "id": "f884b7098313",
+   "titulo": "Taller de arte: Van Gogh a mil pesos",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-26",
+   "fecha_fin": "2026-10-26",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller de arte: Van Gogh a mil pesos en el Centro Cultural Armoza (Miller 3036).",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "35b609e51544",
    "titulo": "Taller de lectura: África y Europa. Un recorrido literario",
    "categoria": "Taller",
@@ -34176,6 +34509,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181535620%2F915857687743%2F1%2Foriginal.20260406-200533?w=940&auto=format%2Ccompress&q=75&sharp=10&s=29b0dcbbfabed85b0345747686d2781f"
+  },
+  {
+   "id": "e816d506098b",
+   "titulo": "12º Festival BITBANG",
+   "categoria": "Festival",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Florida 943",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "27 al 31 de octubre",
+   "precio": "Consultar",
+   "descripcion": "Festival de cine y audiovisual BITBANG, 12ª edición.",
+   "url": "https://cceba.aecid.es/w/bitbang-12-1",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.596931,
+   "lng": -58.375367,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "51113eae9a71",
@@ -35283,6 +35641,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000236017.jpg"
   },
   {
+   "id": "c89e3be7f24a",
+   "titulo": "Pintá tu mandala, copita en mano",
+   "categoria": "Taller",
+   "lugar": "CENTRO CULTURAL ARMOZA",
+   "barrio": "Villa Urquiza",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Pintá tu mandala, copita en mano en el Centro Cultural Armoza (Miller 3036).",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "3fb7a9b921d4",
    "titulo": "Popotitos, el musical",
    "categoria": "Música",
@@ -35306,6 +35689,31 @@
    "lng": -58.388951,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000240590.jpg"
+  },
+  {
+   "id": "8988a31ab650",
+   "titulo": "Presentación del libro «Paquita Bernardo. ¿Quién dice que el tango es macho?», de Ana María Romano",
+   "categoria": "Literatura y charlas",
+   "lugar": "Palacio Carlos Gardel - Academia Nacional del Tango",
+   "barrio": "Monserrat",
+   "direccion": "Av. de Mayo 833",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-27",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Presentación del libro sobre Paquita Bernardo, con cierre musical de la Orquesta Sciammarella.",
+   "url": "https://www.instagram.com/p/DezYvrzRoNj/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo Mundial del Tango"
+   ],
+   "lat": -34.608701,
+   "lng": -58.378264,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "d324702b69c2",
@@ -35405,6 +35813,31 @@
    ],
    "lat": -34.646617,
    "lng": -58.372611,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "99eebd37ef18",
+   "titulo": "Taller de salud cerebral para mayores de 50",
+   "categoria": "Taller",
+   "lugar": "Multiespacio Pasco",
+   "barrio": "Balvanera",
+   "direccion": "Pasco 689",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-11-03",
+   "hora": "",
+   "horarios": "Todos los martes desde el 20/10",
+   "precio": "Consultar",
+   "descripcion": "Espacio de encuentro para trabajar la salud cerebral, para mayores de 50; cupo con reserva.",
+   "url": "https://www.instagram.com/p/DeR-gfsIAC9/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MULTIESPACIO PASCO"
+   ],
+   "lat": -34.617103,
+   "lng": -58.397734,
    "embebible": false,
    "imagen": ""
   },
@@ -36109,31 +36542,6 @@
    "imagen": "https://imagenes.passline.com/eventos/ddl-lab-x-ddl-co-565376-rec.jpg"
   },
   {
-   "id": "9d8611cc04db",
-   "titulo": "DE OTRA VIDA PRESENTA // CICLO LA CONSTRUCCIÓN DE UN MONSTRUO: MONSTRUO / THE EXORCIST (1973) // EN CLUB CONJURA",
-   "categoria": "Evento",
-   "lugar": "Club Conjura",
-   "barrio": "Paternal",
-   "direccion": "Nicasio Oroño 2476",
-   "fecha_inicio": "2026-10-28",
-   "fecha_fin": "",
-   "hora": "21:00",
-   "horarios": "",
-   "precio": "$ 4000",
-   "descripcion": "DE OTRA VIDA PRESENTA // CICLO LA CONSTRUCCIÓN DE UN MONSTRUO: MONSTRUO / THE EXORCIST (1973) // EN CLUB CONJURA en Club Conjura.",
-   "url": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-monstruo-the-exorcist-1973-en-club-conjura",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.598307,
-   "lng": -58.459862,
-   "embebible": false,
-   "imagen": "https://www.passline.com/imagenes/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-monstruo-the-exorcist-1973-en-club-conjur-570852-rec.jpg"
-  },
-  {
    "id": "3b022fde7ae1",
    "titulo": "Disco Eterno: en el Cyber de Benito Cerati",
    "categoria": "Música",
@@ -36786,6 +37194,32 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/24/000240824.jpg"
   },
   {
+   "id": "a3d5aba4906c",
+   "titulo": "La construcción de un monstruo: Monstruo, The Exorcist (1973)",
+   "categoria": "Cine",
+   "lugar": "Club Conjura",
+   "barrio": "Villa Pueyrredón",
+   "direccion": "Nicasio Oroño 2476",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-10-28",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 4000",
+   "descripcion": "Ciclo de cine de De Otra Vida: El exorcista (William Friedkin, 1973), miércoles en Club Conjura.",
+   "url": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-monstruo-the-exorcist-1973-en-club-conjura",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "DEOTRAVIDAPROD",
+    "Passline"
+   ],
+   "lat": -34.598307,
+   "lng": -58.459862,
+   "embebible": false,
+   "imagen": "https://www.passline.com/imagenes/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-monstruo-the-exorcist-1973-en-club-conjur-570852-rec.jpg"
+  },
+  {
    "id": "98d6fda55a09",
    "titulo": "La intérprete",
    "categoria": "Teatro",
@@ -37263,6 +37697,31 @@
    "lng": -58.369484,
    "embebible": false,
    "imagen": "https://palaciolibertad.gob.ar/wp-content/uploads/2019/12/ONMA-28-de-octubre_principal.jpg"
+  },
+  {
+   "id": "ec3a149c5324",
+   "titulo": "Ping Pong Casonero",
+   "categoria": "Evento",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Abasto",
+   "direccion": "Humahuaca 3491",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-11-04",
+   "hora": "21:30",
+   "horarios": "Miércoles de 21:30 a 00 h",
+   "precio": "Consultar",
+   "descripcion": "Ping pong todas las semanas, organizado por el Bar Casonero. A la gorra no excluyente consumiendo en el bar.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.60293,
+   "lng": -58.414058,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "d106b8d41e43",
@@ -38422,6 +38881,31 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/54ad94ef-345d-4b8e-83f8-0546e91d90d9.jpg"
   },
   {
+   "id": "3484385a6b57",
+   "titulo": "Cine Casonero en la vereda",
+   "categoria": "Cine",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Abasto",
+   "direccion": "Humahuaca 3491",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-11-05",
+   "hora": "20:30",
+   "horarios": "Jueves desde las 20:30 h",
+   "precio": "Consultar",
+   "descripcion": "Cine en la vereda todas las semanas; no se suspende por lluvia. A la gorra no excluyente.",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.60293,
+   "lng": -58.414058,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "5ccb67338baa",
    "titulo": "Como la primera vez",
    "categoria": "Teatro",
@@ -38445,31 +38929,6 @@
    "lng": -58.385575,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000322809.jpg"
-  },
-  {
-   "id": "c67a864e2580",
-   "titulo": "Contratapa: conversación con Lorena Fernández",
-   "categoria": "Literatura y charlas",
-   "lugar": "CASA DE LA CULTURA",
-   "barrio": "Monserrat",
-   "direccion": "Av. de Mayo 575",
-   "fecha_inicio": "2026-10-29",
-   "fecha_fin": "2026-10-29",
-   "hora": "19:00",
-   "horarios": "Jueves 29/10, 19 h",
-   "precio": "Gratis",
-   "descripcion": "Ciclo de conversaciones con artistas contemporáneos, coordinado por Marcos Krämer.",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/casa-de-la-cultura/actividades",
-   "dominio": "buenosaires.gob.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
-   "fuentes": [
-    "CASA DE LA CULTURA"
-   ],
-   "lat": -34.608197,
-   "lng": -58.374434,
-   "embebible": false,
-   "imagen": ""
   },
   {
    "id": "9b65e847366e",
@@ -42215,18 +42674,18 @@
    "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/09/IMG-20260930-WA0017.jpg"
   },
   {
-   "id": "f68662ceab18",
-   "titulo": "Activación: Visita guiada con artistas",
+   "id": "7626e857ee37",
+   "titulo": "Activación: Visita guiada con artistas (Horizonte Federal)",
    "categoria": "Visita guiada",
    "lugar": "Casa Nacional del Bicentenario",
-   "barrio": "Recoleta",
+   "barrio": "Palermo",
    "direccion": "Riobamba 985",
    "fecha_inicio": "2026-10-30",
    "fecha_fin": "2026-10-30",
    "hora": "17:00",
-   "horarios": "Viernes 30 de octubre, de 17 a 19 h",
+   "horarios": "Viernes 30 de octubre",
    "precio": "Gratis",
-   "descripcion": "Visita guiada con los artistas de las exposiciones.",
+   "descripcion": "Activación: Visita guiada con artistas (Horizonte Federal) en la Casa Nacional del Bicentenario.",
    "url": "https://casadelbicentenario.cultura.gob.ar/actividad/activacion-visita-guiada-con-artistas-1/",
    "dominio": "casadelbicentenario.cultura.gob.ar",
    "estado": "Próximo",
@@ -42238,6 +42697,31 @@
    "lng": -58.394459,
    "embebible": false,
    "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/ean_silvina_mesa_de_trabajo_1.jpg/ean_silvina_mesa_de_trabajo_1-1500x0-no-upscale.jpg"
+  },
+  {
+   "id": "70d9ddb7648f",
+   "titulo": "Acustics Indie - Rock",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Acustics Indie - Rock en el Cultural Thames.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "42e4950a075e",
@@ -47708,6 +48192,31 @@
    "lng": -58.411188,
    "embebible": true,
    "imagen": "https://elasticbeanstalk-us-east-1-723417877149.s3.amazonaws.com/users/f246f0c5-d314-499c-acab-bbd52073bb5a/events/muocgbdi88015b68597d-whatsapp_image_2026-09-30_at_1.47.25_pm.jpeg"
+  },
+  {
+   "id": "cc39a8d8481e",
+   "titulo": "Noche de brujas en Mojitos de Cuba",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Mojitos de Cuba",
+   "barrio": "Caballito",
+   "direccion": "Yerbal 1655",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "$ 15000",
+   "descripcion": "Noche de Halloween en el restaurante cubano: DJ invitado y animación. Anticipadas $15.000.",
+   "url": "https://www.instagram.com/reel/DezL3cay2cR/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MOJITOS DE CUBA"
+   ],
+   "lat": -34.624218,
+   "lng": -58.45414,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "3e84737e9947",
@@ -55037,6 +55546,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/locofest-especial-halloween-571074-rec.jpg"
   },
   {
+   "id": "499fcfc1dcd5",
+   "titulo": "Los compadritos, de Roberto Cossa",
+   "categoria": "Teatro",
+   "lugar": "Sociedad Luz",
+   "barrio": "Barracas",
+   "direccion": "Av. Suárez 1301",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "19:00",
+   "horarios": "Sábado 31 de octubre, 19 h",
+   "precio": "Entrada al sombrero",
+   "descripcion": "Obra de Roberto Cossa con tango y humor, dirigida por Carlo Bottini (producción Bravalatita). Entrada al sombrero.",
+   "url": "https://www.instagram.com/p/De49ePOBym_/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "SOCIEDAD LUZ"
+   ],
+   "lat": -34.638088,
+   "lng": -58.370711,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "0ae4a1a9beed",
    "titulo": "Luana, Feddox, Nas You y más",
    "categoria": "Fiestas y electrónica",
@@ -61842,31 +62376,6 @@
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/08/ADAN-1080x1440-V2.webp"
   },
   {
-   "id": "4575086edfb5",
-   "titulo": "BLESSD - EL PEOR HOMBRE DEL MUNDO TOUR",
-   "categoria": "Evento",
-   "lugar": "C Art Media",
-   "barrio": "",
-   "direccion": "Av. Corrientes 6271",
-   "fecha_inicio": "2026-11-04",
-   "fecha_fin": "",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "$ 100000",
-   "descripcion": "BLESSD - EL PEOR HOMBRE DEL MUNDO TOUR en C Art Media.",
-   "url": "https://www.passline.com/eventos/blessd-el-peor-hombre-del-mundo-tour",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.590607,
-   "lng": -58.447937,
-   "embebible": false,
-   "imagen": "https://www.passline.com/imagenes/eventos/blessd-el-peor-hombre-del-mundo-tour-551252-rec.jpg"
-  },
-  {
    "id": "91fdd3198812",
    "titulo": "Blessd",
    "categoria": "Música",
@@ -61890,6 +62399,32 @@
    "lng": -58.447937,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/blessd-argentina.jpg"
+  },
+  {
+   "id": "4575086edfb5",
+   "titulo": "Blessd: El peor hombre del mundo Tour",
+   "categoria": "Música",
+   "lugar": "C Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Noche de reggaetón y trap urbano con Blessd en C Art Media.",
+   "url": "https://www.passline.com/eventos/blessd-el-peor-hombre-del-mundo-tour",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "C Complejo Art Media",
+    "Passline"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": "https://www.passline.com/imagenes/eventos/blessd-el-peor-hombre-del-mundo-tour-551252-rec.jpg"
   },
   {
    "id": "74dbb14c65bc",
@@ -61965,6 +62500,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/e47a4653-35a5-4fe4-8021-b424b420f3bf.jpg"
+  },
+  {
+   "id": "3a080d49470f",
+   "titulo": "D-Pop en vivo",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL THAMES",
+   "barrio": "Palermo",
+   "direccion": "Thames 1426",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "20:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "D-Pop en vivo en el Cultural Thames.",
+   "url": "https://culturalthames.com.ar/",
+   "dominio": "culturalthames.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL THAMES"
+   ],
+   "lat": -34.588545,
+   "lng": -58.431853,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "83e8e9da428e",
@@ -62165,6 +62725,31 @@
    "lng": -58.436893,
    "embebible": false,
    "imagen": "https://www.passline.com/imagenes/eventos/fingir-presencia-ultima-del-ano-570970-rec.jpg"
+  },
+  {
+   "id": "d4bf78b9c91e",
+   "titulo": "Fondos, colecciones y repositorios: cómo planificar un proyecto de archivo",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Florida 943",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-05",
+   "hora": "",
+   "horarios": "4 y 5 de noviembre",
+   "precio": "Consultar",
+   "descripcion": "Taller de formación sobre cómo planificar un proyecto de archivo, con Noelia García.",
+   "url": "https://cceba.aecid.es/w/taller-archivos-noelia-garcia",
+   "dominio": "cceba.aecid.es",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
+   "fuentes": [
+    "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES"
+   ],
+   "lat": -34.596931,
+   "lng": -58.375367,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "16ac76992de4",
@@ -64195,27 +64780,28 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/31/000322631.jpg"
   },
   {
-   "id": "340566c1f315",
+   "id": "0f3ee81d10a5",
    "titulo": "Visita guiada sobre astrología en el Museo Xul Solar",
    "categoria": "Visita guiada",
-   "lugar": "Laprida 1212",
-   "barrio": "",
-   "direccion": "1212 Laprida, EKF, CABA C1425",
+   "lugar": "Museo Xul Solar",
+   "barrio": "Recoleta",
+   "direccion": "Laprida 1212",
    "fecha_inicio": "2026-11-05",
-   "fecha_fin": "",
+   "fecha_fin": "2026-11-05",
    "hora": "18:00",
-   "horarios": "",
+   "horarios": "Jueves a las 18 h (última fecha publicada: 22/10)",
    "precio": "$ 25000",
-   "descripcion": "Los invitamos a realizar un recorrido por los aspectos místicos de la obra de Xul Solar.",
+   "descripcion": "Visita guiada por el museo con mirada astrológica sobre la obra de Xul Solar. Entradas por Eventbrite.",
    "url": "https://www.eventbrite.com.ar/e/visita-guiada-sobre-astrologia-en-el-museo-xul-solar-tickets-533943147327",
    "dominio": "eventbrite.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "Museo Xul Solar",
     "Eventbrite Buenos Aires"
    ],
-   "lat": "",
-   "lng": "",
+   "lat": -34.596542,
+   "lng": -58.408655,
    "embebible": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1061475483%2F1495586862703%2F1%2Foriginal.20250626-201936?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C781%2C1170%2C585&s=15d053882522c1fa59cf217c7c1cab3f"
   },
@@ -64420,6 +65006,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/azul-ball-cande-guerzoni-563755-rec.jpg"
   },
   {
+   "id": "3423bccb3b51",
+   "titulo": "Activación: Taller de cerámica con Sany Pereyra Iraola",
+   "categoria": "Taller",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "",
+   "horarios": "Viernes 6 de noviembre",
+   "precio": "Gratis",
+   "descripcion": "Activación: Taller de cerámica con Sany Pereyra Iraola en la Casa Nacional del Bicentenario.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/activacion-taller-de-ceramica/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a6d03692d271",
    "titulo": "Adana Twins, Paul Deep, Lean Agüero",
    "categoria": "Fiestas y electrónica",
@@ -64468,6 +65079,31 @@
    "lng": -58.416846,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/79/000323079.jpg"
+  },
+  {
+   "id": "7690ecced53a",
+   "titulo": "Akriila: El tour de Lucy",
+   "categoria": "Música",
+   "lugar": "C Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Akriila presenta El tour de Lucy, su primera gran gira por Latinoamérica.",
+   "url": "https://www.passline.com/eventos/akriila",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "2b0ab77fa23d",
@@ -68298,6 +68934,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-815655-rec.jpg"
   },
   {
+   "id": "bf375e6219d3",
+   "titulo": "C Baila",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "C Art Media",
+   "barrio": "Chacarita",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "00:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta C Baila en C Art Media.",
+   "url": "https://www.passline.com/eventos-plano/c-baila-0711",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "fa9fc11bb9d7",
    "titulo": "CASA 23 presenta MOMENTOS",
    "categoria": "Evento",
@@ -68471,6 +69132,31 @@
    "lng": -58.419039,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/81/000322781.jpg"
+  },
+  {
+   "id": "558645897be3",
+   "titulo": "Cine: Noche adentro, de Francisco Olivero",
+   "categoria": "Cine",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "Sábado 7 de noviembre",
+   "precio": "Gratis",
+   "descripcion": "Cine: Noche adentro, de Francisco Olivero en la Casa Nacional del Bicentenario.",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/cine-noche-adentro/",
+   "dominio": "casadelbicentenario.cultura.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Casa Nacional del Bicentenario",
+   "fuentes": [
+    "Casa Nacional del Bicentenario"
+   ],
+   "lat": -34.59761,
+   "lng": -58.394459,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "0ede9c349d5a",
@@ -70397,6 +71083,31 @@
    "lng": -58.387521,
    "embebible": false,
    "imagen": "https://www.passline.com/imagenes/eventos/-815829-rec.jpg"
+  },
+  {
+   "id": "428eda916643",
+   "titulo": "Noche de juegos de mesa",
+   "categoria": "Evento",
+   "lugar": "CASONA CULTURAL HUMAHUACA",
+   "barrio": "Abasto",
+   "direccion": "Humahuaca 3491",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "20:00",
+   "horarios": "1er sábado de cada mes, de 20 a 2 h",
+   "precio": "Consultar",
+   "descripcion": "Ciclo mensual de juegos de mesa en la Casona Cultural Humahuaca (organiza @matufia.descubierta).",
+   "url": "https://www.casonahumahuaca.com.ar/ciclos-1",
+   "dominio": "casonahumahuaca.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CASONA CULTURAL HUMAHUACA"
+   ],
+   "lat": -34.60293,
+   "lng": -58.414058,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "f723ebe3cbef",

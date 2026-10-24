@@ -415,6 +415,10 @@ repository) holds every opened post with the events it had. Do not open them aga
    them and `publicado` is known. A new post's caption is read with `fetch('/p/<code>/')` from any instagram.com tab (`og:description`,
    decode the entities with a `textarea`), which is quicker than navigating; a carousel agenda needs the real page (click the arrow on
    the image and `zoom` on it). A profile that renders no grid (`posts: []`) twice is left in the queue, not saved.
+   When decoding the dates, wrap the shortcode decoding in `try/catch`: some grid links are not shortcodes
+   (`/p/DeF1bscCSuv4s6pGGfXNX3KfMnZhtTOgKGOYN40`) and a throw there loses the whole profile. A grid whose last post is more than 3 months old is
+   `sin_eventos` without opening any post; an `acanacional`-type account that posts weekly agenda images needs the carousel read (click the arrow at the
+   image's right edge and `zoom`).
 3. If the text has no date, look at the poster (screenshot). A post that is a carousel ("Este finde", "Octubre") usually has the
    agenda on the 2nd image: click the arrow and read the screenshot. If a screenshot or JS call times out, the tab's renderer is
    frozen: open a new tab (`tabs_create_mcp`, then `tabs_context_mcp`) and continue there.

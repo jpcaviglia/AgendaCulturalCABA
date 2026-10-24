@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "Casa Nacional del Bicentenario",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://casadelbicentenario.cultura.gob.ar/actividades/",
@@ -145,23 +145,6 @@
    "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/el_tiempo_para_web.jpeg/el_tiempo_para_web-1500x0-no-upscale.jpeg"
   },
   {
-   "titulo": "Encuentro: Milonga Federal",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "18:00",
-   "horarios": "Jueves 22 de octubre, de 18 a 21 h",
-   "lugar": "Casa Nacional del Bicentenario",
-   "barrio": "Recoleta",
-   "direccion": "Riobamba 985",
-   "categoria": "Milonga",
-   "precio": "Gratis",
-   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/encuentro-milonga-federal-5/",
-   "descripcion": "Milonga abierta, atípica y plural.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/milonga_fed_marzo.jpeg/milonga_fed_marzo-1500x0-no-upscale.jpeg"
-  },
-  {
    "titulo": "Taller: La forma como experiencia",
    "fecha_inicio": "2026-04-10",
    "fecha_fin": "2026-11-13",
@@ -279,6 +262,57 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://casadelbicentenario.cultura.gob.ar/media/uploads/site-36/destacados/.thumbnails/ean_silvina_mesa_de_trabajo_1.jpg/ean_silvina_mesa_de_trabajo_1-1500x0-no-upscale.jpg"
+  },
+  {
+   "titulo": "Activación: Visita guiada con artistas (Horizonte Federal)",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "",
+   "horarios": "Viernes 30 de octubre",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "categoria": "Visita guiada",
+   "precio": "Gratis",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/activacion-visita-guiada-con-artistas-1/",
+   "descripcion": "Activación: Visita guiada con artistas (Horizonte Federal) en la Casa Nacional del Bicentenario.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Activación: Taller de cerámica con Sany Pereyra Iraola",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "",
+   "horarios": "Viernes 6 de noviembre",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "categoria": "Taller",
+   "precio": "Gratis",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/activacion-taller-de-ceramica/",
+   "descripcion": "Activación: Taller de cerámica con Sany Pereyra Iraola en la Casa Nacional del Bicentenario.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Cine: Noche adentro, de Francisco Olivero",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "",
+   "horarios": "Sábado 7 de noviembre",
+   "lugar": "Casa Nacional del Bicentenario",
+   "barrio": "Palermo",
+   "direccion": "Riobamba 985",
+   "categoria": "Cine",
+   "precio": "Gratis",
+   "url": "https://casadelbicentenario.cultura.gob.ar/actividad/cine-noche-adentro/",
+   "descripcion": "Cine: Noche adentro, de Francisco Olivero en la Casa Nacional del Bicentenario.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }

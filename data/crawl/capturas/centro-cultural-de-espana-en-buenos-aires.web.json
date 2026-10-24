@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://cceba.aecid.es/",
@@ -21,23 +21,6 @@
   "https://cceba.aecid.es/w/dialogo-entre-orillas"
  ],
  "eventos": [
-  {
-   "titulo": "Niño Gutiérre y Patricio Foglia",
-   "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-10-20",
-   "hora": "19:30",
-   "horarios": "",
-   "lugar": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
-   "barrio": "Recoleta",
-   "direccion": "Paraná 1159",
-   "categoria": "Música",
-   "precio": "",
-   "url": "https://cceba.aecid.es/w/nino-gutierre-y-patricio-foglia",
-   "descripcion": "Concierto en el CCEBA, ciclo de música y sonido.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/nino-gutierre-y-patricio-foglia-cceba-web.jpg/88dd9123-e42d-0d04-c039-bafe9e533988?t=1790606089725"
-  },
   {
    "titulo": "CCEBA Jazz",
    "fecha_inicio": "2026-10-29",
@@ -73,40 +56,6 @@
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/el-libro-verde-del-tetro-cceba-web.jpg/b2720bc7-ba61-573d-351a-9ef6f74066e5?t=1789496674522"
   },
   {
-   "titulo": "III Laboratorio Internacional de Creación y Desarrollo de Públicos Culturales",
-   "fecha_inicio": "2026-10-19",
-   "fecha_fin": "2026-10-23",
-   "hora": "",
-   "horarios": "Del 19 al 23 de octubre",
-   "lugar": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
-   "barrio": "Recoleta",
-   "direccion": "Paraná 1159",
-   "categoria": "Formación",
-   "precio": "",
-   "url": "https://cceba.aecid.es/w/iii-laboratorio-internacional-de-creacion-y-desarrollo-de-publicos-culturales",
-   "descripcion": "Laboratorio de formación sobre creación y desarrollo de públicos culturales.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/laboratorio-publicos-cceba-web.png/185586a6-0caf-44c7-1dfc-4fc8c9dde301?t=1791998781036"
-  },
-  {
-   "titulo": "Semana Cuadernos: Marcos Giralt Torrente",
-   "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-10-23",
-   "hora": "",
-   "horarios": "20, 22 y 23 de octubre",
-   "lugar": "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
-   "barrio": "Recoleta",
-   "direccion": "Paraná 1159",
-   "categoria": "Letras",
-   "precio": "",
-   "url": "https://cceba.aecid.es/w/semana-cuadernos-marcos-giralt-torrente",
-   "descripcion": "Semana dedicada al escritor Marcos Giralt Torrente, con Cuadernos Hispanoamericanos.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/semana-cuadernos-h-marcos-giralt-torrente-cceba-web.jpg/ac4c2451-6a50-2cd2-532b-208f89681db3?t=1790254018164"
-  },
-  {
    "titulo": "La gaviota. Ensayo abierto",
    "fecha_inicio": "2026-10-22",
    "fecha_fin": "2026-10-25",
@@ -122,23 +71,6 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/la-gaviota-cceba-web.jpg/044d07c3-67c5-1909-8768-65ca9326d8a6?t=1791473210423"
-  },
-  {
-   "titulo": "Asterisco Festival Internacional de Cine LGBTIQ+",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "",
-   "horarios": "",
-   "lugar": "MALBA",
-   "barrio": "Palermo",
-   "direccion": "Av. Pres. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://cceba.aecid.es/w/festival-asterisco-2026",
-   "descripcion": "Función del festival Asterisco en el MALBA.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://cceba.aecid.es/documents/7621494/11061606/festival-asterisco-siemprevivas-cceba-web.jpg/43afb5e9-acb3-1c78-e439-66f61598a583?t=1791386779442"
   },
   {
    "titulo": "La casa, de Aitana Cordero",
@@ -173,6 +105,40 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://cceba.aecid.es/documents/7621494/11061606/en-accion-cuadernos-cceba-web.jpg/4a15a332-c1f7-8347-6afc-b077e5006324?t=1789504603228"
+  },
+  {
+   "titulo": "12º Festival BITBANG",
+   "fecha_inicio": "2026-10-27",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "27 al 31 de octubre",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Florida 943",
+   "categoria": "Festival",
+   "precio": "",
+   "url": "https://cceba.aecid.es/w/bitbang-12-1",
+   "descripcion": "Festival de cine y audiovisual BITBANG, 12ª edición.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Fondos, colecciones y repositorios: cómo planificar un proyecto de archivo",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-05",
+   "hora": "",
+   "horarios": "4 y 5 de noviembre",
+   "lugar": "Centro Cultural de España en Buenos Aires",
+   "barrio": "San Telmo",
+   "direccion": "Florida 943",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://cceba.aecid.es/w/taller-archivos-noelia-garcia",
+   "descripcion": "Taller de formación sobre cómo planificar un proyecto de archivo, con Noelia García.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }
