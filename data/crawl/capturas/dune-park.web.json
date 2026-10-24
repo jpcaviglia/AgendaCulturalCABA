@@ -3,31 +3,30 @@
  "canal": "web",
  "fuente": "Dune Park",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://dunepark.club/",
-  "https://dunepark.club/club/",
   "https://ra.co/clubs/213422",
-  "https://ra.co/events/2558443"
+  "https://ra.co/events/2561903",
+  "http://www.dunepark.club"
  ],
  "eventos": [
   {
-   "titulo": "mita x Dune Park: aniversario 1",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
+   "titulo": "Dialektica Press Eya Records: Jos y Manuel Matus",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
    "hora": "23:59",
-   "horarios": "",
+   "horarios": "23:59 a 06:00 h",
    "lugar": "Dune Park",
    "barrio": "",
-   "direccion": "",
-   "categoria": "Fiestas",
+   "direccion": "Araoz 740",
+   "categoria": "Fiestas y electrónica",
    "precio": "",
-   "url": "https://ra.co/events/2558443",
-   "descripcion": "Primer aniversario de mita records, con house music: Pedro Gariani (São Paulo), Melania Wonder (Chile), Nebula Estudio, Panko y Manu Barceló.",
+   "url": "https://ra.co/events/2561903",
+   "descripcion": "A un año de su primera fiesta, Dialektica vuelve a Dune Park con Jos (Londres, fundador del sello y la tienda Jos), Manuel Matus y Ocio abriendo la noche.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://images.ra.co/1953d22099e3ff7e2ac9d8e9b425a20439b9b0b4.png"
+   "imagen": "https://images.ra.co/6ee45036b9a8dc91c17f27eba2c7ee9f66e6b98e.png"
   }
  ]
 }

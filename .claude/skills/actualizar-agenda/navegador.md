@@ -38,7 +38,11 @@ changed domain while the script was running (read the tab state again and repeat
 the site blocks scripts from other domains. Read `navegador.js`, paste all of it followed by the call
 (`window.__agt.preparar()`) and note `"comportamiento": {"herramientas": "pegar inline (CSP)"}` so the next
 run pastes it directly. A site whose CSP or the browser's local-network rules block `127.0.0.1` fails the
-same way.
+same way. In a Claude in Chrome session the `import` can fail on every site with no error at all (the call returns `{}` and
+`window.__agt` stays `undefined`, even though `curl http://127.0.0.1:8791/navegador.js` answers 200; a later `fetch` of that address
+froze the tab). Do not retry it: pasting the 23 KB file on each page costs ~6,000 tokens per navigation, so work with small
+snippets of your own instead: `document.body.innerText.replace(/\s+/g,' ')`, `[...document.querySelectorAll('a')]` for links and
+`fetch(url)` from the same tab for each event page (price with a `$` regex, picture from `og:image` or the card's `<img>`).
 
 Links to the same site come back as a **path** (`/agenda/`) so the domain is not repeated: the full URL is
 `base` + path. In the result (`urls_visitadas`, `entradas`, `eventos[].url`) they go in full; in
@@ -282,8 +286,9 @@ the tab it returns and navigate again. Everything kept in `window` is lost; what
   no browser needed. Check `imagen` is filled in before saving any cinema.
 - **Passline `/sitio/<id>`**: the shows are in the text (title, date, hour) but the links to each show are
   `<a href="https://www.passline.com/sitio-evento/<slug>">`: read them from the `<a>` tags, then `fetch` each one for the lowest `$`.
-- **Monthly agenda as a PDF** (Embajada del Japón: `AgendaCultural.html` redirects to `/files/<n>.pdf`): `get_page_text` finds no text;
-  scroll the browser's PDF viewer with `computer` `scroll` and read the screenshots page by page.
+- **Monthly agenda as a PDF** (Embajada del Japón: `AgendaCultural.html` redirects to `/files/<n>.pdf`): `get_page_text` finds no text and
+  `curl`/Python get 403; open the PDF in the tab, scroll the viewer 9-10 ticks with `computer` `scroll` and read one screenshot per step (5 pages ≈ 8 screenshots).
+  The viewer sometimes jumps back, so check the page number in the toolbar.
 - **Calendars by month** (`?mes=`, `/2026/10/`, "siguiente" arrows): go through the current month and the
   next one if the 14-day window crosses into it.
 - **"Actuales / Próximas / Anteriores" tabs**: open "Actuales" and "Próximas"; "Anteriores" can be discarded
@@ -320,6 +325,16 @@ page from a tab of the same site, because Python gets 403 or only the app shell)
 - **Cinexo cinemas**: `https://firebasestorage.googleapis.com/v0/b/cinexo-lastipas.appspot.com/o/Peliculas%2F<idComplejo>%2F<codigo>%2Fprimario.png?alt=media`.
 - **Not usable**: `http://` pictures (Centro Cultural Recoleta has no https; the website would block them), a venue's generic photo
   repeated in several events, and text-only sites (Casona Humahuaca's cycles, Feliza's agenda has no per-event image).
+
+- **Passline `/sitio/<slug>` with `fetch`** (Cultural Morán, Club Conjura): each card's text has `"<title> #<tag> 24 de Octubre 2026 a las 21:00 <venue>"`;
+  take the link from the `<a href*="/sitio-evento/">`, the picture from the `<img>` of the same card (`imagenes/eventos/<slug>-<id>-rec.jpg`),
+  and `fetch` each page for the lowest `$ N >= 500` (no `og:` meta tags in that HTML). 17 pages take ~25 s.
+- **Cinexo API from the tab** (Cine Gaumont): ~20-40 s per day and some days answer `Failed to fetch`; a second `fetch` while the loop runs
+  froze the tab. Ask only for the days the site publishes (the selector shows ~9 days) and read `window.__out` with short calls.
+- **Poster carousels as stacked images** (Torquato Tasso): scroll 5 ticks and `zoom` on the poster column (`region [320,0,1240,731]`, scale 0.45); posters
+  come in date order, so stop at the first one past the window.
+- **Wrong Instagram handle**: the profile page says "Sorry, this page isn't available": search Google for `<venue> instagram` (the result titles show
+  the real handle: `lalala_ortuzar`, not `lalala.ortuzar`) and correct `sitios.json` and `lugares.json` too.
 
 ## If you change `navegador.js`
 

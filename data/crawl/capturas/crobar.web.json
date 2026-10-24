@@ -3,34 +3,16 @@
  "canal": "web",
  "fuente": "Crobar",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.crobar.com.ar/",
   "https://www.crobar.com.ar/fechas",
-  "https://wearebombo.com/event/6ac3fe3784011be5ff2b8a57",
   "https://wearebombo.com/event/6ab54ad2163a685d03654024",
   "https://wearebombo.com/event/6ac6b259821e4edeca814609",
-  "https://wearebombo.com/event/6aaab66fde62fde1534e539c"
+  "https://wearebombo.com/event/6aaab66fde62fde1534e539c",
+  "https://wearebombo.app.link/bxYtH7XMo7b"
  ],
  "eventos": [
-  {
-   "titulo": "Gueva, Adelina Sofia, Cromind y Owners of Time",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "23:59",
-   "horarios": "23:59 a 07:00 h",
-   "lugar": "Crobar",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Fiestas y electrónica",
-   "precio": "Desde $ 27900",
-   "url": "https://wearebombo.com/event/6ac3fe3784011be5ff2b8a57",
-   "descripcion": "Viernes de Crobar con Gueva, Adelina Sofia, Cromind y Owners of Time, sala Club.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://files.wearebombo.com/events/blob-1791229494619-f5b2a911-0ee9-4381-88d2-0ffa3f95c8f8.webp"
-  },
   {
    "titulo": "Beico & D3fai y más @ Crobar Club",
    "fecha_inicio": "2026-10-24",
@@ -81,6 +63,23 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://files.wearebombo.com/events/blob-f865da84810a-7ed4-4468-8046-767dba1eb6e0"
+  },
+  {
+   "titulo": "DRAMER, KARM4, Mel Embom y Flowie @ Crobar Studio",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Crobar Studio",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://wearebombo.app.link/bxYtH7XMo7b",
+   "descripcion": "Viernes en la sala Studio con DRAMER, KARM4, Mel Embom y Flowie.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }

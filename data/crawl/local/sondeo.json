@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-24 12:50",
- "segundos": 206,
+ "fecha": "2026-10-24 19:50",
+ "segundos": 62,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -2467,16 +2467,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "time-out-arte",
-   "web": "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "eventbrite-buenos-aires",
    "web": "https://www.eventbrite.com.ar/d/argentina--buenos-aires/events/",
    "plataforma": [],
@@ -2574,36 +2564,6 @@
   {
    "id": "passline",
    "web": "https://www.passline.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-casa-del-arbol",
-   "web": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "club-conjura",
-   "web": "https://www.passline.com/sitio/2191791-club-conjura",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-paz-arriba",
-   "web": "https://www.passline.com/sitio/la-paz-arriba",
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
@@ -2995,155 +2955,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "sala-lugones",
-   "web": "https://complejoteatral.gob.ar/cine",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://complejoteatral.gob.ar/genero/cine/",
-   "paginas_agenda": [
-    "https://complejoteatral.gob.ar/agenda/",
-    "https://complejoteatral.gob.ar/visitas-guiadas/",
-    "https://complejoteatral.gob.ar/recursos-para-espectadores/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 30,
-   "texto_portada": 8340,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/sala-lugones.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "complejo-teatral-de-buenos-aires",
-   "web": "https://complejoteatral.gob.ar/agenda/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://complejoteatral.gob.ar/agenda/",
-   "paginas_agenda": [
-    "https://complejoteatral.gob.ar/visitas-guiadas/",
-    "https://complejoteatral.gob.ar/recursos-para-espectadores/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 30,
-   "texto_portada": 7328,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/complejo-teatral-de-buenos-aires.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "nuestro-cine",
-   "web": "https://linktr.ee/nuestrocine",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://linktr.ee/nuestrocine",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 4879,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/nuestro-cine.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "club-cultural-mares",
-   "web": "https://linktr.ee/mares_",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://linktr.ee/mares_",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 6,
-   "texto_portada": 5129,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/club-cultural-mares.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-minga-club-cultural",
-   "web": "https://linktr.ee/lamingacc",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://linktr.ee/lamingacc",
-   "paginas_agenda": [
-    "https://linktr.ee/agendajanainacruz"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 2,
-   "texto_portada": 4911,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "espacio-malcolm",
-   "web": "https://linktr.ee/espaciomalcolm",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://linktr.ee/espaciomalcolm",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 2,
-   "texto_portada": 4696,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "deseo-bsas",
-   "web": "https://linktr.ee/deseobsas",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://linktr.ee/deseobsas",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 90,
-   "texto_portada": 7175,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/deseo-bsas.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-nube",
-   "web": "https://linktr.ee/lanubebuenosaires",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://linktr.ee/lanubebuenosaires",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 10,
-   "texto_portada": 5391,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/la-nube.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "cultural-moran",
-   "web": "https://www.culturalmoran.com",
-   "plataforma": [
-    "squarespace"
-   ],
-   "pedidos": 3,
-   "url_final": "https://www.culturalmoran.com",
-   "paginas_agenda": [
-    "https://www.culturalmoran.com/eventos-anteriores"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1441,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "archibrazo",
    "web": "https://www.archibrazo.org/agenda/",
    "plataforma": [
@@ -3197,121 +3008,6 @@
    "motivo": "HTTP 403",
    "fecha": "2026-10-24 12:47",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-asociacion-mutual-homero-manzi",
-   "web": "https://www.mutualhomeromanzi.blogspot.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-568358517:1792856866824117",
-   "redirige_a": "accounts.google.com",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1083,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "club-cultural-bula",
-   "web": "https://alpogo.com/buscar?busqueda=bula",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://alpogo.com/buscar?busqueda=bula",
-   "paginas_agenda": [
-    "https://alpogo.com/evento/abatov-28501",
-    "https://alpogo.com/evento/la-noche-stone-2410-29351",
-    "https://alpogo.com/evento/surfer-rosas-15-anos-con-fantasmagoria-sugar-tampaxxx-y-mas-29457"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 24,
-   "texto_portada": 5608,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/club-cultural-bula.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "emergente-club-almagro",
-   "web": "http://elemergente.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://elemergente.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 9339,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "espacio-la-tribu",
-   "web": "https://fmlatribu.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://fmlatribu.com/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 18,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "espacio-moebius",
-   "web": "https://www.moebiuseditora.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "timeout",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "hasta-trilce",
-   "web": "https://www.hastatrilce.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://hastatrilce.com.ar/",
-   "paginas_agenda": [
-    "https://hastatrilce.com.ar/programacion/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 68,
-   "texto_portada": 3063,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/hasta-trilce.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-vieja-guardia",
-   "web": "https://www.laviejaguarida.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.laviejaguarida.com.ar",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 59,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-alfonsina-storni",
-   "web": "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "conexión cortada",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "no_carga"
   },
   {
    "id": "casa-de-la-cultura",
@@ -3385,253 +3081,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "museo-de-la-ciudad",
-   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
-   "paginas_agenda": [
-    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo/exposiciones"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 7,
-   "texto_portada": 3750,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-de-la-ciudad.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-casa-carlos-gardel",
-   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 8,
-   "texto_portada": 3395,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-casa-carlos-gardel.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-historico-de-buenos-aires-cornelio-de-saavedra",
-   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
-   "paginas_agenda": [
-    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente",
-    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente/exposiciones-temporarias"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 7,
-   "texto_portada": 3786,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-historico-de-buenos-aires-cornelio-de-saavedra.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-ricardo-rojas",
-   "web": "https://www.rojas.uba.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 503",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "ciudad-cultural-konex",
-   "web": "https://www.cckonex.org",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://www.cckonex.org",
-   "paginas_agenda": [
-    "https://www.cckonex.org/agenda/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 14,
-   "texto_portada": 3732,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/ciudad-cultural-konex.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "el-sabato-espacio-cultural",
-   "web": "https://elsabato.economicas.uba.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://elsabato.economicas.uba.ar/",
-   "paginas_agenda": [
-    "https://elsabato.economicas.uba.ar/seminario-intensivo-introduccion-a-la-puesta-en-escena/",
-    "https://elsabato.economicas.uba.ar/inscripcion-a-los-talleres-de-cultura/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 9,
-   "texto_portada": 2689,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/el-sabato-espacio-cultural.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "esquina-rebelde-centro-cultural",
-   "web": "https://www.facebook.com/esquinarebelde",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
-   "id": "cultural-mamita",
-   "web": "https://www.facebook.com/BarMamita",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
-   "id": "jaciento-oviedo",
-   "web": "http://aluvionciudadano.blogspot.com",
-   "plataforma": [],
-   "pedidos": 2,
-   "url_final": "http://aluvionciudadano.blogspot.com",
-   "paginas_agenda": [
-    "http://aluvionciudadano.blogspot.com/search/label/agenda"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 31,
-   "texto_portada": 26922,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/jaciento-oviedo.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "mu-trincher-boutique",
-   "web": "https://lavaca.org/trinchera/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://lavaca.org/trinchera/",
-   "paginas_agenda": [
-    "https://lavaca.org/trinchera/cartelera-2025-marzo/",
-    "https://lavaca.org/trinchera/shop/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 7,
-   "texto_portada": 238,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "panda-rojo-espacio-cultural",
-   "web": "https://pandarojo.com.ar/contacto/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://pandarojo.com.ar/contacto/",
-   "paginas_agenda": [
-    "https://pandarojo.com.ar/cartelera/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 1022,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/panda-rojo-espacio-cultural.txt",
-   "fecha": "2026-10-24 12:47",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "puerta-18",
-   "web": "https://www.puerta18.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://www.puerta18.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3163,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "circuito-cultural-barracas",
-   "web": "https://www.ccbarracas.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 2,
-   "url_final": "https://ccbarracas.com.ar/",
-   "paginas_agenda": [
-    "https://ccbarracas.com.ar/las-mejores-actividades-en-barracas-buenos-aires/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 48,
-   "texto_portada": 7340,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/circuito-cultural-barracas.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "el-castillo-de-sandro",
-   "web": "https://culturalcava.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://culturalcava.ar/",
-   "paginas_agenda": [
-    "https://culturalcava.ar/cartelera/",
-    "https://culturalcava.ar/talleres-y-cursos/",
-    "https://culturalcava.ar/visitas-guiadas/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 31,
-   "texto_portada": 3344,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/el-castillo-de-sandro.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "sigue-la-polilla",
-   "web": "https://siguelapolilla.com/",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://siguelapolilla.com/",
-   "paginas_agenda": [
-    "https://siguelapolilla.com/programacion",
-    "https://siguelapolilla.com/formacion"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 3074,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "artlab",
    "web": "https://artlabpro.net/agenda/",
    "plataforma": [
@@ -3665,34 +3114,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "el-galpon-de-guevara",
-   "web": "https://www.galpondeguevara.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "espacio-simona",
-   "web": "https://www.cafaccess.com/productora/simona-producciones",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://www.cafaccess.com/productora/simona-producciones",
-   "paginas_agenda": [
-    "https://www.cafaccess.com/descubrir",
-    "https://www.cafaccess.com/landing",
-    "https://www.cafaccess.com/crear-evento"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 854,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "alianza-francesa",
    "web": "https://www.alianzafrancesa.org.ar",
    "plataforma": [],
@@ -3712,72 +3133,6 @@
    "texto": "data/crawl/local/textos/alianza-francesa.txt",
    "fecha": "2026-10-24 12:48",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "el-galpon-de-catalinas",
-   "web": "https://www.catalinasur.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://catalinasur.com.ar/",
-   "paginas_agenda": [
-    "https://catalinasur.com.ar/proximamente/",
-    "https://catalinasur.com.ar/talleres/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 1528,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "usina-del-arte",
-   "web": "https://usinadelarte.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://usinadelarte.ar/",
-   "paginas_agenda": [
-    "https://usinadelarte.ar/actividades/",
-    "https://usinadelarte.ar/ciclo-musica-de-camara-conciertos-de-octubre/",
-    "https://usinadelarte.ar/ciclo-musica-de-camara-conoce-la-programacion-de-septiembre/",
-    "https://usinadelarte.ar/actividad/taller-mi-botiquin-emocional-por-juegologia/",
-    "https://usinadelarte.ar/actividad/emociones-en-accion-taller-de-dibujo-nos-acompana-filgo/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 13,
-   "texto_portada": 2187,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/usina-del-arte.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "cine-club-farus",
-   "web": "https://cineclubfarus.taplink.bio",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://cineclubfarus.taplink.bio",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 27,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "asociacion-cultural-armenia",
-   "web": "https://www.acaculturalarmenia.org.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "certificado inválido",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_carga"
   },
   {
    "id": "centro-cultural-de-la-ciencia",
@@ -3816,90 +3171,6 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "congo",
-   "web": "https://congoclubcultural.com.ar",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 2,
-   "url_final": "https://congoclubcultural.com.ar",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 190,
-   "texto_portada": 49883,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/congo.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "la-tangente",
-   "web": "https://latangente.com.ar/",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 2,
-   "url_final": "https://latangente.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1307,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "nueva-uriarte",
-   "web": "https://ccnuevauriarte.com.ar/",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://ccnuevauriarte.com.ar/",
-   "paginas_agenda": [
-    "https://ccnuevauriarte.com.ar/programacion.html",
-    "https://ccnuevauriarte.com.ar/talleres.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 8,
-   "texto_portada": 1676,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/nueva-uriarte.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "the-monkeys",
-   "web": "https://themonkeys.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://themonkeys.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 420,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "chela",
-   "web": "https://chela.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://chela.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 6,
-   "texto_portada": 3875,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/chela.txt",
    "fecha": "2026-10-24 12:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -3988,44 +3259,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "centro-arzuano-mellidense-cam",
-   "web": "https://sites.google.com/site/centroarzuanomellidense/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1256567812:1792856903044933",
-   "redirige_a": "accounts.google.com",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1072,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
-   "id": "centro-salamanca-recreativo-cultural-y-s",
-   "web": "https://centrosalamanca.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://centrosalamanca.com.ar/",
-   "paginas_agenda": [
-    "https://centrosalamanca.com.ar/centro/eventos/bernarda-alba-epilogo-de-un-drama/",
-    "https://centrosalamanca.com.ar/centro/eventos/taller-de-opera-del-conservatorio-superior-de-musica-manuel-de-falla/",
-    "https://centrosalamanca.com.ar/centro/eventos/carmina-burana/",
-    "https://centrosalamanca.com.ar/centro/clases/flexibilidad-y-fortalecimiento/",
-    "https://centrosalamanca.com.ar/centro/clases/taekwondo/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 19,
-   "texto_portada": 2441,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/centro-salamanca-recreativo-cultural-y-s.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
    "web": "https://www.centrocultural.coop",
    "plataforma": [],
@@ -4041,20 +3274,6 @@
    "texto_portada": 2451,
    "clase": "html",
    "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
-   "web": "https://www.ar.emb-japan.go.jp",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.ar.emb-japan.go.jp",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 10,
-   "clase": "needs_browser",
    "fecha": "2026-10-24 12:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -4113,53 +3332,6 @@
    "guardado": 2
   },
   {
-   "id": "la-ronda-espacio-cultural",
-   "web": "https://larondaespaciocultural.com.ar/",
-   "plataforma": [
-    "tiendanube"
-   ],
-   "pedidos": 4,
-   "url_final": "https://larondaespaciocultural.com.ar/",
-   "paginas_agenda": [
-    "https://larondaespaciocultural.com.ar/actividades1/",
-    "https://larondaespaciocultural.com.ar/cursos-on-demand/",
-    "https://larondaespaciocultural.com.ar/productos/taller-de-lectura-sagas-y-trologias/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 2756,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/la-ronda-espacio-cultural.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-torquato-tasso",
-   "web": "https://www.torquatotasso.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://torquatotasso.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 159,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-social-y-cultural-casa-cambalache",
-   "web": "https://www.clubsocialcambalache.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 403",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "casa-brandon",
    "web": "https://brandon.org.ar/",
    "plataforma": [
@@ -4181,115 +3353,12 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "club-cultural-matienzo",
-   "web": "https://www.ccmatienzo.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "doup",
-   "web": "https://www.doup.com.ar",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.doup.com.ar",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1188,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "el-jufre-teatro-bar",
-   "web": "https://eljufre.com.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://eljufre.com.ar/",
-   "paginas_agenda": [
-    "https://eljufre.com.ar/cartelera-miercoles/",
-    "https://eljufre.com.ar/cartelera-jue/",
-    "https://eljufre.com.ar/cartelera-viernes/",
-    "https://eljufre.com.ar/talleres-verano/",
-    "https://eljufre.com.ar/talleres-y-seminarios/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 664,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "poncho-club-cultural",
-   "web": "https://ponchoteatro.com/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://ponchoteatro.com/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 55,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "otra-historia",
-   "web": "https://otrahistoria.com.ar/",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 5,
-   "url_final": "https://otrahistoria.com.ar/",
-   "paginas_agenda": [
-    "https://otrahistoria.com.ar/evento/honey-bunny-ciclo-de-cine/",
-    "https://otrahistoria.com.ar/evento/unplugged-de-terror/",
-    "https://otrahistoria.com.ar/evento/defest-vol-11/"
-   ],
-   "jsonld_eventos": 3,
-   "fechas_en_texto": 9,
-   "texto_portada": 1364,
-   "clase": "jsonld",
-   "ejemplos": [
-    {
-     "titulo": "Honey Bunny CICLO DE CINE",
-     "inicio": "2026-10-24T16:00:00-03:00"
-    }
-   ],
-   "texto": "data/crawl/local/textos/otra-historia.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos",
-   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
-  },
-  {
    "id": "centro-cultural-armoza",
    "web": "https://ccarmoza.com/",
    "plataforma": [],
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "cine-gaumont-espacio-incaa",
-   "web": "https://www.cinegaumont.ar/es-AR#cartelera",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.cinegaumont.ar/es-AR#cartelera",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 14,
-   "clase": "needs_browser",
    "fecha": "2026-10-24 12:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -4532,210 +3601,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "museo-evita",
-   "web": "https://museoevita.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 4,
-   "url_final": "https://museoevita.org.ar/",
-   "paginas_agenda": [
-    "https://museoevita.org.ar/agenda/",
-    "https://museoevita.org.ar/visitas-guiadas/",
-    "https://museoevita.org.ar/taller-de-verano-bordar-lazos/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 18,
-   "texto_portada": 3194,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-evita.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-historico-nacional",
-   "web": "https://museohistoriconacional.cultura.gob.ar/",
-   "plataforma": [],
-   "pedidos": 6,
-   "url_final": "https://museohistoriconacional.cultura.gob.ar/",
-   "paginas_agenda": [
-    "https://museohistoriconacional.cultura.gob.ar/exhibiciones/",
-    "https://museohistoriconacional.cultura.gob.ar/actividades/",
-    "https://museohistoriconacional.cultura.gob.ar/exhibicion/pintores-de-la-historia/",
-    "https://museohistoriconacional.cultura.gob.ar/info/visitas/",
-    "https://museohistoriconacional.cultura.gob.ar/noticia/grandes-exitos-recorridos-por-la-coleccion-del-museo-historico-nacional/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 44,
-   "texto_portada": 6558,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-historico-nacional.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-historico-sarmiento",
-   "web": "https://museosarmiento.cultura.gob.ar/",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://museosarmiento.cultura.gob.ar/",
-   "paginas_agenda": [
-    "https://museosarmiento.cultura.gob.ar/exhibiciones/",
-    "https://museosarmiento.cultura.gob.ar/actividades/",
-    "https://museosarmiento.cultura.gob.ar/exhibicion/sarmiento-escritor-una-marana-textual-en-busca-de-orden/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 43,
-   "texto_portada": 3514,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-historico-sarmiento.txt",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-etnografico-juan-b-ambrosetti",
-   "web": "https://museo.filo.uba.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 404",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "muntref-museo-de-la-inmigracion",
-   "web": "https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
-   "paginas_agenda": [
-    "https://museos.untref.edu.ar/es/muestras/del-mediterraneo-oriental-al-plata/",
-    "https://museos.untref.edu.ar/es/muestras/para-todos-los-hombres-del-mundo-2/",
-    "https://museos.untref.edu.ar/es/muestras/el-legado-que-inspira-el-futuro/",
-    "https://museos.untref.edu.ar/es/recorridos-virtuales/",
-    "https://museos.untref.edu.ar/es/noticias/muntref-recorridos-virtuales-unicos-en-la-region-2/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 3029,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/muntref-museo-de-la-inmigracion.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
-   "web": "https://www.macnconicet.gob.ar/",
-   "plataforma": [
-    "wordpress",
-    "tribe"
-   ],
-   "pedidos": 7,
-   "url_final": "https://www.macnconicet.gob.ar/",
-   "paginas_agenda": [
-    "https://www.macnconicet.gob.ar/exhibiciones/",
-    "https://www.macnconicet.gob.ar/actividades-para-hacer-en-casa/",
-    "https://www.macnconicet.gob.ar/aves-del-pastizal-pampeano-muestra-fotografica/",
-    "https://www.macnconicet.gob.ar/visitas-reapertura/",
-    "https://www.macnconicet.gob.ar/visitas-reapertura//"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 4,
-   "texto_portada": 6671,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-argentino-de-ciencias-naturales-bernardino-rivadavia.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "planetario-galileo-galilei",
-   "web": "https://planetario.buenosaires.gob.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "conexión cortada",
-   "fecha": "2026-10-24 12:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-casa-de-ricardo-rojas",
-   "web": "https://museorojas.cultura.gob.ar/",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://museorojas.cultura.gob.ar/",
-   "paginas_agenda": [
-    "https://museorojas.cultura.gob.ar/exhibiciones/",
-    "https://museorojas.cultura.gob.ar/actividades/",
-    "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 43,
-   "texto_portada": 6328,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/museo-casa-de-ricardo-rojas.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-del-holocausto-de-buenos-aires",
-   "web": "https://museodelholocausto.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://museodelholocausto.org.ar/",
-   "paginas_agenda": [
-    "https://museodelholocausto.org.ar/la-muestra/",
-    "https://museodelholocausto.org.ar/muestras/?filter=38",
-    "https://museodelholocausto.org.ar/muestras/?filter=40",
-    "https://museodelholocausto.org.ar/turnos/",
-    "https://museodelholocausto.org.ar/nuestros-cursos/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 2905,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-judio-de-buenos-aires",
-   "web": "https://museojudio.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://museojudio.org.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 2631,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "museo-malvinas-e-islas-del-atlantico-sur",
-   "web": "https://museomalvinas.cultura.gob.ar/",
-   "plataforma": [],
-   "pedidos": 5,
-   "url_final": "https://museomalvinas.cultura.gob.ar/",
-   "paginas_agenda": [
-    "https://museomalvinas.cultura.gob.ar/exhibiciones/",
-    "https://museomalvinas.cultura.gob.ar/exhibicion/malvinas-testimonio-y-legado/",
-    "https://museomalvinas.cultura.gob.ar/exhibicion/exhibicion-permanente/",
-    "https://museomalvinas.cultura.gob.ar/info/visita/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 2,
-   "texto_portada": 3000,
-   "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "vidriera-ba",
    "web": "https://vidrierabuenosaires.com/agenda",
    "plataforma": [],
@@ -4800,29 +3665,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "teatro-colon",
-   "web": "https://teatrocolon.org.ar/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 6,
-   "url_final": "https://teatrocolon.org.ar/",
-   "paginas_agenda": [
-    "https://teatrocolon.org.ar/calendario/",
-    "https://teatrocolon.org.ar/calendario/?a=2026&mes=11",
-    "https://teatrocolon.org.ar/calendario/?a=2026&mes=12",
-    "https://teatrocolon.org.ar/visitas-guiadas/",
-    "https://teatrocolon.org.ar/visitas-escolares/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 26,
-   "texto_portada": 12005,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/teatro-colon.txt",
-   "fecha": "2026-10-24 12:49",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "jodify",
    "web": "https://jodify.com.ar/events",
    "plataforma": [],
@@ -4845,6 +3687,1175 @@
    "clase": "html",
    "texto": "data/crawl/local/textos/buenos-aliens.txt",
    "fecha": "2026-10-24 12:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "time-out-arte",
+   "web": "https://www.timeout.com/es/buenos-aires/arte-2026-agenda-calendario-cultura",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "sala-lugones",
+   "web": "https://complejoteatral.gob.ar/cine",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://complejoteatral.gob.ar/genero/cine/",
+   "paginas_agenda": [
+    "https://complejoteatral.gob.ar/agenda/",
+    "https://complejoteatral.gob.ar/visitas-guiadas/",
+    "https://complejoteatral.gob.ar/recursos-para-espectadores/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 30,
+   "texto_portada": 8340,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/sala-lugones.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "complejo-teatral-de-buenos-aires",
+   "web": "https://complejoteatral.gob.ar/agenda/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://complejoteatral.gob.ar/agenda/",
+   "paginas_agenda": [
+    "https://complejoteatral.gob.ar/visitas-guiadas/",
+    "https://complejoteatral.gob.ar/recursos-para-espectadores/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 30,
+   "texto_portada": 7328,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/complejo-teatral-de-buenos-aires.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "nuestro-cine",
+   "web": "https://linktr.ee/nuestrocine",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/nuestrocine",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 4879,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/nuestro-cine.txt",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "club-cultural-mares",
+   "web": "https://linktr.ee/mares_",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/mares_",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 6,
+   "texto_portada": 5129,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/club-cultural-mares.txt",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-minga-club-cultural",
+   "web": "https://linktr.ee/lamingacc",
+   "plataforma": [],
+   "pedidos": 2,
+   "url_final": "https://linktr.ee/lamingacc",
+   "paginas_agenda": [
+    "https://linktr.ee/agendajanainacruz"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 2,
+   "texto_portada": 4911,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "espacio-malcolm",
+   "web": "https://linktr.ee/espaciomalcolm",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/espaciomalcolm",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 2,
+   "texto_portada": 4696,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "deseo-bsas",
+   "web": "https://linktr.ee/deseobsas",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/deseobsas",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 88,
+   "texto_portada": 7107,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/deseo-bsas.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-nube",
+   "web": "https://linktr.ee/lanubebuenosaires",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://linktr.ee/lanubebuenosaires",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 10,
+   "texto_portada": 5391,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/la-nube.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "cultural-moran",
+   "web": "https://www.culturalmoran.com",
+   "plataforma": [
+    "squarespace"
+   ],
+   "pedidos": 3,
+   "url_final": "https://www.culturalmoran.com",
+   "paginas_agenda": [
+    "https://www.culturalmoran.com/eventos-anteriores"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1441,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-asociacion-mutual-homero-manzi",
+   "web": "https://www.mutualhomeromanzi.blogspot.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S235036430:1792882199698420",
+   "redirige_a": "accounts.google.com",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1083,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "club-cultural-bula",
+   "web": "https://alpogo.com/buscar?busqueda=bula",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://alpogo.com/buscar?busqueda=bula",
+   "paginas_agenda": [
+    "https://alpogo.com/evento/abatov-28501",
+    "https://alpogo.com/evento/la-noche-stone-2410-29351",
+    "https://alpogo.com/evento/surfer-rosas-15-anos-con-fantasmagoria-sugar-tampaxxx-y-mas-29457"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 24,
+   "texto_portada": 5611,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/club-cultural-bula.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "emergente-club-almagro",
+   "web": "http://elemergente.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://elemergente.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 9339,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "espacio-la-tribu",
+   "web": "https://fmlatribu.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://fmlatribu.com/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 18,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "espacio-moebius",
+   "web": "https://www.moebiuseditora.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "conexión rechazada",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "hasta-trilce",
+   "web": "https://www.hastatrilce.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://hastatrilce.com.ar/",
+   "paginas_agenda": [
+    "https://hastatrilce.com.ar/programacion/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 68,
+   "texto_portada": 3063,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/hasta-trilce.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-vieja-guardia",
+   "web": "https://www.laviejaguarida.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.laviejaguarida.com.ar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 59,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-alfonsina-storni",
+   "web": "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "conexión cortada",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "museo-de-la-ciudad",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+   "plataforma": [],
+   "pedidos": 2,
+   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+   "paginas_agenda": [
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo/exposiciones"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 7,
+   "texto_portada": 3750,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-de-la-ciudad.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-casa-carlos-gardel",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 8,
+   "texto_portada": 3395,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-casa-carlos-gardel.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-historico-de-buenos-aires-cornelio-de-saavedra",
+   "web": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
+   "paginas_agenda": [
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente",
+    "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente/exposiciones-temporarias"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 7,
+   "texto_portada": 3786,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-historico-de-buenos-aires-cornelio-de-saavedra.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-ricardo-rojas",
+   "web": "https://www.rojas.uba.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 503",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "ciudad-cultural-konex",
+   "web": "https://www.cckonex.org",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://www.cckonex.org",
+   "paginas_agenda": [
+    "https://www.cckonex.org/agenda/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 14,
+   "texto_portada": 3732,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/ciudad-cultural-konex.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "el-sabato-espacio-cultural",
+   "web": "https://elsabato.economicas.uba.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://elsabato.economicas.uba.ar/",
+   "paginas_agenda": [
+    "https://elsabato.economicas.uba.ar/seminario-intensivo-introduccion-a-la-puesta-en-escena/",
+    "https://elsabato.economicas.uba.ar/inscripcion-a-los-talleres-de-cultura/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 9,
+   "texto_portada": 2689,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/el-sabato-espacio-cultural.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "esquina-rebelde-centro-cultural",
+   "web": "https://www.facebook.com/esquinarebelde",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "cultural-mamita",
+   "web": "https://www.facebook.com/BarMamita",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "jaciento-oviedo",
+   "web": "http://aluvionciudadano.blogspot.com",
+   "plataforma": [],
+   "pedidos": 2,
+   "url_final": "http://aluvionciudadano.blogspot.com",
+   "paginas_agenda": [
+    "http://aluvionciudadano.blogspot.com/search/label/agenda"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 31,
+   "texto_portada": 26922,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/jaciento-oviedo.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_cultural"
+  },
+  {
+   "id": "mu-trincher-boutique",
+   "web": "https://lavaca.org/trinchera/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://lavaca.org/trinchera/",
+   "paginas_agenda": [
+    "https://lavaca.org/trinchera/cartelera-2025-marzo/",
+    "https://lavaca.org/trinchera/shop/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 7,
+   "texto_portada": 238,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "panda-rojo-espacio-cultural",
+   "web": "https://pandarojo.com.ar/contacto/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://pandarojo.com.ar/contacto/",
+   "paginas_agenda": [
+    "https://pandarojo.com.ar/cartelera/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 1022,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/panda-rojo-espacio-cultural.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "puerta-18",
+   "web": "https://www.puerta18.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://www.puerta18.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3159,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_cultural"
+  },
+  {
+   "id": "circuito-cultural-barracas",
+   "web": "https://www.ccbarracas.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 2,
+   "url_final": "https://ccbarracas.com.ar/",
+   "paginas_agenda": [
+    "https://ccbarracas.com.ar/las-mejores-actividades-en-barracas-buenos-aires/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 48,
+   "texto_portada": 7340,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/circuito-cultural-barracas.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_cultural"
+  },
+  {
+   "id": "el-castillo-de-sandro",
+   "web": "https://culturalcava.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://culturalcava.ar/",
+   "paginas_agenda": [
+    "https://culturalcava.ar/cartelera/",
+    "https://culturalcava.ar/talleres-y-cursos/",
+    "https://culturalcava.ar/visitas-guiadas/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 31,
+   "texto_portada": 3344,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/el-castillo-de-sandro.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "sigue-la-polilla",
+   "web": "https://siguelapolilla.com/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://siguelapolilla.com/",
+   "paginas_agenda": [
+    "https://siguelapolilla.com/programacion",
+    "https://siguelapolilla.com/formacion"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 3074,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "el-galpon-de-guevara",
+   "web": "https://www.galpondeguevara.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "espacio-simona",
+   "web": "https://www.cafaccess.com/productora/simona-producciones",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://www.cafaccess.com/productora/simona-producciones",
+   "paginas_agenda": [
+    "https://www.cafaccess.com/descubrir",
+    "https://www.cafaccess.com/landing",
+    "https://www.cafaccess.com/crear-evento"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 854,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "el-galpon-de-catalinas",
+   "web": "https://www.catalinasur.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://catalinasur.com.ar/",
+   "paginas_agenda": [
+    "https://catalinasur.com.ar/proximamente/",
+    "https://catalinasur.com.ar/talleres/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 1528,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "usina-del-arte",
+   "web": "https://usinadelarte.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://usinadelarte.ar/",
+   "paginas_agenda": [
+    "https://usinadelarte.ar/actividades/",
+    "https://usinadelarte.ar/ciclo-musica-de-camara-conciertos-de-octubre/",
+    "https://usinadelarte.ar/ciclo-musica-de-camara-conoce-la-programacion-de-septiembre/",
+    "https://usinadelarte.ar/actividad/taller-mi-botiquin-emocional-por-juegologia/",
+    "https://usinadelarte.ar/actividad/emociones-en-accion-taller-de-dibujo-nos-acompana-filgo/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 13,
+   "texto_portada": 2187,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/usina-del-arte.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "cine-club-farus",
+   "web": "https://cineclubfarus.taplink.bio",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://cineclubfarus.taplink.bio",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 27,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "asociacion-cultural-armenia",
+   "web": "https://www.acaculturalarmenia.org.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "certificado inválido",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "congo",
+   "web": "https://congoclubcultural.com.ar",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 2,
+   "url_final": "https://congoclubcultural.com.ar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 190,
+   "texto_portada": 49883,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/congo.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-tangente",
+   "web": "https://latangente.com.ar/",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 2,
+   "url_final": "https://latangente.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1307,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-casa-del-arbol",
+   "web": "https://www.passline.com/productora/3146512-el-arbol-cultural-sas",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "club-conjura",
+   "web": "https://www.passline.com/sitio/2191791-club-conjura",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-paz-arriba",
+   "web": "https://www.passline.com/sitio/la-paz-arriba",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "nueva-uriarte",
+   "web": "https://ccnuevauriarte.com.ar/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://ccnuevauriarte.com.ar/",
+   "paginas_agenda": [
+    "https://ccnuevauriarte.com.ar/programacion.html",
+    "https://ccnuevauriarte.com.ar/talleres.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 8,
+   "texto_portada": 1676,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/nueva-uriarte.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "the-monkeys",
+   "web": "https://themonkeys.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://themonkeys.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 420,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "chela",
+   "web": "https://chela.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://chela.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 6,
+   "texto_portada": 3875,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/chela.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-arzuano-mellidense-cam",
+   "web": "https://sites.google.com/site/centroarzuanomellidense/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S657542230:1792882222224584",
+   "redirige_a": "accounts.google.com",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1072,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "centro-salamanca-recreativo-cultural-y-s",
+   "web": "https://centrosalamanca.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://centrosalamanca.com.ar/",
+   "paginas_agenda": [
+    "https://centrosalamanca.com.ar/centro/eventos/bernarda-alba-epilogo-de-un-drama/",
+    "https://centrosalamanca.com.ar/centro/eventos/taller-de-opera-del-conservatorio-superior-de-musica-manuel-de-falla/",
+    "https://centrosalamanca.com.ar/centro/eventos/carmina-burana/",
+    "https://centrosalamanca.com.ar/centro/clases/flexibilidad-y-fortalecimiento/",
+    "https://centrosalamanca.com.ar/centro/clases/taekwondo/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 19,
+   "texto_portada": 2441,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/centro-salamanca-recreativo-cultural-y-s.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
+   "web": "https://www.ar.emb-japan.go.jp",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.ar.emb-japan.go.jp",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 10,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "la-ronda-espacio-cultural",
+   "web": "https://larondaespaciocultural.com.ar/",
+   "plataforma": [
+    "tiendanube"
+   ],
+   "pedidos": 4,
+   "url_final": "https://larondaespaciocultural.com.ar/",
+   "paginas_agenda": [
+    "https://larondaespaciocultural.com.ar/actividades1/",
+    "https://larondaespaciocultural.com.ar/cursos-on-demand/",
+    "https://larondaespaciocultural.com.ar/productos/taller-de-lectura-sagas-y-trologias/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 2756,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/la-ronda-espacio-cultural.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-torquato-tasso",
+   "web": "https://www.torquatotasso.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://torquatotasso.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 159,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-social-y-cultural-casa-cambalache",
+   "web": "https://www.clubsocialcambalache.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 403",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "club-cultural-matienzo",
+   "web": "https://www.ccmatienzo.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "doup",
+   "web": "https://www.doup.com.ar",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.doup.com.ar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1188,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "no_cultural"
+  },
+  {
+   "id": "el-jufre-teatro-bar",
+   "web": "https://eljufre.com.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://eljufre.com.ar/",
+   "paginas_agenda": [
+    "https://eljufre.com.ar/cartelera-miercoles/",
+    "https://eljufre.com.ar/cartelera-jue/",
+    "https://eljufre.com.ar/cartelera-viernes/",
+    "https://eljufre.com.ar/talleres-verano/",
+    "https://eljufre.com.ar/talleres-y-seminarios/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 664,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "poncho-club-cultural",
+   "web": "https://ponchoteatro.com/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://ponchoteatro.com/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 55,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "otra-historia",
+   "web": "https://otrahistoria.com.ar/",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 5,
+   "url_final": "https://otrahistoria.com.ar/",
+   "paginas_agenda": [
+    "https://otrahistoria.com.ar/evento/unplugged-de-terror/",
+    "https://otrahistoria.com.ar/evento/defest-vol-11/",
+    "https://otrahistoria.com.ar/evento/la-valdenegro-fiesta/"
+   ],
+   "jsonld_eventos": 3,
+   "fechas_en_texto": 9,
+   "texto_portada": 1378,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "UNPLUGGED de terror",
+     "inicio": "2026-10-24T20:00:00-03:00"
+    }
+   ],
+   "texto": "data/crawl/local/textos/otra-historia.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
+  },
+  {
+   "id": "cine-gaumont-espacio-incaa",
+   "web": "https://www.cinegaumont.ar/es-AR#cartelera",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.cinegaumont.ar/es-AR#cartelera",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 14,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-evita",
+   "web": "https://museoevita.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 4,
+   "url_final": "https://museoevita.org.ar/",
+   "paginas_agenda": [
+    "https://museoevita.org.ar/agenda/",
+    "https://museoevita.org.ar/visitas-guiadas/",
+    "https://museoevita.org.ar/taller-de-verano-bordar-lazos/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 18,
+   "texto_portada": 3194,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-evita.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-historico-nacional",
+   "web": "https://museohistoriconacional.cultura.gob.ar/",
+   "plataforma": [],
+   "pedidos": 6,
+   "url_final": "https://museohistoriconacional.cultura.gob.ar/",
+   "paginas_agenda": [
+    "https://museohistoriconacional.cultura.gob.ar/exhibiciones/",
+    "https://museohistoriconacional.cultura.gob.ar/actividades/",
+    "https://museohistoriconacional.cultura.gob.ar/exhibicion/pintores-de-la-historia/",
+    "https://museohistoriconacional.cultura.gob.ar/info/visitas/",
+    "https://museohistoriconacional.cultura.gob.ar/noticia/grandes-exitos-recorridos-por-la-coleccion-del-museo-historico-nacional/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 44,
+   "texto_portada": 6558,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-historico-nacional.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-historico-sarmiento",
+   "web": "https://museosarmiento.cultura.gob.ar/",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://museosarmiento.cultura.gob.ar/",
+   "paginas_agenda": [
+    "https://museosarmiento.cultura.gob.ar/exhibiciones/",
+    "https://museosarmiento.cultura.gob.ar/actividades/",
+    "https://museosarmiento.cultura.gob.ar/exhibicion/sarmiento-escritor-una-marana-textual-en-busca-de-orden/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 43,
+   "texto_portada": 3514,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-historico-sarmiento.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-etnografico-juan-b-ambrosetti",
+   "web": "https://museo.filo.uba.ar/",
+   "plataforma": [],
+   "pedidos": 6,
+   "url_final": "https://museo.filo.uba.ar/",
+   "paginas_agenda": [
+    "https://museo.filo.uba.ar/videogu%C3%ADas-en-lengua-de-se%C3%B1as-argentina-lsa",
+    "https://museo.filo.uba.ar/eventos",
+    "https://museo.filo.uba.ar/exposiciones",
+    "https://museo.filo.uba.ar/la-cantera-de-recursos-0",
+    "https://museo.filo.uba.ar/la-cantera-de-recursos"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1198,
+   "texto_portada": 6283,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-etnografico-juan-b-ambrosetti.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "muntref-museo-de-la-inmigracion",
+   "web": "https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
+   "paginas_agenda": [
+    "https://museos.untref.edu.ar/es/muestras/del-mediterraneo-oriental-al-plata/",
+    "https://museos.untref.edu.ar/es/muestras/para-todos-los-hombres-del-mundo-2/",
+    "https://museos.untref.edu.ar/es/muestras/el-legado-que-inspira-el-futuro/",
+    "https://museos.untref.edu.ar/es/recorridos-virtuales/",
+    "https://museos.untref.edu.ar/es/noticias/muntref-recorridos-virtuales-unicos-en-la-region-2/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 3029,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/muntref-museo-de-la-inmigracion.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
+   "web": "https://www.macnconicet.gob.ar/",
+   "plataforma": [
+    "wordpress",
+    "tribe"
+   ],
+   "pedidos": 7,
+   "url_final": "https://www.macnconicet.gob.ar/",
+   "paginas_agenda": [
+    "https://www.macnconicet.gob.ar/exhibiciones/",
+    "https://www.macnconicet.gob.ar/actividades-para-hacer-en-casa/",
+    "https://www.macnconicet.gob.ar/aves-del-pastizal-pampeano-muestra-fotografica/",
+    "https://www.macnconicet.gob.ar/visitas-reapertura/",
+    "https://www.macnconicet.gob.ar/visitas-reapertura//"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 4,
+   "texto_portada": 6671,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-argentino-de-ciencias-naturales-bernardino-rivadavia.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "planetario-galileo-galilei",
+   "web": "https://planetario.buenosaires.gob.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "conexión cortada",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-casa-de-ricardo-rojas",
+   "web": "https://museorojas.cultura.gob.ar/",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://museorojas.cultura.gob.ar/",
+   "paginas_agenda": [
+    "https://museorojas.cultura.gob.ar/exhibiciones/",
+    "https://museorojas.cultura.gob.ar/actividades/",
+    "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 43,
+   "texto_portada": 6328,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/museo-casa-de-ricardo-rojas.txt",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-del-holocausto-de-buenos-aires",
+   "web": "https://museodelholocausto.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://museodelholocausto.org.ar/",
+   "paginas_agenda": [
+    "https://museodelholocausto.org.ar/la-muestra/",
+    "https://museodelholocausto.org.ar/muestras/?filter=38",
+    "https://museodelholocausto.org.ar/muestras/?filter=40",
+    "https://museodelholocausto.org.ar/turnos/",
+    "https://museodelholocausto.org.ar/nuestros-cursos/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 2905,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-judio-de-buenos-aires",
+   "web": "https://museojudio.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://museojudio.org.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 2631,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "museo-malvinas-e-islas-del-atlantico-sur",
+   "web": "https://museomalvinas.cultura.gob.ar/",
+   "plataforma": [],
+   "pedidos": 5,
+   "url_final": "https://museomalvinas.cultura.gob.ar/",
+   "paginas_agenda": [
+    "https://museomalvinas.cultura.gob.ar/exhibiciones/",
+    "https://museomalvinas.cultura.gob.ar/exhibicion/malvinas-testimonio-y-legado/",
+    "https://museomalvinas.cultura.gob.ar/exhibicion/exhibicion-permanente/",
+    "https://museomalvinas.cultura.gob.ar/info/visita/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 2,
+   "texto_portada": 3000,
+   "clase": "needs_browser",
+   "fecha": "2026-10-24 19:50",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "teatro-colon",
+   "web": "https://teatrocolon.org.ar/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 6,
+   "url_final": "https://teatrocolon.org.ar/",
+   "paginas_agenda": [
+    "https://teatrocolon.org.ar/calendario/",
+    "https://teatrocolon.org.ar/calendario/?a=2026&mes=11",
+    "https://teatrocolon.org.ar/calendario/?a=2026&mes=12",
+    "https://teatrocolon.org.ar/visitas-guiadas/",
+    "https://teatrocolon.org.ar/visitas-escolares/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 26,
+   "texto_portada": 11988,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/teatro-colon.txt",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4873,7 +4884,7 @@
     }
    ],
    "texto": "data/crawl/local/textos/crobar.txt",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos",
    "error": "NO SE GUARDÓ. Corregir y volver a guardar:\n  - 3 de 3 eventos enlazan al listado crobar.com.ar/club y no a su propia página. Poner en 'url' la ficha de cada evento (el enlace de su tarjeta), o, si la fuente no tiene una página por evento, explicarlo una vez en comportamiento: {\"sin_fichas\": \"<motivo>\"}"
   },
@@ -4888,7 +4899,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1240,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4903,7 +4914,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 36,
    "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4919,7 +4930,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 884,
    "clase": "sin_agenda_vista",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4939,7 +4950,7 @@
    "texto_portada": 12245,
    "clase": "html",
    "texto": "data/crawl/local/textos/niceto-club.txt",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4956,7 +4967,7 @@
    "texto_portada": 3297,
    "clase": "html",
    "texto": "data/crawl/local/textos/la-trastienda.txt",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4966,7 +4977,7 @@
    "pedidos": 1,
    "clase": "unreachable",
    "motivo": "HTTP 400",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -4982,7 +4993,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 1867,
    "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -5000,10 +5011,10 @@
    ],
    "jsonld_eventos": 0,
    "fechas_en_texto": 183,
-   "texto_portada": 8044,
+   "texto_portada": 8046,
    "clase": "html",
    "texto": "data/crawl/local/textos/teatro-coliseo.txt",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -5017,7 +5028,7 @@
    "fechas_en_texto": 0,
    "texto_portada": 6,
    "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   },
   {
@@ -5037,7 +5048,7 @@
    "fechas_en_texto": 1,
    "texto_portada": 1223,
    "clase": "needs_browser",
-   "fecha": "2026-10-24 12:49",
+   "fecha": "2026-10-24 19:50",
    "estado_corrida_anterior": "con_eventos"
   }
  ]

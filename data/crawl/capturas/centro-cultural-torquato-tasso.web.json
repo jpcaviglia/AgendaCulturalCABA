@@ -3,65 +3,45 @@
  "canal": "web",
  "fuente": "CENTRO CULTURAL TORQUATO TASSO",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://torquatotasso.com.ar/",
-  "https://torquatotasso.com.ar/2020/05/05/choco-drums/",
-  "https://torquatotasso.com.ar/2020/05/03/soledad-villamil/",
-  "https://torquatotasso.com.ar/2020/05/02/ailen-peralta/"
+  "https://torquatotasso.com.ar/"
  ],
  "eventos": [
-  {
-   "titulo": "Iré Latin Jazz: Choco Drums presenta la música de Cucho Valdez",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "22:00",
-   "horarios": "Apertura de sala 20 h",
-   "lugar": "CENTRO CULTURAL TORQUATO TASSO",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Jazz",
-   "precio": "",
-   "url": "https://torquatotasso.com.ar/2020/05/05/choco-drums/",
-   "descripcion": "Choco Drums, percusionista cubano radicado en Buenos Aires, lidera Iré Latin Jazz entre la tradición afrocubana y el jazz contemporáneo. Entradas por Passline.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/09/IMG_3478-1024x407.jpg"
-  },
   {
    "titulo": "Soledad Villamil en concierto",
    "fecha_inicio": "2026-10-23",
    "fecha_fin": "2026-10-31",
    "hora": "22:00",
-   "horarios": "Únicas funciones: 23, 24, 30 y 31 de octubre, 22 h (apertura 20 h)",
+   "horarios": "Viernes 23, sábado 24, viernes 30 y sábado 31 de octubre. Show 22 h, apertura de sala 20 h",
    "lugar": "CENTRO CULTURAL TORQUATO TASSO",
-   "barrio": "",
-   "direccion": "",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1575",
    "categoria": "Música",
    "precio": "",
-   "url": "https://torquatotasso.com.ar/2020/05/03/soledad-villamil/",
-   "descripcion": "Soledad Villamil se presenta en el escenario del Torquato Tasso. Ubicación por orden de llegada, mesas compartidas. Entradas por Passline.",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Únicas funciones de Soledad Villamil en concierto en Torquato Tasso.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/07/IMG_1991-1024x407.jpg"
+   "imagen": ""
   },
   {
-   "titulo": "Ailén Peralta presenta Entre nosotros",
+   "titulo": "Ailén Peralta: Entre nosotros (show acústico íntimo)",
    "fecha_inicio": "2026-10-29",
    "fecha_fin": "2026-10-29",
    "hora": "22:00",
-   "horarios": "Apertura de sala 20 h",
+   "horarios": "Jueves 29 de octubre. Show 22 h, apertura de sala 20 h",
    "lugar": "CENTRO CULTURAL TORQUATO TASSO",
-   "barrio": "",
-   "direccion": "",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 1575",
    "categoria": "Música",
    "precio": "",
-   "url": "https://torquatotasso.com.ar/2020/05/02/ailen-peralta/",
-   "descripcion": "Show acústico e íntimo con canciones de su recorrido. Entradas por Passline.",
+   "url": "https://torquatotasso.com.ar/",
+   "descripcion": "Show acústico íntimo de Ailén Peralta.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://torquatotasso.com.ar/wp-content/uploads/2026/09/IMG_3517-1024x407.jpg"
+   "imagen": ""
   }
  ]
 }

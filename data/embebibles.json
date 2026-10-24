@@ -455,6 +455,12 @@
   "fecha": "2026-10-15",
   "url": "https://fmlatribu.com/talleres"
  },
+ "fnoba.vercel.app": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-24",
+  "url": "https://fnoba.vercel.app/play/joven-amaroq"
+ },
  "fundacionandreani.org.ar": {
   "ok": false,
   "motivo": "X-Frame-Options sameorigin",
@@ -1078,6 +1084,12 @@
   "motivo": "X-Frame-Options sameorigin",
   "fecha": "2026-10-15",
   "url": "https://w-w-w.ar/index.php/es/exhibitions"
+ },
+ "wearebombo.app.link": {
+  "ok": false,
+  "motivo": "frame-ancestors 'self'",
+  "fecha": "2026-10-24",
+  "url": "https://wearebombo.app.link/bxYtH7XMo7b"
  },
  "wearebombo.com": {
   "ok": true,
