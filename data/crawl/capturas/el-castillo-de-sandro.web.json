@@ -3,16 +3,12 @@
  "canal": "web",
  "fuente": "EL CASTILLO DE SANDRO",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://culturalcava.ar/",
   "https://culturalcava.ar/cartelera/",
-  "https://culturalcava.ar/talleres-y-cursos/",
   "https://culturalcava.ar/visitas-guiadas/",
-  "https://www.masterpase.com/events/tangos-y-penumbras-2026-10-24-20-30-00-0300",
-  "https://www.eventbrite.com.ar/e/amigas-tickets-1994311854442",
-  "https://www.eventbrite.com.ar/e/frankestein-en-el-castillo-tickets-1994575483965"
+  "https://culturalcava.ar/talleres-y-cursos/"
  ],
  "eventos": [
   {
@@ -47,7 +43,7 @@
    "descripcion": "Espectáculo teatral en Cultural CAVA, el Castillo de Sandro.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://culturalcava.ar/wp-content/uploads/2026/07/banner-amigas.jpg"
   },
   {
    "titulo": "Frankenstein en el Castillo",
@@ -69,9 +65,9 @@
   {
    "titulo": "Visitas guiadas al Castillo de Sandro",
    "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "",
    "hora": "15:00",
-   "horarios": "Sábados 24 y 31 de octubre, 15 h",
+   "horarios": "Sábados a las 15 h",
    "lugar": "EL CASTILLO DE SANDRO",
    "barrio": "",
    "direccion": "",
@@ -79,9 +75,26 @@
    "precio": "$ 20000",
    "url": "https://culturalcava.ar/visitas-guiadas/",
    "descripcion": "Recorrido de 100 a 120 minutos por el castillo del ídolo Sandro. Residentes argentinos $10.000, jubilados $7.000, menores de 5 a 12 años $6.000.",
-   "vigente_sin_fin": false,
+   "vigente_sin_fin": true,
    "post": "",
    "imagen": ""
+  },
+  {
+   "titulo": "Cóctel de canciones",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "EL CASTILLO DE SANDRO",
+   "barrio": "Boedo",
+   "direccion": "Pavón 3939",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.eventbrite.com.ar/e/coctel-de-canciones-tickets-2003217433268",
+   "descripcion": "Jazmín Duval, Daniel Garay y artistas invitados en El Castillo de Sandro.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://culturalcava.ar/wp-content/uploads/2026/09/banner-coctel.jpg"
   }
  ]
 }

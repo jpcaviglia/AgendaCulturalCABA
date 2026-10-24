@@ -3,40 +3,24 @@
  "canal": "web",
  "fuente": "La Trastienda",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.latrastienda.com/",
-  "https://www.passline.com/eventos-ficha-dvm/las-migas-flamenco",
   "https://www.passline.com/eventos-ficha-dvm/sandra-en-el-paraiso-40",
   "https://www.passline.com/eventos-ficha-dvm/fishbone-regresa-a-la-argentina",
   "https://www.passline.com/eventos-ficha-dvm/rapido-y-gracioso-560569",
-  "https://www.passline.com/eventos-ficha-dvm/andando-descalzo-celebra-sus-30-anos"
+  "https://www.passline.com/eventos-ficha-dvm/andando-descalzo-celebra-sus-30-anos",
+  "https://www.passline.com/eventos-ficha-dvm/adanowsky-presenta-amador-y-el-idolo-una-esquizofrenia-musical",
+  "https://www.passline.com/eventos-ficha-dvm/ivan-noble-canciones-traspapeladas-parte-2"
  ],
  "eventos": [
   {
-   "titulo": "Las Migas: Flamencas",
-   "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-22",
-   "hora": "21:00",
-   "horarios": "Miércoles 21 y jueves 22 de octubre 21 h",
-   "lugar": "La Trastienda",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Música",
-   "precio": "Desde $ 40000",
-   "url": "https://www.passline.com/eventos-ficha-dvm/las-migas-flamenco",
-   "descripcion": "Las Migas presenta su flamenco en La Trastienda, con nueva función el 21/10 (22/10 agotada).",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://www.passline.com/imagenes/eventos/-769782-rec.jpg"
-  },
-  {
    "titulo": "Sandra Mihanovich: Sandra en el Paraíso 4.0",
-   "fecha_inicio": "2026-10-23",
+   "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
    "hora": "21:00",
-   "horarios": "Viernes 23 y sábado 24 de octubre 21 h",
+   "horarios": "Sábado 24/10 (nueva función), 21 h",
    "lugar": "La Trastienda",
    "barrio": "",
    "direccion": "",
@@ -98,6 +82,40 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://www.passline.com/imagenes/eventos/andando-descalzo-celebra-sus-30-anos-537233-rec.jpg"
+  },
+  {
+   "titulo": "Adanowsky presenta Amador y El Ídolo: una esquizofrenia musical",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "21:00",
+   "horarios": "Miércoles 4 de noviembre, 21 h",
+   "lugar": "La Trastienda",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 48000",
+   "url": "https://www.passline.com/eventos-ficha-dvm/adanowsky-presenta-amador-y-el-idolo-una-esquizofrenia-musical",
+   "descripcion": "Adanowsky presenta Amador y El Ídolo, una esquizofrenia musical, en La Trastienda.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://www.passline.com/imagenes/eventos/-788345-rec.jpg"
+  },
+  {
+   "titulo": "Iván Noble: Canciones traspapeladas, parte dos",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "21:00",
+   "horarios": "Viernes 6 y 13 de noviembre, 21 h",
+   "lugar": "La Trastienda",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Música",
+   "precio": "Desde $ 55000",
+   "url": "https://www.passline.com/eventos-ficha-dvm/ivan-noble-canciones-traspapeladas-parte-2",
+   "descripcion": "Iván Noble presenta Canciones traspapeladas, parte dos, en La Trastienda.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://www.passline.com/imagenes/eventos/-794974-rec.jpg"
   }
  ]
 }

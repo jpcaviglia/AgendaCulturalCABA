@@ -3473,12 +3473,13 @@
     "2026-10-15 [instagram] La bio enlaza a la búsqueda 'bula' en Alpogo (21 eventos); en la ventana hay 8; CC Bula, CABA.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
     "2026-10-18 [web] Búsqueda de Alpogo 'bula': 19 eventos, los de la ventana son 6.",
-    "2026-10-20 [web] 18 eventos en la búsqueda; 6 caen en la ventana (24/10 al 1/11). El resto es de noviembre en adelante."
+    "2026-10-20 [web] 18 eventos en la búsqueda; 6 caen en la ventana (24/10 al 1/11). El resto es de noviembre en adelante.",
+    "2026-10-24 [web] 9 shows en ventana (24/10 al 6/11). Abatov y Estación Cumbia sin precio (sin tickets / 'Obtener')."
    ],
    "comportamiento": {
     "agenda": "búsqueda de Alpogo 'bula': fecha, hora y lugar 'CC Bula, CABA'; cada show tiene ficha en alpogo.com/evento/<slug>",
     "sin_fichas": "leído con sondear.py (búsqueda Alpogo); cada evento tiene su ficha en Alpogo",
-    "extraccion": "sin navegador: sondear.py --leer de la búsqueda, filtrando 'CC Bula, CABA'"
+    "extraccion": "sondear --leer de la búsqueda de Alpogo, filtrando 'CC Bula, CABA'; og:image de cada ficha"
    },
    "ultimo": {
     "instagram": {
@@ -3488,10 +3489,10 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 6,
-     "paginas": 7
+     "eventos": 9,
+     "paginas": 10
     }
    },
    "historial": [
@@ -3512,6 +3513,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "entradas": [
@@ -3533,22 +3540,23 @@
    "direccion": "Acuña De Figueroa, Francisco 1030",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 5,
-     "paginas": 7
+     "paginas": 6
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Eventos en tarjetas con enlaces a Flashpass; dos sedes (Almagro y Abasto). La sede de ATR y Redondos Diskos se asumió Almagro (no figura en la tarjeta).",
-    "2026-10-20 [web] 2026-10-20: 6 tarjetas en la portada; 5 en la ventana (El Átomo Music Festival es el 19/12). 'Polo Cultural 1040' = sede Almagro."
+    "2026-10-20 [web] 2026-10-20: 6 tarjetas en la portada; 5 en la ventana (El Átomo Music Festival es el 19/12). 'Polo Cultural 1040' = sede Almagro.",
+    "2026-10-24 [web] 5 fiestas y shows en ventana; 'Fiesta fin de cuatri' (13/11) cae fuera. Las dos Legendaria Abasto sin precio legible."
    ],
    "entradas": [
     "http://elemergente.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "la portada es una landing que cierra un modal ('Ahora no, entrar al sitio'); los eventos son enlaces a events.flashpass.com.ar con fecha en el slug y tarjetas por categoría; hay varias sedes (Legendaria, Emergente)",
+    "extraccion": "la portada enlaza 6 fichas de events.flashpass.com.ar; cada ficha (HTTP) trae fecha, hora, precio ($) y og:image",
     "fichas": "las fichas de flashpass traen JSON-LD (precio, imagen); se leen con sondear.pedir + objetos_evento sin navegador"
    },
    "enlaces_descartados": [
@@ -3568,6 +3576,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
@@ -3663,25 +3677,26 @@
    "direccion": "Lambare 873",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 4
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: no_es_agenda] Radio comunitaria FM La Tribu; sin agenda de eventos clara",
     "2026-10-15 [web] Radio comunitaria con talleres; poca programación de eventos abiertos en la web.",
-    "2026-10-20 [web] 2026-10-20: /talleres lista 3 talleres; el seminario Hibridación terminó el 17/10. No hay agenda de eventos propia; sin precios ni fichas por taller."
+    "2026-10-20 [web] 2026-10-20: /talleres lista 3 talleres; el seminario Hibridación terminó el 17/10. No hay agenda de eventos propia; sin precios ni fichas por taller.",
+    "2026-10-24 [web] Solo 3 talleres publicados: dos anuales (cargados) y el seminario Hibridación, que terminó el 17/10. La portada (radio en vivo) no se abrió aparte: el encabezado de /talleres muestra solo la grilla de la radio."
    ],
    "entradas": [
     "https://fmlatribu.com/talleres"
    ],
    "comportamiento": {
-    "extraccion": "la web es de la radio FM La Tribu: portada con noticias; /talleres lista talleres con rango de fechas y horarios; no hay agenda de eventos propia",
+    "extraccion": "/talleres en el navegador: cada taller con 'Desde el … hasta el …' y horario en el innerText; la portada es de la radio (programación en vivo)",
     "espera_seg": 5,
     "plataforma": "app de JavaScript: sondear no ve el contenido, hay que abrir /talleres en el navegador",
-    "sin_fichas": "los talleres se listan en /talleres sin página propia por taller"
+    "sin_fichas": "los talleres se listan en una sola página, sin ficha por taller"
    },
    "enlaces_descartados": [
     {
@@ -3713,6 +3728,12 @@
      "texto": "Archivo sonoro",
      "motivo": "archivo de audios",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://fmlatribu.com/talleres/inscripcion",
+     "texto": "Inscripción",
+     "motivo": "formulario de inscripción a talleres",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -3724,6 +3745,18 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
@@ -3793,20 +3826,22 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 8,
-     "paginas": 12
+     "eventos": 11,
+     "paginas": 13
     }
    },
    "comportamiento": {
-    "extraccion": "la portada lista obras y ciclos con 'Ver más'; cada ficha (se lee con fetch desde la pestaña) trae día, hora, precio y descripción",
-    "url": "hastatrilce.com.ar sin www"
+    "extraccion": "sondear --leer de la portada lista 12 fichas; cada ficha (HTTP) trae días, hora, precio ($) y og:image",
+    "url": "hastatrilce.com.ar sin www",
+    "bloqueos": "el HTML de la portada incluye enlaces de spam de casinos inyectados: ignorarlos"
    },
    "notas": [
     "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/hastatrilce",
-    "2026-10-20 [web] 2026-10-20: la portada lista la cartelera; cada ficha trae día, hora y precio. Rodeo (3er viernes) cae el 20/11, fuera de ventana; Tango Nuevo terminó en abril."
+    "2026-10-20 [web] 2026-10-20: la portada lista la cartelera; cada ficha trae día, hora y precio. Rodeo (3er viernes) cae el 20/11, fuera de ventana; Tango Nuevo terminó en abril.",
+    "2026-10-24 [web] 11 propuestas en ventana. 'Rodeo, el ciclo' es el tercer viernes de cada mes (16/10 y 20/11): ninguna fecha en ventana. Las obras de sábados y domingos se cargaron como ciclos semanales."
    ],
    "historial": [
     {
@@ -3820,21 +3855,33 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 8
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
     }
    ],
    "enlace_bio": "https://linktr.ee/hastatrilce",
    "enlaces_descartados": [
     {
-     "url": "https://hastatrilce.com.ar/bar/",
+     "url": "https://www.hastatrilce.com.ar/bar/",
      "texto": "Bar",
-     "motivo": "es el bar, sin programación",
-     "fecha": "2026-10-20"
+     "motivo": "carta del bar",
+     "fecha": "2026-10-24"
     },
     {
-     "url": "https://hastatrilce.com.ar/institucional/",
+     "url": "https://www.hastatrilce.com.ar/institucional/",
      "texto": "Institucional",
-     "motivo": "datos de contacto",
-     "fecha": "2026-10-20"
+     "motivo": "institucional",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.hastatrilce.com.ar/MECENAS-REALES/",
+     "texto": "Mecenas reales",
+     "motivo": "pedido de donaciones",
+     "fecha": "2026-10-24"
     }
    ]
   },
@@ -4159,34 +4206,29 @@
    "direccion": "Guardia Vieja 3777",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 4
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: navegador] Cartelera en la portada",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/laviejaguarida",
     "2026-10-15 [web] Cartelera en la portada. El ciclo 'El hombre extinguido' terminó el 11/10.",
-    "2026-10-20 [web] 2026-10-20: 3 obras en la portada con día y hora; las fichas están en Alternativa Teatral (el precio solo figura en Mala Mía)."
+    "2026-10-20 [web] 2026-10-20: 3 obras en la portada con día y hora; las fichas están en Alternativa Teatral (el precio solo figura en Mala Mía).",
+    "2026-10-24 [web] Cartelera: Don Chicho (sábados de octubre 20:30), Mala Mía (23/10, ya pasó) y Retama Flamenco (24/10 22:30)."
    ],
    "enlace_bio": "https://linktr.ee/laviejaguarida",
    "entradas": [
     "https://www.laviejaguarida.com.ar"
    ],
    "comportamiento": {
-    "espera_seg": 6,
-    "extraccion": "la cartelera está en la portada (texto), con botones RESERVAR a Alternativa Teatral",
+    "espera_seg": 8,
+    "extraccion": "portada Wix: 'Programación vigente' en innerText (el texto tarda ~8 s); botones RESERVAR a las fichas de Alternativa Teatral (sin precio por HTTP)",
     "plataforma": "Wix: la cartelera aparece a los ~6 s en la portada; se lee con innerText"
    },
    "enlaces_descartados": [
-    {
-     "url": "https://www.laviejaguarida.com.ar/restaurante",
-     "texto": "RESTAURANTE",
-     "motivo": "carta gastronómica, no es programación",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://www.laviejaguarida.com.ar/sala",
      "texto": "LA SALA",
@@ -4194,16 +4236,28 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://www.laviejaguarida.com.ar/prensa",
-     "texto": "PRENSA",
-     "motivo": "notas de prensa",
-     "fecha": "2026-10-15"
-    },
-    {
      "url": "https://www.laviejaguarida.com.ar",
      "texto": "Restaurante",
      "motivo": "menú gastronómico",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.laviejaguarida.com.ar/restaurante",
+     "texto": "Restaurante",
+     "motivo": "carta del restaurante",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.laviejaguarida.com.ar/prensa",
+     "texto": "Prensa",
+     "motivo": "notas de prensa",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.laviejaguarida.com.ar/la-sala",
+     "texto": "La sala",
+     "motivo": "descripción de la sala",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -4218,6 +4272,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -5116,38 +5176,22 @@
    "direccion": "Uriburu Jose E., Pres. 763",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 6
+     "eventos": 2,
+     "paginas": 7
     }
    },
    "comportamiento": {
-    "extraccion": "HTTP alcanza: la portada lista las entradas de agenda con una línea de fecha; cada ficha trae día, hora y sinopsis (sin precio ni og:image en el texto)"
+    "extraccion": "sondear --leer de la portada: 'Agenda' con una línea de fecha por entrada; las secciones /elsabato/<área>/ repiten la misma agenda",
+    "sin_fichas": "las dos fechas del ciclo comparten la ficha del ciclo"
    },
    "notas": [
     "2026-10-15 [web] Web con novedades desactualizadas; revisar redes. Función 'Olga Poblete' de los sábados de octubre sin año confirmado.",
-    "2026-10-20 [web] 2026-10-20: Troilo Interactivo (12 y 19/11) y el seminario del 21/11 quedan fuera de la ventana. Precios no relevados (entradas por mail o ticketera)."
+    "2026-10-20 [web] 2026-10-20: Troilo Interactivo (12 y 19/11) y el seminario del 21/11 quedan fuera de la ventana. Precios no relevados (entradas por mail o ticketera).",
+    "2026-10-24 [web] En ventana solo el ciclo Olga Poblete (sábados 24 y 31/10, 20 h). Troilo Interactivo es el 12 y 19/11; Tu, Divino Momento fue el 23/10; los talleres (teatro, danza, taekwondo) son clases regulares sin fecha."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://elsabato.economicas.uba.ar/elsabato/talleres/",
-     "texto": "Talleres",
-     "motivo": "inscripciones a talleres regulares",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://elsabato.economicas.uba.ar/elsabato/danza/",
-     "texto": "Danza",
-     "motivo": "misma lista de novedades filtrada",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://elsabato.economicas.uba.ar/elsabato/musica",
-     "texto": "Música",
-     "motivo": "misma lista de novedades filtrada",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://elsabato.economicas.uba.ar/residencias-de-creacion-la-sabato/",
      "texto": "Residencias de Creación",
@@ -5159,6 +5203,24 @@
      "texto": "Buzón de proyectos Milo Lockett",
      "motivo": "convocatoria de proyectos",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/galeria/",
+     "texto": "Galería",
+     "motivo": "fotos de eventos pasados",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/institucional/",
+     "texto": "Institucional",
+     "motivo": "institucional",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://elsabato.economicas.uba.ar/contacto/",
+     "texto": "Contacto",
+     "motivo": "formulario de contacto",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -5173,6 +5235,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15",
@@ -6129,17 +6197,19 @@
    "enlace_bio": "https://linktr.ee/batacazodearte",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/batacazodearte",
-    "2026-10-18 [instagram] Programan show infantil y ecoferia los sábados en Av. Suárez 1502; revisar cada semana."
+    "2026-10-18 [instagram] Programan show infantil y ecoferia los sábados en Av. Suárez 1502; revisar cada semana.",
+    "2026-10-24 [instagram] Tres propuestas de Halloween el 31/10 (cuentos 17 h, dulce o truco 18 h, cabina de fotos). El Linktree de la bio solo tiene formularios de talleres."
    ],
    "comportamiento": {
-    "bio": "Linktree: formularios de talleres, sin agenda"
+    "bio": "Linktree: formularios de talleres, sin agenda",
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 3
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 1
     }
    },
    "historial": [
@@ -6148,6 +6218,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ]
   },
@@ -7022,20 +7098,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 7
+     "eventos": 5,
+     "paginas": 3
     }
    },
    "comportamiento": {
-    "extraccion": "sin navegador: /cartelera/ lista cada show con fecha y hora; los botones 'Entradas' (enlaces en el HTML, no en el texto) van a Eventbrite o Masterpase; los banners son wp-content/uploads/<año>/<mes>/banner-*.jpg",
+    "extraccion": "sondear --leer /cartelera/ da título, fecha y hora; los enlaces 'Comprar entrada' (Eventbrite, masterpase) y los banners salen del HTML",
     "fichas": "precio de Eventbrite: 'Desde $' en el navegador; Masterpase: AR$ en el navegador"
    },
    "notas": [
     "2026-10-15 [web] Cartelera en la portada; visitas guiadas los sábados a las 15 h.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/culturalcava",
-    "2026-10-20 [web] Cursos y talleres semanales (guitarra, canto, tango, folklore, yoga, taekwondo, peluquería) son clases regulares sin fechas: no se cargan. Show para nuestros sentidos fue el 16/10."
+    "2026-10-20 [web] Cursos y talleres semanales (guitarra, canto, tango, folklore, yoga, taekwondo, peluquería) son clases regulares sin fechas: no se cargan. Show para nuestros sentidos fue el 16/10.",
+    "2026-10-24 [web] En ventana: Tangos y penumbras y Amigas (24/10), Frankenstein (31/10), Cóctel de canciones (6/11, sin precio: Eventbrite no se abrió) y visitas guiadas de los sábados. Los talleres (yoga, fileteado, instrumentos...) son clases regulares sin fecha de inicio: no se cargaron."
    ],
    "enlaces_descartados": [
     {
@@ -7058,15 +7135,15 @@
     },
     {
      "url": "https://culturalcava.ar/nuestras-salas/",
-     "texto": "Nuestras salas",
-     "motivo": "descripción de las salas, alquiler",
-     "fecha": "2026-10-20"
+     "texto": "Nuestras Salas",
+     "motivo": "descripción de las salas para alquiler",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://culturalcava.ar/cava-streaming/",
      "texto": "CAVA Streaming",
-     "motivo": "transmisiones online, no se cargan",
-     "fecha": "2026-10-20"
+     "motivo": "transmisiones virtuales",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -7081,6 +7158,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "enlace_bio": "https://linktr.ee/culturalcava"
@@ -7315,21 +7398,30 @@
    "barrio": "Caballito",
    "direccion": "Rivadavia Av. 5764",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Casa de la comunidad burgalesa; publica resúmenes de eventos pasados."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -7350,13 +7442,16 @@
    "direccion": "Viale, Luis 1052",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Cuenta del Programa Cultural en Barrios sin posts desde diciembre de 2025; la agenda de los centros PCB está en @gops.ba."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -7365,6 +7460,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -8343,26 +8444,27 @@
    "direccion": "Guevara 326",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 10,
-     "paginas": 13
+     "eventos": 9,
+     "paginas": 1
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral",
     "2026-10-15 [web] La portada trae toda la cartelera del mes con días y horas.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/galpondeguevara",
-    "2026-10-20 [web] Leído el 20/10 con el calendario de octubre y noviembre en la portada. Otras obras de la ficha (Vortex, El alambrado, Seis minutos de sol, Menos detalles, Hotel Buenos Aires) no tenían fecha en la ventana. Precio solo de Las bestias y Juego del tiempo ($ 25.000)."
+    "2026-10-20 [web] Leído el 20/10 con el calendario de octubre y noviembre en la portada. Otras obras de la ficha (Vortex, El alambrado, Seis minutos de sol, Menos detalles, Hotel Buenos Aires) no tenían fecha en la ventana. Precio solo de Las bestias y Juego del tiempo ($ 25.000).",
+    "2026-10-24 [web] Portada leída el 24/10: la cartelera es la misma del 20/10 (calendario de octubre); se parte de esa captura, sin las funciones ya pasadas (Los miedos, 23/10). Precio solo de Las bestias y Juego del tiempo."
    ],
    "entradas": [
     "https://www.galpondeguevara.com/"
    ],
    "comportamiento": {
-    "extraccion": "la portada lista cada obra con sus días y horarios del mes en texto; la cartelera /la-cartelera tiene el detalle",
+    "extraccion": "portada: cada obra con sus días y horas del mes en innerText; fichas en Alternativa Teatral (espacio3426)",
     "plataforma": "Wix: la portada (Cartelera) lista cada obra con sus días y horas ('JUEVES 15, 22 y 29, 20 h'); los enlaces de cada obra salen de la ficha del teatro en Alternativa Teatral (espacio3426)",
     "fichas": "las fichas de Alternativa por HTTP traen la foto (og:image en img.alternativateatral.com) pero casi nunca el precio",
-    "bloqueos": "sondear.py: dominio inalcanzable; solo navegador"
+    "bloqueos": "sondear.py recibe 403; abrir en el navegador (la portada Wix carga en ~9 s)"
    },
    "enlaces_descartados": [
     {
@@ -8408,6 +8510,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "enlace_bio": "https://linktr.ee/galpondeguevara"
@@ -8735,13 +8843,16 @@
    "direccion": "Conde 943",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10.",
+    "2026-10-24 [instagram] Centro del Programa Cultural en Barrios; Ciclo Colegiales Notable mensual en Bar Conde."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -8750,6 +8861,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -8831,10 +8948,11 @@
     "2026-10-14: el enlace de la bio lleva a eventos (si (productora de eventos))",
     "2026-10-15 [instagram] La bio enlaza a la productora en Cafaccess con la lista de shows; Av. Álvarez Thomas 661; 30/10 en adelante fuera de ventana. Sin horarios en el listado.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (5 de 5 eventos)."
+    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (5 de 5 eventos).",
+    "2026-10-24 [web] 5 eventos en ventana (24/10 al 30/10); siguen el 7/11, 13/11 y 14/11. 'Cumple Fake Halloween' muestra 11:59 en la ficha (probablemente 23:59): hora sin cargar."
    ],
    "comportamiento": {
-    "agenda": "Cafaccess productora: fecha, título y precio, sin hora",
+    "agenda": "Cafaccess productora: fecha, título y precio; la hora está en la ficha (fetch desde la pestaña); la foto es el parámetro url= del <img> de next/image",
     "plataforma": "Cafaccess: /productora/<slug> lista fecha, título, dirección y precio mínimo; se abre en el navegador (HTTP no trae el listado)",
     "espera_seg": 6
    },
@@ -8846,7 +8964,7 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 5,
      "paginas": 6
@@ -8867,6 +8985,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
@@ -9571,13 +9695,16 @@
    "barrio": "Floresta",
    "direccion": "Mercedes 1405",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Sin posts desde el 26/09; revisar @gops.ba para su programación."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -9586,6 +9713,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -9605,13 +9738,16 @@
    "barrio": "Floresta",
    "direccion": "Las Caracolas 200",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10.",
+    "2026-10-24 [instagram] Talleres regulares del PCB sin fechas de inicio; la agenda de los centros PCB se publica en @gops.ba."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -9620,6 +9756,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -9767,20 +9909,21 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 2,
-     "paginas": 4
+     "paginas": 6
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: ticketera] enlaza a alternativateatral, boleteria",
     "2026-10-15 [web] En la ventana: teatro-murga los viernes, orquesta los sábados 21.30 h y La Colmena el domingo 18/10.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/grupodeteatrocatalinasur",
-    "2026-10-20 [web] Viernes: La Catalina del Riachuelo (La baraja manda), estreno 2026; sábados: espectáculo de la Orquesta Atípica. La 'única función' de noviembre y la de 'únicas funciones a la gorra' quedan fuera de la ventana o sin fecha. Precio no publicado en las páginas."
+    "2026-10-20 [web] Viernes: La Catalina del Riachuelo (La baraja manda), estreno 2026; sábados: espectáculo de la Orquesta Atípica. La 'única función' de noviembre y la de 'únicas funciones a la gorra' quedan fuera de la ventana o sin fecha. Precio no publicado en las páginas.",
+    "2026-10-24 [web] Viernes (La Catalina del Riachuelo) y sábados (Bajo tierra) a las 21:30. Las funciones a la gorra de los domingos 4, 11 y 18/10 ya pasaron. 'Ta chapita' (URRAKA, noviembre, única función) no publica fecha en el texto (puede estar en la imagen): no se cargó. Talleres: ver la página, no se cargaron."
    ],
    "comportamiento": {
-    "extraccion": "la portada muestra cartelera con imágenes enlazadas a una página por espectáculo; cada página trae día, hora y sinopsis",
+    "extraccion": "portada Elementor: 'CARTELERA Y NOVEDADES' son cuatro enlaces a páginas de espectáculo; las fichas se leen con fetch() desde la pestaña; el botón 'Entradas' abre un popup de la misma página (sin precio en el texto)",
     "dominio": "catalinasur.com.ar",
     "plataforma": "WordPress: la portada tiene un carrusel 'Cartelera y novedades' con una página por espectáculo (/proximamente/, /bajo-tierra-3/, /noviembre-unica-funcion/); los slugs se reutilizan de otras temporadas",
     "fichas": "las páginas dicen día y hora ('todos los viernes a las 21.30') pero no el precio (botón Entradas)",
@@ -9794,16 +9937,16 @@
      "fecha": "2026-10-15"
     },
     {
-     "url": "https://www.catalinasur.com.ar/talleres/",
-     "texto": "Talleres",
-     "motivo": "talleres regulares del grupo, sin fechas puntuales",
-     "fecha": "2026-10-20"
-    },
-    {
      "url": "https://www.catalinasur.com.ar/proyectos/",
      "texto": "Proyectos",
      "motivo": "descripción de proyectos del grupo",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.catalinasur.com.ar/propuesta-para-grupos/",
+     "texto": "Propuesta para grupos",
+     "motivo": "funciones privadas para grupos que reservan",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -9815,6 +9958,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
@@ -10191,14 +10340,16 @@
    "direccion": "Pieres 226",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Cuenta inactiva desde 2023"
+    "bio": "Cuenta inactiva desde 2023",
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
    },
    "notas": [
-    "2026-10-18 [instagram] Instagram abandonado."
+    "2026-10-18 [instagram] Instagram abandonado.",
+    "2026-10-24 [instagram] Cuenta inactiva desde 2023."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -10207,6 +10358,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -10377,16 +10534,19 @@
    "barrio": "Monserrat",
    "direccion": "Republica Bolivariana De Venezuela 1534",
    "enlace_bio": "http://radioenxebre.com.ar/",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Instagram con eventos esporádicos en Venezuela 1536."
+    "2026-10-18 [instagram] Instagram con eventos esporádicos en Venezuela 1536.",
+    "2026-10-24 [instagram] Un evento en ventana: Samhain (31/10). Los otros posts son del espectáculo del 17/10 (pasado)."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 2
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "historial": [
@@ -10395,6 +10555,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -10925,15 +11091,18 @@
    "barrio": "Monte Castro",
    "direccion": "Sanabria 2440",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Un evento en ventana: Promise Night (24/10). Los demás posts son clases regulares de taekwondo y alquiler de salón."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 1,
      "paginas": 1
     }
    },
@@ -10943,6 +11112,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -11829,21 +12004,30 @@
    "barrio": "Palermo",
    "direccion": "Santa Fe Av. 5362",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda visible."
+    "2026-10-18 [instagram] Sin agenda visible.",
+    "2026-10-24 [instagram] Último evento anunciado: Honrar la vida, 17/10 (Av. Santa Fe 5362). Publica una vez por mes."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 2
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -11910,17 +12094,19 @@
    "enlace_bio": "https://linktr.ee/budabarbs",
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/budabarbs",
-    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10.",
+    "2026-10-24 [instagram] Bar de Palermo: un solo evento en ventana (Halloween 30 y 31/10); el resto de los posts son cumpleaños y sorteos."
    ],
    "comportamiento": {
-    "bio": "Posts de alquiler de salones, sin shows"
+    "bio": "Posts de alquiler de salones, sin shows",
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 3
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "historial": [
@@ -11929,6 +12115,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ]
   },
@@ -12410,10 +12602,11 @@
     "2026-10-14: el enlace de la bio lleva a eventos (si (entradas en Passline y Citi Tickets))",
     "2026-10-15 [instagram] Agenda de cine y mÃºsica en el Linktree: 16/10 Taxi Driver, 17/10 Corre Lola corre, 31/10 Nosferatu (fuera de ventana).",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: Nosferatu con música en vivo el 31/10; hora y precio no figuran (la ticketera no se lee por HTTP)."
+    "2026-10-20 [web] 2026-10-19: Nosferatu con música en vivo el 31/10; hora y precio no figuran (la ticketera no se lee por HTTP).",
+    "2026-10-24 [web] Linktree con 2 funciones: Nosferatu 31/10 (en ventana) y Corre, Lola, corre 14/11 (fuera)."
    ],
    "comportamiento": {
-    "agenda": "Linktree con un enlace por función y la fecha en el título",
+    "agenda": "Linktree con un enlace por función; la ficha en citritickets.com.ar es una SPA: abrirla en el navegador (hora, lugar, 'Entradas desde' y la foto de supabase)",
     "extraccion": "el Linktree de la bio lista las entradas del próximo evento (citritickets); la página de la ticketera no trae texto por HTTP"
    },
    "ultimo": {
@@ -12424,7 +12617,7 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -12442,6 +12635,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "entradas": [
@@ -12450,9 +12649,9 @@
    "enlaces_descartados": [
     {
      "url": "https://linktr.ee/lasangrerie",
-     "texto": "La sangre ríe - Ciclo de cine osado",
-     "motivo": "Linktree del ciclo, sin fechas próximas leídas",
-     "fecha": "2026-10-20"
+     "texto": "La Sangre Ríe",
+     "motivo": "ciclo de cine osado: su próxima función es el 14/11, fuera de la ventana",
+     "fecha": "2026-10-24"
     }
    ]
   },
@@ -12802,23 +13001,24 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "comportamiento": {
-    "plataforma": "la web solo enlaza a tickets.latangente.com.ar, que lista todos los shows",
-    "extraccion": "enlaces a /musica/<slug> con título y 'Jue 15 de octubre - 20:00 hs'",
+    "plataforma": "la web solo enlaza a tickets.latangente.com.ar (Tickethoy SPA)",
+    "extraccion": "innerText de 'PRÓXIMOS EVENTOS' con día y hora; cada /musica/<slug> en un iframe oculto del mismo origen (6,5 s) da 'Entradas desde $' y la foto api.tickethoy.org/images/eventos/<id>/imgn0000.jpg; 11 fichas ≈ 75 s",
     "fichas": "las fichas son una SPA: el precio ('Entradas desde $') aparece a los ~4 s; se leyeron cargando cada ficha en un iframe del mismo origen; las imágenes de las tarjetas son lazy (data-src con api.tickethoy.org/images/eventos/<id>/imgn0000.jpg)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 12,
-     "paginas": 14
+     "eventos": 11,
+     "paginas": 12
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/latangente",
     "2026-10-15 [web] La programación está en tickets.latangente.com.ar (49 shows hasta diciembre); la web principal no la muestra.",
-    "2026-10-20 [web] 2026-10-20: toda la programación está en tickets.latangente.com.ar; ventana leída hasta el 1/11 (último show antes del 2/11)."
+    "2026-10-20 [web] 2026-10-20: toda la programación está en tickets.latangente.com.ar; ventana leída hasta el 1/11 (último show antes del 2/11).",
+    "2026-10-24 [web] 11 shows en ventana (24/10 al 6/11); hay 47 enlaces en la portada, los siguientes desde el 7/11."
    ],
    "enlace_bio": "https://linktr.ee/latangente",
    "entradas": [
@@ -12836,6 +13036,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 12
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
     }
    ]
   },
@@ -12916,10 +13122,11 @@
    "notas": [
     "2026-10-15 [instagram] La bio enlaza a la productora El Árbol Cultural en Passline, que lista fecha, hora y precio de cada show; los del 30/10 en adelante quedan fuera de ventana.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (5 de 5 eventos)."
+    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (5 de 5 eventos).",
+    "2026-10-24 [web] 3 eventos en ventana (24/10 y 30/10). Siguen el 7/11 (Casa 23 presenta Momentos), 13/11 y 14/11."
    ],
    "comportamiento": {
-    "agenda": "Passline productora: abrir en el navegador (403 sin navegador)",
+    "agenda": "Passline productora: abrir en el navegador (403 sin navegador); 6 tarjetas con 'Desde $' en el propio texto y foto en el <img>",
     "espera_seg": 5,
     "imagen": "la lista /productora/<id> de Passline muestra la foto de cada show (https://www.passline.com/imagenes/eventos/<archivo>-rec.jpg): leer el <img> de cada tarjeta"
    },
@@ -12931,10 +13138,10 @@
      "paginas": 2
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 5,
-     "paginas": 1
+     "eventos": 3,
+     "paginas": 4
     }
    },
    "historial": [
@@ -12955,6 +13162,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "entradas": [
@@ -13451,43 +13664,56 @@
    "direccion": "Del Barco Centenera 1126",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 3
+     "fecha": "2026-10-24",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
     "2026-10-14 [revisión anterior: instagram] El sitio redirige a Linktree",
     "2026-10-15: la web cambió de https://www.lamingaclubcultural.com.ar a https://linktr.ee/lamingacc",
     "2026-10-15 [web] La web redirige a un Linktree; los eventos se leen en Ticketia.",
-    "2026-10-20 [web] 2026-10-20: Ticketia lista 2 shows; en la ventana solo Kispicas (24/10); La Curiosa es el 15/11."
+    "2026-10-20 [web] 2026-10-20: Ticketia lista 2 shows; en la ventana solo Kispicas (24/10); La Curiosa es el 15/11.",
+    "2026-10-24 [web] Único evento publicado: Fiesta de La Curiosa, 15/11. Revisar su Instagram si hace falta."
    ],
    "enlace_bio": "https://linktr.ee/lamingacc",
    "entradas": [
     "https://ticketia.com.ar/events/la-minga-club-cultural"
    ],
    "comportamiento": {
-    "extraccion": "lamingaclubcultural.com.ar redirige al Linktree @lamingacc; la agenda está en la ticketera Ticketia (events/la-minga-club-cultural), con título, fecha y hora"
+    "extraccion": "sondear --leer del Linktree y de ticketia.com.ar/events/la-minga-club-cultural (HTTP alcanza)"
    },
    "enlaces_descartados": [
-    {
-     "url": "https://www.youtube.com/user/LaMingaClubCultural",
-     "texto": "Canal de YouTube",
-     "motivo": "videos",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
-     "texto": "Espectáculos de vacaciones",
-     "motivo": "ciclo de vacaciones de invierno, pasado",
-     "fecha": "2026-10-20"
-    },
     {
      "url": "https://www.youtube.com/playlist?list=PLPKVaZPZ8pt2wjzz8VUk0AlKS8z8fNpTo",
      "texto": "Streamings",
      "motivo": "videos online",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.youtube.com/user/LaMingaClubCultural",
+     "texto": "Canal de YouTube",
+     "motivo": "videos",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://ticketia.com.ar/events/la-minga-club-cultural-vacaciones",
+     "texto": "Ticketia: vacaciones de invierno",
+     "motivo": "vacaciones de invierno de julio, ya pasaron",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://forms.gle/",
+     "texto": "Taller para familias 4/7",
+     "motivo": "formulario de un taller del 4/7, ya pasó",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.youtube.com/playlist",
+     "texto": "Streamings",
+     "motivo": "transmisiones grabadas",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -13502,6 +13728,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ]
   },
@@ -15119,16 +15351,19 @@
    "direccion": "Ramallo 2606",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-18 [instagram] Sin funciones futuras publicadas."
+    "2026-10-18 [instagram] Sin funciones futuras publicadas.",
+    "2026-10-24 [instagram] Dos eventos en ventana: Requiem de Mozart (31/10) y un taller de euritmia (24/10)."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
-     "paginas": 2
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 2,
+     "paginas": 1
     }
    },
    "historial": [
@@ -15137,6 +15372,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -15154,18 +15395,20 @@
    "direccion": "Tronador 4134",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-18 [instagram] Hay que revisar @gops.ba para varios centros (Talerico, Chacabuco, CEPNA, Bajo Flores)."
+    "2026-10-18 [instagram] Hay que revisar @gops.ba para varios centros (Talerico, Chacabuco, CEPNA, Bajo Flores).",
+    "2026-10-24 [instagram] La cuenta de la Gerencia Operativa de Promoción Sociocultural no anuncia agenda por centro; los posts son crónicas de actividades pasadas."
    ],
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Cuenta compartida @gops.ba (Programa Cultural en Barrios): publica charlas y talleres de todos los centros"
+    "bio": "Cuenta compartida @gops.ba (Programa Cultural en Barrios): publica charlas y talleres de todos los centros",
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 4
+     "fecha": "2026-10-24",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "historial": [
@@ -15174,6 +15417,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ]
   },
@@ -16373,10 +16622,11 @@
     "2026-10-14: el enlace de la bio lleva a eventos (si (Agenda y Entradas en Passline))",
     "2026-10-15 [instagram] La bio ('Agenda y Entradas') enlaza a su pÃ¡gina de Passline con todos los eventos, fecha y hora; 30/10 y noviembre quedan fuera de ventana.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (10 de 10 eventos)."
+    "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (10 de 10 eventos).",
+    "2026-10-24 [web] 9 eventos en ventana (25/10 al 6/11). Sin precio leído: PPTfest, trivia y Musa y Mecenas. Siguen el 7/11 (Sambas de Terreiro, La Carolo after marcha) y el 14/11."
    ],
    "comportamiento": {
-    "agenda": "Passline sitio: abrir en el navegador (403 sin navegador)",
+    "agenda": "Passline sitio: abrir en el navegador (403 sin navegador); 16 tarjetas en orden de fecha (no siempre estricto); fetch de cada ficha para el precio; foto = <img> de la tarjeta",
     "espera_seg": 5,
     "fichas": "los enlaces /sitio-evento/<slug> se leen con fetch desde la pestaña; el precio sale del texto",
     "imagen": "la lista /sitio/<slug> de Passline muestra la foto de cada show: https://www.passline.com/imagenes/eventos/<slug>-<id>-rec.jpg"
@@ -16389,10 +16639,10 @@
      "paginas": 2
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 10,
-     "paginas": 1
+     "eventos": 9,
+     "paginas": 10
     }
    },
    "historial": [
@@ -16413,6 +16663,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "entradas": [
@@ -16433,21 +16689,22 @@
    "direccion": "Viamonte 1730",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 5
+     "eventos": 3,
+     "paginas": 4
     }
    },
    "entradas": [
     "https://larondaespaciocultural.com.ar/"
    ],
    "comportamiento": {
-    "extraccion": "la portada tiene 'Actividades de esta semana' en texto con fechas de Cine Debate y Café Psicológico; las páginas de actividad son fichas de tienda (Tiendanube) sin calendario"
+    "extraccion": "sondear --leer de la portada: 'ACTIVIDADES DE ESTA SEMANA' con fechas de Cine Debate y Café Psicológico; las fichas son productos de Tiendanube sin calendario"
    },
    "notas": [
     "2026-10-15 [web] Solo la portada muestra las fechas de la semana; las fichas son de tienda.",
-    "2026-10-20 [web] 2026-10-20: 'Actividades de esta semana' en la portada con fechas; los demás talleres de lectura del listado no traen día ni hora."
+    "2026-10-20 [web] 2026-10-20: 'Actividades de esta semana' en la portada con fechas; los demás talleres de lectura del listado no traen día ni hora.",
+    "2026-10-24 [web] Releída el 24/10: Cine debate 24/10 (presencial) y 25/10 (virtual), talleres de lectura semanales (miércoles 17 h y lunes 18 h). El Café psicológico fue el 22/10 y no hay otro anunciado."
    ],
    "enlaces_descartados": [
     {
@@ -16471,14 +16728,26 @@
     {
      "url": "https://larondaespaciocultural.com.ar/cursos-on-demand/",
      "texto": "Cursos on demand",
-     "motivo": "cursos grabados, no eventos",
-     "fecha": "2026-10-20"
+     "motivo": "cursos grabados, sin fecha",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://larondaespaciocultural.com.ar/blog/",
      "texto": "Blog",
-     "motivo": "blog de notas",
-     "fecha": "2026-10-20"
+     "motivo": "notas",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/actividades1/",
+     "texto": "Actividades",
+     "motivo": "listado de las mismas actividades de la portada (fichas de tienda)",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://larondaespaciocultural.com.ar/quienes-somos/",
+     "texto": "Nosotros",
+     "motivo": "institucional",
+     "fecha": "2026-10-24"
     }
    ],
    "historial": [
@@ -16499,6 +16768,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ]
   },
@@ -16727,21 +17002,30 @@
    "barrio": "San Telmo",
    "direccion": "Bolivar 1556",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Los almuerzos sabatinos son gastronómicos y no se cargan; revisar si anuncian actividades culturales."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -17530,13 +17814,16 @@
    "barrio": "Villa Crespo",
    "direccion": "Lavalleja 1008",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda visible."
+    "2026-10-18 [instagram] Sin agenda visible.",
+    "2026-10-24 [instagram] Centro comunitario con peñas y charlas políticas; sin posts desde el 26/09."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -17545,6 +17832,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -17558,23 +17851,27 @@
    "lugares": [
     "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!"
    ],
-   "web": "",
+   "web": "https://www.bailaba.com.ar",
    "instagram": "@bailaba.centro.cultural",
    "origen": "data/lugares.json",
    "barrio": "Villa Crespo",
    "direccion": "Scalabrini Ortiz, Raul Av. 540",
    "bio_probada": "2026-10-15",
    "comportamiento": {
-    "bio": "Clases y sociales de salsa, bachata y tango; sin fechas en posts"
+    "bio": "Clases y sociales de salsa, bachata y tango; sin fechas en posts",
+    "extraccion": "bailaba.com.ar/noches-de-baile/ (HTTP) lista las noches de los viernes y sábados y las clases previas; sin fechas puntuales",
+    "sin_fichas": "las dos noches semanales se describen en una sola página (/noches-de-baile/), sin ficha por evento"
    },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10."
+    "2026-10-18 [instagram] Sin agenda en la ventana al 18/10.",
+    "2026-10-24: la web cambió de  a https://www.bailaba.com.ar",
+    "2026-10-24 [instagram] Instagram devuelve 'Sorry, this page isn't available' para @bailaba.centro.cultural el 24/10 (Google todavía lo muestra); las noches de baile salen de bailaba.com.ar/noches-de-baile/, que se carga como web_nueva. Horas de los sábados y precios no publicados."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
-     "estado": "sin_eventos",
-     "eventos": 0,
+     "fecha": "2026-10-24",
+     "estado": "con_eventos",
+     "eventos": 2,
      "paginas": 3
     }
    },
@@ -17584,6 +17881,12 @@
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
@@ -17753,25 +18056,27 @@
    "barrio": "Villa Crespo",
    "direccion": "Av. Juan B. Justo 2959",
    "entradas": [
+    "https://www.ccmatienzo.com.ar",
     "https://www.ccmatienzo.com.ar/",
     "https://www.ccmatienzo.com.ar/tu-evento"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 4
+     "eventos": 6,
+     "paginas": 7
     }
    },
    "notas": [
     "2026-10-14: el script viejo lo marcó 'sin_agenda' sin abrirlo en el navegador; NO es confiable, verificar a fondo",
     "2026-10-15 [web] Programación completa en la portada.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ccmatienzo",
-    "2026-10-20 [web] Leído hasta el 30/10; el resto es de noviembre. El Bingo musical de Veto y Fer (23/10) está agotado y sin botón de entradas: sin ficha, no se cargó."
+    "2026-10-20 [web] Leído hasta el 30/10; el resto es de noviembre. El Bingo musical de Veto y Fer (23/10) está agotado y sin botón de entradas: sin ficha, no se cargó.",
+    "2026-10-24 [web] 6 eventos en ventana (24/10 al 6/11). 'Los recuerdos del León' (30/10, fiesta) aparece solo como botón y no en la lista por día."
    ],
    "comportamiento": {
-    "extraccion": "la portada lista la programación por día (categoría, hora, título, descripción) en un texto; filtros Recitales/Fiestas/Noche de juegos",
+    "extraccion": "portada Fanz: 'Programación' por día en innerText; cada botón 'Entradas' es un <div>: click desde JS (índice en la lista de hojas con texto 'Entradas', no coincide con el orden de la lista) y leer location.pathname, precio ($) y la foto event-banners-fanz.s3.amazonaws.com",
     "plataforma": "Fanz: la portada lista los 12 eventos por fecha; los botones Entradas no son enlaces: hacer clic desde JS y leer location.pathname (/event/<id>-<slug>) o fetch del /event/ ya conocido",
     "fichas": "og:image es el logo de la plataforma: no sirve; la foto del evento solo está en el DOM de la ficha",
     "bloqueos": "sondear.py: dominio inalcanzable; solo navegador"
@@ -17808,6 +18113,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "enlace_bio": "https://linktr.ee/ccmatienzo"
@@ -17981,13 +18292,14 @@
    "comportamiento": {
     "agenda": "cartelera en /cartelera-miercoles/, -jue/, -viernes/, -sabado/, -domingo/",
     "espera_seg": 6,
-    "extraccion": "hay una página por día (/cartelera-<día>/); se leen con fetch desde la misma pestaña; miércoles y jueves dicen 'PROXIMAMENTE'",
+    "extraccion": "fetch('/cartelera-<día>/') desde la pestaña: innerText después de 'Inscripción'; miércoles y jueves dicen PROXIMAMENTE",
     "sin_fichas": "las obras no tienen página propia, solo la cartelera por día"
    },
    "notas": [
     "2026-10-15 [instagram] El perfil de Instagram enlaza a eljufre.com.ar, cuya cartelera tiene una página por día (miércoles a domingo); solo viernes y sábado traen obras en la ventana; miércoles, jueves y domingo sin obras. Jufré 444, Villa Crespo.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: tres obras semanales (sábado y domingo); la del viernes (Gentrifikeishon) terminó el 9/10. Sin precios; fechas inferidas semanalmente."
+    "2026-10-20 [web] 2026-10-19: tres obras semanales (sábado y domingo); la del viernes (Gentrifikeishon) terminó el 9/10. Sin precios; fechas inferidas semanalmente.",
+    "2026-10-24 [web] Releído el 24/10: sábado 20 h Festival de obras cortas y 22 h Fuera de línea; domingo 17:30 Basta para mí; viernes terminó el 9/10; miércoles y jueves PROXIMAMENTE. Sin precios ni fechas de fin: semanales inferidas."
    ],
    "ultimo": {
     "instagram": {
@@ -17997,10 +18309,10 @@
      "paginas": 6
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 3,
-     "paginas": 6
+     "paginas": 5
     }
    },
    "historial": [
@@ -18015,6 +18327,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "entradas": [
@@ -18025,21 +18349,33 @@
    "enlaces_descartados": [
     {
      "url": "https://eljufre.com.ar/talleres-y-seminarios/",
-     "texto": "Talleres y seminarios",
-     "motivo": "cursos de teatro con inscripción, sin fechas de la ventana en el listado",
-     "fecha": "2026-10-20"
+     "texto": "Talleres y Seminarios",
+     "motivo": "cursos regulares sin fechas publicadas",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://eljufre.com.ar/clases-magistrales/",
-     "texto": "Clases magistrales",
-     "motivo": "clases para alumnos, no abiertas al público general",
-     "fecha": "2026-10-20"
+     "texto": "Clases Magistrales",
+     "motivo": "clases sin fecha publicada",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://eljufre.com.ar/talleres-verano/",
-     "texto": "Talleres online",
-     "motivo": "online",
-     "fecha": "2026-10-20"
+     "texto": "Talleres Online",
+     "motivo": "talleres online de verano",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://eljufre.com.ar/las-salas/",
+     "texto": "Las salas",
+     "motivo": "descripción de las salas",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://eljufre.com.ar/eventos/",
+     "texto": "Eventos",
+     "motivo": "sin eventos publicados",
+     "fecha": "2026-10-24"
     }
    ]
   },
@@ -18056,25 +18392,32 @@
    "barrio": "Villa Crespo",
    "direccion": "Aguirre 456",
    "comportamiento": {
-    "extraccion": "la web es el Linktree: lista el próximo evento con fecha y un formulario de inscripción; el detalle (hora, lugar) está en el post de Instagram",
+    "extraccion": "sondear --leer del Linktree (un solo evento con fecha) y del formulario de inscripción (texto completo con fecha, hora y modalidad)",
     "herramientas": "la CSP de instagram.com bloquea el import de navegador.js: leer con innerText"
    },
    "notas": [
     "2026-10-15 [web] Linktree desactualizado; seguir redes del espacio.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/espaciomalcolm",
-    "2026-10-20 [web] 2026-10-20: un evento (cine club del 24/10); el Instagram lo anuncia con hora y entrada gratuita con inscripción."
+    "2026-10-20 [web] 2026-10-20: un evento (cine club del 24/10); el Instagram lo anuncia con hora y entrada gratuita con inscripción.",
+    "2026-10-24 [web] Linktree con un único evento: Cine Club del 24/10, 17 h, gratuito con inscripción."
    ],
    "enlaces_descartados": [
     {
      "url": "https://www.diafar.org",
-     "texto": "Diafar web",
-     "motivo": "sitio de la asociación Diafar, institucional",
-     "fecha": "2026-10-20"
+     "texto": "DIAFAR web",
+     "motivo": "sitio de la organización, sin agenda",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://diafar.us7.list-manage.com/subscribe",
+     "texto": "Newsletter",
+     "motivo": "suscripción al newsletter",
+     "fecha": "2026-10-24"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -18089,6 +18432,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -18774,13 +19123,16 @@
    "barrio": "Villa Del Parque",
    "direccion": "Lamarca, Emilio 2502",
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Sin agenda visible."
+    "2026-10-18 [instagram] Sin agenda visible.",
+    "2026-10-24 [instagram] Centro político y cultural; publica poco (último post 26/09)."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -18789,6 +19141,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -19237,21 +19595,36 @@
    "barrio": "Villa Lugano",
    "direccion": "Chilavert, Martiniano, Coronel 5453",
    "enlace_bio": "https://fiestadelcine.com.ar/",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "notas": [
-    "2026-10-18 [instagram] Cuenta con poca actividad; bio apunta a fiestadelcine.com.ar."
+    "2026-10-18 [instagram] Cuenta con poca actividad; bio apunta a fiestadelcine.com.ar.",
+    "2026-10-24 [instagram] Espacio socio comunitario de Villa 20; sin agenda cultural publicada."
    ],
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -19272,13 +19645,16 @@
    "direccion": "Dellepiane, Luis, Tte. Gral. 4900",
    "notas": [
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
-    "2026-10-18 [instagram] Sin agenda futura visible al 18/10."
+    "2026-10-18 [instagram] Sin agenda futura visible al 18/10.",
+    "2026-10-24 [instagram] Cuenta inactiva desde 2020."
    ],
    "bio_probada": "2026-10-15",
-   "comportamiento": {},
+   "comportamiento": {
+    "extraccion": "grilla + fetch('/p/<codigo>/') og:description"
+   },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-18",
+     "fecha": "2026-10-24",
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
@@ -19287,6 +19663,12 @@
    "historial": [
     {
      "fecha": "2026-10-18",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -23130,14 +23512,15 @@
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
     "2026-10-15 [web] En Buenos Aires Museo (Museo de la Ciudad) las exposiciones temporarias se anuncian como noticias; falta fecha de cierre de 'El otro Perotta'.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/buenosairesmuseo",
-    "2026-10-20 [web] Imágenes agregadas desde las fichas (1 de 2 eventos)."
+    "2026-10-20 [web] Imágenes agregadas desde las fichas (1 de 2 eventos).",
+    "2026-10-24 [web] 'El otro Perotta' se inauguró el 22/10 pero ni la noticia ni la página de exposiciones publican fecha de cierre: no se carga la muestra. Quedan los recorridos guiados permanentes."
    ],
    "id": "museo-de-la-ciudad",
    "entradas": [
     "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo"
    ],
    "comportamiento": {
-    "extraccion": "la portada trae horarios de recorridos y las exposiciones temporarias se anuncian como noticias; la ficha de la noticia 'El otro Perotta' no trae fecha de cierre; los enlaces de las tarjetas de noticias solo se ven en el navegador",
+    "extraccion": "portada con novedades; recorridos guiados permanentes de miércoles a viernes",
     "sin_fichas": "visitas guiadas: sin página propia"
    },
    "enlaces_descartados": [
@@ -23176,14 +23559,32 @@
      "texto": "Educación",
      "motivo": "programa educativo para escuelas",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/exposiciones-pasadas",
+     "texto": "Exposiciones pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/educacion",
+     "texto": "Educación",
+     "motivo": "programa educativo para escuelas",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/colecciones-bam/colecciones-bam",
+     "texto": "Colecciones",
+     "motivo": "catálogo de la colección",
+     "fecha": "2026-10-24"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 4
+     "eventos": 1,
+     "paginas": 3
     }
    },
    "historial": [
@@ -23204,6 +23605,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "San Telmo",
@@ -23224,14 +23631,15 @@
     "2026-10-15: la web cambió de  a https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel",
     "2026-10-15 [web] Los conciertos del ciclo 'Al estilo gardeliano' se anuncian como noticias, ya pasados (último 8/10); mirar Instagram @museocasagardel por los próximos.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museocasagardel",
-    "2026-10-20 [web] 2026-10-20: leído desde el sondeo HTTP; visitas guiadas permanentes. Conciertos próximos: revisar Instagram."
+    "2026-10-20 [web] 2026-10-20: leído desde el sondeo HTTP; visitas guiadas permanentes. Conciertos próximos: revisar Instagram.",
+    "2026-10-24 [web] Visitas guiadas permanentes. Instagram revisado el 24/10 (@museocasagardel): solo posts de obras de la colección, ningún concierto del ciclo 'Al estilo gardeliano' anunciado para la ventana."
    ],
    "id": "museo-casa-carlos-gardel",
    "entradas": [
     "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel"
    ],
    "comportamiento": {
-    "extraccion": "la portada trae horarios de visitas guiadas y las noticias son notas históricas; los conciertos del ciclo 'Al estilo gardeliano' se publican en Instagram/Linktree (https://linktr.ee/museocasagardel)",
+    "extraccion": "portada del museo con los horarios de visitas guiadas (HTTP alcanza)",
     "sin_fichas": "una sola actividad, la portada del museo"
    },
    "enlaces_descartados": [
@@ -23270,14 +23678,26 @@
      "texto": "Noticias",
      "motivo": "notas históricas sobre Gardel y conciertos ya realizados, sin próximas fechas",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/educacion/publico-general",
+     "texto": "Visitas guiadas para público general",
+     "motivo": "reserva de visitas: mismo contenido que la portada",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://buenosaires.gob.ar/educacion/instituciones-educativas",
+     "texto": "Visitas para instituciones educativas",
+     "motivo": "visitas de escuelas que reservan: no se cargan",
+     "fecha": "2026-10-24"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 1
+     "paginas": 3
     }
    },
    "historial": [
@@ -23289,6 +23709,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -23312,7 +23738,8 @@
     "2026-10-15: la web cambió de  a https://museos.untref.edu.ar/es/museo-de-la-inmigracion/",
     "2026-10-15 [web] Museo en Puerto Madero (Av. Antártida Argentina s/n). Muestra del 4/10 sobre inmigración japonesa y 'dos trabajos' inaugurados ese día no detallados en la portada; vale revisar Novedades.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/muntref",
-    "2026-10-20 [web] 2026-10-20: la portada lista 'En exposición ahora' con fichas /muestras/<slug>; las fichas de las muestras nuevas no traen fecha de cierre. 'Entre pasados', 'Una nación para la escuela' y 'Disonancias' figuran en la lista de novedades pero no se cargaron (otra sede, sin confirmar)."
+    "2026-10-20 [web] 2026-10-20: la portada lista 'En exposición ahora' con fichas /muestras/<slug>; las fichas de las muestras nuevas no traen fecha de cierre. 'Entre pasados', 'Una nación para la escuela' y 'Disonancias' figuran en la lista de novedades pero no se cargaron (otra sede, sin confirmar).",
+    "2026-10-24 [web] Portada releída el 24/10: mismas muestras que el 20/10 (El legado que inspira el futuro, Para todos los hombres del mundo, Del Mediterráneo oriental al Plata hasta el 28/12, y las dos muestras del concurso 2026 inauguradas el 4/10, sin fecha de cierre). Se parte de esa captura. 'Diásporas italianas', 'ADN Argentino' y 'Políticas migratorias' figuran sin enlace."
    ],
    "id": "muntref-museo-de-la-inmigracion",
    "entradas": [
@@ -23320,40 +23747,41 @@
    ],
    "comportamiento": {
     "espera_seg": 4,
-    "extraccion": "la portada lista 'En exposición ahora' con enlaces a /es/muestras/<slug>"
+    "extraccion": "sondear --leer de la portada: 'En exposición ahora' con enlaces /es/muestras/<slug>; visitas guiadas sábados y domingos 12 y 15 h",
+    "sin_fichas": "las visitas guiadas figuran en la portada del museo"
    },
    "enlaces_descartados": [
     {
      "url": "https://museos.untref.edu.ar/es/prensa",
      "texto": "Prensa",
-     "motivo": "notas de prensa",
-     "fecha": "2026-10-15"
+     "motivo": "gacetillas",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://museos.untref.edu.ar/es/archivo-de-muestras/a2026",
      "texto": "Archivo de muestras",
      "motivo": "archivo de muestras pasadas",
-     "fecha": "2026-10-20"
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://museos.untref.edu.ar/es/recorridos-virtuales",
      "texto": "Recorridos virtuales",
-     "motivo": "recorridos virtuales online, no presenciales",
-     "fecha": "2026-10-20"
+     "motivo": "recorridos virtuales online",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://museos.untref.edu.ar/es/educacion",
      "texto": "Educación",
-     "motivo": "visitas educativas para escuelas con reserva",
-     "fecha": "2026-10-20"
+     "motivo": "visitas de escuelas que reservan",
+     "fecha": "2026-10-24"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 6,
-     "paginas": 7
+     "paginas": 6
     }
    },
    "historial": [
@@ -23365,6 +23793,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
@@ -23477,7 +23911,8 @@
     "2026-10-15: la web cambió de  a https://www.macnconicet.gob.ar/",
     "2026-10-15 [web] Av. Ángel Gallardo 470, Caballito. /eventos/ solo tenía una muestra temporaria; las 'Actividades' del menú son contenidos virtuales.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/macn.oficial",
-    "2026-10-20 [web] 2026-10-20: /eventos/ lista una sola muestra temporaria; las muestras fotográficas del menú son de 2020-2021; Exhibiciones son las salas permanentes (no se cargan)."
+    "2026-10-20 [web] 2026-10-20: /eventos/ lista una sola muestra temporaria; las muestras fotográficas del menú son de 2020-2021; Exhibiciones son las salas permanentes (no se cargan).",
+    "2026-10-24 [web] /eventos/ releída el 24/10: un único evento vigente."
    ],
    "id": "museo-argentino-de-ciencias-naturales-bernardino-rivadavia",
    "entradas": [
@@ -23485,7 +23920,7 @@
    ],
    "comportamiento": {
     "espera_seg": 4,
-    "extraccion": "/eventos/ lista pocas fichas /evento/<slug> con fecha de inicio y fin"
+    "extraccion": "/eventos/ lista solo 'Exploraciones imaginarias' (16/10 al 30/11)"
    },
    "enlaces_descartados": [
     {
@@ -23509,10 +23944,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 1,
-     "paginas": 8
+     "paginas": 3
     }
    },
    "historial": [
@@ -23524,6 +23959,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -23622,7 +24063,8 @@
     "2026-10-15: la web cambió de  a https://museorojas.cultura.gob.ar/",
     "2026-10-15 [web] Museo de entrada gratuita, martes a sábado y feriados de 11 a 19 h. Los ciclos de taller publican varios encuentros en una sola ficha.",
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museocasarojas",
-    "2026-10-20 [web] Imágenes agregadas desde las fichas (3 de 3 eventos)."
+    "2026-10-20 [web] Imágenes agregadas desde las fichas (3 de 3 eventos).",
+    "2026-10-24 [web] /actividades/ releída el 24/10: no hay actividades entre el 24/10 y el 5/11 (la primera es el 14/11). Quedan las dos exhibiciones hasta el 31/12 de la captura del 20/10 (/exhibiciones/ no se releyó)."
    ],
    "id": "museo-casa-de-ricardo-rojas",
    "entradas": [
@@ -23631,7 +24073,8 @@
    ],
    "comportamiento": {
     "espera_seg": 4,
-    "extraccion": "/actividades/ y /exhibiciones/ con fichas; las fechas están en la ficha ('Cuándo'); el sondeo HTTP alcanza (sondear.py --leer en cada ficha); sin imagen accesible en el texto"
+    "extraccion": "sondear --leer /actividades/: cada actividad con fecha; la primera es la Noche de los Museos del 14/11",
+    "imagen": "imagenes.py <id> para el CSS background"
    },
    "enlaces_descartados": [
     {
@@ -23644,21 +24087,27 @@
      "url": "https://museorojas.cultura.gob.ar/info/accesibilidad/",
      "texto": "Accesibilidad",
      "motivo": "información de accesibilidad",
-     "fecha": "2026-10-15"
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://museorojas.cultura.gob.ar/info/colecciones/",
      "texto": "Colecciones",
-     "motivo": "catálogo de colecciones",
-     "fecha": "2026-10-20"
+     "motivo": "catálogo de la colección",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://museorojas.cultura.gob.ar/info/visita/",
+     "texto": "Visita",
+     "motivo": "horarios y cómo llegar",
+     "fecha": "2026-10-24"
     }
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 5
+     "eventos": 2,
+     "paginas": 2
     }
    },
    "historial": [
@@ -23679,6 +24128,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Palermo",
@@ -25049,12 +25504,13 @@
     "2026-10-15: club de electrónica; Instagram confirmado en RA",
     "2026-10-15 [instagram] El Linktree lista las fechas con enlaces a Venti y Flashpass; 7/11 y 21/11 quedan fuera de ventana.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
-    "2026-10-20 [web] 2026-10-19: dos fiestas en la ventana (23 y 24/10); 'Carroza loca' (7/11) y 'Quitapenas' (21/11) quedan fuera. Sin dirección (la completa armar_agenda)."
+    "2026-10-20 [web] 2026-10-19: dos fiestas en la ventana (23 y 24/10); 'Carroza loca' (7/11) y 'Quitapenas' (21/11) quedan fuera. Sin dirección (la completa armar_agenda).",
+    "2026-10-24 [web] 1 evento en ventana: desfile Verónica Zhang (24/10). Los siguientes: Carroza Loca 7/11, Un año en las nubes 21/11, Quitapenas 21/11."
    ],
    "enlace_bio": "https://linktr.ee/lanubebuenosaires",
    "comportamiento": {
     "agenda": "Linktree con 'dd.mm título' y enlaces a Venti/Flashpass",
-    "extraccion": "la bio (Linktree) lista fecha + nombre + ticketera (Flashpass, Venti); las fichas de Flashpass traen fecha, hora y precio",
+    "extraccion": "sondear --leer del Linktree; la ficha de Flashpass (HTTP) da hora, tandas con precio y portada",
     "web": "la 'web' es el Linktree"
    },
    "ultimo": {
@@ -25065,10 +25521,10 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 3
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -25083,10 +25539,30 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "entradas": [
     "https://linktr.ee/lanubebuenosaires"
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://docs.google.com/forms/",
+     "texto": "Convocatoria FADUSETS",
+     "motivo": "convocatoria, no evento",
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://drive.google.com/",
+     "texto": "Menús Carnaval",
+     "motivo": "cartas de comida y tragos",
+     "fecha": "2026-10-24"
+    }
    ]
   },
   {
@@ -25310,22 +25786,23 @@
    "notas": [
     "2026-10-15: teatros San Martín, Regio, Sarmiento, Alvear y De la Ribera; no estaban en la lista",
     "2026-10-15 [web] Agenda del Complejo Teatral (San Martín, Sarmiento, Alvear, Regio, El Plata, Lugones). Cine: horarios de cada ciclo en la ficha.",
-    "2026-10-20 [web] Leído el 20/10. Las visitas guiadas del Teatro San Martín (sábados y domingos 10, 12, 14 y 16 h, $7000) no se cargaron en esta pasada. A cielo abierto (Teatro Regio) y Los espíritus del museo no publican días ni cierre."
+    "2026-10-20 [web] Leído el 20/10. Las visitas guiadas del Teatro San Martín (sábados y domingos 10, 12, 14 y 16 h, $7000) no se cargaron en esta pasada. A cielo abierto (Teatro Regio) y Los espíritus del museo no publican días ni cierre.",
+    "2026-10-24 [web] Agenda releída el 24/10 (24 producciones, sin cambios respecto del 20/10). Jazz Buenos Aires (marzo a noviembre) no se carga por fechas sueltas: sus conciertos se cargaron antes uno por uno."
    ],
    "entradas": [
     "https://complejoteatral.gob.ar/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "/agenda carga las tarjetas con JS: leer los enlaces /produccion/<slug>/ de la pestaña; cada ficha se lee por HTTP (sondear.pedir) con Funciones, Valor de las localidades, Dónde y og:image",
+    "extraccion": "sondear --leer /agenda/ lista las 24 producciones con sala y horarios y su enlace /produccion/<slug>/; la agenda es la misma que la de la captura del 20/10, así que se parte de ella sin las funciones pasadas",
     "fichas": "los ciclos de cine de la Sala Lugones traen cada película con día y hora en el texto",
     "herramientas": "el import de navegador.js se colgó en esta página (45 s): usar JS propio"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 22,
-     "paginas": 23
+     "eventos": 19,
+     "paginas": 20
     }
    },
    "historial": [
@@ -25340,6 +25817,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 22
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 19
     }
    ],
    "bio_probada": "2026-10-15",
@@ -25347,14 +25830,20 @@
     {
      "url": "https://complejoteatral.gob.ar/formacion/",
      "texto": "Formación",
-     "motivo": "cursos y escuelas del complejo, sin fechas puntuales",
-     "fecha": "2026-10-20"
+     "motivo": "talleres de formación del elenco, sin fechas públicas",
+     "fecha": "2026-10-24"
     },
     {
      "url": "https://complejoteatral.gob.ar/noticias/",
      "texto": "Noticias",
      "motivo": "notas de prensa",
-     "fecha": "2026-10-20"
+     "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://complejoteatral.gob.ar/visitas-guiadas/",
+     "texto": "Visitas Guiadas",
+     "motivo": "visitas con reserva para grupos; la agenda no lista fechas",
+     "fecha": "2026-10-24"
     }
    ]
   },
@@ -25805,21 +26294,22 @@
    "notas": [
     "2026-10-15: sala de recitales",
     "2026-10-15 [web] Cartelera en la portada.",
-    "2026-10-20 [web] 2026-10-20: cartelera en la portada (Squarespace); las fichas están en Passline. Los shows desde el 4/11 quedan fuera de la ventana."
+    "2026-10-20 [web] 2026-10-20: cartelera en la portada (Squarespace); las fichas están en Passline. Los shows desde el 4/11 quedan fuera de la ventana.",
+    "2026-10-24 [web] 6 shows en ventana (24/10 al 6/11). Los 4 primeros parten de la captura del 20/10; Adanowsky e Iván Noble leídos el 24/10. Maneva (7/11) y los siguientes quedan fuera."
    ],
    "entradas": [
     "https://www.latrastienda.com/"
    ],
    "comportamiento": {
-    "extraccion": "la portada lista próximos shows con fecha y hora; sin scroll largo",
+    "extraccion": "sondear --leer de la portada: 'Próximos shows' con fecha y hora; enlaces passline.com/eventos-ficha-dvm/<slug>; precio ($ mínimo) y foto (imagenes/eventos/…-rec.jpg) con fetch() desde una pestaña de passline.com",
     "fichas": "los enlaces de entradas van a passline.com/eventos-ficha-dvm/<slug>; por HTTP da 403, desde el navegador (fetch en una pestaña de passline) se leen precios y og:image"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 5,
-     "paginas": 6
+     "eventos": 6,
+     "paginas": 7
     }
    },
    "historial": [
@@ -25834,6 +26324,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "bio_probada": "2026-10-15"
@@ -25851,13 +26347,14 @@
    "notas": [
     "2026-10-15: estadio de recitales",
     "2026-10-15 [web] Se cargó la primera fecha de cada show; las fechas adicionales ('y N más') están en cada ficha.",
-    "2026-10-20 [web] 2026-10-20: ventana hasta el 1/11; Bersuit (3/11) y siguientes fuera de ventana. Sin hora ni imagen en las fichas."
+    "2026-10-20 [web] 2026-10-20: ventana hasta el 1/11; Bersuit (3/11) y siguientes fuera de ventana. Sin hora ni imagen en las fichas.",
+    "2026-10-24 [web] 10 shows en ventana (24/10 al 6/11). Sin hora (no figura en el listado). Calamaro tiene una fecha anterior (20/10) ya pasada."
    ],
    "entradas": [
     "https://www.movistararena.com.ar/shows"
    ],
    "comportamiento": {
-    "extraccion": "/shows lista tarjetas con título, primera fecha y 'y N fechas más'; las demás fechas están en la ficha",
+    "extraccion": "/shows en el navegador: 10 tarjetas con fecha, 'Desde $' y foto; las fichas son una SPA sin texto de fechas por fetch; las segundas fechas ('y 1 fecha más') salen de la captura anterior",
     "plataforma": "sondear da unreachable; en el navegador /shows lista tarjetas con 'y N fechas más'; las fechas extra están en cada ficha /show/<uuid> (se leen cargándola en un iframe, ~4 s)",
     "espera_seg": 6,
     "sin_fichas": "las fichas no traen imagen propia del show ni hora en el texto"
@@ -25884,10 +26381,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
-     "eventos": 12,
-     "paginas": 8
+     "eventos": 10,
+     "paginas": 1
     }
    },
    "historial": [
@@ -25902,6 +26399,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 12
+    },
+    {
+     "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
     }
    ],
    "bio_probada": "2026-10-15"
@@ -26231,16 +26734,17 @@
    "notas": [
     "2026-10-15: aparece en la cartelera de Espacios INCAA con localidad CABA",
     "2026-10-15 [web] La cartelera de Espacios INCAA lista todo el país; solo CABA: Atlas Flores y ATE Cultura (este último sin sitio propio).",
-    "2026-10-20 [web] 2026-10-20: la tabla solo trae hasta el miércoles 21/10 (Bajo tus pies, 22 h todos los días); vuelve a revisarse cuando publiquen la semana siguiente."
+    "2026-10-20 [web] 2026-10-20: la tabla solo trae hasta el miércoles 21/10 (Bajo tus pies, 22 h todos los días); vuelve a revisarse cuando publiquen la semana siguiente.",
+    "2026-10-24 [web] Atlas Flores: Yo, Narciso a las 22 h del 22 al 28/10 (publicado hasta el 28/10). ATE Cultura CABA solo tenía funciones el 22 y 23/10."
    ],
    "entradas": [
     "https://www.incaa.gob.ar/carteleras/programacion-espacios-incaa/"
    ],
    "comportamiento": {
-    "espera_seg": 8,
-    "extraccion": "tabla en el texto (espacio, localidad, día, hora, película); filtrar líneas con 'Atlas Flores'",
+    "espera_seg": 9,
+    "extraccion": "tabla en el texto (espacio, localidad, día, hora, película) leída con innerText en el navegador",
     "herramientas": "el resultado de preparar() con URLs con ? lo bloquea la herramienta: quitar query strings antes de devolverlo",
-    "sin_fichas": "la cartelera de Espacios INCAA es una tabla sin enlace por película"
+    "sin_fichas": "la programación es una tabla en una sola página"
    },
    "enlaces_descartados": [
     {
@@ -26258,7 +26762,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-20",
+     "fecha": "2026-10-24",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 1
@@ -26273,6 +26777,12 @@
     },
     {
      "fecha": "2026-10-20",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-10-24",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1

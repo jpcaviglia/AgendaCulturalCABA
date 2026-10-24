@@ -154,6 +154,10 @@ thing without loading anything:
 - Post: `document.querySelector('time').dateTime.slice(0,10)` and
   `(document.querySelector('article')||document.body).innerText.replace(/\s+/g,' ').slice(0,700)`.
 
+- One call per profile: store the snippet once in `localStorage` (instagram.com keeps it across navigations: `localStorage.setItem('igsrc', '(async()=>{...})()')`)
+  and after each `navigate` + 5 s wait run `await (0,eval)(localStorage.getItem('igsrc'))`. The snippet prints the bio, the first 9 grid posts with their
+  decoded date and, only for posts from the last ~12 days, the `og:description` of `fetch('/p/<code>/')` plus the lines around dates (`📅 📆 🗓`, `dd/mm`, `hs`, `octubre`).
+  Two profiles fit in one `browser_batch`. A flyer post whose caption is empty is opened once and read with a screenshot.
 - Fastest: the `alt` of each grid thumbnail already holds the post's full caption (up to ~600 characters):
   `[...document.querySelectorAll('a[href*="/p/"],a[href*="/reel/"]')].slice(0,9).map(a=>a.href+' | '+a.querySelector('img').alt)`.
   Most profiles are covered with that, without opening any post (so 1 page of quota per profile).
@@ -333,6 +337,15 @@ page from a tab of the same site, because Python gets 403 or only the app shell)
   froze the tab. Ask only for the days the site publishes (the selector shows ~9 days) and read `window.__out` with short calls.
 - **Poster carousels as stacked images** (Torquato Tasso): scroll 5 ticks and `zoom` on the poster column (`region [320,0,1240,731]`, scale 0.45); posters
   come in date order, so stop at the first one past the window.
+- **Movistar Arena** (`/shows`): the 10 cards have date, `Desde $` and picture (`/static/artistas/<id>_<name>_FileFotoFichaListado`); the show pages are a SPA with no
+  dates over `fetch`, so a second date ("y 1 fecha más") comes from the previous capture. Take the full `/show/<uuid>` from the `<a>` tags, not from the text.
+- **Flashpass** (`events.flashpass.com.ar/eventos/<slug>`): HTTP works; the text has `SÁB 24 DE OCT 2026 | 22:30 - 04:00` and tiers with `$`; the cover is `cdn.flashpass.com.ar/events/portadas/<id>.webp`.
+- **Cafaccess productora** (`cafaccess.com/productora/<slug>`): cards in the browser; each ficha has the hour; the picture is the `url=` parameter of the `next/image` `<img>`.
+- **Alpogo search** (`alpogo.com/buscar?busqueda=<venue>`): `sondear.py --leer` lists every show with date, hour and `CC <venue>, CABA`; each `/evento/<slug>` has `og:image`.
+- **Enigma Tickets** (`enigmatickets.com/event/<uuid>`): the text has `Sáb 24/10 21:00hs <venue>`; no price or picture over HTTP.
+- **Fanz sites, "Entradas" buttons**: the index of the clicked button in the list of leaf nodes with text `Entradas` does not follow the order of the day list (an extra
+  button of a featured event comes first); read `location.pathname` after each click and check the title.
+- **Hasta Trilce**: the HTML of the home page carries injected casino spam links; ignore them.
 - **Wrong Instagram handle**: the profile page says "Sorry, this page isn't available": search Google for `<venue> instagram` (the result titles show
   the real handle: `lalala_ortuzar`, not `lalala.ortuzar`) and correct `sitios.json` and `lugares.json` too.
 

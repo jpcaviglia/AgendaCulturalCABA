@@ -1,0 +1,49 @@
+{
+ "id": "centro-cultural-de-arte-y-movimiento-bailaba",
+ "canal": "instagram",
+ "fuente": "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!",
+ "tipo": "lugar",
+ "fecha": "2026-10-24",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/bailaba.centro.cultural/",
+  "https://www.bailaba.com.ar",
+  "https://www.bailaba.com.ar/noches-de-baile/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Noche caribeña de baile de los viernes en BailaBA",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-11-06",
+   "hora": "23:00",
+   "horarios": "Todos los viernes, baile desde las 23 h hasta las 3 (30/10 y 6/11); clases previas de salsa y bachata",
+   "lugar": "Centro Cultural BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "descripcion": "Noche de baile con DJ de salsa y bachata, clases previas y barra de bebidas y comidas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Noche de tango, salsa y bachata de los sábados en BailaBA",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "",
+   "horarios": "Todos los sábados (24 y 31/10); clases previas de salsa, bachata, kizomba y tango",
+   "lugar": "Centro Cultural BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "descripcion": "Noche de baile con DJ de salsa, bachata, kizomba y tango, con clases previas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

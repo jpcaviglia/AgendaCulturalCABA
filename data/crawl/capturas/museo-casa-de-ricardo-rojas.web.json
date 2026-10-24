@@ -3,14 +3,11 @@
  "canal": "web",
  "fuente": "Museo Casa de Ricardo Rojas",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://museorojas.cultura.gob.ar/",
-  "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/",
-  "https://museorojas.cultura.gob.ar/exhibicion/aventuras-en-el-patio-de-los-arquetipos/",
-  "https://museorojas.cultura.gob.ar/actividad/cuando-las-palabras-son-hilos-ciclo-2026/",
-  "https://museorojas.cultura.gob.ar/actividad/leer-nos-convoca-2026-ciclo-viajes-minimos-lecturas-en-la-intimidad/"
+  "https://museorojas.cultura.gob.ar/actividades/",
+  "https://museorojas.cultura.gob.ar/exhibiciones/"
  ],
  "eventos": [
   {
@@ -46,23 +43,6 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/002-rojasdaniel_duhau.jpg/002-rojasdaniel_duhau-1500x0-no-upscale.jpg"
-  },
-  {
-   "titulo": "Cuando las palabras son hilos: bordar para reparar (cuarto encuentro)",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "16:00",
-   "horarios": "Jueves 22 de octubre de 16 a 18 h",
-   "lugar": "Museo Casa de Ricardo Rojas",
-   "barrio": "Palermo",
-   "direccion": "Charcas 2837",
-   "categoria": "Taller",
-   "precio": "Gratis",
-   "url": "https://museorojas.cultura.gob.ar/actividad/cuando-las-palabras-son-hilos-ciclo-2026/",
-   "descripcion": "Cuarto encuentro del ciclo de bordado literario: la reparación textil como gesto simbólico y creativo. Participación libre con inscripción previa hasta cubrir cupo.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/2026_cuando_las_palabras_son_hilos_-portada_web.jpg/2026_cuando_las_palabras_son_hilos_-portada_web-1500x0-no-upscale.jpg"
   }
  ]
 }

@@ -404,7 +404,7 @@ repository) holds every opened post with the events it had. Do not open them aga
    it says "Sorry, this page isn't available" the username is probably wrong: look the venue up on Google
    and correct `instagram` in `sitios.json` and `lugares.json` (the handle `@ba.gops` of 14 city cultural
    centers was `@gops.ba`); if the account was really closed and the venue too, `descartar` it with the
-   evidence. Do not mark a site down because of a wrong handle.
+   evidence. Do not mark a site down because of a wrong handle. If the handle still shows up in Google but Instagram says it is unavailable and the venue has a working website (BailaBA), save the `instagram` channel with the events read from that website, `web_nueva` and `sin_fichas` in `comportamiento`.
 2. Pass the `posts` URLs to the script: `python scripts/crawl.py ig-vistos <id> <url1> <url2> ...`
    Open **only the NEW ones** (up to ~9) and the "Agenda", "Cartelera", "Programación" highlights if there
    are any. Run `instagram_post` on each. Use `publicado` to deduce the year of dates like "sábado 18". If a
