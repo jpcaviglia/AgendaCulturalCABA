@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "BRITISH ART CENTRE",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.aaci.org.ar/bac/",
@@ -15,23 +15,6 @@
   "https://www.aaci.org.ar/bac/coro-bac/"
  ],
  "eventos": [
-  {
-   "titulo": "Choir Nights 4th edition",
-   "fecha_inicio": "2026-10-19",
-   "fecha_fin": "2026-10-20",
-   "hora": "19:00",
-   "horarios": "Lunes 19 y martes 20 de octubre, 19:00 hs (más 2 fechas en el listado)",
-   "lugar": "BRITISH ART CENTRE",
-   "barrio": "Retiro",
-   "direccion": "Suipacha 1333",
-   "categoria": "Música",
-   "precio": "Entradas a contribución",
-   "url": "https://www.aaci.org.ar/bac/choir-nights-4th-edition/",
-   "descripcion": "Cuarta edición de las Choir Nights. Entradas a contribución para el programa de inglés de AACI en el barrio 31; se pagan en puerta.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
   {
    "titulo": "Rebecca Winckworth",
    "fecha_inicio": "2026-10-28",
@@ -62,6 +45,23 @@
    "precio": "",
    "url": "https://www.aaci.org.ar/bac/seminario-de-clown/",
    "descripcion": "Seminario de clown dirigido por Mercedes Arguimbau y Marilyn Petito. Consultas por mail.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Un cuadro blanco",
+   "fecha_inicio": "2026-10-25",
+   "fecha_fin": "2026-10-25",
+   "hora": "20:30",
+   "horarios": "Jueves 22 y domingo 25 de octubre, 20:30 h",
+   "lugar": "British Arts Centre",
+   "barrio": "Retiro",
+   "direccion": "Suipacha 1333",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.aaci.org.ar/bac/",
+   "descripcion": "Obra en el British Arts Centre; quedan funciones el domingo 25 de octubre.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

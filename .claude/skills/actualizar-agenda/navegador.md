@@ -186,6 +186,11 @@ with a fixed `<article style="position:fixed;inset:0;z-index:99999;white-space:p
 (not replacing the body) and read it with `get_page_text`, which only returns the first `article`/`main` of a page
 (Time Out: `get_page_text` returns only the first item of the list, but the appended article carries the whole
 `innerText`). To hand data *into* a page that blocks localhost, paste it in the `javascript_tool` text (slugs, not URLs).
+When even a POST never arrives (Passline), an `<img>` GET does: split the JSON in ~4.5 KB chunks and request
+`new Image().src='http://127.0.0.1:PORT/?i=N&d='+encodeURIComponent(chunk)` against a server that writes the `d`
+parameter to `chunk_N.txt` (300 ms between chunks); join the chunks in Python. A page that keeps running a long
+`fetch` loop must be the only tab and stay visible: Chrome throttles the timers of a background tab to a crawl, and
+a `computer` `wait` in a batch keeps the tab busy while you wait.
 
 **A frozen tab** (`CDP sendCommand "Runtime.evaluate" timed out after 45000ms`, usually after importing the tools
 on a heavy single-page app): do not close the old tab first, because closing the only tab of the group drops the

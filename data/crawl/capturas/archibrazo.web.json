@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "ARCHIBRAZO",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.archibrazo.org/agenda/",
@@ -15,40 +15,6 @@
   "https://www.archibrazo.org/eventos/showdemusica/"
  ],
  "eventos": [
-  {
-   "titulo": "¿Dónde están las wachas? | Emex Sarassa - Clara Lambertucci - Eluney Sposato - VICO",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "20:30",
-   "horarios": "",
-   "lugar": "Archibrazo",
-   "barrio": "Almagro",
-   "direccion": "Mario Bravo 441",
-   "categoria": "Música en vivo",
-   "precio": "A la gorra (hasta $ 16500)",
-   "url": "https://www.archibrazo.org/eventos/dondeestanleswaches/",
-   "descripcion": "Ciclo de música en vivo para encontrarse entre las trabajadoras y trabajadores de la escena.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/06/22-10-819x1024.jpg"
-  },
-  {
-   "titulo": "Cumple Charly - Habladurías vol. 2",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "20:30",
-   "horarios": "",
-   "lugar": "Archibrazo · Sala Andralis",
-   "barrio": "Almagro",
-   "direccion": "Mario Bravo 441",
-   "categoria": "Música en vivo",
-   "precio": "A la gorra (hasta $ 16500)",
-   "url": "https://www.archibrazo.org/eventos/musicaenvivo/",
-   "descripcion": "Festejo de cumpleaños de Charly García con música en vivo y visuales.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/06/23-10-819x1024.jpg"
-  },
   {
    "titulo": "Sinestesia + Cinco en Ohm",
    "fecha_inicio": "2026-10-24",
@@ -99,6 +65,23 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://www.archibrazo.org/wp-content/uploads/2025/10/GraficaArchi-2026-18-819x1024.png"
+  },
+  {
+   "titulo": "ARCHICUMBIÓN | PARIENTES & ANTIGUA Y BARBUDA",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "22:30",
+   "horarios": "",
+   "lugar": "Archibrazo · Sala Andralis",
+   "barrio": "Almagro",
+   "direccion": "Mario Bravo 441",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://www.archibrazo.org/eventos/archicumbion/",
+   "descripcion": "Música en vivo en la Sala Andralis: Parientes y Antigua y Barbuda.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }

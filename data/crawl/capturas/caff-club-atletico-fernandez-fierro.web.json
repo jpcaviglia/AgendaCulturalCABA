@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://caff.ar/",
@@ -14,23 +14,6 @@
   "https://caff.ar/shows/867"
  ],
  "eventos": [
-  {
-   "titulo": "Dúo Ranas & Chino Laborde",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "22:00",
-   "horarios": "",
-   "lugar": "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
-   "barrio": "",
-   "direccion": "Sánchez de Bustamante 772",
-   "categoria": "Música",
-   "precio": "Desde $ 20000",
-   "url": "https://caff.ar/shows/851",
-   "descripcion": "Dúo Ranas & Chino Laborde en el Club Atlético Fernández Fierro.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://caff.ar/shows-img/851.jpg"
-  },
   {
    "titulo": "Vení a Cantar ABBA",
    "fecha_inicio": "2026-10-24",
@@ -98,6 +81,57 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://caff.ar/shows-img/867.jpg"
+  },
+  {
+   "titulo": "Polimnia + Amalgana",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "Club Atlético Fernández Fierro",
+   "barrio": "Almagro",
+   "direccion": "Sánchez de Bustamante 772",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://caff.ar/shows/872",
+   "descripcion": "Show en el CAFF: Polimnia + Amalgana.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Cardenal Domínguez + El Conjuro de las Cumbias Tristes",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "Club Atlético Fernández Fierro",
+   "barrio": "Almagro",
+   "direccion": "Sánchez de Bustamante 772",
+   "categoria": "Música",
+   "precio": "",
+   "url": "https://caff.ar/shows/868",
+   "descripcion": "Show en el CAFF: Cardenal Domínguez + El Conjuro de las Cumbias Tristes.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Fernández Fierro",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "21:00",
+   "horarios": "Sábado 7 de noviembre, 21 h (puerta 20 h)",
+   "lugar": "Club Atlético Fernández Fierro",
+   "barrio": "Almagro",
+   "direccion": "Sánchez de Bustamante 772",
+   "categoria": "Tango",
+   "precio": "",
+   "url": "https://caff.ar/shows/1",
+   "descripcion": "La orquesta típica Fernández Fierro en su club.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }
