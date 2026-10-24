@@ -3,16 +3,9 @@
  "canal": "web",
  "fuente": "MALBA",
  "tipo": "galeria",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://malba.org.ar/agenda-hoy/",
-  "https://malba.org.ar/exposiciones-actuales/",
-  "https://malba.org.ar/agenda/on/2026/10/19/",
-  "https://malba.org.ar/agenda/on/2026/10/20/",
-  "https://malba.org.ar/agenda/on/2026/10/21/",
-  "https://malba.org.ar/agenda/on/2026/10/22/",
-  "https://malba.org.ar/agenda/on/2026/10/23/",
   "https://malba.org.ar/agenda/on/2026/10/24/",
   "https://malba.org.ar/agenda/on/2026/10/25/",
   "https://malba.org.ar/agenda/on/2026/10/26/",
@@ -22,26 +15,14 @@
   "https://malba.org.ar/agenda/on/2026/10/30/",
   "https://malba.org.ar/agenda/on/2026/10/31/",
   "https://malba.org.ar/agenda/on/2026/11/01/",
-  "https://malba.org.ar/agenda/on/2026/11/02/"
+  "https://malba.org.ar/agenda/on/2026/11/02/",
+  "https://malba.org.ar/agenda/on/2026/11/03/",
+  "https://malba.org.ar/agenda/on/2026/11/04/",
+  "https://malba.org.ar/agenda/on/2026/11/05/",
+  "https://malba.org.ar/agenda/on/2026/11/06/",
+  "https://malba.org.ar/agenda/on/2026/11/07/"
  ],
  "eventos": [
-  {
-   "titulo": "Colección__Malba—Costantini Latinoamérica__en expansión",
-   "fecha_inicio": "2026-10-19",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Jueves a lunes de 12 a 20 h; miércoles de 11 a 20 h; martes cerrado",
-   "lugar": "Malba · Nivel 1",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Artes visuales",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/coleccion-aniversario/",
-   "descripcion": "Exposición permanente de la Colección Malba—Costantini.",
-   "vigente_sin_fin": true,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/04/2026-08-31-142454-003.avif"
-  },
   {
    "titulo": "Viva Frida",
    "fecha_inicio": "2026-10-19",
@@ -57,7 +38,7 @@
    "descripcion": "Exposición Viva Frida, hasta el 15 de marzo de 2027.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/01/frida-muray.jpg"
+   "imagen": ""
   },
   {
    "titulo": "Belkis Ayón: Mito y desobediencia",
@@ -74,7 +55,7 @@
    "descripcion": "Muestra de la artista cubana Belkis Ayón, hasta el 15 de marzo de 2027.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/05/Belkis-Ayon-La-ultima-cena-detalle.jpg"
+   "imagen": ""
   },
   {
    "titulo": "Trajetos brasileiros na arte latino-americana",
@@ -91,14 +72,14 @@
    "descripcion": "Actividad educativa de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/05/2026-05-04-003.webp"
+   "imagen": ""
   },
   {
    "titulo": "Micro-mediaciones por Mito y desobediencia",
    "fecha_inicio": "2026-10-19",
    "fecha_fin": "2026-11-02",
    "hora": "17:00",
-   "horarios": "19/10 17:00 h; 26/10 17:00 h; 02/11 17:00 h",
+   "horarios": "26/10 17:00 h; 2/11 17:00 h",
    "lugar": "Malba · Nivel -1",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
@@ -108,31 +89,14 @@
    "descripcion": "Actividad educativa de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/07/2026-07-16-180609-002.avif"
-  },
-  {
-   "titulo": "Frida",
-   "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-10-20",
-   "hora": "20:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/frida/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/2026-09-28-132603-002.avif"
+   "imagen": ""
   },
   {
    "titulo": "Recorridos abiertos por la Colección Malba—Costantini",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-07",
    "hora": "16:00",
-   "horarios": "21/10 16:00 h; 24/10 16:00 h; 28/10 16:00 h; 31/10 16:00 h",
+   "horarios": "24/10, 28/10, 31/10, 4/11 y 7/11 (consultar horario en el sitio)",
    "lugar": "Malba · Nivel 1",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
@@ -142,14 +106,14 @@
    "descripcion": "Actividad educativa de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/04/2026-04-30-001.webp"
+   "imagen": ""
   },
   {
    "titulo": "Recorridos abiertos por Viva Frida",
    "fecha_inicio": "2026-10-21",
-   "fecha_fin": "2026-10-31",
+   "fecha_fin": "2026-11-07",
    "hora": "17:00",
-   "horarios": "21/10 17:00 h; 23/10 17:00 h; 24/10 17:00 h; 28/10 17:00 h; 30/10 17:00 h; 31/10 17:00 h",
+   "horarios": "24/10, 28/10, 31/10, 4/11 y 7/11, 17 h",
    "lugar": "Malba · Nivel 2",
    "barrio": "Palermo",
    "direccion": "Av. Figueroa Alcorta 3415",
@@ -159,160 +123,7 @@
    "descripcion": "Actividad educativa de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/2026-09-21-104515-001.avif"
-  },
-  {
-   "titulo": "Tristán y los días por venir",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "18:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/tristan-y-los-dias-por-venir/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Tristan-y-los-dias.jpeg"
-  },
-  {
-   "titulo": "El diablo andaba en los choclos",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "19:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/el-diablo-andaba-en-los-choclos/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/23.-el-diablo-andaba-en-los-choclos.jpeg"
-  },
-  {
-   "titulo": "Vorágine",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "20:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/voragine/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Voragine.jpeg"
-  },
-  {
-   "titulo": "Mujeres que bailan",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "21:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/mujeres-que-bailan/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/24.-mujeres-que-bailan.jpg"
-  },
-  {
-   "titulo": "Siemprevivas",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "22:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/siemprevivas/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Siemprevivas.jpeg"
-  },
-  {
-   "titulo": "Elvira Fernández, vendedora de tienda",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "23:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/elvira-fernandez-vendedora-de-tienda/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/25.-elvira-fernandez.jpg"
-  },
-  {
-   "titulo": "Las hijas del fuego",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "23:50",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/las-hijas-del-fuego/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/4.-las-hijas-del-fuego-.jpg"
-  },
-  {
-   "titulo": "El cañonero de giles",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "18:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/el-canonero-de-giles/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/26.-el-canonero-de-giles.jpg"
-  },
-  {
-   "titulo": "Lo Noy",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "18:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/lo-noy/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/La-Noy.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Annemarie",
@@ -329,7 +140,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/2026-09-28-173000-007.avif"
+   "imagen": ""
   },
   {
    "titulo": "Machado",
@@ -346,41 +157,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/machado-img.jpg"
-  },
-  {
-   "titulo": "Noches de Buenos Aires",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "23:00",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/noches-de-buenos-aires/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/27.-noches-de-buenos-aires.jpg"
-  },
-  {
-   "titulo": "¡Caigan las rosas blancas!",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "23:30",
-   "horarios": "",
-   "lugar": "Malba · Auditorio",
-   "barrio": "Palermo",
-   "direccion": "Av. Figueroa Alcorta 3415",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://malba.org.ar/evento/caigan-las-rosas-blancas/",
-   "descripcion": "Función en el Auditorio de Malba.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/6.-caigan-las-rosas.jpg"
+   "imagen": ""
   },
   {
    "titulo": "Xul",
@@ -397,7 +174,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/07/2026-07-30-143432-002.avif"
+   "imagen": ""
   },
   {
    "titulo": "El tren fluvial",
@@ -414,7 +191,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/2026-10-01-142520-002.avif"
+   "imagen": ""
   },
   {
    "titulo": "Los vencedores",
@@ -431,7 +208,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/08/Copia-de-LV-MATT-ESCOPETA.png"
+   "imagen": ""
   },
   {
    "titulo": "Psicosis",
@@ -448,7 +225,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/02/22.-psicosis.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Riccardo Frolloni en Residencia",
@@ -465,7 +242,7 @@
    "descripcion": "Actividad de literatura en Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/IMG_2722-scaled.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Deserto Vértigo",
@@ -482,7 +259,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Deserto-vertigo.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Porteña de corazón",
@@ -499,7 +276,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/28.-portena-de-corazon.jpg"
+   "imagen": ""
   },
   {
    "titulo": "Cómo tú me ves",
@@ -516,7 +293,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Como-tu-me-ves.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Retrospectiva RAM",
@@ -533,7 +310,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/PHOTO-2026-10-14-12-22-27.jpg"
+   "imagen": ""
   },
   {
    "titulo": "La rubia Mireya",
@@ -550,7 +327,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/29.-la-rubia-mireya.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Sueño pélvico",
@@ -567,7 +344,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Sueno-pelvico-01.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Esquirlas de realidad: de la investigación a la literatura",
@@ -584,7 +361,7 @@
    "descripcion": "Actividad de literatura en Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/Sem-Klein-3-Archivo-MonteVerita-Gusto-Graser.jpg"
+   "imagen": ""
   },
   {
    "titulo": "La modelo y la estrella",
@@ -601,7 +378,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/30.-la-modelo-y-la-estrella.jpg"
+   "imagen": ""
   },
   {
    "titulo": "Donn: Le danseur du XXe siècle",
@@ -618,7 +395,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Donn.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "M.E.S.A. — Primavera",
@@ -635,7 +412,7 @@
    "descripcion": "Actividad educativa de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/IMG_20260828_191018839_HDR-scaled.jpg"
+   "imagen": ""
   },
   {
    "titulo": "El hincha",
@@ -652,7 +429,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/09/31.-el-hincha.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Ruge",
@@ -669,7 +446,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/12.-ruge.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Noche de brujas",
@@ -686,7 +463,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2025/10/15888.gif"
+   "imagen": ""
   },
   {
    "titulo": "Gente de la ruta",
@@ -703,7 +480,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Gente-de-la-ruta.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Soy ella",
@@ -720,7 +497,7 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Soy-ella.jpeg"
+   "imagen": ""
   },
   {
    "titulo": "Art, Chaos, Riot",
@@ -737,7 +514,58 @@
    "descripcion": "Función en el Auditorio de Malba.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://malba.org.ar/wp-content/uploads/2026/10/Art-Chaos-Riot.jpeg"
+   "imagen": ""
+  },
+  {
+   "titulo": "Frida",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://malba.org.ar/evento/frida/",
+   "descripcion": "Función de cine en el Auditorio de Malba.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Celebración del Día de los muertos",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "2026-11-02",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Malba · Nivel 2 y Explanada",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "categoria": "Evento",
+   "precio": "",
+   "url": "https://malba.org.ar/evento/celebracion-del-dia-de-los-muertos/",
+   "descripcion": "Celebración del Día de los muertos en Malba, en el nivel 2 y la explanada.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "El viaje del alma a través de los arquetipos de Carl G. Jung",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "18:00",
+   "horarios": "",
+   "lugar": "Malba · Auditorio",
+   "barrio": "Palermo",
+   "direccion": "Av. Figueroa Alcorta 3415",
+   "categoria": "Charla",
+   "precio": "",
+   "url": "https://malba.org.ar/evento/el-viaje-del-alma-a-traves-de-los-arquetipos-de-carl-g-jung/",
+   "descripcion": "Charla en el Auditorio de Malba.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }

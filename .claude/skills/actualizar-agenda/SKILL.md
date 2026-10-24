@@ -96,12 +96,12 @@ only tries the new ones (or the ones not tried for more than 60 days), so it is 
 
 ## 2. Go through the queue
 
-**At most 20 sites per session.** A session crawls up to 20 items from the queue (websites and Instagram
+**At most 50 sites per session.** A session crawls up to 50 items from the queue (websites and Instagram
 profiles both count; sites saved by `sondear.py --corrida` and `reutilizado` ones do not), then publishes a
 progress update (section 6, after writing down the lessons of the session and updating the docs) and stops. The next session runs `crawl.py iniciar` and resumes the open run
 where it left off. Only the session that empties the queue goes on to section 7 and closes the run.
 
-Repeat until the queue is empty or you have crawled 20 sites in this session:
+Repeat until the queue is empty or you have crawled 50 sites in this session:
 
 ```bash
 python scripts/crawl.py siguiente 3
@@ -187,6 +187,11 @@ If it answers **NO SE GUARDÓ**, go back to the browser and do what it says (ope
 retry). Do not change the status to get around the validation.
 
 Save each site as soon as you finish it: if the session is cut off, what was saved is not lost.
+
+When a gallery, museum or foundation shows the same exhibitions as the last capture, open its page and its strong links
+as usual, then start the result from that capture (`data/crawl/capturas/<id>.<canal>.json`: its `eventos` are already in
+the right format), drop what has ended, add what is new and write what you checked in the `nota`. Do it only after
+reading the page: a capture is never copied without looking at the site.
 
 A site that needs one read per event and cannot be finished in reasonable time (Centro Cultural de la
 Cooperación: monthly pages by discipline, weekday-only functions) is not saved half done: leave it in the
@@ -358,6 +363,9 @@ all the profiles fit in each run: they rotate, the longest-unchecked first.
 - **A run is never closed while Instagram profiles are `pospuesto`.** An empty queue with postponed profiles is not the end:
   `siguiente` says so and `cerrar` refuses. Leave the run open; the next session's `iniciar` puts them back in the queue and they go
   first. Close with `--forzar` only if the user asks.
+- An account that is **temporarily** unavailable (suspended during an electoral blackout, with a bio or Linktree saying
+  when it comes back) is not saved as empty: a capture saved today is reused tomorrow (`reutilizado`), so the channel
+  would not be looked at again for a week. Leave it in the queue and say so in the progress update.
 - Every 25 pages, `guardar` asks for a 5-minute pause: take it (or continue with websites, if any remain).
 - The limits are adjusted in `data/crawl/local/instagram_estado.json` (`limites`).
 
@@ -629,7 +637,7 @@ python scripts/crawl.py cerrar
 
 ### Lecciones de la corrida
 
-After every 20-site session (before its progress commit, section 6) and again before the closing commit, read
+After every 50-site session (before its progress commit, section 6) and again before the closing commit, read
 the report (`data/crawl/informes/<date>.md`) and review what was crawled since the last review: what was
 costly, what failed, what you had to solve without the skill saying how. Each useful thing goes to its place:
 

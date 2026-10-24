@@ -178,6 +178,15 @@ handler raises, the browser's request hangs and, after six of them, Chrome stops
 port). If the POST still does not arrive, put the text in a `<pre>` inside `<article>` and read it with
 `get_page_text` (the `javascript_tool` result is cut at ~1,000 characters).
 
+Use `ThreadingHTTPServer` for the receiver: a single-threaded one stays blocked on a request that never finishes
+and every later POST hangs. A big POST from a heavy page sometimes arrives only after it is sent a second time (check
+the file's size and time before trusting it). Some sites block `127.0.0.1` from their pages (Passline: every `fetch`
+to it hangs, even a 5-byte one; Instagram blocks the `import` of `navegador.js` the same way): there, take the text out
+with a fixed `<article style="position:fixed;inset:0;z-index:99999;white-space:pre-wrap">` appended to `document.body`
+(not replacing the body) and read it with `get_page_text`, which only returns the first `article`/`main` of a page
+(Time Out: `get_page_text` returns only the first item of the list, but the appended article carries the whole
+`innerText`). To hand data *into* a page that blocks localhost, paste it in the `javascript_tool` text (slugs, not URLs).
+
 **A frozen tab** (`CDP sendCommand "Runtime.evaluate" timed out after 45000ms`, usually after importing the tools
 on a heavy single-page app): do not close the old tab first, because closing the only tab of the group drops the
 group and the next call fails with "not in Claude's tab group". Call `tabs_context_mcp {createIfEmpty: true}`, use

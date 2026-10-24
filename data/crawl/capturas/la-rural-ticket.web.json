@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "La Rural Ticket",
  "tipo": "agregador",
- "fecha": "2026-10-19",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.laruralticket.com.ar",
@@ -42,6 +42,23 @@
    "precio": "",
    "url": "https://www.laruralticket.com.ar/event/el-garage-motorshow-2026",
    "descripcion": "Mega expo de autos, motos, colectivos y camiones clásicos, reformados y tuning, con espacio de Ferraris y actividades en vivo cada hora.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Jumbo Deli & Wine 2026",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-06",
+   "hora": "",
+   "horarios": "",
+   "lugar": "La Rural",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento 2704",
+   "categoria": "Feria gastronómica",
+   "precio": "",
+   "url": "https://www.laruralticket.com.ar/event/deliwine2026",
+   "descripcion": "10 años de Deli & Wine: recorrido por el universo gourmet con degustaciones de vinos, platos y productos. Solo mayores de 18 años; ingreso por Plaza Italia; venta solo online.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

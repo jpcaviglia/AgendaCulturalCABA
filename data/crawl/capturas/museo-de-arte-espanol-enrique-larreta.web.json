@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "Museo de Arte Español Enrique Larreta",
  "tipo": "galeria",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
@@ -14,23 +14,6 @@
   "https://buenosaires.gob.ar/gcaba_historico/noticias/comunidad-joven-lectura-al-aire-libre-en-el-jardin-andaluz-lunes-de"
  ],
  "eventos": [
-  {
-   "titulo": "Árboles: Martín Reyna en el Museo Larreta",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "17:00",
-   "horarios": "Inauguración viernes 23/10, 17 h",
-   "lugar": "Museo de Arte Español Enrique Larreta",
-   "barrio": "Belgrano",
-   "direccion": "Juramento 2291",
-   "categoria": "Artes visuales",
-   "precio": "Entrada al museo",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/arboles-martin-reyna-en-el-museo-larreta-inauguracion-viernes-23-de",
-   "descripcion": "Exposición de Martín Reyna que reúne más de cuatro décadas de investigación artística en torno a los árboles, la naturaleza y el acto de pintar.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-09/Bosque%20nativo-%20Acr%C3%ADlico%20s_tela-2025.jpg"
-  },
   {
    "titulo": "Los habitantes de Mor (Peras Compañía Teatral)",
    "fecha_inicio": "2026-10-26",
@@ -49,23 +32,6 @@
    "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-09/07_0.png"
   },
   {
-   "titulo": "Catálogo familiar de flores y plantas",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "16:30",
-   "horarios": "",
-   "lugar": "Museo de Arte Español Enrique Larreta",
-   "barrio": "Belgrano",
-   "direccion": "Juramento 2291",
-   "categoria": "Taller",
-   "precio": "Entrada al museo",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/catalogo-familiar-de-flores-y-plantas-cargo-de-romina-orazi-artista-2",
-   "descripcion": "Taller para familias a cargo de Romina Orazi en el jardín hispanoárabe del museo. Requiere inscripción previa.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-09/IMG_3246.jpeg"
-  },
-  {
    "titulo": "Joven lectura al aire libre en el Jardín Andaluz",
    "fecha_inicio": "2026-10-26",
    "fecha_fin": "2026-10-26",
@@ -81,6 +47,23 @@
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/IMG%20para%20WEB_3364.jpg"
+  },
+  {
+   "titulo": "Semana del Patrimonio: Explorando el patrimonio oculto, visita a la reserva técnica",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "",
+   "horarios": "Miércoles 4 de noviembre",
+   "lugar": "Museo de Arte Español Enrique Larreta",
+   "barrio": "Belgrano",
+   "direccion": "Juramento 2291",
+   "categoria": "Visita guiada",
+   "precio": "",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museolarreta",
+   "descripcion": "En el marco de la Semana del Patrimonio, el museo propone dos actividades para descubrir su patrimonio, entre ellas una visita a la reserva técnica.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
   }
  ]
 }

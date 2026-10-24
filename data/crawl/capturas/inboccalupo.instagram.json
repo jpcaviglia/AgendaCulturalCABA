@@ -1,0 +1,64 @@
+{
+ "id": "inboccalupo",
+ "canal": "instagram",
+ "fuente": "INBOCCALUPO",
+ "tipo": "lugar",
+ "fecha": "2026-10-24",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.instagram.com/inboccalupo/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Las aventuras de Tiripín",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-10-31",
+   "hora": "17:00",
+   "horarios": "Sábados 24 y 31 de octubre, 17 h (últimas funciones)",
+   "lugar": "Espacio Inboccalupo",
+   "barrio": "Belgrano",
+   "direccion": "Virrey Arredondo 2495",
+   "categoria": "Teatro infantil",
+   "precio": "$ 25000",
+   "url": "https://www.alternativateatral.com/obra101233-las-aventuras-de-tiripin",
+   "descripcion": "Obra infantil en Espacio Inboccalupo; últimas funciones del año.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DezO7xvFd-D/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Jam de Impro",
+   "fecha_inicio": "2026-10-24",
+   "fecha_fin": "2026-11-07",
+   "hora": "20:00",
+   "horarios": "Sábados 20:00",
+   "lugar": "Espacio Inboccalupo",
+   "barrio": "Belgrano",
+   "direccion": "Virrey Arredondo 2495",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "https://www.alternativateatral.com/obra102079-jam-de-impro",
+   "descripcion": "Jam de improvisación teatral en Espacio Inboccalupo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Ciclo Infinito - Octubre",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "2026-10-30",
+   "hora": "21:30",
+   "horarios": "Viernes 21:30",
+   "lugar": "Espacio Inboccalupo",
+   "barrio": "Belgrano",
+   "direccion": "Virrey Arredondo 2495",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "https://www.alternativateatral.com/obra103240-ciclo-infinito-octubre",
+   "descripcion": "Ciclo Infinito de octubre en Espacio Inboccalupo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

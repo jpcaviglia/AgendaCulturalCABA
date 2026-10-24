@@ -3,31 +3,49 @@
  "canal": "web",
  "fuente": "El Cultural San Martín",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://elculturalsanmartin.ar/",
   "https://elculturalsanmartin.ar/eventos/",
-  "https://elculturalsanmartin.ar/cursos-octubre/",
-  "https://elculturalsanmartin.ar/evento/la-vida-por-correspondencia/"
+  "https://elculturalsanmartin.ar/evento/la-vida-por-correspondencia/",
+  "https://elculturalsanmartin.ar/evento/maquinas-sensibles/",
+  "https://elculturalsanmartin.ar/clases-magistrales-noviembre/"
  ],
  "eventos": [
   {
-   "titulo": "La vida por correspondencia: lectura pública de cartas",
-   "fecha_inicio": "2026-10-24",
+   "titulo": "La vida por correspondencia: Lectura pública de cartas",
+   "fecha_inicio": "2026-10-10",
    "fecha_fin": "2026-10-31",
    "hora": "17:00",
-   "horarios": "Sábados 24 y 31 de octubre, 17 h",
-   "lugar": "Casa de la Cultura · Subsuelo",
-   "barrio": "Monserrat",
+   "horarios": "",
+   "lugar": "El Cultural San Martín",
+   "barrio": "",
    "direccion": "Av. de Mayo 575",
-   "categoria": "Literatura y charlas",
+   "categoria": "",
    "precio": "",
    "url": "https://elculturalsanmartin.ar/evento/la-vida-por-correspondencia/",
-   "descripcion": "Mercedes Morán, Lorena Vega, Analía Couceyro y Cristina Banegas leen cartas extraordinarias de escritores y artistas, de Kafka a Pizarnik, de Virginia Woolf a Manuel Puig, de John Cage a Van Gogh.",
+   "descripcion": "En octubre, Mercedes Morán, Lorena Vega, Analía Couceyro y Cristina Banegas leerán cartas extraordinarias de escritores, artistas y figuras de distintas épocas —de Franz Kafka a Alejandra Pizarnik, de Virginia Woolf a Manuel Puig, de John Cage a Vincent van Gogh, entre otros—. Una lectura pública de cartas para volver a escucharlas en el presente. \\n El ciclo se realizará los sábados 10, 17, 24 y",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://elculturalsanmartin.ar/wp-content/uploads/2026/09/web_la-vida-por-correspondencia-e1790277532836.png"
+  },
+  {
+   "titulo": "Máquinas sensibles",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-26",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "El Cultural San Martín",
+   "barrio": "",
+   "direccion": "Av. de Mayo 575",
+   "categoria": "",
+   "precio": "",
+   "url": "https://elculturalsanmartin.ar/evento/maquinas-sensibles/",
+   "descripcion": "Máquinas sensibles reúne a artistas que trabajan en el campo de la performance sonora y audiovisual. A lo largo de cuatro encuentros, Mateo Amaral, Sáccea (Oriana Tosi), Ian Kornfeld, Lucy Patané y Sebastián Verea comparten sus obras y abren sus procesos de creación en una charla abierta, donde recorren decisiones técnicas y conceptuales, dispositivos, riders y modos de trabajo. \\n",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://elculturalsanmartin.ar/wp-content/uploads/2026/04/177940-1-scaled-e1792680488352.png"
   }
  ]
 }
