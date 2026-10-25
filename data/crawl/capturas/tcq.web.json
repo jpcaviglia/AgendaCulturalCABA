@@ -3,47 +3,47 @@
  "canal": "web",
  "fuente": "TCQ",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.venti.com.ar/organizadores/tcq",
+  "https://venti.live/organizadores/tcq",
   "https://venti.live/evento/quantum-special-guest-lucas-sosa",
   "https://venti.live/evento/ddtk-x-tcq-8va-edicion"
  ],
  "eventos": [
   {
-   "titulo": "Quantum - Special guest Lucas Sosa",
+   "titulo": "Quantum: special guest Lucas Sosa",
    "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-24",
-   "hora": "",
-   "horarios": "Desde las 23:59 h",
+   "hora": "23:59",
+   "horarios": "",
    "lugar": "TCQ",
    "barrio": "",
    "direccion": "",
    "categoria": "Fiestas y electrónica",
-   "precio": "",
+   "precio": "Desde $ 8000",
    "url": "https://venti.live/evento/quantum-special-guest-lucas-sosa",
-   "descripcion": "Fiesta de techno en el club TCQ con Lucas Sosa como invitado especial.",
+   "descripcion": "Quantum: special guest Lucas Sosa en TCQ, club de techno.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://images.venti.live/user-images/1790637511384-lg.jpg"
   },
   {
-   "titulo": "DDTK x TCQ - 8va edición",
+   "titulo": "DDTK x TCQ, 8ª edición",
    "fecha_inicio": "2026-10-31",
    "fecha_fin": "2026-10-31",
-   "hora": "",
-   "horarios": "Desde las 23:59 h",
+   "hora": "23:59",
+   "horarios": "",
    "lugar": "TCQ",
    "barrio": "",
    "direccion": "",
    "categoria": "Fiestas y electrónica",
-   "precio": "",
+   "precio": "Desde $ 5000",
    "url": "https://venti.live/evento/ddtk-x-tcq-8va-edicion",
-   "descripcion": "Octava edición de DDTK x TCQ, fiesta de techno en el club TCQ.",
+   "descripcion": "DDTK x TCQ, 8ª edición en TCQ, club de techno.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://images.venti.live/user-images/1791494925898-lg.jpg"
   }
  ]
 }

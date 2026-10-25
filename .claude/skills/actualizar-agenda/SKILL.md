@@ -163,6 +163,8 @@ which prints the status, the page's JSON-LD events and the text with the links. 
 - a site where `sondear.py --leer` times out is retried with `--timeout 90`; inside a Python one-off set
   `sondear.TIMEOUT = 60` (Otra Historia, Museo Etnográfico).
 
+Try `--leer` on the sites that `sondear.py --corrida` marks `needs_browser` or `unreachable` before opening the browser: Otra Historia, Hasta Trilce, Teatro Colón, the Ministry of Culture museums and El Emergente all answered it (only 403s, JavaScript-only listings and login walls really need the tab).
+
 If a JSON API answers over plain HTTP (Ticketek's `prod-cms-api.ticketek.com.ar`), do the fetching in a Python
 one-off and use the browser only to render the pages that list the links; if the data only exists in the page,
 send it out with the local receiver ("Getting a big result out of the page" in `navegador.md`) instead of

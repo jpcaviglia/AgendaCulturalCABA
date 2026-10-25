@@ -3,15 +3,12 @@
  "canal": "web",
  "fuente": "Teatro Coliseo",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.teatrocoliseo.org.ar/",
   "https://www.teatrocoliseo.org.ar/cartelera/",
-  "https://www.teatrocoliseo.org.ar/enrique-pineyro-volar-es-humano-aterrizar-es-divino-9-10-16-17-y-31-de-octubre-2026/",
-  "https://www.teatrocoliseo.org.ar/jovanotti-jueves-22-de-octubre-21-h-2026/",
-  "https://www.teatrocoliseo.org.ar/mentes-expertas-nathaly-marcus-martes-27-de-octubre-20h-2026/",
-  "https://www.teatrocoliseo.org.ar/gala-sinfonica-fundacion-fleming-2-de-noviembre-2026/"
+  "https://www.teatrocoliseo.org.ar/chango-spasiuk-viernes-6-de-noviembre-21hs-2026/"
  ],
  "eventos": [
   {
@@ -27,23 +24,6 @@
    "precio": "Desde $ 14000",
    "url": "https://www.teatrocoliseo.org.ar/enrique-pineyro-volar-es-humano-aterrizar-es-divino-9-10-16-17-y-31-de-octubre-2026/",
    "descripcion": "Stand-up de Enrique Piñeyro con la recreación de una cabina de Boeing 707 y proyecciones envolventes (función del 31 de octubre; la ficha anuncia también el 9, 10, 16 y 17; hora no confirmada en la ficha).",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Jovanotti",
-   "fecha_inicio": "2026-10-22",
-   "fecha_fin": "2026-10-22",
-   "hora": "21:00",
-   "horarios": "",
-   "lugar": "Teatro Coliseo",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Música",
-   "precio": "Desde $ 70000",
-   "url": "https://www.teatrocoliseo.org.ar/jovanotti-jueves-22-de-octubre-21-h-2026/",
-   "descripcion": "Show único de Jovanotti en el Teatro Coliseo.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""
@@ -78,6 +58,23 @@
    "precio": "",
    "url": "https://www.teatrocoliseo.org.ar/gala-sinfonica-fundacion-fleming-2-de-noviembre-2026/",
    "descripcion": "Gala sinfónica de la Fundación Fleming en el Teatro Coliseo.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Chango Spasiuk",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "21:00",
+   "horarios": "Viernes 6 de noviembre, 21 h",
+   "lugar": "Teatro Coliseo",
+   "barrio": "Recoleta",
+   "direccion": "Marcelo T. de Alvear 1125",
+   "categoria": "Música",
+   "precio": "Desde $ 45000",
+   "url": "https://www.teatrocoliseo.org.ar/chango-spasiuk-viernes-6-de-noviembre-21hs-2026/",
+   "descripcion": "Concierto de Chango Spasiuk en el Teatro Coliseo.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

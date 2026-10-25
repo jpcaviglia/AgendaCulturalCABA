@@ -3,20 +3,18 @@
  "canal": "web",
  "fuente": "Museo Etnográfico Juan B. Ambrosetti",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://museo.filo.uba.ar/",
   "https://museo.filo.uba.ar/calendar/2026-10",
-  "https://museo.filo.uba.ar/calendar/2026-11",
-  "https://museo.filo.uba.ar/novedades/apertura-al-p%C3%BAblico-del-dep%C3%B3sito-visitable-de-colecciones-etnogr%C3%A1ficas-11",
-  "https://museo.filo.uba.ar/novedades/inauguraci%C3%B3n-bordando-historias-imagenes-sobre-arte-rupestre-en-la-argentina",
-  "https://museo.filo.uba.ar/novedades/infancias-taller-jugamos-con-palabras-en-quechua"
+  "https://museo.filo.uba.ar/novedades",
+  "https://museo.filo.uba.ar/eventos"
  ],
  "eventos": [
   {
    "titulo": "Apertura al público del Depósito Visitable de Colecciones Etnográficas",
-   "fecha_inicio": "2026-10-22",
+   "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-29",
    "hora": "15:30",
    "horarios": "Jueves 22 y 29 de octubre y domingo 25 de octubre a las 15:30 h",
@@ -27,23 +25,6 @@
    "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
    "url": "https://museo.filo.uba.ar/novedades/apertura-al-p%C3%BAblico-del-dep%C3%B3sito-visitable-de-colecciones-etnogr%C3%A1ficas-11",
    "descripcion": "Apertura al público del depósito visitable del museo, con colecciones etnográficas.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Inauguración: \"Bordando historias: imágenes sobre arte rupestre en la Argentina\"",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "17:30",
-   "horarios": "",
-   "lugar": "Museo Etnográfico Juan B. Ambrosetti",
-   "barrio": "San Telmo",
-   "direccion": "Moreno 350",
-   "categoria": "Artes visuales",
-   "precio": "Bono contribución voluntario: $ 1.500 residentes, $ 5.000 extranjeros",
-   "url": "https://museo.filo.uba.ar/novedades/inauguraci%C3%B3n-bordando-historias-imagenes-sobre-arte-rupestre-en-la-argentina",
-   "descripcion": "Inauguración de la muestra sobre arte rupestre en la Argentina a través de bordados.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

@@ -345,6 +345,11 @@ page from a tab of the same site, because Python gets 403 or only the app shell)
 - **Enigma Tickets** (`enigmatickets.com/event/<uuid>`): the text has `Sáb 24/10 21:00hs <venue>`; no price or picture over HTTP.
 - **Fanz sites, "Entradas" buttons**: the index of the clicked button in the list of leaf nodes with text `Entradas` does not follow the order of the day list (an extra
   button of a featured event comes first); read `location.pathname` after each click and check the title.
+- **The Events Calendar with a slow server** (Otra Historia): `sondear.py --leer <site>/eventos/ --timeout 90` prints every JSON-LD event; in Python one-offs `sondear.objetos_evento(html)` gives name, `startDate` (with offset), `url`, `offers[].price` and `image` for the whole month with no browser.
+- **Niceto Club** (`/agenda/`): the 100+ `COMPRAR` buttons are Venti links in the same order as the cards (`dd / MON / 2026 / | hh / mm hs` lines); cross them with the previous capture by URL and fetch only the new ones (JSON-LD `startDate` is UTC: subtract 3 h).
+- **Tickethoy venue page returns 500** (`bue.tickethoy.com/lugares/<venue>`): read the Tickethoy home (`bue.tickethoy.com/`), whose text lists every venue's events with `Sáb 24 de octubre - 23:00 hs <venue>`, and take the `/entradas-musica/<slug>` links from the `<a>` tags.
+- **Teatro Gran Rex** (`teatro-granrex.com.ar`): each card is `<a href=/<slug>><article>…`; `Cancelado` / `Últimas entradas` is the first word of the card text; the pictures come through `bucket.tuentrada.com/cdn-cgi/image/...` (not copied).
+- **Usina del Arte**: the `?fecha_filtro=DD/MM/AAAA` chips show days that `/actividades` does not list (31/10 was only there).
 - **Hasta Trilce**: the HTML of the home page carries injected casino spam links; ignore them.
 - **Wrong Instagram handle**: the profile page says "Sorry, this page isn't available": search Google for `<venue> instagram` (the result titles show
   the real handle: `lalala_ortuzar`, not `lalala.ortuzar`) and correct `sitios.json` and `lugares.json` too.

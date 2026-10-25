@@ -3,38 +3,17 @@
  "canal": "web",
  "fuente": "Sala Lugones",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-24",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://complejoteatral.gob.ar/cine",
   "https://complejoteatral.gob.ar/produccion/seis-tardes-con-mae-west/",
-  "https://complejoteatral.gob.ar/produccion/en-las-rutas-de-wim-wenders/",
-  "https://complejoteatral.gob.ar/produccion/frank-borzage-un-romantico-en-hollywood-parte-2/",
-  "https://complejoteatral.gob.ar/produccion/las-furias-y-lo-que-le-paso-a-reynoso/",
-  "https://complejoteatral.gob.ar/produccion/shohei-imamura-bis/",
-  "https://complejoteatral.gob.ar/produccion/el-joven-frankenstein/"
+  "https://complejoteatral.gob.ar/agenda/"
  ],
  "eventos": [
   {
-   "titulo": "Seis tardes con Mae West",
-   "fecha_inicio": "2026-10-20",
-   "fecha_fin": "2026-10-22",
-   "hora": "",
-   "horarios": "",
-   "lugar": "Sala Leopoldo Lugones · Teatro San Martín",
-   "barrio": "San Nicolás",
-   "direccion": "Av. Corrientes 1530",
-   "categoria": "Cine",
-   "precio": "",
-   "url": "https://complejoteatral.gob.ar/produccion/seis-tardes-con-mae-west/",
-   "descripcion": "Seis películas con la estrella de Hollywood, del 15 al 22 de octubre.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/j2LAVODp1dluX9d3j9do.jpg"
-  },
-  {
    "titulo": "En las rutas de Wim Wenders (22° Encuentro de Cine Europeo)",
-   "fecha_inicio": "2026-10-20",
+   "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-10-30",
    "hora": "",
    "horarios": "",
@@ -51,7 +30,7 @@
   },
   {
    "titulo": "Frank Borzage, un romántico en Hollywood – Parte 2",
-   "fecha_inicio": "2026-10-23",
+   "fecha_inicio": "2026-10-24",
    "fecha_fin": "2026-11-02",
    "hora": "",
    "horarios": "",
