@@ -440,6 +440,25 @@ repository) holds every opened post with the events it had. Do not open them aga
 On Instagram, `scroll_completo: true` means you saw the last ~9 posts (new or already seen); the
 `enlaces_candidatos` are the bio and the agenda highlights.
 
+**A profile in one browser call (Claude in Chrome, where `navegador.js` cannot be imported on instagram.com).** One `browser_batch`
+per 3-4 profiles: `navigate`, wait 4 s, one `javascript_tool` snippet that (a) decodes each grid shortcode to its date, (b) keeps the
+posts of the last 25 days (max 5) and starts a background loop (`window.__done`) that `fetch`es each post with 0.8 s between requests
+and keeps `og:description` (decode the entities with a `textarea`, then `.normalize('NFKC')`: venues write in bold math letters that
+break date regexes), (c) returns `private`/`unavailable`/`n`/`dates` and the bio; then wait 7 s and read `window.__caps`. A result over
+~800 characters is cut, so print 100 characters per caption plus the date phrases (`viernes 30 de octubre … 21 hs`). Then read in full
+only the captions that announce a date. If the date is not in the caption (monthly carousel posters, film posters), open the post and
+zoom on the image; click the arrow at the image's right edge for the 2nd slide.
+- A private account (`This profile is private`) is `sin_agenda`. A grid whose newest posts are over a year old is `sin_eventos`.
+- Weekly workshops (PCB centers, `talleres` posts) are not events: `sin_agenda`. The 10 PCB centers that share `@gops.ba` have no
+  posts of their own: one scan of that grid answers all of them.
+- An event announced in a caption without a year uses the post's year; one dated after the window end is not loaded.
+- Many venues' bio links go to platforms that `sondear.py --leer` reads over HTTP with title, hour, price and `og:image`: Revamos
+  (`revamos.com/eventos/<slug>`, but the dates of multi-date events live in a JS selector), EventureX, Evento Simple
+  (`compras.evento-simple.com/<productor>`), Alternativa Teatral venue pages (`/espacioNNN-<slug>`, weekly schedule by weekday).
+  Read them before opening Instagram: they cost no quota. Passline and `tinyurl.com` links answer 403 / redirect to WhatsApp.
+- Pacing: `guardar` asks for a 5-minute pause every 25 pages; a `sleep 285` in the background between batches is enough. A day's
+  quota (150 pages) covers about 60 profiles at 2 pages each; the rest stay `pospuesto` for the next session.
+
 ## 4b. Aggregators and discovery sources
 
 - **Turismo BA**: use `turismo()`. It returns the events already in the result format (with

@@ -455,6 +455,12 @@
   "fecha": "2026-10-15",
   "url": "https://events.flashpass.com.ar/eventos/atr-sabado-17-de-octubre-4481"
  },
+ "eventurex.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-10-25",
+  "url": "https://www.eventurex.com.ar/eventos/rocksismico-en-roseti"
+ },
  "felizarcoiris.com": {
   "ok": false,
   "motivo": "X-Frame-Options sameorigin",
@@ -1030,6 +1036,12 @@
   "motivo": "frame-ancestors 'self'",
   "fecha": "2026-10-15",
   "url": "https://www.timeout.com/es/buenos-aires/que-hacer-este-mes-agenda"
+ },
+ "tinyurl.com": {
+  "ok": false,
+  "motivo": "frame-ancestors https://*.whatsapp.com https://whatsapp.com",
+  "fecha": "2026-10-25",
+  "url": "https://tinyurl.com/entradasroseti2026"
  },
  "torquatotasso.com.ar": {
   "ok": true,

@@ -3,27 +3,28 @@
  "canal": "instagram",
  "fuente": "Mar Dulce Galería",
  "tipo": "galeria",
- "fecha": "2026-10-19",
+ "fecha": "2026-10-25",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/galeriamardulce/"
+  "https://www.instagram.com/galeriamardulce/",
+  "https://www.instagram.com/p/DeulNUvIJTF/"
  ],
  "eventos": [
   {
-   "titulo": "Un bosque cerca del mar, de Carolina Romano (inauguración)",
+   "titulo": "Un bosque cerca del mar - Carolina Romano",
    "fecha_inicio": "2026-10-24",
-   "fecha_fin": "",
-   "hora": "16:00",
-   "horarios": "Martes a sábado de 16 a 19 h",
-   "lugar": "Galería Mar Dulce",
-   "barrio": "Palermo",
+   "fecha_fin": "2026-12-05",
+   "hora": "",
+   "horarios": "Martes a sábados de 16 a 19 h",
+   "lugar": "Mar Dulce Galería",
+   "barrio": "",
    "direccion": "Uriarte 1490",
    "categoria": "Artes visuales",
    "precio": "Gratis",
-   "url": "https://www.instagram.com/p/DepNaUNIOk4/",
-   "descripcion": "Primera exposición individual de Carolina Romano en la galería: más de una docena de pinturas en acrílico que transportan a la costa. Inauguración el sábado 24/10 de 16 a 19 h.",
-   "vigente_sin_fin": true,
-   "post": "https://www.instagram.com/p/DepNaUNIOk4/",
+   "url": "https://www.instagram.com/p/DeulNUvIJTF/",
+   "descripcion": "Primera exposición individual de Carolina Romano en Mar Dulce. Inauguración el sábado 24/10 de 16 a 19 h; sigue hasta el 5 de diciembre de 2026.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DeulNUvIJTF/",
    "imagen": ""
   }
  ]

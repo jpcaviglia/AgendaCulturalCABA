@@ -3,29 +3,45 @@
  "canal": "instagram",
  "fuente": "ROSETI",
  "tipo": "lugar",
- "fecha": "2026-10-20",
+ "fecha": "2026-10-25",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/rosetiespacio/",
-  "https://www.instagram.com/fuego_amigo_discos/p/DeugLkgnc4B/",
-  "https://www.instagram.com/cesar.brie/p/DerbgNdJZQw/"
+  "https://linktr.ee/rosetiespacio",
+  "https://www.eventurex.com.ar/eventos/rocksismico-en-roseti"
  ],
  "eventos": [
   {
-   "titulo": "Cauce de los Ríos: Costas, Los Funes y Pomelo Mad",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-23",
-   "hora": "20:30",
+   "titulo": "Rocksísmico en Roseti: Temblores + Los Fungis + Joya",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "",
+   "hora": "23:30",
+   "horarios": "",
+   "lugar": "ROSETI",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Rock",
+   "precio": "Desde $ 8000",
+   "url": "https://www.eventurex.com.ar/eventos/rocksismico-en-roseti",
+   "descripcion": "Noche de rock en el Abasto con Temblores, Los Fungis y Joya.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://www.eventurex.com.ar/eventos/rocksismico-en-roseti/opengraph-image-13jhi5?ff5a5f6909b2f79d"
+  },
+  {
+   "titulo": "Agathe Cipres. Apertura: Misi",
+   "fecha_inicio": "2026-10-30",
+   "fecha_fin": "",
+   "hora": "",
    "horarios": "",
    "lugar": "ROSETI",
    "barrio": "",
    "direccion": "",
    "categoria": "Música",
    "precio": "",
-   "url": "https://www.instagram.com/fuego_amigo_discos/p/DeugLkgnc4B/",
-   "descripcion": "Nueva fecha del ciclo Cauce de los Ríos en Roseti: Costas en vivo, Los Funes presentan su nuevo disco y Pomelo Mad por primera vez en el ciclo.",
+   "url": "https://tinyurl.com/entradasroseti2026",
+   "descripcion": "Show de Agathe Cipres con apertura de Misi en Roseti.",
    "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/fuego_amigo_discos/p/DeugLkgnc4B/",
+   "post": "",
    "imagen": ""
   }
  ]
