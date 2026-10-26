@@ -448,6 +448,18 @@ break date regexes), (c) returns `private`/`unavailable`/`n`/`dates` and the bio
 ~800 characters is cut, so print 100 characters per caption plus the date phrases (`viernes 30 de octubre … 21 hs`). Then read in full
 only the captions that announce a date. If the date is not in the caption (monthly carousel posters, film posters), open the post and
 zoom on the image; click the arrow at the image's right edge for the 2nd slide.
+- Do not paste the snippet on every profile: define it once as a function in a `javascript_tool` call on instagram.com, store it with
+  `localStorage.setItem('agt','('+fn.toString()+')')` and call `await eval(localStorage.agt)()` after each `navigate` + 4 s wait
+  (a second stored function that prints the first 300-500 characters of given post captions does the same for details). A tool result
+  is cut at ~1,000 characters: print 5 posts of the last 18 days with one line of date phrases each, and print only `MM-DD` of the
+  grid dates (the year is hidden: a `10-14` can be 2024; the filter that decides which posts are fetched uses the full date).
+- Some venues announce a whole month as one post per performance (Espacio Cultural del Sur: 60 posts on one day, in reverse date
+  order): scroll the grid 4 times and read the posts by grid offset until the window's dates appear.
+- Monthly poster posts (Espacio Cultural Adán Buenosayres): the dates are only in the image; open the post, `zoom` on the poster
+  and load the days that fall in the window.
+- A venue whose Instagram only announces shows may have the full agenda with prices on its own site (Club Social 911: Fanz
+  `clubsocial911.com`, HTTP 400, open it in the browser and `fetch()` each `/event/<id>-<slug>`): save it as a `web` result
+  with `web_nueva`.
 - A private account (`This profile is private`) is `sin_agenda`. A grid whose newest posts are over a year old is `sin_eventos`.
 - Weekly workshops (PCB centers, `talleres` posts) are not events: `sin_agenda`. The 10 PCB centers that share `@gops.ba` have no
   posts of their own: one scan of that grid answers all of them.
