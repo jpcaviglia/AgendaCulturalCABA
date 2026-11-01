@@ -185,6 +185,11 @@ answers). Test it first with a tiny POST and an `AbortController` timeout; if it
 and retry. A big body (1,000+ cards) never arrives in one POST: send chunks of ~100 rows, awaiting each, each to its own path
 (`/p0`, `/p1`…; the receiver writes `c_<path>.part`).
 
+On sites where `fetch` to the receiver keeps hanging (Passline) the permission still has to be allowed per origin (`www.passline.com` and
+`home.passline.com` are different), and then an `<img>` GET to `127.0.0.1` goes through: send the data in ~4.5 KB chunks (`?t=<tag>&i=N&d=...`,
+the receiver writes `<tag>_<N>.part`). To hand a long list *into* such a page, serve a file with `python -m http.server --bind 127.0.0.1` and
+load it with `<script src="http://127.0.0.1:PORT/slugs.js">` (it sets `window.__slugs`); `window.name` is wiped on a cross-site navigation.
+
 Gotchas: start the receiver as its own background command (`run_in_background`), not inside a `( ... &)` subshell,
 and give it a few seconds before the first POST (the file shows up late); a test `curl -X POST` overwrites what the
 page already sent. Start the receiver with a Windows path (`C:/...`), not the Git Bash `/c/...` one: Python cannot open it, the

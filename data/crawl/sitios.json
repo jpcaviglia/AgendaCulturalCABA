@@ -468,28 +468,29 @@
     "2026-10-14 [web] 289 eventos en la ventana en todo el país; 158 en CABA cargados (traslados, cursos y torneos descartados).",
     "2026-10-15 Corrección: los 158 eventos del 2026-10-14 son solo del 14 al 17/10, no de toda la ventana; faltan los eventos del 18/10 en adelante.",
     "2026-10-20 [web] Corrida 2026-10-20: 1138 fichas hasta el 02/11, 605 en CABA tras descartar traslados, torneos, fútbol y Tinder Night. Precio = el mínimo '$ N' de la ficha; sin descripción propia (og:description es genérica). Barrio sin completar.",
-    "2026-10-24 [web] 2026-10-24: listado leído hasta el 13/11 (1273 tarjetas del 24/10 al 7/11); 206 fichas nuevas en CABA leídas hoy (623 fichas, 429 si se superan 2 trabajadores a 1,7 s). Los eventos que ya estaban en la captura del 20/10 se mantienen sin releer su ficha (precio de ese día)."
+    "2026-10-24 [web] 2026-10-24: listado leído hasta el 13/11 (1273 tarjetas del 24/10 al 7/11); 206 fichas nuevas en CABA leídas hoy (623 fichas, 429 si se superan 2 trabajadores a 1,7 s). Los eventos que ya estaban en la captura del 20/10 se mantienen sin releer su ficha (precio de ese día).",
+    "2026-11-01 [web] 2026-11-01: listado leído hasta el 19/11 (1148 tarjetas únicas del país, 1027 del 1 al 14/11); 846 fichas nuevas leídas y 353 son de CABA, más 180 de la captura anterior; 514 eventos tras descartar traslados, torneos, fútbol y similares. Precio = el mínimo '$ N' de la ficha (vacío si no lo muestra). Barrio sin completar. 12 fichas no cargaron (HTTP error) y quedaron fuera."
    ],
    "comportamiento": {
     "extraccion": "En home.passline.com/eventos.php el botón #callEvents ('VER MÁS EVENTOS') se pulsa ~3 veces hasta pasar el 02/11 (1181 tarjetas de todo el país). Cada tarjeta es div.row > div.col con a[href*='/eventos/']. Fichas con fetch desde la misma pestaña home.passline.com (funciona, 4-5 en paralelo, ~1 por segundo): div.donde = lugar + dirección + 'C.A.B.A.'; precios '$ N' en el texto. Resultado por receptor local http.server en 127.0.0.1 (POST sin await).",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "plataforma": "www.passline.com redirige a home.passline.com (app con JS). /eventos.php lista ~590 eventos de todo el país ordenados por fecha (tarjeta: lugar, título, día, hora).",
     "filtro": "El filtro de provincia no se aplica en la vista angosta; no sirve por URL.",
-    "fichas": "Fichas con fetch same-origin desde una pestaña en www.passline.com (la misma ficha pasa por home.passline.com pero ahí los fetch se cortan con 'Failed to fetch'). Límite medido 2026-10-24: 3 trabajadores a 0,9 s disparan HTTP 429 que dura ~25 min (se pierde todo); 2 trabajadores a 1,7 s corren ~27 fichas/min sin 429 (623 fichas = ~25 min). La pestaña debe ser la única y estar visible: en segundo plano Chrome frena los temporizadores y baja a ~4 fichas/min; esperar con 'computer wait' mantiene el ritmo.",
-    "volcado": "Passline bloquea fetch/POST a 127.0.0.1 desde sus páginas, pero un <img> GET sí llega: partir el JSON en trozos de ~4,5 KB y pedir new Image().src='http://127.0.0.1:PUERTO/?i=N&d='+encodeURIComponent(trozo) contra un servidor que guarde el parámetro d. Para pasar datos hacia la página, pegar los slugs en el texto del javascript_tool.",
+    "fichas": "fetch same-origin desde una pestaña en www.passline.com, 2 trabajadores a 1,7 s: ~27 fichas/min sin 429 (846 fichas = ~31 min); div.donde trae 'LUGAR DIRECCIÓN Capital Federal, C.A.B.A.' y los '$ N' del texto dan el precio mínimo",
+    "volcado": "Passline pide el permiso de red local por origen (www.passline.com y home.passline.com): con el permiso concedido, un <img> GET a 127.0.0.1 llega (trozos de 4,5 KB con ?t=<tag>&i=N&d=<json>); los slugs se pasan a la pestaña con <script src=http://127.0.0.1:PUERTO/slugs.js> servido por python -m http.server (window.name no sobrevive al cambio de dominio)",
     "cobertura": "listado leído hasta el 04/11; fichas de todo hasta el 02/11 (1138); se cargan solo las de CABA (605)",
     "herramientas": "pegar inline (el clasificador bloquea el import desde la CDN)",
-    "listado": "2026-10-24: en home.passline.com/eventos.php cada clic en #callEvents suma ~590 anclas (cada tarjeta aparece 2 veces); parar cuando la última fecha pase el fin de la ventana (3-4 clics hasta el 7/11: 1275 tarjetas). Con 12 clics se carga todo el catálogo (2640 tarjetas) y el renderer se cuelga. La fecha de la tarjeta es 'D Mes AAAA HH MM hrs'.",
-    "incremental": "Los eventos ya presentes en la captura anterior (mismo slug) se mantienen sin releer su ficha; solo se leen las fichas de slugs nuevos (~620 de 1273). Venue: donde = 'VENUE DIRECCIÓN Capital Federal, BARRIO|C.A.B.A.'; cortar el venue con los nombres ya conocidos (lugares.json + captura)."
+    "listado": "en home.passline.com/eventos.php, #callEvents hasta pasar el 16/11 (~1170 tarjetas únicas; la tarjeta con insignia PROMO o SOLD OUT trae el lugar después de la insignia)",
+    "incremental": "los slugs de la captura anterior (CABA) se conservan sin releer la ficha"
    },
    "entradas": [
     "https://home.passline.com/eventos.php"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 632,
+     "eventos": 509,
      "paginas": 1
     }
    },
@@ -511,6 +512,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 632
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 509
     }
    ]
   },
