@@ -3,30 +3,47 @@
  "canal": "web",
  "fuente": "Dune Park",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://ra.co/clubs/213422",
   "https://ra.co/events/2561903",
-  "http://www.dunepark.club"
+  "https://ra.co/events/2557949"
  ],
  "eventos": [
   {
-   "titulo": "Dialektica Press Eya Records: Jos y Manuel Matus",
+   "titulo": "Dialektica Press: Eya Records con Jos y Manuel Matus",
    "fecha_inicio": "2026-11-06",
    "fecha_fin": "2026-11-06",
    "hora": "23:59",
-   "horarios": "23:59 a 06:00 h",
+   "horarios": "",
    "lugar": "Dune Park",
    "barrio": "",
-   "direccion": "Araoz 740",
+   "direccion": "",
    "categoria": "Fiestas y electrónica",
    "precio": "",
    "url": "https://ra.co/events/2561903",
-   "descripcion": "A un año de su primera fiesta, Dialektica vuelve a Dune Park con Jos (Londres, fundador del sello y la tienda Jos), Manuel Matus y Ocio abriendo la noche.",
+   "descripcion": "A un año de su primera fiesta, Dialektica Press recibe desde Londres a Jos, fundador del sello Eya Records, junto a Manuel Matus. Cierra 6 h.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": "https://images.ra.co/6ee45036b9a8dc91c17f27eba2c7ee9f66e6b98e.png"
+  },
+  {
+   "titulo": "By.Womans en Dune Park Club",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "21:00",
+   "horarios": "",
+   "lugar": "Dune Park",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Fiestas y electrónica",
+   "precio": "",
+   "url": "https://ra.co/events/2557949",
+   "descripcion": "Techno con Shyda, Debora Cunia, Alexa De Luca, Kurpax y Melina Federico; muestra de arte visual en el VJ Room desde las 21 h.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://images.ra.co/d6fb0eaba98570ff06d00af09275d6a8ab84a9e5.jpg"
   }
  ]
 }

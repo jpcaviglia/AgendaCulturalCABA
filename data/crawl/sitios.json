@@ -19617,9 +19617,9 @@
    "direccion": "Defensa 1575",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 2,
+     "eventos": 5,
      "paginas": 1
     }
    },
@@ -19627,7 +19627,8 @@
     "2026-10-14 [revisión anterior: sin_agenda] Sitio casi vacío; usar redes/ticketera",
     "2026-10-15 [web] Programación solo en afiches en la portada; shows a las 22 h, apertura 20 h.",
     "2026-10-20 [web] Afiches del 20/10 al 2/11: Choco Drums 22/10, Soledad Villamil 23, 24, 30 y 31/10, Ailén Peralta 29/10; el resto de los afiches es de noviembre en adelante. Precio vacío: está solo en Passline.",
-    "2026-10-24 [web] Afiches en ventana: Soledad Villamil (23, 24, 30, 31/10) y Ailén Peralta (29/10). Los siguientes (Cucuza Castiello 6/11, Nadia Larcher 7/11, La Mississippi 8/11, Ariel Prat 12/11) caen después de la ventana. Precio no publicado en el sitio."
+    "2026-10-24 [web] Afiches en ventana: Soledad Villamil (23, 24, 30, 31/10) y Ailén Peralta (29/10). Los siguientes (Cucuza Castiello 6/11, Nadia Larcher 7/11, La Mississippi 8/11, Ariel Prat 12/11) caen después de la ventana. Precio no publicado en el sitio.",
+    "2026-11-01 [web] 2026-11-01: afiches de la programación leídos con captura; en la ventana 6, 7, 8, 13 y 14/11 (nada del 1 al 5/11). Otras nuevas funciones son posteriores. Precio solo en Passline."
    ],
    "entradas": [
     "https://torquatotasso.com.ar/"
@@ -19656,6 +19657,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "bio_probada": "2026-10-15"
@@ -29346,7 +29353,8 @@
     "2026-10-15: club de house; web confirmada en RA",
     "2026-10-15 [web] La agenda vigente se lee en Resident Advisor (ra.co/clubs/213422); en la ventana solo figura el 23/10.",
     "2026-10-20 [web] 2026-10-20: en la ventana solo figura el 23/10 en RA (siguientes: 6/11 y 7/11). Sin precio en RA.",
-    "2026-10-24 [web] En RA solo hay 2 próximas fechas: 6/11 Dialektica (cargada) y 7/11 By.Womans (fuera de ventana). La fiesta del 23/10 (mita) ya pasó."
+    "2026-10-24 [web] En RA solo hay 2 próximas fechas: 6/11 Dialektica (cargada) y 7/11 By.Womans (fuera de ventana). La fiesta del 23/10 (mita) ya pasó.",
+    "2026-11-01 [web] 2026-11-01: RA lista 2 próximas fechas (6/11 y 7/11), ambas en la ventana ahora. Sin precio en RA."
    ],
    "entradas": [
     "https://ra.co/clubs/213422"
@@ -29382,9 +29390,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 1,
+     "eventos": 2,
      "paginas": 3
     }
    },
@@ -29406,6 +29414,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ]
   },
