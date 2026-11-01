@@ -564,8 +564,8 @@ zoom on the image; click the arrow at the image's right edge for the 2nd slide.
   browser, the same array (`[{"orden"...`) is in the HTML that `sondear.pedir` returns: parse it with
   `json.JSONDecoder().raw_decode` and apply the same mapping.
 - **SalePlan**: **it is not opened in the browser.** It is read at the end with
-  `python scripts/saleplan.py` (section 7): it reads the listings over HTTP and saves only what no other
-  source brought, with no venue. If `siguiente` shows it, skip it. Only if the script says it could not
+  `python scripts/saleplan.py` (end of every session, section 7): it reads the listings over HTTP and saves only what no other
+  source brought, with no venue but with the card's picture (`img.event-card__image`). If `siguiente` shows it, skip it. Only if the script says it could not
   read the listing, open the `entradas` with `preparar`. Cards with no neighborhood or time are left in
   `data/crawl/tmp/saleplan_fichas.txt`: if there is time left, open those pages to find out the venue.
 - **Resident Advisor**: parties and electronic agenda. Go through the 14 days, open the pages with no club
@@ -676,7 +676,7 @@ One JSON object per site and channel in `data/crawl/tmp/<id>.json`:
   not downloaded). Copy it from `bloques()` (the card's picture), `jsonld()` or `esperar()` (`og:image`), never
   invent it. Look for it on every web result: if the page is a JavaScript app, find the platform's JSON API in
   `performance.getEntriesByType('resource')` (it often has `poster`, `image` or `og:image`). `guardar` warns when a web result
-  with 4 or more events has none. Leave it empty only if the source has no picture of its own: not the venue's logo, a generic banner or an
+  with 4 or more events has none. A `guardar` warning that no event has a picture is never accepted as is: look at the source's HTML for the card's `<img>` (SalePlan had one on every card) before saying the source has none. Leave it empty only if the source has no picture of its own: not the venue's logo, a generic banner or an
   icon. Instagram post pictures are not used (their URLs expire). `guardar` ignores any that is not https.
 - `vigente_sin_fin: true` only when the source publishes it as current with no closing date.
 - `comportamiento`: short keys and values that help the next run (`espera_seg`, `scroll`, `ver_mas`,

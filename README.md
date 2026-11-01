@@ -62,7 +62,7 @@ network do so with plain HTTP requests, at a slow pace.
 - `scripts/biolinks.py`: looks for the Linktree of each Instagram account without opening Instagram.
 - `scripts/borges.py`: reads the Centro Cultural Borges agenda from the site's JSON API and writes the result file, with each event linked to its own page. `sondear.py --corrida` runs it first by itself and saves the result.
 - `scripts/museos_cultura.py`: reads over HTTP the activities and exhibitions of a Ministry of Culture museum (`museo<x>.cultura.gob.ar`): `actividades <url> [salida.json] [--desde --hasta]` prints every ficha with its date and keeps the ones inside the window; `exhibiciones <url>` prints the closing date of each exhibition.
-- `scripts/saleplan.py`: reads the SalePlan listings and saves only what no other source brought.
+- `scripts/saleplan.py`: reads the SalePlan listings over HTTP (title, date, time, neighborhood and the card's picture) and saves only what no other source brought; run at the end of every session.
 - `scripts/armar_agenda.py`: builds `data/eventos.json` (14-day window, classification, duplicates, missing
   addresses, map, stable id for each event). `--sin-geo` builds without querying the network. With no
   recent captures it leaves `eventos.json` untouched, unless `--vaciar` is given (then it writes it with no
