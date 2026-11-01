@@ -3,10 +3,83 @@
  "canal": "instagram",
  "fuente": "BOLIVAR 852",
  "tipo": "lugar",
- "fecha": "2026-10-25",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/bolivar852_arte_musica_cocina/"
+  "https://www.instagram.com/bolivar852_arte_musica_cocina/",
+  "https://www.instagram.com/p/DfLbv4DN4KZ/",
+  "https://www.instagram.com/p/DfLfZrDP1aQ/",
+  "https://www.instagram.com/p/DfLgQi1spC8/",
+  "https://www.instagram.com/p/DfLgzbDBD2z/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Tablao flamenco",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "22:00",
+   "horarios": "Puerta 21 h, show 22 h",
+   "lugar": "Bolívar 852",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 852",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfLbv4DN4KZ/",
+   "descripcion": "Tablao flamenco con baile de Leonella Dalma y Sabrina Monasterios, cante de Barby Gurevich, guitarra de Oscar Russo y percusión de Juan Romero Cádiz. Reservas por WhatsApp 11 5509-6873.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfLbv4DN4KZ/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Alma libre, con Lolo Cádiz",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "23:00",
+   "horarios": "Puerta 21:30 h, show 23 h",
+   "lugar": "Bolívar 852",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 852",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfLfZrDP1aQ/",
+   "descripcion": "Lolo Cádiz presenta Alma libre con Héctor Romero y Pupi Manzano en guitarra, Boy Cádiz en cajón, flauta y cante. Reservas por WhatsApp 11 5509-6873.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfLfZrDP1aQ/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Sangre flamenca, con Baldomero Cádiz",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "23:00",
+   "horarios": "Puerta 21:30 h, show 23 h",
+   "lugar": "Bolívar 852",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 852",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfLgQi1spC8/",
+   "descripcion": "Baldomero Cádiz presenta Sangre flamenca con baile de Sofi Odiard y cuerpo de baile, Lolo Cádiz, Baldomero Cádiz Jr., percusión y bajo. Reservas por WhatsApp 11 5509-6873.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfLgQi1spC8/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Luna en Bolívar, de Marcela Calvo (Nuestra Señora de las Castañuelas)",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "2026-11-08",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Bolívar 852",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 852",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfLgzbDBD2z/",
+   "descripcion": "Cante de Piturro González Amador, guitarra de Héctor Romero y baile de Rosa Di Nico y Vanina Barreiro; idea de Marcela Calvo. Reservas por WhatsApp 11 5509-6873.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfLgzbDBD2z/",
+   "imagen": ""
+  }
+ ]
 }

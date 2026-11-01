@@ -167,6 +167,12 @@ which prints the status, the page's JSON-LD events and the text with the links. 
 - Malba: the day pages `malba.org.ar/agenda/on/AAAA/MM/DD/` (15 days) read over HTTP with `sondear.pedir` + `texto_legible`; between
   `Seleccionar fecha` and `Malba agradece` each event is three lines (`HH:MM Categoría`, `título [url]`, sala); group by URL for the
   recurring ones (recorridos) and skip `Exposiciones`, `Amigos` and `Museo cerrado`.
+- Museo Nacional de Bellas Artes: `/agenda/` (HTTP) lists the 15 days as `Categoría [url]`, title, weekdays and `Del D de mes de AAAA al D de mes de AAAA, a las H h`; skip `Museo abierto`. Museo Moderno: the agenda needs the browser
+  (`Cargar más`); each card is `Categoría`, title, `Modalidad:`, `Público:`, `Fechas:` and day/hour pairs, and its anchors keep the page order (read the
+  page text with `javascript_tool` in ~900-character pieces; `get_page_text` finds nothing). Club sites that list `título [/shows/N]` with the dates underneath
+  (caff.ar) and `/eventos/<slug>/` with the dates in the card (archibrazo.org) take their price and `og:image` from each ficha over HTTP.
+- A Linktree with several venues' worth of Instagram profiles that share one account (the 10 PCB centers on `@gops.ba`): read the grid once and save every center
+  with the same evidence, `posts: []` and `paginas_instagram: 0` (no quota spent).
 - A venue whose Instagram bio is its Alternativa Teatral page (Dumont 4040): the page lists plays by weekday with hour and price
   and `Proximamente` with start dates; turn each weekday into the first and last date inside the window (`horarios` "Sáb 20 h. Dom 18 h").
 - Linktrees of clubs (Maquinal) list each show as `<date> <title> [revamos.com/eventos/<slug>]`: the Revamos page has hour and
@@ -222,6 +228,9 @@ After the 20th site, do the "Lecciones de la corrida" review (section 7) for thi
 learned to the skill, `navegador.md`, the scripts and the docs (`README.md`) as CLAUDE.md requires. Then publish
 a progress update (section 6) with those changes in the same commit and end the session. That way the page,
 the lessons and the docs are up to date after every session even if the run takes several.
+
+Write the result file and call `crawl.py guardar` in the same shell command chained with `&&`: if the Python that writes the file fails, `guardar`
+saves the stale `data/crawl/tmp/<id>.json` of an earlier session and replaces the capture.
 
 ## 3. Crawl a website
 
