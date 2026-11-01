@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26",
+ "actualizado": "2026-10-31",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -2486,7 +2486,8 @@
     "2026-10-15 [web] Web nueva museomacba.org. La agenda de octubre solo repite las tres exposiciones.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomacba",
     "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "entradas": [
     "https://museomacba.org/",
@@ -2500,7 +2501,7 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
      "eventos": 4,
      "paginas": 6
@@ -2533,6 +2534,12 @@
     },
     {
      "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
+    },
+    {
+     "fecha": "2026-10-31",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
@@ -15336,9 +15343,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 3,
+     "eventos": 4,
      "paginas": 3
     }
    },
@@ -15352,7 +15359,8 @@
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lospompas",
     "2026-10-19 [web] Leído sin navegador: 3 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 4 eventos en la ventana."
    ],
    "historial": [
     {
@@ -15378,6 +15386,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ],
    "enlace_bio": "https://linktr.ee/lospompas"
@@ -15400,9 +15414,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 7,
+     "eventos": 8,
      "paginas": 5
     }
    },
@@ -15413,7 +15427,8 @@
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana.",
     "2026-10-19 [web] Leído sin navegador: 7 eventos; completados con la ficha de cada evento.",
     "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (7 de 7 eventos).",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 7 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 7 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 8 eventos en la ventana."
    ],
    "historial": [
     {
@@ -15445,6 +15460,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 7
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 8
     }
    ],
    "bio_probada": "2026-10-15"
@@ -16020,9 +16041,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 23,
+     "eventos": 11,
      "paginas": 5
     }
    },
@@ -16030,7 +16051,8 @@
     "2026-10-15 [web] Programación semanal fija; sin fechas puntuales.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/felizarcoiris",
     "2026-10-19 [web] Leído sin navegador: 27 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 23 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 23 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 11 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -16070,6 +16092,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 23
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 11
     }
    ],
    "enlace_bio": "https://linktr.ee/felizarcoiris"
@@ -17078,9 +17106,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 71,
+     "eventos": 69,
      "paginas": 42
     }
    },
@@ -17089,7 +17117,8 @@
     "2026-10-15 [web] La portada trae la agenda completa del mes en bloques por fecha, sin hora.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/centroborges",
     "2026-10-20 [web] 2026-10-20: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>.",
-    "2026-10-22 [web] 2026-10-22: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
+    "2026-10-22 [web] 2026-10-22: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>.",
+    "2026-10-31 [web] 2026-10-31: agenda leída con scripts/borges.py (API); cada función enlaza a /evento/<id>."
    ],
    "comportamiento": {
     "extraccion": "scripts/borges.py lee la API pública JSON (ver el docstring)",
@@ -17177,6 +17206,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 71
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 69
     }
    ],
    "enlace_bio": "https://linktr.ee/centroborges"
@@ -17587,16 +17622,16 @@
    "direccion": "Sarmiento 1551",
    "comportamiento": {
     "plataforma": "WordPress + The Events Calendar: /eventos/ lista solo lo vigente y la API wp-json/tribe/events/v1 da 0 en la ventana (el evento tiene rango de fechas)",
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
+    "extraccion": "sin navegador: la API de The Events Calendar (scripts/sondear.py --corrida)",
     "fichas": "la ficha no trae precio ni og:image",
     "cursos": "los cursos de octubre son virtuales (no se cargan)"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 5
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "notas": [
@@ -17604,9 +17639,11 @@
     "2026-10-15 [web] Muy pocos eventos; el centro ofrece sobre todo cursos y clases magistrales.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/elculturalsanmartin",
     "2026-10-20 [web] La agenda del 20/10 tiene un solo evento: La vida por correspondencia, sábados de octubre a las 17 h en el subsuelo de la Casa de la Cultura. Cursos de octubre y clases magistrales de noviembre son virtuales.",
-    "2026-10-24 [web] Leído sin navegador desde el JSON-LD de la página: 2 eventos en la ventana."
+    "2026-10-24 [web] Leído sin navegador desde el JSON-LD de la página: 2 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde la API de The Events Calendar: 1 eventos en la ventana."
    ],
    "entradas": [
+    "https://elculturalsanmartin.ar/",
     "https://elculturalsanmartin.ar/eventos/"
    ],
    "enlaces_descartados": [
@@ -17647,6 +17684,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "enlace_bio": "https://linktr.ee/elculturalsanmartin"
@@ -17846,9 +17889,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 45,
+     "eventos": 53,
      "paginas": 6
     }
    },
@@ -17856,7 +17899,8 @@
    "notas": [
     "2026-10-15 [web] Leído sin navegador desde el JSON-LD de la página: 47 eventos en la ventana.",
     "2026-10-19 [web] Leído sin navegador: 44 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 45 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 45 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 53 eventos en la ventana."
    ],
    "historial": [
     {
@@ -17888,6 +17932,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 45
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 53
     }
    ]
   },
@@ -18620,7 +18670,7 @@
    "direccion": "Giuffra, Jose M.,Dr. 371",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
      "eventos": 10,
      "paginas": 2
@@ -18632,7 +18682,8 @@
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/scaladesantelmo",
     "2026-10-19 [web] Leído sin navegador: 9 eventos; completados con la ficha de cada evento.",
     "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (9 de 9 eventos).",
-    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
    ],
    "entradas": [
     "https://lascala.com.ar/"
@@ -18667,6 +18718,12 @@
     },
     {
      "fecha": "2026-10-22",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    },
+    {
+     "fecha": "2026-10-31",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
@@ -21829,9 +21886,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 10,
+     "eventos": 17,
      "paginas": 6
     }
    },
@@ -21843,7 +21900,8 @@
     "2026-10-15 [web] La portada lista toda la programación por fecha; la hora solo está en el calendario por día.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cc25demayo",
     "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 10 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 10 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 17 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -21889,6 +21947,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 17
     }
    ],
    "enlace_bio": "https://linktr.ee/cc25demayo"
@@ -22155,9 +22219,9 @@
    "direccion": "Juramento 4686",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 10,
+     "eventos": 12,
      "paginas": 2
     }
    },
@@ -22172,7 +22236,8 @@
     "2026-10-15 [web] Cartelera completa en /cartelera/.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cuerdamecanica",
     "2026-10-19 [web] Leído sin navegador: 10 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde la API de The Events Calendar: 10 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde la API de The Events Calendar: 12 eventos en la ventana."
    ],
    "enlaces_descartados": [
     {
@@ -22224,6 +22289,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 12
     }
    ],
    "enlace_bio": "https://linktr.ee/cuerdamecanica"
@@ -25778,7 +25849,8 @@
     "2026-10-15: la web cambió de  a https://www.espaciomemoria.ar/",
     "2026-10-15 [web] La agenda del Espacio Memoria cubre toda la ex ESMA, incluido el Museo Sitio de Memoria. Pendiente: 'Movimientos de un monumento' (inauguración 31/10) y 'No voy sola' (31/10), fuera de ventana.",
     "2026-10-19 [web] Leído sin navegador: 4 eventos; completados con la ficha de cada evento.",
-    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 5 eventos en la ventana."
+    "2026-10-22 [web] Leído sin navegador desde el JSON-LD de la página: 5 eventos en la ventana.",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 6 eventos en la ventana."
    ],
    "id": "museo-sitio-de-memoria-esma",
    "entradas": [
@@ -25810,9 +25882,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 5,
+     "eventos": 6,
      "paginas": 5
     }
    },
@@ -25840,6 +25912,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "barrio": "Núñez",
@@ -26804,13 +26882,15 @@
     "2026-10-15: club de electrónica; web confirmada en RA",
     "2026-10-15 [web] La agenda completa está en /fechas.",
     "2026-10-20 [web] Leído hasta el 31/10; las demás fechas son de noviembre y diciembre. Precio solo en la primera ficha; en las otras no se vio.",
-    "2026-10-24 [web] 4 fechas en ventana (24/10, 30/10, 31/10, 6/11 Studio). Las tres primeras parten de la captura del 20/10 con precio solo en la fecha ya pasada; DRAMER sin hora, precio ni imagen (Bombo no se abrió)."
+    "2026-10-24 [web] 4 fechas en ventana (24/10, 30/10, 31/10, 6/11 Studio). Las tres primeras parten de la captura del 20/10 con precio solo en la fecha ya pasada; DRAMER sin hora, precio ni imagen (Bombo no se abrió).",
+    "2026-10-31 [web] Leído sin navegador desde el JSON-LD de la página: 3 eventos en la ventana."
    ],
    "entradas": [
+    "https://www.crobar.com.ar/",
     "https://www.crobar.com.ar/fechas"
    ],
    "comportamiento": {
-    "extraccion": "sondear --leer /fechas da día, sala y line up con JSON-LD; el enlace de cada TICKETS está en offers.url (wearebombo.app.link, 403 por HTTP: hora, precio e imagen salen del navegador o de la captura anterior)",
+    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
     "fichas": "wearebombo.com da 403 a sondear.py: abrir /event/<id> en el navegador (horario, precios con $, og:image); los precios a veces no cargan"
    },
    "enlaces_descartados": [
@@ -26847,10 +26927,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-10-31",
      "estado": "con_eventos",
-     "eventos": 4,
-     "paginas": 5
+     "eventos": 3,
+     "paginas": 1
     }
    },
    "historial": [
@@ -26877,6 +26957,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 4
+    },
+    {
+     "fecha": "2026-10-31",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ]
   },
