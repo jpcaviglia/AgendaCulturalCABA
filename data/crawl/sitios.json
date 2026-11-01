@@ -2116,7 +2116,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 2,
      "paginas": 3
@@ -2127,7 +2127,8 @@
     "2026-10-15 [web] Dos exhibiciones vigentes.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/w_w_w_galeria",
     "2026-10-19 [web] 2026-10-19: dos ediciones vigentes (Banquete y Persistencias); las de W—galería terminaron en septiembre. Sin días exactos, dirección ni horarios leídos (el día de inicio de Banquete es aproximado).",
-    "2026-10-24 [web] 2026-10-24: sin cambios: Banquete (R. Flores) y Persistencias (W—naturae) siguen en la lista de exhibiciones."
+    "2026-10-24 [web] 2026-10-24: sin cambios: Banquete (R. Flores) y Persistencias (W—naturae) siguen en la lista de exhibiciones.",
+    "2026-11-01 [web] 2026-11-01: sin cambios: solo Banquete (W—archivo, Oct 2026 a Feb 2027) y Persistencias (W—naturae, hasta Nov 2026) siguen vigentes; las 4 de W—galería terminaron en septiembre. Eventos tomados de la captura anterior tras leer la lista."
    ],
    "comportamiento": {
     "fechas": "Las exhibiciones solo indican mes de inicio y fin ('Oct 2026 / Feb 2027'); hay tres espacios: W—galería, W—archivo, W—naturae.",
@@ -2151,9 +2152,29 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
-   "enlace_bio": "https://linktr.ee/w_w_w_galeria"
+   "enlace_bio": "https://linktr.ee/w_w_w_galeria",
+   "enlaces_descartados": [
+    {
+     "url": "https://w-w-w.ar/index.php/es",
+     "texto": "Obras",
+     "motivo": "colección de obras, no agenda",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://w-w-w.ar/index.php/es/publications",
+     "texto": "Publicaciones",
+     "motivo": "publicaciones editoriales, no eventos",
+     "fecha": "2026-11-01"
+    }
+   ]
   },
   {
    "id": "central-affair-galerias-larreta",
@@ -16855,23 +16876,24 @@
    "direccion": "Suipacha 1333",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 7
+     "eventos": 9,
+     "paginas": 5
     }
    },
    "notas": [
     "2026-10-14: web corregida (antes https://www.britishartcentre.org.ar)",
     "2026-10-15 [web] En la ventana solo hay dos propuestas; el resto del listado es de septiembre o antes.",
     "2026-10-20 [web] 2026-10-20: en la ventana: Choir Nights, Rebecca Winckworth y el Seminario de Clown. Coro BAC (lunes, marzo a noviembre) es un grupo estable y no se cargó.",
-    "2026-10-24 [web] 2026-10-24: sin cambios salvo Un cuadro blanco (25/10); Choir Nights terminó el 20/10."
+    "2026-10-24 [web] 2026-10-24: sin cambios salvo Un cuadro blanco (25/10); Choir Nights terminó el 20/10.",
+    "2026-11-01 [web] 2026-11-01: 7 propuestas de La Noche de los Museos (14/11), el Seminario de Clown (jueves 18:30 hasta el 19/11) y la última función de Un cuadro blanco (1/11 20:30, dato de Alternativa). Coro BAC (lunes 19:30, coro estable) no se carga. Precio de la Noche de los Museos solo donde la ficha dice 'entrada libre y gratuita'."
    ],
    "entradas": [
     "https://www.aaci.org.ar/bac/"
    ],
    "comportamiento": {
-    "extraccion": "sondear.py --leer de la portada /bac/ y de cada ficha; las tarjetas traen fecha en texto, 'Cargar más' solo trae pasados",
+    "extraccion": "sondear.pedir de /bac/ y de cada /bac/<slug>/ (WordPress); las fichas no traen JSON-LD ni hora legible por texto_legible: la hora y la fecha salen del listado; la entrada libre figura en el texto de la ficha",
     "ver_mas": "'Cargar más' trae solo eventos pasados"
    },
    "enlaces_descartados": [
@@ -16892,6 +16914,18 @@
      "texto": "Novedades",
      "motivo": "novedades institucionales, no agenda",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://www.aaci.org.ar/categorias-bac/theatre/",
+     "texto": "Theatre",
+     "motivo": "misma programación filtrada que /bac/",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://www.aaci.org.ar/novedades/bac/",
+     "texto": "Novedades",
+     "motivo": "noticias del BAC de 2025, no agenda",
+     "fecha": "2026-11-01"
     }
    ],
    "historial": [
@@ -16912,6 +16946,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 3
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "bio_probada": "2026-10-15"
@@ -22315,13 +22355,14 @@
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
     "2026-10-18 [web] Linktree lista shows hasta diciembre; 4 en la ventana (22 al 24/10).",
     "2026-10-20 [web] Leído hasta el 31/10; el resto del Linktree es de noviembre y diciembre (Creamfields 14/11, Sven Väth 13/11 por Venti).",
-    "2026-10-24 [web] 6 fechas en ventana (24/10 al 6/11). Enigma Tickets no da precio ni imagen sin abrir la compra."
+    "2026-10-24 [web] 6 fechas en ventana (24/10 al 6/11). Enigma Tickets no da precio ni imagen sin abrir la compra.",
+    "2026-11-01 [web] 2026-11-01: Linktree de Deseo con 6 shows del 5 al 14/11 (Creamfields no es en Deseo: se carga desde su sede). Precio e imagen solo en la ficha de Venti; las de Enigma Tickets no traen JSON-LD."
    ],
    "comportamiento": {
     "agenda": "Linktree con '[dd.mm] título' y enlace a Enigma Tickets",
     "sin_fichas": "leído con sondear.py: Linktree con un enlace de Enigma Tickets por show, sin hora en el título",
     "extraccion": "sondear --leer del Linktree ('[dd.mm] título' + enlace a Enigma Tickets); la ficha de Enigma da día y hora en el texto",
-    "fichas": "Enigma Tickets no muestra precio ni foto sin abrir la compra: precio e imagen quedan vacíos"
+    "fichas": "enigmatickets.com/event/<uuid> se lee por HTTP pero sin JSON-LD (texto con día y hora 'Jue 05/11 21:00hs'); las de Venti sí traen JSON-LD con precio e imagen"
    },
    "ultimo": {
     "instagram": {
@@ -22331,10 +22372,10 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 6,
-     "paginas": 7
+     "paginas": 2
     }
    },
    "historial": [
@@ -22361,18 +22402,18 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "entradas": [
     "https://linktr.ee/deseobsas"
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://linktr.ee/deseobsas",
-     "texto": "Reserva de mesas",
-     "motivo": "formulario de reservas",
-     "fecha": "2026-10-20"
-    },
     {
      "url": "https://medium.com/@DESEOBSAS",
      "texto": "Crónicas de la pista de Deseo",
@@ -24141,7 +24182,8 @@
     "2026-10-15 [web] Dos exposiciones actuales hasta el 22/11. En octubre hay subasta a beneficio del museo (notas de prensa).",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museo_sivori",
     "2026-10-19 [web] 2026-10-19: dos exposiciones actuales hasta el 22/11; sin horarios ni precio leídos.",
-    "2026-10-24 [web] 2026-10-24: sin cambios: Atmosferismo (Seeber) y Riganelli, ambas hasta el 22/11."
+    "2026-10-24 [web] 2026-10-24: sin cambios: Atmosferismo (Seeber) y Riganelli, ambas hasta el 22/11.",
+    "2026-11-01 [web] 2026-11-01: buenosaires.gob.ar/gcaba_historico/museosivori responde 'Acceso denegado' (antes se leía); se crawlea el Instagram @museo_sivori."
    ],
    "id": "museo-de-artes-plasticas-eduardo-sivori",
    "entradas": [
@@ -24153,9 +24195,9 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
-     "estado": "con_eventos",
-     "eventos": 2,
+     "fecha": "2026-11-01",
+     "estado": "bloqueado",
+     "eventos": 0,
      "paginas": 3
     }
    },
@@ -24177,6 +24219,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "bloqueado",
+     "eventos": 0
     }
    ],
    "barrio": "Palermo",
@@ -24285,7 +24333,8 @@
     "2026-10-15 [web] Martes a viernes 12-20, sábados 12-19; entrada general $9.000.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museoxulsolar",
     "2026-10-19 [web] 2026-10-19: una visita guiada (jueves 18 h, hasta el 22/10) en Eventbrite; la programación del mes está en una carpeta de Drive que no se pudo abrir.",
-    "2026-10-24 [web] 2026-10-24: la web (martes a viernes 12-20, sábados 12-19; entrada $9000) manda a 'Programación del mes' en Eventbrite; se carga la visita guiada sobre astrología del 5/11."
+    "2026-10-24 [web] 2026-10-24: la web (martes a viernes 12-20, sábados 12-19; entrada $9000) manda a 'Programación del mes' en Eventbrite; se carga la visita guiada sobre astrología del 5/11.",
+    "2026-11-01 [web] 2026-11-01: el PDF de programación sigue siendo el de octubre. Eventbrite del museo: visita astrológica (próxima fecha 5/11 18 h, serie hasta el 26/11) y 'Arte, arquitectura y encuentro' (serie hasta el 13/11, sin fecha concreta visible: no se cargó). Visitas guiadas permanentes miércoles y sábados 16 h."
    ],
    "id": "museo-xul-solar",
    "entradas": [
@@ -24293,17 +24342,17 @@
     "https://www.xulsolar.org.ar/"
    ],
    "comportamiento": {
-    "programacion": "La programación mensual es un PDF en Drive; las actividades pagas se venden en Eventbrite (organizador 38576839753).",
-    "bloqueos": "xulsolar.org.ar responde 403 a scripts",
+    "programacion": "el PDF del Drive es el newsletter del mes (el de octubre sigue publicado en noviembre); el organizador de Eventbrite se lee en el navegador (los /e/ links) y cada ficha por HTTP",
+    "bloqueos": "xulsolar.org.ar responde 403 a scripts: abrir en el navegador",
     "extraccion": "las actividades están en el Eventbrite del museo (enlace de la bio); la ficha trae startDate/endDate en el JSON-LD",
     "horarios": "martes a viernes 12 a 20 h, sábados 12 a 19 h"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 1,
-     "paginas": 4
+     "eventos": 2,
+     "paginas": 3
     }
    },
    "historial": [
@@ -24324,6 +24373,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "barrio": "Palermo",
@@ -24335,6 +24390,18 @@
      "texto": "Programación del Mes (Drive)",
      "motivo": "carpeta de Google Drive, pide permisos",
      "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://tiendaxulsolar.org.ar/",
+     "texto": "Tienda",
+     "motivo": "es la tienda",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://www.xulsolar.org.ar/#eventos",
+     "texto": "Alquiler del museo",
+     "motivo": "alquiler de espacio para eventos privados",
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -24577,7 +24644,8 @@
     "2026-10-15: la web cambió de  a https://museodelacarcova.una.edu.ar/",
     "2026-10-15 [web] Museo de la UNA en Costanera Sur.",
     "2026-10-19 [web] 2026-10-19: una jornada el 24/10 y la muestra Cooperación. Esfuerzo. Porvenir. (dato de otra fuente); sin dirección ni horarios leídos.",
-    "2026-10-24 [web] 2026-10-24: sin cambios: la jornada ¡Viva la litografía! del 24/10 y la muestra Cooperación. Esfuerzo. Porvenir. (hasta 27/11)."
+    "2026-10-24 [web] 2026-10-24: sin cambios: la jornada ¡Viva la litografía! del 24/10 y la muestra Cooperación. Esfuerzo. Porvenir. (hasta 27/11).",
+    "2026-11-01 [web] 2026-11-01: la agenda trae solo la inauguración de Plataforma curatorial 2026 (sáb 14/11 18 h). 'Copia única' cerró el 18/10; las visitas guiadas son para grupos con reserva (no se cargan)."
    ],
    "id": "museo-de-calcos-y-escultura-comparada-ernesto-de-la-carcova",
    "entradas": [
@@ -24586,14 +24654,15 @@
    ],
    "comportamiento": {
     "estructura": "el sitio es de la UNA: /agenda lista fecha y título; las exposiciones temporarias no tienen listado con fechas (texto institucional)",
-    "sin_fichas": "la exposición vigente no tiene ficha propia"
+    "sin_fichas": "la exposición vigente no tiene ficha propia",
+    "extraccion": "sondear.py --leer de /agenda y de la ficha /agenda/<slug>_<id>; el texto lleva mucha navegación de la UNA: buscar las líneas con fecha"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 5
+     "eventos": 1,
+     "paginas": 4
     }
    },
    "historial": [
@@ -24614,6 +24683,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Puerto Madero",
@@ -24621,16 +24696,16 @@
    "bio_probada": "2026-10-15",
    "enlaces_descartados": [
     {
-     "url": "https://museodelacarcova.una.edu.ar/contenidos/visitas-guiadas_12934",
-     "texto": "Visitas guiadas",
-     "motivo": "visitas con turno para instituciones",
-     "fecha": "2026-10-19"
-    },
-    {
      "url": "https://museodelacarcova.una.edu.ar/contenidos/la-coleccion_12939",
      "texto": "Colección Permanente",
      "motivo": "descripción de la colección",
      "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://museodelacarcova.una.edu.ar/contenidos/exposiciones-pasadas_35393",
+     "texto": "Exposiciones pasadas",
+     "motivo": "archivo de muestras pasadas",
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -28232,7 +28307,8 @@
     "2026-10-15 [instagram] El Linktree lista las fechas con enlaces a Venti y Flashpass; 7/11 y 21/11 quedan fuera de ventana.",
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
     "2026-10-20 [web] 2026-10-19: dos fiestas en la ventana (23 y 24/10); 'Carroza loca' (7/11) y 'Quitapenas' (21/11) quedan fuera. Sin dirección (la completa armar_agenda).",
-    "2026-10-24 [web] 1 evento en ventana: desfile Verónica Zhang (24/10). Los siguientes: Carroza Loca 7/11, Un año en las nubes 21/11, Quitapenas 21/11."
+    "2026-10-24 [web] 1 evento en ventana: desfile Verónica Zhang (24/10). Los siguientes: Carroza Loca 7/11, Un año en las nubes 21/11, Quitapenas 21/11.",
+    "2026-11-01 [web] 2026-11-01: Linktree con 4 fechas: Café Polenta (31/10, pasado), Carroza Loca (7/11) y dos del 21/11 (fuera de la ventana)."
    ],
    "enlace_bio": "https://linktr.ee/lanubebuenosaires",
    "comportamiento": {
@@ -28248,7 +28324,7 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -28269,6 +28345,12 @@
     },
     {
      "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 1
+    },
+    {
+     "fecha": "2026-11-01",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 1
@@ -29053,21 +29135,23 @@
     "2026-10-15: sala de recitales",
     "2026-10-15 [web] Cartelera en la portada.",
     "2026-10-20 [web] 2026-10-20: cartelera en la portada (Squarespace); las fichas están en Passline. Los shows desde el 4/11 quedan fuera de la ventana.",
-    "2026-10-24 [web] 6 shows en ventana (24/10 al 6/11). Los 4 primeros parten de la captura del 20/10; Adanowsky e Iván Noble leídos el 24/10. Maneva (7/11) y los siguientes quedan fuera."
+    "2026-10-24 [web] 6 shows en ventana (24/10 al 6/11). Los 4 primeros parten de la captura del 20/10; Adanowsky e Iván Noble leídos el 24/10. Maneva (7/11) y los siguientes quedan fuera.",
+    "2026-11-01 [web] 2026-11-01: portada leída del texto del sondeo: 5 shows del 4 al 14/11 (Berra y Noble con nueva función); sin precio ni imagen."
    ],
    "entradas": [
     "https://www.latrastienda.com/"
    ],
    "comportamiento": {
     "extraccion": "sondear --leer de la portada: 'Próximos shows' con fecha y hora; enlaces passline.com/eventos-ficha-dvm/<slug>; precio ($ mínimo) y foto (imagenes/eventos/…-rec.jpg) con fetch() desde una pestaña de passline.com",
-    "fichas": "los enlaces de entradas van a passline.com/eventos-ficha-dvm/<slug>; por HTTP da 403, desde el navegador (fetch en una pestaña de passline) se leen precios y og:image"
+    "fichas": "los enlaces de entradas van a passline.com/eventos-ficha-dvm/<slug>; por HTTP da 403, desde el navegador (fetch en una pestaña de passline) se leen precios y og:image",
+    "sin_fichas": "la portada lista los shows con fecha, hora y botón de entradas, sin página propia por show; el texto del sondeo no trae los enlaces de entradas"
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 6,
-     "paginas": 7
+     "eventos": 5,
+     "paginas": 1
     }
    },
    "historial": [
@@ -29088,6 +29172,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 6
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 5
     }
    ],
    "bio_probada": "2026-10-15"
