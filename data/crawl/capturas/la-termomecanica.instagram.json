@@ -3,28 +3,30 @@
  "canal": "instagram",
  "fuente": "La Termomecánica",
  "tipo": "lugar",
- "fecha": "2026-10-25",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.instagram.com/la.termomecanica/",
-  "https://www.instagram.com/p/DekY6n7lMBl/"
+  "https://linktr.ee/latermomecanica",
+  "https://www.instagram.com/p/DfLJAu8Mdhw/",
+  "https://www.instagram.com/p/DfDfUvLMGWG/"
  ],
  "eventos": [
   {
-   "titulo": "Torneo de ajedrez (ritmo 7+3, 5 rondas)",
-   "fecha_inicio": "2026-10-27",
-   "fecha_fin": "",
-   "hora": "19:00",
-   "horarios": "",
+   "titulo": "Revolviendo Bateas: feria de vinilos y CDs",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "12:00",
+   "horarios": "12 a 19 h",
    "lugar": "La Termomecánica",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Juegos",
-   "precio": "",
-   "url": "https://www.instagram.com/p/DekY6n7lMBl/",
-   "descripcion": "Torneo de ajedrez en La Termomecánica, Bolivia 2329, Villa del Parque. Ritmo 7+3, 5 rondas por sistema suizo.",
+   "barrio": "Villa del Parque",
+   "direccion": "Bolivia 2329",
+   "categoria": "Feria",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/DfLJAu8Mdhw/",
+   "descripcion": "Nueva edición de la feria de discos con miles de vinilos y CDs, accesorios y música para descubrir. Entrada libre y gratuita.",
    "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/p/DekY6n7lMBl/",
+   "post": "https://www.instagram.com/p/DfLJAu8Mdhw/",
    "imagen": ""
   }
  ]

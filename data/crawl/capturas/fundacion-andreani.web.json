@@ -3,20 +3,10 @@
  "canal": "web",
  "fuente": "Fundación Andreani",
  "tipo": "galeria",
- "fecha": "2026-10-24",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.fundacionandreani.org.ar/",
-  "https://www.fundacionandreani.org.ar/estamos-aqui-(e640)",
-  "https://www.fundacionandreani.org.ar/la-materia-despues-(e641)",
-  "https://www.fundacionandreani.org.ar/sombras-lucidas-(e642)",
-  "https://www.fundacionandreani.org.ar/trube-turbio-(e652)",
-  "https://www.fundacionandreani.org.ar/aitana-cordero-(e669)",
-  "https://www.fundacionandreani.org.ar/una-conciencia-en-guardia-(e670)",
-  "https://www.fundacionandreani.org.ar/aula-(e667)",
-  "https://www.fundacionandreani.org.ar/hipersonica-(e665)",
-  "https://www.fundacionandreani.org.ar/pausar-la-ia-(e662)",
-  "https://www.fundacionandreani.org.ar/bonus-track-(e639)"
+  "https://www.fundacionandreani.org.ar/"
  ],
  "eventos": [
   {
@@ -88,23 +78,6 @@
    "imagen": ""
   },
   {
-   "titulo": "La Casa. L, de Aitana Cordero (ciclo Cabina Escénica)",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-29",
-   "hora": "20:00",
-   "horarios": "25/10 20 h; 29/10 16 h (también 17/10 y 3/11)",
-   "lugar": "Fundación Andreani",
-   "barrio": "La Boca",
-   "direccion": "Av. Don Pedro de Mendoza 1987",
-   "categoria": "Danza",
-   "precio": "Gratis",
-   "url": "https://www.fundacionandreani.org.ar/aitana-cordero-(e669)",
-   "descripcion": "La directora y coreógrafa española Aitana Cordero presenta La Casa. L, en su primera gira latinoamericana. Funciones el 25/10 a las 20 h y el 29/10 a las 16 h; entrada libre con inscripción previa.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
    "titulo": "Una conciencia en guardia: coloquio con Éric Sadin",
    "fecha_inicio": "2026-11-05",
    "fecha_fin": "2026-11-05",
@@ -117,23 +90,6 @@
    "precio": "Gratis",
    "url": "https://www.fundacionandreani.org.ar/una-conciencia-en-guardia-(e670)",
    "descripcion": "Jornada con el filósofo francés Éric Sadin sobre su obra y el presente tecnológico: autonomía, pensamiento, psiquis e inteligencia artificial, con mesas de especialistas. Organiza el área de Pensamiento con Caja Negra.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Taller de Agustina Muñoz y Bárbara Hang",
-   "fecha_inicio": "2026-10-30",
-   "fecha_fin": "2026-10-30",
-   "hora": "18:00",
-   "horarios": "Viernes 23 y 30 de octubre, de 18 a 20 h",
-   "lugar": "Fundación Andreani",
-   "barrio": "Barracas",
-   "direccion": "Av. Don Pedro de Mendoza 1987",
-   "categoria": "Taller",
-   "precio": "Gratis",
-   "url": "https://www.fundacionandreani.org.ar/aula-(e667)",
-   "descripcion": "Taller del espacio Aula de la Fundación Andreani, dos viernes de octubre de 18 a 20 h.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

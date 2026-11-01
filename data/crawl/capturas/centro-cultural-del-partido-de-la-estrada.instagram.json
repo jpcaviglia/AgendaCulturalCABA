@@ -3,28 +3,46 @@
  "canal": "instagram",
  "fuente": "CENTRO CULTURAL DEL PARTIDO DE LA ESTRADA",
  "tipo": "lugar",
- "fecha": "2026-10-25",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.instagram.com/laestradacentrocultural/",
-  "https://www.instagram.com/p/DecSaKTRRsq/"
+  "https://www.instagram.com/p/DecSaKTRRsq/",
+  "https://www.instagram.com/p/DfCsOqIxtdc/"
  ],
  "eventos": [
   {
-   "titulo": "Patio Español y Argentino: cena show de danza española y folklore",
+   "titulo": "Patio español y argentino (cena show)",
    "fecha_inicio": "2026-10-31",
-   "fecha_fin": "",
+   "fecha_fin": "2026-10-31",
    "hora": "20:30",
    "horarios": "",
-   "lugar": "CENTRO CULTURAL DEL PARTIDO DE LA ESTRADA",
+   "lugar": "Centro Cultural del Partido de La Estrada",
    "barrio": "",
    "direccion": "México 2849",
    "categoria": "Danza",
-   "precio": "$ 40000",
+   "precio": "",
    "url": "https://www.instagram.com/p/DecSaKTRRsq/",
-   "descripcion": "Noche de danza española y folklore argentino con los artistas de la casa. Cena show: tabla de quesos y fiambres, paella (alternativas: pollo o menú vegetariano), postre y una bebida. Reservas por alias cultural.estrada.",
+   "descripcion": "Noche de danza española y folklore argentino con los artistas de la casa; cena show con tabla de quesos y fiambres y paella.",
    "vigente_sin_fin": false,
    "post": "https://www.instagram.com/p/DecSaKTRRsq/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Jornada de danzas españolas (Consejo Argentino de la Danza)",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "14:00",
+   "horarios": "14 a 15:30 h",
+   "lugar": "Centro Cultural del Partido de La Estrada",
+   "barrio": "",
+   "direccion": "México 2849",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfCsOqIxtdc/",
+   "descripcion": "Jornada de formación y encuentro con Natalia Álvarez (danza regional), organizada por el Consejo Argentino de la Danza.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfCsOqIxtdc/",
    "imagen": ""
   }
  ]

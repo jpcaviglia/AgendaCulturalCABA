@@ -3,28 +3,29 @@
  "canal": "web",
  "fuente": "Arte al Día: agenda",
  "tipo": "descubrimiento",
- "fecha": "2026-10-24",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.artealdia.com/"
+  "https://www.artealdia.com/",
+  "https://www.artealdia.com/News/AFFAIR-4-COLLABORATIVE-PROPOSALS-TO-EXPLORE"
  ],
  "eventos": [
   {
-   "titulo": "Pinta BAphoto 2026",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-25",
-   "hora": "",
-   "horarios": "",
-   "lugar": "La Rural",
-   "barrio": "Palermo",
-   "direccion": "Av. Sarmiento 2704",
+   "titulo": "AFFAIR #4: feria de arte (34 galerías y proyectos)",
+   "fecha_inicio": "2026-10-28",
+   "fecha_fin": "2026-11-01",
+   "hora": "15:00",
+   "horarios": "Hasta el 1/11 de 15 a 22 h",
+   "lugar": "Central AFFAIR (Galerías Larreta)",
+   "barrio": "Retiro",
+   "direccion": "San Martín 954 / Florida 971, entrepiso",
    "categoria": "Feria",
-   "precio": "",
-   "url": "https://www.artealdia.com/",
-   "descripcion": "Feria de fotografía en Buenos Aires; Arte al Día destaca la visita de la curadora Eve Schillo (LACMA).",
+   "precio": "Gratis",
+   "url": "https://www.artealdia.com/News/AFFAIR-4-COLLABORATIVE-PROPOSALS-TO-EXPLORE",
+   "descripcion": "AFFAIR #4 reúne 34 galerías y proyectos en Buenos Aires con entrada libre y gratuita, del 28 de octubre al 1 de noviembre.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://www.artealdia.com/var/artealdia_com/storage/images/noticias/affair-4-propuestas-en-conjunto-para-visitar/1012351-1-esl-AR/AFFAIR-4-PROPUESTAS-EN-CONJUNTO-PARA-VISITAR_full.jpg"
   }
  ]
 }

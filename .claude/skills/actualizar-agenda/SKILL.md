@@ -164,6 +164,15 @@ which prints the status, the page's JSON-LD events and the text with the links. 
 - Buenos Aliens (`buenosaliens.com/agenda`): the whole agenda is in the HTML (`sondear.pedir`): today's parties with line up, hour and
   address, and `data-prox-mes` lists with only title, date and venue; most are from the interior or abroad, so keep the CABA venues.
 - La Rural Ticket (`laruralticket.com.ar/event/<slug>`): the JSON-LD has `offers.price` and `startDate` in UTC (`21:00Z` is 18:00 in Buenos Aires).
+- Malba: the day pages `malba.org.ar/agenda/on/AAAA/MM/DD/` (15 days) read over HTTP with `sondear.pedir` + `texto_legible`; between
+  `Seleccionar fecha` and `Malba agradece` each event is three lines (`HH:MM Categoría`, `título [url]`, sala); group by URL for the
+  recurring ones (recorridos) and skip `Exposiciones`, `Amigos` and `Museo cerrado`.
+- A venue whose Instagram bio is its Alternativa Teatral page (Dumont 4040): the page lists plays by weekday with hour and price
+  and `Proximamente` with start dates; turn each weekday into the first and last date inside the window (`horarios` "Sáb 20 h. Dom 18 h").
+- Linktrees of clubs (Maquinal) list each show as `<date> <title> [revamos.com/eventos/<slug>]`: the Revamos page has hour and
+  price in its text and `og:image`; a multi-date show (Hedwig) shows its dates only in the date selector.
+- La Noche de los Museos (14/11, 19 to 2 h, free, 250 museums) is announced weeks ahead by Indiehoy before the museums publish: load
+  it once from the news item with `lugar` "Museos y centros culturales de la Ciudad".
 - Fanz venues (`<venue>.fanz.com.ar`, Centro Cultural Macedonia): HTTP gives 400, so open the home in the browser (weekly calendar +
   event list) and `fetch()` each `/event/<slug>` for `og:image` and the `$` price;
 - a site where `sondear.py --leer` times out is retried with `--timeout 90`; inside a Python one-off set

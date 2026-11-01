@@ -3,10 +3,29 @@
  "canal": "instagram",
  "fuente": "TIERRA VIOLETA",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/tierra-violeta/"
+  "https://www.instagram.com/cctierravioleta/",
+  "https://www.instagram.com/p/DfADezZEaE0/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Oficios de biblioteca: presentación de 'Un músico de sexo dudoso: Carlos Lambra'",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "17:30",
+   "horarios": "",
+   "lugar": "Tierra Violeta",
+   "barrio": "",
+   "direccion": "Tucumán 359, piso 9",
+   "categoria": "Literatura y charlas",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/DfADezZEaE0/",
+   "descripcion": "Presentación del libro de Lin Pao Raffetta (Puntos Suspensivos, Colección Justicia Epistémica) sobre la genealogía transmasculina rioplatense y el músico migrante Carlos Lambra. Evento libre y gratuito, puntual.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfADezZEaE0/",
+   "imagen": ""
+  }
+ ]
 }

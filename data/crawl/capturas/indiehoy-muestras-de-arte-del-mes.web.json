@@ -3,11 +3,13 @@
  "canal": "web",
  "fuente": "Indiehoy: muestras de arte del mes",
  "tipo": "descubrimiento",
- "fecha": "2026-10-24",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://indiehoy.com/arte/",
-  "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/"
+  "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/",
+  "https://indiehoy.com/arte/llega-una-nueva-noche-de-los-museos-a-buenos-aires/",
+  "https://indiehoy.com/arte/la-magia-de-disney-llega-a-buenos-aires-con-una-muestra-gratuita/"
  ],
  "eventos": [
   {
@@ -74,6 +76,40 @@
    "precio": "",
    "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/",
    "descripcion": "Exposición de Nicolás Said sobre la estética de lo monstruoso, de lo medieval a las narrativas contemporáneas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Noche de los Museos 2026 (22.ª edición)",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "19:00",
+   "horarios": "De 19 a 2 h",
+   "lugar": "Museos y centros culturales de la Ciudad",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://indiehoy.com/arte/llega-una-nueva-noche-de-los-museos-a-buenos-aires/",
+   "descripcion": "Más de 250 museos, centros culturales y edificios históricos abren con entrada libre y gratuita: exposiciones, talleres, visitas guiadas, música en vivo, proyecciones y mapping, en tres circuitos (Sur, Histórico-Central y Norte). Los lugares participantes aún no fueron anunciados.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "Walt Disney Animation Studios: La magia de crear",
+   "fecha_inicio": "2026-10-09",
+   "fecha_fin": "2026-12-13",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Palacio Libertad",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Artes visuales",
+   "precio": "Gratis",
+   "url": "https://indiehoy.com/arte/la-magia-de-disney-llega-a-buenos-aires-con-una-muestra-gratuita/",
+   "descripcion": "Instalación en La Gran Lámpara del Palacio Libertad con material de la Walt Disney Animation Research Library y cuatro salas dedicadas a Mary Blair, Marc Davis, Mark Henn y Andreas Deja. Entrada libre; los tickets de cada semana se reservan los lunes.",
    "vigente_sin_fin": false,
    "post": "",
    "imagen": ""

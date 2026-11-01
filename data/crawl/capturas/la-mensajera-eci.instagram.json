@@ -3,29 +3,10 @@
  "canal": "instagram",
  "fuente": "La Mensajera ECI",
  "tipo": "lugar",
- "fecha": "2026-10-25",
- "estado": "con_eventos",
+ "fecha": "2026-10-31",
+ "estado": "sin_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/lamensajera.eci/",
-  "https://www.instagram.com/p/DeAEzfAFvve/"
+  "https://www.instagram.com/lamensajera.eci/"
  ],
- "eventos": [
-  {
-   "titulo": "Noche de Mancias",
-   "fecha_inicio": "2026-10-31",
-   "fecha_fin": "",
-   "hora": "19:00",
-   "horarios": "",
-   "lugar": "La Mensajera ECI",
-   "barrio": "",
-   "direccion": "",
-   "categoria": "Evento",
-   "precio": "",
-   "url": "https://www.instagram.com/p/DeAEzfAFvve/",
-   "descripcion": "Propuesta de la agenda de octubre de La Mensajera, espacio cultural independiente.",
-   "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/p/DeAEzfAFvve/",
-   "imagen": ""
-  }
- ]
+ "eventos": []
 }

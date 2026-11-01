@@ -3,28 +3,48 @@
  "canal": "instagram",
  "fuente": "KOWALSKI CLUB DE CULTURA",
  "tipo": "lugar",
- "fecha": "2026-10-25",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.instagram.com/abastosocialclub/",
-  "https://www.instagram.com/reel/DeraYAcRpJZ/"
+  "https://linktr.ee/abastosocialclub",
+  "https://www.abastosocialclub.com/espectaculos",
+  "https://www.instagram.com/p/DeraYAcRpJZ/",
+  "https://www.instagram.com/p/DfF7PedSEEx/"
  ],
  "eventos": [
   {
    "titulo": "Matanza Riachuelo, de Darío Pianelli",
    "fecha_inicio": "2026-10-31",
-   "fecha_fin": "",
+   "fecha_fin": "2026-11-14",
    "hora": "21:30",
-   "horarios": "Sábados 21:30",
-   "lugar": "KOWALSKI CLUB DE CULTURA",
-   "barrio": "",
+   "horarios": "Sábados 21:30 h",
+   "lugar": "Abasto Social Club",
+   "barrio": "Abasto",
    "direccion": "Yatay 666",
    "categoria": "Teatro",
    "precio": "",
-   "url": "https://www.instagram.com/reel/DeraYAcRpJZ/",
-   "descripcion": "Temporada de Matanza Riachuelo de Darío Pianelli en Abasto Social Club, todos los sábados a las 21:30. Entradas por el link de la bio.",
+   "url": "https://www.instagram.com/p/DeraYAcRpJZ/",
+   "descripcion": "Función de teatro los sábados a las 21:30 en Abasto Social Club; entradas por Alternativa Teatral.",
    "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/reel/DeraYAcRpJZ/",
+   "post": "https://www.instagram.com/p/DeraYAcRpJZ/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Otro final para Tartufo, de Lucho Cohen",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-08",
+   "hora": "20:00",
+   "horarios": "Domingos 20 h",
+   "lugar": "Abasto Social Club",
+   "barrio": "Abasto",
+   "direccion": "Yatay 666",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfF7PedSEEx/",
+   "descripcion": "Estreno: comedia contemporánea que cruza el clásico de Molière con el universo actual (creencias, soberbia, dependencia de la imagen). Domingos a las 20 h; entradas por Alternativa Escena.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfF7PedSEEx/",
    "imagen": ""
   }
  ]
