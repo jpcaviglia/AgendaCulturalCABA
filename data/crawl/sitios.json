@@ -3870,12 +3870,14 @@
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
     "2026-10-18 [web] Búsqueda de Alpogo 'bula': 19 eventos, los de la ventana son 6.",
     "2026-10-20 [web] 18 eventos en la búsqueda; 6 caen en la ventana (24/10 al 1/11). El resto es de noviembre en adelante.",
-    "2026-10-24 [web] 9 shows en ventana (24/10 al 6/11). Abatov y Estación Cumbia sin precio (sin tickets / 'Obtener')."
+    "2026-10-24 [web] 9 shows en ventana (24/10 al 6/11). Abatov y Estación Cumbia sin precio (sin tickets / 'Obtener').",
+    "2026-11-01 [web] 2026-11-01: Alpogo lista 6 shows en CC Bula del 1 al 14/11 (15/11 y posteriores fuera de ventana). Anti Lunes sin precio en el listado."
    ],
    "comportamiento": {
     "agenda": "búsqueda de Alpogo 'bula': fecha, hora y lugar 'CC Bula, CABA'; cada show tiene ficha en alpogo.com/evento/<slug>",
     "sin_fichas": "leído con sondear.py (búsqueda Alpogo); cada evento tiene su ficha en Alpogo",
-    "extraccion": "sondear --leer de la búsqueda de Alpogo, filtrando 'CC Bula, CABA'; og:image de cada ficha"
+    "extraccion": "sondear --leer de la búsqueda de Alpogo, filtrando 'CC Bula, CABA'; og:image de cada ficha",
+    "plataforma": "la agenda está en Alpogo: alpogo.com/buscar?busqueda=bula lista título, día, hora y 'Comprar desde $N'; la ficha trae og:image"
    },
    "ultimo": {
     "instagram": {
@@ -3885,10 +3887,10 @@
      "paginas": 1
     },
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 9,
-     "paginas": 10
+     "eventos": 6,
+     "paginas": 7
     }
    },
    "historial": [
@@ -3915,6 +3917,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 9
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 6
     }
    ],
    "entradas": [
@@ -4240,27 +4248,29 @@
    "barrio": "Almagro",
    "direccion": "Maza 177",
    "entradas": [
-    "https://hastatrilce.com.ar/",
-    "https://hastatrilce.com.ar/programacion/"
+    "https://hastatrilce.com.ar/programacion/",
+    "https://hastatrilce.com.ar/"
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 11,
-     "paginas": 13
+     "eventos": 9,
+     "paginas": 4
     }
    },
    "comportamiento": {
-    "extraccion": "sondear --leer de la portada lista 12 fichas; cada ficha (HTTP) trae días, hora, precio ($) y og:image",
+    "extraccion": "sondear.pedir + texto_legible; cada bloque: título, día(s) y hora, RESERVAR, entrada y '+ Info [ficha]'",
     "url": "hastatrilce.com.ar sin www",
-    "bloqueos": "el HTML de la portada incluye enlaces de spam de casinos inyectados: ignorarlos"
+    "bloqueos": "el HTML de la portada incluye enlaces de spam de casinos inyectados: ignorarlos",
+    "paginacion": "/programacion/ trae 'en cartelera' y 'próximamente'; /page/2/ y /page/3/ son 'pasaron por Hasta Trilce' (pasados) salvo Peña sin cadenas"
    },
    "notas": [
     "2026-10-15 [web] Cartelera en la portada; los días y horarios están en cada ficha.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/hastatrilce",
     "2026-10-20 [web] 2026-10-20: la portada lista la cartelera; cada ficha trae día, hora y precio. Rodeo (3er viernes) cae el 20/11, fuera de ventana; Tango Nuevo terminó en abril.",
-    "2026-10-24 [web] 11 propuestas en ventana. 'Rodeo, el ciclo' es el tercer viernes de cada mes (16/10 y 20/11): ninguna fecha en ventana. Las obras de sábados y domingos se cargaron como ciclos semanales."
+    "2026-10-24 [web] 11 propuestas en ventana. 'Rodeo, el ciclo' es el tercer viernes de cada mes (16/10 y 20/11): ninguna fecha en ventana. Las obras de sábados y domingos se cargaron como ciclos semanales.",
+    "2026-11-01 [web] 2026-11-01: 9 funciones del 1 al 14/11 desde /programacion/ (3 páginas leídas). Rodeo (3er viernes) y La Falcón (15/11) caen fuera de la ventana; Ciclo Tango Nuevo no lista fechas de noviembre."
    ],
    "historial": [
     {
@@ -4280,16 +4290,16 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 11
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
     }
    ],
    "enlace_bio": "https://linktr.ee/hastatrilce",
    "enlaces_descartados": [
-    {
-     "url": "https://www.hastatrilce.com.ar/bar/",
-     "texto": "Bar",
-     "motivo": "carta del bar",
-     "fecha": "2026-10-24"
-    },
     {
      "url": "https://www.hastatrilce.com.ar/institucional/",
      "texto": "Institucional",
@@ -4301,6 +4311,18 @@
      "texto": "Mecenas reales",
      "motivo": "pedido de donaciones",
      "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.hastatrilce.com.ar/bar/",
+     "texto": "Bar",
+     "motivo": "carta del bar, no evento",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://hastatrilce.com.ar/",
+     "texto": "Ediciones HT",
+     "motivo": "editorial",
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -5508,17 +5530,17 @@
    "direccion": "Sarmiento 3125",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 9,
-     "paginas": 10
+     "paginas": 9
     }
    },
    "entradas": [
     "https://www.cckonex.org/shows/"
    ],
    "comportamiento": {
-    "extraccion": "sondear --leer /shows/; los enlaces 'Quiero ir' y la foto de cada tarjeta (background-image) salen del HTML con regex; precios en entradas.cckonex.org/event/<slug> (el primero de la lista es el 'Desde')",
+    "extraccion": "/shows/ (HTTP) lista todo con fecha y hora; cada show enlaza a entradas.cckonex.org/event/<slug> (JSON-LD con precio, hora y startDate; imagen og:image de getcrowder)",
     "plataforma": "WordPress/Elementor; /shows/ lista todos los eventos con día, hora y sala y enlace a entradas.cckonex.org/event/<slug> (Crowder)",
     "fichas": "precio: primer importe de la ficha como 'Desde'; Ballet of Lights se vende en Fever"
    },
@@ -5526,7 +5548,8 @@
     "2026-10-15 [web] Agenda completa en /shows/.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/cckonex",
     "2026-10-20 [web] Leído hasta el 2/11. Ballet of Lights: La Bella Durmiente (Fever) no tiene función en la ventana (18/10 y 8/11).",
-    "2026-10-24 [web] 9 eventos en ventana. Precio 'Desde' tomado del primer valor de las tarifas. Charly (27/10) sin precio publicado."
+    "2026-10-24 [web] 9 eventos en ventana. Precio 'Desde' tomado del primer valor de las tarifas. Charly (27/10) sin precio publicado.",
+    "2026-11-01 [web] 2026-11-01: 9 shows del 1 al 14/11 (FUTCON 14-15/11 viene de Time Out; Dancing Mood y el resto son posteriores). Ballet of Lights sin ficha propia ni precio leído."
    ],
    "enlaces_descartados": [
     {
@@ -5548,21 +5571,9 @@
      "fecha": "2026-10-24"
     },
     {
-     "url": "https://www.cckonex.org/empresas/",
-     "texto": "Empresas",
-     "motivo": "alquiler de espacios",
-     "fecha": "2026-10-24"
-    },
-    {
      "url": "https://www.cckonex.org/comunidad-konex/",
      "texto": "Comunidad",
      "motivo": "membresía, no es un evento",
-     "fecha": "2026-10-24"
-    },
-    {
-     "url": "https://www.cckonex.org/20-anios/",
-     "texto": "20 Años",
-     "motivo": "historia del centro",
      "fecha": "2026-10-24"
     },
     {
@@ -5570,6 +5581,18 @@
      "texto": "Cómo llegar",
      "motivo": "información de acceso",
      "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.cckonex.org/empresas/",
+     "texto": "Empresas",
+     "motivo": "alquiler de espacios para empresas",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://www.cckonex.org/20-anios/",
+     "texto": "20 Años",
+     "motivo": "institucional",
+     "fecha": "2026-11-01"
     }
    ],
    "historial": [
@@ -5587,6 +5610,12 @@
     },
     {
      "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 9
+    },
+    {
+     "fecha": "2026-11-01",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 9
@@ -11283,39 +11312,29 @@
    "direccion": "Caffarena, Agustin R. 2",
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 12,
-     "paginas": 6
+     "eventos": 2,
+     "paginas": 5
     }
    },
    "entradas": [
     "https://usinadelarte.ar/actividades/"
    ],
    "comportamiento": {
-    "extraccion": "/actividades lista las actividades de los días con función; el filtro ?fecha_filtro=DD/MM/AAAA trae otro día (hay chips 24, 25 y 31/10); cada /actividad/<slug>/ da día, hora, sala y entrada",
+    "extraccion": "sondear.pedir + texto_legible de /actividades/: cada actividad es 'Categoría / título [url] / fecha / sala'; la ficha trae la hora ('11.30 h') y la entrada; sin og:image",
     "horario": "abre sábados y domingos (y algunos viernes)",
-    "abre": "sábados 14 a 20 h, domingos 11 a 20 h"
+    "abre": "sábados 14 a 20 h, domingos 11 a 20 h",
+    "filtro_fecha": "?fecha_filtro=DD/MM/AAAA devuelve vacío para los días sin actividad"
    },
    "notas": [
     "2026-10-15 [web] Toda la programación (conciertos, visitas guiadas, talleres, espacio lúdico) está en /actividades/ en HTML simple, con horarios en cada ficha.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/usinadelarte",
     "2026-10-20 [web] 2026-10-20: 10 actividades el fin de semana del 23 al 25/10; los conciertos de Charly con entradas por ticketera (precio no relevado).",
-    "2026-10-24 [web] Agenda releída el 24/10 (días con actividades: 24, 25 y 31/10): se suman los tres eventos del 31/10 (taller de máscaras, Mundo Arlequín y Terror sinfónico, con entradas externas sin precio leído). Sin actividad del 26/10 al 30/10 porque abre solo sábados y domingos."
+    "2026-10-24 [web] Agenda releída el 24/10 (días con actividades: 24, 25 y 31/10): se suman los tres eventos del 31/10 (taller de máscaras, Mundo Arlequín y Terror sinfónico, con entradas externas sin precio leído). Sin actividad del 26/10 al 30/10 porque abre solo sábados y domingos.",
+    "2026-11-01 [web] 2026-11-01: del 1 al 14/11 solo el Ciclo Música de Cámara (1/11 y 8/11 11:30, gratis); las actividades del 31/10 ya pasaron y el 15/11 queda fuera de la ventana. Usina abre sábados 14 a 20 h y domingos 11 a 20 h."
    ],
    "enlaces_descartados": [
-    {
-     "url": "https://usinadelarte.ar/actividades-pasadas/",
-     "texto": "Eventos pasados",
-     "motivo": "archivo de actividades pasadas",
-     "fecha": "2026-10-15"
-    },
-    {
-     "url": "https://usinadelarte.ar/eventos-privados/",
-     "texto": "Eventos privados",
-     "motivo": "alquiler para eventos privados, no agenda",
-     "fecha": "2026-10-15"
-    },
     {
      "url": "https://usinadelarte.ar/espacios",
      "texto": "ESPACIOS",
@@ -11351,6 +11370,18 @@
      "texto": "25 OCT",
      "motivo": "filtro por día de /actividades/ (misma lista)",
      "fecha": "2026-10-15"
+    },
+    {
+     "url": "https://usinadelarte.ar/actividades-pasadas/",
+     "texto": "Eventos pasados",
+     "motivo": "archivo de actividades pasadas",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://usinadelarte.ar/eventos-privados/",
+     "texto": "Eventos privados",
+     "motivo": "alquiler de espacios, no evento público",
+     "fecha": "2026-11-01"
     }
    ],
    "historial": [
@@ -11371,6 +11402,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 12
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "enlace_bio": "https://linktr.ee/usinadelarte"
@@ -29050,13 +29087,14 @@
     "2026-10-15 [web] La agenda completa (varios meses) está en el HTML de /agenda/, con sala, hora y enlace a venti.live; no hace falta el navegador.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/nicetoclub",
     "2026-10-20 [web] 2026-10-20: 34 eventos en la ventana, leídos por HTTP; 9 sin precio publicado en venti.live.",
-    "2026-10-24 [web] Agenda releída el 24/10 (116 botones COMPRAR hasta el 29/11+): se parte de la captura del 20/10 y se suman 11 shows nuevos hasta el 6/11; el resto de la agenda (7/11 en adelante) queda fuera de la ventana."
+    "2026-10-24 [web] Agenda releída el 24/10 (116 botones COMPRAR hasta el 29/11+): se parte de la captura del 20/10 y se suman 11 shows nuevos hasta el 6/11; el resto de la agenda (7/11 en adelante) queda fuera de la ventana.",
+    "2026-11-01 [web] 2026-11-01: 40 shows del 1 al 14/11 en Niceto Club, Niceto Bar y Humboldt. Precio de la ficha de Venti (vacío cuando daba 0). Hora vacía cuando la agenda marca 23:59."
    ],
    "entradas": [
     "https://nicetoclub.com/agenda/"
    ],
    "comportamiento": {
-    "extraccion": "listado leído por HTTP (sondear --leer)",
+    "extraccion": "sondear.pedir de /agenda/: section.day-section[data-date] > div.event-card[data-name,data-lugar] con img data-lazy-src, hora en el texto y enlace COMPRAR a Venti (JSON-LD con precio)",
     "salas": "Niceto Club, Niceto Bar y Humboldt en la misma agenda; data-lugar a veces vacío: la sala sale del título ('en Niceto Bar')"
    },
    "enlaces_descartados": [
@@ -29093,10 +29131,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 33,
-     "paginas": 34
+     "eventos": 40,
+     "paginas": 1
     }
    },
    "historial": [
@@ -29117,6 +29155,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 33
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 40
     }
    ],
    "enlace_bio": "https://linktr.ee/nicetoclub"
