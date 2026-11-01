@@ -3,10 +3,29 @@
  "canal": "instagram",
  "fuente": "CASA DEL PUEBLO",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/cccasadelpueblo/"
+  "https://www.instagram.com/cccasadelpueblo/",
+  "https://www.instagram.com/p/DfDM825h8zt/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Proyección: Qué hay detrás de esos cerros, las huellas de Marina Vilte",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Centro Cultural Casa del Pueblo",
+   "barrio": "Villa del Parque",
+   "direccion": "Emilio Lamarca 2502",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfDM825h8zt/",
+   "descripcion": "Largometraje documental dirigido por Héctor 'Chango' Rivero, quien acompañará la proyección, sobre la vida, el compromiso sindical y la desaparición en 1976 de la docente y dirigente gremial jujeña Marina Vilte.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfDM825h8zt/",
+   "imagen": ""
+  }
+ ]
 }

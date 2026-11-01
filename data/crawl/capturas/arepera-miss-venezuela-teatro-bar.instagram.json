@@ -3,10 +3,63 @@
  "canal": "instagram",
  "fuente": "AREPERA MISS VENEZUELA TEATRO BAR",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/arepera-miss-venezuela-teatro-bar/"
+  "https://www.instagram.com/missvenezuelateatro/",
+  "https://www.instagram.com/p/DfGBT1vBQ0H/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Buenas Noches Poliedro: Nuevo Milenio",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "Miss Venezuela Teatro Bar",
+   "barrio": "Palermo",
+   "direccion": "Humboldt 2341",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "descripcion": "Noche de humor, música, nostalgia y comida venezolana en Miss Venezuela Teatro Bar. Reservas por WhatsApp; las entradas de esta función son las últimas.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Buenas Noches Poliedro: Nuevo Milenio",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "Miss Venezuela Teatro Bar",
+   "barrio": "Palermo",
+   "direccion": "Humboldt 2341",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "descripcion": "Noche de humor, música, nostalgia y comida venezolana en Miss Venezuela Teatro Bar. Reservas por WhatsApp; las entradas de esta función son las últimas.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Buenas Noches Poliedro: Nuevo Milenio",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "22:00",
+   "horarios": "",
+   "lugar": "Miss Venezuela Teatro Bar",
+   "barrio": "Palermo",
+   "direccion": "Humboldt 2341",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "descripcion": "Noche de humor, música, nostalgia y comida venezolana en Miss Venezuela Teatro Bar. Reservas por WhatsApp; las entradas de esta función son las últimas.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfGBT1vBQ0H/",
+   "imagen": ""
+  }
+ ]
 }

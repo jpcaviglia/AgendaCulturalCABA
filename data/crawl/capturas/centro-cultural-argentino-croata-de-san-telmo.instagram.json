@@ -3,10 +3,29 @@
  "canal": "instagram",
  "fuente": "CENTRO CULTURAL ARGENTINO CROATA DE SAN TELMO",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/culturalcroata.ok/"
+  "https://www.instagram.com/culturalcroata.ok/",
+  "https://www.instagram.com/p/DfE69jixlOd/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Almuerzo con amigos en Dom (cocina croata)",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-10-31",
+   "hora": "12:00",
+   "horarios": "",
+   "lugar": "Centro Cultural Argentino Croata de San Telmo",
+   "barrio": "San Telmo",
+   "direccion": "Bolívar 1556",
+   "categoria": "Gastronomía",
+   "precio": "$ 30000",
+   "url": "https://www.instagram.com/p/DfE69jixlOd/",
+   "descripcion": "Almuerzo de cocina croata: sopa de pollo, pollo relleno de hongos con repollo colorado, café y masitas típicas; incluye bebidas no alcohólicas. Reservas: 11-2778-1951.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfE69jixlOd/",
+   "imagen": ""
+  }
+ ]
 }

@@ -158,6 +158,12 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   general" block and load them with `vigente_sin_fin: true`;
 - All Access (`allaccess.com.ar/event/<slug>`): the venue page lists every show with its date; the JSON-LD `startDate` of each
   event page has no usable offset (a 22:00 show appears as `T02:59` or `T00:00`), so leave `hora` empty unless the text gives it;
+- Vamos Feria (`vamosferia.com/ferias`): `sondear.pedir` of the listing gives the `/feria/<slug>` links (24 for CABA although the counter says
+  34) and each ficha has a JSON-LD Event per day (`startDate`/`endDate` with opening and closing hour, venue, address) and `og:image`;
+  weekend craft fairs in parks and plazas, loaded as `Feria` with `horarios` "Sáb y dom de 10 a 20 h".
+- Buenos Aliens (`buenosaliens.com/agenda`): the whole agenda is in the HTML (`sondear.pedir`): today's parties with line up, hour and
+  address, and `data-prox-mes` lists with only title, date and venue; most are from the interior or abroad, so keep the CABA venues.
+- La Rural Ticket (`laruralticket.com.ar/event/<slug>`): the JSON-LD has `offers.price` and `startDate` in UTC (`21:00Z` is 18:00 in Buenos Aires).
 - Fanz venues (`<venue>.fanz.com.ar`, Centro Cultural Macedonia): HTTP gives 400, so open the home in the browser (weekly calendar +
   event list) and `fetch()` each `/event/<slug>` for `og:image` and the `$` price;
 - a site where `sondear.py --leer` times out is retried with `--timeout 90`; inside a Python one-off set
@@ -449,8 +455,11 @@ break date regexes), (c) returns `private`/`unavailable`/`n`/`dates` and the bio
 only the captions that announce a date. If the date is not in the caption (monthly carousel posters, film posters), open the post and
 zoom on the image; click the arrow at the image's right edge for the 2nd slide.
 - Do not paste the snippet on every profile: define it once as a function in a `javascript_tool` call on instagram.com, store it with
-  `localStorage.setItem('agt','('+fn.toString()+')')` and call `await eval(localStorage.agt)()` after each `navigate` + 4 s wait
-  (a second stored function that prints the first 300-500 characters of given post captions does the same for details). A tool result
+  `localStorage.setItem('agt','('+fn.toString()+')')` and, after each `navigate` + 4 s wait, load it through a blob script
+  (instagram.com's CSP forbids `eval`, but allows `blob:`): `const u=URL.createObjectURL(new Blob(['window.__perfil = '+localStorage.getItem('agt')+';'],{type:'text/javascript'}));
+  await new Promise((r,j)=>{const s=document.createElement('script');s.src=u;s.onload=r;s.onerror=j;document.head.appendChild(s)}); await window.__perfil()`.
+  Put four profiles in one `browser_batch` (navigate, wait 4, load+run, wait 6, read `window.__caps` with 200-260 characters per caption);
+  a caption cut by the tool is read in full with `fetch('/p/<code>/')` from the same tab (a second stored function that prints the first 300-500 characters of given post captions does the same for details). A tool result
   is cut at ~1,000 characters: print 5 posts of the last 18 days with one line of date phrases each, and print only `MM-DD` of the
   grid dates (the year is hidden: a `10-14` can be 2024; the filter that decides which posts are fetched uses the full date).
 - Some venues announce a whole month as one post per performance (Espacio Cultural del Sur: 60 posts on one day, in reverse date
@@ -460,6 +469,11 @@ zoom on the image; click the arrow at the image's right edge for the 2nd slide.
 - A venue whose Instagram only announces shows may have the full agenda with prices on its own site (Club Social 911: Fanz
   `clubsocial911.com`, HTTP 400, open it in the browser and `fetch()` each `/event/<id>-<slug>`): save it as a `web` result
   with `web_nueva`.
+- A venue that posts an `AGENDA SEMANAL` carousel every Monday (Ladran Sancho): the 2nd image lists day, bands and hours; open the post,
+  click the arrow and `zoom` on the poster; the next week's agenda only appears on the next Monday.
+- A handle that Instagram says is unavailable (`@culturalbrasilbaires`, `@asociacioncalabresa`, `@clasicofernandez`): copy it from
+  `sitios.json` instead of typing it (a mistyped handle looks the same), then check the venue on Google; if it is still unavailable save
+  `no_carga` (it is retried), not `sin_eventos`.
 - A private account (`This profile is private`) is `sin_agenda`. A grid whose newest posts are over a year old is `sin_eventos`.
 - Weekly workshops (PCB centers, `talleres` posts) are not events: `sin_agenda`. The 10 PCB centers that share `@gops.ba` have no
   posts of their own: one scan of that grid answers all of them.

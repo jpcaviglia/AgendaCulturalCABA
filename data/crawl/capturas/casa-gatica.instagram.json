@@ -3,10 +3,29 @@
  "canal": "instagram",
  "fuente": "CASA GATICA",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-10-31",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/casagatica/"
+  "https://www.instagram.com/casagatica/",
+  "https://www.instagram.com/p/De67asax9G5/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Me río por no olvidar",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "Casa Gatica",
+   "barrio": "Almagro",
+   "direccion": "Sánchez de Bustamante 551",
+   "categoria": "Teatro",
+   "precio": "A la gorra",
+   "url": "https://www.instagram.com/p/De67asax9G5/",
+   "descripcion": "Espectáculo de Zulema La Rema Producciones, última fecha del año en CABA. A la gorra.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/De67asax9G5/",
+   "imagen": ""
+  }
+ ]
 }

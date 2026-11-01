@@ -3,27 +3,45 @@
  "canal": "instagram",
  "fuente": "DEOTRAVIDAPROD",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-10-31",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/deotravidaprod/"
+  "https://www.instagram.com/deotravidaprod/",
+  "https://www.instagram.com/p/DfITdiKPemM/"
  ],
  "eventos": [
   {
-   "titulo": "La construcción de un monstruo: Monstruo, The Exorcist (1973)",
-   "fecha_inicio": "2026-10-28",
-   "fecha_fin": "2026-10-28",
-   "hora": "21:00",
+   "titulo": "Escapar de uno mismo: Requiem for a Dream (Dependencia)",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "",
    "horarios": "",
    "lugar": "Club Conjura",
-   "barrio": "Villa Pueyrredón",
+   "barrio": "Paternal",
    "direccion": "Nicasio Oroño 2476",
    "categoria": "Cine",
-   "precio": "$ 4000",
-   "url": "https://www.passline.com/eventos/de-otra-vida-presenta-ciclo-la-construccion-de-un-monstruo-monstruo-the-exorcist-1973-en-club-conjura",
-   "descripcion": "Ciclo de cine de De Otra Vida: El exorcista (William Friedkin, 1973), miércoles en Club Conjura.",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfITdiKPemM/",
+   "descripcion": "Ciclo de cine-debate de De Otra Vida en Club Conjura: proyección y debate. Primer miércoles del ciclo de noviembre sobre cómo intentamos huir de nosotros mismos.",
    "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/p/Deyy3HyxHeI/",
+   "post": "https://www.instagram.com/p/DfITdiKPemM/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Escapar de uno mismo: Trainspotting (Anestesia)",
+   "fecha_inicio": "2026-11-11",
+   "fecha_fin": "2026-11-11",
+   "hora": "",
+   "horarios": "",
+   "lugar": "Club Conjura",
+   "barrio": "Paternal",
+   "direccion": "Nicasio Oroño 2476",
+   "categoria": "Cine",
+   "precio": "",
+   "url": "https://www.instagram.com/p/DfITdiKPemM/",
+   "descripcion": "Ciclo de cine-debate de De Otra Vida en Club Conjura: proyección y debate de Trainspotting.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfITdiKPemM/",
    "imagen": ""
   }
  ]
