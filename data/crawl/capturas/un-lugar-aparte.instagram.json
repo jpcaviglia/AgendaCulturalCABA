@@ -3,10 +3,28 @@
  "canal": "instagram",
  "fuente": "UN LUGAR APARTE",
  "tipo": "lugar",
- "fecha": "2026-10-25",
- "estado": "sin_eventos",
+ "fecha": "2026-11-01",
+ "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.instagram.com/unlugaraparte/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Emociones violentas (ciclo de obras breves)",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-07",
+   "hora": "18:00",
+   "horarios": "Estreno domingo 1/11 18 h; sábado 7/11 21 h",
+   "lugar": "Club Cultural Un Lugar Aparte",
+   "barrio": "Villa Crespo",
+   "direccion": "Juan R. de Velasco 710",
+   "categoria": "Teatro",
+   "precio": "",
+   "url": "http://www.alternativateatral.com/obra103480-emociones-violentas-ciclo-de-obras-breves",
+   "descripcion": "Tres obras breves (In nomine patris, Casi almas gemelas, Cortar por lo sano); estreno el 1 de noviembre a las 18 h en Un Lugar Aparte.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/unlugaraparte/",
+   "imagen": ""
+  }
+ ]
 }

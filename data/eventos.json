@@ -6,7 +6,7 @@
  },
  "rastreo": {
   "capturas": 434,
-  "con_eventos": 214
+  "con_eventos": 216
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -80,6 +80,7 @@
   "EL GALPON DE GUEVARA",
   "EL JUFRE TEATRO-BAR",
   "EL SABATO ESPACIO CULTURAL",
+  "EL ZORZAL ESQUINA CULTURAL",
   "EMERGENTE CLUB ALMAGRO",
   "ESPACIO CULTURAL DEL SUR",
   "ESPACIO CULTURAL JULIAN CENTEYA",
@@ -183,6 +184,7 @@
   "Teatro Vorterix",
   "Ticketek",
   "Time Out Buenos Aires: Agenda",
+  "UN LUGAR APARTE",
   "USINA DEL ARTE",
   "Under Club",
   "Vamos Feria",
@@ -7369,27 +7371,28 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000321509.jpg"
   },
   {
-   "id": "84d465d7319c",
-   "titulo": "Emociones Violentas - Ciclo de Obras Breves",
+   "id": "d4a24cf8d6ac",
+   "titulo": "Emociones violentas (ciclo de obras breves)",
    "categoria": "Teatro",
-   "lugar": "Un Lugar Aparte",
+   "lugar": "Club Cultural Un Lugar Aparte",
    "barrio": "Villa Crespo",
-   "direccion": "Ramirez De Velasco, Juan 710",
+   "direccion": "Juan R. de Velasco 710",
    "fecha_inicio": "2026-11-01",
    "fecha_fin": "2026-11-07",
-   "hora": "",
-   "horarios": "Dom 18:00 (hoy). Sáb 21:00 (el 7/11)",
+   "hora": "18:00",
+   "horarios": "Estreno domingo 1/11 18 h; sábado 7/11 21 h",
    "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Un Lugar Aparte (Villa Crespo).",
-   "url": "https://www.alternativateatral.com/obra103480-emociones-violentas-ciclo-de-obras-breves",
+   "descripcion": "Tres obras breves (In nomine patris, Casi almas gemelas, Cortar por lo sano); estreno el 1 de noviembre a las 18 h en Un Lugar Aparte.",
+   "url": "http://www.alternativateatral.com/obra103480-emociones-violentas-ciclo-de-obras-breves",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "UN LUGAR APARTE",
     "Alternativa Teatral"
    ],
-   "lat": -34.590587,
-   "lng": -58.443972,
+   "lat": "",
+   "lng": "",
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/30/000322030.jpg"
   },
@@ -12513,6 +12516,31 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1143882303%2F193762789146%2F1%2Foriginal.20251003-171821?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C185%2C1300%2C650&s=4b468919d76a11e9e0cd88e438ebaa7e"
   },
   {
+   "id": "46a17078d892",
+   "titulo": "Cambio de rol en el Zorzal: clase y práctica",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "",
+   "hora": "17:00",
+   "horarios": "Clase 17 h; práctica 18 h",
+   "precio": "Consultar",
+   "descripcion": "Clase y práctica con Juampy Ramírez para explorar ambos roles del tango, lunes 2 de noviembre.",
+   "url": "https://www.instagram.com/elzorzalcultural/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "1d035f03c3c2",
    "titulo": "Ciclo semanal de jazz + jam",
    "categoria": "Música",
@@ -13040,6 +13068,31 @@
    ],
    "lat": -34.576882,
    "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "25c82abafdc3",
+   "titulo": "Mujercitas: técnica femenina de tango",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "2026-11-09",
+   "hora": "19:00",
+   "horarios": "Lunes 19 h",
+   "precio": "Consultar",
+   "descripcion": "Clases de técnica femenina de tango con referentes del tango, todos los lunes de noviembre y diciembre a las 19 h en El Zorzal Cultural (Zelaya 3002).",
+   "url": "https://www.instagram.com/elzorzalcultural/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
    "embebible": false,
    "imagen": ""
   },
@@ -16334,6 +16387,31 @@
    "lng": -58.438913,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/tr-st.jpg"
+  },
+  {
+   "id": "d481c8c35a72",
+   "titulo": "Tango Bar",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-11",
+   "hora": "",
+   "horarios": "Miércoles",
+   "precio": "Consultar",
+   "descripcion": "Milonga semanal de los miércoles en El Zorzal Cultural (Zelaya 3002).",
+   "url": "https://www.instagram.com/elzorzalcultural/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "403f842547f4",
@@ -23987,6 +24065,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-806822-rec.jpg"
   },
   {
+   "id": "83612a347337",
+   "titulo": "La Mordidita Tango",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "",
+   "horarios": "Viernes",
+   "precio": "Consultar",
+   "descripcion": "Milonga de los viernes en El Zorzal Cultural.",
+   "url": "https://www.instagram.com/elzorzalcultural/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f742832827f2",
    "titulo": "La One Pride: fiesta pre marcha con Nayaim + Miuka + Nébula Estudio",
    "categoria": "Fiestas y electrónica",
@@ -30530,6 +30633,31 @@
    "lng": -58.417977,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000311233.jpg"
+  },
+  {
+   "id": "aeddcafa49fc",
+   "titulo": "El Vermú",
+   "categoria": "Danza",
+   "lugar": "El Zorzal Cultural",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3002",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Sábados",
+   "precio": "Consultar",
+   "descripcion": "Milonga de los sábados en El Zorzal Cultural.",
+   "url": "https://www.instagram.com/elzorzalcultural/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EL ZORZAL ESQUINA CULTURAL"
+   ],
+   "lat": -34.60204,
+   "lng": -58.408331,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "8b6db58b7178",
