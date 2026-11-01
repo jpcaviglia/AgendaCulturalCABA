@@ -11423,7 +11423,7 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 2,
      "paginas": 6
@@ -11434,10 +11434,11 @@
     "2026-10-15 [web] En la ventana: teatro-murga los viernes, orquesta los sábados 21.30 h y La Colmena el domingo 18/10.",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/grupodeteatrocatalinasur",
     "2026-10-20 [web] Viernes: La Catalina del Riachuelo (La baraja manda), estreno 2026; sábados: espectáculo de la Orquesta Atípica. La 'única función' de noviembre y la de 'únicas funciones a la gorra' quedan fuera de la ventana o sin fecha. Precio no publicado en las páginas.",
-    "2026-10-24 [web] Viernes (La Catalina del Riachuelo) y sábados (Bajo tierra) a las 21:30. Las funciones a la gorra de los domingos 4, 11 y 18/10 ya pasaron. 'Ta chapita' (URRAKA, noviembre, única función) no publica fecha en el texto (puede estar en la imagen): no se cargó. Talleres: ver la página, no se cargaron."
+    "2026-10-24 [web] Viernes (La Catalina del Riachuelo) y sábados (Bajo tierra) a las 21:30. Las funciones a la gorra de los domingos 4, 11 y 18/10 ya pasaron. 'Ta chapita' (URRAKA, noviembre, única función) no publica fecha en el texto (puede estar en la imagen): no se cargó. Talleres: ver la página, no se cargaron.",
+    "2026-11-01 [web] 2026-11-01: viernes 21:30 La Catalina del Riachuelo y sábados 21:30 Bajo tierra (últimas funciones). Las 'única función' (URRAKA, Ballet Brandsen) no dicen fecha en el texto: no se cargaron. Talleres sin fechas. Precio no publicado."
    ],
    "comportamiento": {
-    "extraccion": "portada Elementor: 'CARTELERA Y NOVEDADES' son cuatro enlaces a páginas de espectáculo; las fichas se leen con fetch() desde la pestaña; el botón 'Entradas' abre un popup de la misma página (sin precio en el texto)",
+    "extraccion": "sondear.pedir + texto_legible de cada página del carrusel; sin navegador",
     "dominio": "catalinasur.com.ar",
     "plataforma": "WordPress: la portada tiene un carrusel 'Cartelera y novedades' con una página por espectáculo (/proximamente/, /bajo-tierra-3/, /noviembre-unica-funcion/); los slugs se reutilizan de otras temporadas",
     "fichas": "las páginas dicen día y hora ('todos los viernes a las 21.30') pero no el precio (botón Entradas)",
@@ -11478,6 +11479,12 @@
     },
     {
      "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 2
+    },
+    {
+     "fecha": "2026-11-01",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 2
@@ -24309,7 +24316,7 @@
    "comportamiento": {
     "plataforma": "SPA (gaf-webapp): fetch devuelve 'no funciona sin JavaScript', hay que navegar a cada /pelicula/86/<id>",
     "fichas": "cada ficha /pelicula/86/<id> muestra días 15/10 a 21/10 como pestañas; las funciones están por día",
-    "extraccion": "portada lista las películas; la ficha da el rango de días",
+    "extraccion": "el API apiv2.gaf.adro.studio/movie/86/<id> da showtimes completos (fecha y hora), poster y sinopsis; sin navegador salvo para listar los ids de la portada",
     "cartelera": "la ficha de cada película tiene pestañas por día (solo los días con función): leer cada pestaña; un zoom a la región [300,600,958,900] muestra las funciones sin JS",
     "espera_seg": 4,
     "imagen": "el API https://apiv2.gaf.adro.studio/movie/86/<id> (el id va en la URL de la ficha) devuelve poster (imagen), descripcion, Duracion y showtimes: se lee con sondear.pedir sin navegador"
@@ -24317,14 +24324,15 @@
    "notas": [
     "2026-10-15 [web] Cartelera semanal; se cargó el rango de días visible en la ficha (15 a 21/10) sin horarios por función.",
     "2026-10-20 [web] 2026-10-20: imágenes y sinopsis agregadas desde el API de la ficha (apiv2.gaf.adro.studio/movie/86/<id>).",
-    "2026-10-24 [web] 2026-10-24: cartelera de 12 películas (SPA: las fichas cargan por día y no se leyeron todos los horarios); se cargan las películas en cartel del 24 al 28/10 sin horarios por función. Pendiente: leer los horarios de cada ficha."
+    "2026-10-24 [web] 2026-10-24: cartelera de 12 películas (SPA: las fichas cargan por día y no se leyeron todos los horarios); se cargan las películas en cartel del 24 al 28/10 sin horarios por función. Pendiente: leer los horarios de cada ficha.",
+    "2026-11-01 [web] 2026-11-01: 10 películas en portada; días y horarios por función leídos del API de cada ficha (ventana 31/10-14/11). El sitio no muestra precio."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
      "eventos": 10,
-     "paginas": 12
+     "paginas": 11
     }
    },
    "historial": [
@@ -24360,6 +24368,12 @@
     },
     {
      "fecha": "2026-10-24",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 10
+    },
+    {
+     "fecha": "2026-11-01",
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 10

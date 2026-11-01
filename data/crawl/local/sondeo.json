@@ -1,6 +1,6 @@
 {
- "fecha": "2026-11-01 09:49",
- "segundos": 130,
+ "fecha": "2026-11-01 14:33",
+ "segundos": 15,
  "sitios": [
   {
    "id": "fundacion-hastinapura",
@@ -3314,34 +3314,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
-   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "plataforma": [],
-   "pedidos": 6,
-   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
-   "paginas_agenda": [
-    "https://saleplan.ar/publicar-evento",
-    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
-    "https://saleplan.ar/planes?desde=2026-11-01&amp;hasta=2027-11-02&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=arte-y-exposiciones",
-    "https://saleplan.ar/planes?desde=2026-11-01&amp;hasta=2027-11-02&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas",
-    "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/XWF48QGM3HG4/epishi-wolrd-p0cket-studio-workshop-online"
-   ],
-   "jsonld_eventos": 1,
-   "fechas_en_texto": 25,
-   "texto_portada": 9821,
-   "clase": "jsonld",
-   "ejemplos": [
-    {
-     "titulo": "EPISHI WOLRD - P0CKET STUDIO WORKSHOP ONLINE",
-     "inicio": "2026-10-21T00:00:00-03:00"
-    }
-   ],
-   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
-   "fecha": "2026-11-01 09:47",
-   "estado_corrida_anterior": "con_eventos",
-   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
-  },
-  {
    "id": "w-galeria",
    "web": "https://w-w-w.ar",
    "plataforma": [],
@@ -3519,21 +3491,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "centro-cultural-asociacion-mutual-homero-manzi",
-   "web": "https://www.mutualhomeromanzi.blogspot.com",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S336590015:1793537279886741",
-   "redirige_a": "accounts.google.com",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1083,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-11-01 09:47",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
    "id": "centro-cultural-macedonia",
    "web": "https://centroculturalmacedonia.fanz.com.ar/",
    "plataforma": [],
@@ -3559,20 +3516,6 @@
    "texto_portada": 5429,
    "clase": "html",
    "texto": "data/crawl/local/textos/club-cultural-bula.txt",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "emergente-club-almagro",
-   "web": "http://elemergente.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://elemergente.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 9339,
-   "clase": "sin_agenda_vista",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -3632,21 +3575,6 @@
    "clase": "needs_browser",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-alfonsina-storni",
-   "web": "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://mantenimiento.buenosaires.gob.ar/",
-   "redirige_a": "mantenimiento.buenosaires.gob.ar",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 67,
-   "clase": "needs_browser",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "no_carga"
   },
   {
    "id": "casa-de-la-cultura",
@@ -3773,26 +3701,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "esquina-rebelde-centro-cultural",
-   "web": "https://www.facebook.com/esquinarebelde",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
-   "id": "cultural-mamita",
-   "web": "https://www.facebook.com/BarMamita",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
    "id": "jaciento-oviedo",
    "web": "http://aluvionciudadano.blogspot.com",
    "plataforma": [],
@@ -3808,25 +3716,6 @@
    "texto": "data/crawl/local/textos/jaciento-oviedo.txt",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "no_cultural"
-  },
-  {
-   "id": "mu-trincher-boutique",
-   "web": "https://lavaca.org/trinchera/",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://lavaca.org/trinchera/",
-   "paginas_agenda": [
-    "https://lavaca.org/trinchera/cartelera-2025-marzo/",
-    "https://lavaca.org/trinchera/shop/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 7,
-   "texto_portada": 238,
-   "clase": "needs_browser",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "sin_eventos"
   },
   {
    "id": "panda-rojo-espacio-cultural",
@@ -3973,25 +3862,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "el-galpon-de-catalinas",
-   "web": "https://www.catalinasur.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 3,
-   "url_final": "https://catalinasur.com.ar/",
-   "paginas_agenda": [
-    "https://catalinasur.com.ar/proximamente/",
-    "https://catalinasur.com.ar/talleres/"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 1,
-   "texto_portada": 1510,
-   "clase": "needs_browser",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "usina-del-arte",
    "web": "https://usinadelarte.ar/",
    "plataforma": [
@@ -4112,24 +3982,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "nueva-uriarte",
-   "web": "https://ccnuevauriarte.com.ar/",
-   "plataforma": [],
-   "pedidos": 3,
-   "url_final": "https://ccnuevauriarte.com.ar/",
-   "paginas_agenda": [
-    "https://ccnuevauriarte.com.ar/programacion.html",
-    "https://ccnuevauriarte.com.ar/talleres.html"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 8,
-   "texto_portada": 1676,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/nueva-uriarte.txt",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "the-monkeys",
    "web": "https://themonkeys.com.ar/",
    "plataforma": [],
@@ -4238,21 +4090,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "centro-arzuano-mellidense-cam",
-   "web": "https://sites.google.com/site/centroarzuanomellidense/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1581071951:1793537306559109",
-   "redirige_a": "accounts.google.com",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1072,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "bloqueado"
-  },
-  {
    "id": "centro-salamanca-recreativo-cultural-y-s",
    "web": "https://centrosalamanca.com.ar/",
    "plataforma": [
@@ -4272,39 +4109,6 @@
    "texto_portada": 2292,
    "clase": "html",
    "texto": "data/crawl/local/textos/centro-salamanca-recreativo-cultural-y-s.txt",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
-   "web": "https://www.centrocultural.coop",
-   "plataforma": [],
-   "pedidos": 4,
-   "url_final": "https://www.centrocultural.coop",
-   "paginas_agenda": [
-    "https://www.centrocultural.coop/agenda",
-    "https://www.centrocultural.coop/cartelera-mes",
-    "https://www.centrocultural.coop/eventos/libertablas"
-   ],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 35,
-   "texto_portada": 2697,
-   "clase": "html",
-   "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
-   "web": "https://www.ar.emb-japan.go.jp",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://www.ar.emb-japan.go.jp",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 10,
-   "clase": "needs_browser",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -4346,22 +4150,6 @@
    "texto_portada": 2756,
    "clase": "html",
    "texto": "data/crawl/local/textos/la-ronda-espacio-cultural.txt",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "centro-cultural-torquato-tasso",
-   "web": "https://www.torquatotasso.com.ar",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://torquatotasso.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 159,
-   "clase": "needs_browser",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "con_eventos"
   },
@@ -4513,20 +4301,6 @@
    "jsonld_eventos": 0,
    "fechas_en_texto": 0,
    "texto_portada": 14,
-   "clase": "needs_browser",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
-   "id": "cacodelphia",
-   "web": "https://cineartecacodelphia.com.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "url_final": "https://cineartecacodelphia.com.ar/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 1,
    "clase": "needs_browser",
    "fecha": "2026-11-01 09:48",
    "estado_corrida_anterior": "con_eventos"
@@ -4700,16 +4474,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "planetario-galileo-galilei",
-   "web": "https://planetario.buenosaires.gob.ar/",
-   "plataforma": [],
-   "pedidos": 1,
-   "clase": "unreachable",
-   "motivo": "HTTP 400",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "no_carga"
-  },
-  {
    "id": "museo-casa-de-ricardo-rojas",
    "web": "https://museorojas.cultura.gob.ar/",
    "plataforma": [],
@@ -4867,22 +4631,6 @@
    "estado_corrida_anterior": "con_eventos"
   },
   {
-   "id": "dune-park",
-   "web": "http://www.dunepark.club",
-   "plataforma": [
-    "wordpress"
-   ],
-   "pedidos": 1,
-   "url_final": "https://dunepark.club/",
-   "paginas_agenda": [],
-   "jsonld_eventos": 0,
-   "fechas_en_texto": 0,
-   "texto_portada": 884,
-   "clase": "sin_agenda_vista",
-   "fecha": "2026-11-01 09:48",
-   "estado_corrida_anterior": "con_eventos"
-  },
-  {
    "id": "niceto-club",
    "web": "https://nicetoclub.com/agenda/",
    "plataforma": [
@@ -5024,6 +4772,258 @@
    "texto_portada": 1223,
    "clase": "needs_browser",
    "fecha": "2026-11-01 09:49",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "saleplan-agenda-de-ciudad-de-buenos-aires",
+   "web": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "plataforma": [],
+   "pedidos": 6,
+   "url_final": "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires",
+   "paginas_agenda": [
+    "https://saleplan.ar/publicar-evento",
+    "https://saleplan.ar/agenda?provincia=02&amp;localidad=02014010",
+    "https://saleplan.ar/eventos-gratis",
+    "https://saleplan.ar/planes?desde=2026-11-01&amp;hasta=2027-11-02&amp;provincia=02&amp;localidad=02014010&amp;orden=fecha&amp;categoria=turismo-y-visitas",
+    "https://saleplan.ar/ciudad-autonoma-de-buenos-aires/ciudad-de-buenos-aires/planes/XWF48QGM3HG4/epishi-wolrd-p0cket-studio-workshop-online"
+   ],
+   "jsonld_eventos": 1,
+   "fechas_en_texto": 44,
+   "texto_portada": 9572,
+   "clase": "jsonld",
+   "ejemplos": [
+    {
+     "titulo": "EPISHI WOLRD - P0CKET STUDIO WORKSHOP ONLINE",
+     "inicio": "2026-10-21T00:00:00-03:00"
+    }
+   ],
+   "texto": "data/crawl/local/textos/saleplan-agenda-de-ciudad-de-buenos-aires.txt",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos",
+   "error": "el JSON-LD está solo en fichas sueltas, no en un listado: puede faltar parte de la agenda"
+  },
+  {
+   "id": "centro-cultural-asociacion-mutual-homero-manzi",
+   "web": "https://www.mutualhomeromanzi.blogspot.com",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&followup=https://www.blogger.com/blogin?u%3Dhttps://mutualhomeromanzi.blogspot.com/&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-771518614:1793554383100336",
+   "redirige_a": "accounts.google.com",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1083,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "emergente-club-almagro",
+   "web": "http://elemergente.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://elemergente.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 9339,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-alfonsina-storni",
+   "web": "http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://mantenimiento.buenosaires.gob.ar/",
+   "redirige_a": "mantenimiento.buenosaires.gob.ar",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 67,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "esquina-rebelde-centro-cultural",
+   "web": "https://www.facebook.com/esquinarebelde",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "cultural-mamita",
+   "web": "https://www.facebook.com/BarMamita",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "mu-trincher-boutique",
+   "web": "https://lavaca.org/trinchera/",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://lavaca.org/trinchera/",
+   "paginas_agenda": [
+    "https://lavaca.org/trinchera/cartelera-2025-marzo/",
+    "https://lavaca.org/trinchera/shop/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 7,
+   "texto_portada": 238,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "sin_eventos"
+  },
+  {
+   "id": "el-galpon-de-catalinas",
+   "web": "https://www.catalinasur.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 3,
+   "url_final": "https://catalinasur.com.ar/",
+   "paginas_agenda": [
+    "https://catalinasur.com.ar/proximamente/",
+    "https://catalinasur.com.ar/talleres/"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 1,
+   "texto_portada": 1510,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "nueva-uriarte",
+   "web": "https://ccnuevauriarte.com.ar/",
+   "plataforma": [],
+   "pedidos": 3,
+   "url_final": "https://ccnuevauriarte.com.ar/",
+   "paginas_agenda": [
+    "https://ccnuevauriarte.com.ar/programacion.html",
+    "https://ccnuevauriarte.com.ar/talleres.html"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 8,
+   "texto_portada": 1676,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/nueva-uriarte.txt",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-arzuano-mellidense-cam",
+   "web": "https://sites.google.com/site/centroarzuanomellidense/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/centroarzuanomellidense/&followup=https://sites.google.com/site/centroarzuanomellidense/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S336590015:1793554383915497",
+   "redirige_a": "accounts.google.com",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1072,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "bloqueado"
+  },
+  {
+   "id": "centro-cultural-de-la-cooperacion-floreal-gorini",
+   "web": "https://www.centrocultural.coop",
+   "plataforma": [],
+   "pedidos": 4,
+   "url_final": "https://www.centrocultural.coop",
+   "paginas_agenda": [
+    "https://www.centrocultural.coop/agenda",
+    "https://www.centrocultural.coop/cartelera-mes",
+    "https://www.centrocultural.coop/eventos/libertablas"
+   ],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 35,
+   "texto_portada": 2697,
+   "clase": "html",
+   "texto": "data/crawl/local/textos/centro-cultural-de-la-cooperacion-floreal-gorini.txt",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-e-informativo-de-la-embajada-de-japon",
+   "web": "https://www.ar.emb-japan.go.jp",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://www.ar.emb-japan.go.jp",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 10,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "centro-cultural-torquato-tasso",
+   "web": "https://www.torquatotasso.com.ar",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://torquatotasso.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 159,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "cacodelphia",
+   "web": "https://cineartecacodelphia.com.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "url_final": "https://cineartecacodelphia.com.ar/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 1,
+   "clase": "needs_browser",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "con_eventos"
+  },
+  {
+   "id": "planetario-galileo-galilei",
+   "web": "https://planetario.buenosaires.gob.ar/",
+   "plataforma": [],
+   "pedidos": 1,
+   "clase": "unreachable",
+   "motivo": "HTTP 400",
+   "fecha": "2026-11-01 14:33",
+   "estado_corrida_anterior": "no_carga"
+  },
+  {
+   "id": "dune-park",
+   "web": "http://www.dunepark.club",
+   "plataforma": [
+    "wordpress"
+   ],
+   "pedidos": 1,
+   "url_final": "https://dunepark.club/",
+   "paginas_agenda": [],
+   "jsonld_eventos": 0,
+   "fechas_en_texto": 0,
+   "texto_portada": 884,
+   "clase": "sin_agenda_vista",
+   "fecha": "2026-11-01 14:33",
    "estado_corrida_anterior": "con_eventos"
   }
  ]
