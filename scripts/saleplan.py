@@ -1,12 +1,14 @@
 """SalePlan without a browser: reads the listings, keeps what no other source brought and saves it.
 
 The SalePlan listings (/buenos-aires/eventos?page=N) are read with plain HTTP; the event pages are not (Cloudflare).
-Each card has title, date, time, the SalePlan category and the neighborhood (in the URL), but not the venue.
+Each card has title, date, time, the SalePlan category, the picture (`img.event-card__image`, saved as `imagen`) and the
+neighborhood (in the URL), but not the venue.
 Since 3 out of 4 SalePlan events are already brought by another source, the script discards the cards that
 match (same day, similar title) the captures of the other sources and saves the rest, without a venue
 ("Lugar a confirmar" on the website).
 
-That is why it goes at the end of the run, after all the other sources and before armar_agenda.py.
+That is why it goes after the other sources (at the end of every session, once the queue's websites are done) and
+before armar_agenda.py.
 
 Usage:
     python scripts/saleplan.py [--simular] [--max-paginas N]
@@ -88,7 +90,8 @@ def tarjetas(pagina):
             continue
         fecha, hora = fecha_de(t[i + 1])
         partes = url.group(1).split("/")
-        out.append({"id": ident.group(1), "url": url.group(1), "categoria": t[i - 3], "titulo": t[i - 2],
+        img = re.search(r'<img[^>]*class="event-card__image"[^>]*\ssrc="(https://[^"]+)"', bloque)
+        out.append({"id": ident.group(1), "url": url.group(1), "imagen": img.group(1) if img else "", "categoria": t[i - 3], "titulo": t[i - 2],
                     "localidad": t[i - 1], "fecha": fecha, "hora": hora, "terminada": "Función terminada" in t,
                     "barrio_slug": partes[4] if len(partes) > 4 and partes[3] == "ciudad-autonoma-de-buenos-aires" else ""})
     return out
@@ -203,10 +206,11 @@ def main():
         barrio = "" if b in SIN_BARRIO else barrios.get(b, b.replace("-", " ").title())
         e = {"titulo": c["titulo"], "fecha_inicio": c["fecha"], "fecha_fin": desde if c["en_curso"] else c["fecha"],
              "hora": "" if c["en_curso"] else c["hora"], "lugar": "", "barrio": barrio, "categoria": c["categoria"],
-             "url": c["url"], "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."}
+             "url": c["url"], "imagen": c.get("imagen", ""),
+             "descripcion": f"{c['categoria']}. Listado en SalePlan; el lugar figura en la ficha."}
         vieja = previa.get(c["id"])
         if vieja and vieja.get("lugar"):
-            for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora", "horarios"):
+            for k in ("lugar", "direccion", "barrio", "precio", "descripcion", "hora", "horarios", "imagen"):
                 if vieja.get(k):
                     e[k] = vieja[k]
             # The event page has the real range of what is ongoing (the card, only the first day).
