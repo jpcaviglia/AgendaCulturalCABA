@@ -513,6 +513,9 @@ break date regexes), (c) returns `private`/`unavailable`/`n`/`dates` and the bio
 ~800 characters is cut, so print 100 characters per caption plus the date phrases (`viernes 30 de octubre … 21 hs`). Then read in full
 only the captions that announce a date. If the date is not in the caption (monthly carousel posters, film posters), open the post and
 zoom on the image; click the arrow at the image's right edge for the 2nd slide.
+- The grid links are `/<username>/p/<code>/` (and `/<username>/reel/<code>/`): take the code that follows `p` or `reel`, not the second path segment, or every post decodes to
+  the same date. A profile costs 1 page plus the posts the snippet `fetch`es (about 4-6); 4 profiles go in one `browser_batch`, printing only the grid dates (`MM-DD`) and the
+  first ~200 characters of each caption.
 - Do not paste the snippet on every profile: define it once as a function in a `javascript_tool` call on instagram.com, store it with
   `localStorage.setItem('agt','('+fn.toString()+')')` and, after each `navigate` + 4 s wait, load it through a blob script
   (instagram.com's CSP forbids `eval`, but allows `blob:`): `const u=URL.createObjectURL(new Blob(['window.__perfil = '+localStorage.getItem('agt')+';'],{type:'text/javascript'}));

@@ -3,65 +3,14 @@
  "canal": "web",
  "fuente": "CHELA",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "con_eventos",
+ "fecha": "2026-11-01",
+ "estado": "sin_eventos",
  "urls_visitadas": [
   "https://chela.org.ar/",
   "https://chela.org.ar/las-cuencas-cuentan-2026-aperturas-publicas/",
-  "https://fnoba.vercel.app/",
-  "https://chela.org.ar/monumentos-sonoros-de-parque-patricios/"
+  "https://chela.org.ar/fnoba-6/",
+  "https://chela.org.ar/od24/",
+  "https://chela.org.ar/magma-2025/"
  ],
- "eventos": [
-  {
-   "titulo": "Mitos e historias de elefantes (FNOBA)",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-25",
-   "hora": "20:00",
-   "horarios": "Sábado 24 y domingo 25/10, 20 h",
-   "lugar": "cheLA · Sala Tapete",
-   "barrio": "Parque Patricios",
-   "direccion": "Iguazú 451",
-   "categoria": "Ópera",
-   "precio": "",
-   "url": "https://fnoba.vercel.app/play/mitos-e-historias-de-elefantes",
-   "descripcion": "Ópera de cámara multidisciplinaria que cartografía la figura del elefante en el imaginario de Occidente y Oriente. 60 min.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Thanks for Being Lifeless [Gracias por estar sin vida] (FNOBA)",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-25",
-   "hora": "",
-   "horarios": "Sábado 24/10 18:30 h y domingo 25/10 15 h",
-   "lugar": "cheLA · Sala Tapete",
-   "barrio": "Parque Patricios",
-   "direccion": "Iguazú 451",
-   "categoria": "Ópera",
-   "precio": "",
-   "url": "https://fnoba.vercel.app/play/thanks-for-being-lifeless",
-   "descripcion": "Ópera-instalación sobre voz, cuerpo y objeto con una muñeca inflable de látex, síntesis vocal y sonido espacial. 30 min.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  },
-  {
-   "titulo": "Joven Amaroq [versión de cámara] (FNOBA)",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-24",
-   "hora": "16:30",
-   "horarios": "Viernes 23 y sábado 24/10, 16:30 h",
-   "lugar": "cheLA · Sala Tapete",
-   "barrio": "Parque Patricios",
-   "direccion": "Iguazú 451",
-   "categoria": "Ópera",
-   "precio": "",
-   "url": "https://fnoba.vercel.app/play/joven-amaroq",
-   "descripcion": "Apertura del proceso de creación de la nueva obra de Grupo Vapor, a partir de Los dos hidalgos de Verona. 40 min.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": ""
-  }
- ]
+ "eventos": []
 }

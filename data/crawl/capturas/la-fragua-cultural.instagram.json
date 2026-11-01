@@ -3,10 +3,28 @@
  "canal": "instagram",
  "fuente": "LA FRAGUA CULTURAL",
  "tipo": "lugar",
- "fecha": "2026-10-25",
- "estado": "sin_agenda",
+ "fecha": "2026-11-01",
+ "estado": "con_eventos",
  "urls_visitadas": [
   "https://www.instagram.com/lafraguacultural/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Clases de tango todo nivel (La Fragua Cultural)",
+   "fecha_inicio": "2026-11-03",
+   "fecha_fin": "2026-11-10",
+   "hora": "19:00",
+   "horarios": "Todos los martes 19 h",
+   "lugar": "La Fragua Cultural",
+   "barrio": "Almagro",
+   "direccion": "Av. Rivadavia 4127",
+   "categoria": "Taller",
+   "precio": "",
+   "url": "https://www.instagram.com/lafraguacultural/",
+   "descripcion": "Clases de tango para todos los niveles con Muy Tango y Muy Milonguera, todos los martes a las 19 h en La Fragua Cultural; no hace falta experiencia previa.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/lafraguacultural/",
+   "imagen": ""
+  }
+ ]
 }

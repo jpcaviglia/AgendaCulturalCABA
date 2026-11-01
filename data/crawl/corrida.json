@@ -373,7 +373,9 @@
   "asociacion-cultural-armenia|instagram",
   "doup|instagram",
   "espacio-moebius|instagram",
-  "nuestro-cine|instagram"
+  "nuestro-cine|instagram",
+  "chela|instagram",
+  "circuito-cultural-barracas|instagram"
  ],
  "hechos": {
   "centro-cultural-borges|web": "con_eventos",
@@ -650,8 +652,21 @@
   "cooperativa-cultural-qi|instagram": "sin_eventos",
   "el-cultural-masala|instagram": "sin_eventos",
   "el-zorzal-esquina-cultural|instagram": "con_eventos",
-  "un-lugar-aparte|instagram": "con_eventos"
+  "un-lugar-aparte|instagram": "con_eventos",
+  "chela|web": "sin_eventos",
+  "circuito-cultural-barracas|web": "sin_agenda",
+  "centro-politico-cultural-el-hormiguero|instagram": "sin_eventos",
+  "chimera|instagram": "sin_eventos",
+  "domus-artis|instagram": "sin_eventos",
+  "el-laberinto-de-parque-chas|instagram": "sin_agenda",
+  "el-puente|instagram": "sin_eventos",
+  "espacio-cultural-fonrouge|instagram": "sin_eventos",
+  "la-conversa|instagram": "sin_eventos",
+  "la-fragua-cultural|instagram": "con_eventos",
+  "quetren-quetren|instagram": "sin_eventos",
+  "batacazo-de-arte|instagram": "sin_eventos",
+  "casa-dasein|instagram": "sin_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 2526
+ "eventos": 2527
 }
