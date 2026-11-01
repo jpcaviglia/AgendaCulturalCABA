@@ -5,8 +5,8 @@
   "hasta": "2026-11-15"
  },
  "rastreo": {
-  "capturas": 434,
-  "con_eventos": 214
+  "capturas": 441,
+  "con_eventos": 219
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -39,6 +39,7 @@
   "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!",
   "CENTRO CULTURAL DE ESPAÑA EN BUENOS AIRES",
   "CENTRO CULTURAL DE LA CIENCIA",
+  "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
   "CENTRO CULTURAL DE LA INDIA GÜNGUR",
   "CENTRO CULTURAL DEL PARTIDO DE LA ESTRADA",
   "CENTRO CULTURAL E INFORMATIVO DE LA EMBAJADA DE JAPON",
@@ -133,6 +134,7 @@
   "MACBA (Museo de Arte Contemporáneo de Buenos Aires)",
   "MALBA",
   "MAQUINAL ESPACIO CULTURAL",
+  "MU TRINCHER BOUTIQUE",
   "MUNTREF Museo de la Inmigración",
   "Mar Dulce Galería",
   "Meridiano: Cámara Argentina de Galerías de Arte Contemporáneo",
@@ -146,6 +148,7 @@
   "Museo Histórico Nacional",
   "Museo Histórico Sarmiento",
   "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+  "Museo Judío de Buenos Aires",
   "Museo Kosice",
   "Museo Mundial del Tango",
   "Museo Nacional de Arte Decorativo",
@@ -156,6 +159,7 @@
   "Museo de Arte Español Enrique Larreta",
   "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
   "Museo de Arte Moderno de Buenos Aires",
+  "Museo de Arte Popular José Hernández",
   "Museo de Calcos y Escultura Comparada Ernesto de la Cárcova",
   "Museo de la Ciudad",
   "NUEVA URIARTE",
@@ -169,6 +173,7 @@
   "Palacio Libertad (ex Centro Cultural Kirchner)",
   "Passline",
   "Pasto Galería",
+  "Planetario Galileo Galilei",
   "Planta Inclán",
   "ROSETI",
   "Resident Advisor: Buenos Aires",
@@ -178,6 +183,7 @@
   "Sala Lugones",
   "SalePlan: agenda de Ciudad de Buenos Aires",
   "Strummer Bar",
+  "TCQ",
   "TEATRARTE",
   "THE MONKEYS",
   "TIERRA VIOLETA",
@@ -5394,6 +5400,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000320368.jpg"
   },
   {
+   "id": "6bd01c126c05",
+   "titulo": "Alerta espacial",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "Espectáculo del domo del Planetario Galileo Galilei.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "ad2ab356cfae",
    "titulo": "Amaru",
    "categoria": "Teatro",
@@ -6621,31 +6652,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/95/000322895.jpg"
   },
   {
-   "id": "4b2f556bcb0c",
-   "titulo": "DUO TRIXIE Y METEORO en CCNU",
-   "categoria": "Música",
-   "lugar": "Centro Cultural Nueva Uriarte",
-   "barrio": "Palermo",
-   "direccion": "Uriarte 1289",
-   "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-01",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "Desde $15.000",
-   "descripcion": "Vuelven Trixie y Meteoro para compartir las canciones más queridas del blues y el rock nacional e internacional, y algo de tango también.Versiones muy personales de dos voces solistas que se amalgaman bellamente, acompañadas de violín y piano.Un homenaje a los grandes que divierte y emociona, lejos de la solemnidad.@valerialeandrabuono@canarioescar",
-   "url": "https://livepass.com.ar/events/duo-trixie-y-meteoro-en-ccnu-2026-11-01-19-00-00-0300",
-   "dominio": "livepass.com.ar",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "NUEVA URIARTE"
-   ],
-   "lat": -34.589754,
-   "lng": -58.43537,
-   "embebible": true,
-   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/efaa397ad3712cf604321ee47f9b03bc2193759a.png?1791391944"
-  },
-  {
    "id": "53ee06b1fccd",
    "titulo": "Damas Bravas",
    "categoria": "Teatro",
@@ -6947,29 +6953,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000316999.jpg"
   },
   {
-   "id": "39432085c272",
+   "id": "16607da14c27",
    "titulo": "Edipo en Ezeiza",
    "categoria": "Teatro",
-   "lugar": "Sala Teatral Inda Ledesma - Espacio Experimental Leónidas Barletta",
-   "barrio": "Monserrat",
-   "direccion": "Diagonal Norte 943",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-08",
+   "fecha_fin": "2026-11-29",
    "hora": "19:00",
-   "horarios": "Dom 19:00 (hasta el 29/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Sala Teatral Inda Ledesma - Espacio Experimental Leónidas Barletta (Monserrat).",
-   "url": "https://www.alternativateatral.com/obra27740-edipo-en-ezeiza",
-   "dominio": "alternativateatral.com",
+   "horarios": "Domingos 19:00",
+   "precio": "$ 28000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/edipo-en-ezeiza-0",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
-   "lat": -34.60438,
-   "lng": -58.380074,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/57/000297157.jpg"
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/edipo_en_ezeiza1_002_0.jpg"
   },
   {
    "id": "4778fd22f322",
@@ -7550,29 +7557,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/31/000322331.jpg"
   },
   {
-   "id": "1260a2434f59",
+   "id": "7a75386134f3",
    "titulo": "Escribí Griselda",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-08",
+   "fecha_fin": "2026-11-29",
    "hora": "19:00",
-   "horarios": "Dom 19:00 (hasta el 8/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra50373-escribi-griselda",
-   "dominio": "alternativateatral.com",
+   "horarios": "Domingos 19:00",
+   "precio": "$ 20000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/escribi-griselda",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/64/000321164.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/escribi_griselda_3_web.jpg"
   },
   {
    "id": "2c51d980249b",
@@ -9558,6 +9566,31 @@
    "lng": -58.41615,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/41/000320641.jpg"
+  },
+  {
+   "id": "e31f2adcc387",
+   "titulo": "Lo mejor del universo: Top 5",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "17:30",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "Espectáculo del domo del Planetario Galileo Galilei.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "bce9b1f1caf8",
@@ -12092,6 +12125,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000314556.jpg"
   },
   {
+   "id": "a2b8011073a9",
+   "titulo": "Veo Veo",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "Espectáculo del domo del Planetario Galileo Galilei.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "317c6350ef5a",
    "titulo": "Videograms of a Revolution",
    "categoria": "Cine",
@@ -12268,18 +12326,43 @@
    "imagen": ""
   },
   {
-   "id": "5e6d1d3f223e",
-   "titulo": "Vocayuva en CCNU",
+   "id": "deba6e046d0a",
+   "titulo": "Visitas guiadas al Planetario",
+   "categoria": "Visita guiada",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "2026-11-01",
+   "hora": "16:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Visita guiada del Planetario Galileo Galilei.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "85a141d0f4c0",
+   "titulo": "Vocayuva",
    "categoria": "Música",
-   "lugar": "Centro Cultural Nueva Uriarte",
+   "lugar": "NUEVA URIARTE",
    "barrio": "Palermo",
    "direccion": "Uriarte 1289",
    "fecha_inicio": "2026-11-01",
    "fecha_fin": "2026-11-01",
    "hora": "21:30",
    "horarios": "",
-   "precio": "Desde $18.000",
-   "descripcion": "VOCAYUVA, un proyecto instrumental-vocal que nos trae versiones de canciones y tambien composiciones propias, música del mundo con anclaje en América Latina y una inclinada preferencia por el jazz. Con toda la impronta de nuestra tierra y sus voces, con todo el vuelo, el color y la precisión que ese gusto por el jazz les da a sus interpretes. Vocay",
+   "precio": "Desde $ 18000",
+   "descripcion": "VOCAYUVA, un proyecto instrumental-vocal que nos trae versiones de canciones y tambien composiciones propias, música del mundo con anclaje en América Latina y una inclinada preferencia por el jazz. Con toda la impronta de nuestra tierra y sus voces,",
    "url": "https://livepass.com.ar/events/vocayuva-en-ccnu-2026-11-01-21-30-00-0300",
    "dominio": "livepass.com.ar",
    "estado": "Próximo",
@@ -13677,6 +13760,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-814588-rec.jpg"
   },
   {
+   "id": "16aab7b125c8",
+   "titulo": "Agujeros negros",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-03",
+   "fecha_fin": "2026-11-03",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "Espectáculo inmersivo en el domo sobre los misterios de los agujeros negros y su relación con las galaxias.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "2d8f8c8f1e34",
    "titulo": "Astillero",
    "categoria": "Música",
@@ -14533,6 +14641,56 @@
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181535759%2F915857687743%2F1%2Foriginal.20260406-200640?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=74379fa671c6ed9cdc390148d90ce408"
   },
   {
+   "id": "0f25b038e654",
+   "titulo": "Visitas guiadas al Museo Judío y al Templo Libertad",
+   "categoria": "Visita guiada",
+   "lugar": "Museo Judío de Buenos Aires",
+   "barrio": "San Nicolás",
+   "direccion": "Libertad 769",
+   "fecha_inicio": "2026-11-03",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Martes y jueves 11 y 15 h",
+   "precio": "Consultar",
+   "descripcion": "Visitas guiadas en castellano e inglés a la exposición permanente y a la histórica sinagoga del Templo Libertad. Reserva previa en el sitio del museo.",
+   "url": "https://museojudio.org.ar/",
+   "dominio": "museojudio.org.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Judío de Buenos Aires",
+   "fuentes": [
+    "Museo Judío de Buenos Aires"
+   ],
+   "lat": -34.599592,
+   "lng": -58.383894,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "4bd51ac84594",
+   "titulo": "Vuelta por el universo",
+   "categoria": "Evento",
+   "lugar": "Planetario Galileo Galilei",
+   "barrio": "Palermo",
+   "direccion": "Av. Sarmiento y Belisario Roldán (Parque Tres de Febrero)",
+   "fecha_inicio": "2026-11-03",
+   "fecha_fin": "2026-11-03",
+   "hora": "12:30",
+   "horarios": "",
+   "precio": "Desde $ 6000",
+   "descripcion": "Espectáculo del domo del Planetario Galileo Galilei.",
+   "url": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+   "dominio": "entradasba.buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Planetario Galileo Galilei"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "a75725d781bf",
    "titulo": "WORLD MUSIC AVG",
    "categoria": "Fiestas y electrónica",
@@ -14581,6 +14739,31 @@
    "lng": -58.387521,
    "embebible": false,
    "imagen": "https://www.passline.com/imagenes/eventos/-815827-rec.jpg"
+  },
+  {
+   "id": "1526b61787e7",
+   "titulo": "A x 4",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Cuarteto de Jazz que interpreta música original y standards de Jazz adaptados a este formato con una impronta contemporánea e incorporando improvisación libre.ENTRADAPRECIOGeneralDesde $15.000**los precios publicados en la web no incluyen cargo por s",
+   "url": "https://livepass.com.ar/events/a-x-4-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/395d99792a884bd2d163488f978c381fdd8df050.png?1792595661"
   },
   {
    "id": "7f97a710039a",
@@ -14708,6 +14891,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000318833.jpg"
+  },
+  {
+   "id": "7b3653f8c2a7",
+   "titulo": "Arrua, Ceccoli, DeLuka, De Vita",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Un cuarteto de jazz integrado por saxofón alto, piano, contrabajo y batería presenta un recorrido por algunos de los grandes standards del repertorio de swing y bebop.Una propuesta centrada en la interacción entre los músicos y en el lenguaje del jaz",
+   "url": "https://livepass.com.ar/events/arrua-ceccoli-deluka-de-vita-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/adbdc5508c47bf2b95564c47cc0b412feb5c6bb8.png?1792592667"
   },
   {
    "id": "4575086edfb5",
@@ -15410,6 +15618,31 @@
    "lng": -58.403392,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "bcec6bd6b600",
+   "titulo": "El ángel de Buenos Aires",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-04",
+   "hora": "18:00",
+   "horarios": "Miércoles 4 de noviembre 18:00",
+   "precio": "Gratis",
+   "descripcion": "Cine en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/el-angel-de-buenos-aires",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/el_angel_de_ba2_-_noviembre.jpg"
   },
   {
    "id": "83d2acd7d4e8",
@@ -17069,29 +17302,30 @@
    "imagen": "https://event-banners-fanz.s3.amazonaws.com/1782861124011-banner.png"
   },
   {
-   "id": "6c4840391bc3",
-   "titulo": "Acúfenos (la Frecuencia del Fin)",
-   "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "id": "e455aebc3c06",
+   "titulo": "Acúfenos (la frecuencia del fin)",
+   "categoria": "Danza",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-05",
-   "fecha_fin": "2026-11-12",
+   "fecha_fin": "2026-11-26",
    "hora": "20:30",
-   "horarios": "Jue 20:30 (hasta el 26/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra103717-acufenos-la-frecuencia-del-fin",
-   "dominio": "alternativateatral.com",
+   "horarios": "Jueves 20:30",
+   "precio": "$ 25000",
+   "descripcion": "Danza en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/acufenos-la-frecuencia-del-fin",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000323123.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/acufenos_0.jpg"
   },
   {
    "id": "46ff17a53d51",
@@ -17167,6 +17401,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/show-header/arte_nativo_1080x1920_180_x_60_cm_960_x_400_px_1.jpg"
+  },
+  {
+   "id": "2b48c8ea76cb",
+   "titulo": "Astor's Back In Town",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Piano y Guitarra protagonizan algunos de los mejores standards en tributo a la vuelta del baterista Astor Corbalan.ENTRADAPRECIOGeneralDesde $15.000**los precios publicados en la web no incluyen cargo por servicioMEDIOS DE PAGO HABILITADOS",
+   "url": "https://livepass.com.ar/events/astor-s-back-in-town-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/eafc7497536c38138fcb30c78286603e16fb7483.png?1792158426"
   },
   {
    "id": "d90fa1098a94",
@@ -19677,6 +19936,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-815828-rec.jpg"
   },
   {
+   "id": "7f699c005177",
+   "titulo": "Singers in Jam",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "Singers in Jam es un proyecto original que propone encuentros de jam sessions - un espacio que busca compartir y celebrar el legado del jazz vocal y a las voces más destacadas del género como Ella Fitzgerald, Sara Vaughan, Carmen McRae, Frank Sinatra",
+   "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-11-05-21-00-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/cf5916768eadb012365e29137ff8c71478691f40.png?1792435053"
+  },
+  {
    "id": "933b2b50321f",
    "titulo": "Sofía Forte en vivo junto a Stifler's Mom & Guadi Cura",
    "categoria": "Música",
@@ -20331,31 +20615,6 @@
    "imagen": "https://imagenes.passline.com/eventos/a-lo-sumo-0611-la-casa-de-luca-572541-rec.jpg"
   },
   {
-   "id": "8b8e9b2f622b",
-   "titulo": "A Propósito de los Besos",
-   "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
-   "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-13",
-   "hora": "19:00",
-   "horarios": "Vie 19:00 (del 6/11 al 27/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra102544-a-proposito-de-los-besos",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.603731,
-   "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/41/000319441.jpg"
-  },
-  {
    "id": "a7e73aee689e",
    "titulo": "A la Vera del Maldonado",
    "categoria": "Teatro",
@@ -20379,6 +20638,32 @@
    "lng": -58.449296,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/05/000321805.jpg"
+  },
+  {
+   "id": "d313c95f78bb",
+   "titulo": "A propósito de los besos",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-27",
+   "hora": "19:00",
+   "horarios": "Viernes 19:00",
+   "precio": "$ 25000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/proposito-de-los-besos",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/los_besos_3_-_chica.jpg"
   },
   {
    "id": "fc5079e5e294",
@@ -20931,6 +21216,31 @@
    "lng": -58.380074,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000321301.jpg"
+  },
+  {
+   "id": "af888ab79d41",
+   "titulo": "Astilleros",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-27",
+   "hora": "21:00",
+   "horarios": "Viernes 21:00",
+   "precio": "$ 25000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/astilleros",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/astilleros_chica.jpg"
   },
   {
    "id": "035ba7a9c399",
@@ -23043,29 +23353,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/91/000322991.jpg"
   },
   {
-   "id": "15e100c01775",
-   "titulo": "Espumas de Oriente (un Melodrama Argentino)",
+   "id": "907ec0c103e7",
+   "titulo": "Espumas de Oriente (Un Melodrama Argentino)",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-13",
+   "fecha_fin": "2026-11-27",
    "hora": "21:00",
-   "horarios": "Vie 21:00 (hasta el 27/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra102551-espumas-de-oriente-un-melodrama-argentino",
-   "dominio": "alternativateatral.com",
+   "horarios": "Viernes 21:00",
+   "precio": "$ 25000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/espumas-de-oriente-un-melodrama-argentino",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/42/000319042.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/espumas_de_oriente_5_chica.jpg"
   },
   {
    "id": "a09227425c0c",
@@ -25021,29 +25332,30 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/219e0650-2cd2-4b5f-806c-ac5481938f73.jpg"
   },
   {
-   "id": "31ca34293d85",
-   "titulo": "Lucio y Yo",
+   "id": "298eb6165530",
+   "titulo": "Lucio y yo",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-11-28",
    "hora": "21:30",
-   "horarios": "Vie 21:30. Sáb 21:30 (hasta el 28/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra101786-lucio-y-yo",
-   "dominio": "alternativateatral.com",
+   "horarios": "Viernes y sábados 21:30",
+   "precio": "$ 50000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/lucio-y-yo",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/73/000316973.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/lucio_y_yo_web.jpg"
   },
   {
    "id": "202c5c0c83ef",
@@ -25598,18 +25910,18 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/88/000295288.jpg"
   },
   {
-   "id": "e23773f4552e",
+   "id": "3800fa905695",
    "titulo": "Mermelada Indie en El Emergente",
    "categoria": "Música",
-   "lugar": "El Emergente",
-   "barrio": "Almagro",
+   "lugar": "Polo Cultural 1040",
+   "barrio": "",
    "direccion": "",
    "fecha_inicio": "2026-11-06",
    "fecha_fin": "2026-11-06",
    "hora": "23:30",
-   "horarios": "Viernes 6/11, 23:30 a 05 h",
+   "horarios": "",
    "precio": "Desde $ 8000",
-   "descripcion": "Mermelada Indie en El Emergente en El Emergente, Club Cultural de Almagro.",
+   "descripcion": "La jam mensual: casi 60 músicxs pasan por el escenario.",
    "url": "https://events.flashpass.com.ar/eventos/mermelada-indie-en-el-emergente-0611-4246",
    "dominio": "events.flashpass.com.ar",
    "estado": "Próximo",
@@ -26929,29 +27241,30 @@
    "imagen": "https://centroculturalborges.gob.ar/uploads/6b43a4b4-be4b-4588-b272-3d7db1306445.jpg"
   },
   {
-   "id": "8d3fcdfd7fa6",
-   "titulo": "Sarmiento, la Clase",
+   "id": "61f7e1c02bd2",
+   "titulo": "Sarmiento, la clase",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-11-28",
    "hora": "19:30",
-   "horarios": "Vie 19:30. Sáb 19:30 (hasta el 14/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra99566-sarmiento-la-clase",
-   "dominio": "alternativateatral.com",
+   "horarios": "Viernes y sábados 19:30",
+   "precio": "$ 40000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/sarmiento-la-clase",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/18/000310618.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/sarmiento_agenda_web_evento_002.jpg"
   },
   {
    "id": "a2612e471e94",
@@ -27002,6 +27315,31 @@
    "lng": -58.369617,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/36/000322236.jpg"
+  },
+  {
+   "id": "79773940b199",
+   "titulo": "Semana de Patrimonio: ¿Cómo cuidamos nuestros textiles?",
+   "categoria": "Literatura y charlas",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "15:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Charla sobre conservación de fibras naturales.",
+   "url": "https://www.instagram.com/p/DfM2RvPgBtT/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Popular José Hernández"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "185e5df508f3",
@@ -27205,6 +27543,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/tapas-copas-cuentos-ana-maria-bovo-567048-rec.jpg"
   },
   {
+   "id": "a6379b3480b5",
+   "titulo": "TCQ: Germano DJ, Nuclear Live, NLS y bnajera93",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "TCQ",
+   "barrio": "Monserrat",
+   "direccion": "Rivadavia 1135",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta techno en TCQ con Germano DJ, Nuclear Live, NLS y bnajera93.",
+   "url": "https://www.instagram.com/p/DfFNsPVxnA7/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "TCQ"
+   ],
+   "lat": -34.608959,
+   "lng": -58.388135,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "dda374ab0911",
    "titulo": "TRACK-ON | VIERNES 06 NOV | EL TEATRITO | HARD TECHNO | INDUSTRIAL",
    "categoria": "Fiestas y electrónica",
@@ -27280,29 +27643,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000321217.jpg"
   },
   {
-   "id": "e07fbe72fbc5",
+   "id": "b948f4b70b83",
    "titulo": "Telefonistas",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-13",
+   "fecha_fin": "2026-11-27",
    "hora": "20:30",
-   "horarios": "Vie 20:30 (hasta el 27/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra101102-telefonistas",
-   "dominio": "alternativateatral.com",
+   "horarios": "Viernes 20:30",
+   "precio": "$ 30000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/telefonistas",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/60/000314960.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/telefonistas_2_web.jpg"
   },
   {
    "id": "f690ac41dfdb",
@@ -27730,6 +28094,31 @@
    "lng": -58.392513,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "6784c6666132",
+   "titulo": "Villalba Dure Unzu Vazquez Cuarteto",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-06",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Villalba Duré Unzu Vazquez Cuarteto presenta un recorrido apasionante por el bebop y el jazz clásico. Con una formación poco habitual encabezada por el violín como voz principal junto al trío de piano, bajo y batería, el grupo aborda con destreza, fr",
+   "url": "https://livepass.com.ar/events/villalba-dure-unzu-vazquez-cuarteto-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ef713c93b2e8a5e7af42cafd74268dc05847a5f1.png?1791392636"
   },
   {
    "id": "abd107fbb0d5",
@@ -28333,6 +28722,31 @@
    "lng": -58.449731,
    "embebible": false,
    "imagen": "https://www.passline.com/imagenes/eventos/arito-rock-560019-rec.jpg"
+  },
+  {
+   "id": "04877dc59533",
+   "titulo": "ATR: perreo oldie, rkt y cumbia vieja",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Polo Cultural 1040",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "23:55",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "Fiesta de reggaetón viejo, cachengue y cumbia vieja todos los sábados.",
+   "url": "https://events.flashpass.com.ar/eventos/atr-sabado-7-de-noviembre-8686",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://cdn.flashpass.com.ar/events/portadas/optimized/SGSjQiO72xXV.webp"
   },
   {
    "id": "1ae3a57db291",
@@ -29538,6 +29952,31 @@
    "lng": -58.480275,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "18a2ccb60c08",
+   "titulo": "Ceci Mendez",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 18000",
+   "descripcion": "Ceci Méndez presenta su cuarto disco \"Desde que llegaste a casa\" junto a su productor principal Pablo Pupillo en teclados, Diego Suarez en flauta y Daniel Figueroa en percusión. Además harán canciones del repertorio latinoamericano. Una noche para co",
+   "url": "https://livepass.com.ar/events/ceci-mendez-en-ccnu-2026-11-07",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7f83c78f37a7d03a3a764c31e4ff8d95527dcc24.png?1791900335"
   },
   {
    "id": "1112365c6f28",
@@ -31440,6 +31879,31 @@
    "lng": "",
    "embebible": true,
    "imagen": "https://images.venti.live/user-images/1792007144283-lg.jpg"
+  },
+  {
+   "id": "a782ca5928f2",
+   "titulo": "FM Freq en TCQ: Popi, Matias Mauger, Yei Pi b2b Katsinis",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "TCQ",
+   "barrio": "Monserrat",
+   "direccion": "Rivadavia 1135",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "00:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta de FM Freq en TCQ con Popi, Matias Mauger y Yei Pi b2b Katsinis, más expo de arte fotográfico. Entradas en el link de la bio.",
+   "url": "https://www.instagram.com/p/DfDfWVRRgHE/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "TCQ"
+   ],
+   "lat": -34.608959,
+   "lng": -58.388135,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "c89cd37c16ba",
@@ -33472,31 +33936,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/58/000312058.jpg"
   },
   {
-   "id": "99eb4ae87ace",
-   "titulo": "La Zapatería, Crónica de Mujeres Calzadas",
-   "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
-   "fecha_inicio": "2026-11-07",
-   "fecha_fin": "2026-11-14",
-   "hora": "20:00",
-   "horarios": "Sáb 20:00 (del 7/11 al 28/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra102530-la-zapateria-cronica-de-mujeres-calzadas",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.603731,
-   "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000318975.jpg"
-  },
-  {
    "id": "9376e0a033da",
    "titulo": "La escriba (Partitura poética para mujer)",
    "categoria": "Teatro",
@@ -33570,6 +34009,32 @@
    "lng": -58.444254,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "166754169f09",
+   "titulo": "La zapatería. Crónica de mujeres calzadas",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-28",
+   "hora": "20:00",
+   "horarios": "Sábados 20:00",
+   "precio": "$ 20000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/la-zapateria-cronica-de-mujeres-calzadas",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/la_zapateria_-_foto.jpg"
   },
   {
    "id": "36279446860f",
@@ -33648,6 +34113,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/70/000319770.jpg"
   },
   {
+   "id": "fddb483cb383",
+   "titulo": "Legendaria Abasto: Vidas Desprolijas + Lawfer",
+   "categoria": "Música",
+   "lugar": "El Emergente Abasto",
+   "barrio": "Balvanera",
+   "direccion": "Gallo 333",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Dos sets: Lawfer, power trío con covers de Divididos, Pescado Rabioso y Soda Stereo, y Vidas Desprolijas.",
+   "url": "https://events.flashpass.com.ar/eventos/legendaria-abasto-0711-vidas-desprolijas-lawfer-5545",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": -34.604579,
+   "lng": -58.413188,
+   "embebible": true,
+   "imagen": "https://cdn.flashpass.com.ar/events/portadas/C49M5tqOnmji.webp"
+  },
+  {
    "id": "73190e206254",
    "titulo": "Les Chanches O la Robustez",
    "categoria": "Teatro",
@@ -33721,31 +34211,6 @@
    "lng": -58.40113,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000248409.jpg"
-  },
-  {
-   "id": "c91d9a50d6ce",
-   "titulo": "Los Cuentos de la Andariega",
-   "categoria": "Infantil",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
-   "fecha_inicio": "2026-11-07",
-   "fecha_fin": "2026-11-14",
-   "hora": "16:30",
-   "horarios": "Sáb 16:30 (del 7/11 al 14/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de títeres en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra103578-los-cuentos-de-la-andariega",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.603731,
-   "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000322568.jpg"
   },
   {
    "id": "982d0f769622",
@@ -33822,6 +34287,32 @@
    "lng": -58.361203,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000323453.jpg"
+  },
+  {
+   "id": "1278733bfa07",
+   "titulo": "Los cuentos de la Andariega",
+   "categoria": "Infantil",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-14",
+   "hora": "16:30",
+   "horarios": "Sábados 7 y 14 de noviembre 16:30",
+   "precio": "$ 15000",
+   "descripcion": "Infantil en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/los-cuentos-de-la-andariega",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/los_cuentos_de_la_andariega_1-chica.jpg"
   },
   {
    "id": "fbae07869b91",
@@ -35823,6 +36314,31 @@
    "lng": "",
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "3c77f431f00c",
+   "titulo": "Redondos Diskos: Solos y de noche (7/11)",
+   "categoria": "Música",
+   "lugar": "Emergente Club Almagro",
+   "barrio": "Almagro",
+   "direccion": "Acuña De Figueroa, Francisco 1030",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-07",
+   "hora": "23:55",
+   "horarios": "",
+   "precio": "Desde $ 9000",
+   "descripcion": "Nueva edición de Redondos Diskos, con los clásicos de Oktubre.",
+   "url": "https://events.flashpass.com.ar/eventos/redondos-diskos-711-6093",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://cdn.flashpass.com.ar/events/portadas/TDVr369wmsVG.webp"
   },
   {
    "id": "580fd076452f",
@@ -39540,6 +40056,31 @@
    "imagen": ""
   },
   {
+   "id": "58d4a500fc2b",
+   "titulo": "GEMA",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "2026-11-08",
+   "hora": "21:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "GEMA presenta su primer disco, integrado por composiciones originales de raíz argentina, que combinan la lírica de la canción popular, sus melodías y paisajes con la libertad de la improvisación y la experimentación del cuarteto de jazz fusión. Entre",
+   "url": "https://livepass.com.ar/events/gema-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ae80765f170aa71a870d51314e05607b8f438dae.png?1793367388"
+  },
+  {
    "id": "f513d86038dc",
    "titulo": "Guacho Bleu presenta: Guita y Guitarras - Primer Acto",
    "categoria": "Evento",
@@ -40566,6 +41107,31 @@
    "lng": -58.424045,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/02/000323302.jpg"
+  },
+  {
+   "id": "a7d9576849ba",
+   "titulo": "Ofidio Dellasoppa y El Cuarteto tipico de las Hermanas Bevilacqua",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "2026-11-08",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Desde $ 25000",
+   "descripcion": "Ofidio Dellasoppa y las sorprendentes Hermanas Bevilacqua despliegan todo su repertorio de músicas e historias. Humor, música y equívocos a puro 2x4ENTRADAPRECIOGeneralDesde $25.000**los precios publicados en la web no incluyen cargo por servicioMEDI",
+   "url": "https://livepass.com.ar/events/ofidio-dellasoppa-y-el-cuarteto-tipico-de-las-hermanas-bevilacqua-en-ccnu-2026-11-08",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/c6d9fcc15c21de1f3c5b4117a6586c5251d2fe7f.png?1791391611"
   },
   {
    "id": "e662ac36226f",
@@ -42550,6 +43116,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000320784.jpg"
   },
   {
+   "id": "694668029ae3",
+   "titulo": "Identidad",
+   "categoria": "Cine",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-11",
+   "fecha_fin": "2026-11-11",
+   "hora": "19:00",
+   "horarios": "Miércoles 11 de noviembre 19:00",
+   "precio": "Gratis",
+   "descripcion": "Cine en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/identidad",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/identidad_-_novimbre_-_chica.jpg"
+  },
+  {
    "id": "b76fbdc4e778",
    "titulo": "Jorja Smith",
    "categoria": "Música",
@@ -42749,6 +43340,31 @@
    "lng": -58.433079,
    "embebible": true,
    "imagen": ""
+  },
+  {
+   "id": "4df7358c7dfc",
+   "titulo": "Los Pablos Jazz trio",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-11",
+   "fecha_fin": "2026-11-11",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 18000",
+   "descripcion": "Los Pablos Jazz trio se presentan por vez primera en Centro Cultural Uriarte como parte de su tour 2026. Tour que comprende 4 países (México, Chile, Argentina y Costa Rica) y 46 conciertos autogestionados.ENTRADAPRECIOGeneralDesde $18.000**los precio",
+   "url": "https://livepass.com.ar/events/los-pablos-jazz-trio-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/53a15c30cfd65eaa303ec57b1b2a1fb96336f8da.png?1792592809"
   },
   {
    "id": "5c2767371f4b",
@@ -43001,6 +43617,31 @@
    "imagen": ""
   },
   {
+   "id": "1ee52a1003e3",
+   "titulo": "SUDESTADA",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-11",
+   "fecha_fin": "2026-11-11",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Sudestada es un grupo de música original, jazz y rock contemporáneo. En esta ocasión presentan su primer disco homónimo, que condensa el trabajo de 3 años.ENTRADAPRECIOGeneralDesde $15.000**los precios publicados en la web no incluyen cargo por servi",
+   "url": "https://livepass.com.ar/events/sudestada-en-ccnu-2026-11-06-22-30-00-0300",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/116b99da66bd603f63dc709e0e12dc18f9c8c12d.png?1789498462"
+  },
+  {
    "id": "65bf0831728e",
    "titulo": "Salsa Arriba - 04/10/26",
    "categoria": "Evento",
@@ -43151,6 +43792,31 @@
    "lng": -58.417273,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000320785.jpg"
+  },
+  {
+   "id": "7ed835092ba0",
+   "titulo": "Arritmia",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-12",
+   "fecha_fin": "2026-11-12",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Con versiones de canciones conocidas, la voz y el piano se unen para darle un toque diferente a temas de siempre. Un show que mezcla la improvisación del jazz con la energía del pop y la performance.ENTRADAPRECIOGeneralDesde $15.000**los precios publ",
+   "url": "https://livepass.com.ar/events/arritmia-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/b47e6eb7746ac156b989bf94964fb0c4a37f1d49.png?1792596268"
   },
   {
    "id": "836df4e81264",
@@ -43980,54 +44646,30 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/000161987.jpg"
   },
   {
-   "id": "27959940e5cd",
-   "titulo": "La Cruceta + Dúo Montagnoli/guerrero",
-   "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "id": "e4682255fbe0",
+   "titulo": "La cruceta + Dúo Montagnoli/Guerrero",
+   "categoria": "Música",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-12",
    "fecha_fin": "2026-11-12",
    "hora": "21:00",
-   "horarios": "Jue 21:00 (el 12/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra103579-la-cruceta-duo-montagnoliguerrero",
-   "dominio": "alternativateatral.com",
+   "horarios": "Jueves 12 de noviembre 21:00",
+   "precio": "$ 20000",
+   "descripcion": "Música en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/la-cruceta-duo-montagnoliguerrero",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/80/000322580.jpg"
-  },
-  {
-   "id": "4a768ab770d8",
-   "titulo": "La Vida Fracturada",
-   "categoria": "Teatro",
-   "lugar": "Mu Trinchera Boutique",
-   "barrio": "Balvanera",
-   "direccion": "Riobamba 143",
-   "fecha_inicio": "2026-11-12",
-   "fecha_fin": "2026-11-12",
-   "hora": "19:00",
-   "horarios": "Jue 19:00 (el 12/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Mu Trinchera Boutique (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra103229-la-vida-fracturada",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.607551,
-   "lng": -58.393437,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/89/000322989.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/cruceta_-_noviembre.jpg"
   },
   {
    "id": "c5da4131b43a",
@@ -44054,6 +44696,32 @@
    "lng": -58.3884,
    "embebible": false,
    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/show-header/lvricardo_s26.png"
+  },
+  {
+   "id": "9d39c85a4e93",
+   "titulo": "La vida fracturada",
+   "categoria": "Teatro",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "Balvanera",
+   "direccion": "Riobamba 143",
+   "fecha_inicio": "2026-11-12",
+   "fecha_fin": "2026-11-12",
+   "hora": "19:00",
+   "horarios": "Jue 19:00 (el 12/11)",
+   "precio": "$ 10000",
+   "descripcion": "Obra de teatro de 71 minutos en MU Trinchera Boutique. Entradas por Alternativa Teatral.",
+   "url": "http://www.alternativateatral.com/obra103229-la-vida-fracturada",
+   "dominio": "alternativateatral.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "MU TRINCHER BOUTIQUE",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.607551,
+   "lng": -58.393437,
+   "embebible": true,
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/89/000322989.jpg"
   },
   {
    "id": "118792e17d0d",
@@ -45438,6 +46106,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000313206.jpg"
   },
   {
+   "id": "f16a66251950",
+   "titulo": "BI",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "2026-11-13",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "BI presenta Relatos del Futuro, su nuevo disco, en Buenos AiresViernes 13 de Noviembre 22.30hsCCNULa banda de jazz liderada por los hermanos Horacio y Agustín Ravasi presenta: Relatos del FuturoUn álbum muy esperado de 7 canciones que captura al grup",
+   "url": "https://livepass.com.ar/events/bi-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f7ecea037e48eeb17cfa53720435f56fa76e48be.png?1791391997"
+  },
+  {
    "id": "debf471e4540",
    "titulo": "BLUSEADORES - VANTAGE",
    "categoria": "Evento",
@@ -45864,6 +46557,31 @@
    "lng": -58.436561,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/club-marfil-en-teatro-lucille-18-556647-rec.jpg"
+  },
+  {
+   "id": "f448c7357979",
+   "titulo": "Combi",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "2026-11-13",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Combi es una banda sin mapa: arranca en el pop, se mete en el folk y, cuando menos lo esperás, te canta una historia que no podés dejar de tararear. Cuerdas, percusión y trompeta se mezclan en un show que muta, juega y te invita a sumarte.El viernes",
+   "url": "https://livepass.com.ar/events/combi-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/21918d85c10e1dc3f020d19a2e618320ffb7e78b.png?1791393054"
   },
   {
    "id": "280476c20ed1",
@@ -46540,6 +47258,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-817420-rec.jpg"
+  },
+  {
+   "id": "4137c6835bcf",
+   "titulo": "Fiesta fin de cuatri (CEAMUS)",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Polo Cultural 1040",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "2026-11-13",
+   "hora": "23:30",
+   "horarios": "",
+   "precio": "$ 10000",
+   "descripcion": "El CEAMUS cierra el cuatrimestre con una noche de música y baile.",
+   "url": "https://events.flashpass.com.ar/eventos/fiesta-fin-de-cuatri-5330",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://cdn.flashpass.com.ar/events/portadas/DDlGCEqUnYo7.webp"
   },
   {
    "id": "06a6faead6bc",
@@ -49978,6 +50721,31 @@
    "imagen": "https://imagenes.passline.com/eventos/asspera-vuelve-la-kermesse-assperiana-14-de-noviembre-de-2026-554738-rec.jpg"
   },
   {
+   "id": "71b09f96861e",
+   "titulo": "ATR: perreo oldie, rkt y cumbia vieja",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Polo Cultural 1040",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "23:55",
+   "horarios": "",
+   "precio": "Desde $ 7000",
+   "descripcion": "Fiesta de reggaetón viejo, cachengue y cumbia vieja todos los sábados.",
+   "url": "https://events.flashpass.com.ar/eventos/atr-sabado-14-de-noviembre-5826",
+   "dominio": "events.flashpass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "EMERGENTE CLUB ALMAGRO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": "https://cdn.flashpass.com.ar/events/portadas/optimized/SGSjQiO72xXV.webp"
+  },
+  {
    "id": "f4bdc2767df3",
    "titulo": "AVENIDA KARAOKE. Con Elisa Sanchez. Edición: Noviembre",
    "categoria": "Evento",
@@ -50278,6 +51046,31 @@
    "lng": -58.440825,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/-795270-rec.jpg"
+  },
+  {
+   "id": "29a777aeb67f",
+   "titulo": "Apertura de La Alasita, la feria de los deseos",
+   "categoria": "Artes visuales",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Inauguración de una exposición sobre la tradición boliviana de miniaturas y deseos.",
+   "url": "https://www.instagram.com/p/DfM2RvPgBtT/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Popular José Hernández"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "53c1eec12855",
@@ -50678,6 +51471,31 @@
    "lng": -58.419039,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/83/000322783.jpg"
+  },
+  {
+   "id": "a7507b7e31ed",
+   "titulo": "Ciro Fogliatta",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "La magia del Rock Nacional - Rock-Blues-Pop en nuestro idiomaENTRADAPRECIOGeneralDesde $15.000**los precios publicados en la web no incluyen cargo por servicioMEDIOS DE PAGO HABILITADOS",
+   "url": "https://livepass.com.ar/events/ciro-fogliatta-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7c3cfefab04cfabc380be453faed392ef0e351e6.png?1792600277"
   },
   {
    "id": "f56342aacd39",
@@ -52861,6 +53679,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/35/000323435.jpg"
   },
   {
+   "id": "5c69f7f84d4a",
+   "titulo": "La Forma Sonámbula",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-28",
+   "hora": "20:00",
+   "horarios": "Sábados 20:00",
+   "precio": "$ 20000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/la-forma-sonambula",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/la_forma_sonambula_2_chica.jpg"
+  },
+  {
    "id": "04f4a5c258d5",
    "titulo": "La Gente",
    "categoria": "Teatro",
@@ -53687,6 +54530,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-818248-rec.jpg"
   },
   {
+   "id": "8a72a92c48cb",
+   "titulo": "Marruecos / Cromoforma Jazz Quartet",
+   "categoria": "Música",
+   "lugar": "NUEVA URIARTE",
+   "barrio": "Palermo",
+   "direccion": "Uriarte 1289",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "Desde $ 15000",
+   "descripcion": "Marruecos presentando su primer disco Imaginación Atómica, jazz, funk acompañado por Cromoforma Jazz Quartet standardsENTRADAPRECIOGeneralDesde $15.000**los precios publicados en la web no incluyen cargo por servicioMEDIOS DE PAGO HABILITADOS",
+   "url": "https://livepass.com.ar/events/marruecos-cromoforma-jazz-quartet-en-ccnu",
+   "dominio": "livepass.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "NUEVA URIARTE"
+   ],
+   "lat": -34.589754,
+   "lng": -58.43537,
+   "embebible": true,
+   "imagen": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/25be5f678db0220927fb92f6fc96fc7a512091a2.png?1792600389"
+  },
+  {
    "id": "4963cd8ba7c8",
    "titulo": "Memphis (nueva función)",
    "categoria": "Música",
@@ -54038,6 +54906,31 @@
    "lng": "",
    "embebible": false,
    "imagen": "https://vidriera.earth/la-noche-de-los-museos/noches-culturales-2024-1024x683.jpg-reduced-l-tl02"
+  },
+  {
+   "id": "158be72cfffd",
+   "titulo": "Noche de los Museos en el MAP",
+   "categoria": "Teatro",
+   "lugar": "Museo de Arte Popular José Hernández",
+   "barrio": "Palermo",
+   "direccion": "Av. del Libertador 2373",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "19:00",
+   "horarios": "19 a 2 h",
+   "precio": "Gratis",
+   "descripcion": "Talleres de restauración, obra textil colectiva, platería en vivo, visitas guiadas, el taller La Alasita y tus deseos y espectáculos musicales.",
+   "url": "https://www.instagram.com/p/DfM2RvPgBtT/",
+   "dominio": "instagram.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Museo de Arte Popular José Hernández"
+   ],
+   "lat": -34.579708,
+   "lng": -58.404988,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "739bd68af113",
@@ -54713,31 +55606,6 @@
    "lng": -58.433079,
    "embebible": true,
    "imagen": ""
-  },
-  {
-   "id": "53c1f0291488",
-   "titulo": "Qué Hermosa Kermesse - Ciertas Petunias",
-   "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
-   "fecha_inicio": "2026-11-14",
-   "fecha_fin": "2026-11-14",
-   "hora": "22:30",
-   "horarios": "Sáb 22:30 (del 14/11 al 5/12)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra37320-que-hermosa-kermesse-ciertas-petunias",
-   "dominio": "alternativateatral.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Alternativa Teatral"
-   ],
-   "lat": -34.603731,
-   "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000323190.jpg"
   },
   {
    "id": "008774da26ac",
@@ -56066,23 +56934,24 @@
    "imagen": "https://imagenes.passline.com/eventos/vale-acevedo-unplugged-360-544932-rec.jpg"
   },
   {
-   "id": "e495e0cec9f1",
-   "titulo": "Variedades Analógicas (ensalada Teatral)",
+   "id": "a10f9d6e96b0",
+   "titulo": "Variedades analógicas (ensalada teatral)",
    "categoria": "Teatro",
-   "lugar": "Mu Trinchera Boutique",
+   "lugar": "MU TRINCHER BOUTIQUE",
    "barrio": "Balvanera",
    "direccion": "Riobamba 143",
    "fecha_inicio": "2026-11-14",
    "fecha_fin": "2026-11-14",
    "hora": "20:00",
    "horarios": "Sáb 20:00 (el 14/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Mu Trinchera Boutique (Balvanera).",
-   "url": "https://www.alternativateatral.com/obra101110-variedades-analogicas-ensalada-teatral",
+   "precio": "$ 12000",
+   "descripcion": "Ensalada teatral de 80 minutos en MU Trinchera Boutique. Entradas por Alternativa Teatral.",
+   "url": "http://www.alternativateatral.com/obra101110-variedades-analogicas-ensalada-teatral",
    "dominio": "alternativateatral.com",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "MU TRINCHER BOUTIQUE",
     "Alternativa Teatral"
    ],
    "lat": -34.607551,
@@ -56316,29 +57185,56 @@
    "imagen": "https://imagenes.passline.com/eventos/etiqueta-negra-en-makena-558563-rec.jpg"
   },
   {
-   "id": "ef3037f5c1dd",
-   "titulo": "¡parev!, Un Saludo Que Puede Ser el Tuyo",
+   "id": "ebc1c160cbcd",
+   "titulo": "¡Parev!, un saludo que puede ser el tuyo",
    "categoria": "Teatro",
-   "lugar": "Centro Cultural de la Cooperación",
-   "barrio": "San Nicolás",
-   "direccion": "Corrientes 1543",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
    "fecha_inicio": "2026-11-14",
-   "fecha_fin": "2026-11-14",
+   "fecha_fin": "2026-11-28",
    "hora": "19:30",
-   "horarios": "Sáb 19:30 (del 14/11 al 28/11)",
-   "precio": "Consultar",
-   "descripcion": "Espectáculo de teatro en Centro Cultural de la Cooperación (San Nicolás).",
-   "url": "https://www.alternativateatral.com/obra100582-parev-un-saludo-que-puede-ser-el-tuyo",
-   "dominio": "alternativateatral.com",
+   "horarios": "Sábados 19:30",
+   "precio": "$ 25000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/parev-un-saludo-que-puede-ser-el-tuyo-0",
+   "dominio": "centrocultural.coop",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
    "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
     "Alternativa Teatral"
    ],
    "lat": -34.603731,
    "lng": -58.388699,
-   "embebible": true,
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/02/000313402.jpg"
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/parev_02_002.jpg"
+  },
+  {
+   "id": "25ce07585c6b",
+   "titulo": "¡Que hermosa Kermesse!",
+   "categoria": "Teatro",
+   "lugar": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "barrio": "San Nicolas",
+   "direccion": "Corrientes Av. 1543",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-28",
+   "hora": "22:30",
+   "horarios": "Sábados 22:30",
+   "precio": "$ 25000",
+   "descripcion": "Teatro en el Centro Cultural de la Cooperación Floreal Gorini. Cartelera de noviembre.",
+   "url": "https://www.centrocultural.coop/eventos/que-hermosa-kermesse",
+   "dominio": "centrocultural.coop",
+   "estado": "Próximo",
+   "lugar_verificado": "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA COOPERACIÓN FLOREAL GORINI",
+    "Alternativa Teatral"
+   ],
+   "lat": -34.603731,
+   "lng": -58.388699,
+   "embebible": false,
+   "imagen": "https://www.centrocultural.coop/sites/www.centrocultural.coop/files/eventos/kermesse_2_chica.jpg"
   },
   {
    "id": "30ffe0ac7176",

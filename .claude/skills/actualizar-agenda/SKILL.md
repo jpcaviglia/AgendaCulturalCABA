@@ -185,6 +185,16 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   publishes about a week ahead. The INCAA spaces table (`incaa.gob.ar/carteleras/programacion-espacios-incaa/`) renders in the browser: split `document.body.innerText` by `
 ` and `	`
   and keep the rows whose province is `CABA`.
+- Cinemas on GAF (cineartecacodelphia.com.ar): the home lists the films (`/pelicula/<cine>/<id>` links, read them in the browser); `apiv2.gaf.adro.studio/movie/<cine>/<id>`
+  gives every showtime (`showtimes[].fechaHora`), `poster` and the synopsis over HTTP, but only ~3 days ahead: group the showtimes by weekday into `horarios`.
+- El Emergente (`elemergente.com.ar`): `sondear.pedir` of the home returns an old version (July fichas); list the `events.flashpass.com.ar/eventos/<slug>` links
+  from the browser and read each ficha over HTTP (`SÁB 7 DE NOV 2026 | 23:55`, `$` tiers, venue line: Polo Cultural 1040, Almagro or Abasto, `lugar` is mandatory).
+- A venue whose home loads its shows with JavaScript and links a Livepass taxon (Nueva Uriarte: `livepass.com.ar/taxons/<venue>`): the taxon lists every show
+  as `DD MES title [url]` over HTTP and each ficha has JSON-LD `startDate` (with offset), the `$` prices and `image`.
+- Entradas BA (`entradasba.buenosaires.gob.ar`, Planetario `planetario.buenosaires.gob.ar` redirects there): a Blazor app, HTTP 400 and cards without `href`; the venue
+  page shows only each show's next date; click the card heading to open `/evento/<uuid>` (price tiers, date selector).
+- Resident Advisor club page (`ra.co/clubs/<id>`): `get_page_text`/`innerText` lists the upcoming events; `fetch('/events/<id>')` from the tab gives the hour and `og:image`.
+- Poster-only programmes (Torquato Tasso): scroll 5 ticks and one screenshot shows the date of each poster; the posters' `<img>` URLs come from `a[href]` of the cards.
 - The Events Calendar (WordPress `tribe`, Otra Historia): `/eventos/lista/` carries the JSON-LD of ~50 events even when the REST API answers 403.
 - A venue whose agenda is on Passline (La Paz Arriba, La Casa del Árbol, Casa Brandon, Cultural Morán): take its events from the Passline list already read, filtering by `lugar`, instead of
   fetching Passline again (`passline.com/sitio-evento/<slug>` answers 403 over HTTP).
@@ -261,7 +271,7 @@ A site that needs one read per event and cannot be finished in reasonable time (
 Cooperación: monthly pages by discipline, weekday-only functions) is not saved half done: leave it in the
 queue for the next session and say so in the progress update. Huge sources (Passline: ~1,100 pages) take
 about 25 minutes of fetching, so count them as several sites of the session's time. A Bash heredoc with
-accents and `¡«»` can fail: write the script with the Write tool and run it. If the browser JS tool or Bash
+accents and `¡«»` can fail: write the script with the Write tool and run it. A Python one-off that dumps JSON for a later step must pass `encoding='utf-8'` to `open()` (the Windows default is cp1252 and the next read fails). If the browser JS tool or Bash
 answers "no verdict" from the auto-mode classifier, retry once as-is; the `computer` `zoom` action on a
 region of the page reads small widgets (day tabs, times) without JavaScript.
 

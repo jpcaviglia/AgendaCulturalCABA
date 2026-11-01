@@ -3,14 +3,48 @@
  "canal": "web",
  "fuente": "MU TRINCHER BOUTIQUE",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-11-01",
+ "estado": "con_eventos",
  "urls_visitadas": [
   "https://lavaca.org/trinchera/",
-  "https://lavaca.org/trinchera/shop",
-  "https://lavaca.org/trinchera/category/teatro-artes/",
-  "https://lavaca.org/trinchera/category/artes/",
-  "https://lavaca.org/trinchera/laboratorio-de-experimentacion-de-comunicacion-y-artes-escenicas/"
+  "http://www.alternativateatral.com/espacio6395-mu-trinchera-boutique",
+  "http://www.alternativateatral.com/obra103229-la-vida-fracturada",
+  "http://www.alternativateatral.com/obra101110-variedades-analogicas-ensalada-teatral"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "La vida fracturada",
+   "fecha_inicio": "2026-11-12",
+   "fecha_fin": "2026-11-12",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "$ 10000",
+   "url": "http://www.alternativateatral.com/obra103229-la-vida-fracturada",
+   "descripcion": "Obra de teatro de 71 minutos en MU Trinchera Boutique. Entradas por Alternativa Teatral.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/89/000322989.jpg"
+  },
+  {
+   "titulo": "Variedades analógicas (ensalada teatral)",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "2026-11-14",
+   "hora": "20:00",
+   "horarios": "",
+   "lugar": "MU TRINCHER BOUTIQUE",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Teatro",
+   "precio": "$ 12000",
+   "url": "http://www.alternativateatral.com/obra101110-variedades-analogicas-ensalada-teatral",
+   "descripcion": "Ensalada teatral de 80 minutos en MU Trinchera Boutique. Entradas por Alternativa Teatral.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/09/000315009.jpg"
+  }
+ ]
 }
