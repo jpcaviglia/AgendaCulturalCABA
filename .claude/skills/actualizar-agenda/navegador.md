@@ -179,6 +179,12 @@ sometimes a closed account.
 large body freezes the call). Long loops (clicking "Ver más" 80 times) go in an async IIFE that sets `window.__done`;
 poll it with calls under 40 s.
 
+Chrome asks for the **local network access permission once per site**: until the user allows it for that origin
+(`alternativateatral.com`, `jodify.com.ar`…) every `fetch` to `127.0.0.1` hangs with no error (a `curl` to the receiver still
+answers). Test it first with a tiny POST and an `AbortController` timeout; if it hangs, ask the user to allow the site in Chrome
+and retry. A big body (1,000+ cards) never arrives in one POST: send chunks of ~100 rows, awaiting each, each to its own path
+(`/p0`, `/p1`…; the receiver writes `c_<path>.part`).
+
 Gotchas: start the receiver as its own background command (`run_in_background`), not inside a `( ... &)` subshell,
 and give it a few seconds before the first POST (the file shows up late); a test `curl -X POST` overwrites what the
 page already sent. Start the receiver with a Windows path (`C:/...`), not the Git Bash `/c/...` one: Python cannot open it, the

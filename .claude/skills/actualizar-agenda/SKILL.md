@@ -158,6 +158,15 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   general" block and load them with `vigente_sin_fin: true`;
 - All Access (`allaccess.com.ar/event/<slug>`): the venue page lists every show with its date; the JSON-LD `startDate` of each
   event page has no usable offset (a 22:00 show appears as `T02:59` or `T00:00`), so leave `hora` empty unless the text gives it;
+- Jodify (`jodify.com.ar/events`): scroll until the date after the window; each party is an `li` inside the `ul` that follows each date `h2` (lines:
+  lineup, `Sala - Barrio`, genres, price); keep the cards whose barrio is in CABA and `fetch()` each `/event/<uuid>` from the tab for the hour (JSON-LD).
+- Indiehoy agenda (`indiehoy.com/eventos/`): read with `sondear.pedir` + `texto_legible` inside Python (redirecting `--leer` stdout to a file on Windows
+  breaks the accents); the list gives title, venue and dates and every `/agenda/<slug>/` page has price and image in its JSON-LD. The venue decides CABA.
+- Eventbrite: `?start_date=&end_date=&page=N` over HTTP (13 pages for 14 days, ~250 events with JSON-LD); filter CABA by address and keep the cultural
+  titles; the JSON-LD price is 0 on many paid events, so leave `precio` empty when it says 0.
+- Ticketek: the home page and the four categories are read in the browser only to collect the `obra/sala` hrefs (kept in localStorage, printed in an
+  `<article>`); each `obra--sala` is then read over the API (`widgets.left[tkt-show-ticket]['data-performances']`, `date` epoch with the local hour read as UTC).
+- Resident Advisor: `fetch('/graphql')` from the ra.co tab (`eventListings`, area 395); print the rows in an `<article>` and read them with `get_page_text`.
 - Vamos Feria (`vamosferia.com/ferias`): `sondear.pedir` of the listing gives the `/feria/<slug>` links (24 for CABA although the counter says
   34) and each ficha has a JSON-LD Event per day (`startDate`/`endDate` with opening and closing hour, venue, address) and `og:image`;
   weekend craft fairs in parks and plazas, loaded as `Feria` with `horarios` "Sáb y dom de 10 a 20 h".

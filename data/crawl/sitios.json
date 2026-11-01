@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31",
+ "actualizado": "2026-11-01",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -14,7 +14,8 @@
     "2026-10-14 [web] 112 actividades; 110 con lugar y dentro de la ventana.",
     "2026-10-19 [web] 2026-10-19: 115 actividades, 112 con lugar cargadas (3 sin lugar descartadas), leídas por HTTP.",
     "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (42 de 112); se descartaron las genéricas que se repetían en 3 o más eventos.",
-    "2026-10-24 [web] 2026-10-24: 115 actividades de la semana del 19 al 25/10, 90 cargadas (se descartaron pasadas, paseos turísticos, outlets, deporte y las sin lugar). Cuando la página pase a la semana del 26/10 hay que volver a leerla."
+    "2026-10-24 [web] 2026-10-24: 115 actividades de la semana del 19 al 25/10, 90 cargadas (se descartaron pasadas, paseos turísticos, outlets, deporte y las sin lugar). Cuando la página pase a la semana del 26/10 hay que volver a leerla.",
+    "2026-11-01 [web] 2026-11-01: turismo.buenosaires.gob.ar en mantenimiento (redirige a mantenimiento.buenosaires.gob.ar, 404). Reintentar en la próxima corrida."
    ],
    "comportamiento": {
     "extraccion": "El arreglo [{\"orden\"... está en el HTML y se lee por HTTP con sondear.pedir (sin navegador); mismo resultado que turismo()",
@@ -26,10 +27,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
-     "estado": "con_eventos",
-     "eventos": 89,
-     "paginas": 1
+     "fecha": "2026-11-01",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "historial": [
@@ -56,6 +57,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 89
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "no_carga",
+     "eventos": 0
     }
    ]
   },
@@ -72,7 +79,8 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
     "2026-10-14 [web] Cartelera de 30 días: 1209 obras; 806 de CABA con función en la ventana (127 de fuera de CABA descartadas). Hay ~190 salas de CABA que no están en lugares.json (Ítaca, Timbre 4, Teatro del Pueblo, Kairós, Colón...): pendiente decidir si se suman.",
     "2026-10-19 [web] 2026-10-19: 1221 tarjetas; 829 de CABA con función en la ventana (161 fuera de CABA, 1 streaming, 231 sin función en la ventana). Sin precio ni descripción en el listado.",
-    "2026-10-24 [web] 2026-10-24: 1314 tarjetas; 904 de CABA con función entre hoy y el 7/11 (177 fuera de CABA, 233 sin función en la ventana). Sin precio ni descripción en el listado: el precio de las fichas no se leyó."
+    "2026-10-24 [web] 2026-10-24: 1314 tarjetas; 904 de CABA con función entre hoy y el 7/11 (177 fuera de CABA, 233 sin función en la ventana). Sin precio ni descripción en el listado: el precio de las fichas no se leyó.",
+    "2026-11-01 [web] 2026-11-01: 1110 tarjetas; 740 de CABA con función entre el 1/11 y el 14/11 (164 fuera de CABA, 206 sin función en la ventana). Sin precio en el listado: las fichas no se leyeron."
    ],
    "entradas": [
     "https://www.alternativateatral.com/cartelera.asp?cuando=30",
@@ -83,15 +91,15 @@
     "uso": "Las obras de salas que ya están en la lista también suman: se deduplican con la web propia del lugar. Salas nuevas de CABA van en sitios_nuevos.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "ver_mas": "Botón 'Ver N más' (fuera de las tarjetas): clic en bucle (1,2 s) hasta que desaparece; son ~1221 tarjetas para cuando=30. Elegir el ÚLTIMO botón, hay botones 'Ver 1 más' dentro de tarjetas.",
-    "volcado": "Enviar window.__rows por fetch POST a un servidor local http://127.0.0.1:PUERTO (sin await, el renderer se cuelga si es grande).",
+    "volcado": "Pegar window.__rows por fetch POST a 127.0.0.1 en trozos de 100 tarjetas (cada trozo a su propia ruta, esperando cada respuesta); Chrome pide permiso de red local por sitio (el usuario debe permitirlo para alternativateatral.com).",
     "fichas": "No hace falta abrir fichas: el listado trae obra, sala, barrio, días/horarios y fechas; precio solo en la ficha.",
     "horarios": "Cada .ct-per es un período 'DIAS HH:MM · hasta el D/M | del D/M al D/M | el D/M'; los días con varios horarios se escriben 'LUN 19:00 | 21:30'. Se guardan legibles en `horarios` ('Lun 19:00 y 21:30 (hasta el 26/10)'); `hora` solo si hay un único horario."
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 904,
+     "eventos": 740,
      "paginas": 1
     }
    },
@@ -119,6 +127,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 904
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 740
     }
    ],
    "enlaces_descartados": [
@@ -133,6 +147,12 @@
      "texto": "Castings",
      "motivo": "convocatorias, no evento",
      "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://www.alternativateatral.com/cartelera.asp",
+     "texto": "Cartelera",
+     "motivo": "misma página que cartelera.asp?cuando=30",
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -149,10 +169,11 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
     "2026-10-14 [web] /agenda redirige a que-hacer-este-mes-agenda; la semanal está en /agenda-semana. Se cargaron los ítems con lugar y fecha en la ventana.",
     "2026-10-19 [web] 2026-10-19: lectura parcial de agenda-semana (editorial, 12 propuestas): cargadas MUBI Fest y su programa en U.House y Mihanovich en el Colón; quedaron sin cargar el festival de teatro en Almagro, el unipersonal de Villa Crespo, Rivarola, Artlab y otras. No se abrió que-hacer-este-mes-agenda.",
-    "2026-10-24 [web] 2026-10-24: agenda-semana (10 propuestas, la mayoría ya pasadas): se cargaron las 5 vigentes desde el 24/10. Estrellada (hasta el 26/11) no trae días de función: queda para Alternativa Teatral."
+    "2026-10-24 [web] 2026-10-24: agenda-semana (10 propuestas, la mayoría ya pasadas): se cargaron las 5 vigentes desde el 24/10. Estrellada (hasta el 26/11) no trae días de función: queda para Alternativa Teatral.",
+    "2026-11-01 [web] 2026-11-01: agenda-semana sigue en la semana del 26/10 (casi todo pasado; solo Arteba hasta el 1/11). La de noviembre trae Callejón, Noche de los Museos, FUTCON y Creamfields (ya cargado desde otras fuentes); no se leyeron los ítems del 6 en adelante (Buenos Aires Rojo Sangre, República Folklore, Primavera Sound)."
    ],
    "comportamiento": {
-    "extraccion": "get_page_text solo devuelve el primer ítem: guardar el innerText del body en un <article> fijo (position:fixed) agregado al DOM y leerlo con get_page_text",
+    "extraccion": "la agenda mensual muestra solo ~5 ítems en la primera mitad del texto; main.innerText se vuelca en un <article> fijo y se lee con get_page_text",
     "uso": "También sirve para descubrir espacios nuevos (sitios_nuevos).",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "popups": "Ventana de newsletter: botón 'No, gracias'.",
@@ -165,10 +186,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 5,
-     "paginas": 1
+     "eventos": 4,
+     "paginas": 2
     }
    },
    "historial": [
@@ -189,13 +210,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 5
-    }
-   ],
-   "enlaces_pendientes": [
+    },
     {
-     "url": "https://www.timeout.com/es/buenos-aires/que-hacer-este-mes-agenda",
-     "texto": "",
-     "desde": "2026-10-19"
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 4
     }
    ]
   },
@@ -212,10 +232,11 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
     "2026-10-14 [web] 311 eventos en la ventana; 189 de CABA culturales o de ocio cargados.",
     "2026-10-19 [web] 2026-10-19: 12 páginas del listado, 74 eventos únicos; se cargaron los culturales de CABA en la ventana. Se descartaron congresos, cursos de RCP, marketing y eventos online.",
-    "2026-10-24 [web] 2026-10-24: 16 páginas del listado (24/10 al 7/11), 310 eventos únicos; se cargaron 116 culturales o de ocio de CABA. Se descartaron congresos, cursos, retiros, spas, iglesias, escuela de huerta y eventos de otras ciudades. El JSON-LD de las fichas muestra precio 0 en muchos pagos: se dejó el precio vacío cuando daba 0."
+    "2026-10-24 [web] 2026-10-24: 16 páginas del listado (24/10 al 7/11), 310 eventos únicos; se cargaron 116 culturales o de ocio de CABA. Se descartaron congresos, cursos, retiros, spas, iglesias, escuela de huerta y eventos de otras ciudades. El JSON-LD de las fichas muestra precio 0 en muchos pagos: se dejó el precio vacío cuando daba 0.",
+    "2026-11-01 [web] 2026-11-01: 13 páginas del 1/11 al 14/11, ~250 eventos; se cargaron 78 culturales o de ocio de CABA (stand up, música, visitas guiadas, talleres de arte, fiestas). Descartados congresos, cursos, RCP, networking, intercambios de idiomas, meditación, catas de vino, eventos online y de otras ciudades. Precio vacío cuando el JSON-LD daba 0 (muchos pagos lo muestran así)."
    ],
    "comportamiento": {
-    "extraccion": "sin navegador: el JSON-LD de la página (scripts/sondear.py --corrida)",
+    "extraccion": "sin navegador: sondear.pedir de ?start_date=&end_date=&page=N (13 páginas, ~250 eventos con JSON-LD) y de cada ficha /e/<slug> para precio e imagen",
     "paginacion": "?page=N&start_date=AAAA-MM-DD&end_date=AAAA-MM-DD filtra la ventana; ~20 eventos nuevos por página, 16 páginas. Se puede hacer fetch de cada página desde la pestaña y leer el JSON-LD.",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "sin_fichas": "la ficha de Eventbrite no se abre: el JSON-LD del listado trae fecha, hora, sala y descripción",
@@ -227,10 +248,10 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 116,
-     "paginas": 16
+     "eventos": 78,
+     "paginas": 2
     }
    },
    "historial": [
@@ -257,6 +278,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 116
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 78
     }
    ],
    "enlaces_descartados": [
@@ -281,10 +308,11 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
     "2026-10-14 [web] 111 recitales en la ventana; 81 en salas de CABA (se descartaron La Plata, Córdoba, Rosario, conurbano y salas dudosas).",
     "2026-10-19 [web] 2026-10-19: 86 recitales en la ventana; se cargaron los de salas de CABA. Descartadas salas de La Plata, Haedo, Avellaneda, Rosario, Córdoba y Mendoza.",
-    "2026-10-24 [web] 2026-10-24: 71 recitales de salas de CABA del 24/10 al 7/11 (se descartaron La Plata, Rosario, Córdoba, Mar del Plata, Quilmes, Haedo, Burzaco y estadios del interior). Precio e imagen de la ficha de cada recital; la hora solo cuando la ficha la trae."
+    "2026-10-24 [web] 2026-10-24: 71 recitales de salas de CABA del 24/10 al 7/11 (se descartaron La Plata, Rosario, Córdoba, Mar del Plata, Quilmes, Haedo, Burzaco y estadios del interior). Precio e imagen de la ficha de cada recital; la hora solo cuando la ficha la trae.",
+    "2026-11-01 [web] 2026-11-01: 85 recitales del 1/11 al 14/11; 73 de salas de CABA (descartados La Plata, Rosario, Mar del Plata, Quilmes, Temperley, Haedo, Escobar y San Miguel). Precio vacío cuando el JSON-LD daba 0."
    ],
    "comportamiento": {
-    "extraccion": "sondear.py --leer https://indiehoy.com/eventos/ --max 200000 entrega los 311 recitales de ~12 meses con fecha, sala y enlace a la ficha; se filtran por ventana y se descartan salas fuera de CABA. Hora solo en la ficha.",
+    "extraccion": "sondear.pedir + texto_legible de /eventos/ (no redirigir stdout a un archivo en Windows: rompe los acentos); cada ficha /agenda/<slug>/ da precio, hora e imagen por JSON-LD",
     "ritmo": "Pausas de 2-4 s entre páginas y fichas, como una persona; si aparece captcha o 403, guardar como bloqueado.",
     "plataforma": "WordPress + Events Manager: lista única .em-events-list con encabezados de fecha ('Miércoles, 14 Octubre, 2026') y li.list-style-event (título, sala, beneficio). Trae ~10 meses en una sola página.",
     "fichas": "La ficha /agenda/<slug>/ trae en su JSON-LD el precio (offers.price, p. ej. 'Desde $75.000') y la imagen; abrirlas con sondear.pedir (HTTP) para completar precio e imagen."
@@ -294,9 +322,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 71,
+     "eventos": 73,
      "paginas": 1
     }
    },
@@ -324,6 +352,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 71
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 73
     }
    ],
    "enlaces_descartados": [
@@ -332,6 +366,18 @@
      "texto": "Comunidad",
      "motivo": "club de descuentos, no agenda",
      "fecha": "2026-10-24"
+    },
+    {
+     "url": "https://indiehoy.com/eventos/cordoba/",
+     "texto": "Córdoba",
+     "motivo": "recitales de Córdoba, fuera de CABA",
+     "fecha": "2026-11-01"
+    },
+    {
+     "url": "https://indiehoy.com/eventos/rosario/",
+     "texto": "Rosario",
+     "motivo": "recitales de Rosario, fuera de CABA",
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -348,7 +394,8 @@
     "2026-10-15: habilitado para rastrear con el navegador (decisión del usuario)",
     "2026-10-14 [web] 202 enlaces; ~40 con funciones en la ventana; 25 en CABA (el resto Rosario, Córdoba, Mendoza, conurbano).",
     "2026-10-20 [web] 2026-10-20: 170 enlaces entre portada y categorías; 25 con funciones en la ventana en CABA (el resto: Rosario, Maipú, Córdoba, Mar del Plata, otras fechas). Godot, Mafalda y Casa de la Cultura sin funciones sueltas: rangos de la compra.",
-    "2026-10-24 [web] 2026-10-24: ~100 espectáculos en portada y categorías; 20 con funciones en CABA entre el 24/10 y el 7/11. Godot, Mafalda y otros sin funciones sueltas: rangos de la compra. Páginas de artista sin sala (Hilda Lizarazu, Elena Roger, Hairspray…) no se abrieron."
+    "2026-10-24 [web] 2026-10-24: ~100 espectáculos en portada y categorías; 20 con funciones en CABA entre el 24/10 y el 7/11. Godot, Mafalda y otros sin funciones sueltas: rangos de la compra. Páginas de artista sin sala (Hilda Lizarazu, Elena Roger, Hairspray…) no se abrieron.",
+    "2026-11-01 [web] 2026-11-01: 138 enlaces entre portada y 4 categorías; 72 en salas de CABA (Opera, Coliseo, Colón, Avenida, Auditorio de Belgrano, Comedia, San Martín, Regio, Devoto, Tropitango, Recoleta, Hipódromo); 25 con funciones entre el 1/11 y el 14/11. Godot, Mafalda y Casa de la Cultura no traen funciones sueltas (rango de compra); las páginas de artista sin sala (Hilda Lizarazu, Elena Roger, Fátima Florez, Hairspray…) no se abrieron."
    ],
    "comportamiento": {
     "extraccion": "La API prod-cms-api.ticketek.com.ar (node?path=<obra>--<sala>) responde por HTTP sin navegador (urllib con User-Agent); los enlaces /<obra>/<sala> salen de la portada y de las 4 categorías (hay que renderizarlas en el navegador). data-performances.date es la hora local leída como UTC.",
@@ -356,7 +403,7 @@
     "plataforma": "App Angular; el HTML no trae datos. Juntar enlaces /<obra>/<sala> de portada y categorías (guardarlos en localStorage entre páginas).",
     "pendiente": "Las páginas de artista (/<artista>, 19) llevan a varias salas: no se abrieron.",
     "api": "GET https://prod-cms-api.ticketek.com.ar/api/1.0/node%3Fpath%3D<obra>--<sala> (el ? va codificado %3F y = como %3D; urllib con User-Agent funciona). data-performances.date es la hora local leída como UTC.",
-    "enlaces": "los href de las tarjetas son relativos sin barra inicial (obra/sala): filtrar con /^[^/]+(\\/[^/]+)?$/ sobre getAttribute('href'); guardarlos en localStorage entre páginas y sacarlos con un <article> fijo + get_page_text"
+    "enlaces": "portada y categorías se recorren en el navegador guardando los href obra/sala en localStorage de ticketek.com.ar (se sacan con un <article> fijo y get_page_text); luego cada obra/sala se lee por la API sin navegador"
    },
    "entradas": [
     "https://www.ticketek.com.ar/musica",
@@ -366,9 +413,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 20,
+     "eventos": 25,
      "paginas": 5
     }
    },
@@ -390,6 +437,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 20
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 25
     }
    ],
    "enlaces_descartados": [
@@ -397,7 +450,7 @@
      "url": "https://www.ticketek.com.ar/deportes",
      "texto": "Deportes",
      "motivo": "deportes, fuera de alcance",
-     "fecha": "2026-10-24"
+     "fecha": "2026-11-01"
     }
    ]
   },
@@ -23620,7 +23673,7 @@
    "instagram": "",
    "origen": "agregado el 2026-10-15 (fiestas y electrónica)",
    "comportamiento": {
-    "extraccion": "La lista no carga más al scrollear. Usar la API: POST https://ra.co/graphql (desde la pestaña de ra.co) con eventListings(filters:{areas:{eq:395},listingDate:{gte,lte}},pageSize:100): trae título, horario, club y dirección.",
+    "extraccion": "graphql eventListings area 395 desde la pestaña de ra.co; la salida se muestra en un <article> fijo y se lee con get_page_text (images[0].filename da https://images.ra.co/<filename>)",
     "ritmo": "Pausas de 2-4 s entre páginas; si aparece captcha, guardar como bloqueado.",
     "uso": "Los clubes y productoras de CABA que aparezcan y no estén en la lista van en sitios_nuevos (club = lugar; productora o fiesta itinerante = agregador).",
     "area": "Buenos Aires = área 395 (incluye provincia: filtrar Cardales, Ezeiza, Pilar).",
@@ -23634,13 +23687,14 @@
     "2026-10-14 [web] 29 eventos en la ventana; 25 en CABA. Clubes que faltan en la lista: Crobar, Blow, Under Club, La Nube, Avant Garten, The Sub, TCQ, Dune Park, Blue Velvet, Kinzen Tea House (pendiente sumarlos).",
     "2026-10-19 [web] 2026-10-19: API graphql area 395, 29 eventos en la ventana; 24 en CABA cargados (sin precio; excluidos Ezeiza, La Plata y HOT HALLOWEEN sin ficha). Clubes a sumar: Crobar, Blow, Under Club, The Sub, Dune Park, AMK Club, Casa Futuro, La Greco.",
     "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (24 de 24 eventos).",
-    "2026-10-24 [web] 2026-10-24: API graphql área 395, 39 eventos del 24/10 al 7/11; 33 de CABA cargados (excluidos Ezeiza, La Plata, Villa Ballester y duplicados). Sin precio."
+    "2026-10-24 [web] 2026-10-24: API graphql área 395, 39 eventos del 24/10 al 7/11; 33 de CABA cargados (excluidos Ezeiza, La Plata, Villa Ballester y duplicados). Sin precio.",
+    "2026-11-01 [web] 2026-11-01: API graphql área 395, 25 eventos del 1/11 al 14/11; 18 de CABA con sala conocida cargados (excluidos La Plata, Villa Ballester y fiestas con ubicación secreta o TBA). Sin precio. Hora vacía cuando RA da 23:59 (marcador)."
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 33,
+     "eventos": 18,
      "paginas": 1
     }
    },
@@ -23668,6 +23722,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 33
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 18
     }
    ]
   },
@@ -27824,14 +27884,15 @@
     "2026-10-15: agenda nacional de fiestas electrónicas con club y barrio",
     "2026-10-15 [web] Agenda nacional: filtrar por barrio de CABA. El 15 a 18 tienen cobertura parcial acá (Buenos Aliens cubre el resto).",
     "2026-10-19 [web] 2026-10-19: ~168 fiestas del país en la ventana; se cargaron las de CABA con sala y barrio en la tarjeta (sin hora). Se saltearon tarjetas sin sala.",
-    "2026-10-24 [web] 2026-10-24: ~255 tarjetas del país hasta el 8/11; 108 fiestas con sala y barrio de CABA del 24/10 al 7/11, con hora y precio leídos de cada ficha. Se saltearon tarjetas sin barrio de CABA claro. Imagen: el flyer de la tarjeta (fondo CSS, URL real en el parámetro url del proxy de imágenes)."
+    "2026-10-24 [web] 2026-10-24: ~255 tarjetas del país hasta el 8/11; 108 fiestas con sala y barrio de CABA del 24/10 al 7/11, con hora y precio leídos de cada ficha. Se saltearon tarjetas sin barrio de CABA claro. Imagen: el flyer de la tarjeta (fondo CSS, URL real en el parámetro url del proxy de imágenes).",
+    "2026-11-01 [web] 2026-11-01: 77 de ~210 tarjetas del país hasta el 14/11 tienen sala y barrio de CABA; se cargaron 77. Se saltearon tarjetas sin barrio claro (ubicación secreta, solo dirección)."
    ],
    "entradas": [
     "https://jodify.com.ar/events"
    ],
    "comportamiento": {
     "scroll": "scroll infinito: bajar con window.scrollTo hasta ver el 3 de noviembre (~440 fiestas de todo el país en total)",
-    "extraccion": "el ancla /event/<uuid> es un overlay vacío: el texto de la tarjeta está en el contenedor que contiene un solo enlace; el h2 anterior da la fecha",
+    "extraccion": "cada fiesta es un li dentro del ul que sigue a cada h2 de fecha: líneas lineup, 'Sala - Barrio', géneros, precio; fichas /event/<uuid> con fetch desde la pestaña (JSON-LD con hora y precio); volcado por POST a 127.0.0.1 con permiso de red local concedido para jodify.com.ar",
     "salida": "los resultados de javascript_tool se cortan en ~1000 caracteres: extraer en tandas",
     "sin_fichas": "no se abrieron las fichas: line up, sala y precio salen de la tarjeta",
     "plataforma": "no sondeable por HTTP (403); usar navegador",
@@ -27847,9 +27908,9 @@
    ],
    "ultimo": {
     "web": {
-     "fecha": "2026-10-24",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 108,
+     "eventos": 77,
      "paginas": 1
     }
    },
@@ -27883,6 +27944,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 108
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 77
     }
    ]
   },
