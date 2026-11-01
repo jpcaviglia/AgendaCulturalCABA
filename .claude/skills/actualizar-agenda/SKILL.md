@@ -713,10 +713,9 @@ already saved. If the push fails twice, leave the commit local and report it.
 
 ## 7. Close
 
-When `siguiente` says the queue is empty (or only SalePlan is left):
+SalePlan does not wait for the Instagram profiles: run `python scripts/saleplan.py` at the end of every session once the websites of the queue are done, even if profiles are still `pospuesto`. The rest of this section (duplicates, pictures, `cerrar`) waits until the queue is empty:
 
 ```bash
-python scripts/saleplan.py
 python scripts/armar_agenda.py
 python scripts/duplicados.py candidatos
 ```

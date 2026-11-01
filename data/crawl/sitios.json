@@ -534,7 +534,8 @@
     "2026-10-14 [web] 615 planes de CABA en los listados; se leyeron 220 fichas por el límite de ritmo.",
     "2026-10-15 [web] scripts/saleplan.py: 1655 tarjetas de CABA en la ventana, 992 ya cubiertas por otras fuentes, 663 guardadas sin lugar.",
     "2026-10-20 [web] scripts/saleplan.py: 1657 tarjetas de CABA en la ventana, 1334 ya cubiertas por otras fuentes, 323 guardadas sin lugar.",
-    "2026-10-22 [web] scripts/saleplan.py: 1654 tarjetas de CABA en la ventana, 1321 ya cubiertas por otras fuentes, 333 guardadas sin lugar."
+    "2026-10-22 [web] scripts/saleplan.py: 1654 tarjetas de CABA en la ventana, 1321 ya cubiertas por otras fuentes, 333 guardadas sin lugar.",
+    "2026-11-01 [web] scripts/saleplan.py: 1210 tarjetas de CABA en la ventana, 868 ya cubiertas por otras fuentes, 342 guardadas sin lugar."
    ],
    "entradas": [
     "https://saleplan.ar/buenos-aires/eventos?page=1",
@@ -550,10 +551,10 @@
    },
    "ultimo": {
     "web": {
-     "fecha": "2026-10-22",
+     "fecha": "2026-11-01",
      "estado": "con_eventos",
-     "eventos": 333,
-     "paginas": 81
+     "eventos": 342,
+     "paginas": 62
     }
    },
    "historial": [
@@ -586,6 +587,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 333
+    },
+    {
+     "fecha": "2026-11-01",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 342
     }
    ],
    "lugar_opcional": true
