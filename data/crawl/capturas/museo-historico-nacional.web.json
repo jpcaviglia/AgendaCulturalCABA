@@ -3,7 +3,7 @@
  "canal": "web",
  "fuente": "Museo Histórico Nacional",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://museohistoriconacional.cultura.gob.ar/",
@@ -12,55 +12,21 @@
  ],
  "eventos": [
   {
-   "titulo": "Ine Crespo y Seba Dorso: dúo de música folclórica argentina",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "16:00",
+   "titulo": "Recorrido por la Reserva patrimonial",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "14:00",
    "horarios": "",
    "lugar": "Museo Histórico Nacional",
    "barrio": "San Telmo",
    "direccion": "Defensa 1600",
-   "categoria": "Música",
+   "categoria": "Visita guiada",
    "precio": "Gratis",
-   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/ine-crespo-y-seba-dorso/",
-   "descripcion": "Dúo de música folclórica argentina en el Auditorio del museo.",
+   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/recorridos-por-la-reserva-visitable-7/",
+   "descripcion": "Recorrido por la reserva visitable del museo, de 14 a 17:30 h. Entrada gratuita.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/dmus.jpg/dmus-1500x0-no-upscale.jpg"
-  },
-  {
-   "titulo": "Ciclo Musicátedras: Ensamble de Cellos del Conservatorio Manuel de Falla",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-10-25",
-   "hora": "16:00",
-   "horarios": "",
-   "lugar": "Museo Histórico Nacional",
-   "barrio": "San Telmo",
-   "direccion": "Defensa 1600",
-   "categoria": "Música",
-   "precio": "Gratis",
-   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/concierto-del-ensamble-de-cellos-del-conservatorio-manuel-de-falla/",
-   "descripcion": "El Ensamble de Cellos del Conservatorio Superior de Música Manuel de Falla estrena tres obras propias e interpreta obras de compositores argentinos y latinoamericanos.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/mf.jpg/mf-1500x0-no-upscale.jpg"
-  },
-  {
-   "titulo": "Sitka ensamble: cuarteto de guitarras",
-   "fecha_inicio": "2026-10-31",
-   "fecha_fin": "2026-10-31",
-   "hora": "16:00",
-   "horarios": "",
-   "lugar": "Museo Histórico Nacional",
-   "barrio": "San Telmo",
-   "direccion": "Defensa 1600",
-   "categoria": "Música",
-   "precio": "Gratis",
-   "url": "https://museohistoriconacional.cultura.gob.ar/actividad/sitka-ensamble/",
-   "descripcion": "Cuarteto de guitarras que interpreta música de compositores argentinos.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://museohistoriconacional.cultura.gob.ar/media/uploads/site-6/destacados/.thumbnails/en.png/en-1500x0-no-upscale.png"
+   "imagen": ""
   }
  ]
 }

@@ -113,6 +113,10 @@ not opened), `enlaces_descartados` (already seen not to be useful, with the reas
 `ultimo`. Read it before opening the site. Notes saying "el script viejo lo marcó ... NO es confiable" come
 from a checker that did not open the pages: ignore that conclusion and review the site thoroughly.
 
+`siguiente` always returns the head of the queue; a site that is slow or needs the browser (Passline, SalePlan) stays there, so to
+keep going take any other pending site by its id with `crawl.py ver <id>` and save it normally. Sites whose probe class is `html` have their
+text in `data/crawl/local/textos/<id>.txt`: `grep` it for the window's dates before reading it whole.
+
 If the site has `sondeo`, follow its `pista` before opening the browser. With `clase: html`, read the
 `texto` file (it has the site's links as `texto [url]`) and load the events from there; the `paginas_agenda`
 read go in `urls_visitadas` and `enlaces_candidatos` (`visitado: true`). Open the browser only for what the
@@ -151,7 +155,19 @@ which prints the status, the page's JSON-LD events and the text with the links. 
 - the Ministry of Culture museum platform (`museo<x>.cultura.gob.ar`: Rojas, Mitre, Sarmiento, Malvinas, Histórico
   Nacional) answers over HTTP: `/actividades/` lists the fichas and each ficha has `¿Cuándo?`, `Horario` and
   `Entrada`; `/exhibiciones/` mixes current, permanent and past, so only an exhibition with a closing date is
-  loaded. Run `scripts/imagenes.py <id>` afterwards for the pictures (CSS background);
+  loaded. `python scripts/museos_cultura.py actividades <url> --desde AAAA-MM-DD --hasta AAAA-MM-DD` and
+  `... exhibiciones <url>` read both. Run `scripts/imagenes.py <id>` afterwards for the pictures (CSS background);
+- some pages of `buenosaires.gob.ar/gcaba_historico/...` (Museo Sivori, 2026-11-01) answer 403 over HTTP and 'Acceso denegado' in the browser:
+  save the web as `bloqueado` (the Instagram is queued) and say so in the evidence; the museum info blocks (`Información general`: hours,
+  price, guided tours) of other museums (Gardel, Saavedra) still read fine with `sondear.py --leer`;
+- Alpogo (`alpogo.com/buscar?busqueda=<venue>`: Club Cultural Bula) lists title, day, hour and `Comprar desde $N` over HTTP and each
+  `/evento/<slug>-<id>` has `og:image`; Venti, Enigma Tickets and Passline links of a Linktree: Venti reads (JSON-LD), Enigma has only text
+  (`Jue 05/11 21:00hs`), Passline answers 403;
+- a venue site that prints each show with its day and hour in the link text (teatrocoliseo.org.ar `/cartelera/`, nicetoclub.com `/agenda/`
+  with `section.day-section[data-date]` > `div.event-card`) is read with `sondear.pedir` and a regex; the price is in each ficha;
+- the Complejo Teatral de Buenos Aires (`complejoteatral.gob.ar/agenda/`) lists theatres, dance, music, photo galleries and the Sala Lugones
+  cinema in one page: crawl it as `complejo-teatral-de-buenos-aires` (stage) and `sala-lugones` (cinema); each `/produccion/<slug>/`
+  gives `Valor de las localidades` and the picture;
 - the Buenos Aires City museums (`buenosaires.gob.ar/gcaba_historico/cultura/museos/...`) publish their
   activities as news cards whose links are not in the text: open the page in the browser and `fetch()` each
   news item from there, or search for the permanent guided tours (weekday and hour) in the "Información

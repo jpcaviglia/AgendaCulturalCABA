@@ -3,31 +3,46 @@
  "canal": "web",
  "fuente": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://gungur.com",
-  "https://gungur.com/eventos-o/",
-  "https://gungur.com/buenos-aires/",
-  "https://www.eventbrite.com/e/yoga-del-sur-de-india-kalaripayattu-tickets-2002731633227"
+  "https://gungur.com/eventos-o/"
  ],
  "eventos": [
   {
-   "titulo": "Yoga del Sur de la India & Kalaripayattu",
-   "fecha_inicio": "2026-10-30",
-   "fecha_fin": "2026-10-30",
-   "hora": "18:30",
+   "titulo": "DIWALI -Celebración del festival de las luces",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "",
+   "hora": "19:30",
    "horarios": "",
-   "lugar": "CENTRO CULTURAL DE LA INDIA GÜNGUR",
+   "lugar": "Centro Cultural de la India Güngur",
    "barrio": "Palermo",
-   "direccion": "José Antonio Cabrera 4175",
-   "categoria": "Taller",
-   "precio": "$ 20000",
-   "url": "https://www.eventbrite.com/e/yoga-del-sur-de-india-kalaripayattu-tickets-2002731633227",
-   "descripcion": "Encuentro de yoga del sur de la India y Kalaripayattu en el Centro Cultural Güngur y Thali, de 18:30 a 20:30 h.",
+   "direccion": "José A. Cabrera 4175",
+   "categoria": "Festival",
+   "precio": "$ 45000",
+   "url": "https://www.eventbrite.com/e/diwali-celebracion-del-festival-de-las-luces-tickets-2003837209034",
+   "descripcion": "Meditación y celebración de la luz - Danzas clásicas de la India. Cena en cinco pasos",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": ""
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196465799%2F310177297043%2F1%2Foriginal.20261023-191002?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.053&s=902f4b2a29261b78528f26fbc27f811d"
+  },
+  {
+   "titulo": "Danzas en honor a Shiva por Natalia Salgado",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "Centro Cultural de la India Güngur",
+   "barrio": "Palermo",
+   "direccion": "José A. Cabrera 4175",
+   "categoria": "Danza",
+   "precio": "$ 38000",
+   "url": "https://www.eventbrite.com/e/danzas-en-honor-a-shiva-por-natalia-salgado-tickets-2004104895692",
+   "descripcion": "- Danza clásica y gastronomía de la India -",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196906652%2F310177297043%2F1%2Foriginal.20261030-033841?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31a93010f9ae1feda4608dd236fa52de"
   }
  ]
 }

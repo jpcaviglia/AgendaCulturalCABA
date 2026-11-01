@@ -3,46 +3,65 @@
  "canal": "web",
  "fuente": "Museo Casa de Ricardo Rojas",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
+  "https://museorojas.cultura.gob.ar/",
   "https://museorojas.cultura.gob.ar/actividades/",
-  "https://museorojas.cultura.gob.ar/exhibiciones/"
+  "https://museorojas.cultura.gob.ar/exhibiciones/",
+  "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/"
  ],
  "eventos": [
+  {
+   "titulo": "La noche de los museos 2026: noche de enigmas en el Museo Casa de Ricardo Rojas",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "lugar": "Museo Casa de Ricardo Rojas",
+   "barrio": "Recoleta",
+   "direccion": "Charcas 2837",
+   "categoria": "Museos",
+   "precio": "Gratis",
+   "url": "https://museorojas.cultura.gob.ar/actividad/la-noche-de-los-museos-2026-noche-de-enigmas-en-el-museo-casa-de-ricardo-rojas/",
+   "descripcion": "Propuesta del museo para La Noche de los Museos, de 19 a 23:59 h, con entrada gratuita.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
   {
    "titulo": "Enigmático rostro: dibujos, bocetos y grafías en los papeles de Ricardo Rojas",
    "fecha_inicio": "2026-08-14",
    "fecha_fin": "2026-12-31",
    "hora": "",
-   "horarios": "Martes a sábado de 11 a 19 h",
+   "horarios": "Martes a sábados de 11 a 19 h",
    "lugar": "Museo Casa de Ricardo Rojas",
-   "barrio": "Palermo",
+   "barrio": "Recoleta",
    "direccion": "Charcas 2837",
    "categoria": "Artes visuales",
    "precio": "Gratis",
    "url": "https://museorojas.cultura.gob.ar/exhibicion/enigmatico-rostro/",
-   "descripcion": "Exhibición temporaria sobre los rostros que Ricardo Rojas dibujó de sí mismo y de otros en sus papeles, manuscritos y libros: el dibujo como forma de pensamiento y de construcción de la identidad.",
+   "descripcion": "Exhibición con dibujos, bocetos y grafías de los papeles de Ricardo Rojas, del 14 de agosto al 31 de diciembre de 2026.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/er_-_portada.jpg/er_-_portada-1500x0-no-upscale.jpg"
+   "imagen": ""
   },
   {
-   "titulo": "Aventuras en el Patio de los Arquetipos",
+   "titulo": "Aventuras en el patio de los arquetipos",
    "fecha_inicio": "2026-08-14",
    "fecha_fin": "2026-12-31",
    "hora": "",
-   "horarios": "Martes a sábado de 11 a 19 h",
+   "horarios": "Martes a sábados de 11 a 19 h",
    "lugar": "Museo Casa de Ricardo Rojas",
-   "barrio": "Palermo",
+   "barrio": "Recoleta",
    "direccion": "Charcas 2837",
-   "categoria": "Infancias",
+   "categoria": "Infantil",
    "precio": "Gratis",
    "url": "https://museorojas.cultura.gob.ar/exhibicion/aventuras-en-el-patio-de-los-arquetipos/",
-   "descripcion": "Espacio Infancia: territorio de juego y exploración para chicos y chicas, que se suben al colectivo 'Doble RR' y encarnan roles de sabios, héroes, creadores, rebeldes o magos.",
+   "descripcion": "Propuesta de construcción de memoria colectiva para niños y familias, del 14 de agosto al 31 de diciembre de 2026.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://museorojas.cultura.gob.ar/media/uploads/site-3/destacados/.thumbnails/002-rojasdaniel_duhau.jpg/002-rojasdaniel_duhau-1500x0-no-upscale.jpg"
+   "imagen": ""
   }
  ]
 }

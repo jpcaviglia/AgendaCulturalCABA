@@ -3,46 +3,30 @@
  "canal": "web",
  "fuente": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
   "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra",
-  "https://buenosaires.gob.ar/gcaba_historico/noticias/sala-de-ensayo-con-la-escuela-de-musica-ndeg-09-en-el-museo-saavedra"
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente",
+  "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente/exposiciones-temporarias"
  ],
  "eventos": [
   {
-   "titulo": "Cuentos al patio: narraciones orales en el Museo Saavedra",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "17:00",
-   "horarios": "",
-   "lugar": "Museo Histórico Cornelio de Saavedra",
+   "titulo": "La forma de las palabras. Herramientas, usos y espacios de escritura en el siglo XIX",
+   "fecha_inicio": "2026-07-01",
+   "fecha_fin": "2026-12-31",
+   "hora": "",
+   "horarios": "Lunes, miércoles, jueves y viernes de 11 a 19 h; sábados, domingos y feriados de 11 a 20 h (martes cerrado)",
+   "lugar": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
    "barrio": "Saavedra",
    "direccion": "Crisólogo Larralde 6309",
-   "categoria": "Literatura",
-   "precio": "",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/celebramos-el-mes-de-las-personas-adultas-mayores-en-el-museo-saavedra",
-   "descripcion": "Los Cuenteros de la Escuela de la Palabra comparten una jornada de narraciones orales en el jardín del museo.",
+   "categoria": "Artes visuales",
+   "precio": "$ 2000",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosaavedra/exposicion-permanente/exposiciones-temporarias",
+   "descripcion": "Exposición temporaria sobre las herramientas, los usos y los espacios de escritura en el siglo XIX, de julio a diciembre de 2026. Entrada $2.000 para residentes ($10.000 público general); gratis los miércoles para residentes argentinos.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/Gemini_Generated_Image_mbnihqmbnihqmbni.jpg"
-  },
-  {
-   "titulo": "Sala de Ensayo con la Escuela de Música N° 9 en el Museo Saavedra",
-   "fecha_inicio": "2026-10-26",
-   "fecha_fin": "2026-10-26",
-   "hora": "17:30",
-   "horarios": "",
-   "lugar": "Museo Histórico Cornelio de Saavedra",
-   "barrio": "Saavedra",
-   "direccion": "Crisólogo Larralde 6309",
-   "categoria": "Música",
-   "precio": "",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/sala-de-ensayo-con-la-escuela-de-musica-ndeg-09-en-el-museo-saavedra",
-   "descripcion": "Estudiantes y docentes de la Escuela de Música N° 9 de Villa Urquiza presentan su orquesta y su coro en una presentación abierta a la comunidad.",
-   "vigente_sin_fin": false,
-   "post": "",
-   "imagen": "https://static.buenosaires.gob.ar/sites/default/files/2026-10/File.jpg"
+   "imagen": ""
   }
  ]
 }

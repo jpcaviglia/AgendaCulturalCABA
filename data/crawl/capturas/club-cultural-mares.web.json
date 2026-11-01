@@ -3,29 +3,28 @@
  "canal": "web",
  "fuente": "CLUB CULTURAL MARES",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://linktr.ee/mares_",
-  "https://citritickets.com.ar/evento?id=728b4027-02db-4dad-a112-87439eeb28b6&occurrence=2dec21d2-4ad8-487d-855a-9fa177fdc5ab"
+  "https://linktr.ee/mares_"
  ],
  "eventos": [
   {
-   "titulo": "Nosferatu (1922) con música en vivo de El Juego Infinito",
-   "fecha_inicio": "2026-10-31",
-   "fecha_fin": "2026-10-31",
+   "titulo": "La Sangre Ríe presenta: Corre, Lola, corre (1998) de Tom Tykwer",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
    "hora": "21:00",
    "horarios": "",
    "lugar": "Club Cultural Mares",
-   "barrio": "Palermo",
-   "direccion": "El Salvador 5958",
+   "barrio": "",
+   "direccion": "",
    "categoria": "Cine",
-   "precio": "Desde $ 18000",
-   "url": "https://citritickets.com.ar/evento?id=728b4027-02db-4dad-a112-87439eeb28b6&occurrence=2dec21d2-4ad8-487d-855a-9fa177fdc5ab",
-   "descripcion": "Proyección en pantalla gigante de Nosferatu (F. W. Murnau, 1922) con música en vivo del ensamble El Juego Infinito (violín y electrónica, guitarra y looping, sintetizador).",
+   "precio": "",
+   "url": "https://www.passline.com/eventos/la-sangre-rie-presenta-corre-lola-corre-1998-de-tom-tykwer-1411-21hs-en-mares",
+   "descripcion": "Función del ciclo de cine osado La Sangre Ríe en Mares, nave contracultural: Corre, Lola, corre (1998) de Tom Tykwer, sábado 14/11 a las 21 h.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://nqjvdjakoecdhrmhqkis.supabase.co/storage/v1/object/public/event-images/e71ddfc9-116b-4792-89d0-e44898dac990/1787321315473-Nosferatu-Horizontal.jpg"
+   "imagen": ""
   }
  ]
 }

@@ -3,47 +3,46 @@
  "canal": "web",
  "fuente": "ZELAYA",
  "tipo": "lugar",
- "fecha": "2026-10-22",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
   "http://www.alternativateatral.com/espacio5099-zelaya",
-  "http://www.alternativateatral.com/obra95423-el-trabajo",
-  "http://www.alternativateatral.com/obra101121-la-tristeza"
+  "http://www.alternativateatral.com/eventos.asp"
  ],
  "eventos": [
   {
    "titulo": "El trabajo",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-10-31",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-14",
    "hora": "20:00",
-   "horarios": "Viernes 20:00 hs (hasta el 30/10 y del 06/11 al 27/11). Sábado 20:00 hs (hasta el 31/10 y del 07/11 al 28/11)",
-   "lugar": "ZELAYA",
-   "barrio": "",
-   "direccion": "",
+   "horarios": "Viernes y sábados 20 h",
+   "lugar": "Zelaya",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3134",
    "categoria": "Teatro",
    "precio": "",
    "url": "http://www.alternativateatral.com/obra95423-el-trabajo",
-   "descripcion": "Inspirada en los talleres que Federico León lleva adelante desde hace 15 años, el director se pone en escena para experimentar su propia práctica docente.",
+   "descripcion": "Obra en cartel en Zelaya (Zelaya 3134), viernes a las 20 h según la página del espacio en Alternativa Teatral.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/99/000298099.jpg"
+   "imagen": ""
   },
   {
    "titulo": "La tristeza",
-   "fecha_inicio": "2026-10-25",
-   "fecha_fin": "2026-11-01",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "",
    "hora": "19:00",
-   "horarios": "Domingo 19:00 hs (hasta el 01/11)",
-   "lugar": "ZELAYA",
-   "barrio": "",
-   "direccion": "",
+   "horarios": "",
+   "lugar": "Zelaya",
+   "barrio": "Balvanera",
+   "direccion": "Zelaya 3134",
    "categoria": "Teatro",
    "precio": "$ 25000",
    "url": "http://www.alternativateatral.com/obra101121-la-tristeza",
-   "descripcion": "Obra en cartel los domingos en Zelaya, sala del Abasto.",
+   "descripcion": "Obra en cartel en Zelaya (Zelaya 3134), domingos a las 19 h; última función el 1 de noviembre.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000319301.jpg"
+   "imagen": ""
   }
  ]
 }
