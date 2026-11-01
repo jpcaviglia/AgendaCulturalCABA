@@ -362,7 +362,12 @@
   "museo-de-arte-popular-jose-hernandez|instagram",
   "museo-de-artes-plasticas-eduardo-sivori|instagram",
   "museo-malvinas-e-islas-del-atlantico-sur|instagram",
-  "jaciento-oviedo|instagram"
+  "jaciento-oviedo|instagram",
+  "tcq|instagram",
+  "cine-club-farus|instagram",
+  "club-conjura|instagram",
+  "museo-del-holocausto-de-buenos-aires|instagram",
+  "centro-cultural-ricardo-rojas|instagram"
  ],
  "hechos": {
   "centro-cultural-borges|web": "con_eventos",
@@ -576,8 +581,37 @@
   "museo-etnografico-juan-b-ambrosetti|web": "con_eventos",
   "museo-historico-de-buenos-aires-cornelio-de-saavedra|web": "con_eventos",
   "la-ronda-espacio-cultural|web": "sin_eventos",
-  "passline|web": "con_eventos"
+  "passline|web": "con_eventos",
+  "teatro-vorterix|web": "con_eventos",
+  "otra-historia|web": "con_eventos",
+  "vidriera-ba|web": "con_eventos",
+  "cine-gaumont-espacio-incaa|web": "con_eventos",
+  "espacio-incaa-atlas-flores|web": "con_eventos",
+  "cultural-moran|web": "con_eventos",
+  "strummer-bar|web": "con_eventos",
+  "tcq|web": "sin_eventos",
+  "teatro-gran-rex|web": "con_eventos",
+  "la-vieja-guardia|web": "con_eventos",
+  "sigue-la-polilla|web": "con_eventos",
+  "cine-club-farus|web": "sin_eventos",
+  "el-jufre-teatro-bar|web": "con_eventos",
+  "espacio-simona|web": "con_eventos",
+  "espacio-la-tribu|web": "con_eventos",
+  "poncho-club-cultural|web": "con_eventos",
+  "club-conjura|web": "dominio_caido",
+  "la-minga-club-cultural|web": "con_eventos",
+  "museo-del-holocausto-de-buenos-aires|web": "sin_eventos",
+  "centro-cultural-ricardo-rojas|web": "no_carga",
+  "centro-social-y-cultural-casa-cambalache|web": "con_eventos",
+  "club-cultural-matienzo|web": "con_eventos",
+  "centro-cultural-macedonia|web": "con_eventos",
+  "club-social-911|web": "con_eventos",
+  "la-paz-arriba|web": "con_eventos",
+  "la-casa-del-arbol|web": "con_eventos",
+  "el-galpon-de-guevara|web": "con_eventos",
+  "casona-cultural-humahuaca|web": "con_eventos",
+  "centro-cultural-thames|web": "con_eventos"
  },
  "sitios_nuevos": [],
- "eventos": 2262
+ "eventos": 2465
 }

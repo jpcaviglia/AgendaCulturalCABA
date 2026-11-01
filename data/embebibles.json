@@ -623,6 +623,12 @@
   "fecha": "2026-10-15",
   "url": "https://www.latrastienda.com/"
  },
+ "laviejaguarida.com.ar": {
+  "ok": true,
+  "motivo": "",
+  "fecha": "2026-11-01",
+  "url": "https://www.laviejaguarida.com.ar/"
+ },
  "linda.buenosaires.gob.ar": {
   "ok": false,
   "motivo": "frame-ancestors 'none'",
@@ -886,6 +892,12 @@
   "motivo": "frame-ancestors lo permite",
   "fecha": "2026-10-15",
   "url": "https://pompapetriyasos.com.ar/eventos/lo-que-la-peste-nos-dejo/"
+ },
+ "ponchoteatro.com": {
+  "ok": false,
+  "motivo": "X-Frame-Options deny",
+  "fecha": "2026-11-01",
+  "url": "https://ponchoteatro.com/"
  },
  "proa.org": {
   "ok": true,

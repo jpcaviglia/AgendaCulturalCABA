@@ -3,47 +3,45 @@
  "canal": "web",
  "fuente": "LA VIEJA GUARDIA",
  "tipo": "lugar",
- "fecha": "2026-10-24",
+ "fecha": "2026-11-01",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.laviejaguarida.com.ar",
-  "https://www.alternativateatral.com.ar/obra98228-don-chicho",
-  "https://www.alternativateatral.com.ar/obra86001-retama-flamenco"
+  "https://www.laviejaguarida.com.ar/"
  ],
  "eventos": [
   {
-   "titulo": "Don Chicho: un grotesco argentino",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-31",
-   "hora": "20:30",
-   "horarios": "Sábados de octubre, 20:30 h (24 y 31/10)",
+   "titulo": "El hombre extinguido / ¿Quién ha visto a mi marido?",
+   "fecha_inicio": "2026-11-01",
+   "fecha_fin": "",
+   "hora": "18:30",
+   "horarios": "",
    "lugar": "La Vieja Guarida",
    "barrio": "Almagro",
    "direccion": "",
    "categoria": "Teatro",
    "precio": "",
-   "url": "https://www.alternativateatral.com.ar/obra98228-don-chicho",
-   "descripcion": "Grotesco argentino de Alberto Novión, dirección y adaptación de Gonzalo A. Villanueva.",
+   "url": "https://www.laviejaguarida.com.ar/",
+   "descripcion": "Dos obras en un solo espectáculo, domingo 1 de noviembre a las 18:30 en La Vieja Guarida.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000321725.jpg"
+   "imagen": ""
   },
   {
-   "titulo": "Retama Flamenco",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "2026-10-24",
-   "hora": "22:30",
-   "horarios": "Sábado 24 de octubre, 22:30 h",
+   "titulo": "Ciclo Petaca Vol. 3: 4 obras cortas para saborear brevemente",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "20:30",
+   "horarios": "Viernes de noviembre 20:30",
    "lugar": "La Vieja Guarida",
    "barrio": "Almagro",
    "direccion": "",
-   "categoria": "Música",
+   "categoria": "Teatro",
    "precio": "",
-   "url": "https://www.alternativateatral.com.ar/obra86001-retama-flamenco",
-   "descripcion": "Show de flamenco con profesionales del Río de la Plata que recrea la sensación de un tablao andaluz.",
+   "url": "https://www.laviejaguarida.com.ar/",
+   "descripcion": "Ciclo de cuatro obras cortas, los viernes de noviembre a las 20:30 en La Vieja Guarida.",
    "vigente_sin_fin": false,
    "post": "",
-   "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000279084.jpg"
+   "imagen": ""
   }
  ]
 }

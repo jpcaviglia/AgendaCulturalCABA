@@ -3,11 +3,29 @@
  "canal": "web",
  "fuente": "LA MINGA CLUB CULTURAL",
  "tipo": "lugar",
- "fecha": "2026-10-24",
- "estado": "sin_eventos",
+ "fecha": "2026-11-01",
+ "estado": "con_eventos",
  "urls_visitadas": [
   "https://linktr.ee/lamingacc",
   "https://ticketia.com.ar/events/la-minga-club-cultural"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Ale Forneiro - Hele Helft - Meme Abu Arab - Fran Alvarellos",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "",
+   "hora": "20:30",
+   "horarios": "",
+   "lugar": "La Minga Club Cultural",
+   "barrio": "",
+   "direccion": "Del Barco Centenera 1126",
+   "categoria": "Música",
+   "precio": "$ 10000",
+   "url": "https://ticketia.com.ar/event/ale-forneiro-hele-helft-meme-abu-arab-fran-alvarellos-a008",
+   "descripcion": "Show de Ale Forneiro, Hele Helft, Meme Abu Arab y Fran Alvarellos en La Minga Club Cultural, viernes 6 de noviembre a las 20:30.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": "https://ticketia.com.ar/img/events/418/6adf9d481395e.jpg"
+  }
+ ]
 }
