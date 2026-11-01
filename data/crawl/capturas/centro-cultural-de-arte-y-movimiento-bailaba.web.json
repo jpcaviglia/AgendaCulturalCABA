@@ -1,0 +1,48 @@
+{
+ "id": "centro-cultural-de-arte-y-movimiento-bailaba",
+ "canal": "web",
+ "fuente": "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!",
+ "tipo": "lugar",
+ "fecha": "2026-11-01",
+ "estado": "con_eventos",
+ "urls_visitadas": [
+  "https://www.bailaba.com.ar",
+  "https://www.bailaba.com.ar/noches-de-baile/"
+ ],
+ "eventos": [
+  {
+   "titulo": "Noche caribeña de baile (viernes)",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "23:00",
+   "horarios": "Viernes 23 h (clases previas de salsa y bachata)",
+   "lugar": "Centro Cultural de Arte y Movimiento BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "descripcion": "Noche de baile en el Salón BailaBA todos los viernes: el DJ pasa salsa y bachata hasta las 3 h, con clases previas de salsa y bachata.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  },
+  {
+   "titulo": "El Deseo: noche de tango, salsa y bachata (sábados)",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Sábados (clases previas de salsa, bachata, kizomba y tango)",
+   "lugar": "Centro Cultural de Arte y Movimiento BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "categoria": "Danza",
+   "precio": "",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "descripcion": "Noche de baile en el Salón BailaBA todos los sábados con salsa, bachata, kizomba y tango, y clases previas.",
+   "vigente_sin_fin": false,
+   "post": "",
+   "imagen": ""
+  }
+ ]
+}

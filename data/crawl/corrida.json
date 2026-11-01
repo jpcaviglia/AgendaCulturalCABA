@@ -367,7 +367,13 @@
   "cine-club-farus|instagram",
   "club-conjura|instagram",
   "museo-del-holocausto-de-buenos-aires|instagram",
-  "centro-cultural-ricardo-rojas|instagram"
+  "centro-cultural-ricardo-rojas|instagram",
+  "puerta-18|instagram",
+  "museo-judio-de-buenos-aires|instagram",
+  "asociacion-cultural-armenia|instagram",
+  "doup|instagram",
+  "espacio-moebius|instagram",
+  "nuestro-cine|instagram"
  ],
  "hechos": {
   "centro-cultural-borges|web": "con_eventos",
@@ -610,8 +616,27 @@
   "la-casa-del-arbol|web": "con_eventos",
   "el-galpon-de-guevara|web": "con_eventos",
   "casona-cultural-humahuaca|web": "con_eventos",
-  "centro-cultural-thames|web": "con_eventos"
+  "centro-cultural-thames|web": "con_eventos",
+  "movistar-arena|web": "con_eventos",
+  "centro-cultural-armoza|web": "con_eventos",
+  "centro-cultural-de-arte-y-movimiento-bailaba|web": "con_eventos",
+  "centro-cultural-de-la-ciencia|web": "con_eventos",
+  "c-complejo-art-media|web": "con_eventos",
+  "under-club|web": "con_eventos",
+  "la-tangente|web": "con_eventos",
+  "the-monkeys|web": "con_eventos",
+  "puerta-18|web": "no_cultural",
+  "museo-judio-de-buenos-aires|web": "sin_eventos",
+  "asociacion-cultural-armenia|web": "no_carga",
+  "doup|web": "no_cultural",
+  "universidad-catolica-de-buenos-aires|web": "no_cultural",
+  "espacio-moebius|web": "no_carga",
+  "time-out-arte|web": "sin_eventos",
+  "congo|web": "con_eventos",
+  "museo-de-la-ciudad|web": "con_eventos",
+  "casa-brandon|web": "con_eventos",
+  "nuestro-cine|web": "sin_agenda"
  },
  "sitios_nuevos": [],
- "eventos": 2465
+ "eventos": 2520
 }

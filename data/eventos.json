@@ -5,8 +5,8 @@
   "hasta": "2026-11-15"
  },
  "rastreo": {
-  "capturas": 433,
-  "con_eventos": 217
+  "capturas": 434,
+  "con_eventos": 214
  },
  "fuentes": [
   "ALIANZA FRANCESA",
@@ -24,6 +24,7 @@
   "Buenos Aliens",
   "C Complejo Art Media",
   "CAFF - CLUB ATLETICO FERNANDEZ FIERRO",
+  "CASA BRANDON",
   "CASA CULTURAL VICTOR JARA",
   "CASA DE LA CULTURA",
   "CASA DEL PUEBLO",
@@ -32,6 +33,7 @@
   "CASONA CULTURAL HUMAHUACA",
   "CENTRO CULTURAL 25 DE MAYO",
   "CENTRO CULTURAL ANIBAL TROILO",
+  "CENTRO CULTURAL ARMOZA",
   "CENTRO CULTURAL BORGES",
   "CENTRO CULTURAL COREANO",
   "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!",
@@ -140,7 +142,6 @@
   "Museo Histórico Nacional",
   "Museo Histórico Sarmiento",
   "Museo Histórico de Buenos Aires Cornelio de Saavedra",
-  "Museo Judío de Buenos Aires",
   "Museo Kosice",
   "Museo Mundial del Tango",
   "Museo Nacional de Arte Decorativo",
@@ -174,6 +175,7 @@
   "SalePlan: agenda de Ciudad de Buenos Aires",
   "Strummer Bar",
   "TEATRARTE",
+  "THE MONKEYS",
   "TIERRA VIOLETA",
   "Teatro Coliseo",
   "Teatro Colón",
@@ -181,8 +183,8 @@
   "Teatro Vorterix",
   "Ticketek",
   "Time Out Buenos Aires: Agenda",
-  "UNIVERSIDAD CATOLICA DE BUENOS AIRES",
   "USINA DEL ARTE",
+  "Under Club",
   "Vamos Feria",
   "Vidriera BA",
   "W Galería",
@@ -2806,31 +2808,6 @@
    "imagen": ""
   },
   {
-   "id": "ceabd29bc333",
-   "titulo": "Exposición: Objetos que cuentan historias",
-   "categoria": "Artes visuales",
-   "lugar": "UNIVERSIDAD CATOLICA DE BUENOS AIRES · Biblioteca Central, Hall",
-   "barrio": "Puerto Madero",
-   "direccion": "Moreau De Justo, Alicia Av. 1500",
-   "fecha_inicio": "2026-10-19",
-   "fecha_fin": "2026-11-19",
-   "hora": "",
-   "horarios": "Todos los días de 9 a 20 h",
-   "precio": "Consultar",
-   "descripcion": "Selección de objetos de cerámica, lítico, óseo y metal recuperados en sitios arqueológicos de la quebrada de La Cueva (NOA). Curaduría de Paola Ramundo y Verónica Parselis.",
-   "url": "https://uca.edu.ar/es/eventos/exposicion-objetos-que-cuentan-historias",
-   "dominio": "uca.edu.ar",
-   "estado": "En curso",
-   "lugar_verificado": "UNIVERSIDAD CATOLICA DE BUENOS AIRES",
-   "fuentes": [
-    "UNIVERSIDAD CATOLICA DE BUENOS AIRES"
-   ],
-   "lat": -34.611097,
-   "lng": -58.366215,
-   "embebible": true,
-   "imagen": ""
-  },
-  {
    "id": "1d8f70208766",
    "titulo": "Fantasía de valor",
    "categoria": "Artes visuales",
@@ -3407,31 +3384,6 @@
    "imagen": "https://vidriera.earth/susana-rodriguez.-historia-intima/images-1-.jpeg-reduced-l6ephj"
   },
   {
-   "id": "66cc948f5739",
-   "titulo": "Armá tu dinocráneo",
-   "categoria": "Taller",
-   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
-   "barrio": "Palermo",
-   "direccion": "Godoy Cruz 2270",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-11-07",
-   "hora": "16:00",
-   "horarios": "Viernes a las 16 h",
-   "precio": "Gratis",
-   "descripcion": "Taller para chicos de 6 a 14 años: armar una réplica del cráneo de un dinosaurio con materiales reciclados. Requiere retirar entrada una hora antes.",
-   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
-   "dominio": "argentina.gob.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Nacional Ferroviario",
-   "fuentes": [
-    "CENTRO CULTURAL DE LA CIENCIA"
-   ],
-   "lat": -34.58292,
-   "lng": -58.429423,
-   "embebible": false,
-   "imagen": "https://www.argentina.gob.ar/sites/default/files/dino-craneo-1-600x450.jpeg"
-  },
-  {
    "id": "a3d0c2d42afe",
    "titulo": "DAFA: Sara Facio y Alicia D'Amico",
    "categoria": "Artes visuales",
@@ -3455,81 +3407,6 @@
    "lng": "",
    "embebible": true,
    "imagen": ""
-  },
-  {
-   "id": "f21ed686ffe1",
-   "titulo": "Dibujos que cuentan",
-   "categoria": "Taller",
-   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
-   "barrio": "Palermo",
-   "direccion": "Godoy Cruz 2270",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-11-07",
-   "hora": "12:00",
-   "horarios": "Viernes y sábados de 12 a 16 h",
-   "precio": "Gratis",
-   "descripcion": "Taller de dibujo para todas las edades a cargo de Fernando Sassali y Luisa Torres, con consignas inspiradas en la ciencia.",
-   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
-   "dominio": "argentina.gob.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Nacional Ferroviario",
-   "fuentes": [
-    "CENTRO CULTURAL DE LA CIENCIA"
-   ],
-   "lat": -34.58292,
-   "lng": -58.429423,
-   "embebible": false,
-   "imagen": "https://www.argentina.gob.ar/sites/default/files/dibujos_que_cuentan-tallerc3.jpg"
-  },
-  {
-   "id": "d85ad1a9678a",
-   "titulo": "Punto Explora",
-   "categoria": "Artes visuales",
-   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
-   "barrio": "Palermo",
-   "direccion": "Godoy Cruz 2270",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-11-07",
-   "hora": "12:00",
-   "horarios": "Viernes y sábados de 12 a 18 h",
-   "precio": "Gratis",
-   "descripcion": "Espacio para primeras infancias con pintura, xilografía y bloques, con material fúngico en diálogo con Universo Funga.",
-   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
-   "dominio": "argentina.gob.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Nacional Ferroviario",
-   "fuentes": [
-    "CENTRO CULTURAL DE LA CIENCIA"
-   ],
-   "lat": -34.58292,
-   "lng": -58.429423,
-   "embebible": false,
-   "imagen": "https://www.argentina.gob.ar/sites/default/files/punto_explora-c3.jpg"
-  },
-  {
-   "id": "b32fe5522be9",
-   "titulo": "Universo Funga",
-   "categoria": "Artes visuales",
-   "lugar": "CENTRO CULTURAL DE LA CIENCIA",
-   "barrio": "Palermo",
-   "direccion": "Godoy Cruz 2270",
-   "fecha_inicio": "2026-10-23",
-   "fecha_fin": "2026-11-07",
-   "hora": "12:00",
-   "horarios": "Viernes y sábados de 12 a 18 h",
-   "precio": "Gratis",
-   "descripcion": "Biomateriales fúngicos, obras interactivas con inteligencia artificial y arte sonoro con hongos vivos (+13 años).",
-   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
-   "dominio": "argentina.gob.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Nacional Ferroviario",
-   "fuentes": [
-    "CENTRO CULTURAL DE LA CIENCIA"
-   ],
-   "lat": -34.58292,
-   "lng": -58.429423,
-   "embebible": false,
-   "imagen": "https://www.argentina.gob.ar/sites/default/files/imagenEncabezado/universo_funga_portada.jpg"
   },
   {
    "id": "ab549195ffd8",
@@ -3658,31 +3535,6 @@
    "imagen": ""
   },
   {
-   "id": "bc4394af3042",
-   "titulo": "Recorridos guiados por la exposición permanente del Museo de la Ciudad",
-   "categoria": "Artes visuales",
-   "lugar": "Museo de la Ciudad",
-   "barrio": "San Telmo",
-   "direccion": "Defensa 187",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "",
-   "hora": "15:30",
-   "horarios": "Miércoles, jueves y viernes 15.30 h",
-   "precio": "$ 2.000 residentes (gratis los miércoles para residentes argentinos); $ 10.000 público general",
-   "descripcion": "Visita guiada por la exposición permanente en Altos de Elorriaga, sede del museo en el Casco Histórico.",
-   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
-   "dominio": "buenosaires.gob.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
-   "fuentes": [
-    "Museo de la Ciudad"
-   ],
-   "lat": -34.609809,
-   "lng": -58.37217,
-   "embebible": false,
-   "imagen": ""
-  },
-  {
    "id": "59c8628fd5a9",
    "titulo": "Un bosque cerca del mar, de Carolina Romano",
    "categoria": "Artes visuales",
@@ -3705,31 +3557,6 @@
    "lat": -34.58821,
    "lng": -58.433394,
    "embebible": false,
-   "imagen": ""
-  },
-  {
-   "id": "777f8cae60b3",
-   "titulo": "Visitas guiadas al Museo Judío de Buenos Aires y al Templo Libertad",
-   "categoria": "Artes visuales",
-   "lugar": "Museo Judío de Buenos Aires",
-   "barrio": "San Nicolás",
-   "direccion": "Libertad 769",
-   "fecha_inicio": "2026-10-24",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "Martes y jueves 11 y 15 h (español e inglés)",
-   "precio": "Consultar",
-   "descripcion": "Visitas guiadas en español e inglés por la exposición permanente sobre la inmigración judía en la Argentina y por el Templo Libertad. Hay que reservar y presentar documento de identidad o pasaporte.",
-   "url": "https://museojudio.org.ar/",
-   "dominio": "museojudio.org.ar",
-   "estado": "En curso",
-   "lugar_verificado": "Museo Judío de Buenos Aires",
-   "fuentes": [
-    "Museo Judío de Buenos Aires"
-   ],
-   "lat": -34.599592,
-   "lng": -58.383894,
-   "embebible": true,
    "imagen": ""
   },
   {
@@ -7926,12 +7753,12 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-01",
+   "fecha_fin": "",
    "hora": "20:00",
-   "horarios": "Domingo 1/11, 20 h",
-   "precio": "Desde $ 20000",
+   "horarios": "",
+   "precio": "Consultar",
    "descripcion": "Ezequiel Borra + Grego Quiros en La Tangente.",
-   "url": "https://tickets.latangente.com.ar/musica/ezequiel-borra-grego-quiros",
+   "url": "https://tickets.latangente.com.ar/",
    "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -7941,7 +7768,7 @@
    "lat": -34.586595,
    "lng": -58.433079,
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32298/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "c79e15702c59",
@@ -8429,9 +8256,9 @@
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-01",
+   "fecha_fin": "",
    "hora": "",
-   "horarios": "Domingo 1/11",
+   "horarios": "",
    "precio": "Desde $ 50000",
    "descripcion": "Jesse & Joy en el Movistar Arena.",
    "url": "https://www.movistararena.com.ar/show/3b044269-7243-4ad6-b18f-b67b57a3f127",
@@ -8445,7 +8272,7 @@
    "lat": -34.59426,
    "lng": -58.448137,
    "embebible": false,
-   "imagen": "https://www.movistararena.com.ar/static/artistas/01C54_Jesse&Joy_FileFotoFichaListado"
+   "imagen": "https://indiehoy.com/wp-content/uploads/2026/05/jesse-y-joy-movistar.jpg"
   },
   {
    "id": "d1f0fc9ebdd3",
@@ -8498,18 +8325,18 @@
    "imagen": "https://imagenes.passline.com/eventos/-814154-rec.jpg"
   },
   {
-   "id": "b45543751362",
+   "id": "485ee838e979",
    "titulo": "Juano + Juan Bisso en vivo",
    "categoria": "Música",
-   "lugar": "CONGO",
+   "lugar": "Congo Club Cultural",
    "barrio": "Palermo",
-   "direccion": "Honduras 5329",
+   "direccion": "",
    "fecha_inicio": "2026-11-01",
-   "fecha_fin": "2026-11-01",
+   "fecha_fin": "",
    "hora": "21:00",
-   "horarios": "Domingo 1 de noviembre, 21 h",
-   "precio": "Desde $ 7500",
-   "descripcion": "Juano y Juan Bisso en vivo.",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Juano + Juan Bisso en vivo en Congo Club Cultural.",
    "url": "https://tickets.congoclubcultural.com.ar/musica/juano-juan-bisso-en-vivo",
    "dominio": "tickets.congoclubcultural.com.ar",
    "estado": "Próximo",
@@ -8517,10 +8344,10 @@
    "fuentes": [
     "CONGO"
    ],
-   "lat": -34.586499,
-   "lng": -58.433201,
+   "lat": "",
+   "lng": "",
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32310/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "95757fd03c83",
@@ -12887,6 +12714,31 @@
    "imagen": "https://imagenes.passline.com/eventos/-819712-rec.jpg"
   },
   {
+   "id": "d81be0c8064a",
+   "titulo": "Fotografía con celular",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural Armoza",
+   "barrio": "Villa Crespo",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-11-02",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "$ 1000",
+   "descripcion": "Taller de fotografía con celular en Armoza, lunes 2 de noviembre a las 20 h.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "2ccf61e3488c",
    "titulo": "Gala sinfónica Fundación Fleming",
    "categoria": "Música",
@@ -13576,9 +13428,9 @@
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-03",
-   "fecha_fin": "2026-11-03",
+   "fecha_fin": "",
    "hora": "",
-   "horarios": "Martes 3/11",
+   "horarios": "",
    "precio": "Desde $ 60000",
    "descripcion": "Bersuit Vergarabat en el Movistar Arena.",
    "url": "https://www.movistararena.com.ar/show/b6062578-f485-4191-bc02-8fb51a8f145f",
@@ -13592,7 +13444,7 @@
    "lat": -34.59426,
    "lng": -58.448137,
    "embebible": false,
-   "imagen": "https://www.movistararena.com.ar/static/artistas/5B855_BERSUIT_FileFotoFichaListado"
+   "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/bersuit-movistar.jpeg"
   },
   {
    "id": "5a6e1dc539af",
@@ -14552,6 +14404,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/33/000318833.jpg"
   },
   {
+   "id": "4575086edfb5",
+   "titulo": "BLESSD - EL PEOR HOMBRE DEL MUNDO TOUR",
+   "categoria": "Evento",
+   "lugar": "C Art Media",
+   "barrio": "",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "$ 100000",
+   "descripcion": "BLESSD - EL PEOR HOMBRE DEL MUNDO TOUR en C Art Media.",
+   "url": "https://www.passline.com/eventos/blessd-el-peor-hombre-del-mundo-tour",
+   "dominio": "passline.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Passline"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": "https://www.passline.com/imagenes/eventos/blessd-el-peor-hombre-del-mundo-tour-551252-rec.jpg"
+  },
+  {
    "id": "77fb7d7e61b4",
    "titulo": "Baja Killa + Kironimia + No Me Dejen Así",
    "categoria": "Música",
@@ -14559,12 +14436,12 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-04",
-   "fecha_fin": "2026-11-04",
+   "fecha_fin": "",
    "hora": "20:00",
-   "horarios": "Miércoles 4/11, 20 h",
-   "precio": "Desde $ 10000",
-   "descripcion": "Baja Killa + Kironimia + No Me Dejen Así en La Tangente.",
-   "url": "https://tickets.latangente.com.ar/musica/baja-killa-no-me-dejen-as-kironimia",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Baja Killa + Kironimia + No Me Dejen Así en La Tangente. Entradas agotadas.",
+   "url": "https://tickets.latangente.com.ar/",
    "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -14574,7 +14451,7 @@
    "lat": -34.586595,
    "lng": -58.433079,
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32366/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "bbcb81d13358",
@@ -14627,6 +14504,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/85/000321885.jpg"
   },
   {
+   "id": "8e9a2e5c8d1b",
+   "titulo": "Blessd",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Blessd en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "046850dba2cf",
    "titulo": "Blessd en Argentina",
    "categoria": "Música",
@@ -14650,32 +14552,6 @@
    "lng": -58.447937,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/blessd-argentina.jpg"
-  },
-  {
-   "id": "4575086edfb5",
-   "titulo": "Blessd: El peor hombre del mundo Tour",
-   "categoria": "Música",
-   "lugar": "C Art Media",
-   "barrio": "Chacarita",
-   "direccion": "Av. Corrientes 6271",
-   "fecha_inicio": "2026-11-04",
-   "fecha_fin": "2026-11-04",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Noche de reggaetón y trap urbano con Blessd en C Art Media.",
-   "url": "https://www.passline.com/eventos/blessd-el-peor-hombre-del-mundo-tour",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "C Complejo Art Media",
-    "Passline"
-   ],
-   "lat": -34.590607,
-   "lng": -58.447937,
-   "embebible": false,
-   "imagen": "https://www.passline.com/imagenes/eventos/blessd-el-peor-hombre-del-mundo-tour-551252-rec.jpg"
   },
   {
    "id": "c0a1fc541cd9",
@@ -14779,6 +14655,31 @@
    "imagen": ""
   },
   {
+   "id": "39bd80529e67",
+   "titulo": "Charla de terapia asistida por psicodélicos",
+   "categoria": "Literatura y charlas",
+   "lugar": "Centro Cultural Armoza",
+   "barrio": "Villa Crespo",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Charla en Armoza, miércoles 4 de noviembre a las 20 h.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "11b906291cdb",
    "titulo": "Ciclo cuadro a cuadro: ánima buenos aires",
    "categoria": "Cine",
@@ -14827,6 +14728,31 @@
    "lng": -58.425397,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/00/000312600.jpg"
+  },
+  {
+   "id": "d094aa015fe4",
+   "titulo": "Clase de salsa y bachata",
+   "categoria": "Danza",
+   "lugar": "Centro Cultural Armoza",
+   "barrio": "Villa Crespo",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Clase de salsa y bachata en Armoza, miércoles 4 de noviembre a las 20 h.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "f4f3612cc656",
@@ -15212,9 +15138,9 @@
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-04",
-   "fecha_fin": "2026-11-04",
+   "fecha_fin": "",
    "hora": "",
-   "horarios": "Miércoles 4/11",
+   "horarios": "",
    "precio": "Desde $ 60000",
    "descripcion": "Enrique Bunbury en el Movistar Arena.",
    "url": "https://www.movistararena.com.ar/show/6093d43c-1880-43c4-ba33-b506a18a7e5f",
@@ -15228,7 +15154,7 @@
    "lat": -34.59426,
    "lng": -58.448137,
    "embebible": false,
-   "imagen": "https://www.movistararena.com.ar/static/artistas/DB58F_EnriqueBunbury_FileFotoFichaListado"
+   "imagen": "https://indiehoy.com/wp-content/uploads/2026/03/bunbury-movistar.jpg"
   },
   {
    "id": "30603ca2f26a",
@@ -15323,6 +15249,7 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CASA BRANDON",
     "Passline"
    ],
    "lat": -34.601993,
@@ -15479,6 +15406,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/2888aba6-d89a-4162-9ad6-682d6e7bdb0f.jpg"
+  },
+  {
+   "id": "585135a6617c",
+   "titulo": "Latin Jam! noviembre",
+   "categoria": "Música",
+   "lugar": "Congo Club Cultural",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "2026-11-11",
+   "hora": "21:00",
+   "horarios": "Miércoles 21 h (noviembre)",
+   "precio": "Consultar",
+   "descripcion": "Latin Jam! noviembre en Congo Club Cultural.",
+   "url": "https://tickets.congoclubcultural.com.ar/musica/latin-jam-noviembre",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "7e6182973fde",
@@ -15977,6 +15929,31 @@
    ],
    "lat": -34.576882,
    "lng": -58.403392,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "2c81521b3742",
+   "titulo": "Recorridos guiados por la exposición permanente del Museo de la Ciudad",
+   "categoria": "Visita guiada",
+   "lugar": "Museo de la Ciudad (Altos de Elorriaga)",
+   "barrio": "San Telmo",
+   "direccion": "Defensa 187",
+   "fecha_inicio": "2026-11-04",
+   "fecha_fin": "",
+   "hora": "15:30",
+   "horarios": "Miércoles, jueves y viernes 15:30 h",
+   "precio": "$ 2000",
+   "descripcion": "Recorridos guiados por la exposición permanente en Altos de Elorriaga (Defensa 187), miércoles, jueves y viernes a las 15:30 h. Entrada $2.000 para residentes ($10.000 público general); gratis los miércoles para residentes argentinos.",
+   "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/buenos-aires-museo",
+   "dominio": "buenosaires.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Histórico de Buenos Aires Cornelio de Saavedra",
+   "fuentes": [
+    "Museo de la Ciudad"
+   ],
+   "lat": -34.609809,
+   "lng": -58.37217,
    "embebible": false,
    "imagen": ""
   },
@@ -16886,18 +16863,18 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-803441-rec.jpg"
   },
   {
-   "id": "7686f03486cf",
+   "id": "4b5ccdfea114",
    "titulo": "Baltasar Comotto",
    "categoria": "Música",
-   "lugar": "CONGO",
+   "lugar": "Congo Club Cultural",
    "barrio": "Palermo",
-   "direccion": "Honduras 5329",
+   "direccion": "",
    "fecha_inicio": "2026-11-05",
-   "fecha_fin": "2026-11-05",
+   "fecha_fin": "",
    "hora": "20:00",
-   "horarios": "Jueves 5 de noviembre, 20 h",
-   "precio": "Desde $ 25000",
-   "descripcion": "Show de Baltasar Comotto.",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Baltasar Comotto en Congo Club Cultural.",
    "url": "https://tickets.congoclubcultural.com.ar/musica/baltasar-comotto",
    "dominio": "tickets.congoclubcultural.com.ar",
    "estado": "Próximo",
@@ -16905,10 +16882,10 @@
    "fuentes": [
     "CONGO"
    ],
-   "lat": -34.586499,
-   "lng": -58.433201,
+   "lat": "",
+   "lng": "",
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32412/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "1154e702e30c",
@@ -17346,9 +17323,9 @@
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-05",
-   "fecha_fin": "2026-11-05",
+   "fecha_fin": "",
    "hora": "",
-   "horarios": "Jueves 5/11",
+   "horarios": "",
    "precio": "Desde $ 95000",
    "descripcion": "Def Leppard en el Movistar Arena.",
    "url": "https://www.movistararena.com.ar/show/dd773cd0-6082-4baa-87c7-e86a65d4a364",
@@ -17362,7 +17339,7 @@
    "lat": -34.59426,
    "lng": -58.448137,
    "embebible": false,
-   "imagen": "https://www.movistararena.com.ar/static/artistas/531D4_DefLeppard_FileFotoFichaListado"
+   "imagen": "https://indiehoy.com/wp-content/uploads/2026/06/def-leppard-argentina-2026.jpg"
   },
   {
    "id": "5488ab23af28",
@@ -18175,12 +18152,12 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-05",
-   "fecha_fin": "2026-11-05",
+   "fecha_fin": "",
    "hora": "21:00",
-   "horarios": "Jueves 5/11, 21 h",
-   "precio": "Desde $ 20000",
+   "horarios": "",
+   "precio": "Consultar",
    "descripcion": "La noche de boleros de Catalina y Las Bordonas de Oro en La Tangente.",
-   "url": "https://tickets.latangente.com.ar/musica/la-noche-de-boleros-de-catalina-y-las-bordonas-de-oro",
+   "url": "https://tickets.latangente.com.ar/",
    "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -18190,7 +18167,7 @@
    "lat": -34.586595,
    "lng": -58.433079,
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32019/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "6ba53683c7bb",
@@ -20324,22 +20301,22 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000323513.jpg"
   },
   {
-   "id": "7690ecced53a",
-   "titulo": "Akriila: El tour de Lucy",
+   "id": "490d27377a56",
+   "titulo": "Akriila: El Tour de Lucy",
    "categoria": "Música",
-   "lugar": "C Art Media",
-   "barrio": "Chacarita",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
    "direccion": "Av. Corrientes 6271",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-06",
+   "fecha_fin": "",
    "hora": "19:00",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Akriila presenta El tour de Lucy, su primera gran gira por Latinoamérica.",
-   "url": "https://www.passline.com/eventos/akriila",
-   "dominio": "passline.com",
+   "descripcion": "Akriila: El Tour de Lucy en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "C Complejo Art Media",
    "fuentes": [
     "C Complejo Art Media"
    ],
@@ -20575,6 +20552,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/ariana-grande-petal-musica-en-total-oscuridad-con-parlantes-holofonicos-566072-rec.jpg"
   },
   {
+   "id": "66cc948f5739",
+   "titulo": "Armá tu dinocráneo",
+   "categoria": "Infantil",
+   "lugar": "Centro Cultural de la Ciencia",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "16:00",
+   "horarios": "Viernes 16 h",
+   "precio": "Gratis",
+   "descripcion": "Taller de paleontología para chicos de 6 a 14 años: se arma una réplica de un cráneo de dinosaurio con materiales reciclados. Cupo limitado; la entrada se retira en recepción una hora antes.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional Ferroviario",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f20530f6eca0",
    "titulo": "Astilleros",
    "categoria": "Teatro",
@@ -20600,16 +20602,16 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/01/000321301.jpg"
   },
   {
-   "id": "2350d3300d5f",
+   "id": "035ba7a9c399",
    "titulo": "Autocine",
-   "categoria": "Música",
-   "lugar": "CONGO",
+   "categoria": "Cine",
+   "lugar": "Congo Club Cultural",
    "barrio": "Palermo",
-   "direccion": "Honduras 5329",
+   "direccion": "",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-06",
+   "fecha_fin": "",
    "hora": "20:00",
-   "horarios": "Viernes 6 de noviembre, 20 h",
+   "horarios": "",
    "precio": "Consultar",
    "descripcion": "Autocine en Congo Club Cultural.",
    "url": "https://tickets.congoclubcultural.com.ar/musica/autocine",
@@ -20617,36 +20619,12 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
-    "CONGO"
-   ],
-   "lat": -34.586499,
-   "lng": -58.433201,
-   "embebible": true,
-   "imagen": ""
-  },
-  {
-   "id": "d6ed053c28a4",
-   "titulo": "Autocine en Congo",
-   "categoria": "Música",
-   "lugar": "Congo Club Cultural",
-   "barrio": "",
-   "direccion": "",
-   "fecha_inicio": "2026-11-06",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "",
-   "precio": "$23000",
-   "descripcion": "Autocine se presenta este viernes 6 de noviembre en Congo. [...]",
-   "url": "https://indiehoy.com/agenda/autocine-en-congo/",
-   "dominio": "indiehoy.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
+    "CONGO",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": "",
    "lng": "",
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/autocine-congo.jpg"
   },
   {
@@ -22205,6 +22183,31 @@
    "imagen": "https://images.ra.co/6ee45036b9a8dc91c17f27eba2c7ee9f66e6b98e.png"
   },
   {
+   "id": "f21ed686ffe1",
+   "titulo": "Dibujos que cuentan",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural de la Ciencia",
+   "barrio": "Palermo",
+   "direccion": "Godoy Cruz 2270",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-14",
+   "hora": "12:00",
+   "horarios": "Viernes y sábados de 12 a 16 h",
+   "precio": "Gratis",
+   "descripcion": "Taller de ilustración para todas las edades a cargo de Fernando Sassali y Luisa Torres: el dibujo como experimento inspirado en la ciencia. Cupo limitado; la entrada se retira en recepción una hora antes.",
+   "url": "https://www.argentina.gob.ar/centro-cultural-de-la-ciencia/actividades",
+   "dominio": "argentina.gob.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Museo Nacional Ferroviario",
+   "fuentes": [
+    "CENTRO CULTURAL DE LA CIENCIA"
+   ],
+   "lat": -34.58292,
+   "lng": -58.429423,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "b7015c82cead",
    "titulo": "Diego Cid | Mat Villalobos | Agus Olivo | Jude",
    "categoria": "Fiestas y electrónica",
@@ -22287,12 +22290,12 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-06",
+   "fecha_fin": "",
    "hora": "20:00",
-   "horarios": "Viernes 6/11, 20 h",
-   "precio": "Desde $ 20000",
+   "horarios": "",
+   "precio": "Consultar",
    "descripcion": "Doma en La Tangente.",
-   "url": "https://tickets.latangente.com.ar/musica/doma",
+   "url": "https://tickets.latangente.com.ar/",
    "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -22302,7 +22305,7 @@
    "lat": -34.586595,
    "lng": -58.433079,
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32132/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "935468088201",
@@ -23108,6 +23111,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/69/000318469.jpg"
   },
   {
+   "id": "e531d8ae6efa",
+   "titulo": "Gizzday Vol. VI",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Congo Club Cultural",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "",
+   "hora": "23:45",
+   "horarios": "",
+   "precio": "Gratis",
+   "descripcion": "Gizzday Vol. VI en Congo Club Cultural.",
+   "url": "https://tickets.congoclubcultural.com.ar/musica/gizzday-vol-vi",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "3c147858d54b",
    "titulo": "HUMOR NEGRO STAND UP EN PASEO LA PLAZA",
    "categoria": "Teatro",
@@ -23666,12 +23694,12 @@
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-06",
+   "fecha_fin": "",
    "hora": "23:55",
-   "horarios": "Viernes 6/11, 23:55 h",
-   "precio": "Desde $ 10000",
+   "horarios": "",
+   "precio": "Consultar",
    "descripcion": "Kylie vs Madonna en La Tangente.",
-   "url": "https://tickets.latangente.com.ar/musica/kylie-vs-madonna",
+   "url": "https://tickets.latangente.com.ar/",
    "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
@@ -23681,7 +23709,7 @@
    "lat": -34.586595,
    "lng": -58.433079,
    "embebible": true,
-   "imagen": "https://api.tickethoy.org/images/eventos/32349/imgn0000.jpg"
+   "imagen": ""
   },
   {
    "id": "b2e6ce1f5e6e",
@@ -25538,6 +25566,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000323450.jpg"
   },
   {
+   "id": "31762c7e3ca5",
+   "titulo": "Noche caribeña de baile (viernes)",
+   "categoria": "Danza",
+   "lugar": "Centro Cultural de Arte y Movimiento BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-11-06",
+   "fecha_fin": "2026-11-13",
+   "hora": "23:00",
+   "horarios": "Viernes 23 h (clases previas de salsa y bachata)",
+   "precio": "Consultar",
+   "descripcion": "Noche de baile en el Salón BailaBA todos los viernes: el DJ pasa salsa y bachata hasta las 3 h, con clases previas de salsa y bachata.",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "dominio": "bailaba.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "9ed0f7de3ed0",
    "titulo": "Noche de Tributos - Save The Population + Fresh Potix",
    "categoria": "Fiestas y electrónica",
@@ -26248,9 +26301,9 @@
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-06",
-   "fecha_fin": "2026-11-06",
+   "fecha_fin": "",
    "hora": "",
-   "horarios": "Viernes 6/11",
+   "horarios": "",
    "precio": "Desde $ 95000",
    "descripcion": "Ronnie Wood en el Movistar Arena.",
    "url": "https://www.movistararena.com.ar/show/65aca042-f1ee-4b37-93e6-deb5fb1101af",
@@ -26264,7 +26317,7 @@
    "lat": -34.59426,
    "lng": -58.448137,
    "embebible": false,
-   "imagen": "https://www.movistararena.com.ar/static/artistas/85931_RonnieWood_FileFotoFichaListado"
+   "imagen": "https://indiehoy.com/wp-content/uploads/2026/07/ronnie-wood-argentina.jpg"
   },
   {
    "id": "2d73f286c2fd",
@@ -28201,6 +28254,31 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-814594-rec.jpg"
   },
   {
+   "id": "f5a0dffba16b",
+   "titulo": "Amor Indio + La Eternal Party",
+   "categoria": "Música",
+   "lugar": "Congo Club Cultural",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Amor Indio + La Eternal Party en Congo Club Cultural.",
+   "url": "https://tickets.congoclubcultural.com.ar/musica/amor-indio-la-eternal-party",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "fc3b25208990",
    "titulo": "Anibal Sampayo 100 años!",
    "categoria": "Evento",
@@ -28751,22 +28829,22 @@
    "imagen": "https://www.passline.com/imagenes/eventos/-815655-rec.jpg"
   },
   {
-   "id": "bf375e6219d3",
+   "id": "1a8f604fc43f",
    "titulo": "C Baila",
    "categoria": "Fiestas y electrónica",
-   "lugar": "C Art Media",
-   "barrio": "Chacarita",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
    "direccion": "Av. Corrientes 6271",
    "fecha_inicio": "2026-11-07",
-   "fecha_fin": "2026-11-07",
-   "hora": "00:00",
+   "fecha_fin": "",
+   "hora": "",
    "horarios": "",
    "precio": "Consultar",
-   "descripcion": "Fiesta C Baila en C Art Media.",
-   "url": "https://www.passline.com/eventos-plano/c-baila-0711",
-   "dominio": "passline.com",
+   "descripcion": "C Baila en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "C Complejo Art Media",
    "fuentes": [
     "C Complejo Art Media"
    ],
@@ -30254,6 +30332,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/89/000305189.jpg"
   },
   {
+   "id": "8c6263155538",
+   "titulo": "El Deseo: noche de tango, salsa y bachata (sábados)",
+   "categoria": "Danza",
+   "lugar": "Centro Cultural de Arte y Movimiento BailaBA",
+   "barrio": "",
+   "direccion": "",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "2026-11-14",
+   "hora": "",
+   "horarios": "Sábados (clases previas de salsa, bachata, kizomba y tango)",
+   "precio": "Consultar",
+   "descripcion": "Noche de baile en el Salón BailaBA todos los sábados con salsa, bachata, kizomba y tango, y clases previas.",
+   "url": "https://www.bailaba.com.ar/noches-de-baile/",
+   "dominio": "bailaba.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL DE ARTE Y MOVIMIENTO - BAILABA!"
+   ],
+   "lat": "",
+   "lng": "",
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "02c69a0fb6ab",
    "titulo": "El Juego I -la Herencia-",
    "categoria": "Teatro",
@@ -31582,31 +31685,6 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000323698.jpg"
   },
   {
-   "id": "cf847f4b6b24",
-   "titulo": "HIHATDANCER INVITA",
-   "categoria": "Fiestas y electrónica",
-   "lugar": "Under Club",
-   "barrio": "Palermo",
-   "direccion": "Niceto Vega 5699",
-   "fecha_inicio": "2026-11-07",
-   "fecha_fin": "",
-   "hora": "",
-   "horarios": "",
-   "precio": "Consultar",
-   "descripcion": "Fiesta de música electrónica en Under Club, listada en Resident Advisor.",
-   "url": "https://ra.co/events/2565871",
-   "dominio": "ra.co",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Resident Advisor: Buenos Aires"
-   ],
-   "lat": -34.585956,
-   "lng": -58.440158,
-   "embebible": false,
-   "imagen": "https://images.ra.co/281ee824cdd23abc32244dec545e6c3cc077bea4.png"
-  },
-  {
    "id": "609903c616df",
    "titulo": "HORCAS EN TEATRO FLORES - 7 noviembre 2026",
    "categoria": "Teatro",
@@ -31780,6 +31858,32 @@
    "lng": -58.475821,
    "embebible": false,
    "imagen": ""
+  },
+  {
+   "id": "cf847f4b6b24",
+   "titulo": "Hihatdancer invita",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Under Club",
+   "barrio": "Palermo",
+   "direccion": "Niceto Vega 5699",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Fiesta Hihatdancer invita en Under Club, sábado 7 de noviembre (23:59 en la ficha de Venti).",
+   "url": "https://venti.live/organizadores/under-club",
+   "dominio": "venti.live",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "Under Club",
+    "Resident Advisor: Buenos Aires"
+   ],
+   "lat": -34.585956,
+   "lng": -58.440158,
+   "embebible": true,
+   "imagen": "https://images.ra.co/281ee824cdd23abc32244dec545e6c3cc077bea4.png"
   },
   {
    "id": "d85662fe9244",
@@ -33034,6 +33138,31 @@
    "imagen": "https://otrahistoria.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-12.05.10.jpeg"
   },
   {
+   "id": "e396b2596bf3",
+   "titulo": "La tía y la doña",
+   "categoria": "Música",
+   "lugar": "The Monkeys",
+   "barrio": "Palermo",
+   "direccion": "Av. Córdoba 5981",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 18000",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural (Av. Córdoba 5981). Incluye $5.000 de consumición.",
+   "url": "https://reservas.themonkeys.com.ar/show/65",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.584712,
+   "lng": -58.444254,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "36279446860f",
    "titulo": "Las Aventuras de Tiripín (obra de títeres)",
    "categoria": "Infantil",
@@ -33284,6 +33413,31 @@
    "lng": -58.361203,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000323453.jpg"
+  },
+  {
+   "id": "fbae07869b91",
+   "titulo": "Luciano Ciganda",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Luciano Ciganda en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "ff11b9d00b32",
@@ -34707,6 +34861,31 @@
    ],
    "lat": -34.586043,
    "lng": -58.446381,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "dbddb5d3f316",
+   "titulo": "Pinta tu totebag",
+   "categoria": "Taller",
+   "lugar": "Centro Cultural Armoza",
+   "barrio": "Villa Crespo",
+   "direccion": "Miller 3036",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "17:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Taller de pintura de totebags en Armoza, sábado 7 de noviembre a las 17 h.",
+   "url": "https://ccarmoza.com/",
+   "dominio": "ccarmoza.com",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CENTRO CULTURAL ARMOZA"
+   ],
+   "lat": -34.56653,
+   "lng": -58.485097,
    "embebible": true,
    "imagen": ""
   },
@@ -36265,6 +36444,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000315123.jpg"
   },
   {
+   "id": "8a039e9445ba",
+   "titulo": "Tigre Ulli + Bonaerense",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-07",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Tigre Ulli + Bonaerense en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "2c6a0d0f3e34",
    "titulo": "Tiramisú (receta Original)",
    "categoria": "Teatro",
@@ -37794,31 +37998,6 @@
    "imagen": "https://imagenes.passline.com/eventos/ayaxprok-meetgreet-574077-rec.jpg"
   },
   {
-   "id": "b17bc5e35f43",
-   "titulo": "BAIANA SYSTEM EN BUENOS AIRES",
-   "categoria": "Evento",
-   "lugar": "C Art Media",
-   "barrio": "",
-   "direccion": "Av. Corrientes 6271",
-   "fecha_inicio": "2026-11-08",
-   "fecha_fin": "",
-   "hora": "19:00",
-   "horarios": "",
-   "precio": "$ 8695",
-   "descripcion": "BAIANA SYSTEM EN BUENOS AIRES en C Art Media.",
-   "url": "https://www.passline.com/eventos/baiana-system-en-buenos-aires",
-   "dominio": "passline.com",
-   "estado": "Próximo",
-   "lugar_verificado": "",
-   "fuentes": [
-    "Passline"
-   ],
-   "lat": -34.590607,
-   "lng": -58.447937,
-   "embebible": false,
-   "imagen": "https://imagenes.passline.com/eventos/-774154-rec.jpg"
-  },
-  {
    "id": "29b57187c689",
    "titulo": "BB ASUL",
    "categoria": "Música",
@@ -37867,6 +38046,32 @@
    "lng": -58.438913,
    "embebible": false,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/09/bb-asul-niceto.jpg"
+  },
+  {
+   "id": "85add1d588db",
+   "titulo": "Baiana System",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Baiana System en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media",
+    "Passline"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": "https://imagenes.passline.com/eventos/-774154-rec.jpg"
   },
   {
    "id": "6114289fd786",
@@ -38873,6 +39078,31 @@
    "lat": -34.603327,
    "lng": -58.456663,
    "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "bacc6a4457f5",
+   "titulo": "Fiesta ¡FA!",
+   "categoria": "Fiestas y electrónica",
+   "lugar": "Movistar Arena",
+   "barrio": "Villa Crespo",
+   "direccion": "Humboldt 450",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Desde $ 65000",
+   "descripcion": "Fiesta ¡FA! en el Movistar Arena.",
+   "url": "https://www.movistararena.com.ar/show/fccf6c4f-f567-44e4-9c71-fad5fc93baa0",
+   "dominio": "movistararena.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "Movistar Arena",
+   "fuentes": [
+    "Movistar Arena"
+   ],
+   "lat": -34.59426,
+   "lng": -58.448137,
+   "embebible": false,
    "imagen": ""
   },
   {
@@ -40370,6 +40600,7 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CASA BRANDON",
     "Passline"
    ],
    "lat": -34.601993,
@@ -40628,28 +40859,29 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/45/000322545.jpg"
   },
   {
-   "id": "a61c1b73aae4",
-   "titulo": "Vida Pura en La Tangente",
+   "id": "01cd875dfbfe",
+   "titulo": "Vida Pura",
    "categoria": "Música",
    "lugar": "La Tangente",
    "barrio": "Palermo",
    "direccion": "Honduras 5317",
    "fecha_inicio": "2026-11-08",
    "fecha_fin": "",
-   "hora": "",
+   "hora": "20:00",
    "horarios": "",
-   "precio": "$18400",
-   "descripcion": "Vida Pura se presenta este domingo 8 noviembre en La [...]",
-   "url": "https://indiehoy.com/agenda/vida-pura-en-la-tangente/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "Vida Pura en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "LA TANGENTE",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.586595,
    "lng": -58.433079,
-   "embebible": false,
+   "embebible": true,
    "imagen": "https://indiehoy.com/wp-content/uploads/2026/10/vidapura-latangente.jpg"
   },
   {
@@ -40699,6 +40931,31 @@
    ],
    "lat": -34.574878,
    "lng": -58.478406,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "2a4a08ddc189",
+   "titulo": "Yamile Burich + EJazz Jam",
+   "categoria": "Música",
+   "lugar": "Congo Club Cultural",
+   "barrio": "Palermo",
+   "direccion": "",
+   "fecha_inicio": "2026-11-08",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Yamile Burich + EJazz Jam en Congo Club Cultural.",
+   "url": "https://tickets.congoclubcultural.com.ar/musica/yamile-burich-ejazz-jam",
+   "dominio": "tickets.congoclubcultural.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "CONGO"
+   ],
+   "lat": "",
+   "lng": "",
    "embebible": true,
    "imagen": ""
   },
@@ -41105,6 +41362,31 @@
    "imagen": ""
   },
   {
+   "id": "95b759b026a3",
+   "titulo": "Social Distortion",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-09",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Social Distortion en C Complejo Art Media (Av. Corrientes 6271). Entradas agotadas para la primera función.",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
    "id": "f1c6dddd394e",
    "titulo": "5Ritmos| Martes 10 NOV",
    "categoria": "Danza",
@@ -41430,6 +41712,31 @@
    "lng": -58.421276,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000320475.jpg"
+  },
+  {
+   "id": "e1fbd777a2ee",
+   "titulo": "Social Distortion (nueva función)",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-10",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Social Distortion (nueva función) en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "49ae47c742a2",
@@ -41808,23 +42115,24 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000320784.jpg"
   },
   {
-   "id": "9d915d59c539",
-   "titulo": "Jorja Smith en Argentina",
+   "id": "b76fbdc4e778",
+   "titulo": "Jorja Smith",
    "categoria": "Música",
-   "lugar": "C Art Media",
-   "barrio": "",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
    "direccion": "Av. Corrientes 6271",
    "fecha_inicio": "2026-11-11",
    "fecha_fin": "",
-   "hora": "",
+   "hora": "19:00",
    "horarios": "",
-   "precio": "Desde $110.000",
-   "descripcion": "Jorja Smith, la cantante y compositora británica, vuelve a la Argentina para [...]",
-   "url": "https://indiehoy.com/agenda/jorja-smith-argentina-2025-lugar-entradas/",
-   "dominio": "indiehoy.com",
+   "precio": "Consultar",
+   "descripcion": "Jorja Smith en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "C Complejo Art Media",
    "fuentes": [
+    "C Complejo Art Media",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.590607,
@@ -41981,6 +42289,31 @@
    "lng": -58.374353,
    "embebible": false,
    "imagen": "https://centroculturalborges.gob.ar/uploads/2888aba6-d89a-4162-9ad6-682d6e7bdb0f.jpg"
+  },
+  {
+   "id": "70a990be78a5",
+   "titulo": "La música de John Mayer",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-11",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "La música de John Mayer en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "5c2767371f4b",
@@ -42577,12 +42910,38 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CASA BRANDON",
     "Passline"
    ],
    "lat": -34.601993,
    "lng": -58.436893,
    "embebible": false,
    "imagen": "https://imagenes.passline.com/eventos/de-sodoma-al-chemsex-ciclo-de-cine-573700-rec.jpg"
+  },
+  {
+   "id": "9e0c3fb1e52f",
+   "titulo": "Daniel Melero",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-12",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Daniel Melero en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
   },
   {
    "id": "309e23416fa0",
@@ -43383,6 +43742,31 @@
    ],
    "lat": -34.605279,
    "lng": -58.370845,
+   "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "4afd0bb0cb8e",
+   "titulo": "Maro",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-12",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Maro en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
    "embebible": false,
    "imagen": ""
   },
@@ -46750,23 +47134,24 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000320656.jpg"
   },
   {
-   "id": "ba3638080286",
-   "titulo": "María Becerra en Movistar Arena",
+   "id": "f2582066a437",
+   "titulo": "María Becerra",
    "categoria": "Música",
    "lugar": "Movistar Arena",
    "barrio": "Villa Crespo",
    "direccion": "Humboldt 450",
    "fecha_inicio": "2026-11-13",
-   "fecha_fin": "",
+   "fecha_fin": "2026-11-14",
    "hora": "",
-   "horarios": "",
-   "precio": "Desde $60.000",
-   "descripcion": "María Becerra se presentará el viernes 13, sábado 14 y domingo 15 [...]",
-   "url": "https://indiehoy.com/agenda/maria-becerra-en-movistar-arena-2/",
-   "dominio": "indiehoy.com",
+   "horarios": "Del 13 de noviembre en adelante (9 fechas)",
+   "precio": "Desde $ 60000",
+   "descripcion": "María Becerra en el Movistar Arena.",
+   "url": "https://www.movistararena.com.ar/show/993a2d46-39d7-4455-b199-87a5a2dc9b83",
+   "dominio": "movistararena.com.ar",
    "estado": "Próximo",
-   "lugar_verificado": "",
+   "lugar_verificado": "Movistar Arena",
    "fuentes": [
+    "Movistar Arena",
     "Indiehoy: Agenda de recitales"
    ],
    "lat": -34.59426,
@@ -47099,6 +47484,31 @@
    "lng": -58.433991,
    "embebible": true,
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/78/000323578.jpg"
+  },
+  {
+   "id": "85c6e356dbd4",
+   "titulo": "Natas",
+   "categoria": "Música",
+   "lugar": "C Complejo Art Media",
+   "barrio": "Villa Crespo",
+   "direccion": "Av. Corrientes 6271",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "",
+   "hora": "19:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Natas en C Complejo Art Media (Av. Corrientes 6271).",
+   "url": "https://www.ccomplejoartmedia.com.ar/events/",
+   "dominio": "ccomplejoartmedia.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "C Complejo Art Media",
+   "fuentes": [
+    "C Complejo Art Media"
+   ],
+   "lat": -34.590607,
+   "lng": -58.447937,
+   "embebible": false,
+   "imagen": ""
   },
   {
    "id": "a558a81dd100",
@@ -47928,6 +48338,31 @@
    "imagen": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000321351.jpg"
   },
   {
+   "id": "719bbd576ad7",
+   "titulo": "Small Axe + Jamaica Club",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "",
+   "hora": "",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Small Axe + Jamaica Club en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "2ed805e37567",
    "titulo": "Sol Mihanovich \\\"Hacer lugar\\\" - acústico -",
    "categoria": "Evento",
@@ -48255,6 +48690,56 @@
    "imagen": "https://imagenes.passline.com/eventos/-813243-rec.jpg"
   },
   {
+   "id": "ed9868468c46",
+   "titulo": "Timbre 18",
+   "categoria": "Música",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Timbre 18 en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "2c03eb220544",
+   "titulo": "Tinta",
+   "categoria": "Música",
+   "lugar": "The Monkeys",
+   "barrio": "Palermo",
+   "direccion": "Av. Córdoba 5981",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "",
+   "hora": "22:00",
+   "horarios": "",
+   "precio": "Desde $ 12000",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural (Av. Córdoba 5981).",
+   "url": "https://reservas.themonkeys.com.ar/show/57",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.584712,
+   "lng": -58.444254,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
    "id": "8540cb0861fe",
    "titulo": "Torres Gemelas - Dramaturgia Con el Destino",
    "categoria": "Teatro",
@@ -48497,6 +48982,7 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CASA BRANDON",
     "Passline"
    ],
    "lat": -34.601993,
@@ -49755,6 +50241,31 @@
    ],
    "lat": -34.618586,
    "lng": -58.377391,
+   "embebible": true,
+   "imagen": ""
+  },
+  {
+   "id": "7bb3194872d1",
+   "titulo": "Contraluz",
+   "categoria": "Música",
+   "lugar": "The Monkeys",
+   "barrio": "Palermo",
+   "direccion": "Av. Córdoba 5981",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
+   "hora": "21:00",
+   "horarios": "",
+   "precio": "$ 18000",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural (Av. Córdoba 5981). Incluye $5.000 de consumición.",
+   "url": "https://reservas.themonkeys.com.ar/show/61",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.584712,
+   "lng": -58.444254,
    "embebible": true,
    "imagen": ""
   },
@@ -52783,6 +53294,7 @@
    "estado": "Próximo",
    "lugar_verificado": "",
    "fuentes": [
+    "CASA BRANDON",
     "Passline"
    ],
    "lat": -34.601993,
@@ -52938,6 +53450,31 @@
    "lat": -34.556657,
    "lng": -58.412284,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "5110c307b398",
+   "titulo": "Natalina Pertile y Luján Bottini",
+   "categoria": "Música",
+   "lugar": "The Monkeys",
+   "barrio": "Palermo",
+   "direccion": "Av. Córdoba 5981",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
+   "hora": "22:30",
+   "horarios": "",
+   "precio": "$ 18000",
+   "descripcion": "Show en vivo en The Monkeys, bar y centro cultural (Av. Córdoba 5981). Incluye $5.000 de consumición.",
+   "url": "https://reservas.themonkeys.com.ar/show/58",
+   "dominio": "reservas.themonkeys.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "THE MONKEYS"
+   ],
+   "lat": -34.584712,
+   "lng": -58.444254,
+   "embebible": true,
    "imagen": ""
   },
   {
@@ -53665,6 +54202,31 @@
    "lat": -34.591569,
    "lng": -58.475821,
    "embebible": false,
+   "imagen": ""
+  },
+  {
+   "id": "c699f95ff377",
+   "titulo": "Promo x cierre en CABA - CCW 2do round",
+   "categoria": "Evento",
+   "lugar": "La Tangente",
+   "barrio": "Palermo",
+   "direccion": "Honduras 5317",
+   "fecha_inicio": "2026-11-14",
+   "fecha_fin": "",
+   "hora": "20:00",
+   "horarios": "",
+   "precio": "Consultar",
+   "descripcion": "Promo x cierre en CABA - CCW 2do round en La Tangente.",
+   "url": "https://tickets.latangente.com.ar/",
+   "dominio": "tickets.latangente.com.ar",
+   "estado": "Próximo",
+   "lugar_verificado": "",
+   "fuentes": [
+    "LA TANGENTE"
+   ],
+   "lat": -34.586595,
+   "lng": -58.433079,
+   "embebible": true,
    "imagen": ""
   },
   {

@@ -174,6 +174,22 @@ which prints the status, the page's JSON-LD events and the text with the links. 
   general" block and load them with `vigente_sin_fin: true`;
 - All Access (`allaccess.com.ar/event/<slug>`): the venue page lists every show with its date; the JSON-LD `startDate` of each
   event page has no usable offset (a 22:00 show appears as `T02:59` or `T00:00`), so leave `hora` empty unless the text gives it;
+- Fanz venues (Club Cultural Matienzo, Club Social 911, Cultural Thames, Centro Cultural Armoza, Centro Cultural Macedonia): HTTP gives 400, so read the home
+  in the browser with `document.body.innerText` (weekly calendar plus a list of `DD MONTH YYYY - Day HH:MM / Title`; Matienzo prints day, category, hour, title and
+  description) and each `/event/<id>-<slug>` with `fetch()` from the tab (`og:image` is a banner on `event-banners-fanz.s3.amazonaws.com`, `$ N` in the text).
+  The `Load more` button is a leaf element, not a `<button>`: click it with `[...document.querySelectorAll('*')].filter(x=>x.children.length===0 && /^load more$/i.test(x.textContent.trim()))`.
+  Armoza's programme is almost all bar nights (pizza y vino libre, trivias, bingos): load only its workshops and classes.
+- Other ticketing homes that list every venue (TicketHoy `bue.tickethoy.com`: anchors `Title Day N de mes - HH:MM hs Venue`; Cafaccess `/productora/<slug>`; Venti `/organizadores/<slug>`
+  → `venti.live`; Alpogo; Ticketia `ticketia.com.ar/events/<venue>`; tickets.<venue>.com.ar): open the venue's own listing and filter.
+- Cinemas on Cinexo (Cine Gaumont) answer a JSON API over HTTP (`apifront.cinexo.com.ar/.../PeliculasConFuncionesYHorarios?idComplejo=<id>&fecha=DD/MM/AAAA`, one call per day); it only
+  publishes about a week ahead. The INCAA spaces table (`incaa.gob.ar/carteleras/programacion-espacios-incaa/`) renders in the browser: split `document.body.innerText` by `
+` and `	`
+  and keep the rows whose province is `CABA`.
+- The Events Calendar (WordPress `tribe`, Otra Historia): `/eventos/lista/` carries the JSON-LD of ~50 events even when the REST API answers 403.
+- A venue whose agenda is on Passline (La Paz Arriba, La Casa del Árbol, Casa Brandon, Cultural Morán): take its events from the Passline list already read, filtering by `lugar`, instead of
+  fetching Passline again (`passline.com/sitio-evento/<slug>` answers 403 over HTTP).
+- A Wix cartelera that never changes its month (El Galpón de Guevara listed `JUEVES 15, 22 y 29` in November): check the weekdays against the calendar and load only what Alternativa Teatral confirms.
+- Sites in maintenance (turismo.buenosaires.gob.ar, rojas.uba.ar) redirect to a maintenance page: three attempts and `no_carga`, retried next run.
 - Jodify (`jodify.com.ar/events`): scroll until the date after the window; each party is an `li` inside the `ul` that follows each date `h2` (lines:
   lineup, `Sala - Barrio`, genres, price); keep the cards whose barrio is in CABA and `fetch()` each `/event/<uuid>` from the tab for the hour (JSON-LD).
 - Indiehoy agenda (`indiehoy.com/eventos/`): read with `sondear.pedir` + `texto_legible` inside Python (redirecting `--leer` stdout to a file on Windows
