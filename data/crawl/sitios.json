@@ -612,6 +612,12 @@
      "canal": "web",
      "estado": "con_eventos",
      "eventos": 16
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "web",
+     "estado": "con_eventos",
+     "eventos": 16
     }
    ],
    "lugar_opcional": true
@@ -6991,10 +6997,10 @@
      "paginas": 3
     },
     "instagram": {
-     "fecha": "2026-10-26",
+     "fecha": "2026-11-02",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "notas": [
@@ -7003,7 +7009,8 @@
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/labombocova",
     "2026-10-20 [web] 2026-10-20: el sitio ofrece servicios para eventos, no publica programación pública; revisar el Instagram.",
     "2026-10-22 [instagram] Instagram sin eventos con fecha en la ventana; ofrece cursos y juegos de ritmo por consulta.",
-    "2026-10-26 [instagram] Grilla: último post de 20/10 sin fechas; anteriores de septiembre o antes."
+    "2026-10-26 [instagram] Grilla: último post de 20/10 sin fechas; anteriores de septiembre o antes.",
+    "2026-11-02 [instagram] 2026-11-02: perfil sin actividad reciente; Linktree con inscripciones, sin agenda con fechas."
    ],
    "comportamiento": {
     "contenido": "catálogo de servicios para eventos",
@@ -7030,6 +7037,12 @@
     },
     {
      "fecha": "2026-10-26",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -7078,10 +7091,10 @@
      "paginas": 4
     },
     "instagram": {
-     "fecha": "2026-10-26",
-     "estado": "sin_agenda",
-     "eventos": 0,
-     "paginas": 1
+     "fecha": "2026-11-02",
+     "estado": "con_eventos",
+     "eventos": 3,
+     "paginas": 3
     }
    },
    "comportamiento": {
@@ -7092,7 +7105,8 @@
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/ladante.ba",
     "2026-10-20 [web] 2026-10-20: sin programación cultural en la web.",
     "2026-10-22 [instagram] Agenda de la Settimana della Lingua Italiana en un carrusel (2ª imagen: 22, 27 y 29/10); actividades gratuitas.",
-    "2026-10-26 [instagram] Posts: promoción de cursos de italiano, sorteo de entradas (30/10) y estreno de una película comercial; sin evento propio con fecha. Linktree solo inscripción y web."
+    "2026-10-26 [instagram] Posts: promoción de cursos de italiano, sorteo de entradas (30/10) y estreno de una película comercial; sin evento propio con fecha. Linktree solo inscripción y web.",
+    "2026-11-02 [instagram] 2026-11-02: agenda de la Semana de la Cocina Italiana en un carrusel (3/11, 5/11, 10/11, 17/11 fuera de ventana). El Linktree solo tiene inscripción y web."
    ],
    "historial": [
     {
@@ -7118,6 +7132,12 @@
      "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 3
     }
    ],
    "enlace_bio": "https://linktr.ee/ladante.ba",
@@ -7784,10 +7804,10 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-26",
-     "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 1
+     "fecha": "2026-11-02",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     }
    },
    "notas": [
@@ -7797,7 +7817,8 @@
     "2026-10-15 [web] Sin exposición temporaria vigente ni anunciada al 15/10 (última cerró el 11/10); queda el monumento y las esculturas. Revisar Instagram por inauguraciones.",
     "2026-10-20 [web] 2026-10-20: sin exposición vigente; 'Identidad' (Abuelas de Plaza de Mayo) anunciada sin fecha. Revisar Instagram por la inauguración.",
     "2026-10-20 [instagram] 2026-10-20: un evento en la ventana (24/10); la exposición 'La memoria de la colección' cerró el 18/10 (el Moderno) y no hay otra anunciada con fecha.",
-    "2026-10-26 [instagram] Posts del 22 y 23/10: presentación de libro (30/10, Sala PAyS) y Navegación X la Memoria reprogramada al 31/10. Bio link es un Linktree sin agenda."
+    "2026-10-26 [instagram] Posts del 22 y 23/10: presentación de libro (30/10, Sala PAyS) y Navegación X la Memoria reprogramada al 31/10. Bio link es un Linktree sin agenda.",
+    "2026-11-02 [instagram] 2026-11-02: Proyecto Afiches 2026 está en el Parque desde el 29/10 sin fecha de cierre publicada: no se carga."
    ],
    "comportamiento": {
     "exposiciones": "/arte-exposiciones/ muestra la exposición actual; 'La memoria de la colección' cerró el 11/10/2026",
@@ -7864,6 +7885,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
     }
    ],
    "rastrear_web": false
@@ -26947,7 +26974,8 @@
     "2026-10-18 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museomitre",
     "2026-10-20 [web] 2026-10-20: sin actividades próximas publicadas; entrada libre, miércoles a domingo de 12 a 17:45 h. Revisar Instagram @museomitre.",
     "2026-10-20 [instagram] 2026-10-20: exposición temporaria 'Rivadavia' inaugurada ~18/10 sin fecha de cierre publicada.",
-    "2026-10-26 [instagram] Posts #AgendaMM: disertación 29/10 y visitas guiadas sábados, domingos y feriados 16 h. La nueva exposición temporaria 'Bernardino Rivadavia, el precursor del Estado en el imaginario de Mitre' no tiene fecha de cierre en el post ni en la web: no se carga."
+    "2026-10-26 [instagram] Posts #AgendaMM: disertación 29/10 y visitas guiadas sábados, domingos y feriados 16 h. La nueva exposición temporaria 'Bernardino Rivadavia, el precursor del Estado en el imaginario de Mitre' no tiene fecha de cierre en el post ni en la web: no se carga.",
+    "2026-11-02 [instagram] 2026-11-02: posts nuevos: video de YouTube, la exposición temporaria 'Bernardino Rivadavia...' (sin fecha de cierre, no se carga) y la visita guiada de fin de semana. No hay disertaciones nuevas con fecha."
    ],
    "id": "museo-mitre",
    "entradas": [
@@ -26967,10 +26995,10 @@
      "paginas": 3
     },
     "instagram": {
-     "fecha": "2026-10-26",
+     "fecha": "2026-11-02",
      "estado": "con_eventos",
-     "eventos": 2,
-     "paginas": 1
+     "eventos": 1,
+     "paginas": 2
     }
    },
    "historial": [
@@ -26997,6 +27025,12 @@
      "canal": "instagram",
      "estado": "con_eventos",
      "eventos": 2
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "San Nicolás",

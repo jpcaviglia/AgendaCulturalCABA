@@ -3,33 +3,17 @@
  "canal": "instagram",
  "fuente": "Museo Mitre",
  "tipo": "lugar",
- "fecha": "2026-10-26",
+ "fecha": "2026-11-02",
  "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/"
+  "https://www.instagram.com/museomitre/",
+  "https://linktr.ee/museomitre"
  ],
  "eventos": [
   {
-   "titulo": "Disertación: Protagonistas de la Independencia",
-   "fecha_inicio": "2026-10-29",
-   "fecha_fin": "2026-10-29",
-   "hora": "18:00",
-   "horarios": "Jueves 29 de octubre 18 h",
-   "lugar": "Museo Mitre",
-   "barrio": "",
-   "direccion": "San Martín 336",
-   "categoria": "Charla",
-   "precio": "",
-   "url": "https://www.instagram.com/p/De7Vju5EUgD/",
-   "descripcion": "Recorrido por el papel de las protagonistas en distintas épocas, desde las sociedades antiguas y los pueblos originarios hasta la Colonia.",
-   "vigente_sin_fin": false,
-   "post": "https://www.instagram.com/p/De7Vju5EUgD/",
-   "imagen": ""
-  },
-  {
    "titulo": "Visita guiada: La casa de Bartolomé Mitre",
-   "fecha_inicio": "2026-10-26",
-   "fecha_fin": "2026-10-26",
+   "fecha_inicio": "2026-10-31",
+   "fecha_fin": "2026-11-14",
    "hora": "16:00",
    "horarios": "Sábados, domingos y feriados 16 h",
    "lugar": "Museo Mitre",
@@ -37,10 +21,10 @@
    "direccion": "San Martín 336",
    "categoria": "Visita guiada",
    "precio": "",
-   "url": "https://www.instagram.com/p/De4h40BAic_/",
+   "url": "https://www.instagram.com/p/DfKclGfCdNI/",
    "descripcion": "Recorrido por la vida familiar de Bartolomé Mitre y los acontecimientos políticos ocurridos en su casa. Grupo reducido, pocos cupos.",
    "vigente_sin_fin": true,
-   "post": "https://www.instagram.com/p/De4h40BAic_/",
+   "post": "https://www.instagram.com/p/DfKclGfCdNI/",
    "imagen": ""
   }
  ]

@@ -3,10 +3,64 @@
  "canal": "instagram",
  "fuente": "ASOCIACION DANTE ALIGHIERI",
  "tipo": "lugar",
- "fecha": "2026-10-26",
- "estado": "sin_agenda",
+ "fecha": "2026-11-02",
+ "estado": "con_eventos",
  "urls_visitadas": [
-  "https://www.instagram.com/"
+  "https://www.instagram.com/ladante.ba/",
+  "https://linktr.ee/ladante.ba",
+  "https://www.instagram.com/p/DfKUz-Gkdea/"
  ],
- "eventos": []
+ "eventos": [
+  {
+   "titulo": "Conferencia: Historia del tenedor, la imposición de un tirano",
+   "fecha_inicio": "2026-11-03",
+   "fecha_fin": "2026-11-03",
+   "hora": "18:30",
+   "horarios": "Martes 3 de noviembre 18:30 h",
+   "lugar": "ASOCIACION DANTE ALIGHIERI",
+   "barrio": "",
+   "direccion": "Tucumán 1646",
+   "categoria": "Charla",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/DfM2LkkkTxw/",
+   "descripcion": "Conferencia de la Semana de la Cocina Italiana sobre cómo el tenedor transformó la mesa y las tradiciones. Gratuita con inscripción previa.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfM2LkkkTxw/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Lamerica, espectáculo teatral de Giampaolo Samà",
+   "fecha_inicio": "2026-11-05",
+   "fecha_fin": "2026-11-05",
+   "hora": "19:00",
+   "horarios": "Jueves 5 de noviembre 19 h",
+   "lugar": "ASOCIACION DANTE ALIGHIERI",
+   "barrio": "",
+   "direccion": "Tucumán 1646",
+   "categoria": "Teatro",
+   "precio": "$ 25000",
+   "url": "https://www.instagram.com/p/DfKUz-Gkdea/",
+   "descripcion": "Espectáculo teatral a cargo del actor y dramaturgo italiano Giampaolo Samà, en el Auditorio Dionisio Petriella, dentro de la Semana de la Cocina Italiana.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfKUz-Gkdea/",
+   "imagen": ""
+  },
+  {
+   "titulo": "Conferencia: Tres manteles, el banquete del Renacimiento",
+   "fecha_inicio": "2026-11-10",
+   "fecha_fin": "2026-11-10",
+   "hora": "18:30",
+   "horarios": "Martes 10 de noviembre 18:30 h",
+   "lugar": "ASOCIACION DANTE ALIGHIERI",
+   "barrio": "",
+   "direccion": "Tucumán 1646",
+   "categoria": "Charla",
+   "precio": "Gratis",
+   "url": "https://www.instagram.com/p/DfKUz-Gkdea/",
+   "descripcion": "Conferencia a cargo de Adriana De Caria dentro de la Semana de la Cocina Italiana. Gratuita con inscripción previa.",
+   "vigente_sin_fin": false,
+   "post": "https://www.instagram.com/p/DfKUz-Gkdea/",
+   "imagen": ""
+  }
+ ]
 }
