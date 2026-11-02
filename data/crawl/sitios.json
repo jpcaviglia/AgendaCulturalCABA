@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01",
+ "actualizado": "2026-11-02",
  "sitios": [
   {
    "id": "turismo-buenos-aires-que-hacer-esta-semana",
@@ -2906,19 +2906,21 @@
     "2026-10-15: la agenda está en esta página (era el enlace de la bio de Instagram); se rastrea como web y el Instagram solo si la web no trae eventos",
     "2026-10-20 [web] 2026-10-19: dos funciones (24 y 31/10) en Honduras 4096; el precio no se leyó (la de The Hunger es por formulario).",
     "2026-10-24 [web] Linktree releído el 24/10: solo figura Jennifer's Body (31/10 21 h); The Hunger (24/10) viene de la captura del 20/10.",
-    "2026-11-01 [web] 2026-11-01: sin agenda en el Linktree; el ciclo anuncia por Instagram (queda en la cola)."
+    "2026-11-01 [web] 2026-11-01: sin agenda en el Linktree; el ciclo anuncia por Instagram (queda en la cola).",
+    "2026-11-02 [instagram] Sin función anunciada para la ventana al 2026-11-02."
    ],
    "comportamiento": {
     "agenda": "Linktree con un botón por función hacia Eventbrite",
     "extraccion": "el Linktree lista cada función con día y hora; las fichas de Eventbrite traen la dirección en el JSON-LD",
-    "sin_fichas": "cada función tiene su ficha de Eventbrite"
+    "sin_fichas": "cada función tiene su ficha de Eventbrite",
+    "instagram": "anuncia una función por mes; el Linktree muestra un botón por función cuando hay"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
-     "estado": "con_eventos",
-     "eventos": 3,
-     "paginas": 1
+     "fecha": "2026-11-02",
+     "estado": "sin_eventos",
+     "eventos": 0,
+     "paginas": 2
     },
     "web": {
      "fecha": "2026-11-01",
@@ -2950,6 +2952,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -3704,7 +3712,7 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "con_eventos",
      "eventos": 1,
      "paginas": 2
@@ -3717,7 +3725,8 @@
     "2026-10-20 [web] 2026-10-20: el blog ya no es público; revisar el Instagram y el Linktree.",
     "2026-10-24 [web] Blog privado; la agenda está en Instagram @lahomeromanzi.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Ciclo Bevercine el viernes 30/10 20 h; la fecha figura solo en el afiche.",
-    "2026-11-01 [web] 2026-11-01 [web] Blog privado; la agenda está en Instagram @lahomeromanzi."
+    "2026-11-01 [web] 2026-11-01 [web] Blog privado; la agenda está en Instagram @lahomeromanzi.",
+    "2026-11-02 [instagram] Cine a la gorra los viernes (ciclo BeverCine) y peñas; solo el 13/11 cae en la ventana con fecha."
    ],
    "comportamiento": {
     "bloqueos": "el blog es privado (solo lectores invitados)",
@@ -3754,6 +3763,12 @@
      "canal": "web",
      "estado": "bloqueado",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "enlace_bio": "https://linktr.ee/lahomeromanzi",
@@ -4296,10 +4311,10 @@
      "paginas": 2
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "notas": [
@@ -4308,7 +4323,8 @@
     "2026-10-20 [web] 2026-10-20: el sitio no responde; revisar el Linktree/Instagram de Espacio Moebius.",
     "2026-10-24 [web] Servidor rechaza conexiones; el Instagram @espaciomoebius queda para la próxima corrida.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Posts del 9 al 11/10 sobre la reinauguración de una biblioteca y la colección Clásicos 60; sin eventos con fecha en la ventana.",
-    "2026-11-01 [web] 2026-11-01: la web rechaza la conexión; falta buscar su sitio o Instagram actual (@espaciomoebius queda en la cola)."
+    "2026-11-01 [web] 2026-11-01: la web rechaza la conexión; falta buscar su sitio o Instagram actual (@espaciomoebius queda en la cola).",
+    "2026-11-02 [instagram] Posts de octubre: lanzamiento de la tienda web (2 de noviembre), reinauguración de una biblioteca ya realizada y una colección de libros; sin eventos fechados en la ventana."
    ],
    "enlace_bio": "https://linktr.ee/espaciomoebius",
    "comportamiento": {
@@ -4343,6 +4359,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "no_carga",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -5366,10 +5388,10 @@
      "paginas": 3
     },
     "instagram": {
-     "fecha": "2026-10-20",
-     "estado": "sin_eventos",
+     "fecha": "2026-11-02",
+     "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 3
+     "paginas": 1
     }
    },
    "notas": [
@@ -5378,7 +5400,8 @@
     "2026-10-20 [web] 2026-10-20: la ficha oficial no existe más; el centro comunica por Instagram @culturalfonsina.",
     "2026-10-20 [instagram] 2026-10-20: sin eventos anunciados para la ventana.",
     "2026-10-24 [web] Página vieja del GCBA movida; corresponde corregir la web a la ficha actual del centro y leer @culturalfonsina.",
-    "2026-11-01 [web] 2026-11-01 [web] Falta encontrar la ficha actual del centro en buenosaires.gob.ar; la agenda se lee en Instagram @culturalfonsina."
+    "2026-11-01 [web] 2026-11-01 [web] Falta encontrar la ficha actual del centro en buenosaires.gob.ar; la agenda se lee en Instagram @culturalfonsina.",
+    "2026-11-02 [instagram] Instagram solo muestra talleres semanales y agradecimientos; sin Linktree."
    ],
    "comportamiento": {
     "web": "página del GCBA movida (404)",
@@ -5414,6 +5437,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "no_carga",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -5581,9 +5610,9 @@
      "paginas": 2
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "con_eventos",
-     "eventos": 3,
+     "eventos": 2,
      "paginas": 2
     }
    },
@@ -5594,12 +5623,13 @@
     "2026-10-20 [web] Las 4 exposiciones (Lo que el agua revela, Habitar la forma, Sensibilidades compartidas) figuran de lunes a sábados de 10 a 20 h sin fecha de cierre: no se cargan. Los programas de Radio UBA no son eventos.",
     "2026-10-24 [web] Sitio en mantenimiento programado el 24/10; reintentar en la próxima corrida (la agenda es /agenda con 28 tarjetas).",
     "2026-10-25 [instagram] 2026-10-25: web en 503; eventos tomados del Instagram y del Linktree. Reintentar la web en la próxima corrida.",
-    "2026-11-01 [web] 2026-11-01: rojas.uba.ar en mantenimiento programado; reintentar en la próxima corrida (el Instagram @elrojasuba queda en la cola)."
+    "2026-11-01 [web] 2026-11-01: rojas.uba.ar en mantenimiento programado; reintentar en la próxima corrida (el Instagram @elrojasuba queda en la cola).",
+    "2026-11-02 [instagram] Instagram suma Noche del Palo (6/11) y Alga Ladina (sábados de noviembre) que la web no tenía."
    ],
    "comportamiento": {
     "extraccion": "/agenda carga sola con 28 tarjetas (bloques) y get_page_text; cada ficha /agenda/<slug>/<id> se lee por HTTP (sondear --leer) con precio, fechas e imagen",
     "cookies": "sin aviso",
-    "instagram": "fetch('/p/<code>/') desde la pestaña de instagram.com da el og:description; el sitio rojas.uba.ar estuvo en mantenimiento (503) el 24 y 25/10"
+    "instagram": "anuncia shows con fecha, hora y precio en el epígrafe; la web del Rojas ya trae exposiciones y otros eventos"
    },
    "enlaces_descartados": [
     {
@@ -5625,6 +5655,12 @@
      "texto": "Biblioteca",
      "motivo": "biblioteca, sin programación propia",
      "fecha": "2026-10-20"
+    },
+    {
+     "url": "https://linktr.ee/elrojasuba",
+     "texto": "Linktree",
+     "motivo": "entradas y cursos generales, sin fechas propias",
+     "fecha": "2026-11-02"
     }
    ],
    "historial": [
@@ -5657,6 +5693,12 @@
      "canal": "web",
      "estado": "no_carga",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "enlace_bio": "https://linktr.ee/elrojasuba"
@@ -6201,7 +6243,7 @@
      "paginas": 2
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
@@ -6215,7 +6257,8 @@
     "2026-10-20 [web] 2026-10-20: no es un espacio cultural con programación.",
     "2026-10-24 [web] Blog político de 2017 sin relación con un espacio cultural; queda el Instagram @centroculturaljacintooviedo.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Perfil de Instagram privado (22 seguidores, 29 posts): no se puede ver ninguna publicación sin seguir la cuenta.",
-    "2026-11-01 [web] 2026-11-01: blog abandonado desde 2017; el Centro Cultural Jacinto Oviedo (Riobamba 434) no publica agenda aquí."
+    "2026-11-01 [web] 2026-11-01: blog abandonado desde 2017; el Centro Cultural Jacinto Oviedo (Riobamba 434) no publica agenda aquí.",
+    "2026-11-02 [instagram] Cuenta privada."
    ],
    "historial": [
     {
@@ -6245,6 +6288,12 @@
     {
      "fecha": "2026-11-01",
      "canal": "web",
+     "estado": "sin_agenda",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
     }
@@ -6760,10 +6809,10 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "notas": [
@@ -6773,7 +6822,8 @@
     "2026-10-20 [web] 2026-10-20: oferta educativa, no es un espacio cultural con programación abierta.",
     "2026-10-24 [web] Educación tecnológica para jóvenes; no es un espacio cultural con programación.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Perfil de talleres y cursos gratuitos para jóvenes de 13 a 24 años; los posts recientes son inscripciones, notas y agradecimientos, sin eventos con fecha.",
-    "2026-11-01 [web] 2026-11-01: programa educativo para jóvenes, sin agenda de eventos abiertos."
+    "2026-11-01 [web] 2026-11-01: programa educativo para jóvenes, sin agenda de eventos abiertos.",
+    "2026-11-02 [instagram] Posts recientes: inscripción a cursos y talleres gratuitos para jóvenes de 13 a 18 años, nota de un programa de primer empleo y un evento ajeno ya realizado; sin eventos fechados en la ventana."
    ],
    "enlace_bio": "https://linktr.ee/puerta18",
    "comportamiento": {
@@ -6808,6 +6858,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -7214,18 +7270,20 @@
     "2026-10-14: comparte la web http://www.buenosaires.gob.ar/areas/cultura/cen_culturales/prog_barrios.php con 'CENTRO CULTURAL ALFONSINA STORNI' (id centro-cultural-alfonsina-storni); acá se rastrea su Instagram",
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/lausina",
     "2026-10-18 [instagram] Sin eventos con fecha en la ventana al 18/10.",
-    "2026-10-25 [instagram] 2026-10-25 [instagram] Los posts del 10 al 20/10 son talleres semanales (grabado, cerámica, fotografía), cursos regulares y no eventos con fecha."
+    "2026-10-25 [instagram] 2026-10-25 [instagram] Los posts del 10 al 20/10 son talleres semanales (grabado, cerámica, fotografía), cursos regulares y no eventos con fecha.",
+    "2026-11-02 [instagram] Instagram solo comunica talleres regulares."
    ],
    "enlace_bio": "https://linktr.ee/lausina",
    "comportamiento": {
-    "bio": "Talleres gratuitos semanales"
+    "bio": "Talleres gratuitos semanales",
+    "enlace_bio": "el Linktree @lausina es de una heladería de Chile, no sirve"
    },
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_agenda",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "historial": [
@@ -7240,6 +7298,20 @@
      "canal": "instagram",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_agenda",
+     "eventos": 0
+    }
+   ],
+   "enlaces_descartados": [
+    {
+     "url": "https://linktr.ee/lausina",
+     "texto": "Linktree",
+     "motivo": "es de una heladería de Chile, no del centro cultural",
+     "fecha": "2026-11-02"
     }
    ]
   },
@@ -7360,9 +7432,9 @@
      "paginas": 2
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "con_eventos",
-     "eventos": 1,
+     "eventos": 2,
      "paginas": 1
     }
    },
@@ -7372,7 +7444,8 @@
     "2026-10-20 [web] 2026-10-20: no es un espacio cultural con programación.",
     "2026-10-24 [web] Blog de turismo con notas de 2025; no es un espacio cultural con programación.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Función fija los sábados 20 h en Av. Iriarte 2165; entradas por mail.",
-    "2026-11-01 [web] 2026-11-01: blog de turismo sin agenda; los artículos son de 2025."
+    "2026-11-01 [web] 2026-11-01: blog de turismo sin agenda; los artículos son de 2025.",
+    "2026-11-02 [instagram] Instagram anuncia con epígrafe corto; los sábados 20 h hay función de El casamiento de Anita y Mirko (entradas de diciembre ya a la venta)."
    ],
    "comportamiento": {
     "contenido": "Blog de turismo con notas de 2025; no es un espacio cultural con programación.",
@@ -7409,6 +7482,12 @@
      "canal": "web",
      "estado": "sin_agenda",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "bio_probada": "2026-10-15",
@@ -9954,15 +10033,16 @@
    "notas": [
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/eltallerdeomar",
     "2026-10-18 [instagram] Sin eventos visibles al 18/10.",
-    "2026-10-25 [instagram] 2026-10-25 [instagram] Los últimos 12 posts son de 2023 y 2024; sin publicaciones recientes."
+    "2026-10-25 [instagram] 2026-10-25 [instagram] Los últimos 12 posts son de 2023 y 2024; sin publicaciones recientes.",
+    "2026-11-02 [instagram] Cuenta sin actividad reciente al 2026-11-02."
    ],
    "comportamiento": {},
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "historial": [
@@ -9974,6 +10054,12 @@
     },
     {
      "fecha": "2026-10-25",
+     "canal": "instagram",
+     "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
      "canal": "instagram",
      "estado": "sin_eventos",
      "eventos": 0
@@ -10343,7 +10429,8 @@
     "2026-10-20 [instagram] 2026-10-20: bar de música en vivo que publica una agenda semanal cada semana; la de la semana del 20/10 aún no estaba publicada: reintentar a fin de semana.",
     "2026-10-24 [web] La web es solo Facebook y no es accesible; la agenda está en Instagram @mamitabar.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Bar con shows de jueves a sábado; la agenda semanal publicada (22/10) cubre solo hasta el sábado 24/10 y el resto son reels del programa de streaming; la agenda de la semana del 29/10 todavía no está publicada.",
-    "2026-11-01 [web] 2026-11-01 [web] Solo Facebook; la agenda está en Instagram @mamitabar."
+    "2026-11-01 [web] 2026-11-01 [web] Solo Facebook; la agenda está en Instagram @mamitabar.",
+    "2026-11-02 [instagram] Bar (jueves a sábados desde las 21 h) cuyos posts recientes son clips de su programa de entrevistas; ningún post anuncia fecha de shows en la ventana."
    ],
    "ultimo": {
     "web": {
@@ -10353,8 +10440,8 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-25",
-     "estado": "sin_eventos",
+     "fecha": "2026-11-02",
+     "estado": "sin_agenda",
      "eventos": 0,
      "paginas": 1
     }
@@ -10394,6 +10481,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "bloqueado",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_agenda",
      "eventos": 0
     }
    ],
@@ -13640,10 +13733,10 @@
      "paginas": 2
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "notas": [
@@ -13653,7 +13746,8 @@
     "2026-10-20 [web] 2026-10-20: el sitio sigue sin cargar; se reintenta en la próxima corrida.",
     "2026-10-24 [web] Sitio caído desde hace al menos 9 días; el Instagram @asociacionculturalarmenia queda para la próxima corrida.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Posts de las últimas 3 semanas: festival ya realizado y el espectáculo de danzas Nairí del 22/10 20 h (ya pasó); sin eventos con fecha dentro de la ventana.",
-    "2026-11-01 [web] 2026-11-01: la web no responde (conexión cerrada); queda el Instagram en la cola y se reintenta la web la próxima corrida."
+    "2026-11-01 [web] 2026-11-01: la web no responde (conexión cerrada); queda el Instagram en la cola y se reintenta la web la próxima corrida.",
+    "2026-11-02 [instagram] Último anuncio fechado: concierto del jueves 22 de octubre (pasado); el resto de la grilla es de meses anteriores; el Linktree enlaza Noches de Alfombra, colegio y diario sin agenda."
    ],
    "comportamiento": {
     "carga": "ERR_CONNECTION_CLOSED el 2026-10-15; certificado inválido el 2026-10-20"
@@ -13687,6 +13781,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "no_carga",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -16833,7 +16933,8 @@
     "plataforma": "Passline /sitio/<id>: lista todos los shows con fecha y hora; los enlaces /sitio-evento/<slug> salen de los <a> (no del texto) y se leen con fetch desde la misma pestaña; el menor $ del HTML es el 'Desde'",
     "extraccion": "passline.com/sitio/2191791-club-conjura en el navegador: tarjetas en orden de fecha; fetch() de cada ficha para el precio; foto = <img> de la tarjeta",
     "fichas": "las fichas de Passline no traen og:image",
-    "imagen": "la lista /sitio/<id> de Passline muestra la foto de cada show: https://www.passline.com/imagenes/eventos/<slug>-<id>-rec.jpg (leer el <img> de cada tarjeta; las fichas no traen og:image)"
+    "imagen": "la lista /sitio/<id> de Passline muestra la foto de cada show: https://www.passline.com/imagenes/eventos/<slug>-<id>-rec.jpg (leer el <img> de cada tarjeta; las fichas no traen og:image)",
+    "instagram": "agenda semanal los lunes (post 'SEMANA EN EL CLUB'); los shows con precio salen de Passline"
    },
    "notas": [
     "2026-10-15 [web] Agenda completa en Passline: https://www.passline.com/sitio/2191791-club-conjura. El rastreo general de Passline del 2026-10-14 solo llegó al 17/10 y trajo 2 de sus eventos.",
@@ -16841,14 +16942,15 @@
     "2026-10-18 [web] 10 shows listados hasta noviembre; 5 en la ventana.",
     "2026-10-20 [web] 2026-10-20: imágenes agregadas desde las fichas (6 de 6 eventos).",
     "2026-10-24 [web] 5 eventos en ventana (24 al 31/10); el siguiente es el 7/11. Hay 12 tarjetas en total.",
-    "2026-11-01 [web] 2026-11-01: el dominio no resuelve; falta buscar en Google la web o el Instagram actual de Club Conjura."
+    "2026-11-01 [web] 2026-11-01: el dominio no resuelve; falta buscar en Google la web o el Instagram actual de Club Conjura.",
+    "2026-11-02 [instagram] Instagram repite lo que ya trae Passline (ciclo de cine de los miércoles de noviembre)."
    ],
    "enlace_bio": "https://linktr.ee/clubconjura",
    "ultimo": {
     "instagram": {
-     "fecha": "2026-10-15",
+     "fecha": "2026-11-02",
      "estado": "con_eventos",
-     "eventos": 8,
+     "eventos": 2,
      "paginas": 2
     },
     "web": {
@@ -16894,6 +16996,12 @@
      "canal": "web",
      "estado": "dominio_caido",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 2
     }
    ],
    "enlaces_descartados": [
@@ -17952,7 +18060,8 @@
     "2026-10-20 [web] 2026-10-20: el sitio ya no es público; buscar si tiene Instagram o web nueva.",
     "2026-10-24 [web] Sitio de Google privado o dado de baja; queda el Instagram @centroarzuanomellidense.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] Posts del 15 al 25/10: Día de la Madre, presentación del cuerpo de baile en un aniversario ya realizado y la Oktoberfest; sin eventos con fecha en la ventana.",
-    "2026-11-01 [web] 2026-11-01 [web] Sitio de Google privado; queda el Instagram @centroarzuanomellidense."
+    "2026-11-01 [web] 2026-11-01 [web] Sitio de Google privado; queda el Instagram @centroarzuanomellidense.",
+    "2026-11-02 [instagram] Posts de octubre: 50 años del centro, condolencias, presentación de su cuerpo de baile ya realizada; sin eventos fechados en la ventana."
    ],
    "ultimo": {
     "web": {
@@ -17962,10 +18071,10 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "sin_eventos",
      "eventos": 0,
-     "paginas": 1
+     "paginas": 2
     }
    },
    "historial": [
@@ -17997,6 +18106,12 @@
      "fecha": "2026-11-01",
      "canal": "web",
      "estado": "bloqueado",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "sin_eventos",
      "eventos": 0
     }
    ],
@@ -20937,7 +21052,7 @@
      "paginas": 1
     },
     "instagram": {
-     "fecha": "2026-10-25",
+     "fecha": "2026-11-02",
      "estado": "no_cultural",
      "eventos": 0,
      "paginas": 1
@@ -20950,7 +21065,8 @@
     "2026-10-20 [web] 2026-10-20: gimnasio, no es un espacio cultural.",
     "2026-10-24 [web] Gimnasio; no es un espacio cultural.",
     "2026-10-25 [instagram] 2026-10-25 [instagram] DOUP! es un gimnasio de acrobacia y calistenia (clases deportivas); los posts son videos de entrenamiento, sin eventos culturales.",
-    "2026-11-01 [web] 2026-11-01: gimnasio (clases deportivas), no centro cultural."
+    "2026-11-01 [web] 2026-11-01: gimnasio (clases deportivas), no centro cultural.",
+    "2026-11-02 [instagram] Cuenta de clases de acrobacia y entrenamiento (videos 'EntrenanDOUP'), sin eventos con fecha."
    ],
    "comportamiento": {
     "extraccion": "perfil con poca publicación de eventos",
@@ -21004,6 +21120,12 @@
     {
      "fecha": "2026-11-01",
      "canal": "web",
+     "estado": "no_cultural",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
      "estado": "no_cultural",
      "eventos": 0
     }
@@ -24979,7 +25101,8 @@
     "2026-10-15 [instagram] Linktree encontrado sin abrir Instagram (scripts/biolinks.py): https://linktr.ee/museo_sivori",
     "2026-10-19 [web] 2026-10-19: dos exposiciones actuales hasta el 22/11; sin horarios ni precio leídos.",
     "2026-10-24 [web] 2026-10-24: sin cambios: Atmosferismo (Seeber) y Riganelli, ambas hasta el 22/11.",
-    "2026-11-01 [web] 2026-11-01: buenosaires.gob.ar/gcaba_historico/museosivori responde 'Acceso denegado' (antes se leía); se crawlea el Instagram @museo_sivori."
+    "2026-11-01 [web] 2026-11-01: buenosaires.gob.ar/gcaba_historico/museosivori responde 'Acceso denegado' (antes se leía); se crawlea el Instagram @museo_sivori.",
+    "2026-11-02 [instagram] Instagram: Sábados creativos de noviembre (el del 21/11 queda fuera de la ventana). Post del 02/11 sobre restauración de Plus Ultra en la Semana del Patrimonio, sin fecha propia."
    ],
    "id": "museo-de-artes-plasticas-eduardo-sivori",
    "entradas": [
@@ -24987,7 +25110,8 @@
    ],
    "comportamiento": {
     "web": "La página de la Ciudad (gcaba_historico) está al día con exposiciones actuales y pasadas.",
-    "extraccion": "La página 'Exposiciones actuales' se lee por HTTP con sondear.py --leer: título y 'Desde el ... hasta el ...'"
+    "extraccion": "La página 'Exposiciones actuales' se lee por HTTP con sondear.py --leer: título y 'Desde el ... hasta el ...'",
+    "instagram": "el epígrafe de Sábados creativos escribe 7/10 y 21/10 por error: son sábados de noviembre"
    },
    "ultimo": {
     "web": {
@@ -24995,6 +25119,12 @@
      "estado": "bloqueado",
      "eventos": 0,
      "paginas": 3
+    },
+    "instagram": {
+     "fecha": "2026-11-02",
+     "estado": "con_eventos",
+     "eventos": 1,
+     "paginas": 1
     }
    },
    "historial": [
@@ -25021,6 +25151,12 @@
      "canal": "web",
      "estado": "bloqueado",
      "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "con_eventos",
+     "eventos": 1
     }
    ],
    "barrio": "Palermo",
@@ -25032,6 +25168,12 @@
      "texto": "Exposiciones pasadas",
      "motivo": "archivo de muestras pasadas",
      "fecha": "2026-10-19"
+    },
+    {
+     "url": "https://linktr.ee/museo_sivori",
+     "texto": "Linktree",
+     "motivo": "solo enlaces generales del museo",
+     "fecha": "2026-11-02"
     }
    ]
   },
@@ -28708,7 +28850,8 @@
     "2026-10-15 [web] Blog con scroll infinito: no usar preparar; leer la nota semanal y las portadas de Qué hacer, Cultura, Cine y Música.",
     "2026-10-19 [web] 2026-10-19: nota semanal con 29 planes; se cargaron los que tienen lugar y fecha claros en la ventana. Fechas de algunas fichas del blog son poco fiables.",
     "2026-10-24 [web] 2026-10-24: nota semanal del 22 al 25/10 (publicada el 19/10) y nota Semana Charly (20/10); se cargaron los planes con lugar y fecha claros. Muestras sin fecha de cierre (Pampa Cósmica, Mafalda Inmersiva) no se cargaron.",
-    "2026-10-31 [web] 2026-10-31: la guía semanal es una nota de recomendaciones genéricas (sin fechas exactas ni lugares puntuales); no se carga."
+    "2026-10-31 [web] 2026-10-31: la guía semanal es una nota de recomendaciones genéricas (sin fechas exactas ni lugares puntuales); no se carga.",
+    "2026-11-02 [instagram] Instagram @bairessecreta no disponible el 2026-11-02; revisar el usuario."
    ],
    "entradas": [
     "https://bairessecreta.com/planes-para-este-fin-de-semana/",
@@ -28785,6 +28928,12 @@
      "estado": "sin_eventos",
      "eventos": 0,
      "paginas": 1
+    },
+    "instagram": {
+     "fecha": "2026-11-02",
+     "estado": "no_carga",
+     "eventos": 0,
+     "paginas": 1
     }
    },
    "historial": [
@@ -28816,6 +28965,12 @@
      "fecha": "2026-10-31",
      "canal": "web",
      "estado": "sin_eventos",
+     "eventos": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "canal": "instagram",
+     "estado": "no_carga",
      "eventos": 0
     }
    ],
